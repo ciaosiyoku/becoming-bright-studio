@@ -1,0 +1,111 @@
+{
+  "id": "fr-body",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 1,
+  "order": 6,
+  "only": "fr",
+  "params": {
+    "emojis": [
+      "footprints",
+      "gloves",
+      "girl",
+      "music",
+      "gradcap",
+      "heart",
+      "house",
+      "girl",
+      "teddy",
+      "framed"
+    ],
+    "bank": {
+      "fr": [
+        [
+          "Avec quoi marches-tu ?",
+          "les pieds",
+          "les yeux",
+          "les oreilles",
+          "On marche avec les pieds : un pied, deux pieds."
+        ],
+        [
+          "Où mets-tu tes gants ?",
+          "sur les mains",
+          "sur les pieds",
+          "sur la tête",
+          "Les gants se mettent sur les mains."
+        ],
+        [
+          "Avec quoi regardes-tu ?",
+          "les yeux",
+          "les mains",
+          "les pieds",
+          "On voit avec les yeux : un œil, deux yeux."
+        ],
+        [
+          "Avec quoi écoutes-tu la musique ?",
+          "les oreilles",
+          "les genoux",
+          "les pieds",
+          "On entend avec les oreilles."
+        ],
+        [
+          "Où poses-tu un chapeau ?",
+          "sur la tête",
+          "sur le pied",
+          "sur la main",
+          "Un chapeau se met sur la tête."
+        ],
+        [
+          "La maman de ta maman, c’est ta …",
+          "mamie",
+          "sœur",
+          "fille",
+          "La maman de ta maman ou de ton papa, c’est ta mamie."
+        ],
+        [
+          "Un garçon qui a le même papa et la même maman que toi, c’est ton …",
+          "frère",
+          "papi",
+          "oncle",
+          "Un garçon qui a les mêmes parents que toi, c’est ton frère."
+        ],
+        [
+          "Une fille qui a le même papa et la même maman que toi, c’est ta …",
+          "sœur",
+          "maman",
+          "mamie",
+          "Une fille qui a les mêmes parents que toi, c’est ta sœur."
+        ],
+        [
+          "Le tout petit enfant qui ne parle pas encore, c’est le …",
+          "bébé",
+          "papi",
+          "maître",
+          "Un bébé est tout petit : il ne parle pas encore."
+        ],
+        [
+          "Sur la photo, il y a mes deux parents : ma maman et mon …",
+          "papa",
+          "bébé",
+          "frère",
+          "Les parents, ce sont la maman et le papa."
+        ]
+      ]
+    }
+  },
+  "emoji": "girl",
+  "example": {
+    "i": 0,
+    "q_fr": "Avec quoi marches-tu ?",
+    "answer_fr": "les pieds",
+    "why_fr": "On marche avec les pieds : un pied, deux pieds."
+  },
+  "text": {
+    "fr": {
+      "title": "Le corps et la famille",
+      "teach": "Mon corps : la tête, les yeux, les oreilles, les mains, les pieds. Ma famille : la maman, le papa, le frère, la sœur, le bébé, la mamie.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    }
+  }
+}

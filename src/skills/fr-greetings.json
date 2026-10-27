@@ -1,0 +1,111 @@
+{
+  "id": "fr-greetings",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "order": 1,
+  "only": "fr",
+  "params": {
+    "emojis": [
+      "sun",
+      "footprints",
+      "gift",
+      "moon",
+      "cake",
+      "girl",
+      "school",
+      "books",
+      "heart",
+      "telephone"
+    ],
+    "bank": {
+      "fr": [
+        [
+          "Que dit-on le matin quand on arrive ?",
+          "bonjour",
+          "bonne nuit",
+          "au revoir",
+          "Le matin, pour saluer quelqu’un, on dit « bonjour »."
+        ],
+        [
+          "Que dit-on quand on s’en va ?",
+          "au revoir",
+          "bonjour",
+          "merci",
+          "Quand on part, on dit « au revoir »."
+        ],
+        [
+          "On t’offre un cadeau. Que dis-tu ?",
+          "merci",
+          "bonne nuit",
+          "au revoir",
+          "Quand on reçoit quelque chose, on dit « merci »."
+        ],
+        [
+          "Que dit-on avant d’aller dormir ?",
+          "bonne nuit",
+          "bonjour",
+          "bon appétit",
+          "Le soir, avant de dormir, on dit « bonne nuit »."
+        ],
+        [
+          "Tu veux du gâteau. Comment le demandes-tu poliment ?",
+          "Du gâteau, s’il te plaît !",
+          "Du gâteau, au revoir !",
+          "Du gâteau, bonne nuit !",
+          "Pour demander poliment, on ajoute « s’il te plaît »."
+        ],
+        [
+          "Quel petit mot dit-on à un copain pour lui dire bonjour ?",
+          "salut",
+          "merci",
+          "bonne nuit",
+          "Entre copains, on peut dire « salut » à la place de « bonjour »."
+        ],
+        [
+          "L’école est finie. Que dis-tu à ta maîtresse en partant ?",
+          "au revoir",
+          "bonjour",
+          "s’il te plaît",
+          "En partant, on dit « au revoir, maîtresse ! »."
+        ],
+        [
+          "Un ami t’aide à ramasser tes livres. Que lui dis-tu ?",
+          "merci",
+          "bonne nuit",
+          "au revoir",
+          "Quelqu’un t’aide ? Tu lui dis « merci »."
+        ],
+        [
+          "Quelqu’un te dit « merci ». Que réponds-tu ?",
+          "de rien",
+          "bonjour",
+          "bonne nuit",
+          "Quand on nous dit merci, on répond « de rien »."
+        ],
+        [
+          "Que dit-on quand on décroche le téléphone ?",
+          "allô",
+          "merci",
+          "bonne nuit",
+          "Au téléphone, on commence par dire « allô »."
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "i": 0,
+    "q_fr": "Que dit-on le matin quand on arrive ?",
+    "answer_fr": "bonjour",
+    "why_fr": "Le matin, pour saluer quelqu’un, on dit « bonjour »."
+  },
+  "text": {
+    "fr": {
+      "title": "Bonjour et merci",
+      "teach": "Pour être poli, on dit « bonjour » en arrivant et « au revoir » en partant. On dit « s’il te plaît » pour demander et « merci » pour remercier. Le soir, on dit « bonne nuit ».",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    }
+  }
+}

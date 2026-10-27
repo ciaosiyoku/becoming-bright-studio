@@ -1,0 +1,353 @@
+{
+  "id": "sci-sound",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 4,
+  "order": 14,
+  "params": {
+    "emojis": [
+      "bell",
+      "radio",
+      "speech",
+      "animal-mouse",
+      "music",
+      "animal-dolphin",
+      "glowstar",
+      "school",
+      "factory",
+      "notes"
+    ],
+    "bank": {
+      "en": [
+        [
+          "How is a sound made?",
+          "something vibrates (shakes very fast)",
+          "something gets colder",
+          "something changes colour",
+          "All sounds are made by vibrations. A ringing bell shakes very quickly."
+        ],
+        [
+          "Which part of your body do you hear with?",
+          "your ears",
+          "your nose",
+          "your elbows",
+          "Sound travels into your ears, and your brain works out what you heard."
+        ],
+        [
+          "Which is louder?",
+          "shouting",
+          "whispering",
+          "staying silent",
+          "Shouting makes bigger vibrations, so the sound is louder."
+        ],
+        [
+          "Which of these makes a high sound?",
+          "a mouse squeaking",
+          "a lion roaring",
+          "a cow mooing",
+          "A mouse’s squeak is high. Roars and moos are low sounds."
+        ],
+        [
+          "You make a guitar string shorter. What happens to its sound?",
+          "it gets higher",
+          "it gets lower",
+          "it stops for ever",
+          "Shorter strings vibrate faster, and faster vibrations make a higher sound."
+        ],
+        [
+          "Can sound travel through water?",
+          "yes, dolphins hear each other under water",
+          "no, water stops all sound",
+          "only when the water is warm",
+          "Sound travels well through water. Dolphins use sounds to call to each other."
+        ],
+        [
+          "Can sound travel through space, where there is no air?",
+          "no, sound needs something to travel through",
+          "yes, it is louder in space",
+          "yes, but only at night",
+          "Sound travels by making air, water or solids vibrate. Space is empty, so sound cannot travel there."
+        ],
+        [
+          "You walk away from a ringing bell. What happens to the sound?",
+          "it gets quieter",
+          "it gets louder",
+          "it turns into light",
+          "Sound spreads out as it travels, so it gets quieter the further away you are."
+        ],
+        [
+          "How can you protect your ears from very loud noise?",
+          "cover your ears or wear ear defenders",
+          "close your eyes",
+          "wear gloves",
+          "Covering your ears stops some of the sound. Very loud noise can harm your hearing."
+        ],
+        [
+          "What do we call how high or low a sound is?",
+          "pitch",
+          "volume",
+          "speed",
+          "Pitch tells us how high or low a sound is. Volume tells us how loud it is."
+        ]
+      ],
+      "de": [
+        [
+          "Wie entsteht ein Ton?",
+          "etwas schwingt (zittert sehr schnell)",
+          "etwas wird kälter",
+          "etwas ändert seine Farbe",
+          "Alle Töne entstehen durch Schwingungen. Eine klingelnde Glocke zittert sehr schnell."
+        ],
+        [
+          "Mit welchem Körperteil hörst du?",
+          "mit den Ohren",
+          "mit der Nase",
+          "mit den Ellbogen",
+          "Schall gelangt in deine Ohren, und dein Gehirn erkennt, was du gehört hast."
+        ],
+        [
+          "Was ist lauter?",
+          "Schreien",
+          "Flüstern",
+          "Stillsein",
+          "Beim Schreien entstehen stärkere Schwingungen, darum ist der Ton lauter."
+        ],
+        [
+          "Was davon macht einen hohen Ton?",
+          "eine piepsende Maus",
+          "ein brüllender Löwe",
+          "eine muhende Kuh",
+          "Das Piepsen einer Maus ist hoch. Brüllen und Muhen sind tiefe Töne."
+        ],
+        [
+          "Du machst eine Gitarrensaite kürzer. Was passiert mit ihrem Ton?",
+          "er wird höher",
+          "er wird tiefer",
+          "er hört für immer auf",
+          "Kürzere Saiten schwingen schneller, und schnellere Schwingungen machen einen höheren Ton."
+        ],
+        [
+          "Kann Schall durch Wasser wandern?",
+          "ja, Delfine hören sich unter Wasser",
+          "nein, Wasser hält jeden Schall auf",
+          "nur wenn das Wasser warm ist",
+          "Schall wandert gut durch Wasser. Delfine rufen sich mit Tönen."
+        ],
+        [
+          "Kann Schall durch den Weltraum wandern, wo es keine Luft gibt?",
+          "nein, Schall braucht etwas, durch das er wandern kann",
+          "ja, im Weltraum ist er lauter",
+          "ja, aber nur nachts",
+          "Schall wandert, indem er Luft, Wasser oder feste Stoffe schwingen lässt. Der Weltraum ist leer, darum kann Schall dort nicht wandern."
+        ],
+        [
+          "Du gehst von einer klingelnden Glocke weg. Was passiert mit dem Ton?",
+          "er wird leiser",
+          "er wird lauter",
+          "er wird zu Licht",
+          "Schall breitet sich beim Wandern aus. Je weiter weg du bist, desto leiser ist er."
+        ],
+        [
+          "Wie schützt du deine Ohren vor sehr lautem Lärm?",
+          "Ohren zuhalten oder einen Gehörschutz tragen",
+          "die Augen schließen",
+          "Handschuhe anziehen",
+          "Wenn du die Ohren bedeckst, kommt weniger Schall hinein. Sehr lauter Lärm kann dem Gehör schaden."
+        ],
+        [
+          "Wie nennt man, wie hoch oder tief ein Ton ist?",
+          "Tonhöhe",
+          "Lautstärke",
+          "Geschwindigkeit",
+          "Die Tonhöhe sagt, wie hoch oder tief ein Ton ist. Die Lautstärke sagt, wie laut er ist."
+        ]
+      ],
+      "fr": [
+        [
+          "Comment un son se forme-t-il ?",
+          "quelque chose vibre (tremble très vite)",
+          "quelque chose devient plus froid",
+          "quelque chose change de couleur",
+          "Tous les sons viennent de vibrations. Une cloche qui sonne tremble très vite."
+        ],
+        [
+          "Avec quelle partie du corps entends-tu ?",
+          "avec les oreilles",
+          "avec le nez",
+          "avec les coudes",
+          "Le son entre dans tes oreilles, et ton cerveau comprend ce que tu as entendu."
+        ],
+        [
+          "Lequel fait le plus de bruit ?",
+          "crier",
+          "chuchoter",
+          "rester silencieux",
+          "Quand on crie, les vibrations sont plus grandes : le son est plus fort."
+        ],
+        [
+          "Lequel fait un son aigu ?",
+          "une souris qui couine",
+          "un lion qui rugit",
+          "une vache qui meugle",
+          "Le couinement d’une souris est aigu. Le rugissement et le meuglement sont des sons graves."
+        ],
+        [
+          "Tu raccourcis une corde de guitare. Que devient son son ?",
+          "il devient plus aigu",
+          "il devient plus grave",
+          "il s’arrête pour toujours",
+          "Une corde plus courte vibre plus vite, et des vibrations plus rapides font un son plus aigu."
+        ],
+        [
+          "Le son peut-il voyager dans l’eau ?",
+          "oui, les dauphins s’entendent sous l’eau",
+          "non, l’eau arrête tous les sons",
+          "seulement quand l’eau est chaude",
+          "Le son voyage bien dans l’eau. Les dauphins s’appellent avec des sons."
+        ],
+        [
+          "Le son peut-il voyager dans l’espace, où il n’y a pas d’air ?",
+          "non, le son a besoin de quelque chose pour voyager",
+          "oui, il est plus fort dans l’espace",
+          "oui, mais seulement la nuit",
+          "Le son voyage en faisant vibrer l’air, l’eau ou les solides. L’espace est vide, donc le son ne peut pas y voyager."
+        ],
+        [
+          "Tu t’éloignes d’une cloche qui sonne. Que devient le son ?",
+          "il devient plus faible",
+          "il devient plus fort",
+          "il se transforme en lumière",
+          "Le son s’étale en voyageant : plus tu es loin, plus il est faible."
+        ],
+        [
+          "Comment protéger tes oreilles d’un bruit très fort ?",
+          "te boucher les oreilles ou porter un casque antibruit",
+          "fermer les yeux",
+          "mettre des gants",
+          "Couvrir tes oreilles arrête une partie du son. Un bruit très fort peut abîmer l’ouïe."
+        ],
+        [
+          "Comment appelle-t-on le fait qu’un son soit aigu ou grave ?",
+          "la hauteur",
+          "le volume",
+          "la vitesse",
+          "La hauteur dit si un son est aigu ou grave. Le volume dit s’il est fort ou faible."
+        ]
+      ],
+      "yo": [
+        [
+          "Báwo ni ìró ṣe ń wáyé?",
+          "nǹkan kan ń gbọ̀n (ó ń mì kíákíá)",
+          "nǹkan kan ń tutù sí i",
+          "nǹkan kan ń yí àwọ̀ padà",
+          "Gbogbo ìró ló ń wá láti inú gbígbọ̀n. Agogo tí ń dún máa ń gbọ̀n kíákíá."
+        ],
+        [
+          "Apá wo nínú ara rẹ lo fi ń gbọ́ràn?",
+          "etí rẹ",
+          "imú rẹ",
+          "ìgúnpá rẹ",
+          "Ìró ń wọ inú etí rẹ, ọpọlọ rẹ sì ń mọ ohun tí o gbọ́."
+        ],
+        [
+          "Èwo ló ga jù?",
+          "kígbe",
+          "sọ̀rọ̀ wúyẹ́wúyẹ́",
+          "dákẹ́ jẹ́ẹ́",
+          "Kíkígbe ń mú gbígbọ̀n tó lágbára wá, nítorí náà ìró rẹ̀ ga jù."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló ní ohùn òkè (tínrín)?",
+          "eku tí ń ké",
+          "kìnnìún tí ń bú ramúramù",
+          "màálù tí ń ké mùú",
+          "Ohùn eku tínrín, ó sì wà lókè. Bíbú kìnnìún àti kíké màálù ní ohùn ìsàlẹ̀."
+        ],
+        [
+          "O mú okùn gìtá kúrú sí i. Kí ló ṣẹlẹ̀ sí ìró rẹ̀?",
+          "ohùn rẹ̀ lọ sókè",
+          "ohùn rẹ̀ lọ sílẹ̀",
+          "ó dákẹ́ títí láé",
+          "Okùn kúkúrú ń gbọ̀n kíákíá, gbígbọ̀n kíákíá sì ń mú ohùn òkè wá."
+        ],
+        [
+          "Ṣé ìró lè rìn gba inú omi?",
+          "bẹ́ẹ̀ni, ẹja dọ́lfínì ń gbọ́ ara wọn lábẹ́ omi",
+          "rárá, omi ń dí gbogbo ìró",
+          "nígbà tí omi bá gbóná nìkan",
+          "Ìró ń rìn dáadáa nínú omi. Àwọn dọ́lfínì ń fi ìró pe ara wọn."
+        ],
+        [
+          "Ṣé ìró lè rìn nínú òfuurufú, níbi tí kò sí afẹ́fẹ́?",
+          "rárá, ìró nílò nǹkan tí yóò gbà kọjá",
+          "bẹ́ẹ̀ni, ó ga jù nínú òfuurufú",
+          "bẹ́ẹ̀ni, ṣùgbọ́n lóru nìkan",
+          "Ìró ń rìn nípa mímú afẹ́fẹ́, omi tàbí ohun líle gbọ̀n. Òfuurufú ṣófo, nítorí náà ìró kò lè rìn níbẹ̀."
+        ],
+        [
+          "O ń rìn kúrò lọ́dọ̀ agogo tí ń dún. Kí ló ṣẹlẹ̀ sí ìró rẹ̀?",
+          "ó ń rọlẹ̀ sí i",
+          "ó ń ga sí i",
+          "ó ń di ìmọ́lẹ̀",
+          "Ìró ń tàn ká bí ó ṣe ń rìn, nítorí náà bí o ṣe ń jìnnà sí i tó, bẹ́ẹ̀ ni ó ṣe ń rọlẹ̀ tó."
+        ],
+        [
+          "Báwo lo ṣe lè dáàbò bo etí rẹ lọ́wọ́ ariwo ńlá?",
+          "di etí rẹ tàbí wọ ohun ìbòtí",
+          "di ojú rẹ",
+          "wọ ìbọ̀wọ́",
+          "Dídi etí ń dín ìró tí ń wọlé kù. Ariwo tó pọ̀ jù lè ba ìgbọ́ràn jẹ́."
+        ],
+        [
+          "Kí la ń pè bí ohùn ìró ṣe wà lókè tàbí nísàlẹ̀?",
+          "ìpele ohùn (pitch)",
+          "bí ìró ṣe ga tó (volume)",
+          "ìyára",
+          "Ìpele ohùn ló ń sọ bí ìró ṣe wà lókè tàbí nísàlẹ̀. Volume ń sọ bí ìró ṣe ga tó."
+        ]
+      ]
+    }
+  },
+  "emoji": "music",
+  "example": {
+    "i": 0,
+    "q_en": "How is a sound made?",
+    "answer_en": "something vibrates (shakes very fast)",
+    "why_en": "All sounds are made by vibrations. A ringing bell shakes very quickly.",
+    "q_de": "Wie entsteht ein Ton?",
+    "answer_de": "etwas schwingt (zittert sehr schnell)",
+    "why_de": "Alle Töne entstehen durch Schwingungen. Eine klingelnde Glocke zittert sehr schnell.",
+    "q_fr": "Comment un son se forme-t-il ?",
+    "answer_fr": "quelque chose vibre (tremble très vite)",
+    "why_fr": "Tous les sons viennent de vibrations. Une cloche qui sonne tremble très vite.",
+    "q_yo": "Báwo ni ìró ṣe ń wáyé?",
+    "answer_yo": "nǹkan kan ń gbọ̀n (ó ń mì kíákíá)",
+    "why_yo": "Gbogbo ìró ló ń wá láti inú gbígbọ̀n. Agogo tí ń dún máa ń gbọ̀n kíákíá."
+  },
+  "text": {
+    "en": {
+      "title": "Sound",
+      "teach": "Sounds are made when things vibrate. Sound travels through air, water and solids to our ears. A sound can be loud or quiet, and high or low: that is its pitch.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Schall",
+      "teach": "Töne entstehen, wenn etwas schwingt. Schall wandert durch Luft, Wasser und feste Stoffe bis zu unseren Ohren. Ein Ton kann laut oder leise sein, und hoch oder tief: Das ist seine Tonhöhe.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Le son",
+      "teach": "Un son se forme quand quelque chose vibre. Le son voyage dans l’air, l’eau et les solides jusqu’à nos oreilles. Un son peut être fort ou faible, aigu ou grave : c’est sa hauteur.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ìró",
+      "teach": "Ìró máa ń wáyé nígbà tí nǹkan bá ń gbọ̀n. Ìró ń rìn gba inú afẹ́fẹ́, omi àti ohun líle dé etí wa. Ìró lè ga tàbí kí ó rọra, ohùn rẹ̀ sì lè wà lókè tàbí nísàlẹ̀.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

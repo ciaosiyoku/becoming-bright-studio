@@ -1,0 +1,353 @@
+{
+  "id": "sci-materials",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 2,
+  "order": 7,
+  "params": {
+    "emojis": [
+      "house",
+      "umbrella",
+      "wave",
+      "key",
+      "scarf",
+      "magnet",
+      "books",
+      "road",
+      "rain",
+      "droplet"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which material are most windows made of?",
+          "glass",
+          "wood",
+          "fabric",
+          "Glass is see-through, so light comes in and you can look out. Wood and fabric would block the view."
+        ],
+        [
+          "Why must an umbrella be waterproof?",
+          "so the rain does not get through",
+          "so it can float",
+          "so it is see-through",
+          "Waterproof means water cannot pass through. The rain runs off and you stay dry."
+        ],
+        [
+          "Which of these will float on water?",
+          "a wooden block",
+          "a metal key",
+          "a stone",
+          "Wood is light for its size, so it floats. A metal key and a stone are heavy for their size and sink."
+        ],
+        [
+          "What is a key usually made of?",
+          "metal",
+          "fabric",
+          "paper",
+          "A key must be hard and strong so it does not bend in the lock. Metal is hard and strong."
+        ],
+        [
+          "Which material is best for a warm scarf?",
+          "wool",
+          "glass",
+          "stone",
+          "Wool is soft and bendy and keeps warmth in. Glass and stone are hard and cold."
+        ],
+        [
+          "Which of these will a magnet pull?",
+          "an iron nail",
+          "a wooden block",
+          "a glass marble",
+          "Magnets pull things made of iron or steel. Wood and glass are not magnetic."
+        ],
+        [
+          "Paper is made from which material?",
+          "wood from trees",
+          "glass",
+          "metal",
+          "Wood is chopped into tiny bits, mixed with water and pressed flat to make paper."
+        ],
+        [
+          "Which material is hard and strong enough to build a big bridge?",
+          "steel",
+          "paper",
+          "jelly",
+          "Steel is a very strong metal. It can hold up heavy cars and lorries without bending."
+        ],
+        [
+          "Rain boots are made of rubber or plastic. Why?",
+          "these materials are waterproof",
+          "these materials are see-through",
+          "these materials are magnetic",
+          "Rubber and plastic do not let water through, so your feet stay dry in puddles."
+        ],
+        [
+          "What happens when you drop a metal coin into water?",
+          "it sinks",
+          "it floats",
+          "it melts",
+          "A coin is small but heavy for its size, so it sinks to the bottom."
+        ]
+      ],
+      "de": [
+        [
+          "Aus welchem Material sind die meisten Fenster?",
+          "aus Glas",
+          "aus Holz",
+          "aus Stoff",
+          "Glas ist durchsichtig: Licht kommt herein und du kannst hinausschauen. Holz und Stoff würden die Sicht versperren."
+        ],
+        [
+          "Warum muss ein Regenschirm wasserdicht sein?",
+          "damit der Regen nicht durchkommt",
+          "damit er schwimmen kann",
+          "damit er durchsichtig ist",
+          "Wasserdicht heißt: Wasser kommt nicht hindurch. Der Regen läuft ab und du bleibst trocken."
+        ],
+        [
+          "Was davon schwimmt auf dem Wasser?",
+          "ein Holzklotz",
+          "ein Metallschlüssel",
+          "ein Stein",
+          "Holz ist für seine Größe leicht, darum schwimmt es. Ein Metallschlüssel und ein Stein sind für ihre Größe schwer und gehen unter."
+        ],
+        [
+          "Woraus ist ein Schlüssel meistens?",
+          "aus Metall",
+          "aus Stoff",
+          "aus Papier",
+          "Ein Schlüssel muss hart und fest sein, damit er sich im Schloss nicht verbiegt. Metall ist hart und fest."
+        ],
+        [
+          "Welches Material ist am besten für einen warmen Schal?",
+          "Wolle",
+          "Glas",
+          "Stein",
+          "Wolle ist weich und biegsam und hält die Wärme. Glas und Stein sind hart und kalt."
+        ],
+        [
+          "Was davon zieht ein Magnet an?",
+          "einen Eisennagel",
+          "einen Holzklotz",
+          "eine Glasmurmel",
+          "Magnete ziehen Dinge aus Eisen oder Stahl an. Holz und Glas sind nicht magnetisch."
+        ],
+        [
+          "Woraus wird Papier gemacht?",
+          "aus Holz von Bäumen",
+          "aus Glas",
+          "aus Metall",
+          "Holz wird in winzige Stückchen zerkleinert, mit Wasser vermischt und flach gepresst. So entsteht Papier."
+        ],
+        [
+          "Welches Material ist hart und stark genug für eine große Brücke?",
+          "Stahl",
+          "Papier",
+          "Wackelpudding",
+          "Stahl ist ein sehr starkes Metall. Er trägt schwere Autos und Lastwagen, ohne sich zu verbiegen."
+        ],
+        [
+          "Gummistiefel sind aus Gummi oder Kunststoff. Warum?",
+          "diese Materialien sind wasserdicht",
+          "diese Materialien sind durchsichtig",
+          "diese Materialien sind magnetisch",
+          "Gummi und Kunststoff lassen kein Wasser durch. So bleiben deine Füße in Pfützen trocken."
+        ],
+        [
+          "Was passiert, wenn du eine Metallmünze ins Wasser wirfst?",
+          "sie geht unter",
+          "sie schwimmt",
+          "sie schmilzt",
+          "Eine Münze ist klein, aber für ihre Größe schwer. Darum sinkt sie auf den Boden."
+        ]
+      ],
+      "fr": [
+        [
+          "En quel matériau sont faites la plupart des fenêtres ?",
+          "en verre",
+          "en bois",
+          "en tissu",
+          "Le verre est transparent : la lumière entre et on peut voir dehors. Le bois et le tissu cacheraient la vue."
+        ],
+        [
+          "Pourquoi un parapluie doit-il être imperméable ?",
+          "pour que la pluie ne passe pas",
+          "pour qu’il puisse flotter",
+          "pour qu’il soit transparent",
+          "Imperméable veut dire que l’eau ne passe pas à travers. La pluie glisse et tu restes au sec."
+        ],
+        [
+          "Lequel flotte sur l’eau ?",
+          "un cube en bois",
+          "une clé en métal",
+          "un caillou",
+          "Le bois est léger pour sa taille, alors il flotte. Une clé en métal et un caillou sont lourds pour leur taille et coulent."
+        ],
+        [
+          "En quoi une clé est-elle faite d’habitude ?",
+          "en métal",
+          "en tissu",
+          "en papier",
+          "Une clé doit être dure et solide pour ne pas plier dans la serrure. Le métal est dur et solide."
+        ],
+        [
+          "Quel matériau est le meilleur pour une écharpe chaude ?",
+          "la laine",
+          "le verre",
+          "la pierre",
+          "La laine est douce et souple et garde la chaleur. Le verre et la pierre sont durs et froids."
+        ],
+        [
+          "Lequel est attiré par un aimant ?",
+          "un clou en fer",
+          "un cube en bois",
+          "une bille en verre",
+          "Les aimants attirent les objets en fer ou en acier. Le bois et le verre ne sont pas attirés."
+        ],
+        [
+          "Avec quel matériau fabrique-t-on le papier ?",
+          "le bois des arbres",
+          "le verre",
+          "le métal",
+          "Le bois est réduit en tout petits morceaux, mélangé à de l’eau puis pressé à plat pour faire du papier."
+        ],
+        [
+          "Quel matériau est assez dur et solide pour construire un grand pont ?",
+          "l’acier",
+          "le papier",
+          "la gelée",
+          "L’acier est un métal très solide. Il porte les voitures et les camions lourds sans plier."
+        ],
+        [
+          "Les bottes de pluie sont en caoutchouc ou en plastique. Pourquoi ?",
+          "ces matériaux sont imperméables",
+          "ces matériaux sont transparents",
+          "ces matériaux sont attirés par les aimants",
+          "Le caoutchouc et le plastique ne laissent pas passer l’eau : tes pieds restent secs dans les flaques."
+        ],
+        [
+          "Que se passe-t-il quand tu lâches une pièce en métal dans l’eau ?",
+          "elle coule",
+          "elle flotte",
+          "elle fond",
+          "Une pièce est petite mais lourde pour sa taille : elle coule au fond."
+        ]
+      ],
+      "yo": [
+        [
+          "Ohun èlò wo ni wọ́n fi ṣe ọ̀pọ̀ jùlọ fèrèsé?",
+          "díńgí",
+          "igi",
+          "aṣọ",
+          "A lè ríran kọjá díńgí, nítorí náà ìmọ́lẹ̀ ń wọlé, o sì lè wo ìta. Igi àti aṣọ á dí ojú."
+        ],
+        [
+          "Kí ló dé tí agboòrùn fi gbọ́dọ̀ jẹ́ èyí tí omi kò lè wọ̀?",
+          "kí òjò má baà gba inú rẹ̀ kọjá",
+          "kí ó lè léfòó",
+          "kí a lè ríran kọjá rẹ̀",
+          "Tí omi kò bá lè wọ̀ ọ́, òjò á ṣàn kúrò lórí rẹ̀, ara rẹ kò sì ní tutù."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló máa léfòó lórí omi?",
+          "búlọ́ọ̀kù igi",
+          "kọ́kọ́rọ́ irin",
+          "òkúta",
+          "Igi fúyẹ́ fún ìwọ̀n rẹ̀, nítorí náà ó ń léfòó. Kọ́kọ́rọ́ irin àti òkúta wúwo fún ìwọ̀n wọn, wọ́n sì ń rì."
+        ],
+        [
+          "Kí ni wọ́n sábà máa ń fi ṣe kọ́kọ́rọ́?",
+          "irin",
+          "aṣọ",
+          "bébà",
+          "Kọ́kọ́rọ́ gbọ́dọ̀ le, kí ó sì lágbára kí ó má baà tẹ̀ nínú àgádágodo. Irin le, ó sì lágbára."
+        ],
+        [
+          "Ohun èlò wo ló dára jù fún ìborùn tó ń mú ara móoru?",
+          "irun àgùntàn",
+          "díńgí",
+          "òkúta",
+          "Irun àgùntàn rọ̀, ó ń tẹ̀, ó sì ń mú ara móoru. Díńgí àti òkúta le, wọ́n sì tutù."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni òòfà máa fà mọ́ra?",
+          "ìṣó irin",
+          "búlọ́ọ̀kù igi",
+          "ọmọ ayò díńgí",
+          "Òòfà ń fa àwọn nǹkan tí a fi irin ṣe. Kò lè fa igi tàbí díńgí."
+        ],
+        [
+          "Láti inú ohun èlò wo ni wọ́n ti ń ṣe bébà?",
+          "igi láti ara àwọn igi",
+          "díńgí",
+          "irin",
+          "Wọ́n ń gé igi wẹ́wẹ́, wọ́n pò ó mọ́ omi, wọ́n sì tẹ̀ ẹ́ pẹlẹbẹ láti ṣe bébà."
+        ],
+        [
+          "Ohun èlò wo ló le, tí ó sì lágbára tó láti kọ́ afárá ńlá?",
+          "irin líle",
+          "bébà",
+          "jẹ́lì",
+          "Irin líle lágbára gidigidi. Ó lè gbé mọ́tò àti ọkọ̀ akẹ́rù tó wúwo láì tẹ̀."
+        ],
+        [
+          "Wọ́n fi rọ́bà tàbí pílásítíìkì ṣe bàtà òjò. Kí ló dé?",
+          "omi kò lè wọ inú àwọn ohun èlò wọ̀nyí",
+          "a lè ríran kọjá àwọn ohun èlò wọ̀nyí",
+          "òòfà lè fa àwọn ohun èlò wọ̀nyí",
+          "Rọ́bà àti pílásítíìkì kì í jẹ́ kí omi kọjá, nítorí náà ẹsẹ̀ rẹ kò ní tutù nínú omi ọ̀gbàrá."
+        ],
+        [
+          "Kí ló máa ṣẹlẹ̀ tí o bá ju owó ẹyọ irin sínú omi?",
+          "ó máa rì",
+          "ó máa léfòó",
+          "ó máa yọ́",
+          "Owó ẹyọ kéré, ṣùgbọ́n ó wúwo fún ìwọ̀n rẹ̀, nítorí náà ó máa rì sí ìsàlẹ̀."
+        ]
+      ]
+    }
+  },
+  "emoji": "key",
+  "example": {
+    "i": 0,
+    "q_en": "Which material are most windows made of?",
+    "answer_en": "glass",
+    "why_en": "Glass is see-through, so light comes in and you can look out. Wood and fabric would block the view.",
+    "q_de": "Aus welchem Material sind die meisten Fenster?",
+    "answer_de": "aus Glas",
+    "why_de": "Glas ist durchsichtig: Licht kommt herein und du kannst hinausschauen. Holz und Stoff würden die Sicht versperren.",
+    "q_fr": "En quel matériau sont faites la plupart des fenêtres ?",
+    "answer_fr": "en verre",
+    "why_fr": "Le verre est transparent : la lumière entre et on peut voir dehors. Le bois et le tissu cacheraient la vue.",
+    "q_yo": "Ohun èlò wo ni wọ́n fi ṣe ọ̀pọ̀ jùlọ fèrèsé?",
+    "answer_yo": "díńgí",
+    "why_yo": "A lè ríran kọjá díńgí, nítorí náà ìmọ́lẹ̀ ń wọlé, o sì lè wo ìta. Igi àti aṣọ á dí ojú."
+  },
+  "text": {
+    "en": {
+      "title": "Materials and what they are like",
+      "teach": "Things are made of materials such as wood, metal, glass, plastic and fabric. Each one is chosen for what it is like: hard, soft, see-through or waterproof.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Materialien und ihre Eigenschaften",
+      "teach": "Dinge sind aus Materialien wie Holz, Metall, Glas, Kunststoff und Stoff. Man wählt sie nach ihren Eigenschaften: hart, weich, durchsichtig oder wasserdicht.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les matériaux et leurs propriétés",
+      "teach": "Les objets sont faits de matériaux comme le bois, le métal, le verre, le plastique et le tissu. On les choisit selon leurs propriétés : dur, doux, transparent ou imperméable.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Àwọn ohun èlò àti ìwà wọn",
+      "teach": "A fi ohun èlò bí igi, irin, díńgí, pílásítíìkì àti aṣọ ṣe nǹkan. A ń yàn wọ́n nítorí ìwà wọn: ó le, ó rọ̀, a lè ríran kọjá rẹ̀, tàbí omi kò lè wọ inú rẹ̀.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

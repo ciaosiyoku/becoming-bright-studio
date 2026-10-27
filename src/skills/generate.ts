@@ -1,3 +1,4 @@
+import { BANK_CALC, type BankKind } from './bank'
 import { type Calc, CALC, type CalcKind } from './numbers'
 import { int, numberChoices, pick, seeded, shuffled, withAnswer } from './random'
 import type { Lang } from '@/i18n'
@@ -17,7 +18,7 @@ const num = (def: SkillDef, key: string) => Number(def.params[key])
 const words = (def: SkillDef) => def.params.words as Word[]
 const seq = (n: number) => Array.from({ length: n }, (_, i) => i + 1).join(', ')
 
-const MAKERS: Record<Exclude<GeneratorKind, CalcKind | WordKind>, Maker> = {
+const MAKERS: Record<Exclude<GeneratorKind, CalcKind | WordKind | BankKind>, Maker> = {
   // How many pictures? (params: min, max, emojis)
   count: (def, r) => {
     const n = int(r, num(def, 'min'), num(def, 'max'))
@@ -87,7 +88,7 @@ const ex = (def: SkillDef, key: string) => def.example[key]
 const exNum = (def: SkillDef, key: string) => Number(def.example[key])
 
 /** What the teach card shows, from the skill's fixed example. */
-const TEACH: Record<Exclude<GeneratorKind, CalcKind | WordKind>, Teach> = {
+const TEACH: Record<Exclude<GeneratorKind, CalcKind | WordKind | BankKind>, Teach> = {
   count: (def) => ({ visual: { kind: 'count', emoji: String(ex(def, 'thing')), n: exNum(def, 'answer') } }),
   add: (def) => ({ visual: { kind: 'sum', text: `${exNum(def, 'a')} + ${exNum(def, 'b')} = ${exNum(def, 'answer')}` }, line: { max: 10, from: exNum(def, 'a'), by: exNum(def, 'b') } }),
   subtract: (def) => ({ visual: { kind: 'sum', text: `${exNum(def, 'a')} − ${exNum(def, 'b')} = ${exNum(def, 'answer')}` }, line: { max: 10, from: exNum(def, 'a'), by: -exNum(def, 'b') } }),
@@ -99,9 +100,9 @@ const TEACH: Record<Exclude<GeneratorKind, CalcKind | WordKind>, Teach> = {
   rhyme: (def) => ({ visual: { kind: 'pair', a: { emoji: String(ex(def, 'emoji')), word: String(ex(def, 'word')) }, b: { emoji: String(ex(def, 'answerEmoji')), word: String(ex(def, 'answer')) } } }),
 }
 
-/** The kinds made of a picker and a builder: the number and pattern skills, and the English word skills. */
-const BUILT: Record<CalcKind | WordKind, Calc> = { ...CALC, ...WORD_CALC }
-const isCalc = (kind: GeneratorKind): kind is CalcKind | WordKind => kind in BUILT
+/** The kinds made of a picker and a builder: the number and pattern skills, the English word skills and the question banks. */
+const BUILT: Record<CalcKind | WordKind | BankKind, Calc> = { ...CALC, ...WORD_CALC, ...BANK_CALC }
+const isCalc = (kind: GeneratorKind): kind is CalcKind | WordKind | BankKind => kind in BUILT
 
 /** A sum shown with its answer: "34 ≈ ?" → "34 ≈ 30", "8 × 7" → "8 × 7 = 56". A lone number or a picture stays. */
 function solved(visual: Item['visual'], answer: string | number): Item['visual'] {

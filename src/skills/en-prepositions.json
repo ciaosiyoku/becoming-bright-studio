@@ -1,0 +1,111 @@
+{
+  "id": "en-prepositions",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 2,
+  "order": 21,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "animal-octopus",
+      "mountain",
+      "animal-mouse",
+      "girl",
+      "tree",
+      "paws",
+      "letters",
+      "backpack",
+      "sun-large-cloud",
+      "umbrella"
+    ],
+    "bank": {
+      "en": [
+        [
+          "The octopus lives deep ___ the sea.",
+          "in",
+          "on",
+          "between",
+          "The octopus is inside the water, so it lives in the sea."
+        ],
+        [
+          "There is snow ___ top of the mountain.",
+          "on",
+          "in",
+          "under",
+          "The snow sits on top of the mountain."
+        ],
+        [
+          "The mouse hides ___ the bed, with the bed above it.",
+          "under",
+          "on",
+          "between",
+          "The bed is above the mouse, so the mouse is under it."
+        ],
+        [
+          "Mia sits ___ her two friends, one on each side.",
+          "between",
+          "under",
+          "in",
+          "When something is in the middle of two things, it is between them."
+        ],
+        [
+          "The tree is ___ the house, so you cannot see it from the front.",
+          "behind",
+          "in",
+          "on",
+          "The house is in front and blocks it, so the tree is behind the house."
+        ],
+        [
+          "The two puppies sleep ___ each other, side by side.",
+          "next to",
+          "between",
+          "in",
+          "Side by side means next to each other."
+        ],
+        [
+          "The letter B comes ___ A and C.",
+          "between",
+          "on",
+          "under",
+          "B is in the middle of A and C, so it is between them."
+        ],
+        [
+          "Put your books ___ your bag and zip it up.",
+          "in",
+          "under",
+          "between",
+          "The books go inside the bag, so they go in it."
+        ],
+        [
+          "The sun is hiding ___ a big cloud.",
+          "behind",
+          "between",
+          "on",
+          "The cloud is in front of the sun, so the sun is behind it."
+        ],
+        [
+          "We stand ___ the umbrella to stay dry.",
+          "under",
+          "on",
+          "between",
+          "The umbrella is above us, so we stand under it."
+        ]
+      ]
+    }
+  },
+  "emoji": "house",
+  "example": {
+    "i": 0,
+    "q_en": "The octopus lives deep ___ the sea.",
+    "answer_en": "in",
+    "why_en": "The octopus is inside the water, so it lives in the sea."
+  },
+  "text": {
+    "en": {
+      "title": "Where is it?",
+      "teach": "Some little words tell us where things are: in, on, under, behind, next to and between. The cup is on the table. The cat is under the table.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

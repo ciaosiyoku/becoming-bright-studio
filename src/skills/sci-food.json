@@ -1,0 +1,353 @@
+{
+  "id": "sci-food",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 2,
+  "order": 6,
+  "params": {
+    "emojis": [
+      "fruit-blueberries",
+      "clock",
+      "droplet",
+      "moon",
+      "medal",
+      "cookie",
+      "sun",
+      "bone",
+      "sparkles",
+      "hockey"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Why are fruit and vegetables good for you?",
+          "they have vitamins that keep you healthy",
+          "they make your teeth fall out",
+          "they stop you from growing",
+          "Fruit and vegetables are full of vitamins and fibre that help your body grow and fight illness."
+        ],
+        [
+          "When should you wash your hands?",
+          "before eating and after using the toilet",
+          "only on your birthday",
+          "never",
+          "Hands pick up germs. Washing them before food and after the toilet stops the germs getting inside you."
+        ],
+        [
+          "Why do we wash our hands with soap and water?",
+          "to wash away germs",
+          "to make our hands sticky",
+          "to make our hands grow",
+          "Soap lifts dirt and germs off your skin, and the water rinses them away."
+        ],
+        [
+          "How much sleep do children need each night?",
+          "a lot, about 9 to 12 hours",
+          "none at all",
+          "just 1 hour",
+          "Sleep lets your body rest and grow and your brain sort out what you learned that day."
+        ],
+        [
+          "What does exercise do for your body?",
+          "it makes your heart and muscles stronger",
+          "it makes your bones soft",
+          "it makes you shrink",
+          "Running, jumping and playing make your heart, lungs and muscles work hard, and that makes them stronger."
+        ],
+        [
+          "Is it a good idea to eat biscuits at every meal?",
+          "no, they are a treat for now and then",
+          "yes, at every meal",
+          "yes, instead of drinking water",
+          "Biscuits have lots of sugar and fat. They are fine as a small treat, but not every day at every meal."
+        ],
+        [
+          "Which drink is best when you are thirsty?",
+          "water",
+          "a sugary fizzy drink",
+          "sweet syrup",
+          "Water has no sugar and gives your body exactly what it needs. Sugary drinks are bad for your teeth."
+        ],
+        [
+          "Which foods help build strong bones and teeth?",
+          "milk, cheese and yoghurt",
+          "sweets and fizzy drinks",
+          "crisps and lollipops",
+          "Milk, cheese and yoghurt have calcium, which your bones and teeth need to grow strong."
+        ],
+        [
+          "Why should you brush your teeth twice a day?",
+          "to keep them clean and stop holes",
+          "to make them longer",
+          "to turn them blue",
+          "Brushing takes away bits of food and sugar. That stops holes, called cavities, forming in your teeth."
+        ],
+        [
+          "What do foods like bread, rice and pasta give you?",
+          "energy to run and play",
+          "a cold",
+          "nothing at all",
+          "Bread, rice and pasta are full of starch, which your body turns into energy."
+        ]
+      ],
+      "de": [
+        [
+          "Warum sind Obst und Gemüse gut für dich?",
+          "sie haben Vitamine, die dich gesund halten",
+          "sie lassen deine Zähne ausfallen",
+          "sie halten dich vom Wachsen ab",
+          "Obst und Gemüse stecken voller Vitamine und Ballaststoffe. Sie helfen deinem Körper zu wachsen und gegen Krankheiten zu kämpfen."
+        ],
+        [
+          "Wann solltest du dir die Hände waschen?",
+          "vor dem Essen und nach der Toilette",
+          "nur an deinem Geburtstag",
+          "nie",
+          "An den Händen sammeln sich Keime. Wenn du sie vor dem Essen und nach der Toilette wäschst, kommen die Keime nicht in deinen Körper."
+        ],
+        [
+          "Warum waschen wir die Hände mit Seife und Wasser?",
+          "um Keime abzuwaschen",
+          "damit die Hände klebrig werden",
+          "damit die Hände wachsen",
+          "Seife löst Schmutz und Keime von der Haut, und das Wasser spült sie weg."
+        ],
+        [
+          "Wie viel Schlaf brauchen Kinder jede Nacht?",
+          "viel, ungefähr 9 bis 12 Stunden",
+          "gar keinen",
+          "nur 1 Stunde",
+          "Im Schlaf ruht sich dein Körper aus und wächst, und dein Gehirn ordnet, was du am Tag gelernt hast."
+        ],
+        [
+          "Was bewirkt Bewegung in deinem Körper?",
+          "sie macht Herz und Muskeln stärker",
+          "sie macht die Knochen weich",
+          "sie lässt dich schrumpfen",
+          "Rennen, Springen und Spielen lassen Herz, Lunge und Muskeln hart arbeiten. Dadurch werden sie stärker."
+        ],
+        [
+          "Ist es gut, zu jeder Mahlzeit Kekse zu essen?",
+          "nein, sie sind nur ab und zu ein Leckerbissen",
+          "ja, zu jeder Mahlzeit",
+          "ja, statt Wasser zu trinken",
+          "Kekse haben viel Zucker und Fett. Als kleiner Leckerbissen sind sie in Ordnung, aber nicht zu jeder Mahlzeit."
+        ],
+        [
+          "Welches Getränk ist am besten, wenn du Durst hast?",
+          "Wasser",
+          "eine zuckrige Limonade",
+          "süßer Sirup",
+          "Wasser hat keinen Zucker und gibt deinem Körper genau, was er braucht. Zuckrige Getränke schaden den Zähnen."
+        ],
+        [
+          "Welche Lebensmittel helfen, starke Knochen und Zähne zu bauen?",
+          "Milch, Käse und Joghurt",
+          "Bonbons und Limonade",
+          "Chips und Lutscher",
+          "Milch, Käse und Joghurt enthalten Kalzium. Das brauchen Knochen und Zähne, um stark zu werden."
+        ],
+        [
+          "Warum solltest du zweimal am Tag die Zähne putzen?",
+          "damit sie sauber bleiben und keine Löcher bekommen",
+          "damit sie länger werden",
+          "damit sie blau werden",
+          "Beim Putzen entfernst du Essensreste und Zucker. So bekommen deine Zähne keine Löcher (Karies)."
+        ],
+        [
+          "Was geben dir Lebensmittel wie Brot, Reis und Nudeln?",
+          "Energie zum Rennen und Spielen",
+          "eine Erkältung",
+          "gar nichts",
+          "Brot, Reis und Nudeln enthalten viel Stärke. Dein Körper macht daraus Energie."
+        ]
+      ],
+      "fr": [
+        [
+          "Pourquoi les fruits et les légumes sont-ils bons pour toi ?",
+          "ils ont des vitamines qui te gardent en bonne santé",
+          "ils font tomber tes dents",
+          "ils t’empêchent de grandir",
+          "Les fruits et les légumes sont pleins de vitamines et de fibres. Ils aident ton corps à grandir et à combattre les maladies."
+        ],
+        [
+          "Quand faut-il se laver les mains ?",
+          "avant de manger et après être allé aux toilettes",
+          "seulement le jour de ton anniversaire",
+          "jamais",
+          "Les mains ramassent des microbes. Les laver avant de manger et après les toilettes les empêche d’entrer dans ton corps."
+        ],
+        [
+          "Pourquoi se lave-t-on les mains avec de l’eau et du savon ?",
+          "pour enlever les microbes",
+          "pour avoir les mains collantes",
+          "pour faire grandir nos mains",
+          "Le savon décolle la saleté et les microbes de la peau, et l’eau les emporte."
+        ],
+        [
+          "Combien d’heures les enfants doivent-ils dormir chaque nuit ?",
+          "beaucoup, environ 9 à 12 heures",
+          "pas du tout",
+          "juste 1 heure",
+          "Pendant le sommeil, ton corps se repose et grandit, et ton cerveau range ce que tu as appris dans la journée."
+        ],
+        [
+          "Que fait le sport pour ton corps ?",
+          "il rend ton cœur et tes muscles plus forts",
+          "il rend tes os mous",
+          "il te fait rapetisser",
+          "Courir, sauter et jouer font travailler ton cœur, tes poumons et tes muscles, et cela les rend plus forts."
+        ],
+        [
+          "Est-ce une bonne idée de manger des biscuits à chaque repas ?",
+          "non, c’est une gourmandise de temps en temps",
+          "oui, à chaque repas",
+          "oui, à la place de boire de l’eau",
+          "Les biscuits contiennent beaucoup de sucre et de gras. Ils sont bien en petite gourmandise, mais pas à chaque repas."
+        ],
+        [
+          "Quelle boisson est la meilleure quand tu as soif ?",
+          "l’eau",
+          "un soda sucré",
+          "du sirop sucré",
+          "L’eau n’a pas de sucre et donne à ton corps ce dont il a besoin. Les boissons sucrées abîment les dents."
+        ],
+        [
+          "Quels aliments aident à avoir des os et des dents solides ?",
+          "le lait, le fromage et le yaourt",
+          "les bonbons et les sodas",
+          "les chips et les sucettes",
+          "Le lait, le fromage et le yaourt contiennent du calcium. Les os et les dents en ont besoin pour devenir solides."
+        ],
+        [
+          "Pourquoi se brosser les dents deux fois par jour ?",
+          "pour les garder propres et éviter les caries",
+          "pour les rendre plus longues",
+          "pour les rendre bleues",
+          "Le brossage enlève les restes de nourriture et le sucre. Cela empêche les trous, appelés caries, de se former."
+        ],
+        [
+          "Que t’apportent des aliments comme le pain, le riz et les pâtes ?",
+          "de l’énergie pour courir et jouer",
+          "un rhume",
+          "rien du tout",
+          "Le pain, le riz et les pâtes sont pleins d’amidon, que ton corps transforme en énergie."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ló dé tí èso àti ẹ̀fọ́ fi dára fún ọ?",
+          "wọ́n ní fítámìnì tó ń jẹ́ kí o ní ìlera",
+          "wọ́n ń mú eyín rẹ yọ",
+          "wọ́n ń dí ọ lọ́wọ́ láti dàgbà",
+          "Èso àti ẹ̀fọ́ kún fún fítámìnì àti okun oúnjẹ tó ń ran ara rẹ lọ́wọ́ láti dàgbà àti láti bá àìsàn jà."
+        ],
+        [
+          "Ìgbà wo ló yẹ kí o fọ ọwọ́ rẹ?",
+          "kí o tó jẹun àti lẹ́yìn tí o bá lo ilé ìgbọ̀nsẹ̀",
+          "ní ọjọ́ ìbí rẹ nìkan",
+          "láéláé",
+          "Ọwọ́ máa ń kó kòkòrò àrùn. Fífọ ọwọ́ kí o tó jẹun àti lẹ́yìn ilé ìgbọ̀nsẹ̀ kò ní jẹ́ kí kòkòrò àrùn wọ inú ara rẹ."
+        ],
+        [
+          "Kí ló dé tí a fi ń fi ọṣẹ àti omi fọ ọwọ́?",
+          "láti fọ kòkòrò àrùn kúrò",
+          "kí ọwọ́ wa lè lẹ̀ pọ̀",
+          "kí ọwọ́ wa lè dàgbà",
+          "Ọṣẹ ń yọ ìdọ̀tí àti kòkòrò àrùn kúrò lára awọ, omi sì ń ṣàn wọ́n lọ."
+        ],
+        [
+          "Oorun wákàtí mélòó ni ọmọdé nílò lóru?",
+          "ọ̀pọ̀lọpọ̀, bíi wákàtí mẹ́sàn-án sí méjìlá",
+          "kò nílò rárá",
+          "wákàtí kan péré",
+          "Oorun ń jẹ́ kí ara sinmi kí ó sì dàgbà, ó sì ń jẹ́ kí ọpọlọ to ohun tí o kọ́ lọ́jọ́ náà sí ipò."
+        ],
+        [
+          "Kí ni eré ìdárayá ń ṣe fún ara rẹ?",
+          "ó ń mú kí ọkàn àti iṣan rẹ lágbára sí i",
+          "ó ń mú egungun rẹ rọ̀",
+          "ó ń mú ọ kéré sí i",
+          "Sísáré, fífò àti ṣíṣeré ń mú kí ọkàn, ẹ̀dọ̀fóró àti iṣan ṣiṣẹ́ kára, èyí sì ń mú wọn lágbára."
+        ],
+        [
+          "Ṣé ó dára láti jẹ bisikíìtì ní gbogbo oúnjẹ?",
+          "rárá, ìpápánu fún ìgbà díẹ̀ ni",
+          "bẹ́ẹ̀ni, ní gbogbo oúnjẹ",
+          "bẹ́ẹ̀ni, dípò mímu omi",
+          "Bisikíìtì ní ṣúgà àti ọ̀rá púpọ̀. Ó dára bí ìpápánu kékeré, ṣùgbọ́n kì í ṣe ní gbogbo oúnjẹ."
+        ],
+        [
+          "Ohun mímu wo ló dára jù nígbà tí òùngbẹ bá ń gbẹ ọ́?",
+          "omi",
+          "ohun mímu oníṣúgà tó ń ru",
+          "omi ṣuga dídùn",
+          "Omi kò ní ṣúgà, ó sì ń fún ara ní ohun tó nílò gan-an. Ohun mímu oníṣúgà kò dára fún eyín."
+        ],
+        [
+          "Àwọn oúnjẹ wo ló ń ràn egungun àti eyín lọ́wọ́ láti lágbára?",
+          "wàrà, wàràkàṣì àti yògọ́ọ̀tì",
+          "súìtì àti ohun mímu tó ń ru",
+          "kírísípì àti súìtì onígi",
+          "Wàrà, wàràkàṣì àti yògọ́ọ̀tì ní kálísíọ̀mù, èyí tí egungun àti eyín nílò láti lágbára."
+        ],
+        [
+          "Kí ló dé tí ó fi yẹ kí o fọ eyín rẹ lẹ́ẹ̀mejì lóòjọ́?",
+          "kí ó lè mọ́, kí ihò má sì dá sí i",
+          "kí ó lè gùn sí i",
+          "kí ó lè di àwọ̀ búlúù",
+          "Fífọ eyín ń yọ èérún oúnjẹ àti ṣúgà kúrò. Èyí kò ní jẹ́ kí ihò dá sí eyín rẹ."
+        ],
+        [
+          "Kí ni àwọn oúnjẹ bí búrẹ́dì, ìrẹsì àti pásítà ń fún ọ?",
+          "agbára láti sáré àti láti ṣeré",
+          "òtútù àìsàn",
+          "kò fún ọ ní nǹkan kan",
+          "Búrẹ́dì, ìrẹsì àti pásítà kún fún oúnjẹ aṣaralóore tí ara ń sọ di agbára."
+        ]
+      ]
+    }
+  },
+  "emoji": "heart",
+  "example": {
+    "i": 0,
+    "q_en": "Why are fruit and vegetables good for you?",
+    "answer_en": "they have vitamins that keep you healthy",
+    "why_en": "Fruit and vegetables are full of vitamins and fibre that help your body grow and fight illness.",
+    "q_de": "Warum sind Obst und Gemüse gut für dich?",
+    "answer_de": "sie haben Vitamine, die dich gesund halten",
+    "why_de": "Obst und Gemüse stecken voller Vitamine und Ballaststoffe. Sie helfen deinem Körper zu wachsen und gegen Krankheiten zu kämpfen.",
+    "q_fr": "Pourquoi les fruits et les légumes sont-ils bons pour toi ?",
+    "answer_fr": "ils ont des vitamines qui te gardent en bonne santé",
+    "why_fr": "Les fruits et les légumes sont pleins de vitamines et de fibres. Ils aident ton corps à grandir et à combattre les maladies.",
+    "q_yo": "Kí ló dé tí èso àti ẹ̀fọ́ fi dára fún ọ?",
+    "answer_yo": "wọ́n ní fítámìnì tó ń jẹ́ kí o ní ìlera",
+    "why_yo": "Èso àti ẹ̀fọ́ kún fún fítámìnì àti okun oúnjẹ tó ń ran ara rẹ lọ́wọ́ láti dàgbà àti láti bá àìsàn jà."
+  },
+  "text": {
+    "en": {
+      "title": "Eating well and keeping healthy",
+      "teach": "Eat lots of fruit and vegetables, drink water, wash your hands, brush your teeth, sleep well and move your body every day.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Gesund essen und gesund bleiben",
+      "teach": "Iss viel Obst und Gemüse, trink Wasser, wasch dir die Hände, putz dir die Zähne, schlaf gut und beweg dich jeden Tag.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Bien manger et rester en bonne santé",
+      "teach": "Mange beaucoup de fruits et de légumes, bois de l’eau, lave-toi les mains, brosse-toi les dents, dors bien et bouge chaque jour.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Jíjẹun dáadáa àti níní ìlera",
+      "teach": "Jẹ ọ̀pọ̀ èso àti ẹ̀fọ́, mu omi, fọ ọwọ́ rẹ, fọ eyín rẹ, sùn dáadáa, kí o sì máa ṣe eré ìdárayá lójoojúmọ́.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

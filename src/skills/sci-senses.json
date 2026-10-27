@@ -1,0 +1,353 @@
+{
+  "id": "sci-senses",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 1,
+  "order": 3,
+  "params": {
+    "emojis": [
+      "bell",
+      "fruit-lemon",
+      "cocoa",
+      "star",
+      "teddy",
+      "glowstar",
+      "fruit-strawberry",
+      "cake",
+      "tv",
+      "snowflake"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which sense do you use to hear a bell ring?",
+          "hearing, with your ears",
+          "taste, with your tongue",
+          "smell, with your nose",
+          "Sounds travel through the air into your ears. That is your sense of hearing."
+        ],
+        [
+          "Which sense tells you that a lemon is sour?",
+          "taste, with your tongue",
+          "hearing, with your ears",
+          "sight, with your eyes",
+          "Your tongue has tiny taste buds. They tell you if food is sweet, sour, salty or bitter."
+        ],
+        [
+          "Which part of your body do you smell with?",
+          "your nose",
+          "your elbow",
+          "your knee",
+          "Smells float in the air. When you breathe in through your nose, it can tell what they are."
+        ],
+        [
+          "Which sense do you use to see the stars at night?",
+          "sight, with your eyes",
+          "smell, with your nose",
+          "taste, with your tongue",
+          "Light from the stars comes into your eyes. That is your sense of sight."
+        ],
+        [
+          "Which sense tells you that a teddy is soft?",
+          "touch, with your skin",
+          "hearing, with your ears",
+          "smell, with your nose",
+          "When you stroke the teddy, your skin feels how soft it is. That is your sense of touch."
+        ],
+        [
+          "How many senses do people have?",
+          "five",
+          "two",
+          "ten",
+          "We have five senses: sight, hearing, smell, taste and touch."
+        ],
+        [
+          "Which part of your body do you taste with?",
+          "your tongue",
+          "your ear",
+          "your hair",
+          "Your tongue is covered in taste buds. They tell you how your food tastes."
+        ],
+        [
+          "A cake is baking in the oven. Which sense tells you before you see it?",
+          "smell, with your nose",
+          "touch, with your skin",
+          "taste, with your tongue",
+          "The smell of the cake floats through the air to your nose, even from another room."
+        ],
+        [
+          "Which part of your body do you see with?",
+          "your eyes",
+          "your feet",
+          "your teeth",
+          "Your eyes take in light, and your brain turns it into pictures."
+        ],
+        [
+          "What does your skin tell you when you touch snow?",
+          "that it is cold",
+          "that it is loud",
+          "that it is sweet",
+          "Your skin can feel hot and cold. Snow feels cold because it is frozen water."
+        ]
+      ],
+      "de": [
+        [
+          "Mit welchem Sinn hörst du eine Glocke läuten?",
+          "Hören, mit den Ohren",
+          "Schmecken, mit der Zunge",
+          "Riechen, mit der Nase",
+          "Töne kommen durch die Luft in deine Ohren. Das ist dein Hörsinn."
+        ],
+        [
+          "Welcher Sinn sagt dir, dass eine Zitrone sauer ist?",
+          "Schmecken, mit der Zunge",
+          "Hören, mit den Ohren",
+          "Sehen, mit den Augen",
+          "Auf deiner Zunge sind winzige Geschmacksknospen. Sie sagen dir, ob etwas süß, sauer, salzig oder bitter ist."
+        ],
+        [
+          "Mit welchem Körperteil riechst du?",
+          "mit der Nase",
+          "mit dem Ellenbogen",
+          "mit dem Knie",
+          "Gerüche schweben in der Luft. Wenn du durch die Nase einatmest, erkennt sie, was es ist."
+        ],
+        [
+          "Mit welchem Sinn siehst du nachts die Sterne?",
+          "Sehen, mit den Augen",
+          "Riechen, mit der Nase",
+          "Schmecken, mit der Zunge",
+          "Das Licht der Sterne kommt in deine Augen. Das ist dein Sehsinn."
+        ],
+        [
+          "Welcher Sinn sagt dir, dass ein Teddy weich ist?",
+          "Tasten, mit der Haut",
+          "Hören, mit den Ohren",
+          "Riechen, mit der Nase",
+          "Wenn du den Teddy streichelst, spürt deine Haut, wie weich er ist. Das ist dein Tastsinn."
+        ],
+        [
+          "Wie viele Sinne haben Menschen?",
+          "fünf",
+          "zwei",
+          "zehn",
+          "Wir haben fünf Sinne: Sehen, Hören, Riechen, Schmecken und Tasten."
+        ],
+        [
+          "Mit welchem Körperteil schmeckst du?",
+          "mit der Zunge",
+          "mit dem Ohr",
+          "mit den Haaren",
+          "Deine Zunge ist voller Geschmacksknospen. Sie sagen dir, wie dein Essen schmeckt."
+        ],
+        [
+          "Ein Kuchen backt im Ofen. Welcher Sinn verrät es dir, bevor du ihn siehst?",
+          "Riechen, mit der Nase",
+          "Tasten, mit der Haut",
+          "Schmecken, mit der Zunge",
+          "Der Duft des Kuchens zieht durch die Luft bis zu deiner Nase, sogar aus einem anderen Zimmer."
+        ],
+        [
+          "Mit welchem Körperteil siehst du?",
+          "mit den Augen",
+          "mit den Füßen",
+          "mit den Zähnen",
+          "Deine Augen nehmen Licht auf, und dein Gehirn macht daraus Bilder."
+        ],
+        [
+          "Was sagt dir deine Haut, wenn du Schnee berührst?",
+          "dass er kalt ist",
+          "dass er laut ist",
+          "dass er süß ist",
+          "Deine Haut spürt warm und kalt. Schnee fühlt sich kalt an, weil er gefrorenes Wasser ist."
+        ]
+      ],
+      "fr": [
+        [
+          "Quel sens utilises-tu pour entendre une cloche sonner ?",
+          "l’ouïe, avec les oreilles",
+          "le goût, avec la langue",
+          "l’odorat, avec le nez",
+          "Les sons voyagent dans l’air jusqu’à tes oreilles. C’est le sens de l’ouïe."
+        ],
+        [
+          "Quel sens te dit qu’un citron est acide ?",
+          "le goût, avec la langue",
+          "l’ouïe, avec les oreilles",
+          "la vue, avec les yeux",
+          "Ta langue a de minuscules papilles. Elles te disent si un aliment est sucré, acide, salé ou amer."
+        ],
+        [
+          "Avec quelle partie du corps sens-tu les odeurs ?",
+          "le nez",
+          "le coude",
+          "le genou",
+          "Les odeurs flottent dans l’air. Quand tu respires par le nez, il reconnaît ce que c’est."
+        ],
+        [
+          "Quel sens utilises-tu pour voir les étoiles la nuit ?",
+          "la vue, avec les yeux",
+          "l’odorat, avec le nez",
+          "le goût, avec la langue",
+          "La lumière des étoiles entre dans tes yeux. C’est le sens de la vue."
+        ],
+        [
+          "Quel sens te dit qu’un ours en peluche est doux ?",
+          "le toucher, avec la peau",
+          "l’ouïe, avec les oreilles",
+          "l’odorat, avec le nez",
+          "Quand tu caresses la peluche, ta peau sent qu’elle est douce. C’est le sens du toucher."
+        ],
+        [
+          "Combien de sens les humains ont-ils ?",
+          "cinq",
+          "deux",
+          "dix",
+          "Nous avons cinq sens : la vue, l’ouïe, l’odorat, le goût et le toucher."
+        ],
+        [
+          "Avec quelle partie du corps goûtes-tu ?",
+          "la langue",
+          "l’oreille",
+          "les cheveux",
+          "Ta langue est couverte de papilles. Elles te disent quel goût a ta nourriture."
+        ],
+        [
+          "Un gâteau cuit dans le four. Quel sens te le dit avant que tu le voies ?",
+          "l’odorat, avec le nez",
+          "le toucher, avec la peau",
+          "le goût, avec la langue",
+          "L’odeur du gâteau voyage dans l’air jusqu’à ton nez, même depuis une autre pièce."
+        ],
+        [
+          "Avec quelle partie du corps vois-tu ?",
+          "les yeux",
+          "les pieds",
+          "les dents",
+          "Tes yeux reçoivent la lumière, et ton cerveau la transforme en images."
+        ],
+        [
+          "Que te dit ta peau quand tu touches la neige ?",
+          "qu’elle est froide",
+          "qu’elle est bruyante",
+          "qu’elle est sucrée",
+          "Ta peau sent le chaud et le froid. La neige est froide parce que c’est de l’eau gelée."
+        ]
+      ],
+      "yo": [
+        [
+          "Ìmọ̀lára wo ni o fi ń gbọ́ ìró agogo?",
+          "ìgbọ́ràn, pẹ̀lú etí rẹ",
+          "ìtọ́wò, pẹ̀lú ahọ́n rẹ",
+          "ìgbóòórùn, pẹ̀lú imú rẹ",
+          "Ohùn ń rìn gba inú afẹ́fẹ́ wọ etí rẹ. Ìyẹn ni ìmọ̀lára ìgbọ́ràn."
+        ],
+        [
+          "Ìmọ̀lára wo ló ń sọ fún ọ pé lẹ́mọ́ọ̀nù kan lẹ́nu?",
+          "ìtọ́wò, pẹ̀lú ahọ́n rẹ",
+          "ìgbọ́ràn, pẹ̀lú etí rẹ",
+          "ìríran, pẹ̀lú ojú rẹ",
+          "Ahọ́n rẹ ní àwọn kóńkó kéékèèké tí ń tọ́ nǹkan wò. Wọ́n ń sọ fún ọ bóyá oúnjẹ dùn, kan, ní iyọ̀ tàbí korò."
+        ],
+        [
+          "Ẹ̀yà ara wo ni o fi ń gbóòórùn?",
+          "imú rẹ",
+          "ìgbọ̀nwọ́ rẹ",
+          "orúnkún rẹ",
+          "Òórùn ń fò nínú afẹ́fẹ́. Nígbà tí o bá fi imú mí sínú, imú á mọ ohun tí òórùn náà jẹ́."
+        ],
+        [
+          "Ìmọ̀lára wo ni o fi ń rí àwọn ìràwọ̀ lóru?",
+          "ìríran, pẹ̀lú ojú rẹ",
+          "ìgbóòórùn, pẹ̀lú imú rẹ",
+          "ìtọ́wò, pẹ̀lú ahọ́n rẹ",
+          "Ìmọ́lẹ̀ ìràwọ̀ ń wọ ojú rẹ. Ìyẹn ni ìmọ̀lára ìríran."
+        ],
+        [
+          "Ìmọ̀lára wo ló ń sọ fún ọ pé ọmọlangidi bíà rọ̀?",
+          "ìfọwọ́kàn, pẹ̀lú awọ ara rẹ",
+          "ìgbọ́ràn, pẹ̀lú etí rẹ",
+          "ìgbóòórùn, pẹ̀lú imú rẹ",
+          "Nígbà tí o bá ń fọwọ́ pa ọmọlangidi náà, awọ ara rẹ á mọ̀ pé ó rọ̀. Ìyẹn ni ìmọ̀lára ìfọwọ́kàn."
+        ],
+        [
+          "Ìmọ̀lára mélòó ni ènìyàn ní?",
+          "márùn-ún",
+          "méjì",
+          "mẹ́wàá",
+          "A ní ìmọ̀lára márùn-ún: ìríran, ìgbọ́ràn, ìgbóòórùn, ìtọ́wò àti ìfọwọ́kàn."
+        ],
+        [
+          "Ẹ̀yà ara wo ni o fi ń tọ́ nǹkan wò?",
+          "ahọ́n rẹ",
+          "etí rẹ",
+          "irun rẹ",
+          "Àwọn kóńkó tí ń tọ́ nǹkan wò bo ahọ́n rẹ. Wọ́n ń sọ bí oúnjẹ rẹ ṣe dùn sí."
+        ],
+        [
+          "Kéèkì ń dín nínú ààrò. Ìmọ̀lára wo ló máa sọ fún ọ kí o tó rí i?",
+          "ìgbóòórùn, pẹ̀lú imú rẹ",
+          "ìfọwọ́kàn, pẹ̀lú awọ ara rẹ",
+          "ìtọ́wò, pẹ̀lú ahọ́n rẹ",
+          "Òórùn kéèkì máa ń fò gba inú afẹ́fẹ́ dé imú rẹ, kódà láti yàrá mìíràn."
+        ],
+        [
+          "Ẹ̀yà ara wo ni o fi ń ríran?",
+          "ojú rẹ",
+          "ẹsẹ̀ rẹ",
+          "eyín rẹ",
+          "Ojú rẹ ń gba ìmọ́lẹ̀ wọlé, ọpọlọ rẹ sì ń sọ ọ́ di àwòrán."
+        ],
+        [
+          "Kí ni awọ ara rẹ ń sọ fún ọ nígbà tí o bá fọwọ́ kan yìnyín?",
+          "pé ó tutù",
+          "pé ó pariwo",
+          "pé ó dùn",
+          "Awọ ara rẹ mọ ohun tó gbóná àti ohun tó tutù. Yìnyín tutù nítorí omi tó dì ni."
+        ]
+      ]
+    }
+  },
+  "emoji": "sparkles",
+  "example": {
+    "i": 0,
+    "q_en": "Which sense do you use to hear a bell ring?",
+    "answer_en": "hearing, with your ears",
+    "why_en": "Sounds travel through the air into your ears. That is your sense of hearing.",
+    "q_de": "Mit welchem Sinn hörst du eine Glocke läuten?",
+    "answer_de": "Hören, mit den Ohren",
+    "why_de": "Töne kommen durch die Luft in deine Ohren. Das ist dein Hörsinn.",
+    "q_fr": "Quel sens utilises-tu pour entendre une cloche sonner ?",
+    "answer_fr": "l’ouïe, avec les oreilles",
+    "why_fr": "Les sons voyagent dans l’air jusqu’à tes oreilles. C’est le sens de l’ouïe.",
+    "q_yo": "Ìmọ̀lára wo ni o fi ń gbọ́ ìró agogo?",
+    "answer_yo": "ìgbọ́ràn, pẹ̀lú etí rẹ",
+    "why_yo": "Ohùn ń rìn gba inú afẹ́fẹ́ wọ etí rẹ. Ìyẹn ni ìmọ̀lára ìgbọ́ràn."
+  },
+  "text": {
+    "en": {
+      "title": "The five senses",
+      "teach": "We have five senses: sight (eyes), hearing (ears), smell (nose), taste (tongue) and touch (skin).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Die fünf Sinne",
+      "teach": "Wir haben fünf Sinne: Sehen (Augen), Hören (Ohren), Riechen (Nase), Schmecken (Zunge) und Tasten (Haut).",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les cinq sens",
+      "teach": "Nous avons cinq sens : la vue (les yeux), l’ouïe (les oreilles), l’odorat (le nez), le goût (la langue) et le toucher (la peau).",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Àwọn ìmọ̀lára márààrún",
+      "teach": "A ní ìmọ̀lára márùn-ún: ìríran (ojú), ìgbọ́ràn (etí), ìgbóòórùn (imú), ìtọ́wò (ahọ́n) àti ìfọwọ́kàn (awọ ara).",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

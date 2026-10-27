@@ -1,0 +1,111 @@
+{
+  "id": "fr-weather",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 1,
+  "order": 8,
+  "only": "fr",
+  "params": {
+    "emojis": [
+      "rain",
+      "snow",
+      "sun",
+      "desert",
+      "scarf",
+      "umbrella",
+      "snowflake",
+      "beach",
+      "tree",
+      "seedling"
+    ],
+    "bank": {
+      "fr": [
+        [
+          "Quel temps fait-il ?",
+          "il pleut",
+          "il neige",
+          "il fait chaud",
+          "Des gouttes d’eau tombent du ciel : il pleut."
+        ],
+        [
+          "Quel temps fait-il ?",
+          "il neige",
+          "il fait chaud",
+          "il fait beau",
+          "Des flocons blancs tombent du ciel : il neige."
+        ],
+        [
+          "Quel temps fait-il ?",
+          "il fait beau",
+          "il pleut",
+          "il neige",
+          "Le soleil brille et le ciel est bleu : il fait beau."
+        ],
+        [
+          "Dans le désert, le soleil tape fort. Quel temps fait-il ?",
+          "il fait chaud",
+          "il fait froid",
+          "il neige",
+          "Quand le soleil tape fort, il fait chaud."
+        ],
+        [
+          "On met une écharpe et des gants. Quel temps fait-il ?",
+          "il fait froid",
+          "il fait chaud",
+          "il fait très chaud",
+          "On s’habille bien chaudement quand il fait froid."
+        ],
+        [
+          "Oh ! Mon parapluie s’envole ! Pourquoi ?",
+          "il y a du vent",
+          "il fait chaud",
+          "il neige",
+          "Le vent souffle fort : il peut faire s’envoler un parapluie."
+        ],
+        [
+          "Quelle est la saison la plus froide ?",
+          "l’hiver",
+          "l’été",
+          "le printemps",
+          "L’hiver est la saison la plus froide. Parfois, il neige."
+        ],
+        [
+          "Quelle est la saison des grandes vacances et de la plage ?",
+          "l’été",
+          "l’hiver",
+          "l’automne",
+          "En été, il fait chaud : on va à la plage."
+        ],
+        [
+          "En quelle saison les feuilles tombent-elles des arbres ?",
+          "en automne",
+          "en été",
+          "au printemps",
+          "En automne, les feuilles jaunissent et tombent."
+        ],
+        [
+          "En quelle saison les fleurs commencent-elles à pousser ?",
+          "au printemps",
+          "en hiver",
+          "en automne",
+          "Au printemps, il fait plus doux et les fleurs poussent."
+        ]
+      ]
+    }
+  },
+  "emoji": "sun-cloud",
+  "example": {
+    "i": 0,
+    "q_fr": "Quel temps fait-il ?",
+    "answer_fr": "il pleut",
+    "why_fr": "Des gouttes d’eau tombent du ciel : il pleut."
+  },
+  "text": {
+    "fr": {
+      "title": "Le temps et les saisons",
+      "teach": "Pour parler du temps, on dit : il pleut, il neige, il fait beau, il fait chaud, il fait froid, il y a du vent. Les quatre saisons sont le printemps, l’été, l’automne et l’hiver.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    }
+  }
+}

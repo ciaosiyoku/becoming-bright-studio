@@ -6,7 +6,7 @@ import { useLang, useT } from '@/i18n'
 import { VisualView } from '@/lesson/VisualView'
 import { Emoji } from '@/shared/Emoji'
 import { SKILLS, skillById, skillText } from '@/skills/index'
-import { type Card, makeCards } from './pairs'
+import { type Card, hasCards, makeCards } from './pairs'
 import './Memory.css'
 
 /**
@@ -19,7 +19,7 @@ export function MemoryGame() {
   const lang = useLang()
   const { state } = useStore()
   const child = activeChild(state)!
-  const learnt = SKILLS.filter((s) => child.skills[s.id]?.mastered)
+  const learnt = SKILLS.filter((s) => child.skills[s.id]?.mastered && hasCards(s, lang))
   const [skill, setSkill] = useState<string | null>(null)
   if (skill) return <Board key={skill} skill={skill} onBack={() => setSkill(null)} />
   return (

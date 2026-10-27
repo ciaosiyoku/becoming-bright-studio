@@ -1,0 +1,111 @@
+{
+  "id": "fr-sentences",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 3,
+  "order": 12,
+  "only": "fr",
+  "params": {
+    "emojis": [
+      "fruit-apple",
+      "girl",
+      "map",
+      "abacus",
+      "party",
+      "animal-giraffe",
+      "thermometer",
+      "moon",
+      "umbrella",
+      "bus"
+    ],
+    "bank": {
+      "fr": [
+        [
+          "Quel mot complète la phrase ? « Je mange une … »",
+          "pomme",
+          "maison",
+          "chaise",
+          "On mange une pomme. On ne mange pas une maison !"
+        ],
+        [
+          "Quel mot sert à demander une personne ?",
+          "Qui ?",
+          "Où ?",
+          "Combien ?",
+          "« Qui ? » demande une personne : Qui est là ? C’est Léa."
+        ],
+        [
+          "Quel mot sert à demander un endroit ?",
+          "Où ?",
+          "Quand ?",
+          "Qui ?",
+          "« Où ? » demande un endroit : Où est ton sac ? Dans ta chambre."
+        ],
+        [
+          "Quel mot manque ? « ___ de pommes y a-t-il ? »",
+          "Combien",
+          "Qui",
+          "Où",
+          "« Combien ? » demande un nombre : Combien de pommes ? Trois."
+        ],
+        [
+          "Quel mot manque ? « ___ est ton anniversaire ? – En juin. »",
+          "Quand",
+          "Combien",
+          "Qui",
+          "« Quand ? » demande un moment : Quand ? En juin."
+        ],
+        [
+          "Quel est le contraire de « grand » ?",
+          "petit",
+          "rouge",
+          "content",
+          "Le contraire de grand, c’est petit : une girafe est grande, une souris est petite."
+        ],
+        [
+          "Quel est le contraire de « chaud » ?",
+          "froid",
+          "beau",
+          "grand",
+          "Le contraire de chaud, c’est froid : la soupe est chaude, la glace est froide."
+        ],
+        [
+          "Quel est le contraire de « jour » ?",
+          "nuit",
+          "soleil",
+          "lundi",
+          "Le contraire du jour, c’est la nuit."
+        ],
+        [
+          "Quel mot complète la phrase ? « Il pleut, je prends mon … »",
+          "parapluie",
+          "maillot de bain",
+          "gâteau",
+          "Quand il pleut, on prend un parapluie pour rester au sec."
+        ],
+        [
+          "Quelle phrase est bien écrite ?",
+          "Le bus est jaune.",
+          "Bus le jaune est.",
+          "Jaune le est bus.",
+          "Les mots sont dans le bon ordre : Le bus est jaune."
+        ]
+      ]
+    }
+  },
+  "emoji": "memo",
+  "example": {
+    "i": 0,
+    "q_fr": "Quel mot complète la phrase ? « Je mange une … »",
+    "answer_fr": "pomme",
+    "why_fr": "On mange une pomme. On ne mange pas une maison !"
+  },
+  "text": {
+    "fr": {
+      "title": "Questions et phrases",
+      "teach": "Pour poser une question : Qui ? (une personne), Où ? (un endroit), Quand ? (un moment), Combien ? (un nombre). Les contraires : grand et petit, chaud et froid.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    }
+  }
+}

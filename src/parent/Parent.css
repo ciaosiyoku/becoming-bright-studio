@@ -98,3 +98,50 @@ button.round {
   padding: 0;
   border-radius: 50%;
 }
+
+/* The learning report: today, 7 or 30 days; a few numbers, time per area, questions to practise again. */
+.report h3 {
+  font-size: 1.1rem;
+  margin-top: 0.4rem;
+}
+.report-periods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.report-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 0.6rem;
+  margin: 0;
+}
+.report-stats div {
+  background: var(--sunken);
+  border-radius: var(--radius-s);
+  padding: 0.6rem 0.8rem;
+}
+.report-stats dt {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.report-stats dd {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.report-time {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 0.3rem 1rem;
+}
+.report-time li {
+  display: flex;
+  justify-content: space-between;
+}
+.report-mail {
+  justify-self: start;
+}

@@ -1,0 +1,353 @@
+{
+  "id": "sci-light",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 3,
+  "order": 13,
+  "params": {
+    "emojis": [
+      "moon",
+      "candle",
+      "books",
+      "tree",
+      "house",
+      "locked",
+      "sun",
+      "sparkles",
+      "warning",
+      "teddy"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Does the Moon make its own light?",
+          "no, it reflects light from the Sun",
+          "yes, it glows like a lamp",
+          "yes, it is on fire",
+          "The Moon shines because sunlight bounces off it. It makes no light of its own."
+        ],
+        [
+          "Which of these is a light source?",
+          "a candle flame",
+          "a mirror",
+          "the Moon",
+          "A flame makes its own light. Mirrors and the Moon only reflect light."
+        ],
+        [
+          "What do we need to be able to see things?",
+          "light",
+          "a loud noise",
+          "warm air",
+          "We see when light goes into our eyes. In total darkness we cannot see anything."
+        ],
+        [
+          "How is a shadow made?",
+          "something blocks the light",
+          "the ground gets cold",
+          "the Sun paints it",
+          "Light travels in straight lines. When an object blocks it, a dark shadow forms behind the object."
+        ],
+        [
+          "Window glass is transparent. What does that mean?",
+          "light passes through it, so you can see through it",
+          "it blocks all the light",
+          "it makes its own light",
+          "Transparent things, like clear glass, let light pass straight through."
+        ],
+        [
+          "Which of these is opaque (you cannot see through it)?",
+          "a wooden door",
+          "a clear glass window",
+          "a clear plastic bottle",
+          "Wood blocks all the light, so you cannot see through it. It is opaque."
+        ],
+        [
+          "When is your shadow longest on a sunny day?",
+          "when the Sun is low in the sky",
+          "when the Sun is high in the sky",
+          "when there is no Sun at all",
+          "When the Sun is low, in the morning or evening, its light comes from the side and makes a long shadow."
+        ],
+        [
+          "What does a mirror do with light?",
+          "it bounces the light back",
+          "it makes its own light",
+          "it swallows all the light",
+          "A mirror is smooth and shiny, so it reflects light. That is how you see yourself in it."
+        ],
+        [
+          "Why must you never look straight at the Sun?",
+          "its light is so strong it can hurt your eyes",
+          "it will make the Sun go out",
+          "it will turn the sky green",
+          "The Sun is very bright. Looking at it, even for a short time, can damage your eyes."
+        ],
+        [
+          "You move a torch closer to a teddy. What happens to the teddy’s shadow on the wall?",
+          "it gets bigger",
+          "it gets smaller",
+          "it turns red",
+          "The closer the light is to the teddy, the more light the teddy blocks, so the shadow grows."
+        ]
+      ],
+      "de": [
+        [
+          "Macht der Mond eigenes Licht?",
+          "nein, er wirft das Licht der Sonne zurück",
+          "ja, er leuchtet wie eine Lampe",
+          "ja, er brennt",
+          "Der Mond scheint, weil Sonnenlicht von ihm zurückgeworfen wird. Er macht kein eigenes Licht."
+        ],
+        [
+          "Was davon ist eine Lichtquelle?",
+          "eine Kerzenflamme",
+          "ein Spiegel",
+          "der Mond",
+          "Eine Flamme macht eigenes Licht. Spiegel und Mond werfen Licht nur zurück."
+        ],
+        [
+          "Was brauchen wir, um Dinge sehen zu können?",
+          "Licht",
+          "ein lautes Geräusch",
+          "warme Luft",
+          "Wir sehen, wenn Licht in unsere Augen fällt. In völliger Dunkelheit sehen wir nichts."
+        ],
+        [
+          "Wie entsteht ein Schatten?",
+          "etwas hält das Licht auf",
+          "der Boden wird kalt",
+          "die Sonne malt ihn",
+          "Licht breitet sich geradlinig aus. Wenn ein Gegenstand es aufhält, entsteht dahinter ein dunkler Schatten."
+        ],
+        [
+          "Fensterglas ist durchsichtig. Was bedeutet das?",
+          "Licht geht hindurch, darum kann man hindurchsehen",
+          "es hält alles Licht auf",
+          "es macht eigenes Licht",
+          "Durchsichtige Dinge wie klares Glas lassen das Licht einfach hindurch."
+        ],
+        [
+          "Was davon ist undurchsichtig (man kann nicht hindurchsehen)?",
+          "eine Holztür",
+          "ein klares Glasfenster",
+          "eine klare Plastikflasche",
+          "Holz hält alles Licht auf, darum kann man nicht hindurchsehen. Es ist undurchsichtig."
+        ],
+        [
+          "Wann ist dein Schatten an einem sonnigen Tag am längsten?",
+          "wenn die Sonne tief am Himmel steht",
+          "wenn die Sonne hoch am Himmel steht",
+          "wenn gar keine Sonne da ist",
+          "Steht die Sonne tief, morgens oder abends, kommt ihr Licht von der Seite und macht einen langen Schatten."
+        ],
+        [
+          "Was macht ein Spiegel mit Licht?",
+          "er wirft das Licht zurück",
+          "er macht eigenes Licht",
+          "er verschluckt alles Licht",
+          "Ein Spiegel ist glatt und glänzend, darum wirft er Licht zurück. So siehst du dich darin."
+        ],
+        [
+          "Warum darfst du nie direkt in die Sonne schauen?",
+          "ihr Licht ist so stark, dass es deinen Augen schadet",
+          "dann geht die Sonne aus",
+          "dann wird der Himmel grün",
+          "Die Sonne ist sehr hell. Schon kurz hineinzuschauen kann deine Augen verletzen."
+        ],
+        [
+          "Du bewegst eine Taschenlampe näher an einen Teddy. Was passiert mit dem Schatten des Teddys an der Wand?",
+          "er wird größer",
+          "er wird kleiner",
+          "er wird rot",
+          "Je näher das Licht am Teddy ist, desto mehr Licht hält der Teddy auf. Darum wächst der Schatten."
+        ]
+      ],
+      "fr": [
+        [
+          "La Lune fait-elle sa propre lumière ?",
+          "non, elle renvoie la lumière du Soleil",
+          "oui, elle brille comme une lampe",
+          "oui, elle est en feu",
+          "La Lune brille parce que la lumière du Soleil rebondit sur elle. Elle ne fait aucune lumière."
+        ],
+        [
+          "Laquelle est une source de lumière ?",
+          "la flamme d’une bougie",
+          "un miroir",
+          "la Lune",
+          "Une flamme fait sa propre lumière. Les miroirs et la Lune ne font que la renvoyer."
+        ],
+        [
+          "De quoi avons-nous besoin pour voir les choses ?",
+          "de lumière",
+          "d’un bruit fort",
+          "d’air chaud",
+          "Nous voyons quand de la lumière entre dans nos yeux. Dans le noir complet, on ne voit rien."
+        ],
+        [
+          "Comment se forme une ombre ?",
+          "quelque chose bloque la lumière",
+          "le sol devient froid",
+          "le Soleil la dessine",
+          "La lumière va en ligne droite. Quand un objet la bloque, une ombre sombre se forme derrière lui."
+        ],
+        [
+          "La vitre d’une fenêtre est transparente. Qu’est-ce que cela veut dire ?",
+          "la lumière la traverse, donc on voit à travers",
+          "elle bloque toute la lumière",
+          "elle fait sa propre lumière",
+          "Les objets transparents, comme le verre clair, laissent passer la lumière."
+        ],
+        [
+          "Lequel est opaque (on ne voit pas à travers) ?",
+          "une porte en bois",
+          "une fenêtre en verre clair",
+          "une bouteille en plastique transparent",
+          "Le bois bloque toute la lumière : on ne voit pas à travers. Il est opaque."
+        ],
+        [
+          "Quand ton ombre est-elle la plus longue par une journée de soleil ?",
+          "quand le Soleil est bas dans le ciel",
+          "quand le Soleil est haut dans le ciel",
+          "quand il n’y a pas de Soleil du tout",
+          "Quand le Soleil est bas, le matin ou le soir, sa lumière arrive de côté et fait une longue ombre."
+        ],
+        [
+          "Que fait un miroir avec la lumière ?",
+          "il renvoie la lumière",
+          "il fait sa propre lumière",
+          "il avale toute la lumière",
+          "Un miroir est lisse et brillant : il renvoie la lumière. C’est pour ça que tu t’y vois."
+        ],
+        [
+          "Pourquoi ne faut-il jamais regarder le Soleil en face ?",
+          "sa lumière est si forte qu’elle peut abîmer tes yeux",
+          "cela éteindrait le Soleil",
+          "le ciel deviendrait vert",
+          "Le Soleil est très lumineux. Le regarder, même un court instant, peut abîmer tes yeux."
+        ],
+        [
+          "Tu approches une lampe de poche d’un nounours. Que devient son ombre sur le mur ?",
+          "elle devient plus grande",
+          "elle devient plus petite",
+          "elle devient rouge",
+          "Plus la lumière est proche du nounours, plus il bloque de lumière : son ombre grandit."
+        ]
+      ],
+      "yo": [
+        [
+          "Ṣé òṣùpá ń ṣe ìmọ́lẹ̀ tirẹ̀?",
+          "rárá, ó ń dá ìmọ́lẹ̀ oòrùn padà",
+          "bẹ́ẹ̀ni, ó ń tàn bí àtùpà",
+          "bẹ́ẹ̀ni, iná ń jó lára rẹ̀",
+          "Òṣùpá ń tàn nítorí pé ìmọ́lẹ̀ oòrùn ń tàn lù ú, ó sì ń padà wá. Kò ní ìmọ́lẹ̀ tirẹ̀."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni orísun ìmọ́lẹ̀?",
+          "iná àbẹ́là",
+          "dígí",
+          "òṣùpá",
+          "Iná ń ṣe ìmọ́lẹ̀ tirẹ̀. Dígí àti òṣùpá kàn ń dá ìmọ́lẹ̀ padà ni."
+        ],
+        [
+          "Kí la nílò kí a tó lè rí nǹkan?",
+          "ìmọ́lẹ̀",
+          "ariwo ńlá",
+          "afẹ́fẹ́ gbígbóná",
+          "A máa ń ríran nígbà tí ìmọ́lẹ̀ bá wọ ojú wa. Nínú òkùnkùn biribiri, a kò lè rí nǹkankan."
+        ],
+        [
+          "Báwo ni òjìji ṣe ń wáyé?",
+          "nǹkan kan dí ìmọ́lẹ̀",
+          "ilẹ̀ di tútù",
+          "oòrùn ló yà á",
+          "Ìmọ́lẹ̀ ń rìn ní ọ̀nà tààrà. Tí nǹkan bá dí i, òjìji dúdú á hàn lẹ́yìn nǹkan náà."
+        ],
+        [
+          "Gíláàsì fèrèsé ń jẹ́ kí ìmọ́lẹ̀ kọjá. Kí ni èyí túmọ̀ sí?",
+          "ìmọ́lẹ̀ ń gba inú rẹ̀ kọjá, nítorí náà a lè ríran kọjá",
+          "ó ń dí gbogbo ìmọ́lẹ̀",
+          "ó ń ṣe ìmọ́lẹ̀ tirẹ̀",
+          "Àwọn nǹkan bí gíláàsì tó mọ́ máa ń jẹ́ kí ìmọ́lẹ̀ gba inú wọn kọjá tààrà."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni a kò lè ríran kọjá?",
+          "ilẹ̀kùn onígi",
+          "fèrèsé gíláàsì tó mọ́",
+          "ìgò ike tó mọ́",
+          "Igi ń dí gbogbo ìmọ́lẹ̀, nítorí náà a kò lè ríran kọjá nínú rẹ̀."
+        ],
+        [
+          "Ìgbà wo ni òjìji rẹ máa ń gùn jùlọ ní ọjọ́ tí oòrùn mú?",
+          "nígbà tí oòrùn bá wà nísàlẹ̀ lójú ọ̀run",
+          "nígbà tí oòrùn bá wà lókè lójú ọ̀run",
+          "nígbà tí kò sí oòrùn rárá",
+          "Nígbà tí oòrùn bá wà nísàlẹ̀, ní àárọ̀ tàbí ní ìrọ̀lẹ́, ìmọ́lẹ̀ rẹ̀ ń wá láti ẹ̀gbẹ́, ó sì ń ṣe òjìji gígùn."
+        ],
+        [
+          "Kí ni dígí ń ṣe sí ìmọ́lẹ̀?",
+          "ó ń dá ìmọ́lẹ̀ padà",
+          "ó ń ṣe ìmọ́lẹ̀ tirẹ̀",
+          "ó ń gbé gbogbo ìmọ́lẹ̀ mì",
+          "Dígí dán, ó sì ń kọ mànà, nítorí náà ó ń dá ìmọ́lẹ̀ padà. Ìdí nìyẹn tí o fi ń rí ara rẹ nínú rẹ̀."
+        ],
+        [
+          "Kí ló dé tí o kò gbọdọ̀ wo oòrùn tààrà láéláé?",
+          "ìmọ́lẹ̀ rẹ̀ lágbára débi pé ó lè ba ojú rẹ jẹ́",
+          "yóò mú oòrùn kú",
+          "yóò sọ ojú ọ̀run di àwọ̀ ewé",
+          "Oòrùn mọ́lẹ̀ gan-an. Wíwò ó, kódà fún ìgbà díẹ̀, lè ba ojú rẹ jẹ́."
+        ],
+        [
+          "O sún tọ́ọ̀ṣì mọ́ ọmọlangidi bíà. Kí ló ṣẹlẹ̀ sí òjìji rẹ̀ lára ògiri?",
+          "ó tóbi sí i",
+          "ó kéré sí i",
+          "ó di pupa",
+          "Bí ìmọ́lẹ̀ bá ṣe sún mọ́ ọmọlangidi náà tó, bẹ́ẹ̀ ni ó ṣe ń dí ìmọ́lẹ̀ púpọ̀ sí i, nítorí náà òjìji rẹ̀ ń tóbi sí i."
+        ]
+      ]
+    }
+  },
+  "emoji": "light",
+  "example": {
+    "i": 0,
+    "q_en": "Does the Moon make its own light?",
+    "answer_en": "no, it reflects light from the Sun",
+    "why_en": "The Moon shines because sunlight bounces off it. It makes no light of its own.",
+    "q_de": "Macht der Mond eigenes Licht?",
+    "answer_de": "nein, er wirft das Licht der Sonne zurück",
+    "why_de": "Der Mond scheint, weil Sonnenlicht von ihm zurückgeworfen wird. Er macht kein eigenes Licht.",
+    "q_fr": "La Lune fait-elle sa propre lumière ?",
+    "answer_fr": "non, elle renvoie la lumière du Soleil",
+    "why_fr": "La Lune brille parce que la lumière du Soleil rebondit sur elle. Elle ne fait aucune lumière.",
+    "q_yo": "Ṣé òṣùpá ń ṣe ìmọ́lẹ̀ tirẹ̀?",
+    "answer_yo": "rárá, ó ń dá ìmọ́lẹ̀ oòrùn padà",
+    "why_yo": "Òṣùpá ń tàn nítorí pé ìmọ́lẹ̀ oòrùn ń tàn lù ú, ó sì ń padà wá. Kò ní ìmọ́lẹ̀ tirẹ̀."
+  },
+  "text": {
+    "en": {
+      "title": "Light and shadows",
+      "teach": "Light sources, like the Sun and a candle flame, make their own light. The Moon and mirrors only reflect light. When an opaque object blocks light, it makes a shadow.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Licht und Schatten",
+      "teach": "Lichtquellen wie die Sonne oder eine Kerzenflamme machen eigenes Licht. Der Mond und Spiegel werfen Licht nur zurück. Wenn ein undurchsichtiger Gegenstand das Licht aufhält, entsteht ein Schatten.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "La lumière et les ombres",
+      "teach": "Les sources de lumière, comme le Soleil ou la flamme d’une bougie, font leur propre lumière. La Lune et les miroirs ne font que la renvoyer. Quand un objet opaque bloque la lumière, il fait une ombre.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ìmọ́lẹ̀ àti òjìji",
+      "teach": "Orísun ìmọ́lẹ̀, bí oòrùn àti iná àbẹ́là, máa ń ṣe ìmọ́lẹ̀ tiwọn. Òṣùpá àti dígí kàn ń dá ìmọ́lẹ̀ padà ni. Tí ohun tí ìmọ́lẹ̀ kò lè gbà kọjá bá dí ìmọ́lẹ̀, ó máa ń ṣe òjìji.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

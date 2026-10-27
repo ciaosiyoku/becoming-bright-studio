@@ -1,0 +1,111 @@
+{
+  "id": "fr-plurals",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 3,
+  "order": 11,
+  "only": "fr",
+  "params": {
+    "emojis": [
+      "paws",
+      "animal-horse",
+      "cake",
+      "game",
+      "star",
+      "animal-zebra",
+      "animal-parrot",
+      "bus",
+      "gift",
+      "girl"
+    ],
+    "bank": {
+      "fr": [
+        [
+          "Quel est le pluriel de « un chat » ?",
+          "des chats",
+          "des chat",
+          "des chatx",
+          "On ajoute un s : un chat, des chats."
+        ],
+        [
+          "Quel est le pluriel de « un cheval » ?",
+          "des chevaux",
+          "des chevals",
+          "des cheval",
+          "Les mots en -al deviennent -aux : un cheval, des chevaux."
+        ],
+        [
+          "Quel est le pluriel de « un gâteau » ?",
+          "des gâteaux",
+          "des gâteaus",
+          "des gâteau",
+          "Les mots en -eau prennent un x : un gâteau, des gâteaux."
+        ],
+        [
+          "Quel est le pluriel de « un jeu » ?",
+          "des jeux",
+          "des jeus",
+          "des jeu",
+          "Les mots en -eu prennent un x : un jeu, des jeux."
+        ],
+        [
+          "Quel est le pluriel de « une étoile » ?",
+          "des étoiles",
+          "des étoilex",
+          "des étoile",
+          "On ajoute un s : une étoile, des étoiles."
+        ],
+        [
+          "Quel est le pluriel de « un animal » ?",
+          "des animaux",
+          "des animals",
+          "des animal",
+          "Les mots en -al deviennent -aux : un animal, des animaux."
+        ],
+        [
+          "Quel est le pluriel de « un oiseau » ?",
+          "des oiseaux",
+          "des oiseaus",
+          "des oiseau",
+          "Les mots en -eau prennent un x : un oiseau, des oiseaux."
+        ],
+        [
+          "Quel est le pluriel de « un bus » ?",
+          "des bus",
+          "des buss",
+          "des busx",
+          "Un mot qui finit déjà par s ne change pas : un bus, des bus."
+        ],
+        [
+          "Quel est le pluriel de « un cadeau » ?",
+          "des cadeaux",
+          "des cadeaus",
+          "des cadeau",
+          "Les mots en -eau prennent un x : un cadeau, des cadeaux."
+        ],
+        [
+          "Quel est le pluriel de « un œil » ?",
+          "des yeux",
+          "des œils",
+          "des œilx",
+          "Attention, c’est un mot spécial : un œil, des yeux."
+        ]
+      ]
+    }
+  },
+  "emoji": "cake",
+  "example": {
+    "i": 0,
+    "q_fr": "Quel est le pluriel de « un chat » ?",
+    "answer_fr": "des chats",
+    "why_fr": "On ajoute un s : un chat, des chats."
+  },
+  "text": {
+    "fr": {
+      "title": "Un, des : le pluriel",
+      "teach": "Au pluriel, on ajoute souvent un s : un chat, des chats. Les mots en -eau et en -eu prennent un x : un gâteau, des gâteaux ; un jeu, des jeux. Les mots en -al deviennent -aux : un cheval, des chevaux.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    }
+  }
+}

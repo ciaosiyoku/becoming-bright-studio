@@ -1,0 +1,353 @@
+{
+  "id": "sci-body",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 1,
+  "order": 2,
+  "params": {
+    "emojis": [
+      "anatomical-heart",
+      "bone",
+      "puzzle",
+      "fog",
+      "fruit-apple",
+      "trophy",
+      "cake",
+      "footprints",
+      "sun",
+      "gloves"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does your heart do?",
+          "it pumps blood around your body",
+          "it helps you smell",
+          "it makes your hair grow",
+          "Your heart is a strong muscle. It beats all the time to push blood all around your body."
+        ],
+        [
+          "What do your bones do?",
+          "they hold your body up and give it shape",
+          "they help you taste food",
+          "they help you hear",
+          "Your bones make a strong frame called a skeleton. Without it your body would flop like a jelly."
+        ],
+        [
+          "Which part of your body helps you think and remember?",
+          "your brain",
+          "your knee",
+          "your elbow",
+          "Your brain is inside your head. It helps you think, learn, remember and move."
+        ],
+        [
+          "What do your lungs do?",
+          "they take air in and out when you breathe",
+          "they pump blood",
+          "they help you see",
+          "When you breathe in, your lungs fill with air. Your body needs the air to stay alive."
+        ],
+        [
+          "What do your teeth help you do?",
+          "bite and chew food",
+          "hear sounds",
+          "walk and run",
+          "Your front teeth bite and your back teeth chew, so food is soft enough to swallow."
+        ],
+        [
+          "What do your muscles do?",
+          "they pull on your bones so you can move",
+          "they help you smell",
+          "they keep your eyes wet",
+          "Muscles are joined to your bones. When a muscle pulls, a part of your body moves."
+        ],
+        [
+          "What does your stomach do?",
+          "it breaks down the food you eat",
+          "it pumps blood",
+          "it helps you see",
+          "Food goes down to your stomach, where it is mashed and mixed so your body can use it."
+        ],
+        [
+          "Which joint bends in the middle of your leg?",
+          "your knee",
+          "your elbow",
+          "your wrist",
+          "Your knee is halfway down your leg. It lets your leg bend when you sit, jump or kick."
+        ],
+        [
+          "What does your skin do?",
+          "it covers and protects your body",
+          "it pumps blood",
+          "it helps you think",
+          "Your skin is like a coat over your whole body. It keeps germs out and lets you feel things."
+        ],
+        [
+          "Which joint joins your hand to your arm?",
+          "your wrist",
+          "your ankle",
+          "your knee",
+          "Your wrist is between your hand and your arm. It lets your hand bend and turn."
+        ]
+      ],
+      "de": [
+        [
+          "Was macht dein Herz?",
+          "es pumpt Blut durch deinen Körper",
+          "es hilft dir beim Riechen",
+          "es lässt deine Haare wachsen",
+          "Dein Herz ist ein starker Muskel. Es schlägt immer und drückt das Blut durch den ganzen Körper."
+        ],
+        [
+          "Was machen deine Knochen?",
+          "sie halten den Körper aufrecht und geben ihm Form",
+          "sie helfen dir beim Schmecken",
+          "sie helfen dir beim Hören",
+          "Deine Knochen bilden ein festes Gerüst, das Skelett. Ohne es wärst du wabbelig wie Wackelpudding."
+        ],
+        [
+          "Welcher Körperteil hilft dir beim Denken und Erinnern?",
+          "dein Gehirn",
+          "dein Knie",
+          "dein Ellenbogen",
+          "Dein Gehirn ist in deinem Kopf. Damit denkst, lernst, erinnerst und bewegst du dich."
+        ],
+        [
+          "Was macht deine Lunge?",
+          "sie holt beim Atmen Luft herein und lässt sie hinaus",
+          "sie pumpt Blut",
+          "sie hilft dir beim Sehen",
+          "Wenn du einatmest, füllt sich deine Lunge mit Luft. Dein Körper braucht diese Luft zum Leben."
+        ],
+        [
+          "Wobei helfen dir deine Zähne?",
+          "beim Abbeißen und Kauen",
+          "beim Hören",
+          "beim Gehen und Rennen",
+          "Die vorderen Zähne beißen ab und die hinteren kauen. So wird das Essen weich genug zum Schlucken."
+        ],
+        [
+          "Was machen deine Muskeln?",
+          "sie ziehen an den Knochen, damit du dich bewegen kannst",
+          "sie helfen dir beim Riechen",
+          "sie halten deine Augen feucht",
+          "Muskeln sind an den Knochen festgewachsen. Wenn ein Muskel zieht, bewegt sich ein Teil deines Körpers."
+        ],
+        [
+          "Was macht dein Magen?",
+          "er zerkleinert das Essen, das du isst",
+          "er pumpt Blut",
+          "er hilft dir beim Sehen",
+          "Das Essen rutscht in den Magen. Dort wird es zerdrückt und vermischt, damit der Körper es nutzen kann."
+        ],
+        [
+          "Welches Gelenk ist in der Mitte deines Beins?",
+          "dein Knie",
+          "dein Ellenbogen",
+          "dein Handgelenk",
+          "Dein Knie ist in der Mitte des Beins. Damit kannst du das Bein beugen, wenn du sitzt, springst oder trittst."
+        ],
+        [
+          "Was macht deine Haut?",
+          "sie bedeckt und schützt deinen Körper",
+          "sie pumpt Blut",
+          "sie hilft dir beim Denken",
+          "Deine Haut ist wie ein Mantel über dem ganzen Körper. Sie hält Keime draußen und lässt dich Dinge fühlen."
+        ],
+        [
+          "Welches Gelenk verbindet deine Hand mit dem Arm?",
+          "dein Handgelenk",
+          "dein Fußgelenk",
+          "dein Knie",
+          "Das Handgelenk ist zwischen Hand und Arm. Damit kann sich die Hand beugen und drehen."
+        ]
+      ],
+      "fr": [
+        [
+          "À quoi sert ton cœur ?",
+          "il pompe le sang dans tout ton corps",
+          "il t’aide à sentir les odeurs",
+          "il fait pousser tes cheveux",
+          "Ton cœur est un muscle très fort. Il bat sans arrêt pour envoyer le sang partout dans ton corps."
+        ],
+        [
+          "À quoi servent tes os ?",
+          "ils tiennent ton corps et lui donnent sa forme",
+          "ils t’aident à goûter",
+          "ils t’aident à entendre",
+          "Tes os forment une charpente solide, le squelette. Sans lui, ton corps serait mou comme de la gelée."
+        ],
+        [
+          "Quelle partie du corps t’aide à penser et à te souvenir ?",
+          "ton cerveau",
+          "ton genou",
+          "ton coude",
+          "Ton cerveau est dans ta tête. Il t’aide à penser, à apprendre, à te souvenir et à bouger."
+        ],
+        [
+          "À quoi servent tes poumons ?",
+          "ils font entrer et sortir l’air quand tu respires",
+          "ils pompent le sang",
+          "ils t’aident à voir",
+          "Quand tu inspires, tes poumons se remplissent d’air. Ton corps a besoin de cet air pour vivre."
+        ],
+        [
+          "À quoi te servent tes dents ?",
+          "à croquer et mâcher la nourriture",
+          "à entendre les sons",
+          "à marcher et courir",
+          "Les dents de devant croquent et celles du fond mâchent : la nourriture devient assez molle pour être avalée."
+        ],
+        [
+          "À quoi servent tes muscles ?",
+          "ils tirent sur tes os pour que tu bouges",
+          "ils t’aident à sentir les odeurs",
+          "ils gardent tes yeux mouillés",
+          "Les muscles sont attachés aux os. Quand un muscle tire, une partie de ton corps bouge."
+        ],
+        [
+          "À quoi sert ton estomac ?",
+          "il découpe en tout petits morceaux ce que tu manges",
+          "il pompe le sang",
+          "il t’aide à voir",
+          "La nourriture descend dans l’estomac. Elle y est écrasée et mélangée pour que ton corps puisse l’utiliser."
+        ],
+        [
+          "Quelle articulation plie au milieu de ta jambe ?",
+          "ton genou",
+          "ton coude",
+          "ton poignet",
+          "Ton genou est au milieu de ta jambe. Il la laisse plier quand tu t’assois, sautes ou donnes un coup de pied."
+        ],
+        [
+          "À quoi sert ta peau ?",
+          "elle couvre et protège ton corps",
+          "elle pompe le sang",
+          "elle t’aide à penser",
+          "Ta peau est comme un manteau sur tout ton corps. Elle empêche les microbes d’entrer et te permet de sentir au toucher."
+        ],
+        [
+          "Quelle articulation relie ta main à ton bras ?",
+          "ton poignet",
+          "ta cheville",
+          "ton genou",
+          "Le poignet est entre la main et le bras. Il permet à ta main de plier et de tourner."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni ọkàn rẹ ń ṣe?",
+          "ó ń fa ẹ̀jẹ̀ yí gbogbo ara ká",
+          "ó ń bá ọ gbóòórùn",
+          "ó ń mú irun rẹ hù",
+          "Ọkàn jẹ́ iṣan tó lágbára. Ó ń lù ní gbogbo ìgbà láti ti ẹ̀jẹ̀ lọ sí gbogbo ara."
+        ],
+        [
+          "Kí ni egungun rẹ ń ṣe?",
+          "ó ń gbé ara dúró, ó sì ń fún un ní ìrísí",
+          "ó ń bá ọ tọ́ oúnjẹ wò",
+          "ó ń bá ọ gbọ́ràn",
+          "Gbogbo egungun rẹ para pọ̀ di àgbéró ara tó lágbára. Láìsí wọn, ara rẹ á rọ̀ kálẹ̀ bí aṣọ."
+        ],
+        [
+          "Ẹ̀yà ara wo ló ń bá ọ ronú tí ó sì ń bá ọ rántí nǹkan?",
+          "ọpọlọ rẹ",
+          "orúnkún rẹ",
+          "ìgbọ̀nwọ́ rẹ",
+          "Ọpọlọ wà nínú orí rẹ. Ó ń bá ọ ronú, kẹ́kọ̀ọ́, rántí nǹkan, kí o sì máa rìn."
+        ],
+        [
+          "Kí ni ẹ̀dọ̀fóró rẹ ń ṣe?",
+          "ó ń gba afẹ́fẹ́ wọlé, ó sì ń tì í jáde nígbà tí o bá ń mí",
+          "ó ń fa ẹ̀jẹ̀",
+          "ó ń bá ọ ríran",
+          "Nígbà tí o bá mí sínú, afẹ́fẹ́ máa kún ẹ̀dọ̀fóró rẹ. Ara rẹ nílò afẹ́fẹ́ yìí láti wà láàyè."
+        ],
+        [
+          "Kí ni eyín rẹ ń bá ọ ṣe?",
+          "gé oúnjẹ jẹ, kí o sì rún un",
+          "gbọ́ ohùn",
+          "rìn àti sáré",
+          "Eyín iwájú ń gé oúnjẹ, eyín ẹ̀yìn ń rún un, kí oúnjẹ lè rọ̀ tó láti gbé mì."
+        ],
+        [
+          "Kí ni iṣan ara rẹ ń ṣe?",
+          "ó ń fa egungun kí o lè máa rìn",
+          "ó ń bá ọ gbóòórùn",
+          "ó ń jẹ́ kí ojú rẹ tutù",
+          "Iṣan so mọ́ egungun. Nígbà tí iṣan bá fà, apá kan ara rẹ á gbéra."
+        ],
+        [
+          "Kí ni ikùn rẹ ń ṣe?",
+          "ó ń lọ oúnjẹ tí o jẹ",
+          "ó ń fa ẹ̀jẹ̀",
+          "ó ń bá ọ ríran",
+          "Oúnjẹ máa ń lọ sínú ikùn. Níbẹ̀ ni wọ́n ti ń lọ̀ ọ́, tí wọ́n sì ń pò ó, kí ara lè lò ó."
+        ],
+        [
+          "Oríkèé wo ló ń tẹ̀ ní àárín ẹsẹ̀ rẹ?",
+          "orúnkún rẹ",
+          "ìgbọ̀nwọ́ rẹ",
+          "ọrùn ọwọ́ rẹ",
+          "Orúnkún wà ní àárín ẹsẹ̀. Òun ló ń jẹ́ kí ẹsẹ̀ tẹ̀ nígbà tí o bá jókòó, fò tàbí gbá bọ́ọ̀lù."
+        ],
+        [
+          "Kí ni awọ ara rẹ ń ṣe?",
+          "ó ń bo ara rẹ, ó sì ń dáàbò bò ó",
+          "ó ń fa ẹ̀jẹ̀",
+          "ó ń bá ọ ronú",
+          "Awọ ara dà bí ẹ̀wù lórí gbogbo ara. Kì í jẹ́ kí kòkòrò àrùn wọlé, ó sì ń jẹ́ kí o mọ ohun tí o fọwọ́ kàn."
+        ],
+        [
+          "Oríkèé wo ló so ọwọ́ rẹ mọ́ apá rẹ?",
+          "ọrùn ọwọ́ rẹ",
+          "ọrùn ẹsẹ̀ rẹ",
+          "orúnkún rẹ",
+          "Ọrùn ọwọ́ wà láàárín ọwọ́ àti apá. Òun ló ń jẹ́ kí ọwọ́ tẹ̀, kí ó sì yí."
+        ]
+      ]
+    }
+  },
+  "emoji": "anatomical-heart",
+  "example": {
+    "i": 0,
+    "q_en": "What does your heart do?",
+    "answer_en": "it pumps blood around your body",
+    "why_en": "Your heart is a strong muscle. It beats all the time to push blood all around your body.",
+    "q_de": "Was macht dein Herz?",
+    "answer_de": "es pumpt Blut durch deinen Körper",
+    "why_de": "Dein Herz ist ein starker Muskel. Es schlägt immer und drückt das Blut durch den ganzen Körper.",
+    "q_fr": "À quoi sert ton cœur ?",
+    "answer_fr": "il pompe le sang dans tout ton corps",
+    "why_fr": "Ton cœur est un muscle très fort. Il bat sans arrêt pour envoyer le sang partout dans ton corps.",
+    "q_yo": "Kí ni ọkàn rẹ ń ṣe?",
+    "answer_yo": "ó ń fa ẹ̀jẹ̀ yí gbogbo ara ká",
+    "why_yo": "Ọkàn jẹ́ iṣan tó lágbára. Ó ń lù ní gbogbo ìgbà láti ti ẹ̀jẹ̀ lọ sí gbogbo ara."
+  },
+  "text": {
+    "en": {
+      "title": "Parts of the body",
+      "teach": "Each part of your body has a job. Your heart pumps blood, your lungs breathe air and your bones hold you up.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Die Teile des Körpers",
+      "teach": "Jeder Teil deines Körpers hat eine Aufgabe. Das Herz pumpt Blut, die Lunge atmet Luft und die Knochen halten dich aufrecht.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les parties du corps",
+      "teach": "Chaque partie du corps a un travail. Le cœur pompe le sang, les poumons respirent l’air et les os te tiennent debout.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Àwọn ẹ̀yà ara",
+      "teach": "Ẹ̀yà ara kọ̀ọ̀kan ní iṣẹ́ tirẹ̀. Ọkàn ń fa ẹ̀jẹ̀, ẹ̀dọ̀fóró ń mí afẹ́fẹ́, egungun sì ń gbé ara dúró.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

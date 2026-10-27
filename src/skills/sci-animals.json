@@ -1,0 +1,353 @@
+{
+  "id": "sci-animals",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 1,
+  "order": 4,
+  "params": {
+    "emojis": [
+      "paws",
+      "chick",
+      "animal-cow",
+      "animal-spouting-whale",
+      "animal-lady-beetle",
+      "animal-parrot",
+      "animal-shark",
+      "animal-bat",
+      "animal-penguin",
+      "animal-flamingo"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which of these animals is a mammal?",
+          "a dog",
+          "a goldfish",
+          "an ant",
+          "A dog has fur and feeds its puppies with milk, so it is a mammal. A goldfish is a fish and an ant is an insect."
+        ],
+        [
+          "What does a chick grow into?",
+          "a hen",
+          "a cow",
+          "a frog",
+          "A chick hatches from an egg and grows up into a hen or a rooster."
+        ],
+        [
+          "What do mammal mothers feed their babies?",
+          "milk",
+          "seeds",
+          "leaves",
+          "All mammal mothers make milk for their babies. A cow feeds milk to her calf."
+        ],
+        [
+          "Which group does a whale belong to?",
+          "mammals",
+          "fish",
+          "insects",
+          "A whale lives in the sea, but it breathes air and feeds its baby milk, so it is a mammal."
+        ],
+        [
+          "How many legs does an insect have?",
+          "six",
+          "eight",
+          "four",
+          "Every insect has six legs. A ladybird is an insect. Spiders have eight legs, so they are not insects."
+        ],
+        [
+          "What covers a bird’s body?",
+          "feathers",
+          "fur",
+          "scales",
+          "Only birds have feathers. They keep the bird warm and help most birds to fly."
+        ],
+        [
+          "A shark is a fish. How does it breathe under water?",
+          "with gills",
+          "with its tail",
+          "with its fins",
+          "Fish breathe with gills. The gills take the air that is mixed in the water."
+        ],
+        [
+          "A bat can fly. Which group does it belong to?",
+          "mammals",
+          "birds",
+          "insects",
+          "A bat has fur, not feathers, and feeds its baby milk. So it is a mammal that can fly."
+        ],
+        [
+          "A penguin cannot fly. Which group does it belong to?",
+          "birds",
+          "fish",
+          "mammals",
+          "A penguin has feathers and a beak and lays eggs, so it is a bird, even though it swims instead of flying."
+        ],
+        [
+          "Which of these babies hatches from an egg?",
+          "a duckling",
+          "a puppy",
+          "a calf",
+          "Birds lay eggs, so a baby duck hatches from an egg. Puppies and calves grow inside their mothers."
+        ]
+      ],
+      "de": [
+        [
+          "Welches dieser Tiere ist ein Säugetier?",
+          "ein Hund",
+          "ein Goldfisch",
+          "eine Ameise",
+          "Ein Hund hat Fell und gibt seinen Welpen Milch. Also ist er ein Säugetier. Der Goldfisch ist ein Fisch, die Ameise ein Insekt."
+        ],
+        [
+          "Was wird aus einem Küken?",
+          "ein Huhn",
+          "eine Kuh",
+          "ein Frosch",
+          "Ein Küken schlüpft aus einem Ei und wird zu einem Huhn oder einem Hahn."
+        ],
+        [
+          "Womit füttern Säugetiermütter ihre Jungen?",
+          "mit Milch",
+          "mit Samen",
+          "mit Blättern",
+          "Alle Säugetiermütter haben Milch für ihre Jungen. Eine Kuh gibt ihrem Kalb Milch."
+        ],
+        [
+          "Zu welcher Gruppe gehört ein Wal?",
+          "zu den Säugetieren",
+          "zu den Fischen",
+          "zu den Insekten",
+          "Ein Wal lebt im Meer, aber er atmet Luft und gibt seinem Jungen Milch. Also ist er ein Säugetier."
+        ],
+        [
+          "Wie viele Beine hat ein Insekt?",
+          "sechs",
+          "acht",
+          "vier",
+          "Jedes Insekt hat sechs Beine. Ein Marienkäfer ist ein Insekt. Spinnen haben acht Beine, also sind sie keine Insekten."
+        ],
+        [
+          "Was bedeckt den Körper eines Vogels?",
+          "Federn",
+          "Fell",
+          "Schuppen",
+          "Nur Vögel haben Federn. Sie halten den Vogel warm und helfen den meisten Vögeln beim Fliegen."
+        ],
+        [
+          "Ein Hai ist ein Fisch. Wie atmet er unter Wasser?",
+          "mit Kiemen",
+          "mit dem Schwanz",
+          "mit den Flossen",
+          "Fische atmen mit Kiemen. Die Kiemen holen die Luft, die im Wasser gelöst ist."
+        ],
+        [
+          "Eine Fledermaus kann fliegen. Zu welcher Gruppe gehört sie?",
+          "zu den Säugetieren",
+          "zu den Vögeln",
+          "zu den Insekten",
+          "Eine Fledermaus hat Fell statt Federn und gibt ihrem Jungen Milch. Sie ist ein Säugetier, das fliegen kann."
+        ],
+        [
+          "Ein Pinguin kann nicht fliegen. Zu welcher Gruppe gehört er?",
+          "zu den Vögeln",
+          "zu den Fischen",
+          "zu den Säugetieren",
+          "Ein Pinguin hat Federn und einen Schnabel und legt Eier. Er ist ein Vogel, auch wenn er schwimmt statt fliegt."
+        ],
+        [
+          "Welches dieser Tierkinder schlüpft aus einem Ei?",
+          "ein Entenküken",
+          "ein Welpe",
+          "ein Kalb",
+          "Vögel legen Eier, darum schlüpft ein Entenküken aus einem Ei. Welpen und Kälber wachsen im Bauch ihrer Mutter."
+        ]
+      ],
+      "fr": [
+        [
+          "Lequel de ces animaux est un mammifère ?",
+          "un chien",
+          "un poisson rouge",
+          "une fourmi",
+          "Le chien a des poils et nourrit ses chiots avec du lait : c’est un mammifère. Le poisson rouge est un poisson et la fourmi un insecte."
+        ],
+        [
+          "Que devient un poussin ?",
+          "une poule",
+          "une vache",
+          "une grenouille",
+          "Le poussin sort d’un œuf, puis il grandit et devient une poule ou un coq."
+        ],
+        [
+          "Que donnent les mamans mammifères à leurs petits ?",
+          "du lait",
+          "des graines",
+          "des feuilles",
+          "Toutes les mamans mammifères font du lait pour leurs petits. La vache donne du lait à son veau."
+        ],
+        [
+          "À quel groupe appartient la baleine ?",
+          "aux mammifères",
+          "aux poissons",
+          "aux insectes",
+          "La baleine vit dans la mer, mais elle respire de l’air et donne du lait à son petit : c’est un mammifère."
+        ],
+        [
+          "Combien de pattes a un insecte ?",
+          "six",
+          "huit",
+          "quatre",
+          "Tous les insectes ont six pattes. La coccinelle est un insecte. Les araignées ont huit pattes : ce ne sont pas des insectes."
+        ],
+        [
+          "Qu’est-ce qui couvre le corps d’un oiseau ?",
+          "des plumes",
+          "des poils",
+          "des écailles",
+          "Seuls les oiseaux ont des plumes. Elles leur tiennent chaud et aident la plupart d’entre eux à voler."
+        ],
+        [
+          "Le requin est un poisson. Comment respire-t-il sous l’eau ?",
+          "avec ses branchies",
+          "avec sa queue",
+          "avec ses nageoires",
+          "Les poissons respirent avec des branchies. Elles prennent l’air mélangé dans l’eau."
+        ],
+        [
+          "La chauve-souris vole. À quel groupe appartient-elle ?",
+          "aux mammifères",
+          "aux oiseaux",
+          "aux insectes",
+          "La chauve-souris a des poils, pas des plumes, et donne du lait à son petit. C’est un mammifère qui vole."
+        ],
+        [
+          "Le manchot ne vole pas. À quel groupe appartient-il ?",
+          "aux oiseaux",
+          "aux poissons",
+          "aux mammifères",
+          "Le manchot a des plumes et un bec et pond des œufs : c’est un oiseau, même s’il nage au lieu de voler."
+        ],
+        [
+          "Lequel de ces petits sort d’un œuf ?",
+          "un caneton",
+          "un chiot",
+          "un veau",
+          "Les oiseaux pondent des œufs : le caneton sort donc d’un œuf. Le chiot et le veau grandissent dans le ventre de leur maman."
+        ]
+      ],
+      "yo": [
+        [
+          "Èwo nínú àwọn ẹranko wọ̀nyí ni ẹranko afọmúbọ́mọ?",
+          "ajá",
+          "ẹja wúrà",
+          "èèrà",
+          "Ajá ní irun, ó sì ń fún ọmọ rẹ̀ ní wàrà ọmú, nítorí náà ẹranko afọmúbọ́mọ ni. Ẹja wúrà jẹ́ ẹja, èèrà sì jẹ́ kòkòrò."
+        ],
+        [
+          "Kí ni òròmọdìẹ máa dà nígbà tó bá dàgbà?",
+          "adìẹ",
+          "màlúù",
+          "àkèré",
+          "Òròmọdìẹ ń jáde láti inú ẹyin, ó sì máa dàgbà di adìẹ tàbí àkùkọ."
+        ],
+        [
+          "Kí ni àwọn ìyá ẹranko afọmúbọ́mọ ń fún ọmọ wọn jẹ?",
+          "wàrà ọmú",
+          "irúgbìn",
+          "ewé",
+          "Gbogbo ìyá ẹranko afọmúbọ́mọ ló ní wàrà ọmú fún ọmọ wọn. Màlúù ń fún ọmọ rẹ̀ ní wàrà."
+        ],
+        [
+          "Ìsọ̀rí wo ni ẹja àbùùbùtán wà?",
+          "ẹranko afọmúbọ́mọ",
+          "ẹja",
+          "kòkòrò",
+          "Àbùùbùtán ń gbé inú òkun, ṣùgbọ́n ó ń mí afẹ́fẹ́, ó sì ń fún ọmọ rẹ̀ ní wàrà ọmú, nítorí náà ẹranko afọmúbọ́mọ ni."
+        ],
+        [
+          "Ẹsẹ̀ mélòó ni kòkòrò ní?",
+          "mẹ́fà",
+          "mẹ́jọ",
+          "mẹ́rin",
+          "Gbogbo kòkòrò ló ní ẹsẹ̀ mẹ́fà. Aláǹtakùn ní ẹsẹ̀ mẹ́jọ, nítorí náà kì í ṣe kòkòrò."
+        ],
+        [
+          "Kí ló bo ara ẹyẹ?",
+          "ìyẹ́",
+          "irun",
+          "ìpẹ́",
+          "Ẹyẹ nìkan ló ní ìyẹ́. Ìyẹ́ ń mú ara ẹyẹ móoru, ó sì ń ran ọ̀pọ̀ ẹyẹ lọ́wọ́ láti fò."
+        ],
+        [
+          "Ẹja ni ẹja yanmìyanmì. Báwo ló ṣe ń mí lábẹ́ omi?",
+          "pẹ̀lú àwọn ihò ìmí ẹ̀gbẹ́ orí rẹ̀",
+          "pẹ̀lú ìrù rẹ̀",
+          "pẹ̀lú ìyẹ́ ẹja rẹ̀",
+          "Ẹja ń mí pẹ̀lú àwọn ihò ìmí ní ẹ̀gbẹ́ orí rẹ̀. Wọ́n ń gba afẹ́fẹ́ tó wà nínú omi."
+        ],
+        [
+          "Àdán lè fò. Ìsọ̀rí wo ló wà?",
+          "ẹranko afọmúbọ́mọ",
+          "ẹyẹ",
+          "kòkòrò",
+          "Àdán ní irun, kò ní ìyẹ́, ó sì ń fún ọmọ rẹ̀ ní wàrà ọmú. Ẹranko afọmúbọ́mọ tó ń fò ni."
+        ],
+        [
+          "Pẹ́ńgúìn kò lè fò. Ìsọ̀rí wo ló wà?",
+          "ẹyẹ",
+          "ẹja",
+          "ẹranko afọmúbọ́mọ",
+          "Pẹ́ńgúìn ní ìyẹ́ àti ṣóńṣó ẹnu, ó sì ń yé ẹyin, nítorí náà ẹyẹ ni, bó tilẹ̀ jẹ́ pé lúwẹ̀ẹ́ ló ń ṣe dípò kí ó fò."
+        ],
+        [
+          "Èwo nínú àwọn ọmọ ẹranko wọ̀nyí ló ń jáde láti inú ẹyin?",
+          "ọmọ pẹ́pẹ́yẹ",
+          "ọmọ ajá",
+          "ọmọ màlúù",
+          "Ẹyẹ ń yé ẹyin, nítorí náà ọmọ pẹ́pẹ́yẹ ń jáde láti inú ẹyin. Ọmọ ajá àti ọmọ màlúù ń dàgbà nínú ikùn ìyá wọn."
+        ]
+      ]
+    }
+  },
+  "emoji": "paws",
+  "example": {
+    "i": 0,
+    "q_en": "Which of these animals is a mammal?",
+    "answer_en": "a dog",
+    "why_en": "A dog has fur and feeds its puppies with milk, so it is a mammal. A goldfish is a fish and an ant is an insect.",
+    "q_de": "Welches dieser Tiere ist ein Säugetier?",
+    "answer_de": "ein Hund",
+    "why_de": "Ein Hund hat Fell und gibt seinen Welpen Milch. Also ist er ein Säugetier. Der Goldfisch ist ein Fisch, die Ameise ein Insekt.",
+    "q_fr": "Lequel de ces animaux est un mammifère ?",
+    "answer_fr": "un chien",
+    "why_fr": "Le chien a des poils et nourrit ses chiots avec du lait : c’est un mammifère. Le poisson rouge est un poisson et la fourmi un insecte.",
+    "q_yo": "Èwo nínú àwọn ẹranko wọ̀nyí ni ẹranko afọmúbọ́mọ?",
+    "answer_yo": "ajá",
+    "why_yo": "Ajá ní irun, ó sì ń fún ọmọ rẹ̀ ní wàrà ọmú, nítorí náà ẹranko afọmúbọ́mọ ni. Ẹja wúrà jẹ́ ẹja, èèrà sì jẹ́ kòkòrò."
+  },
+  "text": {
+    "en": {
+      "title": "Animal groups and babies",
+      "teach": "Animals belong to groups. Mammals have fur or hair and feed their babies milk. Birds have feathers, fish have gills, insects have six legs.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Tiergruppen und Tierkinder",
+      "teach": "Tiere gehören zu Gruppen. Säugetiere haben Fell oder Haare und geben ihren Jungen Milch. Vögel haben Federn, Fische Kiemen, Insekten sechs Beine.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les groupes d’animaux et leurs petits",
+      "teach": "Les animaux sont rangés en groupes. Les mammifères ont des poils et nourrissent leurs petits avec du lait. Les oiseaux ont des plumes, les poissons des branchies, les insectes six pattes.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ìsọ̀rí ẹranko àti àwọn ọmọ wọn",
+      "teach": "Ẹranko pín sí ìsọ̀rí. Ẹranko afọmúbọ́mọ ní irun, wọ́n sì ń fún ọmọ wọn ní wàrà ọmú. Ẹyẹ ní ìyẹ́, ẹja ń mí lábẹ́ omi, kòkòrò ní ẹsẹ̀ mẹ́fà.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

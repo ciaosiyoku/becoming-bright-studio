@@ -1,0 +1,111 @@
+{
+  "id": "fr-gender",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 2,
+  "order": 9,
+  "only": "fr",
+  "params": {
+    "emojis": [
+      "sun",
+      "moon",
+      "tree",
+      "house",
+      "bus",
+      "fruit-apple",
+      "school",
+      "animal-horse",
+      "snowflake",
+      "animal-parrot"
+    ],
+    "bank": {
+      "fr": [
+        [
+          "Quel petit mot va devant « soleil » ?",
+          "le",
+          "la",
+          "l’",
+          "« Soleil » est masculin : on dit « le soleil »."
+        ],
+        [
+          "Quel petit mot va devant « lune » ?",
+          "la",
+          "le",
+          "l’",
+          "« Lune » est féminin : on dit « la lune »."
+        ],
+        [
+          "Quel petit mot va devant « arbre » ?",
+          "l’",
+          "le",
+          "la",
+          "« Arbre » commence par une voyelle : on écrit « l’arbre »."
+        ],
+        [
+          "Quel petit mot va devant « maison » ?",
+          "la",
+          "le",
+          "l’",
+          "« Maison » est féminin : on dit « la maison »."
+        ],
+        [
+          "Quel petit mot va devant « bus » ?",
+          "le",
+          "la",
+          "l’",
+          "« Bus » est masculin : on dit « le bus »."
+        ],
+        [
+          "Quel petit mot va devant « pomme » ?",
+          "la",
+          "le",
+          "l’",
+          "« Pomme » est féminin : on dit « la pomme »."
+        ],
+        [
+          "Quel petit mot va devant « école » ?",
+          "l’",
+          "le",
+          "la",
+          "« École » commence par une voyelle : on écrit « l’école »."
+        ],
+        [
+          "Quel petit mot va devant « cheval » ?",
+          "le",
+          "la",
+          "l’",
+          "« Cheval » est masculin : on dit « le cheval »."
+        ],
+        [
+          "Quel petit mot va devant « neige » ?",
+          "la",
+          "le",
+          "l’",
+          "« Neige » est féminin : on dit « la neige »."
+        ],
+        [
+          "Quel petit mot va devant « oiseau » ?",
+          "l’",
+          "le",
+          "la",
+          "« Oiseau » commence par une voyelle : on écrit « l’oiseau »."
+        ]
+      ]
+    }
+  },
+  "emoji": "letters",
+  "example": {
+    "i": 0,
+    "q_fr": "Quel petit mot va devant « soleil » ?",
+    "answer_fr": "le",
+    "why_fr": "« Soleil » est masculin : on dit « le soleil »."
+  },
+  "text": {
+    "fr": {
+      "title": "Le, la ou l’ ?",
+      "teach": "Devant un nom masculin, on met « le » : le soleil. Devant un nom féminin, on met « la » : la lune. Devant une voyelle, on écrit « l’ » : l’arbre, l’école.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    }
+  }
+}

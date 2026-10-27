@@ -1,0 +1,353 @@
+{
+  "id": "sci-weather",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 1,
+  "order": 9,
+  "params": {
+    "emojis": [
+      "snowman",
+      "rain",
+      "thermometer",
+      "tree",
+      "cloud",
+      "snowflake",
+      "sun",
+      "beach",
+      "seedling",
+      "globe"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What should you wear when it is snowing?",
+          "a warm coat and gloves",
+          "shorts and a T-shirt",
+          "a swimsuit",
+          "Snow means it is very cold, so warm clothes keep your body warm."
+        ],
+        [
+          "What is good to take outside when it is raining?",
+          "an umbrella",
+          "sunglasses",
+          "a fan",
+          "An umbrella keeps the rain off you, so you stay dry."
+        ],
+        [
+          "In which season is it usually coldest?",
+          "winter",
+          "summer",
+          "spring",
+          "Winter has the shortest days and the coldest weather of the year."
+        ],
+        [
+          "In which season do many trees lose their leaves?",
+          "autumn",
+          "summer",
+          "spring",
+          "In autumn many leaves turn brown, red or yellow and fall off the trees."
+        ],
+        [
+          "What falls from the clouds when it rains?",
+          "drops of water",
+          "drops of milk",
+          "grains of sand",
+          "Clouds are made of tiny drops of water. When they join up and get heavy, they fall as rain."
+        ],
+        [
+          "What is snow made of?",
+          "tiny crystals of ice",
+          "cotton wool",
+          "sugar",
+          "When it is very cold, water in the clouds freezes into tiny ice crystals called snowflakes."
+        ],
+        [
+          "What does the Sun give us?",
+          "light and warmth",
+          "rain and snow",
+          "wind and fog",
+          "The Sun is very hot and bright, so it lights up the Earth and warms it."
+        ],
+        [
+          "How can you stay safe on a very sunny day?",
+          "wear a sun hat and drink water",
+          "wear a scarf and gloves",
+          "wear a thick winter coat",
+          "A hat shades you from the strong sunshine, and water stops you getting too hot."
+        ],
+        [
+          "Which season comes after spring?",
+          "summer",
+          "winter",
+          "autumn",
+          "The seasons always come in this order: spring, summer, autumn, winter."
+        ],
+        [
+          "Why do we have seasons?",
+          "the Earth is tilted as it travels round the Sun",
+          "the Sun turns off in winter",
+          "clouds make it winter",
+          "The Earth leans to one side. When our part leans towards the Sun, we have summer."
+        ]
+      ],
+      "de": [
+        [
+          "Was ziehst du an, wenn es schneit?",
+          "einen warmen Mantel und Handschuhe",
+          "kurze Hosen und ein T-Shirt",
+          "einen Badeanzug",
+          "Wenn es schneit, ist es sehr kalt. Warme Kleidung hält deinen Körper warm."
+        ],
+        [
+          "Was nimmst du am besten mit nach draußen, wenn es regnet?",
+          "einen Regenschirm",
+          "eine Sonnenbrille",
+          "einen Fächer",
+          "Ein Regenschirm hält den Regen ab, so bleibst du trocken."
+        ],
+        [
+          "In welcher Jahreszeit ist es meistens am kältesten?",
+          "im Winter",
+          "im Sommer",
+          "im Frühling",
+          "Im Winter sind die Tage am kürzesten und das Wetter ist am kältesten."
+        ],
+        [
+          "In welcher Jahreszeit verlieren viele Bäume ihre Blätter?",
+          "im Herbst",
+          "im Sommer",
+          "im Frühling",
+          "Im Herbst werden viele Blätter braun, rot oder gelb und fallen von den Bäumen."
+        ],
+        [
+          "Was fällt aus den Wolken, wenn es regnet?",
+          "Wassertropfen",
+          "Milchtropfen",
+          "Sandkörner",
+          "Wolken bestehen aus winzigen Wassertropfen. Wenn sie sich verbinden und schwer werden, fallen sie als Regen."
+        ],
+        [
+          "Woraus besteht Schnee?",
+          "aus winzigen Eiskristallen",
+          "aus Watte",
+          "aus Zucker",
+          "Wenn es sehr kalt ist, gefriert das Wasser in den Wolken zu winzigen Eiskristallen: den Schneeflocken."
+        ],
+        [
+          "Was gibt uns die Sonne?",
+          "Licht und Wärme",
+          "Regen und Schnee",
+          "Wind und Nebel",
+          "Die Sonne ist sehr heiß und hell. Sie beleuchtet und wärmt die Erde."
+        ],
+        [
+          "Wie schützt du dich an einem sehr sonnigen Tag?",
+          "mit einem Sonnenhut und viel Wasser",
+          "mit Schal und Handschuhen",
+          "mit einem dicken Wintermantel",
+          "Ein Hut gibt dir Schatten vor der starken Sonne, und Wasser hilft, dass dir nicht zu heiß wird."
+        ],
+        [
+          "Welche Jahreszeit kommt nach dem Frühling?",
+          "der Sommer",
+          "der Winter",
+          "der Herbst",
+          "Die Jahreszeiten kommen immer in dieser Reihenfolge: Frühling, Sommer, Herbst, Winter."
+        ],
+        [
+          "Warum gibt es Jahreszeiten?",
+          "weil die Erde schräg steht, während sie um die Sonne wandert",
+          "weil die Sonne im Winter ausgeht",
+          "weil die Wolken den Winter machen",
+          "Die Erde ist geneigt. Wenn unser Teil zur Sonne hin geneigt ist, haben wir Sommer."
+        ]
+      ],
+      "fr": [
+        [
+          "Que mets-tu quand il neige ?",
+          "un manteau chaud et des gants",
+          "un short et un tee-shirt",
+          "un maillot de bain",
+          "Quand il neige, il fait très froid : les vêtements chauds gardent ton corps au chaud."
+        ],
+        [
+          "Qu’est-ce qui est utile dehors quand il pleut ?",
+          "un parapluie",
+          "des lunettes de soleil",
+          "un éventail",
+          "Un parapluie arrête la pluie, alors tu restes au sec."
+        ],
+        [
+          "En quelle saison fait-il le plus froid, en général ?",
+          "en hiver",
+          "en été",
+          "au printemps",
+          "En hiver, les journées sont les plus courtes et il fait le plus froid de l’année."
+        ],
+        [
+          "En quelle saison beaucoup d’arbres perdent-ils leurs feuilles ?",
+          "en automne",
+          "en été",
+          "au printemps",
+          "En automne, beaucoup de feuilles deviennent brunes, rouges ou jaunes, puis tombent des arbres."
+        ],
+        [
+          "Qu’est-ce qui tombe des nuages quand il pleut ?",
+          "des gouttes d’eau",
+          "des gouttes de lait",
+          "des grains de sable",
+          "Les nuages sont faits de minuscules gouttes d’eau. Quand elles s’assemblent et deviennent lourdes, elles tombent en pluie."
+        ],
+        [
+          "De quoi est faite la neige ?",
+          "de minuscules cristaux de glace",
+          "de coton",
+          "de sucre",
+          "Quand il fait très froid, l’eau des nuages gèle en minuscules cristaux de glace : les flocons."
+        ],
+        [
+          "Que nous donne le Soleil ?",
+          "de la lumière et de la chaleur",
+          "de la pluie et de la neige",
+          "du vent et du brouillard",
+          "Le Soleil est très chaud et très brillant : il éclaire la Terre et la réchauffe."
+        ],
+        [
+          "Comment te protéger par une journée de grand soleil ?",
+          "porter un chapeau et boire de l’eau",
+          "porter une écharpe et des gants",
+          "porter un gros manteau d’hiver",
+          "Le chapeau te met à l’ombre du soleil fort, et l’eau t’empêche d’avoir trop chaud."
+        ],
+        [
+          "Quelle saison vient après le printemps ?",
+          "l’été",
+          "l’hiver",
+          "l’automne",
+          "Les saisons arrivent toujours dans cet ordre : printemps, été, automne, hiver."
+        ],
+        [
+          "Pourquoi y a-t-il des saisons ?",
+          "parce que la Terre est penchée quand elle tourne autour du Soleil",
+          "parce que le Soleil s’éteint en hiver",
+          "parce que les nuages font l’hiver",
+          "La Terre est inclinée. Quand notre côté penche vers le Soleil, c’est l’été."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ló yẹ kí o wọ̀ nígbà tí òjò dídì bá ń rọ̀?",
+          "ẹ̀wù òtútù tó nípọn àti ìbọ̀wọ́",
+          "ṣòkòtò péńpé àti ṣẹ́ẹ̀tì",
+          "aṣọ ìlúwẹ̀ẹ́",
+          "Òjò dídì túmọ̀ sí pé òtútù mú gan-an, nítorí náà aṣọ tó gbóná ń jẹ́ kí ara rẹ móoru."
+        ],
+        [
+          "Kí ló dára láti mú jáde nígbà tí òjò bá ń rọ̀?",
+          "agboòrùn",
+          "gíláàsì oòrùn",
+          "abẹ̀bẹ̀",
+          "Agboòrùn ń dáàbò bò ọ́ lọ́wọ́ òjò, kí o má baà tutù."
+        ],
+        [
+          "Ìgbà wo ni òtútù sábà máa ń mú jùlọ?",
+          "ìgbà òtútù",
+          "ìgbà ẹ̀ẹ̀rùn",
+          "ìgbà ìrúwé",
+          "Ní ìgbà òtútù, ọjọ́ máa ń kúrú jùlọ, òtútù sì máa ń mú jùlọ nínú ọdún."
+        ],
+        [
+          "Ìgbà wo ni ọ̀pọ̀ igi máa ń wọ́ ewé wọn sílẹ̀?",
+          "ìgbà ìwọ́wé",
+          "ìgbà ẹ̀ẹ̀rùn",
+          "ìgbà ìrúwé",
+          "Ní ìgbà ìwọ́wé, ọ̀pọ̀ ewé máa ń di àwọ̀ ilẹ̀, pupa tàbí ìyeyè, wọ́n á sì já bọ́ láti ara igi."
+        ],
+        [
+          "Kí ló ń já bọ́ láti inú ìkùukùu nígbà tí òjò bá ń rọ̀?",
+          "ẹ̀kán omi",
+          "ẹ̀kán wàrà",
+          "hóró yanrìn",
+          "Ẹ̀kán omi kéékèèké ni wọ́n fi ṣe ìkùukùu. Tí wọ́n bá papọ̀ tí wọ́n sì wúwo, wọ́n á já bọ́ bí òjò."
+        ],
+        [
+          "Kí ni wọ́n fi ṣe òjò dídì?",
+          "yìnyín kéékèèké",
+          "òwú",
+          "ṣúgà",
+          "Tí òtútù bá mú gan-an, omi inú ìkùukùu máa ń dì di yìnyín kéékèèké tí a ń pè ní òjò dídì."
+        ],
+        [
+          "Kí ni oòrùn ń fún wa?",
+          "ìmọ́lẹ̀ àti ooru",
+          "òjò àti òjò dídì",
+          "afẹ́fẹ́ àti kùrukùru",
+          "Oòrùn gbóná, ó sì mọ́lẹ̀ gan-an, nítorí náà ó ń tan ìmọ́lẹ̀ sí ayé, ó sì ń mú un gbóná."
+        ],
+        [
+          "Báwo lo ṣe lè wà láìléwu ní ọjọ́ tí oòrùn mú gan-an?",
+          "wọ fìlà oòrùn, kí o sì mu omi",
+          "wọ ìborùn àti ìbọ̀wọ́",
+          "wọ ẹ̀wù òtútù tó nípọn",
+          "Fìlà ń ṣíji bò ọ́ lọ́wọ́ oòrùn líle, omi sì ń jẹ́ kí ara rẹ má gbóná jù."
+        ],
+        [
+          "Ìgbà wo ló ń tẹ̀lé ìgbà ìrúwé?",
+          "ìgbà ẹ̀ẹ̀rùn",
+          "ìgbà òtútù",
+          "ìgbà ìwọ́wé",
+          "Àwọn ìgbà ọdún máa ń tẹ̀lé ara wọn báyìí: ìrúwé, ẹ̀ẹ̀rùn, ìwọ́wé, òtútù."
+        ],
+        [
+          "Kí ló fà á tí a fi ní àwọn ìgbà ọdún?",
+          "ilẹ̀ ayé tẹ̀ sí ẹ̀gbẹ́ kan bí ó ṣe ń yí oòrùn ká",
+          "oòrùn máa ń kú ní ìgbà òtútù",
+          "ìkùukùu ló ń mú ìgbà òtútù wá",
+          "Ilẹ̀ ayé tẹ̀ sí ẹ̀gbẹ́ kan. Nígbà tí apá tiwa bá tẹ̀ sí oòrùn, ìgbà ẹ̀ẹ̀rùn ni."
+        ]
+      ]
+    }
+  },
+  "emoji": "sun-cloud",
+  "example": {
+    "i": 0,
+    "q_en": "What should you wear when it is snowing?",
+    "answer_en": "a warm coat and gloves",
+    "why_en": "Snow means it is very cold, so warm clothes keep your body warm.",
+    "q_de": "Was ziehst du an, wenn es schneit?",
+    "answer_de": "einen warmen Mantel und Handschuhe",
+    "why_de": "Wenn es schneit, ist es sehr kalt. Warme Kleidung hält deinen Körper warm.",
+    "q_fr": "Que mets-tu quand il neige ?",
+    "answer_fr": "un manteau chaud et des gants",
+    "why_fr": "Quand il neige, il fait très froid : les vêtements chauds gardent ton corps au chaud.",
+    "q_yo": "Kí ló yẹ kí o wọ̀ nígbà tí òjò dídì bá ń rọ̀?",
+    "answer_yo": "ẹ̀wù òtútù tó nípọn àti ìbọ̀wọ́",
+    "why_yo": "Òjò dídì túmọ̀ sí pé òtútù mú gan-an, nítorí náà aṣọ tó gbóná ń jẹ́ kí ara rẹ móoru."
+  },
+  "text": {
+    "en": {
+      "title": "Weather and seasons",
+      "teach": "There are four seasons: spring, summer, autumn and winter. We wear warm clothes when it is cold and take an umbrella when it rains.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Wetter und Jahreszeiten",
+      "teach": "Es gibt vier Jahreszeiten: Frühling, Sommer, Herbst und Winter. Wenn es kalt ist, ziehen wir warme Sachen an, und bei Regen nehmen wir einen Schirm mit.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "La météo et les saisons",
+      "teach": "Il y a quatre saisons : le printemps, l’été, l’automne et l’hiver. Quand il fait froid, on met des vêtements chauds, et quand il pleut, on prend un parapluie.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ojú ọjọ́ àti àwọn ìgbà ọdún",
+      "teach": "Ìgbà mẹ́rin ló wà: ìrúwé, ẹ̀ẹ̀rùn, ìwọ́wé àti òtútù. A máa ń wọ aṣọ tó gbóná nígbà tí òtútù bá mú, a sì máa ń mú agboòrùn nígbà tí òjò bá ń rọ̀.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

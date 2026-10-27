@@ -1,5 +1,7 @@
 import { itemKey, makeItem, shuffled } from '@/skills/generate'
 import type { Lang } from '@/i18n'
+import { bankOf } from '@/skills/bank'
+import { skillLang } from '@/skills/index'
 import type { Choice, Random, SkillDef, Visual } from '@/skills/types'
 
 // The memory game (Games tab), made of a learnt skill's own questions. Its cards
@@ -20,6 +22,9 @@ export interface Card {
 
 const answerKey = (c: Choice) => c.label ?? c.emoji ?? ''
 
+/** A question bank makes memory cards only with at least 4 different answers ("le", "la", "l’" has 3). */
+export const hasCards = (def: SkillDef, lang: Lang = 'en') => def.kind !== 'bank' || new Set(bankOf(def, skillLang(def, lang)).map((q) => q[1])).size >= 4
+
 /** Up to `PAIRS` pairs of cards from a skill's questions, shuffled: no two pairs share a question or an answer. */
 export function makeCards(def: SkillDef, r: Random = Math.random, lang: Lang = 'en'): Card[] {
   const pairs: Card[][] = []
@@ -34,7 +39,13 @@ export function makeCards(def: SkillDef, r: Random = Math.random, lang: Lang = '
     seenAnswers.add(answerKey(answer))
     const n = pairs.length
     // "Which is bigger?" has no picture: its question side is the two numbers.
-    const question: Face = item.visual ? { kind: 'visual', visual: item.visual } : { kind: 'text', text: item.choices.map(answerKey).join(' · ') }
+    // A question bank's picture alone doesn't say what is asked: its question side is the question.
+    const question: Face =
+      def.kind === 'bank'
+        ? { kind: 'text', text: String(item.values[`q_${skillLang(def, lang)}`]) }
+        : item.visual
+          ? { kind: 'visual', visual: item.visual }
+          : { kind: 'text', text: item.choices.map(answerKey).join(' · ') }
     pairs.push([
       { pair: n, face: question },
       { pair: n, face: { kind: 'choice', choice: answer } },

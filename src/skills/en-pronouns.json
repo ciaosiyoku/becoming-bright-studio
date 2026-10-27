@@ -1,0 +1,111 @@
+{
+  "id": "en-pronouns",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 2,
+  "order": 22,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "girl",
+      "sled",
+      "animal-snail",
+      "school",
+      "cake",
+      "gift",
+      "heart",
+      "bone",
+      "moon",
+      "hockey"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Mia is happy. ___ is playing.",
+          "She",
+          "He",
+          "They",
+          "Mia is a girl, so we use “She”."
+        ],
+        [
+          "Tom has a sled. ___ rides it down the hill.",
+          "He",
+          "She",
+          "We",
+          "Tom is a boy, so we use “He”."
+        ],
+        [
+          "The snail is slow. ___ moves bit by bit.",
+          "It",
+          "They",
+          "We",
+          "There is one snail, so we use “It”."
+        ],
+        [
+          "Sam and Lily are friends. ___ walk to school together.",
+          "They",
+          "He",
+          "It",
+          "Sam and Lily are two people, so we use “They”."
+        ],
+        [
+          "My sister and I made a cake. ___ ate it all.",
+          "We",
+          "Him",
+          "It",
+          "“My sister and I” includes me, so we use “We”."
+        ],
+        [
+          "It is Tom’s birthday. I gave ___ a present.",
+          "him",
+          "her",
+          "they",
+          "Tom is a boy, and the word comes after “gave”, so we use “him”."
+        ],
+        [
+          "Grandma likes flowers, so we picked some for ___.",
+          "her",
+          "him",
+          "they",
+          "Grandma is a woman, so we use “her”."
+        ],
+        [
+          "The puppies are hungry. Let’s feed ___.",
+          "them",
+          "it",
+          "she",
+          "There are many puppies, so we use “them”."
+        ],
+        [
+          "Look at the moon! ___ is so bright tonight.",
+          "It",
+          "They",
+          "He",
+          "The moon is one thing, so we use “It”."
+        ],
+        [
+          "Which word can we use instead of “the boys”?",
+          "they",
+          "she",
+          "it",
+          "“The boys” means more than one person, so we use “they”."
+        ]
+      ]
+    }
+  },
+  "emoji": "girl",
+  "example": {
+    "i": 0,
+    "q_en": "Mia is happy. ___ is playing.",
+    "answer_en": "She",
+    "why_en": "Mia is a girl, so we use “She”."
+  },
+  "text": {
+    "en": {
+      "title": "He, she, it and they",
+      "teach": "We can use a short word instead of a name: he, she, it, they and we. Mia is happy. She is playing. Him, her and them come after the action: I saw Tom. I saw him.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

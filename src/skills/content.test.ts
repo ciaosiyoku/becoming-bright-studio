@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest'
 import { LANGS } from '@/i18n'
+import { bankOf, bankValues, type BankQuestion } from './bank'
 import { exampleItem, makeItem, seeded, teachCard } from './generate'
-import { itemWords, SKILLS, skillLang } from './index'
+import { itemWords, SKILLS, skillLang, SUBJECTS } from './index'
 import type { Item, SkillDef } from './types'
 
 // The original's best test, kept: every question of every skill has exactly one right answer, and it is true,
@@ -148,6 +149,8 @@ function problem(def: SkillDef, item: Item): string | null {
       const key = new Map(def.params.pairs as [string, string][])
       return onlyOne((l) => l === key.get(String(v.word))) ? null : `wrong "not ${v.word}"`
     }
+    case 'bank':
+      return onlyOne((l) => l === bankOf(def, skillLang(def, 'en'))[Number(v.i)][1]) ? null : `wrong answer to question ${v.i}`
     default:
       return `no check for ${def.kind}`
   }
@@ -180,7 +183,7 @@ describe('every skill is complete in every language it is taught in', () => {
     for (const { id: lang } of LANGS) {
       it(`${def.id} · ${lang}`, () => {
         const taught = skillLang(def, lang)
-        if (def.only !== 'en') expect(taught, 'translated').toBe(lang)
+        if (!def.only) expect(taught, 'translated').toBe(lang)
         const t = def.text[taught]!
         expect(t.title.length > 2 && t.teach.length > 10 && t.prompt.length > 2).toBe(true)
         const r = seeded(7)
@@ -221,11 +224,39 @@ describe('pictures', () => {
 describe('the skill list', () => {
   it('has skills with different ids, each with a subject, a stage and a teach card', () => {
     expect(new Set(SKILLS.map((s) => s.id)).size).toBe(SKILLS.length)
-    for (const def of SKILLS) expect(['numbers', 'words', 'patterns'].includes(def.subject) && def.stage >= 0 && def.stage <= 7 && def.order > 0, def.id).toBe(true)
-    for (const subject of ['numbers', 'words', 'patterns']) {
+    for (const def of SKILLS) expect(SUBJECTS.includes(def.subject) && def.stage >= 0 && def.stage <= 7 && def.order > 0, def.id).toBe(true)
+    for (const subject of SUBJECTS) {
       const orders = SKILLS.filter((s) => s.subject === subject).map((s) => s.order)
       expect(new Set(orders).size, `${subject}: each order once`).toBe(orders.length)
     }
     for (const def of SKILLS) expect(teachCard(def).visual, def.id).toBeDefined()
   })
+})
+
+describe('question banks', () => {
+  for (const def of SKILLS.filter((s) => s.kind === 'bank')) {
+    it(def.id, () => {
+      const bank = def.params.bank as Record<string, BankQuestion[]>
+      const langs = Object.keys(bank)
+      const n = bank[langs[0]].length
+      expect(n, 'at least 8 questions').toBeGreaterThanOrEqual(8)
+      expect((def.params.emojis as string[]).length, 'a picture for every question').toBe(n)
+      // The teach card's example is the first question, so it is not asked again straight away.
+      expect(JSON.stringify(def.example)).toBe(JSON.stringify(bankValues(def, 0)))
+      for (const lang of langs) {
+        expect(bank[lang].length, `${lang}: same number of questions`).toBe(n)
+        expect(def.text[lang as keyof typeof def.text], `${lang}: sentences`).toBeDefined()
+        for (const q of bank[lang]) {
+          expect(q.length, q[0]).toBe(5)
+          expect(q.every((x) => x.trim().length > 0), q[0]).toBe(true)
+          expect(new Set(q.slice(1, 4)).size, `${lang}: three different choices for ${q[0]}`).toBe(3)
+        }
+        const r = seeded(3)
+        for (let i = 0; i < 60; i++) {
+          const item = makeItem(def, r, lang as never)
+          expect(right(item)).toBe(bank[lang][Number(item.values.i)][1])
+        }
+      }
+    })
+  }
 })

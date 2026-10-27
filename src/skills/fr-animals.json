@@ -1,0 +1,111 @@
+{
+  "id": "fr-animals",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "order": 4,
+  "only": "fr",
+  "params": {
+    "emojis": [
+      "animal-rabbit",
+      "animal-cow",
+      "animal-elephant",
+      "animal-lion",
+      "animal-giraffe",
+      "animal-horse",
+      "animal-frog",
+      "animal-mouse",
+      "animal-turtle",
+      "animal-snail"
+    ],
+    "bank": {
+      "fr": [
+        [
+          "Comment s’appelle cet animal ?",
+          "le lapin",
+          "la vache",
+          "le cheval",
+          "C’est un lapin : on dit « le lapin »."
+        ],
+        [
+          "Comment s’appelle cet animal ?",
+          "la vache",
+          "le lapin",
+          "la souris",
+          "C’est une vache : on dit « la vache »."
+        ],
+        [
+          "Comment s’appelle cet animal ?",
+          "l’éléphant",
+          "la girafe",
+          "le lion",
+          "« Éléphant » commence par une voyelle, alors on dit « l’éléphant »."
+        ],
+        [
+          "Comment s’appelle cet animal ?",
+          "le lion",
+          "la grenouille",
+          "le mouton",
+          "C’est un lion, le roi des animaux : on dit « le lion »."
+        ],
+        [
+          "Comment s’appelle cet animal ?",
+          "la girafe",
+          "le cheval",
+          "l’escargot",
+          "C’est une girafe, avec son long cou : on dit « la girafe »."
+        ],
+        [
+          "Comment s’appelle cet animal ?",
+          "le cheval",
+          "la vache",
+          "l’ours",
+          "C’est un cheval : on dit « le cheval »."
+        ],
+        [
+          "Comment s’appelle cet animal ?",
+          "la grenouille",
+          "le poisson",
+          "la tortue",
+          "C’est une grenouille : elle saute et dit « coâ » !"
+        ],
+        [
+          "Comment s’appelle cet animal ?",
+          "la souris",
+          "le chien",
+          "l’oiseau",
+          "C’est une souris : on dit « la souris »."
+        ],
+        [
+          "Comment s’appelle cet animal ?",
+          "la tortue",
+          "le serpent",
+          "la vache",
+          "C’est une tortue, avec sa carapace : on dit « la tortue »."
+        ],
+        [
+          "Comment s’appelle cet animal ?",
+          "l’escargot",
+          "le papillon",
+          "la souris",
+          "« Escargot » commence par une voyelle, alors on dit « l’escargot »."
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-rabbit",
+  "example": {
+    "i": 0,
+    "q_fr": "Comment s’appelle cet animal ?",
+    "answer_fr": "le lapin",
+    "why_fr": "C’est un lapin : on dit « le lapin »."
+  },
+  "text": {
+    "fr": {
+      "title": "Les animaux",
+      "teach": "Devant le nom d’un animal, on met « le » ou « la ». Si le nom commence par une voyelle, on écrit « l’ » : le lapin, la vache, l’éléphant.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    }
+  }
+}

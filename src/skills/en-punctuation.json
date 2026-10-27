@@ -1,0 +1,111 @@
+{
+  "id": "en-punctuation",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 2,
+  "order": 19,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "backpack",
+      "umbrella",
+      "wave",
+      "fruit-grapes",
+      "snow",
+      "party",
+      "warning",
+      "animal-zebra",
+      "speech",
+      "bus"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which mark ends this sentence? “Where is my bag___”",
+          "?",
+          ".",
+          ",",
+          "It asks something, so it needs a question mark."
+        ],
+        [
+          "Which mark ends this sentence? “I have a red umbrella___”",
+          ".",
+          "?",
+          ",",
+          "It tells us something, so it ends with a full stop."
+        ],
+        [
+          "Which mark ends this sentence? “What a big wave___”",
+          "!",
+          "?",
+          ",",
+          "It shows surprise, so it ends with an exclamation mark."
+        ],
+        [
+          "Which list has the commas in the right places?",
+          "I like apples, pears and grapes.",
+          "I like, apples pears and grapes.",
+          "I like apples pears, and, grapes.",
+          "Put a comma between the things in a list, but not before “and”."
+        ],
+        [
+          "Which is written correctly?",
+          "Do you like snow?",
+          "Do you like snow.",
+          "Do you, like snow?",
+          "It is a question, so it needs a question mark and no comma."
+        ],
+        [
+          "Which mark ends this sentence? “How old are you___”",
+          "?",
+          ".",
+          ",",
+          "It asks a question, so it ends with a question mark."
+        ],
+        [
+          "Which mark ends this sentence? “Watch out___”",
+          "!",
+          "?",
+          ",",
+          "It is a warning shout, so it ends with an exclamation mark."
+        ],
+        [
+          "Which list has the commas in the right places?",
+          "We saw a lion, a zebra and a giraffe.",
+          "We saw a lion a zebra, and, a giraffe.",
+          "We saw, a lion a zebra and a giraffe.",
+          "The comma goes between a lion and a zebra. “And” joins the last two."
+        ],
+        [
+          "What does a question mark show?",
+          "the sentence asks something",
+          "the sentence is a list",
+          "the sentence is very quiet",
+          "A question mark goes at the end of a sentence that asks something."
+        ],
+        [
+          "Which is written correctly?",
+          "The bus is late today.",
+          "The bus is, late today.",
+          "the bus is late today",
+          "It starts with a capital, ends with a full stop and needs no comma."
+        ]
+      ]
+    }
+  },
+  "emoji": "memo",
+  "example": {
+    "i": 0,
+    "q_en": "Which mark ends this sentence? “Where is my bag___”",
+    "answer_en": "?",
+    "why_en": "It asks something, so it needs a question mark."
+  },
+  "text": {
+    "en": {
+      "title": "Full stops, question marks and commas",
+      "teach": "A telling sentence ends with a full stop. A question ends with a question mark. A shout or surprise ends with an exclamation mark. Commas split up a list: red, blue and green.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

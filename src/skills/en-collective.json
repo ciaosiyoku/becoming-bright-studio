@@ -1,0 +1,111 @@
+{
+  "id": "en-collective",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 4,
+  "order": 26,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "animal-cow",
+      "animal-parrot",
+      "animal-honeybee",
+      "animal-lion",
+      "wave",
+      "paws",
+      "animal-elephant",
+      "bone",
+      "animal-penguin",
+      "fruit-grapes"
+    ],
+    "bank": {
+      "en": [
+        [
+          "a ___ of cows",
+          "herd",
+          "flock",
+          "swarm",
+          "A group of cows is a herd."
+        ],
+        [
+          "a ___ of birds",
+          "flock",
+          "herd",
+          "pride",
+          "A group of birds is a flock."
+        ],
+        [
+          "a ___ of bees",
+          "swarm",
+          "pack",
+          "school",
+          "A group of bees is a swarm."
+        ],
+        [
+          "a ___ of lions",
+          "pride",
+          "flock",
+          "swarm",
+          "A group of lions is a pride."
+        ],
+        [
+          "a ___ of fish",
+          "school",
+          "herd",
+          "pride",
+          "A group of fish swimming together is a school."
+        ],
+        [
+          "a ___ of wolves",
+          "pack",
+          "swarm",
+          "flock",
+          "A group of wolves is a pack."
+        ],
+        [
+          "a ___ of elephants",
+          "herd",
+          "swarm",
+          "school",
+          "A group of elephants is a herd."
+        ],
+        [
+          "a ___ of puppies",
+          "litter",
+          "swarm",
+          "pride",
+          "Puppies born together are a litter."
+        ],
+        [
+          "a ___ of penguins",
+          "colony",
+          "pride",
+          "swarm",
+          "A group of penguins is a colony."
+        ],
+        [
+          "a ___ of grapes",
+          "bunch",
+          "herd",
+          "flock",
+          "Grapes growing together are a bunch."
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-cow",
+  "example": {
+    "i": 0,
+    "q_en": "a ___ of cows",
+    "answer_en": "herd",
+    "why_en": "A group of cows is a herd."
+  },
+  "text": {
+    "en": {
+      "title": "Group names",
+      "teach": "A collective noun is the name for a group: a herd of cows, a flock of birds, a swarm of bees.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

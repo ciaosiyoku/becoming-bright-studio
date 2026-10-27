@@ -44,6 +44,8 @@ export function resultOf(checks: CheckAnswer[]): { right: number; mastered: bool
  * A child after a finished session: the skill's sessions and last score, mastered once 4 of 5 checks were right
  * (it stays mastered), and the misses kept for the parent screen. Pure.
  */
+const add = (day: Child['lessons'][string] | undefined, right: number, checks: number) => ({ count: (day?.count ?? 0) + 1, right: (day?.right ?? 0) + right, checks: (day?.checks ?? 0) + checks })
+
 export function finishSession(child: Child, skill: string, checks: CheckAnswer[], day: Date): Child {
   const { right, mastered } = resultOf(checks)
   const before = child.skills[skill] ?? { mastered: false, sessions: 0, lastScore: null }
@@ -53,6 +55,7 @@ export function finishSession(child: Child, skill: string, checks: CheckAnswer[]
     ...child,
     // A passed lesson earns time (app/access.ts).
     passes: right >= PASS ? { ...child.passes, [date]: (child.passes[date] ?? 0) + 1 } : child.passes,
+    lessons: { ...child.lessons, [date]: add(child.lessons[date], right, checks.length) },
     skills: {
       ...child.skills,
       [skill]: {

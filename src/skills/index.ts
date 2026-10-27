@@ -8,15 +8,15 @@ import type { Item, SkillDef, SkillText, Subject } from './types'
 export const SKILLS: SkillDef[] = Object.values(import.meta.glob<SkillDef>('./*.json', { eager: true, import: 'default' }))
 
 /** The subjects in home-screen order, each with its skills in teaching order. */
-export const SUBJECTS: Subject[] = ['numbers', 'words', 'patterns']
+export const SUBJECTS: Subject[] = ['numbers', 'words', 'patterns', 'science', 'french']
 /** The picture of each subject (the skill chooser). */
-export const SUBJECT_EMOJI: Record<Subject, string> = { numbers: 'abacus', words: 'letters', patterns: 'puzzle' }
+export const SUBJECT_EMOJI: Record<Subject, string> = { numbers: 'abacus', words: 'letters', patterns: 'puzzle', science: 'magnet', french: 'speech' }
 export const bySubject = (subject: Subject) => SKILLS.filter((s) => s.subject === subject).sort((a, b) => a.order - b.order)
 
 export const skillById = (id: string): SkillDef | undefined => SKILLS.find((s) => s.id === id)
 
-/** The language a skill is taught in: English skills always in English, the others in the app language. */
-export const skillLang = (def: SkillDef, lang: Lang): Lang => (def.only === 'en' || !def.text[lang] ? 'en' : lang)
+/** The language a skill is taught in: English skills always in English, French skills in French, the others in the app language. */
+export const skillLang = (def: SkillDef, lang: Lang): Lang => def.only ?? (def.text[lang] ? lang : 'en')
 
 /** The skill's sentences in a language. */
 export const skillText = (def: SkillDef, lang: Lang): SkillText => def.text[skillLang(def, lang)] ?? def.text.en

@@ -1,0 +1,111 @@
+{
+  "id": "en-question-words",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 2,
+  "order": 20,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "house",
+      "bell",
+      "cake",
+      "gift",
+      "bus",
+      "fruit-banana",
+      "clock",
+      "girl",
+      "animal-octopus",
+      "books"
+    ],
+    "bank": {
+      "en": [
+        [
+          "___ do you live? – In a house by the park.",
+          "Where",
+          "Who",
+          "What",
+          "The answer is a place, so we ask “Where”."
+        ],
+        [
+          "___ is at the door? – It is Grandma.",
+          "Who",
+          "When",
+          "How",
+          "The answer is a person, so we ask “Who”."
+        ],
+        [
+          "___ is your birthday? – In May.",
+          "When",
+          "Who",
+          "How",
+          "The answer is a time, so we ask “When”."
+        ],
+        [
+          "___ are you smiling? – Because I got a present.",
+          "Why",
+          "Who",
+          "Where",
+          "The answer gives a reason, so we ask “Why”."
+        ],
+        [
+          "___ do you get to school? – By bus.",
+          "How",
+          "Who",
+          "Why",
+          "The answer tells us the way, so we ask “How”."
+        ],
+        [
+          "___ is in your lunchbox? – A banana.",
+          "What",
+          "Who",
+          "When",
+          "The answer is a thing, so we ask “What”."
+        ],
+        [
+          "Which word asks about a time?",
+          "when",
+          "who",
+          "where",
+          "“When” asks about a time, like “When is lunch?”"
+        ],
+        [
+          "Which word asks about a person?",
+          "who",
+          "what",
+          "where",
+          "“Who” asks about a person, like “Who is she?”"
+        ],
+        [
+          "___ many legs does an octopus have? – Eight.",
+          "How",
+          "What",
+          "Who",
+          "“How many” asks about a number."
+        ],
+        [
+          "___ did you put my book? – On the shelf.",
+          "Where",
+          "Why",
+          "Who",
+          "The answer is a place, so we ask “Where”."
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "i": 0,
+    "q_en": "___ do you live? – In a house by the park.",
+    "answer_en": "Where",
+    "why_en": "The answer is a place, so we ask “Where”."
+  },
+  "text": {
+    "en": {
+      "title": "Question words",
+      "teach": "Question words start a question. Who asks about a person, what about a thing, where about a place, when about a time, why about a reason and how about the way: Where is my hat?",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

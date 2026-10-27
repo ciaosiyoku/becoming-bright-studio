@@ -1,0 +1,353 @@
+{
+  "id": "sci-habitats",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 3,
+  "order": 8,
+  "params": {
+    "emojis": [
+      "animal-camel",
+      "snowflake",
+      "seedling",
+      "animal-rabbit",
+      "animal-fox",
+      "animal-octopus",
+      "globe",
+      "polarbear",
+      "sun",
+      "animal-owl"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Where does a camel live?",
+          "in the hot, dry desert",
+          "deep in the sea",
+          "on the icy North Pole",
+          "Camels can go for days without drinking, and their wide feet do not sink in the sand."
+        ],
+        [
+          "Which animal lives in the cold, snowy Arctic?",
+          "a polar bear",
+          "a camel",
+          "a zebra",
+          "Polar bears have thick fur and a layer of fat that keep them warm on the ice."
+        ],
+        [
+          "In a food chain, why is grass called a producer?",
+          "it makes its own food using sunlight",
+          "it eats small insects",
+          "it hunts rabbits",
+          "Plants make their own food from sunlight, water and air. Every food chain starts with a producer."
+        ],
+        [
+          "Food chain: grass → rabbit → fox. What does the rabbit eat?",
+          "grass",
+          "the fox",
+          "stones",
+          "The arrow points from the food to the eater. The arrow from the grass points to the rabbit, so the rabbit eats grass."
+        ],
+        [
+          "Food chain: grass → rabbit → fox. What does the fox eat?",
+          "the rabbit",
+          "the grass",
+          "the sun",
+          "The arrow from the rabbit points to the fox, so in this food chain the fox eats the rabbit."
+        ],
+        [
+          "Which habitat is home to octopuses, crabs and sharks?",
+          "the ocean",
+          "the desert",
+          "a forest",
+          "Octopuses, crabs and sharks all live in salty sea water. The ocean is their habitat."
+        ],
+        [
+          "What does a habitat give the animals that live there?",
+          "food, water and a safe home",
+          "toys and money",
+          "nothing at all",
+          "Animals live where they can find the food, water and shelter they need."
+        ],
+        [
+          "Why does a polar bear have thick fur?",
+          "to keep warm in the cold",
+          "to stay cool in the desert",
+          "to help it fly",
+          "The Arctic is freezing cold. Thick fur traps warm air next to the bear’s body."
+        ],
+        [
+          "Which of these is a producer in a food chain?",
+          "an apple tree",
+          "a lion",
+          "an owl",
+          "An apple tree is a plant, so it makes its own food with sunlight. Lions and owls must eat other living things."
+        ],
+        [
+          "An owl hunts and eats mice. What is the owl in this food chain?",
+          "a predator",
+          "a producer",
+          "a plant",
+          "A predator is an animal that hunts other animals for food. The mouse is its prey."
+        ]
+      ],
+      "de": [
+        [
+          "Wo lebt ein Kamel?",
+          "in der heißen, trockenen Wüste",
+          "tief im Meer",
+          "am eisigen Nordpol",
+          "Kamele kommen tagelang ohne Trinken aus, und ihre breiten Füße sinken nicht im Sand ein."
+        ],
+        [
+          "Welches Tier lebt in der kalten, verschneiten Arktis?",
+          "ein Eisbär",
+          "ein Kamel",
+          "ein Zebra",
+          "Eisbären haben dickes Fell und eine Fettschicht. Die halten sie auf dem Eis warm."
+        ],
+        [
+          "Warum heißt Gras in einer Nahrungskette Erzeuger?",
+          "es macht seine Nahrung selbst mit Sonnenlicht",
+          "es frisst kleine Insekten",
+          "es jagt Hasen",
+          "Pflanzen machen ihre Nahrung selbst aus Sonnenlicht, Wasser und Luft. Jede Nahrungskette beginnt mit einem Erzeuger."
+        ],
+        [
+          "Nahrungskette: Gras → Hase → Fuchs. Was frisst der Hase?",
+          "Gras",
+          "den Fuchs",
+          "Steine",
+          "Der Pfeil zeigt vom Futter zum Fresser. Der Pfeil vom Gras zeigt auf den Hasen, also frisst der Hase Gras."
+        ],
+        [
+          "Nahrungskette: Gras → Hase → Fuchs. Was frisst der Fuchs?",
+          "den Hasen",
+          "das Gras",
+          "die Sonne",
+          "Der Pfeil vom Hasen zeigt auf den Fuchs. In dieser Nahrungskette frisst der Fuchs also den Hasen."
+        ],
+        [
+          "Welcher Lebensraum ist das Zuhause von Kraken, Krabben und Haien?",
+          "das Meer",
+          "die Wüste",
+          "der Wald",
+          "Kraken, Krabben und Haie leben alle im salzigen Meerwasser. Das Meer ist ihr Lebensraum."
+        ],
+        [
+          "Was bietet ein Lebensraum den Tieren, die dort leben?",
+          "Nahrung, Wasser und ein sicheres Zuhause",
+          "Spielzeug und Geld",
+          "gar nichts",
+          "Tiere leben dort, wo sie die Nahrung, das Wasser und den Schutz finden, die sie brauchen."
+        ],
+        [
+          "Warum hat ein Eisbär dickes Fell?",
+          "um in der Kälte warm zu bleiben",
+          "um in der Wüste kühl zu bleiben",
+          "damit er fliegen kann",
+          "In der Arktis ist es eiskalt. Das dicke Fell hält warme Luft nah am Körper des Bären."
+        ],
+        [
+          "Was davon ist ein Erzeuger in einer Nahrungskette?",
+          "ein Apfelbaum",
+          "ein Löwe",
+          "eine Eule",
+          "Ein Apfelbaum ist eine Pflanze und macht seine Nahrung selbst mit Sonnenlicht. Löwen und Eulen müssen andere Lebewesen fressen."
+        ],
+        [
+          "Eine Eule jagt und frisst Mäuse. Was ist die Eule in dieser Nahrungskette?",
+          "ein Räuber",
+          "ein Erzeuger",
+          "eine Pflanze",
+          "Ein Räuber ist ein Tier, das andere Tiere jagt, um sie zu fressen. Die Maus ist seine Beute."
+        ]
+      ],
+      "fr": [
+        [
+          "Où vit le chameau ?",
+          "dans le désert chaud et sec",
+          "au fond de la mer",
+          "au pôle Nord glacé",
+          "Le chameau peut rester des jours sans boire, et ses larges pieds ne s’enfoncent pas dans le sable."
+        ],
+        [
+          "Quel animal vit dans l’Arctique, froid et enneigé ?",
+          "l’ours polaire",
+          "le chameau",
+          "le zèbre",
+          "L’ours polaire a une fourrure épaisse et une couche de graisse qui le gardent au chaud sur la glace."
+        ],
+        [
+          "Dans une chaîne alimentaire, pourquoi l’herbe est-elle un producteur ?",
+          "elle fabrique sa nourriture avec la lumière du soleil",
+          "elle mange de petits insectes",
+          "elle chasse les lapins",
+          "Les plantes fabriquent leur nourriture avec le soleil, l’eau et l’air. Toute chaîne alimentaire commence par un producteur."
+        ],
+        [
+          "Chaîne alimentaire : herbe → lapin → renard. Que mange le lapin ?",
+          "de l’herbe",
+          "le renard",
+          "des cailloux",
+          "La flèche va de la nourriture vers celui qui la mange. La flèche part de l’herbe vers le lapin : le lapin mange de l’herbe."
+        ],
+        [
+          "Chaîne alimentaire : herbe → lapin → renard. Que mange le renard ?",
+          "le lapin",
+          "l’herbe",
+          "le soleil",
+          "La flèche part du lapin vers le renard : dans cette chaîne, le renard mange le lapin."
+        ],
+        [
+          "Quel milieu de vie abrite les pieuvres, les crabes et les requins ?",
+          "l’océan",
+          "le désert",
+          "la forêt",
+          "Les pieuvres, les crabes et les requins vivent dans l’eau salée de la mer. L’océan est leur milieu de vie."
+        ],
+        [
+          "Qu’apporte un milieu de vie aux animaux qui y vivent ?",
+          "de la nourriture, de l’eau et un abri sûr",
+          "des jouets et de l’argent",
+          "rien du tout",
+          "Les animaux vivent là où ils trouvent la nourriture, l’eau et l’abri dont ils ont besoin."
+        ],
+        [
+          "Pourquoi l’ours polaire a-t-il une fourrure épaisse ?",
+          "pour avoir chaud dans le froid",
+          "pour rester au frais dans le désert",
+          "pour pouvoir voler",
+          "L’Arctique est glacial. La fourrure épaisse garde l’air chaud contre le corps de l’ours."
+        ],
+        [
+          "Lequel est un producteur dans une chaîne alimentaire ?",
+          "un pommier",
+          "un lion",
+          "une chouette",
+          "Le pommier est une plante : il fabrique sa nourriture avec la lumière du soleil. Le lion et la chouette doivent manger d’autres êtres vivants."
+        ],
+        [
+          "La chouette chasse et mange des souris. Qu’est-elle dans cette chaîne alimentaire ?",
+          "un prédateur",
+          "un producteur",
+          "une plante",
+          "Un prédateur est un animal qui chasse d’autres animaux pour se nourrir. La souris est sa proie."
+        ]
+      ],
+      "yo": [
+        [
+          "Ibo ni ràkúnmí ń gbé?",
+          "nínú aṣálẹ̀ tó gbóná tí ó sì gbẹ",
+          "nínú ibú òkun",
+          "ní Àríwá Ilẹ̀ Ayé tí yìnyín bò",
+          "Ràkúnmí lè lo ọ̀pọ̀ ọjọ́ láìmu omi, ẹsẹ̀ rẹ̀ tó fẹ̀ kì í sì í rì sínú iyanrìn."
+        ],
+        [
+          "Ẹranko wo ló ń gbé ní agbègbè Àríwá tó tutù, tí yìnyín bò?",
+          "bíà funfun",
+          "ràkúnmí",
+          "kẹ́tẹ́kẹ́tẹ́ abìlà",
+          "Bíà funfun ní irun tó nípọn àti ọ̀rá lábẹ́ awọ tó ń mú ara rẹ̀ móoru lórí yìnyín."
+        ],
+        [
+          "Nínú ẹ̀wọ̀n oúnjẹ, kí ló dé tí a fi ń pe koríko ní olùpèsè?",
+          "ó ń fi ìmọ́lẹ̀ oòrùn ṣe oúnjẹ tirẹ̀",
+          "ó ń jẹ àwọn kòkòrò kéékèèké",
+          "ó ń dọdẹ ehoro",
+          "Ewéko ń fi ìmọ́lẹ̀ oòrùn, omi àti afẹ́fẹ́ ṣe oúnjẹ tirẹ̀. Olùpèsè ló ń bẹ̀rẹ̀ gbogbo ẹ̀wọ̀n oúnjẹ."
+        ],
+        [
+          "Ẹ̀wọ̀n oúnjẹ: koríko → ehoro → kọ̀lọ̀kọ̀lọ̀. Kí ni ehoro ń jẹ?",
+          "koríko",
+          "kọ̀lọ̀kọ̀lọ̀",
+          "òkúta",
+          "Ọfà ń tọ́ka láti oúnjẹ sí ẹni tó ń jẹ ẹ́. Ọfà láti koríko tọ́ka sí ehoro, nítorí náà ehoro ń jẹ koríko."
+        ],
+        [
+          "Ẹ̀wọ̀n oúnjẹ: koríko → ehoro → kọ̀lọ̀kọ̀lọ̀. Kí ni kọ̀lọ̀kọ̀lọ̀ ń jẹ?",
+          "ehoro",
+          "koríko",
+          "oòrùn",
+          "Ọfà láti ehoro tọ́ka sí kọ̀lọ̀kọ̀lọ̀, nítorí náà nínú ẹ̀wọ̀n oúnjẹ yìí, kọ̀lọ̀kọ̀lọ̀ ń jẹ ehoro."
+        ],
+        [
+          "Ibùgbé wo ni ilé ẹja ẹlẹ́sẹ̀ mẹ́jọ, akàn àti ẹja yanmìyanmì?",
+          "òkun",
+          "aṣálẹ̀",
+          "igbó",
+          "Ẹja ẹlẹ́sẹ̀ mẹ́jọ, akàn àti ẹja yanmìyanmì ń gbé inú omi iyọ̀ òkun. Òkun ni ibùgbé wọn."
+        ],
+        [
+          "Kí ni ibùgbé ń fún àwọn ẹranko tó ń gbé ibẹ̀?",
+          "oúnjẹ, omi àti ilé tó láàbò",
+          "ohun ìṣeré àti owó",
+          "kò fún wọn ní nǹkan kan",
+          "Ẹranko ń gbé ibi tí wọ́n ti lè rí oúnjẹ, omi àti ààbò tí wọ́n nílò."
+        ],
+        [
+          "Kí ló dé tí bíà funfun fi ní irun tó nípọn?",
+          "kí ara rẹ̀ lè móoru nínú òtútù",
+          "kí ara rẹ̀ lè tutù nínú aṣálẹ̀",
+          "kí ó lè fò",
+          "Òtútù mú gan-an ní agbègbè Àríwá. Irun tó nípọn ń dá afẹ́fẹ́ gbígbóná dúró mọ́ ara bíà náà."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni olùpèsè nínú ẹ̀wọ̀n oúnjẹ?",
+          "igi ápù",
+          "kìnnìún",
+          "òwìwí",
+          "Ewéko ni igi ápù, nítorí náà ó ń fi ìmọ́lẹ̀ oòrùn ṣe oúnjẹ tirẹ̀. Kìnnìún àti òwìwí gbọ́dọ̀ jẹ àwọn ohun alààyè mìíràn."
+        ],
+        [
+          "Òwìwí ń dọdẹ eku, ó sì ń jẹ wọ́n. Kí ni òwìwí jẹ́ nínú ẹ̀wọ̀n oúnjẹ yìí?",
+          "ẹranko apẹranjẹ",
+          "olùpèsè",
+          "ewéko",
+          "Ẹranko apẹranjẹ ni ẹranko tó ń dọdẹ àwọn ẹranko mìíràn láti jẹ. Eku ni ohun tí ó ń dọdẹ."
+        ]
+      ]
+    }
+  },
+  "emoji": "globe",
+  "example": {
+    "i": 0,
+    "q_en": "Where does a camel live?",
+    "answer_en": "in the hot, dry desert",
+    "why_en": "Camels can go for days without drinking, and their wide feet do not sink in the sand.",
+    "q_de": "Wo lebt ein Kamel?",
+    "answer_de": "in der heißen, trockenen Wüste",
+    "why_de": "Kamele kommen tagelang ohne Trinken aus, und ihre breiten Füße sinken nicht im Sand ein.",
+    "q_fr": "Où vit le chameau ?",
+    "answer_fr": "dans le désert chaud et sec",
+    "why_fr": "Le chameau peut rester des jours sans boire, et ses larges pieds ne s’enfoncent pas dans le sable.",
+    "q_yo": "Ibo ni ràkúnmí ń gbé?",
+    "answer_yo": "nínú aṣálẹ̀ tó gbóná tí ó sì gbẹ",
+    "why_yo": "Ràkúnmí lè lo ọ̀pọ̀ ọjọ́ láìmu omi, ẹsẹ̀ rẹ̀ tó fẹ̀ kì í sì í rì sínú iyanrìn."
+  },
+  "text": {
+    "en": {
+      "title": "Habitats and food chains",
+      "teach": "A habitat is where an animal or plant lives and finds food, water and shelter. A food chain shows who eats whom, and it always starts with a plant, the producer.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Lebensräume und Nahrungsketten",
+      "teach": "Ein Lebensraum ist der Ort, an dem ein Tier oder eine Pflanze lebt und Nahrung, Wasser und Schutz findet. Eine Nahrungskette zeigt, wer wen frisst. Sie beginnt immer mit einer Pflanze, dem Erzeuger.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les milieux de vie et les chaînes alimentaires",
+      "teach": "Le milieu de vie, c’est l’endroit où un animal ou une plante vit et trouve nourriture, eau et abri. Une chaîne alimentaire montre qui mange qui : elle commence toujours par une plante, le producteur.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ibùgbé àti ẹ̀wọ̀n oúnjẹ",
+      "teach": "Ibùgbé ni ibi tí ẹranko tàbí ewéko ń gbé, tí ó ti ń rí oúnjẹ, omi àti ààbò. Ẹ̀wọ̀n oúnjẹ ń fi hàn ẹni tí ń jẹ ẹni. Ewéko ló máa ń bẹ̀rẹ̀ rẹ̀, òun ni olùpèsè.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

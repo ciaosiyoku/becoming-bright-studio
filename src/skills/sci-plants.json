@@ -1,0 +1,353 @@
+{
+  "id": "sci-plants",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 2,
+  "order": 5,
+  "params": {
+    "emojis": [
+      "seedling",
+      "droplet",
+      "sun-rain",
+      "sun",
+      "fruit-cherries",
+      "animal-honeybee",
+      "moon",
+      "fruit-apple",
+      "tree",
+      "animal-butterfly"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does a plant need to grow well?",
+          "water, light and air",
+          "sweets and juice",
+          "darkness and no water",
+          "Plants need water, sunlight and air to stay healthy and grow."
+        ],
+        [
+          "Which part of a plant takes in water from the soil?",
+          "the roots",
+          "the flower",
+          "the petals",
+          "Roots grow down into the soil. They hold the plant in place and soak up water."
+        ],
+        [
+          "Which part holds a plant up and carries water to its leaves?",
+          "the stem",
+          "the petals",
+          "the seeds",
+          "The stem is like a straw: water travels up it from the roots to the leaves and flowers."
+        ],
+        [
+          "What do leaves use to make food for the plant?",
+          "sunlight",
+          "music",
+          "snow",
+          "Green leaves catch sunlight and use it, with water and air, to make food for the plant."
+        ],
+        [
+          "What does a flower help a plant to make?",
+          "seeds",
+          "stones",
+          "soil",
+          "After a flower is pollinated, it makes seeds. The seeds can grow into new plants."
+        ],
+        [
+          "How does a bee help flowers?",
+          "it carries pollen from flower to flower",
+          "it waters them",
+          "it cuts off their leaves",
+          "Pollen sticks to the bee’s hairy body. When it visits the next flower, the pollen helps that flower make seeds."
+        ],
+        [
+          "What happens to a plant kept in a dark cupboard for a long time?",
+          "it turns pale and weak",
+          "it grows greener and stronger",
+          "it turns into a tree",
+          "Without light, leaves cannot make food. The plant goes yellow and weak."
+        ],
+        [
+          "Where are the seeds of an apple?",
+          "inside the fruit",
+          "in the roots",
+          "under the leaves",
+          "The seeds are in the middle of the apple. The fruit grows around them to protect them."
+        ],
+        [
+          "A tree trunk is which part of the plant?",
+          "its stem",
+          "its root",
+          "its flower",
+          "A tree trunk is a big, hard, woody stem. It holds the tree up and carries water to the leaves."
+        ],
+        [
+          "Why do many flowers have bright colours?",
+          "to attract insects like bees and butterflies",
+          "to scare away the rain",
+          "to keep the plant warm",
+          "Bright colours and sweet smells bring insects to the flower. The insects carry pollen to other flowers."
+        ]
+      ],
+      "de": [
+        [
+          "Was braucht eine Pflanze, um gut zu wachsen?",
+          "Wasser, Licht und Luft",
+          "Bonbons und Saft",
+          "Dunkelheit und kein Wasser",
+          "Pflanzen brauchen Wasser, Sonnenlicht und Luft, um gesund zu bleiben und zu wachsen."
+        ],
+        [
+          "Welcher Teil der Pflanze nimmt Wasser aus der Erde auf?",
+          "die Wurzeln",
+          "die Blüte",
+          "die Blütenblätter",
+          "Die Wurzeln wachsen in die Erde. Sie halten die Pflanze fest und saugen Wasser auf."
+        ],
+        [
+          "Welcher Teil hält die Pflanze aufrecht und bringt Wasser zu den Blättern?",
+          "der Stängel",
+          "die Blütenblätter",
+          "die Samen",
+          "Der Stängel ist wie ein Strohhalm: Das Wasser steigt darin von den Wurzeln zu den Blättern und Blüten."
+        ],
+        [
+          "Was nutzen Blätter, um Nahrung für die Pflanze zu machen?",
+          "Sonnenlicht",
+          "Musik",
+          "Schnee",
+          "Grüne Blätter fangen Sonnenlicht ein und machen damit, mit Wasser und Luft, Nahrung für die Pflanze."
+        ],
+        [
+          "Was hilft eine Blüte der Pflanze zu machen?",
+          "Samen",
+          "Steine",
+          "Erde",
+          "Wenn eine Blüte bestäubt ist, bildet sie Samen. Aus den Samen können neue Pflanzen wachsen."
+        ],
+        [
+          "Wie hilft eine Biene den Blüten?",
+          "sie trägt Pollen von Blüte zu Blüte",
+          "sie gießt sie",
+          "sie schneidet ihre Blätter ab",
+          "Pollen bleiben am haarigen Körper der Biene hängen. Bei der nächsten Blüte helfen sie, Samen zu bilden."
+        ],
+        [
+          "Was passiert mit einer Pflanze, die lange in einem dunklen Schrank steht?",
+          "sie wird blass und schwach",
+          "sie wird grüner und kräftiger",
+          "sie wird zu einem Baum",
+          "Ohne Licht können die Blätter keine Nahrung machen. Die Pflanze wird gelb und schwach."
+        ],
+        [
+          "Wo sind die Samen eines Apfels?",
+          "in der Frucht",
+          "in den Wurzeln",
+          "unter den Blättern",
+          "Die Kerne sind in der Mitte des Apfels. Die Frucht wächst um sie herum und schützt sie."
+        ],
+        [
+          "Welcher Teil der Pflanze ist ein Baumstamm?",
+          "ihr Stängel",
+          "ihre Wurzel",
+          "ihre Blüte",
+          "Ein Baumstamm ist ein großer, harter Stängel aus Holz. Er hält den Baum und bringt Wasser zu den Blättern."
+        ],
+        [
+          "Warum haben viele Blüten leuchtende Farben?",
+          "um Insekten wie Bienen und Schmetterlinge anzulocken",
+          "um den Regen zu verscheuchen",
+          "um die Pflanze zu wärmen",
+          "Leuchtende Farben und süßer Duft locken Insekten an. Die Insekten tragen den Pollen zu anderen Blüten."
+        ]
+      ],
+      "fr": [
+        [
+          "De quoi une plante a-t-elle besoin pour bien pousser ?",
+          "d’eau, de lumière et d’air",
+          "de bonbons et de jus",
+          "de noir et pas d’eau",
+          "Les plantes ont besoin d’eau, de soleil et d’air pour rester en bonne santé et grandir."
+        ],
+        [
+          "Quelle partie de la plante prend l’eau dans la terre ?",
+          "les racines",
+          "la fleur",
+          "les pétales",
+          "Les racines poussent dans la terre. Elles tiennent la plante et aspirent l’eau."
+        ],
+        [
+          "Quelle partie tient la plante debout et porte l’eau jusqu’aux feuilles ?",
+          "la tige",
+          "les pétales",
+          "les graines",
+          "La tige est comme une paille : l’eau y monte des racines jusqu’aux feuilles et aux fleurs."
+        ],
+        [
+          "Qu’utilisent les feuilles pour fabriquer la nourriture de la plante ?",
+          "la lumière du soleil",
+          "la musique",
+          "la neige",
+          "Les feuilles vertes captent la lumière du soleil et s’en servent, avec l’eau et l’air, pour nourrir la plante."
+        ],
+        [
+          "Qu’est-ce que la fleur aide la plante à fabriquer ?",
+          "des graines",
+          "des cailloux",
+          "de la terre",
+          "Une fois pollinisée, la fleur fait des graines. Ces graines peuvent devenir de nouvelles plantes."
+        ],
+        [
+          "Comment l’abeille aide-t-elle les fleurs ?",
+          "elle porte le pollen de fleur en fleur",
+          "elle les arrose",
+          "elle coupe leurs feuilles",
+          "Le pollen colle au corps poilu de l’abeille. À la fleur suivante, il l’aide à faire des graines."
+        ],
+        [
+          "Que devient une plante laissée longtemps dans un placard sombre ?",
+          "elle devient pâle et faible",
+          "elle devient plus verte et plus forte",
+          "elle se transforme en arbre",
+          "Sans lumière, les feuilles ne peuvent pas fabriquer de nourriture. La plante jaunit et s’affaiblit."
+        ],
+        [
+          "Où sont les graines d’une pomme ?",
+          "dans le fruit",
+          "dans les racines",
+          "sous les feuilles",
+          "Les pépins sont au cœur de la pomme. Le fruit pousse autour d’eux pour les protéger."
+        ],
+        [
+          "Le tronc d’un arbre, c’est quelle partie de la plante ?",
+          "sa tige",
+          "sa racine",
+          "sa fleur",
+          "Le tronc est une grande tige dure, en bois. Il tient l’arbre debout et porte l’eau jusqu’aux feuilles."
+        ],
+        [
+          "Pourquoi beaucoup de fleurs ont-elles des couleurs vives ?",
+          "pour attirer les insectes comme les abeilles et les papillons",
+          "pour faire peur à la pluie",
+          "pour tenir la plante au chaud",
+          "Les couleurs vives et les odeurs sucrées attirent les insectes. Ils emportent le pollen vers d’autres fleurs."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni ewéko nílò kí ó lè dàgbà dáadáa?",
+          "omi, ìmọ́lẹ̀ àti afẹ́fẹ́",
+          "súìtì àti oje èso",
+          "òkùnkùn láìsí omi",
+          "Ewéko nílò omi, ìmọ́lẹ̀ oòrùn àti afẹ́fẹ́ kí ó lè ní ìlera, kí ó sì dàgbà."
+        ],
+        [
+          "Apá wo nínú ewéko ló ń fa omi láti inú ilẹ̀?",
+          "gbòǹgbò",
+          "òdòdó",
+          "ewé òdòdó",
+          "Gbòǹgbò ń hù wọnú ilẹ̀. Ó ń di ewéko mú, ó sì ń fa omi mu."
+        ],
+        [
+          "Apá wo ló ń gbé ewéko dúró, tí ó sì ń gbé omi lọ sí ewé rẹ̀?",
+          "igi ewéko",
+          "ewé òdòdó",
+          "irúgbìn",
+          "Igi ewéko dà bí ọ̀pá ìfamu: omi ń gòkè nínú rẹ̀ láti gbòǹgbò lọ sí ewé àti òdòdó."
+        ],
+        [
+          "Kí ni ewé ń lò láti ṣe oúnjẹ fún ewéko?",
+          "ìmọ́lẹ̀ oòrùn",
+          "orin",
+          "yìnyín",
+          "Ewé tútù ń gba ìmọ́lẹ̀ oòrùn, ó sì ń lò ó pẹ̀lú omi àti afẹ́fẹ́ láti ṣe oúnjẹ fún ewéko."
+        ],
+        [
+          "Kí ni òdòdó ń ran ewéko lọ́wọ́ láti mú jáde?",
+          "irúgbìn",
+          "òkúta",
+          "erùpẹ̀",
+          "Lẹ́yìn tí eruku òdòdó bá dé ara òdòdó, ó máa mú irúgbìn jáde. Irúgbìn lè hù di ewéko tuntun."
+        ],
+        [
+          "Báwo ni kòkòrò oyin ṣe ń ran òdòdó lọ́wọ́?",
+          "ó ń gbé eruku òdòdó láti òdòdó kan sí òmíràn",
+          "ó ń bomi rin wọ́n",
+          "ó ń gé ewé wọn",
+          "Eruku òdòdó ń lẹ̀ mọ́ ara onírun kòkòrò oyin. Nígbà tó bá dé òdòdó tó kàn, eruku náà ń ràn án lọ́wọ́ láti mú irúgbìn jáde."
+        ],
+        [
+          "Kí ló máa ṣẹlẹ̀ sí ewéko tí a fi sínú kọ́bọ́ọ̀dù òkùnkùn fún ìgbà pípẹ́?",
+          "ó máa rẹ̀, kò sì ní lágbára",
+          "ó máa túbọ̀ tutù yọ̀yọ̀, ó sì máa lágbára",
+          "ó máa di igi ńlá",
+          "Láìsí ìmọ́lẹ̀, ewé kò lè ṣe oúnjẹ. Ewéko náà máa pọ́n, kò sì ní lágbára."
+        ],
+        [
+          "Ibo ni irúgbìn ápù wà?",
+          "nínú èso náà",
+          "nínú gbòǹgbò",
+          "lábẹ́ ewé",
+          "Irúgbìn wà ní àárín ápù. Èso náà ń dàgbà yí wọn ká láti dáàbò bò wọ́n."
+        ],
+        [
+          "Apá wo nínú ewéko ni ìtì igi jẹ́?",
+          "igi ewéko rẹ̀",
+          "gbòǹgbò rẹ̀",
+          "òdòdó rẹ̀",
+          "Ìtì igi jẹ́ igi ewéko ńlá tó le. Ó ń gbé igi dúró, ó sì ń gbé omi lọ sí ewé."
+        ],
+        [
+          "Kí ló dé tí ọ̀pọ̀ òdòdó fi ní àwọ̀ tó mọ́lẹ̀ yòò?",
+          "kí wọ́n lè fa kòkòrò bí oyin àti labalábá mọ́ra",
+          "kí wọ́n lè lé òjò lọ",
+          "kí ewéko lè móoru",
+          "Àwọ̀ tó mọ́lẹ̀ àti òórùn dídùn ń fa kòkòrò wá sí òdòdó. Àwọn kòkòrò náà ń gbé eruku òdòdó lọ sí òdòdó mìíràn."
+        ]
+      ]
+    }
+  },
+  "emoji": "seedling",
+  "example": {
+    "i": 0,
+    "q_en": "What does a plant need to grow well?",
+    "answer_en": "water, light and air",
+    "why_en": "Plants need water, sunlight and air to stay healthy and grow.",
+    "q_de": "Was braucht eine Pflanze, um gut zu wachsen?",
+    "answer_de": "Wasser, Licht und Luft",
+    "why_de": "Pflanzen brauchen Wasser, Sonnenlicht und Luft, um gesund zu bleiben und zu wachsen.",
+    "q_fr": "De quoi une plante a-t-elle besoin pour bien pousser ?",
+    "answer_fr": "d’eau, de lumière et d’air",
+    "why_fr": "Les plantes ont besoin d’eau, de soleil et d’air pour rester en bonne santé et grandir.",
+    "q_yo": "Kí ni ewéko nílò kí ó lè dàgbà dáadáa?",
+    "answer_yo": "omi, ìmọ́lẹ̀ àti afẹ́fẹ́",
+    "why_yo": "Ewéko nílò omi, ìmọ́lẹ̀ oòrùn àti afẹ́fẹ́ kí ó lè ní ìlera, kí ó sì dàgbà."
+  },
+  "text": {
+    "en": {
+      "title": "How plants grow",
+      "teach": "Plants need water, light and air. Roots drink water, the stem holds the plant up, leaves make food and flowers make seeds.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Wie Pflanzen wachsen",
+      "teach": "Pflanzen brauchen Wasser, Licht und Luft. Die Wurzeln nehmen Wasser auf, der Stängel hält die Pflanze, die Blätter machen Nahrung und die Blüten machen Samen.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Comment poussent les plantes",
+      "teach": "Les plantes ont besoin d’eau, de lumière et d’air. Les racines boivent l’eau, la tige tient la plante, les feuilles fabriquent la nourriture et les fleurs font les graines.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Bí ewéko ṣe ń dàgbà",
+      "teach": "Ewéko nílò omi, ìmọ́lẹ̀ àti afẹ́fẹ́. Gbòǹgbò ń mu omi, igi ewéko ń gbé e dúró, ewé ń ṣe oúnjẹ, òdòdó sì ń mú irúgbìn jáde.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

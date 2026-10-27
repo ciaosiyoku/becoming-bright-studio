@@ -1,0 +1,111 @@
+{
+  "id": "fr-fruit",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 1,
+  "order": 5,
+  "only": "fr",
+  "params": {
+    "emojis": [
+      "fruit-apple",
+      "fruit-banana",
+      "fruit-strawberry",
+      "fruit-lemon",
+      "fruit-pineapple",
+      "fruit-watermelon",
+      "fruit-cherries",
+      "fruit-pear",
+      "fruit-peach",
+      "fruit-grapes"
+    ],
+    "bank": {
+      "fr": [
+        [
+          "Comment s’appelle ce fruit ?",
+          "la pomme",
+          "la poire",
+          "la cerise",
+          "C’est une pomme : on dit « la pomme »."
+        ],
+        [
+          "Comment s’appelle ce fruit ?",
+          "la banane",
+          "la fraise",
+          "le citron",
+          "C’est une banane, longue et jaune : on dit « la banane »."
+        ],
+        [
+          "Comment s’appelle ce fruit ?",
+          "la fraise",
+          "la pêche",
+          "l’ananas",
+          "C’est une fraise, petite et rouge : on dit « la fraise »."
+        ],
+        [
+          "Comment s’appelle ce fruit ?",
+          "le citron",
+          "la banane",
+          "la pastèque",
+          "C’est un citron, jaune et acide : on dit « le citron »."
+        ],
+        [
+          "Comment s’appelle ce fruit ?",
+          "l’ananas",
+          "la cerise",
+          "la pomme",
+          "« Ananas » commence par une voyelle, alors on dit « l’ananas »."
+        ],
+        [
+          "Comment s’appelle ce fruit ?",
+          "la pastèque",
+          "le raisin",
+          "la fraise",
+          "C’est une pastèque, verte dehors et rouge dedans."
+        ],
+        [
+          "Comment s’appellent ces fruits ?",
+          "les cerises",
+          "les bananes",
+          "les citrons",
+          "Ce sont des cerises : petites, rondes et rouges."
+        ],
+        [
+          "Comment s’appelle ce fruit ?",
+          "la poire",
+          "le citron",
+          "la pastèque",
+          "C’est une poire : on dit « la poire »."
+        ],
+        [
+          "Comment s’appelle ce fruit ?",
+          "la pêche",
+          "le raisin",
+          "la banane",
+          "C’est une pêche, douce et sucrée : on dit « la pêche »."
+        ],
+        [
+          "Comment s’appelle ce fruit ?",
+          "le raisin",
+          "la pomme",
+          "l’ananas",
+          "Ce sont des grains de raisin : on dit « le raisin »."
+        ]
+      ]
+    }
+  },
+  "emoji": "fruit-apple",
+  "example": {
+    "i": 0,
+    "q_fr": "Comment s’appelle ce fruit ?",
+    "answer_fr": "la pomme",
+    "why_fr": "C’est une pomme : on dit « la pomme »."
+  },
+  "text": {
+    "fr": {
+      "title": "Les fruits",
+      "teach": "Chaque fruit a son nom, avec « le », « la » ou « l’ » devant : la pomme, le citron, l’ananas.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    }
+  }
+}

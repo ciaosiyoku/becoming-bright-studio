@@ -1,0 +1,353 @@
+{
+  "id": "sci-forces",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 3,
+  "order": 12,
+  "params": {
+    "emojis": [
+      "shoe",
+      "sled",
+      "fruit-apple",
+      "road",
+      "iceskate",
+      "house",
+      "tree",
+      "hockey",
+      "wave",
+      "books"
+    ],
+    "bank": {
+      "en": [
+        [
+          "You kick a ball. Is that a push or a pull?",
+          "a push",
+          "a pull",
+          "a sound",
+          "Your foot pushes the ball away from you."
+        ],
+        [
+          "You drag a sledge along with a rope. Is that a push or a pull?",
+          "a pull",
+          "a push",
+          "a smell",
+          "You pull the sledge towards you with the rope."
+        ],
+        [
+          "Why does an apple fall to the ground when it drops from a tree?",
+          "gravity pulls it towards the Earth",
+          "the wind always blows it down",
+          "the apple wants to sleep",
+          "Gravity is a force that pulls everything towards the Earth."
+        ],
+        [
+          "What is friction?",
+          "a force that slows things down when they rub together",
+          "a force that makes things float",
+          "a kind of light",
+          "When two surfaces rub together, friction works against the movement and slows it down."
+        ],
+        [
+          "Why is it easy to slide on ice?",
+          "ice is smooth, so there is little friction",
+          "ice is sticky",
+          "there is no gravity on ice",
+          "Smooth surfaces make very little friction, so things slide easily."
+        ],
+        [
+          "On which floor will a toy car roll the furthest?",
+          "a smooth, shiny floor",
+          "a thick, fluffy carpet",
+          "a sandy path",
+          "A smooth floor makes less friction, so the car slows down less."
+        ],
+        [
+          "Which of these floats on water?",
+          "a piece of wood",
+          "a stone",
+          "an iron nail",
+          "Wood is light for its size, so the water can hold it up."
+        ],
+        [
+          "What can a push or a pull do to a moving thing?",
+          "make it speed up, slow down or change direction",
+          "change its colour",
+          "make it alive",
+          "Forces change how things move: faster, slower or in a new direction."
+        ],
+        [
+          "Why can a big, heavy ship float?",
+          "the water pushes up on it",
+          "ships are lighter than a feather",
+          "there is no gravity at sea",
+          "Water pushes up on things in it. The shape of a ship lets the water push up enough to hold it."
+        ],
+        [
+          "Which needs the biggest push to move it?",
+          "a heavy box of books",
+          "an empty box",
+          "a feather",
+          "Heavier things need a bigger force to get them moving."
+        ]
+      ],
+      "de": [
+        [
+          "Du trittst gegen einen Ball. Ist das Drücken oder Ziehen?",
+          "Drücken",
+          "Ziehen",
+          "ein Geräusch",
+          "Dein Fuß drückt den Ball von dir weg."
+        ],
+        [
+          "Du ziehst einen Schlitten an einem Seil hinter dir her. Ist das Drücken oder Ziehen?",
+          "Ziehen",
+          "Drücken",
+          "ein Geruch",
+          "Mit dem Seil ziehst du den Schlitten zu dir hin."
+        ],
+        [
+          "Warum fällt ein Apfel vom Baum auf den Boden?",
+          "die Schwerkraft zieht ihn zur Erde",
+          "der Wind bläst ihn immer nach unten",
+          "der Apfel will schlafen",
+          "Die Schwerkraft ist eine Kraft, die alles zur Erde hin zieht."
+        ],
+        [
+          "Was ist Reibung?",
+          "eine Kraft, die Dinge bremst, wenn sie aneinander reiben",
+          "eine Kraft, die Dinge schwimmen lässt",
+          "eine Art Licht",
+          "Wenn zwei Flächen aneinander reiben, wirkt die Reibung gegen die Bewegung und bremst sie."
+        ],
+        [
+          "Warum kann man auf Eis so leicht rutschen?",
+          "Eis ist glatt, darum gibt es wenig Reibung",
+          "Eis ist klebrig",
+          "auf Eis gibt es keine Schwerkraft",
+          "Glatte Flächen machen sehr wenig Reibung, darum rutschen Dinge leicht."
+        ],
+        [
+          "Auf welchem Boden rollt ein Spielzeugauto am weitesten?",
+          "auf einem glatten, glänzenden Boden",
+          "auf einem dicken, flauschigen Teppich",
+          "auf einem sandigen Weg",
+          "Ein glatter Boden macht weniger Reibung, darum wird das Auto weniger gebremst."
+        ],
+        [
+          "Was davon schwimmt auf dem Wasser?",
+          "ein Stück Holz",
+          "ein Stein",
+          "ein Eisennagel",
+          "Holz ist für seine Größe leicht, darum kann das Wasser es tragen."
+        ],
+        [
+          "Was kann Drücken oder Ziehen mit etwas machen, das sich bewegt?",
+          "es schneller, langsamer machen oder die Richtung ändern",
+          "seine Farbe ändern",
+          "es lebendig machen",
+          "Kräfte ändern, wie sich Dinge bewegen: schneller, langsamer oder in eine neue Richtung."
+        ],
+        [
+          "Warum kann ein großes, schweres Schiff schwimmen?",
+          "das Wasser drückt es nach oben",
+          "Schiffe sind leichter als eine Feder",
+          "auf dem Meer gibt es keine Schwerkraft",
+          "Wasser drückt Dinge in ihm nach oben. Durch seine Form wird ein Schiff genug nach oben gedrückt."
+        ],
+        [
+          "Was braucht den stärksten Schubs, damit es sich bewegt?",
+          "eine schwere Kiste voller Bücher",
+          "eine leere Kiste",
+          "eine Feder",
+          "Schwerere Dinge brauchen eine größere Kraft, damit sie sich bewegen."
+        ]
+      ],
+      "fr": [
+        [
+          "Tu donnes un coup de pied dans un ballon. Est-ce pousser ou tirer ?",
+          "pousser",
+          "tirer",
+          "un bruit",
+          "Ton pied pousse le ballon loin de toi."
+        ],
+        [
+          "Tu traînes une luge avec une corde. Est-ce pousser ou tirer ?",
+          "tirer",
+          "pousser",
+          "une odeur",
+          "Avec la corde, tu tires la luge vers toi."
+        ],
+        [
+          "Pourquoi une pomme tombe-t-elle de l’arbre jusqu’au sol ?",
+          "la gravité l’attire vers la Terre",
+          "le vent la pousse toujours vers le bas",
+          "la pomme veut dormir",
+          "La gravité est une force qui attire toutes les choses vers la Terre."
+        ],
+        [
+          "Qu’est-ce que le frottement ?",
+          "une force qui ralentit les choses qui frottent l’une contre l’autre",
+          "une force qui fait flotter les choses",
+          "une sorte de lumière",
+          "Quand deux surfaces frottent, le frottement s’oppose au mouvement et le ralentit."
+        ],
+        [
+          "Pourquoi glisse-t-on facilement sur la glace ?",
+          "la glace est lisse, donc il y a peu de frottement",
+          "la glace est collante",
+          "il n’y a pas de gravité sur la glace",
+          "Les surfaces lisses font très peu de frottement : les choses glissent facilement."
+        ],
+        [
+          "Sur quel sol une petite voiture roule-t-elle le plus loin ?",
+          "un sol lisse et brillant",
+          "un tapis épais et moelleux",
+          "un chemin de sable",
+          "Un sol lisse fait moins de frottement, donc la voiture ralentit moins."
+        ],
+        [
+          "Lequel flotte sur l’eau ?",
+          "un morceau de bois",
+          "un caillou",
+          "un clou en fer",
+          "Le bois est léger pour sa taille : l’eau peut le porter."
+        ],
+        [
+          "Que peut faire une poussée ou une traction à un objet qui bouge ?",
+          "le faire accélérer, ralentir ou changer de direction",
+          "changer sa couleur",
+          "le rendre vivant",
+          "Les forces changent la façon dont les choses bougent : plus vite, moins vite ou dans une autre direction."
+        ],
+        [
+          "Pourquoi un grand bateau très lourd peut-il flotter ?",
+          "l’eau le pousse vers le haut",
+          "les bateaux sont plus légers qu’une plume",
+          "il n’y a pas de gravité sur la mer",
+          "L’eau pousse vers le haut ce qui est dedans. La forme du bateau permet à l’eau de le porter."
+        ],
+        [
+          "Lequel faut-il pousser le plus fort pour le faire bouger ?",
+          "une lourde caisse de livres",
+          "une caisse vide",
+          "une plume",
+          "Les choses plus lourdes ont besoin d’une force plus grande pour se mettre à bouger."
+        ]
+      ],
+      "yo": [
+        [
+          "O gbá bọ́ọ̀lù. Ṣé títì ni àbí fífà?",
+          "títì",
+          "fífà",
+          "ìró",
+          "Ẹsẹ̀ rẹ ti bọ́ọ̀lù náà kúrò lọ́dọ̀ rẹ."
+        ],
+        [
+          "O fi okùn wọ́ kẹ̀kẹ́ yìnyín lọ. Ṣé títì ni àbí fífà?",
+          "fífà",
+          "títì",
+          "òórùn",
+          "O fi okùn fa kẹ̀kẹ́ yìnyín náà sọ́dọ̀ rẹ."
+        ],
+        [
+          "Kí ló dé tí ápù fi ń já bọ́ sílẹ̀ láti orí igi?",
+          "agbára òòfà ilẹ̀ ayé ń fà á sílẹ̀",
+          "afẹ́fẹ́ ló máa ń fẹ́ ẹ sílẹ̀ nígbà gbogbo",
+          "ápù náà fẹ́ sùn",
+          "Agbára òòfà ilẹ̀ ayé jẹ́ agbára tí ń fa gbogbo nǹkan sí ilẹ̀."
+        ],
+        [
+          "Kí ni ìfarakanra (friction)?",
+          "agbára tí ń dá nǹkan dúró díẹ̀díẹ̀ nígbà tí wọ́n bá ń ha ara wọn",
+          "agbára tí ń mú nǹkan léfòó",
+          "irú ìmọ́lẹ̀ kan",
+          "Nígbà tí ojú ohun méjì bá ń ha ara wọn, ìfarakanra ń ṣiṣẹ́ lòdì sí ìrìn wọn, ó sì ń dín in kù."
+        ],
+        [
+          "Kí ló dé tí ó fi rọrùn láti yọ̀ lórí yìnyín?",
+          "yìnyín dán, nítorí náà ìfarakanra kéré",
+          "yìnyín lẹ̀ mọ́ nǹkan",
+          "kò sí agbára òòfà lórí yìnyín",
+          "Ojú tó dán kì í ní ìfarakanra púpọ̀, nítorí náà nǹkan máa ń yọ̀ ní irọ̀rùn."
+        ],
+        [
+          "Lórí ilẹ̀ wo ni mọ́tò ìṣeré máa sáré jìnnà jùlọ?",
+          "ilẹ̀ tó dán, tó ń kọ mànà",
+          "kápẹ́ẹ̀tì tó nípọn, tó rọ̀",
+          "ọ̀nà oníyanrìn",
+          "Ilẹ̀ tó dán ní ìfarakanra díẹ̀, nítorí náà mọ́tò náà kò ní tètè dúró."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló ń léfòó lórí omi?",
+          "igi",
+          "òkúta",
+          "ìṣó irin",
+          "Igi fúyẹ́ fún bí ó ṣe tóbi tó, nítorí náà omi lè gbé e sókè."
+        ],
+        [
+          "Kí ni títì tàbí fífà lè ṣe sí ohun tí ń rìn?",
+          "ó lè mú un yára, dín ìrìn rẹ̀ kù tàbí yí ọ̀nà rẹ̀ padà",
+          "ó lè yí àwọ̀ rẹ̀ padà",
+          "ó lè sọ ọ́ di alààyè",
+          "Agbára ń yí bí nǹkan ṣe ń rìn padà: kí ó yára, kí ó lọ́ra tàbí kí ó gba ọ̀nà mìíràn."
+        ],
+        [
+          "Kí ló dé tí ọkọ̀ ojú omi ńlá tó wúwo fi lè léfòó?",
+          "omi ń tì í sókè",
+          "ọkọ̀ ojú omi fúyẹ́ ju ìyẹ́ lọ",
+          "kò sí agbára òòfà lórí òkun",
+          "Omi ń ti ohun tó wà nínú rẹ̀ sókè. Ìrísí ọkọ̀ náà ń jẹ́ kí omi tì í sókè tó láti gbé e."
+        ],
+        [
+          "Èwo ló nílò títì tó lágbára jùlọ kí ó tó lè rìn?",
+          "àpótí ìwé tó wúwo",
+          "àpótí òfìfo",
+          "ìyẹ́ ẹyẹ",
+          "Ohun tó wúwo jù nílò agbára tó pọ̀ jù kí ó tó lè rìn."
+        ]
+      ]
+    }
+  },
+  "emoji": "sled",
+  "example": {
+    "i": 0,
+    "q_en": "You kick a ball. Is that a push or a pull?",
+    "answer_en": "a push",
+    "why_en": "Your foot pushes the ball away from you.",
+    "q_de": "Du trittst gegen einen Ball. Ist das Drücken oder Ziehen?",
+    "answer_de": "Drücken",
+    "why_de": "Dein Fuß drückt den Ball von dir weg.",
+    "q_fr": "Tu donnes un coup de pied dans un ballon. Est-ce pousser ou tirer ?",
+    "answer_fr": "pousser",
+    "why_fr": "Ton pied pousse le ballon loin de toi.",
+    "q_yo": "O gbá bọ́ọ̀lù. Ṣé títì ni àbí fífà?",
+    "answer_yo": "títì",
+    "why_yo": "Ẹsẹ̀ rẹ ti bọ́ọ̀lù náà kúrò lọ́dọ̀ rẹ."
+  },
+  "text": {
+    "en": {
+      "title": "Pushes and pulls",
+      "teach": "A force is a push or a pull. Gravity pulls things down towards the Earth. Friction slows moving things down. Water pushes up on things that float.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Drücken und Ziehen",
+      "teach": "Eine Kraft ist ein Drücken oder ein Ziehen. Die Schwerkraft zieht alles zur Erde hin. Reibung bremst Dinge, die sich bewegen. Wasser drückt schwimmende Dinge nach oben.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Pousser et tirer",
+      "teach": "Une force, c’est une poussée ou une traction. La gravité attire les choses vers la Terre. Le frottement ralentit ce qui bouge. L’eau pousse vers le haut ce qui flotte.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Títì àti fífà",
+      "teach": "Agbára jẹ́ títì tàbí fífà. Agbára òòfà ilẹ̀ ayé ń fa nǹkan sílẹ̀. Ìfarakanra ń mú ohun tí ń rìn fà sẹ́yìn. Omi ń ti ohun tí ń léfòó sókè.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

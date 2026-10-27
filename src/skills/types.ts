@@ -1,4 +1,5 @@
 import type { Lang } from '@/i18n'
+import type { BankKind } from './bank'
 import type { CalcKind } from './numbers'
 import type { WordKind } from './words'
 
@@ -39,16 +40,16 @@ export interface SkillDef {
   params: Record<string, unknown>
   /** The picture on the home screen (public/emoji). */
   emoji: string
-  /** "en": an English skill (letters and words), taught in English whatever the app language. */
-  only?: 'en'
+  /** "en": an English skill (letters and words), taught in English whatever the app language; "fr": a French skill. */
+  only?: 'en' | 'fr'
   /** The teach card's example: fixed values, so the card is always the same. */
   example: Record<string, number | string>
   text: Partial<Record<Lang, SkillText>> & { en: SkillText }
 }
 
-export type Subject = 'numbers' | 'words' | 'patterns'
+export type Subject = 'numbers' | 'words' | 'patterns' | 'science' | 'french'
 
-export type GeneratorKind = 'count' | 'add' | 'subtract' | 'one-more' | 'one-less' | 'bigger' | 'first-sound' | 'a-an' | 'rhyme' | CalcKind | WordKind
+export type GeneratorKind = 'count' | 'add' | 'subtract' | 'one-more' | 'one-less' | 'bigger' | 'first-sound' | 'a-an' | 'rhyme' | CalcKind | WordKind | BankKind
 
 /** What the question shows. */
 export type Visual =

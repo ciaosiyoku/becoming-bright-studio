@@ -1,0 +1,111 @@
+{
+  "id": "fr-colours",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "order": 2,
+  "only": "fr",
+  "params": {
+    "emojis": [
+      "fruit-strawberry",
+      "fruit-banana",
+      "droplet",
+      "seedling",
+      "tangerine",
+      "animal-flamingo",
+      "snowman",
+      "fruit-grapes",
+      "animal-bear",
+      "animal-penguin"
+    ],
+    "bank": {
+      "fr": [
+        [
+          "De quelle couleur est la fraise ?",
+          "rouge",
+          "bleu",
+          "noir",
+          "La fraise est rouge."
+        ],
+        [
+          "De quelle couleur est la banane ?",
+          "jaune",
+          "bleu",
+          "rose",
+          "La banane est jaune."
+        ],
+        [
+          "De quelle couleur est la goutte d’eau sur l’image ?",
+          "bleu",
+          "rouge",
+          "marron",
+          "Sur l’image, la goutte d’eau est bleue."
+        ],
+        [
+          "De quelle couleur est la petite plante ?",
+          "vert",
+          "rose",
+          "noir",
+          "Les feuilles de la petite plante sont vertes."
+        ],
+        [
+          "De quelle couleur est la mandarine ?",
+          "orange",
+          "violet",
+          "bleu",
+          "La mandarine est orange."
+        ],
+        [
+          "De quelle couleur est le flamant ?",
+          "rose",
+          "vert",
+          "bleu",
+          "Le flamant est rose."
+        ],
+        [
+          "De quelle couleur est le bonhomme de neige ?",
+          "blanc",
+          "noir",
+          "vert",
+          "La neige est blanche, alors le bonhomme de neige est blanc."
+        ],
+        [
+          "De quelle couleur est le raisin sur l’image ?",
+          "violet",
+          "jaune",
+          "orange",
+          "Sur l’image, le raisin est violet."
+        ],
+        [
+          "De quelle couleur est l’ours sur l’image ?",
+          "marron",
+          "bleu",
+          "rose",
+          "Sur l’image, l’ours est marron."
+        ],
+        [
+          "Le pingouin a le ventre blanc. Et son dos, de quelle couleur est-il ?",
+          "noir",
+          "vert",
+          "rose",
+          "Le dos du pingouin est noir et son ventre est blanc."
+        ]
+      ]
+    }
+  },
+  "emoji": "palette",
+  "example": {
+    "i": 0,
+    "q_fr": "De quelle couleur est la fraise ?",
+    "answer_fr": "rouge",
+    "why_fr": "La fraise est rouge."
+  },
+  "text": {
+    "fr": {
+      "title": "Les couleurs",
+      "teach": "Chaque couleur a un nom : la fraise est rouge, la banane est jaune, la petite plante est verte, le flamant est rose.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    }
+  }
+}

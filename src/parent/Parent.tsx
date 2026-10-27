@@ -1,10 +1,10 @@
 import { ArrowLeft } from 'lucide-react'
 import { type ChangeEvent, useRef, useState } from 'react'
-import { addChild, type Child, isoDate, newChild, removeChild } from '@/app/state'
+import { addChild, newChild, removeChild } from '@/app/state'
 import { useStore } from '@/app/store'
 import { BackupError, backupDue, makeBackup, parseBackup, saveBackupFile } from '@/data/backup'
 import { useLang, useT } from '@/i18n'
-import { skillById, SKILLS, skillText } from '@/skills/index'
+import { SKILLS } from '@/skills/index'
 import { accessOf } from '@/app/access'
 import { type Access, type ItemId, ITEM_IDS, ITEMS } from '@/app/items'
 import { Emoji } from '@/shared/Emoji'
@@ -14,9 +14,10 @@ import { LanguagePicker } from '@/shared/LanguagePicker'
 import { speak, useVoiceChoice, type VoiceGender } from '@/shared/speak'
 import { ChildForm } from '@/setup/Setup'
 import { ChoosePin } from './PinScreens'
+import { ReportCard } from './ReportCard'
 import './Parent.css'
 
-/** The grown-ups' screen (behind the PIN): each child's misses today, children, the games switch, backup, the PIN. */
+/** The grown-ups' screen (behind the PIN): each child's learning report, children, the games switch, backup, the PIN. */
 export function Parent({ onClose }: { onClose: () => void }) {
   const T = useT()
   const { state } = useStore()
@@ -29,7 +30,7 @@ export function Parent({ onClose }: { onClose: () => void }) {
         <h1>{T.parent.title}</h1>
       </header>
       {state.children.map((c) => (
-        <MissesCard key={c.id} child={c} />
+        <ReportCard key={c.id} child={c} />
       ))}
       <ChildrenCard />
       <AccessCard />
@@ -43,53 +44,6 @@ export function Parent({ onClose }: { onClose: () => void }) {
       <PinCard />
       <UpdateCard />
     </main>
-  )
-}
-
-/** The checks a child got wrong today, with the right answers, and how many skills they have learnt. */
-function MissesCard({ child }: { child: Child }) {
-  const T = useT()
-  const lang = useLang()
-  const [today] = useState(() => isoDate(new Date()))
-  const misses = child.misses.filter((m) => m.day === today)
-  const learnt = SKILLS.filter((s) => child.skills[s.id]?.mastered).length
-  return (
-    <section className="card parent-card">
-      <h2>
-        {T.parent.misses}
-        {child.name ? ` · ${child.name}` : ''}
-      </h2>
-      <p className="muted">{T.parent.missesNote}</p>
-      {misses.length === 0 ? (
-        <p>{T.parent.missesNone}</p>
-      ) : (
-        <table className="misses">
-          <thead>
-            <tr>
-              <th>{T.parent.question}</th>
-              <th>{T.parent.answered}</th>
-              <th>{T.parent.rightAnswer}</th>
-            </tr>
-          </thead>
-          <tbody>
-            {misses.map((m, i) => {
-              const def = skillById(m.skill)
-              return (
-                <tr key={i}>
-                  <td>
-                    {m.prompt}
-                    {def && <small className="muted"> · {skillText(def, lang).title}</small>}
-                  </td>
-                  <td className="given">{m.given}</td>
-                  <td className="answer">{m.answer}</td>
-                </tr>
-              )
-            })}
-          </tbody>
-        </table>
-      )}
-      <p className="pill">{T.parent.learnt(learnt, SKILLS.length)}</p>
-    </section>
   )
 }
 

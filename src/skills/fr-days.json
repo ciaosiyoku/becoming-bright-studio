@@ -1,0 +1,111 @@
+{
+  "id": "fr-days",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 1,
+  "order": 7,
+  "only": "fr",
+  "params": {
+    "emojis": [
+      "calendar",
+      "calendar",
+      "backpack",
+      "clock",
+      "books",
+      "sun",
+      "snowflake",
+      "gift",
+      "calendar",
+      "beach"
+    ],
+    "bank": {
+      "fr": [
+        [
+          "Quel jour vient après lundi ?",
+          "mardi",
+          "dimanche",
+          "jeudi",
+          "Lundi, puis mardi : mardi vient après lundi."
+        ],
+        [
+          "Quel jour vient avant samedi ?",
+          "vendredi",
+          "dimanche",
+          "mercredi",
+          "Vendredi, puis samedi : vendredi vient avant samedi."
+        ],
+        [
+          "Quel est le premier jour de la semaine ?",
+          "lundi",
+          "vendredi",
+          "samedi",
+          "En France, la semaine commence le lundi."
+        ],
+        [
+          "Combien y a-t-il de jours dans une semaine ?",
+          "sept",
+          "cinq",
+          "dix",
+          "Une semaine a sept jours, de lundi à dimanche."
+        ],
+        [
+          "Quel jour vient après mercredi ?",
+          "jeudi",
+          "mardi",
+          "lundi",
+          "Mercredi, puis jeudi : jeudi vient après mercredi."
+        ],
+        [
+          "Quel est le dernier jour de la semaine ?",
+          "dimanche",
+          "mardi",
+          "jeudi",
+          "La semaine finit le dimanche. Ensuite, c’est de nouveau lundi."
+        ],
+        [
+          "Quel mois vient après janvier ?",
+          "février",
+          "décembre",
+          "juin",
+          "Janvier, puis février : février est le deuxième mois."
+        ],
+        [
+          "Quel est le dernier mois de l’année ?",
+          "décembre",
+          "mars",
+          "mai",
+          "L’année finit en décembre, le mois de Noël."
+        ],
+        [
+          "Combien y a-t-il de mois dans une année ?",
+          "douze",
+          "sept",
+          "trente",
+          "Une année a douze mois, de janvier à décembre."
+        ],
+        [
+          "Quel mois vient après juillet ?",
+          "août",
+          "juin",
+          "avril",
+          "Juillet, puis août : ce sont les mois des grandes vacances."
+        ]
+      ]
+    }
+  },
+  "emoji": "calendar",
+  "example": {
+    "i": 0,
+    "q_fr": "Quel jour vient après lundi ?",
+    "answer_fr": "mardi",
+    "why_fr": "Lundi, puis mardi : mardi vient après lundi."
+  },
+  "text": {
+    "fr": {
+      "title": "Les jours et les mois",
+      "teach": "Les jours de la semaine : lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche. Après lundi vient mardi. L’année commence en janvier et finit en décembre.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    }
+  }
+}

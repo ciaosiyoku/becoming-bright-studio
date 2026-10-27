@@ -1,0 +1,111 @@
+{
+  "id": "en-compound",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 2,
+  "order": 23,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "sun",
+      "rain",
+      "snowman",
+      "footprints",
+      "sparkles",
+      "animal-butterfly",
+      "snowflake",
+      "star",
+      "cake",
+      "fruit-pineapple"
+    ],
+    "bank": {
+      "en": [
+        [
+          "sun + flower = ?",
+          "sunflower",
+          "flowersun",
+          "sunflour",
+          "Put “sun” first and “flower” after it: sunflower."
+        ],
+        [
+          "rain + bow = ?",
+          "rainbow",
+          "bowrain",
+          "rainbo",
+          "Join “rain” and “bow” in that order: rainbow."
+        ],
+        [
+          "snow + man = ?",
+          "snowman",
+          "mansnow",
+          "snowmon",
+          "Join “snow” and “man”: snowman."
+        ],
+        [
+          "foot + ball = ?",
+          "football",
+          "ballfoot",
+          "footbal",
+          "Join “foot” and “ball” and keep both letters l: football."
+        ],
+        [
+          "Which two words make “toothbrush”?",
+          "tooth + brush",
+          "toot + hbrush",
+          "teeth + rush",
+          "A toothbrush is a brush for your teeth: tooth + brush."
+        ],
+        [
+          "butter + fly = ?",
+          "butterfly",
+          "flybutter",
+          "buterfly",
+          "Join “butter” and “fly”, keeping the double t: butterfly."
+        ],
+        [
+          "Which word is a compound word?",
+          "snowflake",
+          "happy",
+          "garden",
+          "Snowflake is made from snow + flake."
+        ],
+        [
+          "star + fish = ?",
+          "starfish",
+          "fishstar",
+          "starfsh",
+          "Join “star” and “fish”: starfish."
+        ],
+        [
+          "Which two words make “cupcake”?",
+          "cup + cake",
+          "cu + pcake",
+          "cap + cake",
+          "A cupcake is a small cake made in a cup: cup + cake."
+        ],
+        [
+          "pine + apple = ?",
+          "pineapple",
+          "applepine",
+          "pinapple",
+          "Join “pine” and “apple” and keep the e: pineapple."
+        ]
+      ]
+    }
+  },
+  "emoji": "puzzle",
+  "example": {
+    "i": 0,
+    "q_en": "sun + flower = ?",
+    "answer_en": "sunflower",
+    "why_en": "Put “sun” first and “flower” after it: sunflower."
+  },
+  "text": {
+    "en": {
+      "title": "Compound words",
+      "teach": "A compound word is two words joined together to make a new word: sun + flower = sunflower.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "id": "sci-states",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 3,
+  "order": 10,
+  "params": {
+    "emojis": [
+      "snowflake",
+      "thermometer",
+      "droplet",
+      "airplane",
+      "snowman",
+      "sun",
+      "wave",
+      "cocoa",
+      "fog",
+      "mountain"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Is ice a solid, a liquid or a gas?",
+          "a solid",
+          "a liquid",
+          "a gas",
+          "Ice keeps its own shape and you can hold it, so it is a solid."
+        ],
+        [
+          "What happens when ice melts?",
+          "it turns into water",
+          "it turns into sand",
+          "it turns into wood",
+          "When ice warms up, it melts and becomes liquid water."
+        ],
+        [
+          "Which of these is a liquid?",
+          "milk",
+          "a brick",
+          "a spoon",
+          "Milk flows and takes the shape of the glass it is in, so it is a liquid."
+        ],
+        [
+          "Which of these is a gas?",
+          "the air we breathe",
+          "a wooden table",
+          "orange juice",
+          "Air spreads out to fill any space and you cannot hold it, so it is a gas."
+        ],
+        [
+          "What do we call it when water turns into ice?",
+          "freezing",
+          "melting",
+          "boiling",
+          "When water gets very cold, it freezes and becomes solid ice."
+        ],
+        [
+          "Puddles dry up on a sunny day. Where does the water go?",
+          "it evaporates into the air",
+          "it turns into ice",
+          "it turns into stones",
+          "The Sun warms the water and it slowly turns into a gas called water vapour. This is evaporation."
+        ],
+        [
+          "What can a liquid do that a solid cannot?",
+          "flow and take the shape of its container",
+          "keep its own shape",
+          "be stacked like bricks",
+          "A liquid like water can be poured. It spreads out to fit whatever it is in."
+        ],
+        [
+          "What happens to chocolate when it gets very warm?",
+          "it melts",
+          "it freezes",
+          "it gets harder",
+          "Heat makes solid chocolate melt into a runny liquid."
+        ],
+        [
+          "You breathe on a cold window. What appears on it?",
+          "tiny drops of water",
+          "tiny drops of milk",
+          "grains of sand",
+          "Your breath has water vapour in it. On the cold glass it cools and turns back into liquid water. This is condensation."
+        ],
+        [
+          "Which of these is a solid?",
+          "a stone",
+          "water",
+          "steam",
+          "A stone keeps its own shape and does not flow, so it is a solid."
+        ]
+      ],
+      "de": [
+        [
+          "Ist Eis fest, flüssig oder gasförmig?",
+          "fest",
+          "flüssig",
+          "gasförmig",
+          "Eis behält seine Form und du kannst es festhalten. Also ist es fest."
+        ],
+        [
+          "Was passiert, wenn Eis schmilzt?",
+          "es wird zu Wasser",
+          "es wird zu Sand",
+          "es wird zu Holz",
+          "Wenn Eis warm wird, schmilzt es und wird zu flüssigem Wasser."
+        ],
+        [
+          "Was davon ist eine Flüssigkeit?",
+          "Milch",
+          "ein Ziegelstein",
+          "ein Löffel",
+          "Milch fließt und nimmt die Form des Glases an. Also ist sie eine Flüssigkeit."
+        ],
+        [
+          "Was davon ist ein Gas?",
+          "die Luft, die wir atmen",
+          "ein Holztisch",
+          "Orangensaft",
+          "Luft breitet sich überall aus und man kann sie nicht festhalten. Also ist sie ein Gas."
+        ],
+        [
+          "Wie nennt man es, wenn Wasser zu Eis wird?",
+          "gefrieren",
+          "schmelzen",
+          "kochen",
+          "Wenn Wasser sehr kalt wird, gefriert es und wird zu festem Eis."
+        ],
+        [
+          "An einem sonnigen Tag trocknen Pfützen. Wohin geht das Wasser?",
+          "es verdunstet in die Luft",
+          "es wird zu Eis",
+          "es wird zu Steinen",
+          "Die Sonne wärmt das Wasser, und es wird langsam zu einem Gas, dem Wasserdampf. Das heißt Verdunsten."
+        ],
+        [
+          "Was kann eine Flüssigkeit, was ein fester Stoff nicht kann?",
+          "fließen und die Form des Gefäßes annehmen",
+          "ihre eigene Form behalten",
+          "sich wie Ziegelsteine stapeln lassen",
+          "Eine Flüssigkeit wie Wasser kann man gießen. Sie passt sich jedem Gefäß an."
+        ],
+        [
+          "Was passiert mit Schokolade, wenn sie sehr warm wird?",
+          "sie schmilzt",
+          "sie gefriert",
+          "sie wird härter",
+          "Wärme lässt feste Schokolade zu einer flüssigen Masse schmelzen."
+        ],
+        [
+          "Du hauchst auf ein kaltes Fenster. Was erscheint darauf?",
+          "winzige Wassertropfen",
+          "winzige Milchtropfen",
+          "Sandkörner",
+          "In deinem Atem ist Wasserdampf. Am kalten Glas kühlt er ab und wird wieder zu flüssigem Wasser. Das heißt Kondensieren."
+        ],
+        [
+          "Was davon ist fest?",
+          "ein Stein",
+          "Wasser",
+          "Dampf",
+          "Ein Stein behält seine Form und fließt nicht. Also ist er fest."
+        ]
+      ],
+      "fr": [
+        [
+          "La glace est-elle solide, liquide ou gazeuse ?",
+          "solide",
+          "liquide",
+          "gazeuse",
+          "La glace garde sa forme et on peut la tenir : c’est un solide."
+        ],
+        [
+          "Que se passe-t-il quand la glace fond ?",
+          "elle devient de l’eau",
+          "elle devient du sable",
+          "elle devient du bois",
+          "Quand la glace se réchauffe, elle fond et devient de l’eau liquide."
+        ],
+        [
+          "Lequel est un liquide ?",
+          "le lait",
+          "une brique",
+          "une cuillère",
+          "Le lait coule et prend la forme du verre : c’est un liquide."
+        ],
+        [
+          "Lequel est un gaz ?",
+          "l’air que nous respirons",
+          "une table en bois",
+          "le jus d’orange",
+          "L’air s’étale pour remplir tout l’espace et on ne peut pas le tenir : c’est un gaz."
+        ],
+        [
+          "Quand l’eau se transforme en glace, que dit-on ?",
+          "elle gèle",
+          "elle fond",
+          "elle bout",
+          "Quand l’eau devient très froide, elle gèle et se transforme en glace solide."
+        ],
+        [
+          "Par une journée de soleil, les flaques sèchent. Où va l’eau ?",
+          "elle s’évapore dans l’air",
+          "elle devient de la glace",
+          "elle devient des cailloux",
+          "Le Soleil chauffe l’eau, qui se transforme lentement en un gaz : la vapeur d’eau. C’est l’évaporation."
+        ],
+        [
+          "Que peut faire un liquide qu’un solide ne peut pas faire ?",
+          "couler et prendre la forme de son récipient",
+          "garder sa propre forme",
+          "s’empiler comme des briques",
+          "Un liquide comme l’eau peut se verser. Il prend la forme de ce qui le contient."
+        ],
+        [
+          "Que devient le chocolat quand il a très chaud ?",
+          "il fond",
+          "il gèle",
+          "il devient plus dur",
+          "La chaleur fait fondre le chocolat solide, qui devient liquide."
+        ],
+        [
+          "Tu souffles sur une vitre froide. Qu’est-ce qui apparaît ?",
+          "de minuscules gouttes d’eau",
+          "de minuscules gouttes de lait",
+          "des grains de sable",
+          "Ton souffle contient de la vapeur d’eau. Sur la vitre froide, elle refroidit et redevient de l’eau liquide. C’est la condensation."
+        ],
+        [
+          "Lequel est un solide ?",
+          "un caillou",
+          "l’eau",
+          "la vapeur",
+          "Un caillou garde sa forme et ne coule pas : c’est un solide."
+        ]
+      ],
+      "yo": [
+        [
+          "Ṣé yìnyín jẹ́ ohun líle, ohun olómi tàbí gáàsì?",
+          "ohun líle",
+          "ohun olómi",
+          "gáàsì",
+          "Yìnyín ní ìrísí tirẹ̀, o sì lè dì í mú, nítorí náà ohun líle ni."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ nígbà tí yìnyín bá yọ́?",
+          "ó di omi",
+          "ó di yanrìn",
+          "ó di igi",
+          "Nígbà tí yìnyín bá gbóná, ó máa ń yọ́ di omi."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni ohun olómi?",
+          "wàrà",
+          "bíríkì",
+          "ṣíbí",
+          "Wàrà ń ṣàn, ó sì ń gba ìrísí ife tí ó wà nínú rẹ̀, nítorí náà ohun olómi ni."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni gáàsì?",
+          "afẹ́fẹ́ tí a ń mí",
+          "tábìlì onígi",
+          "omi ọsàn",
+          "Afẹ́fẹ́ ń tàn ká láti kún ibikíbi, a kò sì lè dì í mú, nítorí náà gáàsì ni."
+        ],
+        [
+          "Kí la ń pè é nígbà tí omi bá di yìnyín?",
+          "dídì",
+          "yíyọ́",
+          "híhó",
+          "Nígbà tí omi bá tutù gan-an, ó máa ń dì di yìnyín líle."
+        ],
+        [
+          "Omi inú kòtò máa ń gbẹ ní ọjọ́ tí oòrùn mú. Ibo ni omi náà ń lọ?",
+          "ó ń di oru, ó sì ń lọ sínú afẹ́fẹ́",
+          "ó ń di yìnyín",
+          "ó ń di òkúta",
+          "Oòrùn ń mú omi gbóná, omi náà sì ń di gáàsì tí a ń pè ní oru omi díẹ̀díẹ̀."
+        ],
+        [
+          "Kí ni ohun olómi lè ṣe tí ohun líle kò lè ṣe?",
+          "ó lè ṣàn, kí ó sì gba ìrísí ohun tí ó wà nínú rẹ̀",
+          "ó lè ní ìrísí tirẹ̀ láìyípadà",
+          "a lè to ó jọ bí bíríkì",
+          "A lè da ohun olómi bí omi. Ó máa ń tàn láti kún ohunkóhun tí ó wà nínú rẹ̀."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí ṣokoléètì tí ó bá gbóná gan-an?",
+          "ó ń yọ́",
+          "ó ń dì",
+          "ó ń le sí i",
+          "Ooru máa ń mú ṣokoléètì líle yọ́ di ohun olómi."
+        ],
+        [
+          "O mí sí fèrèsé tó tutù. Kí ló hàn lára rẹ̀?",
+          "ẹ̀kán omi kéékèèké",
+          "ẹ̀kán wàrà kéékèèké",
+          "hóró yanrìn",
+          "Oru omi wà nínú èémí rẹ. Lára gíláàsì tó tutù, ó máa ń tutù, ó sì padà di omi."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni ohun líle?",
+          "òkúta",
+          "omi",
+          "oru omi",
+          "Òkúta ní ìrísí tirẹ̀, kò sì ń ṣàn, nítorí náà ohun líle ni."
+        ]
+      ]
+    }
+  },
+  "emoji": "droplet",
+  "example": {
+    "i": 0,
+    "q_en": "Is ice a solid, a liquid or a gas?",
+    "answer_en": "a solid",
+    "why_en": "Ice keeps its own shape and you can hold it, so it is a solid.",
+    "q_de": "Ist Eis fest, flüssig oder gasförmig?",
+    "answer_de": "fest",
+    "why_de": "Eis behält seine Form und du kannst es festhalten. Also ist es fest.",
+    "q_fr": "La glace est-elle solide, liquide ou gazeuse ?",
+    "answer_fr": "solide",
+    "why_fr": "La glace garde sa forme et on peut la tenir : c’est un solide.",
+    "q_yo": "Ṣé yìnyín jẹ́ ohun líle, ohun olómi tàbí gáàsì?",
+    "answer_yo": "ohun líle",
+    "why_yo": "Yìnyín ní ìrísí tirẹ̀, o sì lè dì í mú, nítorí náà ohun líle ni."
+  },
+  "text": {
+    "en": {
+      "title": "Solids, liquids and gases",
+      "teach": "Solids keep their shape, liquids flow and gases spread out. Heating can melt a solid or make a liquid evaporate. Cooling can make a liquid freeze.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Fest, flüssig und gasförmig",
+      "teach": "Feste Stoffe behalten ihre Form, Flüssigkeiten fließen und Gase breiten sich aus. Wärme kann etwas Festes schmelzen oder eine Flüssigkeit verdunsten lassen. Kälte lässt eine Flüssigkeit gefrieren.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Solides, liquides et gaz",
+      "teach": "Les solides gardent leur forme, les liquides coulent et les gaz s’étalent partout. La chaleur peut faire fondre un solide ou évaporer un liquide. Le froid peut faire geler un liquide.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ohun líle, ohun olómi àti gáàsì",
+      "teach": "Ohun líle máa ń ní ìrísí tirẹ̀, ohun olómi máa ń ṣàn, gáàsì sì máa ń tàn ká. Ooru lè mú ohun líle yọ́ tàbí mú omi gbẹ lọ. Òtútù lè mú omi dì.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

@@ -17,6 +17,11 @@ The order follows the learning contract: the lesson first, then the parent page,
 | 9. Languages: German, French and Yoruba released by the owner's decision | **to do: native speakers to read every child-facing sentence aloud** |
 | 10. Reward: a 5-minute memory game made of the skill's own questions, only when games are allowed | done |
 | The child chooses the skill (all open, grouped and ordered); female or male reading voice | done (owner's request) |
+| Tabs (Learn, Games, Listen and watch, Explore); Learn shows only the chosen skill; Off / Open / Earn first per item | done (owner's request, 26 Oct 2026) |
+| Games: memory, word builder, code breaker, picture puzzle, number slide | done |
+| Radio, stories, video library; places of the world, 100 Whys, Did you know? | done; **facts and Yoruba to verify** |
+| Science (16), French (12) and 10 more English skills as question banks | done; **French to be read by a native speaker** |
+| Learning reports (today, 7 and 30 days, email); Update now | done |
 
 ## Next, in this order
 
@@ -27,8 +32,11 @@ The order follows the learning contract: the lesson first, then the parent page,
    with older children.
 5. More skills only after these work with children (e.g. number bonds to 10, halves, CVC words).
 
+6. **Check the facts** in 100 Whys, Did you know? and places against a source, and confirm the radio stations'
+   terms for third-party players.
+
 ## Later, as separate decisions
 
-- Video only from files we host, or a source whose terms allow a children's app. Never embedded YouTube in the
-  first public version.
+- Videos: the owner chose a checked YouTube library (26 Oct 2026). Before a wider release, check YouTube's terms
+  for children's apps, or move to files we host.
 - A native app for a bedtime lock: a different product, not a setting in this one.

@@ -1,0 +1,111 @@
+{
+  "id": "en-conjunctions",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 3,
+  "order": 25,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "scarf",
+      "fruit-pear",
+      "rain",
+      "cocoa",
+      "paws",
+      "beach",
+      "teddy",
+      "hockey",
+      "snowman",
+      "memo"
+    ],
+    "bank": {
+      "en": [
+        [
+          "I wore my scarf ___ it was cold.",
+          "because",
+          "but",
+          "or",
+          "“Because” gives the reason: it was cold."
+        ],
+        [
+          "Ali likes apples, ___ he does not like pears.",
+          "but",
+          "or",
+          "when",
+          "“But” joins two ideas that are different."
+        ],
+        [
+          "It was raining, ___ we stayed inside.",
+          "so",
+          "but",
+          "or",
+          "“So” tells us what happened next because of the rain."
+        ],
+        [
+          "Would you like milk ___ hot chocolate?",
+          "or",
+          "so",
+          "because",
+          "“Or” gives a choice between two things."
+        ],
+        [
+          "I have a puppy ___ a kitten.",
+          "and",
+          "so",
+          "because",
+          "“And” adds one more thing."
+        ],
+        [
+          "We go to the beach ___ the sun is out.",
+          "when",
+          "but",
+          "or",
+          "“When” tells us the time something happens."
+        ],
+        [
+          "The baby is tired, ___ she is going to sleep.",
+          "so",
+          "or",
+          "but",
+          "“So” shows what happens because she is tired."
+        ],
+        [
+          "Sam was sad ___ he lost his ball.",
+          "because",
+          "so",
+          "or",
+          "“Because” gives the reason Sam was sad."
+        ],
+        [
+          "The snowman melted ___ the sun came out.",
+          "when",
+          "or",
+          "but",
+          "“When” tells us the time the snowman melted."
+        ],
+        [
+          "Which word joins two ideas to give a reason?",
+          "because",
+          "and",
+          "or",
+          "“Because” tells us why something happens."
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "i": 0,
+    "q_en": "I wore my scarf ___ it was cold.",
+    "answer_en": "because",
+    "why_en": "“Because” gives the reason: it was cold."
+  },
+  "text": {
+    "en": {
+      "title": "Joining words",
+      "teach": "Joining words link two ideas: and, but, because, so, or, when. I wore my coat because it was cold.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 import { describe, expect, it } from 'vitest'
 import { seeded } from '@/skills/generate'
 import { SKILLS } from '@/skills/index'
-import { makeCards, PAIRS } from './pairs'
+import { hasCards, makeCards, PAIRS } from './pairs'
 
 describe('memory game cards', () => {
-  for (const def of SKILLS) {
+  for (const def of SKILLS.filter((d) => hasCards(d))) {
     it(`${def.id}: 4 to ${PAIRS} pairs, each a question side and its answer, no answer twice`, () => {
       const cards = makeCards(def, seeded(def.id.length))
       const pairs = cards.length / 2

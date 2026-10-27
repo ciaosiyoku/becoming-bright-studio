@@ -1,0 +1,111 @@
+{
+  "id": "fr-numbers",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "order": 3,
+  "only": "fr",
+  "params": {
+    "emojis": [
+      "abacus",
+      "clock",
+      "calendar",
+      "medal",
+      "trophy",
+      "animal-cow",
+      "chart",
+      "puzzle",
+      "glowstar",
+      "girl"
+    ],
+    "bank": {
+      "fr": [
+        [
+          "Combien font 3 + 2 ?",
+          "cinq",
+          "quatre",
+          "six",
+          "3 + 2 = 5, et 5 s’écrit « cinq »."
+        ],
+        [
+          "Quel est le nombre « douze » ?",
+          "12",
+          "2",
+          "20",
+          "« Douze » s’écrit 12 en chiffres."
+        ],
+        [
+          "Comment écrit-on 7 en lettres ?",
+          "sept",
+          "six",
+          "huit",
+          "7 s’écrit « sept ». Une semaine a sept jours."
+        ],
+        [
+          "Combien font 10 + 1 ?",
+          "onze",
+          "dix",
+          "douze",
+          "10 + 1 = 11, et 11 s’écrit « onze »."
+        ],
+        [
+          "Quel est le nombre « quinze » ?",
+          "15",
+          "5",
+          "50",
+          "« Quinze » s’écrit 15 en chiffres."
+        ],
+        [
+          "Combien de pattes a une vache ?",
+          "quatre",
+          "deux",
+          "six",
+          "La vache a 4 pattes, et 4 s’écrit « quatre »."
+        ],
+        [
+          "Combien font 10 + 10 ?",
+          "vingt",
+          "dix",
+          "douze",
+          "10 + 10 = 20, et 20 s’écrit « vingt »."
+        ],
+        [
+          "Quel nombre vient après « huit » ?",
+          "neuf",
+          "sept",
+          "dix",
+          "Après 8 vient 9 : « huit », puis « neuf »."
+        ],
+        [
+          "Quel est le nombre « treize » ?",
+          "13",
+          "3",
+          "30",
+          "« Treize » s’écrit 13 en chiffres."
+        ],
+        [
+          "Combien d’yeux as-tu ?",
+          "deux",
+          "trois",
+          "dix",
+          "Nous avons 2 yeux, et 2 s’écrit « deux »."
+        ]
+      ]
+    }
+  },
+  "emoji": "abacus",
+  "example": {
+    "i": 0,
+    "q_fr": "Combien font 3 + 2 ?",
+    "answer_fr": "cinq",
+    "why_fr": "3 + 2 = 5, et 5 s’écrit « cinq »."
+  },
+  "text": {
+    "fr": {
+      "title": "Les nombres en lettres",
+      "teach": "Les nombres s’écrivent aussi en lettres : 1 un, 2 deux, 3 trois, 4 quatre, 5 cinq… 10 dix, 11 onze, 12 douze… 20 vingt. Exemple : 3 + 2 = cinq.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    }
+  }
+}

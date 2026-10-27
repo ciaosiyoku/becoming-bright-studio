@@ -1,0 +1,111 @@
+{
+  "id": "en-apostrophes",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 4,
+  "order": 27,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "bone",
+      "backpack",
+      "scarf",
+      "teddy",
+      "animal-rabbit",
+      "animal-owl",
+      "openbook",
+      "game",
+      "animal-horse",
+      "cake"
+    ],
+    "bank": {
+      "en": [
+        [
+          "The bone belongs to one dog. It is the ___ bone.",
+          "dog’s",
+          "dogs’",
+          "dogs",
+          "One dog owns the bone, so we add ’s: dog’s."
+        ],
+        [
+          "Two girls each have a bag. They are the ___ bags.",
+          "girls’",
+          "girl’s",
+          "girls",
+          "There are many girls, so the apostrophe goes after the s: girls’."
+        ],
+        [
+          "Which is correct?",
+          "Sam’s scarf is red.",
+          "Sams scarf is red.",
+          "Sams’ scarf is red.",
+          "The scarf belongs to Sam, so we write Sam’s."
+        ],
+        [
+          "The toys belong to the children. They are the ___ toys.",
+          "children’s",
+          "childrens’",
+          "childrens",
+          "“Children” does not end in s, so we add ’s: children’s."
+        ],
+        [
+          "One rabbit has a fluffy tail. It is the ___ tail.",
+          "rabbit’s",
+          "rabbits’",
+          "rabbits",
+          "One rabbit owns the tail, so we add ’s: rabbit’s."
+        ],
+        [
+          "Three owls share one tree. It is the ___ tree.",
+          "owls’",
+          "owl’s",
+          "owls",
+          "There are three owls, so the apostrophe goes after the s: owls’."
+        ],
+        [
+          "Which is correct?",
+          "The teacher’s book is open.",
+          "The teachers book is open.",
+          "The teacher’s’ book is open.",
+          "The book belongs to one teacher, so we write teacher’s."
+        ],
+        [
+          "Which shows that the game belongs to Ben?",
+          "Ben’s game",
+          "Bens game",
+          "Bens’ game",
+          "One owner called Ben, so we add ’s: Ben’s."
+        ],
+        [
+          "Lots of horses live in this field. It is the ___ field.",
+          "horses’",
+          "horse’s",
+          "horses",
+          "Many horses share the field, so the apostrophe goes after the s: horses’."
+        ],
+        [
+          "What does “the girl’s cake” mean?",
+          "the cake of one girl",
+          "the cake of many girls",
+          "lots of cakes",
+          "’s after “girl” means one girl owns the cake."
+        ]
+      ]
+    }
+  },
+  "emoji": "bone",
+  "example": {
+    "i": 0,
+    "q_en": "The bone belongs to one dog. It is the ___ bone.",
+    "answer_en": "dog’s",
+    "why_en": "One dog owns the bone, so we add ’s: dog’s."
+  },
+  "text": {
+    "en": {
+      "title": "Whose is it?",
+      "teach": "An apostrophe shows who something belongs to. One owner: add ’s (the dog’s bone). Many owners ending in s: add just ’ (the girls’ bags).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

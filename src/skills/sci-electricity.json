@@ -1,0 +1,353 @@
+{
+  "id": "sci-electricity",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 4,
+  "order": 16,
+  "params": {
+    "emojis": [
+      "tv",
+      "battery",
+      "light",
+      "key",
+      "gloves",
+      "plug",
+      "warning",
+      "droplet",
+      "lowbattery",
+      "house"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which of these needs electricity to work?",
+          "a television",
+          "a wooden spoon",
+          "a teddy bear",
+          "A television only works when electricity flows into it."
+        ],
+        [
+          "What does a battery do?",
+          "it stores energy and pushes electricity round a circuit",
+          "it makes food",
+          "it catches rain",
+          "A battery stores energy. In a circuit it pushes electricity through the wires."
+        ],
+        [
+          "A bulb, a battery and some wires: when does the bulb light up?",
+          "when the circuit is a complete loop",
+          "when there is a gap in the circuit",
+          "when the battery is taken out",
+          "Electricity can only flow round a full loop with no gaps."
+        ],
+        [
+          "Which of these lets electricity flow through it?",
+          "a metal key",
+          "a plastic ruler",
+          "a rubber band",
+          "Metals are good conductors, so electricity can flow through a metal key."
+        ],
+        [
+          "Which material is an insulator (it stops electricity)?",
+          "plastic",
+          "copper",
+          "iron",
+          "Plastic does not let electricity through. Copper and iron are metals, and metals conduct electricity."
+        ],
+        [
+          "Why are electric wires covered in plastic?",
+          "plastic is an insulator, so it keeps us safe",
+          "to make them taste nice",
+          "to make them glow",
+          "The metal inside carries the electricity. The plastic around it stops it reaching our hands."
+        ],
+        [
+          "Is it safe to poke anything into a plug socket?",
+          "no, never: electricity can badly hurt you",
+          "yes, it is always safe",
+          "yes, if you are very quick",
+          "Sockets carry strong electricity. Never put fingers or objects into them."
+        ],
+        [
+          "Why must you keep water away from electrical things?",
+          "water can carry electricity and give you a shock",
+          "water makes them grow",
+          "water turns them into ice",
+          "Water and electricity together are dangerous. Keep drinks away and have dry hands near electrical things."
+        ],
+        [
+          "Which of these usually runs on batteries?",
+          "a torch",
+          "a candle",
+          "a kite",
+          "A torch has batteries inside that make its bulb light up."
+        ],
+        [
+          "What does a switch do in a circuit?",
+          "it closes or opens a gap to turn things on and off",
+          "it makes the battery bigger",
+          "it changes the colour of the wires",
+          "When a switch is on, the loop is complete and electricity flows. When it is off, there is a gap."
+        ]
+      ],
+      "de": [
+        [
+          "Was davon braucht Strom, um zu funktionieren?",
+          "ein Fernseher",
+          "ein Holzlöffel",
+          "ein Teddybär",
+          "Ein Fernseher funktioniert nur, wenn Strom in ihn hineinfließt."
+        ],
+        [
+          "Was macht eine Batterie?",
+          "sie speichert Energie und treibt Strom durch einen Stromkreis",
+          "sie macht Essen",
+          "sie fängt Regen auf",
+          "Eine Batterie speichert Energie. In einem Stromkreis treibt sie den Strom durch die Drähte."
+        ],
+        [
+          "Eine Glühbirne, eine Batterie und Drähte: Wann leuchtet die Birne?",
+          "wenn der Stromkreis geschlossen ist",
+          "wenn der Stromkreis eine Lücke hat",
+          "wenn die Batterie herausgenommen ist",
+          "Strom kann nur durch einen geschlossenen Kreis ohne Lücken fließen."
+        ],
+        [
+          "Was davon lässt Strom hindurch?",
+          "ein Metallschlüssel",
+          "ein Plastiklineal",
+          "ein Gummiband",
+          "Metalle sind gute Leiter, darum kann Strom durch einen Metallschlüssel fließen."
+        ],
+        [
+          "Welcher Stoff ist ein Isolator (er hält Strom auf)?",
+          "Plastik",
+          "Kupfer",
+          "Eisen",
+          "Plastik lässt keinen Strom durch. Kupfer und Eisen sind Metalle, und Metalle leiten Strom."
+        ],
+        [
+          "Warum sind Stromkabel mit Plastik ummantelt?",
+          "Plastik ist ein Isolator und schützt uns",
+          "damit sie gut schmecken",
+          "damit sie leuchten",
+          "Das Metall innen leitet den Strom. Das Plastik außen sorgt dafür, dass er nicht an unsere Hände kommt."
+        ],
+        [
+          "Ist es sicher, etwas in eine Steckdose zu stecken?",
+          "nein, niemals: Strom kann dich schwer verletzen",
+          "ja, das ist immer sicher",
+          "ja, wenn du ganz schnell bist",
+          "In Steckdosen ist starker Strom. Steck nie Finger oder Gegenstände hinein."
+        ],
+        [
+          "Warum musst du Wasser von Elektrogeräten fernhalten?",
+          "Wasser kann Strom leiten und dir einen Schlag geben",
+          "Wasser lässt sie wachsen",
+          "Wasser macht sie zu Eis",
+          "Wasser und Strom zusammen sind gefährlich. Halte Getränke fern und fass Elektrogeräte nur mit trockenen Händen an."
+        ],
+        [
+          "Was davon läuft meistens mit Batterien?",
+          "eine Taschenlampe",
+          "eine Kerze",
+          "ein Drachen",
+          "In einer Taschenlampe sind Batterien, die ihre Birne zum Leuchten bringen."
+        ],
+        [
+          "Was macht ein Schalter in einem Stromkreis?",
+          "er schließt oder öffnet eine Lücke und schaltet so an und aus",
+          "er macht die Batterie größer",
+          "er ändert die Farbe der Drähte",
+          "Ist der Schalter an, ist der Kreis geschlossen und Strom fließt. Ist er aus, gibt es eine Lücke."
+        ]
+      ],
+      "fr": [
+        [
+          "Lequel a besoin d’électricité pour fonctionner ?",
+          "une télévision",
+          "une cuillère en bois",
+          "un ours en peluche",
+          "Une télévision ne marche que si l’électricité arrive jusqu’à elle."
+        ],
+        [
+          "À quoi sert une pile ?",
+          "elle garde de l’énergie et pousse l’électricité dans un circuit",
+          "elle fabrique de la nourriture",
+          "elle attrape la pluie",
+          "Une pile stocke de l’énergie. Dans un circuit, elle pousse l’électricité dans les fils."
+        ],
+        [
+          "Une ampoule, une pile et des fils : quand l’ampoule s’allume-t-elle ?",
+          "quand le circuit forme une boucle fermée",
+          "quand le circuit est ouvert",
+          "quand on enlève la pile",
+          "L’électricité ne peut circuler que dans une boucle complète, sans trou."
+        ],
+        [
+          "Lequel laisse passer l’électricité ?",
+          "une clé en métal",
+          "une règle en plastique",
+          "un élastique",
+          "Les métaux sont de bons conducteurs : l’électricité peut traverser une clé en métal."
+        ],
+        [
+          "Quelle matière est un isolant (elle arrête l’électricité) ?",
+          "le plastique",
+          "le cuivre",
+          "le fer",
+          "Le plastique ne laisse pas passer l’électricité. Le cuivre et le fer sont des métaux, et les métaux la conduisent."
+        ],
+        [
+          "Pourquoi les fils électriques sont-ils entourés de plastique ?",
+          "le plastique est un isolant qui nous protège",
+          "pour qu’ils aient bon goût",
+          "pour qu’ils brillent",
+          "Le métal à l’intérieur transporte l’électricité. Le plastique autour l’empêche d’atteindre nos mains."
+        ],
+        [
+          "Est-ce sans danger de mettre quelque chose dans une prise électrique ?",
+          "non, jamais : l’électricité peut te blesser gravement",
+          "oui, c’est toujours sans danger",
+          "oui, si tu vas très vite",
+          "Les prises contiennent une électricité très forte. Ne mets jamais les doigts ni un objet dedans."
+        ],
+        [
+          "Pourquoi faut-il garder l’eau loin des appareils électriques ?",
+          "l’eau peut conduire l’électricité et te donner une décharge",
+          "l’eau les fait grandir",
+          "l’eau les transforme en glace",
+          "L’eau et l’électricité ensemble sont dangereuses. Éloigne les boissons et aie les mains sèches près des appareils."
+        ],
+        [
+          "Lequel fonctionne en général avec des piles ?",
+          "une lampe de poche",
+          "une bougie",
+          "un cerf-volant",
+          "Une lampe de poche contient des piles qui allument son ampoule."
+        ],
+        [
+          "À quoi sert un interrupteur dans un circuit ?",
+          "il ferme ou ouvre le circuit pour allumer ou éteindre",
+          "il rend la pile plus grosse",
+          "il change la couleur des fils",
+          "Quand l’interrupteur est fermé, la boucle est complète et l’électricité circule. Quand il est ouvert, il y a un trou."
+        ]
+      ],
+      "yo": [
+        [
+          "Èwo nínú ìwọ̀nyí ló nílò iná mànàmáná kí ó tó ṣiṣẹ́?",
+          "tẹlifíṣọ̀n",
+          "ṣíbí onígi",
+          "ọmọlangidi bíà",
+          "Tẹlifíṣọ̀n máa ń ṣiṣẹ́ kìkì nígbà tí iná mànàmáná bá ń ṣàn wọ inú rẹ̀."
+        ],
+        [
+          "Kí ni bátìrì ń ṣe?",
+          "ó ń tọ́jú agbára, ó sì ń ti iná mànàmáná yí àyíká ká",
+          "ó ń ṣe oúnjẹ",
+          "ó ń gba omi òjò",
+          "Bátìrì ń tọ́jú agbára. Nínú àyíká iná, ó ń ti iná mànàmáná gba inú wáyà."
+        ],
+        [
+          "Gílóòbù, bátìrì àti wáyà: ìgbà wo ni gílóòbù máa tàn?",
+          "nígbà tí àyíká náà bá pé, láìsí àlàfo",
+          "nígbà tí àlàfo bá wà nínú àyíká",
+          "nígbà tí a bá yọ bátìrì kúrò",
+          "Iná mànàmáná lè ṣàn kìkì nínú àyíká tó pé, tí kò ní àlàfo."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló ń jẹ́ kí iná mànàmáná gba inú rẹ̀ kọjá?",
+          "kọ́kọ́rọ́ onírin",
+          "rúlà ike",
+          "rọ́bà ìdìpọ̀",
+          "Irin máa ń gbé iná mànàmáná dáadáa, nítorí náà iná lè gba inú kọ́kọ́rọ́ onírin kọjá."
+        ],
+        [
+          "Èwo ló ń dí iná mànàmáná lọ́nà?",
+          "ike",
+          "bàbà",
+          "irin",
+          "Ike kì í jẹ́ kí iná mànàmáná kọjá. Bàbà àti irin máa ń gbé iná mànàmáná."
+        ],
+        [
+          "Kí ló dé tí wọ́n fi ike bo wáyà iná?",
+          "ike kì í gbé iná, nítorí náà ó ń dáàbò bò wá",
+          "kí ó lè dùn lẹ́nu",
+          "kí ó lè máa tàn",
+          "Irin inú rẹ̀ ló ń gbé iná mànàmáná. Ike tó yí i ká ń dí i lọ́wọ́ kí ó má dé ọwọ́ wa."
+        ],
+        [
+          "Ṣé kò léwu láti ki nǹkan bọ inú sọ́kẹ́ẹ̀tì iná?",
+          "ó léwu, má ṣe é láéláé: iná mànàmáná lè ṣe ọ́ léṣe gidigidi",
+          "kò léwu rárá nígbà kankan",
+          "kò léwu tí o bá yára gan-an",
+          "Iná mànàmáná tó lágbára wà nínú sọ́kẹ́ẹ̀tì. Má ṣe ki ìka tàbí nǹkan kan bọ inú rẹ̀ láéláé."
+        ],
+        [
+          "Kí ló dé tí o gbọdọ̀ pa omi mọ́ kúrò lọ́dọ̀ ohun èlò iná?",
+          "omi lè gbé iná mànàmáná, kí ó sì gbá ọ",
+          "omi ń mú wọn dàgbà",
+          "omi ń sọ wọ́n di yìnyín",
+          "Omi àti iná mànàmáná pa pọ̀ léwu. Pa ohun mímu mọ́ sí ọ̀nà jíjìn, kí ọwọ́ rẹ sì gbẹ nítòsí ohun èlò iná."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló sábà máa ń lo bátìrì?",
+          "tọ́ọ̀ṣì",
+          "àbẹ́là",
+          "àwòdì ìwé",
+          "Bátìrì wà nínú tọ́ọ̀ṣì, òun ló ń mú gílóòbù rẹ̀ tàn."
+        ],
+        [
+          "Kí ni súwíìṣì ń ṣe nínú àyíká iná?",
+          "ó ń ti àlàfo tàbí ṣí i láti tan nǹkan tàbí pa á",
+          "ó ń mú bátìrì tóbi sí i",
+          "ó ń yí àwọ̀ wáyà padà",
+          "Nígbà tí súwíìṣì bá wà ní títàn, àyíká náà pé, iná mànàmáná sì ń ṣàn. Nígbà tí ó bá wà ní pípa, àlàfo wà."
+        ]
+      ]
+    }
+  },
+  "emoji": "battery",
+  "example": {
+    "i": 0,
+    "q_en": "Which of these needs electricity to work?",
+    "answer_en": "a television",
+    "why_en": "A television only works when electricity flows into it.",
+    "q_de": "Was davon braucht Strom, um zu funktionieren?",
+    "answer_de": "ein Fernseher",
+    "why_de": "Ein Fernseher funktioniert nur, wenn Strom in ihn hineinfließt.",
+    "q_fr": "Lequel a besoin d’électricité pour fonctionner ?",
+    "answer_fr": "une télévision",
+    "why_fr": "Une télévision ne marche que si l’électricité arrive jusqu’à elle.",
+    "q_yo": "Èwo nínú ìwọ̀nyí ló nílò iná mànàmáná kí ó tó ṣiṣẹ́?",
+    "answer_yo": "tẹlifíṣọ̀n",
+    "why_yo": "Tẹlifíṣọ̀n máa ń ṣiṣẹ́ kìkì nígbà tí iná mànàmáná bá ń ṣàn wọ inú rẹ̀."
+  },
+  "text": {
+    "en": {
+      "title": "Electricity",
+      "teach": "Many things use electricity from a socket or a battery. Electricity flows round a complete circuit, through conductors like metal but not through insulators like plastic. Never touch sockets, and keep water away from electrical things.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Elektrizität",
+      "teach": "Viele Dinge brauchen Strom aus der Steckdose oder aus einer Batterie. Strom fließt durch einen geschlossenen Stromkreis, durch Leiter wie Metall, aber nicht durch Isolatoren wie Plastik. Fass nie Steckdosen an und halte Wasser von Elektrogeräten fern.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "L’électricité",
+      "teach": "Beaucoup d’appareils utilisent l’électricité d’une prise ou d’une pile. Elle circule dans un circuit fermé, à travers les conducteurs comme le métal, mais pas à travers les isolants comme le plastique. Ne touche jamais les prises et garde l’eau loin des appareils électriques.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Iná mànàmáná",
+      "teach": "Ọ̀pọ̀ nǹkan ló ń lo iná mànàmáná láti inú sọ́kẹ́ẹ̀tì tàbí bátìrì. Iná mànàmáná ń ṣàn yí àyíká tó pé ká, ó ń gba inú irin kọjá ṣùgbọ́n kò lè gba inú ike kọjá. Má ṣe fọwọ́ kan sọ́kẹ́ẹ̀tì láéláé, kí o sì pa omi mọ́ kúrò lọ́dọ̀ ohun èlò iná.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

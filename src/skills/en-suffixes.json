@@ -1,0 +1,111 @@
+{
+  "id": "en-suffixes",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 3,
+  "order": 24,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "warning",
+      "gloves",
+      "heart",
+      "animal-snail",
+      "school",
+      "palette",
+      "animal-lion",
+      "sparkles",
+      "animal-rabbit",
+      "framed"
+    ],
+    "bank": {
+      "en": [
+        [
+          "care + ful = ?",
+          "careful",
+          "carefull",
+          "carful",
+          "The ending “-ful” has only one l: careful."
+        ],
+        [
+          "What does “helpless” mean?",
+          "without help",
+          "full of help",
+          "helping a lot",
+          "The ending “-less” means without."
+        ],
+        [
+          "kind + ness = ?",
+          "kindness",
+          "kindniss",
+          "kindnes",
+          "Add “-ness” with a double s: kindness."
+        ],
+        [
+          "slow + ly = ?",
+          "slowly",
+          "slowley",
+          "slowlly",
+          "Just add “-ly”: slowly."
+        ],
+        [
+          "teach + er = ?",
+          "teacher",
+          "teachor",
+          "teachar",
+          "Add “-er” for a person who does something: teacher."
+        ],
+        [
+          "Which word means “full of colour”?",
+          "colourful",
+          "colourless",
+          "colourly",
+          "The ending “-ful” means full of."
+        ],
+        [
+          "What does “fearless” mean?",
+          "without fear",
+          "full of fear",
+          "a little bit scared",
+          "The ending “-less” means without, so fearless means very brave."
+        ],
+        [
+          "happy + ness = ?",
+          "happiness",
+          "happyness",
+          "happness",
+          "The y changes to i before “-ness”: happiness."
+        ],
+        [
+          "quick + ly = ?",
+          "quickly",
+          "quickley",
+          "quikly",
+          "Just add “-ly” and keep the ck: quickly."
+        ],
+        [
+          "Which word means “a person who paints”?",
+          "painter",
+          "painful",
+          "painless",
+          "The ending “-er” can mean a person who does something."
+        ]
+      ]
+    }
+  },
+  "emoji": "memo",
+  "example": {
+    "i": 0,
+    "q_en": "care + ful = ?",
+    "answer_en": "careful",
+    "why_en": "The ending “-ful” has only one l: careful."
+  },
+  "text": {
+    "en": {
+      "title": "Word endings",
+      "teach": "A suffix is added to the end of a word and changes its meaning: care + ful = careful (full of care), help + less = helpless (without help), kind + ness = kindness, slow + ly = slowly, teach + er = teacher.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

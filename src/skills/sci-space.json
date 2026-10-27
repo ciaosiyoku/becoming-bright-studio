@@ -1,0 +1,353 @@
+{
+  "id": "sci-space",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 4,
+  "order": 15,
+  "params": {
+    "emojis": [
+      "globe",
+      "calendar",
+      "sun",
+      "moon",
+      "clock",
+      "thermometer",
+      "sparkles",
+      "desert",
+      "glowstar",
+      "star"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Why do we have day and night?",
+          "the Earth spins round once every day",
+          "the Sun goes out every evening",
+          "the Moon covers the Sun every night",
+          "As the Earth spins, our side faces the Sun (day) and then turns away from it (night)."
+        ],
+        [
+          "How long does the Earth take to travel once round the Sun?",
+          "one year",
+          "one day",
+          "one hour",
+          "The Earth takes about 365 days, which is one year, to go all the way round the Sun."
+        ],
+        [
+          "What is the Sun?",
+          "a star",
+          "a planet",
+          "a giant lamp made by people",
+          "The Sun is a star: a huge, hot ball of glowing gas. It is the star closest to us."
+        ],
+        [
+          "Why does the Moon seem to change shape?",
+          "we see different amounts of its sunlit side",
+          "bits break off and grow back",
+          "clouds cut pieces off it",
+          "The Sun always lights half of the Moon. As the Moon goes round the Earth, we see more or less of that bright half."
+        ],
+        [
+          "About how long does the Moon take to go round the Earth?",
+          "about a month",
+          "about an hour",
+          "about a hundred years",
+          "The Moon goes round the Earth in about four weeks, roughly one month."
+        ],
+        [
+          "Which planet is closest to the Sun?",
+          "Mercury",
+          "Neptune",
+          "Earth",
+          "Mercury is the closest planet to the Sun. Neptune is the furthest away."
+        ],
+        [
+          "Which is the biggest planet in our Solar System?",
+          "Jupiter",
+          "Mercury",
+          "Earth",
+          "Jupiter is so big that more than a thousand Earths could fit inside it."
+        ],
+        [
+          "Which planet is called the Red Planet?",
+          "Mars",
+          "Neptune",
+          "Saturn",
+          "Mars is covered in reddish dust and rocks, so it looks red."
+        ],
+        [
+          "Which planet has huge, bright rings around it?",
+          "Saturn",
+          "Mercury",
+          "Mars",
+          "Saturn’s rings are made of countless pieces of ice and rock."
+        ],
+        [
+          "How many planets travel round our Sun?",
+          "eight",
+          "three",
+          "twenty",
+          "There are eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune."
+        ]
+      ],
+      "de": [
+        [
+          "Warum gibt es Tag und Nacht?",
+          "die Erde dreht sich jeden Tag einmal um sich selbst",
+          "die Sonne geht jeden Abend aus",
+          "der Mond deckt jede Nacht die Sonne zu",
+          "Wenn sich die Erde dreht, zeigt unsere Seite zur Sonne (Tag) und dann von ihr weg (Nacht)."
+        ],
+        [
+          "Wie lange braucht die Erde für eine Runde um die Sonne?",
+          "ein Jahr",
+          "einen Tag",
+          "eine Stunde",
+          "Die Erde braucht etwa 365 Tage, also ein Jahr, um einmal um die Sonne zu wandern."
+        ],
+        [
+          "Was ist die Sonne?",
+          "ein Stern",
+          "ein Planet",
+          "eine riesige Lampe, die Menschen gebaut haben",
+          "Die Sonne ist ein Stern: eine riesige, heiße Kugel aus leuchtendem Gas. Sie ist der Stern, der uns am nächsten ist."
+        ],
+        [
+          "Warum scheint der Mond seine Form zu ändern?",
+          "wir sehen unterschiedlich viel von seiner beleuchteten Seite",
+          "Stücke brechen ab und wachsen nach",
+          "Wolken schneiden Stücke ab",
+          "Die Sonne beleuchtet immer eine Hälfte des Mondes. Während er um die Erde kreist, sehen wir mal mehr, mal weniger von dieser hellen Hälfte."
+        ],
+        [
+          "Wie lange braucht der Mond ungefähr für eine Runde um die Erde?",
+          "ungefähr einen Monat",
+          "ungefähr eine Stunde",
+          "ungefähr hundert Jahre",
+          "Der Mond kreist in etwa vier Wochen um die Erde, also ungefähr in einem Monat."
+        ],
+        [
+          "Welcher Planet ist der Sonne am nächsten?",
+          "Merkur",
+          "Neptun",
+          "die Erde",
+          "Merkur ist der Planet, der der Sonne am nächsten ist. Neptun ist am weitesten entfernt."
+        ],
+        [
+          "Welcher ist der größte Planet in unserem Sonnensystem?",
+          "Jupiter",
+          "Merkur",
+          "die Erde",
+          "Jupiter ist so groß, dass mehr als tausend Erden in ihn hineinpassen würden."
+        ],
+        [
+          "Welcher Planet heißt der Rote Planet?",
+          "Mars",
+          "Neptun",
+          "Saturn",
+          "Der Mars ist mit rötlichem Staub und Gestein bedeckt, darum sieht er rot aus."
+        ],
+        [
+          "Welcher Planet hat riesige, helle Ringe?",
+          "Saturn",
+          "Merkur",
+          "Mars",
+          "Die Ringe des Saturn bestehen aus unzähligen Stücken aus Eis und Gestein."
+        ],
+        [
+          "Wie viele Planeten kreisen um unsere Sonne?",
+          "acht",
+          "drei",
+          "zwanzig",
+          "Es gibt acht Planeten: Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus und Neptun."
+        ]
+      ],
+      "fr": [
+        [
+          "Pourquoi y a-t-il le jour et la nuit ?",
+          "la Terre tourne sur elle-même une fois par jour",
+          "le Soleil s’éteint chaque soir",
+          "la Lune cache le Soleil chaque nuit",
+          "Quand la Terre tourne, notre côté fait face au Soleil (le jour), puis se détourne de lui (la nuit)."
+        ],
+        [
+          "Combien de temps la Terre met-elle pour faire le tour du Soleil ?",
+          "un an",
+          "un jour",
+          "une heure",
+          "La Terre met environ 365 jours, c’est-à-dire un an, pour faire tout le tour du Soleil."
+        ],
+        [
+          "Qu’est-ce que le Soleil ?",
+          "une étoile",
+          "une planète",
+          "une lampe géante fabriquée par les gens",
+          "Le Soleil est une étoile : une énorme boule de gaz très chaude et lumineuse. C’est l’étoile la plus proche de nous."
+        ],
+        [
+          "Pourquoi la Lune semble-t-elle changer de forme ?",
+          "nous voyons plus ou moins sa partie éclairée",
+          "des morceaux tombent et repoussent",
+          "les nuages la découpent",
+          "Le Soleil éclaire toujours une moitié de la Lune. Pendant qu’elle tourne autour de la Terre, nous voyons plus ou moins de cette moitié éclairée."
+        ],
+        [
+          "En combien de temps environ la Lune fait-elle le tour de la Terre ?",
+          "environ un mois",
+          "environ une heure",
+          "environ cent ans",
+          "La Lune fait le tour de la Terre en à peu près quatre semaines, soit environ un mois."
+        ],
+        [
+          "Quelle planète est la plus proche du Soleil ?",
+          "Mercure",
+          "Neptune",
+          "la Terre",
+          "Mercure est la planète la plus proche du Soleil. Neptune est la plus éloignée."
+        ],
+        [
+          "Quelle est la plus grande planète de notre système solaire ?",
+          "Jupiter",
+          "Mercure",
+          "la Terre",
+          "Jupiter est si grande que plus de mille Terres pourraient tenir dedans."
+        ],
+        [
+          "Quelle planète appelle-t-on la planète rouge ?",
+          "Mars",
+          "Neptune",
+          "Saturne",
+          "Mars est couverte de poussière et de roches rougeâtres : elle paraît rouge."
+        ],
+        [
+          "Quelle planète a d’immenses anneaux brillants ?",
+          "Saturne",
+          "Mercure",
+          "Mars",
+          "Les anneaux de Saturne sont faits d’innombrables morceaux de glace et de roche."
+        ],
+        [
+          "Combien de planètes tournent autour de notre Soleil ?",
+          "huit",
+          "trois",
+          "vingt",
+          "Il y a huit planètes : Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus et Neptune."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ló fà á tí a fi ní ọ̀sán àti òru?",
+          "ilẹ̀ ayé ń yí po lẹ́ẹ̀kan lójoojúmọ́",
+          "oòrùn máa ń kú ní ìrọ̀lẹ́ kọ̀ọ̀kan",
+          "òṣùpá máa ń bo oòrùn mọ́lẹ̀ ní òru kọ̀ọ̀kan",
+          "Bí ilẹ̀ ayé ṣe ń yí po, apá tiwa máa ń kọjú sí oòrùn (ọ̀sán), lẹ́yìn náà á yípadà kúrò níbẹ̀ (òru)."
+        ],
+        [
+          "Báwo ni ó ṣe pẹ́ tó kí ilẹ̀ ayé tó yí oòrùn ká lẹ́ẹ̀kan?",
+          "ọdún kan",
+          "ọjọ́ kan",
+          "wákàtí kan",
+          "Ó máa ń gba ilẹ̀ ayé ní nǹkan bí ọjọ́ 365, ìyẹn ọdún kan, láti yí oòrùn ká pátápátá."
+        ],
+        [
+          "Kí ni oòrùn?",
+          "ìràwọ̀ kan",
+          "pílánẹ́ẹ̀tì kan",
+          "àtùpà ńlá tí ènìyàn ṣe",
+          "Ìràwọ̀ ni oòrùn: bọ́ọ̀lù gáàsì ńlá tó gbóná, tó sì ń tàn. Òun ni ìràwọ̀ tó sún mọ́ wa jùlọ."
+        ],
+        [
+          "Kí ló dé tí ó dà bí ẹni pé òṣùpá ń yí ìrísí padà?",
+          "a ń rí apá tí oòrùn tàn sí lára rẹ̀ ní ìwọ̀n tó yàtọ̀",
+          "ẹ̀yà rẹ̀ ń ṣẹ́ kúrò, wọ́n sì ń hù padà",
+          "ìkùukùu ń gé e jẹ",
+          "Oòrùn máa ń tàn sí ìdajì òṣùpá nígbà gbogbo. Bí òṣùpá ṣe ń yí ilẹ̀ ayé ká, a ń rí ìdajì tó mọ́lẹ̀ yìí ní púpọ̀ tàbí ní díẹ̀."
+        ],
+        [
+          "Ní nǹkan bí ìgbà mélòó ni òṣùpá fi ń yí ilẹ̀ ayé ká?",
+          "nǹkan bí oṣù kan",
+          "nǹkan bí wákàtí kan",
+          "nǹkan bí ọgọ́rùn-ún ọdún",
+          "Òṣùpá máa ń yí ilẹ̀ ayé ká ní nǹkan bí ọ̀sẹ̀ mẹ́rin, ìyẹn nǹkan bí oṣù kan."
+        ],
+        [
+          "Pílánẹ́ẹ̀tì wo ló sún mọ́ oòrùn jùlọ?",
+          "Mákúrì",
+          "Nẹ́pítúùnù",
+          "Ilẹ̀ ayé",
+          "Mákúrì ni pílánẹ́ẹ̀tì tó sún mọ́ oòrùn jùlọ. Nẹ́pítúùnù ló jìnnà jùlọ."
+        ],
+        [
+          "Pílánẹ́ẹ̀tì wo ló tóbi jùlọ nínú ètò oòrùn wa?",
+          "Júpítà",
+          "Mákúrì",
+          "Ilẹ̀ ayé",
+          "Júpítà tóbi débi pé ilẹ̀ ayé tó ju ẹgbẹ̀rún kan lọ lè wọ inú rẹ̀."
+        ],
+        [
+          "Pílánẹ́ẹ̀tì wo ni a ń pè ní pílánẹ́ẹ̀tì pupa?",
+          "Máàsì",
+          "Nẹ́pítúùnù",
+          "Sátọ̀nù",
+          "Erùpẹ̀ àti àpáta pupa ló bo Máàsì, nítorí náà ó dà bí pupa."
+        ],
+        [
+          "Pílánẹ́ẹ̀tì wo ló ní òrùka ńlá tó ń tàn yí i ká?",
+          "Sátọ̀nù",
+          "Mákúrì",
+          "Máàsì",
+          "Àìmọye ègé yìnyín àti àpáta ni wọ́n fi ṣe òrùka Sátọ̀nù."
+        ],
+        [
+          "Pílánẹ́ẹ̀tì mélòó ló ń yí oòrùn wa ká?",
+          "mẹ́jọ",
+          "mẹ́ta",
+          "ogún",
+          "Pílánẹ́ẹ̀tì mẹ́jọ ló wà: Mákúrì, Fínọ́ọ̀sì, Ilẹ̀ ayé, Máàsì, Júpítà, Sátọ̀nù, Yúránọ́ọ̀sì àti Nẹ́pítúùnù."
+        ]
+      ]
+    }
+  },
+  "emoji": "globe",
+  "example": {
+    "i": 0,
+    "q_en": "Why do we have day and night?",
+    "answer_en": "the Earth spins round once every day",
+    "why_en": "As the Earth spins, our side faces the Sun (day) and then turns away from it (night).",
+    "q_de": "Warum gibt es Tag und Nacht?",
+    "answer_de": "die Erde dreht sich jeden Tag einmal um sich selbst",
+    "why_de": "Wenn sich die Erde dreht, zeigt unsere Seite zur Sonne (Tag) und dann von ihr weg (Nacht).",
+    "q_fr": "Pourquoi y a-t-il le jour et la nuit ?",
+    "answer_fr": "la Terre tourne sur elle-même une fois par jour",
+    "why_fr": "Quand la Terre tourne, notre côté fait face au Soleil (le jour), puis se détourne de lui (la nuit).",
+    "q_yo": "Kí ló fà á tí a fi ní ọ̀sán àti òru?",
+    "answer_yo": "ilẹ̀ ayé ń yí po lẹ́ẹ̀kan lójoojúmọ́",
+    "why_yo": "Bí ilẹ̀ ayé ṣe ń yí po, apá tiwa máa ń kọjú sí oòrùn (ọ̀sán), lẹ́yìn náà á yípadà kúrò níbẹ̀ (òru)."
+  },
+  "text": {
+    "en": {
+      "title": "Earth and space",
+      "teach": "The Earth spins once a day, which gives us day and night, and travels round the Sun once a year. The Moon goes round the Earth and shines with light from the Sun.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Die Erde und der Weltraum",
+      "teach": "Die Erde dreht sich einmal am Tag um sich selbst, so entstehen Tag und Nacht. Einmal im Jahr wandert sie um die Sonne. Der Mond kreist um die Erde und leuchtet mit dem Licht der Sonne.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "La Terre et l’espace",
+      "teach": "La Terre tourne sur elle-même une fois par jour, ce qui fait le jour et la nuit, et fait le tour du Soleil en un an. La Lune tourne autour de la Terre et brille grâce à la lumière du Soleil.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ilẹ̀ ayé àti òfuurufú",
+      "teach": "Ilẹ̀ ayé ń yí po lẹ́ẹ̀kan lójúmọ́, èyí ló ń fún wa ní ọ̀sán àti òru. Ó sì ń yí oòrùn ká lẹ́ẹ̀kan lọ́dún. Òṣùpá ń yí ilẹ̀ ayé ká, ó sì ń tàn pẹ̀lú ìmọ́lẹ̀ oòrùn.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

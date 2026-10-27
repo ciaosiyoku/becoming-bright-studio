@@ -1,0 +1,111 @@
+{
+  "id": "fr-verbs",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 2,
+  "order": 10,
+  "only": "fr",
+  "params": {
+    "emojis": [
+      "sparkles",
+      "backpack",
+      "animal-giraffe",
+      "school",
+      "cake",
+      "teddy",
+      "heart",
+      "animal-rabbit",
+      "girl",
+      "books"
+    ],
+    "bank": {
+      "fr": [
+        [
+          "Je ___ content.",
+          "suis",
+          "es",
+          "ai",
+          "Avec « je », le verbe être devient « suis » : je suis content."
+        ],
+        [
+          "Tu ___ un sac à dos.",
+          "as",
+          "suis",
+          "avons",
+          "Avec « tu », le verbe avoir devient « as » : tu as un sac."
+        ],
+        [
+          "La girafe ___ très grande.",
+          "est",
+          "suis",
+          "avez",
+          "Avec « il » ou « elle », être devient « est » : elle est grande."
+        ],
+        [
+          "Nous ___ à l’école.",
+          "sommes",
+          "êtes",
+          "as",
+          "Avec « nous », être devient « sommes » : nous sommes à l’école."
+        ],
+        [
+          "J’___ un gâteau.",
+          "ai",
+          "es",
+          "sommes",
+          "Avec « je », avoir devient « ai ». On écrit « j’ai » avec une apostrophe."
+        ],
+        [
+          "Elle ___ un nounours.",
+          "a",
+          "ont",
+          "avons",
+          "Avec « il » ou « elle », avoir devient « a » : elle a un nounours."
+        ],
+        [
+          "Vous ___ très gentils.",
+          "êtes",
+          "sommes",
+          "es",
+          "Avec « vous », être devient « êtes » : vous êtes gentils."
+        ],
+        [
+          "Nous ___ deux lapins.",
+          "avons",
+          "avez",
+          "ai",
+          "Avec « nous », avoir devient « avons » : nous avons deux lapins."
+        ],
+        [
+          "Tu ___ mon amie.",
+          "es",
+          "suis",
+          "sommes",
+          "Avec « tu », être devient « es » : tu es mon amie."
+        ],
+        [
+          "Ils ___ des livres.",
+          "ont",
+          "a",
+          "avons",
+          "Avec « ils », avoir devient « ont » : ils ont des livres."
+        ]
+      ]
+    }
+  },
+  "emoji": "sparkles",
+  "example": {
+    "i": 0,
+    "q_fr": "Je ___ content.",
+    "answer_fr": "suis",
+    "why_fr": "Avec « je », le verbe être devient « suis » : je suis content."
+  },
+  "text": {
+    "fr": {
+      "title": "Être et avoir",
+      "teach": "Être : je suis, tu es, il est, nous sommes, vous êtes, ils sont. Avoir : j’ai, tu as, il a, nous avons, vous avez, ils ont. Exemple : Je suis content.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    }
+  }
+}

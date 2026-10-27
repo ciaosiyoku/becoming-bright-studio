@@ -1,0 +1,111 @@
+{
+  "id": "en-capitals",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 1,
+  "order": 18,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "paws",
+      "calendar",
+      "cake",
+      "animal-frog",
+      "girl",
+      "beach",
+      "fruit-apple",
+      "clock",
+      "snowman",
+      "teddy"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which is written correctly?",
+          "My dog is called Max.",
+          "my dog is called Max.",
+          "My dog is called max.",
+          "A sentence starts with a capital letter, and so does a name like Max."
+        ],
+        [
+          "Which is written correctly?",
+          "On Monday I go swimming.",
+          "On monday I go swimming.",
+          "On Monday i go swimming.",
+          "Days of the week and the word I always have a capital letter."
+        ],
+        [
+          "Which is written correctly?",
+          "Sam and I like cake.",
+          "Sam and i like cake.",
+          "sam and I like cake.",
+          "Names like Sam and the word I always start with a capital letter."
+        ],
+        [
+          "Which is written correctly?",
+          "The frog sat on a log.",
+          "the frog sat on a log.",
+          "The frog sat on a Log.",
+          "Only the first word needs a capital here. Log is not a name."
+        ],
+        [
+          "Which is written correctly?",
+          "Lily lives in London.",
+          "lily lives in london.",
+          "Lily lives in london.",
+          "Names of people and places start with a capital letter."
+        ],
+        [
+          "Which is written correctly?",
+          "We went to the beach on Saturday.",
+          "We went to the Beach on saturday.",
+          "we went to the beach on Saturday.",
+          "The sentence starts with a capital, and so does the day Saturday."
+        ],
+        [
+          "Which is written correctly?",
+          "Can I have an apple?",
+          "can i have an apple?",
+          "Can I have an Apple?",
+          "Start with a capital and write I as a capital. An apple is not a name."
+        ],
+        [
+          "Which word should start with a capital letter?",
+          "tuesday",
+          "table",
+          "tiger",
+          "Tuesday is a day of the week, so it needs a capital T."
+        ],
+        [
+          "Which is written correctly?",
+          "Ben and Ava play in the snow.",
+          "ben and Ava play in the snow.",
+          "Ben and ava play in the Snow.",
+          "Ben and Ava are names, so both need capitals. Snow is not a name."
+        ],
+        [
+          "My teddy is called ___.",
+          "Bobo",
+          "bobo",
+          "BoBo",
+          "A name starts with one capital letter at the front."
+        ]
+      ]
+    }
+  },
+  "emoji": "letters",
+  "example": {
+    "i": 0,
+    "q_en": "Which is written correctly?",
+    "answer_en": "My dog is called Max.",
+    "why_en": "A sentence starts with a capital letter, and so does a name like Max."
+  },
+  "text": {
+    "en": {
+      "title": "Capital letters",
+      "teach": "A sentence starts with a capital letter. Names, days of the week and the word I do too: On Monday I saw Max.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

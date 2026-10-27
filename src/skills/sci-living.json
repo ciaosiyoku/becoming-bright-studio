@@ -1,0 +1,353 @@
+{
+  "id": "sci-living",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 1,
+  "order": 1,
+  "params": {
+    "emojis": [
+      "animal-rabbit",
+      "teddy",
+      "tree",
+      "shoe",
+      "animal-frog",
+      "seedling",
+      "bus",
+      "animal-honeybee",
+      "framed",
+      "fruit-apple"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Is a rabbit alive?",
+          "yes, it is alive",
+          "no, it was never alive",
+          "it is a machine",
+          "A rabbit breathes, eats, grows and has babies, so it is alive."
+        ],
+        [
+          "Is a teddy bear alive?",
+          "no, it was never alive",
+          "yes, it is alive",
+          "it grows like a plant",
+          "A teddy cannot eat, breathe or grow. It was made in a factory."
+        ],
+        [
+          "Is a tree alive?",
+          "yes, it is alive",
+          "no, it was never alive",
+          "only in winter",
+          "A tree takes in water, grows and makes seeds, so it is alive."
+        ],
+        [
+          "Is a shoe alive?",
+          "no, it was never alive",
+          "yes, it is alive",
+          "only when you walk",
+          "A shoe does not eat or grow. People made it."
+        ],
+        [
+          "What do all living things need?",
+          "water and food",
+          "toys and games",
+          "shoes and hats",
+          "Every living thing needs water and food (plants make their own food with sunlight)."
+        ],
+        [
+          "What will a seed grow into?",
+          "a plant",
+          "a stone",
+          "a car",
+          "A seed is alive: with water and warmth it grows into a new plant."
+        ],
+        [
+          "Is a bus alive?",
+          "no, it was never alive",
+          "yes, it is alive",
+          "it is a plant",
+          "A bus moves, but it cannot grow or have babies. It is a machine."
+        ],
+        [
+          "Which of these is alive?",
+          "a bee",
+          "a cloud",
+          "a spoon",
+          "A bee eats, breathes and grows, so it is alive. Clouds and spoons are not."
+        ],
+        [
+          "Is a picture in a frame alive?",
+          "no, it was never alive",
+          "yes, it is alive",
+          "it grows at night",
+          "A picture does not eat, breathe or grow."
+        ],
+        [
+          "Where does an apple come from?",
+          "from a living tree",
+          "from a machine",
+          "from a rock",
+          "Apples grow on apple trees. The seeds inside can grow into new trees."
+        ]
+      ],
+      "de": [
+        [
+          "Lebt ein Hase?",
+          "ja, er lebt",
+          "nein, er hat nie gelebt",
+          "er ist eine Maschine",
+          "Ein Hase atmet, frisst, wächst und bekommt Junge. Also lebt er."
+        ],
+        [
+          "Lebt ein Teddybär?",
+          "nein, er hat nie gelebt",
+          "ja, er lebt",
+          "er wächst wie eine Pflanze",
+          "Ein Teddy kann nicht essen, atmen oder wachsen. Er wurde in einer Fabrik gemacht."
+        ],
+        [
+          "Lebt ein Baum?",
+          "ja, er lebt",
+          "nein, er hat nie gelebt",
+          "nur im Winter",
+          "Ein Baum nimmt Wasser auf, wächst und bildet Samen. Also lebt er."
+        ],
+        [
+          "Lebt ein Schuh?",
+          "nein, er hat nie gelebt",
+          "ja, er lebt",
+          "nur beim Laufen",
+          "Ein Schuh isst nicht und wächst nicht. Menschen haben ihn gemacht."
+        ],
+        [
+          "Was brauchen alle Lebewesen?",
+          "Wasser und Nahrung",
+          "Spielzeug und Spiele",
+          "Schuhe und Mützen",
+          "Jedes Lebewesen braucht Wasser und Nahrung (Pflanzen machen ihre Nahrung selbst, mit Sonnenlicht)."
+        ],
+        [
+          "Was wächst aus einem Samen?",
+          "eine Pflanze",
+          "ein Stein",
+          "ein Auto",
+          "Ein Samen lebt: Mit Wasser und Wärme wächst daraus eine neue Pflanze."
+        ],
+        [
+          "Lebt ein Bus?",
+          "nein, er hat nie gelebt",
+          "ja, er lebt",
+          "er ist eine Pflanze",
+          "Ein Bus fährt, aber er kann nicht wachsen und keine Jungen bekommen. Er ist eine Maschine."
+        ],
+        [
+          "Was davon lebt?",
+          "eine Biene",
+          "eine Wolke",
+          "ein Löffel",
+          "Eine Biene frisst, atmet und wächst. Also lebt sie. Wolken und Löffel nicht."
+        ],
+        [
+          "Lebt ein Bild im Rahmen?",
+          "nein, es hat nie gelebt",
+          "ja, es lebt",
+          "es wächst in der Nacht",
+          "Ein Bild isst nicht, atmet nicht und wächst nicht."
+        ],
+        [
+          "Woher kommt ein Apfel?",
+          "von einem lebenden Baum",
+          "aus einer Maschine",
+          "aus einem Stein",
+          "Äpfel wachsen an Apfelbäumen. Aus den Kernen können neue Bäume wachsen."
+        ]
+      ],
+      "fr": [
+        [
+          "Un lapin est-il vivant ?",
+          "oui, il est vivant",
+          "non, il n’a jamais vécu",
+          "c’est une machine",
+          "Un lapin respire, mange, grandit et a des petits : il est vivant."
+        ],
+        [
+          "Un ours en peluche est-il vivant ?",
+          "non, il n’a jamais vécu",
+          "oui, il est vivant",
+          "il pousse comme une plante",
+          "Une peluche ne mange pas, ne respire pas et ne grandit pas. Elle a été fabriquée dans une usine."
+        ],
+        [
+          "Un arbre est-il vivant ?",
+          "oui, il est vivant",
+          "non, il n’a jamais vécu",
+          "seulement en hiver",
+          "Un arbre boit de l’eau, grandit et fait des graines : il est vivant."
+        ],
+        [
+          "Une chaussure est-elle vivante ?",
+          "non, elle n’a jamais vécu",
+          "oui, elle est vivante",
+          "seulement quand on marche",
+          "Une chaussure ne mange pas et ne grandit pas. Ce sont des gens qui l’ont fabriquée."
+        ],
+        [
+          "De quoi ont besoin tous les êtres vivants ?",
+          "d’eau et de nourriture",
+          "de jouets et de jeux",
+          "de chaussures et de chapeaux",
+          "Tous les êtres vivants ont besoin d’eau et de nourriture (les plantes fabriquent leur nourriture avec la lumière du soleil)."
+        ],
+        [
+          "Que devient une graine ?",
+          "une plante",
+          "un caillou",
+          "une voiture",
+          "Une graine est vivante : avec de l’eau et de la chaleur, elle devient une nouvelle plante."
+        ],
+        [
+          "Un bus est-il vivant ?",
+          "non, il n’a jamais vécu",
+          "oui, il est vivant",
+          "c’est une plante",
+          "Un bus roule, mais il ne grandit pas et n’a pas de petits. C’est une machine."
+        ],
+        [
+          "Lequel est vivant ?",
+          "une abeille",
+          "un nuage",
+          "une cuillère",
+          "Une abeille mange, respire et grandit : elle est vivante. Les nuages et les cuillères, non."
+        ],
+        [
+          "Un tableau dans un cadre est-il vivant ?",
+          "non, il n’a jamais vécu",
+          "oui, il est vivant",
+          "il grandit la nuit",
+          "Un tableau ne mange pas, ne respire pas et ne grandit pas."
+        ],
+        [
+          "D’où vient une pomme ?",
+          "d’un arbre vivant",
+          "d’une machine",
+          "d’un caillou",
+          "Les pommes poussent sur les pommiers. Leurs pépins peuvent donner de nouveaux arbres."
+        ]
+      ],
+      "yo": [
+        [
+          "Ṣé ehoro wà láàyè?",
+          "bẹ́ẹ̀ni, ó wà láàyè",
+          "rárá, kò wà láàyè rí",
+          "ẹ̀rọ ni",
+          "Ehoro ń mí, ó ń jẹun, ó ń dàgbà, ó sì ń bímọ, nítorí náà ó wà láàyè."
+        ],
+        [
+          "Ṣé ọmọlangidi bíà wà láàyè?",
+          "rárá, kò wà láàyè rí",
+          "bẹ́ẹ̀ni, ó wà láàyè",
+          "ó ń dàgbà bí ewéko",
+          "Ọmọlangidi kò lè jẹun, mí tàbí dàgbà. Wọ́n ṣe é ní ilé iṣẹ́."
+        ],
+        [
+          "Ṣé igi wà láàyè?",
+          "bẹ́ẹ̀ni, ó wà láàyè",
+          "rárá, kò wà láàyè rí",
+          "ní ìgbà òtútù nìkan",
+          "Igi ń mu omi, ó ń dàgbà, ó sì ń so èso àti irúgbìn, nítorí náà ó wà láàyè."
+        ],
+        [
+          "Ṣé bàtà wà láàyè?",
+          "rárá, kò wà láàyè rí",
+          "bẹ́ẹ̀ni, ó wà láàyè",
+          "nígbà tí a bá ń rìn nìkan",
+          "Bàtà kò jẹun, kò sì dàgbà. Ènìyàn ló ṣe é."
+        ],
+        [
+          "Kí ni gbogbo ohun alààyè nílò?",
+          "omi àti oúnjẹ",
+          "ohun ìṣeré àti eré",
+          "bàtà àti fìlà",
+          "Gbogbo ohun alààyè nílò omi àti oúnjẹ (ewéko máa ń fi ìmọ́lẹ̀ oòrùn ṣe oúnjẹ tirẹ̀)."
+        ],
+        [
+          "Kí ni irúgbìn máa dà?",
+          "ewéko",
+          "òkúta",
+          "mọ́tò",
+          "Irúgbìn wà láàyè: pẹ̀lú omi àti ooru, ó máa hù di ewéko tuntun."
+        ],
+        [
+          "Ṣé bọ́ọ̀sì wà láàyè?",
+          "rárá, kò wà láàyè rí",
+          "bẹ́ẹ̀ni, ó wà láàyè",
+          "ewéko ni",
+          "Bọ́ọ̀sì ń rìn, ṣùgbọ́n kò lè dàgbà tàbí bímọ. Ẹ̀rọ ni."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló wà láàyè?",
+          "kòkòrò oyin",
+          "ìkùukùu",
+          "ṣíbí",
+          "Kòkòrò oyin ń jẹun, ó ń mí, ó sì ń dàgbà, nítorí náà ó wà láàyè. Ìkùukùu àti ṣíbí kò wà láàyè."
+        ],
+        [
+          "Ṣé àwòrán inú férémù wà láàyè?",
+          "rárá, kò wà láàyè rí",
+          "bẹ́ẹ̀ni, ó wà láàyè",
+          "ó ń dàgbà lóru",
+          "Àwòrán kò jẹun, kò mí, kò sì dàgbà."
+        ],
+        [
+          "Ibo ni ápù ti wá?",
+          "láti ara igi alààyè",
+          "láti inú ẹ̀rọ",
+          "láti inú òkúta",
+          "Ápù ń hù lórí igi ápù. Irúgbìn inú rẹ̀ lè hù di igi tuntun."
+        ]
+      ]
+    }
+  },
+  "emoji": "seedling",
+  "example": {
+    "i": 0,
+    "q_en": "Is a rabbit alive?",
+    "answer_en": "yes, it is alive",
+    "why_en": "A rabbit breathes, eats, grows and has babies, so it is alive.",
+    "q_de": "Lebt ein Hase?",
+    "answer_de": "ja, er lebt",
+    "why_de": "Ein Hase atmet, frisst, wächst und bekommt Junge. Also lebt er.",
+    "q_fr": "Un lapin est-il vivant ?",
+    "answer_fr": "oui, il est vivant",
+    "why_fr": "Un lapin respire, mange, grandit et a des petits : il est vivant.",
+    "q_yo": "Ṣé ehoro wà láàyè?",
+    "answer_yo": "bẹ́ẹ̀ni, ó wà láàyè",
+    "why_yo": "Ehoro ń mí, ó ń jẹun, ó ń dàgbà, ó sì ń bímọ, nítorí náà ó wà láàyè."
+  },
+  "text": {
+    "en": {
+      "title": "Living or not living?",
+      "teach": "Living things breathe, eat, grow and have young. A rabbit is alive. A teddy was never alive.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Lebendig oder nicht?",
+      "teach": "Lebewesen atmen, ernähren sich, wachsen und bekommen Junge. Ein Hase lebt. Ein Teddy hat nie gelebt.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Vivant ou pas vivant ?",
+      "teach": "Les êtres vivants respirent, se nourrissent, grandissent et ont des petits. Un lapin est vivant. Une peluche n’a jamais vécu.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ó wà láàyè àbí kò wà?",
+      "teach": "Àwọn ohun alààyè ń mí, wọ́n ń jẹun, wọ́n ń dàgbà, wọ́n sì ń bímọ. Ehoro wà láàyè. Ọmọlangidi kò wà láàyè rí.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

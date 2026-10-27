@@ -44,6 +44,8 @@ export interface Child {
   current: string | null
   /** Lessons passed (4 of 5 checks) per day ("YYYY-MM-DD" → count): they earn time (app/access.ts). */
   passes: Record<string, number>
+  /** Lessons finished per day, with their checks right and done: for the reports. */
+  lessons: Record<string, { count: number; right: number; checks: number }>
   /** Earned time used per day, in seconds. */
   earnedUsed: Record<string, number>
   /** Seconds spent per day and area ("YYYY-MM-DD" → lessons / games / media / explore): for the reports. */
@@ -90,7 +92,7 @@ export const emptyFamily = (): Family => ({ pin: null, recovery: null, pinLock: 
 export const emptyState = (): AppState => ({ version: STATE_VERSION, family: emptyFamily(), children: [], activeChild: null, lang: null, lastBackupAt: null, updatedAt: 0 })
 
 export function newChild(name: string, colour: string, id: string = crypto.randomUUID()): Child {
-  return { id, name: name.trim(), colour, skills: {}, misses: [], current: null, passes: {}, earnedUsed: {}, usage: {} }
+  return { id, name: name.trim(), colour, skills: {}, misses: [], current: null, passes: {}, lessons: {}, earnedUsed: {}, usage: {} }
 }
 
 const isObject = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v)

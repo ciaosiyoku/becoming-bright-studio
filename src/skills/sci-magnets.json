@@ -1,0 +1,353 @@
+{
+  "id": "sci-magnets",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 3,
+  "order": 11,
+  "params": {
+    "emojis": [
+      "magnet",
+      "tree",
+      "memo",
+      "droplet",
+      "plug",
+      "magnet",
+      "heart",
+      "globe",
+      "scroll",
+      "map"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Will a magnet attract an iron nail?",
+          "yes, iron is magnetic",
+          "no, never",
+          "only if the nail is wet",
+          "Magnets pull on iron and steel, so the nail jumps to the magnet."
+        ],
+        [
+          "Will a magnet attract a wooden pencil?",
+          "no, wood is not magnetic",
+          "yes, it sticks",
+          "only if the pencil is sharp",
+          "Magnets do not pull on wood at all."
+        ],
+        [
+          "Will a magnet attract a steel paper clip?",
+          "yes, steel is magnetic",
+          "no, never",
+          "only if the clip is red",
+          "Steel is made mostly of iron, so a magnet pulls on it."
+        ],
+        [
+          "Will a magnet attract an aluminium drink can?",
+          "no, aluminium is not magnetic",
+          "yes, it sticks",
+          "only if the can is full",
+          "Aluminium is a metal, but magnets do not pull on it."
+        ],
+        [
+          "Will a magnet attract a copper wire?",
+          "no, copper is not magnetic",
+          "yes, it sticks",
+          "only if the wire is long",
+          "Copper is a metal, but magnets do not pull on it. Only some metals, like iron, are magnetic."
+        ],
+        [
+          "You push the north poles of two magnets together. What happens?",
+          "they push each other away",
+          "they stick together",
+          "they melt",
+          "Poles that are the same repel: they push each other away."
+        ],
+        [
+          "You hold the north pole of one magnet near the south pole of another. What happens?",
+          "they pull together",
+          "they push apart",
+          "they turn into wood",
+          "Opposite poles attract: north and south pull towards each other."
+        ],
+        [
+          "What are the two ends of a magnet called?",
+          "the north pole and the south pole",
+          "the head and the tail",
+          "the hot end and the cold end",
+          "Every magnet has a north pole and a south pole. Its pull is strongest at the poles."
+        ],
+        [
+          "Can a magnet pull a paper clip through a sheet of paper?",
+          "yes, the pull goes through paper",
+          "no, paper stops the pull",
+          "only if the paper is wet",
+          "The pull of a magnet can pass through thin things like paper, card or plastic."
+        ],
+        [
+          "A compass needle is a tiny magnet. What does it help you find?",
+          "which way is north",
+          "lost toys",
+          "what time it is",
+          "A compass needle always turns to point north, so it helps people find their way."
+        ]
+      ],
+      "de": [
+        [
+          "Zieht ein Magnet einen Eisennagel an?",
+          "ja, Eisen ist magnetisch",
+          "nein, nie",
+          "nur wenn der Nagel nass ist",
+          "Magnete ziehen Eisen und Stahl an, darum springt der Nagel zum Magneten."
+        ],
+        [
+          "Zieht ein Magnet einen Holzbleistift an?",
+          "nein, Holz ist nicht magnetisch",
+          "ja, er bleibt kleben",
+          "nur wenn der Bleistift spitz ist",
+          "Magnete ziehen Holz überhaupt nicht an."
+        ],
+        [
+          "Zieht ein Magnet eine Büroklammer aus Stahl an?",
+          "ja, Stahl ist magnetisch",
+          "nein, nie",
+          "nur wenn die Klammer rot ist",
+          "Stahl besteht größtenteils aus Eisen, darum zieht ein Magnet ihn an."
+        ],
+        [
+          "Zieht ein Magnet eine Getränkedose aus Aluminium an?",
+          "nein, Aluminium ist nicht magnetisch",
+          "ja, sie bleibt kleben",
+          "nur wenn die Dose voll ist",
+          "Aluminium ist ein Metall, aber Magnete ziehen es nicht an."
+        ],
+        [
+          "Zieht ein Magnet einen Kupferdraht an?",
+          "nein, Kupfer ist nicht magnetisch",
+          "ja, er bleibt kleben",
+          "nur wenn der Draht lang ist",
+          "Kupfer ist ein Metall, aber Magnete ziehen es nicht an. Nur manche Metalle, wie Eisen, sind magnetisch."
+        ],
+        [
+          "Du drückst die Nordpole von zwei Magneten zusammen. Was passiert?",
+          "sie stoßen sich ab",
+          "sie kleben zusammen",
+          "sie schmelzen",
+          "Gleiche Pole stoßen sich ab: Sie drücken sich gegenseitig weg."
+        ],
+        [
+          "Du hältst den Nordpol eines Magneten an den Südpol eines anderen. Was passiert?",
+          "sie ziehen sich an",
+          "sie stoßen sich ab",
+          "sie werden zu Holz",
+          "Verschiedene Pole ziehen sich an: Nord und Süd ziehen zueinander."
+        ],
+        [
+          "Wie heißen die beiden Enden eines Magneten?",
+          "Nordpol und Südpol",
+          "Kopf und Schwanz",
+          "warmes Ende und kaltes Ende",
+          "Jeder Magnet hat einen Nordpol und einen Südpol. An den Polen zieht er am stärksten."
+        ],
+        [
+          "Kann ein Magnet eine Büroklammer durch ein Blatt Papier ziehen?",
+          "ja, die Kraft geht durch Papier",
+          "nein, Papier hält die Kraft auf",
+          "nur wenn das Papier nass ist",
+          "Die Kraft eines Magneten geht durch dünne Dinge wie Papier, Pappe oder Plastik."
+        ],
+        [
+          "Eine Kompassnadel ist ein winziger Magnet. Wobei hilft sie dir?",
+          "zu finden, wo Norden ist",
+          "verlorene Spielsachen zu finden",
+          "die Uhrzeit zu finden",
+          "Eine Kompassnadel dreht sich immer nach Norden. So hilft sie Menschen, den Weg zu finden."
+        ]
+      ],
+      "fr": [
+        [
+          "Un aimant attire-t-il un clou en fer ?",
+          "oui, le fer est magnétique",
+          "non, jamais",
+          "seulement si le clou est mouillé",
+          "Les aimants attirent le fer et l’acier : le clou saute vers l’aimant."
+        ],
+        [
+          "Un aimant attire-t-il un crayon en bois ?",
+          "non, le bois n’est pas magnétique",
+          "oui, il colle",
+          "seulement si le crayon est taillé",
+          "Les aimants n’attirent pas du tout le bois."
+        ],
+        [
+          "Un aimant attire-t-il un trombone en acier ?",
+          "oui, l’acier est magnétique",
+          "non, jamais",
+          "seulement si le trombone est rouge",
+          "L’acier est fait surtout de fer, alors l’aimant l’attire."
+        ],
+        [
+          "Un aimant attire-t-il une canette en aluminium ?",
+          "non, l’aluminium n’est pas magnétique",
+          "oui, elle colle",
+          "seulement si la canette est pleine",
+          "L’aluminium est un métal, mais les aimants ne l’attirent pas."
+        ],
+        [
+          "Un aimant attire-t-il un fil de cuivre ?",
+          "non, le cuivre n’est pas magnétique",
+          "oui, il colle",
+          "seulement si le fil est long",
+          "Le cuivre est un métal, mais les aimants ne l’attirent pas. Seuls certains métaux, comme le fer, sont magnétiques."
+        ],
+        [
+          "Tu rapproches les pôles nord de deux aimants. Que se passe-t-il ?",
+          "ils se repoussent",
+          "ils se collent",
+          "ils fondent",
+          "Deux pôles pareils se repoussent : ils s’écartent l’un de l’autre."
+        ],
+        [
+          "Tu approches le pôle nord d’un aimant du pôle sud d’un autre. Que se passe-t-il ?",
+          "ils s’attirent",
+          "ils se repoussent",
+          "ils deviennent du bois",
+          "Deux pôles différents s’attirent : le nord et le sud se rapprochent."
+        ],
+        [
+          "Comment s’appellent les deux bouts d’un aimant ?",
+          "le pôle nord et le pôle sud",
+          "la tête et la queue",
+          "le bout chaud et le bout froid",
+          "Chaque aimant a un pôle nord et un pôle sud. C’est aux pôles qu’il attire le plus fort."
+        ],
+        [
+          "Un aimant peut-il attirer un trombone à travers une feuille de papier ?",
+          "oui, la force traverse le papier",
+          "non, le papier arrête la force",
+          "seulement si le papier est mouillé",
+          "La force d’un aimant traverse les choses fines comme le papier, le carton ou le plastique."
+        ],
+        [
+          "L’aiguille d’une boussole est un petit aimant. À quoi sert-elle ?",
+          "à trouver le nord",
+          "à trouver les jouets perdus",
+          "à savoir l’heure",
+          "L’aiguille d’une boussole se tourne toujours vers le nord : elle aide à trouver son chemin."
+        ]
+      ],
+      "yo": [
+        [
+          "Ṣé òòfà máa fa ìṣó irin?",
+          "bẹ́ẹ̀ni, òòfà máa ń fa irin",
+          "rárá, láéláé",
+          "tí ìṣó náà bá tutù nìkan",
+          "Òòfà máa ń fa irin, nítorí náà ìṣó náà á fò mọ́ òòfà."
+        ],
+        [
+          "Ṣé òòfà máa fa pẹ́ńsù onígi?",
+          "rárá, òòfà kì í fa igi",
+          "bẹ́ẹ̀ni, ó máa lẹ̀ mọ́ ọn",
+          "tí pẹ́ńsù náà bá mú nìkan",
+          "Òòfà kì í fa igi rárá."
+        ],
+        [
+          "Ṣé òòfà máa fa píìnì ìwé onírin?",
+          "bẹ́ẹ̀ni, òòfà máa ń fa irin",
+          "rárá, láéláé",
+          "tí píìnì náà bá pupa nìkan",
+          "Irin ni wọ́n fi ṣe píìnì náà, nítorí náà òòfà máa ń fà á."
+        ],
+        [
+          "Ṣé òòfà máa fa agolo ohun mímu alumíníọ̀mù?",
+          "rárá, òòfà kì í fa alumíníọ̀mù",
+          "bẹ́ẹ̀ni, ó máa lẹ̀ mọ́ ọn",
+          "tí agolo náà bá kún nìkan",
+          "Irin kan ni alumíníọ̀mù, ṣùgbọ́n òòfà kì í fà á."
+        ],
+        [
+          "Ṣé òòfà máa fa wáyà bàbà?",
+          "rárá, òòfà kì í fa bàbà",
+          "bẹ́ẹ̀ni, ó máa lẹ̀ mọ́ ọn",
+          "tí wáyà náà bá gùn nìkan",
+          "Bàbà jẹ́ irin kan, ṣùgbọ́n òòfà kì í fà á. Àwọn irin kan nìkan, bí irin gidi, ni òòfà ń fà."
+        ],
+        [
+          "O ti òpin àríwá òòfà méjì pọ̀. Kí ló ṣẹlẹ̀?",
+          "wọ́n ti ara wọn sẹ́yìn",
+          "wọ́n lẹ̀ mọ́ ara wọn",
+          "wọ́n yọ́",
+          "Òpin méjì tó jọra máa ń ti ara wọn sẹ́yìn."
+        ],
+        [
+          "O mú òpin àríwá òòfà kan sún mọ́ òpin gúúsù òòfà mìíràn. Kí ló ṣẹlẹ̀?",
+          "wọ́n fa ara wọn mọ́ra",
+          "wọ́n ti ara wọn sẹ́yìn",
+          "wọ́n di igi",
+          "Òpin tí kò jọra máa ń fa ara wọn: àríwá àti gúúsù máa ń fa ara wọn mọ́ra."
+        ],
+        [
+          "Kí ni orúkọ òpin méjèèjì òòfà?",
+          "òpin àríwá àti òpin gúúsù",
+          "orí àti ìrù",
+          "òpin gbígbóná àti òpin tútù",
+          "Gbogbo òòfà ló ní òpin àríwá àti òpin gúúsù. Agbára rẹ̀ pọ̀ jùlọ ní àwọn òpin náà."
+        ],
+        [
+          "Ṣé òòfà lè fa píìnì ìwé gba inú bébà kọjá?",
+          "bẹ́ẹ̀ni, agbára rẹ̀ ń gba inú bébà kọjá",
+          "rárá, bébà ń dí agbára rẹ̀ lọ́wọ́",
+          "tí bébà náà bá tutù nìkan",
+          "Agbára òòfà lè gba inú àwọn ohun tínrín bí bébà, páálí tàbí ike kọjá."
+        ],
+        [
+          "Abẹ́rẹ́ kọ́ńpáàsì jẹ́ òòfà kékeré. Kí ló ń ràn ọ́ lọ́wọ́ láti rí?",
+          "ọ̀nà àríwá",
+          "àwọn ohun ìṣeré tó sọnù",
+          "àkókò tí ó jẹ́",
+          "Abẹ́rẹ́ kọ́ńpáàsì máa ń yí sí àríwá nígbà gbogbo, nítorí náà ó ń ran ènìyàn lọ́wọ́ láti mọ ọ̀nà."
+        ]
+      ]
+    }
+  },
+  "emoji": "magnet",
+  "example": {
+    "i": 0,
+    "q_en": "Will a magnet attract an iron nail?",
+    "answer_en": "yes, iron is magnetic",
+    "why_en": "Magnets pull on iron and steel, so the nail jumps to the magnet.",
+    "q_de": "Zieht ein Magnet einen Eisennagel an?",
+    "answer_de": "ja, Eisen ist magnetisch",
+    "why_de": "Magnete ziehen Eisen und Stahl an, darum springt der Nagel zum Magneten.",
+    "q_fr": "Un aimant attire-t-il un clou en fer ?",
+    "answer_fr": "oui, le fer est magnétique",
+    "why_fr": "Les aimants attirent le fer et l’acier : le clou saute vers l’aimant.",
+    "q_yo": "Ṣé òòfà máa fa ìṣó irin?",
+    "answer_yo": "bẹ́ẹ̀ni, òòfà máa ń fa irin",
+    "why_yo": "Òòfà máa ń fa irin, nítorí náà ìṣó náà á fò mọ́ òòfà."
+  },
+  "text": {
+    "en": {
+      "title": "Magnets",
+      "teach": "Magnets attract things made of iron or steel. Wood, plastic, copper and aluminium are not attracted. Two poles that are the same repel; north and south attract.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Magnete",
+      "teach": "Magnete ziehen Dinge aus Eisen oder Stahl an. Holz, Plastik, Kupfer und Aluminium werden nicht angezogen. Gleiche Pole stoßen sich ab, Nord- und Südpol ziehen sich an.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les aimants",
+      "teach": "Les aimants attirent les objets en fer ou en acier. Le bois, le plastique, le cuivre et l’aluminium ne sont pas attirés. Deux pôles pareils se repoussent : le nord et le sud s’attirent.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Òòfà",
+      "teach": "Òòfà máa ń fa ohun tí wọ́n fi irin ṣe. Kò fa igi, ike, bàbà tàbí alumíníọ̀mù. Òpin méjì tó jọra máa ń ti ara wọn sẹ́yìn; àríwá àti gúúsù máa ń fa ara wọn.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

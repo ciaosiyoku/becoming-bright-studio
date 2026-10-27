@@ -10,7 +10,7 @@
 <p align="center"><b>Every day a little brighter.</b></p>
 
 **Short lessons that explain themselves, one skill at a time, for children aged 4 to 11. The child chooses the skill.** It works in the browser
-and does not block other apps. Everything stays on the family's device: no accounts, no tracking, no videos.
+and does not block other apps. Everything stays on the family's device: no accounts, no tracking.
 
 - **Install:** https://ciaosiyoku.github.io/becoming-bright-studio/install.html (steps for your device, QR code)
 - **Open the app:** https://ciaosiyoku.github.io/becoming-bright-studio/
@@ -20,8 +20,9 @@ and does not block other apps. Everything stays on the family's device: no accou
 > aloud by native speakers.
 
 The original [Kids' Learning Studio](https://github.com/Oluwasedago/kids-learning-studio) by Oluwasedago was a
-strong shell with a weak lesson. This version is the opposite: **a short lesson that explains itself, and a parent
-page that doesn't pretend to be a lock.** The earlier, bigger version (map, radio, games, 58 skills) is kept in the
+strong shell with a weak lesson. This version puts **the lesson first, and a parent page that doesn't pretend to
+be a lock.** The games, radio, stories, videos and explore items are back around the lesson, each Off, Open or
+**Earn first**. The earlier version is kept in the
 [`v0-full-shell`](https://github.com/ciaosiyoku/becoming-bright-studio/tree/v0-full-shell) tag.
 
 ## One session, one skill
@@ -36,31 +37,48 @@ Written down before any code in the [learning contract](docs/LEARNING-CONTRACT.m
 After every answer, the right one turns green and the reason stays on screen until the child taps **Next**, which
 unlocks after a moment. Nothing moves on by itself, so red never means "go faster".
 
-**57 skills, and the child chooses.** The home screen shows every skill, grouped by subject and in teaching order,
-with a level for each; learnt ones become trees. Nothing is locked.
+**95 skills, and the child chooses.** The child picks a subject, then a skill. The Learn tab then shows only that
+skill, with "Choose another skill" next to it. Nothing is locked.
 
 - **Numbers (31):** counting; adding and taking away within 5, 10, 20, 100 and 1000; one more and one less; tens
   and ones; times tables; hours, minutes and seconds; place value; rounding; dividing; multiplying; fractions;
   percentages; order of operations; square numbers.
-- **Sounds and words (17, taught in English):** first sounds, rhymes, reading and spelling words, the missing letter,
+- **Sounds and words (27, taught in English):** first sounds, rhymes, reading and spelling words, the missing letter,
   "a" or "an", plurals, the past tense, alphabetical order, opposites, short forms, comparing, synonyms, homophones,
-  word classes, prefixes.
+  word classes, prefixes, capital letters, punctuation, question words, prepositions, pronouns, compound words,
+  suffixes, conjunctions, collective nouns, apostrophes.
 - **Patterns (9):** picture patterns and number sequences.
+- **Science (16):** living things, body, senses, animals, plants, healthy eating, materials, habitats, weather,
+  states of matter, magnets, forces, light, sound, space, electricity.
+- **French (12, taught in French):** greetings, colours, numbers, animals, fruit, body and family, days, weather,
+  le/la/l', être and avoir, plurals, sentences.
 
-Numbers are made fresh each time so answers can't be learnt by heart. A test checks that every question, and every
-teach card's example, has **exactly one right answer** in every language shipped. The original's "world" skills
-(animals, flags, places, capitals, space) are left out: they need photos, flags or facts that would need checking.
+Numbers are made fresh each time so answers can't be learnt by heart. Science, French and the newer English skills
+are hand-written question banks. A test checks that every question, and every teach card's example, has **exactly
+one right answer** in every language shipped.
+
+## Around the lessons
+
+| Tab | Items |
+|---|---|
+| **Games** | Memory (cards from a learnt skill's questions), Word builder, Code breaker, Picture puzzle, Number slide |
+| **Listen and watch** | Children's radio (live), Stories (LibriVox, public domain), Videos (a checked library from official channels) |
+| **Explore** | Places of the world (real photos with credits), 100 Whys, Did you know? |
+
+The grown-ups set each item to **Off**, **Open** or **Earn first**. With Earn first, a passed lesson earns minutes
+(10 at first, up to 45 a day), and the clock at the top shows what's left.
 
 ## For grown-ups
 
-- **One screen, behind a PIN:** each child's misses today with the right answers, skills learnt, children, a
-  **games allowed** switch, language, backup, and changing the PIN.
+- **One screen, behind a PIN:** a **learning report** per child (today, 7 days, 30 days: lessons, passed, checks
+  right, skills learnt, time per area, questions to practise again, Send by email), children, Off / Open / Earn first
+  for every item, minutes per lesson and per day, language, voice, backup, the PIN, and **Update now**.
 - **PIN:** stored as a salted hash. A **recovery code** is shown once at setup, with a Print button. There is no
   24-hour reset: without the code, the way back is starting again from a backup (backups never hold the PIN).
 - **Backup** in one file, with an automatic reminder once a week.
 - **Several children** on one device: each with a name, a colour and their own progress. One PIN for the family.
-- **Reward:** only when games are allowed, a learnt skill unlocks a **5-minute memory game made of that skill's own
-  questions** ("3 + 2" pairs with "5"). No YouTube, no video, no internet.
+- **Updates:** the app checks for a new version once a day and loads it between activities, never in the middle
+  of a lesson or a video. **Update now** fetches it straight away.
 - **Reading voice:** female or male. The voices come from the device; when it has none of the chosen kind, the
   nearest voice reads a little lower or higher, and the grown-ups' screen says so.
 - **Languages:** English, Deutsch, Français, Yorùbá. The English sound and word lessons stay in English.
@@ -69,7 +87,7 @@ teach card's example, has **exactly one right answer** in every language shipped
 
 - Not a lock. Keeping a child in one app is a device setting (Guided Access on iPad, App pinning on Android). A
   bedtime or home-screen lock would be a native app, a later product.
-- Not a video app, and no radio, map or ads.
+- Not a video app: a small, checked library only, behind the grown-ups' setting. No ads of our own.
 - No server and no accounts.
 
 ## For contributors
@@ -94,7 +112,12 @@ Every push to `main` is checked, built and published to GitHub Pages by `.github
 | `src/skills/generate.ts`, `numbers.ts`, `words.ts` | The question makers and teach cards |
 | `src/lesson/` | The session (teach, guided, checks) and its screen |
 | `src/parent/` | PIN, recovery code, the grown-ups' screen |
-| `src/games/` | The memory game a learnt skill unlocks |
+| `src/skills/bank.ts` | Question banks (science, French, newer English skills); `scripts/bank-example.py` sets each bank's teach example |
+| `src/games/` | Memory, word builder, code breaker, picture puzzle, number slide |
+| `src/media/` | Radio, stories, videos |
+| `src/explore/` | Places of the world, 100 Whys, Did you know? |
+| `src/app/items.ts`, `access.ts` | The items of each tab, Off / Open / Earn first, earned time |
+| `src/parent/report.ts` | The learning report (pure, tested) |
 | `src/i18n/` | Every sentence, one file per language |
 | `src/app/state.ts` | The one document saved on the device (one IndexedDB key) |
 
@@ -106,4 +129,5 @@ child-facing sentence aloud first.
 
 Code: [MIT](LICENSE), based on Kids' Learning Studio by Oluwasedago. Logo: original, drawn by
 `scripts/make-brand.mjs` ([brand/](brand/README.md)). Pictures: [Microsoft Fluent Emoji](public/emoji/CREDITS.md)
-(MIT). Fonts: Andika and Fredoka (SIL Open Font License).
+(MIT). Place photos: Wikimedia Commons, free licences ([credits](public/photos/CREDITS.md)). Stories: LibriVox
+(public domain). Fonts: Andika and Fredoka (SIL Open Font License).
