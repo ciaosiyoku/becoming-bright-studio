@@ -1,0 +1,36 @@
+/* "Did you know?" strip: one slim line across the bottom of the home screen. */
+.dyk-strip {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.4rem 0.5rem 0.4rem 0.9rem;
+  border-radius: var(--radius-s);
+  background: var(--lilac-soft);
+}
+.dyk-text {
+  flex: 1;
+  min-width: 0;
+}
+.dyk-text small {
+  display: block;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--lilac);
+}
+.dyk-text p {
+  font-family: var(--display);
+  font-weight: 600;
+  color: var(--ink);
+  /* At most two lines, never a scrolling box. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.dyk-strip button {
+  min-height: 3rem;
+  min-width: 3rem;
+  padding: 0;
+}

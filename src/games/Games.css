@@ -1,0 +1,179 @@
+/* Games shelf: big pastel cards. */
+.games-screen {
+  height: 100%;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr));
+  align-content: start;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+.games-screen .game-card {
+  min-height: 15rem;
+}
+.game-card {
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.35rem;
+  padding: 1.1rem 1.3rem;
+  border-radius: var(--radius);
+  color: var(--ink);
+  text-align: left;
+  font-family: 'Andika', sans-serif;
+  font-weight: 400;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.game-card h3 {
+  font-size: 1.5rem;
+}
+.game-card p {
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.game-emoji {
+  position: absolute;
+  right: 1rem;
+  top: 0.9rem;
+  filter: drop-shadow(0 10px 14px rgb(61 30 71 / 25%));
+}
+.game-card h3,
+.game-card p {
+  max-width: calc(100% - 5.5rem);
+}
+.game-learn {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--card) 65%, transparent);
+  border-radius: 0.8rem;
+  padding: 0.35rem 0.6rem;
+}
+.game-go {
+  align-self: flex-end;
+  font-family: var(--display);
+  font-weight: 600;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.35rem 1.1rem;
+}
+.game-card.soon {
+  opacity: 0.7;
+}
+.game-card.soon .game-go {
+  background: color-mix(in srgb, var(--card) 70%, transparent);
+  color: var(--muted);
+}
+
+/* A game inside the Studio: full screen with the status bar (and a big way back) on top. */
+.game-frame {
+  position: fixed;
+  inset: 0;
+  z-index: 25;
+  display: grid;
+  /* One column that never grows wider than the screen (wide content scrolls or shrinks instead of cutting off). */
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto 1fr;
+  gap: 0.8rem;
+  padding: 1rem 1.2rem 0;
+  background: var(--bg);
+}
+.game-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: var(--radius) var(--radius) 0 0;
+  background: #000;
+}
+
+/* Learn: subject tabs above the shelf. */
+.learn-screen {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 0.9rem;
+}
+.shelf-tabs {
+  display: flex;
+  gap: 0.6rem;
+  overflow-x: auto;
+}
+.shelf-tabs button {
+  min-height: 64px;
+  gap: 0.4rem;
+  padding: 0.4rem 1.1rem 0.4rem 0.7rem;
+  white-space: nowrap;
+}
+.game-together {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  color: var(--ink);
+}
+
+/* Lessons to choose from (Rechnen mit TOM). */
+.level-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 1rem;
+  padding-bottom: 1.2rem;
+}
+.level-card {
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 1.3rem;
+  background: var(--card);
+  color: var(--ink);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.level-card b {
+  display: grid;
+  place-items: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+/* Narrow screens (a phone held upright): every game stacks its side panel under the board, and nothing runs off the
+   right edge. */
+@media (max-width: 900px) {
+  .snake,
+  .memory,
+  .puzzle,
+  .builder {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(16rem, 1fr) auto;
+    overflow-y: auto;
+  }
+  .game-frame .statusbar {
+    flex-wrap: wrap;
+  }
+  .game-frame .statusbar-right .battery {
+    display: none;
+  }
+  /* The snake's start menu is taller than the (wide, short) board: show it over the whole screen. */
+  .snake-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 30;
+    border-radius: 0;
+    padding: 1rem;
+    background: rgb(30 14 36 / 80%);
+  }
+  .snake-options {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

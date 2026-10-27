@@ -1,0 +1,295 @@
+/* A mission: full screen over the Studio, big answers (at least 64 px), calm colours. */
+.mission-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 25;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
+  grid-template-columns: minmax(0, 1fr);
+  padding: 1rem 1.2rem 1.2rem;
+  background: var(--bg);
+}
+
+.quiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  min-height: 0;
+}
+.quiz-progress {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  width: 100%;
+  max-width: 40rem;
+}
+/* One segment per question, sharing the width, so 10 or 50 questions fit on any screen. */
+.quiz-dots {
+  flex: 1;
+  display: flex;
+  gap: 3px;
+  min-width: 0;
+}
+.quiz-dots i {
+  flex: 1;
+  min-width: 0;
+  height: 0.8rem;
+  border-radius: 999px;
+  background: var(--sunken);
+}
+.quiz-dots i.now {
+  background: var(--accent);
+}
+.quiz-dots i.done {
+  background: var(--mint);
+}
+.quiz-dots i.missed {
+  background: var(--red);
+}
+.quiz-progress small {
+  font-weight: 700;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.quiz-ask {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.quiz-ask p {
+  font-family: var(--display);
+  font-size: 1.9rem;
+  color: var(--ink);
+  text-align: center;
+}
+.quiz-hear {
+  width: var(--tap);
+  padding: 0;
+  border-radius: 50%;
+}
+.quiz-visual {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  min-height: 0;
+}
+/* Real photos (animals, places): big, rounded, never wider than the screen. */
+.quiz-photo {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: var(--radius);
+  object-fit: cover;
+  box-shadow: var(--shadow);
+}
+.quiz-photo.big {
+  width: min(32rem, 100%);
+  height: min(22rem, 38vh);
+}
+.quiz-sum {
+  font-family: var(--display);
+  font-size: 5rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.quiz-count {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  max-width: 44rem;
+}
+.quiz-pattern {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 1rem 1.4rem;
+  border-radius: var(--radius);
+  background: var(--sunken-soft);
+}
+.quiz-gap {
+  display: grid;
+  place-items: center;
+  width: 4.4rem;
+  height: 4.4rem;
+  border-radius: var(--radius-s);
+  border: 3px dashed var(--accent);
+  font-family: var(--display);
+  font-size: 2.4rem;
+  color: var(--accent-deep);
+}
+.quiz-choices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  width: 100%;
+  max-width: 56rem;
+}
+.quiz-choice {
+  min-width: 0;
+  min-height: 7.5rem;
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--ink);
+  border: 3px solid var(--line);
+  box-shadow: var(--shadow);
+  transition: transform 0.15s, background 0.2s;
+}
+.quiz-label {
+  overflow-wrap: anywhere;
+  font-family: var(--display);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.quiz-choice.wrong {
+  background: var(--red-soft);
+  border-color: var(--red);
+}
+.quiz-choice.faded {
+  opacity: 0.4;
+}
+.mission-done {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  text-align: center;
+}
+.mission-done h2 {
+  font-size: 2.6rem;
+}
+.mission-done p {
+  font-size: 1.3rem;
+}
+.mission-done button {
+  min-height: 5rem;
+  padding: 0 2.4rem;
+  font-size: 1.5rem;
+}
+.mission-star {
+  animation: mission-pop 0.6s ease-out;
+}
+@keyframes mission-pop {
+  from {
+    transform: scale(0.3) rotate(-30deg);
+    opacity: 0;
+  }
+}
+
+/* Drawing pad. */
+.draw {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 0.8rem;
+  min-height: 0;
+}
+.draw-task {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.draw-task p {
+  font-family: var(--display);
+  font-size: 1.7rem;
+  color: var(--ink);
+}
+.draw-canvas {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  border-radius: var(--radius-s);
+  border: 3px solid var(--line);
+  background: #fff;
+  touch-action: none;
+}
+.draw-tools {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.draw-color {
+  width: var(--tap);
+  height: var(--tap);
+  min-width: var(--tap);
+  padding: 0;
+  border-radius: 50%;
+  border: 4px solid var(--card);
+  box-shadow: 0 0 0 2px var(--line);
+}
+.draw-color.on {
+  box-shadow: 0 0 0 4px var(--ink);
+}
+.draw-tool {
+  width: var(--tap);
+  padding: 0;
+  border-radius: 50%;
+}
+.draw-tool.on {
+  box-shadow: 0 0 0 4px var(--ink);
+}
+.draw-done {
+  margin-left: auto;
+  min-height: 4.4rem;
+  padding: 0 2rem;
+  font-size: 1.4rem;
+}
+
+/* Phones: answers with words stack in one column (full width, nothing cut off); picture answers stay side by
+   side. Text shrinks with the screen, the battery chip and the word "Back" make room for the subject name. */
+@media (max-width: 600px) {
+  .mission-screen {
+    gap: 0.6rem;
+    padding: 0.6rem 0.7rem 0.8rem;
+  }
+  .mission-screen .card {
+    padding: 1rem 0.8rem;
+  }
+  .mission-screen .status-chip.battery,
+  .mission-back span {
+    display: none;
+  }
+  .mission-back {
+    padding: 0 0.9rem;
+  }
+  .mission-screen .statusbar-left {
+    gap: 0.5rem;
+  }
+  .mission-screen .statusbar-left h2 {
+    font-size: 1.2rem;
+    min-width: 0;
+  }
+  .quiz-ask {
+    gap: 0.6rem;
+  }
+  .quiz-ask p {
+    font-size: clamp(1.15rem, 5.5vw, 1.9rem);
+  }
+  .quiz-sum {
+    font-size: clamp(2.4rem, 13vw, 5rem);
+  }
+  .quiz-choices {
+    gap: 0.6rem;
+  }
+  .quiz-choices:not(.pictures) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .quiz-choices:not(.pictures) .quiz-choice {
+    min-height: 4.2rem;
+  }
+  .quiz-choices.pictures .quiz-choice {
+    min-height: 6rem;
+  }
+  .quiz-label {
+    font-size: clamp(1.4rem, 6.5vw, 2.4rem);
+  }
+  .mission-done h2 {
+    font-size: 2rem;
+  }
+}
