@@ -1,0 +1,73 @@
+{
+  "id": "after-20",
+  "kind": "neighbour",
+  "subject": "numbers",
+  "stage": 1,
+  "params": {
+    "max": 20
+  },
+  "emoji": "footprints",
+  "example": {
+    "n": 13,
+    "answer": 14,
+    "rule": "after"
+  },
+  "text": {
+    "en": {
+      "title": "Numbers to 20: before and after",
+      "teach": "When we count, each number has one just after it and one just before it. After 13 comes 14.",
+      "prompt": "Which number comes after {n}?",
+      "reason": "",
+      "prompts": {
+        "after": "Which number comes after {n}?",
+        "before": "Which number comes before {n}?"
+      },
+      "reasons": {
+        "after": "Count on one: {n}, then {answer}.",
+        "before": "Count back one: {n}, then {answer}."
+      }
+    },
+    "de": {
+      "title": "Zahlen bis 20: davor und danach",
+      "teach": "Beim Zählen hat jede Zahl eine direkt danach und eine direkt davor. Nach 13 kommt 14.",
+      "prompt": "Welche Zahl kommt nach {n}?",
+      "reason": "",
+      "prompts": {
+        "after": "Welche Zahl kommt nach {n}?",
+        "before": "Welche Zahl kommt vor {n}?"
+      },
+      "reasons": {
+        "after": "Zähl eins weiter: {n}, dann {answer}.",
+        "before": "Zähl eins zurück: {n}, dann {answer}."
+      }
+    },
+    "fr": {
+      "title": "Nombres jusqu’à 20 : avant et après",
+      "teach": "Quand on compte, chaque nombre a un nombre juste après et un juste avant. Après 13 vient 14.",
+      "prompt": "Quel nombre vient après {n} ?",
+      "reason": "",
+      "prompts": {
+        "after": "Quel nombre vient après {n} ?",
+        "before": "Quel nombre vient avant {n} ?"
+      },
+      "reasons": {
+        "after": "Compte un de plus : {n}, puis {answer}.",
+        "before": "Compte un en arrière : {n}, puis {answer}."
+      }
+    },
+    "yo": {
+      "title": "Nọ́ńbà títí dé 20: ṣáájú àti lẹ́yìn",
+      "teach": "Nígbà tí a bá ń kà, nọ́ńbà kọ̀ọ̀kan ní èyí tó tẹ̀lé e àti èyí tó ṣáájú rẹ̀. Lẹ́yìn 13 ni 14.",
+      "prompt": "Nọ́ńbà wo ló tẹ̀lé {n}?",
+      "reason": "",
+      "prompts": {
+        "after": "Nọ́ńbà wo ló tẹ̀lé {n}?",
+        "before": "Nọ́ńbà wo ló ṣáájú {n}?"
+      },
+      "reasons": {
+        "after": "Kà ọ̀kan síwájú: {n}, lẹ́yìn náà {answer}.",
+        "before": "Kà ọ̀kan sẹ́yìn: {n}, lẹ́yìn náà {answer}."
+      }
+    }
+  }
+}

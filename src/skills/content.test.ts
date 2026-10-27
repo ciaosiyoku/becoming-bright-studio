@@ -43,6 +43,48 @@ function problem(def: SkillDef, item: Item): string | null {
       if (labels.includes(String(v.word))) return 'the word itself is a choice'
       return onlyOne(rhymes) && family.words.every(([w]) => w.endsWith(family.end.slice(1))) ? null : `wrong rhyme for ${v.word}`
     }
+    case 'neighbour':
+      return onlyOne((l) => Number(l) === Number(v.n) + (v.rule === 'after' ? 1 : -1)) ? null : 'wrong neighbour'
+    case 'add-sub':
+    case 'add-sub-big':
+    case 'tens': {
+      const want = v.op === '+' ? Number(v.a) + Number(v.b) : Number(v.a) - Number(v.b)
+      if (def.kind === 'tens' && Number(v.b) % 10 !== 0) return 'not whole tens'
+      return onlyOne((l) => Number(l) === want) && want >= 0 ? null : `wrong ${v.a} ${v.op} ${v.b}`
+    }
+    case 'tens-ones': {
+      const b = item.visual as { kind: string; tens: number; ones: number }
+      return b.kind === 'blocks' && onlyOne((l) => Number(l) === 10 * b.tens + b.ones) ? null : 'wrong tens and ones'
+    }
+    case 'times':
+      return (def.params.tables as number[]).includes(Number(v.t)) && onlyOne((l) => Number(l) === Number(v.n) * Number(v.t)) ? null : 'wrong product'
+    case 'time-units':
+      return onlyOne((l) => Number(l) === 60 * Number(v.n)) ? null : 'wrong time'
+    case 'place-value': {
+      const digits = String(v.n).split('')
+      const at = digits.indexOf(String(v.d))
+      if (at < 0 || digits.lastIndexOf(String(v.d)) !== at) return 'digit not there exactly once'
+      return onlyOne((l) => Number(l) === Number(v.d) * 10 ** (digits.length - 1 - at)) ? null : 'wrong place value'
+    }
+    case 'round': {
+      const to = Number(def.params.to)
+      return onlyOne((l) => Number(l) === Math.floor((Number(v.n) + to / 2) / to) * to) ? null : `wrong rounding of ${v.n}`
+    }
+    case 'divide':
+      return Number(v.total) % Number(v.d) === 0 && onlyOne((l) => Number(l) * Number(v.d) === Number(v.total)) ? null : 'wrong quotient'
+    case 'multiply':
+      return onlyOne((l) => Number(l) === Number(v.a) * Number(v.b)) ? null : 'wrong product'
+    case 'fraction':
+      return Number(v.n) % Number(v.d) === 0 && onlyOne((l) => Number(l) === Number(v.n) / Number(v.d)) ? null : 'wrong fraction'
+    case 'percent':
+      return onlyOne((l) => Number(l) === (Number(v.n) * Number(v.p)) / 100) && Number.isInteger((Number(v.n) * Number(v.p)) / 100) ? null : 'wrong percentage'
+    case 'order-ops': {
+      // Worked out here from the expression itself (× and ÷ before + and −, brackets first).
+      const value = Function(`return (${String(v.expr).replace(/×/g, '*').replace(/÷/g, '/').replace(/−/g, '-')})`)() as number
+      return onlyOne((l) => Number(l) === value) ? null : `wrong value of ${v.expr}`
+    }
+    case 'square':
+      return onlyOne((l) => Number(l) === Number(v.n) ** 2) ? null : 'wrong square'
   }
 }
 
@@ -105,9 +147,9 @@ describe('pictures', () => {
 })
 
 describe('the skill list', () => {
-  it('has twelve skills with different ids, and a teach card for each', () => {
-    expect(SKILLS).toHaveLength(12)
-    expect(new Set(SKILLS.map((s) => s.id)).size).toBe(12)
+  it('has skills with different ids, each with a subject, a stage and a teach card', () => {
+    expect(new Set(SKILLS.map((s) => s.id)).size).toBe(SKILLS.length)
+    for (const def of SKILLS) expect(['numbers', 'words', 'patterns'].includes(def.subject) && def.stage >= 0 && def.stage <= 7, def.id).toBe(true)
     for (const def of SKILLS) expect(teachCard(def).visual, def.id).toBeDefined()
   })
 })

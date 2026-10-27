@@ -7,7 +7,7 @@ import { secondsLeft } from '@/games/pairs'
 import { Emoji } from '@/shared/Emoji'
 import { speak, stopSpeaking, useCanSpeak } from '@/shared/speak'
 import { teachCard } from '@/skills/generate'
-import { itemWords, skillById, skillLang, SKILLS, skillText } from '@/skills/index'
+import { bySubject, itemWords, skillById, skillLang, skillText } from '@/skills/index'
 import type { Choice, Item } from '@/skills/types'
 import { NumberLine } from './NumberLine'
 import { type CheckAnswer, CHECKS, finishSession, newSession, nextSkill, resultOf, stepOf } from './session'
@@ -165,9 +165,12 @@ function Result({ skill, checks, onClose, onGame }: { skill: string; checks: Che
   const { state } = useStore()
   const def = skillById(skill)!
   const { right, mastered } = resultOf(checks)
+  // A suggestion only (the child chooses): the next skill of the same subject not learnt yet.
   const upcoming = nextSkill(
     activeChild(state)!,
-    SKILLS.map((s) => s.id),
+    bySubject(def.subject)
+      .filter((s) => s.stage >= def.stage && s.id !== def.id)
+      .map((s) => s.id),
   )
   const upcomingDef = upcoming ? skillById(upcoming) : undefined
   return (

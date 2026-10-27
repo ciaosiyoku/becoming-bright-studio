@@ -1,47 +1,12 @@
-import type { Choice, GeneratorKind, Item, Random, SkillDef } from './types'
+import { CALC, type CalcKind } from './numbers'
+import { int, numberChoices, pick, seeded, shuffled, withAnswer } from './random'
+import type { GeneratorKind, Item, Random, SkillDef } from './types'
+
+export { int, pick, seeded, shuffled, withAnswer } from './random'
 
 // The question makers: one per kind of skill. Each makes a fresh question from the skill's params, with exactly
 // one right answer among its choices (content.test.ts checks every skill in every language). Pure with a seeded
 // random (tested).
-
-export const int = (r: Random, min: number, max: number) => min + Math.floor(r() * (max - min + 1))
-export const pick = <T,>(r: Random, list: readonly T[]): T => list[Math.floor(r() * list.length)]
-
-/** A shuffled copy (Fisher–Yates). */
-export function shuffled<T>(items: readonly T[], r: Random): T[] {
-  const out = [...items]
-  for (let i = out.length - 1; i > 0; i--) {
-    const j = Math.floor(r() * (i + 1))
-    ;[out[i], out[j]] = [out[j], out[i]]
-  }
-  return out
-}
-
-/** The right choice among the wrong ones, at a random place. */
-export function withAnswer(r: Random, right: Choice, wrong: Choice[]): { choices: Choice[]; answer: number } {
-  const answer = int(r, 0, wrong.length)
-  const choices = [...wrong]
-  choices.splice(answer, 0, right)
-  return { choices, answer }
-}
-
-/** Two wrong numbers near the right one: never negative, never above `max`, all different. */
-export function nearNumbers(r: Random, right: number, max: number): number[] {
-  const out: number[] = []
-  for (let guard = 0; out.length < 2 && guard < 50; guard++) {
-    const n = right + pick(r, [-2, -1, 1, 2])
-    if (n >= 0 && n <= max && n !== right && !out.includes(n)) out.push(n)
-  }
-  for (let n = 0; out.length < 2; n++) if (n !== right && !out.includes(n)) out.push(n)
-  return out
-}
-
-const numberChoices = (r: Random, right: number, max: number) =>
-  withAnswer(
-    r,
-    { label: String(right) },
-    nearNumbers(r, right, max).map((n) => ({ label: String(n) })),
-  )
 
 type Maker = (def: SkillDef, r: Random) => Item
 type Word = [word: string, emoji: string]
@@ -50,7 +15,7 @@ const num = (def: SkillDef, key: string) => Number(def.params[key])
 const words = (def: SkillDef) => def.params.words as Word[]
 const seq = (n: number) => Array.from({ length: n }, (_, i) => i + 1).join(', ')
 
-const MAKERS: Record<GeneratorKind, Maker> = {
+const MAKERS: Record<Exclude<GeneratorKind, CalcKind>, Maker> = {
   // How many pictures? (params: min, max, emojis)
   count: (def, r) => {
     const n = int(r, num(def, 'min'), num(def, 'max'))
@@ -120,7 +85,7 @@ const ex = (def: SkillDef, key: string) => def.example[key]
 const exNum = (def: SkillDef, key: string) => Number(def.example[key])
 
 /** What the teach card shows, from the skill's fixed example. */
-const TEACH: Record<GeneratorKind, Teach> = {
+const TEACH: Record<Exclude<GeneratorKind, CalcKind>, Teach> = {
   count: (def) => ({ visual: { kind: 'count', emoji: String(ex(def, 'thing')), n: exNum(def, 'answer') } }),
   add: (def) => ({ visual: { kind: 'sum', text: `${exNum(def, 'a')} + ${exNum(def, 'b')} = ${exNum(def, 'answer')}` }, line: { max: 10, from: exNum(def, 'a'), by: exNum(def, 'b') } }),
   subtract: (def) => ({ visual: { kind: 'sum', text: `${exNum(def, 'a')} − ${exNum(def, 'b')} = ${exNum(def, 'answer')}` }, line: { max: 10, from: exNum(def, 'a'), by: -exNum(def, 'b') } }),
@@ -132,11 +97,30 @@ const TEACH: Record<GeneratorKind, Teach> = {
   rhyme: (def) => ({ visual: { kind: 'pair', a: { emoji: String(ex(def, 'emoji')), word: String(ex(def, 'word')) }, b: { emoji: String(ex(def, 'answerEmoji')), word: String(ex(def, 'answer')) } } }),
 }
 
+const isCalc = (kind: GeneratorKind): kind is CalcKind => kind in CALC
+
+/** A sum shown with its answer: "34 ≈ ?" → "34 ≈ 30", "8 × 7" → "8 × 7 = 56". A lone number or a picture stays. */
+function solved(visual: Item['visual'], answer: string | number): Item['visual'] {
+  if (visual?.kind !== 'sum') return visual
+  if (visual.text.includes('?')) return { kind: 'sum', text: visual.text.replace('?', String(answer)) }
+  return /[+−×÷²%·]/.test(visual.text) ? { kind: 'sum', text: `${visual.text} = ${answer}` } : visual
+}
+
 /** The teach card's picture and number line, and its values for the sentence. */
-export const teachCard = (def: SkillDef): Pick<Item, 'visual' | 'line' | 'values'> => ({ ...TEACH[def.kind](def), values: def.example })
+export function teachCard(def: SkillDef): Pick<Item, 'visual' | 'line' | 'values'> {
+  if (!isCalc(def.kind)) return { ...TEACH[def.kind](def), values: def.example }
+  // A number skill's card is its question built from the fixed example, with the answer filled in.
+  const { visual, line } = CALC[def.kind].build(def, def.example, seeded(1))
+  return { visual: solved(visual, def.example.answer), line, values: def.example }
+}
 
 /** A fresh question for a skill. */
-export const makeItem = (def: SkillDef, r: Random = Math.random): Item => MAKERS[def.kind](def, r)
+export function makeItem(def: SkillDef, r: Random = Math.random): Item {
+  if (!isCalc(def.kind)) return MAKERS[def.kind](def, r)
+  const calc = CALC[def.kind]
+  const values = calc.pick(def, r)
+  return { values, ...calc.build(def, values, r) }
+}
 
 /** The same question is the same values (the order of the buttons does not matter). */
 export const itemKey = (item: Item) => JSON.stringify(item.values)
@@ -157,16 +141,4 @@ export function makeItems(def: SkillDef, count: number, r: Random = Math.random,
     if (out.length === 0 || itemKey(out[out.length - 1]) !== itemKey(item)) out.push(item)
   }
   return out
-}
-
-/** Seeded random numbers (mulberry32), for tests. */
-export function seeded(seed: number): Random {
-  let a = seed >>> 0
-  return () => {
-    a = (a + 0x6d2b79f5) >>> 0
-    let t = a
-    t = Math.imul(t ^ (t >>> 15), t | 1)
-    t ^= t + Math.imul(t ^ (t >>> 7), t | 61)
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
-  }
 }

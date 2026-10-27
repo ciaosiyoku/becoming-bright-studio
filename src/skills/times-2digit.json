@@ -1,0 +1,48 @@
+{
+  "id": "times-2digit",
+  "kind": "multiply",
+  "subject": "numbers",
+  "stage": 5,
+  "params": {
+    "aMin": 11,
+    "aMax": 49,
+    "bMin": 2,
+    "bMax": 9
+  },
+  "emoji": "glowstar",
+  "example": {
+    "a": 23,
+    "b": 4,
+    "answer": 92,
+    "aT": 20,
+    "aO": 3,
+    "p1": 80,
+    "p2": 12
+  },
+  "text": {
+    "en": {
+      "title": "Multiplying a 2-digit number",
+      "teach": "Split the bigger number into tens and ones. 23 × 4: 20 × 4 = 80, 3 × 4 = 12, and 80 + 12 = 92.",
+      "prompt": "What is {a} × {b}?",
+      "reason": "{aT} × {b} = {p1} and {aO} × {b} = {p2}; {p1} + {p2} = {answer}."
+    },
+    "de": {
+      "title": "Eine zweistellige Zahl malnehmen",
+      "teach": "Zerlege die größere Zahl in Zehner und Einer. 23 × 4: 20 × 4 = 80, 3 × 4 = 12, und 80 + 12 = 92.",
+      "prompt": "Was ist {a} × {b}?",
+      "reason": "{aT} × {b} = {p1} und {aO} × {b} = {p2}; {p1} + {p2} = {answer}."
+    },
+    "fr": {
+      "title": "Multiplier un nombre à deux chiffres",
+      "teach": "Décompose le plus grand nombre en dizaines et unités. 23 × 4 : 20 × 4 = 80, 3 × 4 = 12, et 80 + 12 = 92.",
+      "prompt": "Combien font {a} × {b} ?",
+      "reason": "{aT} × {b} = {p1} et {aO} × {b} = {p2} ; {p1} + {p2} = {answer}."
+    },
+    "yo": {
+      "title": "Ìsọdipúpọ̀ nọ́ńbà oní-díjíìtì méjì",
+      "teach": "Pín nọ́ńbà tó tóbi jù sí ẹ̀wá àti ẹyọ. 23 × 4: 20 × 4 = 80, 3 × 4 = 12, 80 + 12 = 92.",
+      "prompt": "Kí ni {a} × {b}?",
+      "reason": "{aT} × {b} = {p1}, {aO} × {b} = {p2}; {p1} + {p2} = {answer}."
+    }
+  }
+}

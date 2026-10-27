@@ -1,0 +1,59 @@
+{
+  "id": "round-10",
+  "kind": "round",
+  "subject": "numbers",
+  "stage": 3,
+  "params": {
+    "to": 10
+  },
+  "emoji": "mountain",
+  "example": {
+    "n": 34,
+    "to": 10,
+    "digit": 4,
+    "answer": 30,
+    "rule": "down"
+  },
+  "text": {
+    "en": {
+      "title": "Rounding to the nearest 10",
+      "teach": "Look at the ones digit: 5 or more rounds up, less than 5 rounds down. 34 → 30, because 4 is less than 5.",
+      "prompt": "Round {n} to the nearest ten.",
+      "reason": "",
+      "reasons": {
+        "up": "The digit after is {digit}: 5 or more, so round up to {answer}.",
+        "down": "The digit after is {digit}: less than 5, so round down to {answer}."
+      }
+    },
+    "de": {
+      "title": "Runden auf Zehner",
+      "teach": "Schau auf die Einerziffer: Ab 5 rundest du auf, unter 5 rundest du ab. 34 → 30, weil 4 kleiner als 5 ist.",
+      "prompt": "Runde {n} auf den nächsten Zehner.",
+      "reason": "",
+      "reasons": {
+        "up": "Die Ziffer danach ist {digit}: 5 oder mehr, also aufrunden auf {answer}.",
+        "down": "Die Ziffer danach ist {digit}: kleiner als 5, also abrunden auf {answer}."
+      }
+    },
+    "fr": {
+      "title": "Arrondir à la dizaine",
+      "teach": "Regarde le chiffre des unités : à partir de 5 on arrondit au-dessus, en dessous de 5 au-dessous. 34 → 30, car 4 est plus petit que 5.",
+      "prompt": "Arrondis {n} à la dizaine la plus proche.",
+      "reason": "",
+      "reasons": {
+        "up": "Le chiffre suivant est {digit} : 5 ou plus, donc on arrondit au-dessus, à {answer}.",
+        "down": "Le chiffre suivant est {digit} : moins de 5, donc on arrondit au-dessous, à {answer}."
+      }
+    },
+    "yo": {
+      "title": "Ṣíṣe nọ́ńbà ní ẹ̀wá tó súnmọ́ ọn",
+      "teach": "Wo díjíìtì ẹyọ: láti 5 sókè, a gòkè; tí kò bá tó 5, a sọ̀kalẹ̀. 34 → 30, nítorí 4 kò tó 5.",
+      "prompt": "Ṣe {n} ní ẹ̀wá tó súnmọ́ ọn jù.",
+      "reason": "",
+      "reasons": {
+        "up": "Díjíìtì tó tẹ̀lé e jẹ́ {digit}: 5 tàbí jù bẹ́ẹ̀ lọ, nítorí náà a gòkè sí {answer}.",
+        "down": "Díjíìtì tó tẹ̀lé e jẹ́ {digit}: kò tó 5, nítorí náà a sọ̀kalẹ̀ sí {answer}."
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "times-all",
+  "kind": "times",
+  "subject": "numbers",
+  "stage": 4,
+  "params": {
+    "tables": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "emoji": "star",
+  "example": {
+    "n": 7,
+    "t": 6,
+    "answer": 42,
+    "counting": "6, 12, 18, 24, 30, 36, 42"
+  },
+  "text": {
+    "en": {
+      "title": "All times tables to 10 × 10",
+      "teach": "7 × 6 means 7 sixes. Count in sixes 7 times: 6, 12, 18, 24, 30, 36, 42.",
+      "prompt": "What is {n} × {t}?",
+      "reason": "Count in {t}s {n} times: {counting}."
+    },
+    "de": {
+      "title": "Das ganze Einmaleins bis 10 × 10",
+      "teach": "7 × 6 heißt siebenmal die 6. Zähl siebenmal in Sechserschritten: 6, 12, 18, 24, 30, 36, 42.",
+      "prompt": "Was ist {n} × {t}?",
+      "reason": "Zähl {n}-mal in {t}er-Schritten: {counting}."
+    },
+    "fr": {
+      "title": "Toutes les tables jusqu’à 10 × 10",
+      "teach": "7 × 6, c’est 7 fois 6. Compte de 6 en 6, 7 fois : 6, 12, 18, 24, 30, 36, 42.",
+      "prompt": "Combien font {n} × {t} ?",
+      "reason": "Compte de {t} en {t}, {n} fois : {counting}."
+    },
+    "yo": {
+      "title": "Gbogbo tábìlì títí dé 10 × 10",
+      "teach": "7 × 6 túmọ̀ sí mẹ́fà méje. Kà ní mẹ́fà mẹ́fà ní ìgbà méje: 6, 12, 18, 24, 30, 36, 42.",
+      "prompt": "Kí ni {n} × {t}?",
+      "reason": "Kà ní {t} {t} ní ìgbà {n}: {counting}."
+    }
+  }
+}

@@ -202,3 +202,33 @@ button.round {
 .choices.pictures .choice span {
   font-size: 1.3rem;
 }
+/* Tens and ones: a bar of ten for each ten, a small square for each one. */
+.blocks {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.35rem;
+  min-height: 9rem;
+}
+.blocks .ten {
+  width: 1rem;
+  height: 9rem;
+  border-radius: 4px;
+  background: repeating-linear-gradient(to top, var(--accent) 0 calc(0.9rem - 2px), var(--card) calc(0.9rem - 2px) 0.9rem);
+  box-shadow: 0 0 0 2px var(--accent);
+}
+.blocks .ones {
+  display: grid;
+  grid-template-columns: repeat(3, 0.9rem);
+  gap: 3px;
+  margin-left: 0.6rem;
+}
+.blocks .ones i {
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 3px;
+  background: var(--amber);
+}
+.memory-card .blocks {
+  min-height: 0;
+  transform: scale(0.55);
+}

@@ -1,0 +1,71 @@
+{
+  "id": "time-units",
+  "kind": "time-units",
+  "subject": "numbers",
+  "stage": 3,
+  "params": {},
+  "emoji": "clock",
+  "example": {
+    "n": 2,
+    "answer": 120,
+    "rule": "hours"
+  },
+  "text": {
+    "en": {
+      "title": "Hours, minutes and seconds",
+      "teach": "An hour has 60 minutes, and a minute has 60 seconds. 2 hours are 2 × 60 = 120 minutes.",
+      "prompt": "How many minutes are in {n} hours?",
+      "reason": "",
+      "prompts": {
+        "hours": "How many minutes are in {n} hours?",
+        "minutes": "How many seconds are in {n} minutes?"
+      },
+      "reasons": {
+        "hours": "1 hour is 60 minutes, so {n} hours are {n} × 60 = {answer} minutes.",
+        "minutes": "1 minute is 60 seconds, so {n} minutes are {n} × 60 = {answer} seconds."
+      }
+    },
+    "de": {
+      "title": "Stunden, Minuten und Sekunden",
+      "teach": "Eine Stunde hat 60 Minuten, und eine Minute hat 60 Sekunden. 2 Stunden sind 2 × 60 = 120 Minuten.",
+      "prompt": "Wie viele Minuten sind {n} Stunden?",
+      "reason": "",
+      "prompts": {
+        "hours": "Wie viele Minuten sind {n} Stunden?",
+        "minutes": "Wie viele Sekunden sind {n} Minuten?"
+      },
+      "reasons": {
+        "hours": "1 Stunde hat 60 Minuten, also sind {n} Stunden {n} × 60 = {answer} Minuten.",
+        "minutes": "1 Minute hat 60 Sekunden, also sind {n} Minuten {n} × 60 = {answer} Sekunden."
+      }
+    },
+    "fr": {
+      "title": "Heures, minutes et secondes",
+      "teach": "Une heure a 60 minutes, et une minute a 60 secondes. 2 heures, c’est 2 × 60 = 120 minutes.",
+      "prompt": "Combien de minutes y a-t-il dans {n} heures ?",
+      "reason": "",
+      "prompts": {
+        "hours": "Combien de minutes y a-t-il dans {n} heures ?",
+        "minutes": "Combien de secondes y a-t-il dans {n} minutes ?"
+      },
+      "reasons": {
+        "hours": "1 heure, c’est 60 minutes, donc {n} heures font {n} × 60 = {answer} minutes.",
+        "minutes": "1 minute, c’est 60 secondes, donc {n} minutes font {n} × 60 = {answer} secondes."
+      }
+    },
+    "yo": {
+      "title": "Wákàtí, ìṣẹ́jú àti ìṣẹ́jú-àáyá",
+      "teach": "Wákàtí kan ní ìṣẹ́jú 60, ìṣẹ́jú kan sì ní ìṣẹ́jú-àáyá 60. Wákàtí 2 jẹ́ 2 × 60 = ìṣẹ́jú 120.",
+      "prompt": "Ìṣẹ́jú mélòó ló wà nínú wákàtí {n}?",
+      "reason": "",
+      "prompts": {
+        "hours": "Ìṣẹ́jú mélòó ló wà nínú wákàtí {n}?",
+        "minutes": "Ìṣẹ́jú-àáyá mélòó ló wà nínú ìṣẹ́jú {n}?"
+      },
+      "reasons": {
+        "hours": "Wákàtí 1 jẹ́ ìṣẹ́jú 60, nítorí náà wákàtí {n} jẹ́ {n} × 60 = ìṣẹ́jú {answer}.",
+        "minutes": "Ìṣẹ́jú 1 jẹ́ ìṣẹ́jú-àáyá 60, nítorí náà ìṣẹ́jú {n} jẹ́ {n} × 60 = ìṣẹ́jú-àáyá {answer}."
+      }
+    }
+  }
+}

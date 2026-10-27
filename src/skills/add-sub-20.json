@@ -1,0 +1,60 @@
+{
+  "id": "add-sub-20",
+  "kind": "add-sub",
+  "subject": "numbers",
+  "stage": 2,
+  "params": {
+    "max": 20,
+    "minB": 3
+  },
+  "emoji": "animal-frog",
+  "example": {
+    "a": 8,
+    "b": 5,
+    "op": "+",
+    "answer": 13,
+    "rule": "add"
+  },
+  "text": {
+    "en": {
+      "title": "Adding and taking away within 20",
+      "teach": "To add, jump forward from the first number; to take away, jump back. 8 + 5: from 8, jump 5 → 13.",
+      "prompt": "What is {a} {op} {b}?",
+      "reason": "",
+      "reasons": {
+        "add": "Start at {a}, jump {b} forward → {answer}.",
+        "sub": "Start at {a}, jump {b} back → {answer}."
+      }
+    },
+    "de": {
+      "title": "Plus und Minus bis 20",
+      "teach": "Beim Plusrechnen springst du von der ersten Zahl vorwärts, beim Minusrechnen zurück. 8 + 5: von 8 fünf Sprünge vor → 13.",
+      "prompt": "Was ist {a} {op} {b}?",
+      "reason": "",
+      "reasons": {
+        "add": "Fang bei {a} an, spring {b} vor → {answer}.",
+        "sub": "Fang bei {a} an, spring {b} zurück → {answer}."
+      }
+    },
+    "fr": {
+      "title": "Additionner et soustraire jusqu’à 20",
+      "teach": "Pour additionner, saute en avant depuis le premier nombre ; pour soustraire, saute en arrière. 8 + 5 : depuis 8, 5 sauts en avant → 13.",
+      "prompt": "Combien font {a} {op} {b} ?",
+      "reason": "",
+      "reasons": {
+        "add": "Pars de {a}, saute {b} fois en avant → {answer}.",
+        "sub": "Pars de {a}, saute {b} fois en arrière → {answer}."
+      }
+    },
+    "yo": {
+      "title": "Àròpọ̀ àti àyọkúrò títí dé 20",
+      "teach": "Láti ṣe àròpọ̀, fò síwájú láti nọ́ńbà àkọ́kọ́; láti ṣe àyọkúrò, fò sẹ́yìn. 8 + 5: láti 8, fò ìgbà 5 → 13.",
+      "prompt": "Kí ni {a} {op} {b}?",
+      "reason": "",
+      "reasons": {
+        "add": "Bẹ̀rẹ̀ ní {a}, fò ìgbà {b} síwájú → {answer}.",
+        "sub": "Bẹ̀rẹ̀ ní {a}, fò ìgbà {b} sẹ́yìn → {answer}."
+      }
+    }
+  }
+}

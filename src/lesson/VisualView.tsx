@@ -12,6 +12,19 @@ export function VisualView({ visual, big = false }: { visual: Visual; big?: bool
         ))}
       </span>
     )
+  if (visual.kind === 'blocks')
+    return (
+      <span className="blocks" aria-label={`${visual.tens} × 10 + ${visual.ones}`}>
+        {Array.from({ length: visual.tens }, (_, i) => (
+          <i key={`t${i}`} className="ten" />
+        ))}
+        <span className="ones">
+          {Array.from({ length: visual.ones }, (_, i) => (
+            <i key={`o${i}`} />
+          ))}
+        </span>
+      </span>
+    )
   if (visual.kind === 'pair')
     return (
       <span className="pair">

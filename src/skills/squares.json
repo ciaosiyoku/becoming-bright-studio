@@ -1,0 +1,38 @@
+{
+  "id": "squares",
+  "kind": "square",
+  "subject": "numbers",
+  "stage": 6,
+  "params": {},
+  "emoji": "framed",
+  "example": {
+    "n": 6,
+    "answer": 36
+  },
+  "text": {
+    "en": {
+      "title": "Square numbers",
+      "teach": "A number squared is the number times itself: 6² = 6 × 6 = 36.",
+      "prompt": "What is {n}²?",
+      "reason": "{n}² means {n} × {n} = {answer}."
+    },
+    "de": {
+      "title": "Quadratzahlen",
+      "teach": "Eine Zahl hoch zwei ist die Zahl mal sich selbst: 6² = 6 × 6 = 36.",
+      "prompt": "Was ist {n}²?",
+      "reason": "{n}² heißt {n} × {n} = {answer}."
+    },
+    "fr": {
+      "title": "Les carrés",
+      "teach": "Un nombre au carré, c’est ce nombre multiplié par lui-même : 6² = 6 × 6 = 36.",
+      "prompt": "Combien fait {n}² ?",
+      "reason": "{n}², c’est {n} × {n} = {answer}."
+    },
+    "yo": {
+      "title": "Nọ́ńbà onígun mẹ́rin",
+      "teach": "Nọ́ńbà ní ìlọ́po ara rẹ̀ ni nọ́ńbà ní ìsọdipúpọ̀ ara rẹ̀: 6² = 6 × 6 = 36.",
+      "prompt": "Kí ni {n}²?",
+      "reason": "{n}² túmọ̀ sí {n} × {n} = {answer}."
+    }
+  }
+}

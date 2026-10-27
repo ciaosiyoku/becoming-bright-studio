@@ -1,0 +1,60 @@
+{
+  "id": "place-value-1000",
+  "kind": "place-value",
+  "subject": "numbers",
+  "stage": 3,
+  "params": {},
+  "emoji": "key",
+  "example": {
+    "d": 4,
+    "n": 342,
+    "answer": 40,
+    "rule": "tens"
+  },
+  "text": {
+    "en": {
+      "title": "Place value to 1000",
+      "teach": "In 342, the 3 is worth 300, the 4 is worth 40 and the 2 is worth 2. Where a digit stands tells what it is worth.",
+      "prompt": "What is the {d} worth in {n}?",
+      "reason": "",
+      "reasons": {
+        "hundreds": "The {d} is in the hundreds place, so it is worth {answer}.",
+        "tens": "The {d} is in the tens place, so it is worth {answer}.",
+        "ones": "The {d} is in the ones place, so it is worth {answer}."
+      }
+    },
+    "de": {
+      "title": "Stellenwerte bis 1000",
+      "teach": "In 342 ist die 3 dreihundert wert, die 4 vierzig und die 2 zwei. Wo eine Ziffer steht, sagt, wie viel sie wert ist.",
+      "prompt": "Wie viel ist die {d} in {n} wert?",
+      "reason": "",
+      "reasons": {
+        "hundreds": "Die {d} steht an der Hunderterstelle, also ist sie {answer} wert.",
+        "tens": "Die {d} steht an der Zehnerstelle, also ist sie {answer} wert.",
+        "ones": "Die {d} steht an der Einerstelle, also ist sie {answer} wert."
+      }
+    },
+    "fr": {
+      "title": "Valeur des chiffres jusqu’à 1000",
+      "teach": "Dans 342, le 3 vaut 300, le 4 vaut 40 et le 2 vaut 2. La place d’un chiffre dit ce qu’il vaut.",
+      "prompt": "Que vaut le {d} dans {n} ?",
+      "reason": "",
+      "reasons": {
+        "hundreds": "Le {d} est au rang des centaines, donc il vaut {answer}.",
+        "tens": "Le {d} est au rang des dizaines, donc il vaut {answer}.",
+        "ones": "Le {d} est au rang des unités, donc il vaut {answer}."
+      }
+    },
+    "yo": {
+      "title": "Iye díjíìtì títí dé 1000",
+      "teach": "Nínú 342, 3 jẹ́ 300, 4 jẹ́ 40, 2 sì jẹ́ 2. Ibi tí díjíìtì wà ló ń sọ iye rẹ̀.",
+      "prompt": "Kí ni iye {d} nínú {n}?",
+      "reason": "",
+      "reasons": {
+        "hundreds": "{d} wà ní ipò ọgọ́rùn-ún, nítorí náà iye rẹ̀ jẹ́ {answer}.",
+        "tens": "{d} wà ní ipò ẹ̀wá, nítorí náà iye rẹ̀ jẹ́ {answer}.",
+        "ones": "{d} wà ní ipò ẹyọ, nítorí náà iye rẹ̀ jẹ́ {answer}."
+      }
+    }
+  }
+}

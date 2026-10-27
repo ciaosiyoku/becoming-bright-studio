@@ -1,0 +1,46 @@
+{
+  "id": "times-3-4-8",
+  "kind": "times",
+  "subject": "numbers",
+  "stage": 3,
+  "params": {
+    "tables": [
+      3,
+      4,
+      8
+    ]
+  },
+  "emoji": "fruit-grapes",
+  "example": {
+    "n": 4,
+    "t": 3,
+    "answer": 12,
+    "counting": "3, 6, 9, 12"
+  },
+  "text": {
+    "en": {
+      "title": "The 3, 4 and 8 times tables",
+      "teach": "4 × 3 means 4 threes. Count in threes 4 times: 3, 6, 9, 12.",
+      "prompt": "What is {n} × {t}?",
+      "reason": "Count in {t}s {n} times: {counting}."
+    },
+    "de": {
+      "title": "Das 3er-, 4er- und 8er-Einmaleins",
+      "teach": "4 × 3 heißt viermal die 3. Zähl viermal in Dreierschritten: 3, 6, 9, 12.",
+      "prompt": "Was ist {n} × {t}?",
+      "reason": "Zähl {n}-mal in {t}er-Schritten: {counting}."
+    },
+    "fr": {
+      "title": "Les tables de 3, 4 et 8",
+      "teach": "4 × 3, c’est 4 fois 3. Compte de 3 en 3, 4 fois : 3, 6, 9, 12.",
+      "prompt": "Combien font {n} × {t} ?",
+      "reason": "Compte de {t} en {t}, {n} fois : {counting}."
+    },
+    "yo": {
+      "title": "Tábìlì ìsọdipúpọ̀ 3, 4 àti 8",
+      "teach": "4 × 3 túmọ̀ sí mẹ́ta mẹ́rin. Kà ní mẹ́ta mẹ́ta ní ìgbà mẹ́rin: 3, 6, 9, 12.",
+      "prompt": "Kí ni {n} × {t}?",
+      "reason": "Kà ní {t} {t} ní ìgbà {n}: {counting}."
+    }
+  }
+}

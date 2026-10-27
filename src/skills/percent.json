@@ -1,0 +1,47 @@
+{
+  "id": "percent",
+  "kind": "percent",
+  "subject": "numbers",
+  "stage": 6,
+  "params": {
+    "percents": [
+      10,
+      20,
+      25,
+      50
+    ]
+  },
+  "emoji": "battery",
+  "example": {
+    "p": 25,
+    "n": 80,
+    "tenth": 8,
+    "answer": 20
+  },
+  "text": {
+    "en": {
+      "title": "Percentages of amounts",
+      "teach": "Percent means out of 100. 10% of 80 is 8, so 25% of 80 is 8 × 25 ÷ 10 = 20.",
+      "prompt": "What is {p}% of {n}?",
+      "reason": "10% of {n} is {tenth}, so {p}% is {tenth} × {p} ÷ 10 = {answer}."
+    },
+    "de": {
+      "title": "Prozent von Mengen",
+      "teach": "Prozent heißt von hundert. 10 % von 80 sind 8, also sind 25 % von 80 8 × 25 ÷ 10 = 20.",
+      "prompt": "Was sind {p} % von {n}?",
+      "reason": "10 % von {n} sind {tenth}, also sind {p} % {tenth} × {p} ÷ 10 = {answer}."
+    },
+    "fr": {
+      "title": "Pourcentages d’une quantité",
+      "teach": "Pour cent veut dire sur 100. 10 % de 80, c’est 8, donc 25 % de 80, c’est 8 × 25 ÷ 10 = 20.",
+      "prompt": "Combien font {p} % de {n} ?",
+      "reason": "10 % de {n}, c’est {tenth}, donc {p} %, c’est {tenth} × {p} ÷ 10 = {answer}."
+    },
+    "yo": {
+      "title": "Ìdá-ọgọ́rùn-ún nǹkan",
+      "teach": "Ìdá-ọgọ́rùn-ún túmọ̀ sí nínú ọgọ́rùn-ún. 10% nínú 80 jẹ́ 8, nítorí náà 25% nínú 80 jẹ́ 8 × 25 ÷ 10 = 20.",
+      "prompt": "Kí ni {p}% nínú {n}?",
+      "reason": "10% nínú {n} jẹ́ {tenth}, nítorí náà {p}% jẹ́ {tenth} × {p} ÷ 10 = {answer}."
+    }
+  }
+}

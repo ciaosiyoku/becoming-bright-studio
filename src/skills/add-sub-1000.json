@@ -1,0 +1,57 @@
+{
+  "id": "add-sub-1000",
+  "kind": "add-sub-big",
+  "subject": "numbers",
+  "stage": 4,
+  "params": {},
+  "emoji": "animal-elephant",
+  "example": {
+    "a": 356,
+    "b": 42,
+    "op": "+",
+    "answer": 398,
+    "rule": "add"
+  },
+  "text": {
+    "en": {
+      "title": "Adding and taking away within 1000",
+      "teach": "Line up hundreds, tens and ones, and work one place at a time. 356 + 42: 6 + 2 = 8 ones, 5 + 4 = 9 tens: 398.",
+      "prompt": "What is {a} {op} {b}?",
+      "reason": "",
+      "reasons": {
+        "add": "Add the ones, then the tens (carrying a ten when needed): {a} + {b} = {answer}.",
+        "sub": "Take away the ones, then the tens (exchanging a ten when needed): {a} − {b} = {answer}."
+      }
+    },
+    "de": {
+      "title": "Plus und Minus bis 1000",
+      "teach": "Schreib Hunderter, Zehner und Einer untereinander und rechne Stelle für Stelle. 356 + 42: 6 + 2 = 8 Einer, 5 + 4 = 9 Zehner: 398.",
+      "prompt": "Was ist {a} {op} {b}?",
+      "reason": "",
+      "reasons": {
+        "add": "Rechne die Einer, dann die Zehner (mit Übertrag, wenn nötig): {a} + {b} = {answer}.",
+        "sub": "Rechne die Einer, dann die Zehner (mit Entbündeln, wenn nötig): {a} − {b} = {answer}."
+      }
+    },
+    "fr": {
+      "title": "Additionner et soustraire jusqu’à 1000",
+      "teach": "Aligne centaines, dizaines et unités, et calcule rang par rang. 356 + 42 : 6 + 2 = 8 unités, 5 + 4 = 9 dizaines : 398.",
+      "prompt": "Combien font {a} {op} {b} ?",
+      "reason": "",
+      "reasons": {
+        "add": "Additionne les unités, puis les dizaines (avec une retenue si besoin) : {a} + {b} = {answer}.",
+        "sub": "Soustrais les unités, puis les dizaines (en échangeant une dizaine si besoin) : {a} − {b} = {answer}."
+      }
+    },
+    "yo": {
+      "title": "Àròpọ̀ àti àyọkúrò títí dé 1000",
+      "teach": "To ọgọ́rùn-ún, ẹ̀wá àti ẹyọ sí abẹ́ ara wọn, kí o sì ṣe ipò kan ní àkókò kan. 356 + 42: 6 + 2 = ẹyọ 8, 5 + 4 = ẹ̀wá 9: 398.",
+      "prompt": "Kí ni {a} {op} {b}?",
+      "reason": "",
+      "reasons": {
+        "add": "Kọ́kọ́ ṣe ẹyọ, lẹ́yìn náà ẹ̀wá (gbé ẹ̀wá kan lọ tí ó bá yẹ): {a} + {b} = {answer}.",
+        "sub": "Kọ́kọ́ ṣe ẹyọ, lẹ́yìn náà ẹ̀wá (yá ẹ̀wá kan tí ó bá yẹ): {a} − {b} = {answer}."
+      }
+    }
+  }
+}

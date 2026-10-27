@@ -1,0 +1,60 @@
+{
+  "id": "add-sub-100",
+  "kind": "add-sub",
+  "subject": "numbers",
+  "stage": 3,
+  "params": {
+    "max": 100,
+    "minB": 8
+  },
+  "emoji": "animal-rabbit",
+  "example": {
+    "a": 46,
+    "b": 27,
+    "op": "+",
+    "answer": 73,
+    "rule": "add"
+  },
+  "text": {
+    "en": {
+      "title": "Adding and taking away within 100",
+      "teach": "Add the tens first, then the ones. 46 + 27: 46 + 20 = 66, then 66 + 7 = 73.",
+      "prompt": "What is {a} {op} {b}?",
+      "reason": "",
+      "reasons": {
+        "add": "Add the tens of {b} first, then the ones: {a} + {b} = {answer}.",
+        "sub": "Take away the tens of {b} first, then the ones: {a} − {b} = {answer}."
+      }
+    },
+    "de": {
+      "title": "Plus und Minus bis 100",
+      "teach": "Rechne zuerst die Zehner, dann die Einer. 46 + 27: 46 + 20 = 66, dann 66 + 7 = 73.",
+      "prompt": "Was ist {a} {op} {b}?",
+      "reason": "",
+      "reasons": {
+        "add": "Rechne zuerst die Zehner von {b} dazu, dann die Einer: {a} + {b} = {answer}.",
+        "sub": "Nimm zuerst die Zehner von {b} weg, dann die Einer: {a} − {b} = {answer}."
+      }
+    },
+    "fr": {
+      "title": "Additionner et soustraire jusqu’à 100",
+      "teach": "Ajoute d’abord les dizaines, puis les unités. 46 + 27 : 46 + 20 = 66, puis 66 + 7 = 73.",
+      "prompt": "Combien font {a} {op} {b} ?",
+      "reason": "",
+      "reasons": {
+        "add": "Ajoute d’abord les dizaines de {b}, puis les unités : {a} + {b} = {answer}.",
+        "sub": "Retire d’abord les dizaines de {b}, puis les unités : {a} − {b} = {answer}."
+      }
+    },
+    "yo": {
+      "title": "Àròpọ̀ àti àyọkúrò títí dé 100",
+      "teach": "Kọ́kọ́ ṣe ẹ̀wá, lẹ́yìn náà ẹyọ. 46 + 27: 46 + 20 = 66, lẹ́yìn náà 66 + 7 = 73.",
+      "prompt": "Kí ni {a} {op} {b}?",
+      "reason": "",
+      "reasons": {
+        "add": "Kọ́kọ́ fi ẹ̀wá {b} kún un, lẹ́yìn náà ẹyọ: {a} + {b} = {answer}.",
+        "sub": "Kọ́kọ́ yọ ẹ̀wá {b} kúrò, lẹ́yìn náà ẹyọ: {a} − {b} = {answer}."
+      }
+    }
+  }
+}

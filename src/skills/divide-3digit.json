@@ -1,0 +1,44 @@
+{
+  "id": "divide-3digit",
+  "kind": "divide",
+  "subject": "numbers",
+  "stage": 7,
+  "params": {
+    "dMin": 3,
+    "dMax": 9,
+    "minTotal": 100,
+    "maxTotal": 999
+  },
+  "emoji": "gift",
+  "example": {
+    "total": 156,
+    "d": 4,
+    "answer": 39
+  },
+  "text": {
+    "en": {
+      "title": "Dividing a 3-digit number",
+      "teach": "Divide step by step, from the left. 156 ÷ 4: 15 ÷ 4 = 3 (12), 3 left; 36 ÷ 4 = 9. So 39, because 39 × 4 = 156.",
+      "prompt": "What is {total} ÷ {d}?",
+      "reason": "{total} ÷ {d} = {answer}, because {answer} × {d} = {total}."
+    },
+    "de": {
+      "title": "Eine dreistellige Zahl teilen",
+      "teach": "Teile Schritt für Schritt von links. 156 ÷ 4: 15 ÷ 4 = 3 (12), Rest 3; 36 ÷ 4 = 9. Also 39, weil 39 × 4 = 156 ist.",
+      "prompt": "Was ist {total} ÷ {d}?",
+      "reason": "{total} ÷ {d} = {answer}, weil {answer} × {d} = {total} ist."
+    },
+    "fr": {
+      "title": "Diviser un nombre à trois chiffres",
+      "teach": "Divise étape par étape, en partant de la gauche. 156 ÷ 4 : 15 ÷ 4 = 3 (12), reste 3 ; 36 ÷ 4 = 9. Donc 39, car 39 × 4 = 156.",
+      "prompt": "Combien font {total} ÷ {d} ?",
+      "reason": "{total} ÷ {d} = {answer}, car {answer} × {d} = {total}."
+    },
+    "yo": {
+      "title": "Pínpín nọ́ńbà oní-díjíìtì mẹ́ta",
+      "teach": "Pín ní ìgbésẹ̀ kọ̀ọ̀kan, láti òsì. 156 ÷ 4: 15 ÷ 4 = 3 (12), ó ṣẹ́ kù 3; 36 ÷ 4 = 9. Nítorí náà 39, nítorí 39 × 4 = 156.",
+      "prompt": "Kí ni {total} ÷ {d}?",
+      "reason": "{total} ÷ {d} = {answer}, nítorí {answer} × {d} = {total}."
+    }
+  }
+}

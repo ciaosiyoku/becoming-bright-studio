@@ -1,0 +1,58 @@
+{
+  "id": "add-sub-100-easy",
+  "kind": "tens",
+  "subject": "numbers",
+  "stage": 2,
+  "params": {},
+  "emoji": "animal-kangaroo",
+  "example": {
+    "a": 34,
+    "b": 20,
+    "op": "+",
+    "answer": 54,
+    "rule": "add",
+    "steps": "34, 44, 54"
+  },
+  "text": {
+    "en": {
+      "title": "Adding and taking away tens",
+      "teach": "Adding a ten changes only the tens digit: count on in tens. 34 + 20: 34, 44, 54.",
+      "prompt": "What is {a} {op} {b}?",
+      "reason": "",
+      "reasons": {
+        "add": "Count on in tens: {steps}.",
+        "sub": "Count back in tens: {steps}."
+      }
+    },
+    "de": {
+      "title": "Zehner dazu und weg",
+      "teach": "Wenn du einen Zehner dazurechnest, ändert sich nur die Zehnerziffer: Zähl in Zehnerschritten. 34 + 20: 34, 44, 54.",
+      "prompt": "Was ist {a} {op} {b}?",
+      "reason": "",
+      "reasons": {
+        "add": "Zähl in Zehnerschritten weiter: {steps}.",
+        "sub": "Zähl in Zehnerschritten zurück: {steps}."
+      }
+    },
+    "fr": {
+      "title": "Ajouter et retirer des dizaines",
+      "teach": "Ajouter une dizaine ne change que le chiffre des dizaines : compte de 10 en 10. 34 + 20 : 34, 44, 54.",
+      "prompt": "Combien font {a} {op} {b} ?",
+      "reason": "",
+      "reasons": {
+        "add": "Compte de 10 en 10 en avant : {steps}.",
+        "sub": "Compte de 10 en 10 en arrière : {steps}."
+      }
+    },
+    "yo": {
+      "title": "Fífi ẹ̀wá kún àti yíyọ ẹ̀wá kúrò",
+      "teach": "Fífi ẹ̀wá kan kún un máa ń yí díjíìtì ẹ̀wá nìkan padà: kà ní ẹ̀wá ẹ̀wá. 34 + 20: 34, 44, 54.",
+      "prompt": "Kí ni {a} {op} {b}?",
+      "reason": "",
+      "reasons": {
+        "add": "Kà síwájú ní ẹ̀wá ẹ̀wá: {steps}.",
+        "sub": "Kà sẹ́yìn ní ẹ̀wá ẹ̀wá: {steps}."
+      }
+    }
+  }
+}

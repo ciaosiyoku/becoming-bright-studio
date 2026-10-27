@@ -1,0 +1,46 @@
+{
+  "id": "times-2-5-10",
+  "kind": "times",
+  "subject": "numbers",
+  "stage": 2,
+  "params": {
+    "tables": [
+      2,
+      5,
+      10
+    ]
+  },
+  "emoji": "fruit-cherries",
+  "example": {
+    "n": 3,
+    "t": 5,
+    "answer": 15,
+    "counting": "5, 10, 15"
+  },
+  "text": {
+    "en": {
+      "title": "The 2, 5 and 10 times tables",
+      "teach": "3 × 5 means 3 fives. Count in fives 3 times: 5, 10, 15.",
+      "prompt": "What is {n} × {t}?",
+      "reason": "Count in {t}s {n} times: {counting}."
+    },
+    "de": {
+      "title": "Das 2er-, 5er- und 10er-Einmaleins",
+      "teach": "3 × 5 heißt dreimal die 5. Zähl dreimal in Fünferschritten: 5, 10, 15.",
+      "prompt": "Was ist {n} × {t}?",
+      "reason": "Zähl {n}-mal in {t}er-Schritten: {counting}."
+    },
+    "fr": {
+      "title": "Les tables de 2, 5 et 10",
+      "teach": "3 × 5, c’est 3 fois 5. Compte de 5 en 5, 3 fois : 5, 10, 15.",
+      "prompt": "Combien font {n} × {t} ?",
+      "reason": "Compte de {t} en {t}, {n} fois : {counting}."
+    },
+    "yo": {
+      "title": "Tábìlì ìsọdipúpọ̀ 2, 5 àti 10",
+      "teach": "3 × 5 túmọ̀ sí márùn-ún mẹ́ta. Kà ní márùn-ún márùn-ún ní ìgbà mẹ́ta: 5, 10, 15.",
+      "prompt": "Kí ni {n} × {t}?",
+      "reason": "Kà ní {t} {t} ní ìgbà {n}: {counting}."
+    }
+  }
+}

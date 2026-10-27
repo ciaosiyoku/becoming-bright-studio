@@ -1,0 +1,40 @@
+{
+  "id": "tens-ones",
+  "kind": "tens-ones",
+  "subject": "numbers",
+  "stage": 2,
+  "params": {},
+  "emoji": "abacus",
+  "example": {
+    "t": 3,
+    "o": 4,
+    "tens": 30,
+    "answer": 34
+  },
+  "text": {
+    "en": {
+      "title": "Tens and ones",
+      "teach": "Each bar is a ten and each square is a one. 3 tens and 4 ones make 34.",
+      "prompt": "How much is this? Count the tens, then the ones.",
+      "reason": "{t} tens are {tens}, and {o} ones more make {answer}."
+    },
+    "de": {
+      "title": "Zehner und Einer",
+      "teach": "Jede Stange ist ein Zehner und jedes Quadrat ein Einer. 3 Zehner und 4 Einer sind 34.",
+      "prompt": "Wie viel ist das? Zähl zuerst die Zehner, dann die Einer.",
+      "reason": "{t} Zehner sind {tens}, und {o} Einer dazu sind {answer}."
+    },
+    "fr": {
+      "title": "Dizaines et unités",
+      "teach": "Chaque barre est une dizaine et chaque carré une unité. 3 dizaines et 4 unités font 34.",
+      "prompt": "Combien est-ce ? Compte les dizaines, puis les unités.",
+      "reason": "{t} dizaines font {tens}, et {o} unités de plus font {answer}."
+    },
+    "yo": {
+      "title": "Ẹ̀wá àti ẹyọ",
+      "teach": "Ọ̀pá kọ̀ọ̀kan jẹ́ ẹ̀wá kan, onígun mẹ́rin kọ̀ọ̀kan sì jẹ́ ẹyọ kan. Ẹ̀wá 3 àti ẹyọ 4 jẹ́ 34.",
+      "prompt": "Mélòó ni èyí? Kà àwọn ẹ̀wá, lẹ́yìn náà àwọn ẹyọ.",
+      "reason": "Ẹ̀wá {t} jẹ́ {tens}, ẹyọ {o} sí i sì jẹ́ {answer}."
+    }
+  }
+}

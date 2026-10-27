@@ -1,0 +1,48 @@
+{
+  "id": "times-2x2",
+  "kind": "multiply",
+  "subject": "numbers",
+  "stage": 7,
+  "params": {
+    "aMin": 12,
+    "aMax": 49,
+    "bMin": 11,
+    "bMax": 29
+  },
+  "emoji": "trophy",
+  "example": {
+    "a": 23,
+    "b": 14,
+    "answer": 322,
+    "aT": 20,
+    "aO": 3,
+    "p1": 280,
+    "p2": 42
+  },
+  "text": {
+    "en": {
+      "title": "Multiplying two 2-digit numbers",
+      "teach": "Split one number into tens and ones. 23 × 14: 20 × 14 = 280, 3 × 14 = 42, and 280 + 42 = 322.",
+      "prompt": "What is {a} × {b}?",
+      "reason": "{aT} × {b} = {p1} and {aO} × {b} = {p2}; {p1} + {p2} = {answer}."
+    },
+    "de": {
+      "title": "Zwei zweistellige Zahlen malnehmen",
+      "teach": "Zerlege eine Zahl in Zehner und Einer. 23 × 14: 20 × 14 = 280, 3 × 14 = 42, und 280 + 42 = 322.",
+      "prompt": "Was ist {a} × {b}?",
+      "reason": "{aT} × {b} = {p1} und {aO} × {b} = {p2}; {p1} + {p2} = {answer}."
+    },
+    "fr": {
+      "title": "Multiplier deux nombres à deux chiffres",
+      "teach": "Décompose un nombre en dizaines et unités. 23 × 14 : 20 × 14 = 280, 3 × 14 = 42, et 280 + 42 = 322.",
+      "prompt": "Combien font {a} × {b} ?",
+      "reason": "{aT} × {b} = {p1} et {aO} × {b} = {p2} ; {p1} + {p2} = {answer}."
+    },
+    "yo": {
+      "title": "Ìsọdipúpọ̀ nọ́ńbà oní-díjíìtì méjì méjì",
+      "teach": "Pín nọ́ńbà kan sí ẹ̀wá àti ẹyọ. 23 × 14: 20 × 14 = 280, 3 × 14 = 42, 280 + 42 = 322.",
+      "prompt": "Kí ni {a} × {b}?",
+      "reason": "{aT} × {b} = {p1}, {aO} × {b} = {p2}; {p1} + {p2} = {answer}."
+    }
+  }
+}

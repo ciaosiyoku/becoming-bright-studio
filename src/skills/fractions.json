@@ -1,0 +1,39 @@
+{
+  "id": "fractions",
+  "kind": "fraction",
+  "subject": "numbers",
+  "stage": 6,
+  "params": {},
+  "emoji": "fruit-watermelon",
+  "example": {
+    "d": 3,
+    "n": 12,
+    "answer": 4
+  },
+  "text": {
+    "en": {
+      "title": "Fractions of amounts",
+      "teach": "1/3 of 12 means sharing 12 into 3 equal parts. Each part is 4.",
+      "prompt": "What is 1/{d} of {n}?",
+      "reason": "Share {n} into {d} equal parts: {n} ÷ {d} = {answer}."
+    },
+    "de": {
+      "title": "Bruchteile von Mengen",
+      "teach": "1/3 von 12 heißt: 12 in 3 gleiche Teile aufteilen. Jeder Teil ist 4.",
+      "prompt": "Was ist 1/{d} von {n}?",
+      "reason": "Teile {n} in {d} gleiche Teile: {n} ÷ {d} = {answer}."
+    },
+    "fr": {
+      "title": "Fractions d’une quantité",
+      "teach": "1/3 de 12, c’est partager 12 en 3 parts égales. Chaque part vaut 4.",
+      "prompt": "Combien fait 1/{d} de {n} ?",
+      "reason": "Partage {n} en {d} parts égales : {n} ÷ {d} = {answer}."
+    },
+    "yo": {
+      "title": "Ìdá nǹkan",
+      "teach": "1/3 nínú 12 túmọ̀ sí pín 12 sí apá mẹ́ta tó dọ́gba. Apá kọ̀ọ̀kan jẹ́ 4.",
+      "prompt": "Kí ni 1/{d} nínú {n}?",
+      "reason": "Pín {n} sí apá {d} tó dọ́gba: {n} ÷ {d} = {answer}."
+    }
+  }
+}

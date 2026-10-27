@@ -1,0 +1,44 @@
+{
+  "id": "divide",
+  "kind": "divide",
+  "subject": "numbers",
+  "stage": 5,
+  "params": {
+    "dMin": 2,
+    "dMax": 10,
+    "qMin": 2,
+    "qMax": 10
+  },
+  "emoji": "cake",
+  "example": {
+    "total": 24,
+    "d": 6,
+    "answer": 4
+  },
+  "text": {
+    "en": {
+      "title": "Dividing with the times tables",
+      "teach": "Dividing is sharing into equal groups. 24 ÷ 6 = 4, because 4 × 6 = 24.",
+      "prompt": "What is {total} ÷ {d}?",
+      "reason": "{total} ÷ {d} = {answer}, because {answer} × {d} = {total}."
+    },
+    "de": {
+      "title": "Teilen mit dem Einmaleins",
+      "teach": "Teilen heißt in gleiche Gruppen aufteilen. 24 ÷ 6 = 4, weil 4 × 6 = 24 ist.",
+      "prompt": "Was ist {total} ÷ {d}?",
+      "reason": "{total} ÷ {d} = {answer}, weil {answer} × {d} = {total} ist."
+    },
+    "fr": {
+      "title": "Diviser avec les tables",
+      "teach": "Diviser, c’est partager en groupes égaux. 24 ÷ 6 = 4, car 4 × 6 = 24.",
+      "prompt": "Combien font {total} ÷ {d} ?",
+      "reason": "{total} ÷ {d} = {answer}, car {answer} × {d} = {total}."
+    },
+    "yo": {
+      "title": "Pínpín pẹ̀lú tábìlì",
+      "teach": "Pínpín túmọ̀ sí pín sí àwọn ẹgbẹ́ tó dọ́gba. 24 ÷ 6 = 4, nítorí 4 × 6 = 24.",
+      "prompt": "Kí ni {total} ÷ {d}?",
+      "reason": "{total} ÷ {d} = {answer}, nítorí {answer} × {d} = {total}."
+    }
+  }
+}

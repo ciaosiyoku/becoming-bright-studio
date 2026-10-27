@@ -1,0 +1,49 @@
+{
+  "id": "percent-hard",
+  "kind": "percent",
+  "subject": "numbers",
+  "stage": 7,
+  "params": {
+    "percents": [
+      5,
+      15,
+      30,
+      40,
+      60,
+      75
+    ]
+  },
+  "emoji": "medal",
+  "example": {
+    "p": 15,
+    "n": 60,
+    "tenth": 6,
+    "answer": 9
+  },
+  "text": {
+    "en": {
+      "title": "Harder percentages",
+      "teach": "Find 10% first, then use it. 10% of 60 is 6, so 15% of 60 is 6 × 15 ÷ 10 = 9.",
+      "prompt": "What is {p}% of {n}?",
+      "reason": "10% of {n} is {tenth}, so {p}% is {tenth} × {p} ÷ 10 = {answer}."
+    },
+    "de": {
+      "title": "Schwierigere Prozente",
+      "teach": "Rechne zuerst 10 % aus und nutze das. 10 % von 60 sind 6, also sind 15 % von 60 6 × 15 ÷ 10 = 9.",
+      "prompt": "Was sind {p} % von {n}?",
+      "reason": "10 % von {n} sind {tenth}, also sind {p} % {tenth} × {p} ÷ 10 = {answer}."
+    },
+    "fr": {
+      "title": "Pourcentages plus difficiles",
+      "teach": "Calcule d’abord 10 %, puis utilise-le. 10 % de 60, c’est 6, donc 15 % de 60, c’est 6 × 15 ÷ 10 = 9.",
+      "prompt": "Combien font {p} % de {n} ?",
+      "reason": "10 % de {n}, c’est {tenth}, donc {p} %, c’est {tenth} × {p} ÷ 10 = {answer}."
+    },
+    "yo": {
+      "title": "Ìdá-ọgọ́rùn-ún tó le",
+      "teach": "Kọ́kọ́ wá 10%, lẹ́yìn náà lò ó. 10% nínú 60 jẹ́ 6, nítorí náà 15% nínú 60 jẹ́ 6 × 15 ÷ 10 = 9.",
+      "prompt": "Kí ni {p}% nínú {n}?",
+      "reason": "10% nínú {n} jẹ́ {tenth}, nítorí náà {p}% jẹ́ {tenth} × {p} ÷ 10 = {answer}."
+    }
+  }
+}

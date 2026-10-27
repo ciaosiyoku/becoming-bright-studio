@@ -1,0 +1,64 @@
+{
+  "id": "order-ops",
+  "kind": "order-ops",
+  "subject": "numbers",
+  "stage": 6,
+  "params": {},
+  "emoji": "puzzle",
+  "example": {
+    "a": 3,
+    "b": 4,
+    "c": 5,
+    "bc": 20,
+    "expr": "3 + 4 × 5",
+    "answer": 23,
+    "wrongWay": 35,
+    "rule": "times-first"
+  },
+  "text": {
+    "en": {
+      "title": "Order of operations",
+      "teach": "Do × and ÷ before + and −, and brackets first of all. 3 + 4 × 5: first 4 × 5 = 20, then 3 + 20 = 23.",
+      "prompt": "What is {expr}?",
+      "reason": "",
+      "reasons": {
+        "times-first": "First {b} × {c} = {bc}, then {a} + {bc} = {answer}.",
+        "times-before-minus": "First {b} × {c} = {bc}, then {total} − {bc} = {answer}.",
+        "brackets": "Brackets first: {a} + {b} = {ab}, then {ab} × {c} = {answer}."
+      }
+    },
+    "de": {
+      "title": "Punkt vor Strich",
+      "teach": "Rechne × und ÷ vor + und −, und Klammern zuerst. 3 + 4 × 5: zuerst 4 × 5 = 20, dann 3 + 20 = 23.",
+      "prompt": "Was ist {expr}?",
+      "reason": "",
+      "reasons": {
+        "times-first": "Zuerst {b} × {c} = {bc}, dann {a} + {bc} = {answer}.",
+        "times-before-minus": "Zuerst {b} × {c} = {bc}, dann {total} − {bc} = {answer}.",
+        "brackets": "Klammern zuerst: {a} + {b} = {ab}, dann {ab} × {c} = {answer}."
+      }
+    },
+    "fr": {
+      "title": "Priorités de calcul",
+      "teach": "On calcule × et ÷ avant + et −, et les parenthèses en premier. 3 + 4 × 5 : d’abord 4 × 5 = 20, puis 3 + 20 = 23.",
+      "prompt": "Combien font {expr} ?",
+      "reason": "",
+      "reasons": {
+        "times-first": "D’abord {b} × {c} = {bc}, puis {a} + {bc} = {answer}.",
+        "times-before-minus": "D’abord {b} × {c} = {bc}, puis {total} − {bc} = {answer}.",
+        "brackets": "Les parenthèses d’abord : {a} + {b} = {ab}, puis {ab} × {c} = {answer}."
+      }
+    },
+    "yo": {
+      "title": "Ìtòlẹ́sẹẹsẹ ìṣirò",
+      "teach": "Ṣe × àti ÷ ṣáájú + àti −, kí o sì ṣe àkámọ́ ní àkọ́kọ́. 3 + 4 × 5: kọ́kọ́ ṣe 4 × 5 = 20, lẹ́yìn náà 3 + 20 = 23.",
+      "prompt": "Kí ni {expr}?",
+      "reason": "",
+      "reasons": {
+        "times-first": "Kọ́kọ́ ṣe {b} × {c} = {bc}, lẹ́yìn náà {a} + {bc} = {answer}.",
+        "times-before-minus": "Kọ́kọ́ ṣe {b} × {c} = {bc}, lẹ́yìn náà {total} − {bc} = {answer}.",
+        "brackets": "Àkámọ́ ní àkọ́kọ́: {a} + {b} = {ab}, lẹ́yìn náà {ab} × {c} = {answer}."
+      }
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import type { Lang } from '@/i18n'
+import type { CalcKind } from './numbers'
 
 // What a skill is (src/skills/<id>.json) and what one generated question looks like.
 //
@@ -13,6 +14,8 @@ export interface SkillText {
   teach: string
   /** The question, shown and read aloud. */
   prompt: string
+  /** Other prompts, chosen by the question's "rule" value (e.g. "after" or "before"). */
+  prompts?: Record<string, string>
   /** Read aloud instead of the prompt, when saying the word must not show it ("Which letter does sun start with?"). */
   say?: string
   /** The one-line reason shown after every answer. */
@@ -42,7 +45,7 @@ export interface SkillDef {
 
 export type Subject = 'numbers' | 'words' | 'patterns'
 
-export type GeneratorKind = 'count' | 'add' | 'subtract' | 'one-more' | 'one-less' | 'bigger' | 'first-sound' | 'a-an' | 'rhyme'
+export type GeneratorKind = 'count' | 'add' | 'subtract' | 'one-more' | 'one-less' | 'bigger' | 'first-sound' | 'a-an' | 'rhyme' | CalcKind
 
 /** What the question shows. */
 export type Visual =
@@ -52,6 +55,8 @@ export type Visual =
   | { kind: 'sum'; text: string }
   /** One picture, with its word under it (or without, when the word would give the answer away). */
   | { kind: 'picture'; emoji: string; word?: string }
+  /** Tens and ones: bars of ten and single squares (place value). */
+  | { kind: 'blocks'; tens: number; ones: number }
   /** Two pictures with their words (the rhyming teach card). */
   | { kind: 'pair'; a: { emoji: string; word: string }; b: { emoji: string; word: string } }
 
