@@ -9,124 +9,87 @@
 
 <p align="center"><b>Every day a little brighter.</b></p>
 
-Becoming Bright Studio is a free learning home screen for children aged about 4–10. Parents install it from a
-browser link on an Amazon Fire, Android tablet or iPad. Each day brings a few short missions. Stars from missions
-earn screen time, mistakes come back until they are understood, and a learning garden grows as skills are mastered.
-Everything stays on the family's own device: no accounts, no tracking, no server.
-
-**The idea behind the name.** Learning is a sunrise. It doesn't happen all at once: it grows a little each day.
-The logo shows that moment. A night-blue sky warms into dawn, the sun comes up over the hill, and a young sprout
-opens two leaves, coral for the child and teal for the parent who helps it grow.
-
-Based on [Kids' Learning Studio](https://github.com/Oluwasedago/kids-learning-studio) by Oluwasedago (MIT), with
-the improvements listed below.
-
-> **Status: in development.** Usable for testing. The Yoruba translation has not yet been checked by a native
-> speaker, and several items still need checking on real devices (see [ROADMAP.md](ROADMAP.md)).
-
-## Try it
+**Short lessons that explain themselves, one skill at a time, for children aged 5 to 7.** It works in the browser
+and does not block other apps. Everything stays on the family's device: no accounts, no tracking, no videos.
 
 - **Install:** https://ciaosiyoku.github.io/becoming-bright-studio/install.html (steps for your device, QR code)
 - **Open the app:** https://ciaosiyoku.github.io/becoming-bright-studio/
-- **Try the demo** (made-up data, parent PIN 1234): https://ciaosiyoku.github.io/becoming-bright-studio/?demo
 
-Every push to `main` is checked, built and published to GitHub Pages by `.github/workflows/deploy.yml`.
-See [INSTALL.md](INSTALL.md).
+> **Version 1, in testing.** It has passed its automated tests and been clicked through in a browser, but no child
+> has used it yet ([docs/CHILD-TEST.md](docs/CHILD-TEST.md)). German, French and Yoruba have not yet been read
+> aloud by native speakers.
 
-## How a child grows brighter
+The original [Kids' Learning Studio](https://github.com/Oluwasedago/kids-learning-studio) by Oluwasedago was a
+strong shell with a weak lesson. This version is the opposite: **a short lesson that explains itself, and a parent
+page that doesn't pretend to be a lock.** The earlier, bigger version (map, radio, games, 58 skills) is kept in the
+[`v0-full-shell`](https://github.com/ciaosiyoku/becoming-bright-studio/tree/v0-full-shell) tag.
 
-- **Short daily missions.** Rounds of 10, 25 or 50 questions (the parent chooses) in maths, English, the world and
-  patterns. 70 % right passes and earns a star per 10 questions. Lessons follow the child's school class
-  (Cambridge, England, US, Germany or Nigeria) on a ladder of 58 skills up to Stage 6, and adapt: two strong rounds
-  move up a step, a weak round moves down.
-- **Mistakes become lessons.** After a wrong answer, the right one turns green with the sum worked out and a reason
-  where there is one ("The ones digit is 4: less than 5, so round down to 30"). The question then goes into the
-  **review boxes** and comes back tomorrow, then after 3, 7 and 21 days, until it is known (spaced practice, the
-  Leitner system). Up to a fifth of each round is these "Try again" questions.
-- **Answers that can't be guessed.** From Stage 1, every other number question is answered on a number pad.
-- **A learning garden.** Every skill practised is a seedling on the Learn screen; it becomes a tree once known.
-  It shows learning growing for its own sake, not only stars and minutes.
-- **A learning streak.** Days in a row with a passed mission, with streak freezes and milestones.
-- **Stars earn time.** Each star unlocks minutes for games and videos, up to a daily limit the parent sets.
-- **Games:** memory, word builder, picture puzzle, snake and code breaker.
-- **Media:** children's radio, classic stories read aloud (public domain), a video library from official channels
-  and live animal cams, and YouTube videos a parent adds. **Family calls:** one tap to call someone.
-- **Library and world map:** real photos of 40 animals and 40 famous places; tap any country on the map for its
-  flag, capital, people, languages and money.
-- **Four languages:** English, Deutsch, Français and **Yorùbá**. The English lessons stay in English.
+## One session, one skill
 
-## For parents
+Written down before any code in the [learning contract](docs/LEARNING-CONTRACT.md):
 
-- **Two layers of control:** every item can be hidden, and every visible item is either open or earned (locked
-  until missions are done). A parent can unlock something for today with the PIN.
-- **Reports** for a day, week or month: active days, stars, minutes, **how well each skill is known**
-  (Known / Practising / Needs help), questions waiting in the review boxes, questions learnt from mistakes, and
-  recent wrong answers. Sent from the parent's own mail app.
-- **Settings for how it teaches:** show the answer and why after a mistake (on by default) or keep it hidden;
-  typed number answers on or off.
-- **Safe PIN:** stored only as a salted hash. Wrong tries are remembered even if the pad is closed or the app
-  reloaded, and the wait grows after each 5 wrong tries (30 s, 2 min, 10 min, 30 min). A recovery code or a 24-hour
-  reset handles a forgotten PIN.
-- **Clock-change guard:** turning the device clock forward used to give a fresh day of screen time. Now, when the
-  clock goes back past a time the app has already seen, earned time pauses and the parent screen explains why.
-- **Backup and restore** in one file. Backups from Kids' Learning Studio restore here too.
+1. **Teach card:** one picture or number line, one sentence, read aloud.
+2. **Two guided tries:** the child answers, then sees the right answer and a one-line reason. These don't count.
+3. **Five checks:** one try each, then the reason. **4 of 5 means mastered**, and the next skill opens.
 
-## What changed from Kids' Learning Studio
+After every answer, the right one turns green and the reason stays on screen until the child taps **Next**, which
+unlocks after a moment. Nothing moves on by itself, so red never means "go faster".
 
-| Area | Change |
-|---|---|
-| Learning | Review boxes (spaced practice) for every wrong answer; the right answer and why after a mistake; typed number answers; the level follows new questions only |
-| Motivation | Learning garden on the Learn screen |
-| Reports | Skill mastery for the last 30 days; review-box figures |
-| Security | PIN lockout kept across closing and reloading, with growing waits; device-clock guard |
-| Language | Yoruba: app, lessons, facts, places, animals, map, code breaker |
-| Fix | A right answer now turns green (there was no style for it) |
-| Brand | New name, logo (sunrise and sprout) and theme |
+**Twelve skills:** count to 5 and to 10, one more, one less, add within 5 and 10, take away within 5 and 10, which
+is bigger, first sounds, "a" or "an", rhyming pictures. Numbers are made fresh each time so answers can't be learnt
+by heart. A test checks that every question has **exactly one right answer** in every language shipped.
 
-Download size was measured and left as it is: the main script is about 150 KB compressed. Splitting it by language
-or screen would save little (all four languages are about 12 KB compressed), and the offline cache only keeps files
-that have been opened, so a split-off part would be missing offline.
+## For grown-ups
 
-## Privacy
+- **One screen, behind a PIN:** each child's misses today with the right answers, skills learnt, children, a
+  **games allowed** switch, language, backup, and changing the PIN.
+- **PIN:** stored as a salted hash. A **recovery code** is shown once at setup, with a Print button. There is no
+  24-hour reset: without the code, the way back is starting again from a backup (backups never hold the PIN).
+- **Backup** in one file, with an automatic reminder once a week.
+- **Several children** on one device: each with a name, a colour and their own progress. One PIN for the family.
+- **Reward:** only when games are allowed, a learnt skill unlocks a **5-minute memory game made of that skill's own
+  questions** ("3 + 2" pairs with "5"). No YouTube, no video, no internet.
+- **Languages:** English, Deutsch, Français, Yorùbá. The English sound and word lessons stay in English.
 
-Everything the child does is saved only on the device (in the browser's own storage). There are no accounts,
-no analytics and no adverts. The app contacts other services only when the child plays something from them: the
-radio station's stream, the Internet Archive for stories, and YouTube for videos. Reports leave the device only
-when a parent sends them from their own mail app.
+## What it is not
 
-## Credits and licences
-
-- Code: [MIT](LICENSE). Original project: Kids' Learning Studio by Oluwasedago.
-- Logo: original artwork, MIT with the code ([brand/](brand/README.md)); drawn by `scripts/make-brand.mjs`.
-- Pictures: [Microsoft Fluent Emoji](public/emoji/CREDITS.md) (MIT). Photos: [Wikimedia Commons](public/photos/CREDITS.md),
-  free licences, credited in the app. Fonts: Andika and Fredoka (SIL Open Font License).
-- Stories: LibriVox recordings (public domain) via the Internet Archive. Radio: Die Maus (WDR), Fun Kids,
-  Mon Petit France Inter (Radio France), Babyradio. Details: [docs/CONTENT.md](docs/CONTENT.md).
-- World map: [Natural Earth](https://www.naturalearthdata.com/) (public domain); population:
-  [World Bank](https://data.worldbank.org/) (CC BY 4.0); country facts:
-  [mledoze/countries](https://github.com/mledoze/countries) (ODbL); flags: [flag-icons](https://github.com/lipis/flag-icons)
-  (MIT); Yoruba country, language and money names from the browser (Unicode CLDR). Details: [src/maps/data/SOURCES.md](src/maps/data/SOURCES.md).
+- Not a lock. Keeping a child in one app is a device setting (Guided Access on iPad, App pinning on Android). A
+  bedtime or home-screen lock would be a native app, a later product.
+- Not a video app, and no radio, map or ads.
+- No server and no accounts.
 
 ## For contributors
 
-You need [Node.js](https://nodejs.org) 24 or newer.
+Node 22+, Vite, React, TypeScript, Vitest.
 
 ```sh
 npm install        # once
 npm run dev        # the app at http://localhost:5173 (install page: /install.html)
-npm test           # unit tests (including every lesson question in every language)
-npm run lint       # code checks
+npm test           # unit tests, including every question of every skill in every language
+npm run lint
 npm run build      # the finished site in dist/
 ```
 
-Before your first commit, turn on the privacy check (it blocks private words and secrets):
+Every push to `main` is checked, built and published to GitHub Pages by `.github/workflows/deploy.yml`.
 
-```sh
-git config core.hooksPath .githooks
-cp .private-words.example.txt .private-words.txt   # then list your own family's names, school, etc.
-```
+| Where | What |
+|---|---|
+| `docs/LEARNING-CONTRACT.md` | Who it's for, one session, what the parent sees, what it won't do, the session on paper |
+| `docs/CHILD-TEST.md` | How to test a skill with one child, and what to change for what you see |
+| `src/skills/*.json` | One file per skill: its words in each language and its question maker |
+| `src/skills/generate.ts` | The question makers and teach cards |
+| `src/lesson/` | The session (teach, guided, checks) and its screen |
+| `src/parent/` | PIN, recovery code, the grown-ups' screen |
+| `src/games/` | The memory game a learnt skill unlocks |
+| `src/i18n/` | Every sentence, one file per language |
+| `src/app/state.ts` | The one document saved on the device (one IndexedDB key) |
 
-Where things are: `src/lessons` (skills ladders, review boxes in `review.ts`), `src/missions`, `src/progress`
-(stars, streak, learning garden), `src/access`, `src/games`, `src/media`, `src/parent`, `src/reports`, `src/data`
-(storage, backup), `src/i18n` (every text, per language), `brand/` (logo). How it fits together:
-[docs/product-map.html](docs/product-map.html).
+**Adding a skill:** add a JSON file (copy one of the same kind) and list it in `src/skills/index.ts`, then run
+`npm test`. **Adding a language:** copy `src/i18n/en.ts`, add the skill texts, and have a native speaker read every
+child-facing sentence aloud first.
+
+## Credits and licence
+
+Code: [MIT](LICENSE), based on Kids' Learning Studio by Oluwasedago. Logo: original, drawn by
+`scripts/make-brand.mjs` ([brand/](brand/README.md)). Pictures: [Microsoft Fluent Emoji](public/emoji/CREDITS.md)
+(MIT). Fonts: Andika and Fredoka (SIL Open Font License).
