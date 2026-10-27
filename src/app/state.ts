@@ -1,4 +1,5 @@
 import type { Lang } from '@/i18n'
+import type { PinHash } from '@/parent/pin'
 
 // The app state: one document, saved on the device under one key (STATE_KEY, see store.tsx). Pure helpers,
 // tested in state.test.ts. Adding a field later: give it a default in emptyState/newChild; withDefaults fills
@@ -39,8 +40,21 @@ export interface Child {
   misses: Miss[]
 }
 
+/** Family-level settings: one PIN for the whole family, whichever child is using the app. */
+export interface Family {
+  /** The parent PIN, stored only as a salted hash (parent/pin.ts). null until it is chosen. */
+  pin: PinHash | null
+  /** The recovery code for a forgotten PIN, stored only as a hash. */
+  recovery: PinHash | null
+  /** Wrong PIN tries and the wait they started (parent/pin.ts). */
+  pinLock: { wrong: number; until: number }
+  /** A mastered skill unlocks a short memory game made of its pictures. Off until a parent turns it on. */
+  gamesAllowed: boolean
+}
+
 export interface AppState {
   version: number
+  family: Family
   children: Child[]
   /** The child using the app now. */
   activeChild: string | null
@@ -54,7 +68,9 @@ export interface AppState {
 export const MAX_MISSES = 300
 export const COLOURS = ['#5b6cf0', '#e2557e', '#178c84', '#e08a1e', '#8b5cf6', '#22a06b'] as const
 
-export const emptyState = (): AppState => ({ version: STATE_VERSION, children: [], activeChild: null, lang: null, lastBackupAt: null, updatedAt: 0 })
+export const emptyFamily = (): Family => ({ pin: null, recovery: null, pinLock: { wrong: 0, until: 0 }, gamesAllowed: false })
+
+export const emptyState = (): AppState => ({ version: STATE_VERSION, family: emptyFamily(), children: [], activeChild: null, lang: null, lastBackupAt: null, updatedAt: 0 })
 
 export function newChild(name: string, colour: string, id: string = crypto.randomUUID()): Child {
   return { id, name: name.trim(), colour, skills: {}, misses: [] }
@@ -67,6 +83,7 @@ export function withDefaults(saved: unknown): AppState {
   const base = emptyState()
   if (!isObject(saved)) return base
   const state = { ...base, ...saved } as AppState
+  state.family = { ...emptyFamily(), ...(isObject(saved.family) ? saved.family : {}) }
   state.children = Array.isArray(saved.children) ? saved.children.filter(isObject).map((c) => ({ ...newChild('', COLOURS[0], String(c.id ?? crypto.randomUUID())), ...c }) as Child) : []
   if (!state.children.some((c) => c.id === state.activeChild)) state.activeChild = state.children[0]?.id ?? null
   return state

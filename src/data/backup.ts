@@ -2,6 +2,8 @@ import { type AppState, isoDate, withDefaults } from '@/app/state'
 
 // Backup and restore in one file (the idea of the original Kids' Learning Studio): the children and their
 // progress, saved by the parent wherever they like. There is no server, so this is the only copy off the device.
+// The file never holds the PIN or the recovery code: restoring it is also the way back in when both are lost,
+// and the parent then chooses a new PIN.
 // A reminder appears on the home and parent screens once a week (BACKUP_EVERY_DAYS). Pure, tested.
 
 export const BACKUP_APP = 'becoming-bright-studio'
@@ -26,11 +28,12 @@ export class BackupError extends Error {
 
 /** The backup file's text. */
 export function makeBackup(state: AppState, now = new Date()): string {
-  const file: BackupFile = { app: BACKUP_APP, format: BACKUP_FORMAT, savedAt: now.toISOString(), state }
+  const family = { ...state.family, pin: null, recovery: null, pinLock: { wrong: 0, until: 0 } }
+  const file: BackupFile = { app: BACKUP_APP, format: BACKUP_FORMAT, savedAt: now.toISOString(), state: { ...state, family } }
   return JSON.stringify(file, null, 1)
 }
 
-/** The state in a backup file, or a BackupError saying what is wrong with it. */
+/** The state in a backup file (without a PIN), or a BackupError saying what is wrong with it. */
 export function parseBackup(text: string): AppState {
   let raw: unknown
   try {

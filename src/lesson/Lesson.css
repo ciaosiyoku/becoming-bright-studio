@@ -36,20 +36,6 @@
   max-width: 40rem;
   color: var(--ink);
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  align-items: center;
-}
-.row.center {
-  justify-content: center;
-}
-button.big {
-  min-height: 4.6rem;
-  padding: 0 2.4rem;
-  font-size: 1.4rem;
-}
 button.round {
   width: var(--tap);
   padding: 0;

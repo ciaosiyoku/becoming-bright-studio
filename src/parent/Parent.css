@@ -20,9 +20,27 @@
 .parent-card.due {
   box-shadow: 0 0 0 3px var(--amber), var(--shadow);
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.7rem;
-  align-items: center;
+.misses {
+  width: 100%;
+  border-collapse: collapse;
+}
+.misses th,
+.misses td {
+  padding: 0.45rem 0.5rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+.misses th {
+  font-family: var(--display);
+  color: var(--muted);
+  font-weight: 600;
+}
+.misses .given {
+  color: var(--red);
+  font-weight: 700;
+}
+.misses .answer {
+  color: var(--mint);
+  font-weight: 700;
 }

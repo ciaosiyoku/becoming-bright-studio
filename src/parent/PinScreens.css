@@ -1,0 +1,92 @@
+.pin-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  overflow-y: auto;
+  background: color-mix(in srgb, var(--ink) 35%, transparent);
+}
+.pin-card {
+  position: relative;
+  width: min(24rem, 100%);
+  display: grid;
+  justify-items: center;
+  gap: 0.8rem;
+  text-align: center;
+}
+.pin-close {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  width: var(--tap);
+  padding: 0;
+  border-radius: 50%;
+}
+.pin-dots {
+  display: flex;
+  gap: 0.8rem;
+}
+.pin-dots i {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+  background: var(--sunken);
+}
+.pin-dots i.on {
+  background: var(--accent);
+}
+.pin-error {
+  color: var(--red);
+  font-weight: 700;
+}
+.pin-keys {
+  display: grid;
+  grid-template-columns: repeat(3, var(--tap));
+  gap: 0.6rem;
+}
+.pin-keys button {
+  padding: 0;
+  font-size: 1.5rem;
+}
+.link-button {
+  min-height: 2.6rem;
+  background: none;
+  box-shadow: none;
+  color: var(--accent-deep);
+  text-decoration: underline;
+}
+.recovery-card {
+  width: min(32rem, 100%);
+}
+.recovery-code {
+  font-family: ui-monospace, 'Cascadia Mono', Menlo, monospace;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--ink);
+  user-select: text;
+}
+.forgot {
+  width: min(30rem, 100%);
+}
+
+/* Printing the recovery code: only the code card, nothing else on the page. */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .recovery-card,
+  .recovery-card * {
+    visibility: visible;
+  }
+  .recovery-card {
+    position: absolute;
+    inset: 0 auto auto 0;
+    box-shadow: none;
+  }
+  .recovery-card button {
+    display: none;
+  }
+}

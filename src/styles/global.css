@@ -164,3 +164,29 @@ input {
 .muted {
   color: var(--muted);
 }
+
+/* Shared layout pieces. */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  align-items: center;
+}
+.row.center {
+  justify-content: center;
+}
+button.big {
+  min-height: 4.6rem;
+  padding: 0 2.4rem;
+  font-size: 1.4rem;
+}
+.field {
+  display: grid;
+  gap: 0.35rem;
+  width: 100%;
+  text-align: left;
+}
+.field > span {
+  font-weight: 700;
+  color: var(--ink);
+}
