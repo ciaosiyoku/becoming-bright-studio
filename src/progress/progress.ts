@@ -1,6 +1,9 @@
 import { type ItemId, SUBJECTS, type Subject } from '@/access/catalogue'
 import { type AccessRule, MAX_MISTAKES, type Mistake, type Progress, type Score } from '@/data/types'
+import type { Lang } from '@/i18n'
 import { adapt, clampLevel, LADDERS, levelRange, passMark, starsFor, startLevel } from '@/lessons/ladder'
+import type { Question } from '@/lessons/question'
+import { updateReview } from '@/lessons/review'
 import { addDays, dayNumber, isoDate, mondayOf } from '@/shared/date'
 
 // Missions, stars and levels. Pure functions (tested in progress.test.ts).
@@ -41,11 +44,15 @@ export interface Answer {
   given: string
   answer: string
   right: boolean
+  /** The question itself and its language, for the review boxes (lessons/review.ts). */
+  question?: Question
+  lang?: Lang
 }
 
 /**
- * A finished mission round (one try per question). Every answer is counted per skill step, and wrong ones are
- * kept for the parents. The result moves the adaptive level every time (practice too). The mission is ticked
+ * A finished mission round (one try per question). Every answer is counted per skill step, wrong ones are
+ * kept for the parents and go into the review boxes (lessons/review.ts), and right answers move questions
+ * already in the boxes up. The result moves the adaptive level every time (practice too). The mission is ticked
  * off only when it is passed (passMark) and is one of the day's missions not yet done; it then gives one star
  * per 10 questions (starsFor), so a longer mission earns more time.
  */
@@ -53,7 +60,10 @@ export function completeMission(p: Progress, subject: Subject, answers: Answer[]
   const now = opts.now ?? Date.now()
   const date = isoDate(opts.day)
   const score: Score = { right: answers.filter((a) => a.right).length, total: answers.length }
-  const share = score.total > 0 ? score.right / score.total : 0
+  // The level follows the new questions only: questions from the review boxes are the child's hardest ones.
+  const fresh = answers.filter((a) => !a.question?.review)
+  const counted = fresh.length > 0 ? fresh : answers
+  const share = counted.length > 0 ? counted.filter((a) => a.right).length / counted.length : 0
   const level = levelOf(p, subject, opts.stage)
   // The level moves with the results, but stays within a stage of the class (levelRange).
   const range = levelRange(subject, opts.stage)
@@ -72,8 +82,17 @@ export function completeMission(p: Progress, subject: Subject, answers: Answer[]
     ...answers.filter((a) => !a.right).map((a) => ({ day: date, subject, step: a.step, prompt: a.prompt, given: a.given, answer: a.answer })),
   ].slice(-MAX_MISTAKES)
 
+  const reviewed = updateReview(
+    p.review,
+    subject,
+    answers.flatMap((a) => (a.question && a.lang ? [{ question: a.question, lang: a.lang, right: a.right }] : [])),
+    opts.day,
+  )
+
   const out: Progress = {
     ...p,
+    review: reviewed.items,
+    mastered: reviewed.mastered > 0 ? { ...p.mastered, [date]: (p.mastered[date] ?? 0) + reviewed.mastered } : p.mastered,
     levels: { ...p.levels, [subject]: next.level },
     recent: { ...p.recent, [subject]: next.recent },
     scores: better ? { ...p.scores, [date]: { ...p.scores[date], [subject]: score } } : p.scores,

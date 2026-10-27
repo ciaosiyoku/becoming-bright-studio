@@ -39,6 +39,8 @@ export interface LessonText {
   secondsIn: (minutes: number) => string
   digitWorth: (digit: number, n: number) => string
   roundTo: (n: number, to: 10 | 100) => string
+  /** Why a number rounds the way it does, shown after a wrong answer: the deciding digit and the result. */
+  roundWhy: (digit: number, to: 10 | 100, result: number) => string
   percentOf: (percent: number, n: number) => string
   /** A calculation shown as it is written ("3 + 4 × 2", "7²"). */
   calc: (expr: string) => string
@@ -80,6 +82,7 @@ export const LESSON_EN: LessonText = {
   secondsIn: (m) => `How many seconds are in ${plural(m, 'minute', 'minutes')}?`,
   digitWorth: (d, n) => `What is the digit ${d} worth in ${n}?`,
   roundTo: (n, to) => `Round ${n} to the nearest ${to === 10 ? 'ten' : 'hundred'}.`,
+  roundWhy: (digit, to, result) => `The ${to === 10 ? 'ones' : 'tens'} digit is ${digit}: ${digit >= 5 ? '5 or more, so round up' : 'less than 5, so round down'} to ${result}.`,
   percentOf: (p, n) => `What is ${p}% of ${n}?`,
   calc: (e) => `What is ${e}?`,
   animals: Object.fromEntries(ANIMALS.map((a) => [a.id, { name: a.name, fact: a.fact }])),

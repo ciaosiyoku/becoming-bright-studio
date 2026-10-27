@@ -33,6 +33,7 @@ export const LESSON_FR: LessonText = {
   secondsIn: (m) => `Combien y a-t-il de secondes dans ${m} ${m === 1 ? 'minute' : 'minutes'} ?`,
   digitWorth: (d, n) => `Que vaut le chiffre ${d} dans ${n} ?`,
   roundTo: (n, to) => `Arrondis ${n} à la ${to === 10 ? 'dizaine' : 'centaine'} la plus proche.`,
+  roundWhy: (digit, to, result) => `Le chiffre des ${to === 10 ? 'unités' : 'dizaines'} est ${digit} : ${digit >= 5 ? '5 ou plus, donc on arrondit au-dessus' : 'moins de 5, donc on arrondit au-dessous'}, à ${result}.`,
   percentOf: (p, n) => `Combien font ${p} % de ${n} ?`,
   calc: (e) => `Combien font ${e} ?`,
   animals: {

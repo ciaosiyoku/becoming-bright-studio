@@ -1,4 +1,10 @@
 import { int, numberQuestion, pick, type Question, type Random, shuffleIn } from './question'
+
+/** The steps between the numbers of a sequence and on to the answer ("+3  +3  +3  +3" or "×2  ×2"): shown after a wrong answer. */
+function stepsLine(items: number[], next: number, times = false): string[] {
+  const all = [...items, next]
+  return [all.slice(1).map((n, i) => (times ? `×${n / all[i]}` : n >= all[i] ? `+${n - all[i]}` : `−${all[i] - n}`)).join('   ')]
+}
 import type { Step } from './step'
 import { lessonText } from './text'
 
@@ -30,13 +36,14 @@ function sequence(r: Random, prompt: string, steps: number[], start: [number, nu
   const step = pick(r, steps)
   const first = step < 0 ? int(r, start[0], start[1]) + -step * length : int(r, start[0], start[1])
   const items = Array.from({ length }, (_, i) => first + i * step)
-  return numberQuestion(r, prompt, first + length * step, { kind: 'text', text: `${items.join(', ')}, ?` }, [Math.abs(step), -Math.abs(step), 1, -1])
+  const next = first + length * step
+  return { ...numberQuestion(r, prompt, next, { kind: 'text', text: `${items.join(', ')}, ?` }, [Math.abs(step), -Math.abs(step), 1, -1]), explain: stepsLine(items, next) }
 }
 
 function doubling(r: Random, prompt: string): Question {
   const first = int(r, 1, 5)
   const items = [first, first * 2, first * 4, first * 8]
-  return numberQuestion(r, prompt, first * 16, { kind: 'text', text: `${items.join(', ')}, ?` }, [first, -first, first * 8, 2])
+  return { ...numberQuestion(r, prompt, first * 16, { kind: 'text', text: `${items.join(', ')}, ?` }, [first, -first, first * 8, 2]), explain: stepsLine(items, first * 16, true) }
 }
 
 /** Growing steps: the step itself grows by the same amount each time (1, 3, 6, 10 … or square numbers). */
@@ -44,14 +51,16 @@ function growing(r: Random, prompt: string): Question {
   if (r() < 0.3) {
     const k = int(r, 1, 3)
     const items = [k, k + 1, k + 2, k + 3].map((x) => x * x)
-    return numberQuestion(r, prompt, (k + 4) * (k + 4), { kind: 'text', text: `${items.join(', ')}, ?` }, [2, -2, 1, -1, 9])
+    const next = (k + 4) * (k + 4)
+    return { ...numberQuestion(r, prompt, next, { kind: 'text', text: `${items.join(', ')}, ?` }, [2, -2, 1, -1, 9]), explain: stepsLine(items, next) }
   }
   const start = int(r, 1, 10)
   const step = int(r, 1, 4)
   const grow = int(r, 1, 2)
   const items = [start]
   for (let i = 0; i < 3; i++) items.push(items[i] + step + i * grow)
-  return numberQuestion(r, prompt, items[3] + step + 3 * grow, { kind: 'text', text: `${items.join(', ')}, ?` }, [grow, -grow, 1, -1, step])
+  const next = items[3] + step + 3 * grow
+  return { ...numberQuestion(r, prompt, next, { kind: 'text', text: `${items.join(', ')}, ?` }, [grow, -grow, 1, -1, step]), explain: stepsLine(items, next) }
 }
 
 export const PATTERNS: Step[] = [

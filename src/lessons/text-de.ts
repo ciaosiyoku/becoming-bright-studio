@@ -33,6 +33,7 @@ export const LESSON_DE: LessonText = {
   secondsIn: (m) => (m === 1 ? 'Wie viele Sekunden hat eine Minute?' : `Wie viele Sekunden haben ${m} Minuten?`),
   digitWorth: (d, n) => `Wie viel ist die Ziffer ${d} in ${n} wert?`,
   roundTo: (n, to) => `Runde ${n} auf ${to === 10 ? 'Zehner' : 'Hunderter'}.`,
+  roundWhy: (digit, to, result) => `Die ${to === 10 ? 'Einerstelle' : 'Zehnerstelle'} ist ${digit}: ${digit >= 5 ? '5 oder mehr, also aufrunden' : 'kleiner als 5, also abrunden'} auf ${result}.`,
   percentOf: (p, n) => `Wie viel sind ${p} % von ${n}?`,
   calc: (e) => `Wie viel ist ${e}?`,
   animals: {

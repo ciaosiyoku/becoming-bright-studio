@@ -10,7 +10,8 @@ const COUNTABLE = FRUITS.slice(0, 8)
 function count(r: Random, T: LessonText, min: number, max: number) {
   const fruit = pick(r, COUNTABLE)
   const n = int(r, min, max)
-  return numberQuestion(r, T.howMany, n, { kind: 'emoji', name: `fruit-${fruit.id}`, count: n }, [1, -1, 2, -2])
+  const q = numberQuestion(r, T.howMany, n, { kind: 'emoji', name: `fruit-${fruit.id}`, count: n }, [1, -1, 2, -2])
+  return { ...q, explain: [Array.from({ length: n }, (_, i) => i + 1).join(', ')] }
 }
 
 function add(r: Random, T: LessonText, max: number, minB = 1) {
@@ -28,7 +29,9 @@ function subtract(r: Random, T: LessonText, max: number) {
 function times(r: Random, T: LessonText, tables: number[], upTo = 10) {
   const t = pick(r, tables)
   const n = int(r, 1, upTo)
-  return numberQuestion(r, T.sum(n, '×', t), n * t, { kind: 'text', text: `${n} × ${t}` }, [t, -t, 1, -1, 2])
+  const q = numberQuestion(r, T.sum(n, '×', t), n * t, { kind: 'text', text: `${n} × ${t}` }, [t, -t, 1, -1, 2])
+  // A small times sum as adding: 3 × 4 = 4 + 4 + 4.
+  return n >= 2 && n <= 5 ? { ...q, explain: [`${Array(n).fill(t).join(' + ')} = ${n * t}`] } : q
 }
 
 /** Round a number (never already round) to the nearest 10 or 100; halves round up. */
@@ -38,9 +41,12 @@ function rounding(r: Random, T: LessonText, to: 10 | 100) {
   const down = Math.floor(n / to) * to
   const right = n - down >= to / 2 ? down + to : down
   const wrong = right === down ? [down + to, Math.max(0, down - to) === down ? down + 2 * to : down - to] : [down, right + to]
+  const digit = to === 10 ? n % 10 : Math.floor((n % 100) / 10)
   return {
     prompt: T.roundTo(n, to),
     visual: { kind: 'text' as const, text: `${n} ≈ ?` },
+    explain: [T.roundWhy(digit, to, right)],
+    number: right,
     ...shuffleIn(r, { label: String(right) }, wrong.map((v) => ({ label: String(v) }))),
   }
 }

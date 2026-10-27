@@ -1,5 +1,6 @@
-// A question: a prompt (shown and read aloud), an optional picture, and big answer buttons.
-// A wrong tap is simply tried again; "right at the first try" counts for the score and the adaptive level.
+// A question: a prompt (shown and read aloud), an optional picture, and big answer buttons (or a number pad for
+// a question with a number answer). One try each; after a wrong answer the right one can be shown with why
+// (a parent setting), and the question goes into the review boxes (review.ts) to come back on later days.
 
 export type Visual =
   | { kind: 'emoji'; name: string; count?: number }
@@ -23,6 +24,36 @@ export interface Question {
   answer: number
   /** The ladder step it came from (set by makeRound). */
   step?: string
+  /** The right answer as a whole number (set by numberQuestion): such a question can also be answered by typing. */
+  number?: number
+  /** Extra lines shown after a wrong answer, in the question's language ("7 + 7 + 7 = 21"). See workedLine too. */
+  explain?: string[]
+  /** A question brought back from the review boxes (lessons/review.ts). */
+  review?: boolean
+}
+
+/** The same question is the same prompt, picture and right answer, whatever the order of the buttons. */
+export const questionKey = (q: Question) => JSON.stringify([q.prompt, q.visual, q.choices[q.answer]])
+
+/** The right answer as words or numbers, or null when it is only a picture. */
+export function answerLabel(q: Question): string | null {
+  const c = q.choices[q.answer]
+  if (!c) return null
+  if (c.label !== undefined) return c.label
+  return c.visual?.kind === 'text' ? c.visual.text : null
+}
+
+/**
+ * The sum shown in the question, worked out: "8 × 7" → "8 × 7 = 56", "34 ≈ ?" → "34 ≈ 30", "4, ?" → "4, 5".
+ * null when the picture is not a calculation (a word, a lone number, a photo). Pure (tested).
+ */
+export function workedLine(q: Question): string | null {
+  const answer = answerLabel(q)
+  if (q.visual?.kind !== 'text' || answer === null) return null
+  const text = q.visual.text
+  if (text.includes('?')) return text.replace('?', answer)
+  if (/[+−×÷²%]/.test(text)) return `${text} = ${answer}`
+  return null
 }
 
 /** Returns 0 ≤ n < 1, like Math.random (replaceable in tests). */
@@ -68,7 +99,8 @@ export function numberQuestion(r: Random, prompt: string, right: number, visual?
     if (n >= 0 && n !== right && !wrong.includes(n)) wrong.push(n)
   }
   for (let n = right + 3; wrong.length < 2; n++) if (!wrong.includes(n)) wrong.push(n)
-  return { prompt, visual, ...shuffleIn(r, { label: String(right) }, wrong.map((n) => ({ label: String(n) }))) }
+  const number = Number.isInteger(right) && right >= 0 ? right : undefined
+  return { prompt, visual, number, ...shuffleIn(r, { label: String(right) }, wrong.map((n) => ({ label: String(n) }))) }
 }
 
 /** Seeded random numbers (mulberry32), for tests. */

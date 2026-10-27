@@ -3,7 +3,8 @@ import type { Lang } from '@/i18n'
 import { ENGLISH } from './english'
 import { MATHS } from './maths'
 import { PATTERNS } from './patterns'
-import type { Question, Random } from './question'
+import { dueReview, mixIn, REVIEW_SHARE, type ReviewItem, reviewQuestion } from './review'
+import { type Question, questionKey, type Random } from './question'
 import type { Step } from './step'
 import { WORLD } from './world'
 
@@ -108,16 +109,16 @@ export const QUESTIONS_PER_MISSION = MISSION_LENGTHS[0]
  * A mission round: a tenth warm-up questions from the step below (revision), then questions from the current
  * step, no question twice. When the current step has no new questions left (a long round on a small step,
  * like "a" or "an"), it goes on with revision from the steps below, and only then repeats a question, never
- * twice in a row. Pure with a seeded `r` (tested).
+ * twice in a row. Questions whose key is in `avoid` are not made. Pure with a seeded `r` (tested).
  */
-export function makeRound(subject: Subject, level: number, r: Random = Math.random, count: number = QUESTIONS_PER_MISSION, lang: Lang = 'en'): Question[] {
+export function makeRound(subject: Subject, level: number, r: Random = Math.random, count: number = QUESTIONS_PER_MISSION, lang: Lang = 'en', avoid: Iterable<string> = []): Question[] {
   const steps = LADDERS[subject]
   const at = Math.max(0, Math.min(level, steps.length - 1))
   const warmUps = at > 0 ? Math.round(count / 10) : 0
   const out: Question[] = []
-  // The same question is the same prompt, picture and right answer, whatever the order of the buttons.
-  const key = (q: Question) => JSON.stringify([q.prompt, q.visual, q.choices[q.answer]])
-  const seen = new Set<string>()
+  const key = questionKey
+  // `avoid`: questions already in the round from elsewhere (the review boxes).
+  const seen = new Set<string>(avoid)
   /** Adds up to `n` new questions from a step; gives up on the step after many tries without a new one. */
   const fill = (step: Step, n: number, unique: boolean) => {
     for (let added = 0, misses = 0; added < n && misses < 60; ) {
@@ -137,4 +138,27 @@ export function makeRound(subject: Subject, level: number, r: Random = Math.rand
   for (let below = at - 1; below >= 0 && out.length < count; below--) fill(steps[below], count - out.length, true)
   if (out.length < count) fill(steps[at], count - out.length, false)
   return out
+}
+
+/** The language a subject's questions are written in: the English lessons are always in English. */
+export const questionLang = (subject: Subject, lang: Lang): Lang => (subject === 'english' ? 'en' : lang)
+
+/**
+ * A mission round: questions from the review boxes that are due (up to REVIEW_SHARE of the round, see
+ * review.ts) spread through a new round from makeRound. Pure with a seeded `r` (tested).
+ */
+export function missionRound(subject: Subject, level: number, count: number, lang: Lang, review: readonly ReviewItem[], today: string, r: Random = Math.random): Question[] {
+  const due = dueReview(review, subject, questionLang(subject, lang), today, Math.floor(count * REVIEW_SHARE))
+  const fresh = makeRound(
+    subject,
+    level,
+    r,
+    count - due.length,
+    lang,
+    due.map((d) => d.key),
+  )
+  return mixIn(
+    fresh,
+    due.map((d) => reviewQuestion(d, r)),
+  )
 }

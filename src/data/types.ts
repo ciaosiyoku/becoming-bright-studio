@@ -1,6 +1,7 @@
 import type { ItemId, Subject } from '@/access/catalogue'
 import type { Lang } from '@/i18n'
 import type { SchoolSystem } from '@/lessons/classes'
+import type { ReviewItem } from '@/lessons/review'
 import type { ThemeMode } from '@/shared/theme'
 
 // The documents saved on the device (IndexedDB, see kv.ts). All three go into a backup file.
@@ -135,6 +136,10 @@ export interface Progress {
   levels: Partial<Record<Subject, number>>
   /** Recent results per subject (share right at first try, 0-1, newest last): drives the adaptive level. */
   recent: Partial<Record<Subject, number[]>>
+  /** Questions answered wrong, waiting to be asked again on later days (the review boxes: lessons/review.ts). */
+  review: ReviewItem[]
+  /** Questions that left the review boxes as known, per day ("YYYY-MM-DD" → count): for reports. */
+  mastered: Record<string, number>
   updatedAt: number
 }
 
@@ -177,7 +182,7 @@ export const DEFAULT_SETTINGS: Settings = {
   updatedAt: 0,
 }
 
-export const EMPTY_PROGRESS: Progress = { stars: {}, missions: {}, scores: {}, attempts: {}, mistakes: [], levels: {}, recent: {}, updatedAt: 0 }
+export const EMPTY_PROGRESS: Progress = { stars: {}, missions: {}, scores: {}, attempts: {}, mistakes: [], levels: {}, recent: {}, review: [], mastered: {}, updatedAt: 0 }
 
 export const MAX_MISTAKES = 200
 export const EMPTY_USAGE: Usage = { days: {}, earnedUsed: {}, lastSeen: 0, updatedAt: 0 }
