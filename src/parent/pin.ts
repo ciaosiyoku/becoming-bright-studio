@@ -53,3 +53,30 @@ export const RESET_WAIT_MS = 24 * 60 * 60 * 1000
 
 /** When a requested reset becomes possible (ms since 1970). */
 export const resetReadyAt = (requestedAt: number) => requestedAt + RESET_WAIT_MS
+
+// ---- Wrong tries ----
+// The count of wrong tries and the wait are kept in the settings, not only on the screen: closing and opening the
+// PIN pad, or reloading the app, does not start the count again. Each block of 5 wrong tries waits longer.
+
+export interface PinLock {
+  /** Wrong tries since the last right PIN. */
+  wrong: number
+  /** No PIN is checked before this time (ms since 1970). */
+  until: number
+}
+
+export const NO_LOCK: PinLock = { wrong: 0, until: 0 }
+export const TRIES_PER_BLOCK = 5
+/** The wait after the 1st, 2nd, 3rd, 4th (and every later) block of wrong tries. */
+export const LOCK_WAITS_MS = [30_000, 2 * 60_000, 10 * 60_000, 30 * 60_000] as const
+
+/** Seconds still to wait, or 0 when a PIN can be tried now. */
+export const lockSecondsLeft = (lock: PinLock, now: number) => Math.max(0, Math.ceil((lock.until - now) / 1000))
+
+/** One more wrong try: after every TRIES_PER_BLOCK wrong tries a wait starts, longer each time. Pure (tested). */
+export function afterWrongPin(lock: PinLock, now: number): PinLock {
+  const wrong = lock.wrong + 1
+  if (wrong % TRIES_PER_BLOCK !== 0) return { wrong, until: lock.until }
+  const block = wrong / TRIES_PER_BLOCK
+  return { wrong, until: now + LOCK_WAITS_MS[Math.min(block, LOCK_WAITS_MS.length) - 1] }
+}

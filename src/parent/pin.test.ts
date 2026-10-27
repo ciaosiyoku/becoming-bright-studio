@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { hashPin, makePin, newRecoveryCode, normalizeCode, pinMatches, RESET_WAIT_MS, resetReadyAt } from './pin'
+import { afterWrongPin, hashPin, lockSecondsLeft, makePin, NO_LOCK, newRecoveryCode, normalizeCode, pinMatches, RESET_WAIT_MS, resetReadyAt } from './pin'
 
 describe('parent PIN', () => {
   it('stores a salted hash and checks a PIN against it', async () => {
@@ -23,5 +23,29 @@ describe('parent PIN', () => {
   it('a reset without the code waits 24 hours', () => {
     expect(resetReadyAt(1000)).toBe(1000 + RESET_WAIT_MS)
     expect(RESET_WAIT_MS).toBe(86_400_000)
+  })
+})
+
+describe('wrong PIN tries', () => {
+  const tries = (n: number, now = 0) => {
+    let lock = NO_LOCK
+    for (let i = 0; i < n; i++) lock = afterWrongPin(lock, now)
+    return lock
+  }
+  it('waits 30 seconds after 5 wrong tries, not before', () => {
+    expect(lockSecondsLeft(tries(4), 0)).toBe(0)
+    expect(lockSecondsLeft(tries(5), 0)).toBe(30)
+    expect(lockSecondsLeft(tries(5), 29_500)).toBe(1)
+    expect(lockSecondsLeft(tries(5), 30_000)).toBe(0)
+  })
+  it('waits longer after each block of 5, up to 30 minutes', () => {
+    expect(lockSecondsLeft(tries(10), 0)).toBe(120)
+    expect(lockSecondsLeft(tries(15), 0)).toBe(600)
+    expect(lockSecondsLeft(tries(20), 0)).toBe(1800)
+    expect(lockSecondsLeft(tries(40), 0)).toBe(1800)
+  })
+  it('keeps a running wait while more tries are counted', () => {
+    const lock = afterWrongPin(tries(5, 1000), 2000)
+    expect(lock).toEqual({ wrong: 6, until: 31_000 })
   })
 })

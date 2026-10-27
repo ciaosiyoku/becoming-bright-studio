@@ -58,6 +58,8 @@ export interface Settings {
   recovery: { salt: string; hash: string; iterations: number } | null
   /** A reset asked for without the recovery code: possible 24 hours after `requestedAt`; the right PIN cancels it. */
   pinReset: { requestedAt: number } | null
+  /** Wrong PIN tries and the wait they started (see parent/pin.ts): kept here so reopening the pad does not reset it. */
+  pinLock: { wrong: number; until: number }
   access: Record<ItemId, AccessRule>
   rewards: {
     /** Missions a day (1-4). */
@@ -154,6 +156,7 @@ export const DEFAULT_SETTINGS: Settings = {
   pin: null,
   recovery: null,
   pinReset: null,
+  pinLock: { wrong: 0, until: 0 },
   // Filled by the setup wizard (access/starter.ts); this default only matters before the wizard has run.
   access: {} as Record<ItemId, AccessRule>,
   rewards: { missionsPerDay: 3, questionsPerMission: 10, minutesPerStar: 10, maxMinutesPerDay: 45, weeklyGoal: 12, weeklyReward: '' },

@@ -2,14 +2,15 @@ import { X } from 'lucide-react'
 import { type ReactNode, useState } from 'react'
 import { useStudio } from '@/app/studio'
 import { LOCALES, useLang, useT } from '@/i18n'
-import { makePin, newRecoveryCode, normalizeCode, pinMatches, resetReadyAt } from './pin'
+import { afterWrongPin, lockSecondsLeft, makePin, NO_LOCK, newRecoveryCode, normalizeCode, pinMatches, resetReadyAt } from './pin'
 import { PinPad } from './PinPad'
 
 type Step = 'enter' | 'create' | 'confirm' | 'code' | 'forgot'
 
 /**
  * Asks for the parent PIN, or (no PIN yet, or `change`) asks to choose one twice. `onOpen` runs after the right
- * PIN. After 5 wrong tries the pad waits 30 seconds, so guessing is slow.
+ * PIN. After 5 wrong tries the pad waits 30 seconds, then longer after each further 5 (pin.ts). The count is kept in
+ * the settings, so closing the pad or reloading the app does not start it again.
  * A new PIN comes with a new recovery code, shown once. "Forgot the PIN?" accepts that code, or asks for a
  * reset that is possible after 24 hours (see pin.ts); the right PIN cancels a waiting reset.
  */
@@ -18,23 +19,30 @@ export function ParentGate({ change = false, note, onOpen, onClose }: { change?:
   const { settings, updateSettings } = useStudio()
   const [step, setStep] = useState<Step>(change || !settings.pin ? 'create' : 'enter')
   const [first, setFirst] = useState('')
-  const [error, setError] = useState('')
-  const [wrong, setWrong] = useState(0)
-  const [waitUntil, setWaitUntil] = useState(0)
+  // A wait that is still running shows at once when the pad opens again.
+  const [error, setError] = useState(() => {
+    const waiting = step === 'enter' ? lockSecondsLeft(settings.pinLock, Date.now()) : 0
+    return waiting > 0 ? t.parent.wait(waiting) : ''
+  })
   const [code, setCode] = useState('')
 
   const onPin = async (pin: string) => {
-    if (Date.now() < waitUntil) return setError(t.parent.wait)
     if (step === 'enter') {
+      const waiting = lockSecondsLeft(settings.pinLock, Date.now())
+      if (waiting > 0) return setError(t.parent.wait(waiting))
       if (await pinMatches(pin, settings.pin)) {
-        // The parent is here: a reset someone else asked for is cancelled.
-        if (settings.pinReset) updateSettings((s) => ({ ...s, pinReset: null }))
+        // The parent is here: a reset someone else asked for is cancelled, and the wrong tries are forgotten.
+        if (settings.pinReset || settings.pinLock.wrong > 0) updateSettings((s) => ({ ...s, pinReset: null, pinLock: NO_LOCK }))
         return onOpen()
       }
-      const n = wrong + 1
-      setWrong(n)
-      if (n % 5 === 0) setWaitUntil(Date.now() + 30_000)
-      setError(n % 5 === 0 ? t.parent.wait : t.parent.wrongPin)
+      // Counted on the latest settings, so quick tries in a row are all counted.
+      let lock = settings.pinLock
+      updateSettings((s) => {
+        lock = afterWrongPin(s.pinLock, Date.now())
+        return { ...s, pinLock: lock }
+      })
+      const wait = lockSecondsLeft(lock, Date.now())
+      setError(wait > 0 ? t.parent.wait(wait) : t.parent.wrongPin)
     } else if (step === 'create') {
       setFirst(pin)
       setStep('confirm')
@@ -42,7 +50,7 @@ export function ParentGate({ change = false, note, onOpen, onClose }: { change?:
     } else if (pin === first) {
       const fresh = newRecoveryCode()
       const [stored, recovery] = await Promise.all([makePin(pin), makePin(normalizeCode(fresh))])
-      updateSettings((s) => ({ ...s, pin: stored, recovery, pinReset: null }))
+      updateSettings((s) => ({ ...s, pin: stored, recovery, pinReset: null, pinLock: NO_LOCK }))
       setCode(fresh)
       setStep('code')
     } else {

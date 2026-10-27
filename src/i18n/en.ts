@@ -237,7 +237,7 @@ export const en = {
     confirmPin: 'Type the PIN again',
     wrongPin: 'That PIN is not right.',
     pinsDiffer: 'The two PINs were different. Please choose again.',
-    wait: 'Too many tries. Please wait 30 seconds.',
+    wait: (seconds: number) => `Too many tries. Please wait ${seconds < 60 ? `${seconds} seconds` : seconds < 120 ? '1 minute' : `${Math.ceil(seconds / 60)} minutes`}.`,
     deleteDigit: 'Delete',
     child: 'Your child',
     rewards: 'Missions and rewards',
