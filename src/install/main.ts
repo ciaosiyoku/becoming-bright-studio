@@ -35,12 +35,16 @@ function qr(text: string): string {
   return code.createSvgTag({ cellSize: 5, margin: 2, scalable: true })
 }
 
+/** Where the source code lives: the original project until this one is published (then change it here). */
+const SOURCE_URL = 'https://github.com/Oluwasedago/kids-learning-studio'
+
 const root = document.getElementById('install')!
 root.innerHTML = `
   <header>
     <img src="./icons/icon.svg" alt="" width="96" height="96" />
     <div>
       <h1>${esc(t.install.title)}</h1>
+      <p class="tagline">${esc(t.tagline)}</p>
       <p>${esc(t.install.intro)}</p>
     </div>
   </header>
@@ -75,6 +79,6 @@ root.innerHTML = `
   </section>
   <footer>
     <p>${esc(t.appName)} · ${esc(t.developedBy)} · ${esc(t.about.licence)}</p>
-    <p><a href="https://github.com/Oluwasedago/kids-learning-studio">${esc(t.install.source)}</a></p>
+    <p><a href="${SOURCE_URL}">${esc(t.install.source)}</a></p>
   </footer>
 `

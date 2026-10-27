@@ -6,6 +6,7 @@ import type { Settings } from './types'
 // Drive, email to themselves…). Restoring replaces everything on this device. The file holds the child's
 // first name, birth month and year, progress and the hashed parent PIN, so it should be kept private.
 
+// Kept from Kids' Learning Studio, so its backups restore here (and the other way round).
 export const BACKUP_APP = 'kids-learning-studio'
 export const BACKUP_FORMAT = 1
 /** The documents a backup may contain (anything else in a file is ignored). */
@@ -30,7 +31,7 @@ export async function makeBackup(now = new Date()): Promise<BackupFile> {
   return { app: BACKUP_APP, format: BACKUP_FORMAT, exportedAt: now.toISOString(), data }
 }
 
-export const backupFileName = (now = new Date()) => `kids-learning-studio-${isoDate(now)}.backup.json`
+export const backupFileName = (now = new Date()) => `becoming-bright-studio-${isoDate(now)}.backup.json`
 
 /**
  * Hands the backup file to the parent: the share sheet where the device has one for files (iPad, Android),

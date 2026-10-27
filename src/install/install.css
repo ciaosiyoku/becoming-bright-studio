@@ -79,6 +79,10 @@ header img {
 header p {
   margin: 0;
 }
+header .tagline {
+  font-weight: 700;
+  color: #c96a06;
+}
 .card {
   background: var(--card);
   border: 1px solid var(--line);

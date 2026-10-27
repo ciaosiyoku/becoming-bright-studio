@@ -163,6 +163,7 @@ function Welcome({ onStart }: { onStart: () => void }) {
       </div>
       <img src={`${import.meta.env.BASE_URL}icons/icon.svg`} alt="" width={120} height={120} />
       <h1>{t.appName}</h1>
+      <p className="welcome-tagline">{t.tagline}</p>
       <p>{t.setup.welcomeText}</p>
       <ul className="welcome-points">
         <li>

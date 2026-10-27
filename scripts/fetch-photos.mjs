@@ -7,7 +7,7 @@
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 
-const UA = 'KidsLearningStudio/1.0 (https://github.com/Oluwasedago/kids-learning-studio; photo credits)'
+const UA = 'BecomingBrightStudio/1.0 (based on https://github.com/Oluwasedago/kids-learning-studio; photo credits)'
 const sources = JSON.parse(readFileSync('src/library/photo-sources.json', 'utf8'))
 const creditsFile = 'src/library/photo-credits.json'
 const credits = existsSync(creditsFile) ? JSON.parse(readFileSync(creditsFile, 'utf8')) : {}

@@ -6,8 +6,10 @@ import type { Strings } from './en'
 const plural = (n: number, one: string, many: string) => `${n} ${n === 1 ? one : many}`
 
 export const de: Strings = {
-  appName: "Kids' Learning Studio",
-  developedBy: 'Entwickelt von Oluwasedago',
+  appName: 'Becoming Bright Studio',
+  /** The theme line, shown under the name (setup, install page). */
+  tagline: 'Jeden Tag ein bisschen heller',
+  developedBy: 'Basiert auf Kids’ Learning Studio von Oluwasedago',
   common: {
     back: 'Zurück',
     next: 'Weiter',
@@ -292,8 +294,8 @@ export const de: Strings = {
     about: 'Über die App',
   },
   setup: {
-    welcomeText: 'Ein Lern-Startbildschirm für Ihr Kind: Missionen bringen Sterne, Sterne bringen Bildschirmzeit.',
-    welcomeStars: 'Die Lektionen folgen der Klasse Ihres Kindes und werden schwerer, während es lernt.',
+    welcomeText: 'Kurze Missionen bringen Sterne, Sterne bringen Bildschirmzeit, und aus jedem Fehler wird etwas Gelerntes.',
+    welcomeStars: 'Die Lektionen folgen der Klasse Ihres Kindes, holen Schweres zurück und wachsen mit ihm wie ein Garten.',
     setUp: 'Einrichten',
     tryDemo: 'Demo ausprobieren',
     restore: 'Aus Sicherung wiederherstellen',
@@ -371,7 +373,7 @@ export const de: Strings = {
     learnt: 'aus Fehlern gelernt',
     reviewLine: (waiting: number, due: number, mastered: number) =>
       `Wiederholungskasten: ${plural(waiting, 'Frage', 'Fragen')} zum Wiederholen (${due} jetzt fällig); ${mastered} in diesem Zeitraum aus Fehlern gelernt.`,
-    footer: "Gesendet von Kids' Learning Studio. Die Daten bleiben auf dem Gerät.",
+    footer: "Gesendet von Becoming Bright Studio. Die Daten bleiben auf dem Gerät.",
   },
   backup: {
     due: 'Eine Sicherung ist fällig',
@@ -386,7 +388,7 @@ export const de: Strings = {
     private: 'Die Datei enthält den Vornamen Ihres Kindes, Geburtsmonat und -jahr sowie den Fortschritt. Behandeln Sie sie vertraulich.',
     errors: {
       'not-json': 'Diese Datei ist keine Sicherung (sie kann nicht gelesen werden).',
-      'not-ours': "Diese Datei ist keine Sicherung von Kids' Learning Studio.",
+      'not-ours': "Diese Datei ist keine Sicherung von Becoming Bright Studio.",
       'too-new': 'Diese Sicherung stammt aus einer neueren Version. Bitte aktualisieren Sie zuerst die App.',
       empty: 'In dieser Sicherung sind keine Einstellungen.',
       other: 'Die Sicherung konnte nicht wiederhergestellt werden.',
@@ -452,8 +454,8 @@ export const de: Strings = {
       'Für eine natürlichere Stimme installieren Sie eine bessere auf dem Gerät. iPad: Einstellungen → Bedienungshilfen → Gesprochene Inhalte → Stimmen → eine „Erweitert“- oder „Premium“-Stimme. Android: Einstellungen → Sprachausgabe → Google-Sprachausgabe → Sprachdaten installieren. Dann hier auswählen.',
   },
   install: {
-    title: "Kids' Learning Studio installieren",
-    intro: 'Ein kostenloser Lern-Startbildschirm für Kinder. Er ist von dieser Seite aus in etwa einer Minute installiert: ohne App-Store, ohne Konto.',
+    title: "Becoming Bright Studio installieren",
+    intro: 'Ein kostenloser Lern-Startbildschirm, mit dem Kinder jeden Tag ein bisschen heller werden. Er ist von dieser Seite aus in etwa einer Minute installiert: ohne App-Store, ohne Konto.',
     forDevice: 'Anleitung für Ihr Gerät',
     otherDevices: 'Andere Geräte',
     devices: { fire: 'Amazon Fire', android: 'Android', ipad: 'iPad', iphone: 'iPhone', computer: 'Computer' },
@@ -461,22 +463,22 @@ export const de: Strings = {
       fire: [
         'Öffnen Sie diese Seite im Silk-Browser, im Eltern-Profil (Erwachsenenprofil).',
         'Tippen Sie auf das Menü (⋮) und wählen Sie „Zum Startbildschirm hinzufügen“.',
-        'Öffnen Sie Kids’ Learning Studio vom Startbildschirm und folgen Sie der Einrichtung.',
+        'Öffnen Sie Becoming Bright Studio vom Startbildschirm und folgen Sie der Einrichtung.',
       ],
       android: [
         'Öffnen Sie diese Seite in Chrome.',
         'Tippen Sie auf das Menü (⋮) und wählen Sie „App installieren“ oder „Zum Startbildschirm hinzufügen“.',
-        'Öffnen Sie Kids’ Learning Studio vom Startbildschirm und folgen Sie der Einrichtung.',
+        'Öffnen Sie Becoming Bright Studio vom Startbildschirm und folgen Sie der Einrichtung.',
       ],
       ipad: [
         'Öffnen Sie diese Seite in Safari.',
         'Tippen Sie auf „Teilen“ (ein Quadrat mit Pfeil) und wählen Sie „Zum Home-Bildschirm“, dann „Hinzufügen“.',
-        'Öffnen Sie Kids’ Learning Studio vom Home-Bildschirm und folgen Sie der Einrichtung.',
+        'Öffnen Sie Becoming Bright Studio vom Home-Bildschirm und folgen Sie der Einrichtung.',
       ],
       iphone: [
         'Öffnen Sie diese Seite in Safari.',
         'Tippen Sie auf „Teilen“ und wählen Sie „Zum Home-Bildschirm“, dann „Hinzufügen“.',
-        'Öffnen Sie Kids’ Learning Studio vom Home-Bildschirm und folgen Sie der Einrichtung.',
+        'Öffnen Sie Becoming Bright Studio vom Home-Bildschirm und folgen Sie der Einrichtung.',
       ],
       computer: [
         'Die App ist für Tablets gemacht, aber Sie können sie hier im Browser ausprobieren.',

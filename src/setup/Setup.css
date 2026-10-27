@@ -67,6 +67,14 @@
 .welcome h1 {
   font-size: 2.2rem;
 }
+/* The theme line under the name: warm, like the sunrise in the logo. */
+.welcome .welcome-tagline {
+  margin-top: -0.6rem;
+  font-family: var(--display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--amber);
+}
 .welcome > p {
   max-width: 36rem;
 }

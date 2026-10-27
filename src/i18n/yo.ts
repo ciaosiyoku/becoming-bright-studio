@@ -8,7 +8,9 @@ import type { Strings } from './en'
 const count = (n: number, noun: string) => `${noun} ${n}`
 
 export const yo: Strings = {
-  appName: "Kids' Learning Studio Plus",
+  appName: 'Becoming Bright Studio',
+  /** The theme line, shown under the name (setup, install page). */
+  tagline: 'Ojoojúmọ́ ni ìmọ́lẹ̀ ń pọ̀ sí i',
   developedBy: 'Lórí Kids’ Learning Studio tí Oluwasedago ṣe',
   common: {
     back: 'Padà',
@@ -293,8 +295,8 @@ export const yo: Strings = {
     about: 'Nípa áàpù yìí',
   },
   setup: {
-    welcomeText: 'Ojú ìwé ẹ̀kọ́ fún ọmọ rẹ: iṣẹ́ ń mú ìràwọ̀ wá, ìràwọ̀ ń mú àkókò ìwòran wá.',
-    welcomeStars: 'Ẹ̀kọ́ ń tẹ̀lé kíláàsì ọmọ rẹ ní ilé ìwé, ó sì ń le sí i bí ó ṣe ń kọ́.',
+    welcomeText: 'Iṣẹ́ kúkúrú ń mú ìràwọ̀ wá, ìràwọ̀ ń mú àkókò ìwòran wá, gbogbo àṣìṣe sì ń di ẹ̀kọ́.',
+    welcomeStars: 'Ẹ̀kọ́ ń tẹ̀lé kíláàsì ọmọ rẹ, ó ń mú ohun tó le padà wá, ó sì ń dàgbà pẹ̀lú rẹ̀ bí ọgbà.',
     setUp: 'Ṣètò',
     tryDemo: 'Gbìyànjú àpẹẹrẹ',
     restore: 'Mú padà láti ẹ̀dà ìpamọ́',
@@ -371,7 +373,7 @@ export const yo: Strings = {
     learnt: 'tí ó kọ́ látinú àṣìṣe',
     reviewLine: (waiting: number, due: number, mastered: number) =>
       `Àpótí àtúnyẹ̀wò: ${count(waiting, 'ìbéèrè')} láti tún ṣe (${due} ló yẹ báyìí); ${mastered} tí ó kọ́ látinú àṣìṣe ní àsìkò yìí.`,
-    footer: "A fi ránṣẹ́ láti Kids' Learning Studio Plus. Dátà náà wà lórí ẹ̀rọ náà.",
+    footer: "A fi ránṣẹ́ láti Becoming Bright Studio. Dátà náà wà lórí ẹ̀rọ náà.",
   },
   backup: {
     due: 'Ó yẹ kí o ṣe ẹ̀dà ìpamọ́',
@@ -386,7 +388,7 @@ export const yo: Strings = {
     private: 'Fáìlì náà ní orúkọ àkọ́kọ́ ọmọ rẹ, oṣù àti ọdún ìbí, àti ìlọsíwájú rẹ̀. Pa á mọ́.',
     errors: {
       'not-json': 'Fáìlì yìí kì í ṣe ẹ̀dà ìpamọ́ (a kò lè kà á).',
-      'not-ours': "Fáìlì yìí kì í ṣe ẹ̀dà ìpamọ́ Kids' Learning Studio.",
+      'not-ours': "Fáìlì yìí kì í ṣe ẹ̀dà ìpamọ́ Becoming Bright Studio.",
       'too-new': 'Ẹ̀dà ìpamọ́ yìí wá láti ẹ̀yà tuntun. Jọ̀wọ́ kọ́kọ́ ṣe àtúnṣe áàpù náà.',
       empty: 'Kò sí ètò kankan nínú ẹ̀dà ìpamọ́ yìí.',
       other: 'A kò lè mú ẹ̀dà ìpamọ́ náà padà.',
@@ -451,8 +453,8 @@ export const yo: Strings = {
     howTo: 'Ọ̀pọ̀ ẹ̀rọ kò tíì ní ohùn Yorùbá. Tí ẹ̀rọ rẹ bá ní ọ̀kan, fi sórí ẹ̀rọ náà: iPad: Settings → Accessibility → Spoken Content → Voices. Android: Settings → Text-to-speech → Google engine → install voice data. Lẹ́yìn náà yàn án níbí.',
   },
   install: {
-    title: "Fi Kids' Learning Studio Plus sórí ẹ̀rọ",
-    intro: 'Ojú ìwé ẹ̀kọ́ ọ̀fẹ́ fún àwọn ọmọdé. Ó máa wọlé láti ojú ìwé yìí ní nǹkan bíi ìṣẹ́jú kan: kò sí ilé ìtajà áàpù, kò sí àkáǹtì.',
+    title: "Fi Becoming Bright Studio sórí ẹ̀rọ",
+    intro: 'Ojú ìwé ẹ̀kọ́ ọ̀fẹ́ tí ń ran àwọn ọmọdé lọ́wọ́ láti máa tàn sí i lójoojúmọ́. Ó máa wọlé láti ojú ìwé yìí ní nǹkan bíi ìṣẹ́jú kan: kò sí ilé ìtajà áàpù, kò sí àkáǹtì.',
     forDevice: 'Ìgbésẹ̀ fún ẹ̀rọ rẹ',
     otherDevices: 'Àwọn ẹ̀rọ míì',
     devices: { fire: 'Amazon Fire', android: 'Android', ipad: 'iPad', iphone: 'iPhone', computer: 'Kọ̀ǹpútà' },
@@ -460,11 +462,11 @@ export const yo: Strings = {
       fire: [
         'Ṣí ojú ìwé yìí nínú Silk Browser, nínú àkọọ́lẹ̀ òbí (àgbàlagbà).',
         'Fọwọ́ kan àkójọ (⋮) kí o sì yan “Add to Home screen”.',
-        'Ṣí Kids’ Learning Studio Plus láti ojú ìwé ilé kí o sì tẹ̀lé ètò náà.',
+        'Ṣí Becoming Bright Studio láti ojú ìwé ilé kí o sì tẹ̀lé ètò náà.',
       ],
-      android: ['Ṣí ojú ìwé yìí nínú Chrome.', 'Fọwọ́ kan àkójọ (⋮) kí o sì yan “Install app” tàbí “Add to Home screen”.', 'Ṣí Kids’ Learning Studio Plus láti ojú ìwé ilé kí o sì tẹ̀lé ètò náà.'],
-      ipad: ['Ṣí ojú ìwé yìí nínú Safari.', 'Fọwọ́ kan bọ́tìnnì Share (onígun mẹ́rin pẹ̀lú ọfà) kí o sì yan “Add to Home Screen”, lẹ́yìn náà “Add”.', 'Ṣí Kids’ Learning Studio Plus láti ojú ìwé ilé kí o sì tẹ̀lé ètò náà.'],
-      iphone: ['Ṣí ojú ìwé yìí nínú Safari.', 'Fọwọ́ kan bọ́tìnnì Share kí o sì yan “Add to Home Screen”, lẹ́yìn náà “Add”.', 'Ṣí Kids’ Learning Studio Plus láti ojú ìwé ilé kí o sì tẹ̀lé ètò náà.'],
+      android: ['Ṣí ojú ìwé yìí nínú Chrome.', 'Fọwọ́ kan àkójọ (⋮) kí o sì yan “Install app” tàbí “Add to Home screen”.', 'Ṣí Becoming Bright Studio láti ojú ìwé ilé kí o sì tẹ̀lé ètò náà.'],
+      ipad: ['Ṣí ojú ìwé yìí nínú Safari.', 'Fọwọ́ kan bọ́tìnnì Share (onígun mẹ́rin pẹ̀lú ọfà) kí o sì yan “Add to Home Screen”, lẹ́yìn náà “Add”.', 'Ṣí Becoming Bright Studio láti ojú ìwé ilé kí o sì tẹ̀lé ètò náà.'],
+      iphone: ['Ṣí ojú ìwé yìí nínú Safari.', 'Fọwọ́ kan bọ́tìnnì Share kí o sì yan “Add to Home Screen”, lẹ́yìn náà “Add”.', 'Ṣí Becoming Bright Studio láti ojú ìwé ilé kí o sì tẹ̀lé ètò náà.'],
       computer: [
         'A ṣe áàpù yìí fún tábúlẹ́ẹ̀tì, ṣùgbọ́n o lè gbìyànjú rẹ̀ níbí nínú aṣàwákiri.',
         'Láti fi sórí tábúlẹ́ẹ̀tì, fi kámẹ́rà tábúlẹ́ẹ̀tì ṣàyẹ̀wò kóòdù QR, tàbí ṣí àdírẹ́sì ojú ìwé yìí lórí rẹ̀.',

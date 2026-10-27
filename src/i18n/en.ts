@@ -8,8 +8,10 @@ import type { ThemeMode } from '@/shared/theme'
 const plural = (n: number, one: string, many: string) => `${n} ${n === 1 ? one : many}`
 
 export const en = {
-  appName: "Kids' Learning Studio",
-  developedBy: 'Developed by Oluwasedago',
+  appName: 'Becoming Bright Studio',
+  /** The theme line, shown under the name (setup, install page). */
+  tagline: 'Every day a little brighter',
+  developedBy: 'Based on Kids’ Learning Studio by Oluwasedago',
   common: {
     back: 'Back',
     next: 'Next',
@@ -294,8 +296,8 @@ export const en = {
     about: 'About',
   },
   setup: {
-    welcomeText: 'A learning home screen for your child: missions earn stars, stars earn screen time.',
-    welcomeStars: 'Lessons follow your child’s school class and get harder as they learn.',
+    welcomeText: 'Short missions earn stars, stars earn screen time, and every mistake becomes something learnt.',
+    welcomeStars: 'Lessons follow your child’s school class, bring back what was hard, and grow with them like a garden.',
     setUp: 'Set up',
     tryDemo: 'Try the demo',
     restore: 'Restore from backup',
@@ -372,7 +374,7 @@ export const en = {
     learnt: 'learnt from mistakes',
     reviewLine: (waiting: number, due: number, mastered: number) =>
       `Review boxes: ${plural(waiting, 'question', 'questions')} to practise again (${due} due now); ${mastered} learnt from mistakes in this period.`,
-    footer: "Sent from Kids' Learning Studio. The data stays on the device.",
+    footer: "Sent from Becoming Bright Studio. The data stays on the device.",
   },
   backup: {
     due: 'A backup is due',
@@ -387,7 +389,7 @@ export const en = {
     private: 'The file holds your child’s first name, birth month and year, and progress. Keep it private.',
     errors: {
       'not-json': 'This file is not a backup (it cannot be read).',
-      'not-ours': "This file is not a Kids' Learning Studio backup.",
+      'not-ours': "This file is not a Becoming Bright Studio backup.",
       'too-new': 'This backup comes from a newer version. Please update the app first.',
       empty: 'This backup has no settings in it.',
       other: 'The backup could not be restored.',
@@ -452,8 +454,8 @@ export const en = {
     howTo: 'For a more natural voice, install a better one on the device. iPad: Settings → Accessibility → Spoken Content → Voices → English → an "Enhanced" or "Premium" voice. Android: Settings → Text-to-speech → Google engine → install voice data. Then choose it here.',
   },
   install: {
-    title: "Install Kids' Learning Studio",
-    intro: 'A free learning home screen for children. It installs from this page in about a minute: no app store, no account.',
+    title: "Install Becoming Bright Studio",
+    intro: 'A free learning home screen that helps children grow a little brighter every day. It installs from this page in about a minute: no app store, no account.',
     forDevice: 'Steps for your device',
     otherDevices: 'Other devices',
     devices: { fire: 'Amazon Fire', android: 'Android', ipad: 'iPad', iphone: 'iPhone', computer: 'Computer' },
@@ -461,11 +463,11 @@ export const en = {
       fire: [
         'Open this page in the Silk Browser, in the parent (adult) profile.',
         'Tap the menu (⋮) and choose “Add to Home screen”.',
-        'Open Kids’ Learning Studio from the home screen and follow the setup.',
+        'Open Becoming Bright Studio from the home screen and follow the setup.',
       ],
-      android: ['Open this page in Chrome.', 'Tap the menu (⋮) and choose “Install app” or “Add to Home screen”.', 'Open Kids’ Learning Studio from the home screen and follow the setup.'],
-      ipad: ['Open this page in Safari.', 'Tap the Share button (a square with an arrow) and choose “Add to Home Screen”, then “Add”.', 'Open Kids’ Learning Studio from the home screen and follow the setup.'],
-      iphone: ['Open this page in Safari.', 'Tap the Share button and choose “Add to Home Screen”, then “Add”.', 'Open Kids’ Learning Studio from the home screen and follow the setup.'],
+      android: ['Open this page in Chrome.', 'Tap the menu (⋮) and choose “Install app” or “Add to Home screen”.', 'Open Becoming Bright Studio from the home screen and follow the setup.'],
+      ipad: ['Open this page in Safari.', 'Tap the Share button (a square with an arrow) and choose “Add to Home Screen”, then “Add”.', 'Open Becoming Bright Studio from the home screen and follow the setup.'],
+      iphone: ['Open this page in Safari.', 'Tap the Share button and choose “Add to Home Screen”, then “Add”.', 'Open Becoming Bright Studio from the home screen and follow the setup.'],
       computer: [
         'The app is made for tablets, but you can try it here in the browser.',
         'To install it on a tablet, scan the QR code with the tablet’s camera, or open this page’s address on it.',

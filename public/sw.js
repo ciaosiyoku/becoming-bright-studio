@@ -6,9 +6,9 @@
 // - App files (assets, emoji, fonts): cache first (built file names change with every version, so never stale).
 // - The app's update check (src/shared/autoUpdate.ts, cache: 'no-store'): always the network, never the saved
 //   page. Answered from here it would always name the running version, so no update would ever be seen.
-// Paths are relative to where this file lives, so it works under /kids-learning-studio/ on GitHub Pages.
+// Paths are relative to where this file lives, so it works under /becoming-bright-studio/ on GitHub Pages.
 
-const CACHE = 'kls-v4' // bump to make installed apps fetch changed files with fixed names (icons, emoji, photos)
+const CACHE = 'bbs-v1' // bump to make installed apps fetch changed files with fixed names (icons, emoji, photos)
 const INDEX = new URL('./', self.registration.scope).href
 
 self.addEventListener('install', () => self.skipWaiting())

@@ -5,7 +5,7 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   // './' = every file is linked relative to the page, so the same build works at
-  // https://<user>.github.io/kids-learning-studio/, on a fork with another name, or at a domain's root.
+  // https://<user>.github.io/becoming-bright-studio/, on a fork with another name, or at a domain's root.
   base: './',
   plugins: [react()],
   // Two pages: the app (index.html) and the install page (install.html).

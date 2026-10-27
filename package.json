@@ -1,8 +1,8 @@
 {
-  "name": "kids-learning-studio",
+  "name": "becoming-bright-studio",
   "private": true,
   "version": "0.1.0",
-  "description": "A free learning home screen for children. Everything stays on the family's own device.",
+  "description": "Becoming Bright Studio: every day a little brighter. A free learning home screen for children; everything stays on the family's own device. Based on Kids' Learning Studio by Oluwasedago.",
   "author": "Oluwasedago",
   "license": "MIT",
   "type": "module",

@@ -10,6 +10,15 @@ Legend: **done** · **to verify** (built, needs checking on a device or with a s
 | Setup wizard (birth month + year, school class, language), demo, restore on first start | done |
 | Two-layer access control (on/off → earn/open, unlock for today with PIN) | done |
 | Forgotten PIN: recovery code, or a reset after 24 hours | done |
+| PIN lockout kept in the settings (closing the pad or reloading does not reset it), waits 30 s → 2 min → 10 min → 30 min | done (26 Oct 2026) |
+| Device-clock guard: a clock turned back past a time already seen pauses earned time until a parent checks | done (26 Oct 2026); a clock turned forward is only noticed once it goes back (or the real date catches up), and the 24-hour PIN reset can still be shortened that way |
+| Review boxes (Leitner): wrong answers come back after 1, 3, 7, 21 days; up to a fifth of each round | done (26 Oct 2026); to watch with children whether a fifth is the right share |
+| After a mistake: the right answer with the sum worked out and a reason (parent setting, on by default) | done (26 Oct 2026); reasons written for counting, small times sums, rounding and number patterns; more question types could get their own |
+| Typed number answers (every other number question from Stage 1; parent setting) | done (26 Oct 2026) |
+| Reports: skill mastery (Known / Practising / Needs help, last 30 days), review-box figures | done (26 Oct 2026) |
+| Learning garden on the Learn screen | done (26 Oct 2026) |
+| Yoruba: app texts, lessons, facts, places, animals, code breaker; map names from the browser (CLDR), capitals in English | **to verify by a native-speaking teacher before use with children** (draft, 26 Oct 2026); no Yoruba voice on most devices, so nothing is read aloud in Yoruba |
+| New name and logo: Becoming Bright Studio, sunrise and sprout (`scripts/make-brand.mjs`) | done (26 Oct 2026) |
 | Missions: 10, 25 or 50 questions (parent's choice), one try each (green right / red wrong, the answer never shown), pass mark 70 %, a star per 10 questions, earned time | done |
 | Skills ladder by school class (58 skills, Stage 0–6), adaptive within one stage of the class | done |
 | Learning streak like Duolingo: days in a row, earned streak freezes, milestones, shown to parents | done |
@@ -39,7 +48,9 @@ Legend: **done** · **to verify** (built, needs checking on a device or with a s
 - Repository "About" text and topics on GitHub: needs the repository owner (the token has no Administration right).
 - Checks on real devices: Amazon Fire voices, Amazon Kids browser, mailto, share sheet, family-call links.
 - Terms of use of the radio streams (WDR, Fun Kids, Radio France).
-- Native-speaker reading of the German and French texts.
+- Native-speaker reading of the German, French and Yoruba texts (Yoruba is a draft).
+- Publishing: a GitHub repository named `becoming-bright-studio` with Pages turned on; then change `SOURCE_URL` in
+  `src/install/main.ts` to it.
 
 ## v1.1 (plugins, each optional and off by default)
 
@@ -50,7 +61,8 @@ Legend: **done** · **to verify** (built, needs checking on a device or with a s
 - Automatic email reports through the parent's own email service.
 - AI-made lessons with the parent's own API key.
 - School-notices plugin.
-- More languages (app texts in `src/i18n/`, lesson texts in `src/lessons/text-*.ts`).
+- More languages (app texts in `src/i18n/`, lesson texts in `src/lessons/text-*.ts`), e.g. Hausa and Igbo.
+- Local examples for each school system (money in naira, pounds, dollars or euros; local places and foods).
 - More stories (other public-domain recordings) and stations, after checking their terms.
 
 ## v2 (native)

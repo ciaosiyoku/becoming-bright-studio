@@ -1,7 +1,7 @@
 {
-  "name": "Kids' Learning Studio",
-  "short_name": "KL Studio",
-  "description": "A free learning home screen for children. Everything stays on this device.",
+  "name": "Becoming Bright Studio",
+  "short_name": "Bright Studio",
+  "description": "Every day a little brighter: a free learning home screen for children. Everything stays on this device.",
   "start_url": "./",
   "scope": "./",
   "display": "fullscreen",

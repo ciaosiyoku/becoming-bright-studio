@@ -3,6 +3,7 @@
 // nothing is sent anywhere.) If IndexedDB fails (some private-browsing modes), values live in memory until the
 // page reloads, so the app still works.
 
+// The original project's name, kept: renaming the database would leave saved progress behind.
 const DB_NAME = 'kids-learning-studio'
 const STORE = 'kv'
 const memory = new Map<string, unknown>()
