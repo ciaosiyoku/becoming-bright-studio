@@ -166,7 +166,42 @@ function RewardsEditor() {
         <span>{t.parent.weeklyReward}</span>
         <input value={r.weeklyReward} maxLength={40} placeholder={t.parent.weeklyRewardPlaceholder} onChange={(e) => set({ weeklyReward: e.target.value })} />
       </label>
+      <LessonsEditor />
     </div>
+  )
+}
+
+/** How a mission answers: the right answer shown after a mistake, and typed number answers. */
+function LessonsEditor() {
+  const t = useT()
+  const { settings, updateSettings } = useStudio()
+  const l = settings.lessons
+  const set = (change: Partial<typeof l>) => updateSettings((s) => ({ ...s, lessons: { ...s.lessons, ...change } }))
+  return (
+    <>
+      <div className="stepper-row">
+        <span>{t.parent.afterMistake}</span>
+        <div className="segmented">
+          {([true, false] as const).map((on) => (
+            <button key={String(on)} className={l.showAnswer === on ? '' : 'secondary'} onClick={() => set({ showAnswer: on })}>
+              {on ? t.parent.showAnswer : t.parent.hideAnswer}
+            </button>
+          ))}
+        </div>
+      </div>
+      <p className="muted">{t.parent.showAnswerNote}</p>
+      <div className="stepper-row">
+        <span>{t.parent.typedAnswers}</span>
+        <div className="segmented">
+          {([true, false] as const).map((on) => (
+            <button key={String(on)} className={l.typed === on ? '' : 'secondary'} onClick={() => set({ typed: on })}>
+              {on ? t.common.on : t.common.off}
+            </button>
+          ))}
+        </div>
+      </div>
+      <p className="muted">{t.parent.typedNote}</p>
+    </>
   )
 }
 

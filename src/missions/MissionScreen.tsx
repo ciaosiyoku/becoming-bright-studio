@@ -1,5 +1,5 @@
-import { ArrowLeft } from 'lucide-react'
-import { useState } from 'react'
+import { ArrowLeft, ArrowRight, Check, Delete, RotateCcw } from 'lucide-react'
+import { useEffect, useState } from 'react'
 import { ITEMS, type Subject } from '@/access/catalogue'
 import { StatusBar } from '@/app/Shell'
 import { useStudio } from '@/app/studio'
@@ -9,9 +9,9 @@ import { useStopSpeechOnLeave } from '@/audio/useSpeaking'
 import type { Score } from '@/data/types'
 import { type Lang, useLang, useT } from '@/i18n'
 import { COUNTRIES, WORDS } from '@/lessons/data'
-import { LADDERS, makeRound, passMark, starsFor } from '@/lessons/ladder'
+import { LADDERS, missionRound, passMark, questionLang, starsFor } from '@/lessons/ladder'
 import { animalName, skillName } from '@/lessons/text'
-import type { Choice, Visual } from '@/lessons/question'
+import { answerLabel, type Choice, type Question, type Visual, workedLine } from '@/lessons/question'
 import { type Answer, completeMission, levelOf, missionsFor } from '@/progress/progress'
 import { computeStreak, milestoneAt } from '@/progress/streak'
 import '@/progress/Streak.css'
@@ -22,11 +22,13 @@ import './Missions.css'
 
 /**
  * A mission, full screen: 10, 25 or 50 questions (the parent's choice) at the child's level, one try each. The tapped answer turns green when
- * right and red when wrong, but the right answer is never shown, so the child has to think rather than tap
- * until something turns green. The score comes at the end.
+ * right and red when wrong. After a wrong answer the right one is shown with why (the sum worked out, a reason),
+ * and the child taps "Next" when ready; a parent can switch this off to keep the original "never shown" rule.
+ * Either way a wrong answer goes into the review boxes and comes back on later days (lessons/review.ts); up to
+ * a fifth of a round is such questions, marked "Try again". The score comes at the end.
  * Passed (70 % or more) and one of today's missions: ticked off with a star per 10 questions. Otherwise "not yet", and a new
  * try later with new questions in a new order. Either way the answers move the adaptive level and go into the
- * parents' report (which shows the right answers to the parents, never to the child).
+ * parents' report.
  */
 export function MissionScreen({ subject, onClose }: { subject: Subject; onClose: () => void }) {
   const t = useT()
@@ -114,16 +116,34 @@ function describe(c: Choice, lang: Lang): string {
   return '?'
 }
 
+/** The ladder stage of the step a question came from (0 when unknown). */
+const stageOf = (subject: Subject, step: string | undefined) => LADDERS[subject].find((x) => x.id === step)?.stage ?? 0
+
+/** Every other question with a number answer is typed (from Stage 1, when the parent setting is on). */
+function typedPlan(subject: Subject, round: Question[], on: boolean): boolean[] {
+  let numeric = 0
+  return round.map((q) => {
+    if (!on || q.number === undefined || stageOf(subject, q.step) < 1) return false
+    return numeric++ % 2 === 1
+  })
+}
+
 function Quiz({ subject, level, count, onDone }: { subject: Subject; level: number; count: number; onDone: (answers: Answer[]) => void }) {
   const t = useT()
   const lang = useLang()
+  const { progress, settings, today } = useStudio()
   // Questions in the app language; the English subject is always in English (it teaches English).
-  const speech = subject === 'english' ? 'en' : lang
-  const [round] = useState(() => makeRound(subject, level, Math.random, count, lang))
+  const speech = questionLang(subject, lang)
+  const [round] = useState(() => missionRound(subject, level, count, lang, progress.review, today))
+  const [typedAt] = useState(() => typedPlan(subject, round, settings.lessons.typed))
   const [index, setIndex] = useState(0)
   const [picked, setPicked] = useState<number | null>(null)
+  const [typed, setTyped] = useState('')
+  /** Wrong, and the right answer is shown: waits for "Next". */
+  const [showing, setShowing] = useState(false)
   const [answers, setAnswers] = useState<Answer[]>([])
   const q = round[index]
+  const answered = answers.length > index
   // The next question, or leaving the mission, stops what was being read.
   useStopSpeechOnLeave(index)
   const speaks = useCanSpeak(speech)
@@ -132,17 +152,27 @@ function Quiz({ subject, level, count, onDone }: { subject: Subject; level: numb
     if (index + 1 >= round.length) return onDone(all)
     setIndex(index + 1)
     setPicked(null)
+    setTyped('')
+    setShowing(false)
+  }
+  const record = (right: boolean, given: string) => {
+    const all = [...answers, { step: q.step ?? '', prompt: q.prompt, given, answer: describe(q.choices[q.answer], lang), right, question: q, lang: speech }]
+    setAnswers(all)
+    // Right: green for a moment, then the next question. Wrong: red, and the right answer with why stays on
+    // screen until "Next" (or, when the parent chose to keep it hidden, the next question after a moment).
+    if (right || !settings.lessons.showAnswer) setTimeout(() => advance(all), 900)
+    else setShowing(true)
   }
   const choose = (i: number) => {
-    if (picked !== null) return
+    if (answered) return
     setPicked(i)
-    const right = i === q.answer
-    const all = [...answers, { step: q.step ?? '', prompt: q.prompt, given: describe(q.choices[i], lang), answer: describe(q.choices[q.answer], lang), right }]
-    setAnswers(all)
-    // The chosen answer turns green (right) or red (wrong) for a moment, then the next question.
-    // The right answer is not revealed.
-    setTimeout(() => advance(all), 900)
+    record(i === q.answer, describe(q.choices[i], lang))
   }
+  const check = () => {
+    if (answered || typed === '') return
+    record(Number(typed) === q.number, typed)
+  }
+  const feedback = showing ? explanation(q, t) : null
 
   return (
     <section className="card quiz">
@@ -158,6 +188,11 @@ function Quiz({ subject, level, count, onDone }: { subject: Subject; level: numb
           {index + 1} / {round.length}
         </small>
       </div>
+      {q.review && (
+        <p className="pill quiz-review-tag">
+          <RotateCcw size={18} /> {t.mission.reviewTag}
+        </p>
+      )}
       <div className="quiz-ask">
         <p>{q.prompt}</p>
         {speaks && (
@@ -171,18 +206,92 @@ function Quiz({ subject, level, count, onDone }: { subject: Subject; level: numb
           <VisualView visual={q.visual} big />
         </div>
       )}
-      <div className={`quiz-choices ${q.choices.every((c) => c.label === undefined) ? 'pictures' : ''}`}>
-        {q.choices.map((c, i) => (
-          <button
-            key={i}
-            className={`quiz-choice ${picked === i ? (i === q.answer ? 'right' : 'wrong') : ''} ${picked !== null && picked !== i ? 'faded' : ''}`}
-            onClick={() => choose(i)}
-          >
-            <ChoiceView choice={c} />
+      {feedback && (
+        <div className="quiz-feedback" role="status">
+          <div className="quiz-why">
+            {feedback.map((line, i) => (i === 0 ? <b key={i}>{line}</b> : <p key={i}>{line}</p>))}
+          </div>
+          {speaks && (
+            <button className="secondary quiz-hear" onClick={() => readOut(feedback.join(' '), speech)} aria-label={t.mission.hear}>
+              <ReadIcon text={feedback.join(' ')} />
+            </button>
+          )}
+          <button className="quiz-next" onClick={() => advance(answers)} autoFocus>
+            {t.mission.next} <ArrowRight />
+          </button>
+        </div>
+      )}
+      {typedAt[index] ? (
+        <NumberPad value={typed} state={answered ? (answers[index].right ? 'right' : 'wrong') : null} maxLength={String(q.number).length + 2} onChange={setTyped} onCheck={check} />
+      ) : (
+        <div className={`quiz-choices ${q.choices.every((c) => c.label === undefined) ? 'pictures' : ''}`}>
+          {q.choices.map((c, i) => {
+            const shown = showing && i === q.answer
+            return (
+              <button
+                key={i}
+                className={`quiz-choice ${picked === i ? (i === q.answer ? 'right' : 'wrong') : shown ? 'right reveal' : ''} ${answered && picked !== i && !shown ? 'faded' : ''}`}
+                onClick={() => choose(i)}
+              >
+                <ChoiceView choice={c} />
+              </button>
+            )
+          })}
+        </div>
+      )}
+    </section>
+  )
+}
+
+/** What is shown after a wrong answer: the right answer, the sum worked out, and why (lessons/question.ts). */
+function explanation(q: Question, t: ReturnType<typeof useT>): string[] {
+  const label = answerLabel(q)
+  const worked = workedLine(q)
+  return [label === null ? t.mission.answerShown : t.mission.answerIs(label), ...(worked ? [worked] : []), ...(q.explain ?? []).filter((line) => line !== worked)]
+}
+
+/** A number pad for a typed answer; a keyboard works too (digits, Backspace, Enter). */
+function NumberPad({ value, state, maxLength, onChange, onCheck }: { value: string; state: 'right' | 'wrong' | null; maxLength: number; onChange: (v: string) => void; onCheck: () => void }) {
+  const t = useT()
+  const locked = state !== null
+  const press = (d: string) => {
+    if (!locked && value.length < maxLength) onChange(value === '0' ? d : value + d)
+  }
+  const back = () => {
+    if (!locked) onChange(value.slice(0, -1))
+  }
+  // Re-attached on every render, so the keys always see the current value.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (/^[0-9]$/.test(e.key)) press(e.key)
+      else if (e.key === 'Backspace') back()
+      else if (e.key === 'Enter') onCheck()
+    }
+    addEventListener('keydown', onKey)
+    return () => removeEventListener('keydown', onKey)
+  })
+  return (
+    <div className="number-pad">
+      <output className={`typed-answer ${state ?? ''}`} aria-label={t.mission.typeAnswer}>
+        {value || <span className="muted">?</span>}
+      </output>
+      <div className="number-keys">
+        {['1', '2', '3', '4', '5', '6', '7', '8', '9'].map((d) => (
+          <button key={d} className="secondary" onClick={() => press(d)} disabled={locked}>
+            {d}
           </button>
         ))}
+        <button className="secondary" onClick={back} disabled={locked || value === ''} aria-label={t.mission.deleteDigit}>
+          <Delete />
+        </button>
+        <button className="secondary" onClick={() => press('0')} disabled={locked}>
+          0
+        </button>
+        <button onClick={onCheck} disabled={locked || value === ''} aria-label={t.mission.check}>
+          <Check />
+        </button>
       </div>
-    </section>
+    </div>
   )
 }
 

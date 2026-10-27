@@ -78,6 +78,12 @@ export interface Settings {
     weeklyGoal: number
     weeklyReward: string
   }
+  lessons: {
+    /** After a wrong answer, show the right one and why (true), or only that it was wrong (false). */
+    showAnswer: boolean
+    /** From Stage 1, every other question with a number answer is typed on a number pad. */
+    typed: boolean
+  }
   report: {
     /** Where "Email report" sends to (opens the parent's own mail app). Empty = ask in the mail app. */
     email: string
@@ -171,6 +177,7 @@ export const DEFAULT_SETTINGS: Settings = {
   // Filled by the setup wizard (access/starter.ts); this default only matters before the wizard has run.
   access: {} as Record<ItemId, AccessRule>,
   rewards: { missionsPerDay: 3, questionsPerMission: 10, minutesPerStar: 10, maxMinutesPerDay: 45, weeklyGoal: 12, weeklyReward: '' },
+  lessons: { showAnswer: true, typed: true },
   report: { email: '', period: 'week' },
   birthdays: [],
   storyRate: 1,

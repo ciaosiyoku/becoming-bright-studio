@@ -151,8 +151,108 @@
   background: var(--red-soft);
   border-color: var(--red);
 }
+.quiz-choice.right {
+  background: var(--mint-soft);
+  border-color: var(--mint);
+}
+/* The right answer shown after a wrong one: green, with a gentle pulse so the eye finds it. */
+.quiz-choice.reveal {
+  animation: quiz-reveal 0.9s ease-out 2;
+}
+@keyframes quiz-reveal {
+  50% {
+    transform: scale(1.05);
+  }
+}
 .quiz-choice.faded {
   opacity: 0.4;
+}
+
+/* "Try again": a question back from the review boxes. */
+.quiz-review-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--lilac-soft);
+  color: var(--lilac);
+  font-weight: 700;
+}
+
+/* After a wrong answer: the right answer and why, and "Next". */
+.quiz-feedback {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 56rem;
+  padding: 0.9rem 1.2rem;
+  border-radius: var(--radius-s);
+  background: var(--mint-soft);
+  border: 3px solid var(--mint);
+  color: var(--ink);
+}
+.quiz-why {
+  flex: 1;
+  min-width: 0;
+}
+.quiz-why b {
+  font-family: var(--display);
+  font-size: 1.6rem;
+}
+.quiz-why p {
+  font-size: 1.3rem;
+  font-variant-numeric: tabular-nums;
+}
+.quiz-next {
+  min-height: var(--tap);
+  padding: 0 1.6rem;
+  font-size: 1.3rem;
+  white-space: nowrap;
+}
+
+/* A typed answer: the number so far, and a pad of big keys (a keyboard works too). */
+.number-pad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  width: 100%;
+  max-width: 22rem;
+}
+.typed-answer {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: 4.6rem;
+  border-radius: var(--radius-s);
+  border: 3px solid var(--line);
+  background: var(--card);
+  font-family: var(--display);
+  font-size: 2.6rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+.typed-answer.right {
+  background: var(--mint-soft);
+  border-color: var(--mint);
+}
+.typed-answer.wrong {
+  background: var(--red-soft);
+  border-color: var(--red);
+}
+.number-keys {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  width: 100%;
+}
+.number-keys button {
+  min-height: var(--tap);
+  padding: 0;
+  font-family: var(--display);
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 .mission-done {
   display: flex;
@@ -291,5 +391,29 @@
   }
   .mission-done h2 {
     font-size: 2rem;
+  }
+  /* With the answer shown, the sum gets smaller, so nothing is cut off. */
+  .quiz:has(.quiz-feedback) .quiz-visual {
+    flex: none;
+  }
+  .quiz:has(.quiz-feedback) .quiz-sum {
+    font-size: clamp(1.8rem, 9vw, 3rem);
+  }
+  .quiz-feedback {
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    padding: 0.7rem 0.8rem;
+  }
+  .quiz-why b {
+    font-size: 1.25rem;
+  }
+  .quiz-why p {
+    font-size: 1.1rem;
+  }
+  .quiz-next {
+    width: 100%;
+  }
+  .number-keys button {
+    min-height: 3.6rem;
   }
 }
