@@ -12,7 +12,7 @@
     "prebuild": "node scripts/copy-brand.mjs",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "test": "vitest run",
+    "test": "vitest run --fsModuleCache=false",
     "preview": "vite preview",
     "check-private": "node scripts/check-private.mjs --all"
   },

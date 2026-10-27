@@ -1,0 +1,39 @@
+{
+  "id": "growing",
+  "kind": "growing",
+  "subject": "patterns",
+  "stage": 6,
+  "params": {},
+  "emoji": "seedling",
+  "example": {
+    "items": "1, 3, 6, 10",
+    "answer": 15,
+    "steps": "+2   +3   +4   +5"
+  },
+  "text": {
+    "en": {
+      "title": "Growing sequences",
+      "teach": "Sometimes the step itself grows. 1, 3, 6, 10: the steps are +2, +3, +4, so the next step is +5, and next comes 15.",
+      "prompt": "Which number comes next?",
+      "reason": "The steps are {steps}, so the next number is {answer}."
+    },
+    "de": {
+      "title": "Wachsende Zahlenfolgen",
+      "teach": "Manchmal wächst der Schritt selbst. 1, 3, 6, 10: Die Schritte sind +2, +3, +4, also ist der nächste Schritt +5, und als Nächstes kommt 15.",
+      "prompt": "Welche Zahl kommt als Nächstes?",
+      "reason": "Die Schritte sind {steps}, also ist die nächste Zahl {answer}."
+    },
+    "fr": {
+      "title": "Suites qui grandissent",
+      "teach": "Parfois, c’est le pas lui-même qui grandit. 1, 3, 6, 10 : les pas sont +2, +3, +4, donc le pas suivant est +5, et ensuite vient 15.",
+      "prompt": "Quel nombre vient ensuite ?",
+      "reason": "Les pas sont {steps}, donc le nombre suivant est {answer}."
+    },
+    "yo": {
+      "title": "Ìtẹ̀léra tí ń dàgbà",
+      "teach": "Nígbà míì, ìgbésẹ̀ fúnra rẹ̀ ń dàgbà. 1, 3, 6, 10: àwọn ìgbésẹ̀ jẹ́ +2, +3, +4, nítorí náà ìgbésẹ̀ tó kàn ni +5, 15 ló sì kàn.",
+      "prompt": "Nọ́ńbà wo ló kàn?",
+      "reason": "Àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà nọ́ńbà tó kàn ni {answer}."
+    }
+  }
+}

@@ -8,7 +8,7 @@ import type { Item, SkillDef } from './types'
 // in every language the app ships. The answer is worked out here independently of the question maker.
 
 const ROUNDS = 300
-const label = (item: Item, i: number) => item.choices[i].label ?? ''
+const label = (item: Item, i: number) => item.choices[i].label ?? item.choices[i].emoji ?? ''
 const right = (item: Item) => label(item, item.answer)
 const vowel = /^[aeiou]/
 
@@ -42,6 +42,25 @@ function problem(def: SkillDef, item: Item): string | null {
       const rhymes = (w: string) => w !== v.word && family.words.some(([x]) => x === w)
       if (labels.includes(String(v.word))) return 'the word itself is a choice'
       return onlyOne(rhymes) && family.words.every(([w]) => w.endsWith(family.end.slice(1))) ? null : `wrong rhyme for ${v.word}`
+    }
+    case 'picture-pattern': {
+      // The shown pictures repeat every `unit`; the next one is the one `unit` back.
+      const items = (item.visual as { items: string[] }).items
+      const unit = Number(v.unit)
+      if (!items.every((x, i) => i < unit || x === items[i - unit])) return 'the pattern does not repeat'
+      const next = items[items.length - unit]
+      const emojis = item.choices.map((c) => c.emoji)
+      return new Set(emojis).size === emojis.length && emojis.filter((e) => e === next).length === 1 && emojis[item.answer] === next ? null : 'wrong next picture'
+    }
+    case 'sequence':
+    case 'growing': {
+      // The next number from the shown ones: same step, doubling, or a step that grows by the same amount.
+      const xs = String(v.items).split(', ').map(Number)
+      const d = xs.slice(1).map((x, i) => x - xs[i])
+      const g = d.slice(1).map((x, i) => x - d[i])
+      const last = xs[xs.length - 1]
+      const next = d.every((x) => x === d[0]) ? last + d[0] : xs.slice(1).every((x, i) => x === 2 * xs[i]) ? 2 * last : g.every((x) => x === g[0]) ? last + d[d.length - 1] + g[0] : NaN
+      return onlyOne((l) => Number(l) === next) ? null : `wrong next number after ${v.items}`
     }
     case 'neighbour':
       return onlyOne((l) => Number(l) === Number(v.n) + (v.rule === 'after' ? 1 : -1)) ? null : 'wrong neighbour'

@@ -55,6 +55,8 @@ export type Visual =
   | { kind: 'sum'; text: string }
   /** One picture, with its word under it (or without, when the word would give the answer away). */
   | { kind: 'picture'; emoji: string; word?: string }
+  /** A picture pattern with a gap at the end ("?"), or with the gap filled in (teach cards). */
+  | { kind: 'pattern'; items: string[]; filled?: string }
   /** Tens and ones: bars of ten and single squares (place value). */
   | { kind: 'blocks'; tens: number; ones: number }
   /** Two pictures with their words (the rhyming teach card). */

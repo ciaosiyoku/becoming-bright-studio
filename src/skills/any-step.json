@@ -1,0 +1,54 @@
+{
+  "id": "any-step",
+  "kind": "sequence",
+  "subject": "patterns",
+  "stage": 5,
+  "params": {
+    "steps": [
+      6,
+      7,
+      8,
+      9,
+      -3,
+      -4,
+      -5
+    ],
+    "start": [
+      1,
+      30
+    ],
+    "double": 0.3
+  },
+  "emoji": "puzzle",
+  "example": {
+    "items": "3, 6, 12, 24",
+    "answer": 48,
+    "steps": "×2   ×2   ×2   ×2"
+  },
+  "text": {
+    "en": {
+      "title": "Finding the rule: any step, or doubling",
+      "teach": "Look at how each number becomes the next: adding the same step, or doubling. 3, 6, 12, 24: each one is ×2, so next comes 48.",
+      "prompt": "Which number comes next?",
+      "reason": "The steps are {steps}, so the next number is {answer}."
+    },
+    "de": {
+      "title": "Die Regel finden: jeder Schritt oder Verdoppeln",
+      "teach": "Schau, wie aus jeder Zahl die nächste wird: immer derselbe Schritt dazu, oder verdoppeln. 3, 6, 12, 24: Jede Zahl ist ×2, also kommt als Nächstes 48.",
+      "prompt": "Welche Zahl kommt als Nächstes?",
+      "reason": "Die Schritte sind {steps}, also ist die nächste Zahl {answer}."
+    },
+    "fr": {
+      "title": "Trouver la règle : n’importe quel pas, ou le double",
+      "teach": "Regarde comment chaque nombre devient le suivant : on ajoute toujours le même pas, ou on double. 3, 6, 12, 24 : chaque nombre est ×2, donc ensuite vient 48.",
+      "prompt": "Quel nombre vient ensuite ?",
+      "reason": "Les pas sont {steps}, donc le nombre suivant est {answer}."
+    },
+    "yo": {
+      "title": "Wíwá òfin: ìgbésẹ̀ èyíkéyìí, tàbí ìlọ́po méjì",
+      "teach": "Wo bí nọ́ńbà kọ̀ọ̀kan ṣe ń di èyí tó tẹ̀lé e: fífi ìgbésẹ̀ kan náà kún un, tàbí ìlọ́po méjì. 3, 6, 12, 24: ọ̀kọ̀ọ̀kan jẹ́ ×2, nítorí náà 48 ló kàn.",
+      "prompt": "Nọ́ńbà wo ló kàn?",
+      "reason": "Àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà nọ́ńbà tó kàn ni {answer}."
+    }
+  }
+}

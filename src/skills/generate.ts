@@ -101,6 +101,7 @@ const isCalc = (kind: GeneratorKind): kind is CalcKind => kind in CALC
 
 /** A sum shown with its answer: "34 ≈ ?" → "34 ≈ 30", "8 × 7" → "8 × 7 = 56". A lone number or a picture stays. */
 function solved(visual: Item['visual'], answer: string | number): Item['visual'] {
+  if (visual?.kind === 'pattern') return { ...visual, filled: String(answer) }
   if (visual?.kind !== 'sum') return visual
   if (visual.text.includes('?')) return { kind: 'sum', text: visual.text.replace('?', String(answer)) }
   return /[+−×÷²%·]/.test(visual.text) ? { kind: 'sum', text: `${visual.text} = ${answer}` } : visual

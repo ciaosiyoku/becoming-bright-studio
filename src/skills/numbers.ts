@@ -20,9 +20,69 @@ const coin = (r: Random) => r() < 0.5
 /** A number line only for small numbers (it shows 0 to 20). */
 const lineFor = (from: number, by: number) => (Math.max(from, from + by) <= 20 && Math.min(from, from + by) >= 0 ? { max: Math.max(10, Math.ceil(Math.max(from, from + by) / 10) * 10), from, by } : undefined)
 
-export type CalcKind = 'neighbour' | 'add-sub' | 'tens' | 'tens-ones' | 'times' | 'time-units' | 'place-value' | 'round' | 'add-sub-big' | 'divide' | 'multiply' | 'fraction' | 'percent' | 'order-ops' | 'square'
+export type CalcKind = 'picture-pattern' | 'sequence' | 'growing' | 'neighbour' | 'add-sub' | 'tens' | 'tens-ones' | 'times' | 'time-units' | 'place-value' | 'round' | 'add-sub-big' | 'divide' | 'multiply' | 'fraction' | 'percent' | 'order-ops' | 'square'
+
+/** The steps between numbers, as shown in a reason: "+3   +3   +3" or "×2   ×2". */
+const stepsText = (all: number[], times = false) =>
+  all
+    .slice(1)
+    .map((x, i) => (times ? `×${x / all[i]}` : x >= all[i] ? `+${x - all[i]}` : `−${all[i] - x}`))
+    .join('   ')
 
 export const CALC: Record<CalcKind, Calc> = {
+  // What comes next in a picture pattern? (params: rules such as "AB" or "AABB"; pictures)
+  'picture-pattern': {
+    pick: (def, r) => {
+      const rule = pick(r, def.params.rules as string[])
+      const pictures = def.params.pictures as string[]
+      const symbols: string[] = []
+      while (symbols.length < 3) {
+        const s = pick(r, pictures)
+        if (!symbols.includes(s)) symbols.push(s)
+      }
+      const at = (i: number) => symbols['ABC'.indexOf(rule[i % rule.length])]
+      const shown = Math.max(5, rule.length * 2)
+      return { rule, unit: rule.length, items: Array.from({ length: shown }, (_, i) => at(i)).join(' '), symbols: symbols.join(' '), answer: at(shown) }
+    },
+    build: (_def, v, r) => {
+      const symbols = String(v.symbols).split(' ')
+      const wrong = symbols.filter((s) => s !== v.answer).slice(0, 2)
+      return { visual: { kind: 'pattern', items: String(v.items).split(' ') }, ...withAnswer(r, { emoji: String(v.answer) }, wrong.map((s) => ({ emoji: s }))) }
+    },
+  },
+  // Which number comes next? A fixed step (params: steps, start: [min, max]; double: the share of doubling ones)
+  sequence: {
+    pick: (def, r) => {
+      if (def.params.double && r() < Number(def.params.double)) {
+        const first = int(r, 1, 5)
+        const all = [first, first * 2, first * 4, first * 8, first * 16]
+        return { items: all.slice(0, 4).join(', '), answer: all[4], steps: stepsText(all, true) }
+      }
+      const step = pick(r, def.params.steps as number[])
+      const [min, max] = def.params.start as [number, number]
+      const first = step < 0 ? int(r, min, max) - step * 4 : int(r, min, max)
+      const all = Array.from({ length: 5 }, (_, i) => first + i * step)
+      return { items: all.slice(0, 4).join(', '), answer: all[4], steps: stepsText(all) }
+    },
+    build: (_def, v, r) => ({ visual: { kind: 'sum', text: `${v.items}, ?` }, ...numberChoices(r, n(v, 'answer'), 1000, [-2, -1, 1, 2, 10]) }),
+  },
+  // A growing step: square numbers, or a step that grows by the same amount each time
+  growing: {
+    pick: (_def, r) => {
+      let all: number[]
+      if (r() < 0.3) {
+        const k = int(r, 1, 3)
+        all = [k, k + 1, k + 2, k + 3, k + 4].map((x) => x * x)
+      } else {
+        const step = int(r, 1, 4)
+        const grow = int(r, 1, 2)
+        all = [int(r, 1, 10)]
+        for (let i = 0; i < 4; i++) all.push(all[i] + step + i * grow)
+      }
+      return { items: all.slice(0, 4).join(', '), answer: all[4], steps: stepsText(all) }
+    },
+    build: (_def, v, r) => ({ visual: { kind: 'sum', text: `${v.items}, ?` }, ...numberChoices(r, n(v, 'answer'), 1000, [-2, -1, 1, 2]) }),
+  },
   // Numbers to 20: the one after or the one before (params: max)
   neighbour: {
     pick: (def, r) => {

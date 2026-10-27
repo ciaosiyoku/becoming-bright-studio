@@ -1,0 +1,58 @@
+{
+  "id": "abc-aabb",
+  "kind": "picture-pattern",
+  "subject": "patterns",
+  "stage": 1,
+  "params": {
+    "rules": [
+      "ABC",
+      "AABB"
+    ],
+    "pictures": [
+      "star",
+      "heart",
+      "sun",
+      "snowflake",
+      "fruit-apple",
+      "fruit-banana",
+      "fruit-grapes",
+      "animal-frog",
+      "animal-fox",
+      "moon"
+    ]
+  },
+  "emoji": "sun",
+  "example": {
+    "rule": "ABC",
+    "unit": 3,
+    "items": "fruit-apple fruit-banana fruit-grapes fruit-apple fruit-banana fruit-grapes",
+    "symbols": "fruit-apple fruit-banana fruit-grapes",
+    "answer": "fruit-apple"
+  },
+  "text": {
+    "en": {
+      "title": "Picture patterns: ABC and AABB",
+      "teach": "Longer patterns work the same way: apple, banana, grapes, apple, banana, grapes … Count how many pictures repeat.",
+      "prompt": "What comes next?",
+      "reason": "The pattern repeats every {unit} pictures, so the next one is the picture {unit} back."
+    },
+    "de": {
+      "title": "Bildermuster: ABC und AABB",
+      "teach": "Längere Muster gehen genauso: Apfel, Banane, Trauben, Apfel, Banane, Trauben … Zähl, wie viele Bilder sich wiederholen.",
+      "prompt": "Was kommt als Nächstes?",
+      "reason": "Das Muster wiederholt sich alle {unit} Bilder, also ist das nächste Bild das, das {unit} Bilder davor steht."
+    },
+    "fr": {
+      "title": "Suites d’images : ABC et AABB",
+      "teach": "Les suites plus longues marchent pareil : pomme, banane, raisin, pomme, banane, raisin… Compte combien d’images se répètent.",
+      "prompt": "Qu’est-ce qui vient ensuite ?",
+      "reason": "Le motif se répète toutes les {unit} images : l’image suivante est celle qui se trouve {unit} images avant."
+    },
+    "yo": {
+      "title": "Àpẹẹrẹ àwòrán: ABC àti AABB",
+      "teach": "Àwọn àpẹẹrẹ tó gùn ń ṣiṣẹ́ bákan náà: ápù, ọ̀gẹ̀dẹ̀, èso àjàrà, ápù, ọ̀gẹ̀dẹ̀, èso àjàrà … Kà iye àwòrán tó ń tún ara wọn ṣe.",
+      "prompt": "Kí ló kàn?",
+      "reason": "Àpẹẹrẹ náà ń tún ara rẹ̀ ṣe ní àwòrán {unit} {unit}, nítorí náà àwòrán tó kàn ni èyí tó wà ní àwòrán {unit} sẹ́yìn."
+    }
+  }
+}

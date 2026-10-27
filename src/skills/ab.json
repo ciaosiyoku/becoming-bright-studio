@@ -1,0 +1,57 @@
+{
+  "id": "ab",
+  "kind": "picture-pattern",
+  "subject": "patterns",
+  "stage": 0,
+  "params": {
+    "rules": [
+      "AB"
+    ],
+    "pictures": [
+      "star",
+      "heart",
+      "sun",
+      "snowflake",
+      "fruit-apple",
+      "fruit-banana",
+      "fruit-grapes",
+      "animal-frog",
+      "animal-fox",
+      "moon"
+    ]
+  },
+  "emoji": "star",
+  "example": {
+    "rule": "AB",
+    "unit": 2,
+    "items": "star heart star heart star",
+    "symbols": "star heart sun",
+    "answer": "heart"
+  },
+  "text": {
+    "en": {
+      "title": "Picture patterns: AB",
+      "teach": "In a pattern, the same pictures come again and again: star, heart, star, heart … After a heart comes a star again.",
+      "prompt": "What comes next?",
+      "reason": "The pattern repeats every {unit} pictures, so the next one is the picture {unit} back."
+    },
+    "de": {
+      "title": "Bildermuster: AB",
+      "teach": "In einem Muster kommen dieselben Bilder immer wieder: Stern, Herz, Stern, Herz … Nach dem Herz kommt wieder ein Stern.",
+      "prompt": "Was kommt als Nächstes?",
+      "reason": "Das Muster wiederholt sich alle {unit} Bilder, also ist das nächste Bild das, das {unit} Bilder davor steht."
+    },
+    "fr": {
+      "title": "Suites d’images : AB",
+      "teach": "Dans une suite, les mêmes images reviennent encore et encore : étoile, cœur, étoile, cœur… Après le cœur revient l’étoile.",
+      "prompt": "Qu’est-ce qui vient ensuite ?",
+      "reason": "Le motif se répète toutes les {unit} images : l’image suivante est celle qui se trouve {unit} images avant."
+    },
+    "yo": {
+      "title": "Àpẹẹrẹ àwòrán: AB",
+      "teach": "Nínú àpẹẹrẹ, àwọn àwòrán kan náà ń padà wá léraléra: ìràwọ̀, ọkàn, ìràwọ̀, ọkàn … Lẹ́yìn ọkàn, ìràwọ̀ tún ń bọ̀.",
+      "prompt": "Kí ló kàn?",
+      "reason": "Àpẹẹrẹ náà ń tún ara rẹ̀ ṣe ní àwòrán {unit} {unit}, nítorí náà àwòrán tó kàn ni èyí tó wà ní àwòrán {unit} sẹ́yìn."
+    }
+  }
+}

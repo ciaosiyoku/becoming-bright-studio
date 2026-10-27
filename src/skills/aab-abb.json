@@ -1,0 +1,58 @@
+{
+  "id": "aab-abb",
+  "kind": "picture-pattern",
+  "subject": "patterns",
+  "stage": 1,
+  "params": {
+    "rules": [
+      "AAB",
+      "ABB"
+    ],
+    "pictures": [
+      "star",
+      "heart",
+      "sun",
+      "snowflake",
+      "fruit-apple",
+      "fruit-banana",
+      "fruit-grapes",
+      "animal-frog",
+      "animal-fox",
+      "moon"
+    ]
+  },
+  "emoji": "heart",
+  "example": {
+    "rule": "AAB",
+    "unit": 3,
+    "items": "sun sun moon sun sun moon",
+    "symbols": "sun moon star",
+    "answer": "sun"
+  },
+  "text": {
+    "en": {
+      "title": "Picture patterns: AAB and ABB",
+      "teach": "Some patterns have a picture twice: sun, sun, moon, sun, sun, moon … Find the part that repeats, then say it again.",
+      "prompt": "What comes next?",
+      "reason": "The pattern repeats every {unit} pictures, so the next one is the picture {unit} back."
+    },
+    "de": {
+      "title": "Bildermuster: AAB und ABB",
+      "teach": "Manche Muster haben ein Bild zweimal: Sonne, Sonne, Mond, Sonne, Sonne, Mond … Such den Teil, der sich wiederholt, und sag ihn noch einmal.",
+      "prompt": "Was kommt als Nächstes?",
+      "reason": "Das Muster wiederholt sich alle {unit} Bilder, also ist das nächste Bild das, das {unit} Bilder davor steht."
+    },
+    "fr": {
+      "title": "Suites d’images : AAB et ABB",
+      "teach": "Certaines suites ont une image deux fois : soleil, soleil, lune, soleil, soleil, lune… Trouve la partie qui se répète, puis redis-la.",
+      "prompt": "Qu’est-ce qui vient ensuite ?",
+      "reason": "Le motif se répète toutes les {unit} images : l’image suivante est celle qui se trouve {unit} images avant."
+    },
+    "yo": {
+      "title": "Àpẹẹrẹ àwòrán: AAB àti ABB",
+      "teach": "Àwọn àpẹẹrẹ kan ní àwòrán kan lẹ́ẹ̀mejì: oòrùn, oòrùn, òṣùpá, oòrùn, oòrùn, òṣùpá … Wá apá tó ń tún ara rẹ̀ ṣe, kí o sì tún un sọ.",
+      "prompt": "Kí ló kàn?",
+      "reason": "Àpẹẹrẹ náà ń tún ara rẹ̀ ṣe ní àwòrán {unit} {unit}, nítorí náà àwòrán tó kàn ni èyí tó wà ní àwòrán {unit} sẹ́yìn."
+    }
+  }
+}

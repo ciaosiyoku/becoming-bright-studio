@@ -1,0 +1,48 @@
+{
+  "id": "count-5-10",
+  "kind": "sequence",
+  "subject": "patterns",
+  "stage": 2,
+  "params": {
+    "steps": [
+      5,
+      10
+    ],
+    "start": [
+      0,
+      4
+    ]
+  },
+  "emoji": "star",
+  "example": {
+    "items": "0, 5, 10, 15",
+    "answer": 20,
+    "steps": "+5   +5   +5   +5"
+  },
+  "text": {
+    "en": {
+      "title": "Counting in 5s and 10s",
+      "teach": "Counting in fives: 0, 5, 10, 15. Each step is +5, so next comes 20.",
+      "prompt": "Which number comes next?",
+      "reason": "The steps are {steps}, so the next number is {answer}."
+    },
+    "de": {
+      "title": "Zählen in Fünfer- und Zehnerschritten",
+      "teach": "In Fünferschritten zählen: 0, 5, 10, 15. Jeder Schritt ist +5, also kommt als Nächstes 20.",
+      "prompt": "Welche Zahl kommt als Nächstes?",
+      "reason": "Die Schritte sind {steps}, also ist die nächste Zahl {answer}."
+    },
+    "fr": {
+      "title": "Compter de 5 en 5 et de 10 en 10",
+      "teach": "Compter de 5 en 5 : 0, 5, 10, 15. Chaque pas est +5, donc ensuite vient 20.",
+      "prompt": "Quel nombre vient ensuite ?",
+      "reason": "Les pas sont {steps}, donc le nombre suivant est {answer}."
+    },
+    "yo": {
+      "title": "Kíkà ní 5 àti 10",
+      "teach": "Kíkà ní márùn-ún márùn-ún: 0, 5, 10, 15. Ìgbésẹ̀ kọ̀ọ̀kan jẹ́ +5, nítorí náà 20 ló kàn.",
+      "prompt": "Nọ́ńbà wo ló kàn?",
+      "reason": "Àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà nọ́ńbà tó kàn ni {answer}."
+    }
+  }
+}

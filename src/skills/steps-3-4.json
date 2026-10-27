@@ -1,0 +1,49 @@
+{
+  "id": "steps-3-4",
+  "kind": "sequence",
+  "subject": "patterns",
+  "stage": 4,
+  "params": {
+    "steps": [
+      3,
+      4,
+      25
+    ],
+    "start": [
+      0,
+      10
+    ]
+  },
+  "emoji": "animal-kangaroo",
+  "example": {
+    "items": "2, 5, 8, 11",
+    "answer": 14,
+    "steps": "+3   +3   +3   +3"
+  },
+  "text": {
+    "en": {
+      "title": "Sequences in 3s, 4s and 25s",
+      "teach": "Find the step by taking each number from the next. 2, 5, 8, 11: each step is +3, so next comes 14.",
+      "prompt": "Which number comes next?",
+      "reason": "The steps are {steps}, so the next number is {answer}."
+    },
+    "de": {
+      "title": "Zahlenfolgen in Dreier-, Vierer- und 25er-Schritten",
+      "teach": "Finde den Schritt, indem du jede Zahl von der nächsten abziehst. 2, 5, 8, 11: Jeder Schritt ist +3, also kommt als Nächstes 14.",
+      "prompt": "Welche Zahl kommt als Nächstes?",
+      "reason": "Die Schritte sind {steps}, also ist die nächste Zahl {answer}."
+    },
+    "fr": {
+      "title": "Suites de 3 en 3, de 4 en 4 et de 25 en 25",
+      "teach": "Trouve le pas en enlevant chaque nombre du suivant. 2, 5, 8, 11 : chaque pas est +3, donc ensuite vient 14.",
+      "prompt": "Quel nombre vient ensuite ?",
+      "reason": "Les pas sont {steps}, donc le nombre suivant est {answer}."
+    },
+    "yo": {
+      "title": "Ìtẹ̀léra ní 3, 4 àti 25",
+      "teach": "Wá ìgbésẹ̀ náà nípa yíyọ nọ́ńbà kọ̀ọ̀kan kúrò nínú èyí tó tẹ̀lé e. 2, 5, 8, 11: ìgbésẹ̀ kọ̀ọ̀kan jẹ́ +3, nítorí náà 14 ló kàn.",
+      "prompt": "Nọ́ńbà wo ló kàn?",
+      "reason": "Àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà nọ́ńbà tó kàn ni {answer}."
+    }
+  }
+}

@@ -232,3 +232,38 @@ button.round {
   min-height: 0;
   transform: scale(0.55);
 }
+/* A picture pattern: the pictures in a row, then a dashed gap (or the answer, ringed, on a teach card). */
+.pattern {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1rem;
+  border-radius: var(--radius);
+  background: var(--sunken-soft);
+}
+.pattern .gap {
+  display: grid;
+  place-items: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: var(--radius-s);
+  border: 3px dashed var(--accent);
+  font-family: var(--display);
+  font-size: 2rem;
+  color: var(--accent-deep);
+}
+.pattern .filled {
+  border-radius: var(--radius-s);
+  box-shadow: 0 0 0 3px var(--mint);
+}
+.memory-card .pattern {
+  padding: 0.2rem;
+  gap: 0.1rem;
+}
+.memory-card .pattern .gap {
+  width: 1.8rem;
+  height: 1.8rem;
+  font-size: 1rem;
+}

@@ -12,6 +12,15 @@ export function VisualView({ visual, big = false }: { visual: Visual; big?: bool
         ))}
       </span>
     )
+  if (visual.kind === 'pattern')
+    return (
+      <span className="pattern">
+        {visual.items.map((name, i) => (
+          <Emoji key={i} name={name} size={big ? 64 : 34} />
+        ))}
+        {visual.filled ? <Emoji name={visual.filled} size={big ? 64 : 34} className="filled" /> : <b className="gap">?</b>}
+      </span>
+    )
   if (visual.kind === 'blocks')
     return (
       <span className="blocks" aria-label={`${visual.tens} × 10 + ${visual.ones}`}>

@@ -1,0 +1,49 @@
+{
+  "id": "count-back",
+  "kind": "sequence",
+  "subject": "patterns",
+  "stage": 3,
+  "params": {
+    "steps": [
+      -1,
+      -2,
+      -10
+    ],
+    "start": [
+      1,
+      20
+    ]
+  },
+  "emoji": "animal-snail",
+  "example": {
+    "items": "50, 40, 30, 20",
+    "answer": 10,
+    "steps": "−10   −10   −10   −10"
+  },
+  "text": {
+    "en": {
+      "title": "Counting back in 1s, 2s and 10s",
+      "teach": "Numbers can go down by the same step too. 50, 40, 30, 20: each step is −10, so next comes 10.",
+      "prompt": "Which number comes next?",
+      "reason": "The steps are {steps}, so the next number is {answer}."
+    },
+    "de": {
+      "title": "Rückwärtszählen in Einer-, Zweier- und Zehnerschritten",
+      "teach": "Zahlen können auch um denselben Schritt kleiner werden. 50, 40, 30, 20: Jeder Schritt ist −10, also kommt als Nächstes 10.",
+      "prompt": "Welche Zahl kommt als Nächstes?",
+      "reason": "Die Schritte sind {steps}, also ist die nächste Zahl {answer}."
+    },
+    "fr": {
+      "title": "Compter à rebours de 1, 2 et 10",
+      "teach": "Les nombres peuvent aussi descendre du même pas. 50, 40, 30, 20 : chaque pas est −10, donc ensuite vient 10.",
+      "prompt": "Quel nombre vient ensuite ?",
+      "reason": "Les pas sont {steps}, donc le nombre suivant est {answer}."
+    },
+    "yo": {
+      "title": "Kíkà sẹ́yìn ní 1, 2 àti 10",
+      "teach": "Nọ́ńbà tún lè sọ̀kalẹ̀ ní ìgbésẹ̀ kan náà. 50, 40, 30, 20: ìgbésẹ̀ kọ̀ọ̀kan jẹ́ −10, nítorí náà 10 ló kàn.",
+      "prompt": "Nọ́ńbà wo ló kàn?",
+      "reason": "Àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà nọ́ńbà tó kàn ni {answer}."
+    }
+  }
+}
