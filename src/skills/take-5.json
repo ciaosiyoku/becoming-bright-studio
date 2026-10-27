@@ -16,6 +16,24 @@
       "teach": "To take away, start at the first number and jump back. 5 take away 2: jump back 2 hops, to 3.",
       "prompt": "What is {a} − {b}?",
       "reason": "Start at {a}, jump back {b} → {answer}."
+    },
+    "de": {
+      "title": "Minus bis 5",
+      "teach": "Beim Minusrechnen fängst du bei der ersten Zahl an und springst zurück. 5 minus 2: zwei Sprünge zurück, auf 3.",
+      "prompt": "Was ist {a} − {b}?",
+      "reason": "Fang bei {a} an, spring {b} zurück → {answer}."
+    },
+    "fr": {
+      "title": "Soustraire jusqu’à 5",
+      "teach": "Pour soustraire, pars du premier nombre et saute en arrière. 5 moins 2 : 2 sauts en arrière, jusqu’à 3.",
+      "prompt": "Combien font {a} − {b} ?",
+      "reason": "Pars de {a}, recule de {b} → {answer}."
+    },
+    "yo": {
+      "title": "Àyọkúrò títí dé 5",
+      "teach": "Láti ṣe àyọkúrò, bẹ̀rẹ̀ ní nọ́ńbà àkọ́kọ́ kí o sì fò sẹ́yìn. 5 yọ 2: fò sẹ́yìn ìgbà 2, sí 3.",
+      "prompt": "Kí ni {a} − {b}?",
+      "reason": "Bẹ̀rẹ̀ ní {a}, fò sẹ́yìn ìgbà {b} → {answer}."
     }
   }
 }

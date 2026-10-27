@@ -15,6 +15,24 @@
       "teach": "The bigger number comes later when we count. 7 comes after 4, so 7 is bigger.",
       "prompt": "Which number is bigger?",
       "reason": "{answer} comes after {small} when we count, so {answer} is bigger."
+    },
+    "de": {
+      "title": "Welche ist größer?",
+      "teach": "Die größere Zahl kommt beim Zählen später. 7 kommt nach 4, also ist 7 größer.",
+      "prompt": "Welche Zahl ist größer?",
+      "reason": "{answer} kommt beim Zählen nach {small}, also ist {answer} größer."
+    },
+    "fr": {
+      "title": "Lequel est le plus grand ?",
+      "teach": "Le plus grand nombre vient plus tard quand on compte. 7 vient après 4, donc 7 est plus grand.",
+      "prompt": "Quel nombre est le plus grand ?",
+      "reason": "{answer} vient après {small} quand on compte, donc {answer} est plus grand."
+    },
+    "yo": {
+      "title": "Èwo ló tóbi jù?",
+      "teach": "Nọ́ńbà tó tóbi jù máa ń wá lẹ́yìn nígbà tí a bá ń kà. 7 wá lẹ́yìn 4, nítorí náà 7 tóbi jù.",
+      "prompt": "Nọ́ńbà wo ló tóbi jù?",
+      "reason": "{answer} wá lẹ́yìn {small} nígbà tí a bá ń kà, nítorí náà {answer} tóbi jù."
     }
   }
 }

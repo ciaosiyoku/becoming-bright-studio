@@ -25,6 +25,24 @@
       "teach": "Count one at a time: touch each one and say the next number. 1, 2, 3, 4: there are 4.",
       "prompt": "How many are there?",
       "reason": "Touch each one as you count: {seq}. There are {answer}."
+    },
+    "de": {
+      "title": "Zählen bis 5",
+      "teach": "Zähle eins nach dem anderen: Tippe jedes an und sage die nächste Zahl. 1, 2, 3, 4: Es sind 4.",
+      "prompt": "Wie viele sind es?",
+      "reason": "Tippe beim Zählen jedes an: {seq}. Es sind {answer}."
+    },
+    "fr": {
+      "title": "Compter jusqu’à 5",
+      "teach": "Compte un par un : touche chacun et dis le nombre suivant. 1, 2, 3, 4 : il y en a 4.",
+      "prompt": "Combien y en a-t-il ?",
+      "reason": "Touche chacun en comptant : {seq}. Il y en a {answer}."
+    },
+    "yo": {
+      "title": "Kíkà títí dé 5",
+      "teach": "Kà wọ́n ní ọ̀kọ̀ọ̀kan: fọwọ́ kan ọ̀kọ̀ọ̀kan kí o sì sọ nọ́ńbà tó kàn. 1, 2, 3, 4: wọ́n jẹ́ 4.",
+      "prompt": "Mélòó ló wà níbẹ̀?",
+      "reason": "Fọwọ́ kan ọ̀kọ̀ọ̀kan bí o ṣe ń kà: {seq}. Wọ́n jẹ́ {answer}."
     }
   }
 }

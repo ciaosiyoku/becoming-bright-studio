@@ -25,6 +25,24 @@
       "teach": "Count one at a time, and touch each one only once. 1, 2, 3, 4, 5, 6, 7: there are 7.",
       "prompt": "How many are there?",
       "reason": "Touch each one once as you count: {seq}. There are {answer}."
+    },
+    "de": {
+      "title": "Zählen bis 10",
+      "teach": "Zähle eins nach dem anderen und tippe jedes nur einmal an. 1, 2, 3, 4, 5, 6, 7: Es sind 7.",
+      "prompt": "Wie viele sind es?",
+      "reason": "Tippe beim Zählen jedes einmal an: {seq}. Es sind {answer}."
+    },
+    "fr": {
+      "title": "Compter jusqu’à 10",
+      "teach": "Compte un par un, et ne touche chacun qu’une seule fois. 1, 2, 3, 4, 5, 6, 7 : il y en a 7.",
+      "prompt": "Combien y en a-t-il ?",
+      "reason": "Touche chacun une seule fois en comptant : {seq}. Il y en a {answer}."
+    },
+    "yo": {
+      "title": "Kíkà títí dé 10",
+      "teach": "Kà wọ́n ní ọ̀kọ̀ọ̀kan, kí o sì fọwọ́ kan ọ̀kọ̀ọ̀kan lẹ́ẹ̀kan péré. 1, 2, 3, 4, 5, 6, 7: wọ́n jẹ́ 7.",
+      "prompt": "Mélòó ló wà níbẹ̀?",
+      "reason": "Fọwọ́ kan ọ̀kọ̀ọ̀kan lẹ́ẹ̀kan bí o ṣe ń kà: {seq}. Wọ́n jẹ́ {answer}."
     }
   }
 }

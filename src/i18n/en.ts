@@ -101,6 +101,10 @@ export const en = {
     timeUp: 'Time is up. Well done!',
     pairs: (found: number, of: number) => `${found} of ${of} pairs`,
   },
+  language: {
+    label: 'Language',
+    note: 'The language of the app and of the number lessons. The English sound and word lessons stay in English.',
+  },
   parent: {
     title: 'For grown-ups',
     misses: 'Today’s misses',

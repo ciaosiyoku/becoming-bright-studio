@@ -43,7 +43,10 @@ One parent screen, behind a PIN:
   child in one app is a device setting (Guided Access, app pinning), not something this app can do.
 - **No 24-hour PIN reset.** A lost PIN is recovered with the recovery code shown at setup, or by starting again
   from a backup.
-- **No language that a native speaker hasn't read aloud,** sentence by sentence. Version 1 is English only.
+- **No language that a native speaker hasn't read aloud,** sentence by sentence. *Exception, by the owner's
+  decision (27 Oct 2026): version 1 ships English, Deutsch, Français and Yorùbá. German, French and Yoruba are
+  machine-checked for completeness but have not yet been read aloud by native speakers. That reading is the next
+  step for each of them (ROADMAP.md).*
 - **No reward that isn't learning-shaped.** The only reward is a short game made of the lesson's own pictures.
 
 ## The session on paper (the demo before the app)

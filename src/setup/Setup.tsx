@@ -3,6 +3,7 @@ import { addChild, COLOURS, newChild } from '@/app/state'
 import { useStore } from '@/app/store'
 import { useT } from '@/i18n'
 import { ChoosePin } from '@/parent/PinScreens'
+import { LanguagePicker } from '@/shared/LanguagePicker'
 import './Setup.css'
 
 /** First start: the child's name and colour, then the family PIN (with its recovery code, shown once). */
@@ -14,6 +15,7 @@ export function Setup() {
     return (
       <main className="setup">
         <section className="card setup-card">
+          <LanguagePicker />
           <img src={`${import.meta.env.BASE_URL}icons/icon.svg`} alt="" width={112} height={112} />
           <h1>{T.appName}</h1>
           <p className="tagline">{T.tagline}</p>

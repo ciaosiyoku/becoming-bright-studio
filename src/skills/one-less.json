@@ -15,6 +15,24 @@
       "teach": "One less is the number just before. One less than 6: hop one step back, to 5.",
       "prompt": "What is one less than {n}?",
       "reason": "One less is the number before: {answer}, then {n}."
+    },
+    "de": {
+      "title": "Eins weniger",
+      "teach": "Eins weniger ist die Zahl direkt davor. Eins weniger als 6: einen Schritt zurück, auf 5.",
+      "prompt": "Was ist eins weniger als {n}?",
+      "reason": "Eins weniger ist die Zahl davor: {answer}, dann {n}."
+    },
+    "fr": {
+      "title": "Un de moins",
+      "teach": "Un de moins, c’est le nombre juste avant. Un de moins que 6 : un saut en arrière, jusqu’à 5.",
+      "prompt": "Combien fait un de moins que {n} ?",
+      "reason": "Un de moins, c’est le nombre d’avant : {answer}, puis {n}."
+    },
+    "yo": {
+      "title": "Ọ̀kan dín",
+      "teach": "Ọ̀kan dín ni nọ́ńbà tó ṣáájú rẹ̀ gan-an. Ọ̀kan dín 6: fò ìgbésẹ̀ kan sẹ́yìn, sí 5.",
+      "prompt": "Kí ni ọ̀kan dín {n}?",
+      "reason": "Ọ̀kan dín ni nọ́ńbà tó ṣáájú: {answer}, lẹ́yìn náà {n}."
     }
   }
 }

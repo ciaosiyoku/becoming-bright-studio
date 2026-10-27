@@ -4,7 +4,8 @@ import type { Lang } from '@/i18n'
 // Reading aloud with the device's own voices (Web Speech API). Nothing is sent anywhere by the app. A device without
 // a voice for the language shows the words only (the speaker buttons hide). One thing is read at a time.
 
-const VARIANT: Record<Lang, string> = { en: 'en-GB' }
+// Few devices have a Yoruba voice: without one, the speaker buttons hide and the words are shown only.
+const VARIANT: Record<Lang, string> = { en: 'en-GB', de: 'de-DE', fr: 'fr-FR', yo: 'yo-NG' }
 
 function voiceFor(lang: Lang): SpeechSynthesisVoice | undefined {
   if (!('speechSynthesis' in globalThis)) return undefined

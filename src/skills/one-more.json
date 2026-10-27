@@ -15,6 +15,24 @@
       "teach": "One more is the next number when we count. One more than 6: hop one step forward, to 7.",
       "prompt": "What is one more than {n}?",
       "reason": "One more is the next number: {n}, then {answer}."
+    },
+    "de": {
+      "title": "Eins mehr",
+      "teach": "Eins mehr ist die nächste Zahl beim Zählen. Eins mehr als 6: einen Schritt vor, auf 7.",
+      "prompt": "Was ist eins mehr als {n}?",
+      "reason": "Eins mehr ist die nächste Zahl: {n}, dann {answer}."
+    },
+    "fr": {
+      "title": "Un de plus",
+      "teach": "Un de plus, c’est le nombre suivant quand on compte. Un de plus que 6 : un saut en avant, jusqu’à 7.",
+      "prompt": "Combien fait un de plus que {n} ?",
+      "reason": "Un de plus, c’est le nombre suivant : {n}, puis {answer}."
+    },
+    "yo": {
+      "title": "Ọ̀kan sí i",
+      "teach": "Ọ̀kan sí i ni nọ́ńbà tó kàn nígbà tí a bá ń kà. Ọ̀kan sí i lórí 6: fò ìgbésẹ̀ kan síwájú, sí 7.",
+      "prompt": "Kí ni ọ̀kan sí i lórí {n}?",
+      "reason": "Ọ̀kan sí i ni nọ́ńbà tó kàn: {n}, lẹ́yìn náà {answer}."
     }
   }
 }

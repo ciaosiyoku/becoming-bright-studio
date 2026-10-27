@@ -16,6 +16,24 @@
       "teach": "Start at the first number and jump back. 9 take away 4: jump back 4 hops, to 5.",
       "prompt": "What is {a} − {b}?",
       "reason": "Start at {a}, jump back {b} → {answer}."
+    },
+    "de": {
+      "title": "Minus bis 10",
+      "teach": "Fang bei der ersten Zahl an und spring zurück. 9 minus 4: vier Sprünge zurück, auf 5.",
+      "prompt": "Was ist {a} − {b}?",
+      "reason": "Fang bei {a} an, spring {b} zurück → {answer}."
+    },
+    "fr": {
+      "title": "Soustraire jusqu’à 10",
+      "teach": "Pars du premier nombre et saute en arrière. 9 moins 4 : 4 sauts en arrière, jusqu’à 5.",
+      "prompt": "Combien font {a} − {b} ?",
+      "reason": "Pars de {a}, recule de {b} → {answer}."
+    },
+    "yo": {
+      "title": "Àyọkúrò títí dé 10",
+      "teach": "Bẹ̀rẹ̀ ní nọ́ńbà àkọ́kọ́ kí o sì fò sẹ́yìn. 9 yọ 4: fò sẹ́yìn ìgbà 4, sí 5.",
+      "prompt": "Kí ni {a} − {b}?",
+      "reason": "Bẹ̀rẹ̀ ní {a}, fò sẹ́yìn ìgbà {b} → {answer}."
     }
   }
 }

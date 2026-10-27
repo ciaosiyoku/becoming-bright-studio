@@ -16,6 +16,24 @@
       "teach": "To add, start at the first number and jump forward. {a} and {b} more: jump from {a}, {b} hops, to {answer}.",
       "prompt": "What is {a} + {b}?",
       "reason": "Start at {a}, jump {b} → {answer}."
+    },
+    "de": {
+      "title": "Plus bis 5",
+      "teach": "Beim Plusrechnen fängst du bei der ersten Zahl an und springst vorwärts. {a} und {b} mehr: von {a} {b} Sprünge, bis {answer}.",
+      "prompt": "Was ist {a} + {b}?",
+      "reason": "Fang bei {a} an, spring {b} weiter → {answer}."
+    },
+    "fr": {
+      "title": "Additionner jusqu’à 5",
+      "teach": "Pour additionner, pars du premier nombre et saute en avant. {a} et encore {b} : depuis {a}, {b} sauts, jusqu’à {answer}.",
+      "prompt": "Combien font {a} + {b} ?",
+      "reason": "Pars de {a}, saute {b} fois → {answer}."
+    },
+    "yo": {
+      "title": "Àròpọ̀ títí dé 5",
+      "teach": "Láti ṣe àròpọ̀, bẹ̀rẹ̀ ní nọ́ńbà àkọ́kọ́ kí o sì fò síwájú. {a} àti {b} sí i: láti {a}, fò ìgbà {b}, sí {answer}.",
+      "prompt": "Kí ni {a} + {b}?",
+      "reason": "Bẹ̀rẹ̀ ní {a}, fò ìgbà {b} → {answer}."
     }
   }
 }

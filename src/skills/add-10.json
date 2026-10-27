@@ -16,6 +16,24 @@
       "teach": "Start at the first number and jump forward. 6 and 3 more: jump from 6, 3 hops, to 9.",
       "prompt": "What is {a} + {b}?",
       "reason": "Start at {a}, jump {b} → {answer}."
+    },
+    "de": {
+      "title": "Plus bis 10",
+      "teach": "Fang bei der ersten Zahl an und spring vorwärts. 6 und 3 mehr: von 6 drei Sprünge, bis 9.",
+      "prompt": "Was ist {a} + {b}?",
+      "reason": "Fang bei {a} an, spring {b} weiter → {answer}."
+    },
+    "fr": {
+      "title": "Additionner jusqu’à 10",
+      "teach": "Pars du premier nombre et saute en avant. 6 et encore 3 : depuis 6, 3 sauts, jusqu’à 9.",
+      "prompt": "Combien font {a} + {b} ?",
+      "reason": "Pars de {a}, saute {b} fois → {answer}."
+    },
+    "yo": {
+      "title": "Àròpọ̀ títí dé 10",
+      "teach": "Bẹ̀rẹ̀ ní nọ́ńbà àkọ́kọ́ kí o sì fò síwájú. 6 àti 3 sí i: láti 6, fò ìgbà 3, sí 9.",
+      "prompt": "Kí ni {a} + {b}?",
+      "reason": "Bẹ̀rẹ̀ ní {a}, fò ìgbà {b} → {answer}."
     }
   }
 }

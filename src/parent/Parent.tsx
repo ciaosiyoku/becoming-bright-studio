@@ -6,6 +6,7 @@ import { BackupError, backupDue, makeBackup, parseBackup, saveBackupFile } from 
 import { useLang, useT } from '@/i18n'
 import { skillById, SKILLS, skillText } from '@/skills/index'
 import { NO_LOCK } from './pin'
+import { LanguagePicker } from '@/shared/LanguagePicker'
 import { ChildForm } from '@/setup/Setup'
 import { ChoosePin } from './PinScreens'
 import './Parent.css'
@@ -27,6 +28,11 @@ export function Parent({ onClose }: { onClose: () => void }) {
       ))}
       <ChildrenCard />
       <GamesCard />
+      <section className="card parent-card">
+        <h2>{T.language.label}</h2>
+        <p className="muted">{T.language.note}</p>
+        <LanguagePicker />
+      </section>
       <BackupCard />
       <PinCard />
     </main>
