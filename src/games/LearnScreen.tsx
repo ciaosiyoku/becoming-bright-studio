@@ -8,6 +8,7 @@ import { LibraryScreen, type Shelf } from '@/library/LibraryScreen'
 import { WorldMap } from '@/maps/WorldMap'
 import { MissionScreen } from '@/missions/MissionScreen'
 import { ItemTile } from '@/rewards/ItemTile'
+import { gardenOf } from '@/progress/garden'
 import { levelOf } from '@/progress/progress'
 import { Emoji } from '@/shared/Emoji'
 import './Games.css'
@@ -15,7 +16,7 @@ import './Games.css'
 /** A pastel card colour per subject (CSS tokens, so dark mode works). */
 const COLORS: Record<Subject, string> = { maths: 'var(--sky-soft)', english: 'var(--accent-soft)', world: 'var(--peach-soft)', patterns: 'var(--lilac-soft)' }
 
-/** Learn: the library (places and animals) first, then every enabled subject with the skill being practised now. */
+/** Learn: the learning garden, the library (places and animals), then every enabled subject with the skill being practised now. */
 export function LearnScreen() {
   const t = useT()
   const { accessOf, progress, stage } = useStudio()
@@ -27,6 +28,7 @@ export function LearnScreen() {
 
   return (
     <div className="games-screen">
+      <LearningGarden />
       {/* The world map and the library first: places and animals of the world. */}
       <ItemTile id="worldmap" className="game-card library-tile" onOpen={() => setMap(true)}>
         <span className="game-learn">{t.itemLearn.worldmap}</span>
@@ -57,5 +59,51 @@ export function LearnScreen() {
       {shelf && <LibraryScreen shelf={shelf} onClose={() => setShelf(null)} />}
       {map && <WorldMap onClose={() => setMap(false)} />}
     </div>
+  )
+}
+
+/** Most plants drawn; more are counted ("+12"). */
+const MAX_PLANTS = 36
+
+/** Every skill practised is a plant: a seedling while it grows, a tree once it is known (progress/garden.ts). */
+function LearningGarden() {
+  const t = useT()
+  const lang = useLang()
+  const { progress } = useStudio()
+  const garden = gardenOf(progress)
+  const known = garden.plants.filter((p) => p.known).length
+  return (
+    <section className="card garden-card">
+      <h3 className="card-title">
+        <Emoji name="tree" size={40} /> {t.garden.title}
+      </h3>
+      {garden.plants.length === 0 ? (
+        <p className="muted">{t.garden.empty}</p>
+      ) : (
+        <>
+          <div className="garden-plants">
+            {garden.plants.slice(0, MAX_PLANTS).map((p) => {
+              const step = LADDERS[p.subject].find((x) => x.id === p.step)
+              const label = `${t.items[p.subject]}: ${step ? skillName(step, lang) : p.step} (${p.known ? t.garden.known : t.garden.growing})`
+              return (
+                <span key={p.step} className={`garden-plant ${p.known ? 'known' : ''}`} title={label} role="img" aria-label={label}>
+                  <Emoji name={p.known ? 'tree' : 'seedling'} size={p.known ? 44 : 32} />
+                </span>
+              )
+            })}
+            {garden.plants.length > MAX_PLANTS && <span className="pill">+{garden.plants.length - MAX_PLANTS}</span>}
+          </div>
+          <p className="muted">
+            {t.garden.summary(known, garden.plants.length - known)}
+            {garden.learnt > 0 && (
+              <>
+                {' · '}
+                <Emoji name="trophy" size={22} /> {t.garden.learnt(garden.learnt)}
+              </>
+            )}
+          </p>
+        </>
+      )}
+    </section>
   )
 }

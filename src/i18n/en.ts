@@ -189,6 +189,14 @@ export const en = {
     another: 'Another one',
     topics: { space: 'Space', science: 'Science', nature: 'Nature', world: 'World', history: 'History' },
   },
+  garden: {
+    title: 'My learning garden',
+    empty: 'Do a mission to plant your first seed!',
+    summary: (known: number, growing: number) => `${plural(known, 'skill', 'skills')} known, ${growing} growing`,
+    learnt: (n: number) => `${plural(n, 'hard question', 'hard questions')} learnt from mistakes`,
+    known: 'Known',
+    growing: 'Growing',
+  },
   learn: {
     practise: 'Practise',
     step: (n: number, of: number) => `Step ${n} of ${of}`,

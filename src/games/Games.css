@@ -11,6 +11,32 @@
 .games-screen .game-card {
   min-height: 15rem;
 }
+/* The learning garden: a full-width strip of plants (seedlings grow into trees as skills are known). */
+.garden-card {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 0.4rem;
+}
+.garden-plants {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.25rem;
+  min-height: 3rem;
+  padding: 0.4rem 0.6rem 0.2rem;
+  border-radius: var(--radius-s);
+  background: linear-gradient(to top, var(--mint-soft) 0 0.6rem, transparent 0.6rem);
+}
+.garden-plant {
+  display: inline-flex;
+  animation: garden-grow 0.5s ease-out both;
+}
+@keyframes garden-grow {
+  from {
+    transform: scale(0.4) translateY(0.5rem);
+    opacity: 0;
+  }
+}
 .game-card {
   position: relative;
   flex-direction: column;

@@ -187,6 +187,14 @@ export const fr: Strings = {
     another: 'Encore un',
     topics: { space: 'Espace', science: 'Sciences', nature: 'Nature', world: 'Le monde', history: 'Histoire' },
   },
+  garden: {
+    title: 'Mon jardin des savoirs',
+    empty: 'Fais une mission pour planter ta première graine !',
+    summary: (known: number, growing: number) => `${plural(known, 'compétence acquise', 'compétences acquises')}, ${growing} en train de pousser`,
+    learnt: (n: number) => `${plural(n, 'question difficile apprise', 'questions difficiles apprises')} grâce aux erreurs`,
+    known: 'Acquise',
+    growing: 'Pousse',
+  },
   learn: {
     practise: 'S’entraîner',
     step: (n: number, of: number) => `Étape ${n} sur ${of}`,
