@@ -30,3 +30,8 @@
   text-align: center;
   padding: 1.6rem;
 }
+.todays-title {
+  font-family: var(--display);
+  font-size: 1.6rem;
+  color: var(--ink);
+}

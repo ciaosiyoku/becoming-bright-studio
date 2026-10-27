@@ -3,16 +3,23 @@ import { useState } from 'react'
 import { activeChild } from '@/app/state'
 import { useStore } from '@/app/store'
 import { backupDue } from '@/data/backup'
+import { useLang, useT } from '@/i18n'
+import { nextSkill } from '@/lesson/session'
 import { Emoji } from '@/shared/Emoji'
-import { useT } from '@/i18n'
+import { skillById, SKILLS, skillText } from '@/skills/index'
 import './Home.css'
+
+const ORDER = SKILLS.map((s) => s.id)
 
 /** The child's home: hello, today's lesson, and (once a week) a backup reminder for the grown-ups. */
 export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void; onParent: () => void }) {
   const T = useT()
+  const lang = useLang()
   const { state } = useStore()
   const child = activeChild(state)!
   const [now] = useState(Date.now)
+  const today = nextSkill(child, ORDER)
+  const todayDef = today ? skillById(today) : undefined
   return (
     <main className="home">
       <header className="home-top">
@@ -27,10 +34,21 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
         </button>
       )}
       <section className="card todays">
-        <h2>{T.home.todays}</h2>
-        <button className="big" onClick={() => onLesson('first')}>
-          {T.home.start}
-        </button>
+        {todayDef ? (
+          <>
+            <h2>{T.home.todays}</h2>
+            <Emoji name={todayDef.emoji} size={110} />
+            <p className="todays-title">{skillText(todayDef, lang).title}</p>
+            <button className="big" onClick={() => onLesson(todayDef.id)}>
+              {T.home.start}
+            </button>
+          </>
+        ) : (
+          <>
+            <Emoji name="tree" size={110} />
+            <h2>{T.home.allDone}</h2>
+          </>
+        )}
       </section>
     </main>
   )

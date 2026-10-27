@@ -1,0 +1,203 @@
+/* A lesson: full screen, one card, big targets (at least 64 px), calm colours. */
+.lesson {
+  height: 100%;
+  overflow-y: auto;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
+  padding: 1rem 1.2rem 1.2rem;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+.lesson-top {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.lesson-top h1 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  flex: 1;
+  min-width: 0;
+}
+.lesson-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 1.4rem;
+}
+.teach-sentence {
+  font-size: 1.5rem;
+  max-width: 40rem;
+  color: var(--ink);
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  align-items: center;
+}
+.row.center {
+  justify-content: center;
+}
+button.big {
+  min-height: 4.6rem;
+  padding: 0 2.4rem;
+  font-size: 1.4rem;
+}
+button.round {
+  width: var(--tap);
+  padding: 0;
+  border-radius: 50%;
+}
+.ask {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.ask p {
+  font-family: var(--display);
+  font-size: 1.9rem;
+  color: var(--ink);
+}
+.sum {
+  font-family: var(--display);
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.sum.big {
+  font-size: 4.6rem;
+}
+.count {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  max-width: 44rem;
+}
+.picture {
+  display: grid;
+  justify-items: center;
+  gap: 0.3rem;
+}
+.picture b {
+  font-family: var(--display);
+  font-size: 2rem;
+  color: var(--ink);
+}
+.number-line {
+  width: min(40rem, 100%);
+  color: var(--ink);
+}
+
+.choices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  width: 100%;
+  max-width: 48rem;
+}
+.choice {
+  min-height: 6.5rem;
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--ink);
+  border: 3px solid var(--line);
+  box-shadow: var(--shadow);
+  font-size: 2.4rem;
+  flex-direction: column;
+}
+.choice.right {
+  background: var(--mint-soft);
+  border-color: var(--mint);
+}
+.choice.wrong {
+  background: var(--red-soft);
+  border-color: var(--red);
+}
+.choice.faded {
+  opacity: 0.35;
+}
+.choice:disabled {
+  opacity: 0.35;
+}
+.choice.right:disabled,
+.choice.wrong:disabled {
+  opacity: 1;
+}
+
+/* After every answer: the answer and its reason, and "Next" (which waits a moment). */
+.feedback {
+  display: grid;
+  justify-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  max-width: 48rem;
+  padding: 1rem;
+  border-radius: var(--radius-s);
+  border: 3px solid var(--mint);
+  background: var(--mint-soft);
+  color: var(--ink);
+}
+.feedback.is-wrong {
+  border-color: var(--amber);
+  background: var(--amber-soft);
+}
+.feedback-words b {
+  font-family: var(--display);
+  font-size: 1.6rem;
+}
+.feedback-words p {
+  font-size: 1.35rem;
+}
+
+.result h2 {
+  font-size: 2.2rem;
+}
+.result p {
+  font-size: 1.3rem;
+}
+.grow {
+  animation: grow 0.8s ease-out;
+}
+@keyframes grow {
+  from {
+    transform: scale(0.3) translateY(2rem);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .lesson {
+    padding: 0.6rem 0.7rem;
+  }
+  .ask p {
+    font-size: 1.4rem;
+  }
+  .sum.big {
+    font-size: 3rem;
+  }
+  .choices {
+    gap: 0.5rem;
+  }
+  .choice {
+    min-height: 5rem;
+    font-size: 1.8rem;
+  }
+  .teach-sentence {
+    font-size: 1.2rem;
+  }
+}
+/* The reason's number line: smaller than on the teach card, so "Next" stays on screen. */
+.feedback .number-line {
+  width: min(24rem, 100%);
+}
+.lesson-card {
+  gap: 0.8rem;
+}
