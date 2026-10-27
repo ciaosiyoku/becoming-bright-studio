@@ -17,7 +17,7 @@ Legend: **done** · **to verify** (built, needs checking on a device or with a s
 | Typed number answers (every other number question from Stage 1; parent setting) | done (26 Oct 2026) |
 | Reports: skill mastery (Known / Practising / Needs help, last 30 days), review-box figures | done (26 Oct 2026) |
 | Learning garden on the Learn screen | done (26 Oct 2026) |
-| Yoruba: app texts, lessons, facts, places, animals, code breaker; map names from the browser (CLDR), capitals in English | **to verify by a native-speaking teacher before use with children** (draft, 26 Oct 2026); no Yoruba voice on most devices, so nothing is read aloud in Yoruba |
+| Yoruba: app texts, lessons, facts, places, animals, code breaker; map names from the browser (CLDR), capitals in English | **to verify by a native-speaking teacher before use with children** (translated 26 Oct 2026); no Yoruba voice on most devices, so nothing is read aloud in Yoruba |
 | New name and logo: Becoming Bright Studio, sunrise and sprout (`scripts/make-brand.mjs`) | done (26 Oct 2026) |
 | Missions: 10, 25 or 50 questions (parent's choice), one try each (green right / red wrong, the answer never shown), pass mark 70 %, a star per 10 questions, earned time | done |
 | Skills ladder by school class (58 skills, Stage 0–6), adaptive within one stage of the class | done |
@@ -48,7 +48,7 @@ Legend: **done** · **to verify** (built, needs checking on a device or with a s
 - Repository "About" text and topics on GitHub: needs the repository owner (the token has no Administration right).
 - Checks on real devices: Amazon Fire voices, Amazon Kids browser, mailto, share sheet, family-call links.
 - Terms of use of the radio streams (WDR, Fun Kids, Radio France).
-- Native-speaker reading of the German, French and Yoruba texts (Yoruba is a draft).
+- Native-speaker reading of the German, French and Yoruba texts.
 
 ## v1.1 (plugins, each optional and off by default)
 

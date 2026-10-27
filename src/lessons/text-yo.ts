@@ -3,7 +3,7 @@ import type { LessonText } from './text'
 // The lessons in Yoruba (maths, the world, patterns; English stays English). Animal facts start with "Ẹranko yìí …"
 // ("This animal …"), so no word gives the animal away. Animals without a Yoruba name of their own use the usual
 // borrowed name (kangarú, pẹ́ńgúìn). Numbers are written as digits.
-// Status: DRAFT (beta), translated without a native speaker; to be checked by a native-speaking teacher (ROADMAP.md).
+// Status: Not yet checked by a native speaker; translated without a native speaker; to be checked by a native-speaking teacher (ROADMAP.md).
 
 const FRACTIONS = { 2: 'ìdajì', 3: 'ìdámẹ́ta', 4: 'ìdámẹ́rin', 5: 'ìdámárùn-ún' } as const
 

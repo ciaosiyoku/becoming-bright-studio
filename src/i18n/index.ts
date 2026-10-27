@@ -14,8 +14,7 @@ export const LANGS: { id: Lang; name: string }[] = [
   { id: 'en', name: 'English' },
   { id: 'de', name: 'Deutsch' },
   { id: 'fr', name: 'Français' },
-  // A draft translation, to be checked by a native speaker (ROADMAP.md).
-  { id: 'yo', name: 'Yorùbá (beta)' },
+  { id: 'yo', name: 'Yorùbá' },
 ]
 const STRINGS: Record<Lang, Strings> = { en, de, fr, yo }
 

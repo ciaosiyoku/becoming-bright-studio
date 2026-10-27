@@ -11,7 +11,7 @@ export interface FixedQuestion {
   en: T
   de: T
   fr: T
-  /** DRAFT (beta), to be checked by a native speaker. */
+  /** Not yet checked by a native speaker; to be checked by a native speaker. */
   yo: T
 }
 

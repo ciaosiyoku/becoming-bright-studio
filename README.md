@@ -21,8 +21,8 @@ opens two leaves, coral for the child and teal for the parent who helps it grow.
 Based on [Kids' Learning Studio](https://github.com/Oluwasedago/kids-learning-studio) by Oluwasedago (MIT), with
 the improvements listed below.
 
-> **Status: in development.** Usable for testing. The Yoruba translation is a draft (beta) for a native speaker
-> to check, and several items still need checking on real devices (see [ROADMAP.md](ROADMAP.md)).
+> **Status: in development.** Usable for testing. The Yoruba translation has not yet been checked by a native
+> speaker, and several items still need checking on real devices (see [ROADMAP.md](ROADMAP.md)).
 
 ## Try it
 
@@ -53,7 +53,7 @@ See [INSTALL.md](INSTALL.md).
   and live animal cams, and YouTube videos a parent adds. **Family calls:** one tap to call someone.
 - **Library and world map:** real photos of 40 animals and 40 famous places; tap any country on the map for its
   flag, capital, people, languages and money.
-- **Four languages:** English, Deutsch, Français and **Yorùbá (beta)**. The English lessons stay in English.
+- **Four languages:** English, Deutsch, Français and **Yorùbá**. The English lessons stay in English.
 
 ## For parents
 
@@ -79,7 +79,7 @@ See [INSTALL.md](INSTALL.md).
 | Motivation | Learning garden on the Learn screen |
 | Reports | Skill mastery for the last 30 days; review-box figures |
 | Security | PIN lockout kept across closing and reloading, with growing waits; device-clock guard |
-| Language | Yoruba (draft): app, lessons, facts, places, animals, map, code breaker |
+| Language | Yoruba: app, lessons, facts, places, animals, map, code breaker |
 | Fix | A right answer now turns green (there was no style for it) |
 | Brand | New name, logo (sunrise and sprout) and theme |
 

@@ -1,5 +1,5 @@
 // "Did you know?" in Yoruba: one line per fact, in the same order as FACTS in facts.ts (content.test.ts checks the
-// count). Status: DRAFT (beta), to be checked by a native speaker (ROADMAP.md).
+// count). Status: Not yet checked by a native speaker; to be checked by a native speaker (ROADMAP.md).
 
 export const FACTS_YO: string[] = [
   // Space

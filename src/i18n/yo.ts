@@ -1,6 +1,6 @@
 import type { Strings } from './en'
 
-// Every text the app shows, in Yoruba (Yorùbá). DRAFT (beta): translated without a native speaker, to be checked
+// Every text the app shows, in Yoruba (Yorùbá). Translated without a native speaker, to be checked
 // by a native-speaking teacher before it is used with children (ROADMAP.md). Yoruba nouns do not change for more
 // than one, and a number follows its noun ("ìṣẹ́jú 5" = 5 minutes), hence `count` instead of `plural`.
 // Device menus (“Add to Home screen”) stay in English, as the devices show them.
@@ -519,6 +519,6 @@ export const yo: Strings = {
   },
   language: {
     label: 'Èdè',
-    note: 'Èdè áàpù. Ẹ̀kọ́ Gẹ̀ẹ́sì máa wà ní Gẹ̀ẹ́sì. Yorùbá jẹ́ ẹ̀yà ìdánwò (beta): olùkọ́ tí ó ń sọ Yorùbá ṣì ní láti ṣàyẹ̀wò rẹ̀.',
+    note: 'Èdè áàpù. Ẹ̀kọ́ Gẹ̀ẹ́sì máa wà ní Gẹ̀ẹ́sì.',
   },
 }

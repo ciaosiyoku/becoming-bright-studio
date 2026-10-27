@@ -1,5 +1,5 @@
 // The places of the world in Yoruba: name and two short facts per place id (places.ts). Proper names stay as the
-// world knows them; numbers are digits. Status: DRAFT (beta), to be checked by a native speaker (ROADMAP.md).
+// world knows them; numbers are digits. Status: Not yet checked by a native speaker; to be checked by a native speaker (ROADMAP.md).
 
 export const PLACES_YO: Record<string, [name: string, about: string]> = {
   'eiffel-tower': ['Ilé-ìṣọ́ Eiffel', 'Ilé-ìṣọ́ gíga onírin ní Paris, tí a kọ́ fún àfihàn àgbáyé ní ọdún 1889. Ó ga tó mítà 330.'],
