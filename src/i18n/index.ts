@@ -17,6 +17,9 @@ export function deviceLang(language = globalThis.navigator?.language ?? 'en'): L
   return LANGS.find((x) => l.startsWith(x.id))?.id ?? 'en'
 }
 
+/** The sentences of a language (pages without the app's state, such as the install page). */
+export const stringsFor = (lang: Lang): Strings => STRINGS[lang]
+
 /** The language in use. */
 export function useLang(): Lang {
   const { state } = useStore()
