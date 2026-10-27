@@ -25,6 +25,10 @@ export interface SkillDef {
   id: string
   /** Which question maker (generate.ts). */
   kind: GeneratorKind
+  /** The group on the home screen. */
+  subject: Subject
+  /** About which school stage it belongs to (Cambridge Primary: 0 = before Stage 1, up to 7 = a stretch past 6). */
+  stage: number
   /** Settings for the question maker, e.g. { "max": 5 } or word lists. Each maker reads its own (generate.ts). */
   params: Record<string, unknown>
   /** The picture on the home screen (public/emoji). */
@@ -35,6 +39,8 @@ export interface SkillDef {
   example: Record<string, number | string>
   text: Partial<Record<Lang, SkillText>> & { en: SkillText }
 }
+
+export type Subject = 'numbers' | 'words' | 'patterns'
 
 export type GeneratorKind = 'count' | 'add' | 'subtract' | 'one-more' | 'one-less' | 'bigger' | 'first-sound' | 'a-an' | 'rhyme'
 

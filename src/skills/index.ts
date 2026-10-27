@@ -11,9 +11,10 @@ import bigger from './bigger.json'
 import firstSound from './first-sound.json'
 import aAn from './a-an.json'
 import rhyme from './rhyme.json'
-import type { Item, SkillDef, SkillText } from './types'
+import type { Item, SkillDef, SkillText, Subject } from './types'
 
-// The skills in teaching order: each opens when the one before is mastered. One JSON file per skill.
+// Every skill, one JSON file each. The child chooses which one to learn; the home screen groups them by subject
+// and orders them by stage (byGroup).
 
 export const SKILLS = [
   count5,
@@ -29,6 +30,10 @@ export const SKILLS = [
   aAn,
   rhyme,
 ] as SkillDef[]
+
+/** The subjects in home-screen order, each with its skills from the easiest stage up. */
+export const SUBJECTS: Subject[] = ['numbers', 'words', 'patterns']
+export const bySubject = (subject: Subject) => SKILLS.filter((s) => s.subject === subject).sort((a, b) => a.stage - b.stage)
 
 export const skillById = (id: string): SkillDef | undefined => SKILLS.find((s) => s.id === id)
 

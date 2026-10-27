@@ -5,6 +5,7 @@ import { Lesson } from '@/lesson/Lesson'
 import { Parent } from '@/parent/Parent'
 import { PinGate } from '@/parent/PinScreens'
 import { NeedPin, Setup } from '@/setup/Setup'
+import { setVoiceGender } from '@/shared/speak'
 import { activeChild } from './state'
 import { useStore } from './store'
 import { StoreProvider } from './StoreProvider'
@@ -26,6 +27,9 @@ function Screens() {
   const { state, ready } = useStore()
   const [screen, setScreen] = useState<Screen>({ name: 'home' })
   const child = activeChild(state)
+
+  // The reading voice the grown-ups chose.
+  useEffect(() => setVoiceGender(state.family.voice), [state.family.voice])
 
   // The child's colour on buttons.
   useEffect(() => {

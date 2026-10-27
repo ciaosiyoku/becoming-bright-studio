@@ -1,6 +1,8 @@
 {
   "id": "add-5",
   "kind": "add",
+  "subject": "numbers",
+  "stage": 0,
   "params": {
     "max": 5
   },

@@ -103,3 +103,7 @@
   font-weight: 400;
   color: var(--muted);
 }
+.choose {
+  font-size: 1.5rem;
+  margin-top: 0.4rem;
+}

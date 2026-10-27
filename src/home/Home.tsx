@@ -5,17 +5,16 @@ import { useStore } from '@/app/store'
 import { backupDue } from '@/data/backup'
 import { useLang, useT } from '@/i18n'
 import { secondsLeft } from '@/games/pairs'
-import { isOpen, nextSkill } from '@/lesson/session'
 import { Emoji } from '@/shared/Emoji'
-import { skillById, SKILLS, skillText } from '@/skills/index'
+import { bySubject, SKILLS, skillText, SUBJECTS } from '@/skills/index'
 import './Home.css'
 
-const ORDER = SKILLS.map((s) => s.id)
 const clock = (s: number) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`
 
 /**
- * The child's home: who is learning (when there are two or more children), hello, today's lesson, the path of
- * skills, and (once a week) a backup reminder for the grown-ups. Switching child needs no PIN and no second install.
+ * The child's home: who is learning (when there are two or more children), hello, every skill to choose from
+ * (grouped by subject, easiest first, learnt ones shown as trees), memory games when allowed, and (once a week) a
+ * backup reminder for the grown-ups. Switching child needs no PIN and no second install.
  */
 export function Home({ onLesson, onGame, onParent }: { onLesson: (skill: string) => void; onGame: (skill: string) => void; onParent: () => void }) {
   const T = useT()
@@ -23,8 +22,6 @@ export function Home({ onLesson, onGame, onParent }: { onLesson: (skill: string)
   const { state, update } = useStore()
   const child = activeChild(state)!
   const [now] = useState(Date.now)
-  const today = nextSkill(child, ORDER)
-  const todayDef = today ? skillById(today) : undefined
   // Memory games: one per learnt skill with time left, only when the grown-ups allow games.
   const games = state.family.gamesAllowed ? SKILLS.filter((s) => child.skills[s.id]?.mastered && secondsLeft(child.games[s.id]) > 0) : []
   return (
@@ -49,23 +46,6 @@ export function Home({ onLesson, onGame, onParent }: { onLesson: (skill: string)
           <Emoji name="memo" size={32} /> {T.home.backupDue}
         </button>
       )}
-      <section className="card todays">
-        {todayDef ? (
-          <>
-            <h2>{T.home.todays}</h2>
-            <Emoji name={todayDef.emoji} size={110} />
-            <p className="todays-title">{skillText(todayDef, lang).title}</p>
-            <button className="big" onClick={() => onLesson(todayDef.id)}>
-              {T.home.start}
-            </button>
-          </>
-        ) : (
-          <>
-            <Emoji name="tree" size={110} />
-            <h2>{T.home.allDone}</h2>
-          </>
-        )}
-      </section>
       {games.length > 0 && (
         <section className="card">
           <h2>{T.games.title}</h2>
@@ -80,22 +60,24 @@ export function Home({ onLesson, onGame, onParent }: { onLesson: (skill: string)
           </div>
         </section>
       )}
-      <section className="card">
-        <h2>{T.home.path}</h2>
-        <div className="path">
-          {SKILLS.map((def) => {
-            const learnt = Boolean(child.skills[def.id]?.mastered)
-            const open = isOpen(child, ORDER, def.id)
-            return (
-              <button key={def.id} className={`path-skill ${learnt ? 'learnt' : open ? 'open' : 'later'}`} disabled={!open} onClick={() => onLesson(def.id)}>
-                <Emoji name={learnt ? 'tree' : def.emoji} size={48} />
-                <span>{skillText(def, lang).title}</span>
-                <small>{learnt ? T.home.learnt : open ? T.home.next : T.home.later}</small>
-              </button>
-            )
-          })}
-        </div>
-      </section>
+      <h2 className="choose">{T.home.choose}</h2>
+      {SUBJECTS.map((subject) => (
+        <section key={subject} className="card">
+          <h2>{T.home.subjects[subject]}</h2>
+          <div className="path">
+            {bySubject(subject).map((def) => {
+              const learnt = Boolean(child.skills[def.id]?.mastered)
+              return (
+                <button key={def.id} className={`path-skill ${learnt ? 'learnt' : ''}`} onClick={() => onLesson(def.id)}>
+                  <Emoji name={learnt ? 'tree' : def.emoji} size={48} />
+                  <span>{skillText(def, lang).title}</span>
+                  <small>{learnt ? T.home.learnt : T.home.level(def.stage + 1)}</small>
+                </button>
+              )
+            })}
+          </div>
+        </section>
+      ))}
     </main>
   )
 }

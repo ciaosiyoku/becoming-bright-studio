@@ -1,6 +1,8 @@
 {
   "id": "a-an",
   "kind": "a-an",
+  "subject": "words",
+  "stage": 2,
   "only": "en",
   "params": {
     "words": [

@@ -7,6 +7,7 @@ import { useLang, useT } from '@/i18n'
 import { skillById, SKILLS, skillText } from '@/skills/index'
 import { NO_LOCK } from './pin'
 import { LanguagePicker } from '@/shared/LanguagePicker'
+import { speak, useVoiceChoice, type VoiceGender } from '@/shared/speak'
 import { ChildForm } from '@/setup/Setup'
 import { ChoosePin } from './PinScreens'
 import './Parent.css'
@@ -33,6 +34,7 @@ export function Parent({ onClose }: { onClose: () => void }) {
         <p className="muted">{T.language.note}</p>
         <LanguagePicker />
       </section>
+      <VoiceCard />
       <BackupCard />
       <PinCard />
     </main>
@@ -144,6 +146,35 @@ function GamesCard() {
           </button>
         ))}
       </div>
+    </section>
+  )
+}
+
+/** Reading aloud with a female or a male voice, and a test. Says when the device has no voice of that kind. */
+function VoiceCard() {
+  const T = useT()
+  const lang = useLang()
+  const { state, update } = useStore()
+  const want = state.family.voice
+  const choice = useVoiceChoice(lang, want)
+  const set = (voice: VoiceGender) => update((s) => ({ ...s, family: { ...s.family, voice } }))
+  return (
+    <section className="card parent-card">
+      <h2>{T.parent.voice}</h2>
+      <p className="muted">{T.parent.voiceNote}</p>
+      <div className="row">
+        {(['female', 'male'] as const).map((g) => (
+          <button key={g} className={want === g ? '' : 'secondary'} aria-pressed={want === g} onClick={() => set(g)}>
+            {g === 'female' ? T.parent.female : T.parent.male}
+          </button>
+        ))}
+        <button className="secondary" onClick={() => speak(T.parent.sample, lang)} disabled={!choice}>
+          {T.parent.test}
+        </button>
+      </div>
+      {!choice && <p className="muted">{T.parent.noVoice}</p>}
+      {choice && !choice.exact && <p className="muted">{T.parent.notExact(want === 'male')}</p>}
+      {choice && <small className="muted">{choice.voice.name}</small>}
     </section>
   )
 }

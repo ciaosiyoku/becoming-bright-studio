@@ -63,12 +63,5 @@ export function finishSession(child: Child, skill: string, checks: CheckAnswer[]
   }
 }
 
-/** Is a skill open? The first always; every other once the one before it is mastered (or it is itself). */
-export function isOpen(child: Child, order: string[], skill: string): boolean {
-  const i = order.indexOf(skill)
-  if (i <= 0) return i === 0
-  return Boolean(child.skills[skill]?.mastered || child.skills[order[i - 1]]?.mastered)
-}
-
-/** Today's lesson: the first skill not mastered yet, or null when every skill is. */
+/** A skill to suggest next: the first one (in list order) not mastered yet, or null when every skill is. */
 export const nextSkill = (child: Child, order: string[]): string | null => order.find((id) => !child.skills[id]?.mastered) ?? null

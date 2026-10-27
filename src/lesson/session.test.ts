@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { newChild } from '@/app/state'
 import { itemKey, seeded } from '@/skills/generate'
 import { fill, skillById } from '@/skills/index'
-import { type CheckAnswer, finishSession, isOpen, newSession, nextSkill, resultOf, stepOf } from './session'
+import { type CheckAnswer, finishSession, newSession, nextSkill, resultOf, stepOf } from './session'
 
 const check = (right: boolean, n = 1): CheckAnswer => ({ right, prompt: `What is ${n} + 1?`, given: right ? String(n + 1) : '9', answer: String(n + 1) })
 const day = new Date(2026, 9, 27, 12)
@@ -37,9 +37,8 @@ describe('a session', () => {
 
 describe('the skill path', () => {
   const order = ['a', 'b', 'c']
-  it('opens a skill once the one before is mastered, and gives the next one to learn', () => {
+  it('suggests the first skill not learnt yet', () => {
     const c = { ...newChild('Sam', '#000', 'c1'), skills: { a: { mastered: true, sessions: 1, lastScore: 5 } } }
-    expect(order.map((id) => isOpen(c, order, id))).toEqual([true, true, false])
     expect(nextSkill(c, order)).toBe('b')
     expect(nextSkill({ ...c, skills: Object.fromEntries(order.map((id) => [id, { mastered: true, sessions: 1, lastScore: 5 }])) }, order)).toBeNull()
   })

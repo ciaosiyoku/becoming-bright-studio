@@ -1,6 +1,8 @@
 {
   "id": "take-10",
   "kind": "subtract",
+  "subject": "numbers",
+  "stage": 1,
   "params": {
     "max": 10
   },

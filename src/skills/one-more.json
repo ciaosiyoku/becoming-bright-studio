@@ -1,6 +1,8 @@
 {
   "id": "one-more",
   "kind": "one-more",
+  "subject": "numbers",
+  "stage": 1,
   "params": {
     "max": 10
   },

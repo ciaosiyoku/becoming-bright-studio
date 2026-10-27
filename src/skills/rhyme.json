@@ -1,6 +1,8 @@
 {
   "id": "rhyme",
   "kind": "rhyme",
+  "subject": "words",
+  "stage": 1,
   "only": "en",
   "params": {
     "families": [

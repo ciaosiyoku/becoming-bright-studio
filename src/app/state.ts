@@ -1,5 +1,6 @@
 import type { Lang } from '@/i18n'
 import type { PinHash } from '@/parent/pin'
+import type { VoiceGender } from '@/shared/speak'
 
 // The app state: one document, saved on the device under one key (STATE_KEY, see store.tsx). Pure helpers,
 // tested in state.test.ts. Adding a field later: give it a default in emptyState/newChild; withDefaults fills
@@ -52,6 +53,8 @@ export interface Family {
   pinLock: { wrong: number; until: number }
   /** A mastered skill unlocks a short memory game made of its pictures. Off until a parent turns it on. */
   gamesAllowed: boolean
+  /** Reading aloud with a female or a male voice (shared/speak.ts). */
+  voice: VoiceGender
 }
 
 export interface AppState {
@@ -70,7 +73,7 @@ export interface AppState {
 export const MAX_MISSES = 300
 export const COLOURS = ['#5b6cf0', '#e2557e', '#178c84', '#e08a1e', '#8b5cf6', '#22a06b'] as const
 
-export const emptyFamily = (): Family => ({ pin: null, recovery: null, pinLock: { wrong: 0, until: 0 }, gamesAllowed: false })
+export const emptyFamily = (): Family => ({ pin: null, recovery: null, pinLock: { wrong: 0, until: 0 }, gamesAllowed: false, voice: 'female' })
 
 export const emptyState = (): AppState => ({ version: STATE_VERSION, family: emptyFamily(), children: [], activeChild: null, lang: null, lastBackupAt: null, updatedAt: 0 })
 
