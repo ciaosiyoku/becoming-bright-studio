@@ -4,22 +4,29 @@ import type { Lang } from '@/i18n'
 // ("Where is …?", three tries, then the map shows it). Map data: src/maps/data (SOURCES.md).
 // Pure logic here, tested in maps.test.ts.
 
+/** Names from the map data: English, German and French. Other app languages (Yoruba) use the browser's own
+ * names where it has them (countryName, Intl), else the English one. */
+export type MapNames = Record<'en' | 'de' | 'fr', string> & Partial<Record<Lang, string>>
+
+/** A name from the map data in a language, or the English one. */
+export const inLang = (names: MapNames, lang: Lang) => names[lang] || names.en
+
 /** A country on the map: ISO 3166-1 alpha-2 code, the map data's names, and its continent. */
 export interface Region {
   id: string
-  names: Record<Lang, string>
+  names: MapNames
   /** Natural Earth's English continent name (a key of CONTINENTS). */
   continent: string
 }
 
 /** The continents as children learn them (Natural Earth's names → ours). */
 export const CONTINENTS: Record<string, Record<Lang, string>> = {
-  Africa: { de: 'Afrika', en: 'Africa', fr: 'Afrique' },
-  Asia: { de: 'Asien', en: 'Asia', fr: 'Asie' },
-  Europe: { de: 'Europa', en: 'Europe', fr: 'Europe' },
-  'North America': { de: 'Nordamerika', en: 'North America', fr: 'Amérique du Nord' },
-  'South America': { de: 'Südamerika', en: 'South America', fr: 'Amérique du Sud' },
-  Oceania: { de: 'Australien und Ozeanien', en: 'Australia and Oceania', fr: 'Océanie' },
+  Africa: { de: 'Afrika', en: 'Africa', fr: 'Afrique', yo: 'Áfíríkà' },
+  Asia: { de: 'Asien', en: 'Asia', fr: 'Asie', yo: 'Éṣíà' },
+  Europe: { de: 'Europa', en: 'Europe', fr: 'Europe', yo: 'Yúróòpù' },
+  'North America': { de: 'Nordamerika', en: 'North America', fr: 'Amérique du Nord', yo: 'Àríwá Amẹ́ríkà' },
+  'South America': { de: 'Südamerika', en: 'South America', fr: 'Amérique du Sud', yo: 'Gúúsù Amẹ́ríkà' },
+  Oceania: { de: 'Australien und Ozeanien', en: 'Australia and Oceania', fr: 'Océanie', yo: 'Ọsirélíà àti Ọṣẹ́áníà' },
 }
 
 /** Continent colours (soft, so borders stay visible; the same in light and dark mode, like a printed atlas). */
@@ -41,7 +48,7 @@ export function countryName(region: Region, lang: Lang): string {
   } catch {
     // Old browser or unknown code: the map data's name.
   }
-  return region.names[lang] || region.names.en
+  return inLang(region.names, lang)
 }
 
 // ---- Zoom ----

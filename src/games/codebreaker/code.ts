@@ -36,9 +36,15 @@ export const MESSAGES: Record<Lang, string[]> = {
     'les chats dorment', 'courage et gentillesse', 'super travail', 'tope la', 'ne lache rien', 'garde le sourire',
     'tu es genial', 'les amis aident',
   ],
+  yo: [
+    'iwo ni irawo', 'kika iwe dun', 'o se daadaa', 'ma se juwo sile', 'o le se e', 'se rere', 'iwe dara pupo',
+    'eko dun', 'je ka sere', 'ojo rere fun o', 'o gbon', 'oorun gbona', 'ologbo feran orun', 'ni igboya',
+    'ise to dara', 'gbiyanju si i', 'rerin loni', 'iwo dara julo', 'ore n ran ni lowo', 'o ku ise',
+  ],
 }
-// German messages are written without ä, ö, ü and ß (ue, oe, ss) and French ones without accents, so every
-// letter is one of the 26 of the number code. They stay correct spellings of the same words.
+// German messages are written without ä, ö, ü and ß (ue, oe, ss), French ones without accents and Yoruba ones
+// without tone marks and dots (ẹ → e, ọ → o, ṣ → s), so every letter is one of the 26 of the number code.
+// They stay readable spellings of the same words (Yoruba: DRAFT, to be checked by a native speaker).
 
 export interface Cell {
   /** The letter (capital) or a space. */

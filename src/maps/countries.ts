@@ -1,5 +1,5 @@
 import { type Lang, LOCALES, type Strings } from '@/i18n'
-import { CONTINENTS, countryName, type Region } from './maps'
+import { CONTINENTS, countryName, inLang, type MapNames, type Region } from './maps'
 import data from './data/countries.json'
 
 // What a child learns by tapping a country: capital, how many people, size compared with Germany, languages,
@@ -8,7 +8,8 @@ import data from './data/countries.json'
 // Pure functions, tested in countries.test.ts.
 
 export interface CountryFacts {
-  capital: Record<Lang, string> | null
+  /** In English, German and French (Yoruba: the English name). */
+  capital: MapNames | null
   /** Population in popYear (World Bank 2024; Natural Earth for the few it lacks). */
   pop: number
   popYear: number
@@ -32,8 +33,8 @@ const GERMANY_KM2 = 357_114
 export function peopleWords(n: number, lang: Lang): string {
   const fmt = (x: number, digits: number) => x.toLocaleString(LOCALES[lang], { maximumFractionDigits: digits })
   const unit = (x: number, one: Record<Lang, string>, many: Record<Lang, string>) => `${fmt(x, x < 10 ? 1 : 0)} ${x === 1 ? one[lang] : many[lang]}`
-  if (n >= 1e9) return unit(Math.round(n / 1e8) / 10, { de: 'Milliarde', en: 'billion', fr: 'milliard' }, { de: 'Milliarden', en: 'billion', fr: 'milliards' })
-  if (n >= 1e6) return unit(n < 1e7 ? Math.round(n / 1e5) / 10 : Math.round(n / 1e6), { de: 'Million', en: 'million', fr: 'million' }, { de: 'Millionen', en: 'million', fr: 'millions' })
+  if (n >= 1e9) return unit(Math.round(n / 1e8) / 10, { de: 'Milliarde', en: 'billion', fr: 'milliard', yo: 'bílíọ̀nù' }, { de: 'Milliarden', en: 'billion', fr: 'milliards', yo: 'bílíọ̀nù' })
+  if (n >= 1e6) return unit(n < 1e7 ? Math.round(n / 1e5) / 10 : Math.round(n / 1e6), { de: 'Million', en: 'million', fr: 'million', yo: 'mílíọ̀nù' }, { de: 'Millionen', en: 'million', fr: 'millions', yo: 'mílíọ̀nù' })
   if (n >= 10_000) return fmt(Math.round(n / 1000) * 1000, 0)
   return fmt(Math.round(n / 100) * 100, 0)
 }
@@ -49,11 +50,11 @@ export function sizeVsGermany(area: number): { kind: 'same' | 'bigger' | 'smalle
 /** Languages on the map that browsers have no name for (checked in Chrome and Node, Oct 2026). Rarer ones are
  * left out rather than shown as a code. */
 const LANGUAGE_NAMES: Record<string, Record<Lang, string>> = {
-  ber: { de: 'Berberisch', en: 'Berber', fr: 'berbère' },
-  mey: { de: 'Hassania-Arabisch', en: 'Hassaniya Arabic', fr: 'arabe hassanya' },
-  smi: { de: 'Samisch', en: 'Sami', fr: 'same' },
-  nzs: { de: 'Neuseeländische Gebärdensprache', en: 'New Zealand Sign Language', fr: 'langue des signes néo-zélandaise' },
-  lao: { de: 'Laotisch', en: 'Lao', fr: 'lao' },
+  ber: { de: 'Berberisch', en: 'Berber', fr: 'berbère', yo: 'Èdè Bẹ̀bà' },
+  mey: { de: 'Hassania-Arabisch', en: 'Hassaniya Arabic', fr: 'arabe hassanya', yo: 'Lárúbáwá Hassaniya' },
+  smi: { de: 'Samisch', en: 'Sami', fr: 'same', yo: 'Èdè Sami' },
+  nzs: { de: 'Neuseeländische Gebärdensprache', en: 'New Zealand Sign Language', fr: 'langue des signes néo-zélandaise', yo: 'Èdè adití New Zealand' },
+  lao: { de: 'Laotisch', en: 'Lao', fr: 'lao', yo: 'Èdè Lao' },
 }
 
 /** Names from the browser (languages, currencies), then our own; codes nobody can name are left out. */
@@ -122,7 +123,7 @@ export function countryLines(region: Region, lang: Lang, t: Strings): string[] {
   if (CONTINENTS[region.continent]) out.push(t.maps.inContinent(CONTINENTS[region.continent][lang]))
   const f = factsOf(region.id)
   if (!f) return out
-  if (f.capital) out.push(t.maps.capital(f.capital[lang]))
+  if (f.capital) out.push(t.maps.capital(inLang(f.capital, lang)))
   out.push(t.maps.people(peopleWords(f.pop, lang)))
   if (region.id !== 'DE') {
     const size = sizeVsGermany(f.area)

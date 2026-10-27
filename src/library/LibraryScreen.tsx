@@ -11,7 +11,7 @@ import { useArea } from '@/progress/usage'
 import { Emoji } from '@/shared/Emoji'
 import { ANIMAL_HOMES, animalPhoto } from './animals'
 import CREDITS from './photo-credits.json'
-import { PLACE_COUNTRIES, PLACES, placeCountry, placePhoto } from './places'
+import { PLACE_COUNTRIES, PLACES, placeCountry, placeCountryName, placePhoto } from './places'
 import './Library.css'
 
 // The library: animals and places of the world, each with a real photo, a few true sentences that can be
@@ -59,7 +59,7 @@ export function LibraryScreen({ shelf, onClose }: { shelf: Shelf; onClose: () =>
   const list = entries(shelf, lang, country, t)
   const countries = Object.keys(PLACE_COUNTRIES)
     .filter((c) => PLACES.some((p) => p.countries.includes(c)))
-    .sort((a, b) => PLACE_COUNTRIES[a][lang].localeCompare(PLACE_COUNTRIES[b][lang], lang))
+    .sort((a, b) => placeCountryName(a, lang).localeCompare(placeCountryName(b, lang), lang))
   const title = shelf === 'animals' ? t.items.animals : t.items.places
 
   return (
@@ -87,7 +87,7 @@ export function LibraryScreen({ shelf, onClose }: { shelf: Shelf; onClose: () =>
               </button>
               {countries.map((c) => (
                 <button key={c} role="radio" aria-checked={country === c} className={country === c ? '' : 'secondary'} onClick={() => setCountry(c)}>
-                  {PLACE_COUNTRIES[c][lang]}
+                  {placeCountryName(c, lang)}
                 </button>
               ))}
             </div>

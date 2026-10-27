@@ -1,4 +1,5 @@
 import type { Lang } from '@/i18n'
+import { FACTS_YO } from './facts-yo'
 import { shuffled } from './question'
 
 // "Did you know?": short, true facts about the world, science, nature, space and history, one at a time in a
@@ -14,12 +15,14 @@ export interface Fact {
   text: string
   de: string
   fr: string
+  /** Yoruba, from facts-yo.ts (same order). */
+  yo: string
 }
 
 /** A fact's text in a language. */
 export const factText = (f: Fact, lang: Lang) => (lang === 'en' ? f.text : f[lang])
 
-export const FACTS: Fact[] = [
+const FACTS_EN_DE_FR: Omit<Fact, 'yo'>[] = [
   // Space
   { topic: 'space', emoji: 'sun', text: 'The Sun is a star. It looks bigger than other stars because it is much closer to us.', de: 'Die Sonne ist ein Stern. Sie sieht größer aus als andere Sterne, weil sie uns viel näher ist.', fr: 'Le Soleil est une étoile. Il paraît plus grand que les autres étoiles parce qu’il est beaucoup plus près de nous.' },
   { topic: 'space', emoji: 'sun', text: 'Light from the Sun takes about 8 minutes to reach the Earth.', de: 'Das Licht der Sonne braucht etwa 8 Minuten bis zur Erde.', fr: 'La lumière du Soleil met environ 8 minutes pour arriver jusqu’à la Terre.' },
@@ -72,6 +75,8 @@ export const FACTS: Fact[] = [
   { topic: 'history', emoji: 'computer', text: 'The first computers were as big as a whole room.', de: 'Die ersten Computer waren so groß wie ein ganzes Zimmer.', fr: 'Les premiers ordinateurs étaient aussi grands qu’une pièce entière.' },
   { topic: 'history', emoji: 'dinosaur', text: 'The giant dinosaurs died out about 66 million years ago, long before there were people. Birds are their living relatives.', de: 'Die großen Dinosaurier sind vor etwa 66 Millionen Jahren ausgestorben, lange bevor es Menschen gab. Vögel sind ihre heute lebenden Verwandten.', fr: 'Les grands dinosaures ont disparu il y a environ 66 millions d’années, bien avant l’arrivée des humains. Les oiseaux sont leurs descendants.' },
 ]
+
+export const FACTS: Fact[] = FACTS_EN_DE_FR.map((f, i) => ({ ...f, yo: FACTS_YO[i] ?? f.text }))
 
 /** A new random order of all facts (the next fact is never the one just seen). Pure with a given random. */
 export function factOrder(random = Math.random): Fact[] {

@@ -2,11 +2,12 @@ import type { Lang } from '@/i18n'
 import { ANIMALS, type Continent, COUNTRIES } from './data'
 import { LESSON_DE } from './text-de'
 import { LESSON_FR } from './text-fr'
+import { LESSON_YO } from './text-yo'
 
 // The words of the maths, world and patterns lessons in each app language: question wording, animal names
 // and facts, countries and capitals, continents, and the skill names parents see. The English subject is not
 // here: it teaches English, so it stays in English in every language.
-// English comes from data.ts; German and French from text-de.ts and text-fr.ts. content.test.ts checks every
+// English comes from data.ts; German, French and Yoruba from text-de.ts, text-fr.ts and text-yo.ts. content.test.ts checks every
 // question in every language against its answer key, and that nothing is missing.
 
 export interface LessonText {
@@ -92,7 +93,7 @@ export const LESSON_EN: LessonText = {
   skills: {},
 }
 
-const LESSONS: Record<Lang, LessonText> = { en: LESSON_EN, de: LESSON_DE, fr: LESSON_FR }
+const LESSONS: Record<Lang, LessonText> = { en: LESSON_EN, de: LESSON_DE, fr: LESSON_FR, yo: LESSON_YO }
 
 /** The lesson words for a language. */
 export const lessonText = (lang: Lang): LessonText => LESSONS[lang]

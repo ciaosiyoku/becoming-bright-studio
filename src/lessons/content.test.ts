@@ -3,6 +3,7 @@ import { SUBJECTS } from '@/access/catalogue'
 import { A_AN, ANIMALS, COMMON_WORDS, COUNTRIES, FRUITS, OPPOSITES, PAST_TENSES, PLURALS, WORDS } from './data'
 import { UNCLEAR_EN } from './english'
 import { FACTS } from './facts'
+import { FACTS_YO } from './facts-yo'
 import type { Lang } from '@/i18n'
 import { LADDERS } from './ladder'
 import { type Choice, type Question, seeded, type Visual } from './question'
@@ -10,7 +11,7 @@ import { LESSON_EN, lessonText } from './text'
 import { SPACE, WORLD_RECORDS } from './world-more'
 import { ANIMAL_HOMES } from '@/library/animals'
 import CREDITS from '@/library/photo-credits.json'
-import { PLACE_COUNTRIES, PLACES } from '@/library/places'
+import { placeCountryName, PLACES } from '@/library/places'
 
 // The content check: every lesson question must have exactly one right answer, and that answer must be true.
 // Each step's questions are made thousands of times and checked against an answer key written here, apart
@@ -116,6 +117,8 @@ function solve(text: string): number {
   if ((m = text.match(/^1\/(\d+) × (\d+)$/))) return Number(m[2]) / Number(m[1])
   // Tens and ones in any language: "3 tens + 4 ones", "3 Zehner + 4 Einer", "3 dizaines + 4 unités".
   if ((m = text.match(/^(\d) \D+ \+ (\d) \D+$/))) return 10 * Number(m[1]) + Number(m[2])
+  // Yoruba puts the noun first: "ẹ̀wá 3 + ẹyọ 4".
+  if ((m = text.match(/^\D+ (\d) \+ \D+ (\d)$/))) return 10 * Number(m[1]) + Number(m[2])
   if ((m = text.match(/^(\d+), \?$/))) return Number(m[1]) + 1
   if ((m = text.match(/^(\d+) h = \? min$/))) return 60 * Number(m[1])
   if ((m = text.match(/^(\d+) min = \? s$/))) return 60 * Number(m[1])
@@ -188,7 +191,7 @@ function check(step: string, q: Question, lang: Lang): string | null {
     case 'places-where': {
       const place = PLACES.find((x) => x.id === photoId(q.visual))
       if (!place || place.countries.length !== 1) return 'a place in one country only'
-      const name = PLACE_COUNTRIES[place.countries[0]][lang]
+      const name = placeCountryName(place.countries[0], lang)
       return label(r) === name && !w.some((c) => label(c) === name) ? null : 'wrong country for the place'
     }
     case 'places-name': {
@@ -310,7 +313,7 @@ function check(step: string, q: Question, lang: Lang): string | null {
   }
 }
 
-const LANGS: Lang[] = ['en', 'de', 'fr']
+const LANGS: Lang[] = ['en', 'de', 'fr', 'yo']
 
 describe('lesson content is right', () => {
   for (const lang of LANGS)
@@ -354,7 +357,7 @@ describe('lesson content is right', () => {
 
   it('every language has every animal, country, continent and skill, with no name twice', () => {
     const stepIds = SUBJECTS.flatMap((s) => LADDERS[s].map((x) => x.id))
-    for (const lang of ['de', 'fr'] as const) {
+    for (const lang of ['de', 'fr', 'yo'] as const) {
       const T = lessonText(lang)
       expect(Object.keys(T.animals).sort(), lang).toEqual(Object.keys(LESSON_EN.animals).sort())
       expect(Object.keys(T.countries).sort(), lang).toEqual(Object.keys(LESSON_EN.countries).sort())
@@ -370,7 +373,12 @@ describe('lesson content is right', () => {
   })
 
   it('every "Did you know?" fact is translated (not left in English)', () => {
-    for (const f of FACTS) for (const lang of ['de', 'fr'] as const) expect(f[lang].length > 10 && f[lang] !== f.text, f.text).toBe(true)
+    for (const f of FACTS) for (const lang of ['de', 'fr', 'yo'] as const) expect(f[lang].length > 10 && f[lang] !== f.text, f.text).toBe(true)
+    expect(FACTS_YO).toHaveLength(FACTS.length)
+  })
+
+  it('every place has its own Yoruba text (not the English fallback)', () => {
+    for (const x of PLACES) expect(x.text.yo.about, x.id).not.toBe(x.text.en.about)
   })
 
   it('no animal fact gives the answer away by naming the animal', () => {
@@ -393,7 +401,7 @@ describe('lesson content is right', () => {
     for (const lang of LANGS) {
       for (const x of PLACES) {
         expect(x.text[lang].name.length > 1 && x.text[lang].about.length > 20, `${lang} ${x.id}`).toBe(true)
-        for (const c of x.countries) expect(PLACE_COUNTRIES[c][lang], c).toBeTruthy()
+        for (const c of x.countries) expect(placeCountryName(c, lang), c).toBeTruthy()
       }
       for (const a of ANIMALS) expect(ANIMAL_HOMES[a.id][lang].length > 3, `${lang} ${a.id}`).toBe(true)
       const names = PLACES.map((x) => x.text[lang].name)

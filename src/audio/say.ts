@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import type { Lang } from '@/i18n'
 
 // Reading aloud with the device's own voices (Web Speech API). Quality depends on the voices installed:
 //   - iPad: Settings → Accessibility → Spoken Content → Voices → English → download an "Enhanced" or "Premium"
@@ -27,8 +28,9 @@ const NOVELTY = /compact|espeak|novelty|whisper|bad news|bells|boing|bubbles|cel
 const GOOD = /natural|neural|premium|enhanced|wavenet|siri/i
 
 /** Languages the app reads aloud in: the app languages, and English for the English lessons. */
-export type SpeechLang = 'en' | 'de' | 'fr'
-const DEFAULT_VARIANT: Record<SpeechLang, string> = { en: 'en-GB', de: 'de-DE', fr: 'fr-FR' }
+export type SpeechLang = Lang
+// Few devices have a Yoruba voice: without one, the speaker buttons stay hidden (useCanSpeak).
+const DEFAULT_VARIANT: Record<SpeechLang, string> = { en: 'en-GB', de: 'de-DE', fr: 'fr-FR', yo: 'yo-NG' }
 
 /** The preferred variant of a language: the device's own (en-US, de-AT…) when it matches, else a default. */
 const variant = (lang: SpeechLang) => (globalThis.navigator?.language?.toLowerCase().startsWith(lang) ? navigator.language : DEFAULT_VARIANT[lang])

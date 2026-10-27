@@ -1,0 +1,56 @@
+// "Did you know?" in Yoruba: one line per fact, in the same order as FACTS in facts.ts (content.test.ts checks the
+// count). Status: DRAFT (beta), to be checked by a native speaker (ROADMAP.md).
+
+export const FACTS_YO: string[] = [
+  // Space
+  'Ìràwọ̀ ni Oòrùn. Ó dàbí ẹni pé ó tóbi ju àwọn ìràwọ̀ yòókù lọ nítorí pé ó súnmọ́ wa púpọ̀.',
+  'Ìmọ́lẹ̀ láti Oòrùn ń gba nǹkan bí ìṣẹ́jú 8 kí ó tó dé Ayé.',
+  'Ayé ń yí Oòrùn ká lẹ́ẹ̀kan ní ọdọọdún.',
+  'Kò sí afẹ́fẹ́ lórí Òṣùpá, nítorí náà àwọn arìnrìn-àjò òfurufú ń gbé afẹ́fẹ́ dání nínú aṣọ wọn.',
+  'Àwọn èèyàn àkọ́kọ́ rìn lórí Òṣùpá ní ọdún 1969.',
+  'Ojú ẹsẹ̀ lórí Òṣùpá lè pẹ́ gan-an, nítorí pé kò sí afẹ́fẹ́ tàbí òjò láti pa á rẹ́.',
+  'Júpítà ni pílánẹ́ẹ̀tì tó tóbi jù lọ nínú ètò Oòrùn wa.',
+  'Ọjọ́ kan lórí Fínúsì gùn ju odindi ọdún kan lórí Fínúsì lọ.',
+  // Science
+  'Yìnyín ń léfòó lórí omi nítorí pé ó fúyẹ́ ju omi tí iye rẹ̀ dọ́gba lọ.',
+  'Omi ń hó ní ìwọ̀n 100 Celsius ní ìpele òkun.',
+  'Mànàmáná gbóná ju ojú Oòrùn lọ.',
+  'O máa ń rí mànàmáná kí o tó gbọ́ ààrá, nítorí pé ìmọ́lẹ̀ yára ju ìró lọ púpọ̀.',
+  'Òṣùmàrè máa ń yọ nígbà tí ìmọ́lẹ̀ oòrùn bá tàn gba inú ẹ̀kán òjò kọjá.',
+  'Ọkàn rẹ ń lù ní nǹkan bí ìgbà 100,000 lójoojúmọ́.',
+  'Àgbàlagbà ní egungun 206. Àwọn ọmọ ìkókó ní jù bẹ́ẹ̀ lọ nígbà ìbí, àwọn kan sì ń so pọ̀ bí wọ́n ṣe ń dàgbà.',
+  'Ewéko ń ṣe oúnjẹ tiwọn látinú ìmọ́lẹ̀ oòrùn, omi àti afẹ́fẹ́.',
+  'Ìró ń yára jù nínú omi ju nínú afẹ́fẹ́ lọ.',
+  'Òòfà ń fa àwọn nǹkan irin, bíi pínnì ìwé, ṣùgbọ́n kì í fa igi tàbí ike.',
+  // Nature
+  'Ọ̀gá ẹja ẹlẹ́sẹ̀ mẹ́jọ ní ọkàn mẹ́ta àti ẹ̀jẹ̀ aláwọ̀ búlúù.',
+  'Oyin máa ń jó ijó kékeré láti sọ fún àwọn oyin yòókù ibi tí wọ́n ti lè rí òdòdó.',
+  'Labalábá ń fi ẹsẹ̀ wọn tọ́ nǹkan wò.',
+  'Òwìwí ń fò fẹ́rẹ̀ẹ́ láìsí ariwo kankan.',
+  'Erin ni ẹranko tó tóbi jù lọ tí ń gbé orí ilẹ̀.',
+  'Ó fẹ́rẹ̀ẹ́ jẹ́ pé gbogbo pẹ́ńgúìn ló ń gbé ní ìdajì gúúsù ayé.',
+  'Ọmọ kangarú ni à ń pè ní “joey” ní èdè Gẹ̀ẹ́sì.',
+  'Ẹja àbùùbùtán kì í ṣe ẹja. Ẹran ọlọ́yàn ni wọ́n, wọ́n sì ń mí afẹ́fẹ́ bíi tiwa.',
+  'Àwọn igi kan ń pẹ́ láyé fún ẹgbẹẹgbẹ̀rún ọdún.',
+  'Àkèré lè mí gba inú awọ ara wọn.',
+  // World
+  'Pàsífíìkì ni òkun ńlá tó tóbi jù lọ ní Ayé.',
+  'Òkè Everest ni òkè tó ga jù lọ ní Ayé ju ìpele òkun lọ.',
+  'Sàhárà ni aṣálẹ̀ gbígbóná tó tóbi jù lọ ní ayé.',
+  'Antarctica ni ibi tó tutù jù lọ ní Ayé.',
+  'Odò Náílì àti Odò Amazon ni odò méjì tó gùn jù lọ ní ayé.',
+  'Àwọn èèyàn kárí ayé ń sọ èdè tó ju 7,000 lọ.',
+  'Ọsirélíà jẹ́ orílẹ̀-èdè kan àti odindi ilẹ̀ ńlá kan ní àkókò kan náà.',
+  'Rọ́ṣíà ni orílẹ̀-èdè tó tóbi jù lọ ní ayé.',
+  // History
+  'Wọ́n kọ́ Pírámídì Ńlá ní Íjíbítì ní ohun tó ju 4,500 ọdún sẹ́yìn.',
+  'Àwọn ará Íjíbítì àtijọ́ ń kọ̀wé pẹ̀lú àwọn àwòrán kékeré tí à ń pè ní hieroglyph.',
+  'Wọ́n kọ́kọ́ ṣe ìwé ní China ní nǹkan bí 2,000 ọdún sẹ́yìn.',
+  'Àwọn ọ̀nà kan tí àwọn ará Róòmù kọ́ ní nǹkan bí 2,000 ọdún sẹ́yìn ṣì wà ní lílò títí di òní.',
+  'Ìdíje Olympic bẹ̀rẹ̀ ní Gíríìsì àtijọ́.',
+  'Àwọn ìwé àkọ́kọ́ tí wọ́n fi ẹ̀rọ ìtẹ̀wé tẹ̀ ní Yúróòpù jáde ní àwọn ọdún 1450.',
+  'Wọ́n ṣe tẹlifóònù ní àwọn ọdún 1870.',
+  'Ìfò ọkọ̀ òfurufú àkọ́kọ́ pẹ̀lú ẹ́ńjìnnì wáyé ní ọdún 1903. Ìṣẹ́jú-àáyá 12 péré ló gbà.',
+  'Àwọn kọ̀ǹpútà àkọ́kọ́ tóbi tó odindi yàrá kan.',
+  'Àwọn dáínósọ̀ ńlá parun ní nǹkan bí mílíọ̀nù 66 ọdún sẹ́yìn, ní ìgbà pípẹ́ kí èèyàn tó wà. Àwọn ẹyẹ ni ìbátan wọn tó ṣì wà láàyè.',
+]

@@ -2,26 +2,29 @@ import { createContext, useContext } from 'react'
 import { de } from './de'
 import { en, type Strings } from './en'
 import { fr } from './fr'
+import { yo } from './yo'
 
-// One strings object per language (en.ts, de.ts, fr.ts; each typed as Strings, so a missing text fails the
+// One strings object per language (en.ts, de.ts, fr.ts, yo.ts; each typed as Strings, so a missing text fails the
 // build) and a useT() hook. The language is a parent setting; until it is set, the device language decides.
 export type { Strings }
-export type Lang = 'en' | 'de' | 'fr'
+export type Lang = 'en' | 'de' | 'fr' | 'yo'
 
 /** The languages, each named in itself (shown in the language picker). */
 export const LANGS: { id: Lang; name: string }[] = [
   { id: 'en', name: 'English' },
   { id: 'de', name: 'Deutsch' },
   { id: 'fr', name: 'Français' },
+  // A draft translation, to be checked by a native speaker (ROADMAP.md).
+  { id: 'yo', name: 'Yorùbá (beta)' },
 ]
-const STRINGS: Record<Lang, Strings> = { en, de, fr }
+const STRINGS: Record<Lang, Strings> = { en, de, fr, yo }
 
 const deviceLanguage = globalThis.navigator?.language ?? 'en-GB'
 
-/** The app language that matches the device (German or French devices get theirs, everything else English). */
+/** The app language that matches the device (German, French or Yoruba devices get theirs, everything else English). */
 export function deviceLang(language = deviceLanguage): Lang {
   const l = language.toLowerCase()
-  return l.startsWith('de') ? 'de' : l.startsWith('fr') ? 'fr' : 'en'
+  return l.startsWith('de') ? 'de' : l.startsWith('fr') ? 'fr' : l.startsWith('yo') ? 'yo' : 'en'
 }
 
 /** Intl locale per UI language (dates and times): the device's own variant when it matches (en-US, de-AT…). */
@@ -29,6 +32,7 @@ export const LOCALES: Record<Lang, string> = {
   en: deviceLanguage.startsWith('en') ? deviceLanguage : 'en-GB',
   de: deviceLanguage.startsWith('de') ? deviceLanguage : 'de-DE',
   fr: deviceLanguage.startsWith('fr') ? deviceLanguage : 'fr-FR',
+  yo: 'yo-NG',
 }
 
 /** The current language, provided by the app root from the settings (App.tsx). */

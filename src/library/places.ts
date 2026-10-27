@@ -1,4 +1,6 @@
 import type { Lang } from '@/i18n'
+import { countryName, inLang, type MapNames } from '@/maps/maps'
+import { PLACES_YO } from './places-yo'
 
 // Places of the world: famous buildings and natural wonders, by country, with a real photo
 // (public/photos/places/<id>.jpg, credits in photo-credits.json) and two short facts in each language.
@@ -12,7 +14,8 @@ export interface Place {
   text: Record<Lang, { name: string; about: string }>
 }
 
-export const PLACE_COUNTRIES: Record<string, Record<Lang, string>> = {
+/** Country names in English, German and French; Yoruba uses the browser's names (countryName). */
+export const PLACE_COUNTRIES: Record<string, MapNames> = {
   fr: { en: 'France', de: 'Frankreich', fr: 'France' },
   de: { en: 'Germany', de: 'Deutschland', fr: 'Allemagne' },
   ng: { en: 'Nigeria', de: 'Nigeria', fr: 'Nigeria' },
@@ -43,11 +46,15 @@ export const PLACE_COUNTRIES: Record<string, Record<Lang, string>> = {
   at: { en: 'Austria', de: 'Österreich', fr: 'Autriche' },
 }
 
-const p = (id: string, countries: string[], en: [string, string], de: [string, string], fr: [string, string]): Place => ({
-  id,
-  countries,
-  text: { en: { name: en[0], about: en[1] }, de: { name: de[0], about: de[1] }, fr: { name: fr[0], about: fr[1] } },
-})
+// Yoruba comes from places-yo.ts (by id); a place missing there shows in English.
+const p = (id: string, countries: string[], en: [string, string], de: [string, string], fr: [string, string]): Place => {
+  const yo = PLACES_YO[id] ?? en
+  return {
+    id,
+    countries,
+    text: { en: { name: en[0], about: en[1] }, de: { name: de[0], about: de[1] }, fr: { name: fr[0], about: fr[1] }, yo: { name: yo[0], about: yo[1] } },
+  }
+}
 
 export const PLACES: Place[] = [
   p('eiffel-tower', ['fr'],
@@ -215,9 +222,13 @@ export const PLACES: Place[] = [
 /** Photo address of a place (relative to the app). */
 export const placePhoto = (id: string) => `photos/places/${id}.jpg`
 
+/** A country's name in a language: our list, or for Yoruba the browser's name (it has Yoruba country names). */
+export const placeCountryName = (code: string, lang: Lang): string =>
+  lang === 'yo' ? countryName({ id: code.toUpperCase(), names: PLACE_COUNTRIES[code], continent: '' }, lang) : inLang(PLACE_COUNTRIES[code], lang)
+
 /** The country names of a place in a language ("Zambia and Zimbabwe"). */
 export function placeCountry(place: Place, lang: Lang): string {
-  const names = place.countries.map((c) => PLACE_COUNTRIES[c][lang])
-  const and = { en: 'and', de: 'und', fr: 'et' }[lang]
+  const names = place.countries.map((c) => placeCountryName(c, lang))
+  const and = { en: 'and', de: 'und', fr: 'et', yo: 'àti' }[lang]
   return names.length > 1 ? `${names.slice(0, -1).join(', ')} ${and} ${names[names.length - 1]}` : names[0]
 }

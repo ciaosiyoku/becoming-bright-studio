@@ -5,7 +5,7 @@ import type { Step } from './step'
 import { fixedQuestion, SPACE, WORLD_RECORDS } from './world-more'
 import { type LessonText, lessonText } from './text'
 import { animalPhoto } from '@/library/animals'
-import { PLACE_COUNTRIES, PLACES, placePhoto } from '@/library/places'
+import { PLACE_COUNTRIES, placeCountryName, PLACES, placePhoto } from '@/library/places'
 
 // World ladder: animals → where they live → flags → continents → capital cities.
 
@@ -89,7 +89,7 @@ function placeWhere(r: Random, lang: Lang): Question {
   return {
     prompt: lessonText(lang).whereIsPlace,
     visual: { kind: 'photo', src: placePhoto(place.id), alt: place.text[lang].name },
-    ...shuffleIn(r, { label: PLACE_COUNTRIES[country][lang] }, others_.map((c) => ({ label: PLACE_COUNTRIES[c][lang] }))),
+    ...shuffleIn(r, { label: placeCountryName(country, lang) }, others_.map((c) => ({ label: placeCountryName(c, lang) }))),
   }
 }
 
