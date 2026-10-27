@@ -1,0 +1,32 @@
+.home {
+  height: 100%;
+  overflow-y: auto;
+  display: grid;
+  align-content: start;
+  gap: 1rem;
+  padding: 1.2rem;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+.home-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.home-top h1 {
+  font-size: 2rem;
+}
+.backup-reminder {
+  justify-content: flex-start;
+  border-radius: var(--radius-s);
+  background: var(--amber-soft);
+  color: var(--amber);
+}
+.todays {
+  display: grid;
+  justify-items: center;
+  gap: 0.8rem;
+  text-align: center;
+  padding: 1.6rem;
+}

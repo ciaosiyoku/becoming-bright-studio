@@ -1,10 +1,7 @@
-// A tiny key-value store on the device (IndexedDB), so the Studio keeps its data without Wi-Fi.
-// (New concept: IndexedDB is a database built into every browser. Each website gets its own, on the device;
-// nothing is sent anywhere.) If IndexedDB fails (some private-browsing modes), values live in memory until the
-// page reloads, so the app still works.
+// The device's own storage (IndexedDB): the whole app state is saved under one key. Nothing is sent anywhere.
+// If IndexedDB fails (some private-browsing modes), the state lives in memory until the page reloads.
 
-// The original project's name, kept: renaming the database would leave saved progress behind.
-const DB_NAME = 'kids-learning-studio'
+const DB_NAME = 'becoming-bright-studio'
 const STORE = 'kv'
 const memory = new Map<string, unknown>()
 let dbPromise: Promise<IDBDatabase> | null = null
@@ -47,20 +44,10 @@ export async function kvSet<T>(key: string, value: T): Promise<void> {
   }
 }
 
-/** Every stored key (used by Backup to save everything in one file). */
-export async function kvKeys(): Promise<string[]> {
+export async function kvDelete(key: string): Promise<void> {
+  memory.delete(key)
   try {
-    return (await request<IDBValidKey[]>('readonly', (s) => s.getAllKeys())).map(String)
-  } catch {
-    return [...memory.keys()]
-  }
-}
-
-/** Deletes every stored value (Restore replaces everything; "Delete all data" and leaving the demo start afresh). */
-export async function kvClear(): Promise<void> {
-  memory.clear()
-  try {
-    await request('readwrite', (s) => s.clear())
+    await request('readwrite', (s) => s.delete(key))
   } catch {
     // Nothing stored on the device.
   }

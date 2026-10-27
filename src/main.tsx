@@ -16,7 +16,6 @@ createRoot(document.getElementById('root')!).render(
 )
 
 // Offline start (public/sw.js). Not in dev: Vite serves files itself and a cache would hide changes.
-// The path is relative, so on GitHub Pages it registers /becoming-bright-studio/sw.js.
 if (import.meta.env.PROD && 'serviceWorker' in navigator) {
   navigator.serviceWorker.register('./sw.js').catch((err) => console.warn('service worker:', err))
 }

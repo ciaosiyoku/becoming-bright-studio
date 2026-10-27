@@ -1,35 +1,52 @@
 import { describe, expect, it } from 'vitest'
-import { BACKUP_APP, BackupError, backupDue, parseBackup } from './backup'
-import { DEFAULT_SETTINGS } from './types'
+import { emptyState, newChild, withDefaults } from '@/app/state'
+import { BackupError, backupDue, makeBackup, parseBackup } from './backup'
 
-const settings = { ...DEFAULT_SETTINGS, setupDone: true, updatedAt: 5 }
-const file = (over: object = {}) => JSON.stringify({ app: BACKUP_APP, format: 1, exportedAt: '2026-10-19T10:00:00Z', data: { settings, progress: { stars: {}, updatedAt: 1 } }, ...over })
-const reason = (text: string) => {
-  try {
-    parseBackup(text)
-    return 'ok'
-  } catch (e) {
-    return e instanceof BackupError ? e.message : 'other'
-  }
+const DAY = 24 * 60 * 60 * 1000
+const withChild = (progress: boolean) => {
+  const c = newChild('Sam', '#5b6cf0', 'c1')
+  if (progress) c.skills['count-5'] = { mastered: true, sessions: 1, lastScore: 5 }
+  return { ...emptyState(), children: [c], activeChild: 'c1' }
 }
 
-describe('backup', () => {
-  it('reads a good file and drops unknown keys', () => {
-    const b = parseBackup(file({ data: { settings, progress: { updatedAt: 1 }, evil: { x: 1 } } }))
-    expect(Object.keys(b.data).sort()).toEqual(['progress', 'settings'])
+describe('backup file', () => {
+  it('saves and restores the children and their progress', () => {
+    const s = withChild(true)
+    expect(parseBackup(makeBackup(s)).children).toEqual(s.children)
   })
-  it('explains what is wrong with a bad file', () => {
+  it('says what is wrong with a file that is not a backup', () => {
+    const reason = (text: string) => {
+      try {
+        parseBackup(text)
+      } catch (e) {
+        return (e as BackupError).reason
+      }
+    }
     expect(reason('not json')).toBe('not-json')
-    expect(reason(JSON.stringify({ app: 'something-else' }))).toBe('not-ours')
-    expect(reason(file({ format: 99 }))).toBe('too-new')
-    expect(reason(file({ data: {} }))).toBe('empty')
+    expect(reason('{"app":"other"}')).toBe('not-ours')
+    expect(reason('{"app":"becoming-bright-studio","format":99}')).toBe('too-new')
+    expect(reason('{"app":"becoming-bright-studio","format":1}')).toBe('empty')
   })
-  it('reminds when no backup was made, or the last one is too old; never in the demo', () => {
-    const now = new Date(2026, 9, 19)
-    expect(backupDue(settings, now)).toBe(true)
-    expect(backupDue({ ...settings, backup: { lastAt: now.getTime() - 2 * 86_400_000, remindDays: 7 } }, now)).toBe(false)
-    expect(backupDue({ ...settings, backup: { lastAt: now.getTime() - 8 * 86_400_000, remindDays: 7 } }, now)).toBe(true)
-    expect(backupDue({ ...settings, demo: true }, now)).toBe(false)
-    expect(backupDue({ ...settings, setupDone: false }, now)).toBe(false)
+})
+
+describe('weekly backup reminder', () => {
+  it('waits for progress before the first backup', () => {
+    expect(backupDue(withChild(false), 0)).toBe(false)
+    expect(backupDue(withChild(true), 0)).toBe(true)
+  })
+  it('comes back 7 days after the last backup', () => {
+    const s = { ...withChild(true), lastBackupAt: 1000 }
+    expect(backupDue(s, 1000 + 6 * DAY)).toBe(false)
+    expect(backupDue(s, 1000 + 7 * DAY)).toBe(true)
+  })
+})
+
+describe('state', () => {
+  it('fills in what an older document does not have, and picks a child', () => {
+    const s = withDefaults({ children: [{ id: 'a', name: 'Ada' }] })
+    expect(s.children[0]).toMatchObject({ id: 'a', name: 'Ada', skills: {}, misses: [] })
+    expect(s.activeChild).toBe('a')
+    expect(s.lastBackupAt).toBeNull()
+    expect(withDefaults(null)).toEqual(emptyState())
   })
 })

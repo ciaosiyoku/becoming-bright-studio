@@ -1,9 +1,9 @@
 {
   "name": "becoming-bright-studio",
   "private": true,
-  "version": "0.1.0",
-  "description": "Becoming Bright Studio: every day a little brighter. A free learning home screen for children; everything stays on the family's own device. Based on Kids' Learning Studio by Oluwasedago.",
-  "author": "Oluwasedago",
+  "version": "1.0.0",
+  "description": "Becoming Bright Studio: every day a little brighter. Short lessons that explain themselves, one skill at a time, for children aged 5 to 7. Everything stays on the family's device. Based on Kids' Learning Studio by Oluwasedago.",
+  "author": "Adeolu Osiyoku (based on Kids' Learning Studio by Oluwasedago)",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -19,24 +19,22 @@
   "dependencies": {
     "@fontsource/andika": "^5.3.0",
     "@fontsource/fredoka": "^5.3.0",
-    "d3-geo": "^3.1.1",
-    "flag-icons": "^7.6.0",
     "lucide-react": "^1.56.0",
     "qrcode-generator": "^2.0.4",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8",
-    "topojson-client": "^3.1.0"
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
-    "@types/d3-geo": "^3.1.1",
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
-    "@types/topojson-client": "^3.1.5",
     "@vitejs/plugin-react": "^6.1.1",
     "oxlint": "^1.81.0",
     "typescript": "~6.0.2",
     "vite": "^8.3.0",
     "vitest": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
