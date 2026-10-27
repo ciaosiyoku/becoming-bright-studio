@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Memory } from '@/games/Memory'
 import { Home } from '@/home/Home'
 import { Lesson } from '@/lesson/Lesson'
 import { Parent } from '@/parent/Parent'
@@ -11,7 +12,7 @@ import { StoreProvider } from './StoreProvider'
 // Three screens: Home (the child's skills and today's lesson), Lesson (one skill), Parent (behind the PIN).
 // Before the first child exists: the setup. After starting again from a backup (no PIN in it): a new PIN first.
 
-export type Screen = { name: 'home' } | { name: 'lesson'; skill: string } | { name: 'pin' } | { name: 'parent' }
+export type Screen = { name: 'home' } | { name: 'lesson'; skill: string } | { name: 'game'; skill: string } | { name: 'pin' } | { name: 'parent' }
 
 export default function App() {
   return (
@@ -35,11 +36,13 @@ function Screens() {
   if (!child) return <Setup />
   if (!state.family.pin) return <NeedPin />
   const home = () => setScreen({ name: 'home' })
-  if (screen.name === 'lesson') return <Lesson key={screen.skill} skill={screen.skill} onClose={home} />
+  const game = (skill: string) => setScreen({ name: 'game', skill })
+  if (screen.name === 'lesson') return <Lesson key={screen.skill} skill={screen.skill} onClose={home} onGame={game} />
+  if (screen.name === 'game') return <Memory skill={screen.skill} onClose={home} />
   if (screen.name === 'parent') return <Parent onClose={home} />
   return (
     <>
-      <Home onLesson={(skill) => setScreen({ name: 'lesson', skill })} onParent={() => setScreen({ name: 'pin' })} />
+      <Home onLesson={(skill) => setScreen({ name: 'lesson', skill })} onGame={game} onParent={() => setScreen({ name: 'pin' })} />
       {screen.name === 'pin' && <PinGate onOpen={() => setScreen({ name: 'parent' })} onClose={home} />}
     </>
   )

@@ -38,6 +38,8 @@ export interface Child {
   skills: Record<string, SkillProgress>
   /** Recent misses, newest last (at most MAX_MISSES). */
   misses: Miss[]
+  /** Seconds of each learnt skill's memory game already played (games/pairs.ts: 5 minutes each). */
+  games: Record<string, number>
 }
 
 /** Family-level settings: one PIN for the whole family, whichever child is using the app. */
@@ -73,7 +75,7 @@ export const emptyFamily = (): Family => ({ pin: null, recovery: null, pinLock: 
 export const emptyState = (): AppState => ({ version: STATE_VERSION, family: emptyFamily(), children: [], activeChild: null, lang: null, lastBackupAt: null, updatedAt: 0 })
 
 export function newChild(name: string, colour: string, id: string = crypto.randomUUID()): Child {
-  return { id, name: name.trim(), colour, skills: {}, misses: [] }
+  return { id, name: name.trim(), colour, skills: {}, misses: [], games: {} }
 }
 
 const isObject = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v)

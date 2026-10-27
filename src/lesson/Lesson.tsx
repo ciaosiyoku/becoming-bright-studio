@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { activeChild, updateChild } from '@/app/state'
 import { useStore } from '@/app/store'
 import { type Lang, useLang, useT } from '@/i18n'
+import { secondsLeft } from '@/games/pairs'
 import { Emoji } from '@/shared/Emoji'
 import { speak, stopSpeaking, useCanSpeak } from '@/shared/speak'
 import { teachCard } from '@/skills/generate'
@@ -17,7 +18,7 @@ import './Lesson.css'
 const NEXT_DELAY_MS = 1200
 
 /** One session of one skill: teach card, two guided tries, five checks, result (session.ts). */
-export function Lesson({ skill, onClose }: { skill: string; onClose: () => void }) {
+export function Lesson({ skill, onClose, onGame }: { skill: string; onClose: () => void; onGame: (skill: string) => void }) {
   const T = useT()
   const def = skillById(skill)!
   const appLang = useLang()
@@ -55,7 +56,7 @@ export function Lesson({ skill, onClose }: { skill: string; onClose: () => void 
       </header>
       {phase === 'teach' && <TeachCard skill={skill} lang={lang} onReady={() => setPhase('items')} />}
       {phase === 'items' && <Question key={index} skill={skill} item={session.items[index]} lang={lang} onAnswered={answered} onNext={next} />}
-      {phase === 'result' && <Result skill={skill} checks={checks} onClose={onClose} />}
+      {phase === 'result' && <Result skill={skill} checks={checks} onClose={onClose} onGame={() => onGame(skill)} />}
     </main>
   )
 }
@@ -157,8 +158,8 @@ function Question({ skill, item, lang, onAnswered, onNext }: { skill: string; it
   )
 }
 
-/** The end of the session: mastered (a tree) or "let's practise again" (a seedling). */
-function Result({ skill, checks, onClose }: { skill: string; checks: CheckAnswer[]; onClose: () => void }) {
+/** The end of the session: mastered (a tree, and the memory game when games are allowed) or "let's practise again". */
+function Result({ skill, checks, onClose, onGame }: { skill: string; checks: CheckAnswer[]; onClose: () => void; onGame: () => void }) {
   const T = useT()
   const lang = useLang()
   const { state } = useStore()
@@ -176,9 +177,16 @@ function Result({ skill, checks, onClose }: { skill: string; checks: CheckAnswer
       <p>{T.lesson.score(right, CHECKS)}</p>
       <p>{mastered ? T.lesson.learntText(skillText(def, lang).title) : T.lesson.notYetText}</p>
       {mastered && upcomingDef && <p className="pill">{T.lesson.nextUp(skillText(upcomingDef, lang).title)}</p>}
-      <button className="big" onClick={onClose}>
-        {T.lesson.backHome}
-      </button>
+      <div className="row center">
+        {mastered && state.family.gamesAllowed && secondsLeft(activeChild(state)!.games[skill]) > 0 && (
+          <button className="big secondary" onClick={onGame}>
+            <Emoji name="seedling" size={32} /> {T.games.unlocked}
+          </button>
+        )}
+        <button className="big" onClick={onClose}>
+          {T.lesson.backHome}
+        </button>
+      </div>
     </section>
   )
 }

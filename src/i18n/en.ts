@@ -90,6 +90,17 @@ export const en = {
     nextUp: (skill: string) => `Next: ${skill}`,
     backHome: 'Back home',
   },
+  games: {
+    title: 'Memory games',
+    unlocked: 'Memory game unlocked: 5 minutes!',
+    play: 'Play',
+    help: 'Find the pairs: a question and its answer.',
+    left: (time: string) => `${time} left`,
+    allFound: 'All pairs found!',
+    again: 'New cards',
+    timeUp: 'Time is up. Well done!',
+    pairs: (found: number, of: number) => `${found} of ${of} pairs`,
+  },
   parent: {
     title: 'For grown-ups',
     misses: 'Today’s misses',

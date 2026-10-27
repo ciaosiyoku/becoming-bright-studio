@@ -4,18 +4,20 @@ import { activeChild } from '@/app/state'
 import { useStore } from '@/app/store'
 import { backupDue } from '@/data/backup'
 import { useLang, useT } from '@/i18n'
+import { secondsLeft } from '@/games/pairs'
 import { isOpen, nextSkill } from '@/lesson/session'
 import { Emoji } from '@/shared/Emoji'
 import { skillById, SKILLS, skillText } from '@/skills/index'
 import './Home.css'
 
 const ORDER = SKILLS.map((s) => s.id)
+const clock = (s: number) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`
 
 /**
  * The child's home: who is learning (when there are two or more children), hello, today's lesson, the path of
  * skills, and (once a week) a backup reminder for the grown-ups. Switching child needs no PIN and no second install.
  */
-export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void; onParent: () => void }) {
+export function Home({ onLesson, onGame, onParent }: { onLesson: (skill: string) => void; onGame: (skill: string) => void; onParent: () => void }) {
   const T = useT()
   const lang = useLang()
   const { state, update } = useStore()
@@ -23,6 +25,8 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
   const [now] = useState(Date.now)
   const today = nextSkill(child, ORDER)
   const todayDef = today ? skillById(today) : undefined
+  // Memory games: one per learnt skill with time left, only when the grown-ups allow games.
+  const games = state.family.gamesAllowed ? SKILLS.filter((s) => child.skills[s.id]?.mastered && secondsLeft(child.games[s.id]) > 0) : []
   return (
     <main className="home">
       <header className="home-top">
@@ -62,6 +66,20 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
           </>
         )}
       </section>
+      {games.length > 0 && (
+        <section className="card">
+          <h2>{T.games.title}</h2>
+          <div className="games-row">
+            {games.map((def) => (
+              <button key={def.id} className="secondary game-tile" onClick={() => onGame(def.id)}>
+                <Emoji name={def.emoji} size={40} />
+                <span>{skillText(def, lang).title}</span>
+                <small>{T.games.left(clock(secondsLeft(child.games[def.id])))}</small>
+              </button>
+            ))}
+          </div>
+        </section>
+      )}
       <section className="card">
         <h2>{T.home.path}</h2>
         <div className="path">

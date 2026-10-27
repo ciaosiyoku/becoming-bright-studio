@@ -1,0 +1,76 @@
+.memory {
+  height: 100%;
+  overflow-y: auto;
+  display: grid;
+  align-content: start;
+  gap: 0.8rem;
+  padding: 1rem 1.2rem;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+.memory-help {
+  text-align: center;
+}
+.memory-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.7rem;
+}
+.memory-card {
+  aspect-ratio: 1;
+  min-height: 0;
+  padding: 0.4rem;
+  border-radius: var(--radius-s);
+  background: var(--accent-soft);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.memory-card.shown {
+  background: var(--card);
+  border: 3px solid var(--line);
+}
+.memory-card.found {
+  background: var(--mint-soft);
+  border-color: var(--mint);
+}
+.memory-visual {
+  display: grid;
+  justify-items: center;
+  gap: 0.2rem;
+}
+.memory-text {
+  font-family: var(--display);
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+/* Pictures to count, and words, made small enough for a card. */
+.memory-card .count {
+  gap: 0.15rem;
+  max-width: 100%;
+}
+.memory-card .count img {
+  width: 26px;
+  height: 26px;
+}
+.memory-card .sum {
+  font-size: 1.6rem;
+}
+.memory-card .picture img {
+  width: 64px;
+  height: 64px;
+}
+.memory-card .picture b {
+  font-size: 1.1rem;
+}
+.memory-end {
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+@media (min-width: 900px) {
+  .memory-board {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
