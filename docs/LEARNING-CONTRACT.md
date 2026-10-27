@@ -5,8 +5,10 @@ the change.
 
 ## Who it is for
 
-- **The child:** aged 5 to 7, just starting to read. They can tap and listen, and they may not read a full
-  sentence yet. Everything a child must understand is a picture, a number line, or read aloud.
+- **The child:** aged 4 to 11 (first written for 5 to 7, who are just starting to read). They can tap and
+  listen; the youngest may not read a full sentence yet, so everything a young child must understand is a picture,
+  a number line, or read aloud. **The child chooses which skill to learn** (owner's decision, 27 Oct 2026); skills
+  are grouped by subject and shown in teaching order, and nothing is locked.
 - **The parent:** wants ten calm minutes of real practice, and to see afterwards what was hard. They aren't a
   teacher, and they don't want to configure much.
 
@@ -19,8 +21,8 @@ One session is **one skill**, about 5 to 8 minutes:
    child taps "Next". These don't count.
 3. **Five checks.** One try each, then the same kind of reason. A miss stays on screen until the child taps "Next":
    nothing moves on by itself.
-4. **Result.** 4 of 5 right: the skill is **mastered** and the next one opens. Fewer: "Let's practise this again",
-   and the next session starts again at the teach card.
+4. **Result.** 4 of 5 right: the skill is **mastered** (a tree on the home screen), and the next skill of the same
+   subject is suggested. Fewer: "Let's practise this again", and the next session starts again at the teach card.
 
 Numbers are made fresh each time, so a child can't learn the answers by heart. Every question has exactly one right
 answer (checked by a test).
@@ -64,9 +66,18 @@ Skill: **add within 5**. Child: Sam, 6.
 
 If this table can't be acted out with a child and a sheet of paper, the app shouldn't be built that way.
 
-## The twelve skills of version 1
+## The skills
 
-Count to 5 · Count to 10 · One more · One less · Add within 5 · Add within 10 · Take away within 5 ·
-Take away within 10 · Which is bigger? · First sounds · "a" or "an" · Rhyming pictures.
+Version 1 started with twelve (count to 5 and 10, one more, one less, add and take away within 5 and 10, which is
+bigger, first sounds, "a" or "an", rhyming pictures). The owner then asked for the original's other skills, rebuilt in
+this format: **57 in all**, from Cambridge Primary early years to about Stage 6.
 
-No capitals or countries: version 1 contains no facts that would need checking against a source.
+- **Numbers (31):** counting, adding and taking away up to 1000, tens and ones, times tables, time, place value,
+  rounding, dividing, multiplying, fractions, percentages, order of operations, square numbers.
+- **Sounds and words (17, taught in English):** first sounds, rhymes, reading and spelling words, the missing letter,
+  "a" or "an", plurals, the past tense, alphabetical order, opposites, short forms, comparing, synonyms, homophones,
+  word classes, prefixes.
+- **Patterns (9):** picture patterns and number sequences.
+
+Left out on purpose: the original's "world" skills (animals, flags, places, continents, capitals, world records,
+space). They need photos, flags or facts that would have to be checked against a source.

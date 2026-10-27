@@ -1,7 +1,7 @@
 {
   "name": "Becoming Bright Studio",
   "short_name": "Bright Studio",
-  "description": "Every day a little brighter: short lessons that explain themselves, for children aged 5 to 7. Works in the browser; does not block other apps. Everything stays on this device.",
+  "description": "Every day a little brighter: short lessons that explain themselves, for children aged 4 to 11. Works in the browser; does not block other apps. Everything stays on this device.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

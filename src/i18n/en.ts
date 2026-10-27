@@ -52,7 +52,7 @@ export const en = {
   install: {
     title: 'Install Becoming Bright Studio',
     what: 'Works in the browser. Does not block other apps.',
-    intro: 'Short lessons that explain themselves, one skill at a time, for children aged 5 to 7. It installs from this page in about a minute: no app store, no account. Everything stays on the device.',
+    intro: 'Short lessons that explain themselves, one skill at a time, for children aged 4 to 11: the child chooses the skill. It installs from this page in about a minute: no app store, no account. Everything stays on the device.',
     forDevice: 'Steps for your device',
     otherDevices: 'Other devices',
     devices: { android: 'Android or Fire tablet', ipad: 'iPad or iPhone', computer: 'Computer' },

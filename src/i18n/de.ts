@@ -54,7 +54,7 @@ export const de: Strings = {
   install: {
     title: 'Becoming Bright Studio installieren',
     what: 'Läuft im Browser. Sperrt keine anderen Apps.',
-    intro: 'Kurze Lektionen, die sich selbst erklären, eine Fähigkeit nach der anderen, für Kinder von 5 bis 7 Jahren. Die Installation von dieser Seite dauert etwa eine Minute: ohne App-Store, ohne Konto. Alles bleibt auf dem Gerät.',
+    intro: 'Kurze Lektionen, die sich selbst erklären, eine Fähigkeit nach der anderen, für Kinder von 4 bis 11 Jahren: Das Kind sucht sich die Fähigkeit aus. Die Installation von dieser Seite dauert etwa eine Minute: ohne App-Store, ohne Konto. Alles bleibt auf dem Gerät.',
     forDevice: 'Schritte für Ihr Gerät',
     otherDevices: 'Andere Geräte',
     devices: { android: 'Android- oder Fire-Tablet', ipad: 'iPad oder iPhone', computer: 'Computer' },

@@ -55,7 +55,7 @@ export const yo: Strings = {
   install: {
     title: 'Fi Becoming Bright Studio sórí ẹ̀rọ',
     what: 'Ó ń ṣiṣẹ́ nínú aṣàwákiri. Kò dí àwọn áàpù míì lọ́wọ́.',
-    intro: 'Ẹ̀kọ́ kúkúrú tí ń ṣàlàyé ara rẹ̀, ọgbọ́n kan ní àkókò kan, fún àwọn ọmọ ọdún 5 sí 7. Ó máa wọlé láti ojú ìwé yìí ní nǹkan bíi ìṣẹ́jú kan: kò sí ilé ìtajà áàpù, kò sí àkáǹtì. Gbogbo nǹkan wà lórí ẹ̀rọ náà.',
+    intro: 'Ẹ̀kọ́ kúkúrú tí ń ṣàlàyé ara rẹ̀, ọgbọ́n kan ní àkókò kan, fún àwọn ọmọ ọdún 4 sí 11: ọmọ náà ló ń yan ọgbọ́n tí ó fẹ́ kọ́. Ó máa wọlé láti ojú ìwé yìí ní nǹkan bíi ìṣẹ́jú kan: kò sí ilé ìtajà áàpù, kò sí àkáǹtì. Gbogbo nǹkan wà lórí ẹ̀rọ náà.',
     forDevice: 'Ìgbésẹ̀ fún ẹ̀rọ rẹ',
     otherDevices: 'Àwọn ẹ̀rọ míì',
     devices: { android: 'Tábúlẹ́ẹ̀tì Android tàbí Fire', ipad: 'iPad tàbí iPhone', computer: 'Kọ̀ǹpútà' },
