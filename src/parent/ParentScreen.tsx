@@ -23,6 +23,7 @@ export function ParentScreen() {
   return (
     <div className="parent-screen">
       {settings.demo && <DemoCard />}
+      {settings.clockAlert && <ClockCard />}
       <Card emoji="backpack" title={t.parent.child}>
         <ChildEditor />
       </Card>
@@ -60,6 +61,31 @@ export function ParentScreen() {
         <UpdateButton />
       </Card>
     </div>
+  )
+}
+
+/** The device clock went back past a time already seen (shared/clockGuard.ts): earned time waits for this check. */
+function ClockCard() {
+  const t = useT()
+  const lang = useLang()
+  const { settings, updateSettings, updateUsage } = useStudio()
+  const alert = settings.clockAlert
+  if (!alert) return null
+  const when = (ms: number) => new Date(ms).toLocaleString(LOCALES[lang], { dateStyle: 'medium', timeStyle: 'short' })
+  const carryOn = () => {
+    // From now on the clock as it is now is the latest time seen.
+    updateUsage((u) => ({ ...u, lastSeen: Date.now() }))
+    updateSettings((s) => ({ ...s, clockAlert: null }))
+  }
+  return (
+    <section className="card parent-card wide">
+      <h3 className="card-title">
+        <Emoji name="clock" size={36} /> {t.parent.clockTitle}
+      </h3>
+      <p>{t.parent.clockText(when(alert.lastSeen), when(alert.noticedAt))}</p>
+      <p className="muted">{t.parent.clockHint}</p>
+      <button onClick={carryOn}>{t.parent.clockOk}</button>
+    </section>
   )
 }
 

@@ -93,6 +93,7 @@ export const en = {
     earnedTitle: 'Earned time',
     earnHow: (perStar: number, stars: number) => `Each mission gives ${stars === 1 ? 'a star' : `${stars} stars`}. Each star gives ${perStar} minutes.`,
     earnedOf: (min: number) => `Earned today: ${plural(min, 'minute', 'minutes')}`,
+    clockPaused: 'The clock on this tablet was changed, so earned time is paused. A grown-up can check it on the parent screen.',
     birthdays: 'Birthdays coming up',
     inDays: (n: number) => (n === 0 ? 'Today!' : n === 1 ? 'Tomorrow' : `in ${n} days`),
     trackTitle: 'Your star track:',
@@ -265,6 +266,10 @@ export const en = {
     deleteAll: 'Delete all data',
     deleteConfirm: 'Delete everything on this device, including progress and settings? Make a backup first if you want to keep it.',
     deleteNote: 'Deleting starts the app afresh with the setup wizard.',
+    clockTitle: 'The clock was changed',
+    clockText: (seen: string, noticed: string) => `This device had already shown ${seen}, then its clock went back to ${noticed}. Turning the clock forward gives a new day of earned time, so earned time is paused until you check.`,
+    clockHint: 'Please set the right date and time in the device settings first.',
+    clockOk: 'Checked: carry on',
     about: 'About',
   },
   setup: {

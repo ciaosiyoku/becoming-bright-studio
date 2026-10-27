@@ -60,6 +60,9 @@ export interface Settings {
   pinReset: { requestedAt: number } | null
   /** Wrong PIN tries and the wait they started (see parent/pin.ts): kept here so reopening the pad does not reset it. */
   pinLock: { wrong: number; until: number }
+  /** The device clock was turned back past a time the app had seen (shared/clockGuard.ts): earned time pauses
+   * until a parent checks it on the parent screen. null = no change noticed. */
+  clockAlert: { lastSeen: number; noticedAt: number } | null
   access: Record<ItemId, AccessRule>
   rewards: {
     /** Missions a day (1-4). */
@@ -140,6 +143,8 @@ export interface Usage {
   days: Record<string, Record<string, number>>
   /** Earned time used per day, in seconds. */
   earnedUsed: Record<string, number>
+  /** The latest time the app has seen (ms since 1970), to notice a clock turned back (shared/clockGuard.ts). */
+  lastSeen: number
   updatedAt: number
 }
 
@@ -157,6 +162,7 @@ export const DEFAULT_SETTINGS: Settings = {
   recovery: null,
   pinReset: null,
   pinLock: { wrong: 0, until: 0 },
+  clockAlert: null,
   // Filled by the setup wizard (access/starter.ts); this default only matters before the wizard has run.
   access: {} as Record<ItemId, AccessRule>,
   rewards: { missionsPerDay: 3, questionsPerMission: 10, minutesPerStar: 10, maxMinutesPerDay: 45, weeklyGoal: 12, weeklyReward: '' },
@@ -174,4 +180,4 @@ export const DEFAULT_SETTINGS: Settings = {
 export const EMPTY_PROGRESS: Progress = { stars: {}, missions: {}, scores: {}, attempts: {}, mistakes: [], levels: {}, recent: {}, updatedAt: 0 }
 
 export const MAX_MISTAKES = 200
-export const EMPTY_USAGE: Usage = { days: {}, earnedUsed: {}, updatedAt: 0 }
+export const EMPTY_USAGE: Usage = { days: {}, earnedUsed: {}, lastSeen: 0, updatedAt: 0 }

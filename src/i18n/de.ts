@@ -91,6 +91,7 @@ export const de: Strings = {
     earnedTitle: 'Verdiente Zeit',
     earnHow: (perStar: number, stars: number) => `Jede Mission bringt ${stars === 1 ? 'einen Stern' : `${stars} Sterne`}. Jeder Stern bringt ${perStar} Minuten.`,
     earnedOf: (min: number) => `Heute verdient: ${plural(min, 'Minute', 'Minuten')}`,
+    clockPaused: 'Die Uhr dieses Tablets wurde verstellt, deshalb ist die verdiente Zeit angehalten. Ein Erwachsener kann das im Elternbereich prüfen.',
     birthdays: 'Bald Geburtstag',
     inDays: (n: number) => (n === 0 ? 'Heute!' : n === 1 ? 'Morgen' : `in ${n} Tagen`),
     trackTitle: 'Dein Sternenweg:',
@@ -263,6 +264,10 @@ export const de: Strings = {
     deleteAll: 'Alle Daten löschen',
     deleteConfirm: 'Alles auf diesem Gerät löschen, auch Fortschritt und Einstellungen? Machen Sie vorher eine Sicherung, wenn Sie es behalten möchten.',
     deleteNote: 'Nach dem Löschen beginnt die App neu mit der Einrichtung.',
+    clockTitle: 'Die Uhr wurde verstellt',
+    clockText: (seen: string, noticed: string) => `Dieses Gerät hat schon ${seen} angezeigt, dann ging seine Uhr zurück auf ${noticed}. Wer die Uhr vorstellt, bekommt einen neuen Tag mit verdienter Zeit. Deshalb ist die verdiente Zeit angehalten, bis Sie es prüfen.`,
+    clockHint: 'Bitte stellen Sie zuerst in den Geräteeinstellungen das richtige Datum und die richtige Uhrzeit ein.',
+    clockOk: 'Geprüft: weiter',
     about: 'Über die App',
   },
   setup: {

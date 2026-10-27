@@ -91,6 +91,7 @@ export const fr: Strings = {
     earnedTitle: 'Temps gagné',
     earnHow: (perStar: number, stars: number) => `Chaque mission rapporte ${stars === 1 ? 'une étoile' : `${stars} étoiles`}. Chaque étoile rapporte ${perStar} minutes.`,
     earnedOf: (min: number) => `Gagné aujourd’hui : ${plural(min, 'minute', 'minutes')}`,
+    clockPaused: 'L’horloge de cette tablette a été changée : le temps gagné est en pause. Un adulte peut vérifier dans l’espace parents.',
     birthdays: 'Anniversaires à venir',
     inDays: (n: number) => (n === 0 ? 'Aujourd’hui !' : n === 1 ? 'Demain' : `dans ${n} jours`),
     trackTitle: 'Ton chemin d’étoiles :',
@@ -263,6 +264,10 @@ export const fr: Strings = {
     deleteAll: 'Effacer toutes les données',
     deleteConfirm: 'Tout effacer sur cet appareil, y compris la progression et les réglages ? Faites d’abord une sauvegarde si vous voulez les garder.',
     deleteNote: 'Après l’effacement, l’application recommence avec l’assistant de configuration.',
+    clockTitle: 'L’horloge a été changée',
+    clockText: (seen: string, noticed: string) => `Cet appareil avait déjà affiché ${seen}, puis son horloge est revenue à ${noticed}. Avancer l’horloge donne une nouvelle journée de temps gagné : le temps gagné est donc en pause jusqu’à votre vérification.`,
+    clockHint: 'Réglez d’abord la bonne date et la bonne heure dans les réglages de l’appareil.',
+    clockOk: 'Vérifié : continuer',
     about: 'À propos',
   },
   setup: {

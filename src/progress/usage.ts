@@ -18,7 +18,7 @@ export function addUsage(u: Usage, d: Date, area: string, seconds: number, earne
   days[date] = { ...today, [area]: (today[area] ?? 0) + seconds }
   const earnedUsed = keep(u.earnedUsed)
   if (earned) earnedUsed[date] = (earnedUsed[date] ?? 0) + seconds
-  return { days, earnedUsed, updatedAt: now }
+  return { ...u, days, earnedUsed, updatedAt: now }
 }
 
 /** The area kind: "mission:maths" → "mission". */

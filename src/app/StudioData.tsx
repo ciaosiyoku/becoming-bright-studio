@@ -3,6 +3,7 @@ import { accessState, earnedSecondsLeft, withStarterAccess } from '@/access/acce
 import { useLocalDoc } from '@/data/localDoc'
 import { DEFAULT_SETTINGS, EMPTY_PROGRESS, EMPTY_USAGE, type Progress, type Settings, type Usage } from '@/data/types'
 import { stageForAge } from '@/lessons/ladder'
+import { checkClock } from '@/shared/clockGuard'
 import { ageFrom, isoDate } from '@/shared/date'
 import { StudioContext, type StudioState } from './studio'
 
@@ -37,7 +38,22 @@ export function StudioData({ children }: { children: ReactNode }) {
   const age = ageFrom(settings.doc.child.birthMonth, settings.doc.child.birthYear, now)
   const stage = settings.doc.child.school?.stage ?? stageForAge(age)
   const s = withStarterAccess(settings.doc, age)
-  const earnedLeft = earnedSecondsLeft(progress.doc, usage.doc, s.rewards, today)
+  // Earned time pauses while a clock turned back waits for a parent's check (shared/clockGuard.ts).
+  const earnedLeft = s.clockAlert ? 0 : earnedSecondsLeft(progress.doc, usage.doc, s.rewards, today)
+  const ready = settings.ready && progress.ready && usage.ready
+
+  // On every tick: remember the latest time seen, or notice that the clock went back. Uses the real clock,
+  // never the ?date= / ?at= test overrides.
+  const { update: updateUsageDoc } = usage
+  const { update: updateSettingsDoc } = settings
+  useEffect(() => {
+    if (!ready || settings.doc.demo) return
+    const real = Date.now()
+    const lastSeen = usage.doc.lastSeen
+    const action = checkClock(lastSeen, real, settings.doc.clockAlert !== null)
+    if (action === 'save') updateUsageDoc((u) => ({ ...u, lastSeen: Math.max(u.lastSeen, real) }))
+    if (action === 'alert') updateSettingsDoc((doc) => ({ ...doc, clockAlert: { lastSeen, noticedAt: real } }))
+  }, [now, ready, settings.doc.demo, settings.doc.clockAlert, usage.doc.lastSeen, updateUsageDoc, updateSettingsDoc])
 
   // The child's colour on buttons and the menu.
   useEffect(() => {
@@ -50,7 +66,7 @@ export function StudioData({ children }: { children: ReactNode }) {
     age,
     stage,
     settings: s,
-    ready: settings.ready && progress.ready && usage.ready,
+    ready,
     // Every change starts from the same filled-in settings the screens show (a new item keeps its starter
     // setting when a parent first changes it, instead of starting from "off").
     updateSettings: (change) => settings.update((doc) => change(withStarterAccess(doc, ageFrom(doc.child.birthMonth, doc.child.birthYear, new Date())))),

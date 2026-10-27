@@ -151,6 +151,7 @@ function EarnedCard() {
       </h3>
       <p className="earned-big">{earnedLeft > 0 ? clock(earnedLeft) : '0:00'}</p>
       <p className="muted">{earned === 0 ? t.home.earnHow(settings.rewards.minutesPerStar, starsFor(settings.rewards.questionsPerMission)) : t.home.earnedOf(earned)}</p>
+      {settings.clockAlert && <p className="pill">{t.home.clockPaused}</p>}
     </section>
   )
 }
