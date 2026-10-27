@@ -1,8 +1,7 @@
 # Installing Becoming Bright Studio
 
-The easiest way: open the install page on the tablet. Once this repository is published on GitHub Pages, that is
-**https://&lt;your-github-name&gt;.github.io/becoming-bright-studio/install.html** (until then: run `npm run dev` and
-open http://localhost:5173/install.html). The page recognises the device and shows only the steps for it. On a computer, scan the QR code on that page with
+The easiest way: open **https://ciaosiyoku.github.io/becoming-bright-studio/install.html** on the tablet. The
+page recognises the device and shows only the steps for it. On a computer, scan the QR code on that page with
 the tablet's camera.
 
 The app installs from the browser ("Add to Home screen"). There is no app store, no account and no download

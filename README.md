@@ -26,15 +26,12 @@ the improvements listed below.
 
 ## Try it
 
-```sh
-npm install
-npm run dev        # the app at http://localhost:5173, the demo at http://localhost:5173/?demo (parent PIN 1234)
-```
+- **Install:** https://ciaosiyoku.github.io/becoming-bright-studio/install.html (steps for your device, QR code)
+- **Open the app:** https://ciaosiyoku.github.io/becoming-bright-studio/
+- **Try the demo** (made-up data, parent PIN 1234): https://ciaosiyoku.github.io/becoming-bright-studio/?demo
 
-Publishing on GitHub Pages: push to a repository named `becoming-bright-studio` and turn on Pages
-(Settings → Pages → Source: GitHub Actions). The included workflow builds and publishes every push to `main`.
-Then the install page is `https://<your-github-name>.github.io/becoming-bright-studio/install.html`
-(steps for each device, with a QR code). See [INSTALL.md](INSTALL.md).
+Every push to `main` is checked, built and published to GitHub Pages by `.github/workflows/deploy.yml`.
+See [INSTALL.md](INSTALL.md).
 
 ## How a child grows brighter
 

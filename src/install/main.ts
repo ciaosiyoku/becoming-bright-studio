@@ -35,8 +35,8 @@ function qr(text: string): string {
   return code.createSvgTag({ cellSize: 5, margin: 2, scalable: true })
 }
 
-/** Where the source code lives: the original project until this one is published (then change it here). */
-const SOURCE_URL = 'https://github.com/Oluwasedago/kids-learning-studio'
+/** Where the source code lives. */
+const SOURCE_URL = 'https://github.com/ciaosiyoku/becoming-bright-studio'
 
 const root = document.getElementById('install')!
 root.innerHTML = `

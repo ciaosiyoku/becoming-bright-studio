@@ -49,8 +49,6 @@ Legend: **done** · **to verify** (built, needs checking on a device or with a s
 - Checks on real devices: Amazon Fire voices, Amazon Kids browser, mailto, share sheet, family-call links.
 - Terms of use of the radio streams (WDR, Fun Kids, Radio France).
 - Native-speaker reading of the German, French and Yoruba texts (Yoruba is a draft).
-- Publishing: a GitHub repository named `becoming-bright-studio` with Pages turned on; then change `SOURCE_URL` in
-  `src/install/main.ts` to it.
 
 ## v1.1 (plugins, each optional and off by default)
 
