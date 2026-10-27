@@ -5,6 +5,9 @@ import { CodeBreaker } from '@/games/codebreaker/CodeBreaker'
 import { MemoryGame } from '@/games/Memory'
 import { PuzzleGame } from '@/games/puzzle/PuzzleGame'
 import { SlidingPuzzle } from '@/games/sliding/SlidingPuzzle'
+import { Facts } from '@/explore/FactsScreen'
+import { Places } from '@/explore/PlacesScreen'
+import { Whys } from '@/explore/WhysScreen'
 import { useT } from '@/i18n'
 import { Radio } from '@/media/Radio'
 import { Stories } from '@/media/Stories'
@@ -69,7 +72,11 @@ function Content({ id }: { id: ItemId }): ReactNode {
       return <Stories />
     case 'videos':
       return <Videos />
-    default:
-      return null
+    case 'places':
+      return <Places />
+    case 'whys':
+      return <Whys />
+    case 'facts':
+      return <Facts />
   }
 }

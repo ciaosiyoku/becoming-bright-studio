@@ -1,0 +1,155 @@
+/* The library: a grid of photo cards; a detail view with a big photo, the text and the photo credit. */
+.library-body {
+  min-height: 0;
+  overflow-y: auto;
+  display: grid;
+  gap: 0.8rem;
+  align-content: start;
+  padding-bottom: 0.6rem;
+}
+.library-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.library-filter button {
+  min-height: 2.6rem;
+  padding: 0 0.9rem;
+  font-size: 0.95rem;
+}
+.library-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(11rem, 100%), 1fr));
+  gap: 0.8rem;
+}
+.library-card {
+  display: grid;
+  gap: 0.3rem;
+  padding: 0.5rem 0.5rem 0.7rem;
+  text-align: center;
+  color: var(--ink);
+}
+.library-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius-s);
+  background: var(--sunken);
+}
+.library-card b {
+  font-family: var(--display);
+  font-size: 1.1rem;
+}
+.library-card small {
+  color: var(--muted);
+}
+.library-detail {
+  min-height: 0;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 1.4rem;
+  align-items: start;
+  align-content: start;
+}
+.library-detail figure {
+  margin: 0;
+  display: grid;
+  gap: 0.3rem;
+}
+.library-detail img {
+  width: 100%;
+  max-height: 60vh;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+.library-detail figcaption {
+  font-size: 0.75rem;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.library-text {
+  display: grid;
+  gap: 0.8rem;
+}
+.library-text h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  font-size: clamp(1.5rem, 4vw, 2.2rem);
+}
+.library-text h2 button {
+  width: var(--tap);
+  padding: 0;
+  border-radius: 50%;
+  flex: none;
+}
+.library-text p {
+  font-size: clamp(1.05rem, 2.6vw, 1.35rem);
+  line-height: 1.45;
+  color: var(--ink);
+}
+.library-nav {
+  display: flex;
+  gap: 0.6rem;
+}
+.library-nav button {
+  flex: 1;
+}
+@media (max-width: 760px) {
+  .library-detail {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .library-detail img {
+    max-height: 40vh;
+  }
+}
+
+/* One card at a time (Did you know?, 100 Whys): a big picture, the text, and the next one. */
+.explore {
+  display: grid;
+  gap: 0.9rem;
+  align-content: start;
+  min-height: 0;
+  overflow-y: auto;
+  padding-bottom: 0.6rem;
+}
+.one-card {
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+  text-align: center;
+  max-width: 44rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.6rem 1.4rem;
+}
+.one-card h2 {
+  font-size: clamp(1.4rem, 3.6vw, 2rem);
+}
+.one-card p {
+  font-size: clamp(1.1rem, 2.8vw, 1.45rem);
+  line-height: 1.45;
+  color: var(--ink);
+}
+.one-card .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+}
+.why-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(17rem, 100%), 1fr));
+  gap: 0.6rem;
+}
+.why-list button {
+  justify-content: flex-start;
+  gap: 0.6rem;
+  text-align: left;
+  color: var(--ink);
+  font-family: 'Andika', sans-serif;
+  font-weight: 400;
+  min-height: 3.6rem;
+}
