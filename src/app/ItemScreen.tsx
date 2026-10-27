@@ -6,6 +6,9 @@ import { MemoryGame } from '@/games/Memory'
 import { PuzzleGame } from '@/games/puzzle/PuzzleGame'
 import { SlidingPuzzle } from '@/games/sliding/SlidingPuzzle'
 import { useT } from '@/i18n'
+import { Radio } from '@/media/Radio'
+import { Stories } from '@/media/Stories'
+import { Videos } from '@/media/Videos'
 import { Emoji } from '@/shared/Emoji'
 import { clock } from '@/shared/clock'
 import { accessOf, earnedSecondsLeft } from './access'
@@ -60,6 +63,12 @@ function Content({ id }: { id: ItemId }): ReactNode {
       return <PuzzleGame />
     case 'sliding':
       return <SlidingPuzzle />
+    case 'radio':
+      return <Radio />
+    case 'stories':
+      return <Stories />
+    case 'videos':
+      return <Videos />
     default:
       return null
   }
