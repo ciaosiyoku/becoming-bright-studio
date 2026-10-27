@@ -1,0 +1,89 @@
+{
+  "id": "opposites",
+  "kind": "opposite",
+  "subject": "words",
+  "stage": 4,
+  "order": 11,
+  "only": "en",
+  "params": {
+    "pairs": [
+      [
+        "big",
+        "small"
+      ],
+      [
+        "hot",
+        "cold"
+      ],
+      [
+        "up",
+        "down"
+      ],
+      [
+        "happy",
+        "sad"
+      ],
+      [
+        "fast",
+        "slow"
+      ],
+      [
+        "open",
+        "closed"
+      ],
+      [
+        "day",
+        "night"
+      ],
+      [
+        "full",
+        "empty"
+      ],
+      [
+        "wet",
+        "dry"
+      ],
+      [
+        "loud",
+        "quiet"
+      ],
+      [
+        "light",
+        "dark"
+      ],
+      [
+        "first",
+        "last"
+      ],
+      [
+        "in",
+        "out"
+      ],
+      [
+        "hard",
+        "soft"
+      ],
+      [
+        "early",
+        "late"
+      ],
+      [
+        "high",
+        "low"
+      ]
+    ]
+  },
+  "emoji": "moon",
+  "example": {
+    "word": "hot",
+    "answer": "cold"
+  },
+  "text": {
+    "en": {
+      "title": "Opposites",
+      "teach": "Opposites mean the very different thing: hot and cold, up and down, day and night.",
+      "prompt": "What is the opposite of \"{word}\"?",
+      "reason": "“{word}” and “{answer}” are opposites."
+    }
+  }
+}

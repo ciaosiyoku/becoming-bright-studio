@@ -3,6 +3,7 @@
   "kind": "first-sound",
   "subject": "words",
   "stage": 0,
+  "order": 1,
   "only": "en",
   "params": {
     "words": [

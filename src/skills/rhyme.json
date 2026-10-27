@@ -3,6 +3,7 @@
   "kind": "rhyme",
   "subject": "words",
   "stage": 1,
+  "order": 2,
   "only": "en",
   "params": {
     "families": [

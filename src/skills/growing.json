@@ -3,6 +3,7 @@
   "kind": "growing",
   "subject": "patterns",
   "stage": 6,
+  "order": 9,
   "params": {},
   "emoji": "seedling",
   "example": {

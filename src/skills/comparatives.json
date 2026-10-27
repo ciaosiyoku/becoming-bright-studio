@@ -1,0 +1,107 @@
+{
+  "id": "comparatives",
+  "kind": "comparison",
+  "subject": "words",
+  "stage": 4,
+  "order": 13,
+  "only": "en",
+  "params": {
+    "triples": [
+      [
+        "tall",
+        "taller",
+        "tallest"
+      ],
+      [
+        "big",
+        "bigger",
+        "biggest"
+      ],
+      [
+        "small",
+        "smaller",
+        "smallest"
+      ],
+      [
+        "fast",
+        "faster",
+        "fastest"
+      ],
+      [
+        "happy",
+        "happier",
+        "happiest"
+      ],
+      [
+        "good",
+        "better",
+        "best"
+      ],
+      [
+        "bad",
+        "worse",
+        "worst"
+      ],
+      [
+        "hot",
+        "hotter",
+        "hottest"
+      ],
+      [
+        "funny",
+        "funnier",
+        "funniest"
+      ],
+      [
+        "old",
+        "older",
+        "oldest"
+      ],
+      [
+        "long",
+        "longer",
+        "longest"
+      ],
+      [
+        "sad",
+        "sadder",
+        "saddest"
+      ],
+      [
+        "nice",
+        "nicer",
+        "nicest"
+      ],
+      [
+        "busy",
+        "busier",
+        "busiest"
+      ],
+      [
+        "thin",
+        "thinner",
+        "thinnest"
+      ]
+    ]
+  },
+  "emoji": "trophy",
+  "example": {
+    "word": "tall",
+    "more": "taller",
+    "answer": "tallest",
+    "rule": "est"
+  },
+  "text": {
+    "en": {
+      "title": "Comparing: fast, faster, fastest",
+      "teach": "To compare, we add -er for more and -est for the most: tall, taller, tallest. Some are special: good, better, best.",
+      "prompt": "{word}, {more}, …?",
+      "reason": "",
+      "say": "{word}, {more}, and then?",
+      "reasons": {
+        "est": "Add -est for the most: {word}, {more}, {answer}.",
+        "special": "This one is special, to learn by heart: {word}, {more}, {answer}."
+      }
+    }
+  }
+}

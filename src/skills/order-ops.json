@@ -3,6 +3,7 @@
   "kind": "order-ops",
   "subject": "numbers",
   "stage": 6,
+  "order": 27,
   "params": {},
   "emoji": "puzzle",
   "example": {

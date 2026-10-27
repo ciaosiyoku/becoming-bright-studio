@@ -3,6 +3,7 @@
   "kind": "subtract",
   "subject": "numbers",
   "stage": 1,
+  "order": 6,
   "params": {
     "max": 5
   },

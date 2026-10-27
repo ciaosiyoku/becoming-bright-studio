@@ -3,6 +3,7 @@
   "kind": "time-units",
   "subject": "numbers",
   "stage": 3,
+  "order": 17,
   "params": {},
   "emoji": "clock",
   "example": {

@@ -3,6 +3,7 @@
   "kind": "bigger",
   "subject": "numbers",
   "stage": 1,
+  "order": 10,
   "params": {
     "max": 20
   },

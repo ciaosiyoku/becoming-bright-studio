@@ -1,0 +1,94 @@
+{
+  "id": "prefixes",
+  "kind": "prefix",
+  "subject": "words",
+  "stage": 6,
+  "order": 17,
+  "only": "en",
+  "params": {
+    "pairs": [
+      [
+        "happy",
+        "unhappy"
+      ],
+      [
+        "kind",
+        "unkind"
+      ],
+      [
+        "tidy",
+        "untidy"
+      ],
+      [
+        "possible",
+        "impossible"
+      ],
+      [
+        "polite",
+        "impolite"
+      ],
+      [
+        "correct",
+        "incorrect"
+      ],
+      [
+        "visible",
+        "invisible"
+      ],
+      [
+        "agree",
+        "disagree"
+      ],
+      [
+        "honest",
+        "dishonest"
+      ],
+      [
+        "legal",
+        "illegal"
+      ],
+      [
+        "regular",
+        "irregular"
+      ],
+      [
+        "safe",
+        "unsafe"
+      ],
+      [
+        "patient",
+        "impatient"
+      ],
+      [
+        "obey",
+        "disobey"
+      ],
+      [
+        "complete",
+        "incomplete"
+      ]
+    ],
+    "prefixes": [
+      "un",
+      "dis",
+      "im",
+      "in",
+      "il",
+      "ir"
+    ]
+  },
+  "emoji": "key",
+  "example": {
+    "word": "happy",
+    "answer": "unhappy",
+    "prefix": "un"
+  },
+  "text": {
+    "en": {
+      "title": "Prefixes: un-, dis-, im-",
+      "teach": "A prefix at the start of a word can change what it means. un-, dis-, im-, in-, il- and ir- can all mean “not”: unhappy means not happy.",
+      "prompt": "Which word means \"not {word}\"?",
+      "reason": "“{answer}” means not {word}: here the prefix {prefix}- means “not”."
+    }
+  }
+}

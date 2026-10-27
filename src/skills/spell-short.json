@@ -1,0 +1,148 @@
+{
+  "id": "spell-short",
+  "kind": "spelling",
+  "subject": "words",
+  "stage": 2,
+  "order": 6,
+  "only": "en",
+  "params": {
+    "words": [
+      [
+        "fox",
+        "animal-fox"
+      ],
+      [
+        "owl",
+        "animal-owl"
+      ],
+      [
+        "lion",
+        "animal-lion"
+      ],
+      [
+        "panda",
+        "animal-panda"
+      ],
+      [
+        "koala",
+        "animal-koala"
+      ],
+      [
+        "bee",
+        "animal-honeybee"
+      ],
+      [
+        "frog",
+        "animal-frog"
+      ],
+      [
+        "bear",
+        "animal-bear"
+      ],
+      [
+        "tiger",
+        "animal-tiger"
+      ],
+      [
+        "zebra",
+        "animal-zebra"
+      ],
+      [
+        "whale",
+        "animal-spouting-whale"
+      ],
+      [
+        "snail",
+        "animal-snail"
+      ],
+      [
+        "crab",
+        "animal-crab"
+      ],
+      [
+        "horse",
+        "animal-horse"
+      ],
+      [
+        "cow",
+        "animal-cow"
+      ],
+      [
+        "hippo",
+        "animal-hippopotamus"
+      ],
+      [
+        "camel",
+        "animal-camel"
+      ],
+      [
+        "bat",
+        "animal-bat"
+      ],
+      [
+        "shark",
+        "animal-shark"
+      ],
+      [
+        "sloth",
+        "animal-sloth"
+      ],
+      [
+        "otter",
+        "animal-otter"
+      ],
+      [
+        "seal",
+        "animal-seal"
+      ],
+      [
+        "swan",
+        "animal-swan"
+      ],
+      [
+        "mouse",
+        "animal-mouse"
+      ],
+      [
+        "apple",
+        "fruit-apple"
+      ],
+      [
+        "pear",
+        "fruit-pear"
+      ],
+      [
+        "lemon",
+        "fruit-lemon"
+      ],
+      [
+        "kiwi",
+        "fruit-kiwi"
+      ],
+      [
+        "peach",
+        "fruit-peach"
+      ],
+      [
+        "mango",
+        "fruit-mango"
+      ]
+    ]
+  },
+  "emoji": "memo",
+  "example": {
+    "word": "frog",
+    "emoji": "animal-frog",
+    "answer": "frog",
+    "letters": "f-r-o-g"
+  },
+  "text": {
+    "en": {
+      "title": "Spelling short words",
+      "teach": "Say the word slowly, one sound at a time, and write a letter for each sound: f-r-o-g, frog.",
+      "prompt": "How do you spell the word for this picture?",
+      "reason": "{word} is spelt {letters}.",
+      "say": "How do you spell {word}?"
+    }
+  }
+}

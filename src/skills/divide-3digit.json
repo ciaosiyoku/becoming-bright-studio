@@ -3,6 +3,7 @@
   "kind": "divide",
   "subject": "numbers",
   "stage": 7,
+  "order": 30,
   "params": {
     "dMin": 3,
     "dMax": 9,

@@ -1,0 +1,131 @@
+{
+  "id": "plurals",
+  "kind": "plural",
+  "subject": "words",
+  "stage": 2,
+  "order": 7,
+  "only": "en",
+  "params": {
+    "pairs": [
+      [
+        "cat",
+        "cats"
+      ],
+      [
+        "dog",
+        "dogs"
+      ],
+      [
+        "fox",
+        "foxes"
+      ],
+      [
+        "bus",
+        "buses"
+      ],
+      [
+        "box",
+        "boxes"
+      ],
+      [
+        "dress",
+        "dresses"
+      ],
+      [
+        "brush",
+        "brushes"
+      ],
+      [
+        "peach",
+        "peaches"
+      ],
+      [
+        "baby",
+        "babies"
+      ],
+      [
+        "cherry",
+        "cherries"
+      ],
+      [
+        "toy",
+        "toys"
+      ],
+      [
+        "key",
+        "keys"
+      ],
+      [
+        "mouse",
+        "mice"
+      ],
+      [
+        "child",
+        "children"
+      ],
+      [
+        "foot",
+        "feet"
+      ],
+      [
+        "tooth",
+        "teeth"
+      ],
+      [
+        "man",
+        "men"
+      ],
+      [
+        "woman",
+        "women"
+      ],
+      [
+        "sheep",
+        "sheep"
+      ],
+      [
+        "leaf",
+        "leaves"
+      ],
+      [
+        "wolf",
+        "wolves"
+      ],
+      [
+        "knife",
+        "knives"
+      ],
+      [
+        "tomato",
+        "tomatoes"
+      ],
+      [
+        "potato",
+        "potatoes"
+      ]
+    ]
+  },
+  "emoji": "chick",
+  "example": {
+    "one": "fox",
+    "answer": "foxes",
+    "rule": "es"
+  },
+  "text": {
+    "en": {
+      "title": "Plurals: one and many",
+      "teach": "Most words add -s for more than one: one cat, two cats. Words ending in s, x, sh or ch add -es: one fox, two foxes. Some are special: one mouse, two mice.",
+      "prompt": "One {one}, two …?",
+      "reason": "",
+      "reasons": {
+        "s": "Most words just add -s: one {one}, two {answer}.",
+        "es": "Words ending in s, x, sh or ch add -es: one {one}, two {answer}.",
+        "o-es": "Some words ending in o add -es: one {one}, two {answer}.",
+        "ies": "A consonant and y at the end change to -ies: one {one}, two {answer}.",
+        "ves": "Some words ending in f or fe change to -ves: one {one}, two {answer}.",
+        "same": "Some words stay the same: one {one}, two {answer}.",
+        "special": "This one is special, to learn by heart: one {one}, two {answer}."
+      }
+    }
+  }
+}

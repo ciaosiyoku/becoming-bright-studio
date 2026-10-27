@@ -3,6 +3,7 @@
   "kind": "add",
   "subject": "numbers",
   "stage": 1,
+  "order": 7,
   "params": {
     "max": 10
   },

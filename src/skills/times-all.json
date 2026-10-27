@@ -3,6 +3,7 @@
   "kind": "times",
   "subject": "numbers",
   "stage": 4,
+  "order": 20,
   "params": {
     "tables": [
       2,

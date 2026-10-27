@@ -1,0 +1,134 @@
+{
+  "id": "past-tense",
+  "kind": "past",
+  "subject": "words",
+  "stage": 3,
+  "order": 9,
+  "only": "en",
+  "params": {
+    "pairs": [
+      [
+        "play",
+        "played"
+      ],
+      [
+        "jump",
+        "jumped"
+      ],
+      [
+        "walk",
+        "walked"
+      ],
+      [
+        "like",
+        "liked"
+      ],
+      [
+        "dance",
+        "danced"
+      ],
+      [
+        "hop",
+        "hopped"
+      ],
+      [
+        "stop",
+        "stopped"
+      ],
+      [
+        "cry",
+        "cried"
+      ],
+      [
+        "try",
+        "tried"
+      ],
+      [
+        "run",
+        "ran"
+      ],
+      [
+        "go",
+        "went"
+      ],
+      [
+        "see",
+        "saw"
+      ],
+      [
+        "eat",
+        "ate"
+      ],
+      [
+        "swim",
+        "swam"
+      ],
+      [
+        "sing",
+        "sang"
+      ],
+      [
+        "sit",
+        "sat"
+      ],
+      [
+        "make",
+        "made"
+      ],
+      [
+        "take",
+        "took"
+      ],
+      [
+        "write",
+        "wrote"
+      ],
+      [
+        "come",
+        "came"
+      ],
+      [
+        "have",
+        "had"
+      ],
+      [
+        "say",
+        "said"
+      ],
+      [
+        "find",
+        "found"
+      ],
+      [
+        "drink",
+        "drank"
+      ],
+      [
+        "fly",
+        "flew"
+      ]
+    ]
+  },
+  "emoji": "calendar",
+  "example": {
+    "now": "jump",
+    "answer": "jumped",
+    "rule": "ed"
+  },
+  "text": {
+    "en": {
+      "title": "The past tense",
+      "teach": "To talk about yesterday, most words add -ed: today I jump, yesterday I jumped. Some words change: today I run, yesterday I ran.",
+      "prompt": "Yesterday I ___ . ({now})",
+      "reason": "",
+      "say": "Yesterday I … what? Use the word {now}.",
+      "reasons": {
+        "ed": "Most words add -ed: {now} → {answer}.",
+        "d": "Words ending in e just add -d: {now} → {answer}.",
+        "double": "Short words like {now} double the last letter, then add -ed: {now} → {answer}.",
+        "ied": "A consonant and y change to -ied: {now} → {answer}.",
+        "special": "This one is special, to learn by heart: {now} → {answer}."
+      }
+    }
+  }
+}

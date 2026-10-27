@@ -3,6 +3,7 @@
   "kind": "add-sub-big",
   "subject": "numbers",
   "stage": 4,
+  "order": 21,
   "params": {},
   "emoji": "animal-elephant",
   "example": {

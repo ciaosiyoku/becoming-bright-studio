@@ -1,0 +1,240 @@
+{
+  "id": "spell-long",
+  "kind": "spelling",
+  "subject": "words",
+  "stage": 3,
+  "order": 8,
+  "only": "en",
+  "params": {
+    "words": [
+      [
+        "fox",
+        "animal-fox"
+      ],
+      [
+        "owl",
+        "animal-owl"
+      ],
+      [
+        "hedgehog",
+        "animal-hedgehog"
+      ],
+      [
+        "elephant",
+        "animal-elephant"
+      ],
+      [
+        "giraffe",
+        "animal-giraffe"
+      ],
+      [
+        "penguin",
+        "animal-penguin"
+      ],
+      [
+        "dolphin",
+        "animal-dolphin"
+      ],
+      [
+        "lion",
+        "animal-lion"
+      ],
+      [
+        "panda",
+        "animal-panda"
+      ],
+      [
+        "koala",
+        "animal-koala"
+      ],
+      [
+        "turtle",
+        "animal-turtle"
+      ],
+      [
+        "butterfly",
+        "animal-butterfly"
+      ],
+      [
+        "bee",
+        "animal-honeybee"
+      ],
+      [
+        "octopus",
+        "animal-octopus"
+      ],
+      [
+        "frog",
+        "animal-frog"
+      ],
+      [
+        "rabbit",
+        "animal-rabbit"
+      ],
+      [
+        "chipmunk",
+        "animal-chipmunk"
+      ],
+      [
+        "bear",
+        "animal-bear"
+      ],
+      [
+        "tiger",
+        "animal-tiger"
+      ],
+      [
+        "zebra",
+        "animal-zebra"
+      ],
+      [
+        "kangaroo",
+        "animal-kangaroo"
+      ],
+      [
+        "whale",
+        "animal-spouting-whale"
+      ],
+      [
+        "parrot",
+        "animal-parrot"
+      ],
+      [
+        "flamingo",
+        "animal-flamingo"
+      ],
+      [
+        "snail",
+        "animal-snail"
+      ],
+      [
+        "ladybird",
+        "animal-lady-beetle"
+      ],
+      [
+        "crab",
+        "animal-crab"
+      ],
+      [
+        "horse",
+        "animal-horse"
+      ],
+      [
+        "cow",
+        "animal-cow"
+      ],
+      [
+        "hippo",
+        "animal-hippopotamus"
+      ],
+      [
+        "camel",
+        "animal-camel"
+      ],
+      [
+        "bat",
+        "animal-bat"
+      ],
+      [
+        "peacock",
+        "animal-peacock"
+      ],
+      [
+        "shark",
+        "animal-shark"
+      ],
+      [
+        "sloth",
+        "animal-sloth"
+      ],
+      [
+        "otter",
+        "animal-otter"
+      ],
+      [
+        "beaver",
+        "animal-beaver"
+      ],
+      [
+        "seal",
+        "animal-seal"
+      ],
+      [
+        "swan",
+        "animal-swan"
+      ],
+      [
+        "mouse",
+        "animal-mouse"
+      ],
+      [
+        "apple",
+        "fruit-apple"
+      ],
+      [
+        "banana",
+        "fruit-banana"
+      ],
+      [
+        "grapes",
+        "fruit-grapes"
+      ],
+      [
+        "strawberry",
+        "fruit-strawberry"
+      ],
+      [
+        "cherries",
+        "fruit-cherries"
+      ],
+      [
+        "watermelon",
+        "fruit-watermelon"
+      ],
+      [
+        "pear",
+        "fruit-pear"
+      ],
+      [
+        "pineapple",
+        "fruit-pineapple"
+      ],
+      [
+        "lemon",
+        "fruit-lemon"
+      ],
+      [
+        "kiwi",
+        "fruit-kiwi"
+      ],
+      [
+        "peach",
+        "fruit-peach"
+      ],
+      [
+        "mango",
+        "fruit-mango"
+      ],
+      [
+        "coconut",
+        "fruit-coconut"
+      ]
+    ]
+  },
+  "emoji": "memo",
+  "example": {
+    "word": "elephant",
+    "emoji": "animal-elephant",
+    "answer": "elephant",
+    "letters": "e-l-e-p-h-a-n-t"
+  },
+  "text": {
+    "en": {
+      "title": "Spelling longer words",
+      "teach": "Break a long word into parts, and spell one part at a time: el-e-phant: e-l-e-p-h-a-n-t.",
+      "prompt": "How do you spell the word for this picture?",
+      "reason": "{word} is spelt {letters}.",
+      "say": "How do you spell {word}?"
+    }
+  }
+}

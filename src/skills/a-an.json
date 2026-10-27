@@ -3,6 +3,7 @@
   "kind": "a-an",
   "subject": "words",
   "stage": 2,
+  "order": 5,
   "only": "en",
   "params": {
     "words": [

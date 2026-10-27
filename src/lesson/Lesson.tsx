@@ -169,7 +169,7 @@ function Result({ skill, checks, onClose, onGame }: { skill: string; checks: Che
   const upcoming = nextSkill(
     activeChild(state)!,
     bySubject(def.subject)
-      .filter((s) => s.stage >= def.stage && s.id !== def.id)
+      .filter((s) => s.order > def.order)
       .map((s) => s.id),
   )
   const upcomingDef = upcoming ? skillById(upcoming) : undefined

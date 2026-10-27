@@ -2,14 +2,14 @@ import type { Lang } from '@/i18n'
 import type { Item, SkillDef, SkillText, Subject } from './types'
 
 // Every skill, one JSON file each. The child chooses which one to learn; the home screen groups them by subject
-// and orders them by stage (bySubject).
+// in teaching order (bySubject).
 
 /** Every skill: each JSON file in this folder. */
 export const SKILLS: SkillDef[] = Object.values(import.meta.glob<SkillDef>('./*.json', { eager: true, import: 'default' }))
 
-/** The subjects in home-screen order, each with its skills from the easiest stage up. */
+/** The subjects in home-screen order, each with its skills in teaching order. */
 export const SUBJECTS: Subject[] = ['numbers', 'words', 'patterns']
-export const bySubject = (subject: Subject) => SKILLS.filter((s) => s.subject === subject).sort((a, b) => a.stage - b.stage)
+export const bySubject = (subject: Subject) => SKILLS.filter((s) => s.subject === subject).sort((a, b) => a.order - b.order)
 
 export const skillById = (id: string): SkillDef | undefined => SKILLS.find((s) => s.id === id)
 

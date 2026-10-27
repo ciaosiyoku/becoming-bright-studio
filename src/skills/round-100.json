@@ -3,6 +3,7 @@
   "kind": "round",
   "subject": "numbers",
   "stage": 4,
+  "order": 22,
   "params": {
     "to": 100
   },

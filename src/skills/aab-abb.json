@@ -3,6 +3,7 @@
   "kind": "picture-pattern",
   "subject": "patterns",
   "stage": 1,
+  "order": 2,
   "params": {
     "rules": [
       "AAB",

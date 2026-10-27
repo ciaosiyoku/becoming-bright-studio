@@ -3,6 +3,7 @@
   "kind": "multiply",
   "subject": "numbers",
   "stage": 7,
+  "order": 29,
   "params": {
     "aMin": 12,
     "aMax": 49,

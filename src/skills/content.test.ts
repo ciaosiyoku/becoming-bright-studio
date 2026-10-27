@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { LANGS } from '@/i18n'
-import { makeItem, seeded, teachCard } from './generate'
+import { exampleItem, makeItem, seeded, teachCard } from './generate'
 import { itemWords, SKILLS, skillLang } from './index'
 import type { Item, SkillDef } from './types'
 
@@ -104,6 +104,52 @@ function problem(def: SkillDef, item: Item): string | null {
     }
     case 'square':
       return onlyOne((l) => Number(l) === Number(v.n) ** 2) ? null : 'wrong square'
+    case 'match-word':
+      return onlyOne((l) => l === v.word) ? null : `wrong word for ${v.word}`
+    case 'missing-letter': {
+      const common = new Set(String(def.params.common).split(' '))
+      const fits = (l: string) => String(v.gap).replace('_', l) === v.word
+      const makesWord = labels.some((l) => !fits(l) && common.has(String(v.gap).replace('_', l)))
+      return onlyOne(fits) && !makesWord ? null : `wrong missing letter in ${v.gap}`
+    }
+    case 'spelling':
+      return onlyOne((l) => l === v.word) ? null : `wrong spelling of ${v.word}`
+    case 'plural':
+    case 'past':
+    case 'contraction': {
+      const key = new Map(def.params.pairs as [string, string][])
+      const asked = String(v.one ?? v.now ?? v.long)
+      return onlyOne((l) => l === key.get(asked)) ? null : `wrong form of ${asked}`
+    }
+    case 'comparison': {
+      const triple = (def.params.triples as string[][]).find((t) => t[0] === v.word)!
+      return onlyOne((l) => l === triple[2]) ? null : `wrong comparison of ${v.word}`
+    }
+    case 'opposite':
+    case 'synonym': {
+      // The right word is the word's partner; no wrong word is a partner of the word.
+      const partners = (def.params.pairs as string[][]).filter((p) => p.includes(String(v.word))).flatMap((p) => p.filter((w) => w !== v.word))
+      return onlyOne((l) => partners.includes(l)) ? null : `wrong partner of ${v.word}`
+    }
+    case 'alphabet': {
+      const firsts = labels.map((l) => l[0])
+      return new Set(firsts).size === labels.length && onlyOne((l) => l === [...labels].sort()[0]) ? null : 'wrong first word'
+    }
+    case 'homophone': {
+      const h = (def.params.sentences as { sentence: string; right: string }[]).find((x) => x.sentence === v.sentence)!
+      return onlyOne((l) => l === h.right) ? null : `wrong word for: ${v.sentence}`
+    }
+    case 'word-class': {
+      const classes = def.params.classes as Record<string, string[]>
+      const inClass = (w: string) => Object.keys(classes).filter((k) => classes[k].includes(w))
+      return labels.every((l) => inClass(l).length === 1) && onlyOne((l) => inClass(l)[0] === v.kind) ? null : `wrong ${v.kind}`
+    }
+    case 'prefix': {
+      const key = new Map(def.params.pairs as [string, string][])
+      return onlyOne((l) => l === key.get(String(v.word))) ? null : `wrong "not ${v.word}"`
+    }
+    default:
+      return `no check for ${def.kind}`
   }
 }
 
@@ -119,6 +165,13 @@ describe('every question has exactly one right answer, and it is true', () => {
       }
       expect([...problems].slice(0, 5)).toEqual([])
     })
+  }
+})
+
+describe('every teach card shows a true example', () => {
+  for (const def of SKILLS) {
+    const item = exampleItem(def)
+    if (item) it(def.id, () => expect(problem(def, item)).toBeNull())
   }
 })
 
@@ -168,7 +221,11 @@ describe('pictures', () => {
 describe('the skill list', () => {
   it('has skills with different ids, each with a subject, a stage and a teach card', () => {
     expect(new Set(SKILLS.map((s) => s.id)).size).toBe(SKILLS.length)
-    for (const def of SKILLS) expect(['numbers', 'words', 'patterns'].includes(def.subject) && def.stage >= 0 && def.stage <= 7, def.id).toBe(true)
+    for (const def of SKILLS) expect(['numbers', 'words', 'patterns'].includes(def.subject) && def.stage >= 0 && def.stage <= 7 && def.order > 0, def.id).toBe(true)
+    for (const subject of ['numbers', 'words', 'patterns']) {
+      const orders = SKILLS.filter((s) => s.subject === subject).map((s) => s.order)
+      expect(new Set(orders).size, `${subject}: each order once`).toBe(orders.length)
+    }
     for (const def of SKILLS) expect(teachCard(def).visual, def.id).toBeDefined()
   })
 })

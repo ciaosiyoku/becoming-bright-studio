@@ -3,6 +3,7 @@
   "kind": "percent",
   "subject": "numbers",
   "stage": 7,
+  "order": 31,
   "params": {
     "percents": [
       5,

@@ -3,6 +3,7 @@
   "kind": "picture-pattern",
   "subject": "patterns",
   "stage": 0,
+  "order": 1,
   "params": {
     "rules": [
       "AB"
@@ -31,25 +32,25 @@
   "text": {
     "en": {
       "title": "Picture patterns: AB",
-      "teach": "In a pattern, the same pictures come again and again: star, heart, star, heart … After a heart comes a star again.",
+      "teach": "In a pattern, the same pictures come again and again: star, heart, star, heart, star … After a star comes a heart.",
       "prompt": "What comes next?",
       "reason": "The pattern repeats every {unit} pictures, so the next one is the picture {unit} back."
     },
     "de": {
       "title": "Bildermuster: AB",
-      "teach": "In einem Muster kommen dieselben Bilder immer wieder: Stern, Herz, Stern, Herz … Nach dem Herz kommt wieder ein Stern.",
+      "teach": "In einem Muster kommen dieselben Bilder immer wieder: Stern, Herz, Stern, Herz, Stern … Nach dem Stern kommt ein Herz.",
       "prompt": "Was kommt als Nächstes?",
       "reason": "Das Muster wiederholt sich alle {unit} Bilder, also ist das nächste Bild das, das {unit} Bilder davor steht."
     },
     "fr": {
       "title": "Suites d’images : AB",
-      "teach": "Dans une suite, les mêmes images reviennent encore et encore : étoile, cœur, étoile, cœur… Après le cœur revient l’étoile.",
+      "teach": "Dans une suite, les mêmes images reviennent encore et encore : étoile, cœur, étoile, cœur, étoile… Après l’étoile vient le cœur.",
       "prompt": "Qu’est-ce qui vient ensuite ?",
       "reason": "Le motif se répète toutes les {unit} images : l’image suivante est celle qui se trouve {unit} images avant."
     },
     "yo": {
       "title": "Àpẹẹrẹ àwòrán: AB",
-      "teach": "Nínú àpẹẹrẹ, àwọn àwòrán kan náà ń padà wá léraléra: ìràwọ̀, ọkàn, ìràwọ̀, ọkàn … Lẹ́yìn ọkàn, ìràwọ̀ tún ń bọ̀.",
+      "teach": "Nínú àpẹẹrẹ, àwọn àwòrán kan náà ń padà wá léraléra: ìràwọ̀, ọkàn, ìràwọ̀, ọkàn, ìràwọ̀ … Lẹ́yìn ìràwọ̀, ọkàn ló ń bọ̀.",
       "prompt": "Kí ló kàn?",
       "reason": "Àpẹẹrẹ náà ń tún ara rẹ̀ ṣe ní àwòrán {unit} {unit}, nítorí náà àwòrán tó kàn ni èyí tó wà ní àwòrán {unit} sẹ́yìn."
     }

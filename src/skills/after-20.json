@@ -3,6 +3,7 @@
   "kind": "neighbour",
   "subject": "numbers",
   "stage": 1,
+  "order": 9,
   "params": {
     "max": 20
   },

@@ -1,0 +1,194 @@
+{
+  "id": "homophones",
+  "kind": "homophone",
+  "subject": "words",
+  "stage": 5,
+  "order": 15,
+  "only": "en",
+  "params": {
+    "sentences": [
+      {
+        "sentence": "I can ___ the birds singing.",
+        "right": "hear",
+        "set": [
+          "hear",
+          "here"
+        ]
+      },
+      {
+        "sentence": "Come over ___ and sit down.",
+        "right": "here",
+        "set": [
+          "here",
+          "hear"
+        ]
+      },
+      {
+        "sentence": "The children hung up ___ coats.",
+        "right": "their",
+        "set": [
+          "their",
+          "there",
+          "they're"
+        ]
+      },
+      {
+        "sentence": "Look over ___, by the tree!",
+        "right": "there",
+        "set": [
+          "there",
+          "their",
+          "they're"
+        ]
+      },
+      {
+        "sentence": "___ going to the park today.",
+        "right": "They're",
+        "set": [
+          "They're",
+          "Their",
+          "There"
+        ]
+      },
+      {
+        "sentence": "I have ___ hands.",
+        "right": "two",
+        "set": [
+          "two",
+          "to",
+          "too"
+        ]
+      },
+      {
+        "sentence": "We walked ___ school.",
+        "right": "to",
+        "set": [
+          "to",
+          "two",
+          "too"
+        ]
+      },
+      {
+        "sentence": "This soup is ___ hot to eat.",
+        "right": "too",
+        "set": [
+          "too",
+          "to",
+          "two"
+        ]
+      },
+      {
+        "sentence": "The ___ is shining in the sky.",
+        "right": "sun",
+        "set": [
+          "sun",
+          "son"
+        ]
+      },
+      {
+        "sentence": "Please ___ your name on the page.",
+        "right": "write",
+        "set": [
+          "write",
+          "right"
+        ]
+      },
+      {
+        "sentence": "Turn ___ at the corner.",
+        "right": "right",
+        "set": [
+          "right",
+          "write"
+        ]
+      },
+      {
+        "sentence": "Do you ___ the answer?",
+        "right": "know",
+        "set": [
+          "know",
+          "no"
+        ]
+      },
+      {
+        "sentence": "We swam in the ___.",
+        "right": "sea",
+        "set": [
+          "sea",
+          "see"
+        ]
+      },
+      {
+        "sentence": "I can ___ a rainbow!",
+        "right": "see",
+        "set": [
+          "see",
+          "sea"
+        ]
+      },
+      {
+        "sentence": "There are seven days in a ___.",
+        "right": "week",
+        "set": [
+          "week",
+          "weak"
+        ]
+      },
+      {
+        "sentence": "Yesterday I ___ a big sandwich.",
+        "right": "ate",
+        "set": [
+          "ate",
+          "eight"
+        ]
+      },
+      {
+        "sentence": "A spider has ___ legs.",
+        "right": "eight",
+        "set": [
+          "eight",
+          "ate"
+        ]
+      },
+      {
+        "sentence": "The owl hoots at ___.",
+        "right": "night",
+        "set": [
+          "night",
+          "knight"
+        ]
+      },
+      {
+        "sentence": "The wind ___ the leaves away.",
+        "right": "blew",
+        "set": [
+          "blew",
+          "blue"
+        ]
+      },
+      {
+        "sentence": "The sky is ___ today.",
+        "right": "blue",
+        "set": [
+          "blue",
+          "blew"
+        ]
+      }
+    ]
+  },
+  "emoji": "speech",
+  "example": {
+    "sentence": "I can ___ the birds singing.",
+    "answer": "hear",
+    "set": "hear|here",
+    "full": "I can hear the birds singing."
+  },
+  "text": {
+    "en": {
+      "title": "Words that sound the same (hear, here)",
+      "teach": "Some words sound the same but are spelt differently and mean different things: hear (with your ears) and here (this place). I can hear the birds singing.",
+      "prompt": "Which word fits?",
+      "reason": "They sound the same, but here it is “{answer}”: {full}",
+      "say": "Which word fits? {full}"
+    }
+  }
+}

@@ -1,6 +1,7 @@
-import { CALC, type CalcKind } from './numbers'
+import { type Calc, CALC, type CalcKind } from './numbers'
 import { int, numberChoices, pick, seeded, shuffled, withAnswer } from './random'
 import type { GeneratorKind, Item, Random, SkillDef } from './types'
+import { WORD_CALC, type WordKind } from './words'
 
 export { int, pick, seeded, shuffled, withAnswer } from './random'
 
@@ -15,7 +16,7 @@ const num = (def: SkillDef, key: string) => Number(def.params[key])
 const words = (def: SkillDef) => def.params.words as Word[]
 const seq = (n: number) => Array.from({ length: n }, (_, i) => i + 1).join(', ')
 
-const MAKERS: Record<Exclude<GeneratorKind, CalcKind>, Maker> = {
+const MAKERS: Record<Exclude<GeneratorKind, CalcKind | WordKind>, Maker> = {
   // How many pictures? (params: min, max, emojis)
   count: (def, r) => {
     const n = int(r, num(def, 'min'), num(def, 'max'))
@@ -85,7 +86,7 @@ const ex = (def: SkillDef, key: string) => def.example[key]
 const exNum = (def: SkillDef, key: string) => Number(def.example[key])
 
 /** What the teach card shows, from the skill's fixed example. */
-const TEACH: Record<Exclude<GeneratorKind, CalcKind>, Teach> = {
+const TEACH: Record<Exclude<GeneratorKind, CalcKind | WordKind>, Teach> = {
   count: (def) => ({ visual: { kind: 'count', emoji: String(ex(def, 'thing')), n: exNum(def, 'answer') } }),
   add: (def) => ({ visual: { kind: 'sum', text: `${exNum(def, 'a')} + ${exNum(def, 'b')} = ${exNum(def, 'answer')}` }, line: { max: 10, from: exNum(def, 'a'), by: exNum(def, 'b') } }),
   subtract: (def) => ({ visual: { kind: 'sum', text: `${exNum(def, 'a')} − ${exNum(def, 'b')} = ${exNum(def, 'answer')}` }, line: { max: 10, from: exNum(def, 'a'), by: -exNum(def, 'b') } }),
@@ -97,7 +98,9 @@ const TEACH: Record<Exclude<GeneratorKind, CalcKind>, Teach> = {
   rhyme: (def) => ({ visual: { kind: 'pair', a: { emoji: String(ex(def, 'emoji')), word: String(ex(def, 'word')) }, b: { emoji: String(ex(def, 'answerEmoji')), word: String(ex(def, 'answer')) } } }),
 }
 
-const isCalc = (kind: GeneratorKind): kind is CalcKind => kind in CALC
+/** The kinds made of a picker and a builder: the number and pattern skills, and the English word skills. */
+const BUILT: Record<CalcKind | WordKind, Calc> = { ...CALC, ...WORD_CALC }
+const isCalc = (kind: GeneratorKind): kind is CalcKind | WordKind => kind in BUILT
 
 /** A sum shown with its answer: "34 ≈ ?" → "34 ≈ 30", "8 × 7" → "8 × 7 = 56". A lone number or a picture stays. */
 function solved(visual: Item['visual'], answer: string | number): Item['visual'] {
@@ -107,18 +110,24 @@ function solved(visual: Item['visual'], answer: string | number): Item['visual']
   return /[+−×÷²%·]/.test(visual.text) ? { kind: 'sum', text: `${visual.text} = ${answer}` } : visual
 }
 
+/** A built skill's teach example as a full question (for the content test: its answer must be right), else null. */
+export function exampleItem(def: SkillDef): Item | null {
+  if (!isCalc(def.kind)) return null
+  return { values: def.example, ...BUILT[def.kind].build(def, def.example, seeded(1)) }
+}
+
 /** The teach card's picture and number line, and its values for the sentence. */
 export function teachCard(def: SkillDef): Pick<Item, 'visual' | 'line' | 'values'> {
   if (!isCalc(def.kind)) return { ...TEACH[def.kind](def), values: def.example }
-  // A number skill's card is its question built from the fixed example, with the answer filled in.
-  const { visual, line } = CALC[def.kind].build(def, def.example, seeded(1))
+  // A built skill's card is its question made from the fixed example, with the answer filled in.
+  const { visual, line } = BUILT[def.kind].build(def, def.example, seeded(1))
   return { visual: solved(visual, def.example.answer), line, values: def.example }
 }
 
 /** A fresh question for a skill. */
 export function makeItem(def: SkillDef, r: Random = Math.random): Item {
   if (!isCalc(def.kind)) return MAKERS[def.kind](def, r)
-  const calc = CALC[def.kind]
+  const calc = BUILT[def.kind]
   const values = calc.pick(def, r)
   return { values, ...calc.build(def, values, r) }
 }

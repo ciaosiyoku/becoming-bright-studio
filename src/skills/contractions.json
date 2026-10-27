@@ -1,0 +1,85 @@
+{
+  "id": "contractions",
+  "kind": "contraction",
+  "subject": "words",
+  "stage": 4,
+  "order": 12,
+  "only": "en",
+  "params": {
+    "pairs": [
+      [
+        "do not",
+        "don't"
+      ],
+      [
+        "is not",
+        "isn't"
+      ],
+      [
+        "I am",
+        "I'm"
+      ],
+      [
+        "you are",
+        "you're"
+      ],
+      [
+        "are not",
+        "aren't"
+      ],
+      [
+        "did not",
+        "didn't"
+      ],
+      [
+        "was not",
+        "wasn't"
+      ],
+      [
+        "have not",
+        "haven't"
+      ],
+      [
+        "we have",
+        "we've"
+      ],
+      [
+        "has not",
+        "hasn't"
+      ],
+      [
+        "would not",
+        "wouldn't"
+      ],
+      [
+        "they are",
+        "they're"
+      ],
+      [
+        "she is",
+        "she's"
+      ],
+      [
+        "does not",
+        "doesn't"
+      ],
+      [
+        "could not",
+        "couldn't"
+      ]
+    ]
+  },
+  "emoji": "speech",
+  "example": {
+    "long": "do not",
+    "answer": "don't"
+  },
+  "text": {
+    "en": {
+      "title": "Short forms (don't, isn't)",
+      "teach": "A short form joins two words, and an apostrophe takes the place of the letters left out: do not → don't.",
+      "prompt": "What is the short form of \"{long}\"?",
+      "reason": "The apostrophe goes where letters are left out: {long} → {answer}."
+    }
+  }
+}

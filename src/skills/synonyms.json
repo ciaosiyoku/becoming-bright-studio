@@ -1,0 +1,85 @@
+{
+  "id": "synonyms",
+  "kind": "synonym",
+  "subject": "words",
+  "stage": 5,
+  "order": 14,
+  "only": "en",
+  "params": {
+    "pairs": [
+      [
+        "big",
+        "large"
+      ],
+      [
+        "little",
+        "small"
+      ],
+      [
+        "glad",
+        "happy"
+      ],
+      [
+        "quick",
+        "fast"
+      ],
+      [
+        "begin",
+        "start"
+      ],
+      [
+        "finish",
+        "end"
+      ],
+      [
+        "shout",
+        "yell"
+      ],
+      [
+        "clever",
+        "smart"
+      ],
+      [
+        "afraid",
+        "scared"
+      ],
+      [
+        "sleepy",
+        "tired"
+      ],
+      [
+        "silent",
+        "quiet"
+      ],
+      [
+        "beautiful",
+        "pretty"
+      ],
+      [
+        "below",
+        "under"
+      ],
+      [
+        "gift",
+        "present"
+      ],
+      [
+        "rich",
+        "wealthy"
+      ]
+    ]
+  },
+  "emoji": "books",
+  "example": {
+    "word": "big",
+    "answer": "large"
+  },
+  "text": {
+    "en": {
+      "title": "Words that mean almost the same",
+      "teach": "Some words mean almost the same, so we can use one instead of the other: big and large, quick and fast.",
+      "prompt": "Which word means almost the same as \"{word}\"?",
+      "reason": "“{word}” and “{answer}” mean almost the same."
+    }
+  }
+}

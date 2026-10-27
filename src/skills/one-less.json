@@ -3,6 +3,7 @@
   "kind": "one-less",
   "subject": "numbers",
   "stage": 1,
+  "order": 5,
   "params": {
     "max": 10
   },

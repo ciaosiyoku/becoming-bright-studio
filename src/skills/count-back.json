@@ -3,6 +3,7 @@
   "kind": "sequence",
   "subject": "patterns",
   "stage": 3,
+  "order": 6,
   "params": {
     "steps": [
       -1,

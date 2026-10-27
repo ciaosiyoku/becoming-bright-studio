@@ -267,3 +267,11 @@ button.round {
   height: 1.8rem;
   font-size: 1rem;
 }
+.sum.big.long {
+  font-size: 2.4rem;
+  max-width: 40rem;
+  text-align: center;
+}
+.memory-card .sum.long {
+  font-size: 0.9rem;
+}

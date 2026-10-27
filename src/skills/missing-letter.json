@@ -1,0 +1,150 @@
+{
+  "id": "missing-letter",
+  "kind": "missing-letter",
+  "subject": "words",
+  "stage": 1,
+  "order": 4,
+  "only": "en",
+  "params": {
+    "words": [
+      [
+        "fox",
+        "animal-fox"
+      ],
+      [
+        "owl",
+        "animal-owl"
+      ],
+      [
+        "lion",
+        "animal-lion"
+      ],
+      [
+        "panda",
+        "animal-panda"
+      ],
+      [
+        "koala",
+        "animal-koala"
+      ],
+      [
+        "bee",
+        "animal-honeybee"
+      ],
+      [
+        "frog",
+        "animal-frog"
+      ],
+      [
+        "bear",
+        "animal-bear"
+      ],
+      [
+        "tiger",
+        "animal-tiger"
+      ],
+      [
+        "zebra",
+        "animal-zebra"
+      ],
+      [
+        "whale",
+        "animal-spouting-whale"
+      ],
+      [
+        "snail",
+        "animal-snail"
+      ],
+      [
+        "crab",
+        "animal-crab"
+      ],
+      [
+        "horse",
+        "animal-horse"
+      ],
+      [
+        "cow",
+        "animal-cow"
+      ],
+      [
+        "hippo",
+        "animal-hippopotamus"
+      ],
+      [
+        "camel",
+        "animal-camel"
+      ],
+      [
+        "bat",
+        "animal-bat"
+      ],
+      [
+        "shark",
+        "animal-shark"
+      ],
+      [
+        "sloth",
+        "animal-sloth"
+      ],
+      [
+        "otter",
+        "animal-otter"
+      ],
+      [
+        "seal",
+        "animal-seal"
+      ],
+      [
+        "swan",
+        "animal-swan"
+      ],
+      [
+        "mouse",
+        "animal-mouse"
+      ],
+      [
+        "apple",
+        "fruit-apple"
+      ],
+      [
+        "pear",
+        "fruit-pear"
+      ],
+      [
+        "lemon",
+        "fruit-lemon"
+      ],
+      [
+        "kiwi",
+        "fruit-kiwi"
+      ],
+      [
+        "peach",
+        "fruit-peach"
+      ],
+      [
+        "mango",
+        "fruit-mango"
+      ]
+    ],
+    "common": "bad bag ban bar bash bat bean bear bed bee beer beg bet bid big bin bit boar bog bowl box bud bug bun bus bush but cab can cap car cash cat coal cool cot cow crab cram crib cub cup cut dad dear deer den did die dig dim dip dish dog door dot dug ear eat egg end fan far fat fax fear fed fig fin fish fit fix foal fog four fox frog from fun fur gap gas gear get goal got grab gum gun had ham hare has hat hen her here hid him hip hire his hit hog hole hop hot howl hug hut jam jar jet jog jug kid kit lamp lap leg let lid lie limp lion lip lit log loin lot lump mad male man map mare mash mat men met mile mire mix mole mop more mud mug mule nap near net nod not nut owl owls pan pat pear peer peg pen pet pie pier pig pin pit poor pot pub pup rag ram ran rat red rib rid rim rip rob rod rot row rub rug run sad sail sat seal sell set sit six sob soil sow sun tab tag tan tap ten tie tin tip toe ton top tour tow tub tug van vet wag web wet wig win wish wit yes yet zip"
+  },
+  "emoji": "letters",
+  "example": {
+    "word": "fox",
+    "emoji": "animal-fox",
+    "gap": "f_x",
+    "at": 1,
+    "answer": "o"
+  },
+  "text": {
+    "en": {
+      "title": "Sounding out: the missing letter",
+      "teach": "Say the word slowly and listen to each sound: f-o-x. The sound missing in f_x is o.",
+      "prompt": "Which letter is missing? {gap}",
+      "reason": "Say it slowly: {word}. The missing letter is {answer}.",
+      "say": "Which letter is missing in {word}?"
+    }
+  }
+}

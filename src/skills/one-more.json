@@ -3,6 +3,7 @@
   "kind": "one-more",
   "subject": "numbers",
   "stage": 1,
+  "order": 4,
   "params": {
     "max": 10
   },

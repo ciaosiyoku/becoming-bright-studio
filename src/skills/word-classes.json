@@ -1,0 +1,72 @@
+{
+  "id": "word-classes",
+  "kind": "word-class",
+  "subject": "words",
+  "stage": 6,
+  "order": 16,
+  "only": "en",
+  "params": {
+    "classes": {
+      "noun": [
+        "banana",
+        "river",
+        "teacher",
+        "apple",
+        "city",
+        "window",
+        "library",
+        "mountain",
+        "kitchen",
+        "elephant"
+      ],
+      "verb": [
+        "write",
+        "decide",
+        "borrow",
+        "eat",
+        "explain",
+        "forget",
+        "choose",
+        "bring",
+        "sing",
+        "arrive"
+      ],
+      "adjective": [
+        "happy",
+        "tall",
+        "soft",
+        "noisy",
+        "heavy",
+        "careful",
+        "hungry",
+        "beautiful",
+        "tiny",
+        "friendly"
+      ]
+    }
+  },
+  "emoji": "books",
+  "example": {
+    "answer": "apple",
+    "rule": "noun",
+    "kind": "noun"
+  },
+  "text": {
+    "en": {
+      "title": "Nouns, verbs and adjectives",
+      "teach": "A noun names a person, a place or a thing (apple). A verb is a doing word (eat). An adjective describes something (tiny).",
+      "prompt": "Which word is a noun?",
+      "reason": "",
+      "prompts": {
+        "noun": "Which word is a noun?",
+        "verb": "Which word is a verb?",
+        "adjective": "Which word is an adjective?"
+      },
+      "reasons": {
+        "noun": "A noun names a person, a place or a thing: {answer}.",
+        "verb": "A verb is a doing word: {answer}.",
+        "adjective": "An adjective describes something: {answer}."
+      }
+    }
+  }
+}

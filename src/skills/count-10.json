@@ -3,6 +3,7 @@
   "kind": "count",
   "subject": "numbers",
   "stage": 0,
+  "order": 2,
   "params": {
     "min": 5,
     "max": 10,

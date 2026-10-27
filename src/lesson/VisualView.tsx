@@ -3,7 +3,8 @@ import type { Visual } from '@/skills/types'
 
 /** What a question or teach card shows: pictures to count, a sum, one picture (with its word or without), or two. */
 export function VisualView({ visual, big = false }: { visual: Visual; big?: boolean }) {
-  if (visual.kind === 'sum') return <span className={big ? 'sum big' : 'sum'}>{visual.text}</span>
+  // A sentence (homophones) is shown smaller than a sum, so it fits.
+  if (visual.kind === 'sum') return <span className={`sum ${big ? 'big' : ''} ${visual.text.length > 16 ? 'long' : ''}`}>{visual.text}</span>
   if (visual.kind === 'count')
     return (
       <span className="count">

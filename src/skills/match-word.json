@@ -1,0 +1,170 @@
+{
+  "id": "match-word",
+  "kind": "match-word",
+  "subject": "words",
+  "stage": 1,
+  "order": 3,
+  "only": "en",
+  "params": {
+    "words": [
+      [
+        "fox",
+        "animal-fox"
+      ],
+      [
+        "owl",
+        "animal-owl"
+      ],
+      [
+        "lion",
+        "animal-lion"
+      ],
+      [
+        "panda",
+        "animal-panda"
+      ],
+      [
+        "koala",
+        "animal-koala"
+      ],
+      [
+        "turtle",
+        "animal-turtle"
+      ],
+      [
+        "bee",
+        "animal-honeybee"
+      ],
+      [
+        "frog",
+        "animal-frog"
+      ],
+      [
+        "rabbit",
+        "animal-rabbit"
+      ],
+      [
+        "bear",
+        "animal-bear"
+      ],
+      [
+        "tiger",
+        "animal-tiger"
+      ],
+      [
+        "zebra",
+        "animal-zebra"
+      ],
+      [
+        "whale",
+        "animal-spouting-whale"
+      ],
+      [
+        "parrot",
+        "animal-parrot"
+      ],
+      [
+        "snail",
+        "animal-snail"
+      ],
+      [
+        "crab",
+        "animal-crab"
+      ],
+      [
+        "horse",
+        "animal-horse"
+      ],
+      [
+        "cow",
+        "animal-cow"
+      ],
+      [
+        "hippo",
+        "animal-hippopotamus"
+      ],
+      [
+        "camel",
+        "animal-camel"
+      ],
+      [
+        "bat",
+        "animal-bat"
+      ],
+      [
+        "shark",
+        "animal-shark"
+      ],
+      [
+        "sloth",
+        "animal-sloth"
+      ],
+      [
+        "otter",
+        "animal-otter"
+      ],
+      [
+        "beaver",
+        "animal-beaver"
+      ],
+      [
+        "seal",
+        "animal-seal"
+      ],
+      [
+        "swan",
+        "animal-swan"
+      ],
+      [
+        "mouse",
+        "animal-mouse"
+      ],
+      [
+        "apple",
+        "fruit-apple"
+      ],
+      [
+        "banana",
+        "fruit-banana"
+      ],
+      [
+        "grapes",
+        "fruit-grapes"
+      ],
+      [
+        "pear",
+        "fruit-pear"
+      ],
+      [
+        "lemon",
+        "fruit-lemon"
+      ],
+      [
+        "kiwi",
+        "fruit-kiwi"
+      ],
+      [
+        "peach",
+        "fruit-peach"
+      ],
+      [
+        "mango",
+        "fruit-mango"
+      ]
+    ]
+  },
+  "emoji": "books",
+  "example": {
+    "word": "fox",
+    "emoji": "animal-fox",
+    "answer": "fox"
+  },
+  "text": {
+    "en": {
+      "title": "Reading short words",
+      "teach": "Look at the picture and say its name. Then find the word that starts with the same sound: this is a fox, and fox starts with f.",
+      "prompt": "Which word goes with the picture?",
+      "reason": "The picture is a {word}: say it slowly, then look for the word that starts with the same sound."
+    }
+  }
+}

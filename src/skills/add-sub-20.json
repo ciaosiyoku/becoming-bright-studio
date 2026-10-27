@@ -3,6 +3,7 @@
   "kind": "add-sub",
   "subject": "numbers",
   "stage": 2,
+  "order": 11,
   "params": {
     "max": 20,
     "minB": 3

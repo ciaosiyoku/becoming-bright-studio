@@ -3,6 +3,7 @@
   "kind": "place-value",
   "subject": "numbers",
   "stage": 3,
+  "order": 18,
   "params": {},
   "emoji": "key",
   "example": {
