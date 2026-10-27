@@ -355,6 +355,14 @@ export const fr: Strings = {
     rightAnswer: 'Bonne réponse',
     subjectLine: (missions: number, percent: number | null, skill: string, stage: string) =>
       `${plural(missions, 'mission', 'missions')}${percent === null ? '' : `, ${percent} % justes du premier coup`} ; apprend en ce moment : ${skill} (environ ${stage}).`,
+    skillsTitle: 'Compétences',
+    skillsNote: (days: number) => `Chaque compétence travaillée ces ${days} derniers jours. Acquise : au moins 85 % de bonnes réponses sur au moins 8 réponses.`,
+    skillsHeading: (days: number) => `Compétences (${days} derniers jours) :`,
+    mastery: { known: 'Acquise', practising: 'En cours', needsHelp: 'À aider' },
+    toReview: 'à revoir',
+    learnt: 'apprises de ses erreurs',
+    reviewLine: (waiting: number, due: number, mastered: number) =>
+      `Boîtes de révision : ${plural(waiting, 'question', 'questions')} à revoir (${due} à faire maintenant) ; ${mastered} apprises de ses erreurs sur cette période.`,
     footer: "Envoyé depuis Kids' Learning Studio. Les données restent sur l’appareil.",
   },
   backup: {

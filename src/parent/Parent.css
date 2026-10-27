@@ -306,6 +306,10 @@ button.danger {
   background: var(--red-soft);
   color: var(--red);
 }
+.pill.green {
+  background: var(--mint-soft);
+  color: var(--mint);
+}
 .report-mistakes summary {
   cursor: pointer;
   font-family: var(--display);

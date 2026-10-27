@@ -4,6 +4,7 @@ import type { Strings } from '@/i18n'
 import type { Lang } from '@/i18n'
 import { LADDERS, stageTags } from '@/lessons/ladder'
 import { skillName } from '@/lessons/text'
+import { reviewCounts } from '@/lessons/review'
 import { levelOf } from '@/progress/progress'
 import { computeStreak } from '@/progress/streak'
 import { areaKind } from '@/progress/usage'
@@ -36,6 +37,35 @@ export interface HelpItem {
   examples: Mistake[]
 }
 
+/** How well a skill is known, from its answers over the last MASTERY_DAYS days. */
+export type Mastery = 'known' | 'practising' | 'needsHelp'
+
+/** A skill practised in the last MASTERY_DAYS days, with how well it is known. */
+export interface SkillReport {
+  subject: Subject
+  step: string
+  skill: string
+  stage: string
+  right: number
+  total: number
+  /** Questions of this skill waiting in the review boxes. */
+  inReview: number
+  mastery: Mastery
+}
+
+/** Skills are judged over this many days up to the end of the period, so a short period still has enough answers. */
+export const MASTERY_DAYS = 30
+/** Known: at least KNOWN_MIN_TRIES answers, KNOWN_FROM of them right, and at most 1 question of it left to review. */
+export const KNOWN_FROM = 0.85
+export const KNOWN_MIN_TRIES = 8
+
+/** How well a skill is known. Pure (tested). */
+export function masteryOf(s: Score, inReview: number): Mastery {
+  if (s.total >= HELP_MIN_TRIES && s.right / s.total < HELP_BELOW) return 'needsHelp'
+  if (s.total >= KNOWN_MIN_TRIES && s.right / s.total >= KNOWN_FROM && inReview <= 1) return 'known'
+  return 'practising'
+}
+
 /** Skills answered right less often than this, with at least HELP_MIN_TRIES tries, show as "needs help". */
 export const HELP_BELOW = 0.7
 export const HELP_MIN_TRIES = 4
@@ -64,6 +94,10 @@ export interface Report {
   needsHelp: HelpItem[]
   /** Wrong answers in the period, newest first (at most 10). */
   mistakes: Mistake[]
+  /** Every skill practised in the last MASTERY_DAYS days up to the period's end, by subject in ladder order. */
+  skills: SkillReport[]
+  /** The review boxes now (questions to practise again, due now), and questions learnt from them in the period. */
+  review: { waiting: number; due: number; mastered: number }
 }
 
 /** First and last day of the period containing `now` (week: Monday–Sunday). */
@@ -131,6 +165,32 @@ export function buildReport(progress: Progress, usage: Usage, period: Period, no
   }
   needsHelp.sort((a, b) => a.right / a.total - b.right / b.total)
 
+  // How well each skill is known: answers over the last MASTERY_DAYS days up to the period's end (or today).
+  const end = last < isoDate(now) ? last : isoDate(now)
+  const masteryFrom = isoDate(addDays(new Date(`${end}T12:00:00`), -(MASTERY_DAYS - 1)))
+  const recentPerStep = new Map<string, Score>()
+  for (const [day, steps] of Object.entries(progress.attempts)) {
+    if (day < masteryFrom || day > end) continue
+    for (const [step, s] of Object.entries(steps)) {
+      const sum = recentPerStep.get(step) ?? { right: 0, total: 0 }
+      recentPerStep.set(step, { right: sum.right + s.right, total: sum.total + s.total })
+    }
+  }
+  const inReview = new Map<string, number>()
+  for (const item of progress.review) {
+    const step = item.question.step ?? ''
+    inReview.set(step, (inReview.get(step) ?? 0) + 1)
+  }
+  const skills: SkillReport[] = SUBJECTS.flatMap((subject) =>
+    LADDERS[subject].flatMap((step) => {
+      const s = recentPerStep.get(step.id)
+      if (!s) return []
+      const waiting = inReview.get(step.id) ?? 0
+      return [{ subject, step: step.id, skill: skillName(step, lang), stage: stageTags(step.stage).cambridge, ...s, inReview: waiting, mastery: masteryOf(s, waiting) }]
+    }),
+  )
+  const boxes = reviewCounts(progress.review, isoDate(now))
+
   const minutes = (s: number) => Math.round(s / 60)
   return {
     period,
@@ -144,6 +204,8 @@ export function buildReport(progress: Progress, usage: Usage, period: Period, no
     streak: (({ current, longest }) => ({ current, longest }))(computeStreak(progress.stars, now)),
     needsHelp,
     mistakes: mistakes.slice(0, 10),
+    skills,
+    review: { ...boxes, mastered: sum(progress.mastered) },
   }
 }
 
@@ -165,6 +227,9 @@ export function reportText(r: Report, t: Strings, childName: string): string {
       `- ${t.items[h.subject]}: ${h.skill} (${t.reports.rightOf(h.right, h.total)})`,
       ...h.examples.map((m) => `    ${t.reports.mistakeLine(m.prompt, m.given, m.answer)}`),
     ]),
+    '',
+    t.reports.reviewLine(r.review.waiting, r.review.due, r.review.mastered),
+    ...(r.skills.length > 0 ? ['', t.reports.skillsHeading(MASTERY_DAYS), ...r.skills.map((s) => `- ${t.items[s.subject]}: ${s.skill} – ${t.reports.mastery[s.mastery]} (${t.reports.rightOf(s.right, s.total)})`)] : []),
     '',
     t.reports.footer,
   ]

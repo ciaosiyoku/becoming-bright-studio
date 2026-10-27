@@ -356,6 +356,14 @@ export const en = {
     rightAnswer: 'Right answer',
     subjectLine: (missions: number, percent: number | null, skill: string, stage: string) =>
       `${plural(missions, 'mission', 'missions')}${percent === null ? '' : `, ${percent}% right first try`}; now learning: ${skill} (about ${stage}).`,
+    skillsTitle: 'Skills',
+    skillsNote: (days: number) => `Every skill practised in the last ${days} days. Known: 85% or more right in at least 8 answers.`,
+    skillsHeading: (days: number) => `Skills (last ${days} days):`,
+    mastery: { known: 'Known', practising: 'Practising', needsHelp: 'Needs help' },
+    toReview: 'to practise again',
+    learnt: 'learnt from mistakes',
+    reviewLine: (waiting: number, due: number, mastered: number) =>
+      `Review boxes: ${plural(waiting, 'question', 'questions')} to practise again (${due} due now); ${mastered} learnt from mistakes in this period.`,
     footer: "Sent from Kids' Learning Studio. The data stays on the device.",
   },
   backup: {

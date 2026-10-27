@@ -1,7 +1,9 @@
 import { describe, expect, it } from 'vitest'
 import { EMPTY_PROGRESS, EMPTY_USAGE } from '@/data/types'
 import { en } from '@/i18n/en'
-import { buildReport, mailtoUrl, periodRange, reportText } from './report'
+import { updateReview } from '@/lessons/review'
+import { numberQuestion, seeded } from '@/lessons/question'
+import { buildReport, mailtoUrl, masteryOf, periodRange, reportText } from './report'
 
 const now = new Date(2026, 9, 21, 12) // Wednesday
 const progress = {
@@ -62,5 +64,33 @@ describe('reports', () => {
     expect(r.needsHelp[0].examples.map((m) => m.prompt)).toEqual(['What is 3 + 4?'])
     expect(r.mistakes).toHaveLength(1)
     expect(reportText(r, en, '')).toContain('What is 3 + 4?')
+  })
+})
+
+describe('skill mastery and review boxes in reports', () => {
+  it('judges a skill known, practising or needing help', () => {
+    expect(masteryOf({ right: 9, total: 10 }, 0)).toBe('known')
+    expect(masteryOf({ right: 9, total: 10 }, 2)).toBe('practising')
+    expect(masteryOf({ right: 7, total: 7 }, 0)).toBe('practising')
+    expect(masteryOf({ right: 2, total: 5 }, 0)).toBe('needsHelp')
+    expect(masteryOf({ right: 1, total: 2 }, 0)).toBe('practising')
+  })
+  it('lists the skills of the last 30 days in ladder order, and counts the review boxes', () => {
+    const missed = { ...numberQuestion(seeded(1), 'What is 2 + 3?', 5), step: 'add-10' }
+    const p = {
+      ...progress,
+      attempts: { '2026-10-20': { 'count-10': { right: 9, total: 10 }, 'add-10': { right: 2, total: 6 } }, '2026-08-01': { 'count-5': { right: 5, total: 5 } } },
+      review: updateReview([], 'maths', [{ question: missed, lang: 'en', right: false }], new Date(2026, 9, 20, 12)).items,
+      mastered: { '2026-10-19': 2, '2026-09-01': 4 },
+    }
+    const r = buildReport(p, usage, 'week', now, 2)
+    expect(r.skills.map((s) => [s.step, s.mastery, s.inReview])).toEqual([
+      ['count-10', 'known', 0],
+      ['add-10', 'needsHelp', 1],
+    ])
+    expect(r.review).toEqual({ waiting: 1, due: 1, mastered: 2 })
+    const text = reportText(r, en, 'Sam')
+    expect(text).toContain('Review boxes: 1 question to practise again (1 due now); 2 learnt from mistakes in this period.')
+    expect(text).toContain('Skills (last 30 days):')
   })
 })

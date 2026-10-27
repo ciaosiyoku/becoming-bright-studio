@@ -8,7 +8,7 @@ import { MISSION_LENGTHS, passMark, starsFor } from '@/lessons/ladder'
 import type { FamilyBirthday } from '@/data/types'
 import { LOCALES, useLang, useT } from '@/i18n'
 import { callLinkOk, parseYouTube } from '@/media/sources'
-import { buildReport, mailtoUrl, reportText } from '@/reports/report'
+import { buildReport, mailtoUrl, MASTERY_DAYS, reportText } from '@/reports/report'
 import { updateNow } from '@/shared/autoUpdate'
 import { Emoji } from '@/shared/Emoji'
 import { AccessEditor, ChildEditor } from './editors'
@@ -227,6 +227,8 @@ function ReportCard() {
         <Figure emoji="fire" value={report.streak.current} label={t.reports.streakNow(report.streak.longest)} />
         <Figure emoji="gradcap" value={report.minutes.learning} label={t.reports.learningMin} />
         <Figure emoji="joystick" value={report.minutes.games} label={t.reports.gamesMin} />
+        <Figure emoji="seedling" value={report.review.waiting} label={t.reports.toReview} />
+        <Figure emoji="trophy" value={report.review.mastered} label={t.reports.learnt} />
       </div>
       <table className="report-table">
         <thead>
@@ -274,6 +276,30 @@ function ReportCard() {
           </>
         )}
       </div>
+      {report.skills.length > 0 && (
+        <details className="report-mistakes">
+          <summary>
+            {t.reports.skillsTitle} ({report.skills.filter((s) => s.mastery === 'known').length} / {report.skills.length} {t.reports.mastery.known.toLowerCase()})
+          </summary>
+          <small className="muted">{t.reports.skillsNote(MASTERY_DAYS)}</small>
+          <table className="report-table">
+            <tbody>
+              {report.skills.map((s) => (
+                <tr key={s.step}>
+                  <td>{t.items[s.subject]}</td>
+                  <td>
+                    {s.skill} <small className="muted">({t.learn.about(s.stage)})</small>
+                  </td>
+                  <td>{t.reports.rightOf(s.right, s.total)}</td>
+                  <td>
+                    <span className={`pill ${s.mastery === 'known' ? 'green' : s.mastery === 'needsHelp' ? 'red' : ''}`}>{t.reports.mastery[s.mastery]}</span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </details>
+      )}
       {report.mistakes.length > 0 && (
         <details className="report-mistakes">
           <summary>
