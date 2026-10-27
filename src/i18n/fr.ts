@@ -195,5 +195,12 @@ export const fr: Strings = {
     accessNote: 'Les leçons sont toujours ouvertes. Non : caché. Ouvert : toujours ouvert. À gagner d’abord : s’ouvre avec le temps gagné en réussissant des leçons.',
     minutesPerLesson: 'Minutes par leçon réussie',
     maxPerDay: 'Temps gagné maximum par jour',
+    updateTitle: 'Version de l’application',
+    updateNote: 'L’application cherche une nouvelle version une fois par jour et la charge entre deux activités. « Mettre à jour » récupère tout de suite la version la plus récente depuis le dépôt.',
+    version: (v: string) => `Version : ${v}`,
+    update: 'Mettre à jour',
+    updating: 'Recherche d’une nouvelle version…',
+    upToDate: 'C’est déjà la version la plus récente.',
+    updateOffline: 'Pas de connexion. Réessayez quand l’appareil est en ligne.',
   },
 }

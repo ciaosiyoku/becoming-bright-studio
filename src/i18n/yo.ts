@@ -196,5 +196,12 @@ export const yo: Strings = {
     accessNote: 'Ẹ̀kọ́ máa ń ṣí sílẹ̀ nígbà gbogbo. Pa á: ó farapamọ́. Ṣí sílẹ̀: ó ṣí nígbà gbogbo. Kọ́kọ́ jèrè: ó máa ṣí pẹ̀lú àkókò tí ọmọ jèrè nípa yíyege ẹ̀kọ́.',
     minutesPerLesson: 'Ìṣẹ́jú fún ẹ̀kọ́ kan tí ó yege',
     maxPerDay: 'Àkókò èrè tó pọ̀ jù lójúmọ́',
+    updateTitle: 'Ẹ̀yà áàpù',
+    updateNote: 'Áàpù náà máa ń wá ẹ̀yà tuntun lẹ́ẹ̀kan lójúmọ́, ó sì máa ń gbé e wọlé láàárín àwọn iṣẹ́. “Ṣe àtúnṣe báyìí” máa mú ẹ̀yà tuntun jù lọ wá láti ibi ìpamọ́ kóòdù lẹ́sẹ̀kẹsẹ̀.',
+    version: (v: string) => `Ẹ̀yà: ${v}`,
+    update: 'Ṣe àtúnṣe báyìí',
+    updating: 'Ó ń wá ẹ̀yà tuntun…',
+    upToDate: 'Èyí ni ẹ̀yà tuntun jù lọ.',
+    updateOffline: 'Kò sí ìsopọ̀. Tún gbìyànjú nígbà tí ẹ̀rọ bá wà lórí íńtánẹ́ẹ̀tì.',
   },
 }

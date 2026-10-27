@@ -8,6 +8,7 @@ import { skillById, SKILLS, skillText } from '@/skills/index'
 import { accessOf } from '@/app/access'
 import { type Access, type ItemId, ITEM_IDS, ITEMS } from '@/app/items'
 import { Emoji } from '@/shared/Emoji'
+import { runningVersion, updateNow } from '@/shared/autoUpdate'
 import { NO_LOCK } from './pin'
 import { LanguagePicker } from '@/shared/LanguagePicker'
 import { speak, useVoiceChoice, type VoiceGender } from '@/shared/speak'
@@ -40,6 +41,7 @@ export function Parent({ onClose }: { onClose: () => void }) {
       <VoiceCard />
       <BackupCard />
       <PinCard />
+      <UpdateCard />
     </main>
   )
 }
@@ -255,6 +257,31 @@ function BackupCard() {
         <input ref={file} type="file" accept=".json,application/json" hidden onChange={(e) => void restore(e)} />
       </div>
       {message && <p className="pill">{message}</p>}
+    </section>
+  )
+}
+
+/** The version running, and "Update now": loads the newest version from the repository's site straight away. */
+function UpdateCard() {
+  const T = useT()
+  const [state, setState] = useState<'idle' | 'looking' | 'newest' | 'offline'>('idle')
+  const update = async () => {
+    setState('looking')
+    const found = await updateNow()
+    if (found !== 'reloading') setState(found)
+  }
+  return (
+    <section className="card parent-card">
+      <h2>{T.parent.updateTitle}</h2>
+      <p className="muted">{T.parent.updateNote}</p>
+      <p>{T.parent.version(runningVersion())}</p>
+      <div className="row">
+        <button className="secondary" onClick={() => void update()} disabled={state === 'looking'}>
+          {state === 'looking' ? T.parent.updating : T.parent.update}
+        </button>
+      </div>
+      {state === 'newest' && <p className="pill">{T.parent.upToDate}</p>}
+      {state === 'offline' && <p className="pill">{T.parent.updateOffline}</p>}
     </section>
   )
 }

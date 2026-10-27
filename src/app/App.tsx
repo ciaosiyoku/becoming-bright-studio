@@ -4,6 +4,7 @@ import { Lesson } from '@/lesson/Lesson'
 import { Parent } from '@/parent/Parent'
 import { PinGate } from '@/parent/PinScreens'
 import { NeedPin, Setup } from '@/setup/Setup'
+import { useAutoUpdate } from '@/shared/autoUpdate'
 import { setVoiceGender } from '@/shared/speak'
 import { ItemScreen } from './ItemScreen'
 import { ItemsPage } from './ItemsPage'
@@ -45,6 +46,8 @@ function Screens() {
   }, [child])
 
   useUsageClock(screen)
+  // A new version loads by itself, but only between activities (never in a lesson, a game or a film).
+  useAutoUpdate(screen.name === 'tabs')
 
   if (!ready) return null
   if (!child) return <Setup />

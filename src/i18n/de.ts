@@ -195,5 +195,12 @@ export const de: Strings = {
     accessNote: 'Lektionen sind immer offen. Aus: versteckt. Offen: immer offen. Erst verdienen: öffnet sich mit Zeit, die durch bestandene Lektionen verdient wird.',
     minutesPerLesson: 'Minuten pro bestandener Lektion',
     maxPerDay: 'Höchstens verdiente Zeit am Tag',
+    updateTitle: 'App-Version',
+    updateNote: 'Die App sucht einmal am Tag nach einer neuen Version und lädt sie zwischen zwei Aktivitäten. „Jetzt aktualisieren“ holt die neueste Version sofort aus dem Repository.',
+    version: (v: string) => `Version: ${v}`,
+    update: 'Jetzt aktualisieren',
+    updating: 'Suche nach einer neuen Version …',
+    upToDate: 'Das ist schon die neueste Version.',
+    updateOffline: 'Keine Verbindung. Bitte versuchen Sie es, wenn das Gerät online ist.',
   },
 }

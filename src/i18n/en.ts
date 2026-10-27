@@ -193,6 +193,13 @@ export const en = {
     accessNote: 'Lessons are always open. Off: hidden. Open: always open. Earn first: opens with time earned by passing lessons.',
     minutesPerLesson: 'Minutes per passed lesson',
     maxPerDay: 'Most earned time a day',
+    updateTitle: 'App version',
+    updateNote: 'The app checks for a new version once a day and loads it between activities. Update now fetches the newest version from the repository straight away.',
+    version: (v: string) => `Version: ${v}`,
+    update: 'Update now',
+    updating: 'Looking for a new version…',
+    upToDate: 'This is already the newest version.',
+    updateOffline: 'No connection. Try again when the device is online.',
   },
 }
 
