@@ -4,14 +4,14 @@ import { activeChild } from '@/app/state'
 import { useStore } from '@/app/store'
 import { backupDue } from '@/data/backup'
 import { useLang, useT } from '@/i18n'
-import { nextSkill } from '@/lesson/session'
+import { isOpen, nextSkill } from '@/lesson/session'
 import { Emoji } from '@/shared/Emoji'
 import { skillById, SKILLS, skillText } from '@/skills/index'
 import './Home.css'
 
 const ORDER = SKILLS.map((s) => s.id)
 
-/** The child's home: hello, today's lesson, and (once a week) a backup reminder for the grown-ups. */
+/** The child's home: hello, today's lesson, the path of skills, and (once a week) a backup reminder for the grown-ups. */
 export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void; onParent: () => void }) {
   const T = useT()
   const lang = useLang()
@@ -49,6 +49,22 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
             <h2>{T.home.allDone}</h2>
           </>
         )}
+      </section>
+      <section className="card">
+        <h2>{T.home.path}</h2>
+        <div className="path">
+          {SKILLS.map((def) => {
+            const learnt = Boolean(child.skills[def.id]?.mastered)
+            const open = isOpen(child, ORDER, def.id)
+            return (
+              <button key={def.id} className={`path-skill ${learnt ? 'learnt' : open ? 'open' : 'later'}`} disabled={!open} onClick={() => onLesson(def.id)}>
+                <Emoji name={learnt ? 'tree' : def.emoji} size={48} />
+                <span>{skillText(def, lang).title}</span>
+                <small>{learnt ? T.home.learnt : open ? T.home.next : T.home.later}</small>
+              </button>
+            )
+          })}
+        </div>
       </section>
     </main>
   )

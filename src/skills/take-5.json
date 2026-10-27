@@ -1,0 +1,21 @@
+{
+  "id": "take-5",
+  "kind": "subtract",
+  "params": {
+    "max": 5
+  },
+  "emoji": "animal-turtle",
+  "example": {
+    "a": 5,
+    "b": 2,
+    "answer": 3
+  },
+  "text": {
+    "en": {
+      "title": "Take away within 5",
+      "teach": "To take away, start at the first number and jump back. 5 take away 2: jump back 2 hops, to 3.",
+      "prompt": "What is {a} − {b}?",
+      "reason": "Start at {a}, jump back {b} → {answer}."
+    }
+  }
+}

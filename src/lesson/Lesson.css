@@ -201,3 +201,18 @@ button.round {
 .lesson-card {
   gap: 0.8rem;
 }
+.pair {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+.choices.two {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 32rem;
+}
+.choice span {
+  font-family: var(--display);
+}
+.choices.pictures .choice span {
+  font-size: 1.3rem;
+}

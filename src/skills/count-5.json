@@ -1,0 +1,30 @@
+{
+  "id": "count-5",
+  "kind": "count",
+  "params": {
+    "min": 1,
+    "max": 5,
+    "emojis": [
+      "fruit-apple",
+      "star",
+      "chick",
+      "fruit-strawberry",
+      "animal-lady-beetle",
+      "animal-turtle"
+    ]
+  },
+  "emoji": "fruit-apple",
+  "example": {
+    "answer": 4,
+    "seq": "1, 2, 3, 4",
+    "thing": "fruit-apple"
+  },
+  "text": {
+    "en": {
+      "title": "Count to 5",
+      "teach": "Count one at a time: touch each one and say the next number. 1, 2, 3, 4: there are 4.",
+      "prompt": "How many are there?",
+      "reason": "Touch each one as you count: {seq}. There are {answer}."
+    }
+  }
+}

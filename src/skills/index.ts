@@ -1,10 +1,34 @@
 import type { Lang } from '@/i18n'
+import count5 from './count-5.json'
+import count10 from './count-10.json'
+import oneMore from './one-more.json'
+import oneLess from './one-less.json'
 import add5 from './add-5.json'
+import add10 from './add-10.json'
+import take5 from './take-5.json'
+import take10 from './take-10.json'
+import bigger from './bigger.json'
+import firstSound from './first-sound.json'
+import aAn from './a-an.json'
+import rhyme from './rhyme.json'
 import type { Item, SkillDef, SkillText } from './types'
 
 // The skills in teaching order: each opens when the one before is mastered. One JSON file per skill.
 
-export const SKILLS: SkillDef[] = [add5 as SkillDef]
+export const SKILLS = [
+  count5,
+  count10,
+  oneMore,
+  oneLess,
+  add5,
+  add10,
+  take5,
+  take10,
+  bigger,
+  firstSound,
+  aAn,
+  rhyme,
+] as SkillDef[]
 
 export const skillById = (id: string): SkillDef | undefined => SKILLS.find((s) => s.id === id)
 
@@ -20,5 +44,8 @@ export const fill = (template: string, values: Record<string, number | string>) 
 /** The question, the reason and the teach sentence of an item, ready to show and read aloud. */
 export function itemWords(def: SkillDef, item: Pick<Item, 'values'>, lang: Lang) {
   const t = skillText(def, lang)
-  return { prompt: fill(t.prompt, item.values), reason: fill(t.reason, item.values), teach: fill(t.teach, item.values) }
+  const reason = t.reasons?.[String(item.values.rule)] ?? t.reason
+  // A reason can start with the word itself ("cake and snake …"): it still starts with a capital, as a sentence.
+  const sentence = (s: string) => s.charAt(0).toUpperCase() + s.slice(1)
+  return { prompt: fill(t.prompt, item.values), say: fill(t.say ?? t.prompt, item.values), reason: sentence(fill(reason, item.values)), teach: fill(t.teach, item.values) }
 }

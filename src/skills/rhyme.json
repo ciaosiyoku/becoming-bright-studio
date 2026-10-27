@@ -1,0 +1,76 @@
+{
+  "id": "rhyme",
+  "kind": "rhyme",
+  "only": "en",
+  "params": {
+    "families": [
+      {
+        "end": "-ouse",
+        "words": [
+          [
+            "house",
+            "house"
+          ],
+          [
+            "mouse",
+            "animal-mouse"
+          ]
+        ]
+      },
+      {
+        "end": "-ake",
+        "words": [
+          [
+            "cake",
+            "cake"
+          ],
+          [
+            "snake",
+            "snake"
+          ]
+        ]
+      },
+      {
+        "end": "-ee",
+        "words": [
+          [
+            "bee",
+            "animal-honeybee"
+          ],
+          [
+            "tree",
+            "tree"
+          ]
+        ]
+      },
+      {
+        "end": "-ear",
+        "words": [
+          [
+            "bear",
+            "animal-bear"
+          ],
+          [
+            "pear",
+            "fruit-pear"
+          ]
+        ]
+      }
+    ]
+  },
+  "emoji": "animal-mouse",
+  "example": {
+    "word": "house",
+    "emoji": "house",
+    "answer": "mouse",
+    "answerEmoji": "animal-mouse"
+  },
+  "text": {
+    "en": {
+      "title": "Rhyming pictures",
+      "teach": "Words rhyme when they end with the same sound: house, mouse.",
+      "prompt": "Which one rhymes with {word}?",
+      "reason": "{word} and {answer} end the same: {end}."
+    }
+  }
+}

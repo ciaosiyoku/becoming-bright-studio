@@ -1,0 +1,30 @@
+{
+  "id": "count-10",
+  "kind": "count",
+  "params": {
+    "min": 5,
+    "max": 10,
+    "emojis": [
+      "fruit-apple",
+      "star",
+      "chick",
+      "fruit-strawberry",
+      "animal-lady-beetle",
+      "animal-turtle"
+    ]
+  },
+  "emoji": "star",
+  "example": {
+    "answer": 7,
+    "seq": "1, 2, 3, 4, 5, 6, 7",
+    "thing": "star"
+  },
+  "text": {
+    "en": {
+      "title": "Count to 10",
+      "teach": "Count one at a time, and touch each one only once. 1, 2, 3, 4, 5, 6, 7: there are 7.",
+      "prompt": "How many are there?",
+      "reason": "Touch each one once as you count: {seq}. There are {answer}."
+    }
+  }
+}

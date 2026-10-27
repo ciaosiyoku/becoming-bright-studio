@@ -1,9 +1,15 @@
 {
   "id": "add-5",
   "kind": "add",
-  "params": { "max": 5 },
+  "params": {
+    "max": 5
+  },
   "emoji": "animal-frog",
-  "example": { "a": 3, "b": 2, "answer": 5 },
+  "example": {
+    "a": 3,
+    "b": 2,
+    "answer": 5
+  },
   "text": {
     "en": {
       "title": "Add within 5",

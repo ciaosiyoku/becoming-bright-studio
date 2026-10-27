@@ -1,0 +1,21 @@
+{
+  "id": "add-10",
+  "kind": "add",
+  "params": {
+    "max": 10
+  },
+  "emoji": "animal-rabbit",
+  "example": {
+    "a": 6,
+    "b": 3,
+    "answer": 9
+  },
+  "text": {
+    "en": {
+      "title": "Add within 10",
+      "teach": "Start at the first number and jump forward. 6 and 3 more: jump from 6, 3 hops, to 9.",
+      "prompt": "What is {a} + {b}?",
+      "reason": "Start at {a}, jump {b} → {answer}."
+    }
+  }
+}

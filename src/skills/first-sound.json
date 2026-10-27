@@ -1,0 +1,80 @@
+{
+  "id": "first-sound",
+  "kind": "first-sound",
+  "only": "en",
+  "params": {
+    "words": [
+      [
+        "sun",
+        "sun"
+      ],
+      [
+        "bus",
+        "bus"
+      ],
+      [
+        "moon",
+        "moon"
+      ],
+      [
+        "tree",
+        "tree"
+      ],
+      [
+        "fox",
+        "animal-fox"
+      ],
+      [
+        "lion",
+        "animal-lion"
+      ],
+      [
+        "rabbit",
+        "animal-rabbit"
+      ],
+      [
+        "penguin",
+        "animal-penguin"
+      ],
+      [
+        "horse",
+        "animal-horse"
+      ],
+      [
+        "bell",
+        "bell"
+      ],
+      [
+        "gift",
+        "gift"
+      ],
+      [
+        "key",
+        "key"
+      ],
+      [
+        "zebra",
+        "animal-zebra"
+      ],
+      [
+        "dolphin",
+        "animal-dolphin"
+      ]
+    ]
+  },
+  "emoji": "sun",
+  "example": {
+    "word": "sun",
+    "answer": "s",
+    "thing": "sun"
+  },
+  "text": {
+    "en": {
+      "title": "First sounds",
+      "teach": "Say the word slowly: sss-un. The first sound of sun is s.",
+      "prompt": "Which letter does it start with?",
+      "say": "Which letter does {word} start with?",
+      "reason": "Say it slowly: {word} starts with {answer}."
+    }
+  }
+}

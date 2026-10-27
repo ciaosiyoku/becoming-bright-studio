@@ -44,40 +44,99 @@ const numberChoices = (r: Random, right: number, max: number) =>
   )
 
 type Maker = (def: SkillDef, r: Random) => Item
+type Word = [word: string, emoji: string]
 
-const MAKERS: Partial<Record<GeneratorKind, Maker>> = {
+const num = (def: SkillDef, key: string) => Number(def.params[key])
+const words = (def: SkillDef) => def.params.words as Word[]
+const seq = (n: number) => Array.from({ length: n }, (_, i) => i + 1).join(', ')
+
+const MAKERS: Record<GeneratorKind, Maker> = {
+  // How many pictures? (params: min, max, emojis)
+  count: (def, r) => {
+    const n = int(r, num(def, 'min'), num(def, 'max'))
+    const thing = pick(r, def.params.emojis as string[])
+    return { values: { answer: n, seq: seq(n), thing }, visual: { kind: 'count', emoji: thing, n }, ...numberChoices(r, n, num(def, 'max')) }
+  },
+  // a + b, the answer at most max (params: max)
   add: (def, r) => {
-    const max = Number(def.params.max)
+    const max = num(def, 'max')
     const a = int(r, 1, max - 1)
     const b = int(r, 1, max - a)
-    const sum = a + b
-    return { values: { a, b, answer: sum }, visual: { kind: 'sum', text: `${a} + ${b}` }, line: { max: 10, from: a, by: b }, ...numberChoices(r, sum, max) }
+    return { values: { a, b, answer: a + b }, visual: { kind: 'sum', text: `${a} + ${b}` }, line: { max: 10, from: a, by: b }, ...numberChoices(r, a + b, max) }
+  },
+  // a − b, a at most max, the answer at least 1 (params: max)
+  subtract: (def, r) => {
+    const a = int(r, 2, num(def, 'max'))
+    const b = int(r, 1, a - 1)
+    return { values: { a, b, answer: a - b }, visual: { kind: 'sum', text: `${a} − ${b}` }, line: { max: 10, from: a, by: -b }, ...numberChoices(r, a - b, num(def, 'max')) }
+  },
+  // One more than n (params: max, the biggest answer)
+  'one-more': (def, r) => {
+    const n = int(r, 1, num(def, 'max') - 1)
+    return { values: { n, answer: n + 1 }, visual: { kind: 'sum', text: `${n} + 1` }, line: { max: 10, from: n, by: 1 }, ...numberChoices(r, n + 1, num(def, 'max')) }
+  },
+  // One less than n (params: max, the biggest n)
+  'one-less': (def, r) => {
+    const n = int(r, 2, num(def, 'max'))
+    return { values: { n, answer: n - 1 }, visual: { kind: 'sum', text: `${n} − 1` }, line: { max: 10, from: n, by: -1 }, ...numberChoices(r, n - 1, num(def, 'max')) }
+  },
+  // Which of two numbers is bigger? The two numbers are the choices (params: max)
+  bigger: (def, r) => {
+    const a = int(r, 1, num(def, 'max'))
+    let b = a
+    while (b === a) b = int(r, 1, num(def, 'max'))
+    const big = Math.max(a, b)
+    const small = Math.min(a, b)
+    return { values: { answer: big, small }, line: { max: Math.max(10, big), from: small, by: big - small }, ...withAnswer(r, { label: String(big) }, [{ label: String(small) }]) }
+  },
+  // The first letter of a word, shown as a picture only (params: words, [word, emoji])
+  'first-sound': (def, r) => {
+    const [word, emoji] = pick(r, words(def))
+    const letter = word[0]
+    const others = shuffled([...new Set(words(def).map(([w]) => w[0]))].filter((l) => l !== letter), r).slice(0, 2)
+    return { values: { word, answer: letter }, visual: { kind: 'picture', emoji }, ...withAnswer(r, { label: letter }, others.map((l) => ({ label: l }))) }
+  },
+  // "a" or "an" before a word (params: words, [word, emoji, article])
+  'a-an': (def, r) => {
+    const [word, emoji, article] = pick(r, def.params.words as [string, string, string][])
+    const other = article === 'an' ? 'a' : 'an'
+    return { values: { word, answer: article, rule: article }, visual: { kind: 'picture', emoji, word }, ...withAnswer(r, { label: article }, [{ label: other }]) }
+  },
+  // Which picture rhymes with this one? (params: families, { end, words: [word, emoji][] })
+  rhyme: (def, r) => {
+    const families = def.params.families as { end: string; words: Word[] }[]
+    const family = pick(r, families)
+    const [target, match] = shuffled(family.words, r)
+    const wrong = shuffled(families.filter((f) => f !== family), r)
+      .slice(0, 2)
+      .map((f) => pick(r, f.words))
+    const choice = ([word, emoji]: Word) => ({ label: word, emoji })
+    return { values: { word: target[0], answer: match[0], end: family.end }, visual: { kind: 'picture', emoji: target[1], word: target[0] }, ...withAnswer(r, choice(match), wrong.map(choice)) }
   },
 }
 
 type Teach = (def: SkillDef) => Pick<Item, 'visual' | 'line'>
+const ex = (def: SkillDef, key: string) => def.example[key]
+const exNum = (def: SkillDef, key: string) => Number(def.example[key])
 
 /** What the teach card shows, from the skill's fixed example. */
-const TEACH: Partial<Record<GeneratorKind, Teach>> = {
-  add: (def) => {
-    const { a, b } = def.example as { a: number; b: number }
-    return { visual: { kind: 'sum', text: `${a} + ${b} = ${a + b}` }, line: { max: 10, from: a, by: b } }
-  },
+const TEACH: Record<GeneratorKind, Teach> = {
+  count: (def) => ({ visual: { kind: 'count', emoji: String(ex(def, 'thing')), n: exNum(def, 'answer') } }),
+  add: (def) => ({ visual: { kind: 'sum', text: `${exNum(def, 'a')} + ${exNum(def, 'b')} = ${exNum(def, 'answer')}` }, line: { max: 10, from: exNum(def, 'a'), by: exNum(def, 'b') } }),
+  subtract: (def) => ({ visual: { kind: 'sum', text: `${exNum(def, 'a')} − ${exNum(def, 'b')} = ${exNum(def, 'answer')}` }, line: { max: 10, from: exNum(def, 'a'), by: -exNum(def, 'b') } }),
+  'one-more': (def) => ({ visual: { kind: 'sum', text: `${exNum(def, 'n')} + 1 = ${exNum(def, 'answer')}` }, line: { max: 10, from: exNum(def, 'n'), by: 1 } }),
+  'one-less': (def) => ({ visual: { kind: 'sum', text: `${exNum(def, 'n')} − 1 = ${exNum(def, 'answer')}` }, line: { max: 10, from: exNum(def, 'n'), by: -1 } }),
+  bigger: (def) => ({ visual: { kind: 'sum', text: `${exNum(def, 'small')}   ${exNum(def, 'answer')}` }, line: { max: 10, from: exNum(def, 'small'), by: exNum(def, 'answer') - exNum(def, 'small') } }),
+  'first-sound': (def) => ({ visual: { kind: 'picture', emoji: String(ex(def, 'thing')), word: String(ex(def, 'word')) } }),
+  'a-an': (def) => ({ visual: { kind: 'pair', a: { emoji: String(ex(def, 'emoji')), word: `an ${ex(def, 'word')}` }, b: { emoji: String(ex(def, 'otherEmoji')), word: `a ${ex(def, 'other')}` } } }),
+  rhyme: (def) => ({ visual: { kind: 'pair', a: { emoji: String(ex(def, 'emoji')), word: String(ex(def, 'word')) }, b: { emoji: String(ex(def, 'answerEmoji')), word: String(ex(def, 'answer')) } } }),
 }
 
 /** The teach card's picture and number line, and its values for the sentence. */
-export function teachCard(def: SkillDef): Pick<Item, 'visual' | 'line' | 'values'> {
-  const teach = TEACH[def.kind]
-  if (!teach) throw new Error(`no teach card for ${def.kind}`)
-  return { ...teach(def), values: def.example }
-}
+export const teachCard = (def: SkillDef): Pick<Item, 'visual' | 'line' | 'values'> => ({ ...TEACH[def.kind](def), values: def.example })
 
 /** A fresh question for a skill. */
-export function makeItem(def: SkillDef, r: Random = Math.random): Item {
-  const make = MAKERS[def.kind]
-  if (!make) throw new Error(`no question maker for ${def.kind}`)
-  return make(def, r)
-}
+export const makeItem = (def: SkillDef, r: Random = Math.random): Item => MAKERS[def.kind](def, r)
 
 /** The same question is the same values (the order of the buttons does not matter). */
 export const itemKey = (item: Item) => JSON.stringify(item.values)

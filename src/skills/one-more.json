@@ -1,0 +1,20 @@
+{
+  "id": "one-more",
+  "kind": "one-more",
+  "params": {
+    "max": 10
+  },
+  "emoji": "animal-kangaroo",
+  "example": {
+    "n": 6,
+    "answer": 7
+  },
+  "text": {
+    "en": {
+      "title": "One more",
+      "teach": "One more is the next number when we count. One more than 6: hop one step forward, to 7.",
+      "prompt": "What is one more than {n}?",
+      "reason": "One more is the next number: {n}, then {answer}."
+    }
+  }
+}

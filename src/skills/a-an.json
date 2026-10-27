@@ -1,0 +1,103 @@
+{
+  "id": "a-an",
+  "kind": "a-an",
+  "only": "en",
+  "params": {
+    "words": [
+      [
+        "apple",
+        "fruit-apple",
+        "an"
+      ],
+      [
+        "owl",
+        "animal-owl",
+        "an"
+      ],
+      [
+        "octopus",
+        "animal-octopus",
+        "an"
+      ],
+      [
+        "umbrella",
+        "umbrella",
+        "an"
+      ],
+      [
+        "elephant",
+        "animal-elephant",
+        "an"
+      ],
+      [
+        "bus",
+        "bus",
+        "a"
+      ],
+      [
+        "cake",
+        "cake",
+        "a"
+      ],
+      [
+        "key",
+        "key",
+        "a"
+      ],
+      [
+        "fox",
+        "animal-fox",
+        "a"
+      ],
+      [
+        "tree",
+        "tree",
+        "a"
+      ],
+      [
+        "house",
+        "house",
+        "a"
+      ],
+      [
+        "lion",
+        "animal-lion",
+        "a"
+      ],
+      [
+        "gift",
+        "gift",
+        "a"
+      ],
+      [
+        "bell",
+        "bell",
+        "a"
+      ],
+      [
+        "moon",
+        "moon",
+        "a"
+      ]
+    ]
+  },
+  "emoji": "fruit-apple",
+  "example": {
+    "word": "apple",
+    "emoji": "fruit-apple",
+    "other": "bus",
+    "otherEmoji": "bus"
+  },
+  "text": {
+    "en": {
+      "title": "“a” or “an”",
+      "teach": "Before a word that starts with a, e, i, o or u, we say “an”: an apple. Before other sounds we say “a”: a bus.",
+      "prompt": "___ {word}: “a” or “an”?",
+      "reason": "",
+      "reasons": {
+        "an": "{word} starts with a vowel sound, so we say “an {word}”.",
+        "a": "{word} does not start with a vowel sound, so we say “a {word}”."
+      }
+    }
+  }
+}

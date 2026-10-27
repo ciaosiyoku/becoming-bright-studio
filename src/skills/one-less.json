@@ -1,0 +1,20 @@
+{
+  "id": "one-less",
+  "kind": "one-less",
+  "params": {
+    "max": 10
+  },
+  "emoji": "animal-snail",
+  "example": {
+    "n": 6,
+    "answer": 5
+  },
+  "text": {
+    "en": {
+      "title": "One less",
+      "teach": "One less is the number just before. One less than 6: hop one step back, to 5.",
+      "prompt": "What is one less than {n}?",
+      "reason": "One less is the number before: {answer}, then {n}."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "bigger",
+  "kind": "bigger",
+  "params": {
+    "max": 20
+  },
+  "emoji": "animal-elephant",
+  "example": {
+    "answer": 7,
+    "small": 4
+  },
+  "text": {
+    "en": {
+      "title": "Which is bigger?",
+      "teach": "The bigger number comes later when we count. 7 comes after 4, so 7 is bigger.",
+      "prompt": "Which number is bigger?",
+      "reason": "{answer} comes after {small} when we count, so {answer} is bigger."
+    }
+  }
+}

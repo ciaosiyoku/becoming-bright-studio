@@ -35,3 +35,37 @@
   font-size: 1.6rem;
   color: var(--ink);
 }
+/* The skills in order: learnt (a tree), the next one (open), and those still to come. */
+.path {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  gap: 0.7rem;
+  margin-top: 0.7rem;
+}
+.path-skill {
+  flex-direction: column;
+  gap: 0.25rem;
+  min-height: 8rem;
+  padding: 0.7rem;
+  border-radius: var(--radius-s);
+  background: var(--sunken-soft);
+  color: var(--ink);
+  box-shadow: none;
+  text-align: center;
+  font-size: 0.95rem;
+}
+.path-skill small {
+  font-family: 'Andika', sans-serif;
+  font-weight: 400;
+  color: var(--muted);
+}
+.path-skill.learnt {
+  background: var(--mint-soft);
+}
+.path-skill.open {
+  background: var(--accent-soft);
+  box-shadow: 0 0 0 3px var(--accent);
+}
+.path-skill:disabled {
+  opacity: 0.55;
+}

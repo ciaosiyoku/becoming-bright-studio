@@ -13,16 +13,20 @@ export interface SkillText {
   teach: string
   /** The question, shown and read aloud. */
   prompt: string
+  /** Read aloud instead of the prompt, when saying the word must not show it ("Which letter does sun start with?"). */
+  say?: string
   /** The one-line reason shown after every answer. */
   reason: string
+  /** Other reasons, chosen by the question's "rule" value (e.g. "an" or "a" for "a" or "an"). */
+  reasons?: Record<string, string>
 }
 
 export interface SkillDef {
   id: string
   /** Which question maker (generate.ts). */
   kind: GeneratorKind
-  /** Settings for the question maker, e.g. { "max": 5 }. */
-  params: Record<string, number | string[] | string[][]>
+  /** Settings for the question maker, e.g. { "max": 5 } or word lists. Each maker reads its own (generate.ts). */
+  params: Record<string, unknown>
   /** The picture on the home screen (public/emoji). */
   emoji: string
   /** "en": an English skill (letters and words), taught in English whatever the app language. */
@@ -42,6 +46,8 @@ export type Visual =
   | { kind: 'sum'; text: string }
   /** One picture, with its word under it (or without, when the word would give the answer away). */
   | { kind: 'picture'; emoji: string; word?: string }
+  /** Two pictures with their words (the rhyming teach card). */
+  | { kind: 'pair'; a: { emoji: string; word: string }; b: { emoji: string; word: string } }
 
 /** A number line from 0 to `max`, with a jump from `from` by `by` (negative: back). Teach cards and reasons. */
 export interface Line {
@@ -59,7 +65,8 @@ export interface Choice {
 export interface Item {
   /** Values for the placeholders in the skill's words. */
   values: Record<string, number | string>
-  visual: Visual
+  /** What the question shows (none: the choices are the question, as in "Which is bigger?"). */
+  visual?: Visual
   /** Drawn with the reason (and on the teach card). */
   line?: Line
   choices: Choice[]

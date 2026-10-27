@@ -71,7 +71,7 @@ function TeachCard({ skill, lang, onReady }: { skill: string; lang: Lang; onRead
   return (
     <section className="card lesson-card teach">
       <span className="pill">{T.lesson.teach}</span>
-      <VisualView visual={card.visual} big />
+      {card.visual && <VisualView visual={card.visual} big />}
       {card.line && <NumberLine line={card.line} />}
       <p className="teach-sentence">{sentence}</p>
       <div className="row center">
@@ -103,7 +103,7 @@ function Question({ skill, item, lang, onAnswered, onNext }: { skill: string; it
   const [picked, setPicked] = useState<number | null>(null)
   const [all, setAll] = useState<CheckAnswer[] | null>(null)
   const [nextReady, setNextReady] = useState(false)
-  useEffect(() => speak(words.prompt, lang), [words.prompt, lang])
+  useEffect(() => speak(words.say, lang), [words.say, lang])
   useEffect(() => {
     if (picked === null) return
     const t = setTimeout(() => setNextReady(true), NEXT_DELAY_MS)
@@ -124,13 +124,13 @@ function Question({ skill, item, lang, onAnswered, onNext }: { skill: string; it
       <div className="ask">
         <p>{words.prompt}</p>
         {canSpeak && (
-          <button className="secondary round" onClick={() => speak(words.prompt, lang)} aria-label={T.lesson.hear}>
+          <button className="secondary round" onClick={() => speak(words.say, lang)} aria-label={T.lesson.hear}>
             <Volume2 />
           </button>
         )}
       </div>
-      <VisualView visual={item.visual} big />
-      <div className={`choices ${item.choices.every((c) => c.emoji) ? 'pictures' : ''}`}>
+      {item.visual && <VisualView visual={item.visual} big />}
+      <div className={`choices ${item.choices.every((c) => c.emoji) ? 'pictures' : ''} ${item.choices.length === 2 ? 'two' : ''}`}>
         {item.choices.map((c, i) => {
           const state = picked === null ? '' : i === item.answer ? 'right' : i === picked ? 'wrong' : 'faded'
           return (
