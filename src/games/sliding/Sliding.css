@@ -1,0 +1,38 @@
+.sliding {
+  display: grid;
+  justify-items: center;
+  gap: 0.8rem;
+}
+.sliding-board {
+  display: grid;
+  gap: 0.5rem;
+  width: min(26rem, 90vw);
+  padding: 0.6rem;
+  border-radius: var(--radius);
+  background: var(--sunken);
+}
+.sliding-tile {
+  aspect-ratio: 1;
+  min-height: 0;
+  border-radius: var(--radius-s);
+  background: var(--card);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  font-size: 2rem;
+}
+.sliding-tile.gap {
+  background: transparent;
+  box-shadow: none;
+}
+.sliding-tile.done {
+  background: var(--mint-soft);
+}
+.sliding-tile:disabled {
+  opacity: 1;
+}
+.sliding-done {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--mint);
+}

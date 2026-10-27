@@ -190,3 +190,26 @@ button.big {
   font-weight: 700;
   color: var(--ink);
 }
+
+/* Shared by the word builder and the puzzles: the move count, the finished line, a small label. */
+.memory-moves {
+  font-size: 1.3rem;
+}
+.memory-moves b {
+  font-family: var(--display);
+  font-size: 2rem;
+}
+.memory-done {
+  font-family: var(--display);
+  font-size: 1.4rem;
+  color: var(--mint);
+}
+.field-label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.9rem;
+  font-family: var(--display);
+  font-weight: 600;
+  color: var(--ink);
+}

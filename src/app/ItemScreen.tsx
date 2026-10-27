@@ -1,6 +1,10 @@
 import { ArrowLeft } from 'lucide-react'
 import type { ReactNode } from 'react'
+import { WordBuilder } from '@/games/builder/WordBuilder'
+import { CodeBreaker } from '@/games/codebreaker/CodeBreaker'
 import { MemoryGame } from '@/games/Memory'
+import { PuzzleGame } from '@/games/puzzle/PuzzleGame'
+import { SlidingPuzzle } from '@/games/sliding/SlidingPuzzle'
 import { useT } from '@/i18n'
 import { Emoji } from '@/shared/Emoji'
 import { clock } from '@/shared/clock'
@@ -48,6 +52,14 @@ function Content({ id }: { id: ItemId }): ReactNode {
   switch (id) {
     case 'memory':
       return <MemoryGame />
+    case 'builder':
+      return <WordBuilder />
+    case 'codebreaker':
+      return <CodeBreaker />
+    case 'puzzle':
+      return <PuzzleGame />
+    case 'sliding':
+      return <SlidingPuzzle />
     default:
       return null
   }
