@@ -92,6 +92,15 @@ export function withDefaults(saved: unknown): AppState {
 /** The child using the app now, or null before setup. */
 export const activeChild = (s: AppState): Child | null => s.children.find((c) => c.id === s.activeChild) ?? null
 
+/** Adds a child and makes them the one using the app. Pure. */
+export const addChild = (s: AppState, child: Child): AppState => ({ ...s, children: [...s.children, child], activeChild: child.id })
+
+/** Removes a child and their progress; another child (if any) becomes the active one. Pure. */
+export function removeChild(s: AppState, id: string): AppState {
+  const children = s.children.filter((c) => c.id !== id)
+  return { ...s, children, activeChild: s.activeChild === id ? (children[0]?.id ?? null) : s.activeChild }
+}
+
 /** Changes one child. Pure. */
 export const updateChild = (s: AppState, id: string, change: (c: Child) => Child): AppState => ({ ...s, children: s.children.map((c) => (c.id === id ? change(c) : c)) })
 

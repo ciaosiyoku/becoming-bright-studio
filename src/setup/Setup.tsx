@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { COLOURS, newChild } from '@/app/state'
+import { addChild, COLOURS, newChild } from '@/app/state'
 import { useStore } from '@/app/store'
 import { useT } from '@/i18n'
 import { ChoosePin } from '@/parent/PinScreens'
@@ -30,7 +30,7 @@ export function Setup() {
         onClose={() => setChild(null)}
         onDone={(pin, recovery) => {
           const c = newChild(child.name, child.colour)
-          update((s) => ({ ...s, family: { ...s.family, pin, recovery }, children: [...s.children, c], activeChild: c.id }))
+          update((s) => addChild({ ...s, family: { ...s.family, pin, recovery } }, c))
         }}
       />
     </main>

@@ -69,3 +69,19 @@
 .path-skill:disabled {
   opacity: 0.55;
 }
+/* Who is learning: one button per child, in their colour. */
+.children {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.child {
+  background: color-mix(in srgb, var(--child) 15%, var(--card));
+  color: var(--ink);
+  box-shadow: none;
+  font-size: 1.2rem;
+}
+.child.on {
+  background: var(--child);
+  color: #fff;
+}

@@ -1,19 +1,19 @@
 import { ArrowLeft } from 'lucide-react'
 import { type ChangeEvent, useRef, useState } from 'react'
-import { activeChild, type Child, isoDate } from '@/app/state'
+import { addChild, type Child, isoDate, newChild, removeChild } from '@/app/state'
 import { useStore } from '@/app/store'
 import { BackupError, backupDue, makeBackup, parseBackup, saveBackupFile } from '@/data/backup'
 import { useLang, useT } from '@/i18n'
 import { skillById, SKILLS, skillText } from '@/skills/index'
 import { NO_LOCK } from './pin'
+import { ChildForm } from '@/setup/Setup'
 import { ChoosePin } from './PinScreens'
 import './Parent.css'
 
-/** The grown-ups' screen (behind the PIN): today's misses, the games switch, backup, the PIN. */
+/** The grown-ups' screen (behind the PIN): each child's misses today, children, the games switch, backup, the PIN. */
 export function Parent({ onClose }: { onClose: () => void }) {
   const T = useT()
   const { state } = useStore()
-  const child = activeChild(state)!
   return (
     <main className="parent">
       <header className="parent-top">
@@ -22,7 +22,10 @@ export function Parent({ onClose }: { onClose: () => void }) {
         </button>
         <h1>{T.parent.title}</h1>
       </header>
-      <MissesCard child={child} />
+      {state.children.map((c) => (
+        <MissesCard key={c.id} child={c} />
+      ))}
+      <ChildrenCard />
       <GamesCard />
       <BackupCard />
       <PinCard />
@@ -73,6 +76,48 @@ function MissesCard({ child }: { child: Child }) {
         </table>
       )}
       <p className="pill">{T.parent.learnt(learnt, SKILLS.length)}</p>
+    </section>
+  )
+}
+
+/** The children: each has a name, a colour and their own progress. One PIN for the family. */
+function ChildrenCard() {
+  const T = useT()
+  const { state, update } = useStore()
+  const [adding, setAdding] = useState(false)
+  return (
+    <section className="card parent-card">
+      <h2>{T.parent.children}</h2>
+      <p className="muted">{T.parent.childrenNote}</p>
+      <ul className="child-list">
+        {state.children.map((c) => (
+          <li key={c.id}>
+            <i className="dot" style={{ background: c.colour }} />
+            <b>{c.name || '?'}</b>
+            <span className="muted">{T.parent.learnt(SKILLS.filter((s) => c.skills[s.id]?.mastered).length, SKILLS.length)}</span>
+            {state.children.length > 1 && (
+              <button className="secondary" onClick={() => confirm(T.parent.confirmRemove(c.name)) && update((s) => removeChild(s, c.id))}>
+                {T.parent.remove}
+              </button>
+            )}
+          </li>
+        ))}
+      </ul>
+      {adding ? (
+        <ChildForm
+          submit={T.parent.add}
+          onDone={({ name, colour }) => {
+            update((s) => addChild(s, newChild(name, colour)))
+            setAdding(false)
+          }}
+        />
+      ) : (
+        <div className="row">
+          <button className="secondary" onClick={() => setAdding(true)}>
+            {T.parent.addChild}
+          </button>
+        </div>
+      )}
     </section>
   )
 }

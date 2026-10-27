@@ -11,11 +11,14 @@ import './Home.css'
 
 const ORDER = SKILLS.map((s) => s.id)
 
-/** The child's home: hello, today's lesson, the path of skills, and (once a week) a backup reminder for the grown-ups. */
+/**
+ * The child's home: who is learning (when there are two or more children), hello, today's lesson, the path of
+ * skills, and (once a week) a backup reminder for the grown-ups. Switching child needs no PIN and no second install.
+ */
 export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void; onParent: () => void }) {
   const T = useT()
   const lang = useLang()
-  const { state } = useStore()
+  const { state, update } = useStore()
   const child = activeChild(state)!
   const [now] = useState(Date.now)
   const today = nextSkill(child, ORDER)
@@ -28,6 +31,15 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
           <Settings /> {T.home.parents}
         </button>
       </header>
+      {state.children.length > 1 && (
+        <nav className="children" aria-label={T.home.who}>
+          {state.children.map((c) => (
+            <button key={c.id} className={c.id === child.id ? 'child on' : 'child'} style={{ ['--child' as string]: c.colour }} aria-pressed={c.id === child.id} onClick={() => update((s) => ({ ...s, activeChild: c.id }))}>
+              {c.name || '?'}
+            </button>
+          ))}
+        </nav>
+      )}
       {backupDue(state, now) && (
         <button className="backup-reminder secondary" onClick={onParent}>
           <Emoji name="memo" size={32} /> {T.home.backupDue}
