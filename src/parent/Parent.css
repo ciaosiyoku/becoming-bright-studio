@@ -62,3 +62,39 @@
   height: 1.2rem;
   border-radius: 50%;
 }
+.access {
+  width: 100%;
+  border-collapse: collapse;
+}
+.access td {
+  padding: 0.3rem 0.4rem;
+  border-bottom: 1px solid var(--line);
+  vertical-align: middle;
+}
+.access td:first-child {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 3.2rem;
+}
+.access .segmented {
+  margin: 0;
+  gap: 0.4rem;
+}
+.access .segmented button {
+  min-height: 2.8rem;
+  padding: 0 0.9rem;
+  font-size: 0.9rem;
+}
+.stepper-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+button.round {
+  width: var(--tap);
+  padding: 0;
+  border-radius: 50%;
+}

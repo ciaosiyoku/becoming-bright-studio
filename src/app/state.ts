@@ -1,6 +1,7 @@
 import type { Lang } from '@/i18n'
 import type { PinHash } from '@/parent/pin'
 import type { VoiceGender } from '@/shared/speak'
+import { type Access, defaultAccess, type ItemId } from './items'
 
 // The app state: one document, saved on the device under one key (STATE_KEY, see store.tsx). Pure helpers,
 // tested in state.test.ts. Adding a field later: give it a default in emptyState/newChild; withDefaults fills
@@ -39,9 +40,18 @@ export interface Child {
   skills: Record<string, SkillProgress>
   /** Recent misses, newest last (at most MAX_MISSES). */
   misses: Miss[]
-  /** Seconds of each learnt skill's memory game already played (games/pairs.ts: 5 minutes each). */
-  games: Record<string, number>
+  /** The skill the child chose to learn (the Learn tab shows only this one). */
+  current: string | null
+  /** Lessons passed (4 of 5 checks) per day ("YYYY-MM-DD" → count): they earn time (app/access.ts). */
+  passes: Record<string, number>
+  /** Earned time used per day, in seconds. */
+  earnedUsed: Record<string, number>
+  /** Seconds spent per day and area ("YYYY-MM-DD" → lessons / games / media / explore): for the reports. */
+  usage: Record<string, Record<string, number>>
 }
+
+/** The areas whose time the reports count. */
+export type Area = 'lessons' | 'games' | 'media' | 'explore'
 
 /** Family-level settings: one PIN for the whole family, whichever child is using the app. */
 export interface Family {
@@ -51,8 +61,10 @@ export interface Family {
   recovery: PinHash | null
   /** Wrong PIN tries and the wait they started (parent/pin.ts). */
   pinLock: { wrong: number; until: number }
-  /** A mastered skill unlocks a short memory game made of its pictures. Off until a parent turns it on. */
-  gamesAllowed: boolean
+  /** Each game, radio, story, video and explore item: off, open, or "earn first" (app/items.ts). */
+  access: Record<ItemId, Access>
+  /** Earned time: minutes per passed lesson, and the most a day. */
+  rewards: { minutesPerLesson: number; maxPerDay: number }
   /** Reading aloud with a female or a male voice (shared/speak.ts). */
   voice: VoiceGender
 }
@@ -73,12 +85,12 @@ export interface AppState {
 export const MAX_MISSES = 300
 export const COLOURS = ['#5b6cf0', '#e2557e', '#178c84', '#e08a1e', '#8b5cf6', '#22a06b'] as const
 
-export const emptyFamily = (): Family => ({ pin: null, recovery: null, pinLock: { wrong: 0, until: 0 }, gamesAllowed: false, voice: 'female' })
+export const emptyFamily = (): Family => ({ pin: null, recovery: null, pinLock: { wrong: 0, until: 0 }, access: defaultAccess(), rewards: { minutesPerLesson: 10, maxPerDay: 45 }, voice: 'female' })
 
 export const emptyState = (): AppState => ({ version: STATE_VERSION, family: emptyFamily(), children: [], activeChild: null, lang: null, lastBackupAt: null, updatedAt: 0 })
 
 export function newChild(name: string, colour: string, id: string = crypto.randomUUID()): Child {
-  return { id, name: name.trim(), colour, skills: {}, misses: [], games: {} }
+  return { id, name: name.trim(), colour, skills: {}, misses: [], current: null, passes: {}, earnedUsed: {}, usage: {} }
 }
 
 const isObject = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v)
@@ -88,7 +100,8 @@ export function withDefaults(saved: unknown): AppState {
   const base = emptyState()
   if (!isObject(saved)) return base
   const state = { ...base, ...saved } as AppState
-  state.family = { ...emptyFamily(), ...(isObject(saved.family) ? saved.family : {}) }
+  const savedFamily = isObject(saved.family) ? saved.family : {}
+  state.family = { ...emptyFamily(), ...savedFamily, access: { ...defaultAccess(), ...(isObject(savedFamily.access) ? savedFamily.access : {}) } }
   state.children = Array.isArray(saved.children) ? saved.children.filter(isObject).map((c) => ({ ...newChild('', COLOURS[0], String(c.id ?? crypto.randomUUID())), ...c }) as Child) : []
   if (!state.children.some((c) => c.id === state.activeChild)) state.activeChild = state.children[0]?.id ?? null
   return state

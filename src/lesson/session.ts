@@ -1,4 +1,5 @@
 import { type Child, isoDate, MAX_MISSES, type Miss } from '@/app/state'
+import type { Lang } from '@/i18n'
 import { makeItems } from '@/skills/generate'
 import type { Item, Random, SkillDef } from '@/skills/types'
 
@@ -19,7 +20,7 @@ export interface Session {
   items: Item[]
 }
 
-export const newSession = (def: SkillDef, r: Random = Math.random): Session => ({ skill: def.id, items: makeItems(def, GUIDED + CHECKS, r, [def.example]) })
+export const newSession = (def: SkillDef, r: Random = Math.random, lang: Lang = 'en'): Session => ({ skill: def.id, items: makeItems(def, GUIDED + CHECKS, r, [def.example], lang) })
 
 /** A step of the session by its index: 0..1 guided, 2..6 checks. */
 export const stepOf = (index: number): { kind: 'guided' | 'check'; n: number; of: number } =>
@@ -50,6 +51,8 @@ export function finishSession(child: Child, skill: string, checks: CheckAnswer[]
   const misses: Miss[] = checks.filter((c) => !c.right).map((c) => ({ day: date, skill, prompt: c.prompt, given: c.given, answer: c.answer }))
   return {
     ...child,
+    // A passed lesson earns time (app/access.ts).
+    passes: right >= PASS ? { ...child.passes, [date]: (child.passes[date] ?? 0) + 1 } : child.passes,
     skills: {
       ...child.skills,
       [skill]: {

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { seeded } from '@/skills/generate'
 import { SKILLS } from '@/skills/index'
-import { GAME_SECONDS, makeCards, PAIRS, secondsLeft } from './pairs'
+import { makeCards, PAIRS } from './pairs'
 
 describe('memory game cards', () => {
   for (const def of SKILLS) {
@@ -18,9 +18,4 @@ describe('memory game cards', () => {
       expect(new Set(answers).size).toBe(pairs)
     })
   }
-  it('gives 5 minutes per learnt skill', () => {
-    expect(secondsLeft(undefined)).toBe(GAME_SECONDS)
-    expect(secondsLeft(200)).toBe(100)
-    expect(secondsLeft(400)).toBe(0)
-  })
 })

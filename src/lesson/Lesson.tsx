@@ -1,16 +1,17 @@
 import { ArrowLeft, ArrowRight, Volume2 } from 'lucide-react'
 import { useEffect, useState } from 'react'
+import { earnedMinutes } from '@/app/access'
 import { activeChild, updateChild } from '@/app/state'
+import { useToday } from '@/shared/useToday'
 import { useStore } from '@/app/store'
 import { type Lang, useLang, useT } from '@/i18n'
-import { secondsLeft } from '@/games/pairs'
 import { Emoji } from '@/shared/Emoji'
 import { speak, stopSpeaking, useCanSpeak } from '@/shared/speak'
 import { teachCard } from '@/skills/generate'
 import { bySubject, itemWords, skillById, skillLang, skillText } from '@/skills/index'
 import type { Choice, Item } from '@/skills/types'
 import { NumberLine } from './NumberLine'
-import { type CheckAnswer, CHECKS, finishSession, newSession, nextSkill, resultOf, stepOf } from './session'
+import { type CheckAnswer, CHECKS, finishSession, newSession, nextSkill, PASS, resultOf, stepOf } from './session'
 import { VisualView } from './VisualView'
 import './Lesson.css'
 
@@ -18,14 +19,14 @@ import './Lesson.css'
 const NEXT_DELAY_MS = 1200
 
 /** One session of one skill: teach card, two guided tries, five checks, result (session.ts). */
-export function Lesson({ skill, onClose, onGame }: { skill: string; onClose: () => void; onGame: (skill: string) => void }) {
+export function Lesson({ skill, onClose }: { skill: string; onClose: () => void }) {
   const T = useT()
   const def = skillById(skill)!
   const appLang = useLang()
   const lang = skillLang(def, appLang)
   const { state, update } = useStore()
   const child = activeChild(state)!
-  const [session] = useState(() => newSession(def))
+  const [session] = useState(() => newSession(def, Math.random, lang))
   const [phase, setPhase] = useState<'teach' | 'items' | 'result'>('teach')
   const [index, setIndex] = useState(0)
   const [checks, setChecks] = useState<CheckAnswer[]>([])
@@ -56,7 +57,7 @@ export function Lesson({ skill, onClose, onGame }: { skill: string; onClose: () 
       </header>
       {phase === 'teach' && <TeachCard skill={skill} lang={lang} onReady={() => setPhase('items')} />}
       {phase === 'items' && <Question key={index} skill={skill} item={session.items[index]} lang={lang} onAnswered={answered} onNext={next} />}
-      {phase === 'result' && <Result skill={skill} checks={checks} onClose={onClose} onGame={() => onGame(skill)} />}
+      {phase === 'result' && <Result skill={skill} checks={checks} onClose={onClose} />}
     </main>
   )
 }
@@ -65,7 +66,7 @@ export function Lesson({ skill, onClose, onGame }: { skill: string; onClose: () 
 function TeachCard({ skill, lang, onReady }: { skill: string; lang: Lang; onReady: () => void }) {
   const T = useT()
   const def = skillById(skill)!
-  const card = teachCard(def)
+  const card = teachCard(def, lang)
   const sentence = itemWords(def, card, lang).teach
   const canSpeak = useCanSpeak(lang)
   useEffect(() => speak(sentence, lang), [sentence, lang])
@@ -159,8 +160,9 @@ function Question({ skill, item, lang, onAnswered, onNext }: { skill: string; it
 }
 
 /** The end of the session: mastered (a tree, and the memory game when games are allowed) or "let's practise again". */
-function Result({ skill, checks, onClose, onGame }: { skill: string; checks: CheckAnswer[]; onClose: () => void; onGame: () => void }) {
+function Result({ skill, checks, onClose }: { skill: string; checks: CheckAnswer[]; onClose: () => void }) {
   const T = useT()
+  const today = useToday()
   const lang = useLang()
   const { state } = useStore()
   const def = skillById(skill)!
@@ -173,6 +175,9 @@ function Result({ skill, checks, onClose, onGame }: { skill: string; checks: Che
       .map((s) => s.id),
   )
   const upcomingDef = upcoming ? skillById(upcoming) : undefined
+  // The minutes this lesson earned (a passed lesson; none once today's most is reached).
+  const child = activeChild(state)!
+  const gained = right >= PASS ? earnedMinutes(child, state.family, today) - earnedMinutes({ ...child, passes: { ...child.passes, [today]: (child.passes[today] ?? 1) - 1 } }, state.family, today) : 0
   return (
     <section className="card lesson-card result">
       <Emoji name={mastered ? 'tree' : 'seedling'} size={150} className={mastered ? 'grow' : ''} />
@@ -180,12 +185,12 @@ function Result({ skill, checks, onClose, onGame }: { skill: string; checks: Che
       <p>{T.lesson.score(right, CHECKS)}</p>
       <p>{mastered ? T.lesson.learntText(skillText(def, lang).title) : T.lesson.notYetText}</p>
       {mastered && upcomingDef && <p className="pill">{T.lesson.nextUp(skillText(upcomingDef, lang).title)}</p>}
+      {gained > 0 && (
+        <p className="earned-now">
+          <Emoji name="clock" size={36} /> {T.access.earnedNow(gained)}
+        </p>
+      )}
       <div className="row center">
-        {mastered && state.family.gamesAllowed && secondsLeft(activeChild(state)!.games[skill]) > 0 && (
-          <button className="big secondary" onClick={onGame}>
-            <Emoji name="seedling" size={32} /> {T.games.unlocked}
-          </button>
-        )}
         <button className="big" onClick={onClose}>
           {T.lesson.backHome}
         </button>

@@ -275,3 +275,23 @@ button.round {
 .memory-card .sum.long {
   font-size: 0.9rem;
 }
+.earned-now {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--display);
+  font-weight: 600;
+  color: var(--mint);
+}
+/* An item (game, radio, place …) full screen. */
+.item-screen {
+  height: 100%;
+  overflow-y: auto;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 0.8rem;
+  padding: 1rem 1.2rem 1.2rem;
+  max-width: 64rem;
+  margin: 0 auto;
+  align-content: start;
+}

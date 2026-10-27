@@ -1,5 +1,6 @@
 import { type Calc, CALC, type CalcKind } from './numbers'
 import { int, numberChoices, pick, seeded, shuffled, withAnswer } from './random'
+import type { Lang } from '@/i18n'
 import type { GeneratorKind, Item, Random, SkillDef } from './types'
 import { WORD_CALC, type WordKind } from './words'
 
@@ -111,43 +112,43 @@ function solved(visual: Item['visual'], answer: string | number): Item['visual']
 }
 
 /** A built skill's teach example as a full question (for the content test: its answer must be right), else null. */
-export function exampleItem(def: SkillDef): Item | null {
+export function exampleItem(def: SkillDef, lang: Lang = 'en'): Item | null {
   if (!isCalc(def.kind)) return null
-  return { values: def.example, ...BUILT[def.kind].build(def, def.example, seeded(1)) }
+  return { values: def.example, ...BUILT[def.kind].build(def, def.example, seeded(1), lang) }
 }
 
 /** The teach card's picture and number line, and its values for the sentence. */
-export function teachCard(def: SkillDef): Pick<Item, 'visual' | 'line' | 'values'> {
+export function teachCard(def: SkillDef, lang: Lang = 'en'): Pick<Item, 'visual' | 'line' | 'values'> {
   if (!isCalc(def.kind)) return { ...TEACH[def.kind](def), values: def.example }
   // A built skill's card is its question made from the fixed example, with the answer filled in.
-  const { visual, line } = BUILT[def.kind].build(def, def.example, seeded(1))
+  const { visual, line } = BUILT[def.kind].build(def, def.example, seeded(1), lang)
   return { visual: solved(visual, def.example.answer), line, values: def.example }
 }
 
 /** A fresh question for a skill. */
-export function makeItem(def: SkillDef, r: Random = Math.random): Item {
+export function makeItem(def: SkillDef, r: Random = Math.random, lang: Lang = 'en'): Item {
   if (!isCalc(def.kind)) return MAKERS[def.kind](def, r)
   const calc = BUILT[def.kind]
   const values = calc.pick(def, r)
-  return { values, ...calc.build(def, values, r) }
+  return { values, ...calc.build(def, values, r, lang) }
 }
 
 /** The same question is the same values (the order of the buttons does not matter). */
 export const itemKey = (item: Item) => JSON.stringify(item.values)
 
 /** `count` different questions, none equal to `avoid` (the teach example). */
-export function makeItems(def: SkillDef, count: number, r: Random = Math.random, avoid: Record<string, number | string>[] = []): Item[] {
+export function makeItems(def: SkillDef, count: number, r: Random = Math.random, avoid: Record<string, number | string>[] = [], lang: Lang = 'en'): Item[] {
   const seen = new Set(avoid.map((v) => JSON.stringify(v)))
   const out: Item[] = []
   for (let tries = 0; out.length < count && tries < 300; tries++) {
-    const item = makeItem(def, r)
+    const item = makeItem(def, r, lang)
     if (seen.has(itemKey(item))) continue
     seen.add(itemKey(item))
     out.push(item)
   }
   // A small skill can run out of different questions: then a question may come again, never twice in a row.
   while (out.length < count) {
-    const item = makeItem(def, r)
+    const item = makeItem(def, r, lang)
     if (out.length === 0 || itemKey(out[out.length - 1]) !== itemKey(item)) out.push(item)
   }
   return out

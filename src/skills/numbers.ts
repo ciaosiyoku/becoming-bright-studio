@@ -1,4 +1,5 @@
 import { int, numberChoices, pick, withAnswer } from './random'
+import type { Lang } from '@/i18n'
 import type { Item, Random, SkillDef } from './types'
 
 // The number skills brought back from the original (bigger numbers, times tables, place value, rounding, time,
@@ -11,7 +12,8 @@ import type { Item, Random, SkillDef } from './types'
 type Values = Record<string, number | string>
 export interface Calc {
   pick: (def: SkillDef, r: Random) => Values
-  build: (def: SkillDef, v: Values, r: Random) => Omit<Item, 'values'>
+  /** `lang`: the language of answers that are words (science banks); numbers and English words ignore it. */
+  build: (def: SkillDef, v: Values, r: Random, lang: Lang) => Omit<Item, 'values'>
 }
 
 const p = (def: SkillDef, key: string) => Number(def.params[key])

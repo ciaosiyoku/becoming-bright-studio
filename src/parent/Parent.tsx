@@ -5,6 +5,9 @@ import { useStore } from '@/app/store'
 import { BackupError, backupDue, makeBackup, parseBackup, saveBackupFile } from '@/data/backup'
 import { useLang, useT } from '@/i18n'
 import { skillById, SKILLS, skillText } from '@/skills/index'
+import { accessOf } from '@/app/access'
+import { type Access, type ItemId, ITEM_IDS, ITEMS } from '@/app/items'
+import { Emoji } from '@/shared/Emoji'
 import { NO_LOCK } from './pin'
 import { LanguagePicker } from '@/shared/LanguagePicker'
 import { speak, useVoiceChoice, type VoiceGender } from '@/shared/speak'
@@ -28,7 +31,7 @@ export function Parent({ onClose }: { onClose: () => void }) {
         <MissesCard key={c.id} child={c} />
       ))}
       <ChildrenCard />
-      <GamesCard />
+      <AccessCard />
       <section className="card parent-card">
         <h2>{T.language.label}</h2>
         <p className="muted">{T.language.note}</p>
@@ -130,23 +133,57 @@ function ChildrenCard() {
   )
 }
 
-/** "Games allowed": a learnt skill unlocks a short memory game made of its pictures. */
-function GamesCard() {
+/** What the child can open: each item off, open or "earn first", and how much time a passed lesson earns. */
+function AccessCard() {
   const T = useT()
   const { state, update } = useStore()
-  const on = state.family.gamesAllowed
+  const set = (id: ItemId, value: Access) => update((s) => ({ ...s, family: { ...s.family, access: { ...s.family.access, [id]: value } } }))
+  const reward = (change: Partial<typeof state.family.rewards>) => update((s) => ({ ...s, family: { ...s.family, rewards: { ...s.family.rewards, ...change } } }))
+  const r = state.family.rewards
   return (
     <section className="card parent-card">
-      <h2>{T.parent.games}</h2>
-      <p className="muted">{T.parent.gamesNote}</p>
-      <div className="row">
-        {([true, false] as const).map((value) => (
-          <button key={String(value)} className={on === value ? '' : 'secondary'} aria-pressed={on === value} onClick={() => update((s) => ({ ...s, family: { ...s.family, gamesAllowed: value } }))}>
-            {value ? T.common.on : T.common.off}
-          </button>
-        ))}
-      </div>
+      <h2>{T.parent.accessTitle}</h2>
+      <p className="muted">{T.parent.accessNote}</p>
+      <table className="access">
+        <tbody>
+          {ITEM_IDS.map((id) => (
+            <tr key={id}>
+              <td>
+                <Emoji name={ITEMS[id].emoji} size={28} /> {T.items[id]}
+              </td>
+              <td>
+                <div className="segmented">
+                  {(['off', 'open', 'earn'] as const).map((value) => (
+                    <button key={value} className={accessOf(state.family, id, ITEMS[id].access) === value ? '' : 'secondary'} aria-pressed={accessOf(state.family, id, ITEMS[id].access) === value} onClick={() => set(id, value)}>
+                      {T.access[value]}
+                    </button>
+                  ))}
+                </div>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <Stepper label={T.parent.minutesPerLesson} value={r.minutesPerLesson} min={5} max={30} step={5} onChange={(n) => reward({ minutesPerLesson: n })} />
+      <Stepper label={T.parent.maxPerDay} value={r.maxPerDay} min={10} max={180} step={5} onChange={(n) => reward({ maxPerDay: n })} />
     </section>
+  )
+}
+
+function Stepper({ label, value, min, max, step, onChange }: { label: string; value: number; min: number; max: number; step: number; onChange: (n: number) => void }) {
+  return (
+    <div className="stepper-row">
+      <span>{label}</span>
+      <div className="row">
+        <button className="secondary round" onClick={() => onChange(Math.max(min, value - step))} disabled={value <= min} aria-label={`${label} −`}>
+          −
+        </button>
+        <strong>{value} min</strong>
+        <button className="secondary round" onClick={() => onChange(Math.min(max, value + step))} disabled={value >= max} aria-label={`${label} +`}>
+          +
+        </button>
+      </div>
+    </div>
   )
 }
 

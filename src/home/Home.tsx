@@ -1,74 +1,96 @@
-import { Settings } from 'lucide-react'
+import { ArrowLeft } from 'lucide-react'
 import { useState } from 'react'
-import { activeChild } from '@/app/state'
+import { activeChild, updateChild } from '@/app/state'
 import { useStore } from '@/app/store'
 import { backupDue } from '@/data/backup'
 import { useLang, useT } from '@/i18n'
-import { secondsLeft } from '@/games/pairs'
 import { Emoji } from '@/shared/Emoji'
-import { bySubject, SKILLS, skillText, SUBJECTS } from '@/skills/index'
+import { bySubject, skillById, skillText, SUBJECT_EMOJI, SUBJECTS } from '@/skills/index'
+import type { Subject } from '@/skills/types'
 import './Home.css'
 
-const clock = (s: number) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`
-
 /**
- * The child's home: who is learning (when there are two or more children), hello, every skill to choose from
- * (grouped by subject, easiest first, learnt ones shown as trees), memory games when allowed, and (once a week) a
- * backup reminder for the grown-ups. Switching child needs no PIN and no second install.
+ * The Learn tab: only the skill the child chose (and a button to choose another), so one thing is in front of them.
+ * Choosing is two steps: a subject, then one of its skills in teaching order (learnt ones show as trees).
+ * Once a week, a backup reminder for the grown-ups.
  */
-export function Home({ onLesson, onGame, onParent }: { onLesson: (skill: string) => void; onGame: (skill: string) => void; onParent: () => void }) {
+export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void; onParent: () => void }) {
   const T = useT()
   const lang = useLang()
   const { state, update } = useStore()
   const child = activeChild(state)!
   const [now] = useState(Date.now)
-  // Memory games: one per learnt skill with time left, only when the grown-ups allow games.
-  const games = state.family.gamesAllowed ? SKILLS.filter((s) => child.skills[s.id]?.mastered && secondsLeft(child.games[s.id]) > 0) : []
+  const current = child.current ? skillById(child.current) : undefined
+  const [choosing, setChoosing] = useState<Subject | 'subjects' | null>(current ? null : 'subjects')
+  const choose = (id: string) => {
+    update((s) => updateChild(s, child.id, (c) => ({ ...c, current: id })))
+    setChoosing(null)
+  }
+
   return (
-    <main className="home">
-      <header className="home-top">
-        <h1>{T.home.hello(child.name)}</h1>
-        <button className="secondary" onClick={onParent}>
-          <Settings /> {T.home.parents}
-        </button>
-      </header>
-      {state.children.length > 1 && (
-        <nav className="children" aria-label={T.home.who}>
-          {state.children.map((c) => (
-            <button key={c.id} className={c.id === child.id ? 'child on' : 'child'} style={{ ['--child' as string]: c.colour }} aria-pressed={c.id === child.id} onClick={() => update((s) => ({ ...s, activeChild: c.id }))}>
-              {c.name || '?'}
-            </button>
-          ))}
-        </nav>
-      )}
+    <main className="page">
       {backupDue(state, now) && (
         <button className="backup-reminder secondary" onClick={onParent}>
           <Emoji name="memo" size={32} /> {T.home.backupDue}
         </button>
       )}
-      {games.length > 0 && (
-        <section className="card">
-          <h2>{T.games.title}</h2>
-          <div className="games-row">
-            {games.map((def) => (
-              <button key={def.id} className="secondary game-tile" onClick={() => onGame(def.id)}>
-                <Emoji name={def.emoji} size={40} />
-                <span>{skillText(def, lang).title}</span>
-                <small>{T.games.left(clock(secondsLeft(child.games[def.id])))}</small>
-              </button>
-            ))}
+      {choosing === null && current && (
+        <section className="card todays">
+          <h2>{T.home.yourSkill}</h2>
+          <Emoji name={child.skills[current.id]?.mastered ? 'tree' : current.emoji} size={120} />
+          <p className="todays-title">{skillText(current, lang).title}</p>
+          <p className="muted">
+            {T.home.subjects[current.subject]} · {child.skills[current.id]?.mastered ? T.home.learnt : T.home.level(current.stage + 1)}
+          </p>
+          <div className="row center">
+            <button className="big" onClick={() => onLesson(current.id)}>
+              {T.home.start}
+            </button>
+            <button className="secondary" onClick={() => setChoosing('subjects')}>
+              {T.home.change}
+            </button>
           </div>
         </section>
       )}
-      <h2 className="choose">{T.home.choose}</h2>
-      {SUBJECTS.map((subject) => (
-        <section key={subject} className="card">
-          <h2>{T.home.subjects[subject]}</h2>
+      {choosing === 'subjects' && (
+        <section className="card">
+          <div className="chooser-top">
+            {current && (
+              <button className="secondary round" onClick={() => setChoosing(null)} aria-label={T.common.back}>
+                <ArrowLeft />
+              </button>
+            )}
+            <h2>{T.home.chooseSubject}</h2>
+          </div>
+          <div className="tiles">
+            {SUBJECTS.map((subject) => {
+              const skills = bySubject(subject)
+              const learnt = skills.filter((s) => child.skills[s.id]?.mastered).length
+              return (
+                <button key={subject} className="tile" onClick={() => setChoosing(subject)}>
+                  <Emoji name={SUBJECT_EMOJI[subject]} size={56} />
+                  <span>{T.home.subjects[subject]}</span>
+                  <small>{T.home.learntOf(learnt, skills.length)}</small>
+                </button>
+              )
+            })}
+          </div>
+        </section>
+      )}
+      {choosing !== null && choosing !== 'subjects' && (
+        <section className="card">
+          <div className="chooser-top">
+            <button className="secondary round" onClick={() => setChoosing('subjects')} aria-label={T.common.back}>
+              <ArrowLeft />
+            </button>
+            <h2>{T.home.subjects[choosing]}</h2>
+          </div>
+          <p className="muted">{T.home.pickSkill}</p>
           <div className="path">
-            {bySubject(subject).map((def) => {
+            {bySubject(choosing).map((def) => {
               const learnt = Boolean(child.skills[def.id]?.mastered)
               return (
-                <button key={def.id} className={`path-skill ${learnt ? 'learnt' : ''}`} onClick={() => onLesson(def.id)}>
+                <button key={def.id} className={`path-skill ${learnt ? 'learnt' : ''} ${def.id === child.current ? 'open' : ''}`} onClick={() => choose(def.id)}>
                   <Emoji name={learnt ? 'tree' : def.emoji} size={48} />
                   <span>{skillText(def, lang).title}</span>
                   <small>{learnt ? T.home.learnt : T.home.level(def.stage + 1)}</small>
@@ -77,7 +99,7 @@ export function Home({ onLesson, onGame, onParent }: { onLesson: (skill: string)
             })}
           </div>
         </section>
-      ))}
+      )}
     </main>
   )
 }

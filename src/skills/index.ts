@@ -9,6 +9,8 @@ export const SKILLS: SkillDef[] = Object.values(import.meta.glob<SkillDef>('./*.
 
 /** The subjects in home-screen order, each with its skills in teaching order. */
 export const SUBJECTS: Subject[] = ['numbers', 'words', 'patterns']
+/** The picture of each subject (the skill chooser). */
+export const SUBJECT_EMOJI: Record<Subject, string> = { numbers: 'abacus', words: 'letters', patterns: 'puzzle' }
 export const bySubject = (subject: Subject) => SKILLS.filter((s) => s.subject === subject).sort((a, b) => a.order - b.order)
 
 export const skillById = (id: string): SkillDef | undefined => SKILLS.find((s) => s.id === id)

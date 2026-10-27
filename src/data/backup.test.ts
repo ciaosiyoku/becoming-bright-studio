@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { emptyState, newChild, withDefaults } from '@/app/state'
+import { emptyFamily, emptyState, newChild, withDefaults } from '@/app/state'
 import { BackupError, backupDue, makeBackup, parseBackup } from './backup'
 
 const DAY = 24 * 60 * 60 * 1000
@@ -14,12 +14,12 @@ describe('backup file', () => {
     const s = withChild(true)
     expect(parseBackup(makeBackup(s)).children).toEqual(s.children)
   })
-  it('never holds the PIN or the recovery code, but keeps the games switch', () => {
+  it('never holds the PIN or the recovery code, but keeps the other settings', () => {
     const hash = { salt: 's', hash: 'h', iterations: 1 }
-    const s = { ...withChild(true), family: { pin: hash, recovery: hash, pinLock: { wrong: 3, until: 9 }, gamesAllowed: true, voice: 'male' as const } }
+    const s = { ...withChild(true), family: { ...emptyFamily(), pin: hash, recovery: hash, pinLock: { wrong: 3, until: 9 }, voice: 'male' as const } }
     const text = makeBackup(s)
     expect(text).not.toContain('"h"')
-    expect(parseBackup(text).family).toEqual({ pin: null, recovery: null, pinLock: { wrong: 0, until: 0 }, gamesAllowed: true, voice: 'male' })
+    expect(parseBackup(text).family).toEqual({ ...emptyFamily(), voice: 'male' })
   })
   it('says what is wrong with a file that is not a backup', () => {
     const reason = (text: string) => {
