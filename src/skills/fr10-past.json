@@ -1,0 +1,274 @@
+{
+  "id": "fr10-past",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 5,
+  "ages": [
+    "10-12"
+  ],
+  "order": 33,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "cake",
+      "memo",
+      "tv",
+      "game",
+      "framed",
+      "gift",
+      "fruit-apple",
+      "medal",
+      "house",
+      "puzzle",
+      "bus",
+      "star",
+      "droplet",
+      "books",
+      "letters",
+      "openbook",
+      "cocoa",
+      "memo",
+      "game",
+      "party",
+      "radio",
+      "fruit-banana",
+      "music",
+      "backpack",
+      "moon",
+      "cocoa",
+      "trophy",
+      "tv",
+      "road",
+      "telephone"
+    ],
+    "bank": {
+      "en": [
+        [
+          "J’___ mangé un gâteau.",
+          "ai",
+          "as",
+          "a",
+          "With je, avoir is ai. J’ai mangé means I ate."
+        ],
+        [
+          "Tu ___ fini tes devoirs.",
+          "as",
+          "a",
+          "ai",
+          "With tu, avoir is as: tu as fini."
+        ],
+        [
+          "Elle ___ regardé un film.",
+          "a",
+          "as",
+          "ont",
+          "With elle, avoir is a: elle a regardé."
+        ],
+        [
+          "Nous ___ joué au foot.",
+          "avons",
+          "avez",
+          "ont",
+          "With nous, avoir is avons: nous avons joué."
+        ],
+        [
+          "Vous ___ visité le musée.",
+          "avez",
+          "avons",
+          "ont",
+          "With vous, avoir is avez: vous avez visité."
+        ],
+        [
+          "Ils ___ acheté du pain.",
+          "ont",
+          "a",
+          "avons",
+          "With ils, avoir is ont: ils ont acheté."
+        ],
+        [
+          "What is the past participle of manger?",
+          "mangé",
+          "mangi",
+          "manger",
+          "-er verbs drop -er and add -é: manger becomes mangé."
+        ],
+        [
+          "What is the past participle of finir?",
+          "fini",
+          "finé",
+          "finu",
+          "-ir verbs like finir drop the r: fini."
+        ],
+        [
+          "What is the past participle of vendre?",
+          "vendu",
+          "vendé",
+          "vendi",
+          "-re verbs like vendre end in -u: vendu."
+        ],
+        [
+          "What is the past participle of faire?",
+          "fait",
+          "faisé",
+          "faité",
+          "Faire is irregular. Its past participle is fait: j’ai fait."
+        ],
+        [
+          "What is the past participle of prendre?",
+          "pris",
+          "prendu",
+          "prené",
+          "Prendre is irregular. Its past participle is pris: j’ai pris le bus."
+        ],
+        [
+          "What is the past participle of voir?",
+          "vu",
+          "voyé",
+          "vois",
+          "Voir is irregular. Its past participle is vu: j’ai vu."
+        ],
+        [
+          "What is the past participle of boire?",
+          "bu",
+          "boiré",
+          "buvé",
+          "Boire is irregular. Its past participle is bu: j’ai bu."
+        ],
+        [
+          "What is the past participle of lire?",
+          "lu",
+          "liré",
+          "lisé",
+          "Lire is irregular. Its past participle is lu: j’ai lu."
+        ],
+        [
+          "What is the past participle of écrire?",
+          "écrit",
+          "écriré",
+          "écrivu",
+          "Écrire is irregular. Its past participle is écrit: j’ai écrit."
+        ],
+        [
+          "Hier, j’ai ___ un livre.",
+          "lu",
+          "lire",
+          "lis",
+          "After j’ai, you need the past participle lu."
+        ],
+        [
+          "Ce matin, nous avons ___ le petit déjeuner.",
+          "pris",
+          "prendre",
+          "prenons",
+          "After avons, you need the past participle pris."
+        ],
+        [
+          "Elle a ___ une lettre à sa tante.",
+          "écrit",
+          "écrire",
+          "écrivé",
+          "After a, use the past participle écrit."
+        ],
+        [
+          "What does J’ai joué mean?",
+          "I played",
+          "I am going to play",
+          "I am playing now",
+          "J’ai plus a past participle talks about the past: I played."
+        ],
+        [
+          "What does Ils ont dansé mean?",
+          "They danced",
+          "They are dancing",
+          "They are going to dance",
+          "Ils ont dansé is the passé composé, so it is in the past."
+        ],
+        [
+          "How do you say We listened to the radio in French?",
+          "Nous avons écouté la radio.",
+          "Nous écoutons la radio.",
+          "Nous avons écouter la radio.",
+          "The past needs avons plus the past participle écouté."
+        ],
+        [
+          "How do you say She finished her lunch in French?",
+          "Elle a fini son déjeuner.",
+          "Elle a finé son déjeuner.",
+          "Elle finit son déjeuner.",
+          "The past participle of finir is fini. Elle finit is the present."
+        ],
+        [
+          "Which sentence is in the past?",
+          "Tu as chanté.",
+          "Tu chantes.",
+          "Tu vas chanter.",
+          "Tu as chanté uses avoir and a past participle, so it is the past."
+        ],
+        [
+          "Je n’ai pas ___ mon sac.",
+          "trouvé",
+          "trouver",
+          "trouve",
+          "Ne … pas goes around avoir, then comes the past participle trouvé."
+        ],
+        [
+          "Which sentence is correct?",
+          "Il n’a pas dormi.",
+          "Il ne pas a dormi.",
+          "Il n’a dormi pas.",
+          "In the past, ne … pas goes around the form of avoir: il n’a pas dormi."
+        ],
+        [
+          "Hier soir, vous avez ___ du chocolat chaud.",
+          "bu",
+          "boire",
+          "buvez",
+          "After avez, use the past participle bu."
+        ],
+        [
+          "Mes amis ont ___ le match.",
+          "gagné",
+          "gagner",
+          "gagnent",
+          "Gagner is an -er verb, so its past participle is gagné."
+        ],
+        [
+          "Which word is the past participle in Nous avons vu un film?",
+          "vu",
+          "avons",
+          "film",
+          "Vu is the past participle of voir. Avons is the form of avoir."
+        ],
+        [
+          "Le week-end dernier, nous ___ fait du vélo.",
+          "avons",
+          "sommes",
+          "allons",
+          "Faire takes avoir in the past: nous avons fait."
+        ],
+        [
+          "Tu as ___ ta grand-mère ?",
+          "appelé",
+          "appeler",
+          "appelles",
+          "After as, use the past participle appelé."
+        ]
+      ]
+    }
+  },
+  "emoji": "scroll",
+  "example": {
+    "i": 0,
+    "q_en": "J’___ mangé un gâteau.",
+    "answer_en": "ai",
+    "why_en": "With je, avoir is ai. J’ai mangé means I ate."
+  },
+  "text": {
+    "en": {
+      "title": "The past with avoir",
+      "teach": "The passé composé uses avoir in the present plus a past participle. Most -er verbs end in -é: J’ai mangé une pomme. (I ate an apple.)",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

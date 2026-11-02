@@ -1,0 +1,55 @@
+{
+  "id": "steps-25-250",
+  "kind": "sequence",
+  "subject": "patterns",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 13,
+  "params": {
+    "steps": [
+      25,
+      50,
+      250,
+      -25,
+      -50
+    ],
+    "start": [
+      100,
+      1000
+    ]
+  },
+  "emoji": "chart",
+  "example": {
+    "items": "250, 500, 750, 1000",
+    "answer": 1250,
+    "steps": "+250   +250   +250   +250"
+  },
+  "text": {
+    "en": {
+      "title": "Sequences in 25s, 50s and 250s",
+      "teach": "Find the step by taking each number from the next. 250, 500, 750, 1000: each step is +250, so next comes 1250.",
+      "prompt": "Which number comes next?",
+      "reason": "The steps are {steps}, so the next number is {answer}."
+    },
+    "de": {
+      "title": "Zahlenfolgen in 25er-, 50er- und 250er-Schritten",
+      "teach": "Finde den Schritt, indem du jede Zahl von der nächsten abziehst. 250, 500, 750, 1000: Jeder Schritt ist +250, also kommt als Nächstes 1250.",
+      "prompt": "Welche Zahl kommt als Nächstes?",
+      "reason": "Die Schritte sind {steps}, also ist die nächste Zahl {answer}."
+    },
+    "fr": {
+      "title": "Suites de 25 en 25, de 50 en 50 et de 250 en 250",
+      "teach": "Trouve le pas en enlevant chaque nombre du suivant. 250, 500, 750, 1000 : chaque pas est +250, donc ensuite vient 1250.",
+      "prompt": "Quel nombre vient ensuite ?",
+      "reason": "Les pas sont {steps}, donc le nombre suivant est {answer}."
+    },
+    "yo": {
+      "title": "Ìtẹ̀léra ní 25, 50 àti 250",
+      "teach": "Wá ìgbésẹ̀ náà nípa yíyọ nọ́ńbà kọ̀ọ̀kan kúrò nínú èyí tó tẹ̀lé e. 250, 500, 750, 1000: ìgbésẹ̀ kọ̀ọ̀kan jẹ́ +250, nítorí náà 1250 ló kàn.",
+      "prompt": "Nọ́ńbà wo ló kàn?",
+      "reason": "Àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà nọ́ńbà tó kàn ni {answer}."
+    }
+  }
+}

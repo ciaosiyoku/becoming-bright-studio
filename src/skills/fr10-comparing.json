@@ -1,0 +1,274 @@
+{
+  "id": "fr10-comparing",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 5,
+  "ages": [
+    "10-12"
+  ],
+  "order": 37,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "animal-elephant",
+      "animal-mouse",
+      "animal-snail",
+      "animal-turtle",
+      "sun",
+      "snowman",
+      "teddy",
+      "gift",
+      "calendar",
+      "footprints",
+      "girl",
+      "fruit-apple",
+      "cake",
+      "fruit-cherries",
+      "palette",
+      "backpack",
+      "game",
+      "moon",
+      "tree",
+      "bus",
+      "animal-spouting-whale",
+      "medal",
+      "fruit-lemon",
+      "mountain",
+      "puzzle",
+      "chart",
+      "abacus",
+      "animal-giraffe",
+      "gradcap",
+      "road"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Un éléphant est ___ grand qu’une souris.",
+          "plus",
+          "moins",
+          "aussi",
+          "An elephant is much bigger than a mouse, so it is plus grand."
+        ],
+        [
+          "Une souris est ___ petite qu’un chat.",
+          "plus",
+          "moins",
+          "aussi",
+          "A mouse is smaller than a cat, so it is plus petite."
+        ],
+        [
+          "Un escargot est ___ rapide qu’un cheval.",
+          "moins",
+          "plus",
+          "aussi",
+          "A snail is much slower than a horse, so it is moins rapide."
+        ],
+        [
+          "Une tortue est ___ lente qu’un lapin.",
+          "plus",
+          "moins",
+          "aussi",
+          "A tortoise is slower than a rabbit, so it is plus lente."
+        ],
+        [
+          "Le Soleil est ___ chaud que la Lune.",
+          "plus",
+          "moins",
+          "aussi",
+          "The Sun is a hot star, much hotter than the Moon."
+        ],
+        [
+          "L’hiver est ___ froid que l’été.",
+          "plus",
+          "moins",
+          "aussi",
+          "Winter is colder than summer, so it is plus froid."
+        ],
+        [
+          "What does aussi grand que mean?",
+          "as big as",
+          "bigger than",
+          "less big than",
+          "Aussi … que means as … as."
+        ],
+        [
+          "What does moins cher que mean?",
+          "cheaper than",
+          "more expensive than",
+          "as expensive as",
+          "Moins cher means less expensive, which is cheaper."
+        ],
+        [
+          "Léa a 11 ans et Tom a 11 ans. Léa est ___ âgée que Tom.",
+          "aussi",
+          "plus",
+          "moins",
+          "They are the same age, so Léa is aussi âgée que Tom."
+        ],
+        [
+          "Mon frère est plus ___ que moi.",
+          "grand",
+          "grande",
+          "grands",
+          "Frère is masculine and singular, so the adjective is grand."
+        ],
+        [
+          "Ma sœur est moins ___ que mon frère.",
+          "grande",
+          "grand",
+          "grands",
+          "Sœur is feminine, so the adjective adds -e: grande."
+        ],
+        [
+          "Ces pommes sont plus ___ que ces poires.",
+          "petites",
+          "petit",
+          "petits",
+          "Pommes is feminine and plural, so the adjective is petites."
+        ],
+        [
+          "Ce gâteau est ___ que l’autre. (better)",
+          "meilleur",
+          "plus bon",
+          "bonne",
+          "Better is meilleur. French never says plus bon."
+        ],
+        [
+          "Cette tarte est ___ que l’autre. (better)",
+          "meilleure",
+          "meilleur",
+          "plus bonne",
+          "Tarte is feminine, so better is meilleure with an -e."
+        ],
+        [
+          "Which sentence is correct?",
+          "Ton dessin est meilleur que le mien.",
+          "Ton dessin est plus bon que le mien.",
+          "Ton dessin est bon plus que le mien.",
+          "Better is meilleur, never plus bon."
+        ],
+        [
+          "How do you say My bag is heavier than your bag in French?",
+          "Mon sac est plus lourd que ton sac.",
+          "Mon sac est moins lourd que ton sac.",
+          "Mon sac est aussi lourd que ton sac.",
+          "Heavier means more heavy, so use plus lourd que."
+        ],
+        [
+          "How do you say Football is as much fun as tennis in French?",
+          "Le foot est aussi amusant que le tennis.",
+          "Le foot est plus amusant que le tennis.",
+          "Le foot est moins amusant que le tennis.",
+          "As … as is aussi … que."
+        ],
+        [
+          "How do you say She is less tired than me in French?",
+          "Elle est moins fatiguée que moi.",
+          "Elle est plus fatiguée que moi.",
+          "Elle est aussi fatiguée que moi.",
+          "Less … than is moins … que."
+        ],
+        [
+          "Il est plus grand ___ son père.",
+          "que",
+          "de",
+          "comme",
+          "In a comparison, than is que."
+        ],
+        [
+          "Le train est plus rapide ___ le bus.",
+          "que",
+          "comme",
+          "de",
+          "Plus … que means more … than."
+        ],
+        [
+          "La baleine bleue est l’animal le ___ grand du monde.",
+          "plus",
+          "moins",
+          "meilleur",
+          "The blue whale is the biggest animal in the world: le plus grand."
+        ],
+        [
+          "What does meilleur mean?",
+          "better",
+          "worse",
+          "bigger",
+          "Meilleur means better. It replaces plus bon."
+        ],
+        [
+          "Le chocolat est ___ sucré que le citron.",
+          "plus",
+          "moins",
+          "aussi",
+          "Chocolate is sweeter than a lemon, so it is plus sucré."
+        ],
+        [
+          "Une montagne est ___ haute qu’une colline.",
+          "plus",
+          "moins",
+          "aussi",
+          "A mountain is higher than a hill, so it is plus haute."
+        ],
+        [
+          "Un kilo de plumes est ___ lourd qu’un kilo de pierres.",
+          "aussi",
+          "plus",
+          "moins",
+          "A kilo is a kilo, so they weigh the same: aussi lourd."
+        ],
+        [
+          "Which pair means more … than?",
+          "plus … que",
+          "moins … que",
+          "aussi … que",
+          "Plus … que means more … than."
+        ],
+        [
+          "Tom est ___ en maths qu’en dessin. (better)",
+          "meilleur",
+          "plus bon",
+          "bon plus",
+          "Better is meilleur: Tom est meilleur en maths."
+        ],
+        [
+          "Les girafes sont ___ grandes que les zèbres.",
+          "plus",
+          "moins",
+          "aussi",
+          "Giraffes are taller than zebras, so they are plus grandes."
+        ],
+        [
+          "How do you say Lucie is as clever as Marc in French?",
+          "Lucie est aussi intelligente que Marc.",
+          "Lucie est aussi intelligent que Marc.",
+          "Lucie est plus intelligente que Marc.",
+          "As … as is aussi … que, and Lucie is a girl, so intelligente has an -e."
+        ],
+        [
+          "Un vélo est ___ cher qu’une voiture.",
+          "moins",
+          "plus",
+          "aussi",
+          "A bike costs less than a car, so it is moins cher."
+        ]
+      ]
+    }
+  },
+  "emoji": "chart",
+  "example": {
+    "i": 0,
+    "q_en": "Un éléphant est ___ grand qu’une souris.",
+    "answer_en": "plus",
+    "why_en": "An elephant is much bigger than a mouse, so it is plus grand."
+  },
+  "text": {
+    "en": {
+      "title": "Comparing things",
+      "teach": "Compare with plus … que (more … than), moins … que (less … than) and aussi … que (as … as). The adjective still agrees: Ma sœur est plus grande que moi. Bon becomes meilleur (better).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "id": "fr6-months",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 1,
+  "ages": [
+    "6-7"
+  ],
+  "order": 13,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "seedling",
+      "sun",
+      "speech",
+      "snowman",
+      "tree",
+      "snowflake",
+      "calendar",
+      "globe",
+      "beach",
+      "seedling",
+      "party",
+      "cake",
+      "calendar"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is “janvier” in English?",
+          "January",
+          "June",
+          "July",
+          "Janvier is January, the first month of the year."
+        ],
+        [
+          "How do you say February in French?",
+          "février",
+          "janvier",
+          "avril",
+          "February is février."
+        ],
+        [
+          "What is “mars” in English?",
+          "March",
+          "May",
+          "April",
+          "Mars is March, the third month."
+        ],
+        [
+          "How do you say April in French?",
+          "avril",
+          "août",
+          "mai",
+          "April is avril."
+        ],
+        [
+          "What is “mai” in English?",
+          "May",
+          "March",
+          "July",
+          "Mai is May."
+        ],
+        [
+          "How do you say June in French?",
+          "juin",
+          "juillet",
+          "janvier",
+          "June is juin. Juillet is July."
+        ],
+        [
+          "What is “juillet” in English?",
+          "July",
+          "June",
+          "January",
+          "Juillet is July."
+        ],
+        [
+          "How do you say August in French?",
+          "août",
+          "avril",
+          "octobre",
+          "August is août. It has a little hat on the u: û."
+        ],
+        [
+          "What is “septembre” in English?",
+          "September",
+          "October",
+          "November",
+          "Septembre is September."
+        ],
+        [
+          "How do you say October in French?",
+          "octobre",
+          "novembre",
+          "août",
+          "October is octobre."
+        ],
+        [
+          "What is “novembre” in English?",
+          "November",
+          "December",
+          "October",
+          "Novembre is November."
+        ],
+        [
+          "How do you say December in French?",
+          "décembre",
+          "novembre",
+          "dimanche",
+          "December is décembre. Dimanche is a day, not a month."
+        ],
+        [
+          "Which month comes after “janvier”?",
+          "février",
+          "mars",
+          "décembre",
+          "After January comes February: janvier, février."
+        ],
+        [
+          "Which month comes after “juin”?",
+          "juillet",
+          "mai",
+          "août",
+          "After June comes July: juin, juillet."
+        ],
+        [
+          "Which month comes before “septembre”?",
+          "août",
+          "octobre",
+          "juin",
+          "August comes just before September: août, septembre."
+        ],
+        [
+          "Which month comes after “décembre”?",
+          "janvier",
+          "novembre",
+          "février",
+          "After December a new year starts with janvier."
+        ],
+        [
+          "A year has “douze” months. How many is that?",
+          "12",
+          "2",
+          "20",
+          "Douze means 12, and there are 12 months in a year."
+        ],
+        [
+          "What is “le printemps”?",
+          "spring",
+          "summer",
+          "winter",
+          "Le printemps is spring, when new plants start to grow."
+        ],
+        [
+          "How do you say summer in French?",
+          "l’été",
+          "l’hiver",
+          "l’automne",
+          "Summer is l’été."
+        ],
+        [
+          "What is “l’automne”?",
+          "autumn",
+          "spring",
+          "summer",
+          "L’automne is autumn. It looks a lot like the English word."
+        ],
+        [
+          "How do you say winter in French?",
+          "l’hiver",
+          "l’été",
+          "le printemps",
+          "Winter is l’hiver."
+        ],
+        [
+          "In which season do leaves fall from the trees?",
+          "l’automne",
+          "le printemps",
+          "l’été",
+          "Leaves fall in autumn: l’automne."
+        ],
+        [
+          "In which season does it often snow?",
+          "l’hiver",
+          "l’été",
+          "le printemps",
+          "Snow comes most often in winter: l’hiver."
+        ],
+        [
+          "Which season comes after “l’hiver”?",
+          "le printemps",
+          "l’automne",
+          "l’été",
+          "After winter comes spring: l’hiver, le printemps."
+        ],
+        [
+          "What does “les quatre saisons” mean?",
+          "the four seasons",
+          "the four months",
+          "the four days",
+          "Quatre is four and les saisons are the seasons."
+        ],
+        [
+          "How do you say “in summer” in French?",
+          "en été",
+          "au été",
+          "en hiver",
+          "We say en été for in summer. En hiver means in winter."
+        ],
+        [
+          "How do you say “in spring” in French?",
+          "au printemps",
+          "en hiver",
+          "en automne",
+          "Spring is the one season that uses au: au printemps."
+        ],
+        [
+          "France’s national day is on 14 “juillet”. Which month is that?",
+          "July",
+          "June",
+          "January",
+          "Juillet is July, so the day is 14 July."
+        ],
+        [
+          "“Mon anniversaire est en mai.” When is the birthday?",
+          "in May",
+          "in March",
+          "in August",
+          "Mon anniversaire means my birthday, and mai is May."
+        ],
+        [
+          "Which word is a month, not a day?",
+          "mars",
+          "mardi",
+          "mercredi",
+          "Mars is March. Mardi and mercredi are days of the week."
+        ]
+      ]
+    }
+  },
+  "emoji": "calendar",
+  "example": {
+    "i": 0,
+    "q_en": "What is “janvier” in English?",
+    "answer_en": "January",
+    "why_en": "Janvier is January, the first month of the year."
+  },
+  "text": {
+    "en": {
+      "title": "Months and seasons in French",
+      "teach": "French months have no capital letter: janvier, février, mars, avril… The four seasons are le printemps, l’été, l’automne and l’hiver. We say en été, en automne, en hiver, but au printemps.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

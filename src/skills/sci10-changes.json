@@ -1,0 +1,936 @@
+{
+  "id": "sci10-changes",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 204,
+  "params": {
+    "emojis": [
+      "cocoa",
+      "memo",
+      "warning",
+      "droplet",
+      "sparkles",
+      "wave",
+      "gear",
+      "key",
+      "house",
+      "glowstar",
+      "cake",
+      "candle",
+      "snow",
+      "fire",
+      "tree",
+      "fruit-lemon",
+      "beach",
+      "puzzle",
+      "cookie",
+      "clock",
+      "plug",
+      "snowflake",
+      "road",
+      "sun",
+      "animal-cow",
+      "chart",
+      "mountain",
+      "rain",
+      "thermometer",
+      "chick"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which of these is a reversible change?",
+          "melting chocolate",
+          "burning paper",
+          "frying an egg",
+          "Melted chocolate becomes solid again when it cools. Burning and frying make new materials."
+        ],
+        [
+          "Which of these is an irreversible change?",
+          "burning wood",
+          "freezing water",
+          "melting butter",
+          "Burning turns wood into ash, smoke and gases. You cannot turn these back into wood."
+        ],
+        [
+          "What does it mean when scientists call a change irreversible?",
+          "new materials are made and the change cannot easily be undone",
+          "the material can be got back by cooling it",
+          "only the shape of the material has changed",
+          "In an irreversible change the particles join up in new ways, so the original materials are gone."
+        ],
+        [
+          "Salt has been dissolved in a glass of water. How could you get the salt back?",
+          "let the water evaporate",
+          "pour it through filter paper",
+          "stir it faster",
+          "When the water evaporates, salt crystals are left behind. Dissolved salt passes straight through a filter."
+        ],
+        [
+          "Sugar dissolves in hot tea and seems to disappear. Is the sugar destroyed?",
+          "no, it is still there, spread through the liquid",
+          "yes, the heat destroys it",
+          "yes, it turns into air",
+          "The tea tastes sweet because the sugar is still there. If the water evaporated, sugar would be left behind."
+        ],
+        [
+          "What is a solution?",
+          "a liquid with a substance dissolved in it, like salty water",
+          "a solid that has just melted",
+          "a liquid that has frozen solid",
+          "In a solution, such as salt water, the dissolved substance is spread evenly and cannot be seen."
+        ],
+        [
+          "Which things are needed for iron to rust?",
+          "water and oxygen from the air",
+          "sunlight and sand",
+          "heat and darkness",
+          "Rust forms when iron reacts with oxygen and water. Salty water makes it happen even faster."
+        ],
+        [
+          "An old iron key has gone rusty. What kind of change is this?",
+          "irreversible: the iron has become a new material",
+          "reversible, like melting",
+          "no change, only dirt on the surface",
+          "Rust is iron oxide, a new substance. It is flaky and weaker, and you cannot simply turn it back into iron."
+        ],
+        [
+          "How can you stop an iron gate from rusting?",
+          "paint it to keep out air and water",
+          "leave it out in the rain",
+          "splash it with salty water",
+          "A coat of paint or oil stops water and oxygen reaching the iron, so rust cannot form."
+        ],
+        [
+          "Which of these is a sign that a new substance has been made?",
+          "gas bubbles, a new smell or a lasting colour change",
+          "the material changes shape when squashed",
+          "a solid melts into a liquid",
+          "Bubbles of gas, new smells, light or heat, and colour changes are clues that an irreversible change has happened."
+        ],
+        [
+          "Why can’t a baked cake be turned back into eggs, flour, butter and sugar?",
+          "the heat made new substances",
+          "the cake is too sticky",
+          "the ingredients are hidden in the oven",
+          "Heating causes chemical changes in the ingredients, making new substances with a different texture and taste."
+        ],
+        [
+          "As a candle burns, the wax slowly gets used up. What happens to that wax?",
+          "it reacts with oxygen to make carbon dioxide and water vapour",
+          "it turns into more wax inside the candle",
+          "it soaks into the table",
+          "The burning wax becomes new gases that float away. Only the wax that melts and drips is a reversible change."
+        ],
+        [
+          "Which of these changes can be reversed simply by cooling?",
+          "melted wax turning solid again",
+          "ash from burnt paper",
+          "a hard-boiled egg",
+          "Cooling melted wax makes it solid again. Ash and cooked eggs are new materials, so cooling does not help."
+        ],
+        [
+          "Which three things does a fire need to keep burning?",
+          "fuel, heat and oxygen",
+          "water, salt and darkness",
+          "ice, sand and wind",
+          "Take away any one of fuel, heat or oxygen and the fire goes out. That is why a fire blanket smothers flames."
+        ],
+        [
+          "What is produced when wood burns?",
+          "ash, smoke and gases such as carbon dioxide",
+          "new, unburnt wood",
+          "sand and water only",
+          "Burning is irreversible: the wood reacts with oxygen and turns into completely different materials."
+        ],
+        [
+          "When you mix vinegar with bicarbonate of soda, it fizzes. What are the bubbles?",
+          "carbon dioxide, a new gas made by the reaction",
+          "air that was trapped in the bottle",
+          "steam because the mixture is boiling",
+          "The fizzing shows a new substance is being made, so this is an irreversible change. The mixture does not get hot."
+        ],
+        [
+          "You want to get the sand back out of a mixture of sand and salty water. Which method works best?",
+          "filtering",
+          "using a magnet",
+          "freezing it",
+          "Sand grains are too big to pass through filter paper, so they stay behind while the salty water drips through."
+        ],
+        [
+          "Iron filings have got mixed with sand. What is the easiest way to separate them?",
+          "pass a magnet over the mixture",
+          "dissolve the mixture in water",
+          "burn the mixture",
+          "Iron is magnetic and sand is not, so the magnet pulls out only the iron filings."
+        ],
+        [
+          "Some dried peas have fallen into a bowl of flour. Which method separates them quickly?",
+          "sieving",
+          "evaporating",
+          "using a magnet",
+          "The fine flour falls through the holes in a sieve, but the large peas are left on top."
+        ],
+        [
+          "Which change would make sugar dissolve fastest?",
+          "using hot water and stirring",
+          "using cold water and not stirring",
+          "using one big sugar lump instead of grains",
+          "Hot water particles move faster and stirring spreads the sugar, so it dissolves sooner. Small grains dissolve faster than a big lump."
+        ],
+        [
+          "Bread turns brown and crunchy in a toaster. Is this change reversible?",
+          "no, the heat has made new brown substances",
+          "yes, it turns back into bread when it cools",
+          "yes, if you sprinkle water on it",
+          "Toasting is a kind of cooking. The heat changes substances in the bread, so cooling or wetting it cannot undo this."
+        ],
+        [
+          "Water is frozen into ice cubes. What kind of change is this?",
+          "reversible: the ice can melt back into water",
+          "irreversible: ice is a brand-new substance",
+          "irreversible: the water is used up",
+          "Freezing only changes the state from liquid to solid. It is still water, and it melts back when warmed."
+        ],
+        [
+          "Cement powder is mixed with water and sets hard. What kind of change is this?",
+          "irreversible",
+          "reversible by heating it",
+          "reversible by adding more water",
+          "Setting cement is a chemical change. New hard materials form and cannot be turned back into powder and water."
+        ],
+        [
+          "A puddle dries up on a sunny day. What kind of change is this?",
+          "reversible: the water vapour can condense back into water",
+          "irreversible: the water has been destroyed",
+          "irreversible: the water has turned into salt",
+          "Evaporation turns liquid water into water vapour. When the vapour cools, it condenses into water again, for example as rain."
+        ],
+        [
+          "Milk left in a warm room goes sour. What kind of change is this?",
+          "irreversible: bacteria have made new substances",
+          "reversible: put it back in the fridge",
+          "not a change at all",
+          "Bacteria turn the milk sugar into acid, which makes the milk sour and lumpy. Cooling it again cannot undo this."
+        ],
+        [
+          "What is the difference between melting and dissolving?",
+          "melting needs heat; dissolving needs a liquid for the substance to mix into",
+          "they are exactly the same thing",
+          "melting only happens in water",
+          "Ice melts when heated, even without any other liquid. Sugar dissolves when its particles spread out among water particles."
+        ],
+        [
+          "Which word describes a material, such as sand, that will not dissolve in water?",
+          "insoluble",
+          "soluble",
+          "transparent",
+          "Soluble materials such as salt dissolve; insoluble materials such as sand stay as separate grains."
+        ],
+        [
+          "Which of these is soluble in water?",
+          "salt",
+          "sand",
+          "wood",
+          "Salt crystals break up and spread through water. Sand sinks and wood floats, but neither dissolves."
+        ],
+        [
+          "Chocolate starts to melt at about 34 °C. Where is a bar most likely to melt?",
+          "in a pocket on a hot summer day",
+          "in a freezer",
+          "in a fridge",
+          "A pocket on a hot day is warm enough to melt chocolate. A fridge and a freezer are far colder than 34 °C."
+        ],
+        [
+          "Why is cooking an egg an irreversible change?",
+          "the heat permanently changes the proteins in the egg",
+          "the egg becomes lighter",
+          "the shell falls off",
+          "Heat makes the runny, clear egg white turn solid and white. These new substances cannot be turned back into raw egg."
+        ]
+      ],
+      "de": [
+        [
+          "Welche dieser Veränderungen ist umkehrbar?",
+          "Schokolade schmelzen",
+          "Papier verbrennen",
+          "ein Ei braten",
+          "Geschmolzene Schokolade wird beim Abkühlen wieder fest. Beim Verbrennen und Braten entstehen neue Stoffe."
+        ],
+        [
+          "Welche dieser Veränderungen ist nicht umkehrbar?",
+          "Holz verbrennen",
+          "Wasser gefrieren lassen",
+          "Butter schmelzen",
+          "Beim Verbrennen wird Holz zu Asche, Rauch und Gasen. Daraus lässt sich kein Holz zurückgewinnen."
+        ],
+        [
+          "Was meinen Forschende, wenn sie eine Veränderung nicht umkehrbar nennen?",
+          "es entstehen neue Stoffe, und man kann die Veränderung nicht einfach rückgängig machen",
+          "man bekommt den Stoff durch Abkühlen zurück",
+          "nur die Form des Stoffes hat sich geändert",
+          "Bei einer nicht umkehrbaren Veränderung verbinden sich die Teilchen neu. Die Ausgangsstoffe sind dann verschwunden."
+        ],
+        [
+          "In einem Glas Wasser wurde Salz gelöst. Wie bekommst du das Salz zurück?",
+          "das Wasser verdunsten lassen",
+          "es durch Filterpapier gießen",
+          "schneller umrühren",
+          "Wenn das Wasser verdunstet, bleiben Salzkristalle zurück. Gelöstes Salz läuft einfach durch einen Filter."
+        ],
+        [
+          "Zucker löst sich in heißem Tee und scheint zu verschwinden. Ist der Zucker zerstört?",
+          "nein, er ist noch da, nur in der Flüssigkeit verteilt",
+          "ja, die Hitze zerstört ihn",
+          "ja, er wird zu Luft",
+          "Der Tee schmeckt süß, weil der Zucker noch da ist. Verdunstet das Wasser, bleibt der Zucker zurück."
+        ],
+        [
+          "Was ist eine Lösung?",
+          "eine Flüssigkeit, in der ein Stoff gelöst ist, wie Salzwasser",
+          "ein Feststoff, der gerade geschmolzen ist",
+          "eine Flüssigkeit, die fest gefroren ist",
+          "In einer Lösung wie Salzwasser ist der gelöste Stoff gleichmäßig verteilt und nicht zu sehen."
+        ],
+        [
+          "Was braucht Eisen, um zu rosten?",
+          "Wasser und Sauerstoff aus der Luft",
+          "Sonnenlicht und Sand",
+          "Hitze und Dunkelheit",
+          "Rost entsteht, wenn Eisen mit Sauerstoff und Wasser reagiert. Salzwasser beschleunigt das noch."
+        ],
+        [
+          "Ein alter Eisenschlüssel ist verrostet. Was für eine Veränderung ist das?",
+          "nicht umkehrbar: Aus Eisen ist ein neuer Stoff geworden",
+          "umkehrbar, wie Schmelzen",
+          "keine Veränderung, nur Schmutz auf der Oberfläche",
+          "Rost ist Eisenoxid, ein neuer Stoff. Er ist bröselig und schwächer und lässt sich nicht einfach wieder in Eisen verwandeln."
+        ],
+        [
+          "Wie kannst du ein Eisentor vor Rost schützen?",
+          "es streichen, damit Luft und Wasser nicht herankommen",
+          "es im Regen stehen lassen",
+          "es mit Salzwasser bespritzen",
+          "Eine Schicht Farbe oder Öl hält Wasser und Sauerstoff vom Eisen fern. So kann sich kein Rost bilden."
+        ],
+        [
+          "Was ist ein Hinweis darauf, dass ein neuer Stoff entstanden ist?",
+          "Gasblasen, ein neuer Geruch oder eine bleibende Farbänderung",
+          "der Stoff verändert seine Form, wenn man ihn drückt",
+          "ein Feststoff schmilzt zu einer Flüssigkeit",
+          "Gasblasen, neue Gerüche, Licht oder Wärme und Farbänderungen sind Hinweise auf eine nicht umkehrbare Veränderung."
+        ],
+        [
+          "Warum kann man einen gebackenen Kuchen nicht wieder in Eier, Mehl, Butter und Zucker zurückverwandeln?",
+          "die Hitze hat neue Stoffe gebildet",
+          "der Kuchen ist zu klebrig",
+          "die Zutaten verstecken sich im Ofen",
+          "Die Hitze verändert die Zutaten chemisch. Es entstehen neue Stoffe mit anderer Beschaffenheit und anderem Geschmack."
+        ],
+        [
+          "Beim Brennen einer Kerze wird das Wachs langsam weniger. Was passiert mit diesem Wachs?",
+          "es reagiert mit Sauerstoff zu Kohlendioxid und Wasserdampf",
+          "es wird zu neuem Wachs im Inneren der Kerze",
+          "es zieht in den Tisch ein",
+          "Das verbrannte Wachs wird zu neuen Gasen, die davonschweben. Nur das Wachs, das schmilzt und heruntertropft, ist umkehrbar verändert."
+        ],
+        [
+          "Welche dieser Veränderungen lässt sich einfach durch Abkühlen umkehren?",
+          "geschmolzenes Wachs wird wieder fest",
+          "Asche von verbranntem Papier",
+          "ein hart gekochtes Ei",
+          "Geschmolzenes Wachs wird beim Abkühlen wieder fest. Asche und gekochte Eier sind neue Stoffe, Abkühlen hilft da nicht."
+        ],
+        [
+          "Welche drei Dinge braucht ein Feuer, um weiterzubrennen?",
+          "Brennstoff, Hitze und Sauerstoff",
+          "Wasser, Salz und Dunkelheit",
+          "Eis, Sand und Wind",
+          "Fehlt Brennstoff, Hitze oder Sauerstoff, geht das Feuer aus. Darum erstickt eine Löschdecke die Flammen."
+        ],
+        [
+          "Was entsteht, wenn Holz verbrennt?",
+          "Asche, Rauch und Gase wie Kohlendioxid",
+          "neues, unverbranntes Holz",
+          "nur Sand und Wasser",
+          "Verbrennen ist nicht umkehrbar: Das Holz reagiert mit Sauerstoff und wird zu ganz anderen Stoffen."
+        ],
+        [
+          "Mischst du Essig mit Natron, sprudelt es. Was sind die Bläschen?",
+          "Kohlendioxid, ein neues Gas aus der Reaktion",
+          "Luft, die in der Flasche war",
+          "Dampf, weil die Mischung kocht",
+          "Das Sprudeln zeigt, dass ein neuer Stoff entsteht. Die Veränderung ist nicht umkehrbar. Die Mischung wird dabei nicht heiß."
+        ],
+        [
+          "Du willst den Sand aus einer Mischung aus Sand und Salzwasser zurückgewinnen. Welche Methode ist am besten?",
+          "Filtrieren",
+          "einen Magneten benutzen",
+          "die Mischung einfrieren",
+          "Sandkörner sind zu groß für das Filterpapier. Sie bleiben liegen, während das Salzwasser hindurchtropft."
+        ],
+        [
+          "Eisenspäne haben sich mit Sand vermischt. Wie trennst du sie am einfachsten?",
+          "mit einem Magneten über die Mischung fahren",
+          "die Mischung in Wasser lösen",
+          "die Mischung verbrennen",
+          "Eisen ist magnetisch, Sand nicht. Der Magnet zieht nur die Eisenspäne heraus."
+        ],
+        [
+          "Getrocknete Erbsen sind in eine Schüssel Mehl gefallen. Mit welcher Methode trennst du sie schnell?",
+          "Sieben",
+          "Verdampfen",
+          "einen Magneten benutzen",
+          "Das feine Mehl fällt durch die Löcher im Sieb, die großen Erbsen bleiben oben liegen."
+        ],
+        [
+          "Wodurch löst sich Zucker am schnellsten?",
+          "heißes Wasser verwenden und umrühren",
+          "kaltes Wasser verwenden und nicht rühren",
+          "ein großes Zuckerstück statt Kristallzucker nehmen",
+          "In heißem Wasser bewegen sich die Teilchen schneller, und Rühren verteilt den Zucker. Kleine Körner lösen sich schneller als ein großes Stück."
+        ],
+        [
+          "Brot wird im Toaster braun und knusprig. Ist diese Veränderung umkehrbar?",
+          "nein, die Hitze hat neue braune Stoffe gebildet",
+          "ja, beim Abkühlen wird es wieder zu Brot",
+          "ja, wenn man es mit Wasser besprüht",
+          "Toasten ist eine Art Kochen. Die Hitze verändert Stoffe im Brot. Abkühlen oder Befeuchten macht das nicht rückgängig."
+        ],
+        [
+          "Wasser wird zu Eiswürfeln gefroren. Was für eine Veränderung ist das?",
+          "umkehrbar: Das Eis kann wieder zu Wasser schmelzen",
+          "nicht umkehrbar: Eis ist ein völlig neuer Stoff",
+          "nicht umkehrbar: Das Wasser ist verbraucht",
+          "Beim Gefrieren ändert sich nur der Zustand von flüssig zu fest. Es bleibt Wasser und schmilzt beim Erwärmen wieder."
+        ],
+        [
+          "Zementpulver wird mit Wasser gemischt und härtet aus. Was für eine Veränderung ist das?",
+          "nicht umkehrbar",
+          "umkehrbar durch Erhitzen",
+          "umkehrbar durch mehr Wasser",
+          "Das Aushärten von Zement ist eine chemische Veränderung. Es entstehen neue harte Stoffe, die nicht wieder zu Pulver und Wasser werden."
+        ],
+        [
+          "Eine Pfütze trocknet an einem sonnigen Tag. Was für eine Veränderung ist das?",
+          "umkehrbar: Der Wasserdampf kann wieder zu Wasser kondensieren",
+          "nicht umkehrbar: Das Wasser ist zerstört",
+          "nicht umkehrbar: Das Wasser ist zu Salz geworden",
+          "Beim Verdunsten wird flüssiges Wasser zu Wasserdampf. Kühlt der Dampf ab, kondensiert er wieder zu Wasser, zum Beispiel als Regen."
+        ],
+        [
+          "Milch in einem warmen Raum wird sauer. Was für eine Veränderung ist das?",
+          "nicht umkehrbar: Bakterien haben neue Stoffe gebildet",
+          "umkehrbar: einfach wieder in den Kühlschrank stellen",
+          "gar keine Veränderung",
+          "Bakterien wandeln den Milchzucker in Säure um. Die Milch wird sauer und klumpig. Abkühlen macht das nicht rückgängig."
+        ],
+        [
+          "Was ist der Unterschied zwischen Schmelzen und Lösen?",
+          "zum Schmelzen braucht man Wärme, zum Lösen eine Flüssigkeit, in die sich der Stoff verteilt",
+          "beides ist genau dasselbe",
+          "Schmelzen geschieht nur in Wasser",
+          "Eis schmilzt beim Erwärmen, auch ohne andere Flüssigkeit. Zucker löst sich, wenn sich seine Teilchen zwischen den Wasserteilchen verteilen."
+        ],
+        [
+          "Welches Wort beschreibt einen Stoff wie Sand, der sich nicht in Wasser löst?",
+          "unlöslich",
+          "löslich",
+          "durchsichtig",
+          "Lösliche Stoffe wie Salz lösen sich auf. Unlösliche Stoffe wie Sand bleiben als einzelne Körner erhalten."
+        ],
+        [
+          "Was davon ist in Wasser löslich?",
+          "Salz",
+          "Sand",
+          "Holz",
+          "Salzkristalle zerfallen und verteilen sich im Wasser. Sand sinkt und Holz schwimmt, aber beides löst sich nicht."
+        ],
+        [
+          "Schokolade beginnt bei etwa 34 °C zu schmelzen. Wo schmilzt eine Tafel am ehesten?",
+          "in der Hosentasche an einem heißen Sommertag",
+          "im Gefrierschrank",
+          "im Kühlschrank",
+          "Eine Tasche an einem heißen Tag ist warm genug. Kühlschrank und Gefrierschrank sind viel kälter als 34 °C."
+        ],
+        [
+          "Warum ist das Kochen eines Eies nicht umkehrbar?",
+          "die Hitze verändert die Eiweißstoffe im Ei dauerhaft",
+          "das Ei wird leichter",
+          "die Schale fällt ab",
+          "Durch die Hitze wird das flüssige, klare Eiweiß fest und weiß. Diese neuen Stoffe lassen sich nicht wieder in rohes Ei verwandeln."
+        ]
+      ],
+      "fr": [
+        [
+          "Laquelle de ces transformations est réversible ?",
+          "faire fondre du chocolat",
+          "brûler du papier",
+          "faire cuire un œuf au plat",
+          "Le chocolat fondu redevient solide en refroidissant. Brûler et cuire créent de nouvelles matières."
+        ],
+        [
+          "Laquelle de ces transformations est irréversible ?",
+          "brûler du bois",
+          "faire geler de l’eau",
+          "faire fondre du beurre",
+          "En brûlant, le bois devient cendres, fumée et gaz. On ne peut pas les retransformer en bois."
+        ],
+        [
+          "Que veut dire une scientifique quand elle dit qu’une transformation est irréversible ?",
+          "de nouvelles matières se forment et on ne peut pas facilement revenir en arrière",
+          "on retrouve la matière en la refroidissant",
+          "seule la forme de la matière a changé",
+          "Dans une transformation irréversible, les particules s’assemblent autrement : les matières de départ ont disparu."
+        ],
+        [
+          "Du sel a été dissous dans un verre d’eau. Comment récupérer le sel ?",
+          "laisser l’eau s’évaporer",
+          "verser l’eau dans un filtre en papier",
+          "remuer plus vite",
+          "Quand l’eau s’évapore, il reste des cristaux de sel. Le sel dissous passe à travers un filtre."
+        ],
+        [
+          "Le sucre se dissout dans le thé chaud et semble disparaître. Le sucre est-il détruit ?",
+          "non, il est toujours là, réparti dans le liquide",
+          "oui, la chaleur le détruit",
+          "oui, il se change en air",
+          "Le thé est sucré parce que le sucre est toujours là. Si l’eau s’évaporait, le sucre resterait."
+        ],
+        [
+          "Qu’est-ce qu’une solution ?",
+          "un liquide dans lequel une substance est dissoute, comme l’eau salée",
+          "un solide qui vient de fondre",
+          "un liquide qui a gelé",
+          "Dans une solution comme l’eau salée, la substance dissoute est répartie partout et on ne la voit plus."
+        ],
+        [
+          "De quoi le fer a-t-il besoin pour rouiller ?",
+          "d’eau et de l’oxygène de l’air",
+          "de soleil et de sable",
+          "de chaleur et d’obscurité",
+          "La rouille se forme quand le fer réagit avec l’oxygène et l’eau. L’eau salée accélère encore la réaction."
+        ],
+        [
+          "Une vieille clé en fer a rouillé. De quelle transformation s’agit-il ?",
+          "irréversible : le fer est devenu une nouvelle matière",
+          "réversible, comme la fusion",
+          "aucune transformation, juste de la saleté",
+          "La rouille est de l’oxyde de fer, une nouvelle substance. Elle s’effrite et on ne peut pas simplement la retransformer en fer."
+        ],
+        [
+          "Comment empêcher un portail en fer de rouiller ?",
+          "le peindre pour bloquer l’air et l’eau",
+          "le laisser sous la pluie",
+          "l’arroser d’eau salée",
+          "Une couche de peinture ou d’huile empêche l’eau et l’oxygène d’atteindre le fer : la rouille ne peut pas se former."
+        ],
+        [
+          "Lequel de ces signes montre qu’une nouvelle substance s’est formée ?",
+          "des bulles de gaz, une nouvelle odeur ou un changement de couleur durable",
+          "la matière change de forme quand on l’écrase",
+          "un solide fond et devient liquide",
+          "Des bulles, une nouvelle odeur, de la lumière ou de la chaleur, un changement de couleur : ce sont des indices d’une transformation irréversible."
+        ],
+        [
+          "Pourquoi ne peut-on pas retransformer un gâteau cuit en œufs, farine, beurre et sucre ?",
+          "la chaleur a créé de nouvelles substances",
+          "le gâteau est trop collant",
+          "les ingrédients se cachent dans le four",
+          "La chaleur provoque des transformations chimiques : de nouvelles substances se forment, avec une autre texture et un autre goût."
+        ],
+        [
+          "Quand une bougie brûle, la cire diminue peu à peu. Que devient cette cire ?",
+          "elle réagit avec l’oxygène et devient du dioxyde de carbone et de la vapeur d’eau",
+          "elle redevient de la cire à l’intérieur de la bougie",
+          "elle s’infiltre dans la table",
+          "La cire brûlée devient de nouveaux gaz qui s’envolent. Seule la cire qui fond et coule subit une transformation réversible."
+        ],
+        [
+          "Laquelle de ces transformations peut être inversée simplement en refroidissant ?",
+          "de la cire fondue qui redevient solide",
+          "la cendre de papier brûlé",
+          "un œuf dur",
+          "En refroidissant, la cire fondue redevient solide. La cendre et l’œuf cuit sont de nouvelles matières : refroidir ne change rien."
+        ],
+        [
+          "De quelles trois choses un feu a-t-il besoin pour continuer de brûler ?",
+          "un combustible, de la chaleur et de l’oxygène",
+          "de l’eau, du sel et l’obscurité",
+          "de la glace, du sable et du vent",
+          "Si on enlève le combustible, la chaleur ou l’oxygène, le feu s’éteint. C’est pour cela qu’une couverture anti-feu étouffe les flammes."
+        ],
+        [
+          "Que produit le bois quand il brûle ?",
+          "des cendres, de la fumée et des gaz comme le dioxyde de carbone",
+          "du bois neuf, non brûlé",
+          "seulement du sable et de l’eau",
+          "La combustion est irréversible : le bois réagit avec l’oxygène et devient des matières complètement différentes."
+        ],
+        [
+          "Quand on mélange du vinaigre et du bicarbonate de soude, ça pétille. Que sont les bulles ?",
+          "du dioxyde de carbone, un nouveau gaz produit par la réaction",
+          "de l’air enfermé dans la bouteille",
+          "de la vapeur, parce que le mélange bout",
+          "Les bulles montrent qu’une nouvelle substance se forme : la transformation est irréversible. Le mélange ne chauffe pas."
+        ],
+        [
+          "Tu veux récupérer le sable d’un mélange de sable et d’eau salée. Quelle méthode est la meilleure ?",
+          "la filtration",
+          "utiliser un aimant",
+          "congeler le mélange",
+          "Les grains de sable sont trop gros pour traverser le papier filtre : ils restent dedans, tandis que l’eau salée s’écoule."
+        ],
+        [
+          "De la limaille de fer s’est mélangée à du sable. Quel est le moyen le plus simple de les séparer ?",
+          "passer un aimant au-dessus du mélange",
+          "dissoudre le mélange dans l’eau",
+          "brûler le mélange",
+          "Le fer est attiré par l’aimant, pas le sable : l’aimant ne retire que la limaille."
+        ],
+        [
+          "Des pois secs sont tombés dans un bol de farine. Quelle méthode les sépare rapidement ?",
+          "le tamisage",
+          "l’évaporation",
+          "utiliser un aimant",
+          "La farine fine passe par les trous du tamis, mais les gros pois restent dessus."
+        ],
+        [
+          "Quel changement ferait se dissoudre le sucre le plus vite ?",
+          "utiliser de l’eau chaude et remuer",
+          "utiliser de l’eau froide sans remuer",
+          "prendre un gros morceau de sucre au lieu de sucre en poudre",
+          "Dans l’eau chaude, les particules bougent plus vite, et remuer répartit le sucre. Les petits grains se dissolvent plus vite qu’un gros morceau."
+        ],
+        [
+          "Le pain devient brun et croustillant dans un grille-pain. Cette transformation est-elle réversible ?",
+          "non, la chaleur a formé de nouvelles substances brunes",
+          "oui, il redevient du pain en refroidissant",
+          "oui, si on l’asperge d’eau",
+          "Griller est une façon de cuire. La chaleur transforme des substances du pain : le refroidir ou le mouiller ne peut pas l’annuler."
+        ],
+        [
+          "On fait geler de l’eau en glaçons. De quelle transformation s’agit-il ?",
+          "réversible : la glace peut refondre en eau",
+          "irréversible : la glace est une substance toute nouvelle",
+          "irréversible : l’eau est épuisée",
+          "Geler change seulement l’état, de liquide à solide. C’est toujours de l’eau, qui refond quand on la réchauffe."
+        ],
+        [
+          "On mélange de la poudre de ciment avec de l’eau et elle durcit. De quelle transformation s’agit-il ?",
+          "irréversible",
+          "réversible en la chauffant",
+          "réversible en ajoutant de l’eau",
+          "La prise du ciment est une transformation chimique : de nouvelles matières dures se forment et ne redeviennent pas poudre et eau."
+        ],
+        [
+          "Une flaque sèche par une journée ensoleillée. De quelle transformation s’agit-il ?",
+          "réversible : la vapeur d’eau peut se condenser en eau",
+          "irréversible : l’eau est détruite",
+          "irréversible : l’eau s’est changée en sel",
+          "L’évaporation transforme l’eau liquide en vapeur. En refroidissant, la vapeur se condense à nouveau en eau, par exemple en pluie."
+        ],
+        [
+          "Du lait laissé dans une pièce chaude tourne. De quelle transformation s’agit-il ?",
+          "irréversible : des bactéries ont produit de nouvelles substances",
+          "réversible : il suffit de le remettre au frigo",
+          "ce n’est pas une transformation",
+          "Les bactéries changent le sucre du lait en acide : le lait devient aigre et forme des grumeaux. Le refroidir ne l’annule pas."
+        ],
+        [
+          "Quelle est la différence entre fondre et se dissoudre ?",
+          "fondre demande de la chaleur ; se dissoudre demande un liquide où la substance se répartit",
+          "c’est exactement la même chose",
+          "on ne fond que dans l’eau",
+          "La glace fond quand on la chauffe, sans autre liquide. Le sucre se dissout quand ses particules se répartissent entre celles de l’eau."
+        ],
+        [
+          "Quel mot décrit une matière, comme le sable, qui ne se dissout pas dans l’eau ?",
+          "insoluble",
+          "soluble",
+          "transparente",
+          "Les matières solubles comme le sel se dissolvent ; les matières insolubles comme le sable restent en grains séparés."
+        ],
+        [
+          "Lequel de ces matériaux est soluble dans l’eau ?",
+          "le sel",
+          "le sable",
+          "le bois",
+          "Les cristaux de sel se défont et se répartissent dans l’eau. Le sable coule et le bois flotte, mais aucun des deux ne se dissout."
+        ],
+        [
+          "Le chocolat commence à fondre vers 34 °C. Où une tablette a-t-elle le plus de chances de fondre ?",
+          "dans une poche par une chaude journée d’été",
+          "au congélateur",
+          "au réfrigérateur",
+          "Une poche par forte chaleur est assez chaude pour faire fondre le chocolat. Le frigo et le congélateur sont bien plus froids que 34 °C."
+        ],
+        [
+          "Pourquoi la cuisson d’un œuf est-elle une transformation irréversible ?",
+          "la chaleur change pour toujours les protéines de l’œuf",
+          "l’œuf devient plus léger",
+          "la coquille tombe",
+          "La chaleur rend le blanc d’œuf, liquide et transparent, solide et blanc. Ces nouvelles substances ne redeviennent pas de l’œuf cru."
+        ]
+      ],
+      "yo": [
+        [
+          "Èwo nínú ìwọ̀nyí ni ìyípadà tí a lè dá padà?",
+          "ṣokoléètì tó yọ́",
+          "bébà tó jóná",
+          "ẹyin dídín",
+          "Ṣokoléètì tó yọ́ máa ń le padà nígbà tó bá tutù. Jíjóná àti dídín ń ṣe nǹkan tuntun."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni ìyípadà tí a kò lè dá padà?",
+          "igi tó ń jóná",
+          "omi tó ń dì",
+          "bọ́tà tó ń yọ́",
+          "Iná ń sọ igi di eérú, èéfín àti afẹ́fẹ́. A kò lè sọ ìwọ̀nyí di igi padà."
+        ],
+        [
+          "Kí ni ó túmọ̀ sí nígbà tí onímọ̀ sáyẹ́ǹsì bá pe ìyípadà kan ní èyí tí a kò lè dá padà?",
+          "nǹkan tuntun ti wáyé, kò sì rọrùn láti dá ìyípadà náà padà",
+          "a lè rí nǹkan náà gbà padà nípa mímú un tutù",
+          "ìrísí nǹkan náà nìkan ló yí padà",
+          "Nínú ìyípadà tí a kò lè dá padà, àwọn èérún kéékèèké ń so pọ̀ lọ́nà tuntun, nítorí náà àwọn nǹkan àkọ́kọ́ kò sí mọ́."
+        ],
+        [
+          "A ti yọ́ iyọ̀ sínú ife omi kan. Báwo lo ṣe lè rí iyọ̀ náà gbà padà?",
+          "jẹ́ kí omi náà gbẹ lọ",
+          "dà á gba inú bébà asẹ́",
+          "rú u kíákíá",
+          "Nígbà tí omi bá gbẹ lọ, kírísítà iyọ̀ máa ń kù sílẹ̀. Iyọ̀ tó ti yọ́ sínú omi máa ń gba inú asẹ́ kọjá."
+        ],
+        [
+          "Ṣúgà yọ́ sínú tíì gbígbóná, ó sì dà bí ẹni pé ó pòórá. Ṣé ṣúgà náà ti parun?",
+          "rárá, ó ṣì wà níbẹ̀, ó ti tàn ká inú omi náà",
+          "bẹ́ẹ̀ni, ooru ti pa á run",
+          "bẹ́ẹ̀ni, ó ti di afẹ́fẹ́",
+          "Tíì náà dùn nítorí pé ṣúgà ṣì wà nínú rẹ̀. Bí omi bá gbẹ lọ, ṣúgà yóò kù sílẹ̀."
+        ],
+        [
+          "Kí ni sólúṣọ̀n (solution)?",
+          "omi tí nǹkan kan ti yọ́ sínú rẹ̀, bí omi iyọ̀",
+          "nǹkan líle tó ṣẹ̀ṣẹ̀ yọ́",
+          "omi tó ti dì di líle",
+          "Nínú sólúṣọ̀n bí omi iyọ̀, nǹkan tó yọ́ ti tàn ká déédéé, a kò sì lè rí i."
+        ],
+        [
+          "Kí ni irin nílò kí ó tó dípẹtà?",
+          "omi àti ọ́síjìn inú afẹ́fẹ́",
+          "ìmọ́lẹ̀ oòrùn àti iyanrìn",
+          "ooru àti òkùnkùn",
+          "Ìpẹtà ń wáyé nígbà tí irin bá bá ọ́síjìn àti omi ṣiṣẹ́ pọ̀. Omi iyọ̀ tilẹ̀ ń mú un yára sí i."
+        ],
+        [
+          "Kọ́kọ́rọ́ irin àtijọ́ kan ti dípẹtà. Irú ìyípadà wo nìyí?",
+          "èyí tí a kò lè dá padà: irin ti di nǹkan tuntun",
+          "èyí tí a lè dá padà, bí yíyọ́",
+          "kò sí ìyípadà, ìdọ̀tí lásán ló wà lórí rẹ̀",
+          "Ìpẹtà jẹ́ nǹkan tuntun tí a ń pè ní iron oxide. Ó ń ya, kò lágbára, a kò sì lè sọ ọ́ di irin padà bẹ́ẹ̀ lásán."
+        ],
+        [
+          "Báwo lo ṣe lè dá ẹnu ọ̀nà irin dúró láti dípẹtà?",
+          "kun ún kí afẹ́fẹ́ àti omi má lè dé ọ̀dọ̀ rẹ̀",
+          "fi í sílẹ̀ nínú òjò",
+          "fọ́n omi iyọ̀ sí i",
+          "Ọ̀dà tàbí epo ń dí omi àti ọ́síjìn lọ́wọ́ láti dé ara irin, nítorí náà ìpẹtà kò lè wáyé."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni àmì pé nǹkan tuntun ti wáyé?",
+          "ìhò afẹ́fẹ́, òórùn tuntun tàbí àwọ̀ tó yí padà títí láé",
+          "nǹkan náà yí ìrísí padà nígbà tí a fún un",
+          "nǹkan líle yọ́ di omi",
+          "Ìhò afẹ́fẹ́, òórùn tuntun, ìmọ́lẹ̀ tàbí ooru, àti àwọ̀ tó yí padà jẹ́ àmì ìyípadà tí a kò lè dá padà."
+        ],
+        [
+          "Kí ló dé tí a kò fi lè sọ kéèkì tí a ti yan di ẹyin, ìyẹ̀fun, bọ́tà àti ṣúgà padà?",
+          "ooru ti ṣe nǹkan tuntun",
+          "kéèkì náà ti lẹ̀ jù",
+          "àwọn èròjà náà farapamọ́ sínú ààrò",
+          "Ooru ń yí àwọn èròjà padà lọ́nà kẹ́míkà, ó sì ń ṣe nǹkan tuntun tí ìrísí àti adùn rẹ̀ yàtọ̀."
+        ],
+        [
+          "Bí àbẹ́là ṣe ń jó, ìda rẹ̀ ń dín kù díẹ̀díẹ̀. Kí ló ń ṣẹlẹ̀ sí ìda náà?",
+          "ó ń bá ọ́síjìn ṣiṣẹ́ láti di kábọ́ọ̀nù dáyọ́ksáídì àti oru omi",
+          "ó ń di ìda tuntun nínú àbẹ́là",
+          "ó ń wọ inú tábìlì",
+          "Ìda tó ń jóná ń di afẹ́fẹ́ tuntun tó ń fò lọ. Ìda tó ń yọ́ tí ó sì ń kán nìkan ni ìyípadà tí a lè dá padà."
+        ],
+        [
+          "Èwo nínú àwọn ìyípadà wọ̀nyí la lè dá padà nípa mímú un tutù nìkan?",
+          "ìda tó yọ́ tí ó tún le padà",
+          "eérú bébà tó jóná",
+          "ẹyin tí a sè le",
+          "Ìda tó yọ́ máa ń le padà tó bá tutù. Eérú àti ẹyin sísè jẹ́ nǹkan tuntun, nítorí náà mímú wọn tutù kò ṣèrànwọ́."
+        ],
+        [
+          "Àwọn nǹkan mẹ́ta wo ni iná nílò láti máa jó lọ?",
+          "epo (ohun tí ń jóná), ooru àti ọ́síjìn",
+          "omi, iyọ̀ àti òkùnkùn",
+          "yìnyín, iyanrìn àti atẹ́gùn",
+          "Bí a bá mú ọ̀kan kúrò nínú epo, ooru tàbí ọ́síjìn, iná máa kú. Ìdí nìyẹn tí aṣọ ìpaná fi ń pa iná."
+        ],
+        [
+          "Kí ló ń jáde nígbà tí igi bá jóná?",
+          "eérú, èéfín àti afẹ́fẹ́ bí kábọ́ọ̀nù dáyọ́ksáídì",
+          "igi tuntun tí kò jóná",
+          "iyanrìn àti omi nìkan",
+          "Jíjóná jẹ́ ìyípadà tí a kò lè dá padà: igi ń bá ọ́síjìn ṣiṣẹ́, ó sì ń di nǹkan mìíràn pátápátá."
+        ],
+        [
+          "Nígbà tí o bá da ọtí kíkan (vinegar) pọ̀ mọ́ bákà sódà, ó máa ń ru fùkẹ̀fùkẹ̀. Kí ni àwọn ìhò afẹ́fẹ́ náà?",
+          "kábọ́ọ̀nù dáyọ́ksáídì, afẹ́fẹ́ tuntun tí àpapọ̀ wọn ṣe",
+          "afẹ́fẹ́ tó há sínú ìgò",
+          "oru nítorí pé àdàlù náà ń hó",
+          "Rírú náà fi hàn pé nǹkan tuntun ń wáyé, nítorí náà ìyípadà tí a kò lè dá padà ni. Àdàlù náà kò gbóná."
+        ],
+        [
+          "O fẹ́ rí iyanrìn gbà padà láti inú àdàlù iyanrìn àti omi iyọ̀. Ọ̀nà wo ló dára jù?",
+          "sísẹ́ (filtering)",
+          "lílo òòfà",
+          "mímú un dì",
+          "Hóró iyanrìn tóbi jù láti gba inú bébà asẹ́ kọjá, nítorí náà wọ́n ń dúró sínú asẹ́ nígbà tí omi iyọ̀ ń kán kọjá."
+        ],
+        [
+          "Èérún irin ti dàpọ̀ mọ́ iyanrìn. Ọ̀nà wo ló rọrùn jù láti yà wọ́n sọ́tọ̀?",
+          "fi òòfà kọjá lórí àdàlù náà",
+          "yọ́ àdàlù náà sínú omi",
+          "dáná sun àdàlù náà",
+          "Òòfà ń fa irin, kò fa iyanrìn, nítorí náà èérún irin nìkan ni òòfà máa fà jáde."
+        ],
+        [
+          "Ẹ̀wà gbígbẹ kan bọ́ sínú àwo ìyẹ̀fun. Ọ̀nà wo ló lè yà wọ́n sọ́tọ̀ kíákíá?",
+          "fífi kọ̀nkọ̀ (sieve) kù ú",
+          "mímú un gbẹ di oru",
+          "lílo òòfà",
+          "Ìyẹ̀fun kíkúnná ń bọ́ gba ihò kọ̀nkọ̀ kọjá, ṣùgbọ́n ẹ̀wà ńlá ń dúró lórí rẹ̀."
+        ],
+        [
+          "Ìyípadà wo ló máa mú kí ṣúgà yọ́ sínú omi kíákíá jù?",
+          "lílo omi gbígbóná àti rírú u",
+          "lílo omi tútù láìrú u",
+          "lílo ìṣù ṣúgà ńlá dípò hóró kéékèèké",
+          "Èérún omi gbígbóná ń yára rìn, rírú sì ń tan ṣúgà ká, nítorí náà ó ń tètè yọ́. Hóró kéékèèké ń yọ́ kíákíá ju ìṣù ńlá lọ."
+        ],
+        [
+          "Búrẹ́dì ń di àwọ̀ ilẹ̀, ó sì ń le kanran nínú ẹ̀rọ ìyan búrẹ́dì. Ṣé a lè dá ìyípadà yìí padà?",
+          "rárá, ooru ti ṣe nǹkan tuntun aláwọ̀ ilẹ̀",
+          "bẹ́ẹ̀ni, ó máa di búrẹ́dì padà tó bá tutù",
+          "bẹ́ẹ̀ni, tí o bá wọ́n omi sí i",
+          "Yíyan búrẹ́dì jẹ́ irú sísè kan. Ooru ń yí àwọn nǹkan inú búrẹ́dì padà, nítorí náà mímú un tutù tàbí rírin ín kò lè dá a padà."
+        ],
+        [
+          "A mú omi dì di yìnyín kéékèèké. Irú ìyípadà wo nìyí?",
+          "èyí tí a lè dá padà: yìnyín lè yọ́ di omi padà",
+          "èyí tí a kò lè dá padà: yìnyín jẹ́ nǹkan tuntun pátápátá",
+          "èyí tí a kò lè dá padà: omi ti tán",
+          "Dídì kàn ń yí ipò omi padà láti olómi sí líle. Omi ṣì ni, ó sì máa yọ́ padà tó bá gbóná."
+        ],
+        [
+          "A da ẹ̀rẹ̀ sìmẹ́ǹtì pọ̀ mọ́ omi, ó sì le gbagidi. Irú ìyípadà wo nìyí?",
+          "èyí tí a kò lè dá padà",
+          "èyí tí a lè dá padà nípa mímú un gbóná",
+          "èyí tí a lè dá padà nípa fífi omi sí i",
+          "Líle sìmẹ́ǹtì jẹ́ ìyípadà kẹ́míkà. Nǹkan líle tuntun ń wáyé, kò sì lè di ẹ̀rẹ̀ àti omi padà."
+        ],
+        [
+          "Omi inú kòtò gbẹ ní ọjọ́ tí oòrùn mú. Irú ìyípadà wo nìyí?",
+          "èyí tí a lè dá padà: oru omi lè di omi padà",
+          "èyí tí a kò lè dá padà: omi náà ti parun",
+          "èyí tí a kò lè dá padà: omi náà ti di iyọ̀",
+          "Gbígbẹ ń sọ omi di oru. Nígbà tí oru bá tutù, ó máa di omi padà, bí òjò."
+        ],
+        [
+          "Wàrà tí a fi sílẹ̀ nínú yàrá tó gbóná ti kan. Irú ìyípadà wo nìyí?",
+          "èyí tí a kò lè dá padà: bakitéríà ti ṣe nǹkan tuntun",
+          "èyí tí a lè dá padà: dá a padà sínú fìríjì",
+          "kì í ṣe ìyípadà rárá",
+          "Bakitéríà ń sọ ṣúgà inú wàrà di ásíìdì, èyí tó ń mú wàrà kan, tí ó sì ń dì pọ̀. Mímú un tutù kò lè dá a padà."
+        ],
+        [
+          "Kí ni ìyàtọ̀ láàárín yíyọ́ nítorí ooru àti yíyọ́ sínú omi?",
+          "yíyọ́ nítorí ooru nílò ooru; yíyọ́ sínú omi nílò omi tí nǹkan náà máa tàn ká sínú rẹ̀",
+          "ọ̀kan náà ni wọ́n pátápátá",
+          "yíyọ́ nítorí ooru ń ṣẹlẹ̀ nínú omi nìkan",
+          "Yìnyín ń yọ́ tí a bá mú un gbóná, láìsí omi mìíràn. Ṣúgà ń yọ́ sínú omi nígbà tí èérún rẹ̀ bá tàn ká sáàárín èérún omi."
+        ],
+        [
+          "Ọ̀rọ̀ wo ló ṣàpèjúwe nǹkan, bí iyanrìn, tí kò lè yọ́ sínú omi?",
+          "aláìyọ́ (insoluble)",
+          "aláyọ̀ọ́ (soluble)",
+          "afihàn (transparent)",
+          "Àwọn nǹkan aláyọ̀ọ́ bí iyọ̀ ń yọ́ sínú omi; àwọn aláìyọ́ bí iyanrìn ń dúró gẹ́gẹ́ bí hóró ọ̀tọ̀ọ̀tọ̀."
+        ],
+        [
+          "Èwo nínú àwọn wọ̀nyí ló ń yọ́ sínú omi?",
+          "iyọ̀",
+          "iyanrìn",
+          "igi",
+          "Kírísítà iyọ̀ ń fọ́, ó sì ń tàn ká inú omi. Iyanrìn ń rì, igi sì ń léfòó, ṣùgbọ́n wọn kì í yọ́."
+        ],
+        [
+          "Ṣokoléètì máa ń bẹ̀rẹ̀ sí í yọ́ ní nǹkan bí 34 °C. Níbo ló ṣeé ṣe jù kí ṣokoléètì yọ́?",
+          "nínú àpò ṣòkòtò ní ọjọ́ tí oòrùn mú gan-an",
+          "nínú fìrísà",
+          "nínú fìríjì",
+          "Àpò ṣòkòtò ní ọjọ́ gbígbóná gbóná tó láti yọ́ ṣokoléètì. Fìríjì àti fìrísà tutù ju 34 °C lọ fíìfíì."
+        ],
+        [
+          "Kí ló dé tí sísè ẹyin fi jẹ́ ìyípadà tí a kò lè dá padà?",
+          "ooru ń yí àwọn èròjà purotéènì inú ẹyin padà títí láé",
+          "ẹyin náà ń fúyẹ́ sí i",
+          "èèpo rẹ̀ ń bọ́ sílẹ̀",
+          "Ooru ń sọ funfun ẹyin tó ń ṣàn, tí a sì lè rí òdìkejì rẹ̀, di líle àti funfun. Àwọn nǹkan tuntun yìí kò lè di ẹyin tútù padà."
+        ]
+      ]
+    }
+  },
+  "emoji": "candle",
+  "example": {
+    "i": 0,
+    "q_en": "Which of these is a reversible change?",
+    "answer_en": "melting chocolate",
+    "why_en": "Melted chocolate becomes solid again when it cools. Burning and frying make new materials.",
+    "q_de": "Welche dieser Veränderungen ist umkehrbar?",
+    "answer_de": "Schokolade schmelzen",
+    "why_de": "Geschmolzene Schokolade wird beim Abkühlen wieder fest. Beim Verbrennen und Braten entstehen neue Stoffe.",
+    "q_fr": "Laquelle de ces transformations est réversible ?",
+    "answer_fr": "faire fondre du chocolat",
+    "why_fr": "Le chocolat fondu redevient solide en refroidissant. Brûler et cuire créent de nouvelles matières.",
+    "q_yo": "Èwo nínú ìwọ̀nyí ni ìyípadà tí a lè dá padà?",
+    "answer_yo": "ṣokoléètì tó yọ́",
+    "why_yo": "Ṣokoléètì tó yọ́ máa ń le padà nígbà tó bá tutù. Jíjóná àti dídín ń ṣe nǹkan tuntun."
+  },
+  "text": {
+    "en": {
+      "title": "Reversible and irreversible changes",
+      "teach": "Melting, freezing and dissolving are reversible: you can get the material back. Burning, rusting and cooking are irreversible: they make new materials that cannot easily be changed back.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Umkehrbare und nicht umkehrbare Veränderungen",
+      "teach": "Schmelzen, Gefrieren und Lösen sind umkehrbar: Man bekommt den Stoff zurück. Verbrennen, Rosten und Kochen sind nicht umkehrbar: Dabei entstehen neue Stoffe, die sich nicht einfach zurückverwandeln lassen.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Transformations réversibles et irréversibles",
+      "teach": "Fondre, geler et dissoudre sont des transformations réversibles : on peut retrouver la matière. Brûler, rouiller et cuire sont irréversibles : de nouvelles matières se forment et on ne peut pas facilement revenir en arrière.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ìyípadà tí a lè dá padà àti èyí tí a kò lè dá padà",
+      "teach": "Yíyọ́, dídì àti yíyọ́ sínú omi jẹ́ ìyípadà tí a lè dá padà: a lè rí nǹkan náà gbà padà. Jíjóná, dídípẹtà àti sísè jẹ́ ìyípadà tí a kò lè dá padà: wọ́n ń ṣe nǹkan tuntun tí kò rọrùn láti yí padà.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

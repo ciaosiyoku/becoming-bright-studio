@@ -1,4 +1,5 @@
 import type { Access, ItemId } from './items'
+import type { Subject } from '@/skills/types'
 import type { Child, Family } from './state'
 
 // Earned time: each passed lesson (4 of 5 checks) gives `minutesPerLesson`, up to `maxPerDay` a day. "Earn first"
@@ -23,3 +24,13 @@ export const isOpen = (s: ItemState) => s === 'open' || s === 'earned'
 
 /** The rule for an item (an item added later gets its default). */
 export const accessOf = (family: Family, id: ItemId, fallback: Access): Access => family.access[id] ?? fallback
+
+export type SubjectState = 'hidden' | 'open' | 'locked'
+
+/** A subject today: hidden (off), open, or locked until enough lessons are passed today ("earn first"). */
+export function subjectState(family: Family, child: Child, subject: Subject, day: string): SubjectState {
+  const rule = family.subjects?.[subject] ?? 'open'
+  if (rule === 'off') return 'hidden'
+  if (rule === 'open') return 'open'
+  return (child.passes[day] ?? 0) >= family.rewards.lessonsToOpen ? 'open' : 'locked'
+}

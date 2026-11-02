@@ -1,0 +1,936 @@
+{
+  "id": "sci4-healthy",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 110,
+  "params": {
+    "emojis": [
+      "droplet",
+      "sparkles",
+      "sun",
+      "speech",
+      "moon",
+      "heart",
+      "droplet",
+      "road",
+      "footprints",
+      "girl",
+      "trophy",
+      "fruit-banana",
+      "cake",
+      "star",
+      "minibus",
+      "warning",
+      "teddy",
+      "house",
+      "animal-rabbit",
+      "sun-small-cloud",
+      "backpack",
+      "locked",
+      "map",
+      "speech",
+      "fruit-strawberry",
+      "plug",
+      "thermometer",
+      "seedling",
+      "tree",
+      "sparkles"
+    ],
+    "bank": {
+      "en": [
+        [
+          "When should you wash your hands?",
+          "before you eat",
+          "only on your birthday",
+          "never",
+          "Washing your hands before you eat stops germs getting into your food."
+        ],
+        [
+          "What do we wash our hands with?",
+          "soap and water",
+          "mud",
+          "juice",
+          "Soap and water wash away dirt and germs."
+        ],
+        [
+          "When should you brush your teeth?",
+          "in the morning and at bedtime",
+          "once a year",
+          "never",
+          "Brushing twice a day, morning and night, keeps your teeth clean and strong."
+        ],
+        [
+          "What do we brush our teeth with?",
+          "a toothbrush and toothpaste",
+          "a hairbrush",
+          "a fork",
+          "A toothbrush and a little toothpaste clean food and germs off your teeth."
+        ],
+        [
+          "Why do we need to sleep?",
+          "to rest and grow",
+          "to get dirty",
+          "to make it rain",
+          "While you sleep, your body rests and grows, so you wake up full of energy."
+        ],
+        [
+          "Which food is healthy?",
+          "an apple",
+          "a big bag of sweets",
+          "a sugary fizzy drink",
+          "Fruit like apples helps your body. Sweets and fizzy drinks have lots of sugar."
+        ],
+        [
+          "What is the best drink when you are thirsty?",
+          "water",
+          "salty sea water",
+          "muddy puddle water",
+          "Clean water is the best drink. Your body needs it every day."
+        ],
+        [
+          "How should you cross the road?",
+          "holding a grown-up’s hand",
+          "running across alone",
+          "with your eyes shut",
+          "Cars can be fast. A grown-up helps you cross safely."
+        ],
+        [
+          "What do we do before we cross the road?",
+          "stop, look and listen",
+          "run as fast as we can",
+          "close our eyes",
+          "Stop at the edge, then look and listen for cars with your grown-up."
+        ],
+        [
+          "Achoo! When you sneeze, what should you cover?",
+          "your mouth and nose",
+          "your feet",
+          "your knees",
+          "Use a tissue or your elbow to cover your mouth and nose, so germs do not spread."
+        ],
+        [
+          "What helps your body grow strong?",
+          "running and playing",
+          "sitting still all day",
+          "never moving",
+          "Moving your body every day makes your muscles and heart strong."
+        ],
+        [
+          "What should you eat every day?",
+          "fruit and vegetables",
+          "only cake",
+          "only sweets",
+          "Fruit and vegetables are full of good things that help you grow."
+        ],
+        [
+          "Is cake a food for every meal?",
+          "no, it is a treat for sometimes",
+          "yes, for every meal",
+          "yes, instead of water",
+          "Cake has lots of sugar. It is nice as a treat now and then."
+        ],
+        [
+          "When should children go to bed?",
+          "early in the evening",
+          "at lunchtime",
+          "when the sun comes up",
+          "Going to bed early gives you lots of sleep, so you feel good the next day."
+        ],
+        [
+          "What must you wear when you ride in a car?",
+          "a seat belt",
+          "a swimsuit",
+          "a crown",
+          "A seat belt holds you safely in your seat if the car stops suddenly."
+        ],
+        [
+          "What keeps your head safe on a bike?",
+          "a helmet",
+          "a paper hat",
+          "a scarf",
+          "A helmet is hard and protects your head if you fall off."
+        ],
+        [
+          "You feel ill. Who should you tell?",
+          "a grown-up you trust",
+          "your teddy only",
+          "nobody",
+          "A grown-up can help you feel better and get a doctor if needed."
+        ],
+        [
+          "We wash our hands after we…",
+          "use the toilet",
+          "look at a book",
+          "sing a song",
+          "Germs from the toilet can stay on your hands. Soap and water wash them off."
+        ],
+        [
+          "Why do we wash our hands after stroking a pet?",
+          "to wash away germs",
+          "to make our hands sticky",
+          "to make our hands grow",
+          "Pets can carry germs you cannot see. Washing your hands keeps you well."
+        ],
+        [
+          "When do we eat breakfast?",
+          "in the morning",
+          "at midnight",
+          "just before bed",
+          "Breakfast is the first meal of the day. It gives you energy for the morning."
+        ],
+        [
+          "Which is a healthy snack for school?",
+          "a banana",
+          "a lollipop",
+          "a bar of chocolate",
+          "A banana is fruit. It gives you energy without lots of added sugar."
+        ],
+        [
+          "You find some medicine. What should you do?",
+          "leave it and tell a grown-up",
+          "eat it",
+          "share it with friends",
+          "Medicine can make you very ill if it is not for you. Only a grown-up should give it."
+        ],
+        [
+          "You get lost in a shop. Who can help?",
+          "a person who works in the shop",
+          "a pigeon",
+          "a shopping trolley",
+          "Shop workers can call your grown-up and keep you safe until they come."
+        ],
+        [
+          "Someone you do not know asks you to go with them. What do you do?",
+          "say no and tell your grown-up",
+          "go with them",
+          "keep it a secret",
+          "Only go with people your family has said are safe. Always tell your grown-up."
+        ],
+        [
+          "What helps keep your teeth healthy?",
+          "eating less sugar",
+          "eating sweets all day",
+          "never brushing",
+          "Sugar helps tiny germs damage your teeth. Less sugar means healthier teeth."
+        ],
+        [
+          "Should you poke things into a plug socket?",
+          "no, never, it is dangerous",
+          "yes, it is fun",
+          "yes, with wet hands",
+          "Electricity in sockets can hurt you badly. Never touch them."
+        ],
+        [
+          "You have a cold. What helps you get better?",
+          "rest and drinks of water",
+          "running in the rain",
+          "eating only sweets",
+          "Resting and drinking water help your body fight the cold."
+        ],
+        [
+          "Why do we eat vegetables?",
+          "they help our body grow strong",
+          "they make us sick",
+          "they turn us blue",
+          "Vegetables have lots of good things inside that keep us healthy."
+        ],
+        [
+          "Where is a safe place to play?",
+          "in the park with a grown-up",
+          "in the middle of the road",
+          "next to a hot oven",
+          "A park is made for playing. Roads and ovens are dangerous."
+        ],
+        [
+          "Should you share your toothbrush?",
+          "no, everyone has their own",
+          "yes, with everyone",
+          "yes, with the dog",
+          "Toothbrushes can pass germs from one mouth to another, so keep your own."
+        ]
+      ],
+      "de": [
+        [
+          "Wann solltest du dir die Hände waschen?",
+          "vor dem Essen",
+          "nur an deinem Geburtstag",
+          "nie",
+          "Händewaschen vor dem Essen hält Keime von deinem Essen fern."
+        ],
+        [
+          "Womit waschen wir uns die Hände?",
+          "mit Seife und Wasser",
+          "mit Matsch",
+          "mit Saft",
+          "Seife und Wasser waschen Schmutz und Keime weg."
+        ],
+        [
+          "Wann solltest du dir die Zähne putzen?",
+          "morgens und vor dem Schlafen",
+          "einmal im Jahr",
+          "nie",
+          "Zweimal am Tag putzen, morgens und abends, hält die Zähne sauber und stark."
+        ],
+        [
+          "Womit putzen wir die Zähne?",
+          "mit Zahnbürste und Zahnpasta",
+          "mit einer Haarbürste",
+          "mit einer Gabel",
+          "Zahnbürste und ein wenig Zahnpasta putzen Essensreste und Keime von den Zähnen."
+        ],
+        [
+          "Warum müssen wir schlafen?",
+          "um uns auszuruhen und zu wachsen",
+          "um schmutzig zu werden",
+          "damit es regnet",
+          "Im Schlaf ruht sich dein Körper aus und wächst. Dann wachst du voller Kraft auf."
+        ],
+        [
+          "Welches Essen ist gesund?",
+          "ein Apfel",
+          "eine große Tüte Bonbons",
+          "eine zuckrige Limonade",
+          "Obst wie Äpfel tut dem Körper gut. Bonbons und Limo haben viel Zucker."
+        ],
+        [
+          "Was trinkst du am besten bei Durst?",
+          "Wasser",
+          "salziges Meerwasser",
+          "Wasser aus einer Matschpfütze",
+          "Sauberes Wasser ist das beste Getränk. Dein Körper braucht es jeden Tag."
+        ],
+        [
+          "Wie gehst du über die Straße?",
+          "an der Hand eines Erwachsenen",
+          "allein hinüberrennen",
+          "mit geschlossenen Augen",
+          "Autos können schnell sein. Ein Erwachsener hilft dir, sicher hinüberzugehen."
+        ],
+        [
+          "Was tun wir, bevor wir über die Straße gehen?",
+          "anhalten, schauen und hören",
+          "so schnell wie möglich rennen",
+          "die Augen zumachen",
+          "Bleib am Rand stehen. Dann schau und hör mit deinem Erwachsenen nach Autos."
+        ],
+        [
+          "Hatschi! Was hältst du beim Niesen zu?",
+          "Mund und Nase",
+          "deine Füße",
+          "deine Knie",
+          "Halte ein Taschentuch oder die Armbeuge vor Mund und Nase. So verbreiten sich Keime nicht."
+        ],
+        [
+          "Was macht deinen Körper stark?",
+          "rennen und spielen",
+          "den ganzen Tag stillsitzen",
+          "sich nie bewegen",
+          "Bewegung jeden Tag macht Muskeln und Herz stark."
+        ],
+        [
+          "Was solltest du jeden Tag essen?",
+          "Obst und Gemüse",
+          "nur Kuchen",
+          "nur Süßigkeiten",
+          "Obst und Gemüse stecken voller guter Dinge, die dir beim Wachsen helfen."
+        ],
+        [
+          "Ist Kuchen etwas für jede Mahlzeit?",
+          "nein, er ist ein Leckerbissen für ab und zu",
+          "ja, zu jeder Mahlzeit",
+          "ja, statt Wasser",
+          "Kuchen hat viel Zucker. Ab und zu ist er ein feiner Leckerbissen."
+        ],
+        [
+          "Wann sollten Kinder ins Bett gehen?",
+          "früh am Abend",
+          "zur Mittagszeit",
+          "wenn die Sonne aufgeht",
+          "Früh ins Bett gehen heißt viel Schlaf. Dann geht es dir am nächsten Tag gut."
+        ],
+        [
+          "Was musst du im Auto anlegen?",
+          "einen Sicherheitsgurt",
+          "einen Badeanzug",
+          "eine Krone",
+          "Der Gurt hält dich sicher im Sitz, wenn das Auto plötzlich bremst."
+        ],
+        [
+          "Was schützt deinen Kopf auf dem Fahrrad?",
+          "ein Helm",
+          "ein Papierhut",
+          "ein Schal",
+          "Ein Helm ist hart und schützt deinen Kopf, wenn du hinfällst."
+        ],
+        [
+          "Du fühlst dich krank. Wem sagst du es?",
+          "einem Erwachsenen, dem du vertraust",
+          "nur deinem Teddy",
+          "niemandem",
+          "Ein Erwachsener kann dir helfen und wenn nötig einen Arzt holen."
+        ],
+        [
+          "Wir waschen uns die Hände, nachdem wir…",
+          "auf der Toilette waren",
+          "ein Buch angeschaut haben",
+          "ein Lied gesungen haben",
+          "Keime von der Toilette bleiben an den Händen. Seife und Wasser waschen sie ab."
+        ],
+        [
+          "Warum waschen wir uns nach dem Streicheln eines Haustiers die Hände?",
+          "um Keime abzuwaschen",
+          "damit die Hände kleben",
+          "damit die Hände wachsen",
+          "Haustiere können unsichtbare Keime tragen. Händewaschen hält dich gesund."
+        ],
+        [
+          "Wann essen wir Frühstück?",
+          "am Morgen",
+          "um Mitternacht",
+          "kurz vor dem Schlafen",
+          "Das Frühstück ist die erste Mahlzeit des Tages. Es gibt dir Kraft für den Morgen."
+        ],
+        [
+          "Was ist ein gesunder Snack für die Schule?",
+          "eine Banane",
+          "ein Lutscher",
+          "eine Tafel Schokolade",
+          "Eine Banane ist Obst. Sie gibt Kraft ohne viel zugesetzten Zucker."
+        ],
+        [
+          "Du findest Medizin. Was tust du?",
+          "liegen lassen und einem Erwachsenen sagen",
+          "sie essen",
+          "sie mit Freunden teilen",
+          "Medizin kann dich sehr krank machen, wenn sie nicht für dich ist. Nur Erwachsene geben sie."
+        ],
+        [
+          "Du hast dich im Laden verlaufen. Wer kann helfen?",
+          "jemand, der im Laden arbeitet",
+          "eine Taube",
+          "ein Einkaufswagen",
+          "Verkäufer können deinen Erwachsenen ausrufen und auf dich aufpassen, bis er kommt."
+        ],
+        [
+          "Jemand, den du nicht kennst, will, dass du mitkommst. Was tust du?",
+          "Nein sagen und es deinem Erwachsenen erzählen",
+          "mitgehen",
+          "es geheim halten",
+          "Geh nur mit Menschen mit, die deine Familie erlaubt hat. Sag es immer deinem Erwachsenen."
+        ],
+        [
+          "Was hält deine Zähne gesund?",
+          "wenig Zucker essen",
+          "den ganzen Tag Bonbons essen",
+          "nie putzen",
+          "Zucker hilft winzigen Keimen, die Zähne kaputt zu machen. Weniger Zucker heißt gesündere Zähne."
+        ],
+        [
+          "Darfst du Dinge in eine Steckdose stecken?",
+          "nein, nie, das ist gefährlich",
+          "ja, das macht Spaß",
+          "ja, mit nassen Händen",
+          "Strom in der Steckdose kann dich schlimm verletzen. Fass sie nie an."
+        ],
+        [
+          "Du hast eine Erkältung. Was hilft dir, gesund zu werden?",
+          "Ruhe und Wasser trinken",
+          "im Regen herumrennen",
+          "nur Süßigkeiten essen",
+          "Ruhe und Wasser helfen deinem Körper, gegen die Erkältung zu kämpfen."
+        ],
+        [
+          "Warum essen wir Gemüse?",
+          "es hilft unserem Körper, stark zu werden",
+          "es macht uns krank",
+          "es macht uns blau",
+          "In Gemüse stecken viele gute Dinge, die uns gesund halten."
+        ],
+        [
+          "Wo kann man sicher spielen?",
+          "im Park mit einem Erwachsenen",
+          "mitten auf der Straße",
+          "neben einem heißen Ofen",
+          "Ein Park ist zum Spielen da. Straßen und Öfen sind gefährlich."
+        ],
+        [
+          "Solltest du deine Zahnbürste teilen?",
+          "nein, jeder hat seine eigene",
+          "ja, mit allen",
+          "ja, mit dem Hund",
+          "Zahnbürsten können Keime von Mund zu Mund tragen. Benutze nur deine eigene."
+        ]
+      ],
+      "fr": [
+        [
+          "Quand dois-tu te laver les mains ?",
+          "avant de manger",
+          "seulement le jour de ton anniversaire",
+          "jamais",
+          "Se laver les mains avant de manger empêche les microbes d’aller dans la nourriture."
+        ],
+        [
+          "Avec quoi se lave-t-on les mains ?",
+          "avec du savon et de l’eau",
+          "avec de la boue",
+          "avec du jus",
+          "Le savon et l’eau enlèvent la saleté et les microbes."
+        ],
+        [
+          "Quand dois-tu te brosser les dents ?",
+          "le matin et avant de dormir",
+          "une fois par an",
+          "jamais",
+          "Se brosser les dents deux fois par jour, matin et soir, les garde propres et solides."
+        ],
+        [
+          "Avec quoi se brosse-t-on les dents ?",
+          "une brosse à dents et du dentifrice",
+          "une brosse à cheveux",
+          "une fourchette",
+          "La brosse à dents et un peu de dentifrice enlèvent les restes et les microbes."
+        ],
+        [
+          "Pourquoi a-t-on besoin de dormir ?",
+          "pour se reposer et grandir",
+          "pour se salir",
+          "pour faire pleuvoir",
+          "Pendant le sommeil, ton corps se repose et grandit : tu te réveilles plein d’énergie."
+        ],
+        [
+          "Quel aliment est bon pour la santé ?",
+          "une pomme",
+          "un gros sac de bonbons",
+          "un soda très sucré",
+          "Les fruits comme la pomme aident ton corps. Les bonbons et les sodas ont beaucoup de sucre."
+        ],
+        [
+          "Quelle est la meilleure boisson quand tu as soif ?",
+          "de l’eau",
+          "de l’eau de mer salée",
+          "l’eau d’une flaque boueuse",
+          "L’eau propre est la meilleure boisson. Ton corps en a besoin chaque jour."
+        ],
+        [
+          "Comment traverses-tu la rue ?",
+          "en donnant la main à un adulte",
+          "en courant tout seul",
+          "les yeux fermés",
+          "Les voitures peuvent aller vite. Un adulte t’aide à traverser sans danger."
+        ],
+        [
+          "Que fait-on avant de traverser la rue ?",
+          "on s’arrête, on regarde et on écoute",
+          "on court le plus vite possible",
+          "on ferme les yeux",
+          "Arrête-toi au bord, puis regarde et écoute s’il y a des voitures, avec ton adulte."
+        ],
+        [
+          "Atchoum ! Que dois-tu couvrir quand tu éternues ?",
+          "ma bouche et mon nez",
+          "mes pieds",
+          "mes genoux",
+          "Couvre ta bouche et ton nez avec un mouchoir ou ton coude : les microbes ne se répandent pas."
+        ],
+        [
+          "Qu’est-ce qui rend ton corps fort ?",
+          "courir et jouer",
+          "rester assis toute la journée",
+          "ne jamais bouger",
+          "Bouger chaque jour rend tes muscles et ton cœur forts."
+        ],
+        [
+          "Que dois-tu manger chaque jour ?",
+          "des fruits et des légumes",
+          "seulement du gâteau",
+          "seulement des bonbons",
+          "Les fruits et les légumes sont pleins de bonnes choses qui t’aident à grandir."
+        ],
+        [
+          "Le gâteau, c’est pour chaque repas ?",
+          "non, c’est une gourmandise de temps en temps",
+          "oui, à chaque repas",
+          "oui, à la place de l’eau",
+          "Le gâteau contient beaucoup de sucre. C’est un plaisir pour de temps en temps."
+        ],
+        [
+          "Quand les enfants doivent-ils aller au lit ?",
+          "tôt le soir",
+          "à l’heure du déjeuner",
+          "quand le soleil se lève",
+          "Se coucher tôt donne beaucoup de sommeil : tu te sens bien le lendemain."
+        ],
+        [
+          "Que dois-tu attacher quand tu es en voiture ?",
+          "ma ceinture de sécurité",
+          "mon maillot de bain",
+          "ma couronne",
+          "La ceinture te tient bien sur ton siège si la voiture s’arrête d’un coup."
+        ],
+        [
+          "Qu’est-ce qui protège ta tête à vélo ?",
+          "un casque",
+          "un chapeau en papier",
+          "une écharpe",
+          "Le casque est dur et protège ta tête si tu tombes."
+        ],
+        [
+          "Tu te sens malade. À qui le dis-tu ?",
+          "à un adulte de confiance",
+          "seulement à mon doudou",
+          "à personne",
+          "Un adulte peut t’aider à aller mieux et appeler un médecin si besoin."
+        ],
+        [
+          "On se lave les mains après…",
+          "être allé aux toilettes",
+          "avoir regardé un livre",
+          "avoir chanté une chanson",
+          "Les microbes des toilettes restent sur les mains. Le savon et l’eau les enlèvent."
+        ],
+        [
+          "Pourquoi se lave-t-on les mains après avoir caressé un animal ?",
+          "pour enlever les microbes",
+          "pour avoir les mains collantes",
+          "pour faire grandir ses mains",
+          "Les animaux peuvent porter des microbes invisibles. Se laver les mains te garde en bonne santé."
+        ],
+        [
+          "Quand prend-on le petit-déjeuner ?",
+          "le matin",
+          "à minuit",
+          "juste avant de dormir",
+          "Le petit-déjeuner est le premier repas de la journée. Il te donne de l’énergie pour la matinée."
+        ],
+        [
+          "Quel goûter sain pour l’école ?",
+          "une banane",
+          "une sucette",
+          "une tablette de chocolat",
+          "La banane est un fruit. Elle donne de l’énergie sans beaucoup de sucre ajouté."
+        ],
+        [
+          "Tu trouves des médicaments. Que fais-tu ?",
+          "je n’y touche pas et je le dis à un adulte",
+          "je les mange",
+          "je les partage avec mes amis",
+          "Un médicament qui n’est pas pour toi peut te rendre très malade. Seul un adulte peut en donner."
+        ],
+        [
+          "Tu es perdu dans un magasin. Qui peut t’aider ?",
+          "une personne qui travaille dans le magasin",
+          "un pigeon",
+          "un chariot",
+          "Les vendeurs peuvent appeler ton adulte et te garder en sécurité jusqu’à son arrivée."
+        ],
+        [
+          "Quelqu’un que tu ne connais pas te demande de le suivre. Que fais-tu ?",
+          "je dis non et je le dis à mon adulte",
+          "je le suis",
+          "je garde le secret",
+          "Ne pars qu’avec les personnes que ta famille a choisies. Dis-le toujours à ton adulte."
+        ],
+        [
+          "Qu’est-ce qui garde tes dents en bonne santé ?",
+          "manger moins de sucre",
+          "manger des bonbons toute la journée",
+          "ne jamais se brosser",
+          "Le sucre aide les microbes à abîmer les dents. Moins de sucre, des dents plus saines."
+        ],
+        [
+          "Peux-tu mettre des objets dans une prise électrique ?",
+          "non, jamais, c’est dangereux",
+          "oui, c’est amusant",
+          "oui, avec les mains mouillées",
+          "L’électricité des prises peut te blesser gravement. N’y touche jamais."
+        ],
+        [
+          "Tu es enrhumé. Qu’est-ce qui t’aide à guérir ?",
+          "me reposer et boire de l’eau",
+          "courir sous la pluie",
+          "manger seulement des bonbons",
+          "Le repos et l’eau aident ton corps à combattre le rhume."
+        ],
+        [
+          "Pourquoi mange-t-on des légumes ?",
+          "ils aident notre corps à devenir fort",
+          "ils nous rendent malades",
+          "ils nous rendent tout bleus",
+          "Les légumes contiennent plein de bonnes choses qui nous gardent en bonne santé."
+        ],
+        [
+          "Où peut-on jouer sans danger ?",
+          "au parc avec un adulte",
+          "au milieu de la rue",
+          "à côté d’un four chaud",
+          "Le parc est fait pour jouer. La rue et le four sont dangereux."
+        ],
+        [
+          "Dois-tu prêter ta brosse à dents ?",
+          "non, chacun a la sienne",
+          "oui, à tout le monde",
+          "oui, au chien",
+          "Une brosse à dents peut passer des microbes d’une bouche à l’autre : garde la tienne."
+        ]
+      ],
+      "yo": [
+        [
+          "Ìgbà wo ló yẹ kí o fọ ọwọ́ rẹ?",
+          "kí o tó jẹun",
+          "ní ọjọ́ ìbí rẹ nìkan",
+          "láé",
+          "Fífọ ọwọ́ kí o tó jẹun ń dí kòkòrò àrùn lọ́wọ́ láti wọ inú oúnjẹ rẹ."
+        ],
+        [
+          "Kí la fi ń fọ ọwọ́?",
+          "ọṣẹ àti omi",
+          "ẹrẹ̀",
+          "omi èso",
+          "Ọṣẹ àti omi ń fọ ìdọ̀tí àti kòkòrò àrùn kúrò."
+        ],
+        [
+          "Ìgbà wo ló yẹ kí o fọ eyín rẹ?",
+          "ní àárọ̀ àti kí o tó sùn",
+          "lẹ́ẹ̀kan lọ́dún",
+          "láé",
+          "Fífọ eyín lẹ́ẹ̀mejì lójúmọ́, àárọ̀ àti alẹ́, ń jẹ́ kí eyín mọ́, kí ó sì lágbára."
+        ],
+        [
+          "Kí la fi ń fọ eyín?",
+          "búrọ́ọ̀ṣì eyín àti ọṣẹ eyín",
+          "búrọ́ọ̀ṣì irun",
+          "fọ́ọ̀kì",
+          "Búrọ́ọ̀ṣì eyín àti ọṣẹ eyín díẹ̀ ń fọ oúnjẹ àti kòkòrò àrùn kúrò lára eyín."
+        ],
+        [
+          "Kí ló dé tí a fi nílò oorun?",
+          "láti sinmi àti láti dàgbà",
+          "láti di ẹlẹ́gbin",
+          "kí òjò lè rọ̀",
+          "Nígbà tí o bá ń sùn, ara rẹ ń sinmi, ó sì ń dàgbà, o sì máa jí pẹ̀lú agbára."
+        ],
+        [
+          "Oúnjẹ wo ló dára fún ara?",
+          "èso ápù",
+          "àpò àdídùn ńlá",
+          "ohun mímu onígáàsì tí ṣúgà pọ̀ nínú rẹ̀",
+          "Èso bí ápù ń ran ara rẹ lọ́wọ́. Ṣúgà pọ̀ nínú àdídùn àti ohun mímu onígáàsì."
+        ],
+        [
+          "Kí ni ohun mímu tí ó dára jù tí òùngbẹ bá ń gbẹ ọ́?",
+          "omi",
+          "omi òkun oníyọ̀",
+          "omi ẹrẹ̀",
+          "Omi mímọ́ ni ohun mímu tí ó dára jù. Ara rẹ nílò rẹ̀ lójoojúmọ́."
+        ],
+        [
+          "Báwo ló ṣe yẹ kí o sọdá títì?",
+          "kí o di ọwọ́ àgbàlagbà mú",
+          "kí o sáré kọjá ní ìwọ nìkan",
+          "kí o di ojú rẹ",
+          "Ọkọ̀ lè yára gan-an. Àgbàlagbà ń ràn ọ́ lọ́wọ́ láti sọdá láìléwu."
+        ],
+        [
+          "Kí la máa ń ṣe kí a tó sọdá títì?",
+          "dúró, wò, kí o sì fetí sílẹ̀",
+          "sáré bí a ti lè sáré tó",
+          "di ojú wa",
+          "Dúró ní ẹ̀gbẹ́ títì, kí o wò, kí o sì fetí sí ọkọ̀ pẹ̀lú àgbàlagbà rẹ."
+        ],
+        [
+          "Ààṣù! Tí o bá sín, kí ló yẹ kí o bò?",
+          "ẹnu àti imú rẹ",
+          "ẹsẹ̀ rẹ",
+          "orúnkún rẹ",
+          "Fi ìwé ìnu tàbí ìgúnpá rẹ bo ẹnu àti imú rẹ, kí kòkòrò àrùn má baà tàn kálẹ̀."
+        ],
+        [
+          "Kí ló ń mú ara rẹ lágbára?",
+          "sísáré àti ṣíṣeré",
+          "jíjókòó jẹ́ẹ́ ní gbogbo ọjọ́",
+          "kíkọ̀ láti mi ara",
+          "Mímì ara lójoojúmọ́ ń mú iṣan àti ọkàn rẹ lágbára."
+        ],
+        [
+          "Kí ló yẹ kí o máa jẹ lójoojúmọ́?",
+          "èso àti ẹ̀fọ́",
+          "kéèkì nìkan",
+          "àdídùn nìkan",
+          "Èso àti ẹ̀fọ́ kún fún ohun rere tí ó ń ràn ọ́ lọ́wọ́ láti dàgbà."
+        ],
+        [
+          "Ṣé kéèkì jẹ́ oúnjẹ fún gbogbo ìgbà?",
+          "rárá, ìpápánu fún ìgbà díẹ̀ ni",
+          "bẹ́ẹ̀ni, ní gbogbo oúnjẹ",
+          "bẹ́ẹ̀ni, dípò omi",
+          "Ṣúgà pọ̀ nínú kéèkì. Ó dùn gẹ́gẹ́ bí ìpápánu ní ìgbà mìíràn."
+        ],
+        [
+          "Ìgbà wo ló yẹ kí àwọn ọmọdé lọ sùn?",
+          "ní kùtùkùtù ìrọ̀lẹ́",
+          "ní ọ̀sán",
+          "nígbà tí oòrùn bá yọ",
+          "Lílọ sùn ní kùtùkùtù ń fún ọ ní oorun tó pọ̀, ara rẹ yóò sì yá ní ọjọ́ kejì."
+        ],
+        [
+          "Kí ló gbọ́dọ̀ wọ̀ nígbà tí o bá wà nínú ọkọ̀ ayọ́kẹ́lẹ́?",
+          "bẹ́líìtì ìjókòó",
+          "aṣọ ìlúwẹ̀ẹ́",
+          "adé",
+          "Bẹ́líìtì ìjókòó ń dì ọ́ mú sórí ìjókòó rẹ láìléwu tí ọkọ̀ bá dúró lójijì."
+        ],
+        [
+          "Kí ló ń dáàbò bo orí rẹ lórí kẹ̀kẹ́?",
+          "fìlà ààbò líle",
+          "fìlà ìwé",
+          "ìborùn",
+          "Fìlà ààbò le, ó sì ń dáàbò bo orí rẹ tí o bá ṣubú."
+        ],
+        [
+          "Ara rẹ kò yá. Ta ló yẹ kí o sọ fún?",
+          "àgbàlagbà tí o fọkàn tán",
+          "ọmọlangidi rẹ nìkan",
+          "kò sí ẹnìkan",
+          "Àgbàlagbà lè ràn ọ́ lọ́wọ́ kí ara rẹ yá, ó sì lè pe dókítà tí ó bá yẹ."
+        ],
+        [
+          "A máa ń fọ ọwọ́ wa lẹ́yìn tí a bá…",
+          "lo ilé ìgbọ̀nsẹ̀",
+          "wo ìwé",
+          "kọ orin",
+          "Kòkòrò àrùn láti ilé ìgbọ̀nsẹ̀ lè dúró sí ọwọ́ rẹ. Ọṣẹ àti omi ń fọ wọ́n kúrò."
+        ],
+        [
+          "Kí ló dé tí a fi ń fọ ọwọ́ lẹ́yìn tí a bá fọwọ́ pa ẹran ọ̀sìn lára?",
+          "láti fọ kòkòrò àrùn kúrò",
+          "kí ọwọ́ wa lè lẹ̀ pọ̀",
+          "kí ọwọ́ wa lè dàgbà",
+          "Ẹran ọ̀sìn lè gbé kòkòrò àrùn tí a kò lè rí. Fífọ ọwọ́ ń pa ọ́ mọ́ ní àlàáfíà."
+        ],
+        [
+          "Ìgbà wo la máa ń jẹ oúnjẹ àárọ̀?",
+          "ní àárọ̀",
+          "ní ọ̀gànjọ́ òru",
+          "kí a tó sùn",
+          "Oúnjẹ àárọ̀ ni oúnjẹ àkọ́kọ́ lójúmọ́. Ó ń fún ọ ní agbára fún òwúrọ̀."
+        ],
+        [
+          "Ìpápánu wo ló dára fún ara ní ilé ìwé?",
+          "ọ̀gẹ̀dẹ̀",
+          "súìtì onígi",
+          "ṣokoléètì",
+          "Èso ni ọ̀gẹ̀dẹ̀. Ó ń fún ọ ní agbára láìsí ṣúgà púpọ̀ tí wọ́n fi kún un."
+        ],
+        [
+          "O rí òògùn kan. Kí ló yẹ kí o ṣe?",
+          "fi sílẹ̀, kí o sì sọ fún àgbàlagbà",
+          "jẹ ẹ́",
+          "pín in fún àwọn ọ̀rẹ́ rẹ",
+          "Òògùn tí kì í ṣe tìrẹ lè mú ọ ṣàìsàn gan-an. Àgbàlagbà nìkan ló yẹ kí ó fún ọ ní òògùn."
+        ],
+        [
+          "O sọnù nínú ṣọ́ọ̀bù. Ta ló lè ràn ọ́ lọ́wọ́?",
+          "ẹni tí ó ń ṣiṣẹ́ nínú ṣọ́ọ̀bù",
+          "ẹyẹlé",
+          "kẹ̀kẹ́ ìkẹ́rù ṣọ́ọ̀bù",
+          "Òṣìṣẹ́ ṣọ́ọ̀bù lè pe àgbàlagbà rẹ, kí wọ́n sì pa ọ́ mọ́ títí yóò fi dé."
+        ],
+        [
+          "Ẹnìkan tí o kò mọ̀ ní kí o bá òun lọ. Kí lo máa ṣe?",
+          "sọ pé rárá, kí o sì sọ fún àgbàlagbà rẹ",
+          "bá a lọ",
+          "fi pamọ́ bí àṣírí",
+          "Bá àwọn tí ìdílé rẹ sọ pé kò léwu nìkan lọ. Máa sọ fún àgbàlagbà rẹ nígbà gbogbo."
+        ],
+        [
+          "Kí ló ń jẹ́ kí eyín rẹ ní ìlera?",
+          "jíjẹ ṣúgà díẹ̀",
+          "jíjẹ àdídùn ní gbogbo ọjọ́",
+          "kíkọ̀ láti fọ eyín",
+          "Ṣúgà ń ran kòkòrò kéékèèké lọ́wọ́ láti ba eyín jẹ́. Ṣúgà díẹ̀ ń mú eyín ní ìlera."
+        ],
+        [
+          "Ṣé o lè ki nǹkan bọ inú ihò iná mànàmáná?",
+          "rárá, láé, ó léwu",
+          "bẹ́ẹ̀ni, ó dùn",
+          "bẹ́ẹ̀ni, pẹ̀lú ọwọ́ tí ó rin",
+          "Iná mànàmáná inú ihò náà lè ṣe ọ́ léṣe gan-an. Má ṣe fọwọ́ kàn án láé."
+        ],
+        [
+          "Òtútù ń ṣe ọ́ (ikọ́ àti imú dídí). Kí ló ń ràn ọ́ lọ́wọ́ kí ara rẹ yá?",
+          "ìsinmi àti mímu omi",
+          "sísáré nínú òjò",
+          "jíjẹ àdídùn nìkan",
+          "Ìsinmi àti mímu omi ń ran ara rẹ lọ́wọ́ láti bá òtútù jà."
+        ],
+        [
+          "Kí ló dé tí a fi ń jẹ ẹ̀fọ́?",
+          "ó ń ran ara wa lọ́wọ́ láti lágbára",
+          "ó ń mú wa ṣàìsàn",
+          "ó ń sọ wá di aláwọ̀ búlúù",
+          "Ọ̀pọ̀lọpọ̀ ohun rere wà nínú ẹ̀fọ́ tí ó ń pa wá mọ́ ní ìlera."
+        ],
+        [
+          "Níbo ni ibi tí kò léwu láti ṣeré?",
+          "nínú ọgbà ìṣeré pẹ̀lú àgbàlagbà",
+          "ní àárín títì",
+          "lẹ́gbẹ̀ẹ́ ààrò gbígbóná",
+          "Wọ́n ṣe ọgbà ìṣeré fún ṣíṣeré. Títì àti ààrò léwu."
+        ],
+        [
+          "Ṣé ó yẹ kí o pín búrọ́ọ̀ṣì eyín rẹ?",
+          "rárá, olúkúlùkù ní tirẹ̀",
+          "bẹ́ẹ̀ni, fún gbogbo ènìyàn",
+          "bẹ́ẹ̀ni, fún ajá",
+          "Búrọ́ọ̀ṣì eyín lè gbé kòkòrò àrùn láti ẹnu kan sí òmíràn, nítorí náà lo tìrẹ nìkan."
+        ]
+      ]
+    }
+  },
+  "emoji": "heart",
+  "example": {
+    "i": 0,
+    "q_en": "When should you wash your hands?",
+    "answer_en": "before you eat",
+    "why_en": "Washing your hands before you eat stops germs getting into your food.",
+    "q_de": "Wann solltest du dir die Hände waschen?",
+    "answer_de": "vor dem Essen",
+    "why_de": "Händewaschen vor dem Essen hält Keime von deinem Essen fern.",
+    "q_fr": "Quand dois-tu te laver les mains ?",
+    "answer_fr": "avant de manger",
+    "why_fr": "Se laver les mains avant de manger empêche les microbes d’aller dans la nourriture.",
+    "q_yo": "Ìgbà wo ló yẹ kí o fọ ọwọ́ rẹ?",
+    "answer_yo": "kí o tó jẹun",
+    "why_yo": "Fífọ ọwọ́ kí o tó jẹun ń dí kòkòrò àrùn lọ́wọ́ láti wọ inú oúnjẹ rẹ."
+  },
+  "text": {
+    "en": {
+      "title": "Healthy and safe",
+      "teach": "Wash your hands, brush your teeth, sleep well, eat fruit and vegetables and drink water. Always cross the road with a grown-up.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Gesund und sicher",
+      "teach": "Wasch dir die Hände, putz dir die Zähne, schlaf gut, iss Obst und Gemüse und trink Wasser. Geh immer mit einem Erwachsenen über die Straße.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "En bonne santé et en sécurité",
+      "teach": "Lave-toi les mains, brosse-toi les dents, dors bien, mange des fruits et des légumes et bois de l’eau. Traverse toujours la rue avec un adulte.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ìlera àti ààbò",
+      "teach": "Fọ ọwọ́ rẹ, fọ eyín rẹ, sùn dáadáa, jẹ èso àti ẹ̀fọ́, kí o sì mu omi. Máa sọdá títì pẹ̀lú àgbàlagbà nígbà gbogbo.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

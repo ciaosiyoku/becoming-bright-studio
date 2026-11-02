@@ -1,0 +1,936 @@
+{
+  "id": "sci10-solar",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 206,
+  "params": {
+    "emojis": [
+      "sun",
+      "glowstar",
+      "sun",
+      "clock",
+      "globe",
+      "star",
+      "thermometer",
+      "sun",
+      "moon",
+      "calendar",
+      "moon",
+      "calendar",
+      "clock",
+      "globe",
+      "glowstar",
+      "moon",
+      "sparkles",
+      "mountain",
+      "globe",
+      "glowstar",
+      "sun-small-cloud",
+      "sun",
+      "storm",
+      "moon",
+      "footprints",
+      "sparkles",
+      "moon",
+      "star",
+      "moon",
+      "globe"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which list shows the first four planets in order, starting nearest the Sun?",
+          "Mercury, Venus, Earth, Mars",
+          "Venus, Mercury, Mars, Earth",
+          "Earth, Mars, Venus, Mercury",
+          "Mercury is closest, then Venus, then Earth, then Mars. These four are the rocky inner planets."
+        ],
+        [
+          "Which planet is furthest from the Sun?",
+          "Neptune",
+          "Jupiter",
+          "Mars",
+          "Neptune is the eighth and last planet. It is about 30 times further from the Sun than the Earth is."
+        ],
+        [
+          "Which force keeps the planets travelling in orbit around the Sun?",
+          "gravity",
+          "magnetism",
+          "friction",
+          "The Sun has a huge mass, so its gravity pulls on every planet and keeps it curving round in its orbit."
+        ],
+        [
+          "How long does the Earth take to spin once on its axis?",
+          "about 24 hours",
+          "about one week",
+          "about one year",
+          "One full spin of the Earth gives us one day and one night, which is about 24 hours."
+        ],
+        [
+          "What is an orbit?",
+          "the curved path one object follows around another in space",
+          "a kind of small star",
+          "the hot centre of a planet",
+          "The Earth follows an orbit around the Sun, and the Moon follows an orbit around the Earth."
+        ],
+        [
+          "Which planet lies between Saturn and Neptune?",
+          "Uranus",
+          "Jupiter",
+          "Venus",
+          "The outer planets in order are Jupiter, Saturn, Uranus and Neptune, so Uranus sits between Saturn and Neptune."
+        ],
+        [
+          "Which planet is the hottest, because its thick clouds trap the heat?",
+          "Venus",
+          "Mercury",
+          "Neptune",
+          "Mercury is closer to the Sun, but Venus is hotter. Its thick atmosphere traps heat like a blanket."
+        ],
+        [
+          "The Sun is a star. Why does it look so much bigger than the stars we see at night?",
+          "it is much closer to us",
+          "it is the biggest star in the universe",
+          "the other stars are only tiny sparks",
+          "The other stars are suns too, many even bigger, but they are so far away that they look like tiny dots."
+        ],
+        [
+          "Why can we see the Moon shining at night?",
+          "it reflects light from the Sun",
+          "it makes its own light",
+          "it is burning like a fire",
+          "The Moon is made of rock and gives out no light of its own. Sunlight bounces off it towards us."
+        ],
+        [
+          "What is the Moon’s phase called when we can see its whole sunlit side as a bright circle?",
+          "full moon",
+          "new moon",
+          "crescent moon",
+          "At full moon the Earth is between the Sun and the Moon, so we see the whole lit half of the Moon."
+        ],
+        [
+          "At new moon we can hardly see the Moon at all. Why?",
+          "its sunlit side is facing away from the Earth",
+          "it has moved to the other side of the Sun",
+          "clouds always cover it at that time",
+          "The Moon is between the Earth and the Sun, so the half lit by the Sun faces away from us and we see its dark side."
+        ],
+        [
+          "Which planet has the shortest year?",
+          "Mercury",
+          "Neptune",
+          "Earth",
+          "Mercury is closest to the Sun, so its orbit is the shortest. It goes round the Sun in about 88 Earth days."
+        ],
+        [
+          "Neptune takes about 165 Earth years to orbit the Sun once. Why does it take so long?",
+          "it is very far away, so its orbit is enormous",
+          "it spins the wrong way round",
+          "it is the smallest planet",
+          "The further a planet is from the Sun, the longer its path and the slower it moves, so its year is much longer."
+        ],
+        [
+          "What shape are the Sun, the Earth and the Moon?",
+          "roughly spheres, like balls",
+          "flat discs, like plates",
+          "cubes, like dice",
+          "Gravity pulls a large object inwards evenly from every side, which makes it round like a ball."
+        ],
+        [
+          "Which of these is NOT a planet?",
+          "the Moon",
+          "Mars",
+          "Saturn",
+          "The Moon is a natural satellite: it orbits the Earth, not the Sun directly. Mars and Saturn are planets."
+        ],
+        [
+          "Which object does our Moon orbit?",
+          "the Earth",
+          "Mars",
+          "Jupiter",
+          "Our Moon travels around the Earth about once every month, held in orbit by the Earth’s gravity."
+        ],
+        [
+          "Which four planets are the giant planets, made mostly of gas and ice?",
+          "Jupiter, Saturn, Uranus and Neptune",
+          "Mercury, Venus, Earth and Mars",
+          "Mercury, Mars, Saturn and Neptune",
+          "The four outer planets are huge balls of gas and ice. The four inner planets are much smaller and rocky."
+        ],
+        [
+          "Mercury, Venus, Earth and Mars are called rocky planets. What does that mean?",
+          "they have a solid surface made of rock",
+          "they are made only of gas",
+          "they are completely covered in ice",
+          "You could stand on a rocky planet. The giant planets have no solid surface to stand on."
+        ],
+        [
+          "When it is summer in the northern half of the Earth, it is winter in the southern half. Why?",
+          "the Earth is tilted, so each half leans towards the Sun at a different time of year",
+          "the Earth moves much closer to the Sun in summer",
+          "the Sun burns hotter in some months",
+          "Because of the tilt, the half leaning towards the Sun gets more direct sunlight and longer days, so it has summer."
+        ],
+        [
+          "Astronomers measure huge distances in light years. What is a light year?",
+          "the distance light travels in one year",
+          "the time a planet takes to orbit the Sun",
+          "a year with plenty of sunshine",
+          "Light is the fastest thing there is, yet light from the nearest stars still takes years to reach us."
+        ],
+        [
+          "Why does the Sun seem to move across the sky during the day?",
+          "the Earth is spinning",
+          "the Sun travels around the Earth every day",
+          "the wind pushes the Sun along",
+          "The Sun stays put. As the Earth turns from west to east, the Sun appears to rise, cross the sky and set."
+        ],
+        [
+          "In which direction does the Sun rise in the morning?",
+          "in the east",
+          "in the west",
+          "in the north",
+          "Because the Earth spins towards the east, the Sun comes into view in the east and sets in the west."
+        ],
+        [
+          "Which planet has the Great Red Spot, a storm bigger than the whole Earth?",
+          "Jupiter",
+          "Mercury",
+          "Venus",
+          "The Great Red Spot is a giant swirling storm on Jupiter that has lasted for hundreds of years."
+        ],
+        [
+          "You would weigh much less on the Moon than on Earth. Why?",
+          "the Moon has less mass, so its gravity is weaker",
+          "there is no air on the Moon",
+          "the Moon is colder than the Earth",
+          "Gravity on the Moon is about one sixth of the Earth’s, because the Moon has much less mass."
+        ],
+        [
+          "An astronaut flies to the Moon. Does their mass change?",
+          "no, only their weight changes",
+          "yes, it becomes six times smaller",
+          "yes, it doubles",
+          "Mass is the amount of matter in you, which stays the same. Weight is the pull of gravity, which is weaker on the Moon."
+        ],
+        [
+          "Which object is at the centre of our solar system?",
+          "the Sun",
+          "the Earth",
+          "the Moon",
+          "All eight planets orbit the Sun. Long ago many people thought the Earth was at the centre, but that was wrong."
+        ],
+        [
+          "What is a moon?",
+          "a natural object that orbits a planet",
+          "a small star that shines at night",
+          "a planet with no air",
+          "Earth has one moon. Mars has two, and Jupiter and Saturn each have dozens."
+        ],
+        [
+          "Why do we see stars at night but not during the day?",
+          "in the day, bright sunlight hides them",
+          "stars switch off during the day",
+          "stars hide behind the Moon during the day",
+          "The stars are still there in the daytime, but the sky is lit up so brightly by the Sun that we cannot see them."
+        ],
+        [
+          "From the Earth we always see the same face of the Moon. Why?",
+          "the Moon spins once in the same time it takes to orbit the Earth",
+          "the Moon does not spin at all",
+          "the other side of the Moon is always dark",
+          "Because its spin and its orbit both take about a month, the same side always faces us. The far side gets sunlight too."
+        ],
+        [
+          "Which planet is tipped right over on its side, so it seems to roll around the Sun?",
+          "Uranus",
+          "Mars",
+          "Mercury",
+          "Uranus is tilted so far over that its poles point almost towards the Sun. Scientists think a huge collision long ago knocked it over."
+        ]
+      ],
+      "de": [
+        [
+          "Welche Liste zeigt die ersten vier Planeten der Reihe nach, von der Sonne aus?",
+          "Merkur, Venus, Erde, Mars",
+          "Venus, Merkur, Mars, Erde",
+          "Erde, Mars, Venus, Merkur",
+          "Merkur ist am nächsten, dann kommen Venus, Erde und Mars. Das sind die vier inneren Gesteinsplaneten."
+        ],
+        [
+          "Welcher Planet ist am weitesten von der Sonne entfernt?",
+          "Neptun",
+          "Jupiter",
+          "Mars",
+          "Neptun ist der achte und letzte Planet. Er ist etwa 30-mal so weit von der Sonne entfernt wie die Erde."
+        ],
+        [
+          "Welche Kraft hält die Planeten auf ihrer Bahn um die Sonne?",
+          "die Schwerkraft",
+          "der Magnetismus",
+          "die Reibung",
+          "Die Sonne hat eine riesige Masse. Ihre Schwerkraft zieht an jedem Planeten und hält ihn auf seiner Kreisbahn."
+        ],
+        [
+          "Wie lange braucht die Erde, um sich einmal um ihre Achse zu drehen?",
+          "etwa 24 Stunden",
+          "etwa eine Woche",
+          "etwa ein Jahr",
+          "Eine ganze Drehung der Erde ergibt einen Tag und eine Nacht, also etwa 24 Stunden."
+        ],
+        [
+          "Was ist eine Umlaufbahn?",
+          "der gebogene Weg, auf dem ein Körper im All um einen anderen kreist",
+          "eine Art kleiner Stern",
+          "der heiße Kern eines Planeten",
+          "Die Erde zieht auf einer Umlaufbahn um die Sonne, und der Mond zieht auf einer Umlaufbahn um die Erde."
+        ],
+        [
+          "Welcher Planet liegt zwischen Saturn und Neptun?",
+          "Uranus",
+          "Jupiter",
+          "Venus",
+          "Die äußeren Planeten heißen der Reihe nach Jupiter, Saturn, Uranus und Neptun. Uranus liegt also zwischen Saturn und Neptun."
+        ],
+        [
+          "Welcher Planet ist am heißesten, weil seine dicken Wolken die Wärme festhalten?",
+          "Venus",
+          "Merkur",
+          "Neptun",
+          "Merkur ist näher an der Sonne, aber die Venus ist heißer. Ihre dichte Lufthülle hält die Wärme fest wie eine Decke."
+        ],
+        [
+          "Die Sonne ist ein Stern. Warum sieht sie so viel größer aus als die Sterne in der Nacht?",
+          "sie ist uns viel näher",
+          "sie ist der größte Stern im Weltall",
+          "die anderen Sterne sind nur winzige Funken",
+          "Die anderen Sterne sind auch Sonnen, viele sogar größer. Aber sie sind so weit weg, dass sie wie winzige Punkte aussehen."
+        ],
+        [
+          "Warum sehen wir den Mond nachts leuchten?",
+          "er wirft das Licht der Sonne zurück",
+          "er erzeugt sein eigenes Licht",
+          "er brennt wie ein Feuer",
+          "Der Mond besteht aus Gestein und leuchtet nicht selbst. Das Sonnenlicht wird von ihm zu uns zurückgeworfen."
+        ],
+        [
+          "Wie heißt die Mondphase, in der wir seine ganze beleuchtete Seite als hellen Kreis sehen?",
+          "Vollmond",
+          "Neumond",
+          "Mondsichel",
+          "Bei Vollmond steht die Erde zwischen Sonne und Mond. Wir sehen dann die ganze beleuchtete Hälfte des Mondes."
+        ],
+        [
+          "Bei Neumond sieht man den Mond fast gar nicht. Warum?",
+          "seine beleuchtete Seite ist von der Erde abgewandt",
+          "er ist auf die andere Seite der Sonne gewandert",
+          "dann verdecken ihn immer Wolken",
+          "Der Mond steht zwischen Erde und Sonne. Die beleuchtete Hälfte zeigt von uns weg, und wir sehen seine dunkle Seite."
+        ],
+        [
+          "Welcher Planet hat das kürzeste Jahr?",
+          "Merkur",
+          "Neptun",
+          "die Erde",
+          "Merkur ist der Sonne am nächsten und hat die kürzeste Umlaufbahn. Er umrundet die Sonne in etwa 88 Erdentagen."
+        ],
+        [
+          "Neptun braucht etwa 165 Erdenjahre für eine Runde um die Sonne. Warum so lange?",
+          "er ist sehr weit weg, darum ist seine Bahn riesig",
+          "er dreht sich falsch herum",
+          "er ist der kleinste Planet",
+          "Je weiter ein Planet von der Sonne entfernt ist, desto länger ist sein Weg und desto langsamer ist er. Sein Jahr ist also viel länger."
+        ],
+        [
+          "Welche Form haben Sonne, Erde und Mond?",
+          "ungefähr Kugeln",
+          "flache Scheiben wie Teller",
+          "Würfel",
+          "Die Schwerkraft zieht einen großen Körper von allen Seiten gleich stark nach innen. Darum wird er rund wie eine Kugel."
+        ],
+        [
+          "Was davon ist KEIN Planet?",
+          "der Mond",
+          "Mars",
+          "Saturn",
+          "Der Mond ist ein natürlicher Satellit: Er kreist um die Erde. Mars und Saturn sind Planeten."
+        ],
+        [
+          "Um welchen Himmelskörper kreist unser Mond?",
+          "um die Erde",
+          "um den Mars",
+          "um den Jupiter",
+          "Unser Mond umrundet die Erde etwa einmal im Monat. Die Schwerkraft der Erde hält ihn auf seiner Bahn."
+        ],
+        [
+          "Welche vier Planeten sind die Riesenplaneten aus Gas und Eis?",
+          "Jupiter, Saturn, Uranus und Neptun",
+          "Merkur, Venus, Erde und Mars",
+          "Merkur, Mars, Saturn und Neptun",
+          "Die vier äußeren Planeten sind riesige Kugeln aus Gas und Eis. Die vier inneren sind viel kleiner und aus Gestein."
+        ],
+        [
+          "Merkur, Venus, Erde und Mars heißen Gesteinsplaneten. Was bedeutet das?",
+          "sie haben eine feste Oberfläche aus Gestein",
+          "sie bestehen nur aus Gas",
+          "sie sind ganz von Eis bedeckt",
+          "Auf einem Gesteinsplaneten könnte man stehen. Die Riesenplaneten haben keine feste Oberfläche."
+        ],
+        [
+          "Wenn auf der Nordhalbkugel Sommer ist, ist auf der Südhalbkugel Winter. Warum?",
+          "die Erdachse ist geneigt, darum neigt sich jede Hälfte zu einer anderen Jahreszeit zur Sonne",
+          "die Erde kommt im Sommer der Sonne viel näher",
+          "die Sonne brennt in manchen Monaten heißer",
+          "Wegen der Neigung bekommt die Hälfte, die zur Sonne zeigt, steileres Sonnenlicht und längere Tage. Dort ist Sommer."
+        ],
+        [
+          "Astronomen messen riesige Entfernungen in Lichtjahren. Was ist ein Lichtjahr?",
+          "die Strecke, die Licht in einem Jahr zurücklegt",
+          "die Zeit, die ein Planet für eine Runde um die Sonne braucht",
+          "ein Jahr mit viel Sonnenschein",
+          "Nichts ist schneller als Licht, und trotzdem braucht das Licht der nächsten Sterne Jahre bis zu uns."
+        ],
+        [
+          "Warum scheint die Sonne tagsüber über den Himmel zu wandern?",
+          "die Erde dreht sich",
+          "die Sonne kreist jeden Tag um die Erde",
+          "der Wind schiebt die Sonne weiter",
+          "Die Sonne bleibt, wo sie ist. Weil sich die Erde von West nach Ost dreht, scheint die Sonne aufzugehen, über den Himmel zu ziehen und unterzugehen."
+        ],
+        [
+          "In welcher Himmelsrichtung geht die Sonne morgens auf?",
+          "im Osten",
+          "im Westen",
+          "im Norden",
+          "Weil sich die Erde nach Osten dreht, taucht die Sonne im Osten auf und geht im Westen unter."
+        ],
+        [
+          "Auf welchem Planeten gibt es den Großen Roten Fleck, einen Sturm, der größer ist als die ganze Erde?",
+          "Jupiter",
+          "Merkur",
+          "Venus",
+          "Der Große Rote Fleck ist ein riesiger Wirbelsturm auf dem Jupiter, der schon seit Hunderten von Jahren tobt."
+        ],
+        [
+          "Auf dem Mond würdest du viel weniger wiegen als auf der Erde. Warum?",
+          "der Mond hat weniger Masse, darum ist seine Schwerkraft schwächer",
+          "auf dem Mond gibt es keine Luft",
+          "der Mond ist kälter als die Erde",
+          "Die Schwerkraft auf dem Mond beträgt etwa ein Sechstel der Schwerkraft auf der Erde, weil der Mond viel weniger Masse hat."
+        ],
+        [
+          "Eine Astronautin fliegt zum Mond. Ändert sich ihre Masse?",
+          "nein, nur ihre Gewichtskraft ändert sich",
+          "ja, sie wird sechsmal kleiner",
+          "ja, sie verdoppelt sich",
+          "Die Masse ist die Menge an Stoff in deinem Körper, sie bleibt gleich. Die Gewichtskraft ist der Zug der Schwerkraft, und der ist auf dem Mond schwächer."
+        ],
+        [
+          "Welcher Himmelskörper steht im Mittelpunkt unseres Sonnensystems?",
+          "die Sonne",
+          "die Erde",
+          "der Mond",
+          "Alle acht Planeten kreisen um die Sonne. Früher glaubten viele Menschen, die Erde sei der Mittelpunkt, aber das stimmt nicht."
+        ],
+        [
+          "Was ist ein Mond?",
+          "ein natürlicher Himmelskörper, der um einen Planeten kreist",
+          "ein kleiner Stern, der nachts leuchtet",
+          "ein Planet ohne Luft",
+          "Die Erde hat einen Mond. Der Mars hat zwei, Jupiter und Saturn haben jeweils Dutzende."
+        ],
+        [
+          "Warum sehen wir die Sterne nachts, aber nicht am Tag?",
+          "am Tag überstrahlt das helle Sonnenlicht sie",
+          "Sterne schalten sich am Tag aus",
+          "Sterne verstecken sich am Tag hinter dem Mond",
+          "Die Sterne sind auch tagsüber da. Aber die Sonne macht den Himmel so hell, dass wir sie nicht sehen können."
+        ],
+        [
+          "Von der Erde aus sehen wir immer dieselbe Seite des Mondes. Warum?",
+          "der Mond dreht sich einmal in der Zeit, in der er die Erde umkreist",
+          "der Mond dreht sich überhaupt nicht",
+          "die andere Seite des Mondes ist immer dunkel",
+          "Drehung und Umlauf dauern beide etwa einen Monat, darum zeigt immer dieselbe Seite zu uns. Auch die Rückseite bekommt Sonnenlicht."
+        ],
+        [
+          "Welcher Planet liegt fast auf der Seite, sodass er um die Sonne zu rollen scheint?",
+          "Uranus",
+          "Mars",
+          "Merkur",
+          "Uranus ist so stark geneigt, dass seine Pole fast zur Sonne zeigen. Forscher vermuten, dass ihn vor langer Zeit ein gewaltiger Zusammenstoß umgekippt hat."
+        ]
+      ],
+      "fr": [
+        [
+          "Quelle liste donne les quatre premières planètes dans l’ordre, en partant du Soleil ?",
+          "Mercure, Vénus, la Terre, Mars",
+          "Vénus, Mercure, Mars, la Terre",
+          "la Terre, Mars, Vénus, Mercure",
+          "Mercure est la plus proche, puis viennent Vénus, la Terre et Mars. Ce sont les quatre planètes rocheuses intérieures."
+        ],
+        [
+          "Quelle planète est la plus éloignée du Soleil ?",
+          "Neptune",
+          "Jupiter",
+          "Mars",
+          "Neptune est la huitième et dernière planète. Elle est environ 30 fois plus loin du Soleil que la Terre."
+        ],
+        [
+          "Quelle force garde les planètes sur leur orbite autour du Soleil ?",
+          "la gravité",
+          "le magnétisme",
+          "le frottement",
+          "Le Soleil a une masse énorme : sa gravité attire chaque planète et la fait tourner sur son orbite."
+        ],
+        [
+          "Combien de temps la Terre met-elle pour faire un tour sur elle-même ?",
+          "environ 24 heures",
+          "environ une semaine",
+          "environ un an",
+          "Un tour complet de la Terre donne un jour et une nuit, soit environ 24 heures."
+        ],
+        [
+          "Qu’est-ce qu’une orbite ?",
+          "le chemin courbe qu’un objet suit autour d’un autre dans l’espace",
+          "une sorte de petite étoile",
+          "le centre chaud d’une planète",
+          "La Terre suit une orbite autour du Soleil, et la Lune suit une orbite autour de la Terre."
+        ],
+        [
+          "Quelle planète se trouve entre Saturne et Neptune ?",
+          "Uranus",
+          "Jupiter",
+          "Vénus",
+          "Dans l’ordre, les planètes extérieures sont Jupiter, Saturne, Uranus et Neptune : Uranus est donc entre Saturne et Neptune."
+        ],
+        [
+          "Quelle planète est la plus chaude, parce que ses nuages épais retiennent la chaleur ?",
+          "Vénus",
+          "Mercure",
+          "Neptune",
+          "Mercure est plus proche du Soleil, mais Vénus est plus chaude. Son atmosphère épaisse retient la chaleur comme une couverture."
+        ],
+        [
+          "Le Soleil est une étoile. Pourquoi paraît-il tellement plus gros que les étoiles de la nuit ?",
+          "il est beaucoup plus proche de nous",
+          "c’est la plus grande étoile de l’univers",
+          "les autres étoiles ne sont que de minuscules étincelles",
+          "Les autres étoiles sont aussi des soleils, parfois plus grands, mais elles sont si loin qu’elles ressemblent à de tout petits points."
+        ],
+        [
+          "Pourquoi voit-on la Lune briller la nuit ?",
+          "elle renvoie la lumière du Soleil",
+          "elle fabrique sa propre lumière",
+          "elle brûle comme un feu",
+          "La Lune est faite de roche et ne produit pas de lumière. La lumière du Soleil rebondit sur elle jusqu’à nous."
+        ],
+        [
+          "Comment s’appelle la phase où l’on voit toute la face éclairée de la Lune, comme un disque brillant ?",
+          "la pleine lune",
+          "la nouvelle lune",
+          "le croissant de lune",
+          "À la pleine lune, la Terre est entre le Soleil et la Lune : on voit toute la moitié éclairée de la Lune."
+        ],
+        [
+          "À la nouvelle lune, on ne voit presque pas la Lune. Pourquoi ?",
+          "sa face éclairée est tournée à l’opposé de la Terre",
+          "elle est passée de l’autre côté du Soleil",
+          "des nuages la cachent toujours à ce moment-là",
+          "La Lune est entre la Terre et le Soleil : sa moitié éclairée regarde dans l’autre sens et nous voyons sa face sombre."
+        ],
+        [
+          "Quelle planète a l’année la plus courte ?",
+          "Mercure",
+          "Neptune",
+          "la Terre",
+          "Mercure est la plus proche du Soleil, son orbite est donc la plus courte. Elle en fait le tour en environ 88 jours terrestres."
+        ],
+        [
+          "Neptune met environ 165 années terrestres pour faire le tour du Soleil. Pourquoi si longtemps ?",
+          "elle est très loin, donc son orbite est immense",
+          "elle tourne à l’envers",
+          "c’est la plus petite planète",
+          "Plus une planète est loin du Soleil, plus son chemin est long et plus elle avance lentement : son année est donc bien plus longue."
+        ],
+        [
+          "Quelle est la forme du Soleil, de la Terre et de la Lune ?",
+          "à peu près des sphères, comme des boules",
+          "des disques plats, comme des assiettes",
+          "des cubes, comme des dés",
+          "La gravité attire un grand objet vers son centre de tous les côtés à la fois, ce qui le rend rond comme une boule."
+        ],
+        [
+          "Lequel de ces astres n’est PAS une planète ?",
+          "la Lune",
+          "Mars",
+          "Saturne",
+          "La Lune est un satellite naturel : elle tourne autour de la Terre. Mars et Saturne sont des planètes."
+        ],
+        [
+          "Autour de quel astre tourne notre Lune ?",
+          "la Terre",
+          "Mars",
+          "Jupiter",
+          "Notre Lune fait le tour de la Terre environ une fois par mois. La gravité de la Terre la garde sur son orbite."
+        ],
+        [
+          "Quelles sont les quatre planètes géantes, faites surtout de gaz et de glace ?",
+          "Jupiter, Saturne, Uranus et Neptune",
+          "Mercure, Vénus, la Terre et Mars",
+          "Mercure, Mars, Saturne et Neptune",
+          "Les quatre planètes extérieures sont d’énormes boules de gaz et de glace. Les quatre intérieures sont bien plus petites et rocheuses."
+        ],
+        [
+          "Mercure, Vénus, la Terre et Mars sont des planètes rocheuses. Qu’est-ce que cela veut dire ?",
+          "elles ont une surface solide faite de roche",
+          "elles sont faites uniquement de gaz",
+          "elles sont entièrement couvertes de glace",
+          "On pourrait se tenir debout sur une planète rocheuse. Les planètes géantes n’ont pas de surface solide."
+        ],
+        [
+          "Quand c’est l’été dans la moitié nord de la Terre, c’est l’hiver dans la moitié sud. Pourquoi ?",
+          "la Terre est inclinée, donc chaque moitié penche vers le Soleil à un moment différent de l’année",
+          "la Terre se rapproche beaucoup du Soleil en été",
+          "le Soleil brûle plus fort certains mois",
+          "À cause de l’inclinaison, la moitié penchée vers le Soleil reçoit une lumière plus directe et des jours plus longs : c’est l’été."
+        ],
+        [
+          "Les astronomes mesurent les très grandes distances en années-lumière. Qu’est-ce qu’une année-lumière ?",
+          "la distance parcourue par la lumière en un an",
+          "le temps que met une planète à faire le tour du Soleil",
+          "une année avec beaucoup de soleil",
+          "Rien n’est plus rapide que la lumière, et pourtant celle des étoiles les plus proches met des années à nous parvenir."
+        ],
+        [
+          "Pourquoi le Soleil semble-t-il traverser le ciel pendant la journée ?",
+          "la Terre tourne sur elle-même",
+          "le Soleil fait le tour de la Terre chaque jour",
+          "le vent pousse le Soleil",
+          "Le Soleil ne bouge pas autour de nous. Comme la Terre tourne d’ouest en est, il semble se lever, traverser le ciel et se coucher."
+        ],
+        [
+          "De quel côté le Soleil se lève-t-il le matin ?",
+          "à l’est",
+          "à l’ouest",
+          "au nord",
+          "Comme la Terre tourne vers l’est, le Soleil apparaît à l’est et se couche à l’ouest."
+        ],
+        [
+          "Quelle planète a la Grande Tache rouge, une tempête plus grande que toute la Terre ?",
+          "Jupiter",
+          "Mercure",
+          "Vénus",
+          "La Grande Tache rouge est une gigantesque tempête tourbillonnante sur Jupiter, qui dure depuis des centaines d’années."
+        ],
+        [
+          "Sur la Lune, ton poids serait bien plus faible que sur la Terre. Pourquoi ?",
+          "la Lune a moins de masse, donc sa gravité est plus faible",
+          "il n’y a pas d’air sur la Lune",
+          "la Lune est plus froide que la Terre",
+          "La gravité sur la Lune vaut environ un sixième de celle de la Terre, car la Lune a beaucoup moins de masse."
+        ],
+        [
+          "Une astronaute part sur la Lune. Sa masse change-t-elle ?",
+          "non, seul son poids change",
+          "oui, elle devient six fois plus petite",
+          "oui, elle double",
+          "La masse est la quantité de matière de ton corps : elle ne change pas. Le poids est l’attraction de la gravité, plus faible sur la Lune."
+        ],
+        [
+          "Quel astre se trouve au centre de notre système solaire ?",
+          "le Soleil",
+          "la Terre",
+          "la Lune",
+          "Les huit planètes tournent autour du Soleil. Autrefois, beaucoup pensaient que la Terre était au centre, mais c’était faux."
+        ],
+        [
+          "Qu’est-ce qu’une lune ?",
+          "un astre naturel qui tourne autour d’une planète",
+          "une petite étoile qui brille la nuit",
+          "une planète sans air",
+          "La Terre a une lune. Mars en a deux, et Jupiter et Saturne en ont chacune des dizaines."
+        ],
+        [
+          "Pourquoi voit-on les étoiles la nuit mais pas le jour ?",
+          "le jour, la lumière vive du Soleil les cache",
+          "les étoiles s’éteignent pendant la journée",
+          "les étoiles se cachent derrière la Lune le jour",
+          "Les étoiles sont toujours là le jour, mais le Soleil éclaire tellement le ciel qu’on ne peut pas les voir."
+        ],
+        [
+          "Depuis la Terre, on voit toujours la même face de la Lune. Pourquoi ?",
+          "la Lune tourne sur elle-même dans le même temps qu’elle fait le tour de la Terre",
+          "la Lune ne tourne pas du tout sur elle-même",
+          "l’autre face de la Lune est toujours dans le noir",
+          "Sa rotation et son tour de la Terre durent tous deux environ un mois : c’est toujours la même face qui nous regarde. L’autre face reçoit aussi la lumière du Soleil."
+        ],
+        [
+          "Quelle planète est couchée sur le côté, si bien qu’elle semble rouler autour du Soleil ?",
+          "Uranus",
+          "Mars",
+          "Mercure",
+          "Uranus est si inclinée que ses pôles pointent presque vers le Soleil. Les scientifiques pensent qu’une énorme collision l’a renversée il y a très longtemps."
+        ]
+      ],
+      "yo": [
+        [
+          "Àkójọ wo ló fi pílánẹ́ẹ̀tì mẹ́rin àkọ́kọ́ hàn létòlétò, bẹ̀rẹ̀ láti èyí tí ó súnmọ́ oòrùn jù?",
+          "Mákúrì, Fínúsì, Ayé, Máàsì",
+          "Fínúsì, Mákúrì, Máàsì, Ayé",
+          "Ayé, Máàsì, Fínúsì, Mákúrì",
+          "Mákúrì ló súnmọ́ jù, lẹ́yìn rẹ̀ ni Fínúsì, Ayé àti Máàsì. Àwọn mẹ́rin yìí ni pílánẹ́ẹ̀tì olókùúta inú."
+        ],
+        [
+          "Pílánẹ́ẹ̀tì wo ló jìnnà sí oòrùn jù?",
+          "Nẹ́ptúùnù",
+          "Júpítà",
+          "Máàsì",
+          "Nẹ́ptúùnù ni pílánẹ́ẹ̀tì kẹjọ àti ìkẹyìn. Ó jìnnà sí oòrùn ní ìlọ́po ọgbọ̀n ju Ayé lọ."
+        ],
+        [
+          "Agbára wo ló ń mú àwọn pílánẹ́ẹ̀tì máa yí oòrùn ká ní ipa ọ̀nà wọn?",
+          "agbára òòfà (gravity)",
+          "agbára mágínẹ́ẹ̀tì",
+          "ìfarakanra (friction)",
+          "Oòrùn tóbi gan-an, nítorí náà agbára òòfà rẹ̀ ń fa pílánẹ́ẹ̀tì kọ̀ọ̀kan, ó sì ń mú un yí po ní ipa ọ̀nà rẹ̀."
+        ],
+        [
+          "Ìgbà mélòó ni Ayé fi ń yí ara rẹ̀ po lẹ́ẹ̀kan lórí òpó rẹ̀?",
+          "nǹkan bí wákàtí mẹ́rìnlélógún",
+          "nǹkan bí ọ̀sẹ̀ kan",
+          "nǹkan bí ọdún kan",
+          "Yíyí po lẹ́ẹ̀kan pátápátá ló ń fún wa ní ọ̀sán kan àti òru kan, ìyẹn nǹkan bí wákàtí mẹ́rìnlélógún."
+        ],
+        [
+          "Kí ni ipa ọ̀nà yíyípo (orbit)?",
+          "ọ̀nà onígun tí ohun kan ń tọ̀ yí ohun mìíràn ká ní òfuurufú",
+          "irú ìràwọ̀ kékeré kan",
+          "àárín gbígbóná pílánẹ́ẹ̀tì",
+          "Ayé ń tọ ipa ọ̀nà yíyípo yí oòrùn ká, òṣùpá sì ń tọ ipa ọ̀nà yíyípo yí Ayé ká."
+        ],
+        [
+          "Pílánẹ́ẹ̀tì wo ló wà láàárín Sátọ̀ọ̀nù àti Nẹ́ptúùnù?",
+          "Yúréénọ̀sì",
+          "Júpítà",
+          "Fínúsì",
+          "Létòlétò, àwọn pílánẹ́ẹ̀tì òde ni Júpítà, Sátọ̀ọ̀nù, Yúréénọ̀sì àti Nẹ́ptúùnù, nítorí náà Yúréénọ̀sì wà láàárín Sátọ̀ọ̀nù àti Nẹ́ptúùnù."
+        ],
+        [
+          "Pílánẹ́ẹ̀tì wo ló gbóná jù, nítorí pé ìkùukùu rẹ̀ tí ó nípọn ń há ooru mọ́lẹ̀?",
+          "Fínúsì",
+          "Mákúrì",
+          "Nẹ́ptúùnù",
+          "Mákúrì súnmọ́ oòrùn jù, ṣùgbọ́n Fínúsì gbóná jù. Afẹ́fẹ́ rẹ̀ tí ó nípọn ń há ooru mọ́ bí aṣọ ìbora."
+        ],
+        [
+          "Ìràwọ̀ ni oòrùn. Kí ló dé tí ó fi dà bí ẹni pé ó tóbi ju àwọn ìràwọ̀ tí a ń rí lóru lọ?",
+          "ó súnmọ́ wa jù wọ́n lọ",
+          "òun ni ìràwọ̀ tí ó tóbi jù ní gbogbo àgbáyé",
+          "àwọn ìràwọ̀ yòókù jẹ́ ẹ̀ta iná kéékèèké lásán",
+          "Oòrùn ni àwọn ìràwọ̀ yòókù náà, àwọn kan tilẹ̀ tóbi jù ú lọ, ṣùgbọ́n wọ́n jìnnà débi pé wọ́n dà bí ààmì kékeré."
+        ],
+        [
+          "Kí ló dé tí a fi ń rí òṣùpá tí ó ń tàn lóru?",
+          "ó ń dá ìmọ́lẹ̀ oòrùn padà",
+          "ó ń ṣe ìmọ́lẹ̀ ti ara rẹ̀",
+          "ó ń jó bí iná",
+          "Òkúta ni òṣùpá, kò ní ìmọ́lẹ̀ ti ara rẹ̀. Ìmọ́lẹ̀ oòrùn ló ń tàn lù ú, tí ó sì ń padà sọ́dọ̀ wa."
+        ],
+        [
+          "Kí ni a ń pe ìpele òṣùpá nígbà tí a bá rí gbogbo apá rẹ̀ tí oòrùn tàn sí bí òbìrí tí ó mọ́lẹ̀?",
+          "òṣùpá àrànmọ́jú (full moon)",
+          "òṣùpá tuntun (new moon)",
+          "òṣùpá ìdajì bí dòjé",
+          "Nígbà òṣùpá àrànmọ́jú, Ayé wà láàárín oòrùn àti òṣùpá, nítorí náà a ń rí gbogbo ìdajì òṣùpá tí ìmọ́lẹ̀ tàn sí."
+        ],
+        [
+          "Nígbà òṣùpá tuntun, a kò fẹ́rẹ̀ rí òṣùpá rárá. Kí ló fà á?",
+          "apá rẹ̀ tí oòrùn tàn sí kọjú sí ibòmíràn, kì í ṣe Ayé",
+          "ó ti lọ sí apá kejì oòrùn",
+          "ìkùukùu máa ń bò ó nígbà gbogbo nígbà náà",
+          "Òṣùpá wà láàárín Ayé àti oòrùn, nítorí náà ìdajì tí ìmọ́lẹ̀ tàn sí kọjú sí ibòmíràn, a sì ń rí apá rẹ̀ tí ó ṣókùnkùn."
+        ],
+        [
+          "Pílánẹ́ẹ̀tì wo ni ọdún rẹ̀ kúrú jù?",
+          "Mákúrì",
+          "Nẹ́ptúùnù",
+          "Ayé",
+          "Mákúrì ló súnmọ́ oòrùn jù, nítorí náà ipa ọ̀nà rẹ̀ ló kúrú jù. Ó ń yí oòrùn ká ní nǹkan bí ọjọ́ méjìdínláàádọ́rùn-ún ti Ayé."
+        ],
+        [
+          "Nẹ́ptúùnù ń lo nǹkan bí ọdún márùn-dín-láàádọ́sàn-án ti Ayé láti yí oòrùn ká lẹ́ẹ̀kan. Kí ló dé tí ó fi pẹ́ tó bẹ́ẹ̀?",
+          "ó jìnnà gan-an, nítorí náà ipa ọ̀nà rẹ̀ gùn púpọ̀",
+          "ó ń yí po ní ọ̀nà òdì",
+          "òun ni pílánẹ́ẹ̀tì tí ó kéré jù",
+          "Bí pílánẹ́ẹ̀tì bá ṣe jìnnà sí oòrùn tó, bẹ́ẹ̀ ni ọ̀nà rẹ̀ ṣe gùn tó, tí ó sì ń lọ díẹ̀díẹ̀, nítorí náà ọdún rẹ̀ gùn jù."
+        ],
+        [
+          "Ìrísí wo ni oòrùn, Ayé àti òṣùpá ní?",
+          "wọ́n rí roboto bí bọ́ọ̀lù",
+          "wọ́n tẹ́ pẹrẹsẹ bí àwo",
+          "wọ́n ní igun mẹ́rin bí ṣẹ́ẹ̀kẹ́",
+          "Agbára òòfà ń fa ohun ńlá sínú láti gbogbo ẹ̀gbẹ́ dọ́gbadọ́gba, èyí ló ń mú kí ó rí roboto bí bọ́ọ̀lù."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí KÌ Í ṣe pílánẹ́ẹ̀tì?",
+          "òṣùpá",
+          "Máàsì",
+          "Sátọ̀ọ̀nù",
+          "Òṣùpá jẹ́ sátẹ́láìtì àdáyébá: Ayé ló ń yí ká. Pílánẹ́ẹ̀tì ni Máàsì àti Sátọ̀ọ̀nù."
+        ],
+        [
+          "Kí ni òṣùpá wa ń yí ká?",
+          "Ayé",
+          "Máàsì",
+          "Júpítà",
+          "Òṣùpá wa ń yí Ayé ká ní nǹkan bí ẹ̀ẹ̀kan lóṣù, agbára òòfà Ayé ló sì ń mú un dúró ní ipa ọ̀nà rẹ̀."
+        ],
+        [
+          "Àwọn pílánẹ́ẹ̀tì mẹ́rin wo ni pílánẹ́ẹ̀tì òmìrán tí a fi gáàsì àti yìnyín ṣe jùlọ?",
+          "Júpítà, Sátọ̀ọ̀nù, Yúréénọ̀sì àti Nẹ́ptúùnù",
+          "Mákúrì, Fínúsì, Ayé àti Máàsì",
+          "Mákúrì, Máàsì, Sátọ̀ọ̀nù àti Nẹ́ptúùnù",
+          "Pílánẹ́ẹ̀tì mẹ́rin òde jẹ́ òbìrí ńláńlá ti gáàsì àti yìnyín. Àwọn mẹ́rin inú kéré jù wọ́n lọ, òkúta sì ni wọ́n."
+        ],
+        [
+          "A ń pe Mákúrì, Fínúsì, Ayé àti Máàsì ní pílánẹ́ẹ̀tì olókùúta. Kí ni ìyẹn túmọ̀ sí?",
+          "wọ́n ní ojú ilẹ̀ líle tí a fi òkúta ṣe",
+          "gáàsì nìkan ni wọ́n",
+          "yìnyín bò wọ́n pátápátá",
+          "Ènìyàn lè dúró lórí pílánẹ́ẹ̀tì olókùúta. Pílánẹ́ẹ̀tì òmìrán kò ní ojú ilẹ̀ líle tí a lè dúró lé."
+        ],
+        [
+          "Nígbà tí ó bá jẹ́ ìgbà ooru ní ìdajì àríwá Ayé, ìgbà òtútù ni ní ìdajì gúúsù. Kí ló fà á?",
+          "Ayé tẹ̀ sí ẹ̀gbẹ́ kan, nítorí náà ìdajì kọ̀ọ̀kan ń tẹ̀ sí oòrùn ní àkókò ọ̀tọ̀ọ̀tọ̀ nínú ọdún",
+          "Ayé máa ń súnmọ́ oòrùn púpọ̀ ní ìgbà ooru",
+          "oòrùn máa ń gbóná jù ní àwọn oṣù kan",
+          "Nítorí títẹ̀ náà, ìdajì tí ó tẹ̀ sí oòrùn ń gba ìmọ́lẹ̀ tààrà àti ọ̀sán gígùn, nítorí náà ìgbà ooru ni níbẹ̀."
+        ],
+        [
+          "Àwọn onímọ̀ ìràwọ̀ ń fi ọdún-ìmọ́lẹ̀ (light year) wọn ìjìnnà ńláńlá. Kí ni ọdún-ìmọ́lẹ̀?",
+          "ìjìnnà tí ìmọ́lẹ̀ ń rìn ní ọdún kan",
+          "àkókò tí pílánẹ́ẹ̀tì ń lò láti yí oòrùn ká",
+          "ọdún tí oòrùn ràn púpọ̀",
+          "Kò sí ohun tí ó yára ju ìmọ́lẹ̀ lọ, síbẹ̀ ìmọ́lẹ̀ àwọn ìràwọ̀ tí ó súnmọ́ wa jù ṣì ń lo ọdún mélòó kan kí ó tó dé ọ̀dọ̀ wa."
+        ],
+        [
+          "Kí ló dé tí oòrùn fi dà bí ẹni pé ó ń rìn kọjá ojú ọ̀run lọ́sàn-án?",
+          "Ayé ń yí ara rẹ̀ po",
+          "oòrùn ń yí Ayé ká lójoojúmọ́",
+          "afẹ́fẹ́ ń ti oòrùn lọ",
+          "Oòrùn kò kúrò ní ipò rẹ̀. Bí Ayé ṣe ń yí láti ìwọ̀-oòrùn sí ìlà-oòrùn, oòrùn dà bí ẹni pé ó ń yọ, ó ń kọjá ojú ọ̀run, ó sì ń wọ̀."
+        ],
+        [
+          "Ní ọ̀nà wo ni oòrùn ti ń yọ ní òwúrọ̀?",
+          "ní ìlà-oòrùn",
+          "ní ìwọ̀-oòrùn",
+          "ní àríwá",
+          "Nítorí pé Ayé ń yí lọ sí ìlà-oòrùn, oòrùn máa ń yọ ní ìlà-oòrùn, ó sì ń wọ̀ ní ìwọ̀-oòrùn."
+        ],
+        [
+          "Pílánẹ́ẹ̀tì wo ló ní Ààmì Pupa Ńlá, ìjì tí ó tóbi ju gbogbo Ayé lọ?",
+          "Júpítà",
+          "Mákúrì",
+          "Fínúsì",
+          "Ààmì Pupa Ńlá jẹ́ ìjì líle tí ń yí po lórí Júpítà, ó sì ti wà fún ọgọ́rọ̀ọ̀rún ọdún."
+        ],
+        [
+          "Ìwúwo rẹ yóò dín kù púpọ̀ lórí òṣùpá ju ti Ayé lọ. Kí ló fà á?",
+          "òṣùpá kéré ní ìwọ̀n ẹrù (mass), nítorí náà agbára òòfà rẹ̀ kò lágbára tó",
+          "kò sí afẹ́fẹ́ lórí òṣùpá",
+          "òṣùpá tutù ju Ayé lọ",
+          "Agbára òòfà òṣùpá jẹ́ nǹkan bí ìdá kan nínú mẹ́fà ti Ayé, nítorí pé ìwọ̀n ẹrù òṣùpá kéré púpọ̀."
+        ],
+        [
+          "Arìnrìn-àjò òfuurufú kan lọ sí òṣùpá. Ṣé ìwọ̀n ẹrù (mass) rẹ̀ yí padà?",
+          "rárá, ìwúwo rẹ̀ nìkan ló yí padà",
+          "bẹ́ẹ̀ni, ó kéré sí i ní ìlọ́po mẹ́fà",
+          "bẹ́ẹ̀ni, ó di ìlọ́po méjì",
+          "Ìwọ̀n ẹrù ni iye ohun tí ó wà nínú ara rẹ, kì í yí padà. Ìwúwo ni fífà agbára òòfà, èyí tí kò lágbára tó lórí òṣùpá."
+        ],
+        [
+          "Kí ló wà ní àárín ètò oòrùn wa?",
+          "oòrùn",
+          "Ayé",
+          "òṣùpá",
+          "Gbogbo pílánẹ́ẹ̀tì mẹ́jọ ló ń yí oòrùn ká. Láyé àtijọ́, ọ̀pọ̀ èèyàn rò pé Ayé ló wà ní àárín, ṣùgbọ́n irọ́ ni."
+        ],
+        [
+          "Kí ni òṣùpá?",
+          "ohun àdáyébá tí ń yí pílánẹ́ẹ̀tì ká",
+          "ìràwọ̀ kékeré tí ń tàn lóru",
+          "pílánẹ́ẹ̀tì tí kò ní afẹ́fẹ́",
+          "Òṣùpá kan ni Ayé ní. Máàsì ní méjì, Júpítà àti Sátọ̀ọ̀nù sì ní ọ̀pọ̀lọpọ̀."
+        ],
+        [
+          "Kí ló dé tí a fi ń rí ìràwọ̀ lóru ṣùgbọ́n tí a kò rí wọn lọ́sàn-án?",
+          "lọ́sàn-án, ìmọ́lẹ̀ oòrùn tí ó mọ́lẹ̀ gan-an ń bò wọ́n mọ́lẹ̀",
+          "àwọn ìràwọ̀ máa ń kú lọ́sàn-án",
+          "àwọn ìràwọ̀ máa ń sá pamọ́ sẹ́yìn òṣùpá lọ́sàn-án",
+          "Àwọn ìràwọ̀ ṣì wà níbẹ̀ lọ́sàn-án, ṣùgbọ́n oòrùn mú kí ojú ọ̀run mọ́lẹ̀ débi pé a kò lè rí wọn."
+        ],
+        [
+          "Láti orí Ayé, ojú kan náà ti òṣùpá ni a máa ń rí nígbà gbogbo. Kí ló fà á?",
+          "òṣùpá ń yí ara rẹ̀ po lẹ́ẹ̀kan ní àkókò kan náà tí ó fi ń yí Ayé ká",
+          "òṣùpá kì í yí ara rẹ̀ po rárá",
+          "apá kejì òṣùpá máa ń ṣókùnkùn nígbà gbogbo",
+          "Yíyí ara rẹ̀ po àti yíyí Ayé ká ń gba nǹkan bí oṣù kan, nítorí náà ẹ̀gbẹ́ kan náà ló ń kọjú sí wa. Apá kejì náà ń rí ìmọ́lẹ̀ oòrùn."
+        ],
+        [
+          "Pílánẹ́ẹ̀tì wo ló dùbúlẹ̀ sí ẹ̀gbẹ́ kan, tí ó fi dà bí ẹni pé ó ń yí gbiri yí oòrùn ká?",
+          "Yúréénọ̀sì",
+          "Máàsì",
+          "Mákúrì",
+          "Yúréénọ̀sì tẹ̀ débi pé àwọn òpin rẹ̀ fẹ́rẹ̀ kọjú sí oòrùn. Àwọn onímọ̀ sáyẹ́ǹsì rò pé ìkọlù ńlá kan ló tì í ṣubú ní ìgbà pípẹ́ sẹ́yìn."
+        ]
+      ]
+    }
+  },
+  "emoji": "glowstar",
+  "example": {
+    "i": 0,
+    "q_en": "Which list shows the first four planets in order, starting nearest the Sun?",
+    "answer_en": "Mercury, Venus, Earth, Mars",
+    "why_en": "Mercury is closest, then Venus, then Earth, then Mars. These four are the rocky inner planets.",
+    "q_de": "Welche Liste zeigt die ersten vier Planeten der Reihe nach, von der Sonne aus?",
+    "answer_de": "Merkur, Venus, Erde, Mars",
+    "why_de": "Merkur ist am nächsten, dann kommen Venus, Erde und Mars. Das sind die vier inneren Gesteinsplaneten.",
+    "q_fr": "Quelle liste donne les quatre premières planètes dans l’ordre, en partant du Soleil ?",
+    "answer_fr": "Mercure, Vénus, la Terre, Mars",
+    "why_fr": "Mercure est la plus proche, puis viennent Vénus, la Terre et Mars. Ce sont les quatre planètes rocheuses intérieures.",
+    "q_yo": "Àkójọ wo ló fi pílánẹ́ẹ̀tì mẹ́rin àkọ́kọ́ hàn létòlétò, bẹ̀rẹ̀ láti èyí tí ó súnmọ́ oòrùn jù?",
+    "answer_yo": "Mákúrì, Fínúsì, Ayé, Máàsì",
+    "why_yo": "Mákúrì ló súnmọ́ jù, lẹ́yìn rẹ̀ ni Fínúsì, Ayé àti Máàsì. Àwọn mẹ́rin yìí ni pílánẹ́ẹ̀tì olókùúta inú."
+  },
+  "text": {
+    "en": {
+      "title": "The solar system",
+      "teach": "Eight planets orbit the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune. Gravity keeps them in orbit. The Earth spins once a day and orbits the Sun once a year, and the Moon reflects sunlight.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Das Sonnensystem",
+      "teach": "Acht Planeten kreisen um die Sonne: Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus und Neptun. Die Schwerkraft hält sie auf ihrer Umlaufbahn. Die Erde dreht sich einmal am Tag und umkreist die Sonne einmal im Jahr. Der Mond wirft Sonnenlicht zurück.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Le système solaire",
+      "teach": "Huit planètes tournent autour du Soleil : Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus et Neptune. La gravité les garde sur leur orbite. La Terre tourne sur elle-même en un jour et autour du Soleil en un an, et la Lune renvoie la lumière du Soleil.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ètò oòrùn (solar system)",
+      "teach": "Pílánẹ́ẹ̀tì mẹ́jọ ló ń yí oòrùn ká: Mákúrì, Fínúsì, Ayé, Máàsì, Júpítà, Sátọ̀ọ̀nù, Yúréénọ̀sì àti Nẹ́ptúùnù. Agbára òòfà ló ń mú wọn dúró ní ipa ọ̀nà wọn. Ayé ń yí ara rẹ̀ po lẹ́ẹ̀kan lójúmọ́, ó sì ń yí oòrùn ká lẹ́ẹ̀kan lọ́dún. Òṣùpá ń dá ìmọ́lẹ̀ oòrùn padà.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

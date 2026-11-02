@@ -1,13 +1,13 @@
 """Sets the teach example of every question-bank skill (src/skills/*.json, kind "bank") to its first question.
 
 The example must hold exactly the values the app makes for question 0 (src/skills/bank.ts, bankValues), so the
-first question is the teach card and is not asked again straight away. Run after adding or editing a bank:
-    python scripts/bank-example.py
+first question is the teach card and is not asked again straight away. Run after adding or editing a bank (all banks, or only the named skill files):
+    python scripts/bank-example.py [src/skills/<id>.json ...]
 """
-import glob, json, os
+import glob, json, os, sys
 
 ROOT = os.path.join(os.path.dirname(__file__), "..", "src", "skills")
-for path in sorted(glob.glob(os.path.join(ROOT, "*.json"))):
+for path in sys.argv[1:] or sorted(glob.glob(os.path.join(ROOT, "*.json"))):
     with open(path, encoding="utf-8") as f:
         skill = json.load(f)
     if skill.get("kind") != "bank":

@@ -1,0 +1,274 @@
+{
+  "id": "fr8-avoir",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 3,
+  "ages": [
+    "8-9"
+  ],
+  "order": 24,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "paws",
+      "road",
+      "cookie",
+      "paws",
+      "palette",
+      "house",
+      "girl",
+      "droplet",
+      "speech",
+      "speech",
+      "speech",
+      "cake",
+      "cookie",
+      "droplet",
+      "snowflake",
+      "thermometer",
+      "cake",
+      "game",
+      "droplet",
+      "speech",
+      "speech",
+      "speech",
+      "girl",
+      "seedling",
+      "speech",
+      "cake",
+      "animal-rabbit",
+      "animal-giraffe",
+      "anatomical-heart",
+      "school"
+    ],
+    "bank": {
+      "en": [
+        [
+          "___ un chien. (avoir, I)",
+          "J’ai",
+          "Je ai",
+          "J’as",
+          "Je becomes j’ before a vowel, so we write j’ai."
+        ],
+        [
+          "Tu ___ un vélo. (avoir)",
+          "as",
+          "a",
+          "ont",
+          "With tu, avoir becomes as: tu as."
+        ],
+        [
+          "Il ___ faim. (avoir)",
+          "a",
+          "ont",
+          "avez",
+          "With il, avoir becomes a: il a."
+        ],
+        [
+          "Nous ___ un chat. (avoir)",
+          "avons",
+          "avez",
+          "ont",
+          "With nous, avoir becomes avons: nous avons."
+        ],
+        [
+          "Vous ___ des crayons. (avoir)",
+          "avez",
+          "avons",
+          "as",
+          "With vous, avoir becomes avez: vous avez."
+        ],
+        [
+          "Ils ___ une grande maison. (avoir)",
+          "ont",
+          "a",
+          "avons",
+          "With ils, avoir becomes ont: ils ont."
+        ],
+        [
+          "Elle ___ les yeux bleus. (avoir)",
+          "a",
+          "ont",
+          "ai",
+          "With elle, avoir becomes a: elle a."
+        ],
+        [
+          "Elles ___ soif. (avoir)",
+          "ont",
+          "sont",
+          "a",
+          "Avoir soif means to be thirsty. With elles, avoir becomes ont."
+        ],
+        [
+          "What does j’ai mean?",
+          "I have",
+          "I am",
+          "you have",
+          "J’ai is the je form of avoir, to have: I have."
+        ],
+        [
+          "What does nous avons mean?",
+          "we have",
+          "we are",
+          "they have",
+          "Nous is we, and avons is the nous form of avoir."
+        ],
+        [
+          "What does ils ont mean?",
+          "they have",
+          "they are",
+          "he has",
+          "Ils means they, and ont is the ils form of avoir."
+        ],
+        [
+          "How do you say ’I am eight years old’?",
+          "J’ai huit ans.",
+          "Je suis huit ans.",
+          "Je ai huit ans.",
+          "French says your age with avoir: I have eight years."
+        ],
+        [
+          "Avoir faim. What does it mean?",
+          "to be hungry",
+          "to be thirsty",
+          "to be cold",
+          "Faim means hunger, so avoir faim is to be hungry."
+        ],
+        [
+          "Avoir soif. What does it mean?",
+          "to be thirsty",
+          "to be hungry",
+          "to be tired",
+          "Soif means thirst, so avoir soif is to be thirsty."
+        ],
+        [
+          "J’ai froid. What does it mean?",
+          "I am cold.",
+          "I am hot.",
+          "I am hungry.",
+          "Froid means cold. French says I have cold."
+        ],
+        [
+          "J’ai chaud. What does it mean?",
+          "I am hot.",
+          "I am cold.",
+          "I am late.",
+          "Chaud means hot. French says I have hot."
+        ],
+        [
+          "Ma sœur ___ dix ans. (avoir)",
+          "a",
+          "est",
+          "ont",
+          "Age uses avoir, and ma sœur is like elle, so a."
+        ],
+        [
+          "Mes amis ___ un ballon. (avoir)",
+          "ont",
+          "a",
+          "avons",
+          "Mes amis means they, so avoir becomes ont."
+        ],
+        [
+          "Léo et moi, nous ___ un poisson. (avoir)",
+          "avons",
+          "ont",
+          "avez",
+          "Léo and me is nous, and nous takes avons."
+        ],
+        [
+          "Which word goes with avez?",
+          "vous",
+          "nous",
+          "tu",
+          "Avez is only used with vous."
+        ],
+        [
+          "Which word goes with ont?",
+          "ils",
+          "il",
+          "nous",
+          "Ont goes with ils or elles, meaning they."
+        ],
+        [
+          "Which word goes with as?",
+          "tu",
+          "je",
+          "elle",
+          "As is used with tu: tu as."
+        ],
+        [
+          "Which is correct?",
+          "Tu as un frère ?",
+          "Tu a un frère ?",
+          "Tu ont un frère ?",
+          "Tu always goes with as."
+        ],
+        [
+          "Which is correct?",
+          "On a un jardin.",
+          "On avons un jardin.",
+          "On ont un jardin.",
+          "On works like il, so it takes a."
+        ],
+        [
+          "Quel âge as-tu ? What does it mean?",
+          "How old are you?",
+          "What time is it?",
+          "What is your name?",
+          "Âge means age, so the question asks how old you are."
+        ],
+        [
+          "Which is the right answer to Quel âge as-tu ?",
+          "J’ai neuf ans.",
+          "Je suis neuf ans.",
+          "J’as neuf ans.",
+          "Age uses avoir, and with je we write j’ai."
+        ],
+        [
+          "Le lapin ___ de grandes oreilles. (avoir)",
+          "a",
+          "ont",
+          "as",
+          "Le lapin is one animal, like il, so we use a."
+        ],
+        [
+          "Les girafes ___ un long cou. (avoir)",
+          "ont",
+          "a",
+          "sont",
+          "Les girafes means they, so avoir becomes ont."
+        ],
+        [
+          "J’ai mal à la tête. What does it mean?",
+          "My head hurts.",
+          "I have a hat.",
+          "I am tall.",
+          "Avoir mal à means something hurts, and la tête is the head."
+        ],
+        [
+          "How do you say ’you have’ politely to your teacher?",
+          "vous avez",
+          "tu as",
+          "vous êtes",
+          "To be polite we use vous, and vous avez means you have."
+        ]
+      ]
+    }
+  },
+  "emoji": "gift",
+  "example": {
+    "i": 0,
+    "q_en": "___ un chien. (avoir, I)",
+    "answer_en": "J’ai",
+    "why_en": "Je becomes j’ before a vowel, so we write j’ai."
+  },
+  "text": {
+    "en": {
+      "title": "avoir (to have)",
+      "teach": "avoir means to have: j’ai, tu as, il/elle/on a, nous avons, vous avez, ils/elles ont. J’ai un chien.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

@@ -1,0 +1,936 @@
+{
+  "id": "sci4-plants",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 105,
+  "params": {
+    "emojis": [
+      "seedling",
+      "sun",
+      "fruit-cherries",
+      "fruit-coconut",
+      "seedling",
+      "fruit-watermelon",
+      "tree",
+      "seedling",
+      "fruit-strawberry",
+      "fruit-banana",
+      "animal-honeybee",
+      "droplet",
+      "fruit-pear",
+      "fruit-peach",
+      "fruit-lemon",
+      "sun-rain",
+      "tree",
+      "tree",
+      "animal-butterfly",
+      "seedling",
+      "cocoa",
+      "palette",
+      "fruit-pineapple",
+      "fruit-kiwi",
+      "fruit-blueberries",
+      "droplet",
+      "seedling",
+      "seedling",
+      "footprints",
+      "clock"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does a plant drink?",
+          "water",
+          "milk",
+          "juice",
+          "A plant drinks water from the soil through its roots."
+        ],
+        [
+          "What helps a plant to grow?",
+          "sunshine",
+          "darkness",
+          "loud noise",
+          "Plants need sunlight to make their food and grow."
+        ],
+        [
+          "Where do cherries grow?",
+          "on trees",
+          "in the sea",
+          "under stones",
+          "Cherries grow on cherry trees."
+        ],
+        [
+          "Where does a coconut grow?",
+          "on a tall palm tree",
+          "in a bird’s nest",
+          "under the sea",
+          "Coconuts grow high up on coconut palm trees."
+        ],
+        [
+          "You plant a seed and give it water. What happens?",
+          "it grows into a plant",
+          "it turns into a stone",
+          "it flies away",
+          "With water and warmth, a seed starts to grow into a new plant."
+        ],
+        [
+          "Where are the seeds of a watermelon?",
+          "inside the fruit",
+          "up in the sky",
+          "in the river",
+          "The seeds are inside the red part of the watermelon."
+        ],
+        [
+          "What are the green parts on a tree called?",
+          "leaves",
+          "feathers",
+          "fur",
+          "A tree has many green leaves on its branches."
+        ],
+        [
+          "Which part of a plant grows down into the soil?",
+          "the roots",
+          "the flower",
+          "the leaves",
+          "Roots grow down into the soil to hold the plant and drink water."
+        ],
+        [
+          "What colour is a ripe strawberry?",
+          "red",
+          "blue",
+          "black",
+          "A strawberry is green at first and turns red when it is ripe."
+        ],
+        [
+          "Where do bananas grow?",
+          "on a big banana plant",
+          "inside an egg",
+          "under the sea",
+          "Bananas grow in big bunches on banana plants."
+        ],
+        [
+          "Which small animal likes to visit flowers?",
+          "a bee",
+          "a shark",
+          "a whale",
+          "Bees fly from flower to flower to collect sweet nectar."
+        ],
+        [
+          "A plant gets no water for many days. What happens?",
+          "it dries up and droops",
+          "it grows much bigger",
+          "it turns blue",
+          "Without water, a plant gets weak, its leaves droop and it can die."
+        ],
+        [
+          "What do we find in the middle of a pear?",
+          "small seeds",
+          "a coin",
+          "a toy car",
+          "In the middle of a pear there are small seeds called pips."
+        ],
+        [
+          "What can grow from the big seed inside a peach?",
+          "a peach tree",
+          "an apple tree",
+          "a puppy",
+          "A peach seed can grow into a new peach tree."
+        ],
+        [
+          "Where does a lemon grow?",
+          "on a lemon tree",
+          "in a cave",
+          "in a fish tank",
+          "Lemons grow on lemon trees in warm, sunny places."
+        ],
+        [
+          "What do plants need from the sky?",
+          "sun and rain",
+          "toys and books",
+          "cars and buses",
+          "Sunlight and rain help plants to grow."
+        ],
+        [
+          "What covers the trunk of a tree?",
+          "bark",
+          "fur",
+          "feathers",
+          "Hard bark covers the trunk and keeps the tree safe."
+        ],
+        [
+          "In autumn, what falls from many trees?",
+          "their leaves",
+          "their roots",
+          "stones",
+          "In autumn, many trees drop their leaves. New ones grow in spring."
+        ],
+        [
+          "What do butterflies like to visit?",
+          "flowers",
+          "ovens",
+          "cars",
+          "Butterflies visit flowers to drink sweet nectar."
+        ],
+        [
+          "Where do we plant a seed?",
+          "in the soil",
+          "in the fridge",
+          "on the ceiling",
+          "A seed needs soil, water and warmth to grow."
+        ],
+        [
+          "Chocolate is made from beans. Where do they grow?",
+          "on a cocoa tree",
+          "inside a cow",
+          "in the sea",
+          "Cocoa beans grow in pods on cocoa trees. They are used to make chocolate."
+        ],
+        [
+          "Which part of a plant is often bright and colourful?",
+          "the flower",
+          "the root",
+          "the stem",
+          "Many flowers are bright, which helps bees and butterflies find them."
+        ],
+        [
+          "Where does a pineapple grow?",
+          "on a short plant near the ground",
+          "on a pine tree",
+          "under the sea",
+          "A pineapple grows in the middle of a short, spiky plant, not on a tree."
+        ],
+        [
+          "What is inside a kiwi fruit?",
+          "lots of tiny black seeds",
+          "one big stone",
+          "a little toy",
+          "A kiwi is green inside, with lots of tiny black seeds."
+        ],
+        [
+          "Where do blueberries grow?",
+          "on a small bush",
+          "under rocks",
+          "in the sea",
+          "Blueberries grow on small bushes."
+        ],
+        [
+          "What do we use to give plants water?",
+          "a watering can",
+          "a hairdryer",
+          "a pillow",
+          "A watering can pours water gently onto the soil."
+        ],
+        [
+          "Where does a carrot grow?",
+          "under the ground",
+          "on a tall tree",
+          "in the sea",
+          "The orange carrot we eat is a root. It grows under the ground."
+        ],
+        [
+          "Which of these can grow if you plant it?",
+          "a bean",
+          "a button",
+          "a coin",
+          "A bean is a seed, so it can grow into a bean plant."
+        ],
+        [
+          "Can a plant walk to find water?",
+          "no, its roots find water in the soil",
+          "yes, it walks at night",
+          "yes, it hops like a frog",
+          "A plant stays in one place. Its roots spread out in the soil to find water."
+        ],
+        [
+          "How does a plant grow?",
+          "slowly, a little each day",
+          "all at once, in one second",
+          "it never grows",
+          "Plants grow slowly. You can see a change if you look every few days."
+        ]
+      ],
+      "de": [
+        [
+          "Was trinkt eine Pflanze?",
+          "Wasser",
+          "Milch",
+          "Saft",
+          "Eine Pflanze trinkt mit ihren Wurzeln Wasser aus der Erde."
+        ],
+        [
+          "Was hilft einer Pflanze beim Wachsen?",
+          "Sonnenschein",
+          "Dunkelheit",
+          "lauter Lärm",
+          "Pflanzen brauchen Sonnenlicht, um Nahrung zu machen und zu wachsen."
+        ],
+        [
+          "Wo wachsen Kirschen?",
+          "an Bäumen",
+          "im Meer",
+          "unter Steinen",
+          "Kirschen wachsen an Kirschbäumen."
+        ],
+        [
+          "Wo wächst eine Kokosnuss?",
+          "an einer hohen Palme",
+          "in einem Vogelnest",
+          "unter dem Meer",
+          "Kokosnüsse wachsen hoch oben an Kokospalmen."
+        ],
+        [
+          "Du pflanzt einen Samen und gießt ihn. Was passiert?",
+          "Eine Pflanze wächst daraus.",
+          "Er wird zu einem Stein.",
+          "Er fliegt weg.",
+          "Mit Wasser und Wärme fängt ein Samen an, zu einer neuen Pflanze zu wachsen."
+        ],
+        [
+          "Wo sind die Kerne einer Wassermelone?",
+          "in der Frucht",
+          "oben am Himmel",
+          "im Fluss",
+          "Die Kerne sind im roten Fruchtfleisch der Wassermelone."
+        ],
+        [
+          "Wie heißen die grünen Teile an einem Baum?",
+          "Blätter",
+          "Federn",
+          "Fell",
+          "Ein Baum hat viele grüne Blätter an seinen Ästen."
+        ],
+        [
+          "Welcher Teil einer Pflanze wächst nach unten in die Erde?",
+          "die Wurzeln",
+          "die Blüte",
+          "die Blätter",
+          "Die Wurzeln wachsen in die Erde. Sie halten die Pflanze fest und trinken Wasser."
+        ],
+        [
+          "Welche Farbe hat eine reife Erdbeere?",
+          "rot",
+          "blau",
+          "schwarz",
+          "Eine Erdbeere ist zuerst grün und wird rot, wenn sie reif ist."
+        ],
+        [
+          "Wo wachsen Bananen?",
+          "an einer großen Bananenstaude",
+          "in einem Ei",
+          "unter dem Meer",
+          "Bananen wachsen in großen Büscheln an Bananenstauden."
+        ],
+        [
+          "Welches kleine Tier besucht gern Blüten?",
+          "eine Biene",
+          "ein Hai",
+          "ein Wal",
+          "Bienen fliegen von Blüte zu Blüte und sammeln süßen Nektar."
+        ],
+        [
+          "Eine Pflanze bekommt viele Tage kein Wasser. Was passiert?",
+          "Sie vertrocknet und lässt die Blätter hängen.",
+          "Sie wird viel größer.",
+          "Sie wird blau.",
+          "Ohne Wasser wird eine Pflanze schwach, die Blätter hängen und sie kann sterben."
+        ],
+        [
+          "Was finden wir in der Mitte einer Birne?",
+          "kleine Kerne",
+          "eine Münze",
+          "ein Spielzeugauto",
+          "In der Mitte einer Birne sind kleine Kerne. Das sind ihre Samen."
+        ],
+        [
+          "Was kann aus dem großen Kern in einem Pfirsich wachsen?",
+          "ein Pfirsichbaum",
+          "ein Apfelbaum",
+          "ein Hündchen",
+          "Aus einem Pfirsichkern kann ein neuer Pfirsichbaum wachsen."
+        ],
+        [
+          "Wo wächst eine Zitrone?",
+          "an einem Zitronenbaum",
+          "in einer Höhle",
+          "in einem Aquarium",
+          "Zitronen wachsen an Zitronenbäumen, wo es warm und sonnig ist."
+        ],
+        [
+          "Was brauchen Pflanzen vom Himmel?",
+          "Sonne und Regen",
+          "Spielzeug und Bücher",
+          "Autos und Busse",
+          "Sonnenlicht und Regen helfen den Pflanzen beim Wachsen."
+        ],
+        [
+          "Was bedeckt den Stamm eines Baumes?",
+          "Rinde",
+          "Fell",
+          "Federn",
+          "Harte Rinde bedeckt den Stamm und schützt den Baum."
+        ],
+        [
+          "Was fällt im Herbst von vielen Bäumen?",
+          "ihre Blätter",
+          "ihre Wurzeln",
+          "Steine",
+          "Im Herbst verlieren viele Bäume ihre Blätter. Im Frühling wachsen neue."
+        ],
+        [
+          "Was besuchen Schmetterlinge gern?",
+          "Blüten",
+          "Backöfen",
+          "Autos",
+          "Schmetterlinge besuchen Blüten und trinken süßen Nektar."
+        ],
+        [
+          "Wohin pflanzen wir einen Samen?",
+          "in die Erde",
+          "in den Kühlschrank",
+          "an die Decke",
+          "Ein Samen braucht Erde, Wasser und Wärme zum Wachsen."
+        ],
+        [
+          "Schokolade wird aus Bohnen gemacht. Wo wachsen sie?",
+          "an einem Kakaobaum",
+          "in einer Kuh",
+          "im Meer",
+          "Kakaobohnen wachsen in Früchten am Kakaobaum. Daraus macht man Schokolade."
+        ],
+        [
+          "Welcher Teil einer Pflanze ist oft leuchtend bunt?",
+          "die Blüte",
+          "die Wurzel",
+          "der Stängel",
+          "Viele Blüten sind bunt. So finden Bienen und Schmetterlinge sie leichter."
+        ],
+        [
+          "Wo wächst eine Ananas?",
+          "an einer niedrigen Pflanze am Boden",
+          "an einer Kiefer",
+          "unter dem Meer",
+          "Eine Ananas wächst in der Mitte einer niedrigen, stacheligen Pflanze, nicht an einem Baum."
+        ],
+        [
+          "Was ist in einer Kiwi?",
+          "viele winzige schwarze Kerne",
+          "ein großer Stein",
+          "ein kleines Spielzeug",
+          "Eine Kiwi ist innen grün und hat viele winzige schwarze Kerne."
+        ],
+        [
+          "Wo wachsen Heidelbeeren?",
+          "an einem kleinen Strauch",
+          "unter Steinen",
+          "im Meer",
+          "Heidelbeeren wachsen an kleinen Sträuchern."
+        ],
+        [
+          "Womit geben wir Pflanzen Wasser?",
+          "mit einer Gießkanne",
+          "mit einem Föhn",
+          "mit einem Kissen",
+          "Mit einer Gießkanne gießt man das Wasser sanft auf die Erde."
+        ],
+        [
+          "Wo wächst eine Karotte?",
+          "unter der Erde",
+          "an einem hohen Baum",
+          "im Meer",
+          "Die orange Karotte, die wir essen, ist eine Wurzel. Sie wächst unter der Erde."
+        ],
+        [
+          "Was davon kann wachsen, wenn du es einpflanzt?",
+          "eine Bohne",
+          "ein Knopf",
+          "eine Münze",
+          "Eine Bohne ist ein Samen. Daraus kann eine Bohnenpflanze wachsen."
+        ],
+        [
+          "Kann eine Pflanze laufen, um Wasser zu finden?",
+          "Nein, ihre Wurzeln finden Wasser in der Erde.",
+          "Ja, sie läuft nachts.",
+          "Ja, sie hüpft wie ein Frosch.",
+          "Eine Pflanze bleibt an ihrem Platz. Ihre Wurzeln suchen in der Erde nach Wasser."
+        ],
+        [
+          "Wie wächst eine Pflanze?",
+          "langsam, jeden Tag ein bisschen",
+          "auf einmal, in einer Sekunde",
+          "Sie wächst nie.",
+          "Pflanzen wachsen langsam. Wenn du alle paar Tage schaust, siehst du, wie sie sich verändern."
+        ]
+      ],
+      "fr": [
+        [
+          "Que boit une plante ?",
+          "de l’eau",
+          "du lait",
+          "du jus de fruits",
+          "Une plante boit l’eau de la terre avec ses racines."
+        ],
+        [
+          "Qu’est-ce qui aide une plante à pousser ?",
+          "le soleil",
+          "le noir",
+          "le bruit",
+          "Les plantes ont besoin de la lumière du soleil pour fabriquer leur nourriture et grandir."
+        ],
+        [
+          "Où poussent les cerises ?",
+          "sur des arbres",
+          "dans la mer",
+          "sous les cailloux",
+          "Les cerises poussent sur les cerisiers."
+        ],
+        [
+          "Où pousse une noix de coco ?",
+          "en haut d’un grand palmier",
+          "dans un nid d’oiseau",
+          "au fond de la mer",
+          "Les noix de coco poussent tout en haut des cocotiers."
+        ],
+        [
+          "Tu plantes une graine et tu l’arroses. Que se passe-t-il ?",
+          "elle devient une plante",
+          "elle devient un caillou",
+          "elle s’envole",
+          "Avec de l’eau et de la chaleur, la graine se met à pousser et devient une plante."
+        ],
+        [
+          "Où sont les pépins d’une pastèque ?",
+          "dans le fruit",
+          "dans le ciel",
+          "dans la rivière",
+          "Les pépins sont dans la partie rouge de la pastèque."
+        ],
+        [
+          "Comment s’appellent les parties vertes d’un arbre ?",
+          "les feuilles",
+          "les plumes",
+          "les poils",
+          "Un arbre a beaucoup de feuilles vertes sur ses branches."
+        ],
+        [
+          "Quelle partie de la plante pousse vers le bas, dans la terre ?",
+          "les racines",
+          "la fleur",
+          "les feuilles",
+          "Les racines poussent dans la terre : elles tiennent la plante et boivent l’eau."
+        ],
+        [
+          "De quelle couleur est une fraise mûre ?",
+          "rouge",
+          "bleue",
+          "noire",
+          "Une fraise est d’abord verte, puis elle devient rouge quand elle est mûre."
+        ],
+        [
+          "Où poussent les bananes ?",
+          "sur un grand bananier",
+          "dans un œuf",
+          "au fond de la mer",
+          "Les bananes poussent en grosses grappes sur les bananiers."
+        ],
+        [
+          "Quel petit animal aime visiter les fleurs ?",
+          "une abeille",
+          "un requin",
+          "une baleine",
+          "Les abeilles volent de fleur en fleur pour récolter le nectar sucré."
+        ],
+        [
+          "Une plante n’a pas d’eau pendant plusieurs jours. Que se passe-t-il ?",
+          "elle sèche et se penche",
+          "elle devient bien plus grande",
+          "elle devient bleue",
+          "Sans eau, la plante s’affaiblit, ses feuilles pendent et elle peut mourir."
+        ],
+        [
+          "Que trouve-t-on au milieu d’une poire ?",
+          "des petits pépins",
+          "une pièce",
+          "une petite voiture",
+          "Au milieu d’une poire, il y a des petits pépins : ce sont ses graines."
+        ],
+        [
+          "Que peut-il pousser du gros noyau d’une pêche ?",
+          "un pêcher",
+          "un pommier",
+          "un petit chien",
+          "Le noyau d’une pêche peut devenir un nouveau pêcher."
+        ],
+        [
+          "Où pousse un citron ?",
+          "sur un citronnier",
+          "dans une grotte",
+          "dans un aquarium",
+          "Les citrons poussent sur les citronniers, là où il fait chaud et ensoleillé."
+        ],
+        [
+          "Qu’est-ce qui vient du ciel et aide les plantes ?",
+          "le soleil et la pluie",
+          "les jouets et les livres",
+          "les voitures et les bus",
+          "Le soleil et la pluie aident les plantes à pousser."
+        ],
+        [
+          "Qu’est-ce qui recouvre le tronc d’un arbre ?",
+          "l’écorce",
+          "des poils",
+          "des plumes",
+          "L’écorce, bien dure, recouvre le tronc et protège l’arbre."
+        ],
+        [
+          "En automne, qu’est-ce qui tombe de beaucoup d’arbres ?",
+          "leurs feuilles",
+          "leurs racines",
+          "des cailloux",
+          "En automne, beaucoup d’arbres perdent leurs feuilles. De nouvelles poussent au printemps."
+        ],
+        [
+          "Qu’est-ce que les papillons aiment visiter ?",
+          "les fleurs",
+          "les fours",
+          "les voitures",
+          "Les papillons vont sur les fleurs pour boire leur nectar sucré."
+        ],
+        [
+          "Où plante-t-on une graine ?",
+          "dans la terre",
+          "dans le frigo",
+          "au plafond",
+          "Une graine a besoin de terre, d’eau et de chaleur pour pousser."
+        ],
+        [
+          "Le chocolat est fait avec des fèves. Où poussent-elles ?",
+          "sur un cacaoyer",
+          "dans une vache",
+          "dans la mer",
+          "Les fèves de cacao poussent dans des fruits, sur le cacaoyer. On s’en sert pour faire le chocolat."
+        ],
+        [
+          "Quelle partie de la plante est souvent très colorée ?",
+          "la fleur",
+          "la racine",
+          "la tige",
+          "Beaucoup de fleurs ont de belles couleurs : les abeilles et les papillons les trouvent plus facilement."
+        ],
+        [
+          "Où pousse un ananas ?",
+          "sur une plante basse, près du sol",
+          "sur un sapin",
+          "au fond de la mer",
+          "L’ananas pousse au milieu d’une plante basse et piquante, pas sur un arbre."
+        ],
+        [
+          "Qu’y a-t-il dans un kiwi ?",
+          "plein de petites graines noires",
+          "un gros caillou",
+          "un petit jouet",
+          "Le kiwi est vert à l’intérieur, avec plein de petites graines noires."
+        ],
+        [
+          "Où poussent les myrtilles ?",
+          "sur un petit buisson",
+          "sous les rochers",
+          "dans la mer",
+          "Les myrtilles poussent sur de petits buissons."
+        ],
+        [
+          "Avec quoi donne-t-on de l’eau aux plantes ?",
+          "un arrosoir",
+          "un sèche-cheveux",
+          "un oreiller",
+          "L’arrosoir verse l’eau doucement sur la terre."
+        ],
+        [
+          "Où pousse une carotte ?",
+          "sous la terre",
+          "sur un grand arbre",
+          "dans la mer",
+          "La carotte orange que l’on mange est une racine : elle pousse sous la terre."
+        ],
+        [
+          "Qu’est-ce qui peut pousser si on le plante ?",
+          "un haricot",
+          "un bouton",
+          "une pièce",
+          "Un haricot est une graine : il peut devenir un plant de haricot."
+        ],
+        [
+          "Une plante peut-elle marcher pour trouver de l’eau ?",
+          "non, ses racines trouvent l’eau dans la terre",
+          "oui, elle marche la nuit",
+          "oui, elle saute comme une grenouille",
+          "Une plante reste à sa place. Ses racines s’étendent dans la terre pour trouver de l’eau."
+        ],
+        [
+          "Comment une plante pousse-t-elle ?",
+          "lentement, un peu chaque jour",
+          "d’un coup, en une seconde",
+          "elle ne pousse jamais",
+          "Les plantes poussent lentement. En regardant tous les deux ou trois jours, on voit qu’elles changent."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni ewéko máa ń mu?",
+          "omi",
+          "wàrà",
+          "omi èso",
+          "Ewéko máa ń fi gbòngbò rẹ̀ mu omi láti inú ilẹ̀."
+        ],
+        [
+          "Kí ló ń ran ewéko lọ́wọ́ láti dàgbà?",
+          "ìmọ́lẹ̀ oòrùn",
+          "òkùnkùn",
+          "ariwo ńlá",
+          "Ewéko nílò ìmọ́lẹ̀ oòrùn láti ṣe oúnjẹ rẹ̀ àti láti dàgbà."
+        ],
+        [
+          "Níbo ni èso ṣẹ́rì ti ń so?",
+          "lórí igi",
+          "nínú òkun",
+          "lábẹ́ òkúta",
+          "Èso ṣẹ́rì máa ń so lórí igi ṣẹ́rì."
+        ],
+        [
+          "Níbo ni àgbọn ti ń so?",
+          "lórí igi àgbọn gíga",
+          "nínú ìtẹ́ ẹyẹ",
+          "lábẹ́ òkun",
+          "Àgbọn máa ń so lókè igi àgbọn gíga."
+        ],
+        [
+          "O gbin irúgbìn kan, o sì bomi rin ín. Kí ló máa ṣẹlẹ̀?",
+          "ó máa hù di ewéko",
+          "ó máa di òkúta",
+          "ó máa fò lọ",
+          "Pẹ̀lú omi àti ooru, irúgbìn máa bẹ̀rẹ̀ sí í hù di ewéko tuntun."
+        ],
+        [
+          "Níbo ni irúgbìn èso wọ́tàmẹ́lọ̀nì wà?",
+          "nínú èso náà",
+          "lókè ojú ọ̀run",
+          "nínú odò",
+          "Irúgbìn rẹ̀ wà nínú apá pupa èso wọ́tàmẹ́lọ̀nì."
+        ],
+        [
+          "Kí ni orúkọ àwọn apá aláwọ̀ ewé lára igi?",
+          "ewé",
+          "ìyẹ́",
+          "irun",
+          "Igi ní ọ̀pọ̀lọpọ̀ ewé aláwọ̀ ewé lórí ẹ̀ka rẹ̀."
+        ],
+        [
+          "Apá wo nínú ewéko ló ń hù wọ inú ilẹ̀?",
+          "gbòngbò",
+          "òdòdó",
+          "ewé",
+          "Gbòngbò máa ń wọ inú ilẹ̀ láti di ewéko mú àti láti mu omi."
+        ],
+        [
+          "Àwọ̀ wo ni èso sitirobẹ́rì tó pọ́n ní?",
+          "pupa",
+          "búlúù",
+          "dúdú",
+          "Sitirobẹ́rì máa ń ní àwọ̀ ewé ní ìbẹ̀rẹ̀, ó sì máa ń di pupa nígbà tó bá pọ́n."
+        ],
+        [
+          "Níbo ni ọ̀gẹ̀dẹ̀ ti ń so?",
+          "lórí igi ọ̀gẹ̀dẹ̀ ńlá",
+          "nínú ẹyin",
+          "lábẹ́ òkun",
+          "Ọ̀gẹ̀dẹ̀ máa ń so ní ìdì ńlá lórí igi ọ̀gẹ̀dẹ̀."
+        ],
+        [
+          "Ẹranko kékeré wo ló fẹ́ràn láti máa lọ sí ara òdòdó?",
+          "kòkòrò oyin",
+          "ẹja ekurá",
+          "ẹja àbùùbùtán",
+          "Kòkòrò oyin máa ń fò láti òdòdó kan sí òmíràn láti kó omi dídùn inú rẹ̀."
+        ],
+        [
+          "Ewéko kan kò rí omi fún ọ̀pọ̀ ọjọ́. Kí ló máa ṣẹlẹ̀?",
+          "ó máa gbẹ, ó sì máa rọ",
+          "ó máa tóbi sí i gan-an",
+          "ó máa di búlúù",
+          "Láìsí omi, ewéko máa rẹ̀, ewé rẹ̀ máa rọ, ó sì lè kú."
+        ],
+        [
+          "Kí la máa ń rí láàárín èso péárì?",
+          "irúgbìn kéékèèké",
+          "owó ẹyọ",
+          "mọ́tò ìṣeré",
+          "Láàárín èso péárì, irúgbìn kéékèèké wà níbẹ̀."
+        ],
+        [
+          "Kí ló lè hù láti inú irúgbìn ńlá inú èso píṣì?",
+          "igi píṣì",
+          "igi ápù",
+          "ọmọ ajá",
+          "Irúgbìn èso píṣì lè hù di igi píṣì tuntun."
+        ],
+        [
+          "Níbo ni ọsàn wẹ́wẹ́ ti ń so?",
+          "lórí igi ọsàn wẹ́wẹ́",
+          "nínú ihò àpáta",
+          "nínú àpótí ẹja",
+          "Ọsàn wẹ́wẹ́ máa ń so lórí igi rẹ̀ ní ibi tí oòrùn àti ooru wà."
+        ],
+        [
+          "Kí ni ewéko nílò láti ojú ọ̀run?",
+          "oòrùn àti òjò",
+          "ohun ìṣeré àti ìwé",
+          "mọ́tò àti bọ́ọ̀sì",
+          "Ìmọ́lẹ̀ oòrùn àti òjò ń ran ewéko lọ́wọ́ láti dàgbà."
+        ],
+        [
+          "Kí ló bo ara ìtì igi?",
+          "èèpo igi",
+          "irun",
+          "ìyẹ́",
+          "Èèpo igi tó le ló bo ìtì igi, ó sì ń dáàbò bo igi náà."
+        ],
+        [
+          "Ní ìgbà ìwọ́wé, kí ló máa ń já bọ́ lára ọ̀pọ̀ igi?",
+          "ewé wọn",
+          "gbòngbò wọn",
+          "òkúta",
+          "Ní ìgbà ìwọ́wé, ọ̀pọ̀ igi máa ń wọ́ ewé wọn sílẹ̀. Àwọn tuntun máa hù ní ìgbà ìrúwé."
+        ],
+        [
+          "Kí ni labalábá fẹ́ràn láti máa bẹ̀ wò?",
+          "òdòdó",
+          "ààrò",
+          "mọ́tò",
+          "Labalábá máa ń bà lé òdòdó láti mu omi dídùn inú rẹ̀."
+        ],
+        [
+          "Níbo la ti máa ń gbin irúgbìn?",
+          "sínú ilẹ̀",
+          "sínú fìríjì",
+          "sí òkè àjà ilé",
+          "Irúgbìn nílò ilẹ̀, omi àti ooru láti hù."
+        ],
+        [
+          "Wọ́n ń fi ẹ̀wà kòkó ṣe ṣokoléètì. Níbo ni ẹ̀wà náà ti ń so?",
+          "lórí igi kòkó",
+          "nínú màálù",
+          "nínú òkun",
+          "Ẹ̀wà kòkó máa ń wà nínú èso igi kòkó. Wọ́n ń fi ṣe ṣokoléètì."
+        ],
+        [
+          "Apá wo nínú ewéko ló sábà máa ń ní àwọ̀ tó mọ́lẹ̀ yòò?",
+          "òdòdó",
+          "gbòngbò",
+          "igi ara rẹ̀",
+          "Ọ̀pọ̀ òdòdó ló ní àwọ̀ tó mọ́lẹ̀, èyí ń jẹ́ kí oyin àti labalábá rí wọn."
+        ],
+        [
+          "Níbo ni ọ̀pẹ̀ òyìnbó ti ń so?",
+          "lórí ewéko kúkúrú nítòsí ilẹ̀",
+          "lórí igi gíga",
+          "lábẹ́ òkun",
+          "Ọ̀pẹ̀ òyìnbó máa ń so láàárín ewéko kúkúrú tó ní ẹ̀gún, kì í ṣe lórí igi."
+        ],
+        [
+          "Kí ló wà nínú èso kíwì?",
+          "ọ̀pọ̀ irúgbìn dúdú kéékèèké",
+          "òkúta ńlá kan",
+          "ohun ìṣeré kékeré",
+          "Inú èso kíwì ní àwọ̀ ewé, ó sì ní ọ̀pọ̀ irúgbìn dúdú kéékèèké."
+        ],
+        [
+          "Níbo ni èso bulúbẹ́rì ti ń so?",
+          "lórí igi kékeré",
+          "lábẹ́ àpáta",
+          "nínú òkun",
+          "Èso bulúbẹ́rì máa ń so lórí àwọn igi kéékèèké."
+        ],
+        [
+          "Kí la máa ń lò láti bomi rin ewéko?",
+          "ike ìbomirin",
+          "ẹ̀rọ ìgbẹ irun",
+          "ìrọ̀rí",
+          "Ike ìbomirin máa ń da omi sí ilẹ̀ díẹ̀díẹ̀."
+        ],
+        [
+          "Níbo ni kárọ́ọ̀tì ti ń hù?",
+          "lábẹ́ ilẹ̀",
+          "lórí igi gíga",
+          "nínú òkun",
+          "Kárọ́ọ̀tì tí a ń jẹ jẹ́ gbòngbò. Ó máa ń dàgbà lábẹ́ ilẹ̀."
+        ],
+        [
+          "Èwo nínú wọ̀nyí ló lè hù tí o bá gbìn ín?",
+          "ẹ̀wà",
+          "bọ́tìnnì",
+          "owó ẹyọ",
+          "Ẹ̀wà jẹ́ irúgbìn, nítorí náà ó lè hù di ewéko ẹ̀wà."
+        ],
+        [
+          "Ṣé ewéko lè rìn láti wá omi?",
+          "rárá, gbòngbò rẹ̀ ló ń wá omi nínú ilẹ̀",
+          "bẹ́ẹ̀ni, ó máa ń rìn lóru",
+          "bẹ́ẹ̀ni, ó máa ń bẹ́ bí ọ̀pọ̀lọ́",
+          "Ewéko kì í kúrò ní ààyè rẹ̀. Gbòngbò rẹ̀ ló ń tàn kálẹ̀ nínú ilẹ̀ láti wá omi."
+        ],
+        [
+          "Báwo ni ewéko ṣe ń dàgbà?",
+          "díẹ̀díẹ̀, ní ojoojúmọ́",
+          "lẹ́ẹ̀kan náà, ní ìṣẹ́jú àáyá kan",
+          "kì í dàgbà rárá",
+          "Ewéko máa ń dàgbà díẹ̀díẹ̀. Tí o bá ń wò ó lẹ́yìn ọjọ́ díẹ̀, wàá rí i pé ó ti yí padà."
+        ]
+      ]
+    }
+  },
+  "emoji": "seedling",
+  "example": {
+    "i": 0,
+    "q_en": "What does a plant drink?",
+    "answer_en": "water",
+    "why_en": "A plant drinks water from the soil through its roots.",
+    "q_de": "Was trinkt eine Pflanze?",
+    "answer_de": "Wasser",
+    "why_de": "Eine Pflanze trinkt mit ihren Wurzeln Wasser aus der Erde.",
+    "q_fr": "Que boit une plante ?",
+    "answer_fr": "de l’eau",
+    "why_fr": "Une plante boit l’eau de la terre avec ses racines.",
+    "q_yo": "Kí ni ewéko máa ń mu?",
+    "answer_yo": "omi",
+    "why_yo": "Ewéko máa ń fi gbòngbò rẹ̀ mu omi láti inú ilẹ̀."
+  },
+  "text": {
+    "en": {
+      "title": "Plants and seeds",
+      "teach": "Plants need water, sunlight and soil to grow. A seed in the soil grows into a new plant. Many fruits grow on trees.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Pflanzen und Samen",
+      "teach": "Pflanzen brauchen Wasser, Sonnenlicht und Erde zum Wachsen. Aus einem Samen in der Erde wächst eine neue Pflanze. Viele Früchte wachsen an Bäumen.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les plantes et les graines",
+      "teach": "Pour pousser, les plantes ont besoin d’eau, de soleil et de terre. Une graine dans la terre devient une nouvelle plante. Beaucoup de fruits poussent sur les arbres.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ewéko àti irúgbìn",
+      "teach": "Ewéko nílò omi, ìmọ́lẹ̀ oòrùn àti ilẹ̀ kí ó tó dàgbà. Irúgbìn inú ilẹ̀ máa hù di ewéko tuntun. Ọ̀pọ̀ èso ló máa ń so lórí igi.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "id": "fr4-home",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 8,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "house",
+      "teddy",
+      "openbook",
+      "tv",
+      "telephone",
+      "clock",
+      "key",
+      "puzzle",
+      "gift",
+      "computer",
+      "candle",
+      "umbrella",
+      "backpack",
+      "shoe",
+      "moon",
+      "house",
+      "house",
+      "key",
+      "sun",
+      "girl",
+      "books",
+      "teddy",
+      "road",
+      "road",
+      "letters",
+      "speech",
+      "letters",
+      "speech",
+      "letters",
+      "speech"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is this called in French?",
+          "la maison",
+          "la table",
+          "le livre",
+          "This is a house. In French it is ‘la maison’."
+        ],
+        [
+          "What is this toy called in French?",
+          "l’ours en peluche",
+          "la poupée",
+          "le vélo",
+          "This is a teddy bear. In French it is ‘l’ours en peluche’."
+        ],
+        [
+          "What is this called in French?",
+          "le livre",
+          "la clé",
+          "la chaise",
+          "This is a book. In French it is ‘le livre’."
+        ],
+        [
+          "What is this called in French?",
+          "la télé",
+          "le lit",
+          "le cadeau",
+          "This is a TV. In French it is ‘la télé’."
+        ],
+        [
+          "What is this called in French?",
+          "le téléphone",
+          "la lampe",
+          "la poupée",
+          "This is a phone. In French it is ‘le téléphone’."
+        ],
+        [
+          "What is this called in French?",
+          "l’horloge",
+          "la fenêtre",
+          "le ballon",
+          "This is a clock. In French it is ‘l’horloge’."
+        ],
+        [
+          "What is this called in French?",
+          "la clé",
+          "le lit",
+          "la poupée",
+          "This is a key. In French it is ‘la clé’."
+        ],
+        [
+          "What is this called in French?",
+          "le puzzle",
+          "la voiture",
+          "la table",
+          "This is a puzzle. In French it is ‘le puzzle’."
+        ],
+        [
+          "What is this called in French?",
+          "le cadeau",
+          "le livre",
+          "la chaise",
+          "This is a present. In French it is ‘le cadeau’."
+        ],
+        [
+          "What is this called in French?",
+          "l’ordinateur",
+          "le téléphone",
+          "la porte",
+          "This is a computer. In French it is ‘l’ordinateur’."
+        ],
+        [
+          "What is this called in French?",
+          "la bougie",
+          "le ballon",
+          "le lit",
+          "This is a candle. In French it is ‘la bougie’."
+        ],
+        [
+          "What is this called in French?",
+          "le parapluie",
+          "le vélo",
+          "la clé",
+          "This is an umbrella. In French it is ‘le parapluie’."
+        ],
+        [
+          "What is this called in French?",
+          "le sac à dos",
+          "la télé",
+          "la poupée",
+          "This is a backpack. In French it is ‘le sac à dos’."
+        ],
+        [
+          "What is this called in French?",
+          "la chaussure",
+          "le livre",
+          "la lampe",
+          "This is a shoe. In French it is ‘la chaussure’."
+        ],
+        [
+          "How do you say ‘bed’ in French?",
+          "le lit",
+          "la table",
+          "la porte",
+          "‘Bed’ in French is ‘le lit’. We sleep in a bed."
+        ],
+        [
+          "How do you say ‘table’ in French?",
+          "la table",
+          "le lit",
+          "la clé",
+          "‘Table’ in French is ‘la table’. It is almost the same word!"
+        ],
+        [
+          "How do you say ‘chair’ in French?",
+          "la chaise",
+          "la fenêtre",
+          "le cadeau",
+          "‘Chair’ in French is ‘la chaise’."
+        ],
+        [
+          "How do you say ‘door’ in French?",
+          "la porte",
+          "la chaise",
+          "le livre",
+          "‘Door’ in French is ‘la porte’."
+        ],
+        [
+          "How do you say ‘window’ in French?",
+          "la fenêtre",
+          "la porte",
+          "le ballon",
+          "‘Window’ in French is ‘la fenêtre’."
+        ],
+        [
+          "How do you say ‘doll’ in French?",
+          "la poupée",
+          "le train",
+          "la clé",
+          "‘Doll’ in French is ‘la poupée’."
+        ],
+        [
+          "What are these called in French?",
+          "les livres",
+          "les clés",
+          "les chaises",
+          "These are books. In French they are ‘les livres’."
+        ],
+        [
+          "How do you say ‘toy’ in French?",
+          "le jouet",
+          "le lit",
+          "la fenêtre",
+          "‘Toy’ in French is ‘le jouet’."
+        ],
+        [
+          "How do you say ‘car’ in French?",
+          "la voiture",
+          "la poupée",
+          "la table",
+          "‘Car’ in French is ‘la voiture’."
+        ],
+        [
+          "How do you say ‘bike’ in French?",
+          "le vélo",
+          "le livre",
+          "la porte",
+          "‘Bike’ in French is ‘le vélo’."
+        ],
+        [
+          "What does ‘la maison’ mean?",
+          "house",
+          "bed",
+          "door",
+          "‘La maison’ means house."
+        ],
+        [
+          "What does ‘le lit’ mean?",
+          "bed",
+          "chair",
+          "book",
+          "‘Le lit’ means bed."
+        ],
+        [
+          "What does ‘la poupée’ mean?",
+          "doll",
+          "ball",
+          "window",
+          "‘La poupée’ means doll."
+        ],
+        [
+          "What does ‘le livre’ mean?",
+          "book",
+          "bike",
+          "key",
+          "‘Le livre’ means book."
+        ],
+        [
+          "What does ‘le jouet’ mean?",
+          "toy",
+          "door",
+          "bed",
+          "‘Le jouet’ means toy."
+        ],
+        [
+          "What does ‘la chaise’ mean?",
+          "chair",
+          "car",
+          "cup",
+          "‘La chaise’ means chair."
+        ]
+      ]
+    }
+  },
+  "emoji": "house",
+  "example": {
+    "i": 0,
+    "q_en": "What is this called in French?",
+    "answer_en": "la maison",
+    "why_en": "This is a house. In French it is ‘la maison’."
+  },
+  "text": {
+    "en": {
+      "title": "At home in French",
+      "teach": "Things at home in French: ‘la maison’ is the house, ‘le lit’ is the bed and ‘le jouet’ is a toy. My teddy is ‘l’ours en peluche’.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

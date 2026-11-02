@@ -1,0 +1,274 @@
+{
+  "id": "fr6-clothes",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 1,
+  "ages": [
+    "6-7"
+  ],
+  "order": 15,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "speech",
+      "scarf",
+      "speech",
+      "shoe",
+      "speech",
+      "girl",
+      "memo",
+      "snowflake",
+      "speech",
+      "snow",
+      "speech",
+      "sun",
+      "memo",
+      "rain",
+      "moon",
+      "speech",
+      "snowman",
+      "sun",
+      "wave",
+      "teddy",
+      "snowflake",
+      "footprints",
+      "sun-small-cloud",
+      "snowman",
+      "heart",
+      "speech",
+      "sun-small-cloud",
+      "ribbon",
+      "shoe",
+      "beach"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is “un chapeau”?",
+          "a hat",
+          "a shoe",
+          "a coat",
+          "Un chapeau is a hat."
+        ],
+        [
+          "How do you say “a scarf” in French?",
+          "une écharpe",
+          "un chapeau",
+          "une jupe",
+          "A scarf is une écharpe."
+        ],
+        [
+          "What are “des gants”?",
+          "gloves",
+          "socks",
+          "boots",
+          "Des gants are gloves, for your hands."
+        ],
+        [
+          "How do you say “shoes” in French?",
+          "des chaussures",
+          "des chaussettes",
+          "des gants",
+          "Shoes are des chaussures. Des chaussettes are socks."
+        ],
+        [
+          "What are “des chaussettes”?",
+          "socks",
+          "shoes",
+          "trousers",
+          "Des chaussettes are socks."
+        ],
+        [
+          "How do you say “a dress” in French?",
+          "une robe",
+          "un pull",
+          "un short",
+          "A dress is une robe."
+        ],
+        [
+          "What is “une jupe”?",
+          "a skirt",
+          "a jumper",
+          "a sock",
+          "Une jupe is a skirt."
+        ],
+        [
+          "How do you say “a jumper” in French?",
+          "un pull",
+          "un pantalon",
+          "une robe",
+          "A jumper is un pull."
+        ],
+        [
+          "What is “un pantalon”?",
+          "a pair of trousers",
+          "a pair of shorts",
+          "a coat",
+          "Un pantalon is a pair of trousers. French uses just one: un pantalon."
+        ],
+        [
+          "How do you say “a coat” in French?",
+          "un manteau",
+          "un maillot de bain",
+          "une casquette",
+          "A coat is un manteau."
+        ],
+        [
+          "What is “un maillot de bain”?",
+          "a swimsuit",
+          "a pair of pyjamas",
+          "a scarf",
+          "Un maillot de bain is a swimsuit. Le bain means the bath."
+        ],
+        [
+          "How do you say “a cap” in French?",
+          "une casquette",
+          "une chemise",
+          "des bottes",
+          "A cap is une casquette."
+        ],
+        [
+          "What is “une chemise”?",
+          "a shirt",
+          "a skirt",
+          "a shoe",
+          "Une chemise is a shirt."
+        ],
+        [
+          "How do you say “boots” in French?",
+          "des bottes",
+          "des gants",
+          "des chaussettes",
+          "Boots are des bottes."
+        ],
+        [
+          "What is “un pyjama”?",
+          "a pair of pyjamas",
+          "a jacket",
+          "a dress",
+          "Un pyjama is a pair of pyjamas, for bedtime."
+        ],
+        [
+          "What is “une veste”?",
+          "a jacket",
+          "a sock",
+          "a skirt",
+          "Une veste is a jacket."
+        ],
+        [
+          "“Il fait froid.” What do you put on?",
+          "un manteau",
+          "un short",
+          "un maillot de bain",
+          "When it is cold you put on a coat: un manteau."
+        ],
+        [
+          "“Il fait chaud.” What do you put on?",
+          "un short",
+          "une écharpe",
+          "des gants",
+          "When it is hot you put on shorts: un short."
+        ],
+        [
+          "You are going swimming. What do you put on?",
+          "un maillot de bain",
+          "un manteau",
+          "des bottes",
+          "For swimming you wear a swimsuit: un maillot de bain."
+        ],
+        [
+          "It is bedtime. What do you put on?",
+          "un pyjama",
+          "une casquette",
+          "des chaussures",
+          "At bedtime you put on pyjamas: un pyjama."
+        ],
+        [
+          "What do you wear on your hands?",
+          "des gants",
+          "des chaussettes",
+          "un chapeau",
+          "Gloves go on your hands: des gants."
+        ],
+        [
+          "What do you wear on your feet?",
+          "des chaussures",
+          "des gants",
+          "une écharpe",
+          "Shoes go on your feet: des chaussures."
+        ],
+        [
+          "What do you wear on your head?",
+          "un chapeau",
+          "un pantalon",
+          "une jupe",
+          "A hat goes on your head: un chapeau."
+        ],
+        [
+          "What do you wear around your neck?",
+          "une écharpe",
+          "des chaussettes",
+          "un short",
+          "A scarf goes around your neck: une écharpe."
+        ],
+        [
+          "What does “un pull rouge” mean?",
+          "a red jumper",
+          "a blue jumper",
+          "a red dress",
+          "Un pull is a jumper and rouge is red. In French the colour comes after."
+        ],
+        [
+          "What does “Je porte un tee-shirt” mean?",
+          "I am wearing a T-shirt",
+          "I am buying a T-shirt",
+          "I have lost a T-shirt",
+          "Je porte means I am wearing."
+        ],
+        [
+          "How do you say “a T-shirt” in French?",
+          "un tee-shirt",
+          "un short",
+          "une jupe",
+          "A T-shirt is un tee-shirt, almost the same as in English."
+        ],
+        [
+          "Which one is a piece of clothing?",
+          "une robe",
+          "une pomme",
+          "une table",
+          "Une robe is a dress. Une pomme is an apple and une table is a table."
+        ],
+        [
+          "What do you put on your feet before your shoes?",
+          "des chaussettes",
+          "des gants",
+          "des bottes",
+          "Socks go on first, then shoes: des chaussettes."
+        ],
+        [
+          "What are “des lunettes de soleil”?",
+          "sunglasses",
+          "sun cream",
+          "a sun hat",
+          "Des lunettes are glasses, and du soleil means for the sun: sunglasses."
+        ]
+      ]
+    }
+  },
+  "emoji": "scarf",
+  "example": {
+    "i": 0,
+    "q_en": "What is “un chapeau”?",
+    "answer_en": "a hat",
+    "why_en": "Un chapeau is a hat."
+  },
+  "text": {
+    "en": {
+      "title": "Clothes in French",
+      "teach": "Clothes in French: un pull (a jumper), une robe (a dress), un manteau (a coat), des chaussures (shoes). Je porte means I am wearing: je porte un manteau.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "id": "fr6-town",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 1,
+  "ages": [
+    "6-7"
+  ],
+  "order": 18,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "map",
+      "map",
+      "speech",
+      "tree",
+      "map",
+      "house",
+      "speech",
+      "beach",
+      "memo",
+      "fruit-apple",
+      "speech",
+      "animal-giraffe",
+      "road",
+      "speech",
+      "map",
+      "clock",
+      "wave",
+      "books",
+      "tv",
+      "memo",
+      "animal-lion",
+      "thermometer",
+      "house",
+      "map",
+      "road",
+      "road",
+      "road",
+      "map",
+      "school",
+      "fruit-cherries"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is “la boulangerie”?",
+          "the bakery",
+          "the bank",
+          "the park",
+          "La boulangerie is the bakery, where you buy bread."
+        ],
+        [
+          "How do you say “the train station” in French?",
+          "la gare",
+          "la plage",
+          "la poste",
+          "The train station is la gare."
+        ],
+        [
+          "What is “la piscine”?",
+          "the swimming pool",
+          "the park",
+          "the library",
+          "La piscine is the swimming pool."
+        ],
+        [
+          "How do you say “the park” in French?",
+          "le parc",
+          "la piscine",
+          "le musée",
+          "The park is le parc."
+        ],
+        [
+          "What is “la bibliothèque”?",
+          "the library",
+          "the hospital",
+          "the cinema",
+          "La bibliothèque is the library, where you borrow books."
+        ],
+        [
+          "How do you say “the hospital” in French?",
+          "l’hôpital",
+          "l’hôtel",
+          "l’école",
+          "The hospital is l’hôpital. L’hôtel is a hotel."
+        ],
+        [
+          "What is “le cinéma”?",
+          "the cinema",
+          "the café",
+          "the market",
+          "Le cinéma is the cinema."
+        ],
+        [
+          "How do you say “the beach” in French?",
+          "la plage",
+          "la gare",
+          "la rue",
+          "The beach is la plage."
+        ],
+        [
+          "What is “la poste”?",
+          "the post office",
+          "the police station",
+          "the bus stop",
+          "La poste is the post office."
+        ],
+        [
+          "How do you say “the supermarket” in French?",
+          "le supermarché",
+          "le musée",
+          "le parc",
+          "The supermarket is le supermarché."
+        ],
+        [
+          "What is “le musée”?",
+          "the museum",
+          "the music shop",
+          "the zoo",
+          "Le musée is the museum."
+        ],
+        [
+          "How do you say “the zoo” in French?",
+          "le zoo",
+          "la gare",
+          "le café",
+          "The zoo is le zoo, the same word as in English."
+        ],
+        [
+          "What is “la rue”?",
+          "the street",
+          "the river",
+          "the shop",
+          "La rue is the street."
+        ],
+        [
+          "What is “le magasin”?",
+          "the shop",
+          "the magazine",
+          "the park",
+          "Le magasin is the shop. It looks like magazine, but it is not."
+        ],
+        [
+          "Where do you buy bread?",
+          "à la boulangerie",
+          "à la piscine",
+          "à la gare",
+          "Bread comes from the bakery: la boulangerie."
+        ],
+        [
+          "Where do you catch a train?",
+          "à la gare",
+          "au parc",
+          "à la plage",
+          "Trains stop at the station: la gare."
+        ],
+        [
+          "Where do you go to swim?",
+          "à la piscine",
+          "à la bibliothèque",
+          "au cinéma",
+          "You swim at the swimming pool: la piscine."
+        ],
+        [
+          "Where do you borrow books?",
+          "à la bibliothèque",
+          "à la piscine",
+          "à la boulangerie",
+          "You borrow books at the library: la bibliothèque."
+        ],
+        [
+          "Where do you watch a film on a big screen?",
+          "au cinéma",
+          "à la poste",
+          "au marché",
+          "Films on a big screen are at the cinema: le cinéma."
+        ],
+        [
+          "Where do you post a letter?",
+          "à la poste",
+          "au zoo",
+          "à la plage",
+          "You post letters at the post office: la poste."
+        ],
+        [
+          "Where can you see lions and giraffes?",
+          "au zoo",
+          "à la poste",
+          "à l’école",
+          "Lions and giraffes live at the zoo: le zoo."
+        ],
+        [
+          "Where do doctors and nurses look after very ill people?",
+          "à l’hôpital",
+          "au cinéma",
+          "à la piscine",
+          "Doctors and nurses work at the hospital: l’hôpital."
+        ],
+        [
+          "Where do you buy medicine?",
+          "à la pharmacie",
+          "à la boulangerie",
+          "au parc",
+          "Medicine comes from the chemist’s: la pharmacie."
+        ],
+        [
+          "What does “Où est la gare ?” mean?",
+          "Where is the station?",
+          "Where is the beach?",
+          "I like the station.",
+          "Où est means where is, and la gare is the station."
+        ],
+        [
+          "What does “à gauche” mean?",
+          "on the left",
+          "on the right",
+          "straight on",
+          "À gauche means on the left."
+        ],
+        [
+          "What does “à droite” mean?",
+          "on the right",
+          "on the left",
+          "behind",
+          "À droite means on the right."
+        ],
+        [
+          "What does “tout droit” mean?",
+          "straight on",
+          "turn right",
+          "go back",
+          "Tout droit means straight on. Be careful: à droite is right."
+        ],
+        [
+          "What does “la ville” mean?",
+          "the town",
+          "the house",
+          "the garden",
+          "La ville means the town."
+        ],
+        [
+          "How do you say “the school” in French?",
+          "l’école",
+          "la piscine",
+          "le stade",
+          "The school is l’école."
+        ],
+        [
+          "Where can you buy fruit from stalls outside?",
+          "au marché",
+          "à la gare",
+          "à la bibliothèque",
+          "Stalls with fruit are at the market: le marché."
+        ]
+      ]
+    }
+  },
+  "emoji": "map",
+  "example": {
+    "i": 0,
+    "q_en": "What is “la boulangerie”?",
+    "answer_en": "the bakery",
+    "why_en": "La boulangerie is the bakery, where you buy bread."
+  },
+  "text": {
+    "en": {
+      "title": "Places in town in French",
+      "teach": "Places in town in French: la boulangerie (the bakery), la gare (the station), la piscine (the swimming pool), le parc (the park). To ask the way, say Où est la gare ?",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

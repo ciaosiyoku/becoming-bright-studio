@@ -1,0 +1,274 @@
+{
+  "id": "fr6-gender",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 1,
+  "ages": [
+    "6-7"
+  ],
+  "order": 19,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "paws",
+      "house",
+      "school",
+      "paws",
+      "fruit-apple",
+      "tree",
+      "openbook",
+      "game",
+      "heart",
+      "sun",
+      "moon",
+      "droplet",
+      "speech",
+      "key",
+      "animal-parrot",
+      "road",
+      "minibus",
+      "tangerine",
+      "animal-rabbit",
+      "seedling",
+      "thermometer",
+      "joystick",
+      "girl",
+      "animal-elephant",
+      "cake",
+      "wave",
+      "star",
+      "bus",
+      "party",
+      "animal-bear"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Le, la or l’? ___ chat (the cat)",
+          "le",
+          "la",
+          "l’",
+          "Chat is a le word: le chat."
+        ],
+        [
+          "Le, la or l’? ___ maison (the house)",
+          "la",
+          "le",
+          "l’",
+          "Maison is a la word: la maison."
+        ],
+        [
+          "Le, la or l’? ___ école (the school)",
+          "l’",
+          "le",
+          "la",
+          "École starts with a vowel sound, so le or la becomes l’: l’école."
+        ],
+        [
+          "Le, la or l’? ___ chien (the dog)",
+          "le",
+          "la",
+          "l’",
+          "Chien is a le word: le chien."
+        ],
+        [
+          "Le, la or l’? ___ pomme (the apple)",
+          "la",
+          "le",
+          "l’",
+          "Pomme is a la word: la pomme."
+        ],
+        [
+          "Le, la or l’? ___ arbre (the tree)",
+          "l’",
+          "le",
+          "la",
+          "Arbre starts with a vowel sound, so le or la becomes l’: l’arbre."
+        ],
+        [
+          "Le, la or l’? ___ livre (the book)",
+          "le",
+          "la",
+          "l’",
+          "Livre is a le word: le livre."
+        ],
+        [
+          "Le, la or l’? ___ table (the table)",
+          "la",
+          "le",
+          "l’",
+          "Table is a la word: la table."
+        ],
+        [
+          "Le, la or l’? ___ ami (the friend)",
+          "l’",
+          "le",
+          "la",
+          "Ami starts with a vowel sound, so le or la becomes l’: l’ami."
+        ],
+        [
+          "Le, la or l’? ___ soleil (the sun)",
+          "le",
+          "la",
+          "l’",
+          "Soleil is a le word: le soleil."
+        ],
+        [
+          "Le, la or l’? ___ lune (the moon)",
+          "la",
+          "le",
+          "l’",
+          "Lune is a la word: la lune."
+        ],
+        [
+          "Le, la or l’? ___ eau (the water)",
+          "l’",
+          "le",
+          "la",
+          "Eau starts with a vowel sound, so le or la becomes l’: l’eau."
+        ],
+        [
+          "Le, la or l’? ___ pain (the bread)",
+          "le",
+          "la",
+          "l’",
+          "Pain is a le word: le pain."
+        ],
+        [
+          "Le, la or l’? ___ porte (the door)",
+          "la",
+          "le",
+          "l’",
+          "Porte is a la word: la porte."
+        ],
+        [
+          "Le, la or l’? ___ oiseau (the bird)",
+          "l’",
+          "le",
+          "la",
+          "Oiseau starts with a vowel sound, so le or la becomes l’: l’oiseau."
+        ],
+        [
+          "Le, la or l’? ___ vélo (the bike)",
+          "le",
+          "la",
+          "l’",
+          "Vélo is a le word: le vélo."
+        ],
+        [
+          "Le, la or l’? ___ voiture (the car)",
+          "la",
+          "le",
+          "l’",
+          "Voiture is a la word: la voiture."
+        ],
+        [
+          "Le, la or l’? ___ orange (the orange)",
+          "l’",
+          "le",
+          "la",
+          "Orange starts with a vowel sound, so le or la becomes l’: l’orange."
+        ],
+        [
+          "Le, la or l’? ___ lapin (the rabbit)",
+          "le",
+          "la",
+          "l’",
+          "Lapin is a le word: le lapin."
+        ],
+        [
+          "Le, la or l’? ___ fleur (the flower)",
+          "la",
+          "le",
+          "l’",
+          "Fleur is a la word: la fleur."
+        ],
+        [
+          "Le, la or l’? ___ hôpital (the hospital)",
+          "l’",
+          "le",
+          "la",
+          "Hôpital starts with a silent h, so le or la becomes l’: l’hôpital."
+        ],
+        [
+          "Le, la or l’? ___ garçon (the boy)",
+          "le",
+          "la",
+          "l’",
+          "Garçon is a le word: le garçon."
+        ],
+        [
+          "Le, la or l’? ___ fille (the girl)",
+          "la",
+          "le",
+          "l’",
+          "Fille is a la word: la fille."
+        ],
+        [
+          "Le, la or l’? ___ éléphant (the elephant)",
+          "l’",
+          "le",
+          "la",
+          "Éléphant starts with a vowel sound, so le or la becomes l’: l’éléphant."
+        ],
+        [
+          "Le, la or l’? ___ gâteau (the cake)",
+          "le",
+          "la",
+          "l’",
+          "Gâteau is a le word: le gâteau."
+        ],
+        [
+          "Le, la or l’? ___ mer (the sea)",
+          "la",
+          "le",
+          "l’",
+          "Mer is a la word: la mer."
+        ],
+        [
+          "Le, la or l’? ___ étoile (the star)",
+          "l’",
+          "le",
+          "la",
+          "Étoile starts with a vowel sound, so le or la becomes l’: l’étoile."
+        ],
+        [
+          "Le, la or l’? ___ bus (the bus)",
+          "le",
+          "la",
+          "l’",
+          "Bus is a le word: le bus."
+        ],
+        [
+          "Le, la or l’? ___ glace (the ice cream)",
+          "la",
+          "le",
+          "l’",
+          "Glace is a la word: la glace."
+        ],
+        [
+          "Le, la or l’? ___ ours (the bear)",
+          "l’",
+          "le",
+          "la",
+          "Ours starts with a vowel sound, so le or la becomes l’: l’ours."
+        ]
+      ]
+    }
+  },
+  "emoji": "puzzle",
+  "example": {
+    "i": 0,
+    "q_en": "Le, la or l’? ___ chat (the cat)",
+    "answer_en": "le",
+    "why_en": "Chat is a le word: le chat."
+  },
+  "text": {
+    "en": {
+      "title": "Le, la or l’?",
+      "teach": "Every French noun is a le word or a la word, so learn the word with it: le chat, la maison. Before a vowel or a silent h, le and la become l’: l’arbre, l’hôpital.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

@@ -1,0 +1,936 @@
+{
+  "id": "sci-earth",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 18,
+  "params": {
+    "emojis": [
+      "globe",
+      "beach",
+      "wave",
+      "map",
+      "droplet",
+      "rain",
+      "mountain",
+      "snow",
+      "desert",
+      "animal-crab",
+      "wave",
+      "seedling",
+      "tree",
+      "dinosaur",
+      "sun-rain",
+      "road",
+      "sun",
+      "sun-cloud",
+      "animal-swan",
+      "fruit-coconut",
+      "polarbear",
+      "factory",
+      "gear",
+      "memo",
+      "fruit-banana",
+      "animal-turtle",
+      "droplet",
+      "light",
+      "seedling",
+      "globe"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What covers most of the Earth?",
+          "water in seas and oceans",
+          "sand in deserts",
+          "snow and ice",
+          "Seas and oceans cover more than two thirds of the Earth. That is why the Earth looks blue from space."
+        ],
+        [
+          "What does sea water taste like?",
+          "salty",
+          "sweet like juice",
+          "fizzy like lemonade",
+          "Sea water has a lot of salt in it, so it tastes salty. We cannot drink it to stay healthy."
+        ],
+        [
+          "What is a very big area of salty water called?",
+          "an ocean",
+          "a pond",
+          "a puddle",
+          "An ocean is huge and deep. The Pacific Ocean is the biggest one on Earth. Ponds and puddles are small."
+        ],
+        [
+          "Where do most rivers end up?",
+          "in the sea",
+          "on top of a mountain",
+          "up in the sky",
+          "A river starts high up in hills or mountains and flows downhill until it reaches the sea."
+        ],
+        [
+          "Which way does the water in a river flow?",
+          "downhill",
+          "uphill",
+          "round in a circle",
+          "Water always flows downhill. That is why rivers run from high land down to the sea."
+        ],
+        [
+          "Little streams join together. What do they make?",
+          "a river",
+          "a mountain",
+          "a desert",
+          "Rain runs into small streams. The streams meet and join to make a bigger river."
+        ],
+        [
+          "What is the very top of a mountain called?",
+          "the peak",
+          "the valley",
+          "the beach",
+          "The peak, or summit, is the highest point of a mountain. A valley is the low land between hills."
+        ],
+        [
+          "Why is there often snow on top of high mountains?",
+          "it is colder high up",
+          "the sun is hotter up there",
+          "snow grows out of the rocks",
+          "The higher you go, the colder the air gets. High mountain tops can be so cold that the snow stays all year."
+        ],
+        [
+          "What is a desert?",
+          "a very dry place with little rain",
+          "a wet forest full of rivers",
+          "a frozen sea",
+          "A desert gets very little rain. Some deserts are hot and sandy, and some are cold and rocky."
+        ],
+        [
+          "What is sand made of?",
+          "tiny bits of broken rock and shell",
+          "sugar",
+          "snow",
+          "Over a very long time, waves and wind break rocks and shells into tiny pieces. These little grains are sand."
+        ],
+        [
+          "What makes pebbles on a beach smooth and round?",
+          "the waves rub them together for many years",
+          "people polish them every night",
+          "fish lick them",
+          "Waves roll the pebbles against each other again and again. Slowly their sharp edges are worn away."
+        ],
+        [
+          "What is soil made of?",
+          "tiny bits of rock mixed with rotted leaves, water and air",
+          "sugar and flour",
+          "plastic and glass",
+          "Soil is a mix of crumbly rock, bits of dead plants, water and air. Plants grow their roots in it."
+        ],
+        [
+          "Which small animal helps make soil good by mixing it?",
+          "the earthworm",
+          "the shark",
+          "the penguin",
+          "Earthworms dig tunnels that let air and water into the soil, and they mix dead leaves into it."
+        ],
+        [
+          "What is a fossil?",
+          "the shape of a plant or animal from long ago, kept in rock",
+          "a new kind of sweet",
+          "a cloud shaped like an animal",
+          "When a plant or animal died long ago, it was sometimes covered in mud. Over millions of years its shape was kept in the rock."
+        ],
+        [
+          "Rain falls on a grassy field. Where does much of the water go?",
+          "it soaks into the soil",
+          "it flies up to the moon",
+          "it turns into rocks",
+          "Soil is full of tiny gaps. Rain water soaks down into them, and plant roots can drink it."
+        ],
+        [
+          "Where does rain water on a street go?",
+          "down the drains at the side of the road",
+          "into the car engines",
+          "up into the trees",
+          "Streets have drains at the edges. Rain water runs into them and flows through pipes, often to rivers and the sea."
+        ],
+        [
+          "What happens to puddles on a warm, sunny day?",
+          "the water dries up into the air",
+          "they turn into stone",
+          "they get deeper and deeper",
+          "The sun warms the water. Bit by bit it turns into water vapour, an invisible gas, and goes into the air."
+        ],
+        [
+          "Water goes round from the sea to the clouds and back again. What warms the sea water so that it rises into the air?",
+          "the sun",
+          "the moon",
+          "the fish",
+          "The sun warms the sea, and some water rises as invisible vapour. It makes clouds, falls as rain and flows back to the sea."
+        ],
+        [
+          "What is a lake?",
+          "a big area of water with land all around it",
+          "a tall, steep hill",
+          "a dry, sandy place",
+          "A lake is a large body of water surrounded by land. Most lakes have fresh water, not salty water."
+        ],
+        [
+          "What is an island?",
+          "land with water all around it",
+          "water with land all around it",
+          "a mountain made of ice",
+          "An island is a piece of land in the sea or in a lake, with water on every side."
+        ],
+        [
+          "Where is the land very cold and covered in ice all year?",
+          "near the North and South Poles",
+          "in the hot desert",
+          "on a sunny beach",
+          "The North and South Poles get little warmth from the sun, so they stay icy all year round."
+        ],
+        [
+          "What does recycling mean?",
+          "making old things into new things",
+          "throwing rubbish into the sea",
+          "burying toys in the garden",
+          "When we recycle, old bottles, cans and paper are collected and made into new things instead of being thrown away."
+        ],
+        [
+          "Which of these can be recycled to make something new?",
+          "an empty drinks can",
+          "a shadow",
+          "a sunbeam",
+          "Metal drinks cans can be melted down and made into new cans again and again."
+        ],
+        [
+          "Old newspapers are recycled. What do they become?",
+          "new paper",
+          "new glass",
+          "new metal",
+          "Old paper is soaked, mashed up and pressed flat to make new paper, so fewer trees need to be cut down."
+        ],
+        [
+          "What can we put on a compost heap?",
+          "fruit and vegetable peel",
+          "glass bottles",
+          "metal cans",
+          "Peel and old leaves rot down on a compost heap. After some months they turn into rich soil for the garden."
+        ],
+        [
+          "Why should we never drop litter?",
+          "it can hurt animals and makes places dirty",
+          "it helps flowers grow",
+          "it makes the ground cleaner",
+          "Litter can trap or harm animals, like turtles in the sea, and it spoils parks and beaches. Put it in a bin."
+        ],
+        [
+          "Which is a good way to save water?",
+          "turn off the tap while you brush your teeth",
+          "leave the tap running all day",
+          "fill the bath to the top twice a day",
+          "Clean water is precious. Turning off the tap while you brush saves lots of water every day."
+        ],
+        [
+          "How can you save energy at home?",
+          "switch off the light when you leave a room",
+          "leave the TV on all night",
+          "keep the fridge door wide open",
+          "Making electricity uses up the Earth’s resources. Switching off things you are not using saves energy."
+        ],
+        [
+          "Why is planting trees good for the Earth?",
+          "trees give animals homes and help clean the air",
+          "trees make the sea salty",
+          "trees stop the rain from falling",
+          "Trees take in a gas from the air that warms the Earth and give out the oxygen we breathe. Birds and insects live in them too."
+        ],
+        [
+          "Which of these is natural and not made by people?",
+          "a mountain",
+          "a road",
+          "a bridge",
+          "Mountains were made by the Earth itself over millions of years. People build roads and bridges."
+        ]
+      ],
+      "de": [
+        [
+          "Was bedeckt den größten Teil der Erde?",
+          "Wasser in Meeren und Ozeanen",
+          "Sand in Wüsten",
+          "Schnee und Eis",
+          "Meere und Ozeane bedecken mehr als zwei Drittel der Erde. Darum sieht die Erde aus dem Weltall blau aus."
+        ],
+        [
+          "Wie schmeckt Meerwasser?",
+          "salzig",
+          "süß wie Saft",
+          "sprudelnd wie Limonade",
+          "Im Meerwasser ist viel Salz, darum schmeckt es salzig. Zum Trinken ist es nicht geeignet."
+        ],
+        [
+          "Wie heißt eine riesige Fläche mit salzigem Wasser?",
+          "ein Ozean",
+          "ein Teich",
+          "eine Pfütze",
+          "Ein Ozean ist riesig und tief. Der Pazifik ist der größte Ozean der Erde. Teiche und Pfützen sind klein."
+        ],
+        [
+          "Wo enden die meisten Flüsse?",
+          "im Meer",
+          "auf einem Berggipfel",
+          "oben im Himmel",
+          "Ein Fluss beginnt hoch oben in Hügeln oder Bergen und fließt bergab, bis er das Meer erreicht."
+        ],
+        [
+          "In welche Richtung fließt das Wasser in einem Fluss?",
+          "bergab",
+          "bergauf",
+          "im Kreis",
+          "Wasser fließt immer bergab. Darum fließen Flüsse vom hohen Land hinunter zum Meer."
+        ],
+        [
+          "Kleine Bäche fließen zusammen. Was entsteht daraus?",
+          "ein Fluss",
+          "ein Berg",
+          "eine Wüste",
+          "Regenwasser läuft in kleine Bäche. Die Bäche treffen sich und werden zu einem größeren Fluss."
+        ],
+        [
+          "Wie nennt man die oberste Spitze eines Berges?",
+          "den Gipfel",
+          "das Tal",
+          "den Strand",
+          "Der Gipfel ist der höchste Punkt eines Berges. Ein Tal ist das tiefe Land zwischen Bergen."
+        ],
+        [
+          "Warum liegt auf hohen Bergen oft Schnee?",
+          "weiter oben ist es kälter",
+          "die Sonne ist dort heißer",
+          "Schnee wächst aus den Felsen",
+          "Je höher man kommt, desto kälter ist die Luft. Auf hohen Gipfeln ist es so kalt, dass der Schnee das ganze Jahr liegen bleibt."
+        ],
+        [
+          "Was ist eine Wüste?",
+          "ein sehr trockener Ort mit wenig Regen",
+          "ein nasser Wald voller Flüsse",
+          "ein gefrorenes Meer",
+          "In einer Wüste regnet es sehr wenig. Manche Wüsten sind heiß und sandig, andere kalt und steinig."
+        ],
+        [
+          "Woraus besteht Sand?",
+          "aus winzigen Stückchen von Gestein und Muscheln",
+          "aus Zucker",
+          "aus Schnee",
+          "In sehr langer Zeit zerkleinern Wellen und Wind Felsen und Muscheln zu winzigen Stückchen. Diese kleinen Körner sind Sand."
+        ],
+        [
+          "Was macht die Kieselsteine am Strand glatt und rund?",
+          "die Wellen reiben sie viele Jahre aneinander",
+          "Menschen polieren sie jede Nacht",
+          "Fische lecken sie ab",
+          "Die Wellen rollen die Steine immer wieder aneinander. Langsam werden ihre scharfen Kanten abgeschliffen."
+        ],
+        [
+          "Woraus besteht Erde im Garten?",
+          "aus winzigen Gesteinsstückchen, verrotteten Blättern, Wasser und Luft",
+          "aus Zucker und Mehl",
+          "aus Kunststoff und Glas",
+          "Erde ist eine Mischung aus Gesteinskrümeln, Resten toter Pflanzen, Wasser und Luft. Darin wachsen die Wurzeln der Pflanzen."
+        ],
+        [
+          "Welches kleine Tier macht die Erde gut, indem es sie durchmischt?",
+          "der Regenwurm",
+          "der Hai",
+          "der Pinguin",
+          "Regenwürmer graben Gänge, durch die Luft und Wasser in die Erde kommen, und sie mischen tote Blätter unter."
+        ],
+        [
+          "Was ist ein Fossil?",
+          "die Form einer Pflanze oder eines Tieres von früher, im Stein erhalten",
+          "eine neue Bonbonsorte",
+          "eine Wolke in Tierform",
+          "Starb vor langer Zeit eine Pflanze oder ein Tier, wurde es manchmal von Schlamm bedeckt. Über Millionen Jahre blieb seine Form im Stein erhalten."
+        ],
+        [
+          "Regen fällt auf eine Wiese. Wohin geht ein großer Teil des Wassers?",
+          "es versickert in der Erde",
+          "es fliegt zum Mond",
+          "es wird zu Steinen",
+          "Erde ist voller winziger Lücken. Das Regenwasser sickert hinein, und die Wurzeln der Pflanzen können es aufnehmen."
+        ],
+        [
+          "Wohin fließt das Regenwasser auf der Straße?",
+          "in die Gullys am Straßenrand",
+          "in die Automotoren",
+          "hoch in die Bäume",
+          "Straßen haben Gullys am Rand. Das Regenwasser läuft hinein und fließt durch Rohre weiter, oft bis zu Flüssen und zum Meer."
+        ],
+        [
+          "Was passiert mit Pfützen an einem warmen, sonnigen Tag?",
+          "das Wasser verdunstet in die Luft",
+          "sie werden zu Stein",
+          "sie werden immer tiefer",
+          "Die Sonne wärmt das Wasser. Nach und nach wird es zu unsichtbarem Wasserdampf und steigt in die Luft."
+        ],
+        [
+          "Wasser wandert vom Meer zu den Wolken und wieder zurück. Was wärmt das Meerwasser, damit es in die Luft steigt?",
+          "die Sonne",
+          "der Mond",
+          "die Fische",
+          "Die Sonne wärmt das Meer, und etwas Wasser steigt als unsichtbarer Dampf auf. Es bildet Wolken, fällt als Regen und fließt zurück ins Meer."
+        ],
+        [
+          "Was ist ein See?",
+          "eine große Wasserfläche mit Land rundherum",
+          "ein hoher, steiler Hügel",
+          "ein trockener, sandiger Ort",
+          "Ein See ist eine große Wasserfläche, die ganz von Land umgeben ist. Die meisten Seen haben Süßwasser, kein Salzwasser."
+        ],
+        [
+          "Was ist eine Insel?",
+          "Land mit Wasser rundherum",
+          "Wasser mit Land rundherum",
+          "ein Berg aus Eis",
+          "Eine Insel ist ein Stück Land im Meer oder in einem See, mit Wasser auf allen Seiten."
+        ],
+        [
+          "Wo ist das Land sehr kalt und das ganze Jahr mit Eis bedeckt?",
+          "am Nordpol und am Südpol",
+          "in der heißen Wüste",
+          "an einem sonnigen Strand",
+          "Am Nord- und Südpol kommt wenig Wärme von der Sonne an. Darum bleibt es dort das ganze Jahr eisig."
+        ],
+        [
+          "Was bedeutet Recycling?",
+          "aus alten Dingen neue machen",
+          "Müll ins Meer werfen",
+          "Spielzeug im Garten vergraben",
+          "Beim Recycling werden alte Flaschen, Dosen und Papier gesammelt und zu neuen Dingen gemacht, statt sie wegzuwerfen."
+        ],
+        [
+          "Was davon kann man recyceln, um etwas Neues daraus zu machen?",
+          "eine leere Getränkedose",
+          "einen Schatten",
+          "einen Sonnenstrahl",
+          "Getränkedosen aus Metall kann man einschmelzen und immer wieder zu neuen Dosen machen."
+        ],
+        [
+          "Alte Zeitungen werden recycelt. Was wird daraus?",
+          "neues Papier",
+          "neues Glas",
+          "neues Metall",
+          "Altpapier wird eingeweicht, zerkleinert und flach gepresst. So entsteht neues Papier, und es müssen weniger Bäume gefällt werden."
+        ],
+        [
+          "Was darf auf den Komposthaufen?",
+          "Obst- und Gemüseschalen",
+          "Glasflaschen",
+          "Metalldosen",
+          "Schalen und altes Laub verrotten auf dem Kompost. Nach einigen Monaten wird daraus gute Erde für den Garten."
+        ],
+        [
+          "Warum sollten wir niemals Müll wegwerfen?",
+          "er kann Tieren schaden und macht alles schmutzig",
+          "er hilft Blumen beim Wachsen",
+          "er macht den Boden sauberer",
+          "Müll kann Tiere wie Meeresschildkröten verletzen und verschmutzt Parks und Strände. Wirf ihn in den Mülleimer."
+        ],
+        [
+          "Wie kann man gut Wasser sparen?",
+          "den Wasserhahn beim Zähneputzen zudrehen",
+          "den Wasserhahn den ganzen Tag laufen lassen",
+          "zweimal am Tag die Badewanne randvoll machen",
+          "Sauberes Wasser ist kostbar. Wer beim Zähneputzen den Hahn zudreht, spart jeden Tag viel Wasser."
+        ],
+        [
+          "Wie kannst du zu Hause Energie sparen?",
+          "das Licht ausschalten, wenn du den Raum verlässt",
+          "den Fernseher die ganze Nacht anlassen",
+          "die Kühlschranktür weit offen lassen",
+          "Für Strom werden Rohstoffe der Erde verbraucht. Wer ausschaltet, was er nicht braucht, spart Energie."
+        ],
+        [
+          "Warum ist es gut für die Erde, Bäume zu pflanzen?",
+          "Bäume geben Tieren ein Zuhause und helfen, die Luft sauber zu halten",
+          "Bäume machen das Meer salzig",
+          "Bäume halten den Regen auf",
+          "Bäume nehmen ein Gas aus der Luft auf, das die Erde erwärmt, und geben Sauerstoff zum Atmen ab. Außerdem wohnen Vögel und Insekten darin."
+        ],
+        [
+          "Was davon ist natürlich und nicht von Menschen gemacht?",
+          "ein Berg",
+          "eine Straße",
+          "eine Brücke",
+          "Berge sind in Millionen Jahren von der Erde selbst geformt worden. Straßen und Brücken bauen Menschen."
+        ]
+      ],
+      "fr": [
+        [
+          "Qu’est-ce qui recouvre la plus grande partie de la Terre ?",
+          "l’eau des mers et des océans",
+          "le sable des déserts",
+          "la neige et la glace",
+          "Les mers et les océans recouvrent plus des deux tiers de la Terre. C’est pour cela qu’elle paraît bleue vue de l’espace."
+        ],
+        [
+          "Quel goût a l’eau de mer ?",
+          "salé",
+          "sucré comme du jus",
+          "pétillant comme de la limonade",
+          "L’eau de mer contient beaucoup de sel : elle a un goût salé. On ne peut pas la boire."
+        ],
+        [
+          "Comment s’appelle une immense étendue d’eau salée ?",
+          "un océan",
+          "une mare",
+          "une flaque",
+          "Un océan est immense et profond. L’océan Pacifique est le plus grand de la Terre. Les mares et les flaques sont petites."
+        ],
+        [
+          "Où finissent la plupart des rivières ?",
+          "dans la mer",
+          "en haut d’une montagne",
+          "dans le ciel",
+          "Un cours d’eau naît en haut des collines ou des montagnes et descend jusqu’à la mer."
+        ],
+        [
+          "Dans quel sens coule l’eau d’une rivière ?",
+          "vers le bas de la pente",
+          "vers le haut de la pente",
+          "en rond",
+          "L’eau coule toujours vers le bas. C’est pour cela que les rivières descendent des hauteurs jusqu’à la mer."
+        ],
+        [
+          "Les petits ruisseaux se rejoignent. Que forment-ils ?",
+          "une rivière",
+          "une montagne",
+          "un désert",
+          "L’eau de pluie coule dans de petits ruisseaux. Ils se rejoignent et forment une rivière plus grande."
+        ],
+        [
+          "Comment s’appelle le point le plus haut d’une montagne ?",
+          "le sommet",
+          "la vallée",
+          "la plage",
+          "Le sommet est le point le plus haut de la montagne. La vallée est le terrain bas entre les montagnes."
+        ],
+        [
+          "Pourquoi y a-t-il souvent de la neige en haut des hautes montagnes ?",
+          "il fait plus froid en altitude",
+          "le soleil y est plus chaud",
+          "la neige pousse dans les rochers",
+          "Plus on monte, plus l’air est froid. Au sommet des hautes montagnes, il fait parfois si froid que la neige reste toute l’année."
+        ],
+        [
+          "Qu’est-ce qu’un désert ?",
+          "un endroit très sec où il pleut peu",
+          "une forêt humide pleine de rivières",
+          "une mer gelée",
+          "Dans un désert, il pleut très peu. Certains déserts sont chauds et sableux, d’autres froids et rocheux."
+        ],
+        [
+          "De quoi est fait le sable ?",
+          "de tout petits morceaux de roche et de coquillages",
+          "de sucre",
+          "de neige",
+          "Pendant très longtemps, les vagues et le vent cassent les roches et les coquillages en tout petits morceaux. Ces petits grains forment le sable."
+        ],
+        [
+          "Qu’est-ce qui rend les galets de la plage lisses et ronds ?",
+          "les vagues les frottent les uns contre les autres pendant des années",
+          "des gens les polissent chaque nuit",
+          "des poissons les lèchent",
+          "Les vagues roulent les galets les uns contre les autres, encore et encore. Peu à peu, leurs bords coupants s’usent."
+        ],
+        [
+          "De quoi est faite la terre du jardin ?",
+          "de petits morceaux de roche mêlés à des feuilles pourries, de l’eau et de l’air",
+          "de sucre et de farine",
+          "de plastique et de verre",
+          "La terre est un mélange de roche émiettée, de restes de plantes mortes, d’eau et d’air. Les racines des plantes y poussent."
+        ],
+        [
+          "Quel petit animal rend la terre meilleure en la mélangeant ?",
+          "le ver de terre",
+          "le requin",
+          "le manchot",
+          "Les vers de terre creusent des galeries qui font entrer l’air et l’eau dans la terre, et ils y mélangent les feuilles mortes."
+        ],
+        [
+          "Qu’est-ce qu’un fossile ?",
+          "la forme d’une plante ou d’un animal d’autrefois, gardée dans la roche",
+          "une nouvelle sorte de bonbon",
+          "un nuage en forme d’animal",
+          "Quand une plante ou un animal mourait il y a très longtemps, la boue le recouvrait parfois. En des millions d’années, sa forme s’est gardée dans la roche."
+        ],
+        [
+          "La pluie tombe sur un pré. Où va une grande partie de l’eau ?",
+          "elle s’infiltre dans la terre",
+          "elle s’envole vers la Lune",
+          "elle se change en cailloux",
+          "La terre est pleine de petits trous. L’eau de pluie s’y infiltre, et les racines des plantes peuvent la boire."
+        ],
+        [
+          "Où va l’eau de pluie dans la rue ?",
+          "dans les bouches d’égout au bord de la route",
+          "dans les moteurs des voitures",
+          "en haut des arbres",
+          "Les rues ont des bouches d’égout sur les côtés. L’eau de pluie s’y écoule puis coule dans des tuyaux, souvent jusqu’aux rivières et à la mer."
+        ],
+        [
+          "Que deviennent les flaques par une journée chaude et ensoleillée ?",
+          "l’eau s’évapore dans l’air",
+          "elles se changent en pierre",
+          "elles deviennent de plus en plus profondes",
+          "Le soleil chauffe l’eau. Petit à petit, elle se transforme en vapeur invisible et part dans l’air."
+        ],
+        [
+          "L’eau voyage de la mer aux nuages, puis revient. Qu’est-ce qui chauffe l’eau de mer pour qu’elle monte dans l’air ?",
+          "le soleil",
+          "la lune",
+          "les poissons",
+          "Le soleil chauffe la mer et un peu d’eau monte sous forme de vapeur invisible. Elle forme des nuages, retombe en pluie et retourne à la mer."
+        ],
+        [
+          "Qu’est-ce qu’un lac ?",
+          "une grande étendue d’eau entourée de terre",
+          "une haute colline raide",
+          "un endroit sec et sableux",
+          "Un lac est une grande étendue d’eau entourée de terre. La plupart des lacs ont de l’eau douce, pas de l’eau salée."
+        ],
+        [
+          "Qu’est-ce qu’une île ?",
+          "une terre entourée d’eau",
+          "de l’eau entourée de terre",
+          "une montagne de glace",
+          "Une île est un morceau de terre dans la mer ou dans un lac, avec de l’eau tout autour."
+        ],
+        [
+          "Où la terre est-elle très froide et couverte de glace toute l’année ?",
+          "près du pôle Nord et du pôle Sud",
+          "dans le désert chaud",
+          "sur une plage ensoleillée",
+          "Les pôles Nord et Sud reçoivent peu de chaleur du soleil : ils restent glacés toute l’année."
+        ],
+        [
+          "Que veut dire recycler ?",
+          "transformer de vieux objets en objets neufs",
+          "jeter les déchets à la mer",
+          "enterrer des jouets dans le jardin",
+          "Quand on recycle, on ramasse les vieilles bouteilles, canettes et papiers pour en faire de nouveaux objets au lieu de les jeter."
+        ],
+        [
+          "Lequel peut être recyclé pour fabriquer quelque chose de neuf ?",
+          "une canette vide",
+          "une ombre",
+          "un rayon de soleil",
+          "Les canettes en métal peuvent être fondues et transformées en nouvelles canettes, encore et encore."
+        ],
+        [
+          "On recycle les vieux journaux. Que deviennent-ils ?",
+          "du papier neuf",
+          "du verre neuf",
+          "du métal neuf",
+          "Le vieux papier est trempé, réduit en bouillie puis pressé à plat pour faire du papier neuf. Ainsi, on coupe moins d’arbres."
+        ],
+        [
+          "Que peut-on mettre sur le tas de compost ?",
+          "des épluchures de fruits et de légumes",
+          "des bouteilles en verre",
+          "des canettes en métal",
+          "Les épluchures et les vieilles feuilles pourrissent dans le compost. Après quelques mois, elles deviennent une bonne terre pour le jardin."
+        ],
+        [
+          "Pourquoi ne faut-il jamais jeter ses déchets par terre ?",
+          "ils peuvent blesser les animaux et salissent tout",
+          "ils aident les fleurs à pousser",
+          "ils rendent le sol plus propre",
+          "Les déchets peuvent blesser des animaux, comme les tortues de mer, et salissent les parcs et les plages. Mets-les à la poubelle."
+        ],
+        [
+          "Quelle est une bonne façon d’économiser l’eau ?",
+          "fermer le robinet pendant qu’on se brosse les dents",
+          "laisser couler le robinet toute la journée",
+          "remplir la baignoire à ras bord deux fois par jour",
+          "L’eau propre est précieuse. Fermer le robinet pendant le brossage des dents économise beaucoup d’eau chaque jour."
+        ],
+        [
+          "Comment économiser l’énergie à la maison ?",
+          "éteindre la lumière en quittant une pièce",
+          "laisser la télé allumée toute la nuit",
+          "laisser la porte du frigo grande ouverte",
+          "Produire de l’électricité use les ressources de la Terre. Éteindre ce qu’on n’utilise pas économise de l’énergie."
+        ],
+        [
+          "Pourquoi planter des arbres est-il bon pour la Terre ?",
+          "les arbres abritent des animaux et aident à nettoyer l’air",
+          "les arbres rendent la mer salée",
+          "les arbres empêchent la pluie de tomber",
+          "Les arbres absorbent un gaz de l’air qui réchauffe la Terre et rejettent l’oxygène que nous respirons. Des oiseaux et des insectes y vivent aussi."
+        ],
+        [
+          "Lequel est naturel et n’a pas été fait par l’homme ?",
+          "une montagne",
+          "une route",
+          "un pont",
+          "Les montagnes ont été formées par la Terre elle-même pendant des millions d’années. Les routes et les ponts sont construits par les hommes."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ló bo èyí tó pọ̀ jù lára ayé?",
+          "omi inú òkun àti agbami",
+          "iyanrìn inú aṣálẹ̀",
+          "yìnyín àti omi dídì",
+          "Òkun àti agbami bo ju ìdá méjì nínú mẹ́ta ayé lọ. Ìdí nìyẹn tí ayé fi ń hàn bí búlúù láti òfuurufú."
+        ],
+        [
+          "Báwo ni omi òkun ṣe rí lẹ́nu?",
+          "ó ní iyọ̀",
+          "ó dùn bí oje èso",
+          "ó ń ta bí omi onísuga",
+          "Iyọ̀ pọ̀ nínú omi òkun, nítorí náà ó ní iyọ̀ lẹ́nu. A kò lè mu ún láti ní ìlera."
+        ],
+        [
+          "Kí ni a ń pe ibi omi oníyọ̀ tó tóbi gan-an?",
+          "agbami òkun",
+          "adágún omi kékeré",
+          "omi ọ̀gbàrá",
+          "Agbami òkun tóbi, ó sì jìn gan-an. Agbami Pàsífíìkì ló tóbi jù láyé. Adágún kékeré àti omi ọ̀gbàrá kéré."
+        ],
+        [
+          "Ibo ni ọ̀pọ̀ jùlọ odò máa ń parí sí?",
+          "sínú òkun",
+          "lórí òkè gíga",
+          "lójú ọ̀run",
+          "Odò ń bẹ̀rẹ̀ lórí òkè kékeré tàbí òkè ńlá, ó sì ń ṣàn lọ sísàlẹ̀ títí yóò fi dé òkun."
+        ],
+        [
+          "Ọ̀nà wo ni omi odò ń ṣàn sí?",
+          "sísàlẹ̀ gẹ̀rẹ́gẹ̀rẹ́",
+          "sókè òkè",
+          "yíká bí òrùka",
+          "Omi máa ń ṣàn sísàlẹ̀ ní gbogbo ìgbà. Ìdí nìyẹn tí odò fi ń ṣàn láti ilẹ̀ gíga lọ sí òkun."
+        ],
+        [
+          "Àwọn odò kékeré ń pàdé ara wọn. Kí ni wọ́n máa dà?",
+          "odò ńlá",
+          "òkè ńlá",
+          "aṣálẹ̀",
+          "Omi òjò ń ṣàn sínú àwọn odò kékeré. Wọ́n ń pàdé ara wọn, wọ́n sì ń di odò tó tóbi jù."
+        ],
+        [
+          "Kí ni a ń pe orí òkè ńlá pátápátá?",
+          "ṣóńṣó òkè",
+          "àfonífojì",
+          "etí òkun",
+          "Ṣóńṣó òkè ni ibi tó ga jù lórí òkè. Àfonífojì ni ilẹ̀ tó wà nísàlẹ̀ láàárín àwọn òkè."
+        ],
+        [
+          "Kí ló dé tí yìnyín fi máa ń wà lórí àwọn òkè gíga?",
+          "òtútù pọ̀ sí i lókè",
+          "oòrùn gbóná jù lókè",
+          "yìnyín ń hù jáde láti inú àpáta",
+          "Bí o ṣe ń gòkè sí i, ni afẹ́fẹ́ ṣe ń tutù sí i. Orí àwọn òkè gíga lè tutù débi pé yìnyín máa wà níbẹ̀ ní gbogbo ọdún."
+        ],
+        [
+          "Kí ni aṣálẹ̀?",
+          "ibi tó gbẹ gan-an tí òjò kì í rọ̀ púpọ̀",
+          "igbó tó tutù tí odò kún inú rẹ̀",
+          "òkun tó ti dì",
+          "Òjò kì í fi bẹ́ẹ̀ rọ̀ nínú aṣálẹ̀. Àwọn aṣálẹ̀ kan gbóná, iyanrìn sì pọ̀ níbẹ̀, àwọn mìíràn tutù, àpáta sì pọ̀ níbẹ̀."
+        ],
+        [
+          "Kí ni wọ́n fi ṣe iyanrìn?",
+          "ẹ̀rúnrún àpáta àti ìkarahun tó ti fọ́",
+          "ṣúgà",
+          "yìnyín",
+          "Fún ìgbà pípẹ́ gan-an, ìgbì omi àti atẹ́gùn ń fọ́ àpáta àti ìkarahun sí wẹ́wẹ́. Àwọn ẹ̀rúnrún kéékèèké yìí ni iyanrìn."
+        ],
+        [
+          "Kí ló ń mú òkúta wẹ́wẹ́ etí òkun dán, tí ó sì ń mú wọn rí rubutu?",
+          "ìgbì omi ń fi wọ́n ha ara wọn fún ọ̀pọ̀ ọdún",
+          "àwọn ènìyàn ń dán wọn lóru",
+          "ẹja ń lá wọn",
+          "Ìgbì omi ń yí àwọn òkúta náà mọ́ ara wọn léraléra. Díẹ̀díẹ̀, etí wọn tó mú máa ń kúrò."
+        ],
+        [
+          "Kí ni wọ́n fi ṣe erùpẹ̀ ilẹ̀?",
+          "ẹ̀rúnrún àpáta tí wọ́n pò mọ́ ewé jíjẹrà, omi àti afẹ́fẹ́",
+          "ṣúgà àti ìyẹ̀fun",
+          "pílásítíìkì àti díńgí",
+          "Erùpẹ̀ jẹ́ àdàpọ̀ ẹ̀rúnrún àpáta, ewéko tó ti kú tó sì jẹrà, omi àti afẹ́fẹ́. Gbòǹgbò ewéko ń hù nínú rẹ̀."
+        ],
+        [
+          "Ẹranko kékeré wo ló ń jẹ́ kí erùpẹ̀ dára nípa pípò ó?",
+          "ekòló",
+          "ẹja yanmìyanmì",
+          "pẹ́ńgúìn",
+          "Ekòló ń gbẹ́ ihò tó ń jẹ́ kí afẹ́fẹ́ àti omi wọnú erùpẹ̀, ó sì ń pò ewé tó ti kú mọ́ ọn."
+        ],
+        [
+          "Kí ni fọ́sìlì?",
+          "ìrísí ewéko tàbí ẹranko ayé àtijọ́ tó wà nínú àpáta",
+          "oríṣi súìtì tuntun",
+          "ìkùukùu tó rí bí ẹranko",
+          "Nígbà tí ewéko tàbí ẹranko bá kú láyé àtijọ́, ẹrẹ̀ máa ń bò ó nígbà mìíràn. Lẹ́yìn ọ̀pọ̀ mílíọ̀nù ọdún, ìrísí rẹ̀ máa wà nínú àpáta."
+        ],
+        [
+          "Òjò rọ̀ sórí pápá oníkoríko. Ibo ni èyí tó pọ̀ jù nínú omi náà ń lọ?",
+          "ó ń wọnú erùpẹ̀ ilẹ̀",
+          "ó ń fò lọ sí òṣùpá",
+          "ó ń di àpáta",
+          "Erùpẹ̀ kún fún àlàfo kéékèèké. Omi òjò ń wọnú wọn, gbòǹgbò ewéko sì lè mu ún."
+        ],
+        [
+          "Ibo ni omi òjò tó wà lójú títì ń lọ?",
+          "sínú ihò ọ̀gbàrá lẹ́gbẹ̀ẹ́ ọ̀nà",
+          "sínú ẹ̀rọ mọ́tò",
+          "sókè sínú igi",
+          "Ihò ọ̀gbàrá wà lẹ́gbẹ̀ẹ́ títì. Omi òjò ń ṣàn wọ inú wọn, ó sì ń gba inú páìpù lọ, sí odò àti òkun lọ́pọ̀ ìgbà."
+        ],
+        [
+          "Kí ló máa ń ṣẹlẹ̀ sí omi ọ̀gbàrá ní ọjọ́ tí oòrùn mú?",
+          "omi náà ń gbẹ lọ sínú afẹ́fẹ́",
+          "ó ń di òkúta",
+          "ó ń jìn sí i",
+          "Oòrùn ń mú omi gbóná. Díẹ̀díẹ̀, ó máa di èéfín omi tí a kò lè rí, ó sì máa gòkè lọ sínú afẹ́fẹ́."
+        ],
+        [
+          "Omi ń yípo láti inú òkun lọ sí ìkùukùu, ó sì ń padà wá. Kí ló ń mú omi òkun gbóná kí ó lè gòkè lọ sínú afẹ́fẹ́?",
+          "oòrùn",
+          "òṣùpá",
+          "ẹja",
+          "Oòrùn ń mú òkun gbóná, omi díẹ̀ sì ń gòkè bí èéfín omi tí a kò lè rí. Ó ń di ìkùukùu, ó ń rọ̀ bí òjò, ó sì ń ṣàn padà sí òkun."
+        ],
+        [
+          "Kí ni adágún omi ńlá?",
+          "ibi omi ńlá tí ilẹ̀ yí ká",
+          "òkè gíga tó dàgẹ̀rẹ̀",
+          "ibi gbígbẹ tí iyanrìn pọ̀ sí",
+          "Adágún omi ńlá jẹ́ omi púpọ̀ tí ilẹ̀ yí ká. Omi inú ọ̀pọ̀ jùlọ adágún kì í ṣe omi oníyọ̀."
+        ],
+        [
+          "Kí ni erékùṣù?",
+          "ilẹ̀ tí omi yí ká",
+          "omi tí ilẹ̀ yí ká",
+          "òkè tí wọ́n fi yìnyín ṣe",
+          "Erékùṣù jẹ́ ilẹ̀ kan nínú òkun tàbí nínú adágún omi, tí omi wà ní gbogbo ẹ̀gbẹ́ rẹ̀."
+        ],
+        [
+          "Ibo ni ilẹ̀ ti tutù gan-an, tí yìnyín sì bò ó ní gbogbo ọdún?",
+          "nítòsí Ìpẹ̀kun Àríwá àti Ìpẹ̀kun Gúúsù",
+          "nínú aṣálẹ̀ tó gbóná",
+          "ní etí òkun tí oòrùn mú",
+          "Ìpẹ̀kun Àríwá àti Ìpẹ̀kun Gúúsù kì í rí ooru oòrùn púpọ̀, nítorí náà yìnyín máa ń wà níbẹ̀ ní gbogbo ọdún."
+        ],
+        [
+          "Kí ni àtúnlò túmọ̀ sí?",
+          "sísọ àwọn nǹkan àtijọ́ di nǹkan tuntun",
+          "jíju ìdọ̀tí sínú òkun",
+          "rírì ohun ìṣeré mọ́lẹ̀ nínú ọgbà",
+          "Nígbà tí a bá ń ṣe àtúnlò, a ń kó ìgò, agolo àti bébà àtijọ́ jọ, wọ́n sì ń sọ wọ́n di nǹkan tuntun dípò kí a jù wọ́n nù."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni a lè tún lò láti ṣe nǹkan tuntun?",
+          "agolo ohun mímu tó ṣófo",
+          "òjìji",
+          "ìtànṣán oòrùn",
+          "Wọ́n lè yọ́ agolo irin ohun mímu, kí wọ́n sì tún un ṣe di agolo tuntun léraléra."
+        ],
+        [
+          "Wọ́n ń ṣe àtúnlò ìwé ìròyìn àtijọ́. Kí ni wọ́n máa dà?",
+          "bébà tuntun",
+          "díńgí tuntun",
+          "irin tuntun",
+          "Wọ́n ń rẹ bébà àtijọ́ sínú omi, wọ́n ń gún un, wọ́n sì ń tẹ̀ ẹ́ pẹlẹbẹ láti ṣe bébà tuntun, nítorí náà wọn kò ní gé igi púpọ̀."
+        ],
+        [
+          "Kí ni a lè kó sórí òkìtì ajílẹ̀?",
+          "èèpo èso àti ẹ̀fọ́",
+          "ìgò díńgí",
+          "agolo irin",
+          "Èèpo èso àti ewé àtijọ́ ń jẹrà lórí òkìtì ajílẹ̀. Lẹ́yìn oṣù díẹ̀, wọ́n máa di erùpẹ̀ ọlọ́ràá fún ọgbà."
+        ],
+        [
+          "Kí ló dé tí a kò fi gbọ́dọ̀ ju ìdọ̀tí sílẹ̀ rárá?",
+          "ó lè ṣe ẹranko léṣe, ó sì ń dọ̀tí ibi gbogbo",
+          "ó ń ran òdòdó lọ́wọ́ láti hù",
+          "ó ń mú ilẹ̀ mọ́ sí i",
+          "Ìdọ̀tí lè ṣe ẹranko léṣe, bí ìjàpá inú òkun, ó sì ń ba ọgbà ìṣeré àti etí òkun jẹ́. Jù ú sínú àpótí ìdọ̀tí."
+        ],
+        [
+          "Èwo ni ọ̀nà tó dára láti ṣọ́ omi lò?",
+          "pa ẹ̀rọ omi nígbà tí o bá ń fọ eyín",
+          "jẹ́ kí ẹ̀rọ omi máa ṣàn láti àárọ̀ di alẹ́",
+          "pọn omi kún inú agbada ìwẹ̀ lẹ́ẹ̀mejì lójúmọ́",
+          "Omi mímọ́ ṣe iyebíye. Pípa ẹ̀rọ omi nígbà tí o bá ń fọ eyín ń dá omi púpọ̀ sí lójoojúmọ́."
+        ],
+        [
+          "Báwo lo ṣe lè ṣọ́ agbára iná lò nílé?",
+          "pa iná nígbà tí o bá ń jáde nínú yàrá",
+          "fi tẹlifíṣọ̀n sílẹ̀ ní títàn ní gbogbo òru",
+          "ṣí ilẹ̀kùn fìríìjì sílẹ̀ gbagada",
+          "Ṣíṣe iná mànàmáná ń lo àwọn ohun àlùmọ́nì ayé. Pípa àwọn nǹkan tí o kò lò ń ṣọ́ agbára iná."
+        ],
+        [
+          "Kí ló dé tí gbígbin igi fi dára fún ayé?",
+          "igi ń fún ẹranko ní ibùgbé, ó sì ń ràn wá lọ́wọ́ láti mú afẹ́fẹ́ mọ́",
+          "igi ń mú omi òkun ní iyọ̀",
+          "igi ń dá òjò dúró",
+          "Igi ń fa èéfín kan tó ń mú ayé gbóná kúrò nínú afẹ́fẹ́, ó sì ń tú afẹ́fẹ́ ọ́síjìn tí à ń mí jáde. Ẹyẹ àti kòkòrò ń gbé inú rẹ̀ pẹ̀lú."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló jẹ́ ti àdáyébá, tí ènìyàn kò ṣe?",
+          "òkè ńlá",
+          "ojú ọ̀nà",
+          "afárá",
+          "Ayé fúnra rẹ̀ ló ṣe àwọn òkè ńlá fún ọ̀pọ̀ mílíọ̀nù ọdún. Ènìyàn ló ń kọ́ ojú ọ̀nà àti afárá."
+        ]
+      ]
+    }
+  },
+  "emoji": "globe",
+  "example": {
+    "i": 0,
+    "q_en": "What covers most of the Earth?",
+    "answer_en": "water in seas and oceans",
+    "why_en": "Seas and oceans cover more than two thirds of the Earth. That is why the Earth looks blue from space.",
+    "q_de": "Was bedeckt den größten Teil der Erde?",
+    "answer_de": "Wasser in Meeren und Ozeanen",
+    "why_de": "Meere und Ozeane bedecken mehr als zwei Drittel der Erde. Darum sieht die Erde aus dem Weltall blau aus.",
+    "q_fr": "Qu’est-ce qui recouvre la plus grande partie de la Terre ?",
+    "answer_fr": "l’eau des mers et des océans",
+    "why_fr": "Les mers et les océans recouvrent plus des deux tiers de la Terre. C’est pour cela qu’elle paraît bleue vue de l’espace.",
+    "q_yo": "Kí ló bo èyí tó pọ̀ jù lára ayé?",
+    "answer_yo": "omi inú òkun àti agbami",
+    "why_yo": "Òkun àti agbami bo ju ìdá méjì nínú mẹ́ta ayé lọ. Ìdí nìyẹn tí ayé fi ń hàn bí búlúù láti òfuurufú."
+  },
+  "text": {
+    "en": {
+      "title": "Our Earth",
+      "teach": "The Earth has land and sea, rivers, mountains, rocks, soil and sand. Rain soaks into the soil or runs in rivers back to the sea. We look after the Earth by saving water and energy and by recycling.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Unsere Erde",
+      "teach": "Die Erde hat Land und Meer, Flüsse, Berge, Gestein, Erde und Sand. Regen versickert im Boden oder fließt in Flüssen zurück ins Meer. Wir schützen die Erde, wenn wir Wasser und Energie sparen und recyceln.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Notre Terre",
+      "teach": "La Terre a des terres et des mers, des rivières, des montagnes, des roches, de la terre et du sable. La pluie s’infiltre dans le sol ou rejoint la mer par les rivières. Nous protégeons la Terre en économisant l’eau et l’énergie et en recyclant.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ayé wa",
+      "teach": "Ayé ní ilẹ̀ àti òkun, odò, òkè, àpáta, erùpẹ̀ àti iyanrìn. Omi òjò ń wọnú erùpẹ̀ tàbí kí ó ṣàn gba inú odò padà sí òkun. A ń tọ́jú ayé nípa ṣíṣọ́ omi àti agbára iná lò, àti nípa àtúnlò.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

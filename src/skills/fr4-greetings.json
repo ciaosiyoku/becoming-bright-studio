@@ -1,0 +1,274 @@
+{
+  "id": "fr4-greetings",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 1,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "sun",
+      "speech",
+      "house",
+      "letters",
+      "gift",
+      "speech",
+      "star",
+      "warning",
+      "letters",
+      "speech",
+      "cookie",
+      "letters",
+      "moon",
+      "speech",
+      "glowstar",
+      "letters",
+      "girl",
+      "speech",
+      "speech",
+      "letters",
+      "gift",
+      "speech",
+      "teddy",
+      "letters",
+      "cake",
+      "bus",
+      "school",
+      "cocoa",
+      "girl",
+      "heart"
+    ],
+    "bank": {
+      "en": [
+        [
+          "How do you say ‘hello’ in French?",
+          "bonjour",
+          "merci",
+          "non",
+          "‘Hello’ in French is ‘bonjour’. You can say it to anyone in the daytime."
+        ],
+        [
+          "What does ‘bonjour’ mean?",
+          "hello",
+          "thank you",
+          "goodbye",
+          "‘Bonjour’ means hello."
+        ],
+        [
+          "How do you say ‘goodbye’ in French?",
+          "au revoir",
+          "bonjour",
+          "oui",
+          "‘Goodbye’ in French is ‘au revoir’. We say it when we leave."
+        ],
+        [
+          "What does ‘au revoir’ mean?",
+          "goodbye",
+          "hello",
+          "please",
+          "‘Au revoir’ means goodbye."
+        ],
+        [
+          "How do you say ‘thank you’ in French?",
+          "merci",
+          "salut",
+          "non",
+          "‘Thank you’ in French is ‘merci’. Say it when someone gives you something."
+        ],
+        [
+          "What does ‘merci’ mean?",
+          "thank you",
+          "sorry",
+          "yes",
+          "‘Merci’ means thank you."
+        ],
+        [
+          "How do you say ‘yes’ in French?",
+          "oui",
+          "non",
+          "merci",
+          "‘Yes’ in French is ‘oui’."
+        ],
+        [
+          "How do you say ‘no’ in French?",
+          "non",
+          "oui",
+          "bonjour",
+          "‘No’ in French is ‘non’."
+        ],
+        [
+          "What does ‘oui’ mean?",
+          "yes",
+          "no",
+          "hello",
+          "‘Oui’ means yes."
+        ],
+        [
+          "What does ‘non’ mean?",
+          "no",
+          "yes",
+          "thank you",
+          "‘Non’ means no."
+        ],
+        [
+          "How do you say ‘please’ to a friend in French?",
+          "s’il te plaît",
+          "au revoir",
+          "bonsoir",
+          "To a friend, ‘please’ is ‘s’il te plaît’."
+        ],
+        [
+          "What does ‘s’il te plaît’ mean?",
+          "please",
+          "goodbye",
+          "good night",
+          "‘S’il te plaît’ means please."
+        ],
+        [
+          "What do you say at bedtime in French?",
+          "bonne nuit",
+          "bonjour",
+          "merci",
+          "‘Bonne nuit’ means good night. We say it before we go to sleep."
+        ],
+        [
+          "What does ‘bonne nuit’ mean?",
+          "good night",
+          "good morning",
+          "thank you",
+          "‘Bonne nuit’ means good night."
+        ],
+        [
+          "How do you say ‘good evening’ in French?",
+          "bonsoir",
+          "merci",
+          "oui",
+          "‘Good evening’ in French is ‘bonsoir’. ‘Soir’ means evening."
+        ],
+        [
+          "What does ‘bonsoir’ mean?",
+          "good evening",
+          "goodbye",
+          "please",
+          "‘Bonsoir’ means good evening."
+        ],
+        [
+          "How do you say ‘my name is’ in French?",
+          "je m’appelle",
+          "ça va",
+          "merci",
+          "‘My name is’ in French is ‘je m’appelle’. You can say: Je m’appelle Léa."
+        ],
+        [
+          "What does ‘je m’appelle’ mean?",
+          "my name is",
+          "I like",
+          "goodbye",
+          "‘Je m’appelle’ means my name is."
+        ],
+        [
+          "How do you ask ‘How are you?’ in French?",
+          "Ça va ?",
+          "Merci !",
+          "Au revoir !",
+          "‘Ça va ?’ asks how someone is. The answer can be ‘Ça va bien !’"
+        ],
+        [
+          "What does ‘ça va bien’ mean?",
+          "I am fine",
+          "I am hungry",
+          "good night",
+          "‘Ça va bien’ means I am fine."
+        ],
+        [
+          "How do you say ‘you’re welcome’ in French?",
+          "de rien",
+          "bonjour",
+          "oui",
+          "‘You’re welcome’ in French is ‘de rien’. Someone says ‘merci’, and you answer ‘de rien’."
+        ],
+        [
+          "What does ‘de rien’ mean?",
+          "you’re welcome",
+          "hello",
+          "no",
+          "‘De rien’ means you’re welcome."
+        ],
+        [
+          "How do you say ‘sorry’ in French?",
+          "pardon",
+          "merci",
+          "salut",
+          "‘Sorry’ in French is ‘pardon’. Say it if you bump into someone."
+        ],
+        [
+          "What does ‘pardon’ mean?",
+          "sorry",
+          "please",
+          "yes",
+          "‘Pardon’ means sorry."
+        ],
+        [
+          "What do you say on someone’s birthday in French?",
+          "joyeux anniversaire",
+          "bonne nuit",
+          "au revoir",
+          "‘Joyeux anniversaire’ means happy birthday."
+        ],
+        [
+          "What does ‘à bientôt’ mean?",
+          "see you soon",
+          "good morning",
+          "thank you",
+          "‘À bientôt’ means see you soon."
+        ],
+        [
+          "How do you say ‘hi’ to a friend in French?",
+          "salut",
+          "merci",
+          "non",
+          "‘Salut’ is a friendly way to say hi."
+        ],
+        [
+          "What do French people say before they eat?",
+          "bon appétit",
+          "bonne nuit",
+          "au revoir",
+          "‘Bon appétit’ means enjoy your meal."
+        ],
+        [
+          "How do you say hello politely to a lady in French?",
+          "bonjour, madame",
+          "bonjour, monsieur",
+          "bonne nuit, papa",
+          "‘Madame’ is a polite word for a lady. ‘Monsieur’ is for a man."
+        ],
+        [
+          "How do you say ‘thank you very much’ in French?",
+          "merci beaucoup",
+          "bonne nuit",
+          "au revoir",
+          "‘Thank you very much’ in French is ‘merci beaucoup’. ‘Beaucoup’ means a lot."
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "i": 0,
+    "q_en": "How do you say ‘hello’ in French?",
+    "answer_en": "bonjour",
+    "why_en": "‘Hello’ in French is ‘bonjour’. You can say it to anyone in the daytime."
+  },
+  "text": {
+    "en": {
+      "title": "Hello in French",
+      "teach": "French people say ‘bonjour’ for hello, ‘au revoir’ for goodbye and ‘merci’ for thank you. Try it: Bonjour, Maman !",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

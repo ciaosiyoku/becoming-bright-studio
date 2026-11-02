@@ -1,0 +1,274 @@
+{
+  "id": "fr8-numbers",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 3,
+  "ages": [
+    "8-9"
+  ],
+  "order": 21,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "abacus",
+      "star",
+      "books",
+      "bus",
+      "calendar",
+      "chart",
+      "abacus",
+      "trophy",
+      "medal",
+      "glowstar",
+      "books",
+      "chart",
+      "trophy",
+      "abacus",
+      "calendar",
+      "speech",
+      "star",
+      "medal",
+      "cake",
+      "bus",
+      "abacus",
+      "fruit-apple",
+      "chart",
+      "footprints",
+      "footprints",
+      "trophy",
+      "animal-snail",
+      "cake",
+      "minibus",
+      "abacus"
+    ],
+    "bank": {
+      "en": [
+        [
+          "How do you say 21 in French?",
+          "vingt et un",
+          "vingt-deux",
+          "douze",
+          "21 is twenty and one: vingt et un."
+        ],
+        [
+          "How do you say 30 in French?",
+          "trente",
+          "treize",
+          "trois",
+          "Trente is 30. Treize is 13 and trois is 3."
+        ],
+        [
+          "How do you say 40 in French?",
+          "quarante",
+          "quatorze",
+          "quatre",
+          "Quarante is 40. Quatorze is 14 and quatre is 4."
+        ],
+        [
+          "How do you say 50 in French?",
+          "cinquante",
+          "quinze",
+          "cinq",
+          "Cinquante is 50. Quinze is 15 and cinq is 5."
+        ],
+        [
+          "How do you say 60 in French?",
+          "soixante",
+          "seize",
+          "six",
+          "Soixante is 60. Seize is 16 and six is 6."
+        ],
+        [
+          "How do you say 70 in French?",
+          "soixante-dix",
+          "dix-sept",
+          "sept",
+          "The French say 70 as sixty-ten: soixante-dix."
+        ],
+        [
+          "How do you say 80 in French?",
+          "quatre-vingts",
+          "dix-huit",
+          "huit",
+          "80 is four twenties: quatre-vingts."
+        ],
+        [
+          "How do you say 90 in French?",
+          "quatre-vingt-dix",
+          "dix-neuf",
+          "neuf",
+          "90 is four twenties plus ten: quatre-vingt-dix."
+        ],
+        [
+          "How do you say 100 in French?",
+          "cent",
+          "mille",
+          "dix",
+          "Cent is 100. Mille is 1,000 and dix is 10."
+        ],
+        [
+          "What number is trente-cinq?",
+          "35",
+          "53",
+          "25",
+          "Trente is 30 and cinq is 5, so trente-cinq is 35."
+        ],
+        [
+          "What number is quarante-huit?",
+          "48",
+          "84",
+          "28",
+          "Quarante is 40 and huit is 8, so it is 48."
+        ],
+        [
+          "What number is soixante-douze?",
+          "72",
+          "62",
+          "12",
+          "Soixante-douze is sixty plus twelve, which makes 72."
+        ],
+        [
+          "What number is quatre-vingt-quinze?",
+          "95",
+          "85",
+          "45",
+          "Four twenties make 80, and 80 plus fifteen is 95."
+        ],
+        [
+          "What number is soixante et onze?",
+          "71",
+          "61",
+          "11",
+          "Sixty plus eleven makes 71."
+        ],
+        [
+          "What number is quatre-vingt-un?",
+          "81",
+          "41",
+          "91",
+          "Four twenties make 80, plus one is 81."
+        ],
+        [
+          "Which number is said with et in French?",
+          "41",
+          "42",
+          "48",
+          "Numbers ending in 1 from 21 to 71 use et, like quarante et un."
+        ],
+        [
+          "How do you say 77 in French?",
+          "soixante-dix-sept",
+          "soixante-sept",
+          "sept-sept",
+          "77 is sixty plus seventeen: soixante-dix-sept."
+        ],
+        [
+          "How do you say 99 in French?",
+          "quatre-vingt-dix-neuf",
+          "quatre-vingt-neuf",
+          "neuf-neuf",
+          "99 is eighty plus nineteen: quatre-vingt-dix-neuf."
+        ],
+        [
+          "How do you say 66 in French?",
+          "soixante-six",
+          "soixante-seize",
+          "six-six",
+          "66 is sixty plus six: soixante-six. Soixante-seize is 76."
+        ],
+        [
+          "How do you say 55 in French?",
+          "cinquante-cinq",
+          "cinquante-quinze",
+          "quinze-cinq",
+          "Cinquante is 50 and cinq is 5, so 55 is cinquante-cinq."
+        ],
+        [
+          "What is dix + vingt?",
+          "trente",
+          "douze",
+          "vingt-dix",
+          "10 + 20 = 30, and 30 is trente."
+        ],
+        [
+          "What is cinquante + cinquante?",
+          "cent",
+          "dix",
+          "cinq cents",
+          "50 + 50 = 100, and 100 is cent."
+        ],
+        [
+          "What is quarante - dix?",
+          "trente",
+          "cinquante",
+          "quatorze",
+          "40 - 10 = 30, and 30 is trente."
+        ],
+        [
+          "What comes after soixante-neuf?",
+          "soixante-dix",
+          "soixante-huit",
+          "soixante-dix-neuf",
+          "After 69 comes 70, soixante-dix."
+        ],
+        [
+          "What comes just before quatre-vingts?",
+          "soixante-dix-neuf",
+          "quatre-vingt-un",
+          "soixante-neuf",
+          "The number before 80 is 79, soixante-dix-neuf."
+        ],
+        [
+          "Which number is the biggest?",
+          "quatre-vingt-dix",
+          "soixante-dix",
+          "quatre-vingts",
+          "Quatre-vingt-dix is 90. The others are 70 and 80."
+        ],
+        [
+          "Which number is the smallest?",
+          "seize",
+          "soixante",
+          "soixante-six",
+          "Seize is 16. The others are 60 and 66."
+        ],
+        [
+          "Grandpa is 64. How do you say his age?",
+          "soixante-quatre",
+          "quarante-six",
+          "quatre-soixante",
+          "64 is sixty plus four: soixante-quatre."
+        ],
+        [
+          "A bus has 52 seats. How do you say 52?",
+          "cinquante-deux",
+          "vingt-cinq",
+          "quinze-deux",
+          "Cinquante is 50 and deux is 2, so 52 is cinquante-deux."
+        ],
+        [
+          "Count in tens: dix, vingt, trente, ___",
+          "quarante",
+          "cinquante",
+          "quatorze",
+          "After 30 comes 40 when you count in tens, and 40 is quarante."
+        ]
+      ]
+    }
+  },
+  "emoji": "abacus",
+  "example": {
+    "i": 0,
+    "q_en": "How do you say 21 in French?",
+    "answer_en": "vingt et un",
+    "why_en": "21 is twenty and one: vingt et un."
+  },
+  "text": {
+    "en": {
+      "title": "French numbers to 100",
+      "teach": "From 70 the French count in a special way: 70 is sixty-ten (soixante-dix) and 80 is four twenties (quatre-vingts). So 75 is soixante-quinze.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

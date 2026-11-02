@@ -1,0 +1,274 @@
+{
+  "id": "fr8-places",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 3,
+  "ages": [
+    "8-9"
+  ],
+  "order": 28,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "paws",
+      "paws",
+      "palette",
+      "minibus",
+      "seedling",
+      "map",
+      "speech",
+      "speech",
+      "speech",
+      "speech",
+      "speech",
+      "speech",
+      "droplet",
+      "animal-parrot",
+      "books",
+      "animal-rabbit",
+      "school",
+      "tree",
+      "memo",
+      "light",
+      "paws",
+      "puzzle",
+      "puzzle",
+      "gift",
+      "key",
+      "snowman",
+      "animal-mouse",
+      "teddy",
+      "backpack",
+      "star"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Le chat est ___ la table. (on)",
+          "sur",
+          "sous",
+          "dans",
+          "Sur means on."
+        ],
+        [
+          "Le chien est ___ le lit. (under)",
+          "sous",
+          "sur",
+          "devant",
+          "Sous means under."
+        ],
+        [
+          "Les crayons sont ___ la trousse. (in)",
+          "dans",
+          "sur",
+          "derrière",
+          "Dans means in or inside."
+        ],
+        [
+          "La voiture est ___ la maison. (in front of)",
+          "devant",
+          "derrière",
+          "sous",
+          "Devant means in front of."
+        ],
+        [
+          "Le jardin est ___ la maison. (behind)",
+          "derrière",
+          "devant",
+          "dans",
+          "Derrière means behind."
+        ],
+        [
+          "La banque est ___ la poste. (next to)",
+          "à côté de",
+          "sous",
+          "dans",
+          "À côté de means next to."
+        ],
+        [
+          "What does sur mean?",
+          "on",
+          "under",
+          "in",
+          "Sur means on, like a cup on a table."
+        ],
+        [
+          "What does sous mean?",
+          "under",
+          "on",
+          "behind",
+          "Sous means under."
+        ],
+        [
+          "What does dans mean?",
+          "in",
+          "next to",
+          "in front of",
+          "Dans means in or inside."
+        ],
+        [
+          "What does devant mean?",
+          "in front of",
+          "behind",
+          "under",
+          "Devant means in front of."
+        ],
+        [
+          "What does derrière mean?",
+          "behind",
+          "in front of",
+          "on",
+          "Derrière means behind."
+        ],
+        [
+          "What does à côté de mean?",
+          "next to",
+          "on top of",
+          "inside",
+          "À côté de means next to, at the side of."
+        ],
+        [
+          "Le poisson est dans l’eau. Where is the fish?",
+          "in the water",
+          "on the water",
+          "next to the water",
+          "Dans means in, so the fish is in the water."
+        ],
+        [
+          "L’oiseau est sur le toit. Where is the bird?",
+          "on the roof",
+          "under the roof",
+          "behind the roof",
+          "Sur means on, so the bird is on the roof."
+        ],
+        [
+          "Le livre est sous le lit. Where is the book?",
+          "under the bed",
+          "on the bed",
+          "next to the bed",
+          "Sous means under."
+        ],
+        [
+          "Le lapin est derrière l’arbre. Where is the rabbit?",
+          "behind the tree",
+          "in front of the tree",
+          "in the tree",
+          "Derrière means behind."
+        ],
+        [
+          "Le vélo est devant l’école. Where is the bike?",
+          "in front of the school",
+          "behind the school",
+          "inside the school",
+          "Devant means in front of."
+        ],
+        [
+          "J’habite à côté du parc. Where do I live?",
+          "next to the park",
+          "in the park",
+          "behind the park",
+          "À côté de means next to."
+        ],
+        [
+          "à côté de + le becomes...",
+          "à côté du",
+          "à côté de le",
+          "à côté des",
+          "De and le join together to make du."
+        ],
+        [
+          "La lampe est à côté ___ lit.",
+          "du",
+          "de le",
+          "de la",
+          "Lit is masculine, so de + le becomes du."
+        ],
+        [
+          "Le chat est à côté ___ fenêtre.",
+          "de la",
+          "du",
+          "de le",
+          "Fenêtre is feminine, so we keep de la."
+        ],
+        [
+          "What is the opposite of sur?",
+          "sous",
+          "dans",
+          "devant",
+          "Sur is on and sous is under."
+        ],
+        [
+          "What is the opposite of devant?",
+          "derrière",
+          "sur",
+          "à côté de",
+          "Devant is in front of and derrière is behind."
+        ],
+        [
+          "The ball is in the box. La balle est ___ la boîte.",
+          "dans",
+          "sur",
+          "sous",
+          "In is dans."
+        ],
+        [
+          "The keys are on the table. Les clés sont ___ la table.",
+          "sur",
+          "sous",
+          "dans",
+          "On is sur."
+        ],
+        [
+          "The snowman is in front of the house. Le bonhomme de neige est ___ la maison.",
+          "devant",
+          "derrière",
+          "dans",
+          "In front of is devant."
+        ],
+        [
+          "The mouse is behind the sofa. La souris est ___ le canapé.",
+          "derrière",
+          "devant",
+          "sur",
+          "Behind is derrière."
+        ],
+        [
+          "L’ours en peluche est sous la chaise. Where is the teddy?",
+          "under the chair",
+          "on the chair",
+          "behind the chair",
+          "Sous means under."
+        ],
+        [
+          "Mon sac est à côté de la porte. Where is my bag?",
+          "next to the door",
+          "behind the door",
+          "on the door",
+          "À côté de means next to."
+        ],
+        [
+          "Les étoiles sont dans le ciel. Where are the stars?",
+          "in the sky",
+          "under the sky",
+          "behind the sky",
+          "Dans means in."
+        ]
+      ]
+    }
+  },
+  "emoji": "house",
+  "example": {
+    "i": 0,
+    "q_en": "Le chat est ___ la table. (on)",
+    "answer_en": "sur",
+    "why_en": "Sur means on."
+  },
+  "text": {
+    "en": {
+      "title": "Where is it? Prepositions",
+      "teach": "Little words tell us where things are: sur (on), sous (under), dans (in), devant (in front of), derrière (behind), à côté de (next to). Le chat est sur la table.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

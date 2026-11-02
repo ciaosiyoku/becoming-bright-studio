@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "science",
   "stage": 2,
+  "ages": [
+    "6-7"
+  ],
   "order": 5,
   "params": {
     "emojis": [
@@ -15,7 +18,27 @@
       "moon",
       "fruit-apple",
       "tree",
-      "animal-butterfly"
+      "animal-butterfly",
+      "seedling",
+      "droplet",
+      "seedling",
+      "sun",
+      "snow",
+      "tree",
+      "gloves",
+      "fruit-strawberry",
+      "cloud",
+      "animal-parrot",
+      "fruit-coconut",
+      "sun-small-cloud",
+      "desert",
+      "palette",
+      "animal-chipmunk",
+      "house",
+      "fruit-peach",
+      "cookie",
+      "wave",
+      "tree"
     ],
     "bank": {
       "en": [
@@ -88,6 +111,146 @@
           "to scare away the rain",
           "to keep the plant warm",
           "Bright colours and sweet smells bring insects to the flower. The insects carry pollen to other flowers."
+        ],
+        [
+          "Which of these is a seed?",
+          "a bean",
+          "a pebble",
+          "a button",
+          "A bean is a seed. Plant it in damp soil and a new bean plant will grow from it."
+        ],
+        [
+          "What does a seed need to start growing?",
+          "water and warmth",
+          "sweets and juice",
+          "loud music",
+          "When a seed is wet and warm, it wakes up. A tiny root and shoot start to grow out of it."
+        ],
+        [
+          "Which way do roots grow?",
+          "down into the soil",
+          "up towards the sky",
+          "out of the flowers",
+          "Roots grow down into the soil to find water and to hold the plant firmly in place."
+        ],
+        [
+          "Which way does a young shoot grow?",
+          "up towards the light",
+          "down into the soil",
+          "into the bottom of the pot",
+          "The shoot grows up out of the soil towards the light, so its leaves can catch sunlight."
+        ],
+        [
+          "Which tree keeps its green leaves all winter?",
+          "a pine tree",
+          "an oak tree",
+          "an apple tree",
+          "A pine tree is evergreen: its thin, needle-like leaves stay green all year. Oak and apple trees lose their leaves in autumn."
+        ],
+        [
+          "What happens to the leaves of many trees in autumn?",
+          "they change colour and fall off",
+          "they turn into flowers",
+          "they turn bright blue",
+          "In autumn many leaves turn yellow, red or brown and drop to the ground. New leaves grow in spring."
+        ],
+        [
+          "When we eat a carrot, which part of the plant are we eating?",
+          "the root",
+          "the flower",
+          "the seed",
+          "A carrot is a thick root. It stores food for the plant under the ground."
+        ],
+        [
+          "Where are the seeds of a strawberry?",
+          "on the outside of the fruit",
+          "inside one big stone",
+          "in the roots",
+          "The tiny dots on the skin of a strawberry are its seeds. They sit on the outside of the fruit."
+        ],
+        [
+          "How do the fluffy seeds of a dandelion travel?",
+          "the wind blows them away",
+          "they walk on tiny legs",
+          "they ride on fish",
+          "Each dandelion seed has a little fluffy parachute. The wind carries it far away to grow in a new place."
+        ],
+        [
+          "How do birds help plants to spread?",
+          "they eat fruit and drop the seeds in new places",
+          "they paint the flowers",
+          "they water the plants with their beaks",
+          "Birds eat fruit, fly away and drop the seeds somewhere else. There the seeds can grow into new plants."
+        ],
+        [
+          "A coconut is a big seed. How can it travel across the sea?",
+          "it floats on the water",
+          "it swims with fins",
+          "it flies like a bird",
+          "A coconut has a thick, airy husk, so it floats. Waves can carry it to a new beach where it grows into a palm tree."
+        ],
+        [
+          "What happens to a plant that gets no water for many days?",
+          "it droops and wilts",
+          "it grows faster",
+          "it turns into a stone",
+          "Without water, the stem and leaves go soft and floppy. If it gets water again soon, it can stand up again."
+        ],
+        [
+          "A cactus grows in the dry desert. Where does it store water?",
+          "in its thick stem",
+          "in its flowers",
+          "in the sand around it",
+          "A cactus has a thick, fleshy stem that holds lots of water. This keeps it alive when it does not rain for a long time."
+        ],
+        [
+          "What are the coloured parts of a flower called?",
+          "petals",
+          "roots",
+          "stems",
+          "Petals are the soft, coloured parts of a flower. Their colours help to bring insects to the flower."
+        ],
+        [
+          "An acorn is a seed. What does it grow into?",
+          "an oak tree",
+          "an apple tree",
+          "a sunflower",
+          "Acorns fall from oak trees. If one is buried in the soil, it can slowly grow into a new oak tree."
+        ],
+        [
+          "A plant stands on a window sill. Which way does it bend?",
+          "towards the window and the light",
+          "away from the light",
+          "down towards the floor",
+          "Plants grow towards light. A plant by a window slowly bends its leaves and stem to face the light."
+        ],
+        [
+          "What is inside a peach?",
+          "one big stone with a seed in it",
+          "lots of tiny black seeds",
+          "only water",
+          "A peach has one hard stone in the middle. The seed inside the stone can grow into a peach tree."
+        ],
+        [
+          "Farmers grow wheat. What is made from its seeds?",
+          "flour for bread and biscuits",
+          "glass for windows",
+          "metal for cars",
+          "Wheat seeds are ground into flour. Flour is used to bake bread, biscuits and cakes."
+        ],
+        [
+          "Which of these plants grows in a pond?",
+          "a water lily",
+          "a cactus",
+          "a pine tree",
+          "A water lily has roots in the mud at the bottom of the pond. Its big flat leaves float on top of the water."
+        ],
+        [
+          "Can a tree walk to a new place?",
+          "no, its roots keep it in one place",
+          "yes, it walks at night",
+          "yes, it swims across rivers",
+          "Plants cannot move from place to place like animals. Their roots hold them in the ground, but their leaves can turn towards the light."
         ]
       ],
       "de": [
@@ -160,6 +323,146 @@
           "um den Regen zu verscheuchen",
           "um die Pflanze zu wärmen",
           "Leuchtende Farben und süßer Duft locken Insekten an. Die Insekten tragen den Pollen zu anderen Blüten."
+        ],
+        [
+          "Was davon ist ein Samen?",
+          "eine Bohne",
+          "ein Kieselstein",
+          "ein Knopf",
+          "Eine Bohne ist ein Samen. Steckt man sie in feuchte Erde, wächst daraus eine neue Bohnenpflanze."
+        ],
+        [
+          "Was braucht ein Samen, damit er zu keimen beginnt?",
+          "Wasser und Wärme",
+          "Bonbons und Saft",
+          "laute Musik",
+          "Wenn ein Samen nass und warm ist, wacht er auf. Eine winzige Wurzel und ein Trieb wachsen heraus."
+        ],
+        [
+          "In welche Richtung wachsen Wurzeln?",
+          "nach unten in die Erde",
+          "nach oben zum Himmel",
+          "aus den Blüten heraus",
+          "Wurzeln wachsen nach unten in die Erde. Dort finden sie Wasser und halten die Pflanze fest."
+        ],
+        [
+          "In welche Richtung wächst ein junger Trieb?",
+          "nach oben zum Licht",
+          "nach unten in die Erde",
+          "in den Boden des Topfes",
+          "Der Trieb wächst aus der Erde nach oben zum Licht, damit seine Blätter Sonnenlicht einfangen können."
+        ],
+        [
+          "Welcher Baum behält im Winter seine grünen Blätter?",
+          "eine Kiefer",
+          "eine Eiche",
+          "ein Apfelbaum",
+          "Eine Kiefer ist immergrün: Ihre dünnen Nadeln bleiben das ganze Jahr grün. Eichen und Apfelbäume verlieren im Herbst ihre Blätter."
+        ],
+        [
+          "Was passiert im Herbst mit den Blättern vieler Bäume?",
+          "sie verfärben sich und fallen ab",
+          "sie werden zu Blüten",
+          "sie werden hellblau",
+          "Im Herbst werden viele Blätter gelb, rot oder braun und fallen zu Boden. Im Frühling wachsen neue Blätter."
+        ],
+        [
+          "Welchen Teil der Pflanze essen wir bei einer Karotte?",
+          "die Wurzel",
+          "die Blüte",
+          "den Samen",
+          "Eine Karotte ist eine dicke Wurzel. Sie speichert unter der Erde Nahrung für die Pflanze."
+        ],
+        [
+          "Wo sind die Samen einer Erdbeere?",
+          "außen auf der Frucht",
+          "in einem großen Kern",
+          "in den Wurzeln",
+          "Die kleinen Pünktchen auf der Erdbeere sind ihre Samen. Sie sitzen außen auf der Frucht."
+        ],
+        [
+          "Wie reisen die flauschigen Samen des Löwenzahns?",
+          "der Wind weht sie fort",
+          "sie laufen auf winzigen Beinen",
+          "sie reiten auf Fischen",
+          "Jeder Löwenzahnsamen hat einen kleinen flauschigen Schirm. Der Wind trägt ihn weit weg an einen neuen Ort."
+        ],
+        [
+          "Wie helfen Vögel Pflanzen, sich auszubreiten?",
+          "sie fressen Früchte und lassen die Samen woanders fallen",
+          "sie malen die Blüten an",
+          "sie gießen die Pflanzen mit dem Schnabel",
+          "Vögel fressen Früchte, fliegen weg und lassen die Samen woanders fallen. Dort können neue Pflanzen wachsen."
+        ],
+        [
+          "Eine Kokosnuss ist ein großer Samen. Wie kann sie übers Meer reisen?",
+          "sie schwimmt auf dem Wasser",
+          "sie schwimmt mit Flossen",
+          "sie fliegt wie ein Vogel",
+          "Eine Kokosnuss hat eine dicke, luftige Hülle und treibt auf dem Wasser. Die Wellen bringen sie an einen neuen Strand, wo eine Palme daraus wächst."
+        ],
+        [
+          "Was passiert mit einer Pflanze, die viele Tage kein Wasser bekommt?",
+          "sie lässt die Blätter hängen und welkt",
+          "sie wächst schneller",
+          "sie wird zu Stein",
+          "Ohne Wasser werden Stängel und Blätter schlaff. Bekommt sie bald wieder Wasser, richtet sie sich wieder auf."
+        ],
+        [
+          "Ein Kaktus wächst in der trockenen Wüste. Wo speichert er Wasser?",
+          "in seinem dicken Stamm",
+          "in seinen Blüten",
+          "im Sand um ihn herum",
+          "Ein Kaktus hat einen dicken, fleischigen Stamm, der viel Wasser speichert. So überlebt er lange Zeit ohne Regen."
+        ],
+        [
+          "Wie heißen die bunten Teile einer Blüte?",
+          "Blütenblätter",
+          "Wurzeln",
+          "Stängel",
+          "Blütenblätter sind die weichen, bunten Teile einer Blüte. Ihre Farben locken Insekten an."
+        ],
+        [
+          "Eine Eichel ist ein Samen. Was wächst daraus?",
+          "eine Eiche",
+          "ein Apfelbaum",
+          "eine Sonnenblume",
+          "Eicheln fallen von Eichen. Kommt eine in die Erde, kann daraus langsam eine neue Eiche wachsen."
+        ],
+        [
+          "Eine Pflanze steht auf der Fensterbank. Wohin neigt sie sich?",
+          "zum Fenster und zum Licht",
+          "vom Licht weg",
+          "nach unten zum Boden",
+          "Pflanzen wachsen zum Licht hin. Eine Pflanze am Fenster dreht Blätter und Stängel langsam zum Licht."
+        ],
+        [
+          "Was ist in einem Pfirsich?",
+          "ein großer Kern mit einem Samen darin",
+          "viele winzige schwarze Samen",
+          "nur Wasser",
+          "Ein Pfirsich hat in der Mitte einen harten Kern. Aus dem Samen darin kann ein Pfirsichbaum wachsen."
+        ],
+        [
+          "Bauern bauen Weizen an. Was wird aus seinen Körnern gemacht?",
+          "Mehl für Brot und Kekse",
+          "Glas für Fenster",
+          "Metall für Autos",
+          "Weizenkörner werden zu Mehl gemahlen. Mit Mehl backt man Brot, Kekse und Kuchen."
+        ],
+        [
+          "Welche dieser Pflanzen wächst in einem Teich?",
+          "eine Seerose",
+          "ein Kaktus",
+          "eine Kiefer",
+          "Eine Seerose hat ihre Wurzeln im Schlamm am Teichgrund. Ihre großen, flachen Blätter schwimmen auf dem Wasser."
+        ],
+        [
+          "Kann ein Baum an einen anderen Ort laufen?",
+          "nein, seine Wurzeln halten ihn an einem Ort",
+          "ja, er läuft in der Nacht",
+          "ja, er schwimmt durch Flüsse",
+          "Pflanzen können nicht wie Tiere umherlaufen. Ihre Wurzeln halten sie in der Erde, aber ihre Blätter können sich zum Licht drehen."
         ]
       ],
       "fr": [
@@ -232,6 +535,146 @@
           "pour faire peur à la pluie",
           "pour tenir la plante au chaud",
           "Les couleurs vives et les odeurs sucrées attirent les insectes. Ils emportent le pollen vers d’autres fleurs."
+        ],
+        [
+          "Lequel est une graine ?",
+          "un haricot",
+          "un caillou",
+          "un bouton",
+          "Le haricot est une graine. Mis dans de la terre humide, il donne une nouvelle plante de haricot."
+        ],
+        [
+          "De quoi une graine a-t-elle besoin pour commencer à pousser ?",
+          "d’eau et de chaleur",
+          "de bonbons et de jus",
+          "de musique forte",
+          "Quand la graine est mouillée et au chaud, elle se réveille. Une petite racine et une petite tige en sortent."
+        ],
+        [
+          "Dans quel sens poussent les racines ?",
+          "vers le bas, dans la terre",
+          "vers le haut, vers le ciel",
+          "hors des fleurs",
+          "Les racines poussent vers le bas, dans la terre, pour trouver de l’eau et bien tenir la plante."
+        ],
+        [
+          "Dans quel sens pousse une jeune tige ?",
+          "vers le haut, vers la lumière",
+          "vers le bas, dans la terre",
+          "vers le fond du pot",
+          "La jeune tige sort de la terre et monte vers la lumière, pour que ses feuilles captent le soleil."
+        ],
+        [
+          "Quel arbre garde ses feuilles vertes tout l’hiver ?",
+          "un pin",
+          "un chêne",
+          "un pommier",
+          "Le pin a des feuilles fines comme des aiguilles qui restent vertes toute l’année. Le chêne et le pommier perdent leurs feuilles en automne."
+        ],
+        [
+          "Que deviennent les feuilles de beaucoup d’arbres en automne ?",
+          "elles changent de couleur et tombent",
+          "elles se transforment en fleurs",
+          "elles deviennent bleu vif",
+          "En automne, beaucoup de feuilles jaunissent, rougissent ou brunissent, puis tombent. De nouvelles feuilles poussent au printemps."
+        ],
+        [
+          "Quand on mange une carotte, quelle partie de la plante mange-t-on ?",
+          "la racine",
+          "la fleur",
+          "la graine",
+          "La carotte est une grosse racine. Elle garde de la nourriture pour la plante sous la terre."
+        ],
+        [
+          "Où sont les graines de la fraise ?",
+          "sur l’extérieur du fruit",
+          "dans un gros noyau",
+          "dans les racines",
+          "Les petits points sur la peau de la fraise sont ses graines. Elles se trouvent à l’extérieur du fruit."
+        ],
+        [
+          "Comment voyagent les graines duveteuses du pissenlit ?",
+          "le vent les emporte",
+          "elles marchent sur de petites pattes",
+          "elles voyagent sur des poissons",
+          "Chaque graine de pissenlit a un petit parachute duveteux. Le vent l’emporte loin pour qu’elle pousse ailleurs."
+        ],
+        [
+          "Comment les oiseaux aident-ils les plantes à se répandre ?",
+          "ils mangent des fruits et laissent tomber les graines ailleurs",
+          "ils peignent les fleurs",
+          "ils arrosent les plantes avec leur bec",
+          "Les oiseaux mangent des fruits, s’envolent et rejettent les graines ailleurs. Là, elles peuvent donner de nouvelles plantes."
+        ],
+        [
+          "La noix de coco est une grosse graine. Comment peut-elle traverser la mer ?",
+          "elle flotte sur l’eau",
+          "elle nage avec des nageoires",
+          "elle vole comme un oiseau",
+          "La noix de coco a une enveloppe épaisse pleine d’air : elle flotte. Les vagues l’emportent vers une nouvelle plage où pousse un cocotier."
+        ],
+        [
+          "Que devient une plante qui ne reçoit pas d’eau pendant plusieurs jours ?",
+          "elle se penche et se fane",
+          "elle pousse plus vite",
+          "elle se change en pierre",
+          "Sans eau, la tige et les feuilles deviennent molles. Si on l’arrose vite, elle peut se redresser."
+        ],
+        [
+          "Le cactus pousse dans le désert sec. Où garde-t-il son eau ?",
+          "dans sa tige épaisse",
+          "dans ses fleurs",
+          "dans le sable autour de lui",
+          "Le cactus a une tige épaisse et charnue qui stocke beaucoup d’eau. Il peut ainsi vivre longtemps sans pluie."
+        ],
+        [
+          "Comment s’appellent les parties colorées d’une fleur ?",
+          "les pétales",
+          "les racines",
+          "les tiges",
+          "Les pétales sont les parties douces et colorées de la fleur. Leurs couleurs attirent les insectes."
+        ],
+        [
+          "Le gland est une graine. Que devient-il ?",
+          "un chêne",
+          "un pommier",
+          "un tournesol",
+          "Les glands tombent des chênes. Si l’un d’eux est enfoui dans la terre, il peut devenir lentement un nouveau chêne."
+        ],
+        [
+          "Une plante est posée près d’une fenêtre. De quel côté se penche-t-elle ?",
+          "vers la fenêtre et la lumière",
+          "à l’opposé de la lumière",
+          "vers le sol",
+          "Les plantes poussent vers la lumière. Une plante près d’une fenêtre tourne peu à peu sa tige et ses feuilles vers elle."
+        ],
+        [
+          "Qu’y a-t-il dans une pêche ?",
+          "un gros noyau avec une graine dedans",
+          "plein de petites graines noires",
+          "seulement de l’eau",
+          "La pêche a un noyau dur au milieu. La graine qui est dedans peut devenir un pêcher."
+        ],
+        [
+          "Les agriculteurs cultivent le blé. Que fait-on avec ses graines ?",
+          "de la farine pour le pain et les biscuits",
+          "du verre pour les fenêtres",
+          "du métal pour les voitures",
+          "On moud les grains de blé pour faire de la farine. Avec la farine, on fait du pain, des biscuits et des gâteaux."
+        ],
+        [
+          "Laquelle de ces plantes pousse dans une mare ?",
+          "un nénuphar",
+          "un cactus",
+          "un pin",
+          "Le nénuphar a ses racines dans la boue au fond de la mare. Ses grandes feuilles plates flottent à la surface."
+        ],
+        [
+          "Un arbre peut-il marcher jusqu’à un autre endroit ?",
+          "non, ses racines le gardent au même endroit",
+          "oui, il marche la nuit",
+          "oui, il traverse les rivières à la nage",
+          "Les plantes ne se déplacent pas comme les animaux. Leurs racines les tiennent dans la terre, mais leurs feuilles peuvent se tourner vers la lumière."
         ]
       ],
       "yo": [
@@ -304,6 +747,146 @@
           "kí wọ́n lè lé òjò lọ",
           "kí ewéko lè móoru",
           "Àwọ̀ tó mọ́lẹ̀ àti òórùn dídùn ń fa kòkòrò wá sí òdòdó. Àwọn kòkòrò náà ń gbé eruku òdòdó lọ sí òdòdó mìíràn."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni irúgbìn?",
+          "ẹ̀wà",
+          "òkúta wẹ́wẹ́",
+          "bọ́tìnnì",
+          "Irúgbìn ni ẹ̀wà. Tí o bá gbìn ín sínú ilẹ̀ tó tutù, ewéko ẹ̀wà tuntun máa hù jáde."
+        ],
+        [
+          "Kí ni irúgbìn nílò kí ó tó bẹ̀rẹ̀ sí í hù?",
+          "omi àti ooru",
+          "súìtì àti oje èso",
+          "orin aláriwo",
+          "Tí irúgbìn bá rí omi àti ooru, ó máa jí. Gbòǹgbò kékeré àti èéhù kékeré máa yọ jáde láti inú rẹ̀."
+        ],
+        [
+          "Ọ̀nà wo ni gbòǹgbò ń hù sí?",
+          "sísàlẹ̀, sínú ilẹ̀",
+          "sókè, sí ojú ọ̀run",
+          "jáde láti inú òdòdó",
+          "Gbòǹgbò ń hù lọ sísàlẹ̀ sínú ilẹ̀ láti wá omi, kí ó sì di ewéko mú ṣinṣin."
+        ],
+        [
+          "Ọ̀nà wo ni èéhù ewéko tuntun ń hù sí?",
+          "sókè, sí ibi ìmọ́lẹ̀",
+          "sísàlẹ̀, sínú ilẹ̀",
+          "sí ìsàlẹ̀ ìkòkò",
+          "Èéhù ń hù jáde láti inú ilẹ̀ lọ sókè sí ibi ìmọ́lẹ̀, kí ewé rẹ̀ lè gba ìmọ́lẹ̀ oòrùn."
+        ],
+        [
+          "Igi wo ló máa ń ní ewé tútù ní gbogbo ìgbà òtútù?",
+          "igi páìnì",
+          "igi óákù",
+          "igi ápù",
+          "Ewé igi páìnì tínrín bí abẹ́rẹ́, wọ́n sì máa ń tutù yọ̀yọ̀ ní gbogbo ọdún. Igi óákù àti igi ápù ń rẹ̀ ewé sílẹ̀ ní ìgbà ìwọ́wé."
+        ],
+        [
+          "Kí ló máa ń ṣẹlẹ̀ sí ewé ọ̀pọ̀ igi ní ìgbà ìwọ́wé?",
+          "àwọ̀ wọn máa yí padà, wọ́n sì máa jábọ́",
+          "wọ́n máa di òdòdó",
+          "wọ́n máa di búlúù yòò",
+          "Ní ìgbà ìwọ́wé, ọ̀pọ̀ ewé máa ń di pupa, pupa rúsúrúsú tàbí àwọ̀ ilẹ̀, wọ́n sì máa jábọ́. Ewé tuntun máa hù ní ìgbà ìrúwé."
+        ],
+        [
+          "Tí a bá ń jẹ káròọ̀tì, apá wo nínú ewéko ni à ń jẹ?",
+          "gbòǹgbò",
+          "òdòdó",
+          "irúgbìn",
+          "Gbòǹgbò tó nípọn ni káròọ̀tì. Ó ń kó oúnjẹ pamọ́ fún ewéko lábẹ́ ilẹ̀."
+        ],
+        [
+          "Ibo ni irúgbìn sitiróbẹ́rì wà?",
+          "lára èso náà lóde",
+          "nínú kóró ńlá kan",
+          "nínú gbòǹgbò",
+          "Àwọn ààmì kékeré lára sitiróbẹ́rì ni irúgbìn rẹ̀. Wọ́n wà ní ìta èso náà."
+        ],
+        [
+          "Báwo ni irúgbìn onírun fẹ́lẹ́fẹ́lẹ́ ti ewéko dándẹ́láyọ̀n ṣe ń rìnrìn àjò?",
+          "atẹ́gùn ń fẹ́ wọn lọ",
+          "wọ́n ń fi ẹsẹ̀ kékeré rìn",
+          "wọ́n ń gun ẹ̀yìn ẹja",
+          "Irúgbìn dándẹ́láyọ̀n kọ̀ọ̀kan ní agboòrùn kékeré onírun. Atẹ́gùn ń gbé e lọ jìnnà kí ó lè hù níbòmíràn."
+        ],
+        [
+          "Báwo ni ẹyẹ ṣe ń ran ewéko lọ́wọ́ láti tàn ká?",
+          "wọ́n ń jẹ èso, wọ́n sì ń ju irúgbìn sílẹ̀ níbòmíràn",
+          "wọ́n ń kun òdòdó ní àwọ̀",
+          "wọ́n ń fi ṣóńṣó ẹnu bomi rin ewéko",
+          "Ẹyẹ ń jẹ èso, wọ́n ń fò lọ, wọ́n sì ń ju irúgbìn sílẹ̀ níbòmíràn. Níbẹ̀, irúgbìn lè hù di ewéko tuntun."
+        ],
+        [
+          "Irúgbìn ńlá ni àgbọn. Báwo ló ṣe lè rìnrìn àjò kọjá òkun?",
+          "ó ń léfòó lórí omi",
+          "ó ń fi lẹbẹ lúwẹ̀ẹ́",
+          "ó ń fò bí ẹyẹ",
+          "Àgbọn ní èèpo tó nípọn tí afẹ́fẹ́ wà nínú rẹ̀, nítorí náà ó ń léfòó. Ìgbì omi lè gbé e dé etí òkun tuntun níbi tó ti máa hù di igi àgbọn."
+        ],
+        [
+          "Kí ló máa ṣẹlẹ̀ sí ewéko tí kò rí omi fún ọjọ́ púpọ̀?",
+          "ó máa rọ, ó sì máa wọ́",
+          "ó máa yára dàgbà",
+          "ó máa di òkúta",
+          "Láìsí omi, igi ewéko àti ewé rẹ̀ máa rọ̀ dẹ̀kùn. Tí ó bá tètè rí omi, ó lè tún dìde dúró."
+        ],
+        [
+          "Kákítọ́ọ̀sì ń hù nínú aṣálẹ̀ gbígbẹ. Ibo ló ń kó omi pamọ́ sí?",
+          "sínú igi rẹ̀ tó nípọn",
+          "sínú òdòdó rẹ̀",
+          "sínú iyanrìn tó yí i ká",
+          "Kákítọ́ọ̀sì ní igi tó nípọn tí omi púpọ̀ wà nínú rẹ̀. Èyí ń jẹ́ kí ó wà láàyè nígbà tí òjò kò bá rọ̀ fún ìgbà pípẹ́."
+        ],
+        [
+          "Kí ni orúkọ àwọn apá aláwọ̀ mèremère lára òdòdó?",
+          "ewé òdòdó",
+          "gbòǹgbò",
+          "igi ewéko",
+          "Ewé òdòdó ni àwọn apá rírọ̀ aláwọ̀ mèremère lára òdòdó. Àwọ̀ wọn ń fa kòkòrò wá sí òdòdó."
+        ],
+        [
+          "Irúgbìn ni èso igi óákù tí a ń pè ní ákọ́ọ̀nù. Kí ló máa hù dà?",
+          "igi óákù",
+          "igi ápù",
+          "òdòdó oòrùn",
+          "Ákọ́ọ̀nù ń jábọ́ láti orí igi óákù. Tí ọ̀kan bá wọnú ilẹ̀, ó lè rọra hù di igi óákù tuntun."
+        ],
+        [
+          "Ewéko kan wà lẹ́gbẹ̀ẹ́ fèrèsé. Ọ̀nà wo ló máa tẹ̀ sí?",
+          "sí fèrèsé àti ìmọ́lẹ̀",
+          "kúrò níbi ìmọ́lẹ̀",
+          "sísàlẹ̀, sí ilẹ̀ ilé",
+          "Ewéko ń hù lọ sí ibi ìmọ́lẹ̀. Ewéko tó wà lẹ́gbẹ̀ẹ́ fèrèsé ń rọra yí igi àti ewé rẹ̀ sí ìmọ́lẹ̀."
+        ],
+        [
+          "Kí ló wà nínú èso píṣì?",
+          "kóró ńlá kan tí irúgbìn wà nínú rẹ̀",
+          "ọ̀pọ̀ irúgbìn dúdú kékeré",
+          "omi nìkan",
+          "Píṣì ní kóró líle kan ní àárín rẹ̀. Irúgbìn inú kóró náà lè hù di igi píṣì."
+        ],
+        [
+          "Àwọn àgbẹ̀ ń gbin àlìkámà. Kí ni wọ́n fi irúgbìn rẹ̀ ṣe?",
+          "ìyẹ̀fun fún búrẹ́dì àti bisikíìtì",
+          "díńgí fún fèrèsé",
+          "irin fún mọ́tò",
+          "Wọ́n ń lọ irúgbìn àlìkámà di ìyẹ̀fun. Wọ́n ń fi ìyẹ̀fun ṣe búrẹ́dì, bisikíìtì àti kéèkì."
+        ],
+        [
+          "Èwo nínú àwọn ewéko wọ̀nyí ló ń hù nínú adágún omi?",
+          "òṣíbàtà",
+          "kákítọ́ọ̀sì",
+          "igi páìnì",
+          "Gbòǹgbò òṣíbàtà wà nínú ẹrẹ̀ ní ìsàlẹ̀ adágún omi. Ewé pẹlẹbẹ ńlá rẹ̀ ń léfòó lórí omi."
+        ],
+        [
+          "Ṣé igi lè rìn lọ sí ibòmíràn?",
+          "rárá, gbòǹgbò rẹ̀ ń dì í mú sí ibì kan",
+          "bẹ́ẹ̀ni, ó ń rìn lóru",
+          "bẹ́ẹ̀ni, ó ń lúwẹ̀ẹ́ kọjá odò",
+          "Ewéko kò lè rìn kiri bí ẹranko. Gbòǹgbò wọn ń dì wọ́n mú sínú ilẹ̀, ṣùgbọ́n ewé wọn lè yí sí ìmọ́lẹ̀."
         ]
       ]
     }

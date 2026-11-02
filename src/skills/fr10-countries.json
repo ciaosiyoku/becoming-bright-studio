@@ -1,0 +1,274 @@
+{
+  "id": "fr10-countries",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 5,
+  "ages": [
+    "10-12"
+  ],
+  "order": 38,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "globe",
+      "snow",
+      "airplane",
+      "mountain",
+      "beach",
+      "wave",
+      "map",
+      "seedling",
+      "desert",
+      "house",
+      "speech",
+      "sun",
+      "globe",
+      "map",
+      "palette",
+      "letters",
+      "map",
+      "scarf",
+      "mountain",
+      "globe",
+      "map",
+      "animal-elephant",
+      "animal-camel",
+      "animal-parrot",
+      "snow",
+      "mountain",
+      "speech",
+      "speech",
+      "globe",
+      "scarf"
+    ],
+    "bank": {
+      "en": [
+        [
+          "J’habite ___ France.",
+          "en",
+          "au",
+          "aux",
+          "La France is feminine, so you say en France."
+        ],
+        [
+          "Il habite ___ Canada.",
+          "au",
+          "en",
+          "aux",
+          "Le Canada is masculine, so you say au Canada."
+        ],
+        [
+          "Nous allons ___ États-Unis.",
+          "aux",
+          "au",
+          "en",
+          "Les États-Unis is plural, so you say aux États-Unis."
+        ],
+        [
+          "Elle travaille ___ Japon.",
+          "au",
+          "en",
+          "aux",
+          "Le Japon is masculine, so you say au Japon."
+        ],
+        [
+          "Ils passent les vacances ___ Espagne.",
+          "en",
+          "au",
+          "aux",
+          "L’Espagne is feminine, so you say en Espagne."
+        ],
+        [
+          "Mon oncle vit ___ Portugal.",
+          "au",
+          "en",
+          "aux",
+          "Le Portugal is masculine, so you say au Portugal."
+        ],
+        [
+          "Je voudrais aller ___ Italie.",
+          "en",
+          "au",
+          "aux",
+          "L’Italie is feminine, so you say en Italie."
+        ],
+        [
+          "Ma cousine habite ___ Pays-Bas.",
+          "aux",
+          "au",
+          "en",
+          "Les Pays-Bas is plural, so you say aux Pays-Bas."
+        ],
+        [
+          "On va ___ Mexique cet été.",
+          "au",
+          "en",
+          "aux",
+          "Le Mexique ends in -e but is masculine, so you say au Mexique."
+        ],
+        [
+          "Mes grands-parents vivent ___ Allemagne.",
+          "en",
+          "au",
+          "aux",
+          "L’Allemagne is feminine, so you say en Allemagne."
+        ],
+        [
+          "Il vient de France. Il est ___.",
+          "français",
+          "française",
+          "France",
+          "A boy from France is français. France is the country, not the nationality."
+        ],
+        [
+          "Elle vient d’Espagne. Elle est ___.",
+          "espagnole",
+          "espagnol",
+          "Espagne",
+          "For a girl, add -e: espagnole."
+        ],
+        [
+          "Il vient d’Angleterre. Il est ___.",
+          "anglais",
+          "anglaise",
+          "Angleterre",
+          "For a boy, the nationality is anglais, with a small letter."
+        ],
+        [
+          "Elle vient d’Allemagne. Elle est ___.",
+          "allemande",
+          "allemand",
+          "Allemagne",
+          "For a girl, add -e: allemande."
+        ],
+        [
+          "Ils viennent d’Italie. Ils sont ___.",
+          "italiens",
+          "italien",
+          "italiennes",
+          "Ils is masculine plural, so the nationality is italiens."
+        ],
+        [
+          "Elles viennent du Japon. Elles sont ___.",
+          "japonaises",
+          "japonais",
+          "japonaise",
+          "Elles is feminine plural, so add -es: japonaises."
+        ],
+        [
+          "What is the French for Wales?",
+          "le pays de Galles",
+          "l’Écosse",
+          "l’Irlande",
+          "Wales is le pays de Galles. L’Écosse is Scotland and l’Irlande is Ireland."
+        ],
+        [
+          "What is the French for Scotland?",
+          "l’Écosse",
+          "l’Irlande",
+          "l’Angleterre",
+          "Scotland is l’Écosse."
+        ],
+        [
+          "What is the French for Switzerland?",
+          "la Suisse",
+          "la Suède",
+          "la Belgique",
+          "Switzerland is la Suisse. La Suède is Sweden and la Belgique is Belgium."
+        ],
+        [
+          "What does la Chine mean?",
+          "China",
+          "Chile",
+          "Japan",
+          "La Chine is China. Chile is le Chili and Japan is le Japon."
+        ],
+        [
+          "What is the French for the United Kingdom?",
+          "le Royaume-Uni",
+          "les États-Unis",
+          "les Pays-Bas",
+          "The United Kingdom is le Royaume-Uni. Les États-Unis is the United States."
+        ],
+        [
+          "Ma mère est née ___ Inde.",
+          "en",
+          "au",
+          "aux",
+          "L’Inde is feminine, so you say en Inde."
+        ],
+        [
+          "Nous allons ___ Maroc.",
+          "au",
+          "en",
+          "aux",
+          "Le Maroc is masculine, so you say au Maroc."
+        ],
+        [
+          "Ils jouent au foot ___ Brésil.",
+          "au",
+          "en",
+          "aux",
+          "Le Brésil is masculine, so you say au Brésil."
+        ],
+        [
+          "How do you say I live in Scotland in French?",
+          "J’habite en Écosse.",
+          "J’habite au Écosse.",
+          "J’habite aux Écosse.",
+          "L’Écosse is feminine, so you say en Écosse."
+        ],
+        [
+          "How do you say We are going to Wales in French?",
+          "Nous allons au pays de Galles.",
+          "Nous allons en pays de Galles.",
+          "Nous allons aux pays de Galles.",
+          "Le pays de Galles is masculine and singular, so you say au pays de Galles."
+        ],
+        [
+          "En Allemagne, on parle ___.",
+          "allemand",
+          "allemande",
+          "Allemagne",
+          "Languages are masculine and have a small letter: l’allemand."
+        ],
+        [
+          "Au Brésil, on parle ___.",
+          "portugais",
+          "espagnol",
+          "anglais",
+          "People in Brazil speak Portuguese, which is portugais in French."
+        ],
+        [
+          "Which country goes with au?",
+          "le Japon",
+          "la Chine",
+          "l’Italie",
+          "Le Japon is masculine, so you say au Japon. The others are feminine and take en."
+        ],
+        [
+          "Il vient d’Écosse. Il est ___.",
+          "écossais",
+          "écossaise",
+          "Écosse",
+          "For a boy from Scotland, the nationality is écossais."
+        ]
+      ]
+    }
+  },
+  "emoji": "globe",
+  "example": {
+    "i": 0,
+    "q_en": "J’habite ___ France.",
+    "answer_en": "en",
+    "why_en": "La France is feminine, so you say en France."
+  },
+  "text": {
+    "en": {
+      "title": "Countries and nationalities",
+      "teach": "Use en for feminine countries (most end in -e), au for masculine ones and aux for plural ones: en France, au Canada, aux États-Unis. A nationality agrees: il est français, elle est française.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

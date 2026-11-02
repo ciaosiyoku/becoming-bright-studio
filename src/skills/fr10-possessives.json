@@ -1,0 +1,274 @@
+{
+  "id": "fr10-possessives",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 5,
+  "ages": [
+    "10-12"
+  ],
+  "order": 36,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "cake",
+      "game",
+      "heart",
+      "paws",
+      "house",
+      "books",
+      "memo",
+      "memo",
+      "heart",
+      "backpack",
+      "school",
+      "girl",
+      "road",
+      "tree",
+      "gradcap",
+      "shoe",
+      "openbook",
+      "paws",
+      "teddy",
+      "gift",
+      "party",
+      "paws",
+      "backpack",
+      "house",
+      "key",
+      "calendar",
+      "backpack",
+      "heart",
+      "speech",
+      "girl"
+    ],
+    "bank": {
+      "en": [
+        [
+          "___ frère a dix ans. (my)",
+          "Mon",
+          "Ma",
+          "Mes",
+          "Frère is masculine and singular, so my is mon."
+        ],
+        [
+          "___ sœur aime le foot. (my)",
+          "Ma",
+          "Mon",
+          "Mes",
+          "Sœur is feminine and singular, so my is ma."
+        ],
+        [
+          "___ parents sont gentils. (my)",
+          "Mes",
+          "Mon",
+          "Ma",
+          "Parents is plural, so my is mes."
+        ],
+        [
+          "___ chien est noir. (your, with tu)",
+          "Ton",
+          "Ta",
+          "Tes",
+          "Chien is masculine and singular, so your is ton."
+        ],
+        [
+          "___ maison est grande. (your, with tu)",
+          "Ta",
+          "Ton",
+          "Tes",
+          "Maison is feminine and singular, so your is ta."
+        ],
+        [
+          "___ livres sont sur la table. (your, with tu)",
+          "Tes",
+          "Ton",
+          "Ta",
+          "Livres is plural, so your is tes."
+        ],
+        [
+          "Paul cherche ___ stylo. (his)",
+          "son",
+          "sa",
+          "ses",
+          "Stylo is masculine and singular, so his is son."
+        ],
+        [
+          "Marie cherche ___ stylo. (her)",
+          "son",
+          "sa",
+          "ses",
+          "Stylo is masculine, so it is son stylo, even though Marie is a girl."
+        ],
+        [
+          "Léo aime ___ grand-mère. (his)",
+          "sa",
+          "son",
+          "ses",
+          "Grand-mère is feminine, so it is sa grand-mère, even though Léo is a boy."
+        ],
+        [
+          "Julie range ___ affaires. (her)",
+          "ses",
+          "sa",
+          "son",
+          "Affaires is plural, so her is ses."
+        ],
+        [
+          "___ école est près d’ici. (my)",
+          "Mon",
+          "Ma",
+          "Mes",
+          "École is feminine but starts with a vowel, so French uses mon école."
+        ],
+        [
+          "C’est ___ amie Sophie. (my)",
+          "mon",
+          "ma",
+          "mes",
+          "Amie starts with a vowel, so ma changes to mon: mon amie."
+        ],
+        [
+          "___ voiture est rouge. (our)",
+          "Notre",
+          "Nos",
+          "Leur",
+          "Voiture is singular, so our is notre."
+        ],
+        [
+          "___ enfants jouent dehors. (our)",
+          "Nos",
+          "Notre",
+          "Vos",
+          "Enfants is plural, so our is nos."
+        ],
+        [
+          "___ professeur est sympa. (your, with vous)",
+          "Votre",
+          "Vos",
+          "Notre",
+          "Professeur is singular, so your with vous is votre."
+        ],
+        [
+          "___ chaussures sont sales. (your, with vous)",
+          "Vos",
+          "Votre",
+          "Ton",
+          "Chaussures is plural, so your with vous is vos."
+        ],
+        [
+          "Les élèves aiment ___ professeur. (their)",
+          "leur",
+          "leurs",
+          "ses",
+          "Professeur is singular, so their is leur."
+        ],
+        [
+          "Mes voisins promènent ___ chiens. (their)",
+          "leurs",
+          "leur",
+          "son",
+          "Chiens is plural, so their is leurs."
+        ],
+        [
+          "Which is correct?",
+          "mon oncle",
+          "ma oncle",
+          "mes oncle",
+          "Oncle is masculine and singular, so it is mon oncle."
+        ],
+        [
+          "Which is correct?",
+          "ta tante",
+          "ton tante",
+          "tes tante",
+          "Tante is feminine and singular and starts with a consonant, so it is ta tante."
+        ],
+        [
+          "Which is correct?",
+          "ses cousins",
+          "son cousins",
+          "sa cousins",
+          "Cousins is plural, so it is ses cousins."
+        ],
+        [
+          "How do you say my cat in French?",
+          "mon chat",
+          "ma chat",
+          "mes chat",
+          "Chat is masculine and singular, so it is mon chat."
+        ],
+        [
+          "How do you say her bag in French?",
+          "son sac",
+          "sa sac",
+          "ses sac",
+          "Sac is masculine, so it is son sac, even for a girl."
+        ],
+        [
+          "How do you say their house in French?",
+          "leur maison",
+          "leurs maison",
+          "sa maison",
+          "One house owned by several people is leur maison."
+        ],
+        [
+          "How do you say your keys (with vous) in French?",
+          "vos clés",
+          "votre clés",
+          "vous clés",
+          "Clés is plural, so your with vous is vos."
+        ],
+        [
+          "___ anniversaire est en mai. (my)",
+          "Mon",
+          "Ma",
+          "Mes",
+          "Anniversaire is masculine and singular, so my is mon."
+        ],
+        [
+          "Tu as ___ trousse ? (your, with tu)",
+          "ta",
+          "ton",
+          "tes",
+          "Trousse is feminine and singular, so your is ta."
+        ],
+        [
+          "How do you say our grandparents in French?",
+          "nos grands-parents",
+          "notre grands-parents",
+          "nous grands-parents",
+          "Grands-parents is plural, so our is nos. Nous means we."
+        ],
+        [
+          "Comment s’appelle ___ père ? (your, with tu)",
+          "ton",
+          "ta",
+          "tes",
+          "Père is masculine and singular, so your is ton."
+        ],
+        [
+          "Which phrase means his sister?",
+          "sa sœur",
+          "son sœur",
+          "ses sœur",
+          "Sœur is feminine and singular, so it is sa sœur, whether it is his or her sister."
+        ]
+      ]
+    }
+  },
+  "emoji": "key",
+  "example": {
+    "i": 0,
+    "q_en": "___ frère a dix ans. (my)",
+    "answer_en": "Mon",
+    "why_en": "Frère is masculine and singular, so my is mon."
+  },
+  "text": {
+    "en": {
+      "title": "My, your, his and her",
+      "teach": "The word for my, your or his/her matches the thing owned, not the owner: mon frère, ma sœur, mes parents. Before a vowel, use mon even for a feminine word: mon amie.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

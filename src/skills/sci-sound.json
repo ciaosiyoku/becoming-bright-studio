@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "science",
   "stage": 4,
+  "ages": [
+    "8-9"
+  ],
   "order": 14,
   "params": {
     "emojis": [
@@ -15,7 +18,27 @@
       "glowstar",
       "school",
       "factory",
-      "notes"
+      "notes",
+      "storm",
+      "mountain",
+      "music",
+      "music",
+      "music",
+      "telephone",
+      "house",
+      "speech",
+      "notes",
+      "moon",
+      "paws",
+      "school",
+      "radio",
+      "notes",
+      "droplet",
+      "bell",
+      "animal-mouse",
+      "wave",
+      "notes",
+      "speech"
     ],
     "bank": {
       "en": [
@@ -88,6 +111,146 @@
           "volume",
           "speed",
           "Pitch tells us how high or low a sound is. Volume tells us how loud it is."
+        ],
+        [
+          "In a storm, you see lightning before you hear thunder. Why?",
+          "light travels much faster than sound",
+          "sound travels faster than light",
+          "thunder is made later",
+          "Lightning and thunder happen at the same moment, but light reaches you almost at once while sound takes longer."
+        ],
+        [
+          "What is an echo?",
+          "a sound bouncing back off a hard surface",
+          "a very quiet sound",
+          "a sound that only animals hear",
+          "When sound hits a hard surface like a cliff or a wall, it bounces back, so you hear it again a moment later."
+        ],
+        [
+          "You hit a drum harder. What happens to the sound?",
+          "it gets louder",
+          "it gets higher",
+          "it disappears",
+          "A harder hit makes the drum skin vibrate more strongly, which makes a louder sound."
+        ],
+        [
+          "A big drum and a small drum: which makes the lower sound?",
+          "the big drum",
+          "the small drum",
+          "they always sound exactly the same",
+          "A big drum skin vibrates more slowly than a small one, and slower vibrations make lower sounds."
+        ],
+        [
+          "You tighten a guitar string. What happens to its note?",
+          "it gets higher",
+          "it gets lower",
+          "it stops making any sound",
+          "A tighter string vibrates faster, and faster vibrations make a higher note."
+        ],
+        [
+          "In a string telephone made of two cups, how does your voice reach your friend?",
+          "vibrations travel along the tight string",
+          "electricity flows along the string",
+          "the cups shine light to each other",
+          "Your voice makes the cup vibrate. The vibrations travel along the tight string to the other cup."
+        ],
+        [
+          "Which material is best for making a room quieter?",
+          "thick, soft curtains",
+          "bare glass windows",
+          "metal sheets",
+          "Soft, thick materials soak up sound instead of letting it bounce around, so the room becomes quieter."
+        ],
+        [
+          "When you speak, what vibrates in your throat?",
+          "your vocal cords",
+          "your hair",
+          "your knees",
+          "Air from your lungs makes your vocal cords vibrate, and that makes the sound of your voice."
+        ],
+        [
+          "Which part inside your ear starts to vibrate when sound reaches it?",
+          "your eardrum",
+          "your tongue",
+          "your nose",
+          "The eardrum is a thin skin inside your ear. Sound makes it vibrate, and your brain turns this into what you hear."
+        ],
+        [
+          "Which animal finds its way in the dark by listening to echoes?",
+          "a bat",
+          "a cow",
+          "a snail",
+          "A bat makes very high squeaks and listens to the echoes that bounce back from insects and walls."
+        ],
+        [
+          "A dog hears a special dog whistle, but you hear nothing. Why?",
+          "the sound is too high for humans to hear",
+          "the sound is too quiet for anyone",
+          "the whistle makes light, not sound",
+          "Dogs can hear much higher sounds than people. The whistle’s note is above what human ears can pick up."
+        ],
+        [
+          "Can sound travel through solid things like a table?",
+          "yes, put your ear on a table and tap it",
+          "no, only through air",
+          "only if the table is wet",
+          "Sound travels very well through solids. With your ear on the table, a gentle tap sounds loud."
+        ],
+        [
+          "Which unit is used to measure how loud a sound is?",
+          "decibels",
+          "metres",
+          "kilograms",
+          "Loudness is measured in decibels (dB). A whisper is about 30 dB, while a rock concert can be over 100 dB."
+        ],
+        [
+          "When you play a recorder, what vibrates to make the sound?",
+          "the air inside it",
+          "the floor",
+          "your shoes",
+          "Blowing into a recorder makes the air inside the tube vibrate. Covering holes changes the note."
+        ],
+        [
+          "Does sound travel faster through water or through air?",
+          "through water",
+          "through air",
+          "it cannot travel through water at all",
+          "Sound moves about four times faster in water than in air, because the particles in water are packed closer together."
+        ],
+        [
+          "A triangle keeps ringing after you hit it. How can you stop the sound quickly?",
+          "hold it with your hand to stop the vibrations",
+          "hit it again harder",
+          "blow on it",
+          "Touching the triangle stops it vibrating, and with no vibrations there is no sound."
+        ],
+        [
+          "An elephant rumbles and a mouse squeaks. Which sound has the lower pitch?",
+          "the elephant’s rumble",
+          "the mouse’s squeak",
+          "they have the same pitch",
+          "Big animals usually make slow vibrations and deep, low sounds. A mouse squeak is high."
+        ],
+        [
+          "How does sound spread out from a ringing bell?",
+          "in all directions, like ripples on a pond",
+          "only straight up into the sky",
+          "only towards the person who rang it",
+          "Sound vibrations spread outwards in every direction, a bit like ripples when a stone drops into water."
+        ],
+        [
+          "Which guitar string gives a higher note: a thin one or a thick one?",
+          "the thin string",
+          "the thick string",
+          "both give the same note",
+          "A thin string is lighter, so it vibrates faster and makes a higher note."
+        ],
+        [
+          "Your friend speaks to you through a long cardboard tube. Why does it sound louder?",
+          "the tube stops the sound spreading out",
+          "the tube makes extra sound by itself",
+          "the tube turns sound into light",
+          "Inside the tube, the sound cannot spread out in all directions, so more of it reaches your ear."
         ]
       ],
       "de": [
@@ -160,6 +323,146 @@
           "Lautstärke",
           "Geschwindigkeit",
           "Die Tonhöhe sagt, wie hoch oder tief ein Ton ist. Die Lautstärke sagt, wie laut er ist."
+        ],
+        [
+          "Bei einem Gewitter siehst du den Blitz vor dem Donner. Warum?",
+          "Licht ist viel schneller als Schall",
+          "Schall ist schneller als Licht",
+          "der Donner entsteht erst später",
+          "Blitz und Donner entstehen gleichzeitig. Das Licht ist fast sofort bei dir, der Schall braucht länger."
+        ],
+        [
+          "Was ist ein Echo?",
+          "Schall, der von einer harten Fläche zurückgeworfen wird",
+          "ein sehr leiser Ton",
+          "ein Ton, den nur Tiere hören",
+          "Trifft Schall auf eine harte Fläche wie eine Felswand, wird er zurückgeworfen. Du hörst ihn kurz danach noch einmal."
+        ],
+        [
+          "Du schlägst fester auf eine Trommel. Was passiert mit dem Ton?",
+          "er wird lauter",
+          "er wird höher",
+          "er verschwindet",
+          "Ein festerer Schlag lässt das Trommelfell stärker schwingen. Dadurch wird der Ton lauter."
+        ],
+        [
+          "Eine große und eine kleine Trommel: Welche klingt tiefer?",
+          "die große Trommel",
+          "die kleine Trommel",
+          "sie klingen immer genau gleich",
+          "Das Fell einer großen Trommel schwingt langsamer als das einer kleinen. Langsamere Schwingungen klingen tiefer."
+        ],
+        [
+          "Du spannst eine Gitarrensaite fester. Was passiert mit ihrem Ton?",
+          "er wird höher",
+          "er wird tiefer",
+          "sie macht gar keinen Ton mehr",
+          "Eine straffere Saite schwingt schneller. Schnellere Schwingungen ergeben einen höheren Ton."
+        ],
+        [
+          "Wie kommt deine Stimme bei einem Dosentelefon zu deinem Freund?",
+          "Schwingungen laufen über die gespannte Schnur",
+          "Strom fließt durch die Schnur",
+          "die Becher leuchten einander an",
+          "Deine Stimme bringt den Becher zum Schwingen. Die Schwingungen wandern über die straffe Schnur zum anderen Becher."
+        ],
+        [
+          "Welches Material macht ein Zimmer am besten leiser?",
+          "dicke, weiche Vorhänge",
+          "nackte Glasfenster",
+          "Metallplatten",
+          "Weiche, dicke Stoffe schlucken den Schall, statt ihn zurückzuwerfen. So wird das Zimmer leiser."
+        ],
+        [
+          "Was schwingt in deinem Hals, wenn du sprichst?",
+          "deine Stimmbänder",
+          "deine Haare",
+          "deine Knie",
+          "Luft aus der Lunge bringt die Stimmbänder zum Schwingen. So entsteht der Klang deiner Stimme."
+        ],
+        [
+          "Welcher Teil in deinem Ohr beginnt zu schwingen, wenn Schall ankommt?",
+          "das Trommelfell",
+          "die Zunge",
+          "die Nase",
+          "Das Trommelfell ist eine dünne Haut im Ohr. Schall bringt es zum Schwingen, und dein Gehirn macht daraus, was du hörst."
+        ],
+        [
+          "Welches Tier findet sich im Dunkeln zurecht, indem es auf Echos hört?",
+          "eine Fledermaus",
+          "eine Kuh",
+          "eine Schnecke",
+          "Eine Fledermaus stößt sehr hohe Rufe aus und hört auf die Echos, die von Insekten und Wänden zurückkommen."
+        ],
+        [
+          "Ein Hund hört eine Hundepfeife, du hörst nichts. Warum?",
+          "der Ton ist zu hoch für Menschen",
+          "der Ton ist für alle zu leise",
+          "die Pfeife macht Licht statt Schall",
+          "Hunde hören viel höhere Töne als Menschen. Der Ton der Pfeife liegt über dem, was unsere Ohren hören."
+        ],
+        [
+          "Kann Schall durch feste Dinge wie einen Tisch wandern?",
+          "ja, leg dein Ohr auf den Tisch und klopf darauf",
+          "nein, nur durch Luft",
+          "nur wenn der Tisch nass ist",
+          "Schall wandert sehr gut durch feste Stoffe. Mit dem Ohr auf dem Tisch klingt ein leises Klopfen laut."
+        ],
+        [
+          "Mit welcher Einheit misst man, wie laut ein Geräusch ist?",
+          "Dezibel",
+          "Meter",
+          "Kilogramm",
+          "Lautstärke misst man in Dezibel (dB). Flüstern hat etwa 30 dB, ein Rockkonzert über 100 dB."
+        ],
+        [
+          "Was schwingt, wenn du Blockflöte spielst?",
+          "die Luft darin",
+          "der Fußboden",
+          "deine Schuhe",
+          "Wenn du in die Blockflöte bläst, schwingt die Luft im Rohr. Wenn du Löcher zuhältst, ändert sich der Ton."
+        ],
+        [
+          "Ist Schall in Wasser oder in Luft schneller?",
+          "in Wasser",
+          "in Luft",
+          "durch Wasser kommt er gar nicht",
+          "Schall ist im Wasser etwa viermal so schnell wie in der Luft, weil die Teilchen im Wasser enger beieinander sind."
+        ],
+        [
+          "Ein Triangel klingt nach dem Anschlagen weiter. Wie stoppst du den Ton schnell?",
+          "ihn mit der Hand festhalten, damit er nicht mehr schwingt",
+          "noch einmal fester draufschlagen",
+          "darauf pusten",
+          "Fasst du den Triangel an, hört er auf zu schwingen. Ohne Schwingung gibt es keinen Ton."
+        ],
+        [
+          "Ein Elefant brummt und eine Maus piepst. Welcher Laut ist tiefer?",
+          "das Brummen des Elefanten",
+          "das Piepsen der Maus",
+          "beide sind gleich hoch",
+          "Große Tiere erzeugen meist langsame Schwingungen und tiefe Töne. Das Piepsen einer Maus ist hoch."
+        ],
+        [
+          "Wie breitet sich der Schall einer läutenden Glocke aus?",
+          "in alle Richtungen, wie Wellen auf einem Teich",
+          "nur gerade nach oben in den Himmel",
+          "nur zu der Person, die geläutet hat",
+          "Schallschwingungen breiten sich in alle Richtungen aus, ähnlich wie Wellen, wenn ein Stein ins Wasser fällt."
+        ],
+        [
+          "Welche Gitarrensaite klingt höher: eine dünne oder eine dicke?",
+          "die dünne Saite",
+          "die dicke Saite",
+          "beide klingen gleich",
+          "Eine dünne Saite ist leichter. Sie schwingt schneller und klingt deshalb höher."
+        ],
+        [
+          "Dein Freund spricht durch eine lange Papprolle zu dir. Warum klingt es lauter?",
+          "die Rolle verhindert, dass sich der Schall ausbreitet",
+          "die Rolle macht selbst zusätzlichen Schall",
+          "die Rolle verwandelt Schall in Licht",
+          "In der Rolle kann sich der Schall nicht in alle Richtungen verteilen. So kommt mehr davon an deinem Ohr an."
         ]
       ],
       "fr": [
@@ -232,6 +535,146 @@
           "le volume",
           "la vitesse",
           "La hauteur dit si un son est aigu ou grave. Le volume dit s’il est fort ou faible."
+        ],
+        [
+          "Pendant un orage, on voit l’éclair avant d’entendre le tonnerre. Pourquoi ?",
+          "la lumière va beaucoup plus vite que le son",
+          "le son va plus vite que la lumière",
+          "le tonnerre se forme plus tard",
+          "L’éclair et le tonnerre arrivent en même temps, mais la lumière nous parvient presque tout de suite, alors que le son met plus longtemps."
+        ],
+        [
+          "Qu’est-ce qu’un écho ?",
+          "un son qui rebondit sur une surface dure",
+          "un son très faible",
+          "un son que seuls les animaux entendent",
+          "Quand le son frappe une surface dure, comme une falaise ou un mur, il rebondit. On l’entend donc une deuxième fois, un peu plus tard."
+        ],
+        [
+          "Tu frappes plus fort sur un tambour. Que devient le son ?",
+          "il devient plus fort",
+          "il devient plus aigu",
+          "il disparaît",
+          "Un coup plus fort fait vibrer la peau du tambour plus largement, ce qui donne un son plus fort."
+        ],
+        [
+          "Un grand tambour et un petit tambour : lequel fait le son le plus grave ?",
+          "le grand tambour",
+          "le petit tambour",
+          "ils sonnent toujours pareil",
+          "La peau d’un grand tambour vibre plus lentement que celle d’un petit. Des vibrations plus lentes donnent un son plus grave."
+        ],
+        [
+          "Tu tends davantage une corde de guitare. Que devient sa note ?",
+          "elle devient plus aiguë",
+          "elle devient plus grave",
+          "la corde ne fait plus de son",
+          "Une corde plus tendue vibre plus vite, et des vibrations plus rapides donnent une note plus aiguë."
+        ],
+        [
+          "Avec un téléphone à ficelle fait de deux gobelets, comment ta voix arrive-t-elle à ton ami ?",
+          "les vibrations voyagent le long de la ficelle tendue",
+          "l’électricité passe dans la ficelle",
+          "les gobelets s’envoient de la lumière",
+          "Ta voix fait vibrer le gobelet. Les vibrations parcourent la ficelle tendue jusqu’à l’autre gobelet."
+        ],
+        [
+          "Quel matériau rend le mieux une pièce plus calme ?",
+          "des rideaux épais et doux",
+          "des vitres nues",
+          "des plaques de métal",
+          "Les matériaux doux et épais absorbent le son au lieu de le renvoyer. La pièce devient donc plus calme."
+        ],
+        [
+          "Quand tu parles, qu’est-ce qui vibre dans ta gorge ?",
+          "tes cordes vocales",
+          "tes cheveux",
+          "tes genoux",
+          "L’air qui vient des poumons fait vibrer tes cordes vocales, et cela produit le son de ta voix."
+        ],
+        [
+          "Quelle partie à l’intérieur de l’oreille se met à vibrer quand le son arrive ?",
+          "le tympan",
+          "la langue",
+          "le nez",
+          "Le tympan est une fine peau dans l’oreille. Le son le fait vibrer, et le cerveau transforme cela en ce que tu entends."
+        ],
+        [
+          "Quel animal trouve son chemin dans le noir en écoutant les échos ?",
+          "la chauve-souris",
+          "la vache",
+          "l’escargot",
+          "La chauve-souris pousse des cris très aigus et écoute les échos qui reviennent des insectes et des murs."
+        ],
+        [
+          "Un chien entend un sifflet spécial, mais toi, tu n’entends rien. Pourquoi ?",
+          "le son est trop aigu pour les humains",
+          "le son est trop faible pour tout le monde",
+          "le sifflet fait de la lumière, pas du son",
+          "Les chiens entendent des sons bien plus aigus que nous. La note du sifflet est trop haute pour nos oreilles."
+        ],
+        [
+          "Le son peut-il traverser des objets solides comme une table ?",
+          "oui, pose ton oreille sur la table et tapote",
+          "non, seulement l’air",
+          "seulement si la table est mouillée",
+          "Le son voyage très bien dans les solides. L’oreille posée sur la table, un petit tapotement paraît fort."
+        ],
+        [
+          "Quelle unité sert à mesurer la force d’un son ?",
+          "le décibel",
+          "le mètre",
+          "le kilogramme",
+          "On mesure l’intensité d’un son en décibels (dB). Un chuchotement fait environ 30 dB, un concert de rock plus de 100 dB."
+        ],
+        [
+          "Quand tu joues de la flûte à bec, qu’est-ce qui vibre pour faire le son ?",
+          "l’air à l’intérieur",
+          "le sol",
+          "tes chaussures",
+          "Quand tu souffles dans la flûte, l’air du tube se met à vibrer. Boucher les trous change la note."
+        ],
+        [
+          "Le son va-t-il plus vite dans l’eau ou dans l’air ?",
+          "dans l’eau",
+          "dans l’air",
+          "il ne traverse pas du tout l’eau",
+          "Le son va environ quatre fois plus vite dans l’eau que dans l’air, car les particules de l’eau sont plus serrées."
+        ],
+        [
+          "Un triangle continue de sonner après qu’on l’a frappé. Comment arrêter vite le son ?",
+          "le tenir avec la main pour arrêter les vibrations",
+          "le frapper encore plus fort",
+          "souffler dessus",
+          "En touchant le triangle, on l’empêche de vibrer. Sans vibration, il n’y a pas de son."
+        ],
+        [
+          "Un éléphant gronde et une souris couine. Quel son est le plus grave ?",
+          "le grondement de l’éléphant",
+          "le couinement de la souris",
+          "ils ont la même hauteur",
+          "Les gros animaux font souvent des vibrations lentes et des sons graves. Le cri de la souris est aigu."
+        ],
+        [
+          "Comment le son d’une cloche se propage-t-il ?",
+          "dans toutes les directions, comme des ronds dans l’eau",
+          "seulement tout droit vers le ciel",
+          "seulement vers la personne qui a sonné",
+          "Les vibrations du son partent dans toutes les directions, un peu comme les ronds quand on jette un caillou dans l’eau."
+        ],
+        [
+          "Quelle corde de guitare donne la note la plus aiguë : une fine ou une épaisse ?",
+          "la corde fine",
+          "la corde épaisse",
+          "les deux donnent la même note",
+          "Une corde fine est plus légère : elle vibre plus vite et donne une note plus aiguë."
+        ],
+        [
+          "Ton ami te parle à travers un long tube en carton. Pourquoi est-ce plus fort ?",
+          "le tube empêche le son de s’étaler",
+          "le tube fabrique du son tout seul",
+          "le tube change le son en lumière",
+          "Dans le tube, le son ne peut pas partir dans toutes les directions. Une plus grande partie arrive donc à ton oreille."
         ]
       ],
       "yo": [
@@ -304,6 +747,146 @@
           "bí ìró ṣe ga tó (volume)",
           "ìyára",
           "Ìpele ohùn ló ń sọ bí ìró ṣe wà lókè tàbí nísàlẹ̀. Volume ń sọ bí ìró ṣe ga tó."
+        ],
+        [
+          "Nígbà ìjì, o máa ń rí mànàmáná kí o tó gbọ́ àrá. Kí ló dé?",
+          "ìmọ́lẹ̀ ń yára ju ìró lọ gan-an",
+          "ìró ń yára ju ìmọ́lẹ̀ lọ",
+          "àrá máa ń wáyé lẹ́yìn náà",
+          "Mànàmáná àti àrá ń ṣẹlẹ̀ lẹ́ẹ̀kan náà, ṣùgbọ́n ìmọ́lẹ̀ ń dé ọ̀dọ̀ rẹ lójú ẹsẹ̀, ìró sì ń pẹ́ díẹ̀."
+        ],
+        [
+          "Kí ni àtúnró (echo)?",
+          "ìró tí ó ń padà wá lẹ́yìn tí ó kọlu ohun líle",
+          "ìró tí ó rọlẹ̀ gan-an",
+          "ìró tí ẹranko nìkan ń gbọ́",
+          "Nígbà tí ìró bá kọlu ohun líle bí àpáta tàbí ògiri, ó máa ń padà wá, o sì máa ń gbọ́ ọ lẹ́ẹ̀kan sí i lẹ́yìn ìṣẹ́jú díẹ̀."
+        ],
+        [
+          "O lu ìlù ní agbára sí i. Kí ló ṣẹlẹ̀ sí ìró rẹ̀?",
+          "ó ga sí i (ó pariwo sí i)",
+          "ohùn rẹ̀ lọ sókè",
+          "ó pòórá",
+          "Lílù tó lágbára ń mú awọ ìlù gbọ̀n gidigidi, èyí sì ń mú ìró tó pariwo jù wá."
+        ],
+        [
+          "Ìlù ńlá àti ìlù kékeré: èwo ló ní ohùn ìsàlẹ̀ jù?",
+          "ìlù ńlá",
+          "ìlù kékeré",
+          "ohùn wọn máa ń jọra nígbà gbogbo",
+          "Awọ ìlù ńlá ń gbọ̀n díẹ̀díẹ̀ ju ti ìlù kékeré lọ, gbígbọ̀n díẹ̀díẹ̀ sì ń mú ohùn ìsàlẹ̀ wá."
+        ],
+        [
+          "O fa okùn gìtá le sí i. Kí ló ṣẹlẹ̀ sí ohùn rẹ̀?",
+          "ohùn rẹ̀ lọ sókè",
+          "ohùn rẹ̀ lọ sílẹ̀",
+          "kò dún mọ́ rárá",
+          "Okùn tí a fà le ń gbọ̀n kíákíá, gbígbọ̀n kíákíá sì ń mú ohùn òkè wá."
+        ],
+        [
+          "Nínú fóònù okùn tí a fi ife méjì ṣe, báwo ni ohùn rẹ ṣe ń dé ọ̀dọ̀ ọ̀rẹ́ rẹ?",
+          "gbígbọ̀n ń rìn gba okùn tí a fà le",
+          "iná mànàmáná ń ṣàn gba inú okùn",
+          "àwọn ife ń tan ìmọ́lẹ̀ sí ara wọn",
+          "Ohùn rẹ ń mú ife gbọ̀n. Gbígbọ̀n náà ń rìn gba okùn tí a fà le dé ife kejì."
+        ],
+        [
+          "Ohun èlò wo ló dára jùlọ láti dín ariwo inú yàrá kù?",
+          "aṣọ ìkélé tó nípọn, tó sì rọ̀",
+          "fèrèsé gíláàsì lásán",
+          "pátákó irin",
+          "Ohun tó rọ̀, tó sì nípọn ń mu ìró dípò kí ó jẹ́ kí ó máa padà, nítorí náà ariwo yàrá ń dín kù."
+        ],
+        [
+          "Nígbà tí o bá ń sọ̀rọ̀, kí ló ń gbọ̀n nínú ọ̀fun rẹ?",
+          "tán-án ohùn rẹ (vocal cords)",
+          "irun rẹ",
+          "orúnkún rẹ",
+          "Afẹ́fẹ́ láti inú ẹ̀dọ̀fóró ń mú tán-án ohùn rẹ gbọ̀n, èyí sì ń mú ohùn rẹ jáde."
+        ],
+        [
+          "Apá wo nínú etí rẹ ló máa ń gbọ̀n nígbà tí ìró bá dé ọ̀dọ̀ rẹ̀?",
+          "ìlù etí rẹ (eardrum)",
+          "ahọ́n rẹ",
+          "imú rẹ",
+          "Ìlù etí jẹ́ awọ tín-ín-rín nínú etí. Ìró ń mú un gbọ̀n, ọpọlọ rẹ sì ń sọ ọ́ di ohun tí o gbọ́."
+        ],
+        [
+          "Ẹranko wo ló ń rí ọ̀nà nínú òkùnkùn nípa fífetí sí àtúnró?",
+          "àdán",
+          "màálù",
+          "ìgbín",
+          "Àdán ń ké ohùn òkè gan-an, ó sì ń fetí sí àtúnró tó ń padà wá láti ara kòkòrò àti ògiri."
+        ],
+        [
+          "Ajá ń gbọ́ fèrè pàtàkì kan, ṣùgbọ́n ìwọ kò gbọ́ nǹkan kan. Kí ló dé?",
+          "ohùn rẹ̀ ga sókè jù fún ènìyàn láti gbọ́",
+          "ìró rẹ̀ rọlẹ̀ jù fún gbogbo ènìyàn",
+          "fèrè náà ń ṣe ìmọ́lẹ̀, kì í ṣe ìró",
+          "Ajá lè gbọ́ ohùn òkè ju ènìyàn lọ gan-an. Ohùn fèrè náà ga ju ohun tí etí ènìyàn lè gbọ́ lọ."
+        ],
+        [
+          "Ṣé ìró lè rìn gba inú ohun líle bí tábìlì?",
+          "bẹ́ẹ̀ni, fi etí rẹ lé tábìlì, kí o sì kàn án",
+          "rárá, inú afẹ́fẹ́ nìkan",
+          "kìkì tí tábìlì bá tutù",
+          "Ìró ń rìn dáadáa gba inú ohun líle. Tí etí rẹ bá wà lórí tábìlì, kíkàn díẹ̀ máa dún gan-an."
+        ],
+        [
+          "Ìwọ̀n wo la fi ń wọn bí ìró ṣe ga tó?",
+          "désíbẹ́ẹ̀lì (decibel)",
+          "mítà",
+          "kílógíráàmù",
+          "A ń wọn bí ìró ṣe ga tó ní désíbẹ́ẹ̀lì (dB). Ọ̀rọ̀ wúyẹ́wúyẹ́ jẹ́ nǹkan bí 30 dB, ariwo eré orin ńlá sì lè ju 100 dB lọ."
+        ],
+        [
+          "Nígbà tí o bá ń fun fèrè, kí ló ń gbọ̀n láti mú ìró jáde?",
+          "afẹ́fẹ́ inú rẹ̀",
+          "ilẹ̀",
+          "bàtà rẹ",
+          "Fífun fèrè ń mú afẹ́fẹ́ inú ọ̀pá rẹ̀ gbọ̀n. Dídi àwọn ihò rẹ̀ ń yí ohùn padà."
+        ],
+        [
+          "Ṣé ìró ń yára jù nínú omi àbí nínú afẹ́fẹ́?",
+          "nínú omi",
+          "nínú afẹ́fẹ́",
+          "kò lè gba inú omi rárá",
+          "Ìró ń yára ní ìlọ́po mẹ́rin nínú omi ju ti afẹ́fẹ́ lọ, nítorí pé àwọn èròjà inú omi sún mọ́ ara wọn jù."
+        ],
+        [
+          "Tráyángù ń dún lọ lẹ́yìn tí o lù ú. Báwo lo ṣe lè dá ìró rẹ̀ dúró kíákíá?",
+          "fi ọwọ́ rẹ dì í mú kí gbígbọ̀n rẹ̀ lè dúró",
+          "tún un lù ní agbára sí i",
+          "fẹ́ afẹ́fẹ́ sí i",
+          "Fífọwọ́ kan tráyángù ń dá gbígbọ̀n rẹ̀ dúró, tí kò bá sì sí gbígbọ̀n, kò sí ìró."
+        ],
+        [
+          "Erin ń dún gùrùgùrù, eku sì ń ké. Ìró wo ló ní ohùn ìsàlẹ̀ jù?",
+          "ìró erin",
+          "ìró eku",
+          "ohùn wọn wà ní ìpele kan náà",
+          "Ẹranko ńlá sábà máa ń gbọ̀n díẹ̀díẹ̀, wọ́n sì ń ní ohùn ìsàlẹ̀. Ohùn eku wà lókè."
+        ],
+        [
+          "Báwo ni ìró agogo tí ń dún ṣe ń tàn ká?",
+          "sí gbogbo ọ̀nà, bí ìgbì lórí adágún omi",
+          "sókè ọ̀run tààrà nìkan",
+          "sọ́dọ̀ ẹni tí ó lù ú nìkan",
+          "Gbígbọ̀n ìró ń tàn ká sí gbogbo ọ̀nà, bí ìgbì tí ó ń wáyé nígbà tí òkúta bá bọ́ sínú omi."
+        ],
+        [
+          "Okùn gìtá wo ló ní ohùn òkè jù: èyí tí ó tín-ín-rín àbí èyí tí ó nípọn?",
+          "okùn tí ó tín-ín-rín",
+          "okùn tí ó nípọn",
+          "ohùn wọn jọra",
+          "Okùn tín-ín-rín fúyẹ́, nítorí náà ó ń gbọ̀n kíákíá, ó sì ń ní ohùn òkè."
+        ],
+        [
+          "Ọ̀rẹ́ rẹ ń bá ọ sọ̀rọ̀ gba inú ọ̀pá páálí gígùn kan. Kí ló dé tí ó fi ń dún gan-an?",
+          "ọ̀pá náà kò jẹ́ kí ìró tàn ká",
+          "ọ̀pá náà ń dá ìró mìíràn sílẹ̀ fúnra rẹ̀",
+          "ọ̀pá náà ń sọ ìró di ìmọ́lẹ̀",
+          "Nínú ọ̀pá, ìró kò lè tàn ká sí gbogbo ọ̀nà, nítorí náà púpọ̀ nínú rẹ̀ ló ń dé etí rẹ."
         ]
       ]
     }

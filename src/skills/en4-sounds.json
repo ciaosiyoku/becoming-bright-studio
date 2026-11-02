@@ -1,0 +1,274 @@
+{
+  "id": "en4-sounds",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 102,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "fruit-apple",
+      "bus",
+      "cake",
+      "animal-dolphin",
+      "animal-elephant",
+      "animal-frog",
+      "fruit-grapes",
+      "house",
+      "key",
+      "fruit-lemon",
+      "moon",
+      "animal-octopus",
+      "animal-penguin",
+      "animal-rabbit",
+      "sun",
+      "teddy",
+      "umbrella",
+      "fruit-watermelon",
+      "animal-zebra",
+      "gift",
+      "animal-lion",
+      "animal-mouse",
+      "bell",
+      "animal-kangaroo",
+      "deer",
+      "heart",
+      "radio",
+      "animal-panda",
+      "animal-seal",
+      "animal-turtle"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which letter does apple start with?",
+          "a",
+          "m",
+          "t",
+          "Apple starts with the a sound: a-a-apple."
+        ],
+        [
+          "Which letter does bus start with?",
+          "b",
+          "s",
+          "m",
+          "Bus starts with the b sound: b-b-bus."
+        ],
+        [
+          "Which letter does cake start with?",
+          "c",
+          "m",
+          "t",
+          "Cake starts with the c sound: c-c-cake."
+        ],
+        [
+          "Which letter does dolphin start with?",
+          "d",
+          "r",
+          "m",
+          "Dolphin starts with the d sound: d-d-dolphin."
+        ],
+        [
+          "Which letter does elephant start with?",
+          "e",
+          "b",
+          "s",
+          "Elephant starts with the e sound: e-e-elephant."
+        ],
+        [
+          "Which letter does frog start with?",
+          "f",
+          "h",
+          "n",
+          "Frog starts with the f sound: f-f-frog."
+        ],
+        [
+          "Which letter does grapes start with?",
+          "g",
+          "b",
+          "l",
+          "Grapes starts with the g sound: g-g-grapes."
+        ],
+        [
+          "Which letter does house start with?",
+          "h",
+          "f",
+          "t",
+          "House starts with the h sound: h-h-house."
+        ],
+        [
+          "Which letter does key start with?",
+          "k",
+          "p",
+          "n",
+          "Key starts with the k sound: k-k-key."
+        ],
+        [
+          "Which letter does lemon start with?",
+          "l",
+          "s",
+          "b",
+          "Lemon starts with the l sound: l-l-lemon."
+        ],
+        [
+          "Which letter does moon start with?",
+          "m",
+          "t",
+          "r",
+          "Moon starts with the m sound: m-m-moon."
+        ],
+        [
+          "Which letter does octopus start with?",
+          "o",
+          "p",
+          "s",
+          "Octopus starts with the o sound: o-o-octopus."
+        ],
+        [
+          "Which letter does penguin start with?",
+          "p",
+          "s",
+          "l",
+          "Penguin starts with the p sound: p-p-penguin."
+        ],
+        [
+          "Which letter does rabbit start with?",
+          "r",
+          "m",
+          "f",
+          "Rabbit starts with the r sound: r-r-rabbit."
+        ],
+        [
+          "Which letter does sun start with?",
+          "s",
+          "t",
+          "b",
+          "Sun starts with the s sound: s-s-sun."
+        ],
+        [
+          "Which letter does teddy start with?",
+          "t",
+          "l",
+          "m",
+          "Teddy starts with the t sound: t-t-teddy."
+        ],
+        [
+          "Which letter does umbrella start with?",
+          "u",
+          "m",
+          "b",
+          "Umbrella starts with the u sound: u-u-umbrella."
+        ],
+        [
+          "Which letter does watermelon start with?",
+          "w",
+          "n",
+          "f",
+          "Watermelon starts with the w sound: w-w-watermelon."
+        ],
+        [
+          "Which letter does zebra start with?",
+          "z",
+          "t",
+          "b",
+          "Zebra starts with the z sound: z-z-zebra."
+        ],
+        [
+          "Which letter does gift start with?",
+          "g",
+          "l",
+          "m",
+          "Gift starts with the g sound: g-g-gift."
+        ],
+        [
+          "Which letter does lion start with?",
+          "l",
+          "b",
+          "t",
+          "Lion starts with the l sound: l-l-lion."
+        ],
+        [
+          "Which letter does mouse start with?",
+          "m",
+          "h",
+          "d",
+          "Mouse starts with the m sound: m-m-mouse."
+        ],
+        [
+          "Which letter does bell start with?",
+          "b",
+          "f",
+          "r",
+          "Bell starts with the b sound: b-b-bell."
+        ],
+        [
+          "Which letter does kangaroo start with?",
+          "k",
+          "s",
+          "l",
+          "Kangaroo starts with the k sound: k-k-kangaroo."
+        ],
+        [
+          "Which letter does deer start with?",
+          "d",
+          "f",
+          "m",
+          "Deer starts with the d sound: d-d-deer."
+        ],
+        [
+          "Which letter does heart start with?",
+          "h",
+          "t",
+          "l",
+          "Heart starts with the h sound: h-h-heart."
+        ],
+        [
+          "Which letter does radio start with?",
+          "r",
+          "d",
+          "n",
+          "Radio starts with the r sound: r-r-radio."
+        ],
+        [
+          "Which letter does panda start with?",
+          "p",
+          "m",
+          "h",
+          "Panda starts with the p sound: p-p-panda."
+        ],
+        [
+          "Which letter does seal start with?",
+          "s",
+          "r",
+          "b",
+          "Seal starts with the s sound: s-s-seal."
+        ],
+        [
+          "Which letter does turtle start with?",
+          "t",
+          "f",
+          "m",
+          "Turtle starts with the t sound: t-t-turtle."
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "i": 0,
+    "q_en": "Which letter does apple start with?",
+    "answer_en": "a",
+    "why_en": "Apple starts with the a sound: a-a-apple."
+  },
+  "text": {
+    "en": {
+      "title": "First sounds",
+      "teach": "Say the word slowly and listen to the very first sound. Sun starts with s: s-s-sun.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

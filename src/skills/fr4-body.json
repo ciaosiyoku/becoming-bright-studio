@@ -1,0 +1,274 @@
+{
+  "id": "fr4-body",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 7,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "girl",
+      "letters",
+      "girl",
+      "speech",
+      "cake",
+      "letters",
+      "tv",
+      "speech",
+      "music",
+      "letters",
+      "gloves",
+      "speech",
+      "shoe",
+      "letters",
+      "footprints",
+      "girl",
+      "speech",
+      "shoe",
+      "letters",
+      "girl",
+      "speech",
+      "fruit-apple",
+      "letters",
+      "cookie",
+      "speech",
+      "gloves",
+      "letters",
+      "anatomical-heart",
+      "backpack",
+      "speech"
+    ],
+    "bank": {
+      "en": [
+        [
+          "How do you say ‘head’ in French?",
+          "la tête",
+          "la main",
+          "le pied",
+          "‘Head’ in French is ‘la tête’."
+        ],
+        [
+          "What does ‘la tête’ mean?",
+          "head",
+          "foot",
+          "hand",
+          "‘La tête’ means head."
+        ],
+        [
+          "How do you say ‘nose’ in French?",
+          "le nez",
+          "la bouche",
+          "le dos",
+          "‘Nose’ in French is ‘le nez’."
+        ],
+        [
+          "What does ‘le nez’ mean?",
+          "nose",
+          "ear",
+          "leg",
+          "‘Le nez’ means nose."
+        ],
+        [
+          "How do you say ‘mouth’ in French?",
+          "la bouche",
+          "le nez",
+          "la jambe",
+          "‘Mouth’ in French is ‘la bouche’. We eat with our mouth."
+        ],
+        [
+          "What does ‘la bouche’ mean?",
+          "mouth",
+          "hair",
+          "arm",
+          "‘La bouche’ means mouth."
+        ],
+        [
+          "How do you say ‘eyes’ in French?",
+          "les yeux",
+          "les pieds",
+          "les dents",
+          "‘Eyes’ in French is ‘les yeux’. We see with our eyes."
+        ],
+        [
+          "What does ‘les yeux’ mean?",
+          "eyes",
+          "ears",
+          "hands",
+          "‘Les yeux’ means eyes."
+        ],
+        [
+          "How do you say ‘ears’ in French?",
+          "les oreilles",
+          "les yeux",
+          "les bras",
+          "‘Ears’ in French is ‘les oreilles’. We hear with our ears."
+        ],
+        [
+          "What does ‘les oreilles’ mean?",
+          "ears",
+          "teeth",
+          "feet",
+          "‘Les oreilles’ means ears."
+        ],
+        [
+          "How do you say ‘hand’ in French?",
+          "la main",
+          "la tête",
+          "le ventre",
+          "‘Hand’ in French is ‘la main’."
+        ],
+        [
+          "What does ‘la main’ mean?",
+          "hand",
+          "nose",
+          "tummy",
+          "‘La main’ means hand."
+        ],
+        [
+          "How do you say ‘foot’ in French?",
+          "le pied",
+          "le bras",
+          "la bouche",
+          "‘Foot’ in French is ‘le pied’."
+        ],
+        [
+          "What does ‘le pied’ mean?",
+          "foot",
+          "head",
+          "mouth",
+          "‘Le pied’ means foot."
+        ],
+        [
+          "How do you say ‘feet’ in French?",
+          "les pieds",
+          "les mains",
+          "les yeux",
+          "‘Feet’ in French is ‘les pieds’."
+        ],
+        [
+          "How do you say ‘arm’ in French?",
+          "le bras",
+          "le nez",
+          "la tête",
+          "‘Arm’ in French is ‘le bras’."
+        ],
+        [
+          "What does ‘le bras’ mean?",
+          "arm",
+          "eye",
+          "back",
+          "‘Le bras’ means arm."
+        ],
+        [
+          "How do you say ‘leg’ in French?",
+          "la jambe",
+          "la main",
+          "le nez",
+          "‘Leg’ in French is ‘la jambe’."
+        ],
+        [
+          "What does ‘la jambe’ mean?",
+          "leg",
+          "head",
+          "mouth",
+          "‘La jambe’ means leg."
+        ],
+        [
+          "How do you say ‘hair’ in French?",
+          "les cheveux",
+          "les dents",
+          "les oreilles",
+          "‘Hair’ in French is ‘les cheveux’."
+        ],
+        [
+          "What does ‘les cheveux’ mean?",
+          "hair",
+          "eyes",
+          "hands",
+          "‘Les cheveux’ means hair."
+        ],
+        [
+          "How do you say ‘teeth’ in French?",
+          "les dents",
+          "les cheveux",
+          "les pieds",
+          "‘Teeth’ in French is ‘les dents’. We bite an apple with our teeth."
+        ],
+        [
+          "What does ‘les dents’ mean?",
+          "teeth",
+          "ears",
+          "legs",
+          "‘Les dents’ means teeth."
+        ],
+        [
+          "How do you say ‘tummy’ in French?",
+          "le ventre",
+          "le dos",
+          "la tête",
+          "‘Tummy’ in French is ‘le ventre’."
+        ],
+        [
+          "What does ‘le ventre’ mean?",
+          "tummy",
+          "arm",
+          "nose",
+          "‘Le ventre’ means tummy."
+        ],
+        [
+          "How do you say ‘finger’ in French?",
+          "le doigt",
+          "le pied",
+          "l’œil",
+          "‘Finger’ in French is ‘le doigt’."
+        ],
+        [
+          "What does ‘le doigt’ mean?",
+          "finger",
+          "foot",
+          "hair",
+          "‘Le doigt’ means finger."
+        ],
+        [
+          "How do you say ‘heart’ in French?",
+          "le cœur",
+          "le nez",
+          "le bras",
+          "‘Heart’ in French is ‘le cœur’."
+        ],
+        [
+          "How do you say ‘back’ in French?",
+          "le dos",
+          "le ventre",
+          "la bouche",
+          "‘Back’ in French is ‘le dos’. We carry a backpack on our back."
+        ],
+        [
+          "What does ‘le genou’ mean?",
+          "knee",
+          "hand",
+          "nose",
+          "‘Le genou’ means knee."
+        ]
+      ]
+    }
+  },
+  "emoji": "footprints",
+  "example": {
+    "i": 0,
+    "q_en": "How do you say ‘head’ in French?",
+    "answer_en": "la tête",
+    "why_en": "‘Head’ in French is ‘la tête’."
+  },
+  "text": {
+    "en": {
+      "title": "My body in French",
+      "teach": "Parts of the body in French: ‘la tête’ is the head, ‘le nez’ is the nose and ‘la main’ is the hand. Touch your head: la tête !",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

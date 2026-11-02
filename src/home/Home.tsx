@@ -1,10 +1,13 @@
 import { ArrowLeft } from 'lucide-react'
 import { useState } from 'react'
+import { subjectState } from '@/app/access'
 import { activeChild, updateChild } from '@/app/state'
+import { useToday } from '@/shared/useToday'
 import { useStore } from '@/app/store'
 import { backupDue } from '@/data/backup'
 import { useLang, useT } from '@/i18n'
 import { Emoji } from '@/shared/Emoji'
+import { suitsAge } from '@/skills/ages'
 import { bySubject, skillById, skillText, SUBJECT_EMOJI, SUBJECTS } from '@/skills/index'
 import type { Subject } from '@/skills/types'
 import './Home.css'
@@ -19,7 +22,11 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
   const lang = useLang()
   const { state, update } = useStore()
   const child = activeChild(state)!
+  /** The skills of a subject for this child's age (all of them before an age is set). */
+  const forChild = (subject: Subject) => bySubject(subject).filter((def) => suitsAge(def, child.age))
   const [now] = useState(Date.now)
+  const today = useToday()
+  const stateOf = (subject: Subject) => subjectState(state.family, child, subject, today)
   const current = child.current ? skillById(child.current) : undefined
   const [choosing, setChoosing] = useState<Subject | 'subjects' | null>(current ? null : 'subjects')
   const choose = (id: string) => {
@@ -34,7 +41,16 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
           <Emoji name="memo" size={32} /> {T.home.backupDue}
         </button>
       )}
-      {choosing === null && current && (
+      {choosing === null && current && stateOf(current.subject) !== 'open' && (
+        <section className="card todays">
+          <Emoji name="locked" size={100} />
+          <p>{T.access.subjectLocked(state.family.rewards.lessonsToOpen)}</p>
+          <button className="big" onClick={() => setChoosing('subjects')}>
+            {T.home.change}
+          </button>
+        </section>
+      )}
+      {choosing === null && current && stateOf(current.subject) === 'open' && (
         <section className="card todays">
           <h2>{T.home.yourSkill}</h2>
           <Emoji name={child.skills[current.id]?.mastered ? 'tree' : current.emoji} size={120} />
@@ -62,15 +78,17 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
             )}
             <h2>{T.home.chooseSubject}</h2>
           </div>
+          <p className="muted">{child.age ? T.home.forAge(child.age) : T.home.allAges}</p>
           <div className="tiles">
-            {SUBJECTS.map((subject) => {
-              const skills = bySubject(subject)
+            {SUBJECTS.filter((subject) => forChild(subject).length > 0 && stateOf(subject) !== 'hidden').map((subject) => {
+              const skills = forChild(subject)
               const learnt = skills.filter((s) => child.skills[s.id]?.mastered).length
+              const locked = stateOf(subject) === 'locked'
               return (
-                <button key={subject} className="tile" onClick={() => setChoosing(subject)}>
-                  <Emoji name={SUBJECT_EMOJI[subject]} size={56} />
+                <button key={subject} className={`tile ${locked ? 'locked' : ''}`} disabled={locked} onClick={() => setChoosing(subject)}>
+                  <Emoji name={locked ? 'locked' : SUBJECT_EMOJI[subject]} size={56} />
                   <span>{T.home.subjects[subject]}</span>
-                  <small>{T.home.learntOf(learnt, skills.length)}</small>
+                  <small>{locked ? T.access.subjectLocked(state.family.rewards.lessonsToOpen) : T.home.learntOf(learnt, skills.length)}</small>
                 </button>
               )
             })}
@@ -87,7 +105,7 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
           </div>
           <p className="muted">{T.home.pickSkill}</p>
           <div className="path">
-            {bySubject(choosing).map((def) => {
+            {forChild(choosing).map((def) => {
               const learnt = Boolean(child.skills[def.id]?.mastered)
               return (
                 <button key={def.id} className={`path-skill ${learnt ? 'learnt' : ''} ${def.id === child.current ? 'open' : ''}`} onClick={() => choose(def.id)}>

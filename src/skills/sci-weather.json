@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "science",
   "stage": 1,
+  "ages": [
+    "6-7"
+  ],
   "order": 9,
   "params": {
     "emojis": [
@@ -15,7 +18,27 @@
       "sun",
       "beach",
       "seedling",
-      "globe"
+      "globe",
+      "tree",
+      "sun",
+      "sun-rain",
+      "calendar",
+      "beach",
+      "storm",
+      "house",
+      "road",
+      "snowman",
+      "sun-small-cloud",
+      "cloud",
+      "snowflake",
+      "storm",
+      "globe",
+      "tv",
+      "snow",
+      "desert",
+      "sun",
+      "seedling",
+      "wave"
     ],
     "bank": {
       "en": [
@@ -88,6 +111,146 @@
           "the Sun turns off in winter",
           "clouds make it winter",
           "The Earth leans to one side. When our part leans towards the Sun, we have summer."
+        ],
+        [
+          "What is wind?",
+          "moving air",
+          "falling water",
+          "tiny bits of ice",
+          "Wind is air that is moving. You cannot see it, but you can see it bend trees and blow leaves."
+        ],
+        [
+          "Which tool tells you how hot or cold it is?",
+          "a thermometer",
+          "a ruler",
+          "a clock",
+          "A thermometer measures temperature: how hot or cold something is."
+        ],
+        [
+          "The Sun shines while it is raining. What might you see in the sky?",
+          "a rainbow",
+          "snowflakes",
+          "the stars",
+          "Sunlight shines through the raindrops and splits into colours. That makes a rainbow."
+        ],
+        [
+          "Which season comes after winter?",
+          "spring",
+          "summer",
+          "autumn",
+          "After the cold winter comes spring, when days get longer and plants start to grow again."
+        ],
+        [
+          "In which season are the days longest?",
+          "summer",
+          "winter",
+          "autumn",
+          "In summer the Sun rises early and sets late, so there are many hours of daylight."
+        ],
+        [
+          "What is the bright flash in the sky during a thunderstorm called?",
+          "lightning",
+          "a rainbow",
+          "a snowflake",
+          "Lightning is a giant spark of electricity in the sky. The loud bang after it is thunder."
+        ],
+        [
+          "Where is the safest place to be in a thunderstorm?",
+          "inside a building",
+          "under a tall tree",
+          "on top of a hill",
+          "Lightning often strikes tall things and high places. Staying indoors keeps you safe."
+        ],
+        [
+          "What do we call a cloud that sits low on the ground and makes it hard to see far?",
+          "fog",
+          "sunshine",
+          "a rainbow",
+          "Fog is a cloud of tiny water drops close to the ground. It makes everything look grey and blurry."
+        ],
+        [
+          "What happens to a snowman when the weather gets warm?",
+          "it melts",
+          "it grows bigger",
+          "it turns to stone",
+          "Snow is frozen water. When it gets warm, the snow melts back into water."
+        ],
+        [
+          "What kind of day is best for flying a kite?",
+          "a windy day",
+          "a day with no wind at all",
+          "a still, foggy day",
+          "A kite needs moving air to push it up and keep it high in the sky."
+        ],
+        [
+          "What do big, dark grey clouds often bring?",
+          "rain",
+          "a hot, sunny day",
+          "a clear blue sky",
+          "Dark clouds are full of water drops. When the drops get heavy, they fall as rain."
+        ],
+        [
+          "Which animal sleeps through the cold winter?",
+          "a hedgehog",
+          "a cow",
+          "a horse",
+          "Hedgehogs find a cosy nest of leaves and sleep through the winter. This long sleep is called hibernation."
+        ],
+        [
+          "What is hail?",
+          "small balls of ice falling from clouds",
+          "tiny stones blown up from the ground",
+          "leaves falling from trees",
+          "Hail forms inside tall storm clouds, where raindrops freeze into little balls of ice."
+        ],
+        [
+          "Some hot countries have two main seasons. What are they?",
+          "a rainy season and a dry season",
+          "a snow season and an ice season",
+          "a day season and a night season",
+          "Near the middle of the Earth it is warm all year. Instead of four seasons, there is a wet time and a dry time."
+        ],
+        [
+          "What tells you what the weather will probably be like tomorrow?",
+          "a weather forecast",
+          "a cookbook",
+          "a storybook",
+          "Weather experts study the sky and the clouds and then share a forecast on TV, radio or the internet."
+        ],
+        [
+          "Why should you never walk on a frozen pond?",
+          "the ice may be thin and break",
+          "the ice is too hot",
+          "the ice is sticky like glue",
+          "Ice on a pond can look strong but be thin. It could crack and you would fall into icy water."
+        ],
+        [
+          "What is the weather like in a desert most of the time?",
+          "very dry, with hardly any rain",
+          "rainy every single day",
+          "snowy all year",
+          "A desert gets very little rain. That is why it is so dry and few plants grow there."
+        ],
+        [
+          "Why must you never look straight at the Sun?",
+          "it can hurt your eyes",
+          "it makes it start raining",
+          "it switches the Sun off",
+          "The Sun is so bright that looking straight at it can damage your eyes, even for a short time."
+        ],
+        [
+          "Which of these is a sign that spring has arrived?",
+          "new buds and flowers appear",
+          "leaves fall off the trees",
+          "ponds freeze over",
+          "In spring the days get warmer and longer, so plants grow new buds, leaves and flowers."
+        ],
+        [
+          "What do we call it when so much rain falls that water covers the land?",
+          "a flood",
+          "a breeze",
+          "a sunset",
+          "When rivers get too full after heavy rain, water spills over and covers fields and roads. That is a flood."
         ]
       ],
       "de": [
@@ -160,6 +323,146 @@
           "weil die Sonne im Winter ausgeht",
           "weil die Wolken den Winter machen",
           "Die Erde ist geneigt. Wenn unser Teil zur Sonne hin geneigt ist, haben wir Sommer."
+        ],
+        [
+          "Was ist Wind?",
+          "Luft, die sich bewegt",
+          "Wasser, das herunterfällt",
+          "kleine Eisstückchen",
+          "Wind ist bewegte Luft. Du kannst ihn nicht sehen, aber er biegt Bäume und wirbelt Blätter herum."
+        ],
+        [
+          "Welches Gerät zeigt dir, wie warm oder kalt es ist?",
+          "ein Thermometer",
+          "ein Lineal",
+          "eine Uhr",
+          "Ein Thermometer misst die Temperatur, also wie warm oder kalt etwas ist."
+        ],
+        [
+          "Die Sonne scheint, während es regnet. Was siehst du dann vielleicht am Himmel?",
+          "einen Regenbogen",
+          "Schneeflocken",
+          "die Sterne",
+          "Das Sonnenlicht scheint durch die Regentropfen und teilt sich in Farben auf. So entsteht ein Regenbogen."
+        ],
+        [
+          "Welche Jahreszeit kommt nach dem Winter?",
+          "der Frühling",
+          "der Sommer",
+          "der Herbst",
+          "Nach dem kalten Winter kommt der Frühling. Die Tage werden länger und die Pflanzen wachsen wieder."
+        ],
+        [
+          "In welcher Jahreszeit sind die Tage am längsten?",
+          "im Sommer",
+          "im Winter",
+          "im Herbst",
+          "Im Sommer geht die Sonne früh auf und spät unter. Darum ist es viele Stunden hell."
+        ],
+        [
+          "Wie heißt der helle Lichtstrahl am Himmel bei einem Gewitter?",
+          "Blitz",
+          "Regenbogen",
+          "Schneeflocke",
+          "Ein Blitz ist ein riesiger elektrischer Funke am Himmel. Der laute Knall danach ist der Donner."
+        ],
+        [
+          "Wo bist du bei einem Gewitter am sichersten?",
+          "in einem Haus",
+          "unter einem hohen Baum",
+          "oben auf einem Hügel",
+          "Blitze schlagen oft in hohe Dinge und an hohen Stellen ein. Drinnen bist du sicher."
+        ],
+        [
+          "Wie nennt man eine Wolke, die tief am Boden liegt, sodass man nicht weit sehen kann?",
+          "Nebel",
+          "Sonnenschein",
+          "Regenbogen",
+          "Nebel ist eine Wolke aus winzigen Wassertröpfchen direkt am Boden. Alles sieht grau und verschwommen aus."
+        ],
+        [
+          "Was passiert mit einem Schneemann, wenn es warm wird?",
+          "er schmilzt",
+          "er wird größer",
+          "er wird zu Stein",
+          "Schnee ist gefrorenes Wasser. Wenn es warm wird, schmilzt der Schnee wieder zu Wasser."
+        ],
+        [
+          "An welchem Tag kannst du am besten einen Drachen steigen lassen?",
+          "an einem windigen Tag",
+          "an einem Tag ganz ohne Wind",
+          "an einem stillen, nebligen Tag",
+          "Ein Drachen braucht bewegte Luft, die ihn nach oben drückt und oben hält."
+        ],
+        [
+          "Was bringen große, dunkelgraue Wolken oft?",
+          "Regen",
+          "einen heißen, sonnigen Tag",
+          "einen klaren, blauen Himmel",
+          "Dunkle Wolken sind voller Wassertropfen. Wenn die Tropfen schwer werden, fallen sie als Regen."
+        ],
+        [
+          "Welches Tier schläft den kalten Winter über?",
+          "der Igel",
+          "die Kuh",
+          "das Pferd",
+          "Igel suchen sich ein gemütliches Nest aus Laub und schlafen den Winter über. Diesen langen Schlaf nennt man Winterschlaf."
+        ],
+        [
+          "Was ist Hagel?",
+          "kleine Eiskugeln, die aus den Wolken fallen",
+          "kleine Steine, die vom Boden hochgeweht werden",
+          "Blätter, die von den Bäumen fallen",
+          "Hagel entsteht in hohen Gewitterwolken. Dort frieren Regentropfen zu kleinen Eiskugeln."
+        ],
+        [
+          "Manche heißen Länder haben zwei Hauptjahreszeiten. Welche sind das?",
+          "eine Regenzeit und eine Trockenzeit",
+          "eine Schneezeit und eine Eiszeit",
+          "eine Tageszeit und eine Nachtzeit",
+          "In der Mitte der Erde ist es das ganze Jahr warm. Statt vier Jahreszeiten gibt es eine nasse und eine trockene Zeit."
+        ],
+        [
+          "Was sagt dir, wie das Wetter morgen wahrscheinlich wird?",
+          "der Wetterbericht",
+          "ein Kochbuch",
+          "ein Märchenbuch",
+          "Wetterfachleute beobachten Himmel und Wolken und sagen das Wetter dann im Fernsehen, im Radio oder im Internet vorher."
+        ],
+        [
+          "Warum solltest du nie auf einen zugefrorenen Teich gehen?",
+          "das Eis kann dünn sein und brechen",
+          "das Eis ist zu heiß",
+          "das Eis klebt wie Kleber",
+          "Eis auf einem Teich kann stark aussehen, aber dünn sein. Es könnte brechen, und du würdest ins eiskalte Wasser fallen."
+        ],
+        [
+          "Wie ist das Wetter in einer Wüste meistens?",
+          "sehr trocken, fast ohne Regen",
+          "jeden Tag regnerisch",
+          "das ganze Jahr verschneit",
+          "In der Wüste regnet es sehr wenig. Darum ist es so trocken und es wachsen nur wenige Pflanzen."
+        ],
+        [
+          "Warum darfst du nie direkt in die Sonne schauen?",
+          "es kann deinen Augen schaden",
+          "dann fängt es an zu regnen",
+          "dann geht die Sonne aus",
+          "Die Sonne ist so hell, dass ein direkter Blick hinein deinen Augen schaden kann, auch wenn er nur kurz ist."
+        ],
+        [
+          "Was davon zeigt dir, dass der Frühling da ist?",
+          "neue Knospen und Blumen kommen heraus",
+          "die Blätter fallen von den Bäumen",
+          "die Teiche frieren zu",
+          "Im Frühling werden die Tage wärmer und länger. Darum bekommen die Pflanzen neue Knospen, Blätter und Blüten."
+        ],
+        [
+          "Wie nennt man es, wenn so viel Regen fällt, dass Wasser das Land bedeckt?",
+          "Hochwasser",
+          "eine Brise",
+          "einen Sonnenuntergang",
+          "Wenn Flüsse nach starkem Regen zu voll werden, tritt das Wasser über die Ufer und bedeckt Felder und Straßen. Das ist Hochwasser."
         ]
       ],
       "fr": [
@@ -232,6 +535,146 @@
           "parce que le Soleil s’éteint en hiver",
           "parce que les nuages font l’hiver",
           "La Terre est inclinée. Quand notre côté penche vers le Soleil, c’est l’été."
+        ],
+        [
+          "Qu’est-ce que le vent ?",
+          "de l’air qui bouge",
+          "de l’eau qui tombe",
+          "des petits bouts de glace",
+          "Le vent, c’est de l’air qui bouge. On ne le voit pas, mais il fait plier les arbres et voler les feuilles."
+        ],
+        [
+          "Quel outil te dit s’il fait chaud ou froid ?",
+          "un thermomètre",
+          "une règle",
+          "une horloge",
+          "Un thermomètre mesure la température : il montre à quel point il fait chaud ou froid."
+        ],
+        [
+          "Le soleil brille pendant qu’il pleut. Que peux-tu voir dans le ciel ?",
+          "un arc-en-ciel",
+          "des flocons de neige",
+          "les étoiles",
+          "La lumière du soleil traverse les gouttes de pluie et se sépare en couleurs : c’est un arc-en-ciel."
+        ],
+        [
+          "Quelle saison vient après l’hiver ?",
+          "le printemps",
+          "l’été",
+          "l’automne",
+          "Après l’hiver froid vient le printemps : les jours rallongent et les plantes repoussent."
+        ],
+        [
+          "En quelle saison les journées sont-elles les plus longues ?",
+          "en été",
+          "en hiver",
+          "en automne",
+          "En été, le soleil se lève tôt et se couche tard : il fait jour pendant de longues heures."
+        ],
+        [
+          "Comment s’appelle le flash lumineux dans le ciel pendant un orage ?",
+          "un éclair",
+          "un arc-en-ciel",
+          "un flocon de neige",
+          "Un éclair est une énorme étincelle d’électricité dans le ciel. Le grand bruit qui suit, c’est le tonnerre."
+        ],
+        [
+          "Où est-on le plus en sécurité pendant un orage ?",
+          "à l’intérieur d’un bâtiment",
+          "sous un grand arbre",
+          "en haut d’une colline",
+          "La foudre tombe souvent sur ce qui est haut. À l’intérieur, tu es à l’abri."
+        ],
+        [
+          "Comment appelle-t-on un nuage posé au ras du sol qui empêche de voir loin ?",
+          "le brouillard",
+          "le soleil",
+          "un arc-en-ciel",
+          "Le brouillard est un nuage de minuscules gouttes d’eau près du sol. Tout paraît gris et flou."
+        ],
+        [
+          "Que devient un bonhomme de neige quand il fait plus chaud ?",
+          "il fond",
+          "il grandit",
+          "il se change en pierre",
+          "La neige, c’est de l’eau gelée. Quand il fait chaud, elle fond et redevient de l’eau."
+        ],
+        [
+          "Quel temps est le meilleur pour faire voler un cerf-volant ?",
+          "un jour de vent",
+          "un jour sans aucun vent",
+          "un jour calme et brumeux",
+          "Un cerf-volant a besoin d’air qui bouge pour monter et rester haut dans le ciel."
+        ],
+        [
+          "Qu’apportent souvent de gros nuages gris foncé ?",
+          "de la pluie",
+          "une journée chaude et ensoleillée",
+          "un ciel bleu et dégagé",
+          "Les nuages sombres sont pleins de gouttes d’eau. Quand elles deviennent lourdes, elles tombent en pluie."
+        ],
+        [
+          "Quel animal dort pendant tout l’hiver froid ?",
+          "le hérisson",
+          "la vache",
+          "le cheval",
+          "Le hérisson se fait un nid de feuilles bien douillet et dort tout l’hiver : c’est l’hibernation."
+        ],
+        [
+          "Qu’est-ce que la grêle ?",
+          "des petites boules de glace qui tombent des nuages",
+          "des petits cailloux soulevés du sol",
+          "des feuilles qui tombent des arbres",
+          "La grêle se forme dans les grands nuages d’orage : les gouttes de pluie y gèlent en petites boules de glace."
+        ],
+        [
+          "Certains pays chauds ont deux grandes saisons. Lesquelles ?",
+          "une saison des pluies et une saison sèche",
+          "une saison de neige et une saison de glace",
+          "une saison du jour et une saison de la nuit",
+          "Près du milieu de la Terre, il fait chaud toute l’année. Au lieu de quatre saisons, il y a une période humide et une période sèche."
+        ],
+        [
+          "Qu’est-ce qui te dit le temps qu’il fera sans doute demain ?",
+          "la météo",
+          "un livre de cuisine",
+          "un livre de contes",
+          "Des spécialistes observent le ciel et les nuages, puis annoncent la météo à la télé, à la radio ou sur Internet."
+        ],
+        [
+          "Pourquoi ne faut-il jamais marcher sur une mare gelée ?",
+          "la glace peut être fine et casser",
+          "la glace est trop chaude",
+          "la glace colle comme de la colle",
+          "La glace d’une mare peut sembler solide mais être fine. Elle pourrait se briser et tu tomberais dans l’eau glacée."
+        ],
+        [
+          "Quel temps fait-il le plus souvent dans un désert ?",
+          "très sec, presque sans pluie",
+          "pluvieux tous les jours",
+          "neigeux toute l’année",
+          "Il pleut très peu dans un désert. C’est pour cela qu’il est si sec et que peu de plantes y poussent."
+        ],
+        [
+          "Pourquoi ne faut-il jamais regarder le soleil en face ?",
+          "ça peut abîmer tes yeux",
+          "ça fait tomber la pluie",
+          "ça éteint le soleil",
+          "Le soleil est si lumineux que le regarder en face peut abîmer tes yeux, même peu de temps."
+        ],
+        [
+          "Lequel montre que le printemps est arrivé ?",
+          "de nouveaux bourgeons et des fleurs apparaissent",
+          "les feuilles tombent des arbres",
+          "les mares gèlent",
+          "Au printemps, les jours sont plus chauds et plus longs : les plantes font de nouveaux bourgeons, des feuilles et des fleurs."
+        ],
+        [
+          "Comment appelle-t-on le moment où il tombe tant de pluie que l’eau recouvre la terre ?",
+          "une inondation",
+          "une brise",
+          "un coucher de soleil",
+          "Quand les rivières débordent après de fortes pluies, l’eau recouvre les champs et les routes : c’est une inondation."
         ]
       ],
       "yo": [
@@ -304,6 +747,146 @@
           "oòrùn máa ń kú ní ìgbà òtútù",
           "ìkùukùu ló ń mú ìgbà òtútù wá",
           "Ilẹ̀ ayé tẹ̀ sí ẹ̀gbẹ́ kan. Nígbà tí apá tiwa bá tẹ̀ sí oòrùn, ìgbà ẹ̀ẹ̀rùn ni."
+        ],
+        [
+          "Kí ni atẹ́gùn?",
+          "afẹ́fẹ́ tó ń lọ",
+          "omi tó ń já bọ́",
+          "yìnyín kéékèèké",
+          "Atẹ́gùn ni afẹ́fẹ́ tó ń lọ. O kò lè rí i, ṣùgbọ́n o lè rí i tí ó ń tẹ igi, tí ó sì ń gbé ewé lọ."
+        ],
+        [
+          "Irinṣẹ́ wo ló ń sọ fún ọ bí ooru tàbí òtútù ṣe pọ̀ tó?",
+          "tẹ́mómítà",
+          "rúlà",
+          "aago",
+          "Tẹ́mómítà ń wọn bí nǹkan ṣe gbóná tàbí tutù tó."
+        ],
+        [
+          "Oòrùn ń ràn nígbà tí òjò ń rọ̀. Kí lo lè rí ní ojú ọ̀run?",
+          "òṣùmàrè",
+          "òjò dídì",
+          "ìràwọ̀",
+          "Ìmọ́lẹ̀ oòrùn ń kọjá nínú ẹ̀kán òjò, ó sì ń pín sí àwọ̀ oríṣiríṣi. Ìyẹn ló ń dá òṣùmàrè."
+        ],
+        [
+          "Ìgbà wo ló ń tẹ̀lé ìgbà òtútù?",
+          "ìgbà ìrúwé",
+          "ìgbà ẹ̀ẹ̀rùn",
+          "ìgbà ìwọ́wé",
+          "Lẹ́yìn ìgbà òtútù ni ìgbà ìrúwé ń dé, nígbà tí ọjọ́ ń gùn sí i, tí ewéko sì ń hù padà."
+        ],
+        [
+          "Ìgbà wo ni ọjọ́ máa ń gùn jùlọ?",
+          "ìgbà ẹ̀ẹ̀rùn",
+          "ìgbà òtútù",
+          "ìgbà ìwọ́wé",
+          "Ní ìgbà ẹ̀ẹ̀rùn, oòrùn máa ń yọ ní kùtùkùtù, ó sì máa ń wọ̀ pẹ́, nítorí náà ìmọ́lẹ̀ ọ̀sán máa ń pẹ́."
+        ],
+        [
+          "Kí ni orúkọ ìmọ́lẹ̀ tó ń kọ yànràn ní ojú ọ̀run nígbà ìjì àrá?",
+          "mànàmáná",
+          "òṣùmàrè",
+          "òjò dídì",
+          "Mànàmáná jẹ́ ìtànṣán iná ńlá ní ojú ọ̀run. Ariwo ńlá tó ń tẹ̀lé e ni àrá."
+        ],
+        [
+          "Ibo ló láàbò jùlọ láti wà nígbà ìjì àrá?",
+          "nínú ilé",
+          "lábẹ́ igi gíga",
+          "lórí òkè",
+          "Mànàmáná sábà máa ń kọlu àwọn nǹkan gíga àti ibi gíga. Wíwà nínú ilé ló láàbò."
+        ],
+        [
+          "Kí la ń pe ìkùukùu tó wà nísàlẹ̀ lórí ilẹ̀, tí kò jẹ́ kí a ríran jìnnà?",
+          "kùrukùru",
+          "ìtànṣán oòrùn",
+          "òṣùmàrè",
+          "Kùrukùru jẹ́ ìkùukùu ẹ̀kán omi kéékèèké tó súnmọ́ ilẹ̀. Ó ń jẹ́ kí gbogbo nǹkan dà bí eérú, kí ó sì ṣú bàìbàì."
+        ],
+        [
+          "Kí ló máa ṣẹlẹ̀ sí ère òjò dídì nígbà tí ojú ọjọ́ bá gbóná?",
+          "ó máa yọ́",
+          "ó máa tóbi sí i",
+          "ó máa di òkúta",
+          "Òjò dídì jẹ́ omi tó dì. Tí ooru bá mú, òjò dídì máa yọ́, ó sì máa di omi padà."
+        ],
+        [
+          "Irú ọjọ́ wo ló dára jù láti fò àwòdì ìwé?",
+          "ọjọ́ tí atẹ́gùn ń fẹ́",
+          "ọjọ́ tí kò sí atẹ́gùn rárá",
+          "ọjọ́ tí kùrukùru wà, tí atẹ́gùn kò fẹ́",
+          "Àwòdì ìwé nílò afẹ́fẹ́ tó ń lọ láti tì í sókè, kí ó sì wà lókè ní ojú ọ̀run."
+        ],
+        [
+          "Kí ni ìkùukùu ńlá tó dúdú sábà máa ń mú wá?",
+          "òjò",
+          "ọjọ́ tí oòrùn mú gan-an",
+          "ojú ọ̀run búlúù tó mọ́ kedere",
+          "Ìkùukùu dúdú kún fún ẹ̀kán omi. Tí ẹ̀kán náà bá wúwo, wọ́n á já bọ́ bí òjò."
+        ],
+        [
+          "Ẹranko wo ló máa ń sùn ní gbogbo ìgbà òtútù?",
+          "òòrẹ̀",
+          "màlúù",
+          "ẹṣin",
+          "Òòrẹ̀ máa ń wá ìtẹ́ ewé tó rọ̀, ó sì máa ń sùn ní gbogbo ìgbà òtútù. A ń pe oorun gígùn yìí ní ìsùn ìgbà òtútù."
+        ],
+        [
+          "Kí ni yìnyín òjò?",
+          "òkúta yìnyín kéékèèké tó ń já bọ́ láti inú ìkùukùu",
+          "òkúta wẹ́wẹ́ tí atẹ́gùn gbé láti ilẹ̀",
+          "ewé tó ń já bọ́ láti orí igi",
+          "Yìnyín òjò ń wáyé nínú ìkùukùu ìjì gíga, níbi tí ẹ̀kán òjò ti ń dì di òkúta yìnyín kéékèèké."
+        ],
+        [
+          "Àwọn orílẹ̀-èdè gbígbóná kan ní ìgbà méjì pàtàkì. Kí ni wọ́n?",
+          "ìgbà òjò àti ìgbà ọ̀gbẹlẹ̀",
+          "ìgbà òjò dídì àti ìgbà yìnyín",
+          "ìgbà ọ̀sán àti ìgbà òru",
+          "Nítòsí àárín ilẹ̀ ayé, ooru máa ń mú ní gbogbo ọdún. Dípò ìgbà mẹ́rin, ìgbà òjò àti ìgbà ọ̀gbẹlẹ̀ ló wà."
+        ],
+        [
+          "Kí ló ń sọ fún ọ bí ojú ọjọ́ ṣe lè rí lọ́la?",
+          "ìròyìn àsọtẹ́lẹ̀ ojú ọjọ́",
+          "ìwé ìdáná oúnjẹ",
+          "ìwé ìtàn",
+          "Àwọn amòye ojú ọjọ́ ń wo ojú ọ̀run àti ìkùukùu, wọ́n sì ń sọ àsọtẹ́lẹ̀ lórí tẹlifíṣọ̀n, rédíò tàbí ẹ̀rọ ayélujára."
+        ],
+        [
+          "Kí ló dé tí o kò fi gbọ́dọ̀ rìn lórí adágún omi tó dì?",
+          "yìnyín náà lè fẹ́lẹ́, kí ó sì fọ́",
+          "yìnyín náà gbóná jù",
+          "yìnyín náà lẹ̀ bí gọ́ọ̀mù",
+          "Yìnyín lórí adágún lè dà bí ẹni pé ó lágbára, ṣùgbọ́n kí ó fẹ́lẹ́. Ó lè fọ́, kí o sì já sínú omi tó tutù gan-an."
+        ],
+        [
+          "Báwo ni ojú ọjọ́ ṣe máa ń rí nínú aṣálẹ̀ ní ọ̀pọ̀ ìgbà?",
+          "ó gbẹ gan-an, òjò kì í fi bẹ́ẹ̀ rọ̀",
+          "òjò ń rọ̀ lójoojúmọ́",
+          "òjò dídì ń rọ̀ ní gbogbo ọdún",
+          "Òjò kì í fi bẹ́ẹ̀ rọ̀ nínú aṣálẹ̀. Ìdí nìyẹn tí ó fi gbẹ gan-an, tí ewéko díẹ̀ péré sì ń hù níbẹ̀."
+        ],
+        [
+          "Kí ló dé tí o kò fi gbọ́dọ̀ wo oòrùn tààrà?",
+          "ó lè ṣe ojú rẹ léṣe",
+          "ó máa mú kí òjò bẹ̀rẹ̀ sí í rọ̀",
+          "ó máa pa oòrùn",
+          "Oòrùn mọ́lẹ̀ gan-an débi pé wíwò ó tààrà lè ba ojú rẹ jẹ́, kódà fún ìgbà díẹ̀."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló fi hàn pé ìgbà ìrúwé ti dé?",
+          "ìrudi tuntun àti òdòdó ń yọ",
+          "ewé ń já bọ́ láti orí igi",
+          "omi adágún ń dì",
+          "Ní ìgbà ìrúwé, ọjọ́ ń móoru, ó sì ń gùn sí i, nítorí náà ewéko ń yọ ìrudi tuntun, ewé àti òdòdó."
+        ],
+        [
+          "Kí la ń pè é nígbà tí òjò bá rọ̀ tó bẹ́ẹ̀ tí omi fi bo ilẹ̀?",
+          "àkúnya omi",
+          "atẹ́gùn jẹ́ẹ́jẹ́ẹ́",
+          "ìwọ̀ oòrùn",
+          "Tí odò bá kún jù lẹ́yìn òjò ńlá, omi á kún bo oko àti ọ̀nà. Ìyẹn ni àkúnya omi."
         ]
       ]
     }

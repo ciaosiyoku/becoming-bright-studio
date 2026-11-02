@@ -1,0 +1,936 @@
+{
+  "id": "sci10-forces",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 207,
+  "params": {
+    "emojis": [
+      "abacus",
+      "gear",
+      "fruit-apple",
+      "backpack",
+      "airplane",
+      "road",
+      "animal-dolphin",
+      "shoe",
+      "gloves",
+      "gear",
+      "gear",
+      "puzzle",
+      "books",
+      "memo",
+      "factory",
+      "factory",
+      "clock",
+      "gear",
+      "clock",
+      "medal",
+      "trophy",
+      "wave",
+      "moon",
+      "memo",
+      "globe",
+      "chart",
+      "house",
+      "sparkles",
+      "animal-otter",
+      "girl"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What unit are forces measured in?",
+          "newtons (N)",
+          "kilograms (kg)",
+          "metres (m)",
+          "Forces are measured in newtons, named after the scientist Isaac Newton. Kilograms measure mass and metres measure length."
+        ],
+        [
+          "Which instrument do scientists use to measure a force?",
+          "a newton meter (force meter)",
+          "a thermometer",
+          "a ruler",
+          "A newton meter has a spring inside. The bigger the pull, the more the spring stretches and the higher the reading."
+        ],
+        [
+          "In science, what is weight?",
+          "the force of gravity pulling on an object",
+          "the amount of matter an object contains",
+          "how big an object looks",
+          "Weight is a force, so it is measured in newtons. The amount of matter in an object is its mass, measured in kilograms."
+        ],
+        [
+          "On Earth, gravity pulls with about 10 N on every kilogram. What is the weight of a 5 kg school bag?",
+          "about 50 N",
+          "about 5 N",
+          "about 500 N",
+          "Each kilogram weighs about 10 N, so 5 kg weighs about 5 × 10 = 50 newtons."
+        ],
+        [
+          "Why does opening a parachute slow a skydiver down?",
+          "its large surface catches lots of air, so air resistance is much bigger",
+          "it makes the skydiver lighter",
+          "it switches gravity off",
+          "Gravity still pulls the skydiver down, but the big canopy pushes against lots of air, which creates a large upward force."
+        ],
+        [
+          "Why are racing cars and high-speed trains given a smooth, pointed, streamlined shape?",
+          "to reduce air resistance",
+          "to increase friction with the air",
+          "to make them heavier",
+          "A streamlined shape lets air flow smoothly around the vehicle, so less force is wasted pushing through the air."
+        ],
+        [
+          "Why does a dolphin have a smooth, streamlined body?",
+          "to reduce water resistance so it can swim fast",
+          "to help it float higher in the water",
+          "to stop it from getting wet",
+          "A streamlined body slips through the water easily, so the dolphin uses less energy to swim quickly."
+        ],
+        [
+          "Which shoe sole would grip best on a muddy path?",
+          "a rubber sole with deep grooves",
+          "a smooth plastic sole",
+          "a smooth, shiny leather sole",
+          "Deep grooves dig into the mud and rubber is grippy, so this sole gives the most friction and stops you slipping."
+        ],
+        [
+          "Why do your hands get warm when you rub them together quickly?",
+          "friction changes some movement energy into heat",
+          "rubbing stops your blood flowing",
+          "rubbing traps cold air between them",
+          "When two surfaces rub, friction turns some of their movement energy into heat energy."
+        ],
+        [
+          "How do the brakes on a bicycle slow it down?",
+          "brake pads press on the wheel and friction slows it",
+          "they make the wheel lighter",
+          "they blow air at the wheel",
+          "Squeezing the lever presses rubber pads against the wheel rim. The friction between them slows the wheel down."
+        ],
+        [
+          "In which of these is friction a problem that engineers try to reduce?",
+          "between the moving parts inside a machine",
+          "between your shoes and the pavement",
+          "between brake pads and a wheel",
+          "Friction wears machine parts out and wastes energy as heat, so oil is used to reduce it. In shoes and brakes we need friction."
+        ],
+        [
+          "What is the fixed point that a lever turns around called?",
+          "the pivot (fulcrum)",
+          "the load",
+          "the effort",
+          "A lever is a bar that turns on a pivot. The effort is your push, and the load is the thing being moved."
+        ],
+        [
+          "You use a long lever to lift a heavy rock. Where should you push to need the least effort?",
+          "as far from the pivot as possible",
+          "right next to the pivot",
+          "directly on top of the rock",
+          "The further your push is from the pivot, the more the lever multiplies your force, so the load feels lighter."
+        ],
+        [
+          "Which of these everyday tools works as a lever?",
+          "a pair of scissors",
+          "a glass marble",
+          "a rubber band",
+          "Scissors are two levers joined at a pivot. A small push on the handles makes a strong cutting force at the blades."
+        ],
+        [
+          "What is a pulley?",
+          "a wheel with a rope around it, used to lift loads",
+          "a wheel with teeth that turns another wheel",
+          "a flat slope for rolling things up",
+          "Pulling down on the rope of a pulley lifts the load up, which is easier than lifting it straight up by hand."
+        ],
+        [
+          "Why do builders use a system of several pulleys to lift very heavy loads?",
+          "more pulleys mean less force is needed to lift the load",
+          "pulleys reduce the load’s mass",
+          "pulleys switch off gravity",
+          "With more pulleys you pull a longer length of rope, but each pull needs much less force."
+        ],
+        [
+          "What are gears?",
+          "wheels with teeth that fit together to pass on turning",
+          "ropes that lift loads",
+          "springs that measure forces",
+          "When one gear turns, its teeth push the teeth of the next gear round. Gears are found in clocks, bicycles and cars."
+        ],
+        [
+          "A small gear with 10 teeth turns a big gear with 30 teeth. Which gear turns faster?",
+          "the small gear",
+          "the big gear",
+          "they both turn at the same speed",
+          "Each tooth of the small gear moves one tooth of the big gear, so the small gear must turn 3 times for the big gear to turn once."
+        ],
+        [
+          "Two gears are meshed together. If the first turns clockwise, which way does the second turn?",
+          "anticlockwise",
+          "clockwise",
+          "it does not move",
+          "Where the teeth meet they push each other, so meshed gears always turn in opposite directions."
+        ],
+        [
+          "Two forces on a stationary box are equal in size and push in opposite directions. What happens to the box?",
+          "it stays still, because the forces are balanced",
+          "it speeds up in both directions",
+          "it moves towards the stronger side",
+          "Balanced forces cancel each other out, so the box’s motion does not change. Here, it stays still."
+        ],
+        [
+          "In a tug of war, one team pulls with 300 N and the other with 200 N. What happens?",
+          "the rope moves towards the 300 N team",
+          "the rope moves towards the 200 N team",
+          "the rope stays exactly still",
+          "The forces are unbalanced. There is an overall force of 100 N towards the stronger team, so the rope moves their way."
+        ],
+        [
+          "A boat floats on a lake. Its weight pulls it down. Which force pushes it up?",
+          "upthrust from the water",
+          "friction",
+          "air resistance",
+          "Water pushes up on anything placed in it. When this upthrust balances the boat’s weight, the boat floats."
+        ],
+        [
+          "On the Moon there is no air. An astronaut drops a hammer and a feather at the same moment. Which lands first?",
+          "they land at the same time",
+          "the hammer",
+          "the feather",
+          "With no air resistance, gravity speeds up all objects equally, so the hammer and the feather hit the ground together."
+        ],
+        [
+          "A flat sheet of paper falls more slowly than the same sheet scrunched into a ball. Why?",
+          "the flat sheet has more air resistance",
+          "the flat sheet has more mass",
+          "gravity does not pull on flat things",
+          "Both have the same mass and weight, but the flat sheet pushes against much more air, so it is slowed down more."
+        ],
+        [
+          "In which direction does the Earth’s gravity pull you?",
+          "towards the centre of the Earth",
+          "away from the Earth into space",
+          "sideways towards the sea",
+          "Wherever you stand on the round Earth, gravity pulls you towards its centre. That is what we call down."
+        ],
+        [
+          "In a force diagram, forces are drawn as arrows. What does a longer arrow show?",
+          "a bigger force",
+          "a slower object",
+          "a lighter object",
+          "The arrow points the way the force acts, and its length shows how big the force is."
+        ],
+        [
+          "You put a few drops of oil on a squeaky door hinge. What happens to the friction?",
+          "it gets smaller",
+          "it gets bigger",
+          "it stays the same, but the door gets heavier",
+          "Oil makes a slippery layer between the metal parts, so they slide past each other more easily and stop squeaking."
+        ],
+        [
+          "Why would you weigh more on Jupiter than on Earth?",
+          "Jupiter has a much bigger mass, so its gravity is stronger",
+          "Jupiter is closer to the Sun",
+          "Jupiter spins more slowly than Earth",
+          "The more mass a planet has, the stronger its pull. Your mass would be the same, but your weight would be more than double."
+        ],
+        [
+          "Which of these is an example of water resistance?",
+          "feeling the water push back on you as you swim",
+          "a ball rolling to a stop on grass",
+          "a magnet pulling a steel pin",
+          "Water resistance is a force that pushes against things moving through water and slows them down."
+        ],
+        [
+          "A see-saw is balanced. Then the child on one end is replaced by a heavier child. How can the see-saw balance again?",
+          "the heavier child moves closer to the pivot",
+          "the heavier child moves further from the pivot",
+          "the lighter child moves closer to the pivot",
+          "A heavier weight close to the pivot can balance a lighter weight further away, because the turning effect depends on weight and distance."
+        ]
+      ],
+      "de": [
+        [
+          "In welcher Einheit misst man Kräfte?",
+          "Newton (N)",
+          "Kilogramm (kg)",
+          "Meter (m)",
+          "Kräfte misst man in Newton, benannt nach dem Forscher Isaac Newton. Kilogramm misst die Masse, Meter die Länge."
+        ],
+        [
+          "Mit welchem Gerät misst man eine Kraft?",
+          "mit einem Kraftmesser",
+          "mit einem Thermometer",
+          "mit einem Lineal",
+          "In einem Kraftmesser steckt eine Feder. Je stärker man zieht, desto mehr dehnt sie sich und desto höher ist die Anzeige."
+        ],
+        [
+          "Was ist in der Naturwissenschaft die Gewichtskraft?",
+          "die Kraft, mit der die Schwerkraft an einem Körper zieht",
+          "die Menge an Stoff in einem Körper",
+          "wie groß ein Körper aussieht",
+          "Die Gewichtskraft ist eine Kraft und wird in Newton gemessen. Die Menge an Stoff in einem Körper ist seine Masse, gemessen in Kilogramm."
+        ],
+        [
+          "Auf der Erde zieht die Schwerkraft an jedem Kilogramm mit etwa 10 N. Welche Gewichtskraft hat eine 5 kg schwere Schultasche?",
+          "etwa 50 N",
+          "etwa 5 N",
+          "etwa 500 N",
+          "Jedes Kilogramm hat etwa 10 N Gewichtskraft, also hat die Tasche etwa 5 × 10 = 50 Newton."
+        ],
+        [
+          "Warum bremst ein geöffneter Fallschirm den Fallschirmspringer?",
+          "seine große Fläche fängt viel Luft, darum ist der Luftwiderstand viel größer",
+          "er macht den Springer leichter",
+          "er schaltet die Schwerkraft ab",
+          "Die Schwerkraft zieht weiter nach unten, aber der große Schirm drückt gegen viel Luft. Das erzeugt eine große Kraft nach oben."
+        ],
+        [
+          "Warum haben Rennwagen und Hochgeschwindigkeitszüge eine glatte, spitze, stromlinienförmige Form?",
+          "um den Luftwiderstand zu verringern",
+          "um die Reibung mit der Luft zu erhöhen",
+          "um sie schwerer zu machen",
+          "Bei einer Stromlinienform strömt die Luft glatt am Fahrzeug vorbei. So wird weniger Kraft verschwendet."
+        ],
+        [
+          "Warum hat ein Delfin einen glatten, stromlinienförmigen Körper?",
+          "um den Wasserwiderstand zu verringern und schnell zu schwimmen",
+          "um höher im Wasser zu schwimmen",
+          "damit er nicht nass wird",
+          "Ein stromlinienförmiger Körper gleitet leicht durchs Wasser. So braucht der Delfin weniger Energie, um schnell zu schwimmen."
+        ],
+        [
+          "Welche Schuhsohle hat auf einem schlammigen Weg den besten Halt?",
+          "eine Gummisohle mit tiefem Profil",
+          "eine glatte Plastiksohle",
+          "eine glatte, glänzende Ledersohle",
+          "Das tiefe Profil greift in den Schlamm, und Gummi haftet gut. Diese Sohle hat die meiste Reibung, so rutschst du nicht aus."
+        ],
+        [
+          "Warum werden deine Hände warm, wenn du sie schnell aneinander reibst?",
+          "die Reibung wandelt Bewegungsenergie in Wärme um",
+          "das Reiben stoppt den Blutfluss",
+          "das Reiben fängt kalte Luft ein",
+          "Wenn zwei Flächen aneinander reiben, wandelt die Reibung einen Teil der Bewegungsenergie in Wärmeenergie um."
+        ],
+        [
+          "Wie bremsen die Bremsen eines Fahrrads?",
+          "Bremsklötze drücken auf das Rad und die Reibung bremst es",
+          "sie machen das Rad leichter",
+          "sie blasen Luft gegen das Rad",
+          "Beim Ziehen des Hebels drücken Gummiklötze gegen die Felge. Die Reibung dazwischen bremst das Rad."
+        ],
+        [
+          "Wo ist Reibung ein Problem, das Ingenieure verringern wollen?",
+          "zwischen den beweglichen Teilen in einer Maschine",
+          "zwischen deinen Schuhen und dem Gehweg",
+          "zwischen Bremsklötzen und Rad",
+          "Reibung nutzt Maschinenteile ab und verschwendet Energie als Wärme. Darum nimmt man Öl. Bei Schuhen und Bremsen brauchen wir Reibung."
+        ],
+        [
+          "Wie heißt der feste Punkt, um den sich ein Hebel dreht?",
+          "der Drehpunkt",
+          "die Last",
+          "die Kraft, mit der man drückt",
+          "Ein Hebel ist eine Stange, die sich um einen Drehpunkt dreht. Man drückt an einer Stelle und bewegt damit die Last."
+        ],
+        [
+          "Du hebst einen schweren Stein mit einer langen Stange an. Wo musst du drücken, damit du am wenigsten Kraft brauchst?",
+          "möglichst weit weg vom Drehpunkt",
+          "direkt neben dem Drehpunkt",
+          "direkt auf dem Stein",
+          "Je weiter du vom Drehpunkt entfernt drückst, desto mehr verstärkt der Hebel deine Kraft. Die Last fühlt sich leichter an."
+        ],
+        [
+          "Welches Alltagswerkzeug funktioniert als Hebel?",
+          "eine Schere",
+          "eine Glasmurmel",
+          "ein Gummiband",
+          "Eine Schere besteht aus zwei Hebeln mit einem gemeinsamen Drehpunkt. Ein kleiner Druck auf die Griffe gibt eine starke Schneidkraft."
+        ],
+        [
+          "Was ist eine Rolle (wie beim Flaschenzug)?",
+          "ein Rad mit einem Seil darüber, um Lasten zu heben",
+          "ein Rad mit Zähnen, das ein anderes Rad dreht",
+          "eine flache Rampe zum Hochrollen",
+          "Zieht man am Seil einer Rolle nach unten, wird die Last nach oben gehoben. Das ist leichter, als sie direkt hochzuheben."
+        ],
+        [
+          "Warum benutzen Bauarbeiter einen Flaschenzug mit mehreren Rollen für sehr schwere Lasten?",
+          "mit mehr Rollen braucht man weniger Kraft zum Heben",
+          "Rollen verringern die Masse der Last",
+          "Rollen schalten die Schwerkraft ab",
+          "Mit mehr Rollen muss man mehr Seil ziehen, aber jeder Zug braucht viel weniger Kraft."
+        ],
+        [
+          "Was sind Zahnräder?",
+          "Räder mit Zähnen, die ineinandergreifen und eine Drehung weitergeben",
+          "Seile, die Lasten heben",
+          "Federn, die Kräfte messen",
+          "Dreht sich ein Zahnrad, schieben seine Zähne die Zähne des nächsten Rades weiter. Zahnräder gibt es in Uhren, Fahrrädern und Autos."
+        ],
+        [
+          "Ein kleines Zahnrad mit 10 Zähnen dreht ein großes mit 30 Zähnen. Welches dreht sich schneller?",
+          "das kleine Zahnrad",
+          "das große Zahnrad",
+          "beide drehen sich gleich schnell",
+          "Jeder Zahn des kleinen Rades schiebt einen Zahn des großen weiter. Das kleine muss sich also 3-mal drehen, bis das große sich einmal dreht."
+        ],
+        [
+          "Zwei Zahnräder greifen ineinander. Das erste dreht sich im Uhrzeigersinn. Wie dreht sich das zweite?",
+          "gegen den Uhrzeigersinn",
+          "im Uhrzeigersinn",
+          "es bewegt sich nicht",
+          "Dort, wo sich die Zähne treffen, schieben sie sich gegenseitig. Darum drehen sich ineinandergreifende Zahnräder immer gegenläufig."
+        ],
+        [
+          "Auf eine ruhende Kiste wirken zwei gleich große Kräfte in entgegengesetzte Richtungen. Was passiert mit der Kiste?",
+          "sie bleibt liegen, weil die Kräfte im Gleichgewicht sind",
+          "sie wird in beide Richtungen schneller",
+          "sie bewegt sich zur stärkeren Seite",
+          "Kräfte im Gleichgewicht heben sich auf. Die Bewegung der Kiste ändert sich nicht, sie bleibt also liegen."
+        ],
+        [
+          "Beim Tauziehen zieht ein Team mit 300 N, das andere mit 200 N. Was passiert?",
+          "das Seil bewegt sich zum 300-N-Team",
+          "das Seil bewegt sich zum 200-N-Team",
+          "das Seil bleibt genau stehen",
+          "Die Kräfte sind nicht im Gleichgewicht. Es bleibt eine Kraft von 100 N in Richtung des stärkeren Teams, also bewegt sich das Seil dorthin."
+        ],
+        [
+          "Ein Boot schwimmt auf einem See. Seine Gewichtskraft zieht es nach unten. Welche Kraft drückt es nach oben?",
+          "der Auftrieb des Wassers",
+          "die Reibung",
+          "der Luftwiderstand",
+          "Wasser drückt alles, was darin ist, nach oben. Ist dieser Auftrieb so groß wie die Gewichtskraft des Bootes, schwimmt es."
+        ],
+        [
+          "Auf dem Mond gibt es keine Luft. Ein Astronaut lässt einen Hammer und eine Feder gleichzeitig fallen. Was kommt zuerst unten an?",
+          "beide kommen gleichzeitig an",
+          "der Hammer",
+          "die Feder",
+          "Ohne Luftwiderstand beschleunigt die Schwerkraft alle Körper gleich. Hammer und Feder landen zusammen."
+        ],
+        [
+          "Ein flaches Blatt Papier fällt langsamer als dasselbe Blatt zu einer Kugel geknüllt. Warum?",
+          "das flache Blatt hat mehr Luftwiderstand",
+          "das flache Blatt hat mehr Masse",
+          "die Schwerkraft zieht nicht an flachen Dingen",
+          "Beide haben dieselbe Masse und Gewichtskraft. Aber das flache Blatt drückt gegen viel mehr Luft und wird stärker gebremst."
+        ],
+        [
+          "In welche Richtung zieht dich die Schwerkraft der Erde?",
+          "zum Mittelpunkt der Erde",
+          "von der Erde weg ins All",
+          "seitwärts zum Meer",
+          "Egal wo du auf der runden Erde stehst, die Schwerkraft zieht dich zu ihrem Mittelpunkt. Diese Richtung nennen wir unten."
+        ],
+        [
+          "In einem Kräftediagramm zeichnet man Kräfte als Pfeile. Was zeigt ein längerer Pfeil?",
+          "eine größere Kraft",
+          "einen langsameren Körper",
+          "einen leichteren Körper",
+          "Der Pfeil zeigt, in welche Richtung die Kraft wirkt, und seine Länge zeigt, wie groß sie ist."
+        ],
+        [
+          "Du gibst ein paar Tropfen Öl auf ein quietschendes Türscharnier. Was passiert mit der Reibung?",
+          "sie wird kleiner",
+          "sie wird größer",
+          "sie bleibt gleich, aber die Tür wird schwerer",
+          "Öl bildet eine glatte Schicht zwischen den Metallteilen. Sie gleiten leichter aneinander vorbei und quietschen nicht mehr."
+        ],
+        [
+          "Warum hättest du auf dem Jupiter eine größere Gewichtskraft als auf der Erde?",
+          "Jupiter hat viel mehr Masse, darum ist seine Schwerkraft stärker",
+          "Jupiter ist näher an der Sonne",
+          "Jupiter dreht sich langsamer als die Erde",
+          "Je mehr Masse ein Planet hat, desto stärker zieht er. Deine Masse bliebe gleich, aber deine Gewichtskraft wäre mehr als doppelt so groß."
+        ],
+        [
+          "Was davon ist ein Beispiel für Wasserwiderstand?",
+          "beim Schwimmen spüren, wie das Wasser dagegen drückt",
+          "ein Ball, der auf Gras ausrollt",
+          "ein Magnet, der eine Stahlnadel anzieht",
+          "Wasserwiderstand ist eine Kraft, die gegen alles drückt, was sich durchs Wasser bewegt, und es bremst."
+        ],
+        [
+          "Eine Wippe ist im Gleichgewicht. Dann setzt sich auf eine Seite ein schwereres Kind. Wie kommt die Wippe wieder ins Gleichgewicht?",
+          "das schwerere Kind rückt näher an den Drehpunkt",
+          "das schwerere Kind rückt weiter vom Drehpunkt weg",
+          "das leichtere Kind rückt näher an den Drehpunkt",
+          "Ein schwereres Gewicht nah am Drehpunkt gleicht ein leichteres weiter weg aus. Die Drehwirkung hängt von Gewichtskraft und Abstand ab."
+        ]
+      ],
+      "fr": [
+        [
+          "Dans quelle unité mesure-t-on les forces ?",
+          "en newtons (N)",
+          "en kilogrammes (kg)",
+          "en mètres (m)",
+          "On mesure les forces en newtons, du nom du savant Isaac Newton. Le kilogramme mesure la masse et le mètre la longueur."
+        ],
+        [
+          "Quel instrument sert à mesurer une force ?",
+          "un dynamomètre",
+          "un thermomètre",
+          "une règle",
+          "Un dynamomètre contient un ressort. Plus on tire fort, plus le ressort s’allonge et plus la valeur affichée est grande."
+        ],
+        [
+          "En sciences, qu’est-ce que le poids ?",
+          "la force avec laquelle la gravité attire un objet",
+          "la quantité de matière d’un objet",
+          "la taille apparente d’un objet",
+          "Le poids est une force, mesurée en newtons. La quantité de matière d’un objet est sa masse, mesurée en kilogrammes."
+        ],
+        [
+          "Sur Terre, la gravité attire chaque kilogramme avec environ 10 N. Quel est le poids d’un cartable de 5 kg ?",
+          "environ 50 N",
+          "environ 5 N",
+          "environ 500 N",
+          "Chaque kilogramme pèse environ 10 N, donc 5 kg pèsent environ 5 × 10 = 50 newtons."
+        ],
+        [
+          "Pourquoi un parachute ouvert ralentit-il le parachutiste ?",
+          "sa grande surface attrape beaucoup d’air, donc la résistance de l’air est bien plus forte",
+          "il rend le parachutiste plus léger",
+          "il supprime la gravité",
+          "La gravité tire toujours vers le bas, mais la grande voile pousse contre beaucoup d’air, ce qui crée une forte force vers le haut."
+        ],
+        [
+          "Pourquoi les voitures de course et les trains à grande vitesse ont-ils une forme lisse, pointue et aérodynamique ?",
+          "pour réduire la résistance de l’air",
+          "pour augmenter le frottement avec l’air",
+          "pour les rendre plus lourds",
+          "Avec une forme aérodynamique, l’air glisse autour du véhicule : il faut moins de force pour avancer."
+        ],
+        [
+          "Pourquoi le dauphin a-t-il un corps lisse et hydrodynamique ?",
+          "pour réduire la résistance de l’eau et nager vite",
+          "pour flotter plus haut dans l’eau",
+          "pour ne pas être mouillé",
+          "Un corps hydrodynamique glisse facilement dans l’eau : le dauphin dépense moins d’énergie pour nager vite."
+        ],
+        [
+          "Quelle semelle accroche le mieux sur un chemin boueux ?",
+          "une semelle en caoutchouc avec des crampons profonds",
+          "une semelle en plastique lisse",
+          "une semelle en cuir lisse et brillant",
+          "Les crampons s’enfoncent dans la boue et le caoutchouc accroche bien : cette semelle donne le plus de frottement et évite de glisser."
+        ],
+        [
+          "Pourquoi tes mains se réchauffent-elles quand tu les frottes vite ?",
+          "le frottement change une partie du mouvement en chaleur",
+          "le frottement arrête la circulation du sang",
+          "le frottement enferme de l’air froid",
+          "Quand deux surfaces frottent, le frottement transforme une partie de l’énergie du mouvement en chaleur."
+        ],
+        [
+          "Comment les freins d’un vélo le ralentissent-ils ?",
+          "les patins appuient sur la roue et le frottement la ralentit",
+          "ils rendent la roue plus légère",
+          "ils soufflent de l’air sur la roue",
+          "En serrant la poignée, des patins en caoutchouc appuient sur la jante. Le frottement ralentit la roue."
+        ],
+        [
+          "Dans quel cas le frottement est-il un problème que les ingénieurs veulent réduire ?",
+          "entre les pièces mobiles d’une machine",
+          "entre tes chaussures et le trottoir",
+          "entre les patins de frein et la roue",
+          "Le frottement use les pièces des machines et gaspille de l’énergie en chaleur : on met de l’huile. Pour les chaussures et les freins, il est utile."
+        ],
+        [
+          "Comment s’appelle le point fixe autour duquel tourne un levier ?",
+          "le pivot (point d’appui)",
+          "la charge",
+          "l’effort",
+          "Un levier est une barre qui tourne autour d’un pivot. L’effort est ta poussée, la charge est l’objet à déplacer."
+        ],
+        [
+          "Tu soulèves un gros rocher avec un long levier. Où dois-tu appuyer pour faire le moins d’effort ?",
+          "le plus loin possible du pivot",
+          "tout près du pivot",
+          "directement sur le rocher",
+          "Plus tu appuies loin du pivot, plus le levier multiplie ta force : la charge paraît plus légère."
+        ],
+        [
+          "Lequel de ces objets du quotidien fonctionne comme un levier ?",
+          "une paire de ciseaux",
+          "une bille en verre",
+          "un élastique",
+          "Les ciseaux sont deux leviers réunis par un pivot. Une petite pression sur les poignées donne une forte force de coupe aux lames."
+        ],
+        [
+          "Qu’est-ce qu’une poulie ?",
+          "une roue avec une corde, qui sert à soulever des charges",
+          "une roue dentée qui fait tourner une autre roue",
+          "une pente pour faire rouler les objets vers le haut",
+          "En tirant la corde d’une poulie vers le bas, on soulève la charge : c’est plus facile que de la lever à la main."
+        ],
+        [
+          "Pourquoi les ouvriers utilisent-ils plusieurs poulies pour soulever des charges très lourdes ?",
+          "avec plus de poulies, il faut moins de force pour soulever la charge",
+          "les poulies réduisent la masse de la charge",
+          "les poulies suppriment la gravité",
+          "Avec plus de poulies, on tire une plus grande longueur de corde, mais il faut beaucoup moins de force."
+        ],
+        [
+          "Qu’est-ce que des engrenages ?",
+          "des roues dentées qui s’emboîtent pour transmettre une rotation",
+          "des cordes qui soulèvent des charges",
+          "des ressorts qui mesurent des forces",
+          "Quand une roue dentée tourne, ses dents poussent celles de la roue suivante. On en trouve dans les horloges, les vélos et les voitures."
+        ],
+        [
+          "Une petite roue dentée de 10 dents fait tourner une grande roue de 30 dents. Laquelle tourne le plus vite ?",
+          "la petite roue",
+          "la grande roue",
+          "elles tournent à la même vitesse",
+          "Chaque dent de la petite roue fait avancer une dent de la grande : la petite doit faire 3 tours pour que la grande en fasse un."
+        ],
+        [
+          "Deux roues dentées sont engrenées. Si la première tourne dans le sens des aiguilles d’une montre, dans quel sens tourne la seconde ?",
+          "dans le sens inverse des aiguilles d’une montre",
+          "dans le sens des aiguilles d’une montre",
+          "elle ne bouge pas",
+          "Là où les dents se touchent, elles se poussent : deux roues engrenées tournent donc toujours en sens contraire."
+        ],
+        [
+          "Deux forces de même valeur et de sens opposés agissent sur une caisse immobile. Que fait la caisse ?",
+          "elle reste immobile, car les forces s’équilibrent",
+          "elle accélère dans les deux sens",
+          "elle part du côté le plus fort",
+          "Des forces équilibrées s’annulent : le mouvement de la caisse ne change pas. Ici, elle reste immobile."
+        ],
+        [
+          "Au tir à la corde, une équipe tire avec 300 N et l’autre avec 200 N. Que se passe-t-il ?",
+          "la corde part vers l’équipe de 300 N",
+          "la corde part vers l’équipe de 200 N",
+          "la corde ne bouge pas du tout",
+          "Les forces ne s’équilibrent pas : il reste une force de 100 N vers l’équipe la plus forte, donc la corde part de son côté."
+        ],
+        [
+          "Un bateau flotte sur un lac. Son poids le tire vers le bas. Quelle force le pousse vers le haut ?",
+          "la poussée de l’eau (poussée d’Archimède)",
+          "le frottement",
+          "la résistance de l’air",
+          "L’eau pousse vers le haut tout ce qu’on y plonge. Quand cette poussée équilibre le poids du bateau, il flotte."
+        ],
+        [
+          "Sur la Lune, il n’y a pas d’air. Un astronaute lâche en même temps un marteau et une plume. Lequel arrive en premier ?",
+          "ils arrivent en même temps",
+          "le marteau",
+          "la plume",
+          "Sans résistance de l’air, la gravité accélère tous les objets de la même façon : le marteau et la plume touchent le sol ensemble."
+        ],
+        [
+          "Une feuille de papier à plat tombe plus lentement que la même feuille roulée en boule. Pourquoi ?",
+          "la feuille à plat subit plus de résistance de l’air",
+          "la feuille à plat a plus de masse",
+          "la gravité n’attire pas les objets plats",
+          "Les deux ont la même masse et le même poids, mais la feuille à plat pousse contre beaucoup plus d’air : elle est davantage freinée."
+        ],
+        [
+          "Dans quelle direction la gravité de la Terre t’attire-t-elle ?",
+          "vers le centre de la Terre",
+          "loin de la Terre, vers l’espace",
+          "sur le côté, vers la mer",
+          "Où que tu sois sur la Terre ronde, la gravité t’attire vers son centre. C’est ce que nous appelons le bas."
+        ],
+        [
+          "Dans un schéma, on dessine les forces avec des flèches. Que montre une flèche plus longue ?",
+          "une force plus grande",
+          "un objet plus lent",
+          "un objet plus léger",
+          "La flèche indique le sens de la force, et sa longueur montre sa valeur."
+        ],
+        [
+          "Tu mets quelques gouttes d’huile sur une charnière de porte qui grince. Que devient le frottement ?",
+          "il diminue",
+          "il augmente",
+          "il reste pareil, mais la porte devient plus lourde",
+          "L’huile forme une couche glissante entre les pièces de métal : elles glissent mieux et ne grincent plus."
+        ],
+        [
+          "Pourquoi ton poids serait-il plus grand sur Jupiter que sur la Terre ?",
+          "Jupiter a une masse bien plus grande, donc sa gravité est plus forte",
+          "Jupiter est plus proche du Soleil",
+          "Jupiter tourne plus lentement que la Terre",
+          "Plus une planète a de masse, plus elle attire fort. Ta masse serait la même, mais ton poids serait plus que doublé."
+        ],
+        [
+          "Lequel de ces exemples montre la résistance de l’eau ?",
+          "sentir l’eau qui pousse contre toi quand tu nages",
+          "un ballon qui s’arrête en roulant sur l’herbe",
+          "un aimant qui attire une épingle en acier",
+          "La résistance de l’eau est une force qui pousse contre ce qui se déplace dans l’eau et le ralentit."
+        ],
+        [
+          "Une balançoire à bascule est en équilibre. Puis un enfant plus lourd s’assoit à un bout. Comment retrouver l’équilibre ?",
+          "l’enfant plus lourd se rapproche du pivot",
+          "l’enfant plus lourd s’éloigne du pivot",
+          "l’enfant plus léger se rapproche du pivot",
+          "Un poids plus lourd près du pivot équilibre un poids plus léger placé plus loin : l’effet de rotation dépend du poids et de la distance."
+        ]
+      ],
+      "yo": [
+        [
+          "Ìwọ̀n wo ni a fi ń wọn agbára?",
+          "níútọ̀nù (N)",
+          "kìlógíráàmù (kg)",
+          "mítà (m)",
+          "A ń wọn agbára ní níútọ̀nù, orúkọ onímọ̀ sáyẹ́ǹsì Isaac Newton. Kìlógíráàmù ń wọn ìwọ̀n ẹrù, mítà sì ń wọn gígùn."
+        ],
+        [
+          "Irinṣẹ́ wo ni àwọn onímọ̀ sáyẹ́ǹsì fi ń wọn agbára?",
+          "ẹ̀rọ ìwọ̀n níútọ̀nù (newton meter)",
+          "tẹ̀mọ́mítà",
+          "rúlà",
+          "Ẹ̀rọ ìwọ̀n níútọ̀nù ní sípíríǹgì nínú. Bí a bá ṣe fà á tó, bẹ́ẹ̀ ni sípíríǹgì náà ṣe ń nà tó, tí nọ́ńbà rẹ̀ sì ń ga."
+        ],
+        [
+          "Nínú sáyẹ́ǹsì, kí ni ìwúwo (weight)?",
+          "agbára tí agbára òòfà fi ń fa ohun kan",
+          "iye ohun tí ó wà nínú nǹkan kan",
+          "bí nǹkan ṣe tóbi tó lójú",
+          "Agbára ni ìwúwo, nítorí náà a ń wọ̀n ọ́n ní níútọ̀nù. Iye ohun tí ó wà nínú nǹkan ni ìwọ̀n ẹrù (mass), a sì ń wọ̀n ọ́n ní kìlógíráàmù."
+        ],
+        [
+          "Lórí Ayé, agbára òòfà ń fa kìlógíráàmù kọ̀ọ̀kan pẹ̀lú nǹkan bí 10 N. Kí ni ìwúwo àpò ilé ìwé tí ó jẹ́ 5 kg?",
+          "nǹkan bí 50 N",
+          "nǹkan bí 5 N",
+          "nǹkan bí 500 N",
+          "Kìlógíráàmù kọ̀ọ̀kan wúwo tó nǹkan bí 10 N, nítorí náà 5 kg wúwo tó 5 × 10 = 50 níútọ̀nù."
+        ],
+        [
+          "Kí ló dé tí ṣíṣí parachute fi ń dín eré ẹni tí ń bọ́ láti ojú ọ̀run kù?",
+          "ojú rẹ̀ tí ó fẹ̀ ń gba afẹ́fẹ́ púpọ̀, nítorí náà ìdènà afẹ́fẹ́ pọ̀ sí i gan-an",
+          "ó ń mú kí ẹni náà fúyẹ́",
+          "ó ń pa agbára òòfà",
+          "Agbára òòfà ṣì ń fa ẹni náà sílẹ̀, ṣùgbọ́n aṣọ ńlá náà ń ti afẹ́fẹ́ púpọ̀, èyí sì ń ṣe agbára ńlá tí ń tì sókè."
+        ],
+        [
+          "Kí ló dé tí ọkọ̀ eré ìje àti ọkọ̀ ojú irin ayára-bí-àṣá fi ní ìrísí tí ó dán, tí ó ṣóńṣó?",
+          "láti dín ìdènà afẹ́fẹ́ kù",
+          "láti mú ìfarakanra pẹ̀lú afẹ́fẹ́ pọ̀ sí i",
+          "láti mú kí wọ́n wúwo sí i",
+          "Ìrísí tí ó dán ń jẹ́ kí afẹ́fẹ́ ṣàn yí ọkọ̀ ká wọ́ọ́rọ́wọ́, nítorí náà agbára díẹ̀ ló ń ṣòfò."
+        ],
+        [
+          "Kí ló dé tí ẹja dolphin fi ní ara tí ó dán, tí ó rí ṣóńṣó?",
+          "láti dín ìdènà omi kù kí ó lè lúwẹ̀ẹ́ yára",
+          "láti ràn án lọ́wọ́ láti léfòó ga sí i",
+          "kí omi má bàa rin ín",
+          "Ara tí ó dán máa ń yọ̀ gba inú omi kọjá, nítorí náà dolphin kò ní lo agbára púpọ̀ láti lúwẹ̀ẹ́ yára."
+        ],
+        [
+          "Ìsàlẹ̀ bàtà wo ló máa dì mú ilẹ̀ jù lórí ọ̀nà ẹlẹ́rẹ̀?",
+          "ìsàlẹ̀ rọ́bà tí ó ní ihò jíjìn",
+          "ìsàlẹ̀ ike tí ó dán",
+          "ìsàlẹ̀ awọ tí ó dán, tí ó ń kọ mànà",
+          "Ihò jíjìn máa ń wọ inú ẹrẹ̀, rọ́bà sì máa ń dì mú, nítorí náà ìsàlẹ̀ yìí ní ìfarakanra jù, kò sì ní jẹ́ kí o yọ̀ ṣubú."
+        ],
+        [
+          "Kí ló dé tí ọwọ́ rẹ fi ń gbóná tí o bá fi wọ́n pa ara wọn kíákíá?",
+          "ìfarakanra ń sọ díẹ̀ nínú agbára ìrìn di ooru",
+          "fífipa ń dá ẹ̀jẹ̀ dúró",
+          "fífipa ń há afẹ́fẹ́ tútù sáàárín wọn",
+          "Tí ojú méjì bá ń pa ara wọn, ìfarakanra ń sọ díẹ̀ nínú agbára ìrìn wọn di agbára ooru."
+        ],
+        [
+          "Báwo ni bíréèkì kẹ̀kẹ́ ṣe ń dín eré rẹ̀ kù?",
+          "bíréèkì ń tẹ kẹ̀kẹ́ náà, ìfarakanra sì ń dín eré rẹ̀ kù",
+          "ó ń mú kí kẹ̀kẹ́ náà fúyẹ́",
+          "ó ń fẹ́ afẹ́fẹ́ sí kẹ̀kẹ́ náà",
+          "Tí o bá fún ọwọ́ bíréèkì, rọ́bà rẹ̀ á tẹ etí kẹ̀kẹ́. Ìfarakanra láàárín wọn ló ń dín eré kẹ̀kẹ́ kù."
+        ],
+        [
+          "Níbo ni ìfarakanra ti jẹ́ ìṣòro tí àwọn onímọ̀ ẹ̀rọ ń gbìyànjú láti dín kù?",
+          "láàárín àwọn ẹ̀yà tí ń yí nínú ẹ̀rọ",
+          "láàárín bàtà rẹ àti ojú ọ̀nà",
+          "láàárín bíréèkì àti kẹ̀kẹ́",
+          "Ìfarakanra máa ń mú ẹ̀yà ẹ̀rọ gbó, ó sì ń fi agbára ṣòfò bí ooru, nítorí náà a ń lo epo. Fún bàtà àti bíréèkì, a nílò ìfarakanra."
+        ],
+        [
+          "Kí ni orúkọ ibi tí kò yí padà tí ọ̀pá ìgbéga (lever) ń yí lé lórí?",
+          "ojú ìyípo (pivot)",
+          "ẹrù (load)",
+          "agbára tí a lò (effort)",
+          "Ọ̀pá ìgbéga jẹ́ ọ̀pá tí ń yí lórí ojú ìyípo. Agbára tí a lò ni títì rẹ, ẹrù sì ni ohun tí à ń gbé."
+        ],
+        [
+          "O ń lo ọ̀pá ìgbéga gígùn láti gbé òkúta wúwo sókè. Ibo ni o yẹ kí o tẹ̀ kí o lè lo agbára díẹ̀ jùlọ?",
+          "ibi tí ó jìnnà sí ojú ìyípo jùlọ",
+          "ẹ̀gbẹ́ ojú ìyípo gan-an",
+          "orí òkúta náà gan-an",
+          "Bí ibi tí o tẹ̀ bá ṣe jìnnà sí ojú ìyípo tó, bẹ́ẹ̀ ni ọ̀pá náà ṣe ń sọ agbára rẹ di púpọ̀ tó, ẹrù náà á sì fúyẹ́."
+        ],
+        [
+          "Èwo nínú àwọn irinṣẹ́ ojoojúmọ́ wọ̀nyí ló ń ṣiṣẹ́ bí ọ̀pá ìgbéga?",
+          "àlùmọ́gàjí (scissors)",
+          "ọmọ ayò dígí",
+          "rọ́bà ìdìpọ̀",
+          "Àlùmọ́gàjí jẹ́ ọ̀pá ìgbéga méjì tí a so pọ̀ ní ojú ìyípo kan. Títẹ ọwọ́ rẹ̀ díẹ̀ ń fún ẹnu rẹ̀ ní agbára gígé tí ó lágbára."
+        ],
+        [
+          "Kí ni àgbá okùn (pulley)?",
+          "kẹ̀kẹ́ tí okùn yí ká, tí a fi ń gbé ẹrù sókè",
+          "kẹ̀kẹ́ eléyín tí ń yí kẹ̀kẹ́ mìíràn",
+          "ibi tí ó gún tẹ̀ẹ́rẹ́ fún yíyí nǹkan gòkè",
+          "Fífa okùn àgbá okùn sísàlẹ̀ ń gbé ẹrù sókè, èyí rọrùn ju gbígbé e sókè tààrà pẹ̀lú ọwọ́."
+        ],
+        [
+          "Kí ló dé tí àwọn akọ́lé fi ń lo àgbá okùn púpọ̀ pa pọ̀ láti gbé ẹrù wúwo gan-an?",
+          "bí àgbá okùn bá ṣe pọ̀ tó, agbára díẹ̀ ni a ó nílò láti gbé ẹrù náà",
+          "àgbá okùn ń dín ìwọ̀n ẹrù (mass) ẹrù náà kù",
+          "àgbá okùn ń pa agbára òòfà",
+          "Pẹ̀lú àgbá okùn púpọ̀, okùn tí o ó fà á gùn sí i, ṣùgbọ́n fífà kọ̀ọ̀kan kò ní gba agbára púpọ̀."
+        ],
+        [
+          "Kí ni kẹ̀kẹ́ eléyín (gears)?",
+          "kẹ̀kẹ́ tí ó ní eyín tí ó wọnú ara wọn láti gbé yíyí kọjá",
+          "okùn tí ń gbé ẹrù sókè",
+          "sípíríǹgì tí ń wọn agbára",
+          "Tí kẹ̀kẹ́ eléyín kan bá yí, eyín rẹ̀ ń ti eyín èkejì yí po. A ń rí wọn nínú aago, kẹ̀kẹ́ àti ọkọ̀."
+        ],
+        [
+          "Kẹ̀kẹ́ eléyín kékeré tí ó ní eyín 10 ń yí kẹ̀kẹ́ eléyín ńlá tí ó ní eyín 30. Èwo ló ń yí yára jù?",
+          "kẹ̀kẹ́ eléyín kékeré",
+          "kẹ̀kẹ́ eléyín ńlá",
+          "méjèèjì ń yí ní eré kan náà",
+          "Eyín kọ̀ọ̀kan ti kẹ̀kẹ́ kékeré ń ti eyín kan ti kẹ̀kẹ́ ńlá, nítorí náà kékeré gbọ́dọ̀ yí ní ìgbà mẹ́ta kí ńlá tó yí lẹ́ẹ̀kan."
+        ],
+        [
+          "Kẹ̀kẹ́ eléyín méjì wọnú ara wọn. Tí àkọ́kọ́ bá ń yí bí ọwọ́ aago ṣe ń yí, ọ̀nà wo ni èkejì yóò yí?",
+          "ní òdìkejì ọ̀nà tí ọwọ́ aago ń yí",
+          "bí ọwọ́ aago ṣe ń yí",
+          "kò ní yí rárá",
+          "Níbi tí eyín wọn ti pàdé, wọ́n ń ti ara wọn, nítorí náà kẹ̀kẹ́ eléyín tí ó wọnú ara wọn máa ń yí ní ọ̀nà òdìkejì sí ara wọn."
+        ],
+        [
+          "Agbára méjì tí ó dọ́gba ń ti àpótí kan tí kò ń rìn ní ọ̀nà òdìkejì sí ara wọn. Kí ló ṣẹlẹ̀ sí àpótí náà?",
+          "ó dúró jẹ́ẹ́, nítorí pé àwọn agbára náà dọ́gba",
+          "ó ń yára sí i ní ọ̀nà méjèèjì",
+          "ó ń lọ sí ẹ̀gbẹ́ tí ó lágbára jù",
+          "Agbára tí ó dọ́gba máa ń pa ara wọn rẹ́, nítorí náà ìrìn àpótí náà kò yí padà. Níbí, ó dúró jẹ́ẹ́."
+        ],
+        [
+          "Nínú eré fífa okùn, ẹgbẹ́ kan ń fà pẹ̀lú 300 N, èkejì sì ń fà pẹ̀lú 200 N. Kí ló ṣẹlẹ̀?",
+          "okùn náà ń lọ sí ọ̀dọ̀ ẹgbẹ́ 300 N",
+          "okùn náà ń lọ sí ọ̀dọ̀ ẹgbẹ́ 200 N",
+          "okùn náà dúró jẹ́ẹ́ pátápátá",
+          "Àwọn agbára náà kò dọ́gba. Agbára 100 N ṣẹ́kù sí ọ̀dọ̀ ẹgbẹ́ tí ó lágbára jù, nítorí náà okùn ń lọ sí ọ̀dọ̀ wọn."
+        ],
+        [
+          "Ọkọ̀ ojú omi kan ń léfòó lórí adágún. Ìwúwo rẹ̀ ń fà á sílẹ̀. Agbára wo ló ń tì í sókè?",
+          "agbára títì-sókè omi (upthrust)",
+          "ìfarakanra",
+          "ìdènà afẹ́fẹ́",
+          "Omi máa ń ti ohunkóhun tí ó wà nínú rẹ̀ sókè. Tí agbára títì-sókè yìí bá dọ́gba pẹ̀lú ìwúwo ọkọ̀, ọkọ̀ náà á léfòó."
+        ],
+        [
+          "Kò sí afẹ́fẹ́ lórí òṣùpá. Arìnrìn-àjò òfuurufú kan ju òòlù àti ìyẹ́ ẹyẹ sílẹ̀ ní ẹ̀ẹ̀kan náà. Èwo ló kọ́kọ́ balẹ̀?",
+          "wọ́n balẹ̀ ní ẹ̀ẹ̀kan náà",
+          "òòlù",
+          "ìyẹ́ ẹyẹ",
+          "Láìsí ìdènà afẹ́fẹ́, agbára òòfà ń mú gbogbo nǹkan yára bákan náà, nítorí náà òòlù àti ìyẹ́ ẹyẹ ń balẹ̀ pọ̀."
+        ],
+        [
+          "Bébà pẹrẹsẹ máa ń jábọ́ díẹ̀díẹ̀ ju bébà kan náà tí a ká pọ̀ bí bọ́ọ̀lù. Kí ló fà á?",
+          "bébà pẹrẹsẹ ní ìdènà afẹ́fẹ́ púpọ̀ sí i",
+          "bébà pẹrẹsẹ ní ìwọ̀n ẹrù púpọ̀ sí i",
+          "agbára òòfà kì í fa nǹkan pẹrẹsẹ",
+          "Méjèèjì ní ìwọ̀n ẹrù àti ìwúwo kan náà, ṣùgbọ́n bébà pẹrẹsẹ ń ti afẹ́fẹ́ púpọ̀ sí i, nítorí náà ó ń dín eré rẹ̀ kù jù."
+        ],
+        [
+          "Ọ̀nà wo ni agbára òòfà Ayé ń fà ọ́ sí?",
+          "sí àárín Ayé",
+          "kúrò ní Ayé sí òfuurufú",
+          "sí ẹ̀gbẹ́, sí òkun",
+          "Ibikíbi tí o bá dúró sí lórí Ayé roboto, agbára òòfà ń fà ọ́ sí àárín rẹ̀. Ìyẹn ni à ń pè ní ìsàlẹ̀."
+        ],
+        [
+          "Nínú àwòrán agbára, a máa ń ya agbára bí ọfà. Kí ni ọfà tí ó gùn jù fi hàn?",
+          "agbára tí ó tóbi jù",
+          "ohun tí ó ń lọ díẹ̀díẹ̀",
+          "ohun tí ó fúyẹ́ jù",
+          "Ọfà náà ń fi ọ̀nà tí agbára ń lọ hàn, gígùn rẹ̀ sì ń fi bí agbára náà ṣe tóbi tó hàn."
+        ],
+        [
+          "O da epo díẹ̀ sí ìdè ilẹ̀kùn tí ń dún kìrìkìrì. Kí ló ṣẹlẹ̀ sí ìfarakanra?",
+          "ó dín kù",
+          "ó pọ̀ sí i",
+          "kò yí padà, ṣùgbọ́n ilẹ̀kùn náà wúwo sí i",
+          "Epo ń ṣe ìpele yíyọ̀ láàárín àwọn ẹ̀yà irin, nítorí náà wọ́n ń yọ̀ kọjá ara wọn ní ìrọ̀rùn, wọn kò sì dún mọ́."
+        ],
+        [
+          "Kí ló dé tí ìwúwo rẹ yóò fi pọ̀ sí i lórí Júpítà ju lórí Ayé lọ?",
+          "Júpítà ní ìwọ̀n ẹrù tí ó pọ̀ púpọ̀, nítorí náà agbára òòfà rẹ̀ lágbára jù",
+          "Júpítà súnmọ́ oòrùn ju Ayé lọ",
+          "Júpítà ń yí díẹ̀díẹ̀ ju Ayé lọ",
+          "Bí ìwọ̀n ẹrù pílánẹ́ẹ̀tì bá ṣe pọ̀ tó, bẹ́ẹ̀ ni fífà rẹ̀ ṣe lágbára tó. Ìwọ̀n ẹrù rẹ kò ní yí padà, ṣùgbọ́n ìwúwo rẹ yóò ju ìlọ́po méjì lọ."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni àpẹẹrẹ ìdènà omi?",
+          "rírí bí omi ṣe ń tì ọ́ padà nígbà tí o bá ń lúwẹ̀ẹ́",
+          "bọ́ọ̀lù tí ń yí títí ó fi dúró lórí koríko",
+          "mágínẹ́ẹ̀tì tí ń fa abẹ́rẹ́ irin",
+          "Ìdènà omi jẹ́ agbára tí ń ti ohun tí ń rìn nínú omi padà, tí ó sì ń dín eré rẹ̀ kù."
+        ],
+        [
+          "Ọmọdé méjì ń ṣeré lórí ọ̀pá ìtẹ̀sọ̀ (see-saw), ó sì dọ́gba. Lẹ́yìn náà, ọmọ tí ó wúwo jù jókòó sí ẹ̀gbẹ́ kan. Báwo ni ó ṣe lè dọ́gba padà?",
+          "ọmọ tí ó wúwo jù súnmọ́ ojú ìyípo",
+          "ọmọ tí ó wúwo jù sún jìnnà sí ojú ìyípo",
+          "ọmọ tí ó fúyẹ́ súnmọ́ ojú ìyípo",
+          "Ìwúwo ńlá tí ó súnmọ́ ojú ìyípo lè dọ́gba pẹ̀lú ìwúwo kékeré tí ó jìnnà, nítorí pé agbára yíyí dá lórí ìwúwo àti ìjìnnà."
+        ]
+      ]
+    }
+  },
+  "emoji": "gear",
+  "example": {
+    "i": 0,
+    "q_en": "What unit are forces measured in?",
+    "answer_en": "newtons (N)",
+    "why_en": "Forces are measured in newtons, named after the scientist Isaac Newton. Kilograms measure mass and metres measure length.",
+    "q_de": "In welcher Einheit misst man Kräfte?",
+    "answer_de": "Newton (N)",
+    "why_de": "Kräfte misst man in Newton, benannt nach dem Forscher Isaac Newton. Kilogramm misst die Masse, Meter die Länge.",
+    "q_fr": "Dans quelle unité mesure-t-on les forces ?",
+    "answer_fr": "en newtons (N)",
+    "why_fr": "On mesure les forces en newtons, du nom du savant Isaac Newton. Le kilogramme mesure la masse et le mètre la longueur.",
+    "q_yo": "Ìwọ̀n wo ni a fi ń wọn agbára?",
+    "answer_yo": "níútọ̀nù (N)",
+    "why_yo": "A ń wọn agbára ní níútọ̀nù, orúkọ onímọ̀ sáyẹ́ǹsì Isaac Newton. Kìlógíráàmù ń wọn ìwọ̀n ẹrù, mítà sì ń wọn gígùn."
+  },
+  "text": {
+    "en": {
+      "title": "Forces",
+      "teach": "Forces are pushes and pulls, measured in newtons (N). Gravity gives things weight, air and water resistance and friction slow moving things down, and levers, pulleys and gears let a small force do a big job.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Kräfte",
+      "teach": "Kräfte sind Drücken und Ziehen und werden in Newton (N) gemessen. Die Schwerkraft gibt Dingen ihre Gewichtskraft, Luftwiderstand, Wasserwiderstand und Reibung bremsen Bewegungen, und Hebel, Flaschenzüge und Zahnräder lassen eine kleine Kraft viel bewirken.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les forces",
+      "teach": "Les forces sont des poussées et des tractions, mesurées en newtons (N). La gravité donne leur poids aux objets, la résistance de l’air, celle de l’eau et le frottement freinent les mouvements, et les leviers, les poulies et les engrenages permettent à une petite force de faire un gros travail.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Agbára (forces)",
+      "teach": "Agbára ni títì àti fífà, a sì ń wọ̀n ọ́n ní níútọ̀nù (N). Agbára òòfà ló ń fún nǹkan ní ìwúwo, ìdènà afẹ́fẹ́, ìdènà omi àti ìfarakanra (friction) ń dín ìrìn kù, ọ̀pá ìgbéga, àgbá okùn àti kẹ̀kẹ́ eléyín sì ń jẹ́ kí agbára kékeré ṣe iṣẹ́ ńlá.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

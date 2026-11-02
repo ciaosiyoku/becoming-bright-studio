@@ -97,6 +97,8 @@
   box-shadow: var(--shadow);
   text-align: center;
   font-size: 1.1rem;
+  overflow-wrap: anywhere;
+  hyphens: auto;
 }
 .tile small {
   font-family: 'Andika', sans-serif;

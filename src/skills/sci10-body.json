@@ -1,0 +1,936 @@
+{
+  "id": "sci10-body",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 201,
+  "params": {
+    "emojis": [
+      "droplet",
+      "anatomical-heart",
+      "heart",
+      "droplet",
+      "cloud",
+      "fog",
+      "anatomical-heart",
+      "shoe",
+      "medal",
+      "anatomical-heart",
+      "bone",
+      "wave",
+      "speech",
+      "cloud",
+      "droplet",
+      "warning",
+      "heart",
+      "clock",
+      "chart",
+      "clock",
+      "trophy",
+      "medal",
+      "thermometer",
+      "fruit-banana",
+      "anatomical-heart",
+      "heart",
+      "mountain",
+      "droplet",
+      "gear",
+      "snow"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which organ pumps blood all around the body?",
+          "the heart",
+          "the liver",
+          "the stomach",
+          "The heart is a strong muscle that squeezes about once a second to push blood through the blood vessels."
+        ],
+        [
+          "Which blood vessels carry blood away from the heart?",
+          "arteries",
+          "veins",
+          "nerves",
+          "Arteries carry blood away from the heart. Their walls are thick and stretchy because the blood inside is pushed hard."
+        ],
+        [
+          "Which blood vessels bring blood back to the heart?",
+          "veins",
+          "arteries",
+          "tendons",
+          "Veins return blood to the heart. They have small valves inside that stop the blood flowing backwards."
+        ],
+        [
+          "What are the tiniest blood vessels, which link arteries to veins?",
+          "capillaries",
+          "lungs",
+          "ribs",
+          "Capillaries have walls only one cell thick, so oxygen and food can pass through them into the body’s cells."
+        ],
+        [
+          "Which gas does your blood pick up in the lungs?",
+          "oxygen",
+          "carbon dioxide",
+          "helium",
+          "Air in the lungs is rich in oxygen. It passes into the blood, which carries it to every cell."
+        ],
+        [
+          "Which waste gas do your lungs get rid of when you breathe out?",
+          "carbon dioxide",
+          "oxygen",
+          "helium",
+          "Your cells make carbon dioxide as waste. The blood takes it to the lungs and you breathe it out."
+        ],
+        [
+          "How many chambers does the human heart have?",
+          "four",
+          "two",
+          "six",
+          "The heart has two upper chambers (atria) and two lower chambers (ventricles)."
+        ],
+        [
+          "What happens to your heart rate when you start running?",
+          "it goes up",
+          "it goes down",
+          "it stays exactly the same",
+          "Working muscles need more oxygen and food, so the heart beats faster to deliver more blood."
+        ],
+        [
+          "Why do you breathe faster during exercise?",
+          "your muscles need more oxygen",
+          "your lungs are shrinking",
+          "your blood is getting colder",
+          "Faster, deeper breathing brings more oxygen into the blood and removes the extra carbon dioxide your muscles make."
+        ],
+        [
+          "Where is your heart?",
+          "in your chest, between your lungs",
+          "in your belly, next to your stomach",
+          "in your neck, behind your throat",
+          "The heart sits in the middle of the chest, tilted slightly to the left, with a lung on each side."
+        ],
+        [
+          "Which bones protect your heart and lungs?",
+          "the rib cage",
+          "the skull",
+          "the kneecaps",
+          "The ribs form a strong cage around the chest that guards the heart and lungs but can still move when you breathe."
+        ],
+        [
+          "Which sheet of muscle under the lungs helps you breathe in?",
+          "the diaphragm",
+          "the biceps",
+          "the tongue",
+          "When the diaphragm tightens, it moves down. This makes space in the chest, and air rushes into the lungs."
+        ],
+        [
+          "What is the job of the windpipe (trachea)?",
+          "to carry air down to the lungs",
+          "to carry food down to the stomach",
+          "to pump blood to the brain",
+          "The windpipe is a tube held open by rings of cartilage. Food goes down a different tube, the food pipe."
+        ],
+        [
+          "What are the millions of tiny air sacs inside the lungs called?",
+          "alveoli",
+          "veins",
+          "ribs",
+          "Alveoli are wrapped in capillaries. Oxygen passes from the air sacs into the blood, and carbon dioxide passes the other way."
+        ],
+        [
+          "Which part of the blood carries oxygen?",
+          "red blood cells",
+          "white blood cells",
+          "platelets",
+          "Red blood cells contain haemoglobin, which grabs oxygen in the lungs and lets it go in the body’s tissues."
+        ],
+        [
+          "What is the main job of white blood cells?",
+          "to fight germs",
+          "to carry oxygen",
+          "to make bones grow",
+          "White blood cells attack bacteria and viruses that get into the body, helping you get better when you are ill."
+        ],
+        [
+          "You graze your knee. Which part of the blood helps a clot form to stop the bleeding?",
+          "platelets",
+          "red blood cells",
+          "the water in plasma",
+          "Platelets are tiny cell pieces that stick together at a cut and help make a clot, which later becomes a scab."
+        ],
+        [
+          "Where is an easy place to feel your pulse?",
+          "on the inside of your wrist",
+          "on your fingernail",
+          "on the tips of your hair",
+          "An artery runs close to the skin on the inside of the wrist, so you can feel each heartbeat there."
+        ],
+        [
+          "Ada’s pulse is 75 beats per minute at rest. After 5 minutes of skipping, what is it most likely to be?",
+          "about 130 beats per minute",
+          "about 40 beats per minute",
+          "0 beats per minute",
+          "Exercise makes the heart beat much faster to send more blood to the muscles, so the pulse rises well above the resting rate."
+        ],
+        [
+          "You stop running and sit down. What happens to your heart rate over the next few minutes?",
+          "it slowly falls back to normal",
+          "it keeps rising for hours",
+          "it stops",
+          "Once the muscles need less oxygen, the heart slows down. A fit person’s pulse returns to normal more quickly."
+        ],
+        [
+          "Which habit does most to keep your heart healthy?",
+          "being active every day",
+          "sitting still all day",
+          "eating sweets at every meal",
+          "Regular exercise makes the heart muscle stronger, so it can pump more blood with each beat."
+        ],
+        [
+          "Which of these is a long-term effect of regular exercise?",
+          "a stronger heart that beats more slowly at rest",
+          "smaller lungs",
+          "weaker muscles",
+          "A trained heart pumps more blood per beat, so it does not need to beat as often when you are resting."
+        ],
+        [
+          "Why do you sweat when you exercise hard?",
+          "to cool your body down",
+          "to give your muscles oxygen",
+          "to make your heart slower",
+          "Working muscles make heat. Sweat takes heat away from your skin as it evaporates."
+        ],
+        [
+          "Besides oxygen, what does blood carry to the body’s cells?",
+          "nutrients from digested food",
+          "tiny pieces of bone",
+          "light from the sun",
+          "Food is broken down in the gut, and the nutrients pass into the blood, which delivers them to every cell."
+        ],
+        [
+          "Which three parts make up the circulatory system?",
+          "heart, blood vessels and blood",
+          "nose, windpipe and lungs",
+          "brain, nerves and spine",
+          "The circulatory system moves blood around the body. The nose, windpipe and lungs belong to the respiratory system."
+        ],
+        [
+          "Blood coming back from the body is low in oxygen. Where does the heart send it next?",
+          "to the lungs",
+          "to the stomach",
+          "straight back to the legs",
+          "The right side of the heart pumps used blood to the lungs to collect fresh oxygen before it goes round the body again."
+        ],
+        [
+          "Which activity would make your breathing rate rise the most?",
+          "running up a steep hill",
+          "reading a book",
+          "sleeping",
+          "The harder your muscles work, the more oxygen they need, so you breathe faster and deeper."
+        ],
+        [
+          "What colour is the blood inside your veins?",
+          "dark red",
+          "blue",
+          "green",
+          "Blood is always red. Blood low in oxygen is a darker red; veins only look bluish because of how light passes through skin."
+        ],
+        [
+          "The heart is mostly made of which kind of tissue?",
+          "muscle",
+          "bone",
+          "fat",
+          "The heart wall is a special muscle called cardiac muscle. It keeps working all your life without resting."
+        ],
+        [
+          "On a cold day you can see your breath. What is the little cloud made of?",
+          "tiny water droplets from your breath",
+          "smoke from your lungs",
+          "dust from the street",
+          "Breathed-out air is warm and contains water vapour. In cold air it condenses into tiny droplets you can see."
+        ]
+      ],
+      "de": [
+        [
+          "Welches Organ pumpt das Blut durch den ganzen Körper?",
+          "das Herz",
+          "die Leber",
+          "der Magen",
+          "Das Herz ist ein kräftiger Muskel. Etwa einmal pro Sekunde zieht es sich zusammen und drückt das Blut durch die Blutgefäße."
+        ],
+        [
+          "Welche Blutgefäße bringen das Blut vom Herzen weg?",
+          "die Arterien",
+          "die Venen",
+          "die Nerven",
+          "Arterien führen das Blut vom Herzen weg. Ihre Wände sind dick und dehnbar, weil das Blut mit viel Druck hineingepresst wird."
+        ],
+        [
+          "Welche Blutgefäße bringen das Blut zurück zum Herzen?",
+          "die Venen",
+          "die Arterien",
+          "die Sehnen",
+          "Venen führen das Blut zum Herzen zurück. Kleine Klappen in ihnen verhindern, dass es rückwärts fließt."
+        ],
+        [
+          "Wie heißen die feinsten Blutgefäße zwischen Arterien und Venen?",
+          "Kapillaren",
+          "Lungen",
+          "Rippen",
+          "Die Wand einer Kapillare ist nur eine Zelle dick. So gelangen Sauerstoff und Nährstoffe hindurch in die Körperzellen."
+        ],
+        [
+          "Welches Gas nimmt dein Blut in der Lunge auf?",
+          "Sauerstoff",
+          "Kohlendioxid",
+          "Helium",
+          "Die Luft in der Lunge enthält viel Sauerstoff. Er geht ins Blut über, und das Blut bringt ihn zu jeder Zelle."
+        ],
+        [
+          "Welches Abfallgas gibt deine Lunge beim Ausatmen ab?",
+          "Kohlendioxid",
+          "Sauerstoff",
+          "Helium",
+          "Deine Zellen bilden Kohlendioxid als Abfall. Das Blut bringt es zur Lunge, und du atmest es aus."
+        ],
+        [
+          "Wie viele Hohlräume (Vorhöfe und Kammern) hat das menschliche Herz zusammen?",
+          "vier",
+          "zwei",
+          "sechs",
+          "Das Herz hat zwei Vorhöfe oben und zwei Kammern unten, also vier Hohlräume."
+        ],
+        [
+          "Was passiert mit deinem Puls, wenn du losrennst?",
+          "er steigt",
+          "er sinkt",
+          "er bleibt genau gleich",
+          "Arbeitende Muskeln brauchen mehr Sauerstoff und Nährstoffe. Darum schlägt das Herz schneller und pumpt mehr Blut."
+        ],
+        [
+          "Warum atmest du beim Sport schneller?",
+          "deine Muskeln brauchen mehr Sauerstoff",
+          "deine Lunge schrumpft",
+          "dein Blut wird kälter",
+          "Schnelleres, tieferes Atmen bringt mehr Sauerstoff ins Blut und entfernt das zusätzliche Kohlendioxid aus den Muskeln."
+        ],
+        [
+          "Wo liegt dein Herz?",
+          "im Brustkorb, zwischen den Lungenflügeln",
+          "im Bauch, neben dem Magen",
+          "im Hals, hinter der Kehle",
+          "Das Herz liegt in der Mitte der Brust, etwas nach links geneigt, mit je einem Lungenflügel auf jeder Seite."
+        ],
+        [
+          "Welche Knochen schützen Herz und Lunge?",
+          "der Brustkorb mit den Rippen",
+          "der Schädel",
+          "die Kniescheiben",
+          "Die Rippen bilden einen festen Käfig um die Brust. Er schützt Herz und Lunge und bewegt sich trotzdem beim Atmen."
+        ],
+        [
+          "Welche Muskelplatte unter der Lunge hilft dir beim Einatmen?",
+          "das Zwerchfell",
+          "der Bizeps",
+          "die Zunge",
+          "Spannt sich das Zwerchfell an, senkt es sich. Im Brustkorb entsteht Platz, und Luft strömt in die Lunge."
+        ],
+        [
+          "Welche Aufgabe hat die Luftröhre?",
+          "Luft zur Lunge leiten",
+          "Essen in den Magen leiten",
+          "Blut zum Gehirn pumpen",
+          "Die Luftröhre wird von Knorpelringen offen gehalten. Das Essen rutscht durch eine andere Röhre, die Speiseröhre."
+        ],
+        [
+          "Wie heißen die Millionen winziger Luftbläschen in der Lunge?",
+          "Lungenbläschen (Alveolen)",
+          "Venen",
+          "Rippen",
+          "Die Lungenbläschen sind von Kapillaren umgeben. Sauerstoff wandert aus den Bläschen ins Blut, Kohlendioxid in die andere Richtung."
+        ],
+        [
+          "Welcher Teil des Blutes transportiert Sauerstoff?",
+          "die roten Blutkörperchen",
+          "die weißen Blutkörperchen",
+          "die Blutplättchen",
+          "Rote Blutkörperchen enthalten Hämoglobin. Es bindet in der Lunge Sauerstoff und gibt ihn im Körper wieder ab."
+        ],
+        [
+          "Was ist die Hauptaufgabe der weißen Blutkörperchen?",
+          "Krankheitserreger bekämpfen",
+          "Sauerstoff transportieren",
+          "Knochen wachsen lassen",
+          "Weiße Blutkörperchen greifen Bakterien und Viren an, die in den Körper gelangen. So wirst du wieder gesund."
+        ],
+        [
+          "Du schürfst dir das Knie auf. Welcher Blutbestandteil hilft, die Wunde zu verschließen?",
+          "die Blutplättchen",
+          "die roten Blutkörperchen",
+          "das Wasser im Blutplasma",
+          "Blutplättchen sind winzige Zellteile. Sie verkleben an der Wunde und bilden ein Gerinnsel, aus dem später Schorf wird."
+        ],
+        [
+          "Wo kannst du deinen Puls leicht fühlen?",
+          "an der Innenseite des Handgelenks",
+          "auf dem Fingernagel",
+          "an den Haarspitzen",
+          "An der Innenseite des Handgelenks verläuft eine Arterie dicht unter der Haut. Dort spürst du jeden Herzschlag."
+        ],
+        [
+          "Adas Ruhepuls liegt bei 75 Schlägen pro Minute. Wie hoch ist er wahrscheinlich nach 5 Minuten Seilspringen?",
+          "etwa 130 Schläge pro Minute",
+          "etwa 40 Schläge pro Minute",
+          "0 Schläge pro Minute",
+          "Bei Bewegung schlägt das Herz viel schneller, um mehr Blut zu den Muskeln zu schicken. Der Puls steigt deutlich über den Ruhewert."
+        ],
+        [
+          "Du hörst auf zu rennen und setzt dich. Was passiert in den nächsten Minuten mit deinem Puls?",
+          "er sinkt langsam wieder auf normal",
+          "er steigt stundenlang weiter",
+          "er hört auf",
+          "Brauchen die Muskeln weniger Sauerstoff, schlägt das Herz langsamer. Bei trainierten Menschen ist der Puls schneller wieder normal."
+        ],
+        [
+          "Welche Gewohnheit hält dein Herz am besten gesund?",
+          "sich jeden Tag bewegen",
+          "den ganzen Tag stillsitzen",
+          "zu jeder Mahlzeit Süßigkeiten essen",
+          "Regelmäßige Bewegung macht den Herzmuskel stärker. Dann pumpt er mit jedem Schlag mehr Blut."
+        ],
+        [
+          "Was ist eine langfristige Wirkung von regelmäßigem Sport?",
+          "ein stärkeres Herz, das in Ruhe langsamer schlägt",
+          "eine kleinere Lunge",
+          "schwächere Muskeln",
+          "Ein trainiertes Herz pumpt pro Schlag mehr Blut. In Ruhe muss es deshalb seltener schlagen."
+        ],
+        [
+          "Warum schwitzt du bei anstrengendem Sport?",
+          "um den Körper abzukühlen",
+          "um den Muskeln Sauerstoff zu geben",
+          "um das Herz langsamer zu machen",
+          "Arbeitende Muskeln erzeugen Wärme. Wenn der Schweiß verdunstet, nimmt er Wärme von der Haut mit."
+        ],
+        [
+          "Was bringt das Blut außer Sauerstoff noch zu den Körperzellen?",
+          "Nährstoffe aus der verdauten Nahrung",
+          "winzige Knochenstückchen",
+          "Sonnenlicht",
+          "Die Nahrung wird im Darm zerlegt. Die Nährstoffe gehen ins Blut über, das sie zu jeder Zelle bringt."
+        ],
+        [
+          "Welche drei Teile bilden den Blutkreislauf?",
+          "Herz, Blutgefäße und Blut",
+          "Nase, Luftröhre und Lunge",
+          "Gehirn, Nerven und Wirbelsäule",
+          "Der Kreislauf bewegt das Blut durch den Körper. Nase, Luftröhre und Lunge gehören zu den Atmungsorganen."
+        ],
+        [
+          "Blut, das aus dem Körper zurückkommt, hat wenig Sauerstoff. Wohin schickt das Herz es als Nächstes?",
+          "zur Lunge",
+          "zum Magen",
+          "direkt zurück in die Beine",
+          "Die rechte Herzhälfte pumpt das verbrauchte Blut zur Lunge. Dort holt es frischen Sauerstoff, bevor es wieder durch den Körper fließt."
+        ],
+        [
+          "Bei welcher Tätigkeit steigt deine Atemfrequenz am stärksten?",
+          "einen steilen Hügel hinaufrennen",
+          "ein Buch lesen",
+          "schlafen",
+          "Je härter die Muskeln arbeiten, desto mehr Sauerstoff brauchen sie. Darum atmest du schneller und tiefer."
+        ],
+        [
+          "Welche Farbe hat das Blut in deinen Venen?",
+          "dunkelrot",
+          "blau",
+          "grün",
+          "Blut ist immer rot. Sauerstoffarmes Blut ist dunkler rot. Venen wirken nur bläulich, weil Licht so durch die Haut fällt."
+        ],
+        [
+          "Woraus besteht das Herz hauptsächlich?",
+          "aus Muskelgewebe",
+          "aus Knochen",
+          "aus Fett",
+          "Die Herzwand ist ein besonderer Muskel, der Herzmuskel. Er arbeitet ein Leben lang ohne Pause."
+        ],
+        [
+          "An kalten Tagen siehst du deinen Atem. Woraus besteht die kleine Wolke?",
+          "aus winzigen Wassertröpfchen aus deinem Atem",
+          "aus Rauch aus deiner Lunge",
+          "aus Straßenstaub",
+          "Ausgeatmete Luft ist warm und enthält Wasserdampf. In kalter Luft kondensiert er zu winzigen, sichtbaren Tröpfchen."
+        ]
+      ],
+      "fr": [
+        [
+          "Quel organe pompe le sang dans tout le corps ?",
+          "le cœur",
+          "le foie",
+          "l’estomac",
+          "Le cœur est un muscle puissant qui se contracte environ une fois par seconde pour pousser le sang dans les vaisseaux."
+        ],
+        [
+          "Quels vaisseaux emportent le sang loin du cœur ?",
+          "les artères",
+          "les veines",
+          "les nerfs",
+          "Les artères emportent le sang loin du cœur. Leurs parois sont épaisses et élastiques, car le sang y est poussé avec force."
+        ],
+        [
+          "Quels vaisseaux ramènent le sang vers le cœur ?",
+          "les veines",
+          "les artères",
+          "les tendons",
+          "Les veines ramènent le sang au cœur. De petites valves à l’intérieur l’empêchent de repartir en arrière."
+        ],
+        [
+          "Comment s’appellent les plus petits vaisseaux, entre les artères et les veines ?",
+          "les capillaires",
+          "les poumons",
+          "les côtes",
+          "La paroi d’un capillaire n’a qu’une cellule d’épaisseur : l’oxygène et les nutriments la traversent pour aller dans les cellules."
+        ],
+        [
+          "Quel gaz ton sang prend-il dans les poumons ?",
+          "l’oxygène",
+          "le dioxyde de carbone",
+          "l’hélium",
+          "L’air des poumons est riche en oxygène. Il passe dans le sang, qui le transporte jusqu’à chaque cellule."
+        ],
+        [
+          "Quel gaz usé tes poumons rejettent-ils quand tu expires ?",
+          "le dioxyde de carbone",
+          "l’oxygène",
+          "l’hélium",
+          "Tes cellules fabriquent du dioxyde de carbone comme déchet. Le sang l’apporte aux poumons et tu le rejettes en expirant."
+        ],
+        [
+          "Combien de cavités le cœur humain a-t-il ?",
+          "quatre",
+          "deux",
+          "six",
+          "Le cœur a deux oreillettes en haut et deux ventricules en bas."
+        ],
+        [
+          "Que devient ton rythme cardiaque quand tu te mets à courir ?",
+          "il augmente",
+          "il baisse",
+          "il reste exactement pareil",
+          "Les muscles qui travaillent ont besoin de plus d’oxygène et de nutriments : le cœur bat plus vite pour envoyer plus de sang."
+        ],
+        [
+          "Pourquoi respires-tu plus vite pendant le sport ?",
+          "tes muscles ont besoin de plus d’oxygène",
+          "tes poumons rétrécissent",
+          "ton sang se refroidit",
+          "Respirer plus vite et plus fort apporte plus d’oxygène au sang et évacue le dioxyde de carbone en plus produit par les muscles."
+        ],
+        [
+          "Où se trouve ton cœur ?",
+          "dans la poitrine, entre les poumons",
+          "dans le ventre, à côté de l’estomac",
+          "dans le cou, derrière la gorge",
+          "Le cœur est au milieu de la poitrine, un peu penché vers la gauche, avec un poumon de chaque côté."
+        ],
+        [
+          "Quels os protègent ton cœur et tes poumons ?",
+          "la cage thoracique",
+          "le crâne",
+          "les rotules",
+          "Les côtes forment une cage solide autour de la poitrine : elle protège le cœur et les poumons tout en bougeant quand tu respires."
+        ],
+        [
+          "Quel muscle plat, sous les poumons, t’aide à inspirer ?",
+          "le diaphragme",
+          "le biceps",
+          "la langue",
+          "Quand le diaphragme se contracte, il descend. La poitrine s’agrandit et l’air entre dans les poumons."
+        ],
+        [
+          "À quoi sert la trachée ?",
+          "à conduire l’air jusqu’aux poumons",
+          "à conduire la nourriture jusqu’à l’estomac",
+          "à pomper le sang vers le cerveau",
+          "La trachée est un tube maintenu ouvert par des anneaux de cartilage. La nourriture passe par un autre tube, l’œsophage."
+        ],
+        [
+          "Comment s’appellent les millions de petits sacs d’air dans les poumons ?",
+          "les alvéoles",
+          "les veines",
+          "les côtes",
+          "Les alvéoles sont entourées de capillaires. L’oxygène passe des alvéoles au sang, et le dioxyde de carbone fait le chemin inverse."
+        ],
+        [
+          "Quelle partie du sang transporte l’oxygène ?",
+          "les globules rouges",
+          "les globules blancs",
+          "les plaquettes",
+          "Les globules rouges contiennent de l’hémoglobine, qui capte l’oxygène dans les poumons et le libère dans le corps."
+        ],
+        [
+          "Quel est le rôle principal des globules blancs ?",
+          "combattre les microbes",
+          "transporter l’oxygène",
+          "faire grandir les os",
+          "Les globules blancs attaquent les bactéries et les virus qui entrent dans le corps. Ils t’aident à guérir."
+        ],
+        [
+          "Tu t’écorches le genou. Quelle partie du sang aide à former un caillot pour arrêter le saignement ?",
+          "les plaquettes",
+          "les globules rouges",
+          "l’eau du plasma",
+          "Les plaquettes sont de minuscules morceaux de cellules. Elles se collent sur la plaie et forment un caillot, qui devient ensuite une croûte."
+        ],
+        [
+          "Où peux-tu sentir facilement ton pouls ?",
+          "à l’intérieur du poignet",
+          "sur l’ongle",
+          "au bout des cheveux",
+          "Une artère passe juste sous la peau à l’intérieur du poignet : on y sent chaque battement du cœur."
+        ],
+        [
+          "Au repos, le pouls d’Ada est de 75 battements par minute. Après 5 minutes de corde à sauter, quelle valeur est la plus probable ?",
+          "environ 130 battements par minute",
+          "environ 40 battements par minute",
+          "0 battement par minute",
+          "Pendant l’effort, le cœur bat beaucoup plus vite pour envoyer plus de sang aux muscles : le pouls monte bien au-dessus de la valeur de repos."
+        ],
+        [
+          "Tu arrêtes de courir et tu t’assois. Que devient ton pouls dans les minutes suivantes ?",
+          "il redescend peu à peu à la normale",
+          "il continue de monter pendant des heures",
+          "il s’arrête",
+          "Quand les muscles ont besoin de moins d’oxygène, le cœur ralentit. Chez une personne entraînée, le pouls redevient normal plus vite."
+        ],
+        [
+          "Quelle habitude garde le mieux ton cœur en bonne santé ?",
+          "bouger tous les jours",
+          "rester assis toute la journée",
+          "manger des bonbons à chaque repas",
+          "L’exercice régulier renforce le muscle cardiaque : il envoie alors plus de sang à chaque battement."
+        ],
+        [
+          "Quel est un effet à long terme du sport régulier ?",
+          "un cœur plus fort qui bat plus lentement au repos",
+          "des poumons plus petits",
+          "des muscles plus faibles",
+          "Un cœur entraîné envoie plus de sang à chaque battement : au repos, il a donc besoin de battre moins souvent."
+        ],
+        [
+          "Pourquoi transpires-tu quand tu fais un gros effort ?",
+          "pour refroidir ton corps",
+          "pour donner de l’oxygène aux muscles",
+          "pour ralentir ton cœur",
+          "Les muscles qui travaillent produisent de la chaleur. En s’évaporant, la sueur emporte de la chaleur de la peau."
+        ],
+        [
+          "En plus de l’oxygène, qu’apporte le sang aux cellules ?",
+          "les nutriments des aliments digérés",
+          "de minuscules morceaux d’os",
+          "la lumière du soleil",
+          "Les aliments sont découpés dans l’intestin. Les nutriments passent dans le sang, qui les livre à chaque cellule."
+        ],
+        [
+          "Quelles trois parties forment le système circulatoire ?",
+          "le cœur, les vaisseaux et le sang",
+          "le nez, la trachée et les poumons",
+          "le cerveau, les nerfs et la colonne vertébrale",
+          "Le système circulatoire fait circuler le sang. Le nez, la trachée et les poumons font partie du système respiratoire."
+        ],
+        [
+          "Le sang qui revient du corps contient peu d’oxygène. Où le cœur l’envoie-t-il ensuite ?",
+          "vers les poumons",
+          "vers l’estomac",
+          "directement vers les jambes",
+          "La partie droite du cœur envoie ce sang aux poumons pour qu’il se recharge en oxygène avant de repartir dans le corps."
+        ],
+        [
+          "Quelle activité fait le plus augmenter ton rythme de respiration ?",
+          "monter une colline raide en courant",
+          "lire un livre",
+          "dormir",
+          "Plus les muscles travaillent dur, plus ils ont besoin d’oxygène : tu respires alors plus vite et plus profondément."
+        ],
+        [
+          "De quelle couleur est le sang dans tes veines ?",
+          "rouge foncé",
+          "bleu",
+          "vert",
+          "Le sang est toujours rouge. Pauvre en oxygène, il est rouge foncé ; les veines semblent bleutées à cause de la façon dont la lumière traverse la peau."
+        ],
+        [
+          "Le cœur est surtout fait de quel tissu ?",
+          "du muscle",
+          "de l’os",
+          "de la graisse",
+          "La paroi du cœur est un muscle spécial, le muscle cardiaque. Il travaille toute la vie sans se reposer."
+        ],
+        [
+          "Par temps froid, on voit son souffle. De quoi est fait ce petit nuage ?",
+          "de minuscules gouttes d’eau venues de ton souffle",
+          "de fumée sortie des poumons",
+          "de poussière de la rue",
+          "L’air expiré est chaud et contient de la vapeur d’eau. Dans l’air froid, elle se condense en minuscules gouttes visibles."
+        ]
+      ],
+      "yo": [
+        [
+          "Ẹ̀yà ara wo ló ń ti ẹ̀jẹ̀ kiri gbogbo ara?",
+          "ọkàn",
+          "ẹ̀dọ̀",
+          "ikùn",
+          "Ọkàn jẹ́ iṣan alágbára tó ń fún pọ̀ ní nǹkan bí ẹ̀ẹ̀kan ní ìṣẹ́jú-àáyá kan láti ti ẹ̀jẹ̀ gba inú àwọn iṣan ẹ̀jẹ̀."
+        ],
+        [
+          "Àwọn iṣan ẹ̀jẹ̀ wo ló ń gbé ẹ̀jẹ̀ kúrò lọ́dọ̀ ọkàn?",
+          "àwọn iṣan àlọ (artery)",
+          "àwọn iṣan àbọ̀ (vein)",
+          "àwọn iṣan ìmọ̀lára (nerve)",
+          "Iṣan àlọ ń gbé ẹ̀jẹ̀ kúrò lọ́dọ̀ ọkàn. Ògiri wọn nípọn, ó sì lè nà, nítorí pé agbára ni ọkàn fi ń ti ẹ̀jẹ̀ sínú wọn."
+        ],
+        [
+          "Àwọn iṣan ẹ̀jẹ̀ wo ló ń mú ẹ̀jẹ̀ padà sí ọkàn?",
+          "àwọn iṣan àbọ̀ (vein)",
+          "àwọn iṣan àlọ (artery)",
+          "àwọn iṣan ìsopọ̀ egungun (tendon)",
+          "Iṣan àbọ̀ ń mú ẹ̀jẹ̀ padà sí ọkàn. Wọ́n ní àwọn ìlẹ̀kùn kéékèèké nínú tí kò jẹ́ kí ẹ̀jẹ̀ ṣàn padà sẹ́yìn."
+        ],
+        [
+          "Kí ni orúkọ àwọn iṣan ẹ̀jẹ̀ tó kéré jù lọ, tó so iṣan àlọ mọ́ iṣan àbọ̀?",
+          "àwọn iṣan tín-ín-rín (capillary)",
+          "àwọn ẹ̀dọ̀fóró",
+          "àwọn egungun ìhà",
+          "Ògiri iṣan tín-ín-rín kò ju sẹ́ẹ̀lì kan lọ, nítorí náà ọ́síjìn àti oúnjẹ lè gba inú rẹ̀ kọjá sí àwọn sẹ́ẹ̀lì ara."
+        ],
+        [
+          "Afẹ́fẹ́ wo ni ẹ̀jẹ̀ rẹ ń gbà nínú ẹ̀dọ̀fóró?",
+          "ọ́síjìn",
+          "kábọ́ọ̀nù dáyọ́ksáídì",
+          "hílíọ̀mù",
+          "Afẹ́fẹ́ inú ẹ̀dọ̀fóró ní ọ́síjìn púpọ̀. Ó ń wọ inú ẹ̀jẹ̀, ẹ̀jẹ̀ sì ń gbé e lọ sí gbogbo sẹ́ẹ̀lì."
+        ],
+        [
+          "Afẹ́fẹ́ ìdọ̀tí wo ni ẹ̀dọ̀fóró rẹ ń lé jáde nígbà tí o bá mí síta?",
+          "kábọ́ọ̀nù dáyọ́ksáídì",
+          "ọ́síjìn",
+          "hílíọ̀mù",
+          "Àwọn sẹ́ẹ̀lì ara ń ṣe kábọ́ọ̀nù dáyọ́ksáídì gẹ́gẹ́ bí ìdọ̀tí. Ẹ̀jẹ̀ ń gbé e lọ sí ẹ̀dọ̀fóró, o sì ń mí i jáde."
+        ],
+        [
+          "Yàrá mélòó ló wà nínú ọkàn ènìyàn?",
+          "mẹ́rin",
+          "méjì",
+          "mẹ́fà",
+          "Ọkàn ní yàrá méjì lókè àti yàrá méjì nísàlẹ̀."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí ìlù ọkàn rẹ nígbà tí o bá bẹ̀rẹ̀ sí í sáré?",
+          "ó ń pọ̀ sí i",
+          "ó ń dín kù",
+          "kò yí padà rárá",
+          "Àwọn iṣan tó ń ṣiṣẹ́ nílò ọ́síjìn àti oúnjẹ púpọ̀ sí i, nítorí náà ọkàn ń lù kíákíá láti fi ẹ̀jẹ̀ púpọ̀ ránṣẹ́."
+        ],
+        [
+          "Kí ló dé tí o fi ń mí kíákíá nígbà eré ìdárayá?",
+          "àwọn iṣan rẹ nílò ọ́síjìn púpọ̀ sí i",
+          "ẹ̀dọ̀fóró rẹ ń súnkì",
+          "ẹ̀jẹ̀ rẹ ń tutù",
+          "Mímí kíákíá àti jinlẹ̀ ń mú ọ́síjìn púpọ̀ wọ inú ẹ̀jẹ̀, ó sì ń lé kábọ́ọ̀nù dáyọ́ksáídì tí iṣan ṣe jáde."
+        ],
+        [
+          "Níbo ni ọkàn rẹ wà?",
+          "nínú àyà, láàárín ẹ̀dọ̀fóró méjèèjì",
+          "nínú ikùn, lẹ́gbẹ̀ẹ́ àpò oúnjẹ",
+          "nínú ọrùn, lẹ́yìn ọ̀fun",
+          "Ọkàn wà láàárín àyà, ó tẹ̀ díẹ̀ sí apá òsì, ẹ̀dọ̀fóró kan sì wà ní ẹ̀gbẹ́ kọ̀ọ̀kan."
+        ],
+        [
+          "Àwọn egungun wo ló ń dáàbò bo ọkàn àti ẹ̀dọ̀fóró rẹ?",
+          "àwọn egungun ìhà",
+          "agbárí",
+          "àwọn egungun orúnkún",
+          "Àwọn egungun ìhà dà bí àgò líle yí àyà ká. Wọ́n ń ṣọ́ ọkàn àti ẹ̀dọ̀fóró, síbẹ̀ wọ́n ń gbéra nígbà tí o bá ń mí."
+        ],
+        [
+          "Iṣan pẹlẹbẹ wo ní ìsàlẹ̀ ẹ̀dọ̀fóró ló ń ràn ọ́ lọ́wọ́ láti mí wọlé?",
+          "díáfírámù",
+          "iṣan apá (biceps)",
+          "ahọ́n",
+          "Nígbà tí díáfírámù bá le, ó ń sọ̀kalẹ̀. Èyí ń fi àyè sílẹ̀ nínú àyà, afẹ́fẹ́ sì ń sáré wọ inú ẹ̀dọ̀fóró."
+        ],
+        [
+          "Kí ni iṣẹ́ gògóńgò (ọ̀nà afẹ́fẹ́)?",
+          "láti gbé afẹ́fẹ́ lọ sí ẹ̀dọ̀fóró",
+          "láti gbé oúnjẹ lọ sí ikùn",
+          "láti ti ẹ̀jẹ̀ lọ sí ọpọlọ",
+          "Gògóńgò jẹ́ ọ̀pá oníhò tí òrùka kèrékèré mú ṣí sílẹ̀. Oúnjẹ ń gba ọ̀nà mìíràn, ìyẹn ọ̀nà oúnjẹ."
+        ],
+        [
+          "Kí ni orúkọ ọ̀pọ̀lọpọ̀ àpò afẹ́fẹ́ kéékèèké tó wà nínú ẹ̀dọ̀fóró?",
+          "àwọn àpò afẹ́fẹ́ (alveoli)",
+          "àwọn iṣan àbọ̀ (vein)",
+          "àwọn egungun ìhà",
+          "Àwọn iṣan tín-ín-rín yí àwọn àpò afẹ́fẹ́ ká. Ọ́síjìn ń kọjá láti inú àpò sí ẹ̀jẹ̀, kábọ́ọ̀nù dáyọ́ksáídì sì ń gba ọ̀nà kejì."
+        ],
+        [
+          "Apá wo nínú ẹ̀jẹ̀ ló ń gbé ọ́síjìn?",
+          "sẹ́ẹ̀lì ẹ̀jẹ̀ pupa",
+          "sẹ́ẹ̀lì ẹ̀jẹ̀ funfun",
+          "pẹ́lẹ́tì",
+          "Sẹ́ẹ̀lì ẹ̀jẹ̀ pupa ní hímóglóbìn, tó ń di ọ́síjìn mú nínú ẹ̀dọ̀fóró, tó sì ń tú u sílẹ̀ nínú ara."
+        ],
+        [
+          "Kí ni iṣẹ́ pàtàkì sẹ́ẹ̀lì ẹ̀jẹ̀ funfun?",
+          "láti bá kòkòrò àrùn jà",
+          "láti gbé ọ́síjìn",
+          "láti mú egungun dàgbà",
+          "Sẹ́ẹ̀lì ẹ̀jẹ̀ funfun ń kọlu bakitéríà àti fáírọ́ọ̀sì tó wọ inú ara, wọ́n sì ń ràn ọ́ lọ́wọ́ láti sàn nígbà àìsàn."
+        ],
+        [
+          "O ha orúnkún rẹ. Apá wo nínú ẹ̀jẹ̀ ló ń ran ẹ̀jẹ̀ lọ́wọ́ láti dì kí ó dá ṣíṣàn dúró?",
+          "pẹ́lẹ́tì",
+          "sẹ́ẹ̀lì ẹ̀jẹ̀ pupa",
+          "omi inú ẹ̀jẹ̀",
+          "Pẹ́lẹ́tì jẹ́ èérún sẹ́ẹ̀lì kéékèèké tó ń lẹ̀ mọ́ ara wọn níbi ọgbẹ́ láti dì ẹ̀jẹ̀, èyí tó máa di èépá lẹ́yìn náà."
+        ],
+        [
+          "Níbo ló rọrùn láti fọwọ́ kan ìlù ọkàn rẹ (pọ́ọ̀sì)?",
+          "ní apá inú ọrùn ọwọ́",
+          "lórí èékánná",
+          "ní orí irun",
+          "Iṣan àlọ kan sún mọ́ awọ ara ní apá inú ọrùn ọwọ́, nítorí náà o lè fọwọ́ kan lílù ọkàn kọ̀ọ̀kan níbẹ̀."
+        ],
+        [
+          "Ìlù ọkàn Àdá jẹ́ ìlù 75 ní ìṣẹ́jú kan nígbà ìsinmi. Lẹ́yìn ìṣẹ́jú márùn-ún tí ó fi ń fo okùn, kí ló ṣeé ṣe kí ó jẹ́?",
+          "nǹkan bí ìlù 130 ní ìṣẹ́jú kan",
+          "nǹkan bí ìlù 40 ní ìṣẹ́jú kan",
+          "ìlù 0 ní ìṣẹ́jú kan",
+          "Eré ìdárayá ń mú ọkàn lù kíákíá gan-an láti fi ẹ̀jẹ̀ púpọ̀ ránṣẹ́ sí iṣan, nítorí náà ìlù ọkàn ń ga ju ti ìsinmi lọ."
+        ],
+        [
+          "O dá sísáré dúró, o sì jókòó. Kí ló ń ṣẹlẹ̀ sí ìlù ọkàn rẹ ní ìṣẹ́jú díẹ̀ tó tẹ̀lé e?",
+          "ó ń rọra padà sí bí ó ṣe máa ń rí",
+          "ó ń ga sí i fún ọ̀pọ̀ wákàtí",
+          "ó dúró",
+          "Nígbà tí iṣan kò bá nílò ọ́síjìn púpọ̀ mọ́, ọkàn ń rọra lù. Ìlù ọkàn ẹni tí ara rẹ̀ le máa ń tètè padà sí bí ó ṣe yẹ."
+        ],
+        [
+          "Ìwà wo ló dára jù lọ fún ìlera ọkàn rẹ?",
+          "ṣíṣe eré ìdárayá lójoojúmọ́",
+          "jíjókòó jẹ́ẹ́ ní gbogbo ọjọ́",
+          "jíjẹ ṣúgà ní gbogbo oúnjẹ",
+          "Eré ìdárayá déédéé ń mú iṣan ọkàn lágbára, kí ó lè ti ẹ̀jẹ̀ púpọ̀ sí i ní ìlù kọ̀ọ̀kan."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni àǹfààní eré ìdárayá déédéé fún ìgbà pípẹ́?",
+          "ọkàn tó lágbára sí i, tó ń lù díẹ̀díẹ̀ nígbà ìsinmi",
+          "ẹ̀dọ̀fóró tó kéré sí i",
+          "iṣan tó rẹ̀wẹ̀sì",
+          "Ọkàn tí a ti kọ́ ń ti ẹ̀jẹ̀ púpọ̀ ní ìlù kọ̀ọ̀kan, nítorí náà kò nílò láti lù léraléra nígbà ìsinmi."
+        ],
+        [
+          "Kí ló dé tí o fi ń làágùn nígbà tí o bá ń ṣe eré ìdárayá líle?",
+          "láti mú ara rẹ tutù",
+          "láti fún iṣan ní ọ́síjìn",
+          "láti mú kí ọkàn rẹ lù díẹ̀díẹ̀",
+          "Àwọn iṣan tó ń ṣiṣẹ́ ń mú ooru jáde. Bí òógùn ṣe ń gbẹ, ó ń mú ooru kúrò lára awọ ara."
+        ],
+        [
+          "Yàtọ̀ sí ọ́síjìn, kí ni ẹ̀jẹ̀ tún ń gbé lọ sí àwọn sẹ́ẹ̀lì ara?",
+          "èròjà oúnjẹ tí a ti dà",
+          "èérún egungun kéékèèké",
+          "ìmọ́lẹ̀ oòrùn",
+          "Oúnjẹ ń fọ́ sí wẹ́wẹ́ nínú ìfun, èròjà rẹ̀ sì ń wọ inú ẹ̀jẹ̀, tó ń gbé e dé gbogbo sẹ́ẹ̀lì."
+        ],
+        [
+          "Àwọn apá mẹ́ta wo ló para pọ̀ di ètò ìṣàn ẹ̀jẹ̀?",
+          "ọkàn, iṣan ẹ̀jẹ̀ àti ẹ̀jẹ̀",
+          "imú, gògóńgò àti ẹ̀dọ̀fóró",
+          "ọpọlọ, iṣan ìmọ̀lára àti egungun ẹ̀yìn",
+          "Ètò ìṣàn ẹ̀jẹ̀ ń gbé ẹ̀jẹ̀ kiri ara. Imú, gògóńgò àti ẹ̀dọ̀fóró jẹ́ ti ètò mímí."
+        ],
+        [
+          "Ẹ̀jẹ̀ tó ń padà láti ara kò ní ọ́síjìn púpọ̀. Ibo ni ọkàn ń rán an lọ lẹ́yìn náà?",
+          "sí ẹ̀dọ̀fóró",
+          "sí ikùn",
+          "padà sí ẹsẹ̀ tààrà",
+          "Apá ọ̀tún ọkàn ń ti ẹ̀jẹ̀ tí a ti lò lọ sí ẹ̀dọ̀fóró láti gba ọ́síjìn tuntun kí ó tó tún lọ yí ara ká."
+        ],
+        [
+          "Iṣẹ́ wo ló máa mú kí mímí rẹ yára jù lọ?",
+          "sísáré gun òkè gíga",
+          "kíka ìwé",
+          "sísùn",
+          "Bí iṣan bá ṣe ń ṣiṣẹ́ kára tó, bẹ́ẹ̀ ni wọ́n ṣe nílò ọ́síjìn tó, nítorí náà o ń mí kíákíá àti jinlẹ̀."
+        ],
+        [
+          "Àwọ̀ wo ni ẹ̀jẹ̀ inú iṣan àbọ̀ rẹ ní?",
+          "pupa dúdú",
+          "búlúù",
+          "ewé",
+          "Ẹ̀jẹ̀ máa ń pupa nígbà gbogbo. Ẹ̀jẹ̀ tí kò ní ọ́síjìn púpọ̀ pupa dúdú díẹ̀; iṣan àbọ̀ kàn ń dà bí búlúù nítorí bí ìmọ́lẹ̀ ṣe ń gba awọ ara kọjá."
+        ],
+        [
+          "Irú ẹran ara wo ni ọkàn jẹ́ jù lọ?",
+          "iṣan",
+          "egungun",
+          "ọ̀rá",
+          "Ògiri ọkàn jẹ́ iṣan pàtàkì kan tí à ń pè ní iṣan ọkàn. Ó ń ṣiṣẹ́ ní gbogbo ọjọ́ ayé wa láìsinmi."
+        ],
+        [
+          "Ní ọjọ́ tí òtútù mú, o lè rí èémí rẹ. Kí ni ìkùukùu kékeré náà?",
+          "ẹ̀kán omi kéékèèké láti inú èémí rẹ",
+          "èéfín láti inú ẹ̀dọ̀fóró rẹ",
+          "eruku ojú ọ̀nà",
+          "Afẹ́fẹ́ tí a mí jáde gbóná, ó sì ní omi tí ó ti di oru nínú. Nínú òtútù, ó ń di ẹ̀kán omi kéékèèké tí a lè rí."
+        ]
+      ]
+    }
+  },
+  "emoji": "anatomical-heart",
+  "example": {
+    "i": 0,
+    "q_en": "Which organ pumps blood all around the body?",
+    "answer_en": "the heart",
+    "why_en": "The heart is a strong muscle that squeezes about once a second to push blood through the blood vessels.",
+    "q_de": "Welches Organ pumpt das Blut durch den ganzen Körper?",
+    "answer_de": "das Herz",
+    "why_de": "Das Herz ist ein kräftiger Muskel. Etwa einmal pro Sekunde zieht es sich zusammen und drückt das Blut durch die Blutgefäße.",
+    "q_fr": "Quel organe pompe le sang dans tout le corps ?",
+    "answer_fr": "le cœur",
+    "why_fr": "Le cœur est un muscle puissant qui se contracte environ une fois par seconde pour pousser le sang dans les vaisseaux.",
+    "q_yo": "Ẹ̀yà ara wo ló ń ti ẹ̀jẹ̀ kiri gbogbo ara?",
+    "answer_yo": "ọkàn",
+    "why_yo": "Ọkàn jẹ́ iṣan alágbára tó ń fún pọ̀ ní nǹkan bí ẹ̀ẹ̀kan ní ìṣẹ́jú-àáyá kan láti ti ẹ̀jẹ̀ gba inú àwọn iṣan ẹ̀jẹ̀."
+  },
+  "text": {
+    "en": {
+      "title": "Heart, blood and breathing",
+      "teach": "The heart pumps blood through arteries, capillaries and veins. In the lungs, blood picks up oxygen and gets rid of carbon dioxide. Exercise makes the heart beat faster and you breathe faster.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Herz, Blut und Atmung",
+      "teach": "Das Herz pumpt Blut durch Arterien, Kapillaren und Venen. In der Lunge nimmt das Blut Sauerstoff auf und gibt Kohlendioxid ab. Bei Sport schlägt das Herz schneller und du atmest schneller.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Cœur, sang et respiration",
+      "teach": "Le cœur pompe le sang dans les artères, les capillaires et les veines. Dans les poumons, le sang prend de l’oxygène et rejette le dioxyde de carbone. Pendant le sport, le cœur bat plus vite et on respire plus vite.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ọkàn, ẹ̀jẹ̀ àti mímí",
+      "teach": "Ọkàn ń ti ẹ̀jẹ̀ kiri nínú àwọn iṣan ẹ̀jẹ̀. Nínú ẹ̀dọ̀fóró, ẹ̀jẹ̀ ń gba ọ́síjìn, ó sì ń dá kábọ́ọ̀nù dáyọ́ksáídì sílẹ̀. Nígbà eré ìdárayá, ọkàn ń lù kíákíá, a sì ń mí kíákíá.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

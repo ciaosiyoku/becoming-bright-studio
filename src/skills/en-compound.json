@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "words",
   "stage": 2,
+  "ages": [
+    "6-7"
+  ],
   "order": 23,
   "only": "en",
   "params": {
@@ -16,7 +19,27 @@
       "snowflake",
       "star",
       "cake",
-      "fruit-pineapple"
+      "fruit-pineapple",
+      "umbrella",
+      "house",
+      "sun",
+      "airplane",
+      "snow",
+      "books",
+      "cocoa",
+      "school",
+      "memo",
+      "moon",
+      "animal-hedgehog",
+      "animal-lady-beetle",
+      "sparkles",
+      "house",
+      "backpack",
+      "storm",
+      "fruit-watermelon",
+      "footprints",
+      "school",
+      "candle"
     ],
     "bank": {
       "en": [
@@ -89,6 +112,146 @@
           "applepine",
           "pinapple",
           "Join “pine” and “apple” and keep the e: pineapple."
+        ],
+        [
+          "rain + coat = ?",
+          "raincoat",
+          "coatrain",
+          "raincot",
+          "Join “rain” and “coat”: raincoat."
+        ],
+        [
+          "bed + room = ?",
+          "bedroom",
+          "roombed",
+          "bedrom",
+          "Join “bed” and “room” and keep both letters o: bedroom."
+        ],
+        [
+          "Which two words make “sunshine”?",
+          "sun + shine",
+          "sunsh + ine",
+          "son + shine",
+          "Sunshine is the shine of the sun: sun + shine."
+        ],
+        [
+          "Which two words make “airport”?",
+          "air + port",
+          "ai + rport",
+          "hair + port",
+          "An airport is a port for planes in the air: air + port."
+        ],
+        [
+          "snow + ball = ?",
+          "snowball",
+          "ballsnow",
+          "snowbal",
+          "Join “snow” and “ball” and keep both letters l: snowball."
+        ],
+        [
+          "Which word is a compound word?",
+          "bookcase",
+          "pencil",
+          "paper",
+          "Bookcase is made from book + case."
+        ],
+        [
+          "tea + pot = ?",
+          "teapot",
+          "potea",
+          "teapott",
+          "Join “tea” and “pot”: teapot."
+        ],
+        [
+          "Which two words make “playground”?",
+          "play + ground",
+          "pla + yground",
+          "plan + ground",
+          "A playground is ground where you play: play + ground."
+        ],
+        [
+          "home + work = ?",
+          "homework",
+          "workhome",
+          "homwork",
+          "Join “home” and “work” and keep the e: homework."
+        ],
+        [
+          "Which word is a compound word?",
+          "moonlight",
+          "silver",
+          "planet",
+          "Moonlight is made from moon + light."
+        ],
+        [
+          "hedge + hog = ?",
+          "hedgehog",
+          "hoghedge",
+          "hedghog",
+          "Join “hedge” and “hog” and keep the e: hedgehog."
+        ],
+        [
+          "lady + bird = ?",
+          "ladybird",
+          "birdlady",
+          "ladibird",
+          "Join “lady” and “bird” and keep the y: ladybird."
+        ],
+        [
+          "Which two words make “firework”?",
+          "fire + work",
+          "fir + ework",
+          "fine + work",
+          "Firework is made from fire + work."
+        ],
+        [
+          "cup + board = ?",
+          "cupboard",
+          "boardcup",
+          "cupbord",
+          "Join “cup” and “board”: cupboard."
+        ],
+        [
+          "Which word is a compound word?",
+          "backpack",
+          "basket",
+          "button",
+          "Backpack is made from back + pack."
+        ],
+        [
+          "thunder + storm = ?",
+          "thunderstorm",
+          "stormthunder",
+          "thunderstorme",
+          "Join “thunder” and “storm”: thunderstorm."
+        ],
+        [
+          "Which two words make “watermelon”?",
+          "water + melon",
+          "wat + ermelon",
+          "waiter + melon",
+          "A watermelon is a juicy melon full of water: water + melon."
+        ],
+        [
+          "foot + print = ?",
+          "footprint",
+          "printfoot",
+          "fotprint",
+          "Join “foot” and “print”: footprint."
+        ],
+        [
+          "Which word is a compound word?",
+          "classroom",
+          "teacher",
+          "lesson",
+          "Classroom is made from class + room."
+        ],
+        [
+          "candle + stick = ?",
+          "candlestick",
+          "stickcandle",
+          "candelstick",
+          "Join “candle” and “stick”: candlestick."
         ]
       ]
     }

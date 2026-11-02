@@ -1,0 +1,274 @@
+{
+  "id": "fr10-aller-faire",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 5,
+  "ages": [
+    "10-12"
+  ],
+  "order": 31,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "tree",
+      "school",
+      "beach",
+      "tv",
+      "house",
+      "fruit-apple",
+      "memo",
+      "road",
+      "cocoa",
+      "snow",
+      "bell",
+      "cake",
+      "globe",
+      "gear",
+      "footprints",
+      "memo",
+      "sun",
+      "snowflake",
+      "speech",
+      "heart",
+      "animal-giraffe",
+      "wave",
+      "fruit-banana",
+      "mountain",
+      "backpack",
+      "fruit-grapes",
+      "beach",
+      "airplane",
+      "footprints",
+      "clock"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Je ___ au parc.",
+          "vais",
+          "va",
+          "allons",
+          "With je, aller becomes vais: je vais au parc."
+        ],
+        [
+          "Tu ___ à l’école à pied.",
+          "vas",
+          "vais",
+          "allez",
+          "With tu, aller becomes vas: tu vas."
+        ],
+        [
+          "Il ___ à la plage.",
+          "va",
+          "vont",
+          "vas",
+          "With il or elle, aller becomes va: il va."
+        ],
+        [
+          "Nous ___ au cinéma.",
+          "allons",
+          "allez",
+          "vont",
+          "With nous, aller becomes allons: nous allons."
+        ],
+        [
+          "Vous ___ chez Marie.",
+          "allez",
+          "allons",
+          "va",
+          "With vous, aller becomes allez: vous allez."
+        ],
+        [
+          "Elles ___ au marché.",
+          "vont",
+          "va",
+          "allons",
+          "With ils or elles, aller becomes vont: elles vont."
+        ],
+        [
+          "Je ___ mes devoirs.",
+          "fais",
+          "fait",
+          "faisons",
+          "With je, faire becomes fais: je fais mes devoirs."
+        ],
+        [
+          "Tu ___ du vélo.",
+          "fais",
+          "font",
+          "faites",
+          "With tu, faire becomes fais: tu fais du vélo."
+        ],
+        [
+          "Mon père ___ la cuisine.",
+          "fait",
+          "fais",
+          "font",
+          "Mon père is one person (il), so faire becomes fait."
+        ],
+        [
+          "Nous ___ du ski.",
+          "faisons",
+          "faites",
+          "font",
+          "With nous, faire becomes faisons: nous faisons du ski."
+        ],
+        [
+          "Vous ___ du bruit.",
+          "faites",
+          "faisons",
+          "fais",
+          "With vous, faire becomes faites: vous faites."
+        ],
+        [
+          "Ils ___ un gâteau.",
+          "font",
+          "fait",
+          "faisons",
+          "With ils or elles, faire becomes font: ils font un gâteau."
+        ],
+        [
+          "Which form of aller goes with nous?",
+          "allons",
+          "allez",
+          "vont",
+          "Nous allons means we go or we are going."
+        ],
+        [
+          "Which form of faire goes with vous?",
+          "faites",
+          "faisez",
+          "faisons",
+          "Vous faites is irregular. Faisez is not a real French word."
+        ],
+        [
+          "What does je vais mean?",
+          "I go",
+          "I do",
+          "they go",
+          "Je vais comes from aller (to go), so it means I go or I am going."
+        ],
+        [
+          "In Il fait ses devoirs, what does il fait mean?",
+          "he does",
+          "he goes",
+          "we do",
+          "Il fait comes from faire (to do), so it means he does."
+        ],
+        [
+          "Il ___ beau aujourd’hui.",
+          "fait",
+          "va",
+          "fais",
+          "French uses faire for the weather: il fait beau means the weather is nice."
+        ],
+        [
+          "Il ___ froid en hiver.",
+          "fait",
+          "va",
+          "font",
+          "For weather, use il fait: il fait froid means it is cold."
+        ],
+        [
+          "Comment ___-tu ?",
+          "vas",
+          "vais",
+          "va",
+          "Comment vas-tu ? means How are you? It uses tu vas from aller."
+        ],
+        [
+          "What does Je vais bien mean?",
+          "I am fine",
+          "I am going to bed",
+          "I am cold",
+          "Aller bien means to be well, so je vais bien means I am fine."
+        ],
+        [
+          "Ma sœur et moi ___ au zoo.",
+          "allons",
+          "vont",
+          "va",
+          "Ma sœur et moi means we, so we need nous allons."
+        ],
+        [
+          "Paul et Léa ___ de la natation.",
+          "font",
+          "faisons",
+          "fait",
+          "Paul et Léa means they (ils), so faire becomes font."
+        ],
+        [
+          "Which sentence is correct?",
+          "Nous faisons un pique-nique.",
+          "Nous faisez un pique-nique.",
+          "Nous font un pique-nique.",
+          "With nous, faire becomes faisons."
+        ],
+        [
+          "Which sentence is correct?",
+          "Ils vont à la montagne.",
+          "Ils allent à la montagne.",
+          "Ils va à la montagne.",
+          "With ils, aller becomes vont. Allent is not a real word."
+        ],
+        [
+          "How do you say We are going to school in French?",
+          "Nous allons à l’école.",
+          "Nous faisons à l’école.",
+          "Nous allez à l’école.",
+          "Going somewhere uses aller, and with nous it is allons."
+        ],
+        [
+          "How do you say She does the shopping in French?",
+          "Elle fait les courses.",
+          "Elle va les courses.",
+          "Elle font les courses.",
+          "Faire les courses means to do the shopping. With elle, use fait."
+        ],
+        [
+          "How do you say You (plural) are going to the beach in French?",
+          "Vous allez à la plage.",
+          "Vous allons à la plage.",
+          "Vous faites à la plage.",
+          "Going uses aller, and with vous it is allez."
+        ],
+        [
+          "Which French verb means to go?",
+          "aller",
+          "faire",
+          "avoir",
+          "Aller means to go. Faire means to do and avoir means to have."
+        ],
+        [
+          "On ___ une promenade.",
+          "fait",
+          "va",
+          "font",
+          "On uses the same form as il, and faire une promenade means to go for a walk."
+        ],
+        [
+          "Tu ___ au lit à neuf heures.",
+          "vas",
+          "fais",
+          "vont",
+          "Aller au lit means to go to bed. With tu, use vas."
+        ]
+      ]
+    }
+  },
+  "emoji": "footprints",
+  "example": {
+    "i": 0,
+    "q_en": "Je ___ au parc.",
+    "answer_en": "vais",
+    "why_en": "With je, aller becomes vais: je vais au parc."
+  },
+  "text": {
+    "en": {
+      "title": "Aller and faire",
+      "teach": "Aller (to go) and faire (to do, to make) are irregular, so learn them by heart: je vais, nous allons; je fais, nous faisons. Example: Nous allons au parc.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

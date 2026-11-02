@@ -1,0 +1,936 @@
+{
+  "id": "sci4-float",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 109,
+  "params": {
+    "emojis": [
+      "fruit-apple",
+      "key",
+      "tree",
+      "mountain",
+      "rain",
+      "footprints",
+      "house",
+      "globe",
+      "wave",
+      "animal-swan",
+      "animal-dolphin",
+      "animal-frog",
+      "fruit-coconut",
+      "droplet",
+      "sun",
+      "sun-rain",
+      "shoe",
+      "beach",
+      "wave",
+      "animal-penguin",
+      "cloud",
+      "animal-snail",
+      "wave",
+      "droplet",
+      "animal-turtle",
+      "sun-cloud",
+      "animal-otter",
+      "umbrella",
+      "animal-spouting-whale",
+      "animal-octopus"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Does an apple float or sink in water?",
+          "it floats",
+          "it sinks",
+          "it melts",
+          "An apple has air inside it, so it floats on top of the water."
+        ],
+        [
+          "Does a metal key float or sink?",
+          "it sinks",
+          "it floats",
+          "it flies away",
+          "A metal key is small but heavy for its size, so it sinks to the bottom."
+        ],
+        [
+          "Does a piece of wood float?",
+          "yes, it floats",
+          "no, it sinks fast",
+          "it turns into water",
+          "Wood is light, so it floats. That is why rafts are made of wood."
+        ],
+        [
+          "What happens to a stone dropped in a pond?",
+          "it sinks",
+          "it floats",
+          "it swims away",
+          "A stone is heavy, so it drops down to the bottom of the pond."
+        ],
+        [
+          "What keeps you dry in the rain?",
+          "an umbrella",
+          "a bucket of water",
+          "a wet sponge",
+          "An umbrella stops the raindrops from landing on you."
+        ],
+        [
+          "You jump in a big puddle. What happens to your socks?",
+          "they get wet",
+          "they get drier",
+          "they turn into ice",
+          "Puddle water splashes and soaks into your socks, so they get wet."
+        ],
+        [
+          "What do we use to get dry after a bath?",
+          "a towel",
+          "a cup of water",
+          "a wet sponge",
+          "A towel soaks up the water from your skin, so you get dry."
+        ],
+        [
+          "Which one is wet?",
+          "the sea",
+          "a dry desert",
+          "a dry towel",
+          "The sea is full of water, so it is wet."
+        ],
+        [
+          "What floats on water and carries people?",
+          "a boat",
+          "a car",
+          "a bike",
+          "A boat is made to float, so it can carry people across the water."
+        ],
+        [
+          "Can a swan float on a lake?",
+          "yes, it floats",
+          "no, it sinks",
+          "only at night",
+          "A swan has light feathers and air inside them, so it floats easily."
+        ],
+        [
+          "Where does a dolphin swim?",
+          "in the sea",
+          "in the sand",
+          "in the sky",
+          "Dolphins live and swim in the sea. They come up to breathe air."
+        ],
+        [
+          "Where does a frog like to swim?",
+          "in a pond",
+          "in a hot oven",
+          "in a sandy desert",
+          "Frogs love ponds. They swim with their strong back legs."
+        ],
+        [
+          "Can a coconut float in the sea?",
+          "yes, it floats",
+          "no, it sinks fast",
+          "it turns into sand",
+          "A coconut has a light, hairy shell with air inside, so it floats."
+        ],
+        [
+          "What does a dry sponge do in water?",
+          "it soaks up the water",
+          "it melts away",
+          "it catches fire",
+          "A sponge has lots of tiny holes that fill up with water."
+        ],
+        [
+          "Wet washing hangs outside on a sunny day. What happens?",
+          "it gets dry",
+          "it gets wetter",
+          "it turns into ice",
+          "The warm sun and the wind dry the water out of the clothes."
+        ],
+        [
+          "What makes the ground wet?",
+          "rain",
+          "sunshine",
+          "the moon",
+          "Rain falls from the clouds and makes the ground wet."
+        ],
+        [
+          "Which shoes are best for splashing in puddles?",
+          "rain boots",
+          "soft slippers",
+          "no shoes, just socks",
+          "Rain boots keep the water out, so your feet stay dry."
+        ],
+        [
+          "Does a beach ball float or sink?",
+          "it floats",
+          "it sinks",
+          "it melts",
+          "A beach ball is full of air, so it floats on the water."
+        ],
+        [
+          "Who must watch you when you play in water?",
+          "a grown-up",
+          "nobody",
+          "a toy duck",
+          "Water can be dangerous. A grown-up must always be with you."
+        ],
+        [
+          "Can penguins swim?",
+          "yes, very well",
+          "no, never",
+          "only in the sky",
+          "Penguins cannot fly, but they are super swimmers in the sea."
+        ],
+        [
+          "After you dry yourself, how is the towel?",
+          "wet",
+          "dry",
+          "hot like fire",
+          "The towel took the water off your skin, so now the towel is wet."
+        ],
+        [
+          "Where do snails like to be?",
+          "in damp, wet places",
+          "inside a hot oven",
+          "on a fire",
+          "Snails need wet places so their soft bodies do not dry out."
+        ],
+        [
+          "Which one floats on a pond?",
+          "a leaf",
+          "a stone",
+          "a key",
+          "A leaf is very light and flat, so it floats on top of the water."
+        ],
+        [
+          "Which one sinks to the bottom of the bath?",
+          "a stone",
+          "a leaf",
+          "a feather",
+          "A stone is heavy, so it sinks. Leaves and feathers are light and float."
+        ],
+        [
+          "Where does a sea turtle swim?",
+          "in the sea",
+          "up a tree",
+          "in the snow",
+          "Sea turtles swim in warm seas. They come to the beach to lay eggs."
+        ],
+        [
+          "What are clouds made of?",
+          "tiny drops of water",
+          "cotton wool",
+          "smoke from a fire",
+          "Clouds are made of lots of tiny drops of water (or bits of ice) floating in the air."
+        ],
+        [
+          "How does a sea otter rest?",
+          "it floats on its back",
+          "it sinks to the bottom",
+          "it sleeps up a tree",
+          "Sea otters float on their backs in the water, even when they sleep."
+        ],
+        [
+          "What do you wear to stay dry in the rain?",
+          "a raincoat",
+          "a paper dress",
+          "a wet towel",
+          "Rain runs off a raincoat, so the clothes underneath stay dry."
+        ],
+        [
+          "Where does a whale live?",
+          "in the sea",
+          "in a forest",
+          "in a desert",
+          "Whales live in the sea. They swim up to breathe air through a hole on top of their head."
+        ],
+        [
+          "Where does an octopus live?",
+          "in the sea",
+          "in a tree",
+          "in the desert",
+          "An octopus lives in the sea. It has eight arms."
+        ]
+      ],
+      "de": [
+        [
+          "Schwimmt ein Apfel im Wasser oder geht er unter?",
+          "er schwimmt",
+          "er geht unter",
+          "er schmilzt",
+          "Ein Apfel hat Luft in sich. Darum schwimmt er oben auf dem Wasser."
+        ],
+        [
+          "Schwimmt ein Schlüssel aus Metall oder geht er unter?",
+          "er geht unter",
+          "er schwimmt",
+          "er fliegt weg",
+          "Ein Metallschlüssel ist klein, aber schwer. Darum sinkt er auf den Boden."
+        ],
+        [
+          "Schwimmt ein Stück Holz?",
+          "ja, es schwimmt",
+          "nein, es geht schnell unter",
+          "es wird zu Wasser",
+          "Holz ist leicht. Darum schwimmt es. Deshalb baut man Flöße aus Holz."
+        ],
+        [
+          "Was passiert mit einem Stein, der in einen Teich fällt?",
+          "er geht unter",
+          "er schwimmt oben",
+          "er schwimmt davon wie ein Fisch",
+          "Ein Stein ist schwer. Er sinkt auf den Grund des Teiches."
+        ],
+        [
+          "Was hält dich im Regen trocken?",
+          "ein Regenschirm",
+          "ein Eimer Wasser",
+          "ein nasser Schwamm",
+          "Ein Regenschirm hält die Regentropfen von dir ab."
+        ],
+        [
+          "Du springst in eine große Pfütze. Was passiert mit deinen Socken?",
+          "sie werden nass",
+          "sie werden trockener",
+          "sie werden zu Eis",
+          "Das Pfützenwasser spritzt und saugt sich in die Socken. Sie werden nass."
+        ],
+        [
+          "Womit trocknen wir uns nach dem Baden ab?",
+          "mit einem Handtuch",
+          "mit einem Becher Wasser",
+          "mit einem nassen Schwamm",
+          "Ein Handtuch saugt das Wasser von der Haut auf. So wirst du trocken."
+        ],
+        [
+          "Was davon ist nass?",
+          "das Meer",
+          "eine trockene Wüste",
+          "ein trockenes Handtuch",
+          "Das Meer ist voller Wasser. Darum ist es nass."
+        ],
+        [
+          "Was schwimmt auf dem Wasser und trägt Menschen?",
+          "ein Boot",
+          "ein Auto",
+          "ein Fahrrad",
+          "Ein Boot ist so gebaut, dass es schwimmt. Es bringt Menschen über das Wasser."
+        ],
+        [
+          "Kann ein Schwan auf einem See schwimmen?",
+          "ja, er schwimmt oben",
+          "nein, er geht unter",
+          "nur in der Nacht",
+          "Ein Schwan hat leichte Federn mit Luft dazwischen. Darum schwimmt er leicht."
+        ],
+        [
+          "Wo schwimmt ein Delfin?",
+          "im Meer",
+          "im Sand",
+          "am Himmel",
+          "Delfine leben und schwimmen im Meer. Zum Atmen kommen sie nach oben."
+        ],
+        [
+          "Wo schwimmt ein Frosch gern?",
+          "in einem Teich",
+          "in einem heißen Ofen",
+          "in einer Sandwüste",
+          "Frösche lieben Teiche. Sie schwimmen mit ihren starken Hinterbeinen."
+        ],
+        [
+          "Kann eine Kokosnuss im Meer schwimmen?",
+          "ja, sie schwimmt",
+          "nein, sie geht schnell unter",
+          "sie wird zu Sand",
+          "Eine Kokosnuss hat eine leichte, faserige Schale mit Luft darin. Darum schwimmt sie."
+        ],
+        [
+          "Was macht ein trockener Schwamm im Wasser?",
+          "er saugt das Wasser auf",
+          "er schmilzt weg",
+          "er fängt Feuer",
+          "Ein Schwamm hat viele winzige Löcher, die sich mit Wasser füllen."
+        ],
+        [
+          "Nasse Wäsche hängt an einem Sonnentag draußen. Was passiert?",
+          "sie wird trocken",
+          "sie wird nasser",
+          "sie wird zu Eis",
+          "Die warme Sonne und der Wind trocknen das Wasser aus der Kleidung."
+        ],
+        [
+          "Was macht den Boden nass?",
+          "Regen",
+          "Sonnenschein",
+          "der Mond",
+          "Regen fällt aus den Wolken und macht den Boden nass."
+        ],
+        [
+          "Welche Schuhe sind am besten zum Pfützenspringen?",
+          "Gummistiefel",
+          "weiche Hausschuhe",
+          "keine Schuhe, nur Socken",
+          "Gummistiefel lassen kein Wasser rein. So bleiben die Füße trocken."
+        ],
+        [
+          "Schwimmt ein Wasserball oder geht er unter?",
+          "er schwimmt",
+          "er geht unter",
+          "er schmilzt",
+          "Ein Wasserball ist voller Luft. Darum schwimmt er auf dem Wasser."
+        ],
+        [
+          "Wer muss aufpassen, wenn du im Wasser spielst?",
+          "ein Erwachsener",
+          "niemand",
+          "eine Spielzeugente",
+          "Wasser kann gefährlich sein. Ein Erwachsener muss immer bei dir sein."
+        ],
+        [
+          "Können Pinguine schwimmen?",
+          "ja, sehr gut",
+          "nein, nie",
+          "nur am Himmel",
+          "Pinguine können nicht fliegen, aber im Meer schwimmen sie super."
+        ],
+        [
+          "Wie ist das Handtuch, nachdem du dich abgetrocknet hast?",
+          "nass",
+          "trocken",
+          "heiß wie Feuer",
+          "Das Handtuch hat das Wasser von deiner Haut genommen. Jetzt ist es nass."
+        ],
+        [
+          "Wo sind Schnecken gern?",
+          "an feuchten, nassen Orten",
+          "in einem heißen Ofen",
+          "auf einem Feuer",
+          "Schnecken brauchen feuchte Orte, damit ihr weicher Körper nicht austrocknet."
+        ],
+        [
+          "Was schwimmt auf einem Teich?",
+          "ein Blatt",
+          "ein Stein",
+          "ein Schlüssel",
+          "Ein Blatt ist sehr leicht und flach. Darum schwimmt es oben auf dem Wasser."
+        ],
+        [
+          "Was sinkt in der Badewanne auf den Boden?",
+          "ein Stein",
+          "ein Blatt",
+          "eine Feder",
+          "Ein Stein ist schwer und sinkt. Blätter und Federn sind leicht und schwimmen."
+        ],
+        [
+          "Wo schwimmt eine Meeresschildkröte?",
+          "im Meer",
+          "auf einem Baum",
+          "im Schnee",
+          "Meeresschildkröten schwimmen in warmen Meeren. Zum Eierlegen kommen sie an den Strand."
+        ],
+        [
+          "Woraus sind Wolken?",
+          "aus winzigen Wassertröpfchen",
+          "aus Watte",
+          "aus Rauch von einem Feuer",
+          "Wolken bestehen aus vielen winzigen Wassertröpfchen (oder Eiskristallen) in der Luft."
+        ],
+        [
+          "Wie ruht sich ein Seeotter aus?",
+          "er treibt auf dem Rücken",
+          "er sinkt auf den Grund",
+          "er schläft auf einem Baum",
+          "Seeotter treiben auf dem Rücken im Wasser, sogar wenn sie schlafen."
+        ],
+        [
+          "Was ziehst du an, um im Regen trocken zu bleiben?",
+          "eine Regenjacke",
+          "ein Kleid aus Papier",
+          "ein nasses Handtuch",
+          "Regen läuft an der Regenjacke ab. Die Kleidung darunter bleibt trocken."
+        ],
+        [
+          "Wo lebt ein Wal?",
+          "im Meer",
+          "im Wald",
+          "in der Wüste",
+          "Wale leben im Meer. Sie atmen durch ein Loch oben auf dem Kopf."
+        ],
+        [
+          "Wo lebt ein Krake?",
+          "im Meer",
+          "auf einem Baum",
+          "in der Wüste",
+          "Ein Krake lebt im Meer. Er hat acht Arme."
+        ]
+      ],
+      "fr": [
+        [
+          "Une pomme flotte-t-elle ou coule-t-elle dans l’eau ?",
+          "elle flotte",
+          "elle coule",
+          "elle fond",
+          "Une pomme contient de l’air : elle flotte à la surface de l’eau."
+        ],
+        [
+          "Une clé en métal flotte-t-elle ou coule-t-elle ?",
+          "elle coule",
+          "elle flotte",
+          "elle s’envole",
+          "Une clé en métal est petite mais lourde : elle tombe au fond."
+        ],
+        [
+          "Un morceau de bois flotte-t-il ?",
+          "oui, il flotte",
+          "non, il coule vite",
+          "il devient de l’eau",
+          "Le bois est léger : il flotte. C’est pour ça qu’on fait des radeaux en bois."
+        ],
+        [
+          "Que fait un caillou qu’on jette dans une mare ?",
+          "il coule",
+          "il flotte",
+          "il s’en va à la nage",
+          "Un caillou est lourd : il descend au fond de la mare."
+        ],
+        [
+          "Qu’est-ce qui te garde au sec sous la pluie ?",
+          "un parapluie",
+          "un seau d’eau",
+          "une éponge mouillée",
+          "Le parapluie empêche les gouttes de pluie de tomber sur toi."
+        ],
+        [
+          "Tu sautes dans une grosse flaque. Que deviennent tes chaussettes ?",
+          "elles sont mouillées",
+          "elles sont plus sèches",
+          "elles deviennent de la glace",
+          "L’eau de la flaque éclabousse et entre dans tes chaussettes : elles sont mouillées."
+        ],
+        [
+          "Avec quoi se sèche-t-on après le bain ?",
+          "une serviette",
+          "un verre d’eau",
+          "une éponge mouillée",
+          "La serviette absorbe l’eau sur ta peau : tu deviens sec."
+        ],
+        [
+          "Lequel est mouillé ?",
+          "la mer",
+          "un désert sec",
+          "une serviette sèche",
+          "La mer est pleine d’eau : elle est mouillée."
+        ],
+        [
+          "Qu’est-ce qui flotte sur l’eau et transporte des gens ?",
+          "un bateau",
+          "une voiture",
+          "un vélo",
+          "Un bateau est fait pour flotter : il transporte les gens sur l’eau."
+        ],
+        [
+          "Un cygne peut-il flotter sur un lac ?",
+          "oui, il flotte",
+          "non, il coule",
+          "seulement la nuit",
+          "Le cygne a des plumes légères pleines d’air : il flotte facilement."
+        ],
+        [
+          "Où nage le dauphin ?",
+          "dans la mer",
+          "dans le sable",
+          "dans le ciel",
+          "Les dauphins vivent et nagent dans la mer. Ils remontent pour respirer."
+        ],
+        [
+          "Où la grenouille aime-t-elle nager ?",
+          "dans une mare",
+          "dans un four chaud",
+          "dans un désert de sable",
+          "Les grenouilles adorent les mares. Elles nagent avec leurs fortes pattes arrière."
+        ],
+        [
+          "Une noix de coco peut-elle flotter dans la mer ?",
+          "oui, elle flotte",
+          "non, elle coule vite",
+          "elle devient du sable",
+          "La noix de coco a une coque légère et fibreuse pleine d’air : elle flotte."
+        ],
+        [
+          "Que fait une éponge sèche dans l’eau ?",
+          "elle absorbe l’eau",
+          "elle fond",
+          "elle prend feu",
+          "Une éponge a plein de petits trous qui se remplissent d’eau."
+        ],
+        [
+          "Du linge mouillé sèche dehors au soleil. Que se passe-t-il ?",
+          "il devient sec",
+          "il devient plus mouillé",
+          "il devient de la glace",
+          "Le soleil chaud et le vent font partir l’eau des vêtements."
+        ],
+        [
+          "Qu’est-ce qui mouille le sol ?",
+          "la pluie",
+          "le soleil",
+          "la lune",
+          "La pluie tombe des nuages et mouille le sol."
+        ],
+        [
+          "Quelles chaussures choisir pour sauter dans les flaques ?",
+          "des bottes de pluie",
+          "des chaussons tout doux",
+          "pas de chaussures, juste des chaussettes",
+          "Les bottes de pluie ne laissent pas entrer l’eau : tes pieds restent secs."
+        ],
+        [
+          "Un ballon de plage flotte-t-il ou coule-t-il ?",
+          "il flotte",
+          "il coule",
+          "il fond",
+          "Le ballon de plage est plein d’air : il flotte sur l’eau."
+        ],
+        [
+          "Qui doit te surveiller quand tu joues dans l’eau ?",
+          "un adulte",
+          "personne",
+          "un canard en plastique",
+          "L’eau peut être dangereuse. Un adulte doit toujours être avec toi."
+        ],
+        [
+          "Les manchots savent-ils nager ?",
+          "oui, très bien",
+          "non, jamais",
+          "seulement dans le ciel",
+          "Les manchots ne volent pas, mais ce sont de super nageurs dans la mer."
+        ],
+        [
+          "Après t’être séché, comment est la serviette ?",
+          "mouillée",
+          "sèche",
+          "chaude comme le feu",
+          "La serviette a pris l’eau de ta peau : maintenant, c’est elle qui est mouillée."
+        ],
+        [
+          "Où les escargots aiment-ils être ?",
+          "dans les endroits humides",
+          "dans un four chaud",
+          "sur un feu",
+          "Les escargots ont besoin d’humidité pour que leur corps mou ne sèche pas."
+        ],
+        [
+          "Lequel flotte sur une mare ?",
+          "une feuille",
+          "un caillou",
+          "une clé",
+          "Une feuille est très légère et plate : elle flotte à la surface de l’eau."
+        ],
+        [
+          "Lequel coule au fond de la baignoire ?",
+          "un caillou",
+          "une feuille",
+          "une plume",
+          "Un caillou est lourd : il coule. Les feuilles et les plumes sont légères et flottent."
+        ],
+        [
+          "Où nage la tortue de mer ?",
+          "dans la mer",
+          "en haut d’un arbre",
+          "dans la neige",
+          "Les tortues de mer nagent dans les mers chaudes. Elles viennent pondre sur la plage."
+        ],
+        [
+          "De quoi sont faits les nuages ?",
+          "de minuscules gouttes d’eau",
+          "de coton",
+          "de fumée de feu",
+          "Les nuages sont faits de toutes petites gouttes d’eau (ou de glace) qui flottent dans l’air."
+        ],
+        [
+          "Comment se repose la loutre de mer ?",
+          "elle flotte sur le dos",
+          "elle coule au fond",
+          "elle dort dans un arbre",
+          "La loutre de mer flotte sur le dos dans l’eau, même quand elle dort."
+        ],
+        [
+          "Que mets-tu pour rester au sec sous la pluie ?",
+          "un imperméable",
+          "une robe en papier",
+          "une serviette mouillée",
+          "La pluie glisse sur l’imperméable : les vêtements dessous restent secs."
+        ],
+        [
+          "Où vit la baleine ?",
+          "dans la mer",
+          "dans la forêt",
+          "dans le désert",
+          "Les baleines vivent dans la mer. Elles respirent par un trou sur le haut de la tête."
+        ],
+        [
+          "Où vit la pieuvre ?",
+          "dans la mer",
+          "dans un arbre",
+          "dans le désert",
+          "La pieuvre vit dans la mer. Elle a huit bras."
+        ]
+      ],
+      "yo": [
+        [
+          "Ṣé èso ápù ń léfòó àbí ó ń rì nínú omi?",
+          "ó ń léfòó",
+          "ó ń rì",
+          "ó ń yọ́",
+          "Afẹ́fẹ́ wà nínú èso ápù, nítorí náà ó ń léfòó lórí omi."
+        ],
+        [
+          "Ṣé kọ́kọ́rọ́ irin ń léfòó àbí ó ń rì?",
+          "ó ń rì",
+          "ó ń léfòó",
+          "ó ń fò lọ",
+          "Kọ́kọ́rọ́ irin kéré ṣùgbọ́n ó wúwo, nítorí náà ó ń rì sísàlẹ̀."
+        ],
+        [
+          "Ṣé igi ń léfòó lórí omi?",
+          "bẹ́ẹ̀ni, ó ń léfòó",
+          "rárá, ó ń rì kíákíá",
+          "ó ń di omi",
+          "Igi fúyẹ́, nítorí náà ó ń léfòó. Ìdí nìyí tí wọ́n fi ń fi igi ṣe ọkọ̀ ojú omi kékeré."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí òkúta tí a jù sínú adágún omi?",
+          "ó ń rì",
+          "ó ń léfòó",
+          "ó ń lúwẹ̀ẹ́ lọ",
+          "Òkúta wúwo, nítorí náà ó ń rì sí ìsàlẹ̀ adágún omi."
+        ],
+        [
+          "Kí ló ń jẹ́ kí o gbẹ nínú òjò?",
+          "agboòrùn",
+          "garawa omi",
+          "kànìnkànìn tí ó rin",
+          "Agboòrùn ń dí ẹ̀kán òjò lọ́wọ́ láti bà lé ọ."
+        ],
+        [
+          "O fò sínú omi ńlá tí ó dúró sí ilẹ̀. Kí ló ṣẹlẹ̀ sí ìbọ̀sẹ̀ rẹ?",
+          "ó rin",
+          "ó gbẹ sí i",
+          "ó di yìnyín",
+          "Omi náà ń fọ́n, ó sì ń wọ inú ìbọ̀sẹ̀ rẹ, nítorí náà ó rin."
+        ],
+        [
+          "Kí la fi ń nu ara gbẹ lẹ́yìn ìwẹ̀?",
+          "aṣọ ìnura",
+          "ife omi",
+          "kànìnkànìn tí ó rin",
+          "Aṣọ ìnura ń fa omi kúrò lára rẹ, nítorí náà ara rẹ ń gbẹ."
+        ],
+        [
+          "Èwo ló rin?",
+          "òkun",
+          "aṣálẹ̀ gbígbẹ",
+          "aṣọ ìnura gbígbẹ",
+          "Omi kún inú òkun, nítorí náà ó rin."
+        ],
+        [
+          "Kí ló ń léfòó lórí omi tí ó sì ń gbé ènìyàn?",
+          "ọkọ̀ ojú omi",
+          "ọkọ̀ ayọ́kẹ́lẹ́",
+          "kẹ̀kẹ́",
+          "Wọ́n ṣe ọkọ̀ ojú omi kí ó lè léfòó, kí ó sì gbé ènìyàn kọjá omi."
+        ],
+        [
+          "Ṣé ẹyẹ swánì lè léfòó lórí adágún omi?",
+          "bẹ́ẹ̀ni, ó ń léfòó",
+          "rárá, ó ń rì",
+          "ní alẹ́ nìkan",
+          "Ẹyẹ swánì ní ìyẹ́ fúyẹ́ tí afẹ́fẹ́ wà nínú rẹ̀, nítorí náà ó ń léfòó dáadáa."
+        ],
+        [
+          "Níbo ni ẹja dọ́lfínì ń lúwẹ̀ẹ́?",
+          "nínú òkun",
+          "nínú iyanrìn",
+          "ní ojú ọ̀run",
+          "Dọ́lfínì ń gbé, ó sì ń lúwẹ̀ẹ́ nínú òkun. Ó ń gòkè wá láti mí."
+        ],
+        [
+          "Níbo ni ọ̀pọ̀lọ́ fẹ́ràn láti lúwẹ̀ẹ́?",
+          "nínú adágún omi",
+          "nínú ààrò gbígbóná",
+          "nínú aṣálẹ̀ oníyanrìn",
+          "Ọ̀pọ̀lọ́ fẹ́ràn adágún omi. Ó ń fi ẹsẹ̀ ẹ̀yìn rẹ̀ tí ó lágbára lúwẹ̀ẹ́."
+        ],
+        [
+          "Ṣé àgbọn lè léfòó nínú òkun?",
+          "bẹ́ẹ̀ni, ó ń léfòó",
+          "rárá, ó ń rì kíákíá",
+          "ó ń di iyanrìn",
+          "Àgbọn ní èèpo fúyẹ́ tí afẹ́fẹ́ wà nínú rẹ̀, nítorí náà ó ń léfòó."
+        ],
+        [
+          "Kí ni kànìnkànìn gbígbẹ ń ṣe nínú omi?",
+          "ó ń fa omi mu",
+          "ó ń yọ́ lọ",
+          "ó ń gbiná",
+          "Kànìnkànìn ní ọ̀pọ̀lọpọ̀ ihò kéékèèké tí omi ń kún."
+        ],
+        [
+          "Aṣọ tí ó rin wà lórí okùn níta ní ọjọ́ tí oòrùn mú. Kí ló ṣẹlẹ̀?",
+          "ó gbẹ",
+          "ó rin sí i",
+          "ó di yìnyín",
+          "Oòrùn tí ó móoru àti atẹ́gùn ń gbẹ omi kúrò nínú aṣọ."
+        ],
+        [
+          "Kí ló ń mú ilẹ̀ rin?",
+          "òjò",
+          "ìtànṣán oòrùn",
+          "òṣùpá",
+          "Òjò ń rọ̀ láti inú ìkùukùu, ó sì ń mú ilẹ̀ rin."
+        ],
+        [
+          "Bàtà wo ló dára jù láti fi ṣeré nínú omi òjò?",
+          "bàtà òjò",
+          "sálúbàtà inú ilé tí ó rọ̀",
+          "kò sí bàtà, ìbọ̀sẹ̀ nìkan",
+          "Bàtà òjò kì í jẹ́ kí omi wọlé, nítorí náà ẹsẹ̀ rẹ yóò gbẹ."
+        ],
+        [
+          "Ṣé bọ́ọ̀lù etí òkun ń léfòó àbí ó ń rì?",
+          "ó ń léfòó",
+          "ó ń rì",
+          "ó ń yọ́",
+          "Afẹ́fẹ́ kún inú bọ́ọ̀lù etí òkun, nítorí náà ó ń léfòó lórí omi."
+        ],
+        [
+          "Ta ló gbọ́dọ̀ máa ṣọ́ ọ nígbà tí o bá ń ṣeré nínú omi?",
+          "àgbàlagbà",
+          "kò sí ẹnìkan",
+          "pẹ́pẹ́yẹ ìṣeré",
+          "Omi lè léwu. Àgbàlagbà gbọ́dọ̀ wà pẹ̀lú rẹ nígbà gbogbo."
+        ],
+        [
+          "Ṣé ẹyẹ pẹ́ńgúìnì lè lúwẹ̀ẹ́?",
+          "bẹ́ẹ̀ni, dáadáa gan-an",
+          "rárá, láé",
+          "ní ojú ọ̀run nìkan",
+          "Pẹ́ńgúìnì kò lè fò, ṣùgbọ́n ó mọ̀ọ́ lúwẹ̀ẹ́ gan-an nínú òkun."
+        ],
+        [
+          "Lẹ́yìn tí o bá nu ara rẹ gbẹ, báwo ni aṣọ ìnura ṣe rí?",
+          "ó rin",
+          "ó gbẹ",
+          "ó gbóná bí iná",
+          "Aṣọ ìnura ti fa omi kúrò lára rẹ, nítorí náà òun ló rin báyìí."
+        ],
+        [
+          "Níbo ni ìgbín fẹ́ràn láti wà?",
+          "ní ibi tí ó rin",
+          "nínú ààrò gbígbóná",
+          "lórí iná",
+          "Ìgbín nílò ibi tí ó rin kí ara rẹ̀ tí ó rọ̀ má baà gbẹ."
+        ],
+        [
+          "Èwo ló ń léfòó lórí adágún omi?",
+          "ewé",
+          "òkúta",
+          "kọ́kọ́rọ́",
+          "Ewé fúyẹ́ gan-an, ó sì tẹ́ pẹrẹsẹ, nítorí náà ó ń léfòó lórí omi."
+        ],
+        [
+          "Èwo ló ń rì sí ìsàlẹ̀ omi ìwẹ̀?",
+          "òkúta",
+          "ewé",
+          "ìyẹ́ ẹyẹ",
+          "Òkúta wúwo, nítorí náà ó ń rì. Ewé àti ìyẹ́ ẹyẹ fúyẹ́, wọ́n sì ń léfòó."
+        ],
+        [
+          "Níbo ni ìjàpá òkun ń lúwẹ̀ẹ́?",
+          "nínú òkun",
+          "lórí igi",
+          "nínú òjò dídì",
+          "Ìjàpá òkun ń lúwẹ̀ẹ́ nínú òkun tí ó móoru. Ó ń wá sí etí òkun láti yé ẹyin."
+        ],
+        [
+          "Kí ni wọ́n fi ṣe ìkùukùu?",
+          "ẹ̀kán omi kéékèèké",
+          "òwú",
+          "èéfín iná",
+          "Ìkùukùu jẹ́ ọ̀pọ̀lọpọ̀ ẹ̀kán omi kéékèèké (tàbí yìnyín) tí ó ń léfòó nínú afẹ́fẹ́."
+        ],
+        [
+          "Báwo ni ọ́tà òkun ṣe ń sinmi?",
+          "ó ń léfòó lórí ẹ̀yìn rẹ̀",
+          "ó ń rì sí ìsàlẹ̀",
+          "ó ń sùn lórí igi",
+          "Ọ́tà òkun ń léfòó lórí ẹ̀yìn rẹ̀ nínú omi, kódà nígbà tí ó bá ń sùn."
+        ],
+        [
+          "Kí lo máa wọ̀ kí ara rẹ lè gbẹ nínú òjò?",
+          "ẹ̀wù òjò",
+          "aṣọ ìwé",
+          "aṣọ ìnura tí ó rin",
+          "Òjò ń ṣàn kúrò lára ẹ̀wù òjò, nítorí náà aṣọ tí ó wà nísàlẹ̀ rẹ̀ ń gbẹ."
+        ],
+        [
+          "Níbo ni ẹja àbùùbùtán ń gbé?",
+          "nínú òkun",
+          "nínú igbó",
+          "nínú aṣálẹ̀",
+          "Ẹja àbùùbùtán ń gbé nínú òkun. Ó ń gòkè láti mí afẹ́fẹ́ láti ihò kan lórí rẹ̀."
+        ],
+        [
+          "Níbo ni ẹja ẹlẹ́sẹ̀ mẹ́jọ ń gbé?",
+          "nínú òkun",
+          "lórí igi",
+          "nínú aṣálẹ̀",
+          "Ẹja ẹlẹ́sẹ̀ mẹ́jọ ń gbé nínú òkun. Ó ní apá mẹ́jọ."
+        ]
+      ]
+    }
+  },
+  "emoji": "wave",
+  "example": {
+    "i": 0,
+    "q_en": "Does an apple float or sink in water?",
+    "answer_en": "it floats",
+    "why_en": "An apple has air inside it, so it floats on top of the water.",
+    "q_de": "Schwimmt ein Apfel im Wasser oder geht er unter?",
+    "answer_de": "er schwimmt",
+    "why_de": "Ein Apfel hat Luft in sich. Darum schwimmt er oben auf dem Wasser.",
+    "q_fr": "Une pomme flotte-t-elle ou coule-t-elle dans l’eau ?",
+    "answer_fr": "elle flotte",
+    "why_fr": "Une pomme contient de l’air : elle flotte à la surface de l’eau.",
+    "q_yo": "Ṣé èso ápù ń léfòó àbí ó ń rì nínú omi?",
+    "answer_yo": "ó ń léfòó",
+    "why_yo": "Afẹ́fẹ́ wà nínú èso ápù, nítorí náà ó ń léfòó lórí omi."
+  },
+  "text": {
+    "en": {
+      "title": "Float or sink? Wet or dry?",
+      "teach": "Light things like wood and apples float on water. Heavy things like stones and keys sink. Water makes things wet.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Schwimmt es oder geht es unter?",
+      "teach": "Leichte Dinge wie Holz und Äpfel schwimmen auf dem Wasser. Schwere Dinge wie Steine und Schlüssel gehen unter. Wasser macht Dinge nass.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Flotte ou coule ? Mouillé ou sec ?",
+      "teach": "Les choses légères comme le bois et les pommes flottent sur l’eau. Les choses lourdes comme les cailloux et les clés coulent. L’eau mouille les choses.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ó léfòó àbí ó rì? Ó rin àbí ó gbẹ?",
+      "teach": "Àwọn nǹkan fúyẹ́ bí igi àti èso ápù ń léfòó lórí omi. Àwọn nǹkan wúwo bí òkúta àti kọ́kọ́rọ́ ń rì. Omi ń mú nǹkan rin.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

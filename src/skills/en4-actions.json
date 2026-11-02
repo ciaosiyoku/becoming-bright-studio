@@ -1,0 +1,274 @@
+{
+  "id": "en4-actions",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 105,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "books",
+      "cake",
+      "shoe",
+      "cocoa",
+      "telephone",
+      "radio",
+      "tv",
+      "sled",
+      "iceskate",
+      "palette",
+      "gift",
+      "candle",
+      "bell",
+      "game",
+      "teddy",
+      "backpack",
+      "bus",
+      "airplane",
+      "wave",
+      "memo",
+      "music",
+      "party",
+      "snowman",
+      "footprints",
+      "seedling",
+      "hockey",
+      "moon",
+      "fruit-apple",
+      "mountain",
+      "clock"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What do you do with a book?",
+          "read",
+          "eat",
+          "kick",
+          "You read a book."
+        ],
+        [
+          "What do you do to make a cake?",
+          "bake",
+          "sing",
+          "swim",
+          "You bake a cake in the oven."
+        ],
+        [
+          "What do you do with shoes?",
+          "wear",
+          "eat",
+          "drink",
+          "You wear shoes on your feet."
+        ],
+        [
+          "What do you do with hot chocolate?",
+          "drink",
+          "read",
+          "kick",
+          "You drink hot chocolate from a cup."
+        ],
+        [
+          "What do you do on a phone?",
+          "talk",
+          "eat",
+          "swim",
+          "You talk to people on a phone."
+        ],
+        [
+          "What do you do with a radio?",
+          "listen",
+          "eat",
+          "wear",
+          "You listen to a radio."
+        ],
+        [
+          "What do you do with a TV?",
+          "watch",
+          "eat",
+          "wear",
+          "You watch a TV."
+        ],
+        [
+          "What do you do on a sledge?",
+          "slide",
+          "swim",
+          "sleep",
+          "You slide down the snow on a sledge."
+        ],
+        [
+          "What do you do with ice skates?",
+          "skate",
+          "swim",
+          "read",
+          "You skate on the ice."
+        ],
+        [
+          "What do you do with paints?",
+          "paint",
+          "eat",
+          "drink",
+          "You paint a picture with paints."
+        ],
+        [
+          "What do you do with a present?",
+          "open",
+          "eat",
+          "drink",
+          "You open a present to see what is inside."
+        ],
+        [
+          "What do you do to birthday candles?",
+          "blow",
+          "eat",
+          "wear",
+          "You blow the candles out."
+        ],
+        [
+          "What do you do with a bell?",
+          "ring",
+          "eat",
+          "read",
+          "You ring a bell."
+        ],
+        [
+          "What do you do with a game?",
+          "play",
+          "eat",
+          "drink",
+          "You play a game."
+        ],
+        [
+          "What do you do with a teddy?",
+          "hug",
+          "drink",
+          "eat",
+          "You hug a teddy."
+        ],
+        [
+          "What do you do with a school bag?",
+          "carry",
+          "eat",
+          "drink",
+          "You carry a school bag."
+        ],
+        [
+          "What do you do on a bus?",
+          "ride",
+          "swim",
+          "dig",
+          "You ride on a bus."
+        ],
+        [
+          "What does an aeroplane do?",
+          "fly",
+          "swim",
+          "dig",
+          "An aeroplane flies in the sky."
+        ],
+        [
+          "What do you do in the sea?",
+          "swim",
+          "read",
+          "sleep",
+          "You swim in the sea."
+        ],
+        [
+          "What do you do with a pencil?",
+          "write",
+          "eat",
+          "drink",
+          "You write with a pencil."
+        ],
+        [
+          "What do you do with a song?",
+          "sing",
+          "eat",
+          "wear",
+          "You sing a song."
+        ],
+        [
+          "What do you do at a party when the music plays?",
+          "dance",
+          "sleep",
+          "read",
+          "You dance when the music plays."
+        ],
+        [
+          "What do you do with snow to make a snowman?",
+          "build",
+          "drink",
+          "read",
+          "You build a snowman."
+        ],
+        [
+          "What do you do with your feet?",
+          "walk",
+          "eat",
+          "smell",
+          "You walk with your feet."
+        ],
+        [
+          "What do you do to help a plant grow?",
+          "water",
+          "kick",
+          "eat",
+          "You water a plant to help it grow."
+        ],
+        [
+          "What do you do with a hockey stick?",
+          "hit",
+          "eat",
+          "wear",
+          "You hit the ball with a hockey stick."
+        ],
+        [
+          "What do you do in bed at night?",
+          "sleep",
+          "swim",
+          "skate",
+          "You sleep in bed at night."
+        ],
+        [
+          "What do you do with an apple?",
+          "eat",
+          "wear",
+          "read",
+          "You eat an apple."
+        ],
+        [
+          "What do you do on a hill?",
+          "climb",
+          "swim",
+          "read",
+          "You climb up a hill."
+        ],
+        [
+          "What do you do when the alarm clock rings?",
+          "wake up",
+          "swim",
+          "paint",
+          "The alarm clock rings to help you wake up."
+        ]
+      ]
+    }
+  },
+  "emoji": "footprints",
+  "example": {
+    "i": 0,
+    "q_en": "What do you do with a book?",
+    "answer_en": "read",
+    "why_en": "You read a book."
+  },
+  "text": {
+    "en": {
+      "title": "Action words",
+      "teach": "Action words tell us what we do. We read a book, kick a ball and drink water.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "id": "fr6-numbers",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 1,
+  "ages": [
+    "6-7"
+  ],
+  "order": 11,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "cake",
+      "school",
+      "star",
+      "star",
+      "abacus",
+      "abacus"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What number is “onze”?",
+          "11",
+          "12",
+          "1",
+          "Onze is the French word for 11."
+        ],
+        [
+          "How do you say 12 in French?",
+          "douze",
+          "deux",
+          "onze",
+          "Twelve is douze. Deux is only 2."
+        ],
+        [
+          "What number is “treize”?",
+          "13",
+          "3",
+          "30",
+          "Treize means 13. It sounds a little like trois (3), but it is bigger."
+        ],
+        [
+          "How do you say 14 in French?",
+          "quatorze",
+          "quatre",
+          "quinze",
+          "Fourteen is quatorze. Quatre is 4 and quinze is 15."
+        ],
+        [
+          "What number is “quinze”?",
+          "15",
+          "5",
+          "50",
+          "Quinze is the French word for 15."
+        ],
+        [
+          "How do you say 16 in French?",
+          "seize",
+          "six",
+          "treize",
+          "Sixteen is seize. Six is only 6."
+        ],
+        [
+          "What number is “dix-sept”?",
+          "17",
+          "7",
+          "10",
+          "Dix-sept is dix (10) and sept (7) put together: 17."
+        ],
+        [
+          "How do you say 18 in French?",
+          "dix-huit",
+          "huit",
+          "dix-neuf",
+          "Eighteen is ten and eight: dix-huit."
+        ],
+        [
+          "What number is “dix-neuf”?",
+          "19",
+          "9",
+          "18",
+          "Dix-neuf is dix (10) and neuf (9): 19."
+        ],
+        [
+          "How do you say 20 in French?",
+          "vingt",
+          "dix",
+          "douze",
+          "Twenty is vingt. The g and t are silent, so it sounds like “van”."
+        ],
+        [
+          "Which number comes straight after “onze”?",
+          "douze",
+          "dix",
+          "treize",
+          "Count on: onze (11), douze (12)."
+        ],
+        [
+          "Which number comes straight before “vingt”?",
+          "dix-neuf",
+          "dix-sept",
+          "quinze",
+          "Nineteen comes just before twenty: dix-neuf, vingt."
+        ],
+        [
+          "What is dix + huit?",
+          "dix-huit",
+          "dix-sept",
+          "huit",
+          "10 + 8 = 18, and 18 in French is dix-huit."
+        ],
+        [
+          "Which French number is 13?",
+          "treize",
+          "trois",
+          "seize",
+          "Thirteen is treize. Trois is 3 and seize is 16."
+        ],
+        [
+          "Which French number is 16?",
+          "seize",
+          "dix-six",
+          "six",
+          "Sixteen has its own name: seize. There is no number called dix-six."
+        ],
+        [
+          "Ten and nine make nineteen. How do you say 19 in French?",
+          "dix-neuf",
+          "neuf-dix",
+          "dix-huit",
+          "Ten comes first, then nine: dix-neuf."
+        ],
+        [
+          "What number is “douze”?",
+          "12",
+          "2",
+          "20",
+          "Douze means 12."
+        ],
+        [
+          "What number is “quatorze”?",
+          "14",
+          "4",
+          "40",
+          "Quatorze means 14. Quatre is 4."
+        ],
+        [
+          "What number is “seize”?",
+          "16",
+          "6",
+          "7",
+          "Seize means 16. Six is 6."
+        ],
+        [
+          "What number is “vingt”?",
+          "20",
+          "2",
+          "12",
+          "Vingt means 20."
+        ],
+        [
+          "Which number comes straight after “quatorze”?",
+          "quinze",
+          "treize",
+          "seize",
+          "Count on: quatorze (14), quinze (15)."
+        ],
+        [
+          "Which number comes straight after “dix-sept”?",
+          "dix-huit",
+          "dix-neuf",
+          "seize",
+          "Count on: dix-sept (17), dix-huit (18)."
+        ],
+        [
+          "Count on: treize, quatorze, ___",
+          "quinze",
+          "douze",
+          "onze",
+          "13, 14, 15: treize, quatorze, quinze."
+        ],
+        [
+          "Count back: vingt, dix-neuf, ___",
+          "dix-huit",
+          "quinze",
+          "onze",
+          "20, 19, 18: vingt, dix-neuf, dix-huit."
+        ],
+        [
+          "Tom says “J’ai onze ans.” How old is Tom?",
+          "11",
+          "10",
+          "7",
+          "Onze is 11, so Tom is 11 years old."
+        ],
+        [
+          "There are “quinze” children in the class. How many children are there?",
+          "15",
+          "50",
+          "5",
+          "Quinze means 15."
+        ],
+        [
+          "Which is the biggest number?",
+          "vingt",
+          "seize",
+          "douze",
+          "Vingt is 20. Seize is 16 and douze is 12."
+        ],
+        [
+          "Which is the smallest number?",
+          "onze",
+          "quinze",
+          "dix-huit",
+          "Onze is 11. Quinze is 15 and dix-huit is 18."
+        ],
+        [
+          "How do you say 11 in French?",
+          "onze",
+          "un",
+          "douze",
+          "Eleven is onze. Un is 1 and douze is 12."
+        ],
+        [
+          "What is dix + cinq?",
+          "quinze",
+          "cinq",
+          "quatorze",
+          "10 + 5 = 15, and 15 in French is quinze."
+        ]
+      ]
+    }
+  },
+  "emoji": "abacus",
+  "example": {
+    "i": 0,
+    "q_en": "What number is “onze”?",
+    "answer_en": "11",
+    "why_en": "Onze is the French word for 11."
+  },
+  "text": {
+    "en": {
+      "title": "French numbers 11 to 20",
+      "teach": "From 11 to 16 French numbers have their own names: onze, douze, treize, quatorze, quinze, seize. Then you add to ten: dix-sept is 10 + 7. Twenty is vingt.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

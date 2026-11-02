@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "science",
   "stage": 3,
+  "ages": [
+    "8-9"
+  ],
   "order": 13,
   "params": {
     "emojis": [
@@ -15,7 +18,27 @@
       "sun",
       "sparkles",
       "warning",
-      "teddy"
+      "teddy",
+      "memo",
+      "light",
+      "tree",
+      "road",
+      "warning",
+      "sun",
+      "sun-large-cloud",
+      "sun-small-cloud",
+      "sparkles",
+      "moon",
+      "droplet",
+      "house",
+      "animal-rabbit",
+      "storm",
+      "animal-frog",
+      "clock",
+      "sun-rain",
+      "glowstar",
+      "openbook",
+      "battery"
     ],
     "bank": {
       "en": [
@@ -88,6 +111,146 @@
           "it gets smaller",
           "it turns red",
           "The closer the light is to the teddy, the more light the teddy blocks, so the shadow grows."
+        ],
+        [
+          "Tracing paper lets some light through, but you cannot see clearly through it. What is it?",
+          "translucent",
+          "transparent",
+          "a light source",
+          "Translucent things let some light pass, but the light is scattered, so what is behind looks blurry."
+        ],
+        [
+          "How does light travel?",
+          "in straight lines",
+          "in circles",
+          "in zigzags like a snake",
+          "Light goes in straight lines. That is why it cannot bend round an object, and a shadow forms."
+        ],
+        [
+          "Why is a shadow dark?",
+          "light cannot reach that place",
+          "shadows are made of dark paint",
+          "the ground is wet there",
+          "The object blocks the light, so less light reaches the ground behind it and that patch looks dark."
+        ],
+        [
+          "Why do road signs shine brightly when car headlights hit them at night?",
+          "they reflect the light back towards the car",
+          "they make their own light",
+          "they are on fire",
+          "Road signs are covered with a special shiny layer that bounces light back towards the driver."
+        ],
+        [
+          "Why do cyclists wear bright strips that reflect light at night?",
+          "car lights bounce off them, so drivers can see the cyclist",
+          "the strips keep the cyclist warm",
+          "the strips make the bike go faster",
+          "Reflective strips send headlight beams back to drivers, so the cyclist is seen in the dark and stays safe."
+        ],
+        [
+          "On a sunny day, the shadow of a tree moves slowly from morning to evening. Why?",
+          "the Sun seems to move across the sky",
+          "the tree walks around",
+          "the wind blows the shadow along",
+          "The Earth turns, so the Sun seems to move across the sky. As the light comes from a new direction, the shadow moves."
+        ],
+        [
+          "Your shadow is on the ground in front of you. Where is the Sun?",
+          "behind you",
+          "in front of you",
+          "under the ground",
+          "Your body blocks the sunlight, so the shadow falls on the side away from the Sun."
+        ],
+        [
+          "How can you protect your eyes on a very bright, sunny day?",
+          "wear sunglasses and a hat with a brim",
+          "wear thick gloves",
+          "drink a glass of cold water",
+          "Good sunglasses block harmful sunlight, and a brim shades your eyes. Gloves and water do not protect them."
+        ],
+        [
+          "Which of these reflects light best?",
+          "a smooth, shiny mirror",
+          "a dark, rough carpet",
+          "a black woolly hat",
+          "Smooth, shiny surfaces bounce back most of the light. Dark, rough ones soak most of it up."
+        ],
+        [
+          "Why is it dark at night?",
+          "our side of the Earth is facing away from the Sun",
+          "the Sun switches off every evening",
+          "clouds always cover the Sun at night",
+          "The Earth spins. When your side turns away from the Sun, sunlight cannot reach you, and it is night."
+        ],
+        [
+          "Which of these is transparent?",
+          "clear water in a glass",
+          "a brick",
+          "a thick book",
+          "Clear water lets light pass straight through, so you can see through it. Bricks and books block light."
+        ],
+        [
+          "Why does a clear glass window make almost no shadow?",
+          "most of the light passes through it",
+          "glass is too cold for shadows",
+          "glass makes its own light",
+          "A shadow forms where light is blocked. Clear glass blocks very little light, so its shadow is very faint."
+        ],
+        [
+          "You make a rabbit shape with your hands in front of a lamp. What shape is the shadow on the wall?",
+          "the same outline as your hands",
+          "always a circle",
+          "always a square",
+          "Your hands block the light, so the shadow has the same outline as the shape they make."
+        ],
+        [
+          "In a storm, why do you see the lightning before you hear the thunder?",
+          "light travels much faster than sound",
+          "sound travels faster than light",
+          "your ears are asleep at first",
+          "Light from the flash reaches you almost at once. Sound is much slower, so the thunder arrives later."
+        ],
+        [
+          "Why can you see yourself in a very still pond?",
+          "the smooth water reflects light like a mirror",
+          "the pond makes its own light",
+          "the fish draw a picture of you",
+          "When water is still and smooth, it bounces light back evenly, so it works like a mirror."
+        ],
+        [
+          "What was a sundial used for?",
+          "telling the time with a shadow",
+          "measuring how much rain fell",
+          "keeping food warm",
+          "As the Sun seems to move across the sky, the sundial’s shadow moves round and points to the hour."
+        ],
+        [
+          "When are you most likely to see a rainbow?",
+          "when the Sun shines while it is raining",
+          "at midnight with no Moon",
+          "in a dark cave",
+          "Sunlight shining through raindrops is split into colours, which makes a rainbow. You need both sun and rain."
+        ],
+        [
+          "Which material would be best for curtains that keep a bedroom dark?",
+          "thick, opaque fabric",
+          "clear plastic",
+          "thin tissue paper",
+          "Thick, opaque fabric blocks the light. Clear plastic and tissue paper let light through."
+        ],
+        [
+          "A book does not make light. So how can you see it in a lit room?",
+          "light from a lamp bounces off it into your eyes",
+          "your eyes send out beams of light",
+          "the book glows by itself",
+          "Light from a source hits the book and reflects into your eyes. That is how we see things that are not light sources."
+        ],
+        [
+          "Why does a torch need a battery?",
+          "the battery gives electricity to make the bulb light up",
+          "the battery makes the torch heavier",
+          "the battery keeps the torch cold",
+          "A torch is a light source because electricity from the battery makes its bulb glow."
         ]
       ],
       "de": [
@@ -160,6 +323,146 @@
           "er wird kleiner",
           "er wird rot",
           "Je näher das Licht am Teddy ist, desto mehr Licht hält der Teddy auf. Darum wächst der Schatten."
+        ],
+        [
+          "Pauspapier lässt etwas Licht durch, aber man kann nicht klar hindurchsehen. Was ist es?",
+          "durchscheinend",
+          "durchsichtig",
+          "eine Lichtquelle",
+          "Durchscheinende Dinge lassen etwas Licht durch, aber es wird gestreut. Was dahinter ist, sieht verschwommen aus."
+        ],
+        [
+          "Wie breitet sich Licht aus?",
+          "geradlinig",
+          "im Kreis",
+          "im Zickzack wie eine Schlange",
+          "Licht breitet sich geradlinig aus. Darum kann es nicht um einen Gegenstand herum, und es entsteht ein Schatten."
+        ],
+        [
+          "Warum ist ein Schatten dunkel?",
+          "das Licht kommt dort nicht hin",
+          "Schatten sind aus dunkler Farbe",
+          "dort ist der Boden nass",
+          "Der Gegenstand hält das Licht auf. Hinter ihm kommt weniger Licht an, darum sieht die Stelle dunkel aus."
+        ],
+        [
+          "Warum leuchten Verkehrsschilder nachts hell, wenn Autoscheinwerfer sie treffen?",
+          "sie werfen das Licht zum Auto zurück",
+          "sie machen eigenes Licht",
+          "sie brennen",
+          "Verkehrsschilder haben eine besondere glänzende Schicht. Sie wirft das Licht zum Fahrer zurück."
+        ],
+        [
+          "Warum tragen Radfahrer nachts helle Streifen, die Licht zurückwerfen?",
+          "das Autolicht wird zurückgeworfen, so sehen Fahrer den Radfahrer",
+          "die Streifen halten warm",
+          "die Streifen machen das Fahrrad schneller",
+          "Reflektierende Streifen werfen das Scheinwerferlicht zum Fahrer zurück. So wird der Radfahrer im Dunkeln gesehen."
+        ],
+        [
+          "An einem sonnigen Tag wandert der Schatten eines Baumes langsam vom Morgen bis zum Abend. Warum?",
+          "die Sonne scheint über den Himmel zu wandern",
+          "der Baum läuft herum",
+          "der Wind bläst den Schatten weiter",
+          "Die Erde dreht sich, darum scheint die Sonne über den Himmel zu wandern. Das Licht kommt aus einer neuen Richtung, und der Schatten wandert mit."
+        ],
+        [
+          "Dein Schatten liegt vor dir auf dem Boden. Wo ist die Sonne?",
+          "hinter dir",
+          "vor dir",
+          "unter der Erde",
+          "Dein Körper hält das Sonnenlicht auf. Darum fällt der Schatten auf die Seite, die von der Sonne weg zeigt."
+        ],
+        [
+          "Wie kannst du deine Augen an einem sehr hellen, sonnigen Tag schützen?",
+          "Sonnenbrille und einen Hut mit Krempe tragen",
+          "dicke Handschuhe tragen",
+          "ein Glas kaltes Wasser trinken",
+          "Eine gute Sonnenbrille hält schädliches Sonnenlicht ab, und eine Krempe macht Schatten. Handschuhe und Wasser schützen die Augen nicht."
+        ],
+        [
+          "Was davon wirft Licht am besten zurück?",
+          "ein glatter, glänzender Spiegel",
+          "ein dunkler, rauer Teppich",
+          "eine schwarze Wollmütze",
+          "Glatte, glänzende Flächen werfen das meiste Licht zurück. Dunkle, raue Flächen schlucken das meiste."
+        ],
+        [
+          "Warum ist es nachts dunkel?",
+          "unsere Seite der Erde ist von der Sonne abgewandt",
+          "die Sonne schaltet sich jeden Abend aus",
+          "nachts verdecken immer Wolken die Sonne",
+          "Die Erde dreht sich. Wenn deine Seite von der Sonne weg zeigt, kommt kein Sonnenlicht an, und es ist Nacht."
+        ],
+        [
+          "Was davon ist durchsichtig?",
+          "klares Wasser in einem Glas",
+          "ein Ziegelstein",
+          "ein dickes Buch",
+          "Klares Wasser lässt das Licht hindurch, darum kann man hindurchsehen. Ziegel und Bücher halten das Licht auf."
+        ],
+        [
+          "Warum macht ein klares Glasfenster fast keinen Schatten?",
+          "das meiste Licht geht hindurch",
+          "Glas ist zu kalt für Schatten",
+          "Glas macht eigenes Licht",
+          "Ein Schatten entsteht, wo Licht aufgehalten wird. Klares Glas hält kaum Licht auf, darum ist sein Schatten sehr schwach."
+        ],
+        [
+          "Du formst mit deinen Händen vor einer Lampe einen Hasen. Welche Form hat der Schatten an der Wand?",
+          "den gleichen Umriss wie deine Hände",
+          "immer einen Kreis",
+          "immer ein Quadrat",
+          "Deine Hände halten das Licht auf. Darum hat der Schatten den gleichen Umriss wie die Form deiner Hände."
+        ],
+        [
+          "Warum siehst du bei einem Gewitter den Blitz, bevor du den Donner hörst?",
+          "Licht ist viel schneller als Schall",
+          "Schall ist schneller als Licht",
+          "deine Ohren schlafen zuerst",
+          "Das Licht des Blitzes kommt fast sofort bei dir an. Schall ist viel langsamer, darum kommt der Donner später."
+        ],
+        [
+          "Warum kannst du dich in einem ganz stillen Teich sehen?",
+          "das glatte Wasser wirft Licht zurück wie ein Spiegel",
+          "der Teich macht eigenes Licht",
+          "die Fische malen ein Bild von dir",
+          "Wenn Wasser still und glatt ist, wirft es das Licht gleichmäßig zurück. Dann wirkt es wie ein Spiegel."
+        ],
+        [
+          "Wofür benutzte man eine Sonnenuhr?",
+          "um mit einem Schatten die Uhrzeit abzulesen",
+          "um zu messen, wie viel Regen fiel",
+          "um Essen warm zu halten",
+          "Während die Sonne über den Himmel zu wandern scheint, wandert der Schatten der Sonnenuhr mit und zeigt die Stunde."
+        ],
+        [
+          "Wann siehst du am ehesten einen Regenbogen?",
+          "wenn die Sonne scheint, während es regnet",
+          "um Mitternacht ohne Mond",
+          "in einer dunklen Höhle",
+          "Sonnenlicht, das durch Regentropfen scheint, wird in Farben zerlegt. So entsteht ein Regenbogen. Man braucht Sonne und Regen."
+        ],
+        [
+          "Welches Material wäre am besten für Vorhänge, die ein Schlafzimmer dunkel halten?",
+          "dicker, undurchsichtiger Stoff",
+          "klares Plastik",
+          "dünnes Seidenpapier",
+          "Dicker, undurchsichtiger Stoff hält das Licht auf. Klares Plastik und Seidenpapier lassen Licht durch."
+        ],
+        [
+          "Ein Buch macht kein Licht. Wie kannst du es dann in einem hellen Zimmer sehen?",
+          "Licht von einer Lampe wird vom Buch in deine Augen zurückgeworfen",
+          "deine Augen senden Lichtstrahlen aus",
+          "das Buch leuchtet von selbst",
+          "Licht einer Lichtquelle trifft das Buch und wird in deine Augen zurückgeworfen. So sehen wir Dinge, die selbst nicht leuchten."
+        ],
+        [
+          "Warum braucht eine Taschenlampe eine Batterie?",
+          "die Batterie liefert Strom, damit die Lampe leuchtet",
+          "die Batterie macht die Taschenlampe schwerer",
+          "die Batterie hält die Taschenlampe kalt",
+          "Eine Taschenlampe ist eine Lichtquelle, weil der Strom aus der Batterie ihr Lämpchen leuchten lässt."
         ]
       ],
       "fr": [
@@ -232,6 +535,146 @@
           "elle devient plus petite",
           "elle devient rouge",
           "Plus la lumière est proche du nounours, plus il bloque de lumière : son ombre grandit."
+        ],
+        [
+          "Le papier calque laisse passer un peu de lumière, mais on ne voit pas bien à travers. Qu’est-ce qu’il est ?",
+          "translucide",
+          "transparent",
+          "une source de lumière",
+          "Un objet translucide laisse passer un peu de lumière, mais elle est dispersée : ce qui est derrière paraît flou."
+        ],
+        [
+          "Comment la lumière se déplace-t-elle ?",
+          "en ligne droite",
+          "en cercle",
+          "en zigzag comme un serpent",
+          "La lumière va en ligne droite. Elle ne peut pas contourner un objet : c’est pour ça qu’une ombre se forme."
+        ],
+        [
+          "Pourquoi une ombre est-elle sombre ?",
+          "la lumière n’arrive pas à cet endroit",
+          "les ombres sont faites de peinture noire",
+          "le sol y est mouillé",
+          "L’objet bloque la lumière : moins de lumière arrive derrière lui, alors cet endroit paraît sombre."
+        ],
+        [
+          "Pourquoi les panneaux de la route brillent-ils la nuit quand les phares les éclairent ?",
+          "ils renvoient la lumière vers la voiture",
+          "ils font leur propre lumière",
+          "ils sont en feu",
+          "Les panneaux sont couverts d’une couche brillante spéciale qui renvoie la lumière vers le conducteur."
+        ],
+        [
+          "Pourquoi les cyclistes portent-ils la nuit des bandes qui renvoient la lumière ?",
+          "les phares s’y reflètent, donc les conducteurs voient le cycliste",
+          "les bandes tiennent chaud",
+          "les bandes font aller le vélo plus vite",
+          "Les bandes réfléchissantes renvoient la lumière des phares vers les conducteurs : le cycliste est vu dans le noir."
+        ],
+        [
+          "Par une journée de soleil, l’ombre d’un arbre se déplace lentement du matin au soir. Pourquoi ?",
+          "le Soleil semble se déplacer dans le ciel",
+          "l’arbre se promène",
+          "le vent pousse l’ombre",
+          "La Terre tourne, donc le Soleil semble traverser le ciel. La lumière arrive d’une autre direction et l’ombre bouge."
+        ],
+        [
+          "Ton ombre est par terre devant toi. Où est le Soleil ?",
+          "derrière toi",
+          "devant toi",
+          "sous la terre",
+          "Ton corps bloque la lumière du Soleil : l’ombre tombe du côté opposé au Soleil."
+        ],
+        [
+          "Comment protéger tes yeux par une journée de grand soleil ?",
+          "porter des lunettes de soleil et un chapeau à bord",
+          "porter des gants épais",
+          "boire un verre d’eau froide",
+          "De bonnes lunettes de soleil arrêtent la lumière dangereuse, et le bord du chapeau fait de l’ombre. Les gants et l’eau ne protègent pas les yeux."
+        ],
+        [
+          "Lequel renvoie le mieux la lumière ?",
+          "un miroir lisse et brillant",
+          "un tapis sombre et rugueux",
+          "un bonnet de laine noir",
+          "Les surfaces lisses et brillantes renvoient presque toute la lumière. Les surfaces sombres et rugueuses en absorbent la plupart."
+        ],
+        [
+          "Pourquoi fait-il noir la nuit ?",
+          "notre côté de la Terre est tourné à l’opposé du Soleil",
+          "le Soleil s’éteint chaque soir",
+          "les nuages cachent toujours le Soleil la nuit",
+          "La Terre tourne sur elle-même. Quand ton côté ne fait plus face au Soleil, sa lumière ne t’arrive plus : c’est la nuit."
+        ],
+        [
+          "Lequel est transparent ?",
+          "de l’eau claire dans un verre",
+          "une brique",
+          "un gros livre",
+          "L’eau claire laisse passer la lumière : on voit à travers. Les briques et les livres bloquent la lumière."
+        ],
+        [
+          "Pourquoi une vitre claire ne fait-elle presque pas d’ombre ?",
+          "presque toute la lumière la traverse",
+          "le verre est trop froid pour faire une ombre",
+          "le verre fait sa propre lumière",
+          "Une ombre se forme là où la lumière est bloquée. Le verre clair en bloque très peu : son ombre est très pâle."
+        ],
+        [
+          "Avec tes mains, tu fais un lapin devant une lampe. Quelle forme a l’ombre sur le mur ?",
+          "le même contour que tes mains",
+          "toujours un rond",
+          "toujours un carré",
+          "Tes mains bloquent la lumière : l’ombre a le même contour que la forme qu’elles font."
+        ],
+        [
+          "Pendant un orage, pourquoi vois-tu l’éclair avant d’entendre le tonnerre ?",
+          "la lumière va beaucoup plus vite que le son",
+          "le son va plus vite que la lumière",
+          "tes oreilles dorment au début",
+          "La lumière de l’éclair t’arrive presque tout de suite. Le son est bien plus lent : le tonnerre arrive après."
+        ],
+        [
+          "Pourquoi peux-tu te voir dans une mare très calme ?",
+          "l’eau lisse renvoie la lumière comme un miroir",
+          "la mare fait sa propre lumière",
+          "les poissons dessinent ton portrait",
+          "Quand l’eau est calme et lisse, elle renvoie la lumière de façon régulière : elle fait comme un miroir."
+        ],
+        [
+          "À quoi servait un cadran solaire ?",
+          "à lire l’heure grâce à une ombre",
+          "à mesurer la pluie tombée",
+          "à garder les plats au chaud",
+          "Comme le Soleil semble traverser le ciel, l’ombre du cadran tourne et montre l’heure."
+        ],
+        [
+          "Quand as-tu le plus de chances de voir un arc-en-ciel ?",
+          "quand le Soleil brille pendant qu’il pleut",
+          "à minuit sans Lune",
+          "dans une grotte sombre",
+          "La lumière du Soleil qui traverse les gouttes de pluie se sépare en couleurs : c’est l’arc-en-ciel. Il faut du soleil et de la pluie."
+        ],
+        [
+          "Quelle matière serait la meilleure pour des rideaux qui gardent une chambre sombre ?",
+          "un tissu épais et opaque",
+          "du plastique transparent",
+          "du papier de soie très fin",
+          "Un tissu épais et opaque bloque la lumière. Le plastique transparent et le papier de soie la laissent passer."
+        ],
+        [
+          "Un livre ne fait pas de lumière. Alors comment le vois-tu dans une pièce éclairée ?",
+          "la lumière d’une lampe rebondit sur lui jusqu’à tes yeux",
+          "tes yeux envoient des rayons de lumière",
+          "le livre brille tout seul",
+          "La lumière d’une source touche le livre et se renvoie vers tes yeux. C’est ainsi qu’on voit les objets qui ne font pas de lumière."
+        ],
+        [
+          "Pourquoi une lampe de poche a-t-elle besoin d’une pile ?",
+          "la pile donne l’électricité qui allume l’ampoule",
+          "la pile rend la lampe plus lourde",
+          "la pile garde la lampe au froid",
+          "Une lampe de poche est une source de lumière parce que l’électricité de la pile fait briller son ampoule."
         ]
       ],
       "yo": [
@@ -304,6 +747,146 @@
           "ó kéré sí i",
           "ó di pupa",
           "Bí ìmọ́lẹ̀ bá ṣe sún mọ́ ọmọlangidi náà tó, bẹ́ẹ̀ ni ó ṣe ń dí ìmọ́lẹ̀ púpọ̀ sí i, nítorí náà òjìji rẹ̀ ń tóbi sí i."
+        ],
+        [
+          "Bébà ìyàwòrán tínrín ń jẹ́ kí ìmọ́lẹ̀ díẹ̀ kọjá, ṣùgbọ́n a kò lè ríran kọjá dáadáa. Kí ni ó jẹ́?",
+          "ohun tí ìmọ́lẹ̀ díẹ̀ ń gbà kọjá",
+          "ohun tí a lè ríran kọjá dáadáa",
+          "orísun ìmọ́lẹ̀",
+          "Àwọn nǹkan kan ń jẹ́ kí ìmọ́lẹ̀ díẹ̀ kọjá, ṣùgbọ́n ìmọ́lẹ̀ náà ń fọ́nká, nítorí náà ohun tó wà lẹ́yìn wọn kò ní hàn kedere."
+        ],
+        [
+          "Báwo ni ìmọ́lẹ̀ ṣe ń rìn?",
+          "ní ọ̀nà tààrà",
+          "ní ọ̀nà roboto",
+          "ní wọ́ọ́wọ́ bí ejò",
+          "Ìmọ́lẹ̀ ń rìn ní ọ̀nà tààrà. Ìdí nìyẹn tí kò fi lè yí ká nǹkan, tí òjìji sì fi ń wáyé."
+        ],
+        [
+          "Kí ló dé tí òjìji fi ṣókùnkùn?",
+          "ìmọ́lẹ̀ kò lè dé ibẹ̀",
+          "ọ̀dà dúdú ni wọ́n fi ṣe òjìji",
+          "ilẹ̀ rin níbẹ̀",
+          "Nǹkan náà dí ìmọ́lẹ̀, nítorí náà ìmọ́lẹ̀ díẹ̀ ló ń dé ilẹ̀ lẹ́yìn rẹ̀, ibẹ̀ sì ń ṣókùnkùn."
+        ],
+        [
+          "Kí ló dé tí àmì ojú ọ̀nà fi ń tàn yòò ní alẹ́ tí iná mọ́tò bá tàn lù wọ́n?",
+          "wọ́n ń dá ìmọ́lẹ̀ padà sí ọ̀dọ̀ mọ́tò náà",
+          "wọ́n ń ṣe ìmọ́lẹ̀ tiwọn",
+          "iná ń jó wọn",
+          "Wọ́n fi ohun kan tó ń kọ mànà bo àmì ojú ọ̀nà, ó sì ń dá ìmọ́lẹ̀ padà sí ọ̀dọ̀ awakọ̀."
+        ],
+        [
+          "Kí ló dé tí àwọn tó ń gun kẹ̀kẹ́ fi ń wọ ìlà tó ń dá ìmọ́lẹ̀ padà ní alẹ́?",
+          "iná mọ́tò ń tàn padà láti ara wọn, nítorí náà awakọ̀ á rí ẹni tó ń gun kẹ̀kẹ́",
+          "ìlà náà ń mú ara wọn móoru",
+          "ìlà náà ń mú kẹ̀kẹ́ yára sí i",
+          "Ìlà wọ̀nyí ń dá ìmọ́lẹ̀ iná mọ́tò padà sí ọ̀dọ̀ awakọ̀, nítorí náà wọ́n á rí ẹni náà nínú òkùnkùn, kò sì ní fara pa."
+        ],
+        [
+          "Ní ọjọ́ tí oòrùn mú, òjìji igi kan ń sún díẹ̀díẹ̀ láti àárọ̀ títí di ìrọ̀lẹ́. Kí ló dé?",
+          "oòrùn dàbí ẹni pé ó ń rìn kọjá ojú ọ̀run",
+          "igi náà ń rìn káàkiri",
+          "afẹ́fẹ́ ń fẹ́ òjìji náà lọ",
+          "Ilẹ̀ ayé ń yí po, nítorí náà oòrùn dàbí ẹni pé ó ń rìn kọjá ojú ọ̀run. Ìmọ́lẹ̀ ń wá láti ibòmíràn, òjìji náà sì ń sún."
+        ],
+        [
+          "Òjìji rẹ wà lórí ilẹ̀ níwájú rẹ. Ibo ni oòrùn wà?",
+          "lẹ́yìn rẹ",
+          "níwájú rẹ",
+          "lábẹ́ ilẹ̀",
+          "Ara rẹ dí ìmọ́lẹ̀ oòrùn, nítorí náà òjìji rẹ ń bọ́ sí ẹ̀gbẹ́ tó jìnnà sí oòrùn."
+        ],
+        [
+          "Báwo ni o ṣe lè dáàbò bo ojú rẹ ní ọjọ́ tí oòrùn mú gan-an?",
+          "wọ dígí ojú oòrùn àti fìlà tó ní ètè",
+          "wọ ìbọ̀wọ́ tó nípọn",
+          "mu ife omi tútù",
+          "Dígí ojú oòrùn tó dára ń dí ìmọ́lẹ̀ tó lè pa ojú lára, ètè fìlà sì ń ṣíji bo ojú. Ìbọ̀wọ́ àti omi kò lè dáàbò bo ojú."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló ń dá ìmọ́lẹ̀ padà jùlọ?",
+          "dígí tó dán, tó ń kọ mànà",
+          "kápẹ́ẹ̀tì dúdú tó ní ìkanra",
+          "fìlà òwú dúdú",
+          "Ojú tó dán tó sì ń kọ mànà ń dá ọ̀pọ̀ ìmọ́lẹ̀ padà. Àwọn tó dúdú tí wọ́n sì ní ìkanra ń gba èyí tó pọ̀ jù mu."
+        ],
+        [
+          "Kí ló dé tí ó fi máa ń ṣókùnkùn ní alẹ́?",
+          "apá ilẹ̀ ayé tí a wà kò kọjú sí oòrùn",
+          "oòrùn máa ń kú ní gbogbo ìrọ̀lẹ́",
+          "ìkùukùu máa ń bo oòrùn ní gbogbo alẹ́",
+          "Ilẹ̀ ayé ń yí po. Tí apá tí o wà bá yí kúrò lọ́dọ̀ oòrùn, ìmọ́lẹ̀ oòrùn kò ní dé ọ̀dọ̀ rẹ, alẹ́ á sì lẹ́."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni a lè ríran kọjá?",
+          "omi tó mọ́ nínú ife gíláàsì",
+          "bíríkì",
+          "ìwé tó nípọn",
+          "Omi tó mọ́ ń jẹ́ kí ìmọ́lẹ̀ gba inú rẹ̀ kọjá, nítorí náà a lè ríran kọjá. Bíríkì àti ìwé ń dí ìmọ́lẹ̀."
+        ],
+        [
+          "Kí ló dé tí fèrèsé gíláàsì tó mọ́ kì í fi í ṣe òjìji tó hàn?",
+          "ọ̀pọ̀ ìmọ́lẹ̀ ń gba inú rẹ̀ kọjá",
+          "gíláàsì tutù jù fún òjìji",
+          "gíláàsì ń ṣe ìmọ́lẹ̀ tirẹ̀",
+          "Òjìji ń wáyé níbi tí nǹkan bá ti dí ìmọ́lẹ̀. Gíláàsì tó mọ́ kì í dí ìmọ́lẹ̀ púpọ̀, nítorí náà òjìji rẹ̀ kò fi bẹ́ẹ̀ hàn."
+        ],
+        [
+          "O fi ọwọ́ rẹ ṣe ìrísí ehoro níwájú àtùpà. Irú ìrísí wo ni òjìji ní lára ògiri?",
+          "ìrísí kan náà bí ọwọ́ rẹ",
+          "ìrísí roboto nígbà gbogbo",
+          "ìrísí onígun mẹ́rin nígbà gbogbo",
+          "Ọwọ́ rẹ dí ìmọ́lẹ̀, nítorí náà òjìji náà ní ìrísí kan náà bí èyí tí ọwọ́ rẹ ṣe."
+        ],
+        [
+          "Nígbà ìjì, kí ló dé tí o fi ń rí mànàmáná kí o tó gbọ́ ààrá?",
+          "ìmọ́lẹ̀ ń yára ju ìró lọ púpọ̀",
+          "ìró ń yára ju ìmọ́lẹ̀ lọ",
+          "etí rẹ ń sùn lákọ̀ọ́kọ́",
+          "Ìmọ́lẹ̀ mànàmáná ń dé ọ̀dọ̀ rẹ fẹ́rẹ̀ẹ́ lẹ́sẹ̀kẹsẹ̀. Ìró lọ́ra jù, nítorí náà ààrá ń dé lẹ́yìn."
+        ],
+        [
+          "Kí ló dé tí o fi lè rí ara rẹ nínú adágún omi tó dákẹ́ rọ́rọ́?",
+          "omi tó dán ń dá ìmọ́lẹ̀ padà bí dígí",
+          "adágún náà ń ṣe ìmọ́lẹ̀ tirẹ̀",
+          "àwọn ẹja ya àwòrán rẹ",
+          "Tí omi bá dákẹ́, tí ó sì dán, ó ń dá ìmọ́lẹ̀ padà lọ́nà kan náà, nítorí náà ó ń ṣiṣẹ́ bí dígí."
+        ],
+        [
+          "Kí ni wọ́n ń lo aago oòrùn (sundial) fún?",
+          "láti fi òjìji mọ àkókò",
+          "láti wọn bí òjò ṣe rọ̀ tó",
+          "láti mú oúnjẹ gbóná",
+          "Bí oòrùn ṣe dàbí ẹni pé ó ń rìn kọjá ojú ọ̀run, òjìji aago oòrùn ń yí po, ó sì ń tọ́ka sí wákàtí."
+        ],
+        [
+          "Ìgbà wo ni o ṣeé ṣe jùlọ kí o rí òṣùmàrè?",
+          "nígbà tí oòrùn ń ràn bí òjò ṣe ń rọ̀",
+          "ní ọ̀gànjọ́ òru tí kò sí òṣùpá",
+          "nínú ihò àpáta tó ṣókùnkùn",
+          "Ìmọ́lẹ̀ oòrùn tí ó gba inú ẹ̀kán òjò kọjá ń pín sí oríṣiríṣi àwọ̀, èyí ló ń ṣe òṣùmàrè. A nílò oòrùn àti òjò."
+        ],
+        [
+          "Ohun èlò wo ló dára jùlọ fún aṣọ fèrèsé tí yóò jẹ́ kí yàrá ìsùn ṣókùnkùn?",
+          "aṣọ tó nípọn tí ìmọ́lẹ̀ kò lè gbà kọjá",
+          "ike tó mọ́ kedere",
+          "bébà tínrín gan-an",
+          "Aṣọ tó nípọn ń dí ìmọ́lẹ̀. Ike tó mọ́ àti bébà tínrín ń jẹ́ kí ìmọ́lẹ̀ kọjá."
+        ],
+        [
+          "Ìwé kì í ṣe ìmọ́lẹ̀. Báwo wá ni o ṣe ń rí i nínú yàrá tí iná ti tàn?",
+          "ìmọ́lẹ̀ láti inú àtùpà ń tàn lù ú, ó sì ń padà wọ ojú rẹ",
+          "ojú rẹ ń rán ìtànṣán ìmọ́lẹ̀ jáde",
+          "ìwé náà ń tàn fúnra rẹ̀",
+          "Ìmọ́lẹ̀ láti orísun kan ń tàn lu ìwé náà, ó sì ń padà wọ ojú rẹ. Bẹ́ẹ̀ la ṣe ń rí àwọn nǹkan tí kì í ṣe orísun ìmọ́lẹ̀."
+        ],
+        [
+          "Kí ló dé tí tọ́ọ̀ṣì fi nílò bátìrì?",
+          "bátìrì ń fún gílóòbù ní iná mànàmáná kí ó lè tàn",
+          "bátìrì ń mú tọ́ọ̀ṣì wúwo",
+          "bátìrì ń mú tọ́ọ̀ṣì tutù",
+          "Tọ́ọ̀ṣì jẹ́ orísun ìmọ́lẹ̀ nítorí pé iná mànàmáná láti inú bátìrì ń mú gílóòbù rẹ̀ tàn."
         ]
       ]
     }

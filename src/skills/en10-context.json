@@ -1,0 +1,274 @@
+{
+  "id": "en10-context",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 208,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "mountain",
+      "warning",
+      "clock",
+      "house",
+      "paws",
+      "droplet",
+      "memo",
+      "trophy",
+      "road",
+      "animal-lion",
+      "wave",
+      "tv",
+      "desert",
+      "tree",
+      "tv",
+      "cake",
+      "beach",
+      "fruit-apple",
+      "framed",
+      "animal-snail",
+      "heart",
+      "sparkles",
+      "speech",
+      "house",
+      "mountain",
+      "animal-bat",
+      "hockey",
+      "gift",
+      "warning",
+      "snake"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does the word in capitals mean? “The REMOTE village had no shops for miles.”",
+          "far away from other places",
+          "easy to reach",
+          "very noisy",
+          "No shops for miles tells us the village is far from everywhere."
+        ],
+        [
+          "What does the word in capitals mean? “She was FURIOUS when her bike went missing.”",
+          "very angry",
+          "very pleased",
+          "very sleepy",
+          "Losing a bike would make someone cross, so furious means very angry."
+        ],
+        [
+          "What does the word in capitals mean? “Please be BRIEF – we only have a minute.”",
+          "short",
+          "loud",
+          "careful",
+          "Having only a minute means the speaker must keep it short."
+        ],
+        [
+          "What does the word in capitals mean? “The ANCIENT castle has stood for 900 years.”",
+          "very old",
+          "brand new",
+          "very tall",
+          "Something that has stood for 900 years is very old."
+        ],
+        [
+          "What does the word in capitals mean? “The puppy was TIMID and hid under the table.”",
+          "shy and easily frightened",
+          "fierce",
+          "greedy",
+          "Hiding under the table shows the puppy was shy and nervous."
+        ],
+        [
+          "What does the word in capitals mean? “We need to CONSERVE water during the dry summer.”",
+          "save and protect",
+          "waste",
+          "heat up",
+          "When water is short, we must save it."
+        ],
+        [
+          "What does the word in capitals mean? “The instructions were so VAGUE that nobody understood them.”",
+          "unclear",
+          "exact",
+          "printed",
+          "Nobody understood them, so the instructions were not clear."
+        ],
+        [
+          "What does the word in capitals mean? “He felt ELATED after winning the prize.”",
+          "extremely happy",
+          "very sad",
+          "bored",
+          "Winning a prize makes you feel thrilled, so elated means extremely happy."
+        ],
+        [
+          "What does the word in capitals mean? “The path was too NARROW for two bikes side by side.”",
+          "not wide",
+          "not long",
+          "slippery",
+          "Two bikes could not fit side by side, so the path was not wide enough."
+        ],
+        [
+          "What does the word in capitals mean? “The lion crept through the grass towards its PREY.”",
+          "the animal it hunts",
+          "its cub",
+          "its den",
+          "Prey is an animal that is hunted by another animal for food."
+        ],
+        [
+          "What does the word in capitals mean? “Mia was RELUCTANT to jump into the cold pool.”",
+          "unwilling",
+          "eager",
+          "proud",
+          "A cold pool would make someone not want to jump, so reluctant means unwilling."
+        ],
+        [
+          "What does the word in capitals mean? “The film was so TEDIOUS that I fell asleep.”",
+          "boring",
+          "exciting",
+          "funny",
+          "Falling asleep shows the film was dull and boring."
+        ],
+        [
+          "What does the word in capitals mean? “The desert is ARID, with almost no rain all year.”",
+          "very dry",
+          "very cold",
+          "very green",
+          "Almost no rain means the land is very dry."
+        ],
+        [
+          "What does the word in capitals mean? “The BARK on the old oak tree was rough.”",
+          "the outer covering of a tree",
+          "the sound a dog makes",
+          "a small boat",
+          "Here bark is on a tree, so it means the tree’s rough outer layer."
+        ],
+        [
+          "What does the word in capitals mean? “I can’t BEAR to watch the sad ending again.”",
+          "put up with",
+          "a large furry animal",
+          "pay for",
+          "In this sentence bear means put up with or stand."
+        ],
+        [
+          "What does the word in capitals mean? “Leave the bread dough to RISE for an hour.”",
+          "get bigger",
+          "cool down",
+          "go hard",
+          "Bread dough puffs up and gets bigger as it rests."
+        ],
+        [
+          "What does the word in capitals mean? “The sea was CALM after the storm had passed.”",
+          "still and peaceful",
+          "rough and wild",
+          "freezing",
+          "Once the storm has passed, the sea becomes still and quiet."
+        ],
+        [
+          "What does the word in capitals mean? “The ABUNDANT apples covered the whole orchard floor.”",
+          "plentiful",
+          "rotten",
+          "tiny",
+          "So many apples covered the ground that there were plenty of them."
+        ],
+        [
+          "What does the word in capitals mean? “The glass vase is FRAGILE, so handle it gently.”",
+          "easily broken",
+          "very heavy",
+          "very cheap",
+          "Handling it gently suggests it could break easily."
+        ],
+        [
+          "What does the word in capitals mean? “We were told to OBSERVE the snail closely.”",
+          "watch carefully",
+          "pick up",
+          "feed",
+          "To observe something closely is to watch it carefully."
+        ],
+        [
+          "What does the word in capitals mean? “The new park will BENEFIT everyone in the town.”",
+          "help",
+          "harm",
+          "confuse",
+          "A new park is good for people, so benefit means help."
+        ],
+        [
+          "What does the word in capitals mean? “The magician made the coin VANISH.”",
+          "disappear",
+          "grow",
+          "spin",
+          "A magician’s trick makes the coin seem to disappear."
+        ],
+        [
+          "What does the word in capitals mean? “She gave a SINCERE apology and promised to do better.”",
+          "honest and truly meant",
+          "funny",
+          "rushed",
+          "Promising to do better shows she really meant it."
+        ],
+        [
+          "What does the word in capitals mean? “We tried to PERSUADE Dad to let us have a puppy.”",
+          "convince",
+          "stop",
+          "remind",
+          "To persuade someone is to get them to agree with you."
+        ],
+        [
+          "What does the word in capitals mean? “The climbers reached the SUMMIT at noon and enjoyed the view.”",
+          "the top of the mountain",
+          "the bottom of the mountain",
+          "a camping spot",
+          "Climbers aim to reach the top, where they can enjoy the view."
+        ],
+        [
+          "What does the word in capitals mean? “Bats are NOCTURNAL, so they hunt for food at night.”",
+          "active at night",
+          "active during the day",
+          "living underwater",
+          "The sentence tells us they hunt at night, so nocturnal means active at night."
+        ],
+        [
+          "What does the word in capitals mean? “Our hockey MATCH against the other school starts at three.”",
+          "a game",
+          "a small stick for lighting a fire",
+          "something that looks the same",
+          "In this sentence match means a game between two teams."
+        ],
+        [
+          "What does the word in capitals mean? “Ben is very GENEROUS – he always shares his sweets.”",
+          "happy to give",
+          "mean",
+          "shy",
+          "Always sharing shows Ben likes to give to others."
+        ],
+        [
+          "What does the word in capitals mean? “The old wooden bridge might COLLAPSE if too many people cross it.”",
+          "fall down",
+          "get longer",
+          "be painted",
+          "Too much weight could make the bridge fall down."
+        ],
+        [
+          "What does the word in capitals mean? “Each SCALE on the snake’s skin was smooth and shiny.”",
+          "a small plate covering the skin",
+          "a machine for weighing things",
+          "a set of musical notes",
+          "Here scale is on a snake’s skin, so it means one of the small plates that cover it."
+        ]
+      ]
+    }
+  },
+  "emoji": "openbook",
+  "example": {
+    "i": 0,
+    "q_en": "What does the word in capitals mean? “The REMOTE village had no shops for miles.”",
+    "answer_en": "far away from other places",
+    "why_en": "No shops for miles tells us the village is far from everywhere."
+  },
+  "text": {
+    "en": {
+      "title": "Words in context",
+      "teach": "Clues in the rest of the sentence help you work out what a word means. In “The desert is arid, with almost no rain”, the clue “no rain” tells you arid means very dry.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

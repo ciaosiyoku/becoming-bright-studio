@@ -1,0 +1,274 @@
+{
+  "id": "fr4-animals",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 4,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "animal-rabbit",
+      "animal-horse",
+      "animal-cow",
+      "animal-mouse",
+      "animal-frog",
+      "animal-lion",
+      "paws",
+      "bone",
+      "letters",
+      "speech",
+      "animal-elephant",
+      "animal-giraffe",
+      "animal-bear",
+      "animal-tiger",
+      "snake",
+      "animal-turtle",
+      "animal-butterfly",
+      "animal-honeybee",
+      "animal-snail",
+      "animal-fox",
+      "letters",
+      "speech",
+      "letters",
+      "animal-zebra",
+      "animal-dolphin",
+      "chick",
+      "animal-lady-beetle",
+      "animal-hedgehog",
+      "speech",
+      "letters"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is this animal called in French?",
+          "le lapin",
+          "le cheval",
+          "la vache",
+          "This is a rabbit. In French it is ‘le lapin’."
+        ],
+        [
+          "What is this animal called in French?",
+          "le cheval",
+          "le lapin",
+          "la souris",
+          "This is a horse. In French it is ‘le cheval’."
+        ],
+        [
+          "What is this animal called in French?",
+          "la vache",
+          "le lion",
+          "le poussin",
+          "This is a cow. In French it is ‘la vache’."
+        ],
+        [
+          "What is this animal called in French?",
+          "la souris",
+          "l’ours",
+          "le tigre",
+          "This is a mouse. In French it is ‘la souris’."
+        ],
+        [
+          "What is this animal called in French?",
+          "la grenouille",
+          "la girafe",
+          "le chien",
+          "This is a frog. In French it is ‘la grenouille’."
+        ],
+        [
+          "What is this animal called in French?",
+          "le lion",
+          "la tortue",
+          "le lapin",
+          "This is a lion. In French it is ‘le lion’."
+        ],
+        [
+          "How do you say ‘cat’ in French?",
+          "le chat",
+          "le chien",
+          "la vache",
+          "‘Cat’ in French is ‘le chat’."
+        ],
+        [
+          "How do you say ‘dog’ in French?",
+          "le chien",
+          "le chat",
+          "le cheval",
+          "‘Dog’ in French is ‘le chien’."
+        ],
+        [
+          "What does ‘le chat’ mean?",
+          "the cat",
+          "the dog",
+          "the horse",
+          "‘Le chat’ means the cat."
+        ],
+        [
+          "What does ‘la souris’ mean?",
+          "the mouse",
+          "the cow",
+          "the bird",
+          "‘La souris’ means the mouse."
+        ],
+        [
+          "What is this animal called in French?",
+          "l’éléphant",
+          "l’ours",
+          "le zèbre",
+          "This is an elephant. In French it is ‘l’éléphant’."
+        ],
+        [
+          "What is this animal called in French?",
+          "la girafe",
+          "la grenouille",
+          "le tigre",
+          "This is a giraffe. In French it is ‘la girafe’."
+        ],
+        [
+          "What is this animal called in French?",
+          "l’ours",
+          "le lion",
+          "la souris",
+          "This is a bear. In French it is ‘l’ours’."
+        ],
+        [
+          "What is this animal called in French?",
+          "le tigre",
+          "le zèbre",
+          "la vache",
+          "This is a tiger. In French it is ‘le tigre’."
+        ],
+        [
+          "What is this animal called in French?",
+          "le serpent",
+          "le poisson",
+          "l’escargot",
+          "This is a snake. In French it is ‘le serpent’."
+        ],
+        [
+          "What is this animal called in French?",
+          "la tortue",
+          "la girafe",
+          "le lapin",
+          "This is a turtle. In French it is ‘la tortue’."
+        ],
+        [
+          "What is this animal called in French?",
+          "le papillon",
+          "l’abeille",
+          "le crabe",
+          "This is a butterfly. In French it is ‘le papillon’."
+        ],
+        [
+          "What is this animal called in French?",
+          "l’abeille",
+          "le papillon",
+          "le renard",
+          "This is a bee. In French it is ‘l’abeille’."
+        ],
+        [
+          "What is this animal called in French?",
+          "l’escargot",
+          "le serpent",
+          "le cheval",
+          "This is a snail. In French it is ‘l’escargot’."
+        ],
+        [
+          "What is this animal called in French?",
+          "le renard",
+          "le chat",
+          "la tortue",
+          "This is a fox. In French it is ‘le renard’."
+        ],
+        [
+          "What does ‘le cheval’ mean?",
+          "the horse",
+          "the rabbit",
+          "the fish",
+          "‘Le cheval’ means the horse."
+        ],
+        [
+          "What does ‘la vache’ mean?",
+          "the cow",
+          "the cat",
+          "the frog",
+          "‘La vache’ means the cow."
+        ],
+        [
+          "What does ‘le lapin’ mean?",
+          "the rabbit",
+          "the lion",
+          "the snake",
+          "‘Le lapin’ means the rabbit."
+        ],
+        [
+          "What is this animal called in French?",
+          "le zèbre",
+          "le tigre",
+          "l’ours",
+          "This is a zebra. In French it is ‘le zèbre’."
+        ],
+        [
+          "What is this animal called in French?",
+          "le dauphin",
+          "le lapin",
+          "la vache",
+          "This is a dolphin. In French it is ‘le dauphin’."
+        ],
+        [
+          "What is this animal called in French?",
+          "le poussin",
+          "le cheval",
+          "le serpent",
+          "This is a chick. In French it is ‘le poussin’."
+        ],
+        [
+          "What is this animal called in French?",
+          "la coccinelle",
+          "l’abeille",
+          "le renard",
+          "This is a ladybird. In French it is ‘la coccinelle’."
+        ],
+        [
+          "What is this animal called in French?",
+          "le hérisson",
+          "la souris",
+          "le lion",
+          "This is a hedgehog. In French it is ‘le hérisson’."
+        ],
+        [
+          "What does ‘l’oiseau’ mean?",
+          "the bird",
+          "the dog",
+          "the tiger",
+          "‘L’oiseau’ means the bird."
+        ],
+        [
+          "What does ‘le poisson’ mean?",
+          "the fish",
+          "the horse",
+          "the bee",
+          "‘Le poisson’ means the fish."
+        ]
+      ]
+    }
+  },
+  "emoji": "paws",
+  "example": {
+    "i": 0,
+    "q_en": "What is this animal called in French?",
+    "answer_en": "le lapin",
+    "why_en": "This is a rabbit. In French it is ‘le lapin’."
+  },
+  "text": {
+    "en": {
+      "title": "Animals in French",
+      "teach": "French words for animals have ‘le’ or ‘la’ in front: ‘le chat’ (the cat), ‘la vache’ (the cow). Before a, e, i, o, u it is ‘l’’, like ‘l’ours’ (the bear).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

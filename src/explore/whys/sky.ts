@@ -1,6 +1,6 @@
 import type { Why } from './types'
 
-// 100 Whys: sky, weather, space and seasons. Short, true explanations for children aged 4–11, in English, German, French and Yoruba.
+// Whys: sky, weather, space and seasons. Short, true explanations for children aged 4–12, in English, German, French and Yoruba.
 
 export const WHYS_SKY: Why[] = [
   { id: 'sky-blue', topic: 'sky', emoji: 'sun',

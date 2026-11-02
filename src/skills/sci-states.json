@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "science",
   "stage": 3,
+  "ages": [
+    "8-9"
+  ],
   "order": 10,
   "params": {
     "emojis": [
@@ -15,6 +18,26 @@
       "wave",
       "cocoa",
       "fog",
+      "mountain",
+      "thermometer",
+      "fire",
+      "cocoa",
+      "droplet",
+      "cloud",
+      "sparkles",
+      "fog",
+      "beach",
+      "iceskate",
+      "snowflake",
+      "party",
+      "sun-cloud",
+      "rain",
+      "sun-small-cloud",
+      "droplet",
+      "candle",
+      "snow",
+      "fruit-lemon",
+      "snowman",
       "mountain"
     ],
     "bank": {
@@ -88,6 +111,146 @@
           "water",
           "steam",
           "A stone keeps its own shape and does not flow, so it is a solid."
+        ],
+        [
+          "At what temperature does pure water freeze?",
+          "0 °C",
+          "50 °C",
+          "100 °C",
+          "Pure water turns into ice at 0 degrees Celsius. That is why icy roads appear when it is that cold."
+        ],
+        [
+          "At what temperature does water boil?",
+          "100 °C",
+          "0 °C",
+          "20 °C",
+          "Water boils at 100 degrees Celsius. Bubbles of steam form all through it."
+        ],
+        [
+          "What is steam?",
+          "water that has turned into a gas",
+          "tiny pieces of ice",
+          "smoke from a fire",
+          "When water is heated enough, it becomes a gas called water vapour. Steam is this hot vapour."
+        ],
+        [
+          "What is condensation?",
+          "a gas cooling down and turning into a liquid",
+          "a solid turning into a liquid",
+          "a liquid turning into a solid",
+          "When water vapour touches something cold, it cools and turns back into drops of water. That is condensation."
+        ],
+        [
+          "What are clouds made of?",
+          "tiny drops of water or bits of ice",
+          "cotton wool",
+          "smoke from chimneys",
+          "Water vapour rises, cools high up and condenses into tiny drops or ice bits. Lots of them together make a cloud."
+        ],
+        [
+          "What are the bubbles in fizzy water?",
+          "a gas",
+          "tiny stones",
+          "drops of oil",
+          "Fizzy water has a gas called carbon dioxide mixed into it. When you open the bottle, the gas escapes as bubbles."
+        ],
+        [
+          "Which state of matter spreads out to fill the whole of any container?",
+          "a gas",
+          "a liquid",
+          "a solid",
+          "A liquid only fills the bottom of a jar, but a gas spreads out to fill every corner of it."
+        ],
+        [
+          "Sand can be poured. Is sand a solid or a liquid?",
+          "a solid made of tiny grains",
+          "a liquid",
+          "a gas",
+          "Each grain of sand is hard and keeps its own shape. The grains are so small that they pour, but they are still solid."
+        ],
+        [
+          "Which of these melts at the lowest temperature?",
+          "ice",
+          "iron",
+          "stone",
+          "Ice melts at just 0 °C. Iron and stone only melt when they are made hotter than a fire."
+        ],
+        [
+          "What happens to water when it freezes?",
+          "it takes up a little more space",
+          "it shrinks to half its size",
+          "it disappears",
+          "Water gets slightly bigger when it turns into ice. That is why a full bottle of water can crack in the freezer."
+        ],
+        [
+          "Which is easiest to squash into a smaller space?",
+          "a gas",
+          "a liquid",
+          "a solid",
+          "The tiny particles in a gas are far apart, so they can be pushed closer. That is how a pump squeezes air into a ball."
+        ],
+        [
+          "In the water cycle, what happens when water vapour cools high in the sky?",
+          "it condenses and forms clouds",
+          "it turns into sand",
+          "it melts",
+          "Cold air high up cools the vapour, so it condenses into tiny drops that gather as clouds."
+        ],
+        [
+          "Water falling from clouds as rain, snow or hail is called what?",
+          "precipitation",
+          "evaporation",
+          "condensation",
+          "When the drops in a cloud get too heavy, they fall. Rain, snow and hail are all kinds of precipitation."
+        ],
+        [
+          "On which kind of day does wet washing dry fastest?",
+          "a warm, windy day",
+          "a cold, still day",
+          "a rainy day",
+          "Warmth and wind both make water evaporate faster, so clothes dry quickly on a warm, breezy day."
+        ],
+        [
+          "Cooking oil flows slowly but can be poured. What is it?",
+          "a liquid",
+          "a gas",
+          "a solid",
+          "Oil flows and takes the shape of the bottle or pan it is in, so it is a liquid, even though it is thick."
+        ],
+        [
+          "A candle is burning. What happens to the wax near the flame?",
+          "it melts",
+          "it freezes",
+          "it turns into metal",
+          "The heat of the flame melts the solid wax into a liquid. When it cools, it turns solid again."
+        ],
+        [
+          "How can you turn liquid water into a solid?",
+          "put it in a freezer",
+          "heat it in a pan",
+          "stir it with a spoon",
+          "A freezer is colder than 0 °C, so the water freezes into solid ice."
+        ],
+        [
+          "You put ice cubes in a drink and they get smaller. Why?",
+          "they melt in the warmer drink",
+          "the drink eats them",
+          "they turn into sugar",
+          "The drink is warmer than the ice, so heat passes into the ice cubes and they melt into water."
+        ],
+        [
+          "Which word means a solid turning into a liquid?",
+          "melting",
+          "freezing",
+          "condensing",
+          "When a solid warms up and becomes a liquid, we say it melts, like a snowman on a sunny day."
+        ],
+        [
+          "Hot, runny lava flows out of a volcano and cools down. What does it become?",
+          "solid rock",
+          "a gas",
+          "water",
+          "Lava is melted rock. As it cools, it freezes back into hard, solid rock."
         ]
       ],
       "de": [
@@ -160,6 +323,146 @@
           "Wasser",
           "Dampf",
           "Ein Stein behält seine Form und fließt nicht. Also ist er fest."
+        ],
+        [
+          "Bei welcher Temperatur gefriert reines Wasser?",
+          "0 °C",
+          "50 °C",
+          "100 °C",
+          "Reines Wasser wird bei 0 Grad Celsius zu Eis. Darum werden Straßen glatt, wenn es so kalt ist."
+        ],
+        [
+          "Bei welcher Temperatur kocht Wasser?",
+          "100 °C",
+          "0 °C",
+          "20 °C",
+          "Wasser kocht bei 100 Grad Celsius. Dann bilden sich überall darin Dampfblasen."
+        ],
+        [
+          "Was ist Wasserdampf?",
+          "Wasser, das zu einem Gas geworden ist",
+          "winzige Eisstückchen",
+          "Rauch von einem Feuer",
+          "Wird Wasser stark genug erhitzt, wird es zu einem Gas. Dieses heiße Gas nennen wir Wasserdampf."
+        ],
+        [
+          "Was ist Kondensation?",
+          "ein Gas kühlt ab und wird flüssig",
+          "etwas Festes wird flüssig",
+          "eine Flüssigkeit wird fest",
+          "Trifft Wasserdampf auf etwas Kaltes, kühlt er ab und wird wieder zu Wassertropfen. Das ist Kondensation."
+        ],
+        [
+          "Woraus bestehen Wolken?",
+          "aus winzigen Wassertropfen oder Eiskristallen",
+          "aus Watte",
+          "aus Rauch von Schornsteinen",
+          "Wasserdampf steigt auf, kühlt oben ab und wird zu winzigen Tropfen oder Eiskristallen. Viele davon bilden eine Wolke."
+        ],
+        [
+          "Was sind die Bläschen in Sprudelwasser?",
+          "ein Gas",
+          "winzige Steinchen",
+          "Öltropfen",
+          "In Sprudelwasser ist ein Gas namens Kohlendioxid gelöst. Öffnest du die Flasche, entweicht es als Bläschen."
+        ],
+        [
+          "Welcher Zustand breitet sich aus und füllt jeden Behälter ganz aus?",
+          "ein Gas",
+          "eine Flüssigkeit",
+          "ein fester Stoff",
+          "Eine Flüssigkeit füllt nur den unteren Teil eines Glases, aber ein Gas verteilt sich bis in jede Ecke."
+        ],
+        [
+          "Sand kann man schütten. Ist Sand fest oder flüssig?",
+          "fest, aus winzigen Körnern",
+          "flüssig",
+          "gasförmig",
+          "Jedes Sandkorn ist hart und behält seine Form. Die Körner sind so klein, dass man sie schütten kann, aber sie sind fest."
+        ],
+        [
+          "Was davon schmilzt bei der niedrigsten Temperatur?",
+          "Eis",
+          "Eisen",
+          "Stein",
+          "Eis schmilzt schon bei 0 °C. Eisen und Stein schmelzen erst, wenn sie heißer als ein Feuer werden."
+        ],
+        [
+          "Was passiert mit Wasser, wenn es gefriert?",
+          "es braucht etwas mehr Platz",
+          "es schrumpft auf die Hälfte",
+          "es verschwindet",
+          "Wasser dehnt sich ein wenig aus, wenn es zu Eis wird. Darum kann eine volle Wasserflasche im Gefrierfach platzen."
+        ],
+        [
+          "Was lässt sich am leichtesten zusammendrücken?",
+          "ein Gas",
+          "eine Flüssigkeit",
+          "ein fester Stoff",
+          "Die winzigen Teilchen in einem Gas sind weit voneinander entfernt und lassen sich zusammenschieben. So pumpt man Luft in einen Ball."
+        ],
+        [
+          "Was passiert im Wasserkreislauf, wenn Wasserdampf hoch am Himmel abkühlt?",
+          "er kondensiert und bildet Wolken",
+          "er wird zu Sand",
+          "er schmilzt",
+          "Die kalte Luft oben kühlt den Dampf ab. Er wird zu winzigen Tropfen, die sich zu Wolken sammeln."
+        ],
+        [
+          "Wie nennt man Wasser, das als Regen, Schnee oder Hagel aus Wolken fällt?",
+          "Niederschlag",
+          "Verdunstung",
+          "Kondensation",
+          "Werden die Tropfen in einer Wolke zu schwer, fallen sie herunter. Regen, Schnee und Hagel sind Niederschlag."
+        ],
+        [
+          "An welchem Tag trocknet nasse Wäsche am schnellsten?",
+          "an einem warmen, windigen Tag",
+          "an einem kalten, windstillen Tag",
+          "an einem Regentag",
+          "Wärme und Wind lassen Wasser schneller verdunsten. Darum trocknet Wäsche an warmen, windigen Tagen schnell."
+        ],
+        [
+          "Speiseöl fließt langsam, lässt sich aber gießen. Was ist es?",
+          "eine Flüssigkeit",
+          "ein Gas",
+          "ein fester Stoff",
+          "Öl fließt und nimmt die Form der Flasche oder Pfanne an. Darum ist es flüssig, auch wenn es dickflüssig ist."
+        ],
+        [
+          "Eine Kerze brennt. Was passiert mit dem Wachs nahe der Flamme?",
+          "es schmilzt",
+          "es gefriert",
+          "es wird zu Metall",
+          "Die Hitze der Flamme schmilzt das feste Wachs. Kühlt es ab, wird es wieder fest."
+        ],
+        [
+          "Wie kannst du flüssiges Wasser fest werden lassen?",
+          "es ins Gefrierfach stellen",
+          "es in einem Topf erhitzen",
+          "es mit einem Löffel umrühren",
+          "Im Gefrierfach ist es kälter als 0 °C. Darum gefriert das Wasser zu festem Eis."
+        ],
+        [
+          "Du gibst Eiswürfel in ein Getränk und sie werden kleiner. Warum?",
+          "sie schmelzen im wärmeren Getränk",
+          "das Getränk frisst sie auf",
+          "sie werden zu Zucker",
+          "Das Getränk ist wärmer als das Eis. Wärme geht in die Eiswürfel über, und sie schmelzen zu Wasser."
+        ],
+        [
+          "Welches Wort bedeutet, dass etwas Festes flüssig wird?",
+          "Schmelzen",
+          "Gefrieren",
+          "Kondensieren",
+          "Wenn etwas Festes warm wird und flüssig wird, schmilzt es, wie ein Schneemann in der Sonne."
+        ],
+        [
+          "Heiße, flüssige Lava fließt aus einem Vulkan und kühlt ab. Was wird daraus?",
+          "fester Stein",
+          "ein Gas",
+          "Wasser",
+          "Lava ist geschmolzenes Gestein. Wenn sie abkühlt, wird sie wieder zu hartem, festem Stein."
         ]
       ],
       "fr": [
@@ -232,6 +535,146 @@
           "l’eau",
           "la vapeur",
           "Un caillou garde sa forme et ne coule pas : c’est un solide."
+        ],
+        [
+          "À quelle température l’eau pure gèle-t-elle ?",
+          "0 °C",
+          "50 °C",
+          "100 °C",
+          "L’eau pure se transforme en glace à 0 degré Celsius. C’est pour cela que les routes deviennent glissantes quand il fait aussi froid."
+        ],
+        [
+          "À quelle température l’eau bout-elle ?",
+          "100 °C",
+          "0 °C",
+          "20 °C",
+          "L’eau bout à 100 degrés Celsius. Des bulles de vapeur se forment alors partout dedans."
+        ],
+        [
+          "Qu’est-ce que la vapeur d’eau ?",
+          "de l’eau devenue un gaz",
+          "de minuscules morceaux de glace",
+          "de la fumée de feu",
+          "Quand on chauffe assez l’eau, elle devient un gaz. Ce gaz chaud, c’est la vapeur d’eau."
+        ],
+        [
+          "Qu’est-ce que la condensation ?",
+          "un gaz qui refroidit et devient liquide",
+          "un solide qui devient liquide",
+          "un liquide qui devient solide",
+          "Quand la vapeur d’eau touche quelque chose de froid, elle refroidit et redevient des gouttes d’eau : c’est la condensation."
+        ],
+        [
+          "De quoi sont faits les nuages ?",
+          "de minuscules gouttes d’eau ou de glace",
+          "de coton",
+          "de la fumée des cheminées",
+          "La vapeur d’eau monte, refroidit en altitude et forme de minuscules gouttes ou cristaux de glace. Ensemble, ils font un nuage."
+        ],
+        [
+          "Que sont les bulles dans l’eau gazeuse ?",
+          "un gaz",
+          "de minuscules cailloux",
+          "des gouttes d’huile",
+          "L’eau gazeuse contient un gaz appelé dioxyde de carbone. Quand on ouvre la bouteille, il s’échappe en bulles."
+        ],
+        [
+          "Quel état de la matière s’étale pour remplir entièrement n’importe quel récipient ?",
+          "un gaz",
+          "un liquide",
+          "un solide",
+          "Un liquide remplit seulement le fond d’un bocal, mais un gaz s’étale jusque dans tous les coins."
+        ],
+        [
+          "On peut verser du sable. Le sable est-il solide ou liquide ?",
+          "un solide fait de minuscules grains",
+          "un liquide",
+          "un gaz",
+          "Chaque grain de sable est dur et garde sa forme. Les grains sont si petits qu’on peut les verser, mais ils restent solides."
+        ],
+        [
+          "Lequel fond à la température la plus basse ?",
+          "la glace",
+          "le fer",
+          "la pierre",
+          "La glace fond dès 0 °C. Le fer et la pierre ne fondent que s’ils deviennent plus chauds qu’un feu."
+        ],
+        [
+          "Que se passe-t-il quand l’eau gèle ?",
+          "elle prend un peu plus de place",
+          "elle rétrécit de moitié",
+          "elle disparaît",
+          "L’eau grossit un peu en devenant de la glace. C’est pourquoi une bouteille pleine peut éclater au congélateur."
+        ],
+        [
+          "Lequel est le plus facile à comprimer dans un plus petit espace ?",
+          "un gaz",
+          "un liquide",
+          "un solide",
+          "Les minuscules particules d’un gaz sont très éloignées, on peut donc les rapprocher. C’est ainsi qu’une pompe met de l’air dans un ballon."
+        ],
+        [
+          "Dans le cycle de l’eau, que se passe-t-il quand la vapeur refroidit haut dans le ciel ?",
+          "elle se condense et forme des nuages",
+          "elle se change en sable",
+          "elle fond",
+          "L’air froid en altitude refroidit la vapeur. Elle devient de minuscules gouttes qui se rassemblent en nuages."
+        ],
+        [
+          "Comment appelle-t-on l’eau qui tombe des nuages en pluie, neige ou grêle ?",
+          "les précipitations",
+          "l’évaporation",
+          "la condensation",
+          "Quand les gouttes d’un nuage deviennent trop lourdes, elles tombent. La pluie, la neige et la grêle sont des précipitations."
+        ],
+        [
+          "Quel jour le linge mouillé sèche-t-il le plus vite ?",
+          "un jour chaud et venteux",
+          "un jour froid et sans vent",
+          "un jour de pluie",
+          "La chaleur et le vent font évaporer l’eau plus vite. Le linge sèche donc vite par temps chaud et venteux."
+        ],
+        [
+          "L’huile coule lentement, mais on peut la verser. Qu’est-ce que c’est ?",
+          "un liquide",
+          "un gaz",
+          "un solide",
+          "L’huile coule et prend la forme de la bouteille ou de la poêle : c’est un liquide, même s’il est épais."
+        ],
+        [
+          "Une bougie brûle. Que devient la cire près de la flamme ?",
+          "elle fond",
+          "elle gèle",
+          "elle se change en métal",
+          "La chaleur de la flamme fait fondre la cire solide. En refroidissant, elle redevient solide."
+        ],
+        [
+          "Comment transformer de l’eau liquide en solide ?",
+          "la mettre au congélateur",
+          "la chauffer dans une casserole",
+          "la remuer avec une cuillère",
+          "Le congélateur est plus froid que 0 °C, donc l’eau gèle et devient de la glace solide."
+        ],
+        [
+          "Tu mets des glaçons dans une boisson et ils rapetissent. Pourquoi ?",
+          "ils fondent dans la boisson plus chaude",
+          "la boisson les mange",
+          "ils se changent en sucre",
+          "La boisson est plus chaude que la glace. La chaleur passe dans les glaçons, qui fondent en eau."
+        ],
+        [
+          "Quel mot veut dire qu’un solide devient liquide ?",
+          "fondre",
+          "geler",
+          "se condenser",
+          "Quand un solide se réchauffe et devient liquide, on dit qu’il fond, comme un bonhomme de neige au soleil."
+        ],
+        [
+          "De la lave chaude et liquide sort d’un volcan et refroidit. Que devient-elle ?",
+          "de la roche solide",
+          "un gaz",
+          "de l’eau",
+          "La lave est de la roche fondue. En refroidissant, elle redevient de la roche dure et solide."
         ]
       ],
       "yo": [
@@ -304,6 +747,146 @@
           "omi",
           "oru omi",
           "Òkúta ní ìrísí tirẹ̀, kò sì ń ṣàn, nítorí náà ohun líle ni."
+        ],
+        [
+          "Ní ìwọ̀n ooru mélòó ni omi mímọ́ máa ń dì?",
+          "0 °C",
+          "50 °C",
+          "100 °C",
+          "Omi mímọ́ máa ń di yìnyín ní ìwọ̀n 0 Celsius. Ìdí nìyí tí ọ̀nà fi ń yọ̀ nígbà tí òtútù bá mú tó bẹ́ẹ̀."
+        ],
+        [
+          "Ní ìwọ̀n ooru mélòó ni omi máa ń hó?",
+          "100 °C",
+          "0 °C",
+          "20 °C",
+          "Omi máa ń hó ní ìwọ̀n 100 Celsius. Ìfófó oru omi á sì máa yọ jáde láti gbogbo inú rẹ̀."
+        ],
+        [
+          "Kí ni oru omi?",
+          "omi tí ó ti di gáàsì",
+          "ègé yìnyín kéékèèké",
+          "èéfín iná",
+          "Tí a bá mú omi gbóná tó, ó máa ń di gáàsì. Gáàsì gbígbóná yìí ni oru omi."
+        ],
+        [
+          "Kí ni ìsọdomi (condensation)?",
+          "gáàsì tí ó tutù, tí ó sì di ohun olómi",
+          "ohun líle tí ó di ohun olómi",
+          "ohun olómi tí ó di ohun líle",
+          "Nígbà tí oru omi bá kan nǹkan tó tutù, ó máa ń tutù, ó sì padà di ẹ̀kán omi. Ìyẹn ni ìsọdomi."
+        ],
+        [
+          "Kí ni wọ́n fi ṣe ìkùukùu?",
+          "ẹ̀kán omi kéékèèké tàbí ègé yìnyín",
+          "òwú",
+          "èéfín láti ihò èéfín ilé",
+          "Oru omi ń gòkè, ó ń tutù lókè, ó sì ń di ẹ̀kán omi tàbí ègé yìnyín kéékèèké. Ọ̀pọ̀ wọn pa pọ̀ ló ń di ìkùukùu."
+        ],
+        [
+          "Kí ni ìfófó inú omi onígáàsì?",
+          "gáàsì",
+          "òkúta kéékèèké",
+          "ẹ̀kán epo",
+          "Wọ́n da gáàsì kan tí a ń pè ní carbon dioxide pọ̀ mọ́ omi onígáàsì. Nígbà tí o bá ṣí ìgò, gáàsì náà ń jáde bí ìfófó."
+        ],
+        [
+          "Ipò wo ló máa ń tàn ká láti kún gbogbo inú ohun tí ó wà nínú rẹ̀?",
+          "gáàsì",
+          "ohun olómi",
+          "ohun líle",
+          "Ohun olómi máa ń kún ìsàlẹ̀ ìgò nìkan, ṣùgbọ́n gáàsì máa ń tàn ká dé gbogbo igun rẹ̀."
+        ],
+        [
+          "A lè da iyanrìn. Ṣé ohun líle ni iyanrìn àbí ohun olómi?",
+          "ohun líle tí ó ní hóró kéékèèké",
+          "ohun olómi",
+          "gáàsì",
+          "Hóró iyanrìn kọ̀ọ̀kan le, ó sì ní ìrísí tirẹ̀. Hóró náà kéré débi pé a lè dà wọ́n, ṣùgbọ́n ohun líle ni wọ́n."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló máa ń yọ́ ní ìwọ̀n ooru tó kéré jùlọ?",
+          "yìnyín",
+          "irin",
+          "òkúta",
+          "Yìnyín máa ń yọ́ ní 0 °C péré. Irin àti òkúta máa ń yọ́ kìkì tí wọ́n bá gbóná ju iná lọ."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí omi nígbà tí ó bá dì?",
+          "ó máa ń gba àyè díẹ̀ sí i",
+          "ó máa ń dín kù sí ìdajì",
+          "ó máa ń pòórá",
+          "Omi máa ń fẹ̀ díẹ̀ nígbà tí ó bá di yìnyín. Ìdí nìyí tí ìgò omi tó kún fi lè fọ́ nínú fìríìsà."
+        ],
+        [
+          "Èwo ló rọrùn jùlọ láti tẹ̀ pọ̀ sínú àyè tó kéré?",
+          "gáàsì",
+          "ohun olómi",
+          "ohun líle",
+          "Àwọn èròjà kéékèèké inú gáàsì jìnnà sí ara wọn, nítorí náà a lè tì wọ́n sún mọ́ ara wọn. Bẹ́ẹ̀ ni fáàfù ṣe ń fa afẹ́fẹ́ sínú bọ́ọ̀lù."
+        ],
+        [
+          "Nínú ìyípo omi, kí ló ń ṣẹlẹ̀ nígbà tí oru omi bá tutù lókè ọ̀run?",
+          "ó máa ń di omi, ó sì ń di ìkùukùu",
+          "ó máa ń di iyanrìn",
+          "ó máa ń yọ́",
+          "Afẹ́fẹ́ tútù lókè ń mú oru omi tutù, ó sì ń di ẹ̀kán omi kéékèèké tí ó ń kó ara jọ di ìkùukùu."
+        ],
+        [
+          "Kí la ń pe omi tó ń jábọ́ láti inú ìkùukùu bí òjò, yìnyín tàbí òjò yìnyín?",
+          "òjò rírọ̀ (precipitation)",
+          "gbígbẹ lọ (evaporation)",
+          "ìsọdomi (condensation)",
+          "Nígbà tí ẹ̀kán omi inú ìkùukùu bá wúwo jù, wọ́n máa ń jábọ́. Òjò, yìnyín àti òjò yìnyín jẹ́ oríṣi òjò rírọ̀."
+        ],
+        [
+          "Ní irú ọjọ́ wo ni aṣọ tútù máa ń gbẹ kíákíá jùlọ?",
+          "ọjọ́ tí ooru mú, tí afẹ́fẹ́ sì ń fẹ́",
+          "ọjọ́ tí òtútù mú, tí afẹ́fẹ́ kò fẹ́",
+          "ọjọ́ tí òjò ń rọ̀",
+          "Ooru àti afẹ́fẹ́ ń mú omi gbẹ lọ kíákíá, nítorí náà aṣọ máa ń gbẹ kíákíá ní ọjọ́ tí ooru mú, tí afẹ́fẹ́ ń fẹ́."
+        ],
+        [
+          "Epo ìdáná ń ṣàn díẹ̀díẹ̀, ṣùgbọ́n a lè dà á. Kí ni?",
+          "ohun olómi",
+          "gáàsì",
+          "ohun líle",
+          "Epo ń ṣàn, ó sì ń gba ìrísí ìgò tàbí àwo tí ó wà nínú rẹ̀, nítorí náà ohun olómi ni, bí ó tilẹ̀ nípọn."
+        ],
+        [
+          "Àbẹ́là ń jó. Kí ló ń ṣẹlẹ̀ sí ìda tó wà nítòsí iná rẹ̀?",
+          "ó ń yọ́",
+          "ó ń dì",
+          "ó ń di irin",
+          "Ooru iná ń mú ìda líle yọ́ di ohun olómi. Tí ó bá tutù, ó máa padà le."
+        ],
+        [
+          "Báwo lo ṣe lè sọ omi di ohun líle?",
+          "fi í sínú fìríìsà",
+          "sè é nínú ìkòkò",
+          "rò ó pẹ̀lú ṣíbí",
+          "Fìríìsà tutù ju 0 °C lọ, nítorí náà omi náà máa ń dì di yìnyín líle."
+        ],
+        [
+          "O fi yìnyín sínú ohun mímu, wọ́n sì ń kéré sí i. Kí ló dé?",
+          "wọ́n ń yọ́ nínú ohun mímu tó gbóná jù wọ́n lọ",
+          "ohun mímu náà ń jẹ wọ́n",
+          "wọ́n ń di ṣúgà",
+          "Ohun mímu náà gbóná ju yìnyín lọ, nítorí náà ooru ń wọ inú yìnyín, ó sì ń yọ́ di omi."
+        ],
+        [
+          "Ọ̀rọ̀ wo ló túmọ̀ sí ohun líle tí ó di ohun olómi?",
+          "yíyọ́",
+          "dídì",
+          "ìsọdomi",
+          "Nígbà tí ohun líle bá gbóná, tí ó sì di ohun olómi, a máa ń sọ pé ó yọ́, bí ọmọlangidi yìnyín nínú oòrùn."
+        ],
+        [
+          "Àpáta yíyọ́ tó gbóná ń ṣàn jáde láti inú òkè ayọnáyèéfín, ó sì tutù. Kí ló máa dà?",
+          "àpáta líle",
+          "gáàsì",
+          "omi",
+          "Àpáta tí ó ti yọ́ ni. Bí ó ṣe ń tutù, ó máa ń padà di àpáta líle."
         ]
       ]
     }

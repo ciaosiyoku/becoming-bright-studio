@@ -1,0 +1,274 @@
+{
+  "id": "fr10-reading",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 5,
+  "ages": [
+    "10-12"
+  ],
+  "order": 40,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "girl",
+      "sun",
+      "paws",
+      "wave",
+      "seedling",
+      "tree",
+      "road",
+      "memo",
+      "clock",
+      "beach",
+      "umbrella",
+      "cake",
+      "moon",
+      "footprints",
+      "star",
+      "locked",
+      "thermometer",
+      "clock",
+      "school",
+      "seedling",
+      "cookie",
+      "gift",
+      "music",
+      "snowflake",
+      "tv",
+      "airplane",
+      "droplet",
+      "paws",
+      "abacus",
+      "road"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does J’ai deux sœurs et un frère mean?",
+          "I have two sisters and a brother.",
+          "I have two brothers and a sister.",
+          "My two sisters have a brother.",
+          "J’ai means I have, sœurs are sisters and un frère is a brother."
+        ],
+        [
+          "What does Il fait chaud aujourd’hui mean?",
+          "It is hot today.",
+          "It is cold today.",
+          "It was hot yesterday.",
+          "Chaud means hot and aujourd’hui means today."
+        ],
+        [
+          "What does Mon chat dort sur le canapé mean?",
+          "My cat is sleeping on the sofa.",
+          "My cat is eating on the sofa.",
+          "My dog is sleeping under the sofa.",
+          "Dort comes from dormir (to sleep) and sur means on."
+        ],
+        [
+          "What does Nous allons à la piscine le mercredi mean?",
+          "We go to the swimming pool on Wednesdays.",
+          "We went to the beach on Wednesday.",
+          "We go to the swimming pool on Mondays.",
+          "La piscine is the swimming pool, and le mercredi means on Wednesdays."
+        ],
+        [
+          "What does Elle n’aime pas les carottes mean?",
+          "She doesn’t like carrots.",
+          "She loves carrots.",
+          "She doesn’t eat cakes.",
+          "N’aime pas means doesn’t like, and les carottes are carrots."
+        ],
+        [
+          "What does Il y a un arbre dans le jardin mean?",
+          "There is a tree in the garden.",
+          "There are trees in the park.",
+          "A tree is next to the house.",
+          "Il y a means there is, un arbre is a tree and le jardin is the garden."
+        ],
+        [
+          "What does Mes parents ont acheté une nouvelle voiture mean?",
+          "My parents bought a new car.",
+          "My parents are going to buy a new car.",
+          "My parents sold their old car.",
+          "Ont acheté is the past of acheter (to buy)."
+        ],
+        [
+          "What does Je vais faire mes devoirs ce soir mean?",
+          "I am going to do my homework this evening.",
+          "I did my homework this morning.",
+          "I do my homework every evening.",
+          "Je vais faire is the near future, and ce soir means this evening."
+        ],
+        [
+          "What does Le train part à huit heures mean?",
+          "The train leaves at eight o’clock.",
+          "The train arrives at eight o’clock.",
+          "The train leaves at half past eight.",
+          "Part comes from partir (to leave), and huit heures is eight o’clock."
+        ],
+        [
+          "What does Ma grand-mère habite au bord de la mer mean?",
+          "My grandmother lives by the sea.",
+          "My grandmother lives in the mountains.",
+          "My grandmother swims in the sea.",
+          "Habite means lives, and au bord de la mer means by the sea."
+        ],
+        [
+          "What does Il pleut, alors je prends mon parapluie mean?",
+          "It is raining, so I take my umbrella.",
+          "It is sunny, so I take my hat.",
+          "It is raining, but I forget my umbrella.",
+          "Il pleut means it is raining, alors means so and le parapluie is the umbrella."
+        ],
+        [
+          "What does Tu as quel âge ? mean?",
+          "How old are you?",
+          "What is your name?",
+          "Where do you live?",
+          "In French you have an age, so tu as quel âge asks how old you are."
+        ],
+        [
+          "What does Je me couche à dix heures mean?",
+          "I go to bed at ten o’clock.",
+          "I get up at ten o’clock.",
+          "I go to bed at two o’clock.",
+          "Je me couche means I go to bed, and dix is ten."
+        ],
+        [
+          "What does Mon frère est plus grand que moi mean?",
+          "My brother is taller than me.",
+          "My brother is smaller than me.",
+          "My brother is as tall as me.",
+          "Plus grand que means taller than or bigger than."
+        ],
+        [
+          "What does Nous avons mangé une pizza hier soir mean?",
+          "We ate a pizza last night.",
+          "We are going to eat a pizza tonight.",
+          "We eat pizza every night.",
+          "Avons mangé is the past, and hier soir means yesterday evening."
+        ],
+        [
+          "What does Le magasin est fermé le dimanche mean?",
+          "The shop is closed on Sundays.",
+          "The shop is open on Sundays.",
+          "The shop is closed on Saturdays.",
+          "Fermé means closed and le dimanche means on Sundays."
+        ],
+        [
+          "What does J’ai mal à la tête mean?",
+          "I have a headache.",
+          "I have a sore foot.",
+          "I am happy.",
+          "Avoir mal à means to have a pain in, and la tête is the head."
+        ],
+        [
+          "What does Il est midi et demi mean?",
+          "It is half past twelve in the day.",
+          "It is midnight.",
+          "It is a quarter past twelve in the day.",
+          "Midi is twelve o’clock in the day, and et demi means half past."
+        ],
+        [
+          "What does Les élèves écoutent le professeur mean?",
+          "The pupils are listening to the teacher.",
+          "The teacher is listening to the pupils.",
+          "The pupils are looking at the teacher.",
+          "Les élèves are the pupils, and écoutent means are listening to."
+        ],
+        [
+          "What does Je ne mange jamais de viande mean?",
+          "I never eat meat.",
+          "I don’t eat meat any more.",
+          "I eat meat every day.",
+          "Ne … jamais means never, and la viande is meat."
+        ],
+        [
+          "What does Où est la boulangerie ? mean?",
+          "Where is the baker’s?",
+          "When does the baker’s open?",
+          "Is the baker’s open?",
+          "Où means where, and la boulangerie is the baker’s shop."
+        ],
+        [
+          "What does Mon anniversaire est le trois mai mean?",
+          "My birthday is on the third of May.",
+          "My birthday is on the third of March.",
+          "My birthday is in three months.",
+          "Trois is three and mai is May. March is mars."
+        ],
+        [
+          "What does Elle joue du piano depuis deux ans mean?",
+          "She has been playing the piano for two years.",
+          "She played the piano two years ago.",
+          "She plays the piano twice a year.",
+          "Depuis with the present means she started two years ago and still plays."
+        ],
+        [
+          "What does Il neige beaucoup en hiver mean?",
+          "It snows a lot in winter.",
+          "It rains a lot in winter.",
+          "It snowed a lot last winter.",
+          "Il neige means it snows, beaucoup means a lot and en hiver means in winter."
+        ],
+        [
+          "What does On se retrouve devant le cinéma mean?",
+          "Let’s meet in front of the cinema.",
+          "Let’s meet behind the cinema.",
+          "Let’s go inside the cinema.",
+          "Se retrouver means to meet up, and devant means in front of."
+        ],
+        [
+          "What does Mes amis sont allés au Canada mean?",
+          "My friends went to Canada.",
+          "My friends are going to go to Canada.",
+          "My friends live in Canada.",
+          "Sont allés is the past of aller, so they went."
+        ],
+        [
+          "What does Je voudrais un verre d’eau, s’il vous plaît mean?",
+          "I would like a glass of water, please.",
+          "I would like a bottle of milk, please.",
+          "I have drunk a glass of water, thank you.",
+          "Je voudrais means I would like, and un verre d’eau is a glass of water."
+        ],
+        [
+          "What does Le chien de mon voisin est très gentil mean?",
+          "My neighbour’s dog is very friendly.",
+          "My dog is very friendly to the neighbour.",
+          "My neighbour is very kind to dogs.",
+          "Le chien de mon voisin means the dog of my neighbour, so my neighbour’s dog."
+        ],
+        [
+          "What does Nous avons maths le lundi matin mean?",
+          "We have maths on Monday mornings.",
+          "We have maths on Monday afternoons.",
+          "We have maths every evening.",
+          "Le lundi matin means on Monday mornings."
+        ],
+        [
+          "What does Il faut tourner à gauche après le pont mean?",
+          "You have to turn left after the bridge.",
+          "You have to turn right after the bridge.",
+          "You have to turn left before the bridge.",
+          "À gauche means left and après means after."
+        ]
+      ]
+    }
+  },
+  "emoji": "openbook",
+  "example": {
+    "i": 0,
+    "q_en": "What does J’ai deux sœurs et un frère mean?",
+    "answer_en": "I have two sisters and a brother.",
+    "why_en": "J’ai means I have, sœurs are sisters and un frère is a brother."
+  },
+  "text": {
+    "en": {
+      "title": "Reading French sentences",
+      "teach": "To read a French sentence, find the person and the verb first, then look for words you know: J’ai deux sœurs means I have two sisters.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

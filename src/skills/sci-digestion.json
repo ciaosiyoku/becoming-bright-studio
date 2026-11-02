@@ -1,0 +1,936 @@
+{
+  "id": "sci-digestion",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 20,
+  "params": {
+    "emojis": [
+      "fruit-apple",
+      "animal-fox",
+      "cookie",
+      "calendar",
+      "teddy",
+      "fruit-banana",
+      "droplet",
+      "fruit-pear",
+      "fruit-lemon",
+      "fruit-kiwi",
+      "droplet",
+      "road",
+      "fruit-strawberry",
+      "clock",
+      "cake",
+      "heart",
+      "seedling",
+      "sparkles",
+      "girl",
+      "animal-tiger",
+      "animal-cow",
+      "seedling",
+      "sun",
+      "animal-hedgehog",
+      "tree",
+      "animal-butterfly",
+      "animal-zebra",
+      "animal-lion",
+      "chart",
+      "animal-rabbit"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which teeth at the front of your mouth are sharp and flat for biting and cutting?",
+          "incisors",
+          "molars",
+          "canines",
+          "Incisors are the flat front teeth. They work like scissors when you bite into an apple."
+        ],
+        [
+          "Which pointed teeth help you grip and tear food?",
+          "canines",
+          "incisors",
+          "molars",
+          "Canines are the pointed teeth next to the incisors. Meat-eating animals have very long canines."
+        ],
+        [
+          "Which wide teeth at the back of your mouth crush and grind food?",
+          "molars",
+          "incisors",
+          "canines",
+          "Molars have broad, bumpy tops. They mash food into small pieces so it is easy to swallow."
+        ],
+        [
+          "How many sets of teeth does a person grow in a lifetime?",
+          "two: milk teeth, then adult teeth",
+          "only one",
+          "five",
+          "Children first have milk teeth. These fall out and are replaced by adult teeth, which have to last the rest of your life."
+        ],
+        [
+          "What are a child’s first teeth called?",
+          "milk teeth",
+          "wisdom teeth",
+          "gold teeth",
+          "The first teeth are called milk teeth or baby teeth. Most children start losing them at about six years old."
+        ],
+        [
+          "Where does digestion begin?",
+          "in the mouth",
+          "in the stomach",
+          "in the feet",
+          "Digestion starts as soon as you bite and chew. Your teeth and saliva begin breaking the food down."
+        ],
+        [
+          "What does saliva (spit) do to your food?",
+          "makes it wet and soft and starts to break it down",
+          "turns it into bone",
+          "makes it freeze",
+          "Saliva softens food so it slides down easily, and it starts breaking down some of the food straight away."
+        ],
+        [
+          "After you swallow, food goes down a tube to your stomach. What is this tube called?",
+          "the oesophagus (food pipe)",
+          "the windpipe",
+          "the spine",
+          "The oesophagus is a muscly tube that squeezes food down to the stomach. The windpipe carries air to your lungs."
+        ],
+        [
+          "How does your stomach break food down?",
+          "with strong acid juices and squeezing muscles",
+          "with sand and small stones",
+          "with sunlight",
+          "The stomach churns food with its muscles and mixes it with acid juices until it becomes a thick soup."
+        ],
+        [
+          "In which part of the body are most of the useful parts of food taken into the blood?",
+          "the small intestine",
+          "the teeth",
+          "the lungs",
+          "The small intestine is a long, coiled tube. Goodness from the food passes through its walls into the blood."
+        ],
+        [
+          "What does the large intestine take back out of the leftover food?",
+          "water",
+          "teeth",
+          "bones",
+          "The large intestine soaks up water from the food your body cannot use. What is left leaves your body when you go to the toilet."
+        ],
+        [
+          "In which order does food travel through your body?",
+          "mouth, oesophagus, stomach, small intestine, large intestine",
+          "stomach, mouth, large intestine, oesophagus, small intestine",
+          "mouth, large intestine, stomach, small intestine, oesophagus",
+          "Food is chewed in the mouth, goes down the oesophagus to the stomach, then through the small intestine and finally the large intestine."
+        ],
+        [
+          "Why should you chew your food well before swallowing?",
+          "small pieces are easier to swallow and digest",
+          "so that it loses all its taste",
+          "so that your teeth grow longer",
+          "Chewing breaks food into small, soft pieces. They go down safely and your body can digest them more easily."
+        ],
+        [
+          "For about how long should you brush your teeth each time?",
+          "about two minutes",
+          "about two seconds",
+          "about two hours",
+          "Brushing for about two minutes gives you time to clean the front, back and top of every tooth."
+        ],
+        [
+          "What causes holes (decay) in teeth?",
+          "germs that feed on sugar and make acid",
+          "drinking plain water",
+          "eating crunchy carrots",
+          "Germs in your mouth feed on sugar left on your teeth. They make acid that slowly eats holes in them."
+        ],
+        [
+          "Who checks your teeth and helps keep them healthy?",
+          "a dentist",
+          "a vet",
+          "a pilot",
+          "A dentist looks inside your mouth, checks for decay and shows you how to look after your teeth. Visit one regularly."
+        ],
+        [
+          "Which snack is kindest to your teeth?",
+          "carrot sticks",
+          "sticky toffee",
+          "a bag of sweets",
+          "Carrots have very little sugar and are crunchy. Sticky, sugary sweets cling to teeth and feed the germs that cause decay."
+        ],
+        [
+          "Why is fluoride added to most toothpaste?",
+          "it helps make teeth stronger",
+          "it makes teeth grow longer",
+          "it turns teeth blue",
+          "Fluoride helps the hard outer layer of your teeth stay strong, so it is harder for acid to make holes."
+        ],
+        [
+          "When a milk tooth falls out, what grows in its place?",
+          "an adult tooth",
+          "nothing ever again",
+          "another milk tooth",
+          "An adult tooth is already waiting in the gum. It pushes up to fill the gap, so it must be cared for all your life."
+        ],
+        [
+          "A tiger has large, sharp canine teeth. What does that tell you about its food?",
+          "it eats meat",
+          "it eats only grass",
+          "it eats only fruit",
+          "Long, sharp canines are perfect for gripping and tearing meat. Tigers are carnivores."
+        ],
+        [
+          "A cow has wide, flat teeth for grinding. What does it eat?",
+          "plants such as grass",
+          "meat",
+          "fish",
+          "Grinding teeth are good for chewing tough plants. Cows are herbivores: they eat only plants."
+        ],
+        [
+          "What does every food chain start with?",
+          "a green plant (a producer)",
+          "a predator",
+          "a rock",
+          "Green plants make their own food. Animals then eat the plants, or eat other animals that ate plants."
+        ],
+        [
+          "Where does a plant get the energy to make its own food?",
+          "from sunlight",
+          "from the Moon",
+          "from eating insects",
+          "Plants use the energy in sunlight, with water and air, to make food in their leaves."
+        ],
+        [
+          "Animals cannot make their own food. What are they called in a food chain?",
+          "consumers",
+          "producers",
+          "sunlight",
+          "Consumers get their energy by eating plants or other animals. Producers, like plants, make their own food."
+        ],
+        [
+          "Food chain: leaf → caterpillar → bird. Which is the producer?",
+          "the leaf",
+          "the caterpillar",
+          "the bird",
+          "The leaf is part of a plant, and plants make their own food using sunlight. That makes it the producer."
+        ],
+        [
+          "Food chain: leaf → caterpillar → bird. What eats the caterpillar?",
+          "the bird",
+          "the leaf",
+          "the Sun",
+          "The arrow from the caterpillar points to the bird, so the bird eats the caterpillar."
+        ],
+        [
+          "Food chain: grass → zebra → lion. Which one is the predator?",
+          "the lion",
+          "the zebra",
+          "the grass",
+          "A predator hunts other animals for food. The lion hunts the zebra."
+        ],
+        [
+          "Food chain: grass → zebra → lion. Which one is the prey?",
+          "the zebra",
+          "the lion",
+          "the grass",
+          "Prey is an animal that is hunted and eaten. Here the zebra is hunted by the lion. Grass is a plant, not prey."
+        ],
+        [
+          "What do the arrows in a food chain show?",
+          "the way the food and energy pass from the eaten to the eater",
+          "which animal is the fastest",
+          "which living thing is the biggest",
+          "Each arrow points from the food to the living thing that eats it, showing where the energy goes."
+        ],
+        [
+          "Food chain: grass → rabbit → fox. What would happen to the rabbits if most of the grass died?",
+          "they would have less food, so there would be fewer rabbits",
+          "they would grow bigger",
+          "nothing would change",
+          "Rabbits depend on grass for food. With less grass, fewer rabbits can survive, and then the foxes have less food too."
+        ]
+      ],
+      "de": [
+        [
+          "Welche Zähne vorne im Mund sind scharf und flach zum Abbeißen und Schneiden?",
+          "die Schneidezähne",
+          "die Backenzähne",
+          "die Eckzähne",
+          "Schneidezähne sind die flachen Zähne vorne. Sie arbeiten wie eine Schere, wenn du in einen Apfel beißt."
+        ],
+        [
+          "Welche spitzen Zähne helfen dir, Essen festzuhalten und abzureißen?",
+          "die Eckzähne",
+          "die Schneidezähne",
+          "die Backenzähne",
+          "Eckzähne sind die spitzen Zähne neben den Schneidezähnen. Fleischfresser haben sehr lange Eckzähne."
+        ],
+        [
+          "Welche breiten Zähne hinten im Mund zerdrücken und zermahlen das Essen?",
+          "die Backenzähne",
+          "die Schneidezähne",
+          "die Eckzähne",
+          "Backenzähne haben eine breite, hubbelige Oberfläche. Sie zermahlen das Essen in kleine Stücke, damit man es leicht schlucken kann."
+        ],
+        [
+          "Wie viele Gebisse wachsen einem Menschen im Leben?",
+          "zwei: erst Milchzähne, dann bleibende Zähne",
+          "nur eins",
+          "fünf",
+          "Kinder haben zuerst Milchzähne. Sie fallen aus, und bleibende Zähne wachsen nach, die ein Leben lang halten müssen."
+        ],
+        [
+          "Wie heißen die ersten Zähne eines Kindes?",
+          "Milchzähne",
+          "Weisheitszähne",
+          "Goldzähne",
+          "Die ersten Zähne heißen Milchzähne. Die meisten Kinder verlieren sie ab etwa sechs Jahren."
+        ],
+        [
+          "Wo beginnt die Verdauung?",
+          "im Mund",
+          "im Magen",
+          "in den Füßen",
+          "Die Verdauung beginnt schon beim Beißen und Kauen. Zähne und Speichel fangen an, das Essen zu zerkleinern."
+        ],
+        [
+          "Was macht der Speichel mit deinem Essen?",
+          "er macht es nass und weich und beginnt, es zu zerlegen",
+          "er verwandelt es in Knochen",
+          "er lässt es gefrieren",
+          "Speichel macht das Essen weich, damit es gut hinunterrutscht, und beginnt gleich, einen Teil davon zu zerlegen."
+        ],
+        [
+          "Nach dem Schlucken rutscht das Essen durch eine Röhre in den Magen. Wie heißt diese Röhre?",
+          "die Speiseröhre",
+          "die Luftröhre",
+          "die Wirbelsäule",
+          "Die Speiseröhre ist ein muskulöser Schlauch, der das Essen zum Magen drückt. Die Luftröhre bringt Luft zur Lunge."
+        ],
+        [
+          "Wie zerlegt dein Magen das Essen?",
+          "mit starkem Magensaft und knetenden Muskeln",
+          "mit Sand und kleinen Steinen",
+          "mit Sonnenlicht",
+          "Der Magen knetet das Essen mit seinen Muskeln und mischt es mit saurem Magensaft, bis ein dicker Brei entsteht."
+        ],
+        [
+          "In welchem Körperteil gelangt das meiste Nützliche aus dem Essen ins Blut?",
+          "im Dünndarm",
+          "in den Zähnen",
+          "in der Lunge",
+          "Der Dünndarm ist ein langer, aufgewickelter Schlauch. Die Nährstoffe gehen durch seine Wand ins Blut über."
+        ],
+        [
+          "Was holt der Dickdarm aus den Essensresten zurück?",
+          "Wasser",
+          "Zähne",
+          "Knochen",
+          "Der Dickdarm nimmt Wasser aus den Resten auf, die der Körper nicht verwerten kann. Der Rest verlässt den Körper auf der Toilette."
+        ],
+        [
+          "In welcher Reihenfolge wandert das Essen durch deinen Körper?",
+          "Mund, Speiseröhre, Magen, Dünndarm, Dickdarm",
+          "Magen, Mund, Dickdarm, Speiseröhre, Dünndarm",
+          "Mund, Dickdarm, Magen, Dünndarm, Speiseröhre",
+          "Im Mund wird gekaut, dann geht es durch die Speiseröhre in den Magen, danach durch den Dünndarm und zuletzt den Dickdarm."
+        ],
+        [
+          "Warum solltest du dein Essen gut kauen, bevor du schluckst?",
+          "kleine Stücke lassen sich leichter schlucken und verdauen",
+          "damit es nach nichts mehr schmeckt",
+          "damit deine Zähne länger werden",
+          "Kauen macht aus dem Essen kleine, weiche Stücke. Sie rutschen sicher hinunter und lassen sich leichter verdauen."
+        ],
+        [
+          "Wie lange solltest du dir jedes Mal ungefähr die Zähne putzen?",
+          "etwa zwei Minuten",
+          "etwa zwei Sekunden",
+          "etwa zwei Stunden",
+          "In etwa zwei Minuten schaffst du es, jeden Zahn vorne, hinten und oben sauber zu putzen."
+        ],
+        [
+          "Was verursacht Löcher (Karies) in den Zähnen?",
+          "Bakterien, die Zucker fressen und Säure bilden",
+          "Wasser trinken",
+          "knackige Karotten essen",
+          "Bakterien im Mund ernähren sich von Zuckerresten auf den Zähnen. Sie bilden Säure, die langsam Löcher hineinfrisst."
+        ],
+        [
+          "Wer untersucht deine Zähne und hilft, sie gesund zu halten?",
+          "ein Zahnarzt",
+          "ein Tierarzt",
+          "ein Pilot",
+          "Ein Zahnarzt schaut in deinen Mund, sucht nach Karies und zeigt dir, wie du deine Zähne pflegst. Geh regelmäßig hin."
+        ],
+        [
+          "Welcher Snack ist am besten für deine Zähne?",
+          "Karottenstifte",
+          "klebriges Karamell",
+          "eine Tüte Bonbons",
+          "Karotten haben sehr wenig Zucker und sind knackig. Klebrige Süßigkeiten bleiben an den Zähnen hängen und füttern die Bakterien."
+        ],
+        [
+          "Warum ist in den meisten Zahnpasten Fluorid?",
+          "es macht die Zähne widerstandsfähiger",
+          "es lässt die Zähne länger wachsen",
+          "es färbt die Zähne blau",
+          "Fluorid stärkt die harte äußere Schicht der Zähne. So kann Säure schwerer Löcher machen."
+        ],
+        [
+          "Wenn ein Milchzahn ausfällt, was wächst an seiner Stelle?",
+          "ein bleibender Zahn",
+          "nie wieder etwas",
+          "noch ein Milchzahn",
+          "Im Kiefer wartet schon ein bleibender Zahn. Er schiebt sich in die Lücke und muss ein Leben lang gepflegt werden."
+        ],
+        [
+          "Ein Tiger hat große, spitze Eckzähne. Was verrät das über seine Nahrung?",
+          "er frisst Fleisch",
+          "er frisst nur Gras",
+          "er frisst nur Obst",
+          "Lange, spitze Eckzähne eignen sich perfekt zum Festhalten und Zerreißen von Fleisch. Tiger sind Fleischfresser."
+        ],
+        [
+          "Eine Kuh hat breite, flache Mahlzähne. Was frisst sie?",
+          "Pflanzen wie Gras",
+          "Fleisch",
+          "Fisch",
+          "Mahlzähne eignen sich gut zum Kauen zäher Pflanzen. Kühe sind Pflanzenfresser: Sie fressen nur Pflanzen."
+        ],
+        [
+          "Womit beginnt jede Nahrungskette?",
+          "mit einer grünen Pflanze (einem Erzeuger)",
+          "mit einem Raubtier",
+          "mit einem Stein",
+          "Grüne Pflanzen stellen ihre Nahrung selbst her. Tiere fressen dann die Pflanzen oder andere Tiere, die Pflanzen gefressen haben."
+        ],
+        [
+          "Woher bekommt eine Pflanze die Energie, um ihre Nahrung herzustellen?",
+          "vom Sonnenlicht",
+          "vom Mond",
+          "vom Fressen von Insekten",
+          "Pflanzen nutzen die Energie des Sonnenlichts und dazu Wasser und Luft, um in ihren Blättern Nahrung herzustellen."
+        ],
+        [
+          "Tiere können keine eigene Nahrung herstellen. Wie nennt man sie in einer Nahrungskette?",
+          "Verbraucher",
+          "Erzeuger",
+          "Sonnenlicht",
+          "Verbraucher bekommen ihre Energie, indem sie Pflanzen oder andere Tiere fressen. Erzeuger wie Pflanzen stellen ihre Nahrung selbst her."
+        ],
+        [
+          "Nahrungskette: Blatt → Raupe → Vogel. Was ist der Erzeuger?",
+          "das Blatt",
+          "die Raupe",
+          "der Vogel",
+          "Das Blatt gehört zu einer Pflanze, und Pflanzen stellen mit Sonnenlicht ihre Nahrung selbst her. Darum ist es der Erzeuger."
+        ],
+        [
+          "Nahrungskette: Blatt → Raupe → Vogel. Wer frisst die Raupe?",
+          "der Vogel",
+          "das Blatt",
+          "die Sonne",
+          "Der Pfeil von der Raupe zeigt auf den Vogel. Also frisst der Vogel die Raupe."
+        ],
+        [
+          "Nahrungskette: Gras → Zebra → Löwe. Wer ist das Raubtier?",
+          "der Löwe",
+          "das Zebra",
+          "das Gras",
+          "Ein Raubtier jagt andere Tiere, um sie zu fressen. Der Löwe jagt das Zebra."
+        ],
+        [
+          "Nahrungskette: Gras → Zebra → Löwe. Wer ist die Beute?",
+          "das Zebra",
+          "der Löwe",
+          "das Gras",
+          "Beute ist ein Tier, das gejagt und gefressen wird. Hier wird das Zebra vom Löwen gejagt. Gras ist eine Pflanze, keine Beute."
+        ],
+        [
+          "Was zeigen die Pfeile in einer Nahrungskette?",
+          "wie Nahrung und Energie vom Gefressenen zum Fresser gehen",
+          "welches Tier am schnellsten ist",
+          "welches Lebewesen am größten ist",
+          "Jeder Pfeil zeigt von der Nahrung zu dem Lebewesen, das sie frisst. So sieht man, wohin die Energie geht."
+        ],
+        [
+          "Nahrungskette: Gras → Kaninchen → Fuchs. Was passiert mit den Kaninchen, wenn das meiste Gras verdorrt?",
+          "sie haben weniger Futter, also gibt es weniger Kaninchen",
+          "sie werden größer",
+          "es ändert sich nichts",
+          "Kaninchen brauchen Gras als Futter. Mit weniger Gras überleben weniger Kaninchen, und dann haben auch die Füchse weniger Futter."
+        ]
+      ],
+      "fr": [
+        [
+          "Quelles dents, à l’avant de la bouche, sont plates et coupantes pour mordre ?",
+          "les incisives",
+          "les molaires",
+          "les canines",
+          "Les incisives sont les dents plates de devant. Elles coupent comme des ciseaux quand tu croques une pomme."
+        ],
+        [
+          "Quelles dents pointues t’aident à tenir et à déchirer les aliments ?",
+          "les canines",
+          "les incisives",
+          "les molaires",
+          "Les canines sont les dents pointues à côté des incisives. Les animaux qui mangent de la viande ont de très longues canines."
+        ],
+        [
+          "Quelles dents larges, au fond de la bouche, écrasent et broient les aliments ?",
+          "les molaires",
+          "les incisives",
+          "les canines",
+          "Les molaires ont un dessus large et bosselé. Elles écrasent les aliments en petits morceaux faciles à avaler."
+        ],
+        [
+          "Combien de séries de dents une personne a-t-elle dans sa vie ?",
+          "deux : les dents de lait, puis les dents définitives",
+          "une seule",
+          "cinq",
+          "Les enfants ont d’abord des dents de lait. Elles tombent et sont remplacées par des dents définitives, qui doivent durer toute la vie."
+        ],
+        [
+          "Comment appelle-t-on les premières dents d’un enfant ?",
+          "les dents de lait",
+          "les dents de sagesse",
+          "les dents en or",
+          "Les premières dents s’appellent les dents de lait. La plupart des enfants commencent à les perdre vers six ans."
+        ],
+        [
+          "Où commence la digestion ?",
+          "dans la bouche",
+          "dans l’estomac",
+          "dans les pieds",
+          "La digestion commence dès que tu mords et mâches. Les dents et la salive commencent à décomposer les aliments."
+        ],
+        [
+          "Que fait la salive à tes aliments ?",
+          "elle les mouille, les ramollit et commence à les décomposer",
+          "elle les change en os",
+          "elle les fait geler",
+          "La salive ramollit les aliments pour qu’ils glissent bien, et elle commence tout de suite à en décomposer une partie."
+        ],
+        [
+          "Après avoir avalé, les aliments descendent dans un tube jusqu’à l’estomac. Comment s’appelle ce tube ?",
+          "l’œsophage",
+          "la trachée",
+          "la colonne vertébrale",
+          "L’œsophage est un tube musclé qui pousse les aliments jusqu’à l’estomac. La trachée, elle, amène l’air aux poumons."
+        ],
+        [
+          "Comment ton estomac décompose-t-il les aliments ?",
+          "avec des sucs acides et des muscles qui pressent",
+          "avec du sable et des petits cailloux",
+          "avec la lumière du Soleil",
+          "L’estomac malaxe les aliments avec ses muscles et les mélange à des sucs acides jusqu’à obtenir une bouillie épaisse."
+        ],
+        [
+          "Dans quelle partie du corps la plupart des bonnes choses des aliments passent-elles dans le sang ?",
+          "l’intestin grêle",
+          "les dents",
+          "les poumons",
+          "L’intestin grêle est un long tube enroulé. Les nutriments traversent sa paroi pour passer dans le sang."
+        ],
+        [
+          "Que récupère le gros intestin dans les restes de nourriture ?",
+          "de l’eau",
+          "des dents",
+          "des os",
+          "Le gros intestin absorbe l’eau des restes que le corps ne peut pas utiliser. Le reste sort du corps quand tu vas aux toilettes."
+        ],
+        [
+          "Dans quel ordre les aliments traversent-ils ton corps ?",
+          "bouche, œsophage, estomac, intestin grêle, gros intestin",
+          "estomac, bouche, gros intestin, œsophage, intestin grêle",
+          "bouche, gros intestin, estomac, intestin grêle, œsophage",
+          "On mâche dans la bouche, puis les aliments descendent par l’œsophage jusqu’à l’estomac, passent dans l’intestin grêle et enfin dans le gros intestin."
+        ],
+        [
+          "Pourquoi faut-il bien mâcher avant d’avaler ?",
+          "les petits morceaux s’avalent et se digèrent plus facilement",
+          "pour que l’aliment n’ait plus de goût",
+          "pour que les dents poussent plus longues",
+          "Mâcher coupe les aliments en petits morceaux mous. Ils descendent sans danger et le corps les digère plus facilement."
+        ],
+        [
+          "Combien de temps environ faut-il se brosser les dents à chaque fois ?",
+          "environ deux minutes",
+          "environ deux secondes",
+          "environ deux heures",
+          "En deux minutes environ, on a le temps de nettoyer le devant, l’arrière et le dessus de chaque dent."
+        ],
+        [
+          "Qu’est-ce qui fait des trous (des caries) dans les dents ?",
+          "des microbes qui mangent le sucre et produisent de l’acide",
+          "boire de l’eau",
+          "manger des carottes croquantes",
+          "Les microbes de la bouche se nourrissent du sucre resté sur les dents. Ils produisent un acide qui creuse peu à peu des trous."
+        ],
+        [
+          "Qui examine tes dents et t’aide à les garder en bonne santé ?",
+          "le dentiste",
+          "le vétérinaire",
+          "le pilote",
+          "Le dentiste regarde dans ta bouche, cherche les caries et t’explique comment prendre soin de tes dents. Va le voir régulièrement."
+        ],
+        [
+          "Quel en-cas est le plus doux pour tes dents ?",
+          "des bâtonnets de carotte",
+          "du caramel collant",
+          "un sachet de bonbons",
+          "Les carottes contiennent très peu de sucre et sont croquantes. Les bonbons collants restent sur les dents et nourrissent les microbes."
+        ],
+        [
+          "Pourquoi met-on du fluor dans la plupart des dentifrices ?",
+          "il aide à rendre les dents plus solides",
+          "il fait pousser les dents plus longues",
+          "il rend les dents bleues",
+          "Le fluor aide la couche dure qui recouvre les dents à rester solide, et l’acide a plus de mal à faire des trous."
+        ],
+        [
+          "Quand une dent de lait tombe, qu’est-ce qui pousse à sa place ?",
+          "une dent définitive",
+          "plus jamais rien",
+          "une autre dent de lait",
+          "Une dent définitive attend déjà dans la gencive. Elle pousse pour combler le trou et doit être soignée toute la vie."
+        ],
+        [
+          "Le tigre a de grandes canines pointues. Qu’est-ce que cela nous dit sur sa nourriture ?",
+          "il mange de la viande",
+          "il ne mange que de l’herbe",
+          "il ne mange que des fruits",
+          "De longues canines pointues sont parfaites pour tenir et déchirer la viande. Le tigre est un carnivore."
+        ],
+        [
+          "Une vache a des dents larges et plates pour broyer. Que mange-t-elle ?",
+          "des plantes comme l’herbe",
+          "de la viande",
+          "du poisson",
+          "Des dents qui broient sont idéales pour mâcher des plantes dures. La vache est herbivore : elle ne mange que des plantes."
+        ],
+        [
+          "Par quoi commence toute chaîne alimentaire ?",
+          "par une plante verte (un producteur)",
+          "par un prédateur",
+          "par un caillou",
+          "Les plantes vertes fabriquent leur propre nourriture. Les animaux mangent ensuite les plantes, ou d’autres animaux qui ont mangé des plantes."
+        ],
+        [
+          "D’où une plante tire-t-elle l’énergie pour fabriquer sa nourriture ?",
+          "de la lumière du Soleil",
+          "de la Lune",
+          "en mangeant des insectes",
+          "Les plantes utilisent l’énergie de la lumière du Soleil, avec de l’eau et de l’air, pour fabriquer leur nourriture dans leurs feuilles."
+        ],
+        [
+          "Les animaux ne fabriquent pas leur nourriture. Comment les appelle-t-on dans une chaîne alimentaire ?",
+          "des consommateurs",
+          "des producteurs",
+          "la lumière du Soleil",
+          "Les consommateurs tirent leur énergie en mangeant des plantes ou d’autres animaux. Les producteurs, comme les plantes, fabriquent leur nourriture."
+        ],
+        [
+          "Chaîne alimentaire : feuille → chenille → oiseau. Qui est le producteur ?",
+          "la feuille",
+          "la chenille",
+          "l’oiseau",
+          "La feuille fait partie d’une plante, et les plantes fabriquent leur nourriture grâce au Soleil. C’est donc le producteur."
+        ],
+        [
+          "Chaîne alimentaire : feuille → chenille → oiseau. Qui mange la chenille ?",
+          "l’oiseau",
+          "la feuille",
+          "le Soleil",
+          "La flèche qui part de la chenille pointe vers l’oiseau : c’est donc l’oiseau qui mange la chenille."
+        ],
+        [
+          "Chaîne alimentaire : herbe → zèbre → lion. Qui est le prédateur ?",
+          "le lion",
+          "le zèbre",
+          "l’herbe",
+          "Un prédateur chasse d’autres animaux pour se nourrir. Le lion chasse le zèbre."
+        ],
+        [
+          "Chaîne alimentaire : herbe → zèbre → lion. Qui est la proie ?",
+          "le zèbre",
+          "le lion",
+          "l’herbe",
+          "Une proie est un animal chassé et mangé. Ici, le zèbre est chassé par le lion. L’herbe est une plante, pas une proie."
+        ],
+        [
+          "Que montrent les flèches dans une chaîne alimentaire ?",
+          "le passage de la nourriture et de l’énergie, du mangé vers le mangeur",
+          "quel animal est le plus rapide",
+          "quel être vivant est le plus grand",
+          "Chaque flèche va de la nourriture vers l’être vivant qui la mange. Elle montre où va l’énergie."
+        ],
+        [
+          "Chaîne alimentaire : herbe → lapin → renard. Que deviendraient les lapins si presque toute l’herbe mourait ?",
+          "ils auraient moins à manger, donc il y aurait moins de lapins",
+          "ils deviendraient plus gros",
+          "rien ne changerait",
+          "Les lapins se nourrissent d’herbe. Avec moins d’herbe, moins de lapins survivent, et les renards ont alors moins à manger eux aussi."
+        ]
+      ],
+      "yo": [
+        [
+          "Eyín wo ní iwájú ẹnu rẹ ló mú, tí ó sì tẹ́ fún gígé oúnjẹ jẹ?",
+          "eyín iwájú (incisors)",
+          "eyín ẹ̀yìn (molars)",
+          "eyín ṣónṣó (canines)",
+          "Eyín iwájú tẹ́ pẹrẹsẹ. Wọ́n ń ṣiṣẹ́ bí àlùmọ́gàjí nígbà tí o bá gé èso ápù jẹ."
+        ],
+        [
+          "Eyín ṣónṣó wo ló ń bá ọ di oúnjẹ mú, tí ó sì ń ya á?",
+          "eyín ṣónṣó (canines)",
+          "eyín iwájú (incisors)",
+          "eyín ẹ̀yìn (molars)",
+          "Eyín ṣónṣó wà lẹ́gbẹ̀ẹ́ eyín iwájú. Àwọn ẹranko tí ń jẹ ẹran ní eyín ṣónṣó tó gùn gan-an."
+        ],
+        [
+          "Eyín fífẹ̀ wo ní ẹ̀yìn ẹnu rẹ ló ń lọ oúnjẹ, tí ó sì ń rún un?",
+          "eyín ẹ̀yìn (molars)",
+          "eyín iwájú (incisors)",
+          "eyín ṣónṣó (canines)",
+          "Orí eyín ẹ̀yìn fẹ̀, ó sì ní ìkúnlẹ̀. Wọ́n ń lọ oúnjẹ di wẹ́wẹ́ kí ó lè rọrùn láti gbé mì."
+        ],
+        [
+          "Ìgbà mélòó ni eyín máa ń hù fún ènìyàn láyé rẹ̀?",
+          "ìgbà méjì: eyín ọmọdé, lẹ́yìn náà eyín àgbà",
+          "ẹ̀ẹ̀kan ṣoṣo",
+          "ìgbà márùn-ún",
+          "Àwọn ọmọdé kọ́kọ́ ní eyín ọmọdé. Wọ́n máa ń já, eyín àgbà sì ń hù dípò wọn, àwọn yìí ni yóò wà títí ayé."
+        ],
+        [
+          "Kí la ń pe eyín àkọ́kọ́ tí ọmọdé máa ń ní?",
+          "eyín ọmọdé (eyín wàrà)",
+          "eyín ọgbọ́n",
+          "eyín wúrà",
+          "Eyín àkọ́kọ́ ni a ń pè ní eyín ọmọdé. Ọ̀pọ̀ ọmọdé máa ń bẹ̀rẹ̀ sí í pàdánù wọn ní nǹkan bí ọmọ ọdún mẹ́fà."
+        ],
+        [
+          "Ibo ni dídà oúnjẹ ti ń bẹ̀rẹ̀?",
+          "ní ẹnu",
+          "nínú ikùn",
+          "ní ẹsẹ̀",
+          "Dídà oúnjẹ ń bẹ̀rẹ̀ ní kété tí o bá gé oúnjẹ jẹ, tí o sì ń jẹ ẹ́. Eyín àti itọ́ rẹ ń bẹ̀rẹ̀ sí í fọ́ oúnjẹ náà."
+        ],
+        [
+          "Kí ni itọ́ ń ṣe sí oúnjẹ rẹ?",
+          "ó ń mú un rin, kí ó rọ̀, ó sì ń bẹ̀rẹ̀ sí í fọ́ ọ",
+          "ó ń sọ ọ́ di egungun",
+          "ó ń mú un dì",
+          "Itọ́ ń mú oúnjẹ rọ̀ kí ó lè yọ̀ lọ sílẹ̀ dáadáa, ó sì ń bẹ̀rẹ̀ sí í fọ́ apá kan oúnjẹ náà lójú ẹsẹ̀."
+        ],
+        [
+          "Lẹ́yìn tí o bá gbé oúnjẹ mì, ó ń gba ọ̀nà kan lọ sínú ikùn. Kí ni orúkọ ọ̀nà yìí?",
+          "ọ̀nà ọ̀fun (oesophagus)",
+          "ọ̀nà èémí (windpipe)",
+          "egungun ẹ̀yìn",
+          "Ọ̀nà ọ̀fun jẹ́ ọ̀pá oníṣan tí ó ń fún oúnjẹ lọ sínú ikùn. Ọ̀nà èémí ló ń gbé afẹ́fẹ́ lọ sínú ẹ̀dọ̀fóró."
+        ],
+        [
+          "Báwo ni ikùn rẹ ṣe ń fọ́ oúnjẹ?",
+          "pẹ̀lú omi kíkan tó lágbára àti iṣan tí ó ń pò ó",
+          "pẹ̀lú iyanrìn àti òkúta kéékèèké",
+          "pẹ̀lú ìmọ́lẹ̀ oòrùn",
+          "Ikùn ń fi iṣan rẹ̀ pò oúnjẹ, ó sì ń da á pọ̀ mọ́ omi kíkan títí yóò fi di bí ọbẹ̀ tó nípọn."
+        ],
+        [
+          "Ní apá wo nínú ara ni ọ̀pọ̀ èròjà aṣaralóore inú oúnjẹ ti ń wọ inú ẹ̀jẹ̀?",
+          "ìfun kékeré",
+          "eyín",
+          "ẹ̀dọ̀fóró",
+          "Ìfun kékeré jẹ́ ọ̀pá gígùn tí ó ká jọ. Èròjà aṣaralóore inú oúnjẹ ń gba ara rẹ̀ kọjá wọ inú ẹ̀jẹ̀."
+        ],
+        [
+          "Kí ni ìfun ńlá ń gbà padà láti inú oúnjẹ tó ṣẹ́kù?",
+          "omi",
+          "eyín",
+          "egungun",
+          "Ìfun ńlá ń mu omi láti inú oúnjẹ tí ara kò lè lò. Èyí tó kù ń jáde kúrò nínú ara nígbà tí o bá lọ sí ilé ìgbọ̀nsẹ̀."
+        ],
+        [
+          "Ní ètò wo ni oúnjẹ ń gbà rìn kọjá nínú ara rẹ?",
+          "ẹnu, ọ̀nà ọ̀fun, ikùn, ìfun kékeré, ìfun ńlá",
+          "ikùn, ẹnu, ìfun ńlá, ọ̀nà ọ̀fun, ìfun kékeré",
+          "ẹnu, ìfun ńlá, ikùn, ìfun kékeré, ọ̀nà ọ̀fun",
+          "A ń jẹ oúnjẹ lẹ́nu, ó ń gba ọ̀nà ọ̀fun lọ sínú ikùn, lẹ́yìn náà ó ń gba ìfun kékeré, níkẹyìn ó ń dé ìfun ńlá."
+        ],
+        [
+          "Kí ló dé tí ó fi yẹ kí o jẹ oúnjẹ rẹ dáadáa kí o tó gbé e mì?",
+          "ègé kéékèèké rọrùn láti gbé mì àti láti dà",
+          "kí adùn rẹ̀ lè pòórá pátápátá",
+          "kí eyín rẹ lè gùn sí i",
+          "Jíjẹ ń fọ́ oúnjẹ di ègé kéékèèké tó rọ̀. Wọ́n ń lọ sílẹ̀ láìléwu, ara rẹ sì ń dà wọ́n ní ìrọ̀rùn."
+        ],
+        [
+          "Ìgbà wo ni ó yẹ kí o fi fọ eyín rẹ ní ìgbà kọ̀ọ̀kan?",
+          "nǹkan bí ìṣẹ́jú méjì",
+          "nǹkan bí ìṣẹ́jú-àáyá méjì",
+          "nǹkan bí wákàtí méjì",
+          "Fífọ eyín fún nǹkan bí ìṣẹ́jú méjì ń fún ọ ní àkókò láti fọ iwájú, ẹ̀yìn àti orí eyín kọ̀ọ̀kan."
+        ],
+        [
+          "Kí ló ń fa ihò (ìbàjẹ́) nínú eyín?",
+          "kòkòrò àrùn tí ó ń jẹ ṣúgà, tí ó sì ń ṣe omi kíkan",
+          "mímu omi lásán",
+          "jíjẹ kárọ́ọ̀tì tó gbẹ",
+          "Kòkòrò àrùn inú ẹnu ń jẹ ṣúgà tí ó kù sí ara eyín. Wọ́n ń ṣe omi kíkan tí ó ń jẹ ihò sínú eyín díẹ̀díẹ̀."
+        ],
+        [
+          "Ta ló ń yẹ eyín rẹ wò, tí ó sì ń ràn ọ́ lọ́wọ́ láti jẹ́ kí wọ́n wà ní àlàáfíà?",
+          "dókítà eyín",
+          "dókítà ẹranko",
+          "awakọ̀ òfuurufú",
+          "Dókítà eyín ń wo inú ẹnu rẹ, ó ń wá ìbàjẹ́, ó sì ń kọ́ ọ bí o ṣe lè tọ́jú eyín rẹ. Máa lọ rí i déédéé."
+        ],
+        [
+          "Ìpanu wo ló dára jùlọ fún eyín rẹ?",
+          "ègé kárọ́ọ̀tì",
+          "súwítì oníṣúgà tí ó ń lẹ̀ mọ́ eyín",
+          "àpò súwítì",
+          "Ṣúgà inú kárọ́ọ̀tì kéré gan-an, ó sì gbẹ. Súwítì tí ó ń lẹ̀ máa ń dúró sí ara eyín, ó sì ń bọ́ kòkòrò àrùn tí ó ń ba eyín jẹ́."
+        ],
+        [
+          "Kí ló dé tí wọ́n fi ń fi fúlúọ́ráìdì sínú ọ̀pọ̀ ọṣẹ ìfọyín?",
+          "ó ń ràn eyín lọ́wọ́ láti lágbára sí i",
+          "ó ń mú eyín gùn sí i",
+          "ó ń sọ eyín di aláwọ̀ búlúù",
+          "Fúlúọ́ráìdì ń ran ìpele líle tí ó bo eyín lọ́wọ́ láti lágbára, kí omi kíkan má lè tètè dá ihò sí i."
+        ],
+        [
+          "Nígbà tí eyín ọmọdé bá já, kí ló ń hù dípò rẹ̀?",
+          "eyín àgbà",
+          "kò sí ohun tí yóò hù mọ́ láéláé",
+          "eyín ọmọdé mìíràn",
+          "Eyín àgbà ti wà nínú èrìgì tẹ́lẹ̀. Ó ń hù sókè láti kún àlàfo náà, nítorí náà o gbọdọ̀ tọ́jú rẹ̀ títí ayé."
+        ],
+        [
+          "Ẹkùn ní eyín ṣónṣó ńlá tó mú. Kí ni èyí sọ fún ọ nípa oúnjẹ rẹ̀?",
+          "ó ń jẹ ẹran",
+          "koríko nìkan ló ń jẹ",
+          "èso nìkan ló ń jẹ",
+          "Eyín ṣónṣó gígùn tó mú dára fún dídi ẹran mú àti yíya á. Ẹkùn jẹ́ ẹranko apẹranjẹ."
+        ],
+        [
+          "Màálù ní eyín fífẹ̀ tó tẹ́ fún lílọ oúnjẹ. Kí ló ń jẹ?",
+          "ewéko bí koríko",
+          "ẹran",
+          "ẹja",
+          "Eyín tí ó ń lọ oúnjẹ dára fún jíjẹ ewéko líle. Màálù jẹ́ ẹranko ajewéko: ewéko nìkan ló ń jẹ."
+        ],
+        [
+          "Kí ni gbogbo ẹ̀wọ̀n oúnjẹ máa ń bẹ̀rẹ̀ pẹ̀lú?",
+          "ewéko tútù (olùpèsè)",
+          "ẹranko apẹranjẹ",
+          "òkúta",
+          "Ewéko tútù ń ṣe oúnjẹ tirẹ̀. Lẹ́yìn náà, ẹranko ń jẹ ewéko, tàbí kí wọ́n jẹ ẹranko mìíràn tí ó jẹ ewéko."
+        ],
+        [
+          "Ibo ni ewéko ti ń rí agbára láti ṣe oúnjẹ tirẹ̀?",
+          "láti inú ìmọ́lẹ̀ oòrùn",
+          "láti ara òṣùpá",
+          "nípa jíjẹ kòkòrò",
+          "Ewéko ń lo agbára ìmọ́lẹ̀ oòrùn, pẹ̀lú omi àti afẹ́fẹ́, láti ṣe oúnjẹ nínú ewé wọn."
+        ],
+        [
+          "Ẹranko kò lè ṣe oúnjẹ tirẹ̀. Kí la ń pè wọ́n nínú ẹ̀wọ̀n oúnjẹ?",
+          "olùjẹ (consumers)",
+          "olùpèsè (producers)",
+          "ìmọ́lẹ̀ oòrùn",
+          "Olùjẹ ń rí agbára nípa jíjẹ ewéko tàbí ẹranko mìíràn. Olùpèsè, bí ewéko, ń ṣe oúnjẹ tirẹ̀."
+        ],
+        [
+          "Ẹ̀wọ̀n oúnjẹ: ewé → ìdin labalábá → ẹyẹ. Èwo ni olùpèsè?",
+          "ewé",
+          "ìdin labalábá",
+          "ẹyẹ",
+          "Ewé jẹ́ apá kan ewéko, ewéko sì ń fi ìmọ́lẹ̀ oòrùn ṣe oúnjẹ tirẹ̀. Nítorí náà, òun ni olùpèsè."
+        ],
+        [
+          "Ẹ̀wọ̀n oúnjẹ: ewé → ìdin labalábá → ẹyẹ. Kí ló ń jẹ ìdin labalábá?",
+          "ẹyẹ",
+          "ewé",
+          "oòrùn",
+          "Ọfà láti ìdin labalábá tọ́ka sí ẹyẹ, nítorí náà ẹyẹ ló ń jẹ ìdin labalábá."
+        ],
+        [
+          "Ẹ̀wọ̀n oúnjẹ: koríko → kẹ́tẹ́kẹ́tẹ́ abìlà → kìnnìún. Èwo ni ẹranko apẹranjẹ?",
+          "kìnnìún",
+          "kẹ́tẹ́kẹ́tẹ́ abìlà",
+          "koríko",
+          "Ẹranko apẹranjẹ ń dọdẹ ẹranko mìíràn láti jẹ. Kìnnìún ń dọdẹ kẹ́tẹ́kẹ́tẹ́ abìlà."
+        ],
+        [
+          "Ẹ̀wọ̀n oúnjẹ: koríko → kẹ́tẹ́kẹ́tẹ́ abìlà → kìnnìún. Èwo ni ẹran ìjẹ?",
+          "kẹ́tẹ́kẹ́tẹ́ abìlà",
+          "kìnnìún",
+          "koríko",
+          "Ẹran ìjẹ ni ẹranko tí wọ́n ń dọdẹ, tí wọ́n sì ń jẹ. Níbí, kìnnìún ń dọdẹ kẹ́tẹ́kẹ́tẹ́ abìlà. Ewéko ni koríko, kì í ṣe ẹran ìjẹ."
+        ],
+        [
+          "Kí ni ọfà inú ẹ̀wọ̀n oúnjẹ ń fi hàn?",
+          "bí oúnjẹ àti agbára ṣe ń kọjá láti ọ̀dọ̀ ohun tí a jẹ sí ẹni tó jẹ ẹ́",
+          "ẹranko tí ó yára jùlọ",
+          "ohun alààyè tí ó tóbi jùlọ",
+          "Ọfà kọ̀ọ̀kan ń tọ́ka láti oúnjẹ sí ohun alààyè tí ó ń jẹ ẹ́, ó sì ń fi ibi tí agbára ń lọ hàn."
+        ],
+        [
+          "Ẹ̀wọ̀n oúnjẹ: koríko → ehoro → kọ̀lọ̀kọ̀lọ̀. Kí ló máa ṣẹlẹ̀ sí àwọn ehoro tí ọ̀pọ̀ koríko bá kú?",
+          "oúnjẹ wọn á dín kù, nítorí náà ehoro á dín kù",
+          "wọ́n á tóbi sí i",
+          "kò sí ohun tí yóò yí padà",
+          "Koríko ni oúnjẹ ehoro. Tí koríko bá dín kù, ehoro díẹ̀ ló máa yè, lẹ́yìn náà oúnjẹ kọ̀lọ̀kọ̀lọ̀ náà á dín kù."
+        ]
+      ]
+    }
+  },
+  "emoji": "fruit-apple",
+  "example": {
+    "i": 0,
+    "q_en": "Which teeth at the front of your mouth are sharp and flat for biting and cutting?",
+    "answer_en": "incisors",
+    "why_en": "Incisors are the flat front teeth. They work like scissors when you bite into an apple.",
+    "q_de": "Welche Zähne vorne im Mund sind scharf und flach zum Abbeißen und Schneiden?",
+    "answer_de": "die Schneidezähne",
+    "why_de": "Schneidezähne sind die flachen Zähne vorne. Sie arbeiten wie eine Schere, wenn du in einen Apfel beißt.",
+    "q_fr": "Quelles dents, à l’avant de la bouche, sont plates et coupantes pour mordre ?",
+    "answer_fr": "les incisives",
+    "why_fr": "Les incisives sont les dents plates de devant. Elles coupent comme des ciseaux quand tu croques une pomme.",
+    "q_yo": "Eyín wo ní iwájú ẹnu rẹ ló mú, tí ó sì tẹ́ fún gígé oúnjẹ jẹ?",
+    "answer_yo": "eyín iwájú (incisors)",
+    "why_yo": "Eyín iwájú tẹ́ pẹrẹsẹ. Wọ́n ń ṣiṣẹ́ bí àlùmọ́gàjí nígbà tí o bá gé èso ápù jẹ."
+  },
+  "text": {
+    "en": {
+      "title": "Teeth and digestion",
+      "teach": "Incisors cut, canines tear and molars grind. Food then travels from the mouth down the oesophagus to the stomach and the intestines. Brush your teeth well and eat few sugary snacks. Every food chain starts with a plant (a producer); animals are consumers.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Zähne und Verdauung",
+      "teach": "Schneidezähne schneiden, Eckzähne reißen und Backenzähne zermahlen. Dann wandert das Essen vom Mund durch die Speiseröhre in den Magen und den Darm. Putz deine Zähne gut und iss wenig Süßes. Jede Nahrungskette beginnt mit einer Pflanze (einem Erzeuger); Tiere sind Verbraucher.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les dents et la digestion",
+      "teach": "Les incisives coupent, les canines déchirent et les molaires broient. Ensuite, les aliments passent de la bouche à l’œsophage, puis à l’estomac et aux intestins. Brosse-toi bien les dents et mange peu de sucreries. Toute chaîne alimentaire commence par une plante (un producteur) ; les animaux sont des consommateurs.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Eyín àti bí oúnjẹ ṣe ń dà",
+      "teach": "Eyín iwájú ń gé, eyín ṣónṣó ń ya, eyín ẹ̀yìn sì ń lọ̀. Lẹ́yìn náà, oúnjẹ ń rìn láti ẹnu gba ọ̀nà ọ̀fun lọ sínú ikùn àti ìfun. Máa fọ eyín rẹ dáadáa, má sì jẹ ohun dídùn púpọ̀. Gbogbo ẹ̀wọ̀n oúnjẹ ló ń bẹ̀rẹ̀ pẹ̀lú ewéko (olùpèsè); ẹranko jẹ́ olùjẹ.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

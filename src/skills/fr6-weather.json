@@ -1,0 +1,274 @@
+{
+  "id": "fr6-weather",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 1,
+  "ages": [
+    "6-7"
+  ],
+  "order": 14,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "speech",
+      "snow",
+      "globe",
+      "thermometer",
+      "speech",
+      "tree",
+      "memo",
+      "fog",
+      "speech",
+      "storm",
+      "sun-cloud",
+      "speech",
+      "memo",
+      "snowflake",
+      "speech",
+      "tree",
+      "sled",
+      "cloud",
+      "beach",
+      "polarbear",
+      "rain",
+      "beach",
+      "snowman",
+      "speech",
+      "speech",
+      "sun",
+      "sun",
+      "speech",
+      "thermometer",
+      "cloud"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “Il pleut” mean?",
+          "It is raining",
+          "It is snowing",
+          "It is hot",
+          "Il pleut means it is raining."
+        ],
+        [
+          "How do you say “It is snowing” in French?",
+          "Il neige",
+          "Il pleut",
+          "Il fait chaud",
+          "It is snowing is il neige. La neige is the snow."
+        ],
+        [
+          "What does “Il fait chaud” mean?",
+          "It is hot",
+          "It is cold",
+          "It is windy",
+          "Chaud means hot, so il fait chaud means it is hot."
+        ],
+        [
+          "How do you say “It is cold” in French?",
+          "Il fait froid",
+          "Il fait chaud",
+          "Il pleut",
+          "Froid means cold: il fait froid."
+        ],
+        [
+          "What does “Il fait beau” mean?",
+          "The weather is nice",
+          "It is raining",
+          "It is cold",
+          "Il fait beau means the weather is nice."
+        ],
+        [
+          "How do you say “It is windy” in French?",
+          "Il y a du vent",
+          "Il y a du soleil",
+          "Il neige",
+          "Le vent is the wind, so it is windy is il y a du vent."
+        ],
+        [
+          "What does “Il y a du soleil” mean?",
+          "It is sunny",
+          "It is foggy",
+          "It is snowing",
+          "Le soleil is the sun, so il y a du soleil means it is sunny."
+        ],
+        [
+          "How do you say “It is foggy” in French?",
+          "Il y a du brouillard",
+          "Il y a du soleil",
+          "Il fait chaud",
+          "Le brouillard is fog: il y a du brouillard."
+        ],
+        [
+          "What does “Il y a des nuages” mean?",
+          "It is cloudy",
+          "It is sunny",
+          "It is hot",
+          "Les nuages are clouds, so it means it is cloudy."
+        ],
+        [
+          "How do you say “There is a storm” in French?",
+          "Il y a de l’orage",
+          "Il fait beau",
+          "Il y a du soleil",
+          "L’orage is a storm: il y a de l’orage."
+        ],
+        [
+          "How do you ask “What is the weather like?” in French?",
+          "Quel temps fait-il ?",
+          "Quelle heure est-il ?",
+          "Comment ça va ?",
+          "Quel temps fait-il ? asks about the weather. Quelle heure est-il ? asks the time."
+        ],
+        [
+          "What is “le soleil”?",
+          "the sun",
+          "the snow",
+          "the rain",
+          "Le soleil means the sun."
+        ],
+        [
+          "What is “la pluie”?",
+          "the rain",
+          "the wind",
+          "the sun",
+          "La pluie means the rain."
+        ],
+        [
+          "How do you say “the snow” in French?",
+          "la neige",
+          "la pluie",
+          "le nuage",
+          "The snow is la neige."
+        ],
+        [
+          "What is “le nuage”?",
+          "the cloud",
+          "the moon",
+          "the snow",
+          "Le nuage means the cloud."
+        ],
+        [
+          "How do you say “the wind” in French?",
+          "le vent",
+          "le soleil",
+          "la neige",
+          "The wind is le vent."
+        ],
+        [
+          "“Il neige !” What can you build outside?",
+          "a snowman",
+          "a sandcastle",
+          "a sunflower",
+          "Il neige means it is snowing, so you can build a snowman."
+        ],
+        [
+          "“Il pleut.” What do you need?",
+          "an umbrella",
+          "sunglasses",
+          "sun cream",
+          "Il pleut means it is raining, so an umbrella keeps you dry."
+        ],
+        [
+          "“Il fait chaud.” What do you wear?",
+          "a sun hat",
+          "a woolly hat",
+          "thick gloves",
+          "Il fait chaud means it is hot, so a sun hat is best."
+        ],
+        [
+          "“Il fait froid.” What do you wear?",
+          "a scarf",
+          "shorts",
+          "sandals",
+          "Il fait froid means it is cold, so you wrap up in a scarf."
+        ],
+        [
+          "Grey clouds and drops of water are falling. What do you say?",
+          "Il pleut",
+          "Il fait beau",
+          "Il neige",
+          "Drops of water falling is rain: il pleut."
+        ],
+        [
+          "It is a bright, warm day at the beach. Which fits?",
+          "Il fait beau",
+          "Il neige",
+          "Il fait froid",
+          "A bright, warm day is nice weather: il fait beau."
+        ],
+        [
+          "Which is most likely in “l’hiver” (winter)?",
+          "Il neige",
+          "Il fait très chaud",
+          "On nage dans la mer",
+          "Snow is likely in winter. Very hot days and swimming in the sea are for summer."
+        ],
+        [
+          "What does “Il fait mauvais” mean?",
+          "The weather is bad",
+          "The weather is nice",
+          "It is hot",
+          "Mauvais means bad, so the weather is bad."
+        ],
+        [
+          "What does “Il fait froid” mean?",
+          "It is cold",
+          "It is hot",
+          "It is raining",
+          "Froid means cold, so il fait froid means it is cold."
+        ],
+        [
+          "The weather is nice: Il ___ beau.",
+          "fait",
+          "est",
+          "a",
+          "For the weather French uses il fait: il fait beau."
+        ],
+        [
+          "It is sunny: Il y a du ___.",
+          "soleil",
+          "neige",
+          "pluie",
+          "The sun is le soleil, so it is sunny is il y a du soleil."
+        ],
+        [
+          "What does “un arc-en-ciel” mean?",
+          "a rainbow",
+          "a raincoat",
+          "a snowflake",
+          "Un arc-en-ciel is a rainbow. Ciel means sky."
+        ],
+        [
+          "How do you say “It is very hot” in French?",
+          "Il fait très chaud",
+          "Il fait très froid",
+          "Il pleut beaucoup",
+          "Très means very, so it is very hot is il fait très chaud."
+        ],
+        [
+          "Which French word is a weather word?",
+          "la neige",
+          "la table",
+          "le chat",
+          "La neige (snow) is weather. La table is a table and le chat is a cat."
+        ]
+      ]
+    }
+  },
+  "emoji": "sun-cloud",
+  "example": {
+    "i": 0,
+    "q_en": "What does “Il pleut” mean?",
+    "answer_en": "It is raining",
+    "why_en": "Il pleut means it is raining."
+  },
+  "text": {
+    "en": {
+      "title": "The weather in French",
+      "teach": "To talk about the weather in French we often say il fait: il fait beau (it is nice), il fait chaud (it is hot), il fait froid (it is cold). Rain and snow are il pleut and il neige.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

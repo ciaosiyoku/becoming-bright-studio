@@ -1,0 +1,274 @@
+{
+  "id": "fr4-family",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 6,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "heart",
+      "house",
+      "letters",
+      "speech",
+      "house",
+      "girl",
+      "letters",
+      "speech",
+      "teddy",
+      "letters",
+      "heart",
+      "house",
+      "speech",
+      "letters",
+      "framed",
+      "speech",
+      "gift",
+      "cake",
+      "letters",
+      "speech",
+      "heart",
+      "house",
+      "letters",
+      "speech",
+      "school",
+      "girl",
+      "letters",
+      "party",
+      "heart",
+      "house"
+    ],
+    "bank": {
+      "en": [
+        [
+          "How do you say ‘mum’ in French?",
+          "la maman",
+          "le papa",
+          "le bébé",
+          "‘Mum’ in French is ‘la maman’."
+        ],
+        [
+          "How do you say ‘dad’ in French?",
+          "le papa",
+          "la maman",
+          "la sœur",
+          "‘Dad’ in French is ‘le papa’."
+        ],
+        [
+          "What does ‘la maman’ mean?",
+          "mum",
+          "dad",
+          "baby",
+          "‘La maman’ means mum."
+        ],
+        [
+          "What does ‘le papa’ mean?",
+          "dad",
+          "grandma",
+          "sister",
+          "‘Le papa’ means dad."
+        ],
+        [
+          "How do you say ‘brother’ in French?",
+          "le frère",
+          "la tante",
+          "le bébé",
+          "‘Brother’ in French is ‘le frère’."
+        ],
+        [
+          "How do you say ‘sister’ in French?",
+          "la sœur",
+          "le frère",
+          "le papa",
+          "‘Sister’ in French is ‘la sœur’."
+        ],
+        [
+          "What does ‘le frère’ mean?",
+          "brother",
+          "mum",
+          "uncle",
+          "‘Le frère’ means brother."
+        ],
+        [
+          "What does ‘la sœur’ mean?",
+          "sister",
+          "dad",
+          "grandpa",
+          "‘La sœur’ means sister."
+        ],
+        [
+          "How do you say ‘baby’ in French?",
+          "le bébé",
+          "le grand-père",
+          "la tante",
+          "‘Baby’ in French is ‘le bébé’."
+        ],
+        [
+          "What does ‘le bébé’ mean?",
+          "baby",
+          "brother",
+          "aunt",
+          "‘Le bébé’ means baby."
+        ],
+        [
+          "How do you say ‘grandma’ in French?",
+          "la grand-mère",
+          "le grand-père",
+          "la sœur",
+          "‘Grandma’ in French is ‘la grand-mère’."
+        ],
+        [
+          "How do you say ‘grandpa’ in French?",
+          "le grand-père",
+          "la maman",
+          "le bébé",
+          "‘Grandpa’ in French is ‘le grand-père’."
+        ],
+        [
+          "What does ‘la grand-mère’ mean?",
+          "grandma",
+          "sister",
+          "baby",
+          "‘La grand-mère’ means grandma."
+        ],
+        [
+          "What does ‘le grand-père’ mean?",
+          "grandpa",
+          "brother",
+          "mum",
+          "‘Le grand-père’ means grandpa."
+        ],
+        [
+          "How do you say ‘family’ in French?",
+          "la famille",
+          "la maison",
+          "le chat",
+          "‘Family’ in French is ‘la famille’."
+        ],
+        [
+          "What does ‘la famille’ mean?",
+          "family",
+          "house",
+          "school",
+          "‘La famille’ means family."
+        ],
+        [
+          "How do you say ‘uncle’ in French?",
+          "l’oncle",
+          "la tante",
+          "la sœur",
+          "‘Uncle’ in French is ‘l’oncle’."
+        ],
+        [
+          "How do you say ‘aunt’ in French?",
+          "la tante",
+          "l’oncle",
+          "le papa",
+          "‘Aunt’ in French is ‘la tante’."
+        ],
+        [
+          "What does ‘l’oncle’ mean?",
+          "uncle",
+          "aunt",
+          "baby",
+          "‘L’oncle’ means uncle."
+        ],
+        [
+          "What does ‘la tante’ mean?",
+          "aunt",
+          "uncle",
+          "dad",
+          "‘La tante’ means aunt."
+        ],
+        [
+          "How do you say ‘mother’ in French?",
+          "la mère",
+          "le père",
+          "le frère",
+          "‘Mother’ in French is ‘la mère’."
+        ],
+        [
+          "How do you say ‘father’ in French?",
+          "le père",
+          "la mère",
+          "la sœur",
+          "‘Father’ in French is ‘le père’."
+        ],
+        [
+          "What does ‘la mère’ mean?",
+          "mother",
+          "father",
+          "grandpa",
+          "‘La mère’ means mother."
+        ],
+        [
+          "What does ‘le père’ mean?",
+          "father",
+          "mother",
+          "aunt",
+          "‘Le père’ means father."
+        ],
+        [
+          "How do you say ‘boy’ in French?",
+          "le garçon",
+          "la fille",
+          "la tante",
+          "‘Boy’ in French is ‘le garçon’."
+        ],
+        [
+          "How do you say ‘girl’ in French?",
+          "la fille",
+          "le garçon",
+          "l’oncle",
+          "‘Girl’ in French is ‘la fille’."
+        ],
+        [
+          "What does ‘le garçon’ mean?",
+          "boy",
+          "girl",
+          "baby",
+          "‘Le garçon’ means boy."
+        ],
+        [
+          "How do you say ‘cousin’ (a boy) in French?",
+          "le cousin",
+          "l’oncle",
+          "la sœur",
+          "A boy cousin is ‘le cousin’. A girl cousin is ‘la cousine’."
+        ],
+        [
+          "French children often call their grandma…",
+          "mamie",
+          "papi",
+          "maman",
+          "‘Mamie’ is a cosy name for grandma. ‘Papi’ is for grandpa."
+        ],
+        [
+          "French children often call their grandpa…",
+          "papi",
+          "mamie",
+          "bébé",
+          "‘Papi’ is a cosy name for grandpa."
+        ]
+      ]
+    }
+  },
+  "emoji": "house",
+  "example": {
+    "i": 0,
+    "q_en": "How do you say ‘mum’ in French?",
+    "answer_en": "la maman",
+    "why_en": "‘Mum’ in French is ‘la maman’."
+  },
+  "text": {
+    "en": {
+      "title": "Family in French",
+      "teach": "My family in French: ‘la maman’ is mum, ‘le papa’ is dad, ‘le frère’ is brother and ‘la sœur’ is sister.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

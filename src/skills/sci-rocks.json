@@ -1,0 +1,936 @@
+{
+  "id": "sci-rocks",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 3,
+  "ages": [
+    "8-9"
+  ],
+  "order": 19,
+  "params": {
+    "emojis": [
+      "bone",
+      "mountain",
+      "school",
+      "droplet",
+      "rain",
+      "house",
+      "dinosaur",
+      "clock",
+      "animal-crab",
+      "seedling",
+      "beach",
+      "sun-rain",
+      "palette",
+      "tree",
+      "seedling",
+      "fruit-apple",
+      "fire",
+      "wave",
+      "road",
+      "storm",
+      "girl",
+      "mountain",
+      "footprints",
+      "scroll",
+      "globe",
+      "gear",
+      "droplet",
+      "mountain",
+      "fruit-pear",
+      "beach"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is a fossil?",
+          "the remains or print of a plant or animal from long ago, kept in rock",
+          "a shiny stone that was made last week",
+          "a kind of soil for growing flowers",
+          "Fossils are the hard parts, shapes or prints of living things that lived a very long time ago, saved in rock."
+        ],
+        [
+          "Which of these is a very hard rock?",
+          "granite",
+          "chalk",
+          "a lump of soil",
+          "Granite is so hard that it is used for steps and buildings. Chalk is soft and soil crumbles easily."
+        ],
+        [
+          "You rub a piece of chalk on the playground. Why does it leave a mark?",
+          "chalk is a soft rock that rubs away easily",
+          "chalk is the hardest rock there is",
+          "the playground is made of chalk",
+          "Chalk is soft, so tiny bits of it rub off onto the ground and leave a line."
+        ],
+        [
+          "What does it mean when a rock is permeable?",
+          "water can soak into it and pass through",
+          "water can never get into it",
+          "it makes its own water",
+          "Permeable rocks have tiny gaps that let water soak in. Impermeable rocks keep water out."
+        ],
+        [
+          "You drip water onto three rocks. Which one soaks it up?",
+          "chalk",
+          "granite",
+          "slate",
+          "Chalk is full of tiny holes, so water soaks in. Granite and slate do not let water in."
+        ],
+        [
+          "Why is slate a good rock for roofs?",
+          "it does not let water through",
+          "it is soft and crumbly",
+          "it soaks up rain like a sponge",
+          "Slate is impermeable and splits into thin, flat sheets, so rain runs off and the house stays dry."
+        ],
+        [
+          "How do most fossils form?",
+          "a dead plant or animal is buried in mud or sand, which slowly turns to rock",
+          "an animal turns to stone in one night",
+          "people carve them out of rock",
+          "Over millions of years, layers of mud pile up and harden into rock, and the buried remains become fossils."
+        ],
+        [
+          "How long does it take for a fossil to form?",
+          "a very long time, usually millions of years",
+          "about one week",
+          "a few minutes",
+          "Mud only turns to rock very slowly, so most fossils took millions of years to form."
+        ],
+        [
+          "Which parts of an animal most often become fossils?",
+          "hard parts like bones, teeth and shells",
+          "soft eyes",
+          "fur and feathers",
+          "Soft parts rot away quickly. Hard parts last long enough to be buried and turned into fossils."
+        ],
+        [
+          "What is soil made of?",
+          "tiny bits of rock, rotted plants and animals, air and water",
+          "only sugar",
+          "only plastic",
+          "Soil forms when rock breaks into tiny pieces and mixes with rotted living things, air and water."
+        ],
+        [
+          "Where does the sand on a beach come from?",
+          "rocks and shells broken into tiny pieces by waves over a long time",
+          "it grows on trees",
+          "it falls from the clouds",
+          "Waves crash rocks and shells together for years and years, grinding them into tiny grains of sand."
+        ],
+        [
+          "Water drains through which soil the fastest?",
+          "sandy soil, with big gritty grains",
+          "clay soil, with tiny sticky grains",
+          "both drain at exactly the same speed",
+          "Sandy soil has big gaps between its grains, so water runs through quickly. Clay holds on to water."
+        ],
+        [
+          "What is clay soil like when it is wet?",
+          "sticky and easy to squeeze into shapes",
+          "dry and dusty",
+          "as runny as water",
+          "Clay has very tiny grains that hold water, so wet clay is sticky and can be moulded, like for pots."
+        ],
+        [
+          "What do we call the dark, rotted remains of dead leaves and plants in soil?",
+          "humus",
+          "lava",
+          "granite",
+          "Humus forms when dead plants and animals rot. It makes soil dark and full of goodness for plants."
+        ],
+        [
+          "Which animal helps to mix soil and let air into it?",
+          "an earthworm",
+          "a shark",
+          "a camel",
+          "Earthworms tunnel through soil, mixing it and making spaces for air and water."
+        ],
+        [
+          "Why is soil so important for plants?",
+          "plants grow in it and take water and nutrients from it",
+          "soil makes the Sun shine",
+          "soil keeps fish dry",
+          "Roots hold plants firmly in the soil and take up the water and nutrients the plant needs."
+        ],
+        [
+          "What do we call the hot, melted rock that flows out of a volcano?",
+          "lava",
+          "sand",
+          "chalk",
+          "Deep underground it is hot enough to melt rock. When it pours out of a volcano, it is called lava, and it cools into hard rock."
+        ],
+        [
+          "Which rock is made from the tiny shells of sea creatures that lived long ago?",
+          "chalk",
+          "granite",
+          "slate",
+          "Chalk formed on the seabed from the shells of countless tiny sea creatures, pressed together over millions of years."
+        ],
+        [
+          "Why is granite often used for kerbs and steps?",
+          "it is hard and lasts a very long time",
+          "it melts in the rain",
+          "it is soft and crumbles",
+          "Hard rocks like granite do not wear away easily, even when lots of feet and wheels pass over them."
+        ],
+        [
+          "What happens to rocks over a very long time in wind, rain and frost?",
+          "they slowly wear away into smaller pieces",
+          "they grow bigger every year",
+          "they turn into metal",
+          "Wind, rain and ice slowly break rocks down. This is how pebbles, sand and soil are made."
+        ],
+        [
+          "Mary Anning lived by the sea in England over 200 years ago. What did she become famous for finding?",
+          "fossils",
+          "gold coins",
+          "new planets",
+          "As a girl, Mary Anning searched the cliffs and found fossils of huge sea reptiles that had lived millions of years ago."
+        ],
+        [
+          "Where are fossils usually found?",
+          "in rocks made from layers of mud, sand or shells",
+          "inside the flames of a volcano",
+          "high up in the clouds",
+          "Fossils form in mud and sand that slowly harden into layered rocks, such as limestone and sandstone."
+        ],
+        [
+          "Which of these can become a fossil?",
+          "a dinosaur footprint pressed into mud",
+          "a rainbow",
+          "a shadow",
+          "If a footprint in soft mud is covered and the mud turns to rock, the print is kept as a trace fossil."
+        ],
+        [
+          "What can fossils tell us?",
+          "which plants and animals lived long ago",
+          "what the weather will be tomorrow",
+          "what time it is",
+          "Fossils show us living things that no longer exist, like dinosaurs, and how life on Earth has changed."
+        ],
+        [
+          "Which of these is a natural rock that was not made by people?",
+          "granite",
+          "a brick",
+          "concrete",
+          "Granite forms deep in the Earth. Bricks and concrete are made by people, even though they look like rock."
+        ],
+        [
+          "How can you test whether a rock is hard or soft?",
+          "try to scratch it with a steel nail",
+          "smell it",
+          "listen to it",
+          "A soft rock like chalk scratches easily. A hard rock like granite hardly gets a mark."
+        ],
+        [
+          "How can you test whether a rock is permeable?",
+          "drip water on it and see if it soaks in",
+          "shine a torch on it",
+          "put it in the fridge",
+          "If the water disappears into the rock, it is permeable. If the drops sit on top, it is impermeable."
+        ],
+        [
+          "If you dig very deep down under the soil, what do you reach?",
+          "solid rock",
+          "the sky",
+          "a layer of sugar",
+          "Soil is only a thin layer. Underneath it there is always solid rock, called bedrock."
+        ],
+        [
+          "Why do gardeners and farmers add compost to soil?",
+          "it adds goodness so plants grow better",
+          "it makes the soil as hard as glass",
+          "it keeps all the worms away",
+          "Compost is rotted plant waste. It adds nutrients to the soil and helps it hold water."
+        ],
+        [
+          "Why are the pebbles on a beach so smooth and round?",
+          "waves rolled and rubbed them against each other for years",
+          "people polish them every night",
+          "they were made in a factory",
+          "Sharp bits of rock are knocked together by the sea again and again until their edges wear smooth."
+        ]
+      ],
+      "de": [
+        [
+          "Was ist ein Fossil?",
+          "Reste oder Abdruck einer Pflanze oder eines Tieres von vor langer Zeit, im Gestein erhalten",
+          "ein glänzender Stein, der letzte Woche entstand",
+          "eine Erdsorte für Blumen",
+          "Fossilien sind harte Teile, Formen oder Abdrücke von Lebewesen, die vor sehr langer Zeit lebten, im Gestein erhalten."
+        ],
+        [
+          "Was davon ist ein sehr hartes Gestein?",
+          "Granit",
+          "Kreide",
+          "ein Klumpen Erde",
+          "Granit ist so hart, dass man daraus Treppen und Gebäude baut. Kreide ist weich, und Erde zerbröselt leicht."
+        ],
+        [
+          "Du reibst ein Stück Kreide über den Schulhof. Warum bleibt ein Strich?",
+          "Kreide ist ein weiches Gestein, das sich leicht abreibt",
+          "Kreide ist das härteste Gestein überhaupt",
+          "der Schulhof ist aus Kreide",
+          "Kreide ist weich. Winzige Stückchen reiben sich auf dem Boden ab und lassen einen Strich zurück."
+        ],
+        [
+          "Was bedeutet es, wenn ein Gestein wasserdurchlässig ist?",
+          "Wasser kann eindringen und hindurchsickern",
+          "Wasser kann niemals hinein",
+          "es macht sein eigenes Wasser",
+          "Durchlässige Gesteine haben winzige Lücken, durch die Wasser einsickert. Undurchlässige Gesteine lassen kein Wasser hinein."
+        ],
+        [
+          "Du tropfst Wasser auf drei Gesteine. Welches saugt es auf?",
+          "Kreide",
+          "Granit",
+          "Schiefer",
+          "Kreide ist voller winziger Löcher, darum sickert das Wasser ein. Granit und Schiefer lassen kein Wasser hinein."
+        ],
+        [
+          "Warum ist Schiefer ein gutes Gestein für Dächer?",
+          "er lässt kein Wasser durch",
+          "er ist weich und bröselig",
+          "er saugt Regen auf wie ein Schwamm",
+          "Schiefer ist wasserundurchlässig und lässt sich in dünne, flache Platten spalten. Regen läuft ab, und das Haus bleibt trocken."
+        ],
+        [
+          "Wie entstehen die meisten Fossilien?",
+          "eine tote Pflanze oder ein totes Tier wird von Schlamm oder Sand bedeckt, der langsam zu Gestein wird",
+          "ein Tier wird in einer Nacht zu Stein",
+          "Menschen schnitzen sie aus Stein",
+          "In Millionen von Jahren häufen sich Schlammschichten an und werden zu Gestein. Die bedeckten Reste werden zu Fossilien."
+        ],
+        [
+          "Wie lange dauert es, bis ein Fossil entsteht?",
+          "sehr lange, meist Millionen von Jahren",
+          "etwa eine Woche",
+          "ein paar Minuten",
+          "Schlamm wird nur sehr langsam zu Gestein. Darum brauchten die meisten Fossilien Millionen von Jahren."
+        ],
+        [
+          "Welche Teile eines Tieres werden am häufigsten zu Fossilien?",
+          "harte Teile wie Knochen, Zähne und Schalen",
+          "weiche Augen",
+          "Fell und Federn",
+          "Weiche Teile verrotten schnell. Harte Teile halten lange genug, um bedeckt und zu Fossilien zu werden."
+        ],
+        [
+          "Woraus besteht Erde?",
+          "aus winzigen Gesteinsstückchen, verrotteten Pflanzen und Tieren, Luft und Wasser",
+          "nur aus Zucker",
+          "nur aus Plastik",
+          "Erde entsteht, wenn Gestein in winzige Stücke zerfällt und sich mit verrotteten Lebewesen, Luft und Wasser mischt."
+        ],
+        [
+          "Woher kommt der Sand am Strand?",
+          "von Steinen und Muscheln, die Wellen über lange Zeit zu winzigen Stückchen zerrieben haben",
+          "er wächst an Bäumen",
+          "er fällt aus den Wolken",
+          "Wellen schlagen Steine und Muscheln jahrelang gegeneinander und zerreiben sie zu winzigen Sandkörnern."
+        ],
+        [
+          "Durch welche Erde läuft Wasser am schnellsten?",
+          "durch sandige Erde mit groben Körnern",
+          "durch Lehmerde mit winzigen, klebrigen Körnchen",
+          "durch beide genau gleich schnell",
+          "Sandige Erde hat große Lücken zwischen den Körnern, darum läuft Wasser schnell durch. Lehm hält Wasser fest."
+        ],
+        [
+          "Wie ist Lehmerde, wenn sie nass ist?",
+          "klebrig und leicht zu formen",
+          "trocken und staubig",
+          "so flüssig wie Wasser",
+          "Lehm hat winzige Körnchen, die Wasser festhalten. Nasser Lehm ist klebrig und lässt sich formen, zum Beispiel zu Töpfen."
+        ],
+        [
+          "Wie nennt man die dunklen, verrotteten Reste von Blättern und Pflanzen in der Erde?",
+          "Humus",
+          "Lava",
+          "Granit",
+          "Humus entsteht, wenn tote Pflanzen und Tiere verrotten. Er macht die Erde dunkel und nährstoffreich."
+        ],
+        [
+          "Welches Tier hilft, die Erde zu mischen und Luft hineinzulassen?",
+          "ein Regenwurm",
+          "ein Hai",
+          "ein Kamel",
+          "Regenwürmer graben Gänge durch die Erde. Dabei mischen sie sie und machen Platz für Luft und Wasser."
+        ],
+        [
+          "Warum ist Erde für Pflanzen so wichtig?",
+          "Pflanzen wachsen darin und nehmen Wasser und Nährstoffe daraus auf",
+          "Erde lässt die Sonne scheinen",
+          "Erde hält Fische trocken",
+          "Wurzeln halten Pflanzen fest in der Erde und nehmen Wasser und Nährstoffe auf, die die Pflanze braucht."
+        ],
+        [
+          "Wie nennt man das heiße, geschmolzene Gestein, das aus einem Vulkan fließt?",
+          "Lava",
+          "Sand",
+          "Kreide",
+          "Tief unter der Erde ist es so heiß, dass Gestein schmilzt. Fließt es aus einem Vulkan, heißt es Lava. Beim Abkühlen wird es zu hartem Gestein."
+        ],
+        [
+          "Welches Gestein besteht aus den winzigen Schalen von Meerestieren, die vor langer Zeit lebten?",
+          "Kreide",
+          "Granit",
+          "Schiefer",
+          "Kreide entstand am Meeresgrund aus den Schalen unzähliger winziger Meerestiere, die über Millionen Jahre zusammengepresst wurden."
+        ],
+        [
+          "Warum nimmt man oft Granit für Bordsteine und Treppen?",
+          "er ist hart und hält sehr lange",
+          "er schmilzt im Regen",
+          "er ist weich und bröselt",
+          "Harte Gesteine wie Granit nutzen sich kaum ab, auch wenn viele Füße und Räder darüber gehen."
+        ],
+        [
+          "Was passiert über sehr lange Zeit mit Gestein in Wind, Regen und Frost?",
+          "es zerfällt langsam in kleinere Stücke",
+          "es wird jedes Jahr größer",
+          "es wird zu Metall",
+          "Wind, Regen und Eis zerkleinern Gestein langsam. So entstehen Kiesel, Sand und Erde."
+        ],
+        [
+          "Mary Anning lebte vor über 200 Jahren am Meer in England. Wofür wurde sie berühmt?",
+          "für das Finden von Fossilien",
+          "für das Finden von Goldmünzen",
+          "für das Finden neuer Planeten",
+          "Schon als Mädchen suchte Mary Anning an den Klippen und fand Fossilien riesiger Meeresreptilien, die vor Millionen Jahren gelebt hatten."
+        ],
+        [
+          "Wo findet man Fossilien meistens?",
+          "in Gestein, das aus Schichten von Schlamm, Sand oder Schalen entstand",
+          "in den Flammen eines Vulkans",
+          "hoch oben in den Wolken",
+          "Fossilien entstehen in Schlamm und Sand, die langsam zu geschichtetem Gestein werden, wie Kalkstein oder Sandstein."
+        ],
+        [
+          "Was davon kann zu einem Fossil werden?",
+          "ein Dinosaurier-Fußabdruck im Schlamm",
+          "ein Regenbogen",
+          "ein Schatten",
+          "Wird ein Fußabdruck im weichen Schlamm bedeckt und der Schlamm zu Gestein, bleibt der Abdruck als Spurenfossil erhalten."
+        ],
+        [
+          "Was können uns Fossilien verraten?",
+          "welche Pflanzen und Tiere vor langer Zeit lebten",
+          "wie das Wetter morgen wird",
+          "wie spät es ist",
+          "Fossilien zeigen uns Lebewesen, die es nicht mehr gibt, wie Dinosaurier, und wie sich das Leben auf der Erde verändert hat."
+        ],
+        [
+          "Was davon ist ein natürliches Gestein, das nicht von Menschen gemacht wurde?",
+          "Granit",
+          "ein Ziegelstein",
+          "Beton",
+          "Granit entsteht tief in der Erde. Ziegel und Beton werden von Menschen hergestellt, auch wenn sie wie Stein aussehen."
+        ],
+        [
+          "Wie kannst du testen, ob ein Gestein hart oder weich ist?",
+          "versuchen, es mit einem Stahlnagel zu ritzen",
+          "daran riechen",
+          "ihm zuhören",
+          "Ein weiches Gestein wie Kreide lässt sich leicht ritzen. Ein hartes wie Granit bekommt kaum einen Kratzer."
+        ],
+        [
+          "Wie kannst du testen, ob ein Gestein wasserdurchlässig ist?",
+          "Wasser darauf tropfen und schauen, ob es einsickert",
+          "es mit einer Taschenlampe anleuchten",
+          "es in den Kühlschrank legen",
+          "Verschwindet das Wasser im Gestein, ist es durchlässig. Bleiben die Tropfen oben liegen, ist es undurchlässig."
+        ],
+        [
+          "Wenn du sehr tief unter der Erde gräbst, worauf stößt du?",
+          "auf festes Gestein",
+          "auf den Himmel",
+          "auf eine Schicht Zucker",
+          "Die Erdschicht ist nur dünn. Darunter liegt immer festes Gestein, das Grundgestein."
+        ],
+        [
+          "Warum mischen Gärtner und Bauern Kompost unter die Erde?",
+          "er macht die Erde nährstoffreich, damit Pflanzen besser wachsen",
+          "er macht die Erde so hart wie Glas",
+          "er hält alle Würmer fern",
+          "Kompost sind verrottete Pflanzenreste. Er bringt Nährstoffe in die Erde und hilft ihr, Wasser zu halten."
+        ],
+        [
+          "Warum sind die Kiesel am Strand so glatt und rund?",
+          "Wellen haben sie jahrelang gerollt und aneinander gerieben",
+          "Menschen polieren sie jede Nacht",
+          "sie wurden in einer Fabrik gemacht",
+          "Das Meer schlägt kantige Steinstücke immer wieder aneinander, bis ihre Kanten glatt abgeschliffen sind."
+        ]
+      ],
+      "fr": [
+        [
+          "Qu’est-ce qu’un fossile ?",
+          "les restes ou l’empreinte d’une plante ou d’un animal d’il y a très longtemps, gardés dans la roche",
+          "une pierre brillante fabriquée la semaine dernière",
+          "une sorte de terre pour les fleurs",
+          "Les fossiles sont des parties dures, des formes ou des empreintes d’êtres vivants d’il y a très longtemps, conservées dans la roche."
+        ],
+        [
+          "Laquelle est une roche très dure ?",
+          "le granite",
+          "la craie",
+          "une motte de terre",
+          "Le granite est si dur qu’on en fait des marches et des bâtiments. La craie est tendre et la terre s’effrite facilement."
+        ],
+        [
+          "Tu frottes un morceau de craie sur la cour. Pourquoi laisse-t-il une trace ?",
+          "la craie est une roche tendre qui s’use facilement",
+          "la craie est la roche la plus dure qui existe",
+          "la cour est faite de craie",
+          "La craie est tendre : de tout petits morceaux restent sur le sol et font un trait."
+        ],
+        [
+          "Que veut dire qu’une roche est perméable ?",
+          "l’eau peut s’y infiltrer et la traverser",
+          "l’eau ne peut jamais y entrer",
+          "elle fabrique sa propre eau",
+          "Les roches perméables ont de tout petits trous qui laissent entrer l’eau. Les roches imperméables ne la laissent pas passer."
+        ],
+        [
+          "Tu fais tomber des gouttes d’eau sur trois roches. Laquelle les absorbe ?",
+          "la craie",
+          "le granite",
+          "l’ardoise",
+          "La craie est pleine de tout petits trous : l’eau s’y infiltre. Le granite et l’ardoise ne laissent pas entrer l’eau."
+        ],
+        [
+          "Pourquoi l’ardoise est-elle une bonne roche pour les toits ?",
+          "elle ne laisse pas passer l’eau",
+          "elle est tendre et s’effrite",
+          "elle boit la pluie comme une éponge",
+          "L’ardoise est imperméable et se coupe en plaques fines et plates : la pluie coule dessus et la maison reste sèche."
+        ],
+        [
+          "Comment se forment la plupart des fossiles ?",
+          "une plante ou un animal mort est recouvert de boue ou de sable, qui devient lentement de la roche",
+          "un animal se change en pierre en une nuit",
+          "des gens les sculptent dans la roche",
+          "Pendant des millions d’années, des couches de boue s’entassent et durcissent en roche : les restes enfouis deviennent des fossiles."
+        ],
+        [
+          "Combien de temps faut-il pour qu’un fossile se forme ?",
+          "très longtemps, souvent des millions d’années",
+          "environ une semaine",
+          "quelques minutes",
+          "La boue ne devient de la roche que très lentement : la plupart des fossiles ont mis des millions d’années à se former."
+        ],
+        [
+          "Quelles parties d’un animal deviennent le plus souvent des fossiles ?",
+          "les parties dures, comme les os, les dents et les coquilles",
+          "les yeux, qui sont mous",
+          "la fourrure et les plumes",
+          "Les parties molles pourrissent vite. Les parties dures durent assez longtemps pour être enfouies et devenir des fossiles."
+        ],
+        [
+          "De quoi est faite la terre du jardin ?",
+          "de tout petits morceaux de roche, de restes de plantes et d’animaux, d’air et d’eau",
+          "seulement de sucre",
+          "seulement de plastique",
+          "La terre se forme quand la roche se casse en minuscules morceaux et se mélange à des restes d’êtres vivants, à de l’air et à de l’eau."
+        ],
+        [
+          "D’où vient le sable de la plage ?",
+          "de roches et de coquillages réduits en miettes par les vagues pendant très longtemps",
+          "il pousse sur les arbres",
+          "il tombe des nuages",
+          "Pendant des années, les vagues cognent roches et coquillages les uns contre les autres et les réduisent en grains de sable."
+        ],
+        [
+          "Dans quelle terre l’eau s’écoule-t-elle le plus vite ?",
+          "la terre sableuse, aux gros grains",
+          "la terre argileuse, aux grains minuscules et collants",
+          "les deux, exactement à la même vitesse",
+          "La terre sableuse a de grands espaces entre ses grains : l’eau passe vite. L’argile retient l’eau."
+        ],
+        [
+          "Comment est la terre argileuse quand elle est mouillée ?",
+          "collante et facile à modeler",
+          "sèche et poussiéreuse",
+          "aussi liquide que l’eau",
+          "L’argile a des grains minuscules qui retiennent l’eau : mouillée, elle colle et se modèle, par exemple pour faire des pots."
+        ],
+        [
+          "Comment appelle-t-on les restes sombres et pourris de feuilles et de plantes dans la terre ?",
+          "l’humus",
+          "la lave",
+          "le granite",
+          "L’humus se forme quand des plantes et des animaux morts pourrissent. Il rend la terre sombre et riche pour les plantes."
+        ],
+        [
+          "Quel animal aide à mélanger la terre et à y faire entrer de l’air ?",
+          "le ver de terre",
+          "le requin",
+          "le chameau",
+          "Les vers de terre creusent des galeries : ils mélangent la terre et y laissent de la place pour l’air et l’eau."
+        ],
+        [
+          "Pourquoi la terre est-elle si importante pour les plantes ?",
+          "les plantes y poussent et y puisent l’eau et les nutriments",
+          "la terre fait briller le Soleil",
+          "la terre garde les poissons au sec",
+          "Les racines tiennent la plante dans la terre et y puisent l’eau et les nutriments dont elle a besoin."
+        ],
+        [
+          "Comment appelle-t-on la roche chaude et fondue qui sort d’un volcan ?",
+          "la lave",
+          "le sable",
+          "la craie",
+          "Très profond sous terre, il fait assez chaud pour faire fondre la roche. Quand elle sort d’un volcan, c’est de la lave, qui refroidit en roche dure."
+        ],
+        [
+          "Quelle roche est faite des minuscules coquilles d’animaux marins d’il y a très longtemps ?",
+          "la craie",
+          "le granite",
+          "l’ardoise",
+          "La craie s’est formée au fond de la mer avec les coquilles d’innombrables petits animaux, tassées pendant des millions d’années."
+        ],
+        [
+          "Pourquoi utilise-t-on souvent le granite pour les bordures de trottoir et les marches ?",
+          "il est dur et dure très longtemps",
+          "il fond sous la pluie",
+          "il est tendre et s’effrite",
+          "Les roches dures comme le granite s’usent très peu, même quand beaucoup de pieds et de roues passent dessus."
+        ],
+        [
+          "Que deviennent les roches, très longtemps exposées au vent, à la pluie et au gel ?",
+          "elles s’usent lentement en morceaux plus petits",
+          "elles grossissent chaque année",
+          "elles se changent en métal",
+          "Le vent, la pluie et la glace cassent lentement les roches. C’est ainsi que se forment les galets, le sable et la terre."
+        ],
+        [
+          "Mary Anning vivait au bord de la mer, en Angleterre, il y a plus de 200 ans. Qu’a-t-elle trouvé qui l’a rendue célèbre ?",
+          "des fossiles",
+          "des pièces d’or",
+          "de nouvelles planètes",
+          "Toute jeune, Mary Anning fouillait les falaises et a trouvé des fossiles d’énormes reptiles marins vieux de millions d’années."
+        ],
+        [
+          "Où trouve-t-on le plus souvent des fossiles ?",
+          "dans les roches faites de couches de boue, de sable ou de coquilles",
+          "dans les flammes d’un volcan",
+          "tout en haut dans les nuages",
+          "Les fossiles se forment dans la boue et le sable qui durcissent lentement en roches à couches, comme le calcaire ou le grès."
+        ],
+        [
+          "Lequel peut devenir un fossile ?",
+          "une empreinte de dinosaure dans la boue",
+          "un arc-en-ciel",
+          "une ombre",
+          "Si une empreinte dans la boue molle est recouverte et que la boue devient de la roche, l’empreinte est gardée comme fossile."
+        ],
+        [
+          "Que peuvent nous apprendre les fossiles ?",
+          "quelles plantes et quels animaux vivaient il y a longtemps",
+          "le temps qu’il fera demain",
+          "l’heure qu’il est",
+          "Les fossiles nous montrent des êtres vivants qui n’existent plus, comme les dinosaures, et comment la vie sur Terre a changé."
+        ],
+        [
+          "Laquelle est une roche naturelle, qui n’a pas été fabriquée par l’homme ?",
+          "le granite",
+          "une brique",
+          "le béton",
+          "Le granite se forme au fond de la Terre. Les briques et le béton sont fabriqués par les gens, même s’ils ressemblent à de la pierre."
+        ],
+        [
+          "Comment tester si une roche est dure ou tendre ?",
+          "essayer de la rayer avec un clou en acier",
+          "la sentir",
+          "l’écouter",
+          "Une roche tendre comme la craie se raye facilement. Une roche dure comme le granite garde à peine une trace."
+        ],
+        [
+          "Comment tester si une roche est perméable ?",
+          "y faire tomber des gouttes d’eau et voir si elles s’infiltrent",
+          "l’éclairer avec une lampe de poche",
+          "la mettre au réfrigérateur",
+          "Si l’eau disparaît dans la roche, elle est perméable. Si les gouttes restent dessus, elle est imperméable."
+        ],
+        [
+          "Si tu creuses très profond sous la terre, sur quoi tombes-tu ?",
+          "sur de la roche dure",
+          "sur le ciel",
+          "sur une couche de sucre",
+          "La terre n’est qu’une couche fine. En dessous, il y a toujours de la roche solide, qu’on appelle le socle."
+        ],
+        [
+          "Pourquoi les jardiniers et les agriculteurs ajoutent-ils du compost à la terre ?",
+          "il l’enrichit pour que les plantes poussent mieux",
+          "il rend la terre aussi dure que le verre",
+          "il fait fuir tous les vers",
+          "Le compost, ce sont des restes de plantes pourris. Il apporte des nutriments à la terre et l’aide à garder l’eau."
+        ],
+        [
+          "Pourquoi les galets de la plage sont-ils si lisses et ronds ?",
+          "les vagues les ont roulés et frottés les uns contre les autres pendant des années",
+          "des gens les polissent chaque nuit",
+          "ils ont été fabriqués en usine",
+          "La mer cogne encore et encore les morceaux de roche pointus jusqu’à ce que leurs bords deviennent lisses."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni fọ́síìlì?",
+          "ìyókù tàbí àpẹẹrẹ ewéko tàbí ẹranko ayé àtijọ́ tí ó wà nínú àpáta",
+          "òkúta dídán tí wọ́n ṣe lọ́sẹ̀ tó kọjá",
+          "irú erùpẹ̀ kan fún gbígbin òdòdó",
+          "Fọ́síìlì ni ẹ̀yà líle, ìrísí tàbí àpẹẹrẹ àwọn ohun alààyè tó gbé ayé ní ìgbà pípẹ́ sẹ́yìn, tí ó wà nínú àpáta."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni àpáta tó le gan-an?",
+          "gíránáítì",
+          "ẹfun",
+          "ògidì erùpẹ̀",
+          "Gíránáítì le débi pé wọ́n ń fi kọ́ àtẹ̀gùn àti ilé. Ẹfun rọ̀, erùpẹ̀ sì ń fọ́ ní irọ̀rùn."
+        ],
+        [
+          "O fi ẹfun ha ilẹ̀ ibi ìṣeré. Kí ló dé tí ó fi fi àmì sílẹ̀?",
+          "ẹfun jẹ́ àpáta rírọ̀ tí ó ń rún ní irọ̀rùn",
+          "ẹfun ni àpáta tó le jùlọ láyé",
+          "ẹfun ni wọ́n fi ṣe ilẹ̀ ibi ìṣeré náà",
+          "Ẹfun rọ̀, nítorí náà ẹ̀kúnná rẹ̀ kéékèèké ń bọ́ sí ilẹ̀, wọ́n sì ń fi ìlà sílẹ̀."
+        ],
+        [
+          "Kí ló túmọ̀ sí tí a bá sọ pé omi lè wọ inú àpáta kan?",
+          "omi lè rin wọ inú rẹ̀, kí ó sì gba inú rẹ̀ kọjá",
+          "omi kò lè wọ inú rẹ̀ láéláé",
+          "ó ń ṣe omi tirẹ̀",
+          "Àwọn àpáta kan ní ihò kéékèèké tí ń jẹ́ kí omi rin wọlé. Àwọn mìíràn kì í jẹ́ kí omi wọlé rárá."
+        ],
+        [
+          "O da omi sí orí àpáta mẹ́ta. Èwo ló fa omi náà mu?",
+          "ẹfun",
+          "gíránáítì",
+          "sílétì",
+          "Ẹfun kún fún ihò kéékèèké, nítorí náà omi ń rin wọ inú rẹ̀. Gíránáítì àti sílétì kì í jẹ́ kí omi wọlé."
+        ],
+        [
+          "Kí ló dé tí sílétì fi dára fún òrùlé?",
+          "kì í jẹ́ kí omi kọjá",
+          "ó rọ̀, ó sì ń fọ́ wẹ́wẹ́",
+          "ó ń fa òjò mu bí kànìnkànìn",
+          "Omi kì í wọ inú sílétì, wọ́n sì lè là á sí pẹlẹbẹ tínrín, nítorí náà òjò ń ṣàn lọ, ilé sì ń gbẹ."
+        ],
+        [
+          "Báwo ni ọ̀pọ̀ fọ́síìlì ṣe ń wáyé?",
+          "ẹrẹ̀ tàbí iyanrìn bo ewéko tàbí ẹranko tó ti kú, ó sì di àpáta díẹ̀díẹ̀",
+          "ẹranko kan di òkúta ní òru kan ṣoṣo",
+          "àwọn ènìyàn ló gbẹ́ wọn láti inú àpáta",
+          "Láàárín ọ̀pọ̀ mílíọ̀nù ọdún, ìpele ẹrẹ̀ ń kó jọ, ó sì ń le di àpáta, ìyókù tí wọ́n bò mọ́lẹ̀ sì ń di fọ́síìlì."
+        ],
+        [
+          "Ìgbà mélòó ló máa ń gbà kí fọ́síìlì tó wáyé?",
+          "ìgbà pípẹ́ gan-an, ó sábà máa ń jẹ́ mílíọ̀nù ọdún",
+          "bí ọ̀sẹ̀ kan",
+          "ìṣẹ́jú díẹ̀",
+          "Ẹrẹ̀ máa ń di àpáta díẹ̀díẹ̀ gan-an, nítorí náà ọ̀pọ̀ fọ́síìlì gba mílíọ̀nù ọdún kí wọ́n tó wáyé."
+        ],
+        [
+          "Àwọn ẹ̀yà ara ẹranko wo ló sábà máa ń di fọ́síìlì?",
+          "ẹ̀yà líle bí egungun, eyín àti ìkarahun",
+          "ojú tó rọ̀",
+          "irun àti ìyẹ́",
+          "Ẹ̀yà ara tó rọ̀ máa ń tètè jẹrà. Ẹ̀yà líle máa ń pẹ́ tó láti di ohun tí a bò mọ́lẹ̀, kí ó sì di fọ́síìlì."
+        ],
+        [
+          "Kí ni wọ́n fi ṣe erùpẹ̀ ilẹ̀?",
+          "ẹ̀kúnná àpáta kéékèèké, ewéko àti ẹranko tó ti jẹrà, afẹ́fẹ́ àti omi",
+          "ṣúgà nìkan",
+          "ike nìkan",
+          "Erùpẹ̀ ń wáyé nígbà tí àpáta bá fọ́ sí wẹ́wẹ́, tí ó sì dàpọ̀ mọ́ ohun alààyè tó ti jẹrà, afẹ́fẹ́ àti omi."
+        ],
+        [
+          "Ibo ni iyanrìn etí òkun ti wá?",
+          "àpáta àti ìkarahun tí ìgbì òkun fọ́ sí wẹ́wẹ́ fún ìgbà pípẹ́",
+          "ó ń hù lórí igi",
+          "ó ń já bọ́ láti inú ìkùukùu",
+          "Ìgbì òkun ń kọlu àpáta àti ìkarahun mọ́ ara wọn fún ọ̀pọ̀ ọdún, ó sì ń lọ̀ wọ́n di ẹ̀kúnná iyanrìn."
+        ],
+        [
+          "Inú erùpẹ̀ wo ni omi ti máa ń ṣàn kọjá jùlọ?",
+          "erùpẹ̀ oníyanrìn tó ní ẹ̀kúnná ńlá",
+          "erùpẹ̀ amọ̀ tó ní ẹ̀kúnná kéékèèké tí ń lẹ̀ mọ́ra",
+          "àwọn méjèèjì ń ṣàn ní ìyára kan náà gẹ́lẹ́",
+          "Àlàfo ńlá wà láàárín ẹ̀kúnná erùpẹ̀ oníyanrìn, nítorí náà omi ń yára ṣàn kọjá. Amọ̀ máa ń di omi mú."
+        ],
+        [
+          "Báwo ni erùpẹ̀ amọ̀ ṣe máa ń rí tí ó bá tutù?",
+          "ó máa ń lẹ̀ mọ́ nǹkan, ó sì rọrùn láti mọ",
+          "ó gbẹ, ó sì kún fún eruku",
+          "ó máa ń ṣàn bí omi",
+          "Ẹ̀kúnná amọ̀ kéré gan-an, wọ́n sì ń di omi mú, nítorí náà amọ̀ tó tutù ń lẹ̀, a sì lè fi mọ ìkòkò."
+        ],
+        [
+          "Kí la ń pe ìyókù dúdú ewé àti ewéko tó ti jẹrà nínú erùpẹ̀?",
+          "ilẹ̀dú (humus)",
+          "àpáta yíyọ́ òkè ayọnáyèéfín",
+          "gíránáítì",
+          "Ilẹ̀dú ń wáyé nígbà tí ewéko àti ẹranko tó ti kú bá jẹrà. Ó ń mú erùpẹ̀ dúdú, ó sì ń fún ewéko ní oúnjẹ."
+        ],
+        [
+          "Ẹranko wo ló ń ràn wá lọ́wọ́ láti da erùpẹ̀ pọ̀, kí afẹ́fẹ́ lè wọ inú rẹ̀?",
+          "ekòló",
+          "ẹja yanmìyanmì",
+          "ràkúnmí",
+          "Ekòló ń gbẹ́ ọ̀nà nínú erùpẹ̀, ó ń dà á pọ̀, ó sì ń ṣe àyè fún afẹ́fẹ́ àti omi."
+        ],
+        [
+          "Kí ló dé tí erùpẹ̀ fi ṣe pàtàkì fún ewéko?",
+          "ewéko ń hù nínú rẹ̀, ó sì ń mu omi àti oúnjẹ láti inú rẹ̀",
+          "erùpẹ̀ ló ń mú oòrùn ràn",
+          "erùpẹ̀ ń jẹ́ kí ara ẹja gbẹ",
+          "Gbòǹgbò ń di ewéko mú ṣinṣin nínú erùpẹ̀, ó sì ń fa omi àti oúnjẹ tí ewéko nílò."
+        ],
+        [
+          "Kí la ń pe àpáta gbígbóná tó ti yọ́, tí ó ń ṣàn jáde láti inú òkè ayọnáyèéfín?",
+          "lááfà (lava)",
+          "iyanrìn",
+          "ẹfun",
+          "Ní ìsàlẹ̀ ilẹ̀ lọ́hùn-ún, ooru pọ̀ tó láti yọ́ àpáta. Tí ó bá ṣàn jáde láti inú òkè ayọnáyèéfín, à ń pè é ní lááfà, ó sì ń tutù di àpáta líle."
+        ],
+        [
+          "Àpáta wo ni wọ́n fi ìkarahun kéékèèké àwọn ẹ̀dá òkun ayé àtijọ́ ṣe?",
+          "ẹfun",
+          "gíránáítì",
+          "sílétì",
+          "Ẹfun wáyé ní ìsàlẹ̀ òkun láti inú ìkarahun ọ̀pọ̀lọpọ̀ ẹ̀dá òkun kéékèèké, tí wọ́n tẹ̀ pọ̀ fún mílíọ̀nù ọdún."
+        ],
+        [
+          "Kí ló dé tí wọ́n fi sábà máa ń lo gíránáítì fún etí ọ̀nà àti àtẹ̀gùn?",
+          "ó le, ó sì máa ń pẹ́ gan-an",
+          "ó máa ń yọ́ nínú òjò",
+          "ó rọ̀, ó sì ń fọ́ wẹ́wẹ́",
+          "Àpáta líle bí gíránáítì kì í tètè gbó, kódà tí ọ̀pọ̀ ẹsẹ̀ àti táyà bá ń gba orí rẹ̀ kọjá."
+        ],
+        [
+          "Kí ló máa ń ṣẹlẹ̀ sí àpáta lẹ́yìn ìgbà pípẹ́ gan-an nínú afẹ́fẹ́, òjò àti yìnyín?",
+          "wọ́n ń gbó díẹ̀díẹ̀ di ẹ̀ka kéékèèké",
+          "wọ́n ń tóbi sí i lọ́dọọdún",
+          "wọ́n ń di irin",
+          "Afẹ́fẹ́, òjò àti yìnyín ń fọ́ àpáta díẹ̀díẹ̀. Bẹ́ẹ̀ ni òkúta wẹ́wẹ́, iyanrìn àti erùpẹ̀ ṣe ń wáyé."
+        ],
+        [
+          "Mary Anning gbé ní etí òkun ní England ní ohun tó lé ní igba ọdún sẹ́yìn. Kí ló rí tí ó fi di gbajúmọ̀?",
+          "fọ́síìlì",
+          "owó wúrà",
+          "àwọn pílánẹ́ẹ̀tì tuntun",
+          "Láti kékeré ni Mary Anning ti ń wá kiri etí àpáta òkun, ó sì rí fọ́síìlì àwọn ẹranko òkun ńlá tó gbé ayé ní mílíọ̀nù ọdún sẹ́yìn."
+        ],
+        [
+          "Ibo la ti sábà máa ń rí fọ́síìlì?",
+          "nínú àpáta tí ìpele ẹrẹ̀, iyanrìn tàbí ìkarahun di",
+          "nínú iná òkè ayọnáyèéfín",
+          "lókè fíofío nínú ìkùukùu",
+          "Fọ́síìlì ń wáyé nínú ẹrẹ̀ àti iyanrìn tí ó ń le díẹ̀díẹ̀ di àpáta onípele, bí òkúta ẹfun àti òkúta iyanrìn."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló lè di fọ́síìlì?",
+          "àpẹẹrẹ ẹsẹ̀ dáínósọ̀ nínú ẹrẹ̀",
+          "òṣùmàrè",
+          "òjìji",
+          "Tí wọ́n bá bo àpẹẹrẹ ẹsẹ̀ tó wà nínú ẹrẹ̀ rírọ̀, tí ẹrẹ̀ náà sì di àpáta, àpẹẹrẹ náà á wà títí di fọ́síìlì."
+        ],
+        [
+          "Kí ni fọ́síìlì lè kọ́ wa?",
+          "àwọn ewéko àti ẹranko tó gbé ayé ní ìgbà àtijọ́",
+          "bí ojú ọjọ́ yóò ṣe rí lọ́la",
+          "àkókò tí ó jẹ́ báyìí",
+          "Fọ́síìlì ń fi àwọn ohun alààyè tí kò sí mọ́ hàn wá, bí dáínósọ̀, àti bí ìgbésí ayé lórí ilẹ̀ ayé ṣe yí padà."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni àpáta àdáyébá tí ènìyàn kò ṣe?",
+          "gíránáítì",
+          "bíríkì",
+          "kọnkéré",
+          "Gíránáítì ń wáyé nínú ilẹ̀ ayé lọ́hùn-ún. Ènìyàn ló ń ṣe bíríkì àti kọnkéré, bó tilẹ̀ jẹ́ pé wọ́n jọ òkúta."
+        ],
+        [
+          "Báwo ni o ṣe lè dán an wò bóyá àpáta kan le tàbí ó rọ̀?",
+          "gbìyànjú láti fi ìṣó irin há a",
+          "gbóòórùn rẹ̀",
+          "fetí sí i",
+          "Àpáta rírọ̀ bí ẹfun ń tètè ní àpá. Àpáta líle bí gíránáítì kì í fi bẹ́ẹ̀ ní àmì."
+        ],
+        [
+          "Báwo ni o ṣe lè dán an wò bóyá omi lè wọ inú àpáta kan?",
+          "da omi sí i lórí kí o wò bóyá ó máa rin wọlé",
+          "tan tọ́ọ̀ṣì sí i",
+          "fi í sínú fìríìjì",
+          "Tí omi bá pòórá sínú àpáta náà, omi lè wọ inú rẹ̀. Tí ẹ̀kán omi bá dúró lórí rẹ̀, omi kò lè wọlé."
+        ],
+        [
+          "Tí o bá gbẹ́ ilẹ̀ jìn gan-an lábẹ́ erùpẹ̀, kí ni o máa bá?",
+          "àpáta líle",
+          "ojú ọ̀run",
+          "ìpele ṣúgà",
+          "Ìpele erùpẹ̀ kò nípọn. Lábẹ́ rẹ̀, àpáta líle máa ń wà nígbà gbogbo."
+        ],
+        [
+          "Kí ló dé tí àwọn àgbẹ̀ fi ń da ajílẹ̀ àdáyébá (compost) sínú erùpẹ̀?",
+          "ó ń fi oúnjẹ kún erùpẹ̀ kí ewéko lè dàgbà dáadáa",
+          "ó ń mú erùpẹ̀ le bí gíláàsì",
+          "ó ń lé gbogbo ekòló lọ",
+          "Compost jẹ́ ìdọ̀tí ewéko tó ti jẹrà. Ó ń fi oúnjẹ kún erùpẹ̀, ó sì ń ràn án lọ́wọ́ láti di omi mú."
+        ],
+        [
+          "Kí ló dé tí òkúta wẹ́wẹ́ etí òkun fi dán, tí wọ́n sì rí roboto?",
+          "ìgbì òkun ti yí wọn, ó sì ti ha wọ́n mọ́ ara wọn fún ọ̀pọ̀ ọdún",
+          "àwọn ènìyàn ń dán wọn ní gbogbo alẹ́",
+          "wọ́n ṣe wọ́n nínú ilé iṣẹ́",
+          "Òkun ń kọlu ẹ̀ka àpáta tó mú mọ́ ara wọn léraléra títí etí wọn fi dán."
+        ]
+      ]
+    }
+  },
+  "emoji": "mountain",
+  "example": {
+    "i": 0,
+    "q_en": "What is a fossil?",
+    "answer_en": "the remains or print of a plant or animal from long ago, kept in rock",
+    "why_en": "Fossils are the hard parts, shapes or prints of living things that lived a very long time ago, saved in rock.",
+    "q_de": "Was ist ein Fossil?",
+    "answer_de": "Reste oder Abdruck einer Pflanze oder eines Tieres von vor langer Zeit, im Gestein erhalten",
+    "why_de": "Fossilien sind harte Teile, Formen oder Abdrücke von Lebewesen, die vor sehr langer Zeit lebten, im Gestein erhalten.",
+    "q_fr": "Qu’est-ce qu’un fossile ?",
+    "answer_fr": "les restes ou l’empreinte d’une plante ou d’un animal d’il y a très longtemps, gardés dans la roche",
+    "why_fr": "Les fossiles sont des parties dures, des formes ou des empreintes d’êtres vivants d’il y a très longtemps, conservées dans la roche.",
+    "q_yo": "Kí ni fọ́síìlì?",
+    "answer_yo": "ìyókù tàbí àpẹẹrẹ ewéko tàbí ẹranko ayé àtijọ́ tí ó wà nínú àpáta",
+    "why_yo": "Fọ́síìlì ni ẹ̀yà líle, ìrísí tàbí àpẹẹrẹ àwọn ohun alààyè tó gbé ayé ní ìgbà pípẹ́ sẹ́yìn, tí ó wà nínú àpáta."
+  },
+  "text": {
+    "en": {
+      "title": "Rocks, fossils and soils",
+      "teach": "Some rocks are hard, like granite; some are soft, like chalk. Permeable rocks let water soak in. Fossils form when remains are buried in mud that slowly turns to rock. Soil is tiny bits of rock mixed with rotted plants, air and water.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Gesteine, Fossilien und Böden",
+      "teach": "Manche Gesteine sind hart wie Granit, andere weich wie Kreide. Durchlässige Gesteine lassen Wasser einsickern. Fossilien entstehen, wenn Reste von Schlamm bedeckt werden, der langsam zu Gestein wird. Erde besteht aus winzigen Gesteinsstückchen, verrotteten Pflanzen, Luft und Wasser.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les roches, les fossiles et les sols",
+      "teach": "Certaines roches sont dures, comme le granite ; d’autres sont tendres, comme la craie. Les roches perméables laissent l’eau s’infiltrer. Les fossiles se forment quand des restes sont enfouis dans une boue qui devient lentement de la roche. La terre est faite de petits morceaux de roche, de restes de plantes, d’air et d’eau.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Àpáta, fọ́síìlì àti erùpẹ̀",
+      "teach": "Àwọn àpáta kan le, bí gíránáítì; àwọn mìíràn rọ̀, bí ẹfun. Omi lè rin wọ inú àwọn àpáta kan. Fọ́síìlì ń wáyé nígbà tí ẹrẹ̀ bá bo ìyókù ohun alààyè, tí ẹrẹ̀ náà sì di àpáta díẹ̀díẹ̀. Erùpẹ̀ ni ẹ̀kúnná àpáta tí ó dàpọ̀ mọ́ ewéko tó ti jẹrà, afẹ́fẹ́ àti omi.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

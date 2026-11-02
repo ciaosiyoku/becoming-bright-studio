@@ -43,6 +43,29 @@
   font-family: var(--display);
   font-size: 1.6rem;
   font-weight: 700;
+  line-height: 1.15;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+/* Longer words and sentences get smaller letters, so they always fit inside the card. */
+.memory-text.m {
+  font-size: 1.15rem;
+}
+.memory-text.s {
+  font-size: 0.95rem;
+}
+.memory-text.xs {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+/* Boards with sentences (question banks): fewer, taller cards. */
+.memory-board.wordy {
+  grid-template-columns: repeat(3, 1fr);
+}
+.memory-board.wordy .memory-card {
+  aspect-ratio: auto;
+  min-height: 7.5rem;
 }
 /* Pictures to count, and words, made small enough for a card. */
 .memory-card .count {
@@ -72,5 +95,8 @@
 @media (min-width: 900px) {
   .memory-board {
     grid-template-columns: repeat(6, 1fr);
+  }
+  .memory-board.wordy {
+    grid-template-columns: repeat(4, 1fr);
   }
 }

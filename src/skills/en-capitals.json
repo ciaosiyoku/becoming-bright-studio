@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "words",
   "stage": 1,
+  "ages": [
+    "6-7"
+  ],
   "order": 18,
   "only": "en",
   "params": {
@@ -16,7 +19,27 @@
       "fruit-apple",
       "clock",
       "snowman",
-      "teddy"
+      "teddy",
+      "airplane",
+      "calendar",
+      "paws",
+      "rain",
+      "map",
+      "gift",
+      "bus",
+      "girl",
+      "sun",
+      "animal-giraffe",
+      "globe",
+      "sun-small-cloud",
+      "books",
+      "snowflake",
+      "animal-chipmunk",
+      "cookie",
+      "calendar",
+      "mountain",
+      "footprints",
+      "school"
     ],
     "bank": {
       "en": [
@@ -89,6 +112,146 @@
           "bobo",
           "BoBo",
           "A name starts with one capital letter at the front."
+        ],
+        [
+          "Which is written correctly?",
+          "We visited Paris in June.",
+          "We visited paris in June.",
+          "We visited Paris in june.",
+          "Paris is a place and June is a month, so both need a capital letter."
+        ],
+        [
+          "Which word should start with a capital letter?",
+          "friday",
+          "fence",
+          "feather",
+          "Friday is a day of the week, so it needs a capital F."
+        ],
+        [
+          "Which is written correctly?",
+          "Tom has a cat called Tiger.",
+          "Tom has a cat called tiger.",
+          "tom has a cat called Tiger.",
+          "Tom and Tiger are both names, so they both start with a capital letter."
+        ],
+        [
+          "Which is written correctly?",
+          "Is it raining today?",
+          "is it raining today?",
+          "Is it Raining today?",
+          "Only the first word needs a capital. Raining is not a name."
+        ],
+        [
+          "Which word should start with a capital letter?",
+          "london",
+          "lemon",
+          "ladder",
+          "London is the name of a city, so it needs a capital L."
+        ],
+        [
+          "Which is written correctly?",
+          "My birthday is in December.",
+          "My birthday is in december.",
+          "my Birthday is in December.",
+          "The sentence starts with a capital, and months like December do too."
+        ],
+        [
+          "Which is written correctly?",
+          "The bus stops at Green Street.",
+          "The bus stops at green street.",
+          "The Bus stops at Green Street.",
+          "Green Street is the name of a place, so it has capitals. Bus is not a name."
+        ],
+        [
+          "Which word should start with a capital letter?",
+          "emma",
+          "egg",
+          "elephant",
+          "Emma is a girl’s name, so it needs a capital E."
+        ],
+        [
+          "Which is written correctly?",
+          "Today I feel happy.",
+          "today I feel happy.",
+          "Today i feel happy.",
+          "Start the sentence with a capital and always write I as a capital."
+        ],
+        [
+          "Which is written correctly?",
+          "Leo and Zara went to the zoo.",
+          "Leo and zara went to the zoo.",
+          "leo and Zara went to the Zoo.",
+          "Leo and Zara are names, so both need capitals. Zoo is not a name."
+        ],
+        [
+          "Which is written correctly?",
+          "Wales is next to England.",
+          "wales is next to England.",
+          "Wales is next to england.",
+          "Wales and England are names of countries, so both need a capital letter."
+        ],
+        [
+          "Which word should start with a capital letter?",
+          "sunday",
+          "sand",
+          "sock",
+          "Sunday is a day of the week, so it needs a capital S."
+        ],
+        [
+          "Which is written correctly?",
+          "Ruby likes to read books.",
+          "ruby likes to read books.",
+          "Ruby likes to read Books.",
+          "Ruby is a name, so it has a capital. Books is not a name."
+        ],
+        [
+          "Which is written correctly?",
+          "In winter we make a snowman.",
+          "In Winter we make a snowman.",
+          "in winter we make a snowman.",
+          "The sentence starts with a capital, but seasons like winter do not need one."
+        ],
+        [
+          "My hamster is called ___.",
+          "Nibbles",
+          "nibbles",
+          "niBbles",
+          "A pet’s name starts with one capital letter at the front."
+        ],
+        [
+          "Which is written correctly?",
+          "Dad and I baked cookies.",
+          "dad and I baked cookies.",
+          "Dad and i baked cookies.",
+          "The first word needs a capital, and I is always a capital."
+        ],
+        [
+          "Which is written correctly?",
+          "We play football on Wednesday.",
+          "We play Football on Wednesday.",
+          "We play football on wednesday.",
+          "Wednesday is a day, so it needs a capital. Football is not a name."
+        ],
+        [
+          "Which word should start with a capital letter?",
+          "scotland",
+          "school",
+          "spoon",
+          "Scotland is the name of a country, so it needs a capital S."
+        ],
+        [
+          "Which is written correctly?",
+          "Where is Noah?",
+          "where is Noah?",
+          "Where is noah?",
+          "A question starts with a capital, and the name Noah does too."
+        ],
+        [
+          "Which is written correctly?",
+          "Mr Brown is our teacher.",
+          "mr Brown is our teacher.",
+          "Mr brown is our teacher.",
+          "Mr and Brown are part of a name, so both start with a capital letter."
         ]
       ]
     }

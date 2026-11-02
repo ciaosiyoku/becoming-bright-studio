@@ -1,0 +1,274 @@
+{
+  "id": "en4-opposites",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 106,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "animal-elephant",
+      "fire",
+      "airplane",
+      "umbrella",
+      "sun",
+      "animal-snail",
+      "animal-giraffe",
+      "locked",
+      "party",
+      "battery",
+      "light",
+      "bell",
+      "teddy",
+      "animal-zebra",
+      "road",
+      "chick",
+      "snake",
+      "mountain",
+      "trophy",
+      "snowman",
+      "fruit-lemon",
+      "house",
+      "shoe",
+      "backpack",
+      "medal",
+      "animal-owl",
+      "cloud",
+      "books",
+      "footprints",
+      "droplet"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is the opposite of big?",
+          "small",
+          "hot",
+          "wet",
+          "Big and small are opposites."
+        ],
+        [
+          "What is the opposite of hot?",
+          "cold",
+          "big",
+          "up",
+          "Hot and cold are opposites."
+        ],
+        [
+          "What is the opposite of up?",
+          "down",
+          "wet",
+          "big",
+          "Up and down are opposites."
+        ],
+        [
+          "What is the opposite of wet?",
+          "dry",
+          "tall",
+          "slow",
+          "Wet and dry are opposites."
+        ],
+        [
+          "What is the opposite of day?",
+          "night",
+          "hot",
+          "up",
+          "Day and night are opposites."
+        ],
+        [
+          "What is the opposite of slow?",
+          "fast",
+          "small",
+          "wet",
+          "Slow and fast are opposites."
+        ],
+        [
+          "What is the opposite of tall?",
+          "short",
+          "hot",
+          "open",
+          "Tall and short are opposites."
+        ],
+        [
+          "What is the opposite of closed?",
+          "open",
+          "short",
+          "dry",
+          "Closed and open are opposites."
+        ],
+        [
+          "What is the opposite of happy?",
+          "sad",
+          "tall",
+          "wet",
+          "Happy and sad are opposites."
+        ],
+        [
+          "What is the opposite of full?",
+          "empty",
+          "fast",
+          "hot",
+          "Full and empty are opposites."
+        ],
+        [
+          "What is the opposite of on?",
+          "off",
+          "big",
+          "sad",
+          "On and off are opposites."
+        ],
+        [
+          "What is the opposite of loud?",
+          "quiet",
+          "tall",
+          "wet",
+          "Loud and quiet are opposites."
+        ],
+        [
+          "What is the opposite of soft?",
+          "hard",
+          "up",
+          "sad",
+          "Soft and hard are opposites."
+        ],
+        [
+          "What is the opposite of black?",
+          "white",
+          "slow",
+          "big",
+          "Black and white are opposites."
+        ],
+        [
+          "What is the opposite of stop?",
+          "go",
+          "tall",
+          "wet",
+          "Stop and go are opposites."
+        ],
+        [
+          "What is the opposite of young?",
+          "old",
+          "fast",
+          "wet",
+          "Young and old are opposites."
+        ],
+        [
+          "What is the opposite of long?",
+          "short",
+          "hot",
+          "happy",
+          "Long and short are opposites."
+        ],
+        [
+          "What is the opposite of top?",
+          "bottom",
+          "fast",
+          "open",
+          "Top and bottom are opposites."
+        ],
+        [
+          "What is the opposite of win?",
+          "lose",
+          "tall",
+          "cold",
+          "Win and lose are opposites."
+        ],
+        [
+          "What is the opposite of summer?",
+          "winter",
+          "big",
+          "fast",
+          "Summer and winter are opposites."
+        ],
+        [
+          "What is the opposite of sour?",
+          "sweet",
+          "tall",
+          "wet",
+          "Sour and sweet are opposites."
+        ],
+        [
+          "What is the opposite of in?",
+          "out",
+          "big",
+          "slow",
+          "In and out are opposites."
+        ],
+        [
+          "What is the opposite of clean?",
+          "dirty",
+          "fast",
+          "tall",
+          "Clean and dirty are opposites."
+        ],
+        [
+          "What is the opposite of front?",
+          "back",
+          "hot",
+          "sad",
+          "Front and back are opposites."
+        ],
+        [
+          "What is the opposite of first?",
+          "last",
+          "tall",
+          "wet",
+          "First and last are opposites."
+        ],
+        [
+          "What is the opposite of asleep?",
+          "awake",
+          "cold",
+          "short",
+          "Asleep and awake are opposites."
+        ],
+        [
+          "What is the opposite of high?",
+          "low",
+          "fast",
+          "sad",
+          "High and low are opposites."
+        ],
+        [
+          "What is the opposite of thick?",
+          "thin",
+          "fast",
+          "happy",
+          "Thick and thin are opposites."
+        ],
+        [
+          "What is the opposite of near?",
+          "far",
+          "sad",
+          "wet",
+          "Near and far are opposites."
+        ],
+        [
+          "What is the opposite of laugh?",
+          "cry",
+          "jump",
+          "swim",
+          "Laugh and cry are opposites."
+        ]
+      ]
+    }
+  },
+  "emoji": "sun",
+  "example": {
+    "i": 0,
+    "q_en": "What is the opposite of big?",
+    "answer_en": "small",
+    "why_en": "Big and small are opposites."
+  },
+  "text": {
+    "en": {
+      "title": "Opposites",
+      "teach": "Opposites are as different as can be. Big and small are opposites, and so are hot and cold.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

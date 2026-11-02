@@ -1,25 +1,42 @@
 import { ArrowLeft, Pause, Play } from 'lucide-react'
 import { useState } from 'react'
-import { useT } from '@/i18n'
+import { activeChild } from '@/app/state'
+import { useStore } from '@/app/store'
+import { useLang, useT } from '@/i18n'
+import { AGE_BANDS, type AgeBand, bandOf } from '@/skills/ages'
 import { clock } from '@/shared/clock'
 import { Emoji } from '@/shared/Emoji'
-import { COLLECTIONS, type Collection } from './sources'
+import type { Collection } from './sources'
+import { STORIES } from './storyList'
 import { useAudio } from './useAudio'
 import './Media.css'
 
 const RATES = [0.75, 0.9, 1] as const
 
-/** Classic children's books read aloud (LibriVox, public domain): pick a book, then a story. */
+/** Classic children's books read aloud (LibriVox, public domain), by age range: pick a book, then a story. */
 export function Stories() {
   const T = useT()
+  const lang = useLang()
+  const { state } = useStore()
+  const age = activeChild(state)?.age
+  const [band, setBand] = useState<AgeBand>(age ? bandOf(age) : '6-7')
   const [open, setOpen] = useState<Collection | null>(null)
+  // The child's age range first; books in the app language first.
+  const books = STORIES.filter((c) => c.band === band).sort((a, b) => Number(b.lang === lang) - Number(a.lang === lang))
   return (
     <div className="listen">
       {open ? (
         <CollectionView collection={open} onBack={() => setOpen(null)} />
       ) : (
         <div className="listen-grid">
-          {COLLECTIONS.map((c) => (
+          <div className="shelf-tabs listen-note" role="radiogroup">
+            {AGE_BANDS.map((b) => (
+              <button key={b} role="radio" aria-checked={b === band} className={b === band ? '' : 'secondary'} onClick={() => setBand(b)}>
+                {T.listen.ages(b)}
+              </button>
+            ))}
+          </div>
+          {books.map((c) => (
             <button key={c.id} className="card station" onClick={() => setOpen(c)}>
               <Emoji name={c.emoji} size={72} />
               <span>

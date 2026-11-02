@@ -43,7 +43,7 @@ export function Shell({ tab, onTab, onParent, children }: { tab: MainTab; onTab:
         <span className="earned-chip" title={T.access.earnedTime}>
           <Clock size={20} /> {clock(left)}
         </span>
-        <button className="secondary" onClick={onParent}>
+        <button className="secondary" onClick={onParent} aria-label={T.home.parents}>
           <Settings /> <span className="wide-only">{T.home.parents}</span>
         </button>
       </header>

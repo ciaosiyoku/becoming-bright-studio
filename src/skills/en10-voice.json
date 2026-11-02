@@ -1,0 +1,274 @@
+{
+  "id": "en10-voice",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 203,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "house",
+      "cake",
+      "memo",
+      "trophy",
+      "music",
+      "road",
+      "openbook",
+      "calendar",
+      "animal-mouse",
+      "school",
+      "bone",
+      "palette",
+      "fire",
+      "gift",
+      "animal-honeybee",
+      "cloud",
+      "animal-rabbit",
+      "scroll",
+      "storm",
+      "tv",
+      "game",
+      "books",
+      "seedling",
+      "puzzle",
+      "warning",
+      "light",
+      "map",
+      "framed",
+      "medal",
+      "key"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which sentence is in the passive voice?",
+          "The window was broken by the ball.",
+          "The ball broke the window.",
+          "The boy kicked the ball.",
+          "In a passive sentence, the thing the action happens to comes first, and the verb uses a form of “be”: The window was broken by the ball."
+        ],
+        [
+          "Which sentence is in the passive voice?",
+          "The cake was eaten by the children.",
+          "The children ate the cake.",
+          "The children baked a cake.",
+          "In a passive sentence, the thing the action happens to comes first, and the verb uses a form of “be”: The cake was eaten by the children."
+        ],
+        [
+          "Which sentence is in the passive voice?",
+          "The letter was written by Grandma.",
+          "Grandma wrote a letter.",
+          "Grandma posted the letter.",
+          "In a passive sentence, the thing the action happens to comes first, and the verb uses a form of “be”: The letter was written by Grandma."
+        ],
+        [
+          "Which sentence is in the passive voice?",
+          "The match was won by our team.",
+          "Our team won the match.",
+          "Our team played well.",
+          "In a passive sentence, the thing the action happens to comes first, and the verb uses a form of “be”: The match was won by our team."
+        ],
+        [
+          "Which sentence is in the passive voice?",
+          "The song was sung by the choir.",
+          "The choir sang the song.",
+          "The choir loves singing.",
+          "In a passive sentence, the thing the action happens to comes first, and the verb uses a form of “be”: The song was sung by the choir."
+        ],
+        [
+          "Which sentence is in the passive voice?",
+          "The bridge is being repaired.",
+          "Workers are repairing the bridge.",
+          "The bridge looks very old.",
+          "In a passive sentence, the thing the action happens to comes first, and the verb uses a form of “be”: The bridge is being repaired."
+        ],
+        [
+          "Which sentence is in the passive voice?",
+          "The homework has been finished.",
+          "I have finished my homework.",
+          "I am doing my homework.",
+          "In a passive sentence, the thing the action happens to comes first, and the verb uses a form of “be”: The homework has been finished."
+        ],
+        [
+          "Which sentence is in the passive voice?",
+          "The tickets were sold in an hour.",
+          "They sold the tickets in an hour.",
+          "We bought two tickets.",
+          "In a passive sentence, the thing the action happens to comes first, and the verb uses a form of “be”: The tickets were sold in an hour."
+        ],
+        [
+          "Which sentence is in the passive voice?",
+          "The mouse was chased by the cat.",
+          "The cat chased the mouse.",
+          "The mouse ran away.",
+          "In a passive sentence, the thing the action happens to comes first, and the verb uses a form of “be”: The mouse was chased by the cat."
+        ],
+        [
+          "Which sentence is in the passive voice?",
+          "The new school will be opened by the mayor.",
+          "The mayor will open the new school.",
+          "The mayor is visiting the school.",
+          "In a passive sentence, the thing the action happens to comes first, and the verb uses a form of “be”: The new school will be opened by the mayor."
+        ],
+        [
+          "Which sentence is in the active voice?",
+          "The dog buried a bone.",
+          "A bone was buried by the dog.",
+          "The bone was hidden in the garden.",
+          "In an active sentence, the doer comes first and does the action: The dog buried a bone."
+        ],
+        [
+          "Which sentence is in the active voice?",
+          "Mum painted the fence.",
+          "The fence was painted by Mum.",
+          "The fence is painted every year.",
+          "In an active sentence, the doer comes first and does the action: Mum painted the fence."
+        ],
+        [
+          "Which sentence is in the active voice?",
+          "The chef cooked the dinner.",
+          "The dinner was cooked by the chef.",
+          "The dinner has been served.",
+          "In an active sentence, the doer comes first and does the action: The chef cooked the dinner."
+        ],
+        [
+          "Which sentence is in the active voice?",
+          "Sara opened the present.",
+          "The present was opened by Sara.",
+          "The present was wrapped in red paper.",
+          "In an active sentence, the doer comes first and does the action: Sara opened the present."
+        ],
+        [
+          "Which sentence is in the active voice?",
+          "Bees make honey.",
+          "Honey is made by bees.",
+          "Honey is sold at the market.",
+          "In an active sentence, the doer comes first and does the action: Bees make honey."
+        ],
+        [
+          "What is the passive form of “The wind blew the tent away.”?",
+          "The tent was blown away by the wind.",
+          "The wind was blown away by the tent.",
+          "The tent blows the wind away.",
+          "The object moves to the front and the verb becomes passive: The tent was blown away by the wind. The meaning stays the same."
+        ],
+        [
+          "What is the passive form of “Tom feeds the rabbits.”?",
+          "The rabbits are fed by Tom.",
+          "Tom is fed by the rabbits.",
+          "The rabbits feed Tom.",
+          "The object moves to the front and the verb becomes passive: The rabbits are fed by Tom. The meaning stays the same."
+        ],
+        [
+          "What is the passive form of “The teacher marked the tests.”?",
+          "The tests were marked by the teacher.",
+          "The teacher was marked by the tests.",
+          "The tests marked the teacher.",
+          "The object moves to the front and the verb becomes passive: The tests were marked by the teacher. The meaning stays the same."
+        ],
+        [
+          "What is the passive form of “A storm damaged the roof.”?",
+          "The roof was damaged by a storm.",
+          "The storm was damaged by the roof.",
+          "The roof damaged a storm.",
+          "The object moves to the front and the verb becomes passive: The roof was damaged by a storm. The meaning stays the same."
+        ],
+        [
+          "What is the passive form of “Millions of people watch this show.”?",
+          "This show is watched by millions of people.",
+          "Millions of people are watched by this show.",
+          "This show watches millions of people.",
+          "The object moves to the front and the verb becomes passive: This show is watched by millions of people. The meaning stays the same."
+        ],
+        [
+          "Who does the action in “The ball was caught by Amy.”?",
+          "Amy",
+          "the ball",
+          "the coach",
+          "In a passive sentence the doer comes after “by”, so it is Amy."
+        ],
+        [
+          "Who does the action in “The poem was read by Leo.”?",
+          "Leo",
+          "the poem",
+          "the teacher",
+          "In a passive sentence the doer comes after “by”, so it is Leo."
+        ],
+        [
+          "Who does the action in “The flowers were watered by my sister.”?",
+          "my sister",
+          "the flowers",
+          "the gardener",
+          "In a passive sentence the doer comes after “by”, so it is my sister."
+        ],
+        [
+          "Who does the action in “The puzzle was solved by Grandad.”?",
+          "Grandad",
+          "the puzzle",
+          "Grandma",
+          "In a passive sentence the doer comes after “by”, so it is Grandad."
+        ],
+        [
+          "Which passive sentence does not say who did the action?",
+          "The vase was broken.",
+          "The vase was broken by the cat.",
+          "The vase was broken by my brother.",
+          "A passive sentence can leave out the “by …” part, so we do not know who broke the vase."
+        ],
+        [
+          "Which passive sentence does not say who did the action?",
+          "The windows were cleaned yesterday.",
+          "The windows were cleaned by Dad.",
+          "The windows were cleaned by a robot.",
+          "There is no “by …” part, so the sentence does not tell us who cleaned the windows."
+        ],
+        [
+          "Which sentence is in the passive voice?",
+          "The treasure was found by two divers.",
+          "Two divers found the treasure.",
+          "Two divers swam to the wreck.",
+          "In a passive sentence, the thing the action happens to comes first, and the verb uses a form of “be”: The treasure was found by two divers."
+        ],
+        [
+          "Which sentence is in the passive voice?",
+          "The photos are kept in a box.",
+          "I keep the photos in a box.",
+          "I took some photos.",
+          "In a passive sentence, the thing the action happens to comes first, and the verb uses a form of “be”: The photos are kept in a box."
+        ],
+        [
+          "Which sentence is in the passive voice?",
+          "The rules were explained by the coach.",
+          "The coach explained the rules.",
+          "The coach blew the whistle.",
+          "In a passive sentence, the thing the action happens to comes first, and the verb uses a form of “be”: The rules were explained by the coach."
+        ],
+        [
+          "Which sentence is in the passive voice?",
+          "The gates are locked at nine.",
+          "We lock the gates at nine.",
+          "We walk home at nine.",
+          "In a passive sentence, the thing the action happens to comes first, and the verb uses a form of “be”: The gates are locked at nine."
+        ]
+      ]
+    }
+  },
+  "emoji": "memo",
+  "example": {
+    "i": 0,
+    "q_en": "Which sentence is in the passive voice?",
+    "answer_en": "The window was broken by the ball.",
+    "why_en": "In a passive sentence, the thing the action happens to comes first, and the verb uses a form of “be”: The window was broken by the ball."
+  },
+  "text": {
+    "en": {
+      "title": "Active and passive",
+      "teach": "Active: the doer comes first (The dog chased the ball). Passive: the thing the action happens to comes first, with a form of be (The ball was chased by the dog).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

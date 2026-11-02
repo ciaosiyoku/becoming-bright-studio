@@ -1,0 +1,274 @@
+{
+  "id": "fr8-er-verbs",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 3,
+  "ages": [
+    "8-9"
+  ],
+  "order": 25,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "game",
+      "speech",
+      "tv",
+      "tree",
+      "music",
+      "map",
+      "fruit-apple",
+      "radio",
+      "party",
+      "fruit-apple",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "speech",
+      "music",
+      "tv",
+      "cookie",
+      "heart",
+      "game",
+      "radio",
+      "party",
+      "house",
+      "speech",
+      "paws",
+      "radio",
+      "music",
+      "house",
+      "party",
+      "books"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Je ___ au foot. (jouer)",
+          "joue",
+          "joues",
+          "jouons",
+          "With je, add -e to jou-: je joue."
+        ],
+        [
+          "Tu ___ français. (parler)",
+          "parles",
+          "parle",
+          "parlez",
+          "With tu, add -es: tu parles."
+        ],
+        [
+          "Il ___ la télé. (regarder)",
+          "regarde",
+          "regardes",
+          "regardez",
+          "With il, add -e: il regarde."
+        ],
+        [
+          "Nous ___ au parc. (jouer)",
+          "jouons",
+          "jouez",
+          "jouent",
+          "With nous, add -ons: nous jouons."
+        ],
+        [
+          "Vous ___ bien ! (chanter)",
+          "chantez",
+          "chantons",
+          "chante",
+          "With vous, add -ez: vous chantez."
+        ],
+        [
+          "Ils ___ à Paris. (habiter)",
+          "habitent",
+          "habitez",
+          "habitons",
+          "With ils, add -ent: ils habitent."
+        ],
+        [
+          "Elle ___ les pommes. (aimer)",
+          "aime",
+          "aimes",
+          "aimons",
+          "With elle, add -e: elle aime."
+        ],
+        [
+          "J’___ la musique. (écouter)",
+          "écoute",
+          "écoutes",
+          "écoutez",
+          "With je, add -e: j’écoute."
+        ],
+        [
+          "Elles ___ dans la cour. (danser)",
+          "dansent",
+          "dansons",
+          "dansez",
+          "With elles, add -ent: elles dansent."
+        ],
+        [
+          "Nous ___ une pomme. (manger)",
+          "mangeons",
+          "mangons",
+          "mangez",
+          "For manger, nous keeps an e after the g: nous mangeons."
+        ],
+        [
+          "Which ending goes with nous for -er verbs?",
+          "-ons",
+          "-ez",
+          "-ent",
+          "Nous always takes -ons, as in nous jouons."
+        ],
+        [
+          "Which ending goes with vous for -er verbs?",
+          "-ez",
+          "-ons",
+          "-es",
+          "Vous always takes -ez, as in vous jouez."
+        ],
+        [
+          "Which ending goes with ils and elles for -er verbs?",
+          "-ent",
+          "-ons",
+          "-ez",
+          "Ils and elles take -ent, which is not said out loud: ils jouent."
+        ],
+        [
+          "Which ending goes with tu for -er verbs?",
+          "-es",
+          "-ez",
+          "-ent",
+          "Tu takes -es, as in tu joues."
+        ],
+        [
+          "What does je parle mean?",
+          "I speak",
+          "I play",
+          "I sing",
+          "Parler means to speak, so je parle is I speak."
+        ],
+        [
+          "What does nous chantons mean?",
+          "we sing",
+          "we dance",
+          "they sing",
+          "Chanter means to sing, and nous is we."
+        ],
+        [
+          "What does elle regarde mean?",
+          "she watches",
+          "she listens",
+          "she eats",
+          "Regarder means to watch or look at."
+        ],
+        [
+          "What does ils mangent mean?",
+          "they eat",
+          "they play",
+          "he eats",
+          "Manger means to eat, and ils means they."
+        ],
+        [
+          "How do you say ’I like’?",
+          "j’aime",
+          "je aime",
+          "j’aimes",
+          "Je becomes j’ before a vowel, and je takes -e: j’aime."
+        ],
+        [
+          "How do you say ’we play’?",
+          "nous jouons",
+          "nous jouez",
+          "nous joue",
+          "Nous takes -ons: nous jouons."
+        ],
+        [
+          "How do you say ’you listen’ to a group of friends?",
+          "vous écoutez",
+          "vous écoutons",
+          "tu écoutes",
+          "For a group we use vous, which takes -ez."
+        ],
+        [
+          "Which is correct?",
+          "Tu danses bien.",
+          "Tu dansez bien.",
+          "Tu dansons bien.",
+          "Tu takes -es: tu danses."
+        ],
+        [
+          "Which is correct?",
+          "Mes cousins habitent ici.",
+          "Mes cousins habitez ici.",
+          "Mes cousins habitons ici.",
+          "Mes cousins means they, so the verb ends in -ent."
+        ],
+        [
+          "Which is correct?",
+          "Marie et moi, nous parlons.",
+          "Marie et moi, nous parlent.",
+          "Marie et moi, nous parlez.",
+          "Marie and me is nous, which takes -ons."
+        ],
+        [
+          "Le chat ___ le lait. (aimer)",
+          "aime",
+          "aiment",
+          "aimez",
+          "Le chat is one animal, like il, so add -e: aime."
+        ],
+        [
+          "Mes parents ___ la radio. (écouter)",
+          "écoutent",
+          "écoute",
+          "écoutons",
+          "Mes parents means they, so add -ent: écoutent."
+        ],
+        [
+          "Tu ___ du piano ? (jouer)",
+          "joues",
+          "jouent",
+          "jouez",
+          "Tu takes -es: tu joues."
+        ],
+        [
+          "On ___ à la maison. (manger)",
+          "mange",
+          "mangeons",
+          "mangent",
+          "On works like il, so it takes -e: on mange."
+        ],
+        [
+          "Which is the infinitive of nous dansons?",
+          "danser",
+          "danse",
+          "dansons",
+          "The infinitive is the dictionary form, ending in -er: danser."
+        ],
+        [
+          "Which verb is a regular -er verb?",
+          "chanter",
+          "être",
+          "avoir",
+          "Chanter ends in -er and follows the pattern. Être and avoir are irregular."
+        ]
+      ]
+    }
+  },
+  "emoji": "music",
+  "example": {
+    "i": 0,
+    "q_en": "Je ___ au foot. (jouer)",
+    "answer_en": "joue",
+    "why_en": "With je, add -e to jou-: je joue."
+  },
+  "text": {
+    "en": {
+      "title": "Regular -er verbs",
+      "teach": "For -er verbs, take off -er and add -e, -es, -e, -ons, -ez, -ent: je joue, tu joues, il joue, nous jouons, vous jouez, ils jouent.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

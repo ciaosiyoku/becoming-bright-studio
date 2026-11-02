@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "words",
   "stage": 4,
+  "ages": [
+    "8-9"
+  ],
   "order": 27,
   "only": "en",
   "params": {
@@ -16,7 +19,27 @@
       "openbook",
       "game",
       "animal-horse",
-      "cake"
+      "cake",
+      "teddy",
+      "paws",
+      "girl",
+      "gradcap",
+      "animal-parrot",
+      "school",
+      "game",
+      "scarf",
+      "animal-mouse",
+      "animal-elephant",
+      "droplet",
+      "animal-swan",
+      "bone",
+      "shoe",
+      "animal-snail",
+      "hockey",
+      "house",
+      "animal-frog",
+      "gloves",
+      "heart"
     ],
     "bank": {
       "en": [
@@ -89,6 +112,146 @@
           "the cake of many girls",
           "lots of cakes",
           "’s after “girl” means one girl owns the cake."
+        ],
+        [
+          "The teddy belongs to one boy. It is the ___ teddy.",
+          "boy’s",
+          "boys’",
+          "boys",
+          "One boy owns the teddy, so we add ’s: boy’s."
+        ],
+        [
+          "Five cats share one basket. It is the ___ basket.",
+          "cats’",
+          "cat’s",
+          "cats",
+          "There are five cats, so the apostrophe goes after the s: cats’."
+        ],
+        [
+          "Which is correct?",
+          "Lily’s bike is new.",
+          "Lilys bike is new.",
+          "Lilys’ bike is new.",
+          "The bike belongs to Lily, so we write Lily’s."
+        ],
+        [
+          "The hats belong to the men. They are the ___ hats.",
+          "men’s",
+          "mens’",
+          "mens",
+          "“Men” does not end in s, so we add ’s: men’s."
+        ],
+        [
+          "One bird has a nest. It is the ___ nest.",
+          "bird’s",
+          "birds’",
+          "birds",
+          "One bird owns the nest, so we add ’s: bird’s."
+        ],
+        [
+          "Two teachers share a room. It is the ___ room.",
+          "teachers’",
+          "teacher’s",
+          "teachers",
+          "There are two teachers, so the apostrophe goes after the s: teachers’."
+        ],
+        [
+          "What does “the boys’ ball” mean?",
+          "the ball of more than one boy",
+          "the ball of one boy",
+          "lots of balls",
+          "The apostrophe after the s in “boys’” means many boys own the ball."
+        ],
+        [
+          "Which shows that the hat belongs to Mum?",
+          "Mum’s hat",
+          "Mums hat",
+          "Mums’ hat",
+          "One owner called Mum, so we add ’s: Mum’s."
+        ],
+        [
+          "The tails belong to the mice. They are the ___ tails.",
+          "mice’s",
+          "mices’",
+          "mices",
+          "“Mice” does not end in s, so we add ’s: mice’s."
+        ],
+        [
+          "One elephant has a long trunk. It is the ___ trunk.",
+          "elephant’s",
+          "elephants’",
+          "elephants",
+          "One elephant owns the trunk, so we add ’s: elephant’s."
+        ],
+        [
+          "Which is correct?",
+          "The baby’s bottle is warm.",
+          "The babys bottle is warm.",
+          "The babys’ bottle is warm.",
+          "The bottle belongs to one baby, so we write baby’s."
+        ],
+        [
+          "Lots of swans swim in this pond. It is the ___ pond.",
+          "swans’",
+          "swan’s",
+          "swans",
+          "Many swans share the pond, so the apostrophe goes after the s: swans’."
+        ],
+        [
+          "What does “the dog’s toys” mean?",
+          "the toys of one dog",
+          "the toys of many dogs",
+          "lots of dogs",
+          "’s after “dog” means one dog owns the toys."
+        ],
+        [
+          "The shoes belong to the women. They are the ___ shoes.",
+          "women’s",
+          "womens’",
+          "womens",
+          "“Women” does not end in s, so we add ’s: women’s."
+        ],
+        [
+          "One snail carries a shell. It is the ___ shell.",
+          "snail’s",
+          "snails’",
+          "snails",
+          "One snail owns the shell, so we add ’s: snail’s."
+        ],
+        [
+          "Many players share the changing room. It is the ___ changing room.",
+          "players’",
+          "player’s",
+          "players",
+          "Many players share the room, so the apostrophe goes after the s: players’."
+        ],
+        [
+          "Which shows that the house belongs to Gran?",
+          "Gran’s house",
+          "Grans house",
+          "Grans’ house",
+          "One owner called Gran, so we add ’s: Gran’s."
+        ],
+        [
+          "Six frogs sit on one log. It is the ___ log.",
+          "frogs’",
+          "frog’s",
+          "frogs",
+          "There are six frogs, so the apostrophe goes after the s: frogs’."
+        ],
+        [
+          "The coats belong to the people. They are the ___ coats.",
+          "people’s",
+          "peoples’",
+          "peoples",
+          "“People” does not end in s, so we add ’s: people’s."
+        ],
+        [
+          "Which is correct?",
+          "The two sisters’ bedroom is pink.",
+          "The two sister’s bedroom is pink.",
+          "The two sisters bedroom is pink.",
+          "Two sisters share the bedroom, so the apostrophe goes after the s: sisters’."
         ]
       ]
     }

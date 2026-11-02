@@ -1,0 +1,274 @@
+{
+  "id": "fr4-fruit",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 5,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "fruit-apple",
+      "letters",
+      "fruit-banana",
+      "speech",
+      "fruit-strawberry",
+      "letters",
+      "fruit-pear",
+      "speech",
+      "fruit-lemon",
+      "letters",
+      "fruit-grapes",
+      "speech",
+      "fruit-cherries",
+      "letters",
+      "fruit-peach",
+      "speech",
+      "fruit-pineapple",
+      "letters",
+      "fruit-watermelon",
+      "speech",
+      "fruit-coconut",
+      "letters",
+      "fruit-mango",
+      "speech",
+      "fruit-kiwi",
+      "fruit-blueberries",
+      "letters",
+      "speech",
+      "letters",
+      "speech"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is this fruit called in French?",
+          "la pomme",
+          "la poire",
+          "le citron",
+          "This is an apple. In French it is ‘la pomme’."
+        ],
+        [
+          "What does ‘la pomme’ mean?",
+          "apple",
+          "pear",
+          "cherry",
+          "‘La pomme’ means apple."
+        ],
+        [
+          "What is this fruit called in French?",
+          "la banane",
+          "la fraise",
+          "la pêche",
+          "This is a banana. In French it is ‘la banane’."
+        ],
+        [
+          "What does ‘la banane’ mean?",
+          "banana",
+          "lemon",
+          "grapes",
+          "‘La banane’ means banana."
+        ],
+        [
+          "What is this fruit called in French?",
+          "la fraise",
+          "la pomme",
+          "l’ananas",
+          "This is a strawberry. In French it is ‘la fraise’."
+        ],
+        [
+          "What does ‘la fraise’ mean?",
+          "strawberry",
+          "apple",
+          "coconut",
+          "‘La fraise’ means strawberry."
+        ],
+        [
+          "What is this fruit called in French?",
+          "la poire",
+          "la banane",
+          "la cerise",
+          "This is a pear. In French it is ‘la poire’."
+        ],
+        [
+          "What does ‘la poire’ mean?",
+          "pear",
+          "peach",
+          "banana",
+          "‘La poire’ means pear."
+        ],
+        [
+          "What is this fruit called in French?",
+          "le citron",
+          "la mangue",
+          "la fraise",
+          "This is a lemon. In French it is ‘le citron’."
+        ],
+        [
+          "What does ‘le citron’ mean?",
+          "lemon",
+          "melon",
+          "kiwi",
+          "‘Le citron’ means lemon."
+        ],
+        [
+          "What is this fruit called in French?",
+          "le raisin",
+          "la poire",
+          "le kiwi",
+          "This is a bunch of grapes. In French it is ‘le raisin’."
+        ],
+        [
+          "What does ‘le raisin’ mean?",
+          "grapes",
+          "apple",
+          "banana",
+          "‘Le raisin’ means grapes. A dried grape is ‘un raisin sec’."
+        ],
+        [
+          "What are these fruits called in French?",
+          "les cerises",
+          "les pommes",
+          "les bananes",
+          "These are cherries. In French they are ‘les cerises’."
+        ],
+        [
+          "What does ‘la cerise’ mean?",
+          "cherry",
+          "pear",
+          "pineapple",
+          "‘La cerise’ means cherry."
+        ],
+        [
+          "What is this fruit called in French?",
+          "la pêche",
+          "le citron",
+          "la noix de coco",
+          "This is a peach. In French it is ‘la pêche’."
+        ],
+        [
+          "What does ‘la pêche’ mean?",
+          "peach",
+          "strawberry",
+          "lemon",
+          "‘La pêche’ means peach."
+        ],
+        [
+          "What is this fruit called in French?",
+          "l’ananas",
+          "la pomme",
+          "la cerise",
+          "This is a pineapple. In French it is ‘l’ananas’."
+        ],
+        [
+          "What does ‘l’ananas’ mean?",
+          "pineapple",
+          "banana",
+          "apple",
+          "‘L’ananas’ means pineapple."
+        ],
+        [
+          "What is this fruit called in French?",
+          "la pastèque",
+          "la banane",
+          "le citron",
+          "This is a watermelon. In French it is ‘la pastèque’."
+        ],
+        [
+          "What does ‘la pastèque’ mean?",
+          "watermelon",
+          "cherry",
+          "pear",
+          "‘La pastèque’ means watermelon."
+        ],
+        [
+          "What is this fruit called in French?",
+          "la noix de coco",
+          "la fraise",
+          "la poire",
+          "This is a coconut. In French it is ‘la noix de coco’."
+        ],
+        [
+          "What does ‘la noix de coco’ mean?",
+          "coconut",
+          "peach",
+          "grapes",
+          "‘La noix de coco’ means coconut."
+        ],
+        [
+          "What is this fruit called in French?",
+          "la mangue",
+          "la pomme",
+          "le raisin",
+          "This is a mango. In French it is ‘la mangue’."
+        ],
+        [
+          "What does ‘la mangue’ mean?",
+          "mango",
+          "lemon",
+          "strawberry",
+          "‘La mangue’ means mango."
+        ],
+        [
+          "What is this fruit called in French?",
+          "le kiwi",
+          "la banane",
+          "la pêche",
+          "This is a kiwi. In French it is ‘le kiwi’."
+        ],
+        [
+          "What are these little blue fruits called in French?",
+          "les myrtilles",
+          "les fraises",
+          "les citrons",
+          "These are blueberries. In French they are ‘les myrtilles’."
+        ],
+        [
+          "What does ‘les myrtilles’ mean?",
+          "blueberries",
+          "cherries",
+          "lemons",
+          "‘Les myrtilles’ means blueberries."
+        ],
+        [
+          "How do you say ‘orange’, the fruit, in French?",
+          "l’orange",
+          "la pomme",
+          "la poire",
+          "An orange is ‘l’orange’ in French. It looks almost the same!"
+        ],
+        [
+          "What does ‘les fruits’ mean?",
+          "fruit",
+          "cake",
+          "bread",
+          "‘Les fruits’ means fruit."
+        ],
+        [
+          "Which French word is a red fruit?",
+          "la fraise",
+          "la banane",
+          "le citron",
+          "‘La fraise’ is a strawberry, and strawberries are red."
+        ]
+      ]
+    }
+  },
+  "emoji": "fruit-apple",
+  "example": {
+    "i": 0,
+    "q_en": "What is this fruit called in French?",
+    "answer_en": "la pomme",
+    "why_en": "This is an apple. In French it is ‘la pomme’."
+  },
+  "text": {
+    "en": {
+      "title": "Fruit in French",
+      "teach": "Fruit in French: ‘la pomme’ is the apple, ‘la banane’ is the banana and ‘la fraise’ is the strawberry. Yum!",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

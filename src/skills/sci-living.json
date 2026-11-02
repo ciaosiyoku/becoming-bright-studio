@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "science",
   "stage": 1,
+  "ages": [
+    "6-7"
+  ],
   "order": 1,
   "params": {
     "emojis": [
@@ -15,7 +18,27 @@
       "bus",
       "animal-honeybee",
       "framed",
-      "fruit-apple"
+      "fruit-apple",
+      "animal-snail",
+      "mountain",
+      "sun",
+      "animal-penguin",
+      "fire",
+      "droplet",
+      "animal-mouse",
+      "cloud",
+      "books",
+      "animal-lady-beetle",
+      "fruit-strawberry",
+      "battery",
+      "animal-elephant",
+      "animal-owl",
+      "animal-dolphin",
+      "snowman",
+      "animal-giraffe",
+      "tree",
+      "chart",
+      "girl"
     ],
     "bank": {
       "en": [
@@ -88,6 +111,146 @@
           "from a machine",
           "from a rock",
           "Apples grow on apple trees. The seeds inside can grow into new trees."
+        ],
+        [
+          "Is a snail alive?",
+          "yes, it is alive",
+          "no, it was never alive",
+          "it is a toy",
+          "A snail eats leaves, grows bigger and lays eggs, so it is alive."
+        ],
+        [
+          "Is a rock alive?",
+          "no, it was never alive",
+          "yes, it is alive",
+          "only when it rolls",
+          "A rock does not eat, breathe or grow. It was never alive."
+        ],
+        [
+          "What do green plants use to make their own food?",
+          "sunlight",
+          "darkness",
+          "sand",
+          "Green leaves use sunlight, air and water to make food for the plant."
+        ],
+        [
+          "What does a penguin eat to stay alive?",
+          "fish",
+          "pieces of wood",
+          "paper",
+          "Penguins are living things, so they need food. They dive into the sea to catch fish."
+        ],
+        [
+          "A fire can move and get bigger. Is it alive?",
+          "no, it is not alive",
+          "yes, it is alive",
+          "it is an animal",
+          "A fire cannot have babies and has no parents. It is not a living thing."
+        ],
+        [
+          "What happens to a plant that gets no water for a long time?",
+          "it dries up and dies",
+          "it grows faster",
+          "it turns into a stone",
+          "Plants are alive and need water. Without it they droop, dry up and die."
+        ],
+        [
+          "Does a mouse breathe?",
+          "yes, it breathes air",
+          "no, it never breathes",
+          "only when it sleeps",
+          "All animals need air. A mouse breathes in and out all day and all night."
+        ],
+        [
+          "Is a cloud alive?",
+          "no, it is not alive",
+          "yes, it is alive",
+          "only when it rains",
+          "A cloud is made of tiny drops of water. It cannot eat, breathe or have babies."
+        ],
+        [
+          "What is paper made from?",
+          "wood from trees",
+          "melted glass",
+          "sand from the beach",
+          "Paper is made from wood. The wood comes from trees, which were once alive."
+        ],
+        [
+          "What does a ladybird need to stay alive?",
+          "food, water and air",
+          "batteries",
+          "a key",
+          "A ladybird is a living thing. Like all animals, it needs food, water and air."
+        ],
+        [
+          "Did a strawberry grow on a plant?",
+          "yes, on a living plant",
+          "no, a machine made it",
+          "no, it came out of a rock",
+          "Strawberries grow on small plants. The tiny seeds on the outside can grow into new plants."
+        ],
+        [
+          "A toy robot moves when it has batteries. Is it alive?",
+          "no, it is a machine",
+          "yes, it is alive",
+          "it is a plant",
+          "A robot cannot grow, eat or have babies. It only moves because of its batteries."
+        ],
+        [
+          "How does a baby elephant change as it gets older?",
+          "it grows bigger",
+          "it gets smaller",
+          "it turns into a tree",
+          "Living things grow. A baby elephant keeps growing until it is as big as its mother."
+        ],
+        [
+          "An owl lays eggs. What hatches from them?",
+          "baby owls",
+          "baby fish",
+          "small stones",
+          "Living things have young. Baby owls hatch from the eggs and grow into adult owls."
+        ],
+        [
+          "Is a dolphin alive?",
+          "yes, it is alive",
+          "no, it was never alive",
+          "it is a boat",
+          "A dolphin swims, eats fish, breathes air and has babies, so it is alive."
+        ],
+        [
+          "Is a snowman alive?",
+          "no, it was never alive",
+          "yes, it is alive",
+          "only in winter",
+          "A snowman is made of snow. It can melt, but it cannot eat, breathe or grow."
+        ],
+        [
+          "Can a plant walk from place to place like a giraffe?",
+          "no, a plant stays in one place",
+          "yes, it walks every day",
+          "only at night",
+          "A plant’s roots hold it in the ground. Animals like giraffes can move from place to place."
+        ],
+        [
+          "A dry leaf has fallen from a tree. Was it ever alive?",
+          "yes, it was alive on the tree",
+          "no, it was never alive",
+          "it is a machine",
+          "The leaf was part of a living tree. Now it has fallen off and is dead."
+        ],
+        [
+          "Which of these is a sign that something is alive?",
+          "it grows",
+          "it is shiny",
+          "it is square",
+          "Living things grow. Being shiny or square does not make something alive."
+        ],
+        [
+          "Are you alive?",
+          "yes, I am alive",
+          "no, I was never alive",
+          "only when I am awake",
+          "You breathe, eat, grow and move, so you are a living thing."
         ]
       ],
       "de": [
@@ -160,6 +323,146 @@
           "aus einer Maschine",
           "aus einem Stein",
           "Äpfel wachsen an Apfelbäumen. Aus den Kernen können neue Bäume wachsen."
+        ],
+        [
+          "Lebt eine Schnecke?",
+          "ja, sie lebt",
+          "nein, sie hat nie gelebt",
+          "sie ist ein Spielzeug",
+          "Eine Schnecke frisst Blätter, wird größer und legt Eier. Also lebt sie."
+        ],
+        [
+          "Lebt ein Stein?",
+          "nein, er hat nie gelebt",
+          "ja, er lebt",
+          "nur wenn er rollt",
+          "Ein Stein isst nicht, atmet nicht und wächst nicht. Er hat nie gelebt."
+        ],
+        [
+          "Was brauchen grüne Pflanzen, um ihre Nahrung selbst zu machen?",
+          "Sonnenlicht",
+          "Dunkelheit",
+          "Sand",
+          "Grüne Blätter machen aus Sonnenlicht, Luft und Wasser Nahrung für die Pflanze."
+        ],
+        [
+          "Was frisst ein Pinguin, um zu leben?",
+          "Fisch",
+          "Holzstücke",
+          "Papier",
+          "Pinguine sind Lebewesen und brauchen Nahrung. Sie tauchen ins Meer und fangen Fische."
+        ],
+        [
+          "Ein Feuer bewegt sich und wird größer. Lebt es?",
+          "nein, es lebt nicht",
+          "ja, es lebt",
+          "es ist ein Tier",
+          "Ein Feuer kann keine Jungen bekommen und hat keine Eltern. Es ist kein Lebewesen."
+        ],
+        [
+          "Was passiert mit einer Pflanze, die lange kein Wasser bekommt?",
+          "sie vertrocknet und stirbt",
+          "sie wächst schneller",
+          "sie wird zu Stein",
+          "Pflanzen leben und brauchen Wasser. Ohne Wasser lassen sie die Blätter hängen, vertrocknen und sterben."
+        ],
+        [
+          "Atmet eine Maus?",
+          "ja, sie atmet Luft",
+          "nein, sie atmet nie",
+          "nur wenn sie schläft",
+          "Alle Tiere brauchen Luft. Eine Maus atmet den ganzen Tag und die ganze Nacht."
+        ],
+        [
+          "Lebt eine Wolke?",
+          "nein, sie lebt nicht",
+          "ja, sie lebt",
+          "nur wenn es regnet",
+          "Eine Wolke besteht aus winzigen Wassertröpfchen. Sie kann nicht essen, atmen oder Junge bekommen."
+        ],
+        [
+          "Woraus wird Papier gemacht?",
+          "aus Holz von Bäumen",
+          "aus geschmolzenem Glas",
+          "aus Sand vom Strand",
+          "Papier wird aus Holz gemacht. Das Holz kommt von Bäumen, die einmal gelebt haben."
+        ],
+        [
+          "Was braucht ein Marienkäfer zum Leben?",
+          "Nahrung, Wasser und Luft",
+          "Batterien",
+          "einen Schlüssel",
+          "Ein Marienkäfer ist ein Lebewesen. Wie alle Tiere braucht er Nahrung, Wasser und Luft."
+        ],
+        [
+          "Ist eine Erdbeere an einer Pflanze gewachsen?",
+          "ja, an einer lebenden Pflanze",
+          "nein, eine Maschine hat sie gemacht",
+          "nein, sie kam aus einem Stein",
+          "Erdbeeren wachsen an kleinen Pflanzen. Aus den winzigen Kernen außen können neue Pflanzen wachsen."
+        ],
+        [
+          "Ein Spielzeugroboter bewegt sich mit Batterien. Lebt er?",
+          "nein, er ist eine Maschine",
+          "ja, er lebt",
+          "er ist eine Pflanze",
+          "Ein Roboter kann nicht wachsen, essen oder Junge bekommen. Er bewegt sich nur wegen der Batterien."
+        ],
+        [
+          "Wie verändert sich ein Elefantenbaby, wenn es älter wird?",
+          "es wird größer",
+          "es wird kleiner",
+          "es wird zu einem Baum",
+          "Lebewesen wachsen. Ein Elefantenbaby wächst, bis es so groß ist wie seine Mutter."
+        ],
+        [
+          "Eine Eule legt Eier. Was schlüpft daraus?",
+          "Eulenküken",
+          "Fischbabys",
+          "kleine Steine",
+          "Lebewesen bekommen Junge. Aus den Eiern schlüpfen Eulenküken, die zu großen Eulen werden."
+        ],
+        [
+          "Lebt ein Delfin?",
+          "ja, er lebt",
+          "nein, er hat nie gelebt",
+          "er ist ein Boot",
+          "Ein Delfin schwimmt, frisst Fische, atmet Luft und bekommt Junge. Also lebt er."
+        ],
+        [
+          "Lebt ein Schneemann?",
+          "nein, er hat nie gelebt",
+          "ja, er lebt",
+          "nur im Winter",
+          "Ein Schneemann ist aus Schnee. Er kann schmelzen, aber nicht essen, atmen oder wachsen."
+        ],
+        [
+          "Kann eine Pflanze herumlaufen wie eine Giraffe?",
+          "nein, eine Pflanze bleibt an ihrem Platz",
+          "ja, sie läuft jeden Tag",
+          "nur in der Nacht",
+          "Die Wurzeln halten eine Pflanze im Boden fest. Tiere wie Giraffen können umherlaufen."
+        ],
+        [
+          "Ein trockenes Blatt ist vom Baum gefallen. Hat es einmal gelebt?",
+          "ja, am Baum hat es gelebt",
+          "nein, es hat nie gelebt",
+          "es ist eine Maschine",
+          "Das Blatt war ein Teil eines lebenden Baumes. Jetzt ist es abgefallen und tot."
+        ],
+        [
+          "Woran erkennt man, dass etwas lebt?",
+          "es wächst",
+          "es glänzt",
+          "es ist eckig",
+          "Lebewesen wachsen. Glänzen oder eckig sein macht nichts lebendig."
+        ],
+        [
+          "Lebst du?",
+          "ja, ich lebe",
+          "nein, ich habe nie gelebt",
+          "nur wenn ich wach bin",
+          "Du atmest, isst, wächst und bewegst dich. Also bist du ein Lebewesen."
         ]
       ],
       "fr": [
@@ -232,6 +535,146 @@
           "d’une machine",
           "d’un caillou",
           "Les pommes poussent sur les pommiers. Leurs pépins peuvent donner de nouveaux arbres."
+        ],
+        [
+          "Un escargot est-il vivant ?",
+          "oui, il est vivant",
+          "non, il n’a jamais vécu",
+          "c’est un jouet",
+          "Un escargot mange des feuilles, grandit et pond des œufs : il est vivant."
+        ],
+        [
+          "Un rocher est-il vivant ?",
+          "non, il n’a jamais vécu",
+          "oui, il est vivant",
+          "seulement quand il roule",
+          "Un rocher ne mange pas, ne respire pas et ne grandit pas. Il n’a jamais vécu."
+        ],
+        [
+          "De quoi les plantes vertes se servent-elles pour fabriquer leur nourriture ?",
+          "de la lumière du soleil",
+          "du noir",
+          "du sable",
+          "Les feuilles vertes utilisent la lumière du soleil, l’air et l’eau pour nourrir la plante."
+        ],
+        [
+          "Que mange un manchot pour vivre ?",
+          "du poisson",
+          "des morceaux de bois",
+          "du papier",
+          "Les manchots sont des êtres vivants et doivent se nourrir. Ils plongent dans la mer pour attraper des poissons."
+        ],
+        [
+          "Un feu bouge et grossit. Est-il vivant ?",
+          "non, il n’est pas vivant",
+          "oui, il est vivant",
+          "c’est un animal",
+          "Un feu ne peut pas avoir de petits et n’a pas de parents. Ce n’est pas un être vivant."
+        ],
+        [
+          "Que devient une plante qui n’a pas d’eau pendant longtemps ?",
+          "elle sèche et meurt",
+          "elle pousse plus vite",
+          "elle se change en caillou",
+          "Les plantes sont vivantes et ont besoin d’eau. Sans eau, elles se fanent, sèchent et meurent."
+        ],
+        [
+          "Une souris respire-t-elle ?",
+          "oui, elle respire de l’air",
+          "non, elle ne respire jamais",
+          "seulement quand elle dort",
+          "Tous les animaux ont besoin d’air. Une souris respire jour et nuit."
+        ],
+        [
+          "Un nuage est-il vivant ?",
+          "non, il n’est pas vivant",
+          "oui, il est vivant",
+          "seulement quand il pleut",
+          "Un nuage est fait de minuscules gouttes d’eau. Il ne mange pas, ne respire pas et n’a pas de petits."
+        ],
+        [
+          "Avec quoi fabrique-t-on le papier ?",
+          "avec le bois des arbres",
+          "avec du verre fondu",
+          "avec du sable de la plage",
+          "Le papier est fait avec du bois. Ce bois vient d’arbres qui étaient vivants."
+        ],
+        [
+          "De quoi une coccinelle a-t-elle besoin pour vivre ?",
+          "de nourriture, d’eau et d’air",
+          "de piles",
+          "d’une clé",
+          "Une coccinelle est un être vivant. Comme tous les animaux, elle a besoin de nourriture, d’eau et d’air."
+        ],
+        [
+          "Une fraise a-t-elle poussé sur une plante ?",
+          "oui, sur une plante vivante",
+          "non, une machine l’a fabriquée",
+          "non, elle est sortie d’un caillou",
+          "Les fraises poussent sur de petites plantes. Les minuscules graines sur la fraise peuvent donner de nouvelles plantes."
+        ],
+        [
+          "Un robot jouet bouge grâce à ses piles. Est-il vivant ?",
+          "non, c’est une machine",
+          "oui, il est vivant",
+          "c’est une plante",
+          "Un robot ne grandit pas, ne mange pas et n’a pas de petits. Il bouge seulement grâce à ses piles."
+        ],
+        [
+          "Comment change un bébé éléphant en vieillissant ?",
+          "il devient plus grand",
+          "il devient plus petit",
+          "il se change en arbre",
+          "Les êtres vivants grandissent. Un bébé éléphant grandit jusqu’à devenir aussi gros que sa mère."
+        ],
+        [
+          "Une chouette pond des œufs. Qu’est-ce qui en sort ?",
+          "des bébés chouettes",
+          "des bébés poissons",
+          "des petits cailloux",
+          "Les êtres vivants ont des petits. Des bébés chouettes sortent des œufs et deviennent de grandes chouettes."
+        ],
+        [
+          "Un dauphin est-il vivant ?",
+          "oui, il est vivant",
+          "non, il n’a jamais vécu",
+          "c’est un bateau",
+          "Un dauphin nage, mange des poissons, respire de l’air et a des petits : il est vivant."
+        ],
+        [
+          "Un bonhomme de neige est-il vivant ?",
+          "non, il n’a jamais vécu",
+          "oui, il est vivant",
+          "seulement en hiver",
+          "Un bonhomme de neige est fait de neige. Il peut fondre, mais il ne mange pas, ne respire pas et ne grandit pas."
+        ],
+        [
+          "Une plante peut-elle se promener comme une girafe ?",
+          "non, une plante reste au même endroit",
+          "oui, elle marche tous les jours",
+          "seulement la nuit",
+          "Les racines tiennent la plante dans le sol. Les animaux comme les girafes, eux, peuvent se déplacer."
+        ],
+        [
+          "Une feuille sèche est tombée d’un arbre. A-t-elle déjà été vivante ?",
+          "oui, elle vivait sur l’arbre",
+          "non, elle n’a jamais vécu",
+          "c’est une machine",
+          "La feuille faisait partie d’un arbre vivant. Maintenant, elle est tombée et elle est morte."
+        ],
+        [
+          "Lequel montre qu’une chose est vivante ?",
+          "elle grandit",
+          "elle brille",
+          "elle est carrée",
+          "Les êtres vivants grandissent. Briller ou être carré ne rend pas vivant."
+        ],
+        [
+          "Es-tu un être vivant ?",
+          "oui, je suis un être vivant",
+          "non, je n’ai jamais vécu",
+          "seulement quand je ne dors pas",
+          "Tu respires, tu manges, tu grandis et tu bouges : tu es un être vivant."
         ]
       ],
       "yo": [
@@ -304,6 +747,146 @@
           "láti inú ẹ̀rọ",
           "láti inú òkúta",
           "Ápù ń hù lórí igi ápù. Irúgbìn inú rẹ̀ lè hù di igi tuntun."
+        ],
+        [
+          "Ṣé ìgbín wà láàyè?",
+          "bẹ́ẹ̀ni, ó wà láàyè",
+          "rárá, kò wà láàyè rí",
+          "ohun ìṣeré ni",
+          "Ìgbín ń jẹ ewé, ó ń dàgbà, ó sì ń yé ẹyin, nítorí náà ó wà láàyè."
+        ],
+        [
+          "Ṣé àpáta wà láàyè?",
+          "rárá, kò wà láàyè rí",
+          "bẹ́ẹ̀ni, ó wà láàyè",
+          "nígbà tí ó bá ń yí nìkan",
+          "Àpáta kò jẹun, kò mí, kò sì dàgbà. Kò wà láàyè rí."
+        ],
+        [
+          "Kí ni ewéko aláwọ̀ ewé fi ń ṣe oúnjẹ tirẹ̀?",
+          "ìmọ́lẹ̀ oòrùn",
+          "òkùnkùn",
+          "iyanrìn",
+          "Ewé aláwọ̀ ewé ń lo ìmọ́lẹ̀ oòrùn, afẹ́fẹ́ àti omi láti ṣe oúnjẹ fún ewéko."
+        ],
+        [
+          "Kí ni ẹyẹ pẹ́ńgúìn ń jẹ láti wà láàyè?",
+          "ẹja",
+          "ègé igi",
+          "ìwé",
+          "Ohun alààyè ni pẹ́ńgúìn, nítorí náà ó nílò oúnjẹ. Ó máa ń bẹ́ sínú òkun láti mú ẹja."
+        ],
+        [
+          "Iná lè máa lọ, ó sì lè pọ̀ sí i. Ṣé ó wà láàyè?",
+          "rárá, kò wà láàyè",
+          "bẹ́ẹ̀ni, ó wà láàyè",
+          "ẹranko ni",
+          "Iná kò lè bímọ, kò sì ní òbí. Kì í ṣe ohun alààyè."
+        ],
+        [
+          "Kí ló máa ṣẹlẹ̀ sí ewéko tí kò rí omi fún ìgbà pípẹ́?",
+          "ó máa gbẹ, ó sì máa kú",
+          "ó máa dàgbà kíákíá",
+          "ó máa di òkúta",
+          "Ewéko wà láàyè, ó sì nílò omi. Láìsí omi, ó máa rọ, ó máa gbẹ, ó sì máa kú."
+        ],
+        [
+          "Ṣé eku ń mí?",
+          "bẹ́ẹ̀ni, ó ń mí afẹ́fẹ́",
+          "rárá, kì í mí rárá",
+          "nígbà tí ó bá ń sùn nìkan",
+          "Gbogbo ẹranko nílò afẹ́fẹ́. Eku ń mí ní ọ̀sán àti ní òru."
+        ],
+        [
+          "Ṣé ìkùukùu wà láàyè?",
+          "rárá, kò wà láàyè",
+          "bẹ́ẹ̀ni, ó wà láàyè",
+          "nígbà tí òjò bá ń rọ̀ nìkan",
+          "Ẹ̀kán omi kéékèèké ni ìkùukùu. Kò lè jẹun, mí tàbí bímọ."
+        ],
+        [
+          "Kí ni wọ́n fi ń ṣe ìwé?",
+          "igi tí wọ́n gé láti ara igi",
+          "gíláàsì yíyọ́",
+          "iyanrìn etí òkun",
+          "Igi ni wọ́n fi ń ṣe ìwé. Igi náà wá láti ara àwọn igi tí wọ́n wà láàyè tẹ́lẹ̀."
+        ],
+        [
+          "Kí ni kòkòrò lédìbọ́ọ̀dù nílò láti wà láàyè?",
+          "oúnjẹ, omi àti afẹ́fẹ́",
+          "bátìrì",
+          "kọ́kọ́rọ́",
+          "Kòkòrò lédìbọ́ọ̀dù jẹ́ ohun alààyè. Bí gbogbo ẹranko, ó nílò oúnjẹ, omi àti afẹ́fẹ́."
+        ],
+        [
+          "Ṣé orí ewéko ni sítírọ́bẹ́rì ti hù?",
+          "bẹ́ẹ̀ni, lórí ewéko alààyè",
+          "rárá, ẹ̀rọ ló ṣe é",
+          "rárá, láti inú òkúta ló ti jáde",
+          "Sítírọ́bẹ́rì ń hù lórí ewéko kéékèèké. Irúgbìn kéékèèké ara rẹ̀ lè hù di ewéko tuntun."
+        ],
+        [
+          "Rọ́bọ́ọ̀tì ìṣeré ń rìn nígbà tí ó bá ní bátìrì. Ṣé ó wà láàyè?",
+          "rárá, ẹ̀rọ ni",
+          "bẹ́ẹ̀ni, ó wà láàyè",
+          "ewéko ni",
+          "Rọ́bọ́ọ̀tì kò lè dàgbà, jẹun tàbí bímọ. Bátìrì nìkan ló ń mú un rìn."
+        ],
+        [
+          "Báwo ni ọmọ erin ṣe ń yí padà bí ó ti ń dàgbà?",
+          "ó ń tóbi sí i",
+          "ó ń kéré sí i",
+          "ó ń di igi",
+          "Àwọn ohun alààyè ń dàgbà. Ọmọ erin á máa dàgbà títí yóò fi tóbi bí ìyá rẹ̀."
+        ],
+        [
+          "Òwìwí ń yé ẹyin. Kí ló ń jáde láti inú wọn?",
+          "ọmọ òwìwí",
+          "ọmọ ẹja",
+          "òkúta kéékèèké",
+          "Àwọn ohun alààyè ń bímọ. Ọmọ òwìwí ń jáde láti inú ẹyin, wọ́n sì ń dàgbà di òwìwí ńlá."
+        ],
+        [
+          "Ṣé dọ́fínì wà láàyè?",
+          "bẹ́ẹ̀ni, ó wà láàyè",
+          "rárá, kò wà láàyè rí",
+          "ọkọ̀ ojú omi ni",
+          "Dọ́fínì ń lúwẹ̀ẹ́, ó ń jẹ ẹja, ó ń mí afẹ́fẹ́, ó sì ń bímọ, nítorí náà ó wà láàyè."
+        ],
+        [
+          "Ṣé ère yìnyín wà láàyè?",
+          "rárá, kò wà láàyè rí",
+          "bẹ́ẹ̀ni, ó wà láàyè",
+          "ní ìgbà òtútù nìkan",
+          "Yìnyín ni wọ́n fi ṣe ère yìnyín. Ó lè yọ́, ṣùgbọ́n kò lè jẹun, mí tàbí dàgbà."
+        ],
+        [
+          "Ṣé ewéko lè rìn káàkiri bí àgùnfọn?",
+          "rárá, ewéko máa ń dúró sí ibì kan",
+          "bẹ́ẹ̀ni, ó ń rìn lójoojúmọ́",
+          "ní òru nìkan",
+          "Gbòǹgbò ló di ewéko mú sínú ilẹ̀. Àwọn ẹranko bí àgùnfọn lè rìn láti ibì kan sí ibòmíràn."
+        ],
+        [
+          "Ewé gbígbẹ kan já bọ́ láti ara igi. Ṣé ó wà láàyè rí?",
+          "bẹ́ẹ̀ni, ó wà láàyè lára igi",
+          "rárá, kò wà láàyè rí",
+          "ẹ̀rọ ni",
+          "Ewé náà jẹ́ apá kan igi alààyè. Ní báyìí, ó ti já bọ́, ó sì ti kú."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló fi hàn pé nǹkan wà láàyè?",
+          "ó ń dàgbà",
+          "ó ń dán",
+          "ó ní igun mẹ́rin",
+          "Àwọn ohun alààyè ń dàgbà. Dídán tàbí níní igun mẹ́rin kò sọ nǹkan di alààyè."
+        ],
+        [
+          "Ṣé ìwọ wà láàyè?",
+          "bẹ́ẹ̀ni, mo wà láàyè",
+          "rárá, n kò wà láàyè rí",
+          "nígbà tí mo bá jí nìkan",
+          "O ń mí, o ń jẹun, o ń dàgbà, o sì ń rìn, nítorí náà ohun alààyè ni ọ́."
         ]
       ]
     }

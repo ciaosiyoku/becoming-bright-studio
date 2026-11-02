@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "science",
   "stage": 4,
+  "ages": [
+    "8-9"
+  ],
   "order": 15,
   "params": {
     "emojis": [
@@ -15,7 +18,27 @@
       "sparkles",
       "desert",
       "glowstar",
-      "star"
+      "star",
+      "thermometer",
+      "globe",
+      "moon",
+      "sun",
+      "sun-large-cloud",
+      "sun-cloud",
+      "moon",
+      "warning",
+      "globe",
+      "glowstar",
+      "sparkles",
+      "medal",
+      "footprints",
+      "moon",
+      "fruit-apple",
+      "storm",
+      "star",
+      "clock",
+      "calendar",
+      "sun"
     ],
     "bank": {
       "en": [
@@ -88,6 +111,146 @@
           "three",
           "twenty",
           "There are eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune."
+        ],
+        [
+          "Which is the hottest planet in our Solar System?",
+          "Venus",
+          "Neptune",
+          "Mars",
+          "Venus is wrapped in thick clouds that trap heat, so it is even hotter than Mercury, which is closer to the Sun."
+        ],
+        [
+          "What shape is the Earth?",
+          "roughly a ball (a sphere)",
+          "a flat circle",
+          "a cube",
+          "Photos taken from space show that the Earth is round like a ball, only a little wider round the middle."
+        ],
+        [
+          "Where does moonlight come from?",
+          "sunlight bouncing off the Moon",
+          "fires burning on the Moon",
+          "lamps that people put on the Moon",
+          "The Moon does not make its own light. It shines because sunlight reflects off its surface."
+        ],
+        [
+          "Why does the Sun seem to move across the sky during the day?",
+          "because the Earth is spinning",
+          "because the Sun goes round the Earth every day",
+          "because the wind blows it",
+          "The Sun stays put. As the Earth turns, the Sun appears to rise, cross the sky and set."
+        ],
+        [
+          "In which direction does the Sun rise in the morning?",
+          "in the east",
+          "in the west",
+          "in the north",
+          "Because the Earth spins towards the east, the Sun always appears to rise in the east."
+        ],
+        [
+          "In which direction does the Sun set in the evening?",
+          "in the west",
+          "in the east",
+          "in the south",
+          "The Sun rises in the east, crosses the sky and sets in the west."
+        ],
+        [
+          "What is the Moon?",
+          "a ball of rock that travels round the Earth",
+          "a star that makes its own light",
+          "a planet that travels round the Sun on its own",
+          "The Moon is Earth’s natural satellite: a big rocky ball that orbits our planet."
+        ],
+        [
+          "Why must you never look straight at the Sun?",
+          "its strong light can damage your eyes",
+          "it makes you grow taller",
+          "it is too far away to see",
+          "The Sun is so bright that staring at it, even for a short time, can hurt your eyes for good. Never look at it directly."
+        ],
+        [
+          "Which planet is third from the Sun?",
+          "Earth",
+          "Mars",
+          "Jupiter",
+          "Counting out from the Sun: Mercury, Venus, then Earth. Mars is fourth and Jupiter is fifth."
+        ],
+        [
+          "What are the stars we see at night?",
+          "huge, hot balls of glowing gas, very far away",
+          "holes in the sky",
+          "small lamps hanging near the Moon",
+          "Stars are suns like ours. They look tiny only because they are incredibly far away."
+        ],
+        [
+          "Why can’t we see the stars during the day?",
+          "the Sun’s light is far too bright",
+          "the stars switch off in the day",
+          "the stars hide under the ground",
+          "The stars are still there in daytime, but the bright sunlight drowns out their faint light."
+        ],
+        [
+          "Who was the first person to walk on the Moon?",
+          "Neil Armstrong",
+          "Isaac Newton",
+          "Charles Darwin",
+          "Neil Armstrong stepped onto the Moon in 1969. Newton and Darwin were scientists who lived long before space travel."
+        ],
+        [
+          "Why are the astronauts’ footprints still on the Moon today?",
+          "there is no wind or rain to wipe them away",
+          "the astronauts glued them down",
+          "the Moon is made of cement",
+          "The Moon has no air, so there is no wind or rain. Nothing moves the dust, and the footprints stay for a very long time."
+        ],
+        [
+          "Is there air to breathe on the Moon?",
+          "no, so astronauts wear spacesuits",
+          "yes, plenty of fresh air",
+          "only at night",
+          "The Moon has no air. Astronauts carry their own air supply inside their spacesuits."
+        ],
+        [
+          "Which force pulls things down to the Earth and keeps the Moon going round it?",
+          "gravity",
+          "magnetism",
+          "the wind",
+          "Gravity pulls a falling apple to the ground. The same pull keeps the Moon travelling round the Earth."
+        ],
+        [
+          "Which planet has a Great Red Spot, a giant storm bigger than the Earth?",
+          "Jupiter",
+          "Mercury",
+          "Venus",
+          "The Great Red Spot is a huge swirling storm on Jupiter that has lasted for hundreds of years."
+        ],
+        [
+          "What do we call a group of stars that makes a pattern or picture in the sky?",
+          "a constellation",
+          "a planet",
+          "a comet",
+          "People have joined up stars into patterns called constellations, such as the Great Bear."
+        ],
+        [
+          "How long does it take the Earth to spin round once?",
+          "about 24 hours",
+          "about one week",
+          "about one year",
+          "One full spin of the Earth takes about 24 hours. That is one day and one night."
+        ],
+        [
+          "How many moons does the Earth have?",
+          "one",
+          "none",
+          "ten",
+          "The Earth has just one moon. Some planets have many: Jupiter and Saturn have dozens."
+        ],
+        [
+          "Which is bigger, the Sun or the Earth?",
+          "the Sun, by a huge amount",
+          "the Earth",
+          "they are the same size",
+          "More than a million Earths could fit inside the Sun. It only looks small because it is so far away."
         ]
       ],
       "de": [
@@ -160,6 +323,146 @@
           "drei",
           "zwanzig",
           "Es gibt acht Planeten: Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus und Neptun."
+        ],
+        [
+          "Welcher ist der heißeste Planet in unserem Sonnensystem?",
+          "die Venus",
+          "Neptun",
+          "der Mars",
+          "Die Venus ist in dicke Wolken gehüllt, die Wärme festhalten. Darum ist sie sogar heißer als Merkur, der näher an der Sonne ist."
+        ],
+        [
+          "Welche Form hat die Erde?",
+          "ungefähr eine Kugel",
+          "eine flache Scheibe",
+          "ein Würfel",
+          "Fotos aus dem Weltraum zeigen, dass die Erde rund wie eine Kugel ist, nur in der Mitte ein wenig breiter."
+        ],
+        [
+          "Woher kommt das Mondlicht?",
+          "es ist Sonnenlicht, das vom Mond zurückgeworfen wird",
+          "von Feuern auf dem Mond",
+          "von Lampen, die Menschen auf den Mond gestellt haben",
+          "Der Mond leuchtet nicht selbst. Er scheint, weil Sonnenlicht von seiner Oberfläche zurückgeworfen wird."
+        ],
+        [
+          "Warum scheint die Sonne tagsüber über den Himmel zu wandern?",
+          "weil sich die Erde dreht",
+          "weil die Sonne jeden Tag um die Erde kreist",
+          "weil der Wind sie schiebt",
+          "Die Sonne bleibt an ihrem Platz. Weil sich die Erde dreht, sieht es so aus, als ginge sie auf, über den Himmel und unter."
+        ],
+        [
+          "In welcher Himmelsrichtung geht die Sonne morgens auf?",
+          "im Osten",
+          "im Westen",
+          "im Norden",
+          "Weil sich die Erde nach Osten dreht, scheint die Sonne immer im Osten aufzugehen."
+        ],
+        [
+          "In welcher Himmelsrichtung geht die Sonne abends unter?",
+          "im Westen",
+          "im Osten",
+          "im Süden",
+          "Die Sonne geht im Osten auf, wandert über den Himmel und geht im Westen unter."
+        ],
+        [
+          "Was ist der Mond?",
+          "eine Gesteinskugel, die um die Erde kreist",
+          "ein Stern, der selbst leuchtet",
+          "ein Planet, der allein um die Sonne kreist",
+          "Der Mond ist der natürliche Begleiter der Erde: eine große Gesteinskugel, die um unseren Planeten kreist."
+        ],
+        [
+          "Warum darfst du nie direkt in die Sonne schauen?",
+          "ihr starkes Licht kann deine Augen schädigen",
+          "man wird davon größer",
+          "sie ist zu weit weg, um sie zu sehen",
+          "Die Sonne ist so hell, dass schon kurzes Hineinstarren die Augen für immer schädigen kann. Schau nie direkt hinein."
+        ],
+        [
+          "Welcher Planet ist der dritte von der Sonne aus?",
+          "die Erde",
+          "der Mars",
+          "Jupiter",
+          "Von der Sonne aus gezählt: Merkur, Venus, dann die Erde. Der Mars ist der vierte, Jupiter der fünfte."
+        ],
+        [
+          "Was sind die Sterne, die wir nachts sehen?",
+          "riesige, heiße Kugeln aus leuchtendem Gas, sehr weit weg",
+          "Löcher im Himmel",
+          "kleine Lampen neben dem Mond",
+          "Sterne sind Sonnen wie unsere. Sie wirken nur so winzig, weil sie unvorstellbar weit weg sind."
+        ],
+        [
+          "Warum sehen wir tagsüber keine Sterne?",
+          "das Sonnenlicht ist viel zu hell",
+          "die Sterne schalten sich tagsüber aus",
+          "die Sterne verstecken sich unter der Erde",
+          "Die Sterne sind auch tagsüber da, aber das helle Sonnenlicht überstrahlt ihr schwaches Licht."
+        ],
+        [
+          "Wer war der erste Mensch auf dem Mond?",
+          "Neil Armstrong",
+          "Isaac Newton",
+          "Charles Darwin",
+          "Neil Armstrong betrat 1969 den Mond. Newton und Darwin waren Forscher, die lange vor der Raumfahrt lebten."
+        ],
+        [
+          "Warum sind die Fußspuren der Astronauten heute noch auf dem Mond?",
+          "es gibt dort keinen Wind und keinen Regen, der sie verwischt",
+          "die Astronauten haben sie festgeklebt",
+          "der Mond besteht aus Zement",
+          "Auf dem Mond gibt es keine Luft, also auch keinen Wind und Regen. Nichts bewegt den Staub, und die Spuren bleiben sehr lange."
+        ],
+        [
+          "Gibt es auf dem Mond Luft zum Atmen?",
+          "nein, darum tragen Astronauten Raumanzüge",
+          "ja, viel frische Luft",
+          "nur nachts",
+          "Auf dem Mond gibt es keine Luft. Astronauten haben ihre eigene Atemluft im Raumanzug dabei."
+        ],
+        [
+          "Welche Kraft zieht Dinge zur Erde und hält den Mond auf seiner Bahn um sie?",
+          "die Schwerkraft",
+          "der Magnetismus",
+          "der Wind",
+          "Die Schwerkraft zieht einen fallenden Apfel zu Boden. Dieselbe Kraft hält den Mond auf seiner Bahn um die Erde."
+        ],
+        [
+          "Welcher Planet hat den Großen Roten Fleck, einen riesigen Sturm, größer als die Erde?",
+          "Jupiter",
+          "Merkur",
+          "die Venus",
+          "Der Große Rote Fleck ist ein riesiger Wirbelsturm auf Jupiter, der schon seit Hunderten von Jahren tobt."
+        ],
+        [
+          "Wie nennt man eine Gruppe von Sternen, die ein Muster am Himmel bildet?",
+          "ein Sternbild",
+          "einen Planeten",
+          "einen Kometen",
+          "Menschen haben Sterne zu Mustern verbunden, die man Sternbilder nennt, zum Beispiel den Großen Bären."
+        ],
+        [
+          "Wie lange braucht die Erde für eine Drehung um sich selbst?",
+          "etwa 24 Stunden",
+          "etwa eine Woche",
+          "etwa ein Jahr",
+          "Eine ganze Drehung der Erde dauert etwa 24 Stunden. Das sind ein Tag und eine Nacht."
+        ],
+        [
+          "Wie viele Monde hat die Erde?",
+          "einen",
+          "keinen",
+          "zehn",
+          "Die Erde hat nur einen Mond. Manche Planeten haben viele: Jupiter und Saturn haben Dutzende."
+        ],
+        [
+          "Was ist größer, die Sonne oder die Erde?",
+          "die Sonne, und zwar riesig viel",
+          "die Erde",
+          "beide sind gleich groß",
+          "Mehr als eine Million Erden würden in die Sonne passen. Sie wirkt nur klein, weil sie so weit weg ist."
         ]
       ],
       "fr": [
@@ -232,6 +535,146 @@
           "trois",
           "vingt",
           "Il y a huit planètes : Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus et Neptune."
+        ],
+        [
+          "Quelle est la planète la plus chaude de notre système solaire ?",
+          "Vénus",
+          "Neptune",
+          "Mars",
+          "Vénus est entourée d’épais nuages qui retiennent la chaleur. Elle est donc encore plus chaude que Mercure, pourtant plus proche du Soleil."
+        ],
+        [
+          "Quelle est la forme de la Terre ?",
+          "presque une boule (une sphère)",
+          "un disque plat",
+          "un cube",
+          "Les photos prises depuis l’espace montrent que la Terre est ronde comme une boule, juste un peu plus large au milieu."
+        ],
+        [
+          "D’où vient la lumière de la Lune ?",
+          "de la lumière du Soleil renvoyée par la Lune",
+          "de feux qui brûlent sur la Lune",
+          "de lampes posées sur la Lune",
+          "La Lune ne produit pas sa propre lumière. Elle brille parce que la lumière du Soleil se reflète sur sa surface."
+        ],
+        [
+          "Pourquoi le Soleil semble-t-il traverser le ciel pendant la journée ?",
+          "parce que la Terre tourne sur elle-même",
+          "parce que le Soleil tourne autour de la Terre chaque jour",
+          "parce que le vent le pousse",
+          "Le Soleil ne bouge pas. Comme la Terre tourne, il semble se lever, traverser le ciel puis se coucher."
+        ],
+        [
+          "De quel côté le Soleil se lève-t-il le matin ?",
+          "à l’est",
+          "à l’ouest",
+          "au nord",
+          "Comme la Terre tourne vers l’est, le Soleil semble toujours se lever à l’est."
+        ],
+        [
+          "De quel côté le Soleil se couche-t-il le soir ?",
+          "à l’ouest",
+          "à l’est",
+          "au sud",
+          "Le Soleil se lève à l’est, traverse le ciel et se couche à l’ouest."
+        ],
+        [
+          "Qu’est-ce que la Lune ?",
+          "une boule de roche qui tourne autour de la Terre",
+          "une étoile qui fait sa propre lumière",
+          "une planète qui tourne seule autour du Soleil",
+          "La Lune est le satellite naturel de la Terre : une grosse boule de roche qui tourne autour de notre planète."
+        ],
+        [
+          "Pourquoi ne faut-il jamais regarder le Soleil en face ?",
+          "sa lumière très forte peut abîmer les yeux",
+          "cela fait grandir",
+          "il est trop loin pour être vu",
+          "Le Soleil est si lumineux que le fixer, même peu de temps, peut abîmer les yeux pour toujours. Ne le regarde jamais directement."
+        ],
+        [
+          "Quelle planète est la troisième à partir du Soleil ?",
+          "la Terre",
+          "Mars",
+          "Jupiter",
+          "En partant du Soleil : Mercure, Vénus, puis la Terre. Mars est la quatrième et Jupiter la cinquième."
+        ],
+        [
+          "Que sont les étoiles qu’on voit la nuit ?",
+          "d’énormes boules de gaz chaud et lumineux, très lointaines",
+          "des trous dans le ciel",
+          "de petites lampes accrochées près de la Lune",
+          "Les étoiles sont des soleils comme le nôtre. Elles paraissent minuscules seulement parce qu’elles sont extrêmement loin."
+        ],
+        [
+          "Pourquoi ne voit-on pas les étoiles pendant la journée ?",
+          "la lumière du Soleil est bien trop forte",
+          "les étoiles s’éteignent le jour",
+          "les étoiles se cachent sous la terre",
+          "Les étoiles sont toujours là le jour, mais la forte lumière du Soleil cache leur faible lumière."
+        ],
+        [
+          "Qui a été le premier humain à marcher sur la Lune ?",
+          "Neil Armstrong",
+          "Isaac Newton",
+          "Charles Darwin",
+          "Neil Armstrong a posé le pied sur la Lune en 1969. Newton et Darwin étaient des savants qui ont vécu bien avant les voyages dans l’espace."
+        ],
+        [
+          "Pourquoi les traces de pas des astronautes sont-elles encore sur la Lune ?",
+          "il n’y a ni vent ni pluie pour les effacer",
+          "les astronautes les ont collées",
+          "la Lune est faite de ciment",
+          "Il n’y a pas d’air sur la Lune, donc ni vent ni pluie. Rien ne déplace la poussière et les traces restent très longtemps."
+        ],
+        [
+          "Y a-t-il de l’air à respirer sur la Lune ?",
+          "non, c’est pour ça que les astronautes portent une combinaison",
+          "oui, beaucoup d’air frais",
+          "seulement la nuit",
+          "Il n’y a pas d’air sur la Lune. Les astronautes emportent leur propre réserve d’air dans leur combinaison."
+        ],
+        [
+          "Quelle force attire les objets vers la Terre et fait tourner la Lune autour d’elle ?",
+          "la gravité",
+          "le magnétisme",
+          "le vent",
+          "La gravité fait tomber une pomme par terre. Cette même force garde la Lune sur son chemin autour de la Terre."
+        ],
+        [
+          "Quelle planète possède la Grande Tache rouge, une tempête géante plus grande que la Terre ?",
+          "Jupiter",
+          "Mercure",
+          "Vénus",
+          "La Grande Tache rouge est une énorme tempête tourbillonnante sur Jupiter, qui dure depuis des centaines d’années."
+        ],
+        [
+          "Comment appelle-t-on un groupe d’étoiles qui forme un dessin dans le ciel ?",
+          "une constellation",
+          "une planète",
+          "une comète",
+          "Les gens ont relié des étoiles pour former des dessins appelés constellations, comme la Grande Ourse."
+        ],
+        [
+          "Combien de temps la Terre met-elle pour faire un tour sur elle-même ?",
+          "environ 24 heures",
+          "environ une semaine",
+          "environ un an",
+          "Un tour complet de la Terre sur elle-même dure environ 24 heures, soit un jour et une nuit."
+        ],
+        [
+          "Combien de lunes la Terre a-t-elle ?",
+          "une",
+          "aucune",
+          "dix",
+          "La Terre n’a qu’une seule lune. Certaines planètes en ont beaucoup : Jupiter et Saturne en ont des dizaines."
+        ],
+        [
+          "Lequel est le plus grand, le Soleil ou la Terre ?",
+          "le Soleil, de très loin",
+          "la Terre",
+          "ils ont la même taille",
+          "Plus d’un million de Terres pourraient tenir dans le Soleil. Il paraît petit seulement parce qu’il est très loin."
         ]
       ],
       "yo": [
@@ -304,6 +747,146 @@
           "mẹ́ta",
           "ogún",
           "Pílánẹ́ẹ̀tì mẹ́jọ ló wà: Mákúrì, Fínọ́ọ̀sì, Ilẹ̀ ayé, Máàsì, Júpítà, Sátọ̀nù, Yúránọ́ọ̀sì àti Nẹ́pítúùnù."
+        ],
+        [
+          "Pílánẹ́ẹ̀tì wo ló gbóná jùlọ nínú ètò oòrùn wa?",
+          "Fínọ́ọ̀sì",
+          "Nẹ́pítúùnù",
+          "Máàsì",
+          "Ìkùukùu tó nípọn tí ó ń dá ooru dúró ló bo Fínọ́ọ̀sì, nítorí náà ó gbóná ju Mákúrì lọ, bí Mákúrì tilẹ̀ sún mọ́ oòrùn jù."
+        ],
+        [
+          "Báwo ni ìrísí ilẹ̀ ayé ṣe rí?",
+          "ó rí roboto bí bọ́ọ̀lù",
+          "ó tẹ́ pẹrẹsẹ bí àwo",
+          "ó ní igun mẹ́fà bí àpótí",
+          "Àwòrán tí wọ́n yà láti òfuurufú fi hàn pé ilẹ̀ ayé rí roboto bí bọ́ọ̀lù, ó kàn fẹ̀ díẹ̀ ní àárín."
+        ],
+        [
+          "Ibo ni ìmọ́lẹ̀ òṣùpá ti ń wá?",
+          "ìmọ́lẹ̀ oòrùn tí ó ń tàn padà láti ara òṣùpá",
+          "iná tí ó ń jó lórí òṣùpá",
+          "àtùpà tí ènìyàn gbé sórí òṣùpá",
+          "Òṣùpá kò ní ìmọ́lẹ̀ tirẹ̀. Ó ń tàn nítorí pé ìmọ́lẹ̀ oòrùn ń tàn padà láti ara rẹ̀."
+        ],
+        [
+          "Kí ló dé tí ó dà bí ẹni pé oòrùn ń rìn kọjá ojú ọ̀run lọ́sàn-án?",
+          "nítorí pé ilẹ̀ ayé ń yí po",
+          "nítorí pé oòrùn ń yí ilẹ̀ ayé ká lójoojúmọ́",
+          "nítorí pé afẹ́fẹ́ ń tì í",
+          "Oòrùn dúró sí ààyè rẹ̀. Bí ilẹ̀ ayé ṣe ń yí po, ó dà bí ẹni pé oòrùn ń yọ, ó ń rìn kọjá ojú ọ̀run, ó sì ń wọ̀."
+        ],
+        [
+          "Ọ̀nà wo ni oòrùn ti ń yọ ní òwúrọ̀?",
+          "ní ìlà oòrùn",
+          "ní ìwọ̀ oòrùn",
+          "ní àríwá",
+          "Nítorí pé ilẹ̀ ayé ń yí po sí ìhà ìlà oòrùn, ó máa ń dà bí ẹni pé oòrùn ń yọ ní ìlà oòrùn nígbà gbogbo."
+        ],
+        [
+          "Ọ̀nà wo ni oòrùn ti ń wọ̀ ní ìrọ̀lẹ́?",
+          "ní ìwọ̀ oòrùn",
+          "ní ìlà oòrùn",
+          "ní gúúsù",
+          "Oòrùn ń yọ ní ìlà oòrùn, ó ń rìn kọjá ojú ọ̀run, ó sì ń wọ̀ ní ìwọ̀ oòrùn."
+        ],
+        [
+          "Kí ni òṣùpá?",
+          "bọ́ọ̀lù àpáta tí ó ń yí ilẹ̀ ayé ká",
+          "ìràwọ̀ tí ó ní ìmọ́lẹ̀ tirẹ̀",
+          "pílánẹ́ẹ̀tì tí ó ń yí oòrùn ká fúnra rẹ̀",
+          "Òṣùpá jẹ́ ọmọlẹ́yìn àdánidá ilẹ̀ ayé: bọ́ọ̀lù àpáta ńlá tí ó ń yí pílánẹ́ẹ̀tì wa ká."
+        ],
+        [
+          "Kí ló dé tí o kò gbọdọ̀ wo oòrùn tààrà láéláé?",
+          "ìmọ́lẹ̀ rẹ̀ tó lágbára lè ba ojú rẹ jẹ́",
+          "ó máa ń mú ọ ga sí i",
+          "ó jìnnà jù láti rí",
+          "Oòrùn mọ́lẹ̀ gan-an débi pé wíwò ó, kódà fún ìgbà díẹ̀, lè ba ojú jẹ́ títí láé. Má ṣe wò ó tààrà rárá."
+        ],
+        [
+          "Pílánẹ́ẹ̀tì wo ló jẹ́ ẹ̀kẹta láti oòrùn?",
+          "Ilẹ̀ ayé",
+          "Máàsì",
+          "Júpítà",
+          "Tí a bá ka láti oòrùn: Mákúrì, Fínọ́ọ̀sì, lẹ́yìn náà Ilẹ̀ ayé. Máàsì ni ẹ̀kẹrin, Júpítà sì ni ẹ̀karùn-ún."
+        ],
+        [
+          "Kí ni àwọn ìràwọ̀ tí a ń rí lóru?",
+          "bọ́ọ̀lù gáàsì ńlá tó gbóná, tó ń tàn, tí ó jìnnà gan-an",
+          "ihò ní ojú ọ̀run",
+          "àtùpà kéékèèké tí wọ́n so mọ́ ẹ̀gbẹ́ òṣùpá",
+          "Ìràwọ̀ jẹ́ oòrùn bí tiwa. Wọ́n dà bí kékeré nítorí pé wọ́n jìnnà réré gan-an ni."
+        ],
+        [
+          "Kí ló dé tí a kò fi lè rí ìràwọ̀ lọ́sàn-án?",
+          "ìmọ́lẹ̀ oòrùn mọ́lẹ̀ jù",
+          "àwọn ìràwọ̀ máa ń kú lọ́sàn-án",
+          "àwọn ìràwọ̀ ń sá pamọ́ sábẹ́ ilẹ̀",
+          "Àwọn ìràwọ̀ ṣì wà níbẹ̀ lọ́sàn-án, ṣùgbọ́n ìmọ́lẹ̀ oòrùn tó mọ́lẹ̀ gan-an ń bo ìmọ́lẹ̀ wọn tí kò lágbára mọ́lẹ̀."
+        ],
+        [
+          "Ta ni ẹni àkọ́kọ́ tí ó rìn lórí òṣùpá?",
+          "Neil Armstrong",
+          "Isaac Newton",
+          "Charles Darwin",
+          "Neil Armstrong tẹ ẹsẹ̀ bọ́ òṣùpá ní ọdún 1969. Newton àti Darwin jẹ́ onímọ̀ sáyẹ́ǹsì tí wọ́n gbé ayé ṣáájú ìrìn àjò òfuurufú."
+        ],
+        [
+          "Kí ló dé tí ojú ẹsẹ̀ àwọn arìnrìn-àjò òfuurufú ṣì wà lórí òṣùpá títí di òní?",
+          "kò sí afẹ́fẹ́ tàbí òjò tí yóò pa wọ́n rẹ́",
+          "àwọn arìnrìn-àjò fi gọ́ọ̀mù lẹ̀ wọ́n",
+          "sìmẹ́ǹtì ni wọ́n fi ṣe òṣùpá",
+          "Kò sí afẹ́fẹ́ lórí òṣùpá, nítorí náà kò sí atẹ́gùn tàbí òjò. Kò sí nǹkan tí ó ń gbé erùpẹ̀ kúrò, ojú ẹsẹ̀ náà sì ń wà fún ìgbà pípẹ́."
+        ],
+        [
+          "Ṣé afẹ́fẹ́ tí a lè mí wà lórí òṣùpá?",
+          "rárá, ìdí nìyí tí àwọn arìnrìn-àjò òfuurufú fi ń wọ aṣọ àkànṣe",
+          "bẹ́ẹ̀ni, afẹ́fẹ́ tútù pọ̀ níbẹ̀",
+          "lóru nìkan",
+          "Kò sí afẹ́fẹ́ lórí òṣùpá. Àwọn arìnrìn-àjò òfuurufú ń gbé afẹ́fẹ́ tiwọn sínú aṣọ àkànṣe wọn."
+        ],
+        [
+          "Agbára wo ló ń fa nǹkan wá sílẹ̀ sí ilẹ̀ ayé, tí ó sì ń mú òṣùpá máa yí i ká?",
+          "agbára òòfà ilẹ̀ (gravity)",
+          "agbára òòfà mágnẹ́ẹ̀tì",
+          "afẹ́fẹ́",
+          "Agbára òòfà ilẹ̀ ló ń fa èso ápù tí ó já bọ́ sí ilẹ̀. Agbára kan náà ló ń mú òṣùpá máa yí ilẹ̀ ayé ká."
+        ],
+        [
+          "Pílánẹ́ẹ̀tì wo ló ní Àmì Pupa Ńlá, ìjì ńlá kan tí ó tóbi ju ilẹ̀ ayé lọ?",
+          "Júpítà",
+          "Mákúrì",
+          "Fínọ́ọ̀sì",
+          "Àmì Pupa Ńlá jẹ́ ìjì ńlá tí ó ń yí po lórí Júpítà, ó sì ti wà fún ọgọ́rọ̀ọ̀rún ọdún."
+        ],
+        [
+          "Kí la ń pe àkójọpọ̀ ìràwọ̀ tí ó ń ṣe àwòrán ní ojú ọ̀run?",
+          "ìdílé ìràwọ̀ (constellation)",
+          "pílánẹ́ẹ̀tì",
+          "ìràwọ̀ oníru (comet)",
+          "Àwọn ènìyàn so àwọn ìràwọ̀ pọ̀ di àwòrán tí a ń pè ní ìdílé ìràwọ̀, bí Bíà Ńlá."
+        ],
+        [
+          "Báwo ni ó ṣe pẹ́ tó kí ilẹ̀ ayé tó yí po lẹ́ẹ̀kan?",
+          "nǹkan bí wákàtí 24",
+          "nǹkan bí ọ̀sẹ̀ kan",
+          "nǹkan bí ọdún kan",
+          "Yíyí po kan pátápátá ti ilẹ̀ ayé máa ń gba nǹkan bí wákàtí 24. Ìyẹn ni ọ̀sán kan àti òru kan."
+        ],
+        [
+          "Òṣùpá mélòó ni ilẹ̀ ayé ní?",
+          "ọ̀kan",
+          "kò ní rárá",
+          "mẹ́wàá",
+          "Òṣùpá kan ṣoṣo ni ilẹ̀ ayé ní. Àwọn pílánẹ́ẹ̀tì kan ní púpọ̀: Júpítà àti Sátọ̀nù ní ọ̀pọ̀lọpọ̀."
+        ],
+        [
+          "Èwo ló tóbi jù, oòrùn àbí ilẹ̀ ayé?",
+          "oòrùn ni, ó tóbi ju ilẹ̀ ayé lọ gan-an",
+          "ilẹ̀ ayé",
+          "ìwọ̀n wọn jọra",
+          "Ilẹ̀ ayé tó ju mílíọ̀nù kan lọ lè wọ inú oòrùn. Ó kàn dà bí kékeré nítorí pé ó jìnnà gan-an ni."
         ]
       ]
     }

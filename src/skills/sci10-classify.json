@@ -1,0 +1,936 @@
+{
+  "id": "sci10-classify",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 203,
+  "params": {
+    "emojis": [
+      "bone",
+      "memo",
+      "animal-honeybee",
+      "animal-turtle",
+      "wave",
+      "animal-elephant",
+      "animal-dolphin",
+      "animal-peacock",
+      "animal-shark",
+      "rain",
+      "snake",
+      "animal-lady-beetle",
+      "footprints",
+      "animal-crab",
+      "animal-octopus",
+      "fruit-apple",
+      "tree",
+      "fog",
+      "sparkles",
+      "openbook",
+      "cake",
+      "animal-cow",
+      "seedling",
+      "droplet",
+      "puzzle",
+      "sun-rain",
+      "chick",
+      "animal-butterfly",
+      "thermometer",
+      "scroll"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is a vertebrate?",
+          "an animal with a backbone",
+          "an animal without a backbone",
+          "a plant that makes flowers",
+          "Vertebrates have a backbone made of small bones called vertebrae. Fish, amphibians, reptiles, birds and mammals are vertebrates."
+        ],
+        [
+          "Which of these animals is an invertebrate?",
+          "a snail",
+          "a frog",
+          "a horse",
+          "A snail has a soft body and a shell but no backbone. Frogs and horses both have a backbone."
+        ],
+        [
+          "Out of all the animal species on Earth, roughly how many are invertebrates?",
+          "more than 9 out of every 10",
+          "about 1 out of every 10",
+          "exactly half",
+          "Insects, worms, spiders, snails and many more make invertebrates by far the biggest animal group."
+        ],
+        [
+          "Which vertebrate group has dry, scaly skin and lays eggs with leathery shells on land?",
+          "reptiles",
+          "amphibians",
+          "mammals",
+          "Reptiles such as tortoises, snakes and lizards have scaly, waterproof skin and lay their eggs on land."
+        ],
+        [
+          "Which vertebrate group usually starts life in water breathing with gills, then lives partly on land as an adult?",
+          "amphibians",
+          "reptiles",
+          "birds",
+          "Frogs, toads and newts hatch as tadpoles with gills and later grow lungs and legs. Their skin must stay moist."
+        ],
+        [
+          "Which two features do all mammals share?",
+          "they have hair or fur and feed their young on milk",
+          "they have feathers and a beak",
+          "they have scales and breathe with gills",
+          "From elephants to mice, every mammal has some hair, and mothers make milk for their babies."
+        ],
+        [
+          "A dolphin lives in the sea and has fins. Why is it classified as a mammal, not a fish?",
+          "it breathes air with lungs and feeds its calves on milk",
+          "it has a tail fin",
+          "it eats fish",
+          "Dolphins must come to the surface to breathe, and mothers feed their young on milk, like all mammals."
+        ],
+        [
+          "Which feature is found only in birds?",
+          "feathers",
+          "laying eggs",
+          "wings",
+          "Many animals lay eggs, and insects and bats have wings, but only birds have feathers."
+        ],
+        [
+          "Which set of features describes a fish?",
+          "gills, fins and usually scales, living in water",
+          "feathers, a beak and wings",
+          "fur, lungs and milk for its young",
+          "Fish take oxygen from water through their gills and swim with fins. Most are covered in scales."
+        ],
+        [
+          "Which of these animals is an amphibian?",
+          "a newt",
+          "a lizard",
+          "a tortoise",
+          "A newt has moist skin and lays its eggs in water. Lizards and tortoises are reptiles with dry, scaly skin."
+        ],
+        [
+          "Which of these animals is a reptile?",
+          "a crocodile",
+          "a salamander",
+          "a seal",
+          "Crocodiles have tough, scaly skin and lay eggs on land. A salamander is an amphibian and a seal is a mammal."
+        ],
+        [
+          "How many main body parts does an insect have?",
+          "three: head, thorax and abdomen",
+          "two: head and tail",
+          "five",
+          "Every adult insect has a head, a thorax with six legs attached, and an abdomen."
+        ],
+        [
+          "A spider is not an insect. Which features show this?",
+          "it has eight legs and two body parts",
+          "it has six legs and three body parts",
+          "it has feathers on its legs",
+          "Spiders are arachnids: eight legs, two body sections and no wings or antennae."
+        ],
+        [
+          "Crabs, lobsters and woodlice have a hard outer shell and jointed legs. Which group are they in?",
+          "crustaceans",
+          "fish",
+          "reptiles",
+          "Crustaceans are invertebrates. Their hard covering is an outer skeleton, not a backbone."
+        ],
+        [
+          "Snails, slugs and octopuses have soft bodies, and many have a shell. Which group are they in?",
+          "molluscs",
+          "insects",
+          "amphibians",
+          "Molluscs are invertebrates with soft bodies. Some, like snails, carry a shell; others, like octopuses, do not."
+        ],
+        [
+          "In a flowering plant, what forms inside the flower after pollination and can grow into a new plant?",
+          "seeds",
+          "spores",
+          "pine cones",
+          "After pollination, seeds develop inside the flower, often surrounded by a fruit such as an apple."
+        ],
+        [
+          "Which of these is a flowering plant?",
+          "an oak tree",
+          "a fern",
+          "a moss",
+          "Oak trees have small flowers in spring and make acorns, which are seeds. Ferns and mosses never flower."
+        ],
+        [
+          "Ferns and mosses have no flowers. How do they reproduce?",
+          "with tiny spores",
+          "with seeds inside fruits",
+          "by laying eggs",
+          "Spores are like specks of dust. They are spread by wind and grow into new plants in damp places."
+        ],
+        [
+          "What is a micro-organism?",
+          "a living thing too small to see without a microscope",
+          "a very small stone",
+          "a tiny machine",
+          "Bacteria, yeast and some moulds are micro-organisms. Millions could fit on the head of a pin."
+        ],
+        [
+          "Which of these is a micro-organism?",
+          "bacteria",
+          "ants",
+          "grains of sand",
+          "Ants are small but you can see them. Sand is not alive. Bacteria can only be seen with a microscope."
+        ],
+        [
+          "Which micro-organism is used to make bread dough rise?",
+          "yeast",
+          "mould",
+          "salt",
+          "Yeast feeds on sugar and gives off carbon dioxide gas. The bubbles make the dough swell."
+        ],
+        [
+          "Helpful bacteria are added to milk to make which food?",
+          "yoghurt",
+          "orange juice",
+          "crisps",
+          "Bacteria turn the sugar in milk into an acid, which thickens it and gives yoghurt its sharp taste."
+        ],
+        [
+          "Which living things break down dead leaves and return their goodness to the soil?",
+          "decomposers such as bacteria and fungi",
+          "pebbles",
+          "snowflakes",
+          "Decomposers feed on dead material and release nutrients that new plants can use."
+        ],
+        [
+          "Why should you wash your hands with soap before eating?",
+          "to remove harmful micro-organisms (germs)",
+          "to make your hands grow",
+          "to make the food warmer",
+          "Some bacteria and viruses can make you ill. Soap and water wash them off your skin."
+        ],
+        [
+          "Use the key: Does it have a backbone? Yes. Does it have feathers? No. Does it have fur? Yes. Which animal is it?",
+          "a mouse",
+          "a sparrow",
+          "a worm",
+          "A worm has no backbone and a sparrow has feathers. A mouse has a backbone and fur, so it is a mammal."
+        ],
+        [
+          "Mushrooms and moulds are not plants or animals. Which kingdom do they belong to?",
+          "fungi",
+          "plants",
+          "animals",
+          "Fungi cannot make their own food from sunlight as plants do. They feed by breaking down other material."
+        ],
+        [
+          "Which of these mammals lays eggs?",
+          "the platypus",
+          "the cat",
+          "the cow",
+          "The platypus and the echidna are rare mammals that lay eggs. After hatching, the young still drink their mother’s milk."
+        ],
+        [
+          "A scientist finds a new animal with six legs, two pairs of wings and three body parts. Which group should it go in?",
+          "insects",
+          "spiders",
+          "birds",
+          "Six legs and three body parts are the key features of an insect. Wings alone would not make it a bird."
+        ],
+        [
+          "Which two vertebrate groups keep a steady, warm body temperature whatever the weather?",
+          "mammals and birds",
+          "reptiles and fish",
+          "amphibians and reptiles",
+          "Mammals and birds make their own body heat. Reptiles, amphibians and most fish warm up or cool down with their surroundings."
+        ],
+        [
+          "Which scientist created the system of giving every species a two-part Latin name, such as Homo sapiens?",
+          "Carl Linnaeus",
+          "Charles Darwin",
+          "Isaac Newton",
+          "In the 1700s the Swedish scientist Linnaeus grouped living things and named them with a genus and a species name."
+        ]
+      ],
+      "de": [
+        [
+          "Was ist ein Wirbeltier?",
+          "ein Tier mit Wirbelsäule",
+          "ein Tier ohne Wirbelsäule",
+          "eine Pflanze, die Blüten bildet",
+          "Wirbeltiere haben eine Wirbelsäule aus kleinen Knochen, den Wirbeln. Fische, Amphibien, Reptilien, Vögel und Säugetiere sind Wirbeltiere."
+        ],
+        [
+          "Welches dieser Tiere ist ein Wirbelloser?",
+          "eine Schnecke",
+          "ein Frosch",
+          "ein Pferd",
+          "Eine Schnecke hat einen weichen Körper und ein Haus, aber keine Wirbelsäule. Frosch und Pferd haben eine."
+        ],
+        [
+          "Wie viele aller Tierarten der Erde sind ungefähr Wirbellose?",
+          "mehr als 9 von 10",
+          "etwa 1 von 10",
+          "genau die Hälfte",
+          "Insekten, Würmer, Spinnen, Schnecken und viele mehr machen die Wirbellosen zur weitaus größten Tiergruppe."
+        ],
+        [
+          "Welche Wirbeltiergruppe hat trockene, schuppige Haut und legt Eier mit lederartiger Schale an Land?",
+          "die Reptilien",
+          "die Amphibien",
+          "die Säugetiere",
+          "Reptilien wie Schildkröten, Schlangen und Eidechsen haben schuppige, wasserdichte Haut und legen ihre Eier an Land."
+        ],
+        [
+          "Welche Wirbeltiergruppe beginnt ihr Leben meist im Wasser mit Kiemen und lebt als Erwachsene teils an Land?",
+          "die Amphibien",
+          "die Reptilien",
+          "die Vögel",
+          "Frösche, Kröten und Molche schlüpfen als Kaulquappen mit Kiemen. Später bekommen sie Lungen und Beine. Ihre Haut muss feucht bleiben."
+        ],
+        [
+          "Welche zwei Merkmale haben alle Säugetiere?",
+          "sie haben Haare oder Fell und säugen ihre Jungen mit Milch",
+          "sie haben Federn und einen Schnabel",
+          "sie haben Schuppen und atmen mit Kiemen",
+          "Vom Elefanten bis zur Maus hat jedes Säugetier Haare, und die Mütter bilden Milch für ihre Jungen."
+        ],
+        [
+          "Ein Delfin lebt im Meer und hat Flossen. Warum zählt er zu den Säugetieren und nicht zu den Fischen?",
+          "er atmet mit Lungen Luft und säugt seine Jungen",
+          "er hat eine Schwanzflosse",
+          "er frisst Fische",
+          "Delfine müssen zum Atmen auftauchen, und die Mütter säugen ihre Jungen mit Milch, wie alle Säugetiere."
+        ],
+        [
+          "Welches Merkmal gibt es nur bei Vögeln?",
+          "Federn",
+          "Eier legen",
+          "Flügel",
+          "Viele Tiere legen Eier, und Insekten und Fledermäuse haben Flügel. Federn haben aber nur Vögel."
+        ],
+        [
+          "Welche Merkmale beschreiben einen Fisch?",
+          "Kiemen, Flossen und meist Schuppen, lebt im Wasser",
+          "Federn, Schnabel und Flügel",
+          "Fell, Lungen und Milch für die Jungen",
+          "Fische holen Sauerstoff mit den Kiemen aus dem Wasser und schwimmen mit Flossen. Die meisten sind mit Schuppen bedeckt."
+        ],
+        [
+          "Welches dieser Tiere ist eine Amphibie?",
+          "ein Molch",
+          "eine Eidechse",
+          "eine Landschildkröte",
+          "Ein Molch hat feuchte Haut und legt seine Eier ins Wasser. Eidechsen und Schildkröten sind Reptilien mit trockener, schuppiger Haut."
+        ],
+        [
+          "Welches dieser Tiere ist ein Reptil?",
+          "ein Krokodil",
+          "ein Salamander",
+          "eine Robbe",
+          "Krokodile haben eine harte, schuppige Haut und legen Eier an Land. Ein Salamander ist eine Amphibie, eine Robbe ein Säugetier."
+        ],
+        [
+          "Aus wie vielen Hauptteilen besteht der Körper eines Insekts?",
+          "drei: Kopf, Brust und Hinterleib",
+          "zwei: Kopf und Schwanz",
+          "fünf",
+          "Jedes erwachsene Insekt hat einen Kopf, eine Brust mit sechs Beinen und einen Hinterleib."
+        ],
+        [
+          "Eine Spinne ist kein Insekt. Welche Merkmale zeigen das?",
+          "sie hat acht Beine und zwei Körperteile",
+          "sie hat sechs Beine und drei Körperteile",
+          "sie hat Federn an den Beinen",
+          "Spinnen sind Spinnentiere: acht Beine, zwei Körperabschnitte, keine Flügel und keine Fühler."
+        ],
+        [
+          "Krabben, Hummer und Asseln haben einen harten Panzer und gegliederte Beine. Zu welcher Gruppe gehören sie?",
+          "zu den Krebstieren",
+          "zu den Fischen",
+          "zu den Reptilien",
+          "Krebstiere sind Wirbellose. Ihr harter Panzer ist ein Außenskelett, keine Wirbelsäule."
+        ],
+        [
+          "Schnecken und Kraken haben einen weichen Körper, und viele tragen eine Schale. Zu welcher Gruppe gehören sie?",
+          "zu den Weichtieren",
+          "zu den Insekten",
+          "zu den Amphibien",
+          "Weichtiere sind Wirbellose mit weichem Körper. Manche tragen eine Schale wie die Schnecke, andere nicht, wie der Krake."
+        ],
+        [
+          "Was entsteht bei einer Blütenpflanze nach der Bestäubung in der Blüte und kann zu einer neuen Pflanze werden?",
+          "Samen",
+          "Sporen",
+          "Kiefernzapfen",
+          "Nach der Bestäubung entwickeln sich in der Blüte Samen, oft umgeben von einer Frucht wie einem Apfel."
+        ],
+        [
+          "Welche dieser Pflanzen ist eine Blütenpflanze?",
+          "eine Eiche",
+          "ein Farn",
+          "ein Moos",
+          "Eichen haben im Frühling kleine Blüten und bilden Eicheln, also Samen. Farne und Moose blühen nie."
+        ],
+        [
+          "Farne und Moose haben keine Blüten. Wie vermehren sie sich?",
+          "mit winzigen Sporen",
+          "mit Samen in Früchten",
+          "indem sie Eier legen",
+          "Sporen sind fein wie Staub. Der Wind verteilt sie, und an feuchten Orten wachsen neue Pflanzen daraus."
+        ],
+        [
+          "Was ist ein Mikroorganismus?",
+          "ein Lebewesen, das man nur mit dem Mikroskop sehen kann",
+          "ein sehr kleiner Stein",
+          "eine winzige Maschine",
+          "Bakterien, Hefe und manche Schimmelpilze sind Mikroorganismen. Millionen davon passen auf einen Stecknadelkopf."
+        ],
+        [
+          "Welches davon ist ein Mikroorganismus?",
+          "Bakterien",
+          "Ameisen",
+          "Sandkörner",
+          "Ameisen sind klein, aber man sieht sie. Sand lebt nicht. Bakterien sieht man nur mit dem Mikroskop."
+        ],
+        [
+          "Welcher Mikroorganismus lässt Brotteig aufgehen?",
+          "Hefe",
+          "Schimmel",
+          "Salz",
+          "Hefe frisst Zucker und gibt Kohlendioxid ab. Die Gasbläschen lassen den Teig aufgehen."
+        ],
+        [
+          "Nützliche Bakterien werden zu Milch gegeben, um welches Lebensmittel herzustellen?",
+          "Joghurt",
+          "Orangensaft",
+          "Chips",
+          "Bakterien wandeln den Milchzucker in Säure um. Dadurch wird die Milch dick und der Joghurt schmeckt leicht sauer."
+        ],
+        [
+          "Welche Lebewesen zersetzen tote Blätter und geben die Nährstoffe an den Boden zurück?",
+          "Zersetzer wie Bakterien und Pilze",
+          "Kieselsteine",
+          "Schneeflocken",
+          "Zersetzer ernähren sich von totem Material und setzen Nährstoffe frei, die neue Pflanzen nutzen können."
+        ],
+        [
+          "Warum solltest du dir vor dem Essen die Hände mit Seife waschen?",
+          "um schädliche Mikroorganismen (Keime) zu entfernen",
+          "damit deine Hände wachsen",
+          "damit das Essen wärmer wird",
+          "Manche Bakterien und Viren machen krank. Seife und Wasser spülen sie von der Haut."
+        ],
+        [
+          "Nutze den Bestimmungsschlüssel: Hat es eine Wirbelsäule? Ja. Hat es Federn? Nein. Hat es Fell? Ja. Welches Tier ist es?",
+          "eine Maus",
+          "ein Spatz",
+          "ein Wurm",
+          "Ein Wurm hat keine Wirbelsäule, ein Spatz hat Federn. Die Maus hat Wirbelsäule und Fell, also ist sie ein Säugetier."
+        ],
+        [
+          "Pilze und Schimmel sind weder Pflanzen noch Tiere. Zu welchem Reich gehören sie?",
+          "zu den Pilzen",
+          "zu den Pflanzen",
+          "zu den Tieren",
+          "Pilze können nicht wie Pflanzen mit Sonnenlicht Nahrung herstellen. Sie ernähren sich, indem sie anderes Material zersetzen."
+        ],
+        [
+          "Welches dieser Säugetiere legt Eier?",
+          "das Schnabeltier",
+          "die Katze",
+          "die Kuh",
+          "Schnabeltier und Ameisenigel sind seltene Säugetiere, die Eier legen. Nach dem Schlüpfen trinken die Jungen trotzdem Muttermilch."
+        ],
+        [
+          "Eine Forscherin findet ein neues Tier mit sechs Beinen, zwei Flügelpaaren und drei Körperteilen. In welche Gruppe gehört es?",
+          "zu den Insekten",
+          "zu den Spinnen",
+          "zu den Vögeln",
+          "Sechs Beine und drei Körperteile sind die Kennzeichen eines Insekts. Flügel allein machen es nicht zum Vogel."
+        ],
+        [
+          "Welche zwei Wirbeltiergruppen halten ihre Körpertemperatur bei jedem Wetter gleichmäßig warm?",
+          "Säugetiere und Vögel",
+          "Reptilien und Fische",
+          "Amphibien und Reptilien",
+          "Säugetiere und Vögel erzeugen ihre eigene Körperwärme. Reptilien, Amphibien und die meisten Fische werden mit ihrer Umgebung wärmer oder kälter."
+        ],
+        [
+          "Welcher Wissenschaftler führte ein, jeder Art einen zweiteiligen lateinischen Namen wie Homo sapiens zu geben?",
+          "Carl von Linné",
+          "Charles Darwin",
+          "Isaac Newton",
+          "Im 18. Jahrhundert ordnete der schwedische Forscher Linné die Lebewesen und gab ihnen einen Gattungs- und einen Artnamen."
+        ]
+      ],
+      "fr": [
+        [
+          "Qu’est-ce qu’un vertébré ?",
+          "un animal qui a une colonne vertébrale",
+          "un animal sans colonne vertébrale",
+          "une plante qui fait des fleurs",
+          "Les vertébrés ont une colonne faite de petits os, les vertèbres. Poissons, amphibiens, reptiles, oiseaux et mammifères sont des vertébrés."
+        ],
+        [
+          "Lequel de ces animaux est un invertébré ?",
+          "un escargot",
+          "une grenouille",
+          "un cheval",
+          "L’escargot a un corps mou et une coquille, mais pas de colonne vertébrale. La grenouille et le cheval en ont une."
+        ],
+        [
+          "Sur toutes les espèces animales de la Terre, environ combien sont des invertébrés ?",
+          "plus de 9 sur 10",
+          "environ 1 sur 10",
+          "exactement la moitié",
+          "Insectes, vers, araignées, escargots et bien d’autres font des invertébrés le groupe d’animaux de loin le plus grand."
+        ],
+        [
+          "Quel groupe de vertébrés a une peau sèche à écailles et pond sur terre des œufs à coquille souple ?",
+          "les reptiles",
+          "les amphibiens",
+          "les mammifères",
+          "Les reptiles comme les tortues, les serpents et les lézards ont une peau écailleuse et imperméable et pondent sur la terre ferme."
+        ],
+        [
+          "Quel groupe de vertébrés commence souvent sa vie dans l’eau en respirant avec des branchies, puis vit en partie sur terre à l’âge adulte ?",
+          "les amphibiens",
+          "les reptiles",
+          "les oiseaux",
+          "Grenouilles, crapauds et tritons naissent sous forme de têtards à branchies, puis développent des poumons et des pattes. Leur peau doit rester humide."
+        ],
+        [
+          "Quels deux caractères tous les mammifères ont-ils en commun ?",
+          "ils ont des poils et nourrissent leurs petits avec du lait",
+          "ils ont des plumes et un bec",
+          "ils ont des écailles et respirent avec des branchies",
+          "De l’éléphant à la souris, chaque mammifère a des poils, et les mères produisent du lait pour leurs petits."
+        ],
+        [
+          "Le dauphin vit dans la mer et a des nageoires. Pourquoi est-il classé parmi les mammifères et non les poissons ?",
+          "il respire de l’air avec des poumons et allaite ses petits",
+          "il a une nageoire caudale",
+          "il mange des poissons",
+          "Le dauphin doit remonter à la surface pour respirer, et la mère nourrit son petit avec du lait, comme tous les mammifères."
+        ],
+        [
+          "Quel caractère ne se trouve que chez les oiseaux ?",
+          "les plumes",
+          "pondre des œufs",
+          "les ailes",
+          "Beaucoup d’animaux pondent, et les insectes et les chauves-souris ont des ailes, mais seuls les oiseaux ont des plumes."
+        ],
+        [
+          "Quel ensemble de caractères décrit un poisson ?",
+          "des branchies, des nageoires et souvent des écailles, vit dans l’eau",
+          "des plumes, un bec et des ailes",
+          "des poils, des poumons et du lait pour ses petits",
+          "Les poissons prennent l’oxygène de l’eau avec leurs branchies et nagent avec leurs nageoires. La plupart ont des écailles."
+        ],
+        [
+          "Lequel de ces animaux est un amphibien ?",
+          "un triton",
+          "un lézard",
+          "une tortue terrestre",
+          "Le triton a une peau humide et pond dans l’eau. Le lézard et la tortue sont des reptiles à peau sèche et écailleuse."
+        ],
+        [
+          "Lequel de ces animaux est un reptile ?",
+          "un crocodile",
+          "une salamandre",
+          "un phoque",
+          "Le crocodile a une peau dure à écailles et pond sur terre. La salamandre est un amphibien et le phoque un mammifère."
+        ],
+        [
+          "Combien de parties principales compte le corps d’un insecte ?",
+          "trois : la tête, le thorax et l’abdomen",
+          "deux : la tête et la queue",
+          "cinq",
+          "Chaque insecte adulte a une tête, un thorax qui porte six pattes, et un abdomen."
+        ],
+        [
+          "L’araignée n’est pas un insecte. Quels caractères le montrent ?",
+          "elle a huit pattes et deux parties du corps",
+          "elle a six pattes et trois parties du corps",
+          "elle a des plumes sur les pattes",
+          "Les araignées sont des arachnides : huit pattes, deux parties du corps, ni ailes ni antennes."
+        ],
+        [
+          "Les crabes, les homards et les cloportes ont une carapace dure et des pattes articulées. À quel groupe appartiennent-ils ?",
+          "aux crustacés",
+          "aux poissons",
+          "aux reptiles",
+          "Les crustacés sont des invertébrés. Leur carapace est un squelette externe, pas une colonne vertébrale."
+        ],
+        [
+          "Les escargots, les limaces et les pieuvres ont un corps mou, et beaucoup ont une coquille. À quel groupe appartiennent-ils ?",
+          "aux mollusques",
+          "aux insectes",
+          "aux amphibiens",
+          "Les mollusques sont des invertébrés au corps mou. Certains, comme l’escargot, ont une coquille ; d’autres, comme la pieuvre, n’en ont pas."
+        ],
+        [
+          "Chez une plante à fleurs, que se forme-t-il dans la fleur après la pollinisation et peut donner une nouvelle plante ?",
+          "des graines",
+          "des spores",
+          "des pommes de pin",
+          "Après la pollinisation, des graines se forment dans la fleur, souvent entourées d’un fruit comme la pomme."
+        ],
+        [
+          "Laquelle de ces plantes est une plante à fleurs ?",
+          "un chêne",
+          "une fougère",
+          "une mousse",
+          "Le chêne a de petites fleurs au printemps et donne des glands, qui sont des graines. Les fougères et les mousses ne fleurissent jamais."
+        ],
+        [
+          "Les fougères et les mousses n’ont pas de fleurs. Comment se reproduisent-elles ?",
+          "avec de minuscules spores",
+          "avec des graines dans des fruits",
+          "en pondant des œufs",
+          "Les spores sont fines comme de la poussière. Le vent les disperse et, dans les endroits humides, elles donnent de nouvelles plantes."
+        ],
+        [
+          "Qu’est-ce qu’un micro-organisme ?",
+          "un être vivant trop petit pour être vu sans microscope",
+          "un tout petit caillou",
+          "une minuscule machine",
+          "Les bactéries, la levure et certaines moisissures sont des micro-organismes. Des millions tiendraient sur une tête d’épingle."
+        ],
+        [
+          "Lequel de ces éléments est un micro-organisme ?",
+          "les bactéries",
+          "les fourmis",
+          "les grains de sable",
+          "Les fourmis sont petites mais visibles. Le sable n’est pas vivant. Les bactéries ne se voient qu’au microscope."
+        ],
+        [
+          "Quel micro-organisme fait lever la pâte à pain ?",
+          "la levure",
+          "la moisissure",
+          "le sel",
+          "La levure se nourrit de sucre et rejette du dioxyde de carbone. Les bulles de gaz font gonfler la pâte."
+        ],
+        [
+          "On ajoute de bonnes bactéries au lait pour fabriquer quel aliment ?",
+          "le yaourt",
+          "le jus d’orange",
+          "les chips",
+          "Les bactéries transforment le sucre du lait en acide : le lait épaissit et le yaourt prend son goût acidulé."
+        ],
+        [
+          "Quels êtres vivants décomposent les feuilles mortes et rendent leurs nutriments au sol ?",
+          "les décomposeurs comme les bactéries et les champignons",
+          "les cailloux",
+          "les flocons de neige",
+          "Les décomposeurs se nourrissent de matière morte et libèrent des nutriments que les nouvelles plantes peuvent utiliser."
+        ],
+        [
+          "Pourquoi faut-il se laver les mains au savon avant de manger ?",
+          "pour enlever les micro-organismes dangereux (microbes)",
+          "pour faire grandir ses mains",
+          "pour réchauffer la nourriture",
+          "Certaines bactéries et certains virus rendent malade. L’eau et le savon les enlèvent de la peau."
+        ],
+        [
+          "Utilise la clé : A-t-il une colonne vertébrale ? Oui. A-t-il des plumes ? Non. A-t-il des poils ? Oui. Quel animal est-ce ?",
+          "une souris",
+          "un moineau",
+          "un ver de terre",
+          "Le ver n’a pas de colonne vertébrale et le moineau a des plumes. La souris a une colonne et des poils : c’est un mammifère."
+        ],
+        [
+          "Les champignons et les moisissures ne sont ni des plantes ni des animaux. À quel règne appartiennent-ils ?",
+          "aux champignons (fungi)",
+          "aux plantes",
+          "aux animaux",
+          "Les champignons ne fabriquent pas leur nourriture avec la lumière comme les plantes. Ils se nourrissent en décomposant d’autres matières."
+        ],
+        [
+          "Lequel de ces mammifères pond des œufs ?",
+          "l’ornithorynque",
+          "le chat",
+          "la vache",
+          "L’ornithorynque et l’échidné sont de rares mammifères qui pondent. Après l’éclosion, les petits boivent quand même le lait de leur mère."
+        ],
+        [
+          "Une scientifique découvre un animal à six pattes, deux paires d’ailes et trois parties du corps. Dans quel groupe le classer ?",
+          "les insectes",
+          "les araignées",
+          "les oiseaux",
+          "Six pattes et trois parties du corps sont les caractères clés des insectes. Avoir des ailes ne suffit pas pour être un oiseau."
+        ],
+        [
+          "Quels deux groupes de vertébrés gardent un corps chaud et stable quel que soit le temps ?",
+          "les mammifères et les oiseaux",
+          "les reptiles et les poissons",
+          "les amphibiens et les reptiles",
+          "Les mammifères et les oiseaux produisent leur propre chaleur. Les reptiles, les amphibiens et la plupart des poissons se réchauffent ou se refroidissent avec leur milieu."
+        ],
+        [
+          "Quel scientifique a inventé le système qui donne à chaque espèce un nom latin en deux parties, comme Homo sapiens ?",
+          "Carl von Linné",
+          "Charles Darwin",
+          "Isaac Newton",
+          "Au XVIIIe siècle, le Suédois Linné a classé les êtres vivants et leur a donné un nom de genre et un nom d’espèce."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni ẹranko eléegun ẹ̀yìn?",
+          "ẹranko tó ní egungun ẹ̀yìn",
+          "ẹranko tí kò ní egungun ẹ̀yìn",
+          "ewéko tó ń so òdòdó",
+          "Ẹranko eléegun ẹ̀yìn ní egungun ẹ̀yìn tí a fi egungun kéékèèké ṣe. Ẹja, ẹranko ilẹ̀-òun-omi, ẹranko afàyàfà, ẹyẹ àti ẹranko afọ́mọlọ́mú wà nínú ìsọ̀rí yìí."
+        ],
+        [
+          "Èwo nínú àwọn ẹranko wọ̀nyí ni kò ní egungun ẹ̀yìn?",
+          "ìgbín",
+          "àkèré",
+          "ẹṣin",
+          "Ìgbín ní ara rírọ̀ àti ìkarahun, ṣùgbọ́n kò ní egungun ẹ̀yìn. Àkèré àti ẹṣin ní egungun ẹ̀yìn."
+        ],
+        [
+          "Nínú gbogbo ẹ̀yà ẹranko tó wà láyé, nǹkan bí mélòó ni kò ní egungun ẹ̀yìn?",
+          "ó ju mẹ́sàn-án nínú mẹ́wàá lọ",
+          "nǹkan bí ọ̀kan nínú mẹ́wàá",
+          "ìdajì gẹ́lẹ́",
+          "Kòkòrò, ekòló, aláǹtakùn, ìgbín àti ọ̀pọ̀lọpọ̀ mìíràn ló mú kí ìsọ̀rí yìí jẹ́ èyí tó tóbi jù lọ nínú àwọn ẹranko."
+        ],
+        [
+          "Ìsọ̀rí ẹranko eléegun ẹ̀yìn wo ló ní awọ gbígbẹ oníìpẹ́, tó sì ń yé ẹyin onípò rírọ̀ sórí ilẹ̀?",
+          "ẹranko afàyàfà",
+          "ẹranko ilẹ̀-òun-omi",
+          "ẹranko afọ́mọlọ́mú",
+          "Àwọn ẹranko afàyàfà bí ìjàpá, ejò àti aláǹgbá ní awọ oníìpẹ́ tí omi kò lè wọ̀, wọ́n sì ń yé ẹyin wọn sórí ilẹ̀."
+        ],
+        [
+          "Ìsọ̀rí ẹranko eléegun ẹ̀yìn wo ló máa ń bẹ̀rẹ̀ ayé nínú omi tí ó ń fi ẹ̀ka ìmí (gill) mí, tí ó sì ń gbé lórí ilẹ̀ díẹ̀ nígbà tó bá dàgbà?",
+          "ẹranko ilẹ̀-òun-omi",
+          "ẹranko afàyàfà",
+          "ẹyẹ",
+          "Àkèré àti ọ̀pọ̀lọ́ ń jáde láti inú ẹyin gẹ́gẹ́ bí tàdúpólù tó ní ẹ̀ka ìmí, lẹ́yìn náà wọ́n ń ní ẹ̀dọ̀fóró àti ẹsẹ̀. Awọ wọn gbọ́dọ̀ máa tutù."
+        ],
+        [
+          "Àwọn àbùdá méjì wo ni gbogbo ẹranko afọ́mọlọ́mú ní?",
+          "wọ́n ní irun, wọ́n sì ń fi wàrà bọ́ ọmọ wọn",
+          "wọ́n ní ìyẹ́ àti ṣóńṣó ẹnu",
+          "wọ́n ní ìpẹ́, wọ́n sì ń fi ẹ̀ka ìmí mí",
+          "Láti erin dé eku, gbogbo ẹranko afọ́mọlọ́mú ní irun, àwọn ìyá sì ń ṣe wàrà fún ọmọ wọn."
+        ],
+        [
+          "Ẹja àbùùbùtán (dolphin) ń gbé inú òkun, ó sì ní lẹbẹ. Kí ló dé tí a fi kà á sí ẹranko afọ́mọlọ́mú, tí kì í ṣe ẹja?",
+          "ó ń fi ẹ̀dọ̀fóró mí afẹ́fẹ́, ó sì ń fi wàrà bọ́ ọmọ rẹ̀",
+          "ó ní lẹbẹ ìrù",
+          "ó ń jẹ ẹja",
+          "Dolphin gbọ́dọ̀ wá sí orí omi láti mí, ìyá rẹ̀ sì ń fi wàrà bọ́ ọmọ, bí gbogbo ẹranko afọ́mọlọ́mú."
+        ],
+        [
+          "Àbùdá wo ló jẹ́ ti ẹyẹ nìkan?",
+          "ìyẹ́",
+          "yíyé ẹyin",
+          "ìyẹ́ apá",
+          "Ọ̀pọ̀ ẹranko ń yé ẹyin, kòkòrò àti àdán sì ní ìyẹ́ apá, ṣùgbọ́n ẹyẹ nìkan ló ní ìyẹ́ ara."
+        ],
+        [
+          "Àwọn àbùdá wo ló ṣàpèjúwe ẹja?",
+          "ẹ̀ka ìmí, lẹbẹ àti ìpẹ́ ní ọ̀pọ̀ ìgbà, ó ń gbé inú omi",
+          "ìyẹ́, ṣóńṣó ẹnu àti ìyẹ́ apá",
+          "irun, ẹ̀dọ̀fóró àti wàrà fún ọmọ rẹ̀",
+          "Ẹja ń fi ẹ̀ka ìmí gba ọ́síjìn láti inú omi, ó sì ń fi lẹbẹ lúwẹ̀ẹ́. Ìpẹ́ ló bo ara ọ̀pọ̀ jù lọ wọn."
+        ],
+        [
+          "Èwo nínú àwọn ẹranko wọ̀nyí ni ẹranko ilẹ̀-òun-omi?",
+          "newt",
+          "aláǹgbá",
+          "ìjàpá",
+          "Newt ní awọ tó tutù, ó sì ń yé ẹyin sínú omi. Aláǹgbá àti ìjàpá jẹ́ ẹranko afàyàfà tí awọ wọn gbẹ, tí ó sì ní ìpẹ́."
+        ],
+        [
+          "Èwo nínú àwọn ẹranko wọ̀nyí ni ẹranko afàyàfà?",
+          "ọ̀nì",
+          "salamánídà",
+          "ẹja ìkookò omi (seal)",
+          "Ọ̀nì ní awọ líle oníìpẹ́, ó sì ń yé ẹyin sórí ilẹ̀. Salamánídà jẹ́ ẹranko ilẹ̀-òun-omi, seal sì jẹ́ ẹranko afọ́mọlọ́mú."
+        ],
+        [
+          "Apá pàtàkì mélòó ló wà nínú ara kòkòrò (insect)?",
+          "mẹ́ta: orí, àyà àti ikùn",
+          "méjì: orí àti ìrù",
+          "márùn-ún",
+          "Gbogbo kòkòrò tó ti dàgbà ní orí, àyà tí ẹsẹ̀ mẹ́fà so mọ́, àti ikùn."
+        ],
+        [
+          "Aláǹtakùn kì í ṣe kòkòrò (insect). Àwọn àbùdá wo ló fi èyí hàn?",
+          "ó ní ẹsẹ̀ mẹ́jọ àti apá ara méjì",
+          "ó ní ẹsẹ̀ mẹ́fà àti apá ara mẹ́ta",
+          "ó ní ìyẹ́ lórí ẹsẹ̀ rẹ̀",
+          "Aláǹtakùn wà nínú ìsọ̀rí arachnid: ẹsẹ̀ mẹ́jọ, apá ara méjì, kò ní ìyẹ́ apá tàbí ìwo ìmọ̀lára."
+        ],
+        [
+          "Akan, ide omi (lobster) àti àwọn kòkòrò bíi wọn ní ìkarahun líle lóde àti ẹsẹ̀ oníkókó. Ìsọ̀rí wo ni wọ́n wà?",
+          "crustacean (ẹbí akan)",
+          "ẹja",
+          "ẹranko afàyàfà",
+          "Àwọn crustacean kò ní egungun ẹ̀yìn. Ìkarahun líle wọn jẹ́ egungun òde, kì í ṣe egungun ẹ̀yìn."
+        ],
+        [
+          "Ìgbín àti ẹja ẹlẹ́sẹ̀ mẹ́jọ (octopus) ní ara rírọ̀, ọ̀pọ̀ nínú wọn sì ní ìkarahun. Ìsọ̀rí wo ni wọ́n wà?",
+          "mollusc (ẹbí ìgbín)",
+          "kòkòrò",
+          "ẹranko ilẹ̀-òun-omi",
+          "Àwọn mollusc kò ní egungun ẹ̀yìn, ara wọn sì rọ̀. Àwọn kan bí ìgbín ní ìkarahun, àwọn mìíràn bí octopus kò ní."
+        ],
+        [
+          "Nínú ewéko olódòdó, kí ló ń wáyé nínú òdòdó lẹ́yìn ìtànká eruku òdòdó, tí ó lè hù di ewéko tuntun?",
+          "irúgbìn",
+          "spore (èso eruku)",
+          "kọ́ọ̀nù igi páìnì",
+          "Lẹ́yìn ìtànká eruku òdòdó, irúgbìn ń dàgbà nínú òdòdó, èso bí ápù sì máa ń yí i ká."
+        ],
+        [
+          "Èwo nínú àwọn wọ̀nyí ni ewéko olódòdó?",
+          "igi oaku",
+          "ewéko fern",
+          "mọ́sì",
+          "Igi oaku ń so òdòdó kéékèèké, ó sì ń so irúgbìn. Fern àti mọ́sì kì í so òdòdó rárá."
+        ],
+        [
+          "Fern àti mọ́sì kò ní òdòdó. Báwo ni wọ́n ṣe ń bí ẹ̀dá tuntun?",
+          "pẹ̀lú spore kéékèèké",
+          "pẹ̀lú irúgbìn inú èso",
+          "nípa yíyé ẹyin",
+          "Spore dà bí eruku kékeré. Afẹ́fẹ́ ń fọ́n wọn ká, wọ́n sì ń hù di ewéko tuntun níbi tó tutù."
+        ],
+        [
+          "Kí ni ẹ̀dá kékeré-kíkéré (micro-organism)?",
+          "ẹ̀dá alààyè tí ó kéré débi pé a kò lè rí i láìsí máíkírósíkóòpù",
+          "òkúta kékeré gan-an",
+          "ẹ̀rọ kékeré-kíkéré",
+          "Bakitéríà, ìwúkàrà àti àwọn èbu kan jẹ́ ẹ̀dá kékeré-kíkéré. Ọ̀pọ̀ mílíọ̀nù wọn lè wà lórí orí abẹ́rẹ́ kan."
+        ],
+        [
+          "Èwo nínú àwọn wọ̀nyí ni ẹ̀dá kékeré-kíkéré?",
+          "bakitéríà",
+          "èèrà",
+          "hóró iyanrìn",
+          "Èèrà kéré, ṣùgbọ́n a lè rí i. Iyanrìn kò wà láàyè. Máíkírósíkóòpù nìkan la fi lè rí bakitéríà."
+        ],
+        [
+          "Ẹ̀dá kékeré-kíkéré wo la fi ń mú kí ìyẹ̀fun búrẹ́dì wú?",
+          "ìwúkàrà",
+          "èbu",
+          "iyọ̀",
+          "Ìwúkàrà ń jẹ ṣúgà, ó sì ń tú kábọ́ọ̀nù dáyọ́ksáídì jáde. Àwọn ìhò afẹ́fẹ́ náà ló ń mú kí ìyẹ̀fun wú."
+        ],
+        [
+          "A máa ń fi bakitéríà tó wúlò sínú wàrà láti ṣe oúnjẹ wo?",
+          "yúgọ́ọ̀tì",
+          "omi ọsàn",
+          "ìpápánu dídín (crisps)",
+          "Bakitéríà ń sọ ṣúgà inú wàrà di ásíìdì, èyí tó ń mú un ki, tí ó sì ń fún yúgọ́ọ̀tì ní adùn kíkan."
+        ],
+        [
+          "Àwọn ẹ̀dá alààyè wo ló ń jẹ ewé tó ti kú, tí wọ́n sì ń dá oúnjẹ rẹ̀ padà sínú ilẹ̀?",
+          "àwọn ajẹkúùtù bí bakitéríà àti olú",
+          "òkúta wẹ́wẹ́",
+          "yìnyín tó ń jábọ́",
+          "Àwọn ajẹkúùtù ń jẹ ohun tó ti kú, wọ́n sì ń tú èròjà jáde tí ewéko tuntun lè lò."
+        ],
+        [
+          "Kí ló dé tí o fi gbọ́dọ̀ fi ọṣẹ fọ ọwọ́ kí o tó jẹun?",
+          "láti mú àwọn kòkòrò àrùn kékeré-kíkéré kúrò",
+          "kí ọwọ́ rẹ lè dàgbà",
+          "kí oúnjẹ lè gbóná sí i",
+          "Àwọn bakitéríà àti fáírọ́ọ̀sì kan lè mú ọ ṣàìsàn. Ọṣẹ àti omi ń fọ̀ wọ́n kúrò lára awọ."
+        ],
+        [
+          "Lo àtẹ ìdánimọ̀ yìí: Ṣé ó ní egungun ẹ̀yìn? Bẹ́ẹ̀ni. Ṣé ó ní ìyẹ́? Rárá. Ṣé ó ní irun? Bẹ́ẹ̀ni. Ẹranko wo ni?",
+          "eku",
+          "ẹyẹ ológoṣé",
+          "ekòló",
+          "Ekòló kò ní egungun ẹ̀yìn, ológoṣé sì ní ìyẹ́. Eku ní egungun ẹ̀yìn àti irun, nítorí náà ẹranko afọ́mọlọ́mú ni."
+        ],
+        [
+          "Olú àti èbu kì í ṣe ewéko tàbí ẹranko. Ìjọba ẹ̀dá wo ni wọ́n wà?",
+          "ìjọba olú (fungi)",
+          "ìjọba ewéko",
+          "ìjọba ẹranko",
+          "Olú kò lè fi ìmọ́lẹ̀ oòrùn ṣe oúnjẹ ara rẹ̀ bí ewéko. Ó ń jẹun nípa fífọ́ àwọn nǹkan mìíràn."
+        ],
+        [
+          "Èwo nínú àwọn ẹranko afọ́mọlọ́mú wọ̀nyí ló ń yé ẹyin?",
+          "platypus",
+          "ológbò",
+          "màlúù",
+          "Platypus àti echidna jẹ́ ẹranko afọ́mọlọ́mú díẹ̀ tó ń yé ẹyin. Lẹ́yìn tí ọmọ bá pa, ó ṣì ń mu wàrà ìyá rẹ̀."
+        ],
+        [
+          "Onímọ̀ sáyẹ́ǹsì kan rí ẹranko tuntun tó ní ẹsẹ̀ mẹ́fà, ìyẹ́ apá méjì-méjì àti apá ara mẹ́ta. Ìsọ̀rí wo ló yẹ kí ó wà?",
+          "kòkòrò (insect)",
+          "aláǹtakùn",
+          "ẹyẹ",
+          "Ẹsẹ̀ mẹ́fà àti apá ara mẹ́ta ni àmì pàtàkì kòkòrò. Ìyẹ́ apá nìkan kò sọ ẹranko di ẹyẹ."
+        ],
+        [
+          "Àwọn ìsọ̀rí ẹranko eléegun ẹ̀yìn méjì wo ni ara wọn máa ń gbóná bákan náà, bó ti wù kí ojú ọjọ́ rí?",
+          "ẹranko afọ́mọlọ́mú àti ẹyẹ",
+          "ẹranko afàyàfà àti ẹja",
+          "ẹranko ilẹ̀-òun-omi àti ẹranko afàyàfà",
+          "Ẹranko afọ́mọlọ́mú àti ẹyẹ ń ṣe ooru ara wọn. Ara àwọn afàyàfà, ilẹ̀-òun-omi àti ọ̀pọ̀ ẹja ń gbóná tàbí tutù pẹ̀lú àyíká wọn."
+        ],
+        [
+          "Onímọ̀ sáyẹ́ǹsì wo ló dá ètò fífún ẹ̀yà ẹ̀dá kọ̀ọ̀kan ní orúkọ Látìnì apá méjì sílẹ̀, bí Homo sapiens?",
+          "Carl Linnaeus",
+          "Charles Darwin",
+          "Isaac Newton",
+          "Ní ọ̀rúndún kejìdínlógún, Linnaeus ará Sweden pín àwọn ẹ̀dá alààyè sí ìsọ̀rí, ó sì fún wọn ní orúkọ ìdílé àti orúkọ ẹ̀yà."
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-frog",
+  "example": {
+    "i": 0,
+    "q_en": "What is a vertebrate?",
+    "answer_en": "an animal with a backbone",
+    "why_en": "Vertebrates have a backbone made of small bones called vertebrae. Fish, amphibians, reptiles, birds and mammals are vertebrates.",
+    "q_de": "Was ist ein Wirbeltier?",
+    "answer_de": "ein Tier mit Wirbelsäule",
+    "why_de": "Wirbeltiere haben eine Wirbelsäule aus kleinen Knochen, den Wirbeln. Fische, Amphibien, Reptilien, Vögel und Säugetiere sind Wirbeltiere.",
+    "q_fr": "Qu’est-ce qu’un vertébré ?",
+    "answer_fr": "un animal qui a une colonne vertébrale",
+    "why_fr": "Les vertébrés ont une colonne faite de petits os, les vertèbres. Poissons, amphibiens, reptiles, oiseaux et mammifères sont des vertébrés.",
+    "q_yo": "Kí ni ẹranko eléegun ẹ̀yìn?",
+    "answer_yo": "ẹranko tó ní egungun ẹ̀yìn",
+    "why_yo": "Ẹranko eléegun ẹ̀yìn ní egungun ẹ̀yìn tí a fi egungun kéékèèké ṣe. Ẹja, ẹranko ilẹ̀-òun-omi, ẹranko afàyàfà, ẹyẹ àti ẹranko afọ́mọlọ́mú wà nínú ìsọ̀rí yìí."
+  },
+  "text": {
+    "en": {
+      "title": "Classifying living things",
+      "teach": "Scientists sort living things into groups by their features. Vertebrates have a backbone: mammals, birds, reptiles, amphibians and fish. Invertebrates have none. Plants can be flowering or non-flowering, and micro-organisms are too small to see without a microscope.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Lebewesen ordnen",
+      "teach": "Forschende ordnen Lebewesen nach ihren Merkmalen in Gruppen. Wirbeltiere haben eine Wirbelsäule: Säugetiere, Vögel, Reptilien, Amphibien und Fische. Wirbellose haben keine. Pflanzen können blühen oder nicht, und Mikroorganismen sieht man nur mit dem Mikroskop.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Classer les êtres vivants",
+      "teach": "Les scientifiques rangent les êtres vivants en groupes selon leurs caractères. Les vertébrés ont une colonne vertébrale : mammifères, oiseaux, reptiles, amphibiens et poissons. Les invertébrés n’en ont pas. Les plantes sont à fleurs ou sans fleurs, et les micro-organismes ne se voient qu’au microscope.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Pínpín àwọn ẹ̀dá alààyè sí ìsọ̀rí",
+      "teach": "Àwọn onímọ̀ sáyẹ́ǹsì ń pín àwọn ẹ̀dá alààyè sí ìsọ̀rí gẹ́gẹ́ bí àbùdá wọn. Àwọn ẹranko eléegun ẹ̀yìn ni ẹranko afọ́mọlọ́mú, ẹyẹ, ẹranko afàyàfà, ẹranko ilẹ̀-òun-omi àti ẹja. Àwọn mìíràn kò ní egungun ẹ̀yìn. Ewéko lè so òdòdó tàbí kí ó má so, a kò sì lè fi ojú lásán rí àwọn ẹ̀dá kékeré-kíkéré.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

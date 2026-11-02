@@ -1,10 +1,11 @@
 import { ArrowLeft } from 'lucide-react'
 import { type ChangeEvent, useRef, useState } from 'react'
-import { addChild, newChild, removeChild } from '@/app/state'
+import { addChild, newChild, removeChild, updateChild } from '@/app/state'
 import { useStore } from '@/app/store'
 import { BackupError, backupDue, makeBackup, parseBackup, saveBackupFile } from '@/data/backup'
 import { useLang, useT } from '@/i18n'
-import { SKILLS } from '@/skills/index'
+import { SKILLS, SUBJECT_EMOJI, SUBJECTS } from '@/skills/index'
+import type { Subject } from '@/skills/types'
 import { accessOf } from '@/app/access'
 import { type Access, type ItemId, ITEM_IDS, ITEMS } from '@/app/items'
 import { Emoji } from '@/shared/Emoji'
@@ -12,7 +13,7 @@ import { runningVersion, updateNow } from '@/shared/autoUpdate'
 import { NO_LOCK } from './pin'
 import { LanguagePicker } from '@/shared/LanguagePicker'
 import { speak, useVoiceChoice, type VoiceGender } from '@/shared/speak'
-import { ChildForm } from '@/setup/Setup'
+import { AgePicker, ChildForm } from '@/setup/Setup'
 import { ChoosePin } from './PinScreens'
 import { ReportCard } from './ReportCard'
 import './Parent.css'
@@ -62,6 +63,9 @@ function ChildrenCard() {
             <i className="dot" style={{ background: c.colour }} />
             <b>{c.name || '?'}</b>
             <span className="muted">{T.parent.learnt(SKILLS.filter((s) => c.skills[s.id]?.mastered).length, SKILLS.length)}</span>
+            <span className="child-age">
+              {T.parent.age} <AgePicker age={c.age} onAge={(age) => update((s) => updateChild(s, c.id, (x) => ({ ...x, age })))} />
+            </span>
             {state.children.length > 1 && (
               <button className="secondary" onClick={() => confirm(T.parent.confirmRemove(c.name)) && update((s) => removeChild(s, c.id))}>
                 {T.parent.remove}
@@ -73,8 +77,8 @@ function ChildrenCard() {
       {adding ? (
         <ChildForm
           submit={T.parent.add}
-          onDone={({ name, colour }) => {
-            update((s) => addChild(s, newChild(name, colour)))
+          onDone={({ name, colour, age }) => {
+            update((s) => addChild(s, newChild(name, colour, undefined, age)))
             setAdding(false)
           }}
         />
@@ -96,6 +100,7 @@ function AccessCard() {
   const set = (id: ItemId, value: Access) => update((s) => ({ ...s, family: { ...s.family, access: { ...s.family.access, [id]: value } } }))
   const reward = (change: Partial<typeof state.family.rewards>) => update((s) => ({ ...s, family: { ...s.family, rewards: { ...s.family.rewards, ...change } } }))
   const r = state.family.rewards
+  const setSubject = (subject: Subject, value: Access) => update((s) => ({ ...s, family: { ...s.family, subjects: { ...s.family.subjects, [subject]: value } } }))
   return (
     <section className="card parent-card">
       <h2>{T.parent.accessTitle}</h2>
@@ -120,6 +125,29 @@ function AccessCard() {
           ))}
         </tbody>
       </table>
+      <h3>{T.parent.subjectsTitle}</h3>
+      <p className="muted">{T.parent.subjectsNote}</p>
+      <table className="access">
+        <tbody>
+          {SUBJECTS.map((subject) => (
+            <tr key={subject}>
+              <td>
+                <Emoji name={SUBJECT_EMOJI[subject]} size={28} /> {T.home.subjects[subject]}
+              </td>
+              <td>
+                <div className="segmented">
+                  {(['off', 'open', 'earn'] as const).map((value) => (
+                    <button key={value} className={state.family.subjects[subject] === value ? '' : 'secondary'} aria-pressed={state.family.subjects[subject] === value} onClick={() => setSubject(subject, value)}>
+                      {T.access[value]}
+                    </button>
+                  ))}
+                </div>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <Stepper label={T.parent.lessonsToOpen} value={r.lessonsToOpen} min={1} max={5} step={1} onChange={(n) => reward({ lessonsToOpen: n })} />
       <Stepper label={T.parent.minutesPerLesson} value={r.minutesPerLesson} min={5} max={30} step={5} onChange={(n) => reward({ minutesPerLesson: n })} />
       <Stepper label={T.parent.maxPerDay} value={r.maxPerDay} min={10} max={180} step={5} onChange={(n) => reward({ maxPerDay: n })} />
     </section>

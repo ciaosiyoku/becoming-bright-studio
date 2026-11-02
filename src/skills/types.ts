@@ -34,6 +34,8 @@ export interface SkillDef {
   subject: Subject
   /** About which school stage it belongs to (Cambridge Primary: 0 = before Stage 1, up to 7 = a stretch past 6). */
   stage: number
+  /** The age ranges it is for (skills/ages.ts); without it, the range of its stage. */
+  ages?: import('./ages').AgeBand[]
   /** The teaching order within its subject (the home screen shows skills in this order). */
   order: number
   /** Settings for the question maker, e.g. { "max": 5 } or word lists. Each maker reads its own (generate.ts). */

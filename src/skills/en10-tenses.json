@@ -1,0 +1,274 @@
+{
+  "id": "en10-tenses",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 207,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "openbook",
+      "music",
+      "trophy",
+      "game",
+      "calendar",
+      "bus",
+      "tv",
+      "snow",
+      "house",
+      "chick",
+      "party",
+      "rain",
+      "memo",
+      "telephone",
+      "framed",
+      "map",
+      "paws",
+      "moon",
+      "droplet",
+      "clock",
+      "wave",
+      "scroll",
+      "hockey",
+      "game",
+      "fruit-apple",
+      "telephone",
+      "teddy",
+      "animal-camel",
+      "key",
+      "footprints"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which tense is this sentence in? “I am reading a book.”",
+          "present progressive",
+          "simple past",
+          "present perfect",
+          "“am/is/are” + an -ing verb shows an action happening now: the present progressive."
+        ],
+        [
+          "Which tense is “was singing” in “She was singing when I arrived.”?",
+          "past progressive",
+          "present perfect",
+          "simple future",
+          "“was/were” + an -ing verb shows an action that was going on in the past: the past progressive."
+        ],
+        [
+          "Which tense is this sentence in? “We have finished our project.”",
+          "present perfect",
+          "past progressive",
+          "simple present",
+          "“have/has” + a past participle is the present perfect."
+        ],
+        [
+          "Which tense is this sentence in? “They played chess yesterday.”",
+          "simple past",
+          "present progressive",
+          "simple future",
+          "A finished action at a time in the past uses the simple past."
+        ],
+        [
+          "Which tense is this sentence in? “He will visit us tomorrow.”",
+          "simple future",
+          "simple past",
+          "present perfect",
+          "“will” + a verb talks about the future: the simple future."
+        ],
+        [
+          "Which tense is this sentence in? “The bus leaves at eight every day.”",
+          "simple present",
+          "past progressive",
+          "present perfect",
+          "Something that happens regularly uses the simple present."
+        ],
+        [
+          "Which tense is “had eaten” in “I had eaten before the film started.”?",
+          "past perfect",
+          "present progressive",
+          "simple future",
+          "“had” + a past participle is the past perfect. It shows one past action happened before another."
+        ],
+        [
+          "Which tense is this sentence in? “It was snowing all night.”",
+          "past progressive",
+          "simple present",
+          "present perfect",
+          "“was/were” + an -ing verb shows an action that was going on in the past: the past progressive."
+        ],
+        [
+          "Which tense is this sentence in? “She has lived here for ten years.”",
+          "present perfect",
+          "simple future",
+          "past progressive",
+          "“have/has” + a past participle is the present perfect."
+        ],
+        [
+          "Which tense is this sentence in? “The birds are building a nest.”",
+          "present progressive",
+          "past perfect",
+          "simple past",
+          "“am/is/are” + an -ing verb shows an action happening now: the present progressive."
+        ],
+        [
+          "Which word fills the gap? “Yesterday I ___ to the cinema.”",
+          "went",
+          "go",
+          "will go",
+          "“Yesterday” tells us the action is finished and in the past, so we use the simple past “went”."
+        ],
+        [
+          "Which word fills the gap? “Look! It ___ outside.”",
+          "is raining",
+          "rained",
+          "has rain",
+          "“Look!” shows it is happening right now, so we use the present progressive."
+        ],
+        [
+          "Which word fills the gap? “I have ___ my homework already.”",
+          "done",
+          "did",
+          "doing",
+          "After “have” we need the past participle “done”."
+        ],
+        [
+          "Which word fills the gap? “While we ___ dinner, the phone rang.”",
+          "were eating",
+          "are eating",
+          "eat",
+          "The eating was going on in the past when the phone rang, so we use the past progressive."
+        ],
+        [
+          "Which word fills the gap? “Tomorrow we ___ the museum.”",
+          "will visit",
+          "visited",
+          "have visited",
+          "“Tomorrow” is in the future, so we use “will visit”."
+        ],
+        [
+          "Which word fills the gap? “She has ___ in London since 2020.”",
+          "lived",
+          "live",
+          "living",
+          "After “has” we need the past participle “lived” to make the present perfect."
+        ],
+        [
+          "Which word fills the gap? “Every morning, Dad ___ the dog for a walk.”",
+          "takes",
+          "taking",
+          "have taken",
+          "A regular habit uses the simple present, and “Dad” needs “takes”."
+        ],
+        [
+          "Which word fills the gap? “Last summer we ___ in a tent.”",
+          "slept",
+          "sleep",
+          "are sleeping",
+          "“Last summer” is in the past, so we use the simple past “slept”."
+        ],
+        [
+          "Which word fills the gap? “At seven o’clock last night, I ___ a bath.”",
+          "was having",
+          "am having",
+          "will have",
+          "The bath was going on at a moment in the past, so we use the past progressive."
+        ],
+        [
+          "Which word fills the gap? “By the time we arrived, the film ___.”",
+          "had started",
+          "starts",
+          "will start",
+          "The film started before we arrived, so we use the past perfect “had started”."
+        ],
+        [
+          "What is the simple past of “swim”?",
+          "swam",
+          "swum",
+          "swimmed",
+          "Today I swim, yesterday I swam. “Swum” goes with “have”, as in “I have swum”."
+        ],
+        [
+          "Which sentence is in the present perfect?",
+          "I have written a story.",
+          "I wrote a story.",
+          "I am writing a story.",
+          "“Have” + “written” is the present perfect."
+        ],
+        [
+          "Which sentence is in the past progressive?",
+          "They were playing outside.",
+          "They play outside.",
+          "They have played outside.",
+          "“Were” + “playing” is the past progressive."
+        ],
+        [
+          "What is the simple past of “catch”?",
+          "caught",
+          "catched",
+          "cought",
+          "“Catch” is irregular: today I catch, yesterday I caught."
+        ],
+        [
+          "Which word fills the gap? “She has ___ her lunch.”",
+          "eaten",
+          "ate",
+          "eat",
+          "After “has” we need the past participle “eaten”."
+        ],
+        [
+          "Which sentence is in the simple future?",
+          "I will call you later.",
+          "I called you yesterday.",
+          "I am calling you now.",
+          "“Will” + “call” talks about the future."
+        ],
+        [
+          "Which sentence is in the present progressive?",
+          "The baby is sleeping.",
+          "The baby slept.",
+          "The baby has slept.",
+          "“Is” + “sleeping” shows something happening now."
+        ],
+        [
+          "Which word fills the gap? “Have you ever ___ a camel?”",
+          "seen",
+          "saw",
+          "see",
+          "After “have” we use the past participle “seen”."
+        ],
+        [
+          "Which word fills the gap? “I ___ my keys! I can’t find them anywhere.”",
+          "have lost",
+          "am losing",
+          "will lose",
+          "The keys are lost now because of something that already happened, so we use the present perfect."
+        ],
+        [
+          "Which is the past progressive of “The dog barks”?",
+          "The dog was barking.",
+          "The dog has barked.",
+          "The dog will bark.",
+          "“Was” + “barking” is the past progressive."
+        ]
+      ]
+    }
+  },
+  "emoji": "clock",
+  "example": {
+    "i": 0,
+    "q_en": "Which tense is this sentence in? “I am reading a book.”",
+    "answer_en": "present progressive",
+    "why_en": "“am/is/are” + an -ing verb shows an action happening now: the present progressive."
+  },
+  "text": {
+    "en": {
+      "title": "Verb tenses",
+      "teach": "Tenses show when things happen: I walked (simple past), I was walking (past progressive), I have walked (present perfect), I am walking (present progressive), I will walk (simple future).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

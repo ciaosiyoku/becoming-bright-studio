@@ -1,0 +1,936 @@
+{
+  "id": "sci10-evolution",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 202,
+  "params": {
+    "emojis": [
+      "bone",
+      "dinosaur",
+      "animal-penguin",
+      "polarbear",
+      "animal-camel",
+      "animal-giraffe",
+      "openbook",
+      "animal-turtle",
+      "animal-parrot",
+      "gift",
+      "girl",
+      "paws",
+      "tree",
+      "factory",
+      "framed",
+      "medal",
+      "mountain",
+      "animal-snail",
+      "beach",
+      "footprints",
+      "map",
+      "animal-rabbit",
+      "desert",
+      "animal-fox",
+      "snow",
+      "warning",
+      "animal-swan",
+      "animal-cow",
+      "animal-owl",
+      "books"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is a fossil?",
+          "the preserved remains or traces of a living thing from long ago, usually in rock",
+          "a shiny crystal that grows in caves",
+          "a small volcano on the sea floor",
+          "Fossils form when a dead plant or animal is buried in mud or sand that slowly turns to rock over millions of years."
+        ],
+        [
+          "How do fossils give evidence for evolution?",
+          "they show that living things long ago were different from those alive today",
+          "they prove that living things never change",
+          "they show that dinosaurs still live in forests today",
+          "Fossils from different ages show plants and animals slowly changing, and many species that no longer exist."
+        ],
+        [
+          "In science, what is an adaptation?",
+          "a feature that helps a living thing survive in its habitat",
+          "an illness that spreads between animals",
+          "a kind of rock found near the sea",
+          "Penguins’ waterproof feathers and flipper-shaped wings are adaptations for life in icy seas."
+        ],
+        [
+          "Which features help a polar bear survive in the Arctic?",
+          "thick fur and a layer of fat under its skin",
+          "thin skin and no fur",
+          "huge ears to let heat escape",
+          "Thick fur and blubber trap heat, so the bear stays warm in freezing air and icy water."
+        ],
+        [
+          "A camel has wide feet, long eyelashes and can go days without drinking. Which habitat is it adapted to?",
+          "a hot sandy desert",
+          "a rainforest pond",
+          "the Arctic ice",
+          "Wide feet stop it sinking in sand, eyelashes keep sand out of its eyes, and it can save water for a long time."
+        ],
+        [
+          "How does natural selection explain why giraffes have long necks?",
+          "giraffes with longer necks reached more leaves, survived and passed long necks on",
+          "giraffes stretched their necks, so their babies were born with long necks",
+          "giraffes decided they wanted longer necks",
+          "Features a parent gets by stretching or training are not inherited. Giraffes born with longer necks had an advantage and had more young."
+        ],
+        [
+          "Which scientist is famous for the theory of evolution by natural selection?",
+          "Charles Darwin",
+          "Isaac Newton",
+          "Marie Curie",
+          "Darwin published his ideas in 1859. Newton is famous for gravity and Curie for radioactivity."
+        ],
+        [
+          "On which islands did Darwin study giant tortoises and finches?",
+          "the Galápagos Islands",
+          "Iceland",
+          "Hawaii",
+          "On his voyage on the ship HMS Beagle, Darwin noticed that animals differed slightly from one Galápagos island to the next."
+        ],
+        [
+          "Finches on different Galápagos islands have different beak shapes. What is the best explanation?",
+          "each beak shape suits the food found on that island",
+          "the birds sharpened their beaks on rocks",
+          "the birds picked the beak shape they liked best",
+          "Birds whose beaks fitted the local seeds or insects got more food and had more chicks, so that beak shape became common."
+        ],
+        [
+          "What does inheritance mean in science?",
+          "features passing from parents to their offspring",
+          "growing stronger by doing exercise",
+          "learning skills from a teacher",
+          "Offspring inherit features such as eye colour from their parents. Skills you learn are not inherited."
+        ],
+        [
+          "Why do children look like their parents but not exactly the same as either one?",
+          "they inherit a mix of features from both parents",
+          "they copy their parents’ faces by watching them",
+          "they choose which features to have",
+          "Each child gets half of its genetic information from each parent, so it has a new mix of features."
+        ],
+        [
+          "Puppies from the same litter have different coat patterns. What does this show?",
+          "offspring of the same parents vary",
+          "the puppies have different mothers",
+          "dogs do not inherit anything",
+          "Brothers and sisters inherit different mixes of their parents’ features, so they are not identical."
+        ],
+        [
+          "What is natural selection?",
+          "living things best suited to their environment survive and reproduce more",
+          "people choosing which animals are allowed to breed",
+          "every living thing surviving equally well",
+          "Because of natural selection, helpful features become more common in a population over many generations."
+        ],
+        [
+          "Long ago most peppered moths were pale. When factory soot blackened tree trunks, dark moths became more common. Why?",
+          "dark moths on dark bark were harder for birds to spot",
+          "pale moths painted themselves dark",
+          "the soot dyed the moths’ wings",
+          "Birds ate more of the pale moths they could see, so more dark moths survived to breed."
+        ],
+        [
+          "Which of these features is inherited rather than learned?",
+          "natural eye colour",
+          "speaking French",
+          "riding a bike",
+          "Eye colour comes from your parents’ genes. Languages and riding a bike are skills you learn."
+        ],
+        [
+          "Which feature is caused by the environment, not inherited?",
+          "a scar from a fall",
+          "natural hair colour",
+          "the shape of your earlobes",
+          "A scar comes from something that happened to you, so it cannot be passed on to your children."
+        ],
+        [
+          "In which kind of rock are most fossils found?",
+          "sedimentary rock",
+          "fresh lava",
+          "glass",
+          "Sedimentary rock forms from layers of mud and sand that bury dead plants and animals and slowly harden."
+        ],
+        [
+          "Fossil sea shells are sometimes found high up on mountains. How did they get there?",
+          "the rock formed under the sea and was slowly pushed up over millions of years",
+          "the sea creatures climbed up the mountain",
+          "people carved them out of stone for fun",
+          "Movements of the Earth’s crust can lift old seabed rock thousands of metres into the air."
+        ],
+        [
+          "Who was Mary Anning?",
+          "a fossil hunter who found ancient sea reptile skeletons on the English coast",
+          "a famous painter of royal portraits",
+          "the first woman to fly across the Atlantic",
+          "Mary Anning found ichthyosaur and plesiosaur fossils in the cliffs at Lyme Regis in the early 1800s."
+        ],
+        [
+          "How do scientists know that dinosaurs once lived?",
+          "from fossils of their bones, teeth, eggs and footprints",
+          "from old photographs",
+          "from people who saw them",
+          "Dinosaurs died out about 66 million years ago, long before people existed, so fossils are our evidence."
+        ],
+        [
+          "Rock layers build up one on top of another. Where would you expect to find the oldest fossils?",
+          "in the deepest layers",
+          "in the top layer",
+          "in the soil of a new garden",
+          "Lower layers were laid down first, so their fossils are older than those in the layers above."
+        ],
+        [
+          "An island’s climate slowly becomes much colder. Which rabbits are most likely to survive and have young?",
+          "rabbits born with thicker fur",
+          "rabbits born with thinner fur",
+          "rabbits born with no fur",
+          "Thicker fur keeps heat in. Those rabbits survive better and pass the feature on, so over time most rabbits have thick fur."
+        ],
+        [
+          "Why does a cactus have spines instead of broad, flat leaves?",
+          "spines lose less water and keep thirsty animals away",
+          "spines help it catch fish",
+          "spines help it float in floods",
+          "Broad leaves lose a lot of water. A cactus stores water in its thick stem and the spines protect it."
+        ],
+        [
+          "A fennec fox lives in the Sahara desert. How do its very large ears help it?",
+          "they give off heat to keep it cool",
+          "they keep it warm on snowy nights",
+          "they help it dig burrows",
+          "Lots of blood flows through the thin ears, so heat escapes into the air. The big ears also hear prey under the sand."
+        ],
+        [
+          "An Arctic fox’s coat is brown in summer and white in winter. How does this help it?",
+          "it stays camouflaged all year",
+          "it swims faster in winter",
+          "it can see in the dark",
+          "Brown matches the summer rocks and white matches the snow, so it can sneak up on prey and hide from enemies."
+        ],
+        [
+          "What can happen to a species that cannot adapt when its environment changes a lot?",
+          "it may become extinct",
+          "it turns into a plant",
+          "it always becomes stronger",
+          "If no individuals have features that help them survive the change, the species can die out completely, like the dodo."
+        ],
+        [
+          "Which feature is an adaptation that helps a swan swim?",
+          "webbed feet",
+          "sharp claws for climbing trees",
+          "a long sticky tongue",
+          "Skin between the toes pushes against the water like a paddle."
+        ],
+        [
+          "For many generations, farmers bred only from the cows that gave the most milk. What was the result?",
+          "most cows today give far more milk",
+          "cows stopped giving milk",
+          "the cows turned into goats",
+          "This is selective breeding: people, not nature, choose which parents pass on their features."
+        ],
+        [
+          "Owls hunt at night. How do their large, forward-facing eyes help them?",
+          "they see prey well in very dim light",
+          "they see colours better in bright sunshine",
+          "they keep rain off the owl’s face",
+          "Big eyes collect more light, and both eyes facing forward help the owl judge distances when it swoops."
+        ],
+        [
+          "What is Darwin’s book On the Origin of Species mainly about?",
+          "how species change over time through natural selection",
+          "how the planets move around the Sun",
+          "how to grow vegetables on a farm",
+          "In 1859 Darwin explained how small differences, passed on over many generations, can produce new species."
+        ]
+      ],
+      "de": [
+        [
+          "Was ist ein Fossil?",
+          "erhaltene Reste oder Spuren eines Lebewesens aus uralter Zeit, meist im Gestein",
+          "ein glänzender Kristall, der in Höhlen wächst",
+          "ein kleiner Vulkan am Meeresboden",
+          "Fossilien entstehen, wenn eine tote Pflanze oder ein totes Tier von Schlamm oder Sand bedeckt wird, der über Millionen Jahre zu Stein wird."
+        ],
+        [
+          "Wie liefern Fossilien Belege für die Evolution?",
+          "sie zeigen, dass Lebewesen früher anders waren als heute",
+          "sie beweisen, dass sich Lebewesen nie verändern",
+          "sie zeigen, dass Dinosaurier heute noch in Wäldern leben",
+          "Fossilien aus verschiedenen Zeiten zeigen, wie sich Pflanzen und Tiere langsam verändert haben, und viele Arten, die es nicht mehr gibt."
+        ],
+        [
+          "Was ist in der Biologie eine Anpassung?",
+          "ein Merkmal, das einem Lebewesen hilft, in seinem Lebensraum zu überleben",
+          "eine Krankheit, die sich unter Tieren ausbreitet",
+          "eine Gesteinsart, die man am Meer findet",
+          "Das wasserdichte Gefieder und die flossenartigen Flügel des Pinguins sind Anpassungen an das Leben im eiskalten Meer."
+        ],
+        [
+          "Welche Merkmale helfen dem Eisbären, in der Arktis zu überleben?",
+          "dichtes Fell und eine Fettschicht unter der Haut",
+          "dünne Haut und kein Fell",
+          "riesige Ohren, die Wärme abgeben",
+          "Dichtes Fell und Speck halten die Wärme fest. So bleibt der Bär in eisiger Luft und kaltem Wasser warm."
+        ],
+        [
+          "Ein Kamel hat breite Füße, lange Wimpern und kommt tagelang ohne Trinken aus. An welchen Lebensraum ist es angepasst?",
+          "an eine heiße Sandwüste",
+          "an einen Teich im Regenwald",
+          "an das Eis der Arktis",
+          "Breite Füße sinken nicht im Sand ein, Wimpern schützen die Augen vor Sand, und es kann lange mit wenig Wasser auskommen."
+        ],
+        [
+          "Wie erklärt die natürliche Selektion den langen Hals der Giraffen?",
+          "Giraffen mit längerem Hals erreichten mehr Blätter, überlebten und vererbten den langen Hals",
+          "Giraffen reckten den Hals, darum kamen ihre Jungen mit langem Hals zur Welt",
+          "Giraffen beschlossen, einen längeren Hals zu wollen",
+          "Was ein Tier durch Strecken oder Training erwirbt, wird nicht vererbt. Giraffen, die mit längerem Hals geboren wurden, waren im Vorteil und hatten mehr Junge."
+        ],
+        [
+          "Welcher Wissenschaftler ist für die Evolutionstheorie durch natürliche Selektion berühmt?",
+          "Charles Darwin",
+          "Isaac Newton",
+          "Marie Curie",
+          "Darwin veröffentlichte seine Ideen 1859. Newton ist für die Schwerkraft bekannt, Curie für die Radioaktivität."
+        ],
+        [
+          "Auf welchen Inseln untersuchte Darwin Riesenschildkröten und Finken?",
+          "auf den Galapagosinseln",
+          "auf Island",
+          "auf Hawaii",
+          "Auf seiner Reise mit dem Schiff HMS Beagle bemerkte Darwin, dass sich die Tiere von einer Galapagosinsel zur nächsten leicht unterschieden."
+        ],
+        [
+          "Finken auf verschiedenen Galapagosinseln haben unterschiedliche Schnäbel. Was ist die beste Erklärung?",
+          "jede Schnabelform passt zur Nahrung auf ihrer Insel",
+          "die Vögel haben ihre Schnäbel an Steinen geschliffen",
+          "die Vögel suchten sich die Schnabelform aus, die ihnen am besten gefiel",
+          "Vögel, deren Schnabel zu den Samen oder Insekten vor Ort passte, fanden mehr Futter und hatten mehr Junge. So wurde diese Form häufig."
+        ],
+        [
+          "Was bedeutet Vererbung in der Biologie?",
+          "Merkmale gehen von den Eltern auf die Nachkommen über",
+          "durch Sport stärker werden",
+          "Fähigkeiten von einer Lehrerin lernen",
+          "Nachkommen erben Merkmale wie die Augenfarbe von ihren Eltern. Gelernte Fähigkeiten werden nicht vererbt."
+        ],
+        [
+          "Warum sehen Kinder ihren Eltern ähnlich, aber keinem von beiden genau gleich?",
+          "sie erben eine Mischung von Merkmalen beider Eltern",
+          "sie ahmen die Gesichter ihrer Eltern nach",
+          "sie suchen sich ihre Merkmale selbst aus",
+          "Jedes Kind bekommt die Hälfte seiner Erbinformation von jedem Elternteil und hat so eine neue Mischung von Merkmalen."
+        ],
+        [
+          "Welpen aus demselben Wurf haben unterschiedliche Fellmuster. Was zeigt das?",
+          "Nachkommen derselben Eltern unterscheiden sich",
+          "die Welpen haben verschiedene Mütter",
+          "Hunde erben gar nichts",
+          "Geschwister erben verschiedene Mischungen der Merkmale ihrer Eltern. Darum sind sie nicht gleich."
+        ],
+        [
+          "Was ist natürliche Selektion?",
+          "Lebewesen, die am besten an ihre Umwelt angepasst sind, überleben und vermehren sich stärker",
+          "Menschen bestimmen, welche Tiere sich fortpflanzen dürfen",
+          "alle Lebewesen überleben gleich gut",
+          "Durch natürliche Selektion werden nützliche Merkmale über viele Generationen in einer Population häufiger."
+        ],
+        [
+          "Früher waren die meisten Birkenspanner hell. Als Fabrikruß die Baumstämme schwärzte, wurden dunkle Falter häufiger. Warum?",
+          "dunkle Falter auf dunkler Rinde waren für Vögel schwerer zu entdecken",
+          "helle Falter haben sich dunkel angemalt",
+          "der Ruß hat die Flügel gefärbt",
+          "Vögel fraßen mehr helle Falter, die sie gut sahen. So überlebten mehr dunkle Falter und pflanzten sich fort."
+        ],
+        [
+          "Welches dieser Merkmale ist vererbt und nicht erlernt?",
+          "die natürliche Augenfarbe",
+          "Französisch sprechen",
+          "Fahrrad fahren",
+          "Die Augenfarbe kommt aus den Genen der Eltern. Sprachen und Radfahren sind Fähigkeiten, die man lernt."
+        ],
+        [
+          "Welches Merkmal kommt von der Umwelt und ist nicht vererbt?",
+          "eine Narbe von einem Sturz",
+          "die natürliche Haarfarbe",
+          "die Form der Ohrläppchen",
+          "Eine Narbe entsteht durch ein Erlebnis. Sie kann nicht an Kinder weitergegeben werden."
+        ],
+        [
+          "In welcher Gesteinsart findet man die meisten Fossilien?",
+          "im Sedimentgestein",
+          "in frischer Lava",
+          "in Glas",
+          "Sedimentgestein entsteht aus Schichten von Schlamm und Sand. Sie bedecken tote Pflanzen und Tiere und werden langsam hart."
+        ],
+        [
+          "Versteinerte Meeresmuscheln findet man manchmal hoch oben in den Bergen. Wie kamen sie dorthin?",
+          "das Gestein entstand im Meer und wurde über Millionen Jahre langsam angehoben",
+          "die Meerestiere sind auf den Berg geklettert",
+          "Menschen haben sie zum Spaß aus Stein geschnitzt",
+          "Bewegungen der Erdkruste können alten Meeresboden Tausende Meter in die Höhe heben."
+        ],
+        [
+          "Wer war Mary Anning?",
+          "eine Fossiliensammlerin, die an der englischen Küste Skelette urzeitlicher Meeresreptilien fand",
+          "eine berühmte Malerin königlicher Porträts",
+          "die erste Frau, die über den Atlantik flog",
+          "Mary Anning fand Anfang des 19. Jahrhunderts in den Klippen von Lyme Regis Fossilien von Ichthyosauriern und Plesiosauriern."
+        ],
+        [
+          "Woher wissen Forschende, dass es Dinosaurier gab?",
+          "aus Fossilien von Knochen, Zähnen, Eiern und Fußspuren",
+          "aus alten Fotos",
+          "von Menschen, die sie gesehen haben",
+          "Dinosaurier starben vor etwa 66 Millionen Jahren aus, lange bevor es Menschen gab. Fossilien sind unsere Belege."
+        ],
+        [
+          "Gesteinsschichten lagern sich übereinander ab. Wo findest du wahrscheinlich die ältesten Fossilien?",
+          "in den tiefsten Schichten",
+          "in der obersten Schicht",
+          "in der Erde eines neuen Gartens",
+          "Die unteren Schichten entstanden zuerst. Ihre Fossilien sind also älter als die in den Schichten darüber."
+        ],
+        [
+          "Das Klima einer Insel wird langsam viel kälter. Welche Kaninchen überleben am ehesten und bekommen Junge?",
+          "Kaninchen mit dichterem Fell",
+          "Kaninchen mit dünnerem Fell",
+          "Kaninchen ganz ohne Fell",
+          "Dichteres Fell hält die Wärme. Diese Kaninchen überleben besser und vererben das Merkmal. Mit der Zeit haben die meisten dichtes Fell."
+        ],
+        [
+          "Warum hat ein Kaktus Stacheln statt breiter, flacher Blätter?",
+          "Stacheln verlieren weniger Wasser und halten durstige Tiere fern",
+          "mit Stacheln fängt er Fische",
+          "Stacheln lassen ihn bei Überschwemmungen schwimmen",
+          "Breite Blätter verlieren viel Wasser. Der Kaktus speichert Wasser im dicken Stamm, und die Stacheln schützen ihn."
+        ],
+        [
+          "Der Wüstenfuchs (Fennek) lebt in der Sahara. Wie helfen ihm seine sehr großen Ohren?",
+          "sie geben Wärme ab und kühlen ihn",
+          "sie halten ihn in Schneenächten warm",
+          "sie helfen ihm beim Graben von Bauen",
+          "Durch die dünnen Ohren fließt viel Blut, so entweicht Wärme in die Luft. Außerdem hört er damit Beute unter dem Sand."
+        ],
+        [
+          "Das Fell des Polarfuchses ist im Sommer braun und im Winter weiß. Wie hilft ihm das?",
+          "er ist das ganze Jahr über getarnt",
+          "er schwimmt im Winter schneller",
+          "er kann im Dunkeln sehen",
+          "Braun passt zu den Felsen im Sommer, Weiß zum Schnee. So kann er sich an Beute heranschleichen und sich vor Feinden verstecken."
+        ],
+        [
+          "Was kann mit einer Art geschehen, die sich nicht anpassen kann, wenn sich ihre Umwelt stark verändert?",
+          "sie kann aussterben",
+          "sie verwandelt sich in eine Pflanze",
+          "sie wird immer stärker",
+          "Hat kein Tier Merkmale, die beim Überleben helfen, kann die Art ganz verschwinden, wie der Dodo."
+        ],
+        [
+          "Welches Merkmal ist eine Anpassung, die dem Schwan beim Schwimmen hilft?",
+          "Schwimmhäute an den Füßen",
+          "spitze Krallen zum Klettern",
+          "eine lange, klebrige Zunge",
+          "Die Haut zwischen den Zehen drückt wie ein Paddel gegen das Wasser."
+        ],
+        [
+          "Über viele Generationen ließen Bauern nur die Kühe mit der meisten Milch Kälber bekommen. Was war das Ergebnis?",
+          "die meisten Kühe geben heute viel mehr Milch",
+          "die Kühe gaben keine Milch mehr",
+          "die Kühe wurden zu Ziegen",
+          "Das ist Zucht: Hier wählen Menschen, nicht die Natur, welche Eltern ihre Merkmale weitergeben."
+        ],
+        [
+          "Eulen jagen nachts. Wie helfen ihnen ihre großen, nach vorn gerichteten Augen?",
+          "sie sehen Beute auch bei sehr wenig Licht gut",
+          "sie sehen Farben im hellen Sonnenschein besser",
+          "sie halten den Regen vom Gesicht fern",
+          "Große Augen sammeln mehr Licht. Weil beide nach vorn schauen, kann die Eule Entfernungen beim Zustoßen gut schätzen."
+        ],
+        [
+          "Worum geht es hauptsächlich in Darwins Buch Über die Entstehung der Arten?",
+          "wie sich Arten durch natürliche Selektion im Lauf der Zeit verändern",
+          "wie sich die Planeten um die Sonne bewegen",
+          "wie man auf einem Bauernhof Gemüse anbaut",
+          "1859 erklärte Darwin, wie kleine Unterschiede, die über viele Generationen weitergegeben werden, neue Arten hervorbringen können."
+        ]
+      ],
+      "fr": [
+        [
+          "Qu’est-ce qu’un fossile ?",
+          "des restes ou des traces d’un être vivant très ancien, conservés le plus souvent dans la roche",
+          "un cristal brillant qui pousse dans les grottes",
+          "un petit volcan au fond de la mer",
+          "Un fossile se forme quand une plante ou un animal mort est recouvert de boue ou de sable, qui se change lentement en roche pendant des millions d’années."
+        ],
+        [
+          "Comment les fossiles apportent-ils des preuves de l’évolution ?",
+          "ils montrent que les êtres vivants d’autrefois étaient différents de ceux d’aujourd’hui",
+          "ils prouvent que les êtres vivants ne changent jamais",
+          "ils montrent que les dinosaures vivent encore dans les forêts",
+          "Les fossiles de différentes époques montrent des plantes et des animaux qui changent peu à peu, et beaucoup d’espèces qui n’existent plus."
+        ],
+        [
+          "En sciences, qu’est-ce qu’une adaptation ?",
+          "un caractère qui aide un être vivant à survivre dans son milieu",
+          "une maladie qui se transmet entre animaux",
+          "une sorte de roche trouvée près de la mer",
+          "Les plumes imperméables du manchot et ses ailes en forme de nageoires sont des adaptations à la vie dans les mers glacées."
+        ],
+        [
+          "Quels caractères aident l’ours polaire à survivre dans l’Arctique ?",
+          "une fourrure épaisse et une couche de graisse sous la peau",
+          "une peau fine et pas de fourrure",
+          "d’énormes oreilles pour perdre de la chaleur",
+          "La fourrure épaisse et la graisse gardent la chaleur : l’ours reste au chaud dans l’air glacé et l’eau froide."
+        ],
+        [
+          "Un chameau a des pieds larges, de longs cils et peut rester des jours sans boire. À quel milieu est-il adapté ?",
+          "à un désert de sable chaud",
+          "à une mare de la forêt tropicale",
+          "à la banquise de l’Arctique",
+          "Ses pieds larges ne s’enfoncent pas dans le sable, ses cils protègent ses yeux du sable, et il peut économiser l’eau longtemps."
+        ],
+        [
+          "Comment la sélection naturelle explique-t-elle le long cou des girafes ?",
+          "les girafes au cou plus long atteignaient plus de feuilles, survivaient et transmettaient ce long cou",
+          "les girafes étiraient leur cou, alors leurs petits naissaient avec un long cou",
+          "les girafes ont décidé d’avoir un cou plus long",
+          "Ce qu’un animal gagne en s’étirant ou en s’entraînant ne se transmet pas. Les girafes nées avec un cou plus long avaient un avantage et avaient plus de petits."
+        ],
+        [
+          "Quel scientifique est célèbre pour la théorie de l’évolution par sélection naturelle ?",
+          "Charles Darwin",
+          "Isaac Newton",
+          "Marie Curie",
+          "Darwin a publié ses idées en 1859. Newton est célèbre pour la gravité et Marie Curie pour la radioactivité."
+        ],
+        [
+          "Sur quelles îles Darwin a-t-il étudié des tortues géantes et des pinsons ?",
+          "les îles Galápagos",
+          "l’Islande",
+          "Hawaï",
+          "Pendant son voyage sur le navire HMS Beagle, Darwin a remarqué que les animaux variaient un peu d’une île des Galápagos à l’autre."
+        ],
+        [
+          "Les pinsons des différentes îles Galápagos ont des becs de formes différentes. Quelle est la meilleure explication ?",
+          "chaque forme de bec convient à la nourriture de son île",
+          "les oiseaux ont aiguisé leur bec sur les rochers",
+          "les oiseaux ont choisi la forme de bec qu’ils préféraient",
+          "Les oiseaux dont le bec convenait aux graines ou aux insectes de l’île mangeaient mieux et avaient plus de petits : cette forme est devenue courante."
+        ],
+        [
+          "En sciences, que veut dire l’hérédité ?",
+          "la transmission de caractères des parents à leurs petits",
+          "devenir plus fort en faisant du sport",
+          "apprendre des choses avec un professeur",
+          "Les petits héritent de caractères comme la couleur des yeux. Ce qu’on apprend ne se transmet pas ainsi."
+        ],
+        [
+          "Pourquoi les enfants ressemblent-ils à leurs parents sans être identiques à l’un d’eux ?",
+          "ils héritent d’un mélange de caractères des deux parents",
+          "ils copient le visage de leurs parents en les regardant",
+          "ils choisissent les caractères qu’ils veulent avoir",
+          "Chaque enfant reçoit la moitié de son information génétique de chaque parent : il a donc un nouveau mélange de caractères."
+        ],
+        [
+          "Des chiots d’une même portée ont des pelages différents. Que montre ce fait ?",
+          "les petits des mêmes parents varient",
+          "les chiots ont des mères différentes",
+          "les chiens n’héritent de rien",
+          "Les frères et sœurs héritent de mélanges différents des caractères de leurs parents : ils ne sont pas identiques."
+        ],
+        [
+          "Qu’est-ce que la sélection naturelle ?",
+          "les êtres vivants les mieux adaptés à leur milieu survivent et se reproduisent davantage",
+          "des humains choisissent quels animaux peuvent se reproduire",
+          "tous les êtres vivants survivent aussi bien",
+          "Grâce à la sélection naturelle, les caractères utiles deviennent plus fréquents dans une population au fil des générations."
+        ],
+        [
+          "Autrefois, la plupart des phalènes du bouleau étaient claires. Quand la suie des usines a noirci les troncs, les phalènes sombres sont devenues plus nombreuses. Pourquoi ?",
+          "sur l’écorce sombre, les oiseaux voyaient moins bien les phalènes sombres",
+          "les phalènes claires se sont peintes en noir",
+          "la suie a teint les ailes des papillons",
+          "Les oiseaux mangeaient surtout les phalènes claires bien visibles : davantage de phalènes sombres ont survécu et se sont reproduites."
+        ],
+        [
+          "Lequel de ces caractères est hérité et non appris ?",
+          "la couleur naturelle des yeux",
+          "parler allemand",
+          "faire du vélo",
+          "La couleur des yeux vient des gènes des parents. Une langue ou le vélo, ce sont des choses qu’on apprend."
+        ],
+        [
+          "Quel caractère vient du milieu et n’est pas hérité ?",
+          "une cicatrice due à une chute",
+          "la couleur naturelle des cheveux",
+          "la forme des lobes d’oreilles",
+          "Une cicatrice vient de quelque chose qui t’est arrivé : elle ne peut pas être transmise à tes enfants."
+        ],
+        [
+          "Dans quel type de roche trouve-t-on la plupart des fossiles ?",
+          "dans les roches sédimentaires",
+          "dans la lave fraîche",
+          "dans le verre",
+          "Les roches sédimentaires se forment à partir de couches de boue et de sable qui recouvrent les êtres morts et durcissent lentement."
+        ],
+        [
+          "On trouve parfois des coquillages fossiles en haut des montagnes. Comment sont-ils arrivés là ?",
+          "la roche s’est formée sous la mer, puis a été soulevée lentement pendant des millions d’années",
+          "les animaux marins ont escaladé la montagne",
+          "des gens les ont sculptés dans la pierre pour s’amuser",
+          "Les mouvements de l’écorce terrestre peuvent soulever d’anciens fonds marins à des milliers de mètres de haut."
+        ],
+        [
+          "Qui était Mary Anning ?",
+          "une chercheuse de fossiles qui a découvert des squelettes de reptiles marins anciens sur la côte anglaise",
+          "une peintre célèbre de portraits royaux",
+          "la première femme à traverser l’Atlantique en avion",
+          "Au début des années 1800, Mary Anning a trouvé des fossiles d’ichtyosaures et de plésiosaures dans les falaises de Lyme Regis."
+        ],
+        [
+          "Comment les scientifiques savent-ils que les dinosaures ont existé ?",
+          "grâce aux fossiles de leurs os, dents, œufs et empreintes",
+          "grâce à de vieilles photos",
+          "grâce à des gens qui les ont vus",
+          "Les dinosaures ont disparu il y a environ 66 millions d’années, bien avant les humains : les fossiles sont nos preuves."
+        ],
+        [
+          "Les couches de roche se déposent les unes sur les autres. Où s’attend-on à trouver les fossiles les plus anciens ?",
+          "dans les couches les plus profondes",
+          "dans la couche du dessus",
+          "dans la terre d’un jardin récent",
+          "Les couches du bas se sont déposées en premier : leurs fossiles sont plus anciens que ceux des couches au-dessus."
+        ],
+        [
+          "Le climat d’une île devient peu à peu beaucoup plus froid. Quels lapins ont le plus de chances de survivre et d’avoir des petits ?",
+          "les lapins nés avec une fourrure plus épaisse",
+          "les lapins nés avec une fourrure plus fine",
+          "les lapins nés sans fourrure",
+          "Une fourrure épaisse garde la chaleur. Ces lapins survivent mieux et transmettent ce caractère : avec le temps, la plupart ont une fourrure épaisse."
+        ],
+        [
+          "Pourquoi un cactus a-t-il des épines plutôt que de larges feuilles plates ?",
+          "les épines perdent moins d’eau et éloignent les animaux assoiffés",
+          "les épines l’aident à attraper des poissons",
+          "les épines l’aident à flotter pendant les inondations",
+          "De larges feuilles perdent beaucoup d’eau. Le cactus stocke l’eau dans sa tige épaisse, et les épines le protègent."
+        ],
+        [
+          "Le fennec vit dans le désert du Sahara. À quoi lui servent ses très grandes oreilles ?",
+          "à évacuer la chaleur pour rester au frais",
+          "à garder la chaleur pendant les nuits de neige",
+          "à creuser des terriers",
+          "Beaucoup de sang circule dans ses fines oreilles : la chaleur s’échappe dans l’air. Elles l’aident aussi à entendre ses proies sous le sable."
+        ],
+        [
+          "La fourrure du renard polaire est brune en été et blanche en hiver. À quoi cela lui sert-il ?",
+          "à rester camouflé toute l’année",
+          "à nager plus vite en hiver",
+          "à voir dans le noir",
+          "Le brun se confond avec les rochers d’été et le blanc avec la neige : il peut approcher ses proies et se cacher de ses ennemis."
+        ],
+        [
+          "Que peut-il arriver à une espèce qui ne peut pas s’adapter quand son milieu change beaucoup ?",
+          "elle peut disparaître",
+          "elle se transforme en plante",
+          "elle devient toujours plus forte",
+          "Si aucun individu n’a de caractères qui l’aident à survivre au changement, l’espèce peut s’éteindre complètement, comme le dodo."
+        ],
+        [
+          "Quel caractère est une adaptation qui aide le cygne à nager ?",
+          "des pattes palmées",
+          "des griffes pointues pour grimper aux arbres",
+          "une longue langue collante",
+          "La peau entre les doigts pousse l’eau comme une pagaie."
+        ],
+        [
+          "Pendant des générations, des fermiers n’ont fait se reproduire que les vaches qui donnaient le plus de lait. Quel a été le résultat ?",
+          "la plupart des vaches donnent aujourd’hui beaucoup plus de lait",
+          "les vaches n’ont plus donné de lait",
+          "les vaches sont devenues des chèvres",
+          "C’est la sélection par l’élevage : ce sont les humains, pas la nature, qui choisissent les parents."
+        ],
+        [
+          "Les chouettes chassent la nuit. À quoi leur servent leurs grands yeux tournés vers l’avant ?",
+          "à bien voir leurs proies quand il fait très sombre",
+          "à mieux voir les couleurs en plein soleil",
+          "à protéger leur tête de la pluie",
+          "De grands yeux captent plus de lumière, et deux yeux tournés vers l’avant aident à juger les distances au moment de plonger."
+        ],
+        [
+          "De quoi parle surtout le livre de Darwin L’Origine des espèces ?",
+          "de la façon dont les espèces changent au fil du temps par la sélection naturelle",
+          "du mouvement des planètes autour du Soleil",
+          "de la culture des légumes dans une ferme",
+          "En 1859, Darwin a expliqué comment de petites différences, transmises sur de nombreuses générations, peuvent donner de nouvelles espèces."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni fọ́sílì?",
+          "ìyókù tàbí àmì ẹ̀dá alààyè ayé àtijọ́ tí a rí nínú àpáta",
+          "òkúta dídán tó ń hù nínú ihò àpáta",
+          "òkè ayọnáyèéfín kékeré ní ìsàlẹ̀ òkun",
+          "Fọ́sílì ń wáyé nígbà tí ẹrẹ̀ tàbí iyanrìn bá bo ewéko tàbí ẹranko tó ti kú, tí ó sì di àpáta díẹ̀díẹ̀ láàárín ọ̀pọ̀ mílíọ̀nù ọdún."
+        ],
+        [
+          "Báwo ni fọ́sílì ṣe jẹ́ ẹ̀rí pé àwọn ẹ̀dá ń yí padà?",
+          "wọ́n fi hàn pé àwọn ẹ̀dá ayé àtijọ́ yàtọ̀ sí ti òde òní",
+          "wọ́n fi hàn pé àwọn ẹ̀dá kì í yí padà rárá",
+          "wọ́n fi hàn pé àwọn dáínósọ̀ ṣì ń gbé nínú igbó lónìí",
+          "Fọ́sílì láti oríṣiríṣi àsìkò fi hàn bí ewéko àti ẹranko ṣe ń yí padà díẹ̀díẹ̀, àti ọ̀pọ̀ ẹ̀yà tí kò sí mọ́."
+        ],
+        [
+          "Nínú sáyẹ́ǹsì, kí ni ìmúbádọ́gba?",
+          "àbùdá kan tó ń ran ẹ̀dá lọ́wọ́ láti yè ní ibùgbé rẹ̀",
+          "àìsàn tó ń ràn láàárín àwọn ẹranko",
+          "irú àpáta kan tí a ń rí létí òkun",
+          "Ìyẹ́ tí omi kò lè wọ̀ àti ìyẹ́ apá tó dà bí ìgbálẹ̀ omi jẹ́ ìmúbádọ́gba pẹ́ńgúìn fún gbígbé nínú òkun yìnyín."
+        ],
+        [
+          "Àwọn àbùdá wo ló ń ran béárì yìnyín lọ́wọ́ láti yè ní agbègbè Arctic?",
+          "irun tó nípọn àti ọ̀rá lábẹ́ awọ rẹ̀",
+          "awọ tínrín láìsí irun",
+          "etí ńláńlá tó ń jẹ́ kí ooru jáde",
+          "Irun tó nípọn àti ọ̀rá ń di ooru mú, kí béárì náà lè gbóná nínú afẹ́fẹ́ yìnyín àti omi tútù."
+        ],
+        [
+          "Ràkúnmí ní ẹsẹ̀ fífẹ̀, irun ojú gígùn, ó sì lè lo ọjọ́ púpọ̀ láìmu omi. Ibùgbé wo ló bá a mu?",
+          "aṣálẹ̀ oníyanrìn tó gbóná",
+          "adágún omi nínú igbó kìjikìji",
+          "yìnyín agbègbè Arctic",
+          "Ẹsẹ̀ fífẹ̀ kò jẹ́ kí ó rì sínú iyanrìn, irun ojú ń dáàbò bo ojú rẹ̀ lọ́wọ́ iyanrìn, ó sì lè tọ́jú omi fún ìgbà pípẹ́."
+        ],
+        [
+          "Báwo ni àṣàyàn àdánidá ṣe ṣàlàyé ìdí tí ọrùn àgùnfọn fi gùn?",
+          "àwọn àgùnfọn tí ọrùn wọn gùn ju ń dé ewé púpọ̀, wọ́n yè, wọ́n sì fi ọrùn gígùn lé ọmọ wọn lọ́wọ́",
+          "àwọn àgùnfọn na ọrùn wọn, nítorí náà wọ́n bí ọmọ wọn pẹ̀lú ọrùn gígùn",
+          "àwọn àgùnfọn pinnu pé àwọn fẹ́ ọrùn gígùn",
+          "Ohun tí ẹranko bá ní nípa nínà tàbí ìdánrawò kì í di àjogúnbá. Àgùnfọn tí a bí pẹ̀lú ọrùn gígùn ní àǹfààní, wọ́n sì bímọ púpọ̀."
+        ],
+        [
+          "Onímọ̀ sáyẹ́ǹsì wo ló gbajúmọ̀ fún ẹ̀kọ́ ìyípadà ẹ̀dá nípasẹ̀ àṣàyàn àdánidá?",
+          "Charles Darwin",
+          "Isaac Newton",
+          "Marie Curie",
+          "Darwin tẹ èrò rẹ̀ jáde ní ọdún 1859. Newton gbajúmọ̀ fún agbára òòfà, Curie sì fún ìtànṣán rédíò."
+        ],
+        [
+          "Ní àwọn erékùṣù wo ni Darwin ti ṣe ìwádìí ìjàpá ńlá àti ẹyẹ fíǹṣì?",
+          "àwọn erékùṣù Galápagos",
+          "Iceland",
+          "Hawaii",
+          "Nínú ìrìn àjò rẹ̀ lórí ọkọ̀ ojú omi HMS Beagle, Darwin kíyèsí pé àwọn ẹranko yàtọ̀ díẹ̀ láti erékùṣù Galápagos kan sí èkejì."
+        ],
+        [
+          "Àwọn ẹyẹ fíǹṣì ní erékùṣù Galápagos ọ̀tọ̀ọ̀tọ̀ ní ṣóńṣó ẹnu tó yàtọ̀. Kí ni àlàyé tó dára jù?",
+          "ṣóńṣó ẹnu kọ̀ọ̀kan bá oúnjẹ erékùṣù rẹ̀ mu",
+          "àwọn ẹyẹ náà fi àpáta pọ́n ṣóńṣó ẹnu wọn",
+          "àwọn ẹyẹ náà yan irú ṣóńṣó ẹnu tí wọ́n fẹ́ràn jù",
+          "Ẹyẹ tí ṣóńṣó ẹnu rẹ̀ bá irúgbìn tàbí kòkòrò ibẹ̀ mu ń rí oúnjẹ púpọ̀, ó sì ń pa ọmọ púpọ̀, nítorí náà irú ṣóńṣó yẹn wá pọ̀."
+        ],
+        [
+          "Kí ni àjogúnbá túmọ̀ sí nínú sáyẹ́ǹsì?",
+          "àbùdá tó ń kọjá láti ọ̀dọ̀ òbí sí ọmọ wọn",
+          "dídi alágbára nípa eré ìdárayá",
+          "kíkọ́ ọgbọ́n láti ọ̀dọ̀ olùkọ́",
+          "Àwọn ọmọ ń jogún àbùdá bí àwọ̀ ojú láti ọ̀dọ̀ òbí wọn. Ọgbọ́n tí a kọ́ kì í ṣe àjogúnbá."
+        ],
+        [
+          "Kí ló dé tí àwọn ọmọ fi jọ òbí wọn, ṣùgbọ́n tí wọn kò jọ ẹnìkankan pátápátá?",
+          "wọ́n jogún àdàlù àbùdá láti ọ̀dọ̀ òbí méjèèjì",
+          "wọ́n ń wo ojú òbí wọn, wọ́n sì ń dà á kọ",
+          "wọ́n ń yan àbùdá tí wọ́n fẹ́",
+          "Ọmọ kọ̀ọ̀kan ń gba ìdajì ìwífún àjogúnbá rẹ̀ lọ́wọ́ òbí kọ̀ọ̀kan, nítorí náà ó ní àdàlù àbùdá tuntun."
+        ],
+        [
+          "Àwọn ọmọ ajá tí ìyá kan bí lẹ́ẹ̀kan náà ní àwọ̀ irun tó yàtọ̀. Kí ni èyí fi hàn?",
+          "àwọn ọmọ òbí kan náà yàtọ̀ síra",
+          "ìyá ọ̀tọ̀ọ̀tọ̀ ló bí àwọn ọmọ ajá náà",
+          "àwọn ajá kì í jogún nǹkankan",
+          "Àwọn ọmọ ìyá kan ń jogún àdàlù àbùdá òbí wọn tó yàtọ̀ síra, nítorí náà wọn kò jọra pátápátá."
+        ],
+        [
+          "Kí ni àṣàyàn àdánidá?",
+          "àwọn ẹ̀dá tó bá àyíká wọn mu jù lọ ń yè, wọ́n sì ń bímọ púpọ̀",
+          "àwọn ènìyàn ń yan àwọn ẹranko tí yóò bímọ",
+          "gbogbo ẹ̀dá alààyè ń yè bákan náà",
+          "Nípasẹ̀ àṣàyàn àdánidá, àwọn àbùdá tó wúlò ń pọ̀ sí i láàárín ẹ̀yà kan láti ìran dé ìran."
+        ],
+        [
+          "Láyé àtijọ́, ọ̀pọ̀ jù lọ labalábá alẹ́ (peppered moth) ní àwọ̀ funfun. Nígbà tí èéfín ilé iṣẹ́ sọ ara igi di dúdú, àwọn tí àwọ̀ wọn dúdú wá pọ̀ sí i. Kí ló fà á?",
+          "ó ṣòro fún ẹyẹ láti rí àwọn dúdú lórí èèpo igi dúdú",
+          "àwọn funfun kun ara wọn ní àwọ̀ dúdú",
+          "èéfín pa ìyẹ́ wọn láró",
+          "Ẹyẹ jẹ àwọn funfun tí wọ́n ń rí kedere, nítorí náà àwọn dúdú púpọ̀ ló yè láti bímọ."
+        ],
+        [
+          "Èwo nínú àwọn àbùdá wọ̀nyí ni àjogúnbá, tí kì í ṣe ohun tí a kọ́?",
+          "àwọ̀ ojú àdánidá",
+          "sísọ èdè Faransé",
+          "gígun kẹ̀kẹ́",
+          "Àwọ̀ ojú ń wá láti inú jíìnì òbí rẹ. Èdè àti gígun kẹ̀kẹ́ jẹ́ ọgbọ́n tí a kọ́."
+        ],
+        [
+          "Àbùdá wo ló wá láti inú àyíká, tí kì í ṣe àjogúnbá?",
+          "àpá tí o ní nígbà tí o ṣubú",
+          "àwọ̀ irun àdánidá",
+          "ìrísí ìsàlẹ̀ etí rẹ",
+          "Àpá ń wá láti inú ohun tó ṣẹlẹ̀ sí ọ, nítorí náà o kò lè fi lé àwọn ọmọ rẹ lọ́wọ́."
+        ],
+        [
+          "Inú irú àpáta wo la ti ń rí ọ̀pọ̀ jù lọ fọ́sílì?",
+          "àpáta ẹrẹ̀ (sedimentary rock)",
+          "ọ̀dà òkè ayọnáyèéfín tuntun",
+          "dígí",
+          "Àpáta ẹrẹ̀ ń wáyé láti inú ìpele ẹrẹ̀ àti iyanrìn tó bo ewéko àti ẹranko òkú, tí ó sì ń le díẹ̀díẹ̀."
+        ],
+        [
+          "Nígbà mìíràn, a máa ń rí fọ́sílì ìkarahun òkun lórí òkè gíga. Báwo ni wọ́n ṣe débẹ̀?",
+          "àpáta náà wáyé lábẹ́ òkun, a sì tì í sókè díẹ̀díẹ̀ láàárín ọ̀pọ̀ mílíọ̀nù ọdún",
+          "àwọn ẹ̀dá òkun náà gun òkè lọ",
+          "àwọn ènìyàn gbẹ́ wọn sínú òkúta fún ìgbádùn",
+          "Ìgbésẹ̀ ìpele òde ayé lè gbé ilẹ̀ òkun àtijọ́ sókè ẹgbẹẹgbẹ̀rún mítà."
+        ],
+        [
+          "Ta ni Mary Anning?",
+          "obìnrin tó ń wá fọ́sílì, tó rí egungun àwọn ẹranko afàyàfà òkun àtijọ́ létí òkun England",
+          "olùyà àwòrán àwọn ọba tó gbajúmọ̀",
+          "obìnrin àkọ́kọ́ tó fò kọjá òkun Atlantic",
+          "Ní ìbẹ̀rẹ̀ ọdún 1800, Mary Anning rí fọ́sílì ichthyosaur àti plesiosaur nínú àwọn àpáta etí òkun Lyme Regis."
+        ],
+        [
+          "Báwo ni àwọn onímọ̀ sáyẹ́ǹsì ṣe mọ̀ pé àwọn dáínósọ̀ gbé ayé rí?",
+          "láti inú fọ́sílì egungun, eyín, ẹyin àti ipasẹ̀ wọn",
+          "láti inú fọ́tò àtijọ́",
+          "láti ẹnu àwọn ènìyàn tó rí wọn",
+          "Àwọn dáínósọ̀ parun ní nǹkan bí mílíọ̀nù 66 ọdún sẹ́yìn, ṣáájú kí ènìyàn tó wà, nítorí náà fọ́sílì ni ẹ̀rí wa."
+        ],
+        [
+          "Ìpele àpáta ń kó jọ ọ̀kan lórí èkejì. Níbo lo rò pé o máa rí fọ́sílì tó pẹ́ jù lọ?",
+          "nínú ìpele tó jìn jù lọ",
+          "nínú ìpele tó wà lókè pátápátá",
+          "nínú erùpẹ̀ ọgbà tuntun",
+          "Àwọn ìpele ìsàlẹ̀ ló kọ́kọ́ wà, nítorí náà fọ́sílì inú wọn pẹ́ ju ti àwọn ìpele tó wà lókè wọn."
+        ],
+        [
+          "Ojú ọjọ́ erékùṣù kan ń tutù sí i gidigidi díẹ̀díẹ̀. Àwọn ehoro wo ló ṣeé ṣe jù kí wọ́n yè kí wọ́n sì bímọ?",
+          "àwọn ehoro tí a bí pẹ̀lú irun tó nípọn ju",
+          "àwọn ehoro tí a bí pẹ̀lú irun tínrín",
+          "àwọn ehoro tí a bí láìní irun",
+          "Irun tó nípọn ń di ooru mú. Àwọn ehoro yẹn ń yè dáadáa, wọ́n sì ń fi àbùdá náà lé ọmọ lọ́wọ́, nítorí náà nígbà tó bá yá, ọ̀pọ̀ jù lọ wọn ní irun tó nípọn."
+        ],
+        [
+          "Kí ló dé tí kákítọ̀sì fi ní ẹ̀gún dípò ewé fífẹ̀?",
+          "ẹ̀gún kì í jẹ́ kí omi púpọ̀ sọnù, ó sì ń lé àwọn ẹranko tí òùngbẹ ń gbẹ sẹ́yìn",
+          "ẹ̀gún ń ràn án lọ́wọ́ láti mú ẹja",
+          "ẹ̀gún ń jẹ́ kí ó léfòó nígbà àkúnya omi",
+          "Ewé fífẹ̀ ń pàdánù omi púpọ̀. Kákítọ̀sì ń tọ́jú omi sínú igi rẹ̀ tó nípọn, ẹ̀gún sì ń dáàbò bò ó."
+        ],
+        [
+          "Kọ̀lọ̀kọ̀lọ̀ fẹ́nẹ́kì ń gbé nínú aṣálẹ̀ Sàhárà. Báwo ni etí rẹ̀ ńláńlá ṣe ń ràn án lọ́wọ́?",
+          "wọ́n ń tú ooru jáde kí ara rẹ̀ lè tutù",
+          "wọ́n ń mú un gbóná ní alẹ́ òjò yìnyín",
+          "wọ́n ń ràn án lọ́wọ́ láti gbẹ́ ihò",
+          "Ẹ̀jẹ̀ púpọ̀ ń ṣàn gba etí rẹ̀ tínrín kọjá, nítorí náà ooru ń jáde sínú afẹ́fẹ́. Etí ńlá náà tún ń gbọ́ ìró ẹran ọdẹ lábẹ́ iyanrìn."
+        ],
+        [
+          "Irun kọ̀lọ̀kọ̀lọ̀ Arctic jẹ́ àwọ̀ ilẹ̀ nígbà ẹ̀ẹ̀rùn, ó sì funfun nígbà òtútù. Báwo ni èyí ṣe ń ràn án lọ́wọ́?",
+          "ó ń farapamọ́ ní gbogbo ọdún",
+          "ó ń lúwẹ̀ẹ́ kíákíá nígbà òtútù",
+          "ó lè ríran nínú òkùnkùn",
+          "Àwọ̀ ilẹ̀ bá àwọn àpáta ẹ̀ẹ̀rùn mu, funfun sì bá yìnyín mu, nítorí náà ó lè yọ́ lọ bá ẹran ọdẹ, kí ó sì farapamọ́ fún ọ̀tá."
+        ],
+        [
+          "Kí ló lè ṣẹlẹ̀ sí ẹ̀yà ẹ̀dá tí kò lè mú ara bá àyíká rẹ̀ mu nígbà tí àyíká náà bá yí padà gidigidi?",
+          "ó lè parun",
+          "ó máa di ewéko",
+          "ó máa ń lágbára sí i nígbà gbogbo",
+          "Bí kò bá sí ẹnìkan nínú wọn tí ó ní àbùdá tó lè ràn án lọ́wọ́ láti yè, gbogbo ẹ̀yà náà lè parun, bí ẹyẹ dódò."
+        ],
+        [
+          "Àbùdá wo ni ìmúbádọ́gba tó ń ran ẹyẹ swan lọ́wọ́ láti lúwẹ̀ẹ́?",
+          "ẹsẹ̀ tí awọ so ìka rẹ̀ pọ̀",
+          "èékánná mímú fún gígun igi",
+          "ahọ́n gígùn tó lẹ̀ mọ́ nǹkan",
+          "Awọ tó wà láàárín ìka ẹsẹ̀ ń ti omi bí àjẹ̀ ọkọ̀."
+        ],
+        [
+          "Fún ọ̀pọ̀ ìran, àwọn àgbẹ̀ jẹ́ kí àwọn màlúù tó ń fún wàrà jù lọ nìkan bímọ. Kí ni àbájáde rẹ̀?",
+          "ọ̀pọ̀ màlúù lónìí ń fún wàrà púpọ̀ ju ti àtijọ́ lọ",
+          "àwọn màlúù dá fífún wàrà dúró",
+          "àwọn màlúù di ewúrẹ́",
+          "Èyí ni ìbísí àṣàyàn: àwọn ènìyàn, kì í ṣe ìṣẹ̀dá, ló ń yan òbí tí yóò fi àbùdá lé ọmọ lọ́wọ́."
+        ],
+        [
+          "Òwìwí ń ṣọdẹ ní alẹ́. Báwo ni ojú ńláńlá rẹ̀ tó dojú kọ iwájú ṣe ń ràn án lọ́wọ́?",
+          "ó ń rí ẹran ọdẹ dáadáa nínú ìmọ́lẹ̀ tó kéré gan-an",
+          "ó ń rí àwọ̀ dáadáa nínú oòrùn gangan",
+          "ó ń dá òjò dúró lójú rẹ̀",
+          "Ojú ńlá ń gba ìmọ́lẹ̀ púpọ̀, ojú méjèèjì tó dojú kọ iwájú sì ń ràn án lọ́wọ́ láti mọ bí nǹkan ṣe jìnnà tó nígbà tó bá ń bẹ́ mọ́lẹ̀."
+        ],
+        [
+          "Kí ni ìwé Darwin On the Origin of Species dá lé lórí jù lọ?",
+          "bí àwọn ẹ̀yà ẹ̀dá ṣe ń yí padà nígbà pípẹ́ nípasẹ̀ àṣàyàn àdánidá",
+          "bí àwọn pílánẹ́ẹ̀tì ṣe ń yí oòrùn ká",
+          "bí a ṣe ń gbin ẹ̀fọ́ ní oko",
+          "Ní ọdún 1859, Darwin ṣàlàyé bí ìyàtọ̀ kéékèèké tí a ń fi lé ọmọ lọ́wọ́ láti ìran dé ìran ṣe lè mú ẹ̀yà tuntun wáyé."
+        ]
+      ]
+    }
+  },
+  "emoji": "dinosaur",
+  "example": {
+    "i": 0,
+    "q_en": "What is a fossil?",
+    "answer_en": "the preserved remains or traces of a living thing from long ago, usually in rock",
+    "why_en": "Fossils form when a dead plant or animal is buried in mud or sand that slowly turns to rock over millions of years.",
+    "q_de": "Was ist ein Fossil?",
+    "answer_de": "erhaltene Reste oder Spuren eines Lebewesens aus uralter Zeit, meist im Gestein",
+    "why_de": "Fossilien entstehen, wenn eine tote Pflanze oder ein totes Tier von Schlamm oder Sand bedeckt wird, der über Millionen Jahre zu Stein wird.",
+    "q_fr": "Qu’est-ce qu’un fossile ?",
+    "answer_fr": "des restes ou des traces d’un être vivant très ancien, conservés le plus souvent dans la roche",
+    "why_fr": "Un fossile se forme quand une plante ou un animal mort est recouvert de boue ou de sable, qui se change lentement en roche pendant des millions d’années.",
+    "q_yo": "Kí ni fọ́sílì?",
+    "answer_yo": "ìyókù tàbí àmì ẹ̀dá alààyè ayé àtijọ́ tí a rí nínú àpáta",
+    "why_yo": "Fọ́sílì ń wáyé nígbà tí ẹrẹ̀ tàbí iyanrìn bá bo ewéko tàbí ẹranko tó ti kú, tí ó sì di àpáta díẹ̀díẹ̀ láàárín ọ̀pọ̀ mílíọ̀nù ọdún."
+  },
+  "text": {
+    "en": {
+      "title": "Evolution and inheritance",
+      "teach": "Offspring inherit features from their parents but are never exactly the same. Living things with helpful adaptations survive and pass them on (natural selection). Fossils show that living things have changed over millions of years.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Evolution und Vererbung",
+      "teach": "Nachkommen erben Merkmale von ihren Eltern, sind aber nie genau gleich. Lebewesen mit nützlichen Anpassungen überleben und geben sie weiter (natürliche Selektion). Fossilien zeigen, dass sich Lebewesen über Millionen Jahre verändert haben.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Évolution et hérédité",
+      "teach": "Les petits héritent des caractères de leurs parents, mais ne sont jamais identiques. Les êtres vivants qui ont des adaptations utiles survivent et les transmettent (sélection naturelle). Les fossiles montrent que les êtres vivants ont changé en des millions d’années.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ìyípadà ẹ̀dá àti àjogúnbá",
+      "teach": "Àwọn ọmọ ń jogún àbùdá láti ọ̀dọ̀ òbí wọn, ṣùgbọ́n wọn kì í jọra pátápátá. Àwọn ẹ̀dá tí ìmúbádọ́gba wọn wúlò ń yè, wọ́n sì ń fi lé àwọn ọmọ wọn lọ́wọ́ (àṣàyàn àdánidá). Fọ́sílì fi hàn pé àwọn ẹ̀dá alààyè ti yí padà láàárín ọ̀pọ̀ mílíọ̀nù ọdún.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

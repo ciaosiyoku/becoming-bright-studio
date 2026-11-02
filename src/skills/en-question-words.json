@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "words",
   "stage": 2,
+  "ages": [
+    "6-7"
+  ],
   "order": 20,
   "only": "en",
   "params": {
@@ -16,7 +19,27 @@
       "clock",
       "girl",
       "animal-octopus",
-      "books"
+      "books",
+      "girl",
+      "teddy",
+      "tree",
+      "sun",
+      "moon",
+      "cake",
+      "backpack",
+      "map",
+      "puzzle",
+      "cookie",
+      "tv",
+      "paws",
+      "gift",
+      "sun-small-cloud",
+      "scarf",
+      "key",
+      "school",
+      "fruit-apple",
+      "beach",
+      "gear"
     ],
     "bank": {
       "en": [
@@ -89,6 +112,146 @@
           "Why",
           "Who",
           "The answer is a place, so we ask “Where”."
+        ],
+        [
+          "___ is your name? – My name is Ava.",
+          "What",
+          "Where",
+          "When",
+          "The answer is a name, which is a thing we want to know, so we ask “What”."
+        ],
+        [
+          "___ is crying? – The baby.",
+          "Who",
+          "When",
+          "Where",
+          "The answer is a person, so we ask “Who”."
+        ],
+        [
+          "___ is the park? – Next to the school.",
+          "Where",
+          "Who",
+          "Why",
+          "The answer is a place, so we ask “Where”."
+        ],
+        [
+          "___ do you brush your teeth? – Every morning and night.",
+          "When",
+          "Who",
+          "Where",
+          "The answer is a time, so we ask “When”."
+        ],
+        [
+          "___ is the sky dark? – Because it is night.",
+          "Why",
+          "Who",
+          "Where",
+          "The answer gives a reason, so we ask “Why”."
+        ],
+        [
+          "___ old are you? – Seven.",
+          "How",
+          "Who",
+          "Where",
+          "“How old” asks about someone’s age."
+        ],
+        [
+          "___ do you want for lunch? – A sandwich.",
+          "What",
+          "Who",
+          "When",
+          "The answer is a thing, so we ask “What”."
+        ],
+        [
+          "Which word asks about a place?",
+          "where",
+          "who",
+          "when",
+          "“Where” asks about a place, like “Where is the shop?”"
+        ],
+        [
+          "Which word asks about a reason?",
+          "why",
+          "what",
+          "who",
+          "“Why” asks for a reason, like “Why are you late?”"
+        ],
+        [
+          "___ made these cookies? – Grandpa did.",
+          "Who",
+          "Where",
+          "When",
+          "The answer is a person, so we ask “Who”."
+        ],
+        [
+          "___ does the film start? – At six o’clock.",
+          "When",
+          "Who",
+          "Why",
+          "The answer is a time, so we ask “When”."
+        ],
+        [
+          "___ is the cat hiding? – Under the bed.",
+          "Where",
+          "When",
+          "Who",
+          "The answer is a place, so we ask “Where”."
+        ],
+        [
+          "___ do you open this box? – You lift the lid.",
+          "How",
+          "Who",
+          "When",
+          "The answer tells us the way to do it, so we ask “How”."
+        ],
+        [
+          "___ colour is the sky? – Blue.",
+          "What",
+          "Who",
+          "Where",
+          "“What colour” asks about a colour."
+        ],
+        [
+          "___ are you wearing a coat? – Because it is cold.",
+          "Why",
+          "Who",
+          "Where",
+          "The answer gives a reason, so we ask “Why”."
+        ],
+        [
+          "Which word asks about a thing?",
+          "what",
+          "who",
+          "when",
+          "“What” asks about a thing, like “What is in the box?”"
+        ],
+        [
+          "___ is your teacher? – Mrs Patel.",
+          "Who",
+          "Where",
+          "Why",
+          "The answer is a person, so we ask “Who”."
+        ],
+        [
+          "___ many apples are in the bowl? – Five.",
+          "How",
+          "Who",
+          "Where",
+          "“How many” asks about a number."
+        ],
+        [
+          "___ did you go on holiday? – To the seaside.",
+          "Where",
+          "Who",
+          "Why",
+          "The answer is a place, so we ask “Where”."
+        ],
+        [
+          "Which word asks about the way something is done?",
+          "how",
+          "who",
+          "where",
+          "“How” asks about the way, like “How do you make a cake?”"
         ]
       ]
     }

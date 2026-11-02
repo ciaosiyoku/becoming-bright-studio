@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "science",
   "stage": 4,
+  "ages": [
+    "8-9"
+  ],
   "order": 16,
   "params": {
     "emojis": [
@@ -15,7 +18,27 @@
       "warning",
       "droplet",
       "lowbattery",
-      "house"
+      "house",
+      "plug",
+      "sun-small-cloud",
+      "warning",
+      "plug",
+      "droplet",
+      "house",
+      "light",
+      "light",
+      "battery",
+      "sun",
+      "gear",
+      "storm",
+      "house",
+      "plug",
+      "battery",
+      "light",
+      "joystick",
+      "battery",
+      "bell",
+      "snowflake"
     ],
     "bank": {
       "en": [
@@ -88,6 +111,146 @@
           "it makes the battery bigger",
           "it changes the colour of the wires",
           "When a switch is on, the loop is complete and electricity flows. When it is off, there is a gap."
+        ],
+        [
+          "Electric wires have metal inside. Which metal is often used?",
+          "copper",
+          "plastic",
+          "glass",
+          "Copper is a metal that lets electricity flow very easily. Plastic and glass are not metals at all."
+        ],
+        [
+          "Where is it safe to fly a kite?",
+          "in an open field far from power lines",
+          "right next to power lines",
+          "beside an electricity substation",
+          "If a kite touches overhead power lines, electricity can travel down the string to you. Always fly kites far away from them."
+        ],
+        [
+          "A fence has a yellow sign with a lightning bolt on it. What should you do?",
+          "stay out and keep well away",
+          "climb over to have a look",
+          "go in to fetch a lost ball",
+          "That sign means danger: high-voltage electricity. Never go in, even for a ball. Ask an adult to help instead."
+        ],
+        [
+          "You notice a cable with a crack in its plastic cover. What should you do?",
+          "not touch it and tell an adult",
+          "fix it yourself with sticky tape",
+          "plug it in quickly to test it",
+          "A damaged cable can give an electric shock. Leave it alone and tell an adult so it can be switched off and replaced."
+        ],
+        [
+          "Your hands are wet. What should you do before touching a light switch?",
+          "dry your hands first",
+          "touch it as fast as you can",
+          "splash more water on your hands",
+          "Water can carry electricity. Always dry your hands before you touch switches, plugs or anything electrical."
+        ],
+        [
+          "Which gives a strong electricity that is dangerous to touch?",
+          "a wall socket",
+          "a small torch battery",
+          "a toy that runs on one battery",
+          "Mains electricity from sockets is very strong and can kill. Small batteries are much weaker, but you still should not play with them."
+        ],
+        [
+          "A bulb is lit by one battery. You add a second battery to the circuit. What happens to the bulb?",
+          "it gets brighter",
+          "it goes out",
+          "it turns blue",
+          "Two batteries push electricity harder round the circuit, so more flows through the bulb and it shines brighter."
+        ],
+        [
+          "One battery lights one bulb. You add a second bulb in the same loop. What happens?",
+          "both bulbs glow more dimly",
+          "both bulbs glow more brightly",
+          "the bulbs change colour",
+          "The same battery now has to push electricity through two bulbs, so each one gets less and glows more dimly."
+        ],
+        [
+          "What do we call the complete path that electricity flows round?",
+          "a circuit",
+          "a puddle",
+          "a rainbow",
+          "Electricity needs an unbroken loop to flow round. This loop is called a circuit."
+        ],
+        [
+          "Which of these makes electricity from sunlight?",
+          "a solar panel",
+          "a candle",
+          "a mirror",
+          "A solar panel changes the energy in sunlight into electricity. A mirror only bounces light back."
+        ],
+        [
+          "Which of these makes electricity using the wind?",
+          "a wind turbine",
+          "a weather vane",
+          "an umbrella",
+          "The wind turns the big blades of a wind turbine, and a machine inside turns that movement into electricity."
+        ],
+        [
+          "Lightning is a giant spark of what?",
+          "electricity",
+          "water",
+          "sound",
+          "Lightning is electricity jumping between clouds or down to the ground. The sound it makes is thunder."
+        ],
+        [
+          "There is a thunderstorm. Where is the safest place to be?",
+          "inside a building",
+          "alone under a tall tree",
+          "on top of a hill",
+          "Lightning tends to strike tall things and high places. A building keeps you much safer."
+        ],
+        [
+          "Why should you never pull a plug out by its cable?",
+          "it can damage the wires and make them dangerous",
+          "it makes the television louder",
+          "it fills the battery up",
+          "Tugging the cable can loosen or break the wires inside, which can cause shocks or fires. An adult should hold the plug itself."
+        ],
+        [
+          "A small round battery falls on the floor. What should you do?",
+          "give it to an adult and never put it in your mouth",
+          "put it in your mouth to test it",
+          "give it to a baby to play with",
+          "Small round batteries can badly hurt someone if swallowed. Hand it to an adult straight away to store safely."
+        ],
+        [
+          "How can you save electricity when you leave a room?",
+          "switch off the light",
+          "turn on every light",
+          "leave the fridge door open",
+          "Lights left on in empty rooms waste electricity. Switching them off saves energy and money."
+        ],
+        [
+          "A battery toy slows down and then stops. What does it most likely need?",
+          "new or recharged batteries",
+          "a bath",
+          "more glue",
+          "When a battery has used up its stored energy, it can no longer push electricity round the toy’s circuit."
+        ],
+        [
+          "Electricity flows from a battery, through a bulb, and then where?",
+          "back to the battery",
+          "out into the air",
+          "down onto the floor",
+          "In a circuit, electricity goes all the way round the loop and returns to the battery."
+        ],
+        [
+          "You put a buzzer in a complete circuit. What does it do?",
+          "it makes a sound",
+          "it grows bigger",
+          "it turns cold as ice",
+          "A buzzer changes electricity into sound. It only buzzes when the circuit is complete."
+        ],
+        [
+          "Which of these uses electricity to keep food cold?",
+          "a fridge",
+          "a lunch box",
+          "a fruit bowl",
+          "A fridge uses electricity to take heat out of the inside, keeping food cold and fresh."
         ]
       ],
       "de": [
@@ -160,6 +323,146 @@
           "er macht die Batterie größer",
           "er ändert die Farbe der Drähte",
           "Ist der Schalter an, ist der Kreis geschlossen und Strom fließt. Ist er aus, gibt es eine Lücke."
+        ],
+        [
+          "In Stromkabeln ist Metall. Welches Metall wird oft verwendet?",
+          "Kupfer",
+          "Plastik",
+          "Glas",
+          "Kupfer ist ein Metall, das Strom sehr gut leitet. Plastik und Glas sind gar keine Metalle."
+        ],
+        [
+          "Wo darfst du sicher einen Drachen steigen lassen?",
+          "auf einer freien Wiese, weit weg von Stromleitungen",
+          "direkt neben Stromleitungen",
+          "neben einem Umspannwerk",
+          "Berührt ein Drachen eine Stromleitung, kann der Strom über die Schnur zu dir kommen. Lass Drachen immer weit weg davon steigen."
+        ],
+        [
+          "An einem Zaun hängt ein gelbes Schild mit einem Blitz. Was solltest du tun?",
+          "draußen bleiben und Abstand halten",
+          "hinüberklettern und nachschauen",
+          "hineingehen, um einen Ball zu holen",
+          "Das Schild bedeutet Lebensgefahr durch Hochspannung. Geh nie hinein, auch nicht für einen Ball. Bitte einen Erwachsenen um Hilfe."
+        ],
+        [
+          "Du siehst ein Kabel mit einem Riss in der Plastikhülle. Was tust du?",
+          "es nicht anfassen und einem Erwachsenen Bescheid sagen",
+          "es selbst mit Klebeband reparieren",
+          "es schnell zum Testen einstecken",
+          "Ein kaputtes Kabel kann einen Stromschlag geben. Lass es liegen und sag einem Erwachsenen Bescheid, damit es ausgeschaltet und ersetzt wird."
+        ],
+        [
+          "Deine Hände sind nass. Was tust du, bevor du einen Lichtschalter berührst?",
+          "zuerst die Hände abtrocknen",
+          "ihn so schnell wie möglich berühren",
+          "noch mehr Wasser auf die Hände spritzen",
+          "Wasser kann Strom leiten. Trockne deine Hände immer ab, bevor du Schalter, Stecker oder Elektrogeräte anfasst."
+        ],
+        [
+          "Was liefert starken Strom, der beim Berühren gefährlich ist?",
+          "eine Steckdose",
+          "eine kleine Taschenlampenbatterie",
+          "ein Spielzeug mit einer Batterie",
+          "Strom aus der Steckdose ist sehr stark und kann töten. Kleine Batterien sind viel schwächer, trotzdem spielt man nicht mit ihnen."
+        ],
+        [
+          "Eine Lampe leuchtet mit einer Batterie. Du baust eine zweite Batterie ein. Was passiert mit der Lampe?",
+          "sie leuchtet heller",
+          "sie geht aus",
+          "sie wird blau",
+          "Zwei Batterien treiben den Strom stärker durch den Stromkreis. Es fließt mehr Strom durch die Lampe, also leuchtet sie heller."
+        ],
+        [
+          "Eine Batterie bringt eine Lampe zum Leuchten. Du baust eine zweite Lampe in denselben Kreis. Was passiert?",
+          "beide Lampen leuchten schwächer",
+          "beide Lampen leuchten heller",
+          "die Lampen ändern ihre Farbe",
+          "Dieselbe Batterie muss den Strom jetzt durch zwei Lampen treiben. Jede bekommt weniger und leuchtet schwächer."
+        ],
+        [
+          "Wie nennt man den geschlossenen Weg, durch den Strom fließt?",
+          "einen Stromkreis",
+          "eine Pfütze",
+          "einen Regenbogen",
+          "Strom braucht einen geschlossenen Ring, um zu fließen. Diesen Ring nennt man Stromkreis."
+        ],
+        [
+          "Was davon erzeugt Strom aus Sonnenlicht?",
+          "eine Solarzelle",
+          "eine Kerze",
+          "ein Spiegel",
+          "Eine Solarzelle verwandelt die Energie des Sonnenlichts in Strom. Ein Spiegel wirft das Licht nur zurück."
+        ],
+        [
+          "Was davon erzeugt Strom mit Hilfe des Windes?",
+          "ein Windrad",
+          "eine Wetterfahne",
+          "ein Regenschirm",
+          "Der Wind dreht die großen Flügel eines Windrads, und eine Maschine darin macht aus der Bewegung Strom."
+        ],
+        [
+          "Ein Blitz ist ein riesiger Funke aus was?",
+          "Elektrizität",
+          "Wasser",
+          "Schall",
+          "Ein Blitz ist Elektrizität, die zwischen Wolken oder zum Boden springt. Das Geräusch dabei ist der Donner."
+        ],
+        [
+          "Es gewittert. Wo bist du am sichersten?",
+          "in einem Gebäude",
+          "allein unter einem hohen Baum",
+          "oben auf einem Hügel",
+          "Blitze schlagen gern in hohe Dinge und hohe Stellen ein. In einem Gebäude bist du viel sicherer."
+        ],
+        [
+          "Warum ziehst du einen Stecker nie am Kabel heraus?",
+          "die Drähte können kaputtgehen und gefährlich werden",
+          "der Fernseher wird dann lauter",
+          "die Batterie wird dabei aufgeladen",
+          "Am Kabel zu ziehen kann die Drähte innen lockern oder brechen. Das kann Stromschläge oder Brände verursachen."
+        ],
+        [
+          "Eine kleine runde Batterie fällt auf den Boden. Was tust du?",
+          "sie einem Erwachsenen geben und nie in den Mund nehmen",
+          "sie zum Testen in den Mund nehmen",
+          "sie einem Baby zum Spielen geben",
+          "Kleine runde Batterien können schwer verletzen, wenn man sie verschluckt. Gib sie sofort einem Erwachsenen zum sicheren Aufbewahren."
+        ],
+        [
+          "Wie sparst du Strom, wenn du ein Zimmer verlässt?",
+          "das Licht ausschalten",
+          "alle Lampen einschalten",
+          "die Kühlschranktür offen lassen",
+          "Licht in leeren Zimmern verschwendet Strom. Ausschalten spart Energie und Geld."
+        ],
+        [
+          "Ein Batteriespielzeug wird langsamer und bleibt stehen. Was braucht es wahrscheinlich?",
+          "neue oder aufgeladene Batterien",
+          "ein Bad",
+          "mehr Kleber",
+          "Hat eine Batterie ihre gespeicherte Energie verbraucht, kann sie keinen Strom mehr durch den Stromkreis des Spielzeugs treiben."
+        ],
+        [
+          "Strom fließt von der Batterie durch eine Lampe und dann wohin?",
+          "zurück zur Batterie",
+          "hinaus in die Luft",
+          "auf den Fußboden",
+          "In einem Stromkreis fließt der Strom einmal ganz herum und kommt zurück zur Batterie."
+        ],
+        [
+          "Du baust einen Summer in einen geschlossenen Stromkreis ein. Was macht er?",
+          "er macht ein Geräusch",
+          "er wird größer",
+          "er wird eiskalt",
+          "Ein Summer verwandelt Strom in Schall. Er summt nur, wenn der Stromkreis geschlossen ist."
+        ],
+        [
+          "Was davon braucht Strom, um Essen kalt zu halten?",
+          "ein Kühlschrank",
+          "eine Brotdose",
+          "eine Obstschale",
+          "Ein Kühlschrank nutzt Strom, um Wärme aus seinem Inneren zu holen. So bleibt das Essen kalt und frisch."
         ]
       ],
       "fr": [
@@ -232,6 +535,146 @@
           "il rend la pile plus grosse",
           "il change la couleur des fils",
           "Quand l’interrupteur est fermé, la boucle est complète et l’électricité circule. Quand il est ouvert, il y a un trou."
+        ],
+        [
+          "Il y a du métal dans les fils électriques. Quel métal utilise-t-on souvent ?",
+          "le cuivre",
+          "le plastique",
+          "le verre",
+          "Le cuivre est un métal qui laisse très bien passer l’électricité. Le plastique et le verre ne sont pas des métaux."
+        ],
+        [
+          "Où peut-on faire voler un cerf-volant sans danger ?",
+          "dans un grand champ, loin des lignes électriques",
+          "juste à côté des lignes électriques",
+          "près d’un poste électrique",
+          "Si un cerf-volant touche une ligne électrique, le courant peut descendre le long du fil jusqu’à toi. Joue toujours loin des lignes."
+        ],
+        [
+          "Une clôture porte un panneau jaune avec un éclair. Que dois-tu faire ?",
+          "rester dehors et bien s’éloigner",
+          "grimper pour aller voir",
+          "entrer pour chercher un ballon",
+          "Ce panneau signale un grand danger : de l’électricité très forte. N’entre jamais, même pour un ballon. Demande de l’aide à un adulte."
+        ],
+        [
+          "Tu vois un câble dont la gaine en plastique est fendue. Que fais-tu ?",
+          "je n’y touche pas et je préviens un adulte",
+          "je le répare moi-même avec du ruban adhésif",
+          "je le branche vite pour l’essayer",
+          "Un câble abîmé peut donner une décharge électrique. N’y touche pas et préviens un adulte pour qu’il le débranche et le remplace."
+        ],
+        [
+          "Tu as les mains mouillées. Que fais-tu avant de toucher un interrupteur ?",
+          "je m’essuie d’abord les mains",
+          "je le touche le plus vite possible",
+          "je mets encore plus d’eau sur mes mains",
+          "L’eau peut conduire l’électricité. Sèche-toi toujours les mains avant de toucher un interrupteur, une prise ou un appareil électrique."
+        ],
+        [
+          "Qu’est-ce qui donne une électricité forte et dangereuse à toucher ?",
+          "une prise murale",
+          "une petite pile de lampe de poche",
+          "un jouet qui marche avec une pile",
+          "L’électricité des prises est très forte et peut tuer. Les petites piles sont bien plus faibles, mais on ne joue quand même pas avec."
+        ],
+        [
+          "Une ampoule brille avec une pile. Tu ajoutes une deuxième pile au circuit. Que fait l’ampoule ?",
+          "elle brille plus fort",
+          "elle s’éteint",
+          "elle devient bleue",
+          "Deux piles poussent plus fort l’électricité dans le circuit. Plus de courant passe dans l’ampoule, qui brille davantage."
+        ],
+        [
+          "Une pile allume une ampoule. Tu ajoutes une deuxième ampoule dans la même boucle. Que se passe-t-il ?",
+          "les deux ampoules brillent moins",
+          "les deux ampoules brillent plus",
+          "les ampoules changent de couleur",
+          "La même pile doit maintenant pousser le courant dans deux ampoules. Chacune en reçoit moins et brille plus faiblement."
+        ],
+        [
+          "Comment appelle-t-on le chemin fermé que suit l’électricité ?",
+          "un circuit",
+          "une flaque",
+          "un arc-en-ciel",
+          "L’électricité a besoin d’une boucle sans coupure pour circuler. Cette boucle s’appelle un circuit."
+        ],
+        [
+          "Lequel produit de l’électricité avec la lumière du Soleil ?",
+          "un panneau solaire",
+          "une bougie",
+          "un miroir",
+          "Un panneau solaire transforme l’énergie de la lumière du Soleil en électricité. Un miroir ne fait que renvoyer la lumière."
+        ],
+        [
+          "Lequel produit de l’électricité grâce au vent ?",
+          "une éolienne",
+          "une girouette",
+          "un parapluie",
+          "Le vent fait tourner les grandes pales de l’éolienne, et une machine à l’intérieur transforme ce mouvement en électricité."
+        ],
+        [
+          "La foudre est une étincelle géante de quoi ?",
+          "d’électricité",
+          "d’eau",
+          "de son",
+          "La foudre, c’est de l’électricité qui saute entre les nuages ou jusqu’au sol. Le bruit qu’elle fait, c’est le tonnerre."
+        ],
+        [
+          "Il y a un orage. Où est-on le plus en sécurité ?",
+          "à l’intérieur d’un bâtiment",
+          "seul sous un grand arbre",
+          "en haut d’une colline",
+          "La foudre tombe souvent sur ce qui est haut et sur les hauteurs. Un bâtiment te protège beaucoup mieux."
+        ],
+        [
+          "Pourquoi ne faut-il jamais débrancher une prise en tirant sur le câble ?",
+          "cela peut abîmer les fils et les rendre dangereux",
+          "cela rend la télévision plus forte",
+          "cela recharge la pile",
+          "Tirer sur le câble peut desserrer ou casser les fils à l’intérieur, ce qui peut causer des décharges ou un incendie."
+        ],
+        [
+          "Une petite pile ronde tombe par terre. Que fais-tu ?",
+          "je la donne à un adulte et je ne la mets jamais à la bouche",
+          "je la mets dans ma bouche pour l’essayer",
+          "je la donne à un bébé pour jouer",
+          "Les petites piles rondes peuvent gravement blesser si on les avale. Donne-la tout de suite à un adulte, qui la rangera en sécurité."
+        ],
+        [
+          "Comment économiser l’électricité quand tu quittes une pièce ?",
+          "éteindre la lumière",
+          "allumer toutes les lampes",
+          "laisser la porte du frigo ouverte",
+          "Une lumière allumée dans une pièce vide gaspille de l’électricité. L’éteindre économise de l’énergie et de l’argent."
+        ],
+        [
+          "Un jouet à piles ralentit puis s’arrête. De quoi a-t-il sans doute besoin ?",
+          "de piles neuves ou rechargées",
+          "d’un bain",
+          "de plus de colle",
+          "Quand une pile a utilisé toute son énergie, elle ne peut plus pousser le courant dans le circuit du jouet."
+        ],
+        [
+          "L’électricité part de la pile, traverse l’ampoule, puis va où ?",
+          "elle revient à la pile",
+          "elle s’échappe dans l’air",
+          "elle tombe par terre",
+          "Dans un circuit, l’électricité fait tout le tour de la boucle et revient à la pile."
+        ],
+        [
+          "Tu places un buzzer dans un circuit fermé. Que fait-il ?",
+          "il fait un bruit",
+          "il grandit",
+          "il devient froid comme la glace",
+          "Un buzzer transforme l’électricité en son. Il ne sonne que si le circuit est fermé."
+        ],
+        [
+          "Lequel utilise l’électricité pour garder les aliments au froid ?",
+          "un réfrigérateur",
+          "une boîte à goûter",
+          "une corbeille à fruits",
+          "Le réfrigérateur utilise l’électricité pour retirer la chaleur de l’intérieur et garder les aliments froids et frais."
         ]
       ],
       "yo": [
@@ -304,6 +747,146 @@
           "ó ń mú bátìrì tóbi sí i",
           "ó ń yí àwọ̀ wáyà padà",
           "Nígbà tí súwíìṣì bá wà ní títàn, àyíká náà pé, iná mànàmáná sì ń ṣàn. Nígbà tí ó bá wà ní pípa, àlàfo wà."
+        ],
+        [
+          "Irin wà nínú wáyà iná. Irin wo ni wọ́n sábà máa ń lò?",
+          "bàbà",
+          "ike",
+          "gíláàsì",
+          "Bàbà jẹ́ irin tí ó ń jẹ́ kí iná mànàmáná ṣàn dáadáa. Ike àti gíláàsì kì í ṣe irin rárá."
+        ],
+        [
+          "Ibo ni kò léwu láti fò àfẹ́fẹ́ (kite)?",
+          "nínú pápá gbalasa tí ó jìnnà sí wáyà iná",
+          "lẹ́gbẹ̀ẹ́ wáyà iná gan-an",
+          "nítòsí ilé ẹ̀rọ iná mànàmáná",
+          "Tí àfẹ́fẹ́ bá kan wáyà iná lókè, iná mànàmáná lè gba okùn rẹ̀ wá bá ọ. Máa fò ó jìnnà sí wáyà iná nígbà gbogbo."
+        ],
+        [
+          "Àmì àwọ̀ ìyeyè tí mànàmáná yà sí lára rẹ̀ wà lára ọgbà kan. Kí ló yẹ kí o ṣe?",
+          "dúró síta, kí o sì jìnnà sí i",
+          "gùn ún kọjá láti wò ó",
+          "wọlé láti mú bọ́ọ̀lù tó sọnù",
+          "Àmì yẹn túmọ̀ sí ewu: iná mànàmáná tó lágbára gan-an. Má ṣe wọlé láéláé, kódà fún bọ́ọ̀lù. Pe àgbàlagbà kí ó ràn ọ́ lọ́wọ́."
+        ],
+        [
+          "O rí wáyà kan tí ike ara rẹ̀ ti là. Kí ló yẹ kí o ṣe?",
+          "má ṣe fọwọ́ kàn án, kí o sì sọ fún àgbàlagbà",
+          "fi téèpù tún un ṣe fúnra rẹ",
+          "kí i bọ sọ́kẹ́ẹ̀tì kíákíá láti dán an wò",
+          "Wáyà tó ti bàjẹ́ lè gbá ọ. Fi sílẹ̀, kí o sì sọ fún àgbàlagbà kí ó pa iná, kí ó sì pààrọ̀ rẹ̀."
+        ],
+        [
+          "Ọwọ́ rẹ tutù. Kí ló yẹ kí o ṣe kí o tó fọwọ́ kan súwíìṣì iná?",
+          "nu ọwọ́ rẹ gbẹ ná",
+          "fọwọ́ kàn án kíákíá bí o ti lè ṣe tó",
+          "da omi sí i sí ọwọ́ rẹ",
+          "Omi lè gbé iná mànàmáná. Máa nu ọwọ́ rẹ gbẹ nígbà gbogbo kí o tó fọwọ́ kan súwíìṣì, plọ́ọ̀gì tàbí ohun èlò iná."
+        ],
+        [
+          "Èwo ló ní iná mànàmáná tó lágbára tí ó léwu láti fọwọ́ kàn?",
+          "sọ́kẹ́ẹ̀tì ara ògiri",
+          "bátìrì kékeré inú tọ́ọ̀ṣì",
+          "ohun ìṣeré tí ó ń lo bátìrì kan",
+          "Iná mànàmáná inú sọ́kẹ́ẹ̀tì lágbára gan-an, ó sì lè pa ènìyàn. Bátìrì kékeré kò lágbára tó bẹ́ẹ̀, ṣùgbọ́n o kò gbọdọ̀ fi ṣeré."
+        ],
+        [
+          "Bátìrì kan ń mú gílóòbù tàn. O fi bátìrì kejì kún àyíká náà. Kí ló ṣẹlẹ̀ sí gílóòbù?",
+          "ó ń tàn sí i",
+          "ó kú",
+          "ó di aláwọ̀ búlúù",
+          "Bátìrì méjì ń ti iná mànàmáná lágbára sí i yí àyíká ká, nítorí náà iná púpọ̀ sí i ń gba inú gílóòbù, ó sì ń tàn sí i."
+        ],
+        [
+          "Bátìrì kan ń mú gílóòbù kan tàn. O fi gílóòbù kejì sínú àyíká kan náà. Kí ló ṣẹlẹ̀?",
+          "àwọn gílóòbù méjèèjì ń tàn díẹ̀",
+          "àwọn gílóòbù méjèèjì ń tàn sí i",
+          "àwọn gílóòbù yí àwọ̀ padà",
+          "Bátìrì kan náà ní láti ti iná gba inú gílóòbù méjì báyìí, nítorí náà ọ̀kọ̀ọ̀kan ń rí díẹ̀ gbà, ó sì ń tàn díẹ̀."
+        ],
+        [
+          "Kí la ń pe ọ̀nà tó pé tí iná mànàmáná ń ṣàn yí ká?",
+          "àyíká iná (circuit)",
+          "kòtò omi",
+          "òṣùmàrè",
+          "Iná mànàmáná nílò ọ̀nà tí kò já láti ṣàn yí ká. A ń pe ọ̀nà yìí ní àyíká iná."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló ń fi ìmọ́lẹ̀ oòrùn ṣe iná mànàmáná?",
+          "pánẹ́ẹ̀lì oòrùn (solar panel)",
+          "àbẹ́là",
+          "dígí",
+          "Pánẹ́ẹ̀lì oòrùn ń yí agbára ìmọ́lẹ̀ oòrùn padà di iná mànàmáná. Dígí kàn ń dá ìmọ́lẹ̀ padà ni."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló ń fi afẹ́fẹ́ ṣe iná mànàmáná?",
+          "ẹ̀rọ afẹ́fẹ́ (wind turbine)",
+          "àmì ìtọ́ka afẹ́fẹ́",
+          "agbòòrùn",
+          "Afẹ́fẹ́ ń yí apá ńlá ẹ̀rọ afẹ́fẹ́ po, ẹ̀rọ kan nínú rẹ̀ sì ń sọ yíyípo yìí di iná mànàmáná."
+        ],
+        [
+          "Mànàmáná jẹ́ ìtanná ńlá kí ni?",
+          "iná mànàmáná",
+          "omi",
+          "ìró",
+          "Mànàmáná jẹ́ iná mànàmáná tí ó ń fò láàárín ìkùukùu tàbí sí ilẹ̀. Ìró rẹ̀ ni àrá."
+        ],
+        [
+          "Ìjì àti mànàmáná ń bọ̀. Ibo ni ààbò wà jùlọ?",
+          "nínú ilé",
+          "ìwọ nìkan lábẹ́ igi gíga",
+          "lórí òkè",
+          "Mànàmáná sábà máa ń kọlu ohun gíga àti ibi gíga. Inú ilé ló ní ààbò jùlọ."
+        ],
+        [
+          "Kí ló dé tí o kò gbọdọ̀ fa plọ́ọ̀gì yọ nípa wáyà rẹ̀?",
+          "ó lè ba wáyà inú rẹ̀ jẹ́, kí ó sì di ewu",
+          "ó ń mú ohùn tẹlifíṣọ̀n ga sí i",
+          "ó ń kún bátìrì",
+          "Fífa wáyà lè tú tàbí já wáyà inú rẹ̀, èyí sì lè gbá ènìyàn tàbí fa iná. Àgbàlagbà ló yẹ kí ó di plọ́ọ̀gì fúnra rẹ̀ mú."
+        ],
+        [
+          "Bátìrì kékeré tó rí roboto já bọ́ sílẹ̀. Kí ló yẹ kí o ṣe?",
+          "fún àgbàlagbà, má sì fi sẹ́nu láéláé",
+          "fi sẹ́nu láti dán an wò",
+          "fún ọmọ ọwọ́ kí ó fi ṣeré",
+          "Bátìrì kékeré roboto lè ṣe ènìyàn léṣe gidigidi tí wọ́n bá gbé e mì. Fún àgbàlagbà lẹ́sẹ̀kẹsẹ̀ kí ó tọ́jú rẹ̀ sí ibi ààbò."
+        ],
+        [
+          "Báwo lo ṣe lè ṣọ́ iná mànàmáná nígbà tí o bá ń kúrò nínú yàrá?",
+          "pa iná yàrá náà",
+          "tan gbogbo iná",
+          "fi ilẹ̀kùn fìríìjì sílẹ̀ ní ṣíṣí",
+          "Iná tí a fi sílẹ̀ nínú yàrá tí kò sí ènìyàn ń fi iná mànàmáná ṣòfò. Pípa á ń ṣọ́ agbára àti owó."
+        ],
+        [
+          "Ohun ìṣeré onibátìrì ń falẹ̀, ó sì dúró. Kí ló ṣeé ṣe jù pé ó nílò?",
+          "bátìrì tuntun tàbí èyí tí a ti gba agbára sí",
+          "ìwẹ̀",
+          "gọ́ọ̀mù sí i",
+          "Nígbà tí agbára inú bátìrì bá tán, kò lè ti iná mànàmáná yí àyíká inú ohun ìṣeré náà ká mọ́."
+        ],
+        [
+          "Iná mànàmáná ń ṣàn láti inú bátìrì, ó gba inú gílóòbù kọjá, lẹ́yìn náà ibo ló ń lọ?",
+          "ó ń padà sí bátìrì",
+          "ó ń jáde sínú afẹ́fẹ́",
+          "ó ń dà sílẹ̀",
+          "Nínú àyíká iná, iná mànàmáná ń yí gbogbo ọ̀nà náà ká, ó sì ń padà sí bátìrì."
+        ],
+        [
+          "O fi bọ́sà (buzzer) sínú àyíká tó pé. Kí ló ń ṣe?",
+          "ó ń dún",
+          "ó ń tóbi sí i",
+          "ó ń tutù bí yìnyín",
+          "Bọ́sà ń yí iná mànàmáná padà di ìró. Ó máa ń dún kìkì nígbà tí àyíká bá pé."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló ń lo iná mànàmáná láti mú oúnjẹ tutù?",
+          "fìríìjì",
+          "àpótí oúnjẹ ọ̀sán",
+          "abọ́ èso",
+          "Fìríìjì ń lo iná mànàmáná láti yọ ooru kúrò nínú rẹ̀, kí oúnjẹ lè tutù, kí ó má sì tètè bàjẹ́."
         ]
       ]
     }

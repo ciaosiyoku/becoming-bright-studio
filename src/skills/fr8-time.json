@@ -1,0 +1,274 @@
+{
+  "id": "fr8-time",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 3,
+  "ages": [
+    "8-9"
+  ],
+  "order": 22,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "sun",
+      "moon",
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "sun",
+      "clock",
+      "speech",
+      "speech",
+      "school",
+      "cookie",
+      "clock",
+      "sun-small-cloud",
+      "moon",
+      "sun",
+      "clock",
+      "clock",
+      "sun-large-cloud",
+      "clock",
+      "clock",
+      "clock"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Il est trois heures. What time is it?",
+          "3 o’clock",
+          "half past three",
+          "quarter to three",
+          "Trois heures means three o’clock, with no minutes added."
+        ],
+        [
+          "How do you say ’It is 5 o’clock’?",
+          "Il est cinq heures.",
+          "Il a cinq heures.",
+          "Elle est cinq heures.",
+          "French tells the time with Il est and the word heures."
+        ],
+        [
+          "Il est huit heures et demie. What time is it?",
+          "half past eight",
+          "quarter past eight",
+          "half past seven",
+          "Et demie means half past, so it is half past eight."
+        ],
+        [
+          "Il est deux heures et quart. What time is it?",
+          "quarter past two",
+          "quarter to two",
+          "half past two",
+          "Et quart means a quarter past the hour."
+        ],
+        [
+          "Il est six heures moins le quart. What time is it?",
+          "quarter to six",
+          "quarter past six",
+          "quarter to seven",
+          "Moins le quart means a quarter before the hour, so a quarter to six."
+        ],
+        [
+          "Il est midi. What time is it?",
+          "12 noon",
+          "12 midnight",
+          "6 in the evening",
+          "Midi is twelve o’clock in the middle of the day."
+        ],
+        [
+          "Il est minuit. What time is it?",
+          "12 midnight",
+          "12 noon",
+          "1 o’clock",
+          "Minuit is twelve o’clock in the middle of the night."
+        ],
+        [
+          "How do you say ’It is one o’clock’?",
+          "Il est une heure.",
+          "Il est un heures.",
+          "Il est une heures.",
+          "Heure is feminine, so we say une, and there is no s for just one hour."
+        ],
+        [
+          "How do you say ’half past four’?",
+          "quatre heures et demie",
+          "quatre heures et quart",
+          "quatre heures moins demie",
+          "Half past is et demie."
+        ],
+        [
+          "Il est dix heures dix. What time is it?",
+          "ten past ten",
+          "ten to ten",
+          "ten o’clock",
+          "Minutes after heures are added on, so dix heures dix is ten past ten."
+        ],
+        [
+          "Il est sept heures moins dix. What time is it?",
+          "ten to seven",
+          "ten past seven",
+          "ten to six",
+          "Moins dix means ten minutes before seven."
+        ],
+        [
+          "Il est neuf heures vingt. What time is it?",
+          "9:20",
+          "8:40",
+          "9:40",
+          "Neuf heures is 9 o’clock and vingt adds twenty minutes: 9:20."
+        ],
+        [
+          "Il est onze heures cinq. What time is it?",
+          "11:05",
+          "10:55",
+          "11:50",
+          "Onze heures is 11 o’clock and cinq adds five minutes: 11:05."
+        ],
+        [
+          "Il est quatre heures moins vingt. What time is it?",
+          "3:40",
+          "4:20",
+          "4:40",
+          "Twenty minutes before four o’clock is 3:40."
+        ],
+        [
+          "Il est midi et demi. What time is it?",
+          "half past twelve in the day",
+          "half past twelve at night",
+          "quarter past twelve",
+          "Midi is noon and et demi means half past. After midi we write demi with no e."
+        ],
+        [
+          "Which is correct for 7:30?",
+          "Il est sept heures et demie.",
+          "Il est sept heures et demi.",
+          "Il est sept heure et demie.",
+          "Heures is feminine, so demie ends in e, and heures has an s."
+        ],
+        [
+          "Quelle heure est-il ? What does it mean?",
+          "What time is it?",
+          "What day is it?",
+          "How old are you?",
+          "Heure means hour or time, so the question asks the time."
+        ],
+        [
+          "How do you ask ’What time is it?’ in French?",
+          "Quelle heure est-il ?",
+          "Quel âge as-tu ?",
+          "Quel temps fait-il ?",
+          "Quelle heure est-il ? asks the time. The others ask about age and weather."
+        ],
+        [
+          "School starts at 8:30. L’école commence à ___.",
+          "huit heures et demie",
+          "huit heures et quart",
+          "huit heures moins le quart",
+          "8:30 is half past eight, which is huit heures et demie."
+        ],
+        [
+          "Je mange à midi. When do I eat?",
+          "at noon",
+          "at midnight",
+          "at ten o’clock",
+          "Midi means twelve o’clock in the day."
+        ],
+        [
+          "How do you say ’at 6 o’clock’?",
+          "à six heures",
+          "dans six heures",
+          "de six heures",
+          "To say at a time, French uses à: à six heures."
+        ],
+        [
+          "Le matin. What does it mean?",
+          "the morning",
+          "the evening",
+          "the afternoon",
+          "Le matin is the morning, the start of the day."
+        ],
+        [
+          "Le soir. What does it mean?",
+          "the evening",
+          "the morning",
+          "midday",
+          "Le soir is the evening, near the end of the day."
+        ],
+        [
+          "L’après-midi. What does it mean?",
+          "the afternoon",
+          "the night",
+          "the morning",
+          "Après means after, so l’après-midi is after midday."
+        ],
+        [
+          "It is 2:15. Il est deux heures ___.",
+          "et quart",
+          "et demie",
+          "moins le quart",
+          "Fifteen minutes past is a quarter past, which is et quart."
+        ],
+        [
+          "It is 9:45. Il est ___ heures moins le quart.",
+          "dix",
+          "neuf",
+          "onze",
+          "9:45 is a quarter to ten, so we say dix heures moins le quart."
+        ],
+        [
+          "Il est cinq heures du matin. What time is it?",
+          "5 a.m.",
+          "5 p.m.",
+          "5:15",
+          "Du matin means in the morning, so it is 5 a.m."
+        ],
+        [
+          "Il est quinze heures. What time is it?",
+          "3 p.m.",
+          "5 p.m.",
+          "3 a.m.",
+          "French clocks often use 24 hours. Quinze heures is 15:00, which is 3 p.m."
+        ],
+        [
+          "Il est vingt heures. What time is it?",
+          "8 p.m.",
+          "8 a.m.",
+          "10 p.m.",
+          "Vingt heures is 20:00 on the 24-hour clock, which is 8 p.m."
+        ],
+        [
+          "Which word is missing? Il ___ dix heures.",
+          "est",
+          "a",
+          "sont",
+          "We tell the time with Il est, from the verb être."
+        ]
+      ]
+    }
+  },
+  "emoji": "clock",
+  "example": {
+    "i": 0,
+    "q_en": "Il est trois heures. What time is it?",
+    "answer_en": "3 o’clock",
+    "why_en": "Trois heures means three o’clock, with no minutes added."
+  },
+  "text": {
+    "en": {
+      "title": "Telling the time in French",
+      "teach": "To tell the time, say Il est, then the hour and heures: Il est trois heures (3 o’clock). Add et quart, et demie or moins le quart for the quarters and halves.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

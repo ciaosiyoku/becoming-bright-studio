@@ -1,0 +1,274 @@
+{
+  "id": "fr6-school",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 1,
+  "ages": [
+    "6-7"
+  ],
+  "order": 16,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "speech",
+      "memo",
+      "speech",
+      "chart",
+      "speech",
+      "openbook",
+      "speech",
+      "backpack",
+      "memo",
+      "game",
+      "school",
+      "palette",
+      "palette",
+      "speech",
+      "house",
+      "key",
+      "computer",
+      "speech",
+      "game",
+      "memo",
+      "chart",
+      "palette",
+      "palette",
+      "backpack",
+      "openbook",
+      "school",
+      "bell",
+      "girl",
+      "bus",
+      "letters"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is “un crayon”?",
+          "a pencil",
+          "a ruler",
+          "a book",
+          "Un crayon is a pencil."
+        ],
+        [
+          "How do you say “a pen” in French?",
+          "un stylo",
+          "une gomme",
+          "une chaise",
+          "A pen is un stylo."
+        ],
+        [
+          "What is “une gomme”?",
+          "a rubber",
+          "a glue stick",
+          "a pencil case",
+          "Une gomme is a rubber, for rubbing out mistakes."
+        ],
+        [
+          "How do you say “a ruler” in French?",
+          "une règle",
+          "une trousse",
+          "un livre",
+          "A ruler is une règle."
+        ],
+        [
+          "What is “un cahier”?",
+          "an exercise book",
+          "a chair",
+          "a pen",
+          "Un cahier is an exercise book that you write in."
+        ],
+        [
+          "How do you say “a book” in French?",
+          "un livre",
+          "un stylo",
+          "une porte",
+          "A book is un livre."
+        ],
+        [
+          "What is “une trousse”?",
+          "a pencil case",
+          "a pair of trousers",
+          "a school bag",
+          "Une trousse is a pencil case. It is not trousers!"
+        ],
+        [
+          "How do you say “a school bag” in French?",
+          "un cartable",
+          "une trousse",
+          "un cahier",
+          "A school bag is un cartable."
+        ],
+        [
+          "What is “une chaise”?",
+          "a chair",
+          "a table",
+          "a door",
+          "Une chaise is a chair."
+        ],
+        [
+          "How do you say “a table” in French?",
+          "une table",
+          "une chaise",
+          "une fenêtre",
+          "A table is une table. It looks the same but sounds different."
+        ],
+        [
+          "What is “le tableau”?",
+          "the board",
+          "the table",
+          "the window",
+          "Le tableau is the board at the front of the class."
+        ],
+        [
+          "How do you say “scissors” in French?",
+          "des ciseaux",
+          "des crayons",
+          "des livres",
+          "Scissors are des ciseaux."
+        ],
+        [
+          "What is “la colle”?",
+          "glue",
+          "paint",
+          "a ruler",
+          "La colle is glue."
+        ],
+        [
+          "What is “un taille-crayon”?",
+          "a pencil sharpener",
+          "a pencil case",
+          "a pen",
+          "Un taille-crayon is a pencil sharpener. Tailler means to cut to a point."
+        ],
+        [
+          "What is “la fenêtre”?",
+          "the window",
+          "the door",
+          "the wall",
+          "La fenêtre is the window."
+        ],
+        [
+          "How do you say “the door” in French?",
+          "la porte",
+          "la fenêtre",
+          "le tableau",
+          "The door is la porte."
+        ],
+        [
+          "How do you say “a computer” in French?",
+          "un ordinateur",
+          "un cahier",
+          "un cartable",
+          "A computer is un ordinateur."
+        ],
+        [
+          "Who is “la maîtresse”?",
+          "the teacher",
+          "the pupil",
+          "the school bag",
+          "La maîtresse is a woman teacher in a primary school. A man teacher is le maître."
+        ],
+        [
+          "What is “la récré”?",
+          "playtime",
+          "home time",
+          "the school bus",
+          "La récré is short for la récréation: playtime."
+        ],
+        [
+          "You want to rub out a mistake. What do you need?",
+          "une gomme",
+          "une règle",
+          "un livre",
+          "A rubber rubs out mistakes: une gomme."
+        ],
+        [
+          "You want to draw a straight line. What do you need?",
+          "une règle",
+          "une gomme",
+          "la colle",
+          "A ruler helps you draw straight lines: une règle."
+        ],
+        [
+          "You want to cut some paper. What do you need?",
+          "des ciseaux",
+          "un stylo",
+          "un cahier",
+          "Scissors cut paper: des ciseaux."
+        ],
+        [
+          "You want to stick two pieces of paper together. What do you need?",
+          "la colle",
+          "des ciseaux",
+          "une gomme",
+          "Glue sticks things together: la colle."
+        ],
+        [
+          "Where do you keep your pencils and pens?",
+          "une trousse",
+          "une chaise",
+          "une fenêtre",
+          "Pencils and pens go in a pencil case: une trousse."
+        ],
+        [
+          "What does “Ouvrez vos livres” mean?",
+          "Open your books",
+          "Close your books",
+          "Read your books",
+          "Ouvrez means open, and vos livres means your books."
+        ],
+        [
+          "What does “Asseyez-vous” mean?",
+          "Sit down",
+          "Stand up",
+          "Listen",
+          "Asseyez-vous means sit down."
+        ],
+        [
+          "What does “Écoutez” mean?",
+          "Listen",
+          "Look",
+          "Write",
+          "Écoutez means listen."
+        ],
+        [
+          "What does “Levez la main” mean?",
+          "Put your hand up",
+          "Wash your hands",
+          "Clap your hands",
+          "Levez means lift, and la main is the hand: put your hand up."
+        ],
+        [
+          "What is “l’école”?",
+          "the school",
+          "the class",
+          "the book",
+          "L’école means the school."
+        ],
+        [
+          "Which one can you write with?",
+          "un stylo",
+          "une chaise",
+          "une gomme",
+          "You write with a pen: un stylo."
+        ]
+      ]
+    }
+  },
+  "emoji": "backpack",
+  "example": {
+    "i": 0,
+    "q_en": "What is “un crayon”?",
+    "answer_en": "a pencil",
+    "why_en": "Un crayon is a pencil."
+  },
+  "text": {
+    "en": {
+      "title": "In the classroom in French",
+      "teach": "In a French classroom you find un crayon (a pencil), un stylo (a pen), une gomme (a rubber) and une règle (a ruler). The teacher may say Écoutez ! (Listen!).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

@@ -1,0 +1,936 @@
+{
+  "id": "sci4-daynight",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 107,
+  "params": {
+    "emojis": [
+      "light",
+      "animal-owl",
+      "moon",
+      "teddy",
+      "tree",
+      "animal-bat",
+      "animal-hedgehog",
+      "paws",
+      "sun",
+      "sparkles",
+      "house",
+      "clock",
+      "moon",
+      "thermometer",
+      "sun",
+      "teddy",
+      "animal-owl",
+      "glowstar",
+      "sun-small-cloud",
+      "school",
+      "globe",
+      "footprints",
+      "moon",
+      "animal-butterfly",
+      "chick",
+      "house",
+      "glowstar",
+      "road",
+      "chick",
+      "sun-large-cloud"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What gives us light in the daytime?",
+          "the Sun",
+          "the stars",
+          "a candle",
+          "In the day, the Sun lights up the whole sky."
+        ],
+        [
+          "What can we often see in the sky at night?",
+          "the Moon and stars",
+          "a rainbow",
+          "the Sun",
+          "On a clear night, we can often see the Moon and lots of stars."
+        ],
+        [
+          "Does the Moon look the same shape every night?",
+          "no, it seems to change shape",
+          "yes, it is always round",
+          "yes, it is always square",
+          "Night by night, the Moon seems to change from a thin curve to a full circle and back."
+        ],
+        [
+          "What do most children do at night?",
+          "sleep in bed",
+          "go to school",
+          "play in the park",
+          "Night is the time to rest. Sleep helps your body grow and stay well."
+        ],
+        [
+          "Which bird hoots and flies about at night?",
+          "an owl",
+          "a parrot",
+          "a peacock",
+          "Owls sleep in the day and hoot and hunt for food at night."
+        ],
+        [
+          "When do bats fly about looking for food?",
+          "at night",
+          "at lunchtime",
+          "only on sunny mornings",
+          "Bats sleep in the day and fly out to find food when it gets dark."
+        ],
+        [
+          "When do hedgehogs come out to find food?",
+          "at night",
+          "in the hot afternoon",
+          "only when it snows",
+          "Hedgehogs sleep in the day and come out at night to look for food."
+        ],
+        [
+          "Which of these animals often comes out at night?",
+          "a fox",
+          "a butterfly",
+          "a bee",
+          "Foxes often look for food at night. Butterflies and bees rest when it is dark."
+        ],
+        [
+          "What happens to the sky in the morning?",
+          "it gets light",
+          "it gets dark",
+          "it turns green",
+          "In the morning the Sun comes up and the sky gets light."
+        ],
+        [
+          "What twinkles in the sky on a clear night?",
+          "the stars",
+          "the clouds",
+          "the birds",
+          "Stars seem to twinkle in the dark night sky."
+        ],
+        [
+          "It is getting dark at home. What do we switch on?",
+          "the lights",
+          "the tap",
+          "the oven",
+          "Lights help us see when there is no sunlight."
+        ],
+        [
+          "When do we eat breakfast?",
+          "in the morning",
+          "at bedtime",
+          "at midnight",
+          "Breakfast is the first meal of the day, eaten in the morning."
+        ],
+        [
+          "Does the Moon make its own light?",
+          "no, it shines with light from the Sun",
+          "yes, it has a big lamp inside",
+          "yes, it is on fire",
+          "The Moon is a big rock. It looks bright because sunlight shines on it."
+        ],
+        [
+          "Is the Sun hot or cold?",
+          "very, very hot",
+          "icy cold",
+          "cool like water",
+          "The Sun is a giant ball of very hot gas. That is why it warms us."
+        ],
+        [
+          "The Sun looks small in the sky. How big is it really?",
+          "huge, much bigger than the Earth",
+          "as small as a ball",
+          "as small as a coin",
+          "The Sun is enormous. It only looks small because it is very, very far away."
+        ],
+        [
+          "What do you wear to bed?",
+          "pyjamas",
+          "a raincoat",
+          "swimming goggles",
+          "Soft, comfy pyjamas are made for sleeping in."
+        ],
+        [
+          "Owls have very big eyes. What do they help them do?",
+          "see in the dark",
+          "swim fast",
+          "dig holes",
+          "Big eyes let in lots of light, so owls can see at night."
+        ],
+        [
+          "What colour is the sky at night?",
+          "dark, almost black",
+          "bright yellow",
+          "pink with spots",
+          "With no sunlight, the night sky looks dark, almost black."
+        ],
+        [
+          "What comes straight after night?",
+          "morning",
+          "evening",
+          "lunchtime",
+          "Night ends when the Sun comes up. Then it is morning."
+        ],
+        [
+          "When do children go to nursery or school?",
+          "in the daytime",
+          "in the middle of the night",
+          "at bedtime",
+          "We go to nursery or school in the day, when it is light."
+        ],
+        [
+          "Why can’t we see the Sun at night?",
+          "the Earth has turned, so our side faces away from it",
+          "the Sun is switched off",
+          "the Sun has gone to bed",
+          "The Earth slowly spins. At night, our side of the Earth faces away from the Sun."
+        ],
+        [
+          "Have people ever walked on the Moon?",
+          "yes, astronauts have",
+          "no, never",
+          "yes, they went by bus",
+          "Astronauts flew to the Moon in a rocket and walked on it."
+        ],
+        [
+          "What is the Moon made of?",
+          "rock",
+          "cheese",
+          "jelly",
+          "The Moon is made of rock and dust, not cheese!"
+        ],
+        [
+          "When do butterflies fly about?",
+          "in the day, when it is warm",
+          "at midnight",
+          "only when it is dark",
+          "Butterflies need warm sunshine to fly. At night they rest."
+        ],
+        [
+          "Which animal sleeps at night, just like you?",
+          "a hen",
+          "an owl",
+          "a bat",
+          "Hens go to sleep when it gets dark and wake up in the morning."
+        ],
+        [
+          "What helps you sleep well at night?",
+          "a dark, quiet room",
+          "loud music",
+          "bright lights",
+          "A dark, quiet room helps your body rest."
+        ],
+        [
+          "Stars look tiny. Why?",
+          "they are very, very far away",
+          "they are as small as sweets",
+          "they are toys",
+          "Stars are huge, but they are so far away that they look like tiny dots."
+        ],
+        [
+          "At night, what lights up the streets?",
+          "street lamps",
+          "the Sun",
+          "rainbows",
+          "Street lamps switch on when it gets dark so people can see."
+        ],
+        [
+          "Which animal often crows when morning comes?",
+          "a rooster",
+          "an owl",
+          "a fish",
+          "A rooster often crows loudly early in the morning."
+        ],
+        [
+          "What happens to the sky in the evening?",
+          "it slowly gets dark",
+          "it gets brighter",
+          "it turns green",
+          "In the evening the Sun goes down, and the sky slowly gets dark."
+        ]
+      ],
+      "de": [
+        [
+          "Was gibt uns am Tag Licht?",
+          "die Sonne",
+          "die Sterne",
+          "eine Kerze",
+          "Am Tag macht die Sonne den ganzen Himmel hell."
+        ],
+        [
+          "Was sehen wir nachts oft am Himmel?",
+          "den Mond und die Sterne",
+          "einen Regenbogen",
+          "die Sonne",
+          "In einer klaren Nacht sehen wir oft den Mond und viele Sterne."
+        ],
+        [
+          "Sieht der Mond jede Nacht gleich aus?",
+          "Nein, er scheint seine Form zu ändern.",
+          "Ja, er ist immer rund.",
+          "Ja, er ist immer eckig.",
+          "Von Nacht zu Nacht scheint der Mond sich zu verändern: von einer schmalen Sichel zum vollen Kreis und zurück."
+        ],
+        [
+          "Was machen die meisten Kinder in der Nacht?",
+          "im Bett schlafen",
+          "in die Schule gehen",
+          "im Park spielen",
+          "Die Nacht ist zum Ausruhen da. Schlaf hilft deinem Körper zu wachsen und gesund zu bleiben."
+        ],
+        [
+          "Welcher Vogel ruft „Huhu“ und fliegt nachts umher?",
+          "eine Eule",
+          "ein Papagei",
+          "ein Pfau",
+          "Eulen schlafen am Tag. Nachts rufen sie und suchen Futter."
+        ],
+        [
+          "Wann fliegen Fledermäuse herum und suchen Futter?",
+          "nachts",
+          "mittags",
+          "nur an sonnigen Morgen",
+          "Fledermäuse schlafen am Tag. Wenn es dunkel wird, fliegen sie los und suchen Futter."
+        ],
+        [
+          "Wann kommen Igel heraus, um Futter zu suchen?",
+          "nachts",
+          "am heißen Nachmittag",
+          "nur wenn es schneit",
+          "Igel schlafen am Tag und kommen nachts heraus, um Futter zu suchen."
+        ],
+        [
+          "Welches dieser Tiere ist oft nachts unterwegs?",
+          "ein Fuchs",
+          "ein Schmetterling",
+          "eine Biene",
+          "Füchse suchen oft nachts nach Futter. Schmetterlinge und Bienen ruhen, wenn es dunkel ist."
+        ],
+        [
+          "Was passiert am Morgen mit dem Himmel?",
+          "Er wird hell.",
+          "Er wird dunkel.",
+          "Er wird grün.",
+          "Am Morgen geht die Sonne auf und der Himmel wird hell."
+        ],
+        [
+          "Was funkelt in einer klaren Nacht am Himmel?",
+          "die Sterne",
+          "die Wolken",
+          "die Vögel",
+          "Sterne scheinen am dunklen Nachthimmel zu funkeln."
+        ],
+        [
+          "Zu Hause wird es dunkel. Was schalten wir ein?",
+          "das Licht",
+          "den Wasserhahn",
+          "den Backofen",
+          "Licht hilft uns zu sehen, wenn keine Sonne scheint."
+        ],
+        [
+          "Wann essen wir Frühstück?",
+          "am Morgen",
+          "vor dem Schlafengehen",
+          "um Mitternacht",
+          "Das Frühstück ist die erste Mahlzeit des Tages. Wir essen es am Morgen."
+        ],
+        [
+          "Macht der Mond sein eigenes Licht?",
+          "Nein, er leuchtet mit dem Licht der Sonne.",
+          "Ja, in ihm ist eine große Lampe.",
+          "Ja, er brennt.",
+          "Der Mond ist ein großer Felsbrocken. Er sieht hell aus, weil die Sonne ihn anstrahlt."
+        ],
+        [
+          "Ist die Sonne heiß oder kalt?",
+          "sehr, sehr heiß",
+          "eiskalt",
+          "kühl wie Wasser",
+          "Die Sonne ist eine riesige Kugel aus sehr heißem Gas. Darum wärmt sie uns."
+        ],
+        [
+          "Die Sonne sieht am Himmel klein aus. Wie groß ist sie wirklich?",
+          "riesig, viel größer als die Erde",
+          "so klein wie ein Ball",
+          "so klein wie eine Münze",
+          "Die Sonne ist riesengroß. Sie sieht nur klein aus, weil sie sehr, sehr weit weg ist."
+        ],
+        [
+          "Was ziehst du zum Schlafen an?",
+          "einen Schlafanzug",
+          "eine Regenjacke",
+          "eine Schwimmbrille",
+          "Ein weicher, bequemer Schlafanzug ist zum Schlafen gemacht."
+        ],
+        [
+          "Eulen haben sehr große Augen. Wobei helfen sie ihnen?",
+          "im Dunkeln sehen",
+          "schnell schwimmen",
+          "Löcher graben",
+          "Große Augen lassen viel Licht hinein. So können Eulen nachts sehen."
+        ],
+        [
+          "Welche Farbe hat der Himmel in der Nacht?",
+          "dunkel, fast schwarz",
+          "knallgelb",
+          "rosa mit Punkten",
+          "Ohne Sonnenlicht sieht der Nachthimmel dunkel aus, fast schwarz."
+        ],
+        [
+          "Was kommt direkt nach der Nacht?",
+          "der Morgen",
+          "der Abend",
+          "die Mittagszeit",
+          "Die Nacht endet, wenn die Sonne aufgeht. Dann ist Morgen."
+        ],
+        [
+          "Wann gehen Kinder in den Kindergarten oder in die Schule?",
+          "am Tag",
+          "mitten in der Nacht",
+          "vor dem Schlafengehen",
+          "Wir gehen am Tag in den Kindergarten oder in die Schule, wenn es hell ist."
+        ],
+        [
+          "Warum sehen wir die Sonne nachts nicht?",
+          "Die Erde hat sich gedreht, unsere Seite schaut von ihr weg.",
+          "Die Sonne ist ausgeschaltet.",
+          "Die Sonne ist ins Bett gegangen.",
+          "Die Erde dreht sich langsam. Nachts ist unsere Seite der Erde von der Sonne abgewandt."
+        ],
+        [
+          "Sind schon einmal Menschen auf dem Mond gelaufen?",
+          "Ja, Astronauten.",
+          "Nein, nie.",
+          "Ja, sie sind mit dem Bus hingefahren.",
+          "Astronauten sind mit einer Rakete zum Mond geflogen und auf ihm gelaufen."
+        ],
+        [
+          "Woraus besteht der Mond?",
+          "aus Gestein",
+          "aus Käse",
+          "aus Wackelpudding",
+          "Der Mond besteht aus Gestein und Staub, nicht aus Käse!"
+        ],
+        [
+          "Wann fliegen Schmetterlinge herum?",
+          "am Tag, wenn es warm ist",
+          "um Mitternacht",
+          "nur wenn es dunkel ist",
+          "Schmetterlinge brauchen warmen Sonnenschein zum Fliegen. Nachts ruhen sie."
+        ],
+        [
+          "Welches Tier schläft nachts, genau wie du?",
+          "ein Huhn",
+          "eine Eule",
+          "eine Fledermaus",
+          "Hühner schlafen, wenn es dunkel wird, und wachen am Morgen auf."
+        ],
+        [
+          "Was hilft dir, nachts gut zu schlafen?",
+          "ein dunkles, ruhiges Zimmer",
+          "laute Musik",
+          "helles Licht",
+          "Ein dunkles, ruhiges Zimmer hilft deinem Körper, sich auszuruhen."
+        ],
+        [
+          "Sterne sehen winzig aus. Warum?",
+          "Sie sind sehr, sehr weit weg.",
+          "Sie sind so klein wie Bonbons.",
+          "Sie sind Spielzeug.",
+          "Sterne sind riesig, aber so weit weg, dass sie wie winzige Pünktchen aussehen."
+        ],
+        [
+          "Was macht nachts die Straßen hell?",
+          "Straßenlaternen",
+          "die Sonne",
+          "Regenbögen",
+          "Straßenlaternen gehen an, wenn es dunkel wird, damit man etwas sieht."
+        ],
+        [
+          "Welches Tier kräht oft, wenn der Morgen kommt?",
+          "ein Hahn",
+          "eine Eule",
+          "ein Fisch",
+          "Ein Hahn kräht oft laut am frühen Morgen."
+        ],
+        [
+          "Was passiert am Abend mit dem Himmel?",
+          "Er wird langsam dunkel.",
+          "Er wird heller.",
+          "Er wird grün.",
+          "Am Abend geht die Sonne unter und der Himmel wird langsam dunkel."
+        ]
+      ],
+      "fr": [
+        [
+          "Qu’est-ce qui nous éclaire pendant la journée ?",
+          "le Soleil",
+          "les étoiles",
+          "une bougie",
+          "Le jour, le Soleil éclaire tout le ciel."
+        ],
+        [
+          "Que voit-on souvent dans le ciel la nuit ?",
+          "la Lune et les étoiles",
+          "un arc-en-ciel",
+          "le Soleil",
+          "Quand le ciel est clair la nuit, on voit souvent la Lune et plein d’étoiles."
+        ],
+        [
+          "La Lune a-t-elle la même forme toutes les nuits ?",
+          "non, elle semble changer de forme",
+          "oui, elle est toujours ronde",
+          "oui, elle est toujours carrée",
+          "Nuit après nuit, la Lune semble passer d’un mince croissant à un rond entier, puis revenir."
+        ],
+        [
+          "Que font la plupart des enfants la nuit ?",
+          "ils dorment dans leur lit",
+          "ils vont à l’école",
+          "ils jouent au parc",
+          "La nuit, c’est le moment de se reposer. Le sommeil aide ton corps à grandir et à rester en forme."
+        ],
+        [
+          "Quel oiseau hulule et vole la nuit ?",
+          "le hibou",
+          "le perroquet",
+          "le paon",
+          "Les hiboux dorment le jour. La nuit, ils hululent et cherchent à manger."
+        ],
+        [
+          "Quand les chauves-souris volent-elles pour chercher à manger ?",
+          "la nuit",
+          "à midi",
+          "seulement les matins de soleil",
+          "Les chauves-souris dorment le jour et sortent chercher à manger quand il fait noir."
+        ],
+        [
+          "Quand les hérissons sortent-ils chercher à manger ?",
+          "la nuit",
+          "l’après-midi, quand il fait chaud",
+          "seulement quand il neige",
+          "Les hérissons dorment le jour et sortent la nuit pour chercher à manger."
+        ],
+        [
+          "Lequel de ces animaux sort souvent la nuit ?",
+          "le renard",
+          "le papillon",
+          "l’abeille",
+          "Le renard cherche souvent à manger la nuit. Les papillons et les abeilles se reposent quand il fait noir."
+        ],
+        [
+          "Que se passe-t-il dans le ciel le matin ?",
+          "il devient clair",
+          "il devient noir",
+          "il devient vert",
+          "Le matin, le Soleil se lève et le ciel s’éclaire."
+        ],
+        [
+          "Qu’est-ce qui scintille dans le ciel par une nuit claire ?",
+          "les étoiles",
+          "les nuages",
+          "les oiseaux",
+          "Les étoiles semblent scintiller dans le ciel noir de la nuit."
+        ],
+        [
+          "À la maison, il commence à faire noir. Qu’allume-t-on ?",
+          "la lumière",
+          "le robinet",
+          "le four",
+          "La lumière nous aide à voir quand il n’y a plus de soleil."
+        ],
+        [
+          "Quand prend-on le petit-déjeuner ?",
+          "le matin",
+          "à l’heure du coucher",
+          "à minuit",
+          "Le petit-déjeuner est le premier repas de la journée : on le prend le matin."
+        ],
+        [
+          "La Lune fait-elle sa propre lumière ?",
+          "non, elle brille grâce à la lumière du Soleil",
+          "oui, elle a une grosse lampe dedans",
+          "oui, elle est en feu",
+          "La Lune est un gros rocher. Elle paraît brillante parce que le Soleil l’éclaire."
+        ],
+        [
+          "Le Soleil est-il chaud ou froid ?",
+          "très, très chaud",
+          "glacé",
+          "frais comme l’eau",
+          "Le Soleil est une énorme boule de gaz très chaud : c’est pour ça qu’il nous réchauffe."
+        ],
+        [
+          "Dans le ciel, le Soleil a l’air petit. Quelle est sa vraie taille ?",
+          "énorme, bien plus grand que la Terre",
+          "petit comme un ballon",
+          "petit comme une pièce",
+          "Le Soleil est gigantesque. Il paraît petit parce qu’il est très, très loin."
+        ],
+        [
+          "Que mets-tu pour aller au lit ?",
+          "un pyjama",
+          "un imperméable",
+          "des lunettes de piscine",
+          "Un pyjama doux et confortable est fait pour dormir."
+        ],
+        [
+          "Les hiboux ont de très grands yeux. À quoi leur servent-ils ?",
+          "à voir dans le noir",
+          "à nager vite",
+          "à creuser des trous",
+          "De grands yeux font entrer beaucoup de lumière : les hiboux voient la nuit."
+        ],
+        [
+          "De quelle couleur est le ciel la nuit ?",
+          "sombre, presque noir",
+          "jaune vif",
+          "rose à pois",
+          "Sans la lumière du Soleil, le ciel de la nuit est sombre, presque noir."
+        ],
+        [
+          "Qu’est-ce qui vient juste après la nuit ?",
+          "le matin",
+          "le soir",
+          "l’heure du déjeuner",
+          "La nuit se termine quand le Soleil se lève : c’est le matin."
+        ],
+        [
+          "Quand les enfants vont-ils à l’école ?",
+          "dans la journée",
+          "au milieu de la nuit",
+          "à l’heure du coucher",
+          "On va à l’école pendant la journée, quand il fait jour."
+        ],
+        [
+          "Pourquoi ne voit-on pas le Soleil la nuit ?",
+          "la Terre a tourné : notre côté ne lui fait plus face",
+          "le Soleil est éteint",
+          "le Soleil est allé se coucher",
+          "La Terre tourne lentement sur elle-même. La nuit, notre côté de la Terre est tourné à l’opposé du Soleil."
+        ],
+        [
+          "Des gens ont-ils déjà marché sur la Lune ?",
+          "oui, des astronautes",
+          "non, jamais",
+          "oui, ils y sont allés en bus",
+          "Des astronautes sont allés sur la Lune en fusée et ils ont marché dessus."
+        ],
+        [
+          "De quoi est faite la Lune ?",
+          "de roche",
+          "de fromage",
+          "de gelée",
+          "La Lune est faite de roche et de poussière, pas de fromage !"
+        ],
+        [
+          "Quand les papillons volent-ils ?",
+          "le jour, quand il fait chaud",
+          "à minuit",
+          "seulement quand il fait noir",
+          "Les papillons ont besoin du soleil et de la chaleur pour voler. La nuit, ils se reposent."
+        ],
+        [
+          "Quel animal dort la nuit, comme toi ?",
+          "la poule",
+          "le hibou",
+          "la chauve-souris",
+          "Les poules s’endorment quand il fait noir et se réveillent le matin."
+        ],
+        [
+          "Qu’est-ce qui t’aide à bien dormir la nuit ?",
+          "une chambre sombre et calme",
+          "de la musique très forte",
+          "des lumières vives",
+          "Une chambre sombre et calme aide ton corps à se reposer."
+        ],
+        [
+          "Les étoiles ont l’air minuscules. Pourquoi ?",
+          "elles sont très, très loin",
+          "elles sont petites comme des bonbons",
+          "ce sont des jouets",
+          "Les étoiles sont énormes, mais elles sont si loin qu’on dirait de tout petits points."
+        ],
+        [
+          "La nuit, qu’est-ce qui éclaire les rues ?",
+          "les lampadaires",
+          "le Soleil",
+          "les arcs-en-ciel",
+          "Les lampadaires s’allument quand il fait noir pour qu’on puisse voir."
+        ],
+        [
+          "Quel animal chante souvent « cocorico » quand le matin arrive ?",
+          "le coq",
+          "le hibou",
+          "le poisson",
+          "Le coq chante souvent très fort tôt le matin."
+        ],
+        [
+          "Que se passe-t-il dans le ciel le soir ?",
+          "il devient peu à peu sombre",
+          "il devient plus clair",
+          "il devient vert",
+          "Le soir, le Soleil se couche et le ciel devient peu à peu sombre."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ló ń fún wa ní ìmọ́lẹ̀ ní ọ̀sán?",
+          "oòrùn",
+          "ìràwọ̀",
+          "àbẹ́là",
+          "Ní ọ̀sán, oòrùn ló ń tan ìmọ́lẹ̀ sí gbogbo ojú ọ̀run."
+        ],
+        [
+          "Kí la sábà máa ń rí lójú ọ̀run ní òru?",
+          "òṣùpá àti ìràwọ̀",
+          "òṣùmàrè",
+          "oòrùn",
+          "Ní òru tí ojú ọ̀run mọ́, a sábà máa ń rí òṣùpá àti ọ̀pọ̀ ìràwọ̀."
+        ],
+        [
+          "Ṣé òṣùpá máa ń rí bákan náà ní gbogbo òru?",
+          "rárá, ó dà bí ẹni pé ó ń yí ìrísí padà",
+          "bẹ́ẹ̀ni, ó máa ń ríbirìbí nígbà gbogbo",
+          "bẹ́ẹ̀ni, ó máa ń ní igun mẹ́rin nígbà gbogbo",
+          "Láti òru dé òru, òṣùpá dà bí ẹni pé ó ń yí padà láti ìlà tínrín di odindi, kí ó sì padà."
+        ],
+        [
+          "Kí ni ọ̀pọ̀ ọmọdé máa ń ṣe ní òru?",
+          "wọ́n máa ń sùn lórí ibùsùn",
+          "wọ́n máa ń lọ sí ilé-ìwé",
+          "wọ́n máa ń ṣeré ní pápá ìṣeré",
+          "Òru ni àkókò ìsinmi. Oorun ń ran ara rẹ lọ́wọ́ láti dàgbà àti láti ní ìlera."
+        ],
+        [
+          "Ẹyẹ wo ló máa ń ké, tí ó sì máa ń fò kiri ní òru?",
+          "òwìwí",
+          "ẹyẹ ayékòótọ́",
+          "ẹyẹ ọ̀kín",
+          "Òwìwí máa ń sùn ní ọ̀sán, ó sì máa ń ké, tí ó ń wá oúnjẹ ní òru."
+        ],
+        [
+          "Ìgbà wo ni àdán máa ń fò kiri láti wá oúnjẹ?",
+          "ní òru",
+          "ní ọ̀sán gangan",
+          "ní òwúrọ̀ tí oòrùn mú nìkan",
+          "Àdán máa ń sùn ní ọ̀sán, ó sì máa ń jáde láti wá oúnjẹ nígbà tí ilẹ̀ bá ṣú."
+        ],
+        [
+          "Ìgbà wo ni òòrẹ̀ máa ń jáde láti wá oúnjẹ?",
+          "ní òru",
+          "ní ọ̀sán tí ooru mú",
+          "nígbà tí yìnyín bá ń já nìkan",
+          "Òòrẹ̀ máa ń sùn ní ọ̀sán, ó sì máa ń jáde ní òru láti wá oúnjẹ."
+        ],
+        [
+          "Èwo nínú àwọn ẹranko wọ̀nyí ló sábà máa ń jáde ní òru?",
+          "kọ̀lọ̀kọ̀lọ̀",
+          "labalábá",
+          "kòkòrò oyin",
+          "Kọ̀lọ̀kọ̀lọ̀ sábà máa ń wá oúnjẹ ní òru. Labalábá àti oyin máa ń sinmi nígbà tí ilẹ̀ bá ṣú."
+        ],
+        [
+          "Kí ló máa ń ṣẹlẹ̀ sí ojú ọ̀run ní òwúrọ̀?",
+          "ó máa ń mọ́lẹ̀",
+          "ó máa ń ṣókùnkùn",
+          "ó máa ń di àwọ̀ ewé",
+          "Ní òwúrọ̀, oòrùn máa ń yọ, ojú ọ̀run á sì mọ́lẹ̀."
+        ],
+        [
+          "Kí ló máa ń tàn yinrin lójú ọ̀run ní òru tí ojú ọ̀run mọ́?",
+          "ìràwọ̀",
+          "ìkùukùu",
+          "ẹyẹ",
+          "Ìràwọ̀ máa ń dà bí ẹni pé wọ́n ń tàn yinrin lójú ọ̀run òru."
+        ],
+        [
+          "Ilẹ̀ ń ṣú nínú ilé. Kí la máa ń tàn?",
+          "iná mànàmáná",
+          "ẹ̀rọ omi",
+          "ààrò",
+          "Iná ń ràn wá lọ́wọ́ láti ríran nígbà tí kò sí ìmọ́lẹ̀ oòrùn."
+        ],
+        [
+          "Ìgbà wo la máa ń jẹ oúnjẹ àárọ̀?",
+          "ní òwúrọ̀",
+          "nígbà tí a fẹ́ sùn",
+          "ní ọ̀gànjọ́ òru",
+          "Oúnjẹ àárọ̀ ni oúnjẹ àkọ́kọ́ lójúmọ́, a máa ń jẹ ẹ́ ní òwúrọ̀."
+        ],
+        [
+          "Ṣé òṣùpá ní ìmọ́lẹ̀ tirẹ̀?",
+          "rárá, ìmọ́lẹ̀ oòrùn ló ń mú un tàn",
+          "bẹ́ẹ̀ni, fìtílà ńlá kan wà nínú rẹ̀",
+          "bẹ́ẹ̀ni, iná ń jó o",
+          "Òṣùpá jẹ́ àpáta ńlá. Ó ń mọ́lẹ̀ nítorí pé ìmọ́lẹ̀ oòrùn ń tàn sí i lára."
+        ],
+        [
+          "Ṣé oòrùn gbóná àbí ó tutù?",
+          "ó gbóná gan-an ni",
+          "ó tutù bí yìnyín",
+          "ó tutù bí omi",
+          "Oòrùn jẹ́ òbìrìkítí ńlá ti afẹ́fẹ́ gbígbóná gan-an. Ìdí nìyẹn tí ó fi ń mú wa móoru."
+        ],
+        [
+          "Oòrùn dà bí ẹni pé ó kéré lójú ọ̀run. Báwo ló ṣe tóbi tó gan-an?",
+          "ó tóbi púpọ̀, ó tóbi ju ayé lọ fíìfíì",
+          "ó kéré bí bọ́ọ̀lù",
+          "ó kéré bí owó ẹyọ",
+          "Oòrùn tóbi gan-an. Ó kàn dà bí ẹni pé ó kéré nítorí pé ó jìnnà gan-an sí wa."
+        ],
+        [
+          "Kí lo máa ń wọ̀ lọ sórí ibùsùn?",
+          "aṣọ ìsùn",
+          "ẹ̀wù òjò",
+          "gíláàsì ìlúwẹ̀ẹ́",
+          "Aṣọ ìsùn tó rọ̀, tó sì tura ni a ṣe fún sísùn."
+        ],
+        [
+          "Òwìwí ní ojú ńlá gan-an. Kí ni ojú náà ń ràn án lọ́wọ́ láti ṣe?",
+          "láti ríran nínú òkùnkùn",
+          "láti lúwẹ̀ẹ́ kíákíá",
+          "láti gbẹ́ ihò",
+          "Ojú ńlá máa ń gba ìmọ́lẹ̀ púpọ̀ wọlé, nítorí náà òwìwí lè ríran lóru."
+        ],
+        [
+          "Àwọ̀ wo ni ojú ọ̀run máa ń ní ní òru?",
+          "ó ṣókùnkùn, ó fẹ́rẹ̀ dúdú",
+          "àwọ̀ ìyeyè tó mọ́lẹ̀ yòò",
+          "àwọ̀ píńkì tó ní àmì",
+          "Láìsí ìmọ́lẹ̀ oòrùn, ojú ọ̀run òru máa ń ṣókùnkùn, ó fẹ́rẹ̀ dúdú."
+        ],
+        [
+          "Kí ló máa ń dé lẹ́yìn òru gan-an?",
+          "òwúrọ̀",
+          "ìrọ̀lẹ́",
+          "àkókò oúnjẹ ọ̀sán",
+          "Òru máa ń parí nígbà tí oòrùn bá yọ. Lẹ́yìn náà, òwúrọ̀ dé."
+        ],
+        [
+          "Ìgbà wo ni àwọn ọmọdé máa ń lọ sí ilé-ìwé?",
+          "ní ọ̀sán",
+          "ní ọ̀gànjọ́ òru",
+          "nígbà tí wọ́n fẹ́ sùn",
+          "A máa ń lọ sí ilé-ìwé ní ọ̀sán, nígbà tí ilẹ̀ bá mọ́."
+        ],
+        [
+          "Kí ló dé tí a kò fi lè rí oòrùn ní òru?",
+          "ayé ti yí, apá tiwa kò kọjú sí oòrùn mọ́",
+          "wọ́n ti pa oòrùn",
+          "oòrùn ti lọ sùn",
+          "Ayé ń yí díẹ̀díẹ̀. Ní òru, apá ayé tí a wà kò kọjú sí oòrùn."
+        ],
+        [
+          "Ṣé ènìyàn ti rìn lórí òṣùpá rí?",
+          "bẹ́ẹ̀ni, àwọn awòràwọ̀ ti rìn níbẹ̀",
+          "rárá, láé",
+          "bẹ́ẹ̀ni, wọ́n wọ bọ́ọ̀sì lọ",
+          "Àwọn awòràwọ̀ wọ rọ́kẹ́ẹ̀tì lọ sí òṣùpá, wọ́n sì rìn lórí rẹ̀."
+        ],
+        [
+          "Kí ni wọ́n fi ṣe òṣùpá?",
+          "àpáta",
+          "wàràkàṣì",
+          "jẹ́lì",
+          "Àpáta àti eruku ló para pọ̀ di òṣùpá, kì í ṣe wàràkàṣì!"
+        ],
+        [
+          "Ìgbà wo ni labalábá máa ń fò kiri?",
+          "ní ọ̀sán, nígbà tí ooru bá wà",
+          "ní ọ̀gànjọ́ òru",
+          "nígbà tí òkùnkùn bá ṣú nìkan",
+          "Labalábá nílò oòrùn àti ooru láti fò. Ní òru, wọ́n máa ń sinmi."
+        ],
+        [
+          "Ẹranko wo ló máa ń sùn ní òru bí ìwọ náà?",
+          "adìyẹ",
+          "òwìwí",
+          "àdán",
+          "Adìyẹ máa ń sùn nígbà tí ilẹ̀ bá ṣú, ó sì máa ń jí ní òwúrọ̀."
+        ],
+        [
+          "Kí ló ń jẹ́ kí o sùn dáadáa ní òru?",
+          "yàrá tó ṣókùnkùn, tó sì dákẹ́",
+          "orin tó ń pariwo",
+          "iná tó mọ́lẹ̀ gan-an",
+          "Yàrá tó ṣókùnkùn, tó sì dákẹ́ ń ran ara rẹ lọ́wọ́ láti sinmi."
+        ],
+        [
+          "Ìràwọ̀ dà bí ẹni pé wọ́n kéré gan-an. Kí ló fà á?",
+          "wọ́n jìnnà gan-an sí wa",
+          "wọ́n kéré bí súìtì",
+          "ohun ìṣeré ni wọ́n",
+          "Ìràwọ̀ tóbi gan-an, ṣùgbọ́n wọ́n jìnnà débi pé wọ́n dà bí kínníkínní."
+        ],
+        [
+          "Ní òru, kí ló ń tan ìmọ́lẹ̀ sí ojú pópó?",
+          "iná ojú pópó",
+          "oòrùn",
+          "òṣùmàrè",
+          "Iná ojú pópó máa ń tàn nígbà tí ilẹ̀ bá ṣú, kí àwọn ènìyàn lè ríran."
+        ],
+        [
+          "Ẹranko wo ló sábà máa ń kọ nígbà tí ilẹ̀ bá ń mọ́?",
+          "àkùkọ",
+          "òwìwí",
+          "ẹja",
+          "Àkùkọ sábà máa ń kọ kíkankíkan ní àfẹ̀mọ́jú."
+        ],
+        [
+          "Kí ló máa ń ṣẹlẹ̀ sí ojú ọ̀run ní ìrọ̀lẹ́?",
+          "ó máa ń ṣókùnkùn díẹ̀díẹ̀",
+          "ó máa ń mọ́lẹ̀ sí i",
+          "ó máa ń di àwọ̀ ewé",
+          "Ní ìrọ̀lẹ́, oòrùn máa ń wọ̀, ojú ọ̀run á sì ṣókùnkùn díẹ̀díẹ̀."
+        ]
+      ]
+    }
+  },
+  "emoji": "moon",
+  "example": {
+    "i": 0,
+    "q_en": "What gives us light in the daytime?",
+    "answer_en": "the Sun",
+    "why_en": "In the day, the Sun lights up the whole sky.",
+    "q_de": "Was gibt uns am Tag Licht?",
+    "answer_de": "die Sonne",
+    "why_de": "Am Tag macht die Sonne den ganzen Himmel hell.",
+    "q_fr": "Qu’est-ce qui nous éclaire pendant la journée ?",
+    "answer_fr": "le Soleil",
+    "why_fr": "Le jour, le Soleil éclaire tout le ciel.",
+    "q_yo": "Kí ló ń fún wa ní ìmọ́lẹ̀ ní ọ̀sán?",
+    "answer_yo": "oòrùn",
+    "why_yo": "Ní ọ̀sán, oòrùn ló ń tan ìmọ́lẹ̀ sí gbogbo ojú ọ̀run."
+  },
+  "text": {
+    "en": {
+      "title": "Day and night",
+      "teach": "In the day, the Sun gives us light. At night it is dark: we see the Moon and stars, and we go to sleep. Some animals, like owls and bats, wake up at night.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Tag und Nacht",
+      "teach": "Am Tag gibt uns die Sonne Licht. In der Nacht ist es dunkel: Wir sehen den Mond und die Sterne und gehen schlafen. Manche Tiere, wie Eulen und Fledermäuse, werden nachts wach.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Le jour et la nuit",
+      "teach": "Le jour, le Soleil nous éclaire. La nuit, il fait noir : on voit la Lune et les étoiles, et on va dormir. Certains animaux, comme les hiboux et les chauves-souris, se réveillent la nuit.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ọ̀sán àti òru",
+      "teach": "Ní ọ̀sán, oòrùn ń fún wa ní ìmọ́lẹ̀. Ní òru, òkùnkùn máa ń ṣú: a máa ń rí òṣùpá àti ìràwọ̀, a sì máa ń sùn. Àwọn ẹranko kan, bí òwìwí àti àdán, máa ń jí lóru.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import type { Why } from './types'
 
-// 100 Whys: animals and plants. Short, true explanations for children aged 4–11, in English, German, French and Yoruba.
+// Whys: animals and plants. Short, true explanations for children aged 4–12, in English, German, French and Yoruba.
 
 export const WHYS_NATURE: Why[] = [
   { id: 'leaves-colour', topic: 'nature', emoji: 'palette',

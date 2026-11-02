@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "words",
   "stage": 3,
+  "ages": [
+    "8-9"
+  ],
   "order": 25,
   "only": "en",
   "params": {
@@ -16,7 +19,27 @@
       "teddy",
       "hockey",
       "snowman",
-      "memo"
+      "memo",
+      "fruit-apple",
+      "house",
+      "wave",
+      "seedling",
+      "gloves",
+      "music",
+      "snowflake",
+      "cookie",
+      "animal-owl",
+      "trophy",
+      "droplet",
+      "cloud",
+      "paws",
+      "candle",
+      "abacus",
+      "sun",
+      "rain",
+      "puzzle",
+      "speech",
+      "clock"
     ],
     "bank": {
       "en": [
@@ -89,6 +112,146 @@
           "and",
           "or",
           "“Because” tells us why something happens."
+        ],
+        [
+          "I was hungry, ___ I ate a sandwich.",
+          "so",
+          "or",
+          "but",
+          "“So” tells us what happened because I was hungry."
+        ],
+        [
+          "Do you want to play inside ___ outside?",
+          "or",
+          "because",
+          "so",
+          "“Or” gives a choice between two things."
+        ],
+        [
+          "Mia can swim, ___ she cannot ride a bike.",
+          "but",
+          "so",
+          "or",
+          "“But” joins two ideas that are different."
+        ],
+        [
+          "The plant grew tall ___ we gave it water every day.",
+          "because",
+          "or",
+          "but",
+          "“Because” gives the reason the plant grew."
+        ],
+        [
+          "I put on my coat ___ my hat.",
+          "and",
+          "because",
+          "so",
+          "“And” adds one more thing."
+        ],
+        [
+          "Dad smiles ___ he hears his favourite song.",
+          "when",
+          "or",
+          "but",
+          "“When” tells us the time Dad smiles."
+        ],
+        [
+          "The road was icy, ___ we walked slowly.",
+          "so",
+          "or",
+          "because",
+          "“So” shows what we did because the road was icy."
+        ],
+        [
+          "We can have pizza ___ pasta for tea.",
+          "or",
+          "so",
+          "because",
+          "“Or” gives a choice between two things."
+        ],
+        [
+          "The owl hoots ___ it gets dark.",
+          "when",
+          "but",
+          "or",
+          "“When” tells us the time the owl hoots."
+        ],
+        [
+          "Leo is small, ___ he is very strong.",
+          "but",
+          "so",
+          "or",
+          "“But” joins two ideas that are different."
+        ],
+        [
+          "I washed my hands ___ they were muddy.",
+          "because",
+          "or",
+          "but",
+          "“Because” gives the reason I washed my hands."
+        ],
+        [
+          "My kite flew high ___ the wind was strong.",
+          "because",
+          "but",
+          "or",
+          "“Because” gives the reason the kite flew high."
+        ],
+        [
+          "Sara likes cats ___ dogs.",
+          "and",
+          "so",
+          "because",
+          "“And” adds one more thing."
+        ],
+        [
+          "The lights went out, ___ we lit a candle.",
+          "so",
+          "or",
+          "because",
+          "“So” shows what we did because the lights went out."
+        ],
+        [
+          "Is the answer six ___ seven?",
+          "or",
+          "so",
+          "because",
+          "“Or” gives a choice between two answers."
+        ],
+        [
+          "The birds sing ___ the sun comes up.",
+          "when",
+          "or",
+          "but",
+          "“When” tells us the time the birds sing."
+        ],
+        [
+          "I wanted to go out, ___ it was raining.",
+          "but",
+          "so",
+          "or",
+          "“But” joins two ideas that are different."
+        ],
+        [
+          "Which word gives a choice?",
+          "or",
+          "because",
+          "when",
+          "“Or” gives a choice, like “tea or juice?”"
+        ],
+        [
+          "Which word joins two ideas that are different?",
+          "but",
+          "so",
+          "because",
+          "“But” joins two different ideas, like “small but strong”."
+        ],
+        [
+          "Which word tells us the time something happens?",
+          "when",
+          "or",
+          "but",
+          "“When” tells us the time, like “when the bell rings”."
         ]
       ]
     }

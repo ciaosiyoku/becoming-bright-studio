@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "words",
   "stage": 3,
+  "ages": [
+    "8-9"
+  ],
   "order": 24,
   "only": "en",
   "params": {
@@ -16,7 +19,27 @@
       "animal-lion",
       "sparkles",
       "animal-rabbit",
-      "framed"
+      "framed",
+      "glowstar",
+      "moon",
+      "candle",
+      "rain",
+      "music",
+      "party",
+      "animal-lady-beetle",
+      "teddy",
+      "bell",
+      "cake",
+      "animal-otter",
+      "gift",
+      "cloud",
+      "animal-cow",
+      "road",
+      "sparkles",
+      "puzzle",
+      "gear",
+      "house",
+      "seedling"
     ],
     "bank": {
       "en": [
@@ -89,6 +112,146 @@
           "painful",
           "painless",
           "The ending “-er” can mean a person who does something."
+        ],
+        [
+          "hope + ful = ?",
+          "hopeful",
+          "hopefull",
+          "hopful",
+          "Keep the e and add “-ful” with one l: hopeful."
+        ],
+        [
+          "What does “sleepless” mean?",
+          "without sleep",
+          "full of sleep",
+          "sleeping a lot",
+          "The ending “-less” means without."
+        ],
+        [
+          "dark + ness = ?",
+          "darkness",
+          "darknes",
+          "darkniss",
+          "Add “-ness” with a double s: darkness."
+        ],
+        [
+          "sad + ly = ?",
+          "sadly",
+          "sadley",
+          "sadlly",
+          "Just add “-ly”: sadly."
+        ],
+        [
+          "sing + er = ?",
+          "singer",
+          "singor",
+          "singar",
+          "Add “-er” for a person who does something: singer."
+        ],
+        [
+          "Which word means “full of joy”?",
+          "joyful",
+          "joyless",
+          "joyly",
+          "The ending “-ful” means full of."
+        ],
+        [
+          "What does “harmless” mean?",
+          "not able to hurt you",
+          "full of harm",
+          "very dangerous",
+          "The ending “-less” means without, so harmless means without harm."
+        ],
+        [
+          "silly + ness = ?",
+          "silliness",
+          "sillyness",
+          "sillness",
+          "The y changes to i before “-ness”: silliness."
+        ],
+        [
+          "loud + ly = ?",
+          "loudly",
+          "loudley",
+          "lowdly",
+          "Just add “-ly”: loudly."
+        ],
+        [
+          "Which word means “a person who bakes”?",
+          "baker",
+          "bakeful",
+          "bakeless",
+          "The ending “-er” can mean a person who does something."
+        ],
+        [
+          "play + ful = ?",
+          "playful",
+          "playfull",
+          "plaiful",
+          "Add “-ful” with only one l: playful."
+        ],
+        [
+          "What does “thankful” mean?",
+          "full of thanks",
+          "without thanks",
+          "a person who thanks",
+          "The ending “-ful” means full of."
+        ],
+        [
+          "soft + ly = ?",
+          "softly",
+          "softley",
+          "sofly",
+          "Just add “-ly” and keep the t: softly."
+        ],
+        [
+          "farm + er = ?",
+          "farmer",
+          "farmor",
+          "farmar",
+          "Add “-er” for a person who does something: farmer."
+        ],
+        [
+          "Which word means “without any end”?",
+          "endless",
+          "endful",
+          "endly",
+          "The ending “-less” means without."
+        ],
+        [
+          "good + ness = ?",
+          "goodness",
+          "goodnes",
+          "goodniss",
+          "Add “-ness” with a double s: goodness."
+        ],
+        [
+          "easy + ly = ?",
+          "easily",
+          "easyly",
+          "easly",
+          "The y changes to i before “-ly”: easily."
+        ],
+        [
+          "Which word means “full of use”?",
+          "useful",
+          "useless",
+          "usely",
+          "The ending “-ful” means full of."
+        ],
+        [
+          "What does “spotless” mean?",
+          "with no spots or dirt",
+          "full of spots",
+          "a little bit dirty",
+          "The ending “-less” means without, so spotless means without spots."
+        ],
+        [
+          "garden + er = ?",
+          "gardener",
+          "gardenor",
+          "gardenar",
+          "Add “-er” for a person who does something: gardener."
         ]
       ]
     }

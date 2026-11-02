@@ -1,0 +1,936 @@
+{
+  "id": "sci10-light",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 208,
+  "params": {
+    "emojis": [
+      "sun",
+      "house",
+      "moon",
+      "sparkles",
+      "books",
+      "girl",
+      "framed",
+      "light",
+      "sparkles",
+      "letters",
+      "framed",
+      "light",
+      "droplet",
+      "wave",
+      "openbook",
+      "tree",
+      "house",
+      "memo",
+      "sun-small-cloud",
+      "animal-rabbit",
+      "light",
+      "sun",
+      "clock",
+      "sun-large-cloud",
+      "glowstar",
+      "sun-rain",
+      "palette",
+      "umbrella",
+      "fruit-apple",
+      "warning"
+    ],
+    "bank": {
+      "en": [
+        [
+          "How does light travel from a source?",
+          "in straight lines",
+          "in wavy curves around objects",
+          "in circles back to the source",
+          "Light always travels in straight lines until something gets in its way."
+        ],
+        [
+          "Why can’t you see a friend hiding around a corner?",
+          "light travels in straight lines and cannot bend round the corner",
+          "your eyes only work in sunshine",
+          "the corner soaks up all sound",
+          "Light from your friend travels in straight lines, so it cannot curve round the wall to reach your eyes."
+        ],
+        [
+          "Is the Moon a light source?",
+          "no, it reflects light from the Sun",
+          "yes, it makes its own light",
+          "only when it is a full moon",
+          "The Moon makes no light of its own. We see it because sunlight bounces off its surface."
+        ],
+        [
+          "Which of these is a light source?",
+          "a burning candle",
+          "a mirror",
+          "a shiny spoon",
+          "A candle flame gives out its own light. Mirrors and spoons only reflect light that falls on them."
+        ],
+        [
+          "How do you see a book on a table?",
+          "light bounces off the book into your eyes",
+          "light shoots out of your eyes onto the book",
+          "the book makes its own light",
+          "Light from a source such as a lamp reflects off the book and travels in a straight line into your eyes."
+        ],
+        [
+          "Which part of your body detects light?",
+          "the eye",
+          "the ear",
+          "the tongue",
+          "Light enters the eye through the pupil, and the eye sends messages to the brain so that we can see."
+        ],
+        [
+          "What happens when light hits a flat mirror?",
+          "it bounces off (it is reflected)",
+          "it all disappears inside the glass",
+          "it turns into sound",
+          "A mirror is very smooth and shiny, so almost all the light that hits it is reflected."
+        ],
+        [
+          "What is the science word for light bouncing off a surface?",
+          "reflection",
+          "refraction",
+          "evaporation",
+          "Reflection means light bouncing off a surface. Refraction is light bending; evaporation is a liquid turning into a gas."
+        ],
+        [
+          "Which surface reflects light best?",
+          "a smooth, shiny mirror",
+          "a black woolly jumper",
+          "a rough piece of tree bark",
+          "Smooth, shiny surfaces reflect most light. Dark, rough surfaces absorb much more of it."
+        ],
+        [
+          "How does writing look when you hold it up to a mirror?",
+          "back to front",
+          "upside down",
+          "twice as big",
+          "A mirror swaps left and right in the image, so the letters appear back to front."
+        ],
+        [
+          "A periscope lets you see over a wall. What is inside it?",
+          "two mirrors that reflect light",
+          "two magnets that pull light",
+          "two batteries that make light",
+          "Light reflects off the top mirror, travels down the tube, then reflects off the bottom mirror into your eye."
+        ],
+        [
+          "What is refraction?",
+          "light bending as it passes from one material into another",
+          "light bouncing back off a mirror",
+          "light being blocked to make a shadow",
+          "When light passes between materials such as air, water and glass, it changes speed and bends. This is refraction."
+        ],
+        [
+          "Why does a straw in a glass of water look bent?",
+          "light refracts as it passes from the water into the air",
+          "the water really bends the straw",
+          "the straw goes soft and folds",
+          "The straw is still straight. Light from it bends at the water’s surface, which tricks your eyes."
+        ],
+        [
+          "Because of refraction, a swimming pool looks…",
+          "shallower than it really is",
+          "deeper than it really is",
+          "exactly as deep as it really is",
+          "Light from the bottom bends as it leaves the water, so the floor of the pool seems closer than it is."
+        ],
+        [
+          "How does a magnifying glass make small print look bigger?",
+          "its curved lens refracts (bends) the light",
+          "it makes its own bright light",
+          "it soaks up all the light",
+          "The curved glass lens bends the light rays so that the print appears larger to your eye."
+        ],
+        [
+          "How is a shadow formed?",
+          "an opaque object blocks the light",
+          "light reflects off the object onto the ground",
+          "the object gives out darkness",
+          "Light travels in straight lines, so behind an opaque object there is an area the light cannot reach: the shadow."
+        ],
+        [
+          "Which material is opaque?",
+          "wood",
+          "clear glass",
+          "clean water",
+          "Opaque materials let no light through. Clear glass and clean water are transparent."
+        ],
+        [
+          "Tracing paper lets some light through, but you cannot see clearly through it. It is…",
+          "translucent",
+          "transparent",
+          "opaque",
+          "Translucent materials let some light pass but scatter it, so things behind them look blurry."
+        ],
+        [
+          "Which material is transparent?",
+          "a clear glass window",
+          "a cardboard box",
+          "a brick wall",
+          "Transparent materials let almost all light through, so you can see clearly through a glass window."
+        ],
+        [
+          "You make a rabbit shape with your hands in front of a torch. What shape is the shadow?",
+          "a rabbit shape, like the outline of your hands",
+          "always a perfect circle",
+          "the shape of the torch",
+          "A shadow keeps the outline of the object blocking the light, but shows no colours or details."
+        ],
+        [
+          "You move an object closer to a torch. What happens to its shadow?",
+          "it gets bigger",
+          "it gets smaller",
+          "it disappears",
+          "Closer to the light, the object blocks a wider spread of rays, so the shadow grows."
+        ],
+        [
+          "Why are shadows long in the early morning and evening?",
+          "the Sun is low in the sky",
+          "the Sun is straight above us",
+          "the Sun is closer to Earth",
+          "When the Sun is low, its light hits objects at a slant, so their shadows stretch out far."
+        ],
+        [
+          "At what time of day are shadows shortest?",
+          "around midday",
+          "at sunrise",
+          "just before sunset",
+          "Around midday the Sun is at its highest point, so light comes from above and shadows are short."
+        ],
+        [
+          "What is white light from the Sun really made of?",
+          "a mixture of many colours",
+          "only yellow light",
+          "no colours at all",
+          "White light is a mix of all the colours of the spectrum. A prism or raindrops can separate them."
+        ],
+        [
+          "Which object can split white light into a spectrum of colours?",
+          "a glass prism",
+          "a magnet",
+          "a sponge",
+          "A prism refracts each colour by a slightly different amount, spreading white light into a band of colours."
+        ],
+        [
+          "How does a rainbow form?",
+          "raindrops refract sunlight and split it into colours",
+          "the wind paints colours onto the clouds",
+          "the Moon shines coloured light",
+          "Each raindrop acts like a tiny prism, bending sunlight and separating it into the colours of the spectrum."
+        ],
+        [
+          "The colours of the spectrum begin red, orange, yellow… Which colour comes next?",
+          "green",
+          "violet",
+          "pink",
+          "The order is red, orange, yellow, green, blue, indigo, violet. Pink is not one of the spectrum colours."
+        ],
+        [
+          "You want to see a rainbow while it rains. Where should the Sun be?",
+          "behind you",
+          "in front of you",
+          "straight above your head",
+          "Sunlight must shine from behind you onto the raindrops in front of you, which send the colours back towards your eyes."
+        ],
+        [
+          "Why does a red apple look red?",
+          "it reflects red light and absorbs the other colours",
+          "it makes its own red light",
+          "it absorbs only red light",
+          "Objects get their colour from the light they reflect. A red apple reflects red and soaks up the rest."
+        ],
+        [
+          "Why should you never look straight at the Sun, even with sunglasses?",
+          "its light is strong enough to damage your eyes",
+          "it makes your eyes change colour",
+          "it makes you sneeze for a whole day",
+          "Sunlight is so intense that it can harm the inside of the eye for good. Never look at it directly."
+        ]
+      ],
+      "de": [
+        [
+          "Wie breitet sich Licht von einer Lichtquelle aus?",
+          "in geraden Linien",
+          "in Schlangenlinien um Gegenstände herum",
+          "im Kreis zurück zur Quelle",
+          "Licht breitet sich immer geradlinig aus, bis etwas im Weg ist."
+        ],
+        [
+          "Warum siehst du ein Kind nicht, das sich hinter einer Ecke versteckt?",
+          "Licht läuft geradeaus und kann nicht um die Ecke",
+          "Augen funktionieren nur bei Sonnenschein",
+          "die Ecke schluckt alle Geräusche",
+          "Das Licht vom Kind läuft geradlinig und kann nicht um die Mauer herum in deine Augen gelangen."
+        ],
+        [
+          "Ist der Mond eine Lichtquelle?",
+          "nein, er wirft Sonnenlicht zurück",
+          "ja, er erzeugt eigenes Licht",
+          "nur bei Vollmond",
+          "Der Mond leuchtet nicht selbst. Wir sehen ihn, weil Sonnenlicht von seiner Oberfläche zurückgeworfen wird."
+        ],
+        [
+          "Was davon ist eine Lichtquelle?",
+          "eine brennende Kerze",
+          "ein Spiegel",
+          "ein glänzender Löffel",
+          "Eine Kerzenflamme sendet selbst Licht aus. Spiegel und Löffel werfen nur Licht zurück."
+        ],
+        [
+          "Wie siehst du ein Buch auf dem Tisch?",
+          "Licht wird vom Buch in deine Augen zurückgeworfen",
+          "Licht schießt aus deinen Augen auf das Buch",
+          "das Buch leuchtet selbst",
+          "Licht von einer Lampe wird vom Buch zurückgeworfen und läuft geradlinig in deine Augen."
+        ],
+        [
+          "Welcher Körperteil nimmt Licht wahr?",
+          "das Auge",
+          "das Ohr",
+          "die Zunge",
+          "Licht gelangt durch die Pupille ins Auge. Das Auge schickt Signale ans Gehirn, und so sehen wir."
+        ],
+        [
+          "Was passiert, wenn Licht auf einen flachen Spiegel trifft?",
+          "es wird zurückgeworfen (reflektiert)",
+          "es verschwindet ganz im Glas",
+          "es wird zu Schall",
+          "Ein Spiegel ist sehr glatt und glänzend, deshalb wirft er fast das ganze Licht zurück."
+        ],
+        [
+          "Wie heißt es in der Naturwissenschaft, wenn Licht von einer Fläche abprallt?",
+          "Reflexion",
+          "Brechung",
+          "Verdunstung",
+          "Reflexion heißt, dass Licht von einer Fläche zurückgeworfen wird. Brechung ist das Abknicken von Licht, Verdunstung hat mit Flüssigkeiten zu tun."
+        ],
+        [
+          "Welche Oberfläche wirft Licht am besten zurück?",
+          "ein glatter, glänzender Spiegel",
+          "ein schwarzer Wollpullover",
+          "ein raues Stück Baumrinde",
+          "Glatte, glänzende Flächen werfen das meiste Licht zurück. Dunkle, raue Flächen schlucken viel mehr davon."
+        ],
+        [
+          "Wie sieht Schrift aus, wenn du sie vor einen Spiegel hältst?",
+          "seitenverkehrt",
+          "auf dem Kopf",
+          "doppelt so groß",
+          "Ein Spiegel vertauscht im Bild links und rechts, deshalb erscheinen die Buchstaben seitenverkehrt."
+        ],
+        [
+          "Mit einem Periskop kannst du über eine Mauer schauen. Was steckt darin?",
+          "zwei Spiegel, die Licht umlenken",
+          "zwei Magnete, die Licht anziehen",
+          "zwei Batterien, die Licht machen",
+          "Das Licht wird vom oberen Spiegel nach unten und vom unteren Spiegel in dein Auge gelenkt."
+        ],
+        [
+          "Was ist Lichtbrechung?",
+          "Licht knickt ab, wenn es von einem Stoff in einen anderen geht",
+          "Licht prallt von einem Spiegel ab",
+          "Licht wird aufgehalten und macht einen Schatten",
+          "Geht Licht zwischen Luft, Wasser oder Glas über, ändert es seine Geschwindigkeit und knickt ab. Das nennt man Brechung."
+        ],
+        [
+          "Warum sieht ein Strohhalm im Wasserglas geknickt aus?",
+          "Licht wird beim Übergang von Wasser in Luft gebrochen",
+          "das Wasser verbiegt den Halm wirklich",
+          "der Halm wird weich und knickt ein",
+          "Der Strohhalm bleibt gerade. Sein Licht knickt an der Wasseroberfläche ab und täuscht deine Augen."
+        ],
+        [
+          "Wegen der Lichtbrechung wirkt ein Schwimmbecken …",
+          "flacher, als es wirklich ist",
+          "tiefer, als es wirklich ist",
+          "genau so tief, wie es wirklich ist",
+          "Licht vom Beckenboden knickt beim Austritt aus dem Wasser ab, deshalb scheint der Boden näher zu sein."
+        ],
+        [
+          "Wie lässt eine Lupe kleine Schrift größer aussehen?",
+          "ihre gewölbte Linse bricht das Licht",
+          "sie erzeugt eigenes helles Licht",
+          "sie schluckt das ganze Licht",
+          "Die gewölbte Glaslinse lenkt die Lichtstrahlen so ab, dass die Schrift für dein Auge größer erscheint."
+        ],
+        [
+          "Wie entsteht ein Schatten?",
+          "ein undurchsichtiger Gegenstand hält das Licht auf",
+          "Licht wird vom Gegenstand auf den Boden geworfen",
+          "der Gegenstand gibt Dunkelheit ab",
+          "Licht läuft geradeaus. Hinter einem undurchsichtigen Gegenstand gibt es deshalb einen Bereich ohne Licht: den Schatten."
+        ],
+        [
+          "Welcher Stoff ist undurchsichtig?",
+          "Holz",
+          "klares Glas",
+          "sauberes Wasser",
+          "Undurchsichtige Stoffe lassen kein Licht durch. Klares Glas und sauberes Wasser sind durchsichtig."
+        ],
+        [
+          "Pauspapier lässt etwas Licht durch, aber man sieht nicht klar hindurch. Es ist …",
+          "durchscheinend",
+          "durchsichtig",
+          "undurchsichtig",
+          "Durchscheinende Stoffe lassen etwas Licht durch, streuen es aber. Dahinter wirkt alles verschwommen."
+        ],
+        [
+          "Welcher Stoff ist durchsichtig?",
+          "eine klare Fensterscheibe",
+          "ein Pappkarton",
+          "eine Ziegelmauer",
+          "Durchsichtige Stoffe lassen fast das ganze Licht durch. Durch eine Fensterscheibe siehst du deshalb klar."
+        ],
+        [
+          "Du formst vor einer Taschenlampe mit den Händen einen Hasen. Welche Form hat der Schatten?",
+          "eine Hasenform wie der Umriss deiner Hände",
+          "immer ein perfekter Kreis",
+          "die Form der Taschenlampe",
+          "Ein Schatten hat den Umriss des Gegenstands, der das Licht aufhält, aber keine Farben oder Einzelheiten."
+        ],
+        [
+          "Du hältst einen Gegenstand näher an die Taschenlampe. Was passiert mit seinem Schatten?",
+          "er wird größer",
+          "er wird kleiner",
+          "er verschwindet",
+          "Nahe am Licht hält der Gegenstand mehr Lichtstrahlen auf, deshalb wird der Schatten größer."
+        ],
+        [
+          "Warum sind Schatten am frühen Morgen und am Abend lang?",
+          "die Sonne steht tief am Himmel",
+          "die Sonne steht genau über uns",
+          "die Sonne ist näher an der Erde",
+          "Bei tiefer Sonne fällt das Licht schräg auf Gegenstände, deshalb werden die Schatten lang."
+        ],
+        [
+          "Zu welcher Tageszeit sind Schatten am kürzesten?",
+          "gegen Mittag",
+          "bei Sonnenaufgang",
+          "kurz vor Sonnenuntergang",
+          "Gegen Mittag steht die Sonne am höchsten. Das Licht kommt von oben, und die Schatten sind kurz."
+        ],
+        [
+          "Woraus besteht weißes Sonnenlicht eigentlich?",
+          "aus einer Mischung vieler Farben",
+          "nur aus gelbem Licht",
+          "aus gar keinen Farben",
+          "Weißes Licht ist eine Mischung aller Spektralfarben. Ein Prisma oder Regentropfen können sie trennen."
+        ],
+        [
+          "Welcher Gegenstand kann weißes Licht in ein Farbspektrum zerlegen?",
+          "ein Glasprisma",
+          "ein Magnet",
+          "ein Schwamm",
+          "Ein Prisma bricht jede Farbe etwas unterschiedlich stark und fächert weißes Licht so in ein Farbband auf."
+        ],
+        [
+          "Wie entsteht ein Regenbogen?",
+          "Regentropfen brechen das Sonnenlicht und zerlegen es in Farben",
+          "der Wind färbt die Wolken",
+          "der Mond strahlt farbiges Licht aus",
+          "Jeder Regentropfen wirkt wie ein winziges Prisma: Er bricht das Sonnenlicht und trennt es in die Spektralfarben."
+        ],
+        [
+          "Die Spektralfarben beginnen mit Rot, Orange, Gelb … Welche Farbe folgt?",
+          "Grün",
+          "Violett",
+          "Rosa",
+          "Die Reihenfolge ist Rot, Orange, Gelb, Grün, Blau, Indigo, Violett. Rosa gehört nicht zum Spektrum."
+        ],
+        [
+          "Du willst bei Regen einen Regenbogen sehen. Wo muss die Sonne sein?",
+          "hinter dir",
+          "vor dir",
+          "genau über deinem Kopf",
+          "Das Sonnenlicht muss von hinten auf die Regentropfen vor dir fallen. Sie werfen die Farben zu deinen Augen zurück."
+        ],
+        [
+          "Warum sieht ein roter Apfel rot aus?",
+          "er wirft rotes Licht zurück und schluckt die anderen Farben",
+          "er erzeugt eigenes rotes Licht",
+          "er schluckt nur rotes Licht",
+          "Gegenstände haben die Farbe des Lichts, das sie zurückwerfen. Ein roter Apfel wirft Rot zurück und schluckt den Rest."
+        ],
+        [
+          "Warum solltest du nie direkt in die Sonne schauen, auch nicht mit Sonnenbrille?",
+          "ihr Licht ist so stark, dass es die Augen schädigen kann",
+          "davon ändern die Augen ihre Farbe",
+          "davon musst du einen ganzen Tag niesen",
+          "Sonnenlicht ist so stark, dass es das Innere des Auges dauerhaft schädigen kann. Schau nie direkt hinein."
+        ]
+      ],
+      "fr": [
+        [
+          "Comment la lumière se déplace-t-elle depuis sa source ?",
+          "en ligne droite",
+          "en zigzag autour des objets",
+          "en cercle vers sa source",
+          "La lumière se propage toujours en ligne droite, jusqu’à ce qu’un obstacle l’arrête."
+        ],
+        [
+          "Pourquoi ne vois-tu pas un ami caché derrière un coin de mur ?",
+          "la lumière va tout droit et ne contourne pas le coin",
+          "les yeux ne marchent qu’au soleil",
+          "le coin absorbe tous les bruits",
+          "La lumière venant de ton ami va en ligne droite : elle ne peut pas tourner autour du mur pour atteindre tes yeux."
+        ],
+        [
+          "La Lune est-elle une source de lumière ?",
+          "non, elle renvoie la lumière du Soleil",
+          "oui, elle produit sa propre lumière",
+          "seulement à la pleine lune",
+          "La Lune ne produit pas de lumière. Nous la voyons parce que la lumière du Soleil se réfléchit sur elle."
+        ],
+        [
+          "Lequel est une source de lumière ?",
+          "une bougie allumée",
+          "un miroir",
+          "une cuillère brillante",
+          "La flamme d’une bougie produit sa propre lumière. Le miroir et la cuillère ne font que renvoyer la lumière."
+        ],
+        [
+          "Comment vois-tu un livre posé sur une table ?",
+          "la lumière rebondit sur le livre jusqu’à tes yeux",
+          "des rayons sortent de tes yeux vers le livre",
+          "le livre produit sa propre lumière",
+          "La lumière d’une lampe se réfléchit sur le livre puis va en ligne droite jusqu’à tes yeux."
+        ],
+        [
+          "Quelle partie du corps capte la lumière ?",
+          "l’œil",
+          "l’oreille",
+          "la langue",
+          "La lumière entre dans l’œil par la pupille, puis l’œil envoie des messages au cerveau : c’est ainsi qu’on voit."
+        ],
+        [
+          "Que se passe-t-il quand la lumière frappe un miroir plat ?",
+          "elle rebondit (elle est réfléchie)",
+          "elle disparaît dans le verre",
+          "elle se change en son",
+          "Un miroir est très lisse et brillant : il réfléchit presque toute la lumière qu’il reçoit."
+        ],
+        [
+          "Quel est le mot scientifique pour la lumière qui rebondit sur une surface ?",
+          "la réflexion",
+          "la réfraction",
+          "l’évaporation",
+          "La réflexion, c’est la lumière qui rebondit sur une surface. La réfraction, c’est quand elle dévie ; l’évaporation concerne les liquides."
+        ],
+        [
+          "Quelle surface réfléchit le mieux la lumière ?",
+          "un miroir lisse et brillant",
+          "un pull en laine noir",
+          "un morceau d’écorce rugueuse",
+          "Les surfaces lisses et brillantes réfléchissent le plus de lumière. Les surfaces sombres et rugueuses en absorbent beaucoup plus."
+        ],
+        [
+          "À quoi ressemble une écriture vue dans un miroir ?",
+          "inversée de gauche à droite",
+          "la tête en bas",
+          "deux fois plus grande",
+          "Un miroir échange la gauche et la droite de l’image : les lettres semblent écrites dans l’autre sens."
+        ],
+        [
+          "Un périscope permet de voir par-dessus un mur. Qu’y a-t-il dedans ?",
+          "deux miroirs qui renvoient la lumière",
+          "deux aimants qui attirent la lumière",
+          "deux piles qui fabriquent la lumière",
+          "La lumière se réfléchit sur le miroir du haut, descend dans le tube, puis se réfléchit sur celui du bas vers ton œil."
+        ],
+        [
+          "Qu’est-ce que la réfraction ?",
+          "la lumière qui dévie en passant d’une matière à une autre",
+          "la lumière qui rebondit sur un miroir",
+          "la lumière bloquée qui forme une ombre",
+          "Quand la lumière passe de l’air à l’eau ou au verre, elle change de vitesse et dévie : c’est la réfraction."
+        ],
+        [
+          "Pourquoi une paille dans un verre d’eau paraît-elle cassée ?",
+          "la lumière est réfractée en passant de l’eau à l’air",
+          "l’eau plie vraiment la paille",
+          "la paille ramollit et se plie",
+          "La paille reste droite. La lumière qui en vient dévie à la surface de l’eau et trompe tes yeux."
+        ],
+        [
+          "À cause de la réfraction, une piscine paraît…",
+          "moins profonde qu’en réalité",
+          "plus profonde qu’en réalité",
+          "exactement aussi profonde qu’en réalité",
+          "La lumière venant du fond dévie en sortant de l’eau : le fond semble plus proche qu’il ne l’est."
+        ],
+        [
+          "Comment une loupe fait-elle paraître les petites lettres plus grandes ?",
+          "sa lentille bombée réfracte la lumière",
+          "elle produit sa propre lumière",
+          "elle absorbe toute la lumière",
+          "La lentille bombée fait dévier les rayons lumineux : les lettres paraissent plus grandes à ton œil."
+        ],
+        [
+          "Comment se forme une ombre ?",
+          "un objet opaque bloque la lumière",
+          "la lumière se réfléchit de l’objet vers le sol",
+          "l’objet envoie de l’obscurité",
+          "La lumière va en ligne droite : derrière un objet opaque, il reste une zone qu’elle n’atteint pas, l’ombre."
+        ],
+        [
+          "Quelle matière est opaque ?",
+          "le bois",
+          "le verre transparent",
+          "l’eau propre",
+          "Une matière opaque ne laisse passer aucune lumière. Le verre transparent et l’eau propre la laissent passer."
+        ],
+        [
+          "Le papier calque laisse passer un peu de lumière, mais on ne voit pas nettement à travers. Il est…",
+          "translucide",
+          "transparent",
+          "opaque",
+          "Une matière translucide laisse passer une partie de la lumière en la diffusant : ce qui est derrière paraît flou."
+        ],
+        [
+          "Quelle matière est transparente ?",
+          "une vitre claire",
+          "une boîte en carton",
+          "un mur de briques",
+          "Une matière transparente laisse passer presque toute la lumière : on voit nettement à travers une vitre."
+        ],
+        [
+          "Avec tes mains, tu fais un lapin devant une lampe de poche. Quelle forme a l’ombre ?",
+          "une forme de lapin, comme le contour de tes mains",
+          "toujours un cercle parfait",
+          "la forme de la lampe",
+          "L’ombre garde le contour de l’objet qui bloque la lumière, mais sans couleurs ni détails."
+        ],
+        [
+          "Tu rapproches un objet de la lampe de poche. Que devient son ombre ?",
+          "elle grandit",
+          "elle rapetisse",
+          "elle disparaît",
+          "Près de la lampe, l’objet bloque un plus large faisceau de rayons : l’ombre devient plus grande."
+        ],
+        [
+          "Pourquoi les ombres sont-elles longues tôt le matin et le soir ?",
+          "le Soleil est bas dans le ciel",
+          "le Soleil est juste au-dessus de nous",
+          "le Soleil est plus près de la Terre",
+          "Quand le Soleil est bas, sa lumière arrive en biais sur les objets : leurs ombres s’allongent."
+        ],
+        [
+          "À quel moment de la journée les ombres sont-elles les plus courtes ?",
+          "vers midi",
+          "au lever du soleil",
+          "juste avant le coucher du soleil",
+          "Vers midi, le Soleil est au plus haut : la lumière vient d’en haut et les ombres sont courtes."
+        ],
+        [
+          "De quoi est vraiment faite la lumière blanche du Soleil ?",
+          "d’un mélange de nombreuses couleurs",
+          "uniquement de lumière jaune",
+          "d’aucune couleur",
+          "La lumière blanche mélange toutes les couleurs du spectre. Un prisme ou des gouttes de pluie peuvent les séparer."
+        ],
+        [
+          "Quel objet peut décomposer la lumière blanche en un spectre de couleurs ?",
+          "un prisme en verre",
+          "un aimant",
+          "une éponge",
+          "Le prisme réfracte chaque couleur un peu différemment et étale la lumière blanche en une bande de couleurs."
+        ],
+        [
+          "Comment se forme un arc-en-ciel ?",
+          "les gouttes de pluie réfractent la lumière du Soleil et séparent ses couleurs",
+          "le vent colore les nuages",
+          "la Lune envoie une lumière colorée",
+          "Chaque goutte de pluie agit comme un minuscule prisme : elle dévie la lumière du Soleil et sépare ses couleurs."
+        ],
+        [
+          "Les couleurs du spectre commencent par rouge, orange, jaune… Quelle couleur vient ensuite ?",
+          "vert",
+          "violet",
+          "rose",
+          "L’ordre est rouge, orange, jaune, vert, bleu, indigo, violet. Le rose ne fait pas partie du spectre."
+        ],
+        [
+          "Tu veux voir un arc-en-ciel pendant qu’il pleut. Où doit être le Soleil ?",
+          "derrière toi",
+          "devant toi",
+          "juste au-dessus de ta tête",
+          "La lumière du Soleil doit venir de derrière toi et frapper les gouttes devant toi, qui renvoient les couleurs vers tes yeux."
+        ],
+        [
+          "Pourquoi une pomme rouge paraît-elle rouge ?",
+          "elle renvoie la lumière rouge et absorbe les autres couleurs",
+          "elle produit sa propre lumière rouge",
+          "elle absorbe seulement la lumière rouge",
+          "Un objet a la couleur de la lumière qu’il renvoie. La pomme rouge renvoie le rouge et absorbe le reste."
+        ],
+        [
+          "Pourquoi ne faut-il jamais regarder le Soleil en face, même avec des lunettes de soleil ?",
+          "sa lumière est assez forte pour abîmer les yeux",
+          "cela change la couleur des yeux",
+          "cela fait éternuer toute la journée",
+          "La lumière du Soleil est si intense qu’elle peut abîmer le fond de l’œil pour toujours. Ne le regarde jamais directement."
+        ]
+      ],
+      "yo": [
+        [
+          "Báwo ni ìmọ́lẹ̀ ṣe ń rìn láti orísun rẹ̀?",
+          "ní ìlà tààrà",
+          "ní ọ̀nà wíwọ́ yí àwọn nǹkan ká",
+          "ní òbìrìkìtì padà sí orísun rẹ̀",
+          "Ìmọ́lẹ̀ máa ń rìn ní ìlà tààrà títí nǹkan kan yóò fi dí i lọ́nà."
+        ],
+        [
+          "Kí ló dé tí o kò fi lè rí ọ̀rẹ́ tó farapamọ́ sí ẹ̀yìn igun ògiri?",
+          "ìmọ́lẹ̀ ń rìn tààrà, kò lè yí igun ká",
+          "ojú máa ń ṣiṣẹ́ nínú oòrùn nìkan",
+          "igun náà ń gba gbogbo ohùn mọ́ra",
+          "Ìmọ́lẹ̀ láti ara ọ̀rẹ́ rẹ ń rìn ní ìlà tààrà, kò lè yí ògiri ká wá sí ojú rẹ."
+        ],
+        [
+          "Ṣé òṣùpá jẹ́ orísun ìmọ́lẹ̀?",
+          "rárá, ìmọ́lẹ̀ oòrùn ló ń tàn padà",
+          "bẹ́ẹ̀ni, ó ń ṣe ìmọ́lẹ̀ tirẹ̀",
+          "nígbà tí òṣùpá bá kún nìkan",
+          "Òṣùpá kò ní ìmọ́lẹ̀ tirẹ̀. A ń rí i nítorí pé ìmọ́lẹ̀ oòrùn ń bọ́ sí ara rẹ̀, ó sì ń tàn padà."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni orísun ìmọ́lẹ̀?",
+          "àbẹ́là tó ń jó",
+          "dígí",
+          "ṣíbí tó ń dán",
+          "Iná àbẹ́là ń ṣe ìmọ́lẹ̀ tirẹ̀. Dígí àti ṣíbí kàn ń tan ìmọ́lẹ̀ tó bà lé wọn padà ni."
+        ],
+        [
+          "Báwo lo ṣe ń rí ìwé tó wà lórí tábìlì?",
+          "ìmọ́lẹ̀ ń bọ́ lára ìwé náà wọ ojú rẹ",
+          "ìmọ́lẹ̀ ń jáde láti ojú rẹ lọ bá ìwé náà",
+          "ìwé náà ń ṣe ìmọ́lẹ̀ tirẹ̀",
+          "Ìmọ́lẹ̀ láti fìtílà ń bọ́ lára ìwé náà, ó sì ń rìn tààrà wọ ojú rẹ."
+        ],
+        [
+          "Ẹ̀yà ara wo ló ń gba ìmọ́lẹ̀?",
+          "ojú",
+          "etí",
+          "ahọ́n",
+          "Ìmọ́lẹ̀ ń wọ ojú láti inú ọmọlójú, ojú sì ń fi ìròyìn ránṣẹ́ sí ọpọlọ, bẹ́ẹ̀ la ṣe ń ríran."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ tí ìmọ́lẹ̀ bá kọlu dígí pẹlẹbẹ?",
+          "ó ń fò padà (ìtànpadà)",
+          "ó ń pòórá sínú gíláàsì",
+          "ó ń di ohùn",
+          "Dígí jọ̀lọ̀ gan-an, ó sì ń dán, nítorí náà ó ń tan fẹ́rẹ̀ẹ́ gbogbo ìmọ́lẹ̀ tó kọlù ú padà."
+        ],
+        [
+          "Kí ni orúkọ sáyẹ́ǹsì fún ìmọ́lẹ̀ tó ń fò padà láti ara nǹkan?",
+          "ìtànpadà (reflection)",
+          "ìtẹ̀ ìmọ́lẹ̀ (refraction)",
+          "gbígbẹ omi (evaporation)",
+          "Ìtànpadà ni kí ìmọ́lẹ̀ fò padà láti ara nǹkan. Ìtẹ̀ ìmọ́lẹ̀ ni kí ó tẹ̀; gbígbẹ omi jẹ mọ́ omi tó ń di afẹ́fẹ́."
+        ],
+        [
+          "Ojú nǹkan wo ló ń tan ìmọ́lẹ̀ padà jù?",
+          "dígí tó jọ̀lọ̀ tó sì ń dán",
+          "ṣẹ́ẹ̀tì olówùú dúdú",
+          "èèpo igi tó ní kókó",
+          "Ohun tó jọ̀lọ̀ tó sì ń dán ló ń tan ìmọ́lẹ̀ padà jù. Ohun dúdú tó ní kókó ń gba ìmọ́lẹ̀ mọ́ra jù."
+        ],
+        [
+          "Báwo ni ìkọ̀wé ṣe máa ń rí nínú dígí?",
+          "ọ̀tún di òsì, òsì di ọ̀tún",
+          "orí rẹ̀ yí sísàlẹ̀",
+          "ó tóbi ní ìlọ́po méjì",
+          "Dígí ń yí àwòrán padà láti ọ̀tún sí òsì, nítorí náà àwọn lẹ́tà máa ń rí bí ẹni pé a kọ wọ́n sẹ́yìn."
+        ],
+        [
+          "Pẹ̀rísíkóòpù (periscope) ń jẹ́ kí o rí òdìkejì ògiri. Kí ló wà nínú rẹ̀?",
+          "dígí méjì tó ń tan ìmọ́lẹ̀ padà",
+          "òòfà méjì tó ń fa ìmọ́lẹ̀",
+          "bátírì méjì tó ń ṣe ìmọ́lẹ̀",
+          "Ìmọ́lẹ̀ ń bọ́ lára dígí òkè, ó ń sọ̀kalẹ̀ nínú ọ̀pá náà, ó sì ń bọ́ lára dígí ìsàlẹ̀ wọ ojú rẹ."
+        ],
+        [
+          "Kí ni ìtẹ̀ ìmọ́lẹ̀ (refraction)?",
+          "ìmọ́lẹ̀ tó ń tẹ̀ bí ó ṣe ń kọjá láti inú nǹkan kan sí òmíràn",
+          "ìmọ́lẹ̀ tó ń fò padà láti ara dígí",
+          "ìmọ́lẹ̀ tí wọ́n dí láti ṣe òjìji",
+          "Tí ìmọ́lẹ̀ bá ń kọjá láàárín afẹ́fẹ́, omi àti gíláàsì, ìyára rẹ̀ ń yí padà, ó sì ń tẹ̀. Èyí ni ìtẹ̀ ìmọ́lẹ̀."
+        ],
+        [
+          "Kí ló dé tí ọ̀pá ìfàmumi nínú ife omi fi dà bí ẹni pé ó tẹ̀?",
+          "ìmọ́lẹ̀ ń tẹ̀ bí ó ṣe ń kọjá láti inú omi sí afẹ́fẹ́",
+          "omi náà tẹ ọ̀pá náà gan-an",
+          "ọ̀pá náà rọ̀, ó sì ká",
+          "Ọ̀pá náà ṣì wà tààrà. Ìmọ́lẹ̀ láti ara rẹ̀ ń tẹ̀ ní ojú omi, èyí ló ń tan ojú wa jẹ."
+        ],
+        [
+          "Nítorí ìtẹ̀ ìmọ́lẹ̀, odò ìlúwẹ̀ẹ́ máa ń dà bí ẹni pé…",
+          "kò jìn tó bó ṣe jìn gan-an",
+          "ó jìn ju bó ṣe jìn gan-an lọ",
+          "ó jìn bákan náà gẹ́lẹ́ bó ṣe jìn",
+          "Ìmọ́lẹ̀ láti ìsàlẹ̀ odò ń tẹ̀ bí ó ṣe ń jáde kúrò nínú omi, nítorí náà ìsàlẹ̀ rẹ̀ dà bí ẹni pé ó súnmọ́ ju bó ṣe súnmọ́ lọ."
+        ],
+        [
+          "Báwo ni gíláàsì afinǹkantóbi (magnifying glass) ṣe ń mú kí ìkọ̀wé kékeré dà bí ńlá?",
+          "lẹ́ńsì rẹ̀ tó wọ́ ń tẹ ìmọ́lẹ̀",
+          "ó ń ṣe ìmọ́lẹ̀ tirẹ̀",
+          "ó ń gba gbogbo ìmọ́lẹ̀ mọ́ra",
+          "Lẹ́ńsì gíláàsì tó wọ́ ń tẹ ìtànṣán ìmọ́lẹ̀, nítorí náà ìkọ̀wé náà ń hàn bí ẹni pé ó tóbi sí i lójú rẹ."
+        ],
+        [
+          "Báwo ni òjìji ṣe ń wáyé?",
+          "nǹkan tí ìmọ́lẹ̀ kò lè kọjá ń dí ìmọ́lẹ̀",
+          "ìmọ́lẹ̀ ń bọ́ láti ara nǹkan náà sí ilẹ̀",
+          "nǹkan náà ń tú òkùnkùn jáde",
+          "Ìmọ́lẹ̀ ń rìn tààrà, nítorí náà ibì kan wà lẹ́yìn nǹkan náà tí ìmọ́lẹ̀ kò lè dé: òjìji nìyẹn."
+        ],
+        [
+          "Èwo ni ìmọ́lẹ̀ kò lè kọjá nínú rẹ̀ rárá (opaque)?",
+          "igi",
+          "gíláàsì tó mọ́ kedere",
+          "omi tó mọ́",
+          "Ìmọ́lẹ̀ kò lè kọjá nínú ohun opaque rárá. Gíláàsì tó mọ́ àti omi tó mọ́ ń jẹ́ kí ìmọ́lẹ̀ kọjá."
+        ],
+        [
+          "Pépà ìdàkọ (tracing paper) ń jẹ́ kí ìmọ́lẹ̀ díẹ̀ kọjá, ṣùgbọ́n o kò lè ríran kedere láti inú rẹ̀. Ó jẹ́…",
+          "translucent",
+          "transparent",
+          "opaque",
+          "Ohun translucent ń jẹ́ kí ìmọ́lẹ̀ díẹ̀ kọjá, ṣùgbọ́n ó ń fọ́n ọn ká, nítorí náà ohun tó wà lẹ́yìn rẹ̀ kò ní hàn kedere."
+        ],
+        [
+          "Èwo ni ìmọ́lẹ̀ ń kọjá nínú rẹ̀ kedere (transparent)?",
+          "fèrèsé gíláàsì tó mọ́",
+          "àpótí páálí",
+          "ògiri bíríkì",
+          "Ohun transparent ń jẹ́ kí fẹ́rẹ̀ẹ́ gbogbo ìmọ́lẹ̀ kọjá, nítorí náà o lè rí òde kedere láti inú fèrèsé gíláàsì."
+        ],
+        [
+          "O fi ọwọ́ rẹ ṣe àwòrán ehoro níwájú tọ́ọ̀ṣì. Báwo ni òjìji rẹ̀ ṣe máa rí?",
+          "bí ehoro, gẹ́gẹ́ bí ìlà ẹ̀gbẹ́ ọwọ́ rẹ",
+          "òbìrìkìtì pípé nígbà gbogbo",
+          "bí tọ́ọ̀ṣì náà",
+          "Òjìji máa ń ní ìrísí ẹ̀gbẹ́ nǹkan tó dí ìmọ́lẹ̀, ṣùgbọ́n kò ní àwọ̀ tàbí àlàyé kankan."
+        ],
+        [
+          "O sún nǹkan kan mọ́ tọ́ọ̀ṣì. Kí ló ṣẹlẹ̀ sí òjìji rẹ̀?",
+          "ó tóbi sí i",
+          "ó kéré sí i",
+          "ó pòórá",
+          "Tí nǹkan bá súnmọ́ ìmọ́lẹ̀, ó ń dí ìtànṣán púpọ̀ sí i, nítorí náà òjìji rẹ̀ ń tóbi sí i."
+        ],
+        [
+          "Kí ló dé tí òjìji fi máa ń gùn ní àárọ̀ kùtùkùtù àti ní ìrọ̀lẹ́?",
+          "oòrùn wà nísàlẹ̀ lójú ọ̀run",
+          "oòrùn wà lókè orí wa tààrà",
+          "oòrùn súnmọ́ ayé jù",
+          "Tí oòrùn bá wà nísàlẹ̀, ìmọ́lẹ̀ rẹ̀ ń bà lé nǹkan ní ìdàgẹ̀rẹ̀, nítorí náà òjìji wọn ń gùn."
+        ],
+        [
+          "Ìgbà wo lójúmọ́ ni òjìji máa ń kúrú jù?",
+          "ní nǹkan bí ọ̀sán gangan",
+          "nígbà tí oòrùn bá ń yọ",
+          "kí oòrùn tó wọ̀",
+          "Ní ọ̀sán gangan, oòrùn wà ní ibi tó ga jù, ìmọ́lẹ̀ ń wá láti òkè, nítorí náà òjìji kúrú."
+        ],
+        [
+          "Kí ni ìmọ́lẹ̀ funfun oòrùn jẹ́ gan-an?",
+          "àdàlù ọ̀pọ̀lọpọ̀ àwọ̀",
+          "ìmọ́lẹ̀ àwọ̀ ìyeyè nìkan",
+          "kò ní àwọ̀ kankan rárá",
+          "Ìmọ́lẹ̀ funfun jẹ́ àdàlù gbogbo àwọ̀ tó wà nínú òṣùmàrè. Písímù tàbí ẹ̀kán òjò lè yà wọ́n sọ́tọ̀."
+        ],
+        [
+          "Nǹkan wo ló lè pín ìmọ́lẹ̀ funfun sí oríṣiríṣi àwọ̀?",
+          "písímù gíláàsì",
+          "òòfà",
+          "kànìnkànìn",
+          "Písímù ń tẹ àwọ̀ kọ̀ọ̀kan ní ìwọ̀n tó yàtọ̀ díẹ̀, ó sì ń tú ìmọ́lẹ̀ funfun ká sí ọ̀wọ́ àwọ̀."
+        ],
+        [
+          "Báwo ni òṣùmàrè ṣe ń wáyé?",
+          "ẹ̀kán òjò ń tẹ ìmọ́lẹ̀ oòrùn, wọ́n sì ń pín in sí àwọ̀",
+          "afẹ́fẹ́ ń kun àwọsánmà ní àwọ̀",
+          "òṣùpá ń tan ìmọ́lẹ̀ aláwọ̀",
+          "Ẹ̀kán òjò kọ̀ọ̀kan dà bí písímù kékeré, ó ń tẹ ìmọ́lẹ̀ oòrùn, ó sì ń yà á sí àwọn àwọ̀ òṣùmàrè."
+        ],
+        [
+          "Àwọn àwọ̀ òṣùmàrè bẹ̀rẹ̀ pẹ̀lú pupa, àwọ̀ ọsàn, ìyeyè… Àwọ̀ wo ló kàn?",
+          "àwọ̀ ewé",
+          "àlùkò",
+          "píǹkì",
+          "Bí wọ́n ṣe tò ni pupa, àwọ̀ ọsàn, ìyeyè, àwọ̀ ewé, búlúù, aró, àlùkò. Píǹkì kò sí lára àwọ̀ òṣùmàrè."
+        ],
+        [
+          "O fẹ́ rí òṣùmàrè nígbà tí òjò ń rọ̀. Ibo ni oòrùn gbọ́dọ̀ wà?",
+          "lẹ́yìn rẹ",
+          "níwájú rẹ",
+          "lókè orí rẹ tààrà",
+          "Ìmọ́lẹ̀ oòrùn gbọ́dọ̀ tàn láti ẹ̀yìn rẹ sí ẹ̀kán òjò tó wà níwájú rẹ, àwọn ni yóò dá àwọ̀ padà sí ojú rẹ."
+        ],
+        [
+          "Kí ló dé tí èso ápù pupa fi ń hàn ní pupa?",
+          "ó ń tan ìmọ́lẹ̀ pupa padà, ó sì ń gba àwọn àwọ̀ yòókù mọ́ra",
+          "ó ń ṣe ìmọ́lẹ̀ pupa tirẹ̀",
+          "ìmọ́lẹ̀ pupa nìkan ló ń gbà mọ́ra",
+          "Àwọ̀ nǹkan wá láti ìmọ́lẹ̀ tó ń tàn padà. Ápù pupa ń tan pupa padà, ó sì ń gba ìyókù mọ́ra."
+        ],
+        [
+          "Kí ló dé tí o kò gbọ́dọ̀ wo oòrùn tààrà, kódà pẹ̀lú gíláàsì oòrùn?",
+          "ìmọ́lẹ̀ rẹ̀ lágbára tó láti ba ojú jẹ́",
+          "ó máa ń yí àwọ̀ ojú padà",
+          "ó máa ń jẹ́ kí o máa sín fún odidi ọjọ́ kan",
+          "Ìmọ́lẹ̀ oòrùn lágbára gan-an débi pé ó lè ba inú ojú jẹ́ títí láé. Má ṣe wò ó tààrà rárá."
+        ]
+      ]
+    }
+  },
+  "emoji": "light",
+  "example": {
+    "i": 0,
+    "q_en": "How does light travel from a source?",
+    "answer_en": "in straight lines",
+    "why_en": "Light always travels in straight lines until something gets in its way.",
+    "q_de": "Wie breitet sich Licht von einer Lichtquelle aus?",
+    "answer_de": "in geraden Linien",
+    "why_de": "Licht breitet sich immer geradlinig aus, bis etwas im Weg ist.",
+    "q_fr": "Comment la lumière se déplace-t-elle depuis sa source ?",
+    "answer_fr": "en ligne droite",
+    "why_fr": "La lumière se propage toujours en ligne droite, jusqu’à ce qu’un obstacle l’arrête.",
+    "q_yo": "Báwo ni ìmọ́lẹ̀ ṣe ń rìn láti orísun rẹ̀?",
+    "answer_yo": "ní ìlà tààrà",
+    "why_yo": "Ìmọ́lẹ̀ máa ń rìn ní ìlà tààrà títí nǹkan kan yóò fi dí i lọ́nà."
+  },
+  "text": {
+    "en": {
+      "title": "Light and seeing",
+      "teach": "Light travels in straight lines. We see objects when light reflects off them into our eyes. Light bends (refracts) when it passes into water or glass, and white light is a mix of colours.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Licht und Sehen",
+      "teach": "Licht breitet sich geradlinig aus. Wir sehen Dinge, wenn Licht von ihnen in unsere Augen zurückgeworfen wird. Beim Übergang in Wasser oder Glas wird Licht gebrochen, und weißes Licht ist eine Mischung aus Farben.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "La lumière et la vision",
+      "teach": "La lumière se propage en ligne droite. Nous voyons un objet quand la lumière qu’il renvoie entre dans nos yeux. En passant dans l’eau ou le verre, elle dévie (réfraction), et la lumière blanche est un mélange de couleurs.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ìmọ́lẹ̀ àti ìríran",
+      "teach": "Ìmọ́lẹ̀ ń rìn ní ìlà tààrà. A ń rí nǹkan nígbà tí ìmọ́lẹ̀ bá bọ́ lára rẹ̀ wọ ojú wa. Ìmọ́lẹ̀ ń tẹ̀ (refraction) tí ó bá wọ inú omi tàbí gíláàsì, ìmọ́lẹ̀ funfun sì jẹ́ àdàlù àwọ̀.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

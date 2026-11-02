@@ -1,5 +1,7 @@
 import { RotateCcw } from 'lucide-react'
 import { useState } from 'react'
+import { activeChild } from '@/app/state'
+import { useStore } from '@/app/store'
 import { useT } from '@/i18n'
 import { Emoji } from '@/shared/Emoji'
 import { isSolved, mixedBoard, slide } from './sliding'
@@ -8,8 +10,11 @@ import './Sliding.css'
 /** Number slide: tap a number next to the gap to slide it, until the numbers are in order. 3 × 3 or 4 × 4. */
 export function SlidingPuzzle() {
   const t = useT()
-  const [n, setN] = useState(3)
-  const [board, setBoard] = useState(() => mixedBoard(3))
+  const { state } = useStore()
+  // 3 × 3 up to age 7, 4 × 4 from age 8.
+  const first = (activeChild(state)?.age ?? 0) >= 8 ? 4 : 3
+  const [n, setN] = useState(first)
+  const [board, setBoard] = useState(() => mixedBoard(first))
   const [moves, setMoves] = useState(0)
   const done = isSolved(board)
   const start = (size: number) => {

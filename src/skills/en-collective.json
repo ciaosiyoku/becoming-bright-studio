@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "words",
   "stage": 4,
+  "ages": [
+    "8-9"
+  ],
   "order": 26,
   "only": "en",
   "params": {
@@ -16,7 +19,27 @@
       "animal-elephant",
       "bone",
       "animal-penguin",
-      "fruit-grapes"
+      "fruit-grapes",
+      "scarf",
+      "gift",
+      "paws",
+      "animal-spouting-whale",
+      "animal-dolphin",
+      "animal-zebra",
+      "seedling",
+      "key",
+      "house",
+      "wave",
+      "animal-swan",
+      "animal-kangaroo",
+      "fruit-banana",
+      "trophy",
+      "music",
+      "star",
+      "animal-owl",
+      "mountain",
+      "tree",
+      "notes"
     ],
     "bank": {
       "en": [
@@ -89,6 +112,146 @@
           "herd",
           "flock",
           "Grapes growing together are a bunch."
+        ],
+        [
+          "a ___ of sheep",
+          "flock",
+          "pride",
+          "swarm",
+          "A group of sheep is a flock."
+        ],
+        [
+          "a ___ of flowers",
+          "bunch",
+          "herd",
+          "pride",
+          "Flowers picked and held together are a bunch."
+        ],
+        [
+          "a ___ of kittens",
+          "litter",
+          "herd",
+          "swarm",
+          "Kittens born together are a litter."
+        ],
+        [
+          "a ___ of whales",
+          "pod",
+          "pride",
+          "swarm",
+          "A group of whales is a pod."
+        ],
+        [
+          "a ___ of dolphins",
+          "pod",
+          "flock",
+          "pride",
+          "A group of dolphins is a pod."
+        ],
+        [
+          "a ___ of zebras",
+          "herd",
+          "swarm",
+          "pride",
+          "A group of zebras is a herd."
+        ],
+        [
+          "a ___ of ants",
+          "colony",
+          "pride",
+          "herd",
+          "Ants living together are a colony."
+        ],
+        [
+          "a ___ of keys",
+          "bunch",
+          "flock",
+          "pride",
+          "Keys kept together on a ring are a bunch."
+        ],
+        [
+          "a ___ of stairs",
+          "flight",
+          "herd",
+          "swarm",
+          "A set of stairs going up is a flight."
+        ],
+        [
+          "a ___ of ships",
+          "fleet",
+          "herd",
+          "litter",
+          "A group of ships is a fleet."
+        ],
+        [
+          "a ___ of geese",
+          "gaggle",
+          "pride",
+          "pack",
+          "A group of geese is a gaggle."
+        ],
+        [
+          "a ___ of kangaroos",
+          "mob",
+          "pride",
+          "swarm",
+          "A group of kangaroos is a mob."
+        ],
+        [
+          "a ___ of bananas",
+          "bunch",
+          "herd",
+          "flock",
+          "Bananas growing together are a bunch."
+        ],
+        [
+          "a ___ of football players",
+          "team",
+          "herd",
+          "litter",
+          "Players who play together are a team."
+        ],
+        [
+          "a ___ of singers",
+          "choir",
+          "herd",
+          "swarm",
+          "A group of singers is a choir."
+        ],
+        [
+          "a ___ of stars",
+          "galaxy",
+          "herd",
+          "litter",
+          "A huge group of stars in space is a galaxy."
+        ],
+        [
+          "a ___ of owls",
+          "parliament",
+          "herd",
+          "litter",
+          "A group of owls is called a parliament."
+        ],
+        [
+          "a ___ of mountains",
+          "range",
+          "herd",
+          "swarm",
+          "A line of mountains is a range."
+        ],
+        [
+          "a ___ of trees",
+          "forest",
+          "herd",
+          "swarm",
+          "Lots of trees growing together are a forest."
+        ],
+        [
+          "a ___ of musicians",
+          "band",
+          "herd",
+          "litter",
+          "Musicians who play together are a band."
         ]
       ]
     }

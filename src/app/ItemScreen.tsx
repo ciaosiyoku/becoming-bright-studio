@@ -5,6 +5,10 @@ import { CodeBreaker } from '@/games/codebreaker/CodeBreaker'
 import { MemoryGame } from '@/games/Memory'
 import { PuzzleGame } from '@/games/puzzle/PuzzleGame'
 import { SlidingPuzzle } from '@/games/sliding/SlidingPuzzle'
+import { HanoiGame } from '@/games/hanoi/HanoiGame'
+import { LogicGame } from '@/games/logic/LogicGame'
+import { SequenceGame } from '@/games/sequence/SequenceGame'
+import { SudokuGame } from '@/games/sudoku/SudokuGame'
 import { Facts } from '@/explore/FactsScreen'
 import { Places } from '@/explore/PlacesScreen'
 import { Whys } from '@/explore/WhysScreen'
@@ -66,6 +70,14 @@ function Content({ id }: { id: ItemId }): ReactNode {
       return <PuzzleGame />
     case 'sliding':
       return <SlidingPuzzle />
+    case 'sudoku':
+      return <SudokuGame />
+    case 'hanoi':
+      return <HanoiGame />
+    case 'sequence':
+      return <SequenceGame />
+    case 'logic':
+      return <LogicGame />
     case 'radio':
       return <Radio />
     case 'stories':

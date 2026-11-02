@@ -1,0 +1,936 @@
+{
+  "id": "sci4-senses",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 102,
+  "params": {
+    "emojis": [
+      "radio",
+      "fruit-strawberry",
+      "palette",
+      "cookie",
+      "animal-hedgehog",
+      "cocoa",
+      "storm",
+      "animal-mouse",
+      "fruit-peach",
+      "fruit-watermelon",
+      "telephone",
+      "speech",
+      "droplet",
+      "openbook",
+      "fire",
+      "animal-fox",
+      "tree",
+      "fruit-banana",
+      "animal-snail",
+      "animal-parrot",
+      "tangerine",
+      "animal-rabbit",
+      "animal-owl",
+      "paws",
+      "animal-elephant",
+      "girl",
+      "sun",
+      "animal-honeybee",
+      "chick",
+      "thermometer"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which part of you hears music?",
+          "your ears",
+          "your nose",
+          "your toes",
+          "Sounds go into your ears, and that is how you hear music."
+        ],
+        [
+          "You sniff a strawberry. Which part are you using?",
+          "your nose",
+          "your elbow",
+          "your knee",
+          "You sniff with your nose to smell things."
+        ],
+        [
+          "You look at bright paints. What helps you see the colours?",
+          "your eyes",
+          "your ears",
+          "your tongue",
+          "Your eyes see shapes and colours."
+        ],
+        [
+          "What does your tongue help you do?",
+          "taste your food",
+          "hear music",
+          "see colours",
+          "Your tongue tells you if food is sweet, salty or sour."
+        ],
+        [
+          "How does a hedgehog’s back feel?",
+          "prickly",
+          "fluffy",
+          "runny",
+          "A hedgehog’s back is covered in sharp spines, so it feels prickly."
+        ],
+        [
+          "Which of these feels hot?",
+          "a cup of hot cocoa",
+          "an ice cube",
+          "a snowball",
+          "Hot cocoa feels hot. Ice and snow feel cold."
+        ],
+        [
+          "Which of these is very loud?",
+          "thunder",
+          "a feather",
+          "a snail",
+          "Thunder makes a big loud bang. Feathers and snails make no sound you can hear."
+        ],
+        [
+          "Which of these makes a quiet sound?",
+          "a mouse squeaking",
+          "a fire engine",
+          "a big drum",
+          "A mouse’s squeak is tiny and quiet. A fire engine and a big drum are loud."
+        ],
+        [
+          "Which of these smells sweet and nice?",
+          "a ripe peach",
+          "a dirty sock",
+          "a smelly bin",
+          "A ripe peach smells sweet. Dirty socks and bins smell bad."
+        ],
+        [
+          "How does a ripe watermelon taste?",
+          "sweet",
+          "salty",
+          "spicy",
+          "Ripe watermelon is juicy and sweet."
+        ],
+        [
+          "Close your eyes. Can you still hear the phone ring?",
+          "yes, with my ears",
+          "no, not at all",
+          "only if I smell it",
+          "Your ears still work when your eyes are shut."
+        ],
+        [
+          "You put your fingers in your ears. What gets quieter?",
+          "sounds",
+          "colours",
+          "smells",
+          "Fingers block your ears, so sounds get quieter."
+        ],
+        [
+          "Which part of you feels if bath water is warm?",
+          "your skin",
+          "your hair",
+          "your ears",
+          "Your skin feels hot and cold. Hair cannot feel anything."
+        ],
+        [
+          "Some people wear glasses to read. What do glasses help with?",
+          "seeing",
+          "hearing",
+          "smelling",
+          "Glasses help eyes see clearly."
+        ],
+        [
+          "The toast is burning! What tells you before you see it?",
+          "your nose",
+          "your elbow",
+          "your knees",
+          "Your nose can smell burning toast from another room."
+        ],
+        [
+          "A fox barks at night. What do you hear it with?",
+          "your ears",
+          "your eyes",
+          "your tongue",
+          "You hear sounds with your ears, even in the dark."
+        ],
+        [
+          "You touch the rough bark of a tree. Which sense are you using?",
+          "touch",
+          "smell",
+          "taste",
+          "You feel rough and smooth things with your sense of touch."
+        ],
+        [
+          "Which sense tells you that a banana is yellow?",
+          "seeing",
+          "hearing",
+          "smelling",
+          "You see colours with your eyes."
+        ],
+        [
+          "How does a snail’s shell feel when you touch it?",
+          "hard",
+          "fluffy",
+          "runny",
+          "A snail’s shell is hard. It keeps the snail safe."
+        ],
+        [
+          "Which of these can you hear?",
+          "a parrot squawking",
+          "a rainbow",
+          "a shadow",
+          "A parrot makes loud sounds. Rainbows and shadows make no sound."
+        ],
+        [
+          "Which of these can you smell?",
+          "a juicy orange",
+          "a song",
+          "a shadow",
+          "Fruit like oranges has a smell. Songs and shadows do not."
+        ],
+        [
+          "A rabbit has long ears. What are they for?",
+          "hearing",
+          "eating",
+          "walking",
+          "Big ears help a rabbit hear sounds from far away."
+        ],
+        [
+          "An owl has big eyes. What do they help it do?",
+          "see in the dark",
+          "smell food",
+          "taste worms",
+          "An owl’s big eyes let in lots of light, so it can see at night."
+        ],
+        [
+          "Dogs sniff to find things. What do they use?",
+          "their nose",
+          "their tail",
+          "their paws",
+          "A dog’s nose is very good at smelling."
+        ],
+        [
+          "What does an elephant smell with?",
+          "its trunk",
+          "its ears",
+          "its tail",
+          "An elephant’s trunk is its long nose. It smells with it."
+        ],
+        [
+          "How many ears do you have?",
+          "two",
+          "four",
+          "ten",
+          "You have two ears, one on each side of your head."
+        ],
+        [
+          "Why should you never look straight at the sun?",
+          "it can hurt your eyes",
+          "it makes you taller",
+          "it turns your hair green",
+          "The sun is so bright that it can hurt your eyes."
+        ],
+        [
+          "Which of these feels sticky?",
+          "honey",
+          "a dry leaf",
+          "a pebble",
+          "Honey is thick and sticky. It sticks to your fingers."
+        ],
+        [
+          "Which of these feels soft and fluffy?",
+          "a baby chick",
+          "a stone",
+          "a spoon",
+          "A chick is covered in soft, fluffy down. Stones and spoons are hard."
+        ],
+        [
+          "You have a cold and your nose is blocked. What is harder to do?",
+          "smell things",
+          "walk",
+          "clap",
+          "A blocked nose makes it hard to smell, and food tastes less too."
+        ]
+      ],
+      "de": [
+        [
+          "Womit hörst du Musik?",
+          "mit den Ohren",
+          "mit der Nase",
+          "mit den Zehen",
+          "Töne gehen in deine Ohren. So hörst du Musik."
+        ],
+        [
+          "Du schnupperst an einer Erdbeere. Was benutzt du dabei?",
+          "die Nase",
+          "den Ellbogen",
+          "das Knie",
+          "Zum Schnuppern und Riechen benutzt du die Nase."
+        ],
+        [
+          "Du schaust dir bunte Farben an. Womit siehst du die Farben?",
+          "mit den Augen",
+          "mit den Ohren",
+          "mit der Zunge",
+          "Mit den Augen siehst du Formen und Farben."
+        ],
+        [
+          "Wobei hilft dir deine Zunge?",
+          "beim Schmecken",
+          "beim Musikhören",
+          "beim Farbensehen",
+          "Die Zunge sagt dir, ob etwas süß, salzig oder sauer ist."
+        ],
+        [
+          "Wie fühlt sich der Rücken von einem Igel an?",
+          "stachelig",
+          "flauschig",
+          "flüssig",
+          "Der Rücken vom Igel ist voller spitzer Stacheln. Darum fühlt er sich stachelig an."
+        ],
+        [
+          "Was davon fühlt sich heiß an?",
+          "eine Tasse heißer Kakao",
+          "ein Eiswürfel",
+          "ein Schneeball",
+          "Heißer Kakao fühlt sich heiß an. Eis und Schnee fühlen sich kalt an."
+        ],
+        [
+          "Was davon ist sehr laut?",
+          "Donner",
+          "eine Feder",
+          "eine Schnecke",
+          "Donner macht einen lauten Knall. Federn und Schnecken hört man nicht."
+        ],
+        [
+          "Was davon macht ein leises Geräusch?",
+          "eine piepsende Maus",
+          "ein Feuerwehrauto",
+          "eine große Trommel",
+          "Das Piepsen einer Maus ist ganz leise. Feuerwehrauto und große Trommel sind laut."
+        ],
+        [
+          "Was davon riecht süß und gut?",
+          "ein reifer Pfirsich",
+          "ein schmutziger Socken",
+          "ein stinkender Mülleimer",
+          "Ein reifer Pfirsich riecht süß. Schmutzige Socken und Mülleimer stinken."
+        ],
+        [
+          "Wie schmeckt eine reife Wassermelone?",
+          "süß",
+          "salzig",
+          "scharf",
+          "Eine reife Wassermelone ist saftig und süß."
+        ],
+        [
+          "Mach die Augen zu. Hörst du das Telefon noch klingeln?",
+          "ja, mit den Ohren",
+          "nein, gar nicht",
+          "nur, wenn ich daran rieche",
+          "Die Ohren hören weiter, auch wenn die Augen zu sind."
+        ],
+        [
+          "Du steckst dir die Finger in die Ohren. Was wird leiser?",
+          "Geräusche",
+          "Farben",
+          "Gerüche",
+          "Die Finger verschließen die Ohren. Darum werden Geräusche leiser."
+        ],
+        [
+          "Was spürt, ob das Badewasser warm ist?",
+          "die Haut",
+          "die Haare",
+          "die Ohren",
+          "Die Haut spürt Wärme und Kälte. Haare spüren nichts."
+        ],
+        [
+          "Manche Menschen tragen zum Lesen eine Brille. Wobei hilft eine Brille?",
+          "beim Sehen",
+          "beim Hören",
+          "beim Riechen",
+          "Mit einer Brille sehen die Augen deutlicher."
+        ],
+        [
+          "Der Toast brennt an! Was merkt es, bevor du es siehst?",
+          "die Nase",
+          "der Ellbogen",
+          "die Knie",
+          "Die Nase riecht verbrannten Toast sogar aus einem anderen Zimmer."
+        ],
+        [
+          "Ein Fuchs bellt in der Nacht. Womit hörst du ihn?",
+          "mit den Ohren",
+          "mit den Augen",
+          "mit der Zunge",
+          "Geräusche hörst du mit den Ohren, auch im Dunkeln."
+        ],
+        [
+          "Du fasst die raue Rinde von einem Baum an. Welchen Sinn benutzt du?",
+          "Fühlen",
+          "Riechen",
+          "Schmecken",
+          "Ob etwas rau oder glatt ist, merkst du beim Fühlen."
+        ],
+        [
+          "Welcher Sinn sagt dir, dass eine Banane gelb ist?",
+          "das Sehen",
+          "das Hören",
+          "das Riechen",
+          "Farben siehst du mit den Augen."
+        ],
+        [
+          "Wie fühlt sich das Haus einer Schnecke an?",
+          "hart",
+          "flauschig",
+          "flüssig",
+          "Das Schneckenhaus ist hart. Es schützt die Schnecke."
+        ],
+        [
+          "Was davon kannst du hören?",
+          "einen krächzenden Papagei",
+          "einen Regenbogen",
+          "einen Schatten",
+          "Ein Papagei macht laute Geräusche. Regenbogen und Schatten machen keine."
+        ],
+        [
+          "Was davon kannst du riechen?",
+          "eine saftige Orange",
+          "ein Lied",
+          "einen Schatten",
+          "Obst wie Orangen hat einen Geruch. Lieder und Schatten nicht."
+        ],
+        [
+          "Ein Hase hat lange Ohren. Wofür sind sie da?",
+          "zum Hören",
+          "zum Fressen",
+          "zum Laufen",
+          "Große Ohren helfen dem Hasen, Geräusche von weit weg zu hören."
+        ],
+        [
+          "Eine Eule hat große Augen. Wobei helfen sie ihr?",
+          "im Dunkeln sehen",
+          "Futter riechen",
+          "Würmer schmecken",
+          "Die großen Augen lassen viel Licht herein. So sieht die Eule nachts."
+        ],
+        [
+          "Hunde schnüffeln, um Dinge zu finden. Was benutzen sie dabei?",
+          "die Nase",
+          "den Schwanz",
+          "die Pfoten",
+          "Ein Hund kann mit seiner Nase sehr gut riechen."
+        ],
+        [
+          "Womit riecht ein Elefant?",
+          "mit dem Rüssel",
+          "mit den Ohren",
+          "mit dem Schwanz",
+          "Der Rüssel ist die lange Nase vom Elefanten. Damit riecht er."
+        ],
+        [
+          "Wie viele Ohren hast du?",
+          "zwei",
+          "vier",
+          "zehn",
+          "Du hast zwei Ohren, an jeder Seite vom Kopf eins."
+        ],
+        [
+          "Warum solltest du nie direkt in die Sonne schauen?",
+          "es kann den Augen schaden",
+          "man wird davon größer",
+          "die Haare werden grün",
+          "Die Sonne ist so hell, dass sie den Augen schaden kann."
+        ],
+        [
+          "Was davon fühlt sich klebrig an?",
+          "Honig",
+          "ein trockenes Blatt",
+          "ein Kieselstein",
+          "Honig ist dick und klebrig. Er bleibt an den Fingern kleben."
+        ],
+        [
+          "Was davon fühlt sich weich und flauschig an?",
+          "ein Küken",
+          "ein Stein",
+          "ein Löffel",
+          "Ein Küken hat weiche, flauschige Daunen. Steine und Löffel sind hart."
+        ],
+        [
+          "Du bist erkältet und deine Nase ist zu. Was ist dann schwerer?",
+          "riechen",
+          "laufen",
+          "klatschen",
+          "Mit verstopfter Nase riechst du schlecht, und das Essen schmeckt auch nach weniger."
+        ]
+      ],
+      "fr": [
+        [
+          "Avec quoi est-ce que tu entends la musique ?",
+          "avec mes oreilles",
+          "avec mon nez",
+          "avec mes orteils",
+          "Les sons entrent dans tes oreilles : c’est comme ça que tu entends la musique."
+        ],
+        [
+          "Tu renifles une fraise. Quelle partie de ton corps utilises-tu ?",
+          "mon nez",
+          "mon coude",
+          "mon genou",
+          "Tu renifles avec ton nez pour sentir les odeurs."
+        ],
+        [
+          "Tu regardes de la peinture de toutes les couleurs. Avec quoi vois-tu les couleurs ?",
+          "avec mes yeux",
+          "avec mes oreilles",
+          "avec ma langue",
+          "Tes yeux voient les formes et les couleurs."
+        ],
+        [
+          "À quoi te sert ta langue ?",
+          "à goûter ce que je mange",
+          "à entendre la musique",
+          "à voir les couleurs",
+          "Ta langue te dit si un aliment est sucré, salé ou acide."
+        ],
+        [
+          "Comment est le dos d’un hérisson quand on le touche ?",
+          "piquant",
+          "tout doux",
+          "liquide",
+          "Le dos du hérisson est couvert de piquants pointus, alors il pique."
+        ],
+        [
+          "Qu’est-ce qui est chaud quand on le touche ?",
+          "une tasse de chocolat chaud",
+          "un glaçon",
+          "une boule de neige",
+          "Le chocolat chaud est chaud. La glace et la neige sont froides."
+        ],
+        [
+          "Lequel de ces bruits est très fort ?",
+          "le tonnerre",
+          "une plume",
+          "un escargot",
+          "Le tonnerre fait un grand bruit. On n’entend pas les plumes ni les escargots."
+        ],
+        [
+          "Lequel de ces bruits est doux ?",
+          "une souris qui couine",
+          "un camion de pompiers",
+          "un gros tambour",
+          "Le petit cri de la souris est tout doux. Le camion de pompiers et le gros tambour font beaucoup de bruit."
+        ],
+        [
+          "Qu’est-ce qui sent bon et sucré ?",
+          "une pêche bien mûre",
+          "une chaussette sale",
+          "une poubelle qui pue",
+          "Une pêche mûre sent bon. Les chaussettes sales et les poubelles sentent mauvais."
+        ],
+        [
+          "Quel goût a une pastèque bien mûre ?",
+          "sucré",
+          "salé",
+          "piquant",
+          "Une pastèque mûre est juteuse et sucrée."
+        ],
+        [
+          "Ferme les yeux. Entends-tu encore le téléphone sonner ?",
+          "oui, avec mes oreilles",
+          "non, plus du tout",
+          "seulement si je le sens",
+          "Tes oreilles marchent encore quand tes yeux sont fermés."
+        ],
+        [
+          "Tu mets tes doigts dans tes oreilles. Qu’est-ce qui devient moins fort ?",
+          "les bruits",
+          "les couleurs",
+          "les odeurs",
+          "Tes doigts bouchent tes oreilles, alors les bruits sont moins forts."
+        ],
+        [
+          "Quelle partie de ton corps sent si l’eau du bain est tiède ?",
+          "ma peau",
+          "mes cheveux",
+          "mes oreilles",
+          "Ta peau sent le chaud et le froid. Les cheveux ne sentent rien."
+        ],
+        [
+          "Certaines personnes portent des lunettes pour lire. À quoi servent les lunettes ?",
+          "à mieux voir",
+          "à mieux entendre",
+          "à mieux sentir",
+          "Les lunettes aident les yeux à voir net."
+        ],
+        [
+          "Le pain grillé brûle ! Qu’est-ce qui te prévient avant que tu le voies ?",
+          "mon nez",
+          "mon coude",
+          "mes genoux",
+          "Ton nez sent le pain brûlé même depuis une autre pièce."
+        ],
+        [
+          "Un renard glapit la nuit. Avec quoi l’entends-tu ?",
+          "avec mes oreilles",
+          "avec mes yeux",
+          "avec ma langue",
+          "Tu entends les bruits avec tes oreilles, même dans le noir."
+        ],
+        [
+          "Tu touches l’écorce rugueuse d’un arbre. Quel sens utilises-tu ?",
+          "le toucher",
+          "l’odorat",
+          "le goût",
+          "Tu sens si une chose est rugueuse ou lisse grâce au toucher."
+        ],
+        [
+          "Quel sens te dit qu’une banane est jaune ?",
+          "la vue",
+          "l’ouïe",
+          "l’odorat",
+          "Tu vois les couleurs avec tes yeux."
+        ],
+        [
+          "Comment est la coquille d’un escargot quand tu la touches ?",
+          "dure",
+          "toute douce",
+          "liquide",
+          "La coquille de l’escargot est dure. Elle le protège."
+        ],
+        [
+          "Lequel peux-tu entendre ?",
+          "un perroquet qui crie",
+          "un arc-en-ciel",
+          "une ombre",
+          "Le perroquet fait beaucoup de bruit. L’arc-en-ciel et l’ombre ne font aucun bruit."
+        ],
+        [
+          "Lequel peux-tu sentir avec ton nez ?",
+          "une orange juteuse",
+          "une chanson",
+          "une ombre",
+          "Les fruits comme l’orange ont une odeur. Les chansons et les ombres n’en ont pas."
+        ],
+        [
+          "Le lapin a de longues oreilles. À quoi lui servent-elles ?",
+          "à entendre",
+          "à manger",
+          "à marcher",
+          "De grandes oreilles aident le lapin à entendre les bruits de loin."
+        ],
+        [
+          "La chouette a de grands yeux. À quoi lui servent-ils ?",
+          "à voir dans le noir",
+          "à sentir la nourriture",
+          "à goûter les vers",
+          "Ses grands yeux laissent entrer beaucoup de lumière : la chouette voit la nuit."
+        ],
+        [
+          "Les chiens reniflent pour trouver des choses. Qu’utilisent-ils ?",
+          "leur nez",
+          "leur queue",
+          "leurs pattes",
+          "Le chien a un nez qui sent très bien les odeurs."
+        ],
+        [
+          "Avec quoi l’éléphant sent-il les odeurs ?",
+          "avec sa trompe",
+          "avec ses oreilles",
+          "avec sa queue",
+          "La trompe est le long nez de l’éléphant. Il sent avec elle."
+        ],
+        [
+          "Combien d’oreilles as-tu ?",
+          "deux",
+          "quatre",
+          "dix",
+          "Tu as deux oreilles, une de chaque côté de la tête."
+        ],
+        [
+          "Pourquoi ne faut-il jamais regarder le soleil en face ?",
+          "ça peut abîmer mes yeux",
+          "ça fait grandir",
+          "ça rend les cheveux verts",
+          "Le soleil est si fort qu’il peut abîmer tes yeux."
+        ],
+        [
+          "Qu’est-ce qui colle aux doigts ?",
+          "du miel",
+          "une feuille sèche",
+          "un caillou",
+          "Le miel est épais et collant. Il reste sur les doigts."
+        ],
+        [
+          "Qu’est-ce qui est doux et duveteux ?",
+          "un poussin",
+          "un caillou",
+          "une cuillère",
+          "Le poussin est couvert d’un duvet tout doux. Les cailloux et les cuillères sont durs."
+        ],
+        [
+          "Tu es enrhumé et ton nez est bouché. Qu’est-ce qui est plus difficile ?",
+          "sentir les odeurs",
+          "marcher",
+          "applaudir",
+          "Avec le nez bouché, on sent mal les odeurs, et la nourriture a moins de goût."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí lo fi ń gbọ́ orin?",
+          "etí mi",
+          "imú mi",
+          "ìka ẹsẹ̀ mi",
+          "Ohùn ń wọ inú etí rẹ, bẹ́ẹ̀ ni o ṣe ń gbọ́ orin."
+        ],
+        [
+          "O gbóòórùn èso strọ́bẹ́rì. Ẹ̀yà ara wo lò ń lò?",
+          "imú mi",
+          "ìgbọ̀nwọ́ mi",
+          "orúnkún mi",
+          "Imú ni o fi ń fa òórùn sínú láti gbóòórùn nǹkan."
+        ],
+        [
+          "O ń wo àwọ̀ kíkùn tó mọ́lẹ̀. Kí ló ń jẹ́ kí o rí àwọn àwọ̀ náà?",
+          "ojú mi",
+          "etí mi",
+          "ahọ́n mi",
+          "Ojú rẹ ló ń rí ìrísí àti àwọ̀ nǹkan."
+        ],
+        [
+          "Kí ni ahọ́n rẹ ń ràn ọ́ lọ́wọ́ láti ṣe?",
+          "láti tọ́ oúnjẹ wò",
+          "láti gbọ́ orin",
+          "láti rí àwọ̀",
+          "Ahọ́n rẹ ló ń sọ fún ọ bóyá oúnjẹ dùn, ó ní iyọ̀ tàbí ó kan."
+        ],
+        [
+          "Báwo ni ẹ̀yìn òòrẹ̀ ṣe rí tí o bá fọwọ́ kàn án?",
+          "ó ń gún ni",
+          "ó rọ̀ bí òwú",
+          "ó ń ṣàn bí omi",
+          "Ẹ̀yìn òòrẹ̀ kún fún ẹ̀gún mímú, nítorí náà ó ń gún ni."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló gbóná tí o bá fọwọ́ kàn án?",
+          "ife kòkó gbígbóná",
+          "yìnyín kékeré",
+          "òjò dídì tí a ṣù pọ̀",
+          "Kòkó gbígbóná gbóná. Yìnyín àti òjò dídì tutù."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló pariwo jù?",
+          "àrá",
+          "ìyẹ́ ẹyẹ",
+          "ìgbín",
+          "Àrá máa ń dún kíkankíkan. A kì í gbọ́ ìró ìyẹ́ ẹyẹ tàbí ìgbín."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló ń dún jẹ́ẹ́jẹ́ẹ́?",
+          "eku tó ń ké kíkí",
+          "ọkọ̀ panápaná",
+          "ìlù ńlá",
+          "Ohùn eku kéré, ó sì jẹ́ẹ́jẹ́ẹ́. Ọkọ̀ panápaná àti ìlù ńlá ń pariwo."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló ní òórùn dídùn?",
+          "èso píìṣì tó pọ́n",
+          "ìbọ̀sẹ̀ tó dọ̀tí",
+          "àpò ìdọ̀tí tó ń rùn",
+          "Píìṣì tó pọ́n ní òórùn dídùn. Ìbọ̀sẹ̀ dídọ̀tí àti ìdọ̀tí ń rùn."
+        ],
+        [
+          "Báwo ni bàrà olómi tó pọ́n ṣe rí lẹ́nu?",
+          "ó dùn",
+          "ó ní iyọ̀",
+          "ó ta bí ata",
+          "Bàrà olómi tó pọ́n kún fún omi, ó sì dùn."
+        ],
+        [
+          "Di ojú rẹ. Ṣé o ṣì lè gbọ́ tí fóònù ń dún?",
+          "bẹ́ẹ̀ni, mo ń fi etí gbọ́ ọ",
+          "rárá, mi ò gbọ́ rárá",
+          "tí mo bá gbóòórùn rẹ̀ nìkan",
+          "Etí rẹ ṣì ń ṣiṣẹ́ nígbà tí ojú rẹ bá dì."
+        ],
+        [
+          "O ki ìka bọ etí rẹ. Kí ló máa dín kù?",
+          "ìró ohùn",
+          "àwọ̀",
+          "òórùn",
+          "Ìka dí etí rẹ, nítorí náà ìró ohùn máa dín kù."
+        ],
+        [
+          "Ẹ̀yà ara wo ló ń mọ̀ bóyá omi ìwẹ̀ lọ́wọ́rọ́?",
+          "awọ ara mi",
+          "irun mi",
+          "etí mi",
+          "Awọ ara rẹ ló ń mọ ooru àti òtútù. Irun kò lè mọ nǹkan kan."
+        ],
+        [
+          "Àwọn kan máa ń wọ dígí ojú láti kàwé. Kí ni dígí ojú ń ràn wọ́n lọ́wọ́ láti ṣe?",
+          "láti ríran",
+          "láti gbọ́ràn",
+          "láti gbóòórùn",
+          "Dígí ojú ń jẹ́ kí ojú rí nǹkan dáadáa."
+        ],
+        [
+          "Búrẹ́dì tí a ń yan ń jó! Kí ló máa sọ fún ọ kí o tó rí i?",
+          "imú mi",
+          "ìgbọ̀nwọ́ mi",
+          "orúnkún mi",
+          "Imú rẹ lè gbóòórùn búrẹ́dì tó ń jó láti yàrá mìíràn."
+        ],
+        [
+          "Kọ̀lọ̀kọ̀lọ̀ ń gbó ní òru. Kí lo fi ń gbọ́ ọ?",
+          "etí mi",
+          "ojú mi",
+          "ahọ́n mi",
+          "O ń fi etí gbọ́ ìró, kódà nínú òkùnkùn."
+        ],
+        [
+          "O fọwọ́ kan èèpo igi tó ní kókó. Ìmọ̀lára wo lò ń lò?",
+          "fífọwọ́kàn",
+          "gbígbóòórùn",
+          "títọ́wò",
+          "Fífọwọ́kàn ló ń jẹ́ kí o mọ̀ bóyá nǹkan ní kókó tàbí ó jọ̀lọ̀."
+        ],
+        [
+          "Ìmọ̀lára wo ló ń sọ fún ọ pé ọ̀gẹ̀dẹ̀ pọ́n bí àwọ̀ ìyeyè?",
+          "ìríran",
+          "ìgbọ́ràn",
+          "ìgbóòórùn",
+          "Ojú ni o fi ń rí àwọ̀ nǹkan."
+        ],
+        [
+          "Báwo ni ìkarahun ìgbín ṣe rí tí o bá fọwọ́ kàn án?",
+          "ó le",
+          "ó rọ̀ bí òwú",
+          "ó ń ṣàn bí omi",
+          "Ìkarahun ìgbín le. Ó ń dáàbò bo ìgbín."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí lo lè gbọ́?",
+          "odíderẹ́ tó ń ké",
+          "òṣùmàrè",
+          "òjìji",
+          "Odíderẹ́ máa ń pariwo. Òṣùmàrè àti òjìji kò ní ohùn."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí lo lè gbóòórùn rẹ̀?",
+          "ọsàn tó kún fún omi",
+          "orin",
+          "òjìji",
+          "Èso bí ọsàn ní òórùn. Orin àti òjìji kò ní."
+        ],
+        [
+          "Ehoro ní etí gígùn. Kí ni wọ́n wà fún?",
+          "fún gbígbọ́ràn",
+          "fún jíjẹun",
+          "fún rírìn",
+          "Etí ńlá ń ràn ehoro lọ́wọ́ láti gbọ́ ìró láti ọ̀nà jíjìn."
+        ],
+        [
+          "Òwìwí ní ojú ńlá. Kí ni wọ́n ń ràn án lọ́wọ́ láti ṣe?",
+          "láti ríran nínú òkùnkùn",
+          "láti gbóòórùn oúnjẹ",
+          "láti tọ́ ekòló wò",
+          "Ojú ńlá òwìwí ń gba ìmọ́lẹ̀ púpọ̀ wọlé, nítorí náà ó ń ríran ní òru."
+        ],
+        [
+          "Ajá máa ń gbóòórùn láti wá nǹkan rí. Kí ni wọ́n ń lò?",
+          "imú wọn",
+          "ìrù wọn",
+          "àtẹ́lẹsẹ̀ wọn",
+          "Imú ajá mọ òórùn gbọ́ dáadáa gan-an."
+        ],
+        [
+          "Kí ni erin fi ń gbóòórùn?",
+          "imú gígùn rẹ̀",
+          "etí rẹ̀",
+          "ìrù rẹ̀",
+          "Erin ní imú gígùn tó dà bí ọwọ́. Òun ló fi ń gbóòórùn."
+        ],
+        [
+          "Etí mélòó ni o ní?",
+          "méjì",
+          "mẹ́rin",
+          "mẹ́wàá",
+          "O ní etí méjì, ọ̀kan ní ẹ̀gbẹ́ kọ̀ọ̀kan orí rẹ."
+        ],
+        [
+          "Kí ló dé tí o kò gbọdọ̀ wo oòrùn tààrà?",
+          "ó lè ṣe ojú rẹ léṣe",
+          "ó máa mú ọ ga",
+          "ó máa sọ irun rẹ di àwọ̀ ewé",
+          "Oòrùn mọ́lẹ̀ gan-an débi pé ó lè ṣe ojú rẹ léṣe."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló ń lẹ̀ mọ́ ọwọ́?",
+          "oyin",
+          "ewé gbígbẹ",
+          "òkúta wẹ́wẹ́",
+          "Oyin nípọn, ó sì máa ń lẹ̀ mọ́ ìka ọwọ́."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló rọ̀, tí ó sì kún fún irun wíwẹ́?",
+          "òròmọdìẹ",
+          "òkúta",
+          "ṣíbí",
+          "Irun wíwẹ́ tó rọ̀ bo òròmọdìẹ lára. Òkúta àti ṣíbí le."
+        ],
+        [
+          "Òtútù mú ọ, imú rẹ sì dí. Kí ló máa ṣòro láti ṣe?",
+          "gbígbóòórùn",
+          "rírìn",
+          "pípàtẹ́wọ́",
+          "Tí imú bá dí, ó máa ń ṣòro láti gbóòórùn, oúnjẹ kò sì ní dùn tó bẹ́ẹ̀."
+        ]
+      ]
+    }
+  },
+  "emoji": "bell",
+  "example": {
+    "i": 0,
+    "q_en": "Which part of you hears music?",
+    "answer_en": "your ears",
+    "why_en": "Sounds go into your ears, and that is how you hear music.",
+    "q_de": "Womit hörst du Musik?",
+    "answer_de": "mit den Ohren",
+    "why_de": "Töne gehen in deine Ohren. So hörst du Musik.",
+    "q_fr": "Avec quoi est-ce que tu entends la musique ?",
+    "answer_fr": "avec mes oreilles",
+    "why_fr": "Les sons entrent dans tes oreilles : c’est comme ça que tu entends la musique.",
+    "q_yo": "Kí lo fi ń gbọ́ orin?",
+    "answer_yo": "etí mi",
+    "why_yo": "Ohùn ń wọ inú etí rẹ, bẹ́ẹ̀ ni o ṣe ń gbọ́ orin."
+  },
+  "text": {
+    "en": {
+      "title": "My five senses",
+      "teach": "You have five senses. You see with your eyes, hear with your ears, smell with your nose, taste with your tongue and touch with your skin.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Meine fünf Sinne",
+      "teach": "Du hast fünf Sinne. Du siehst mit den Augen, hörst mit den Ohren, riechst mit der Nase, schmeckst mit der Zunge und fühlst mit der Haut.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Mes cinq sens",
+      "teach": "Tu as cinq sens. Tu vois avec tes yeux, tu entends avec tes oreilles, tu sens les odeurs avec ton nez, tu goûtes avec ta langue et tu touches avec ta peau.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ìmọ̀lára márààrún mi",
+      "teach": "O ní ìmọ̀lára márùn-ún. O ń fi ojú ríran, o ń fi etí gbọ́ràn, o ń fi imú gbóòórùn, o ń fi ahọ́n tọ́ nǹkan wò, o sì ń fi awọ ara fọwọ́ kan nǹkan.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

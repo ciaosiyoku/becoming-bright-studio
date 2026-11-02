@@ -1,0 +1,936 @@
+{
+  "id": "sci4-animals",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 103,
+  "params": {
+    "emojis": [
+      "wave",
+      "animal-cow",
+      "animal-parrot",
+      "snake",
+      "animal-honeybee",
+      "animal-panda",
+      "animal-kangaroo",
+      "animal-penguin",
+      "animal-rabbit",
+      "animal-frog",
+      "animal-owl",
+      "animal-lion",
+      "animal-dolphin",
+      "animal-koala",
+      "animal-snail",
+      "animal-crab",
+      "animal-hedgehog",
+      "animal-horse",
+      "animal-bat",
+      "animal-giraffe",
+      "animal-beaver",
+      "animal-butterfly",
+      "animal-chipmunk",
+      "animal-shark",
+      "animal-turtle",
+      "animal-seal",
+      "animal-zebra",
+      "animal-swan",
+      "animal-bear",
+      "animal-hippopotamus"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Where do fish live?",
+          "in water",
+          "up in a tree",
+          "in the desert",
+          "Fish live in water. They breathe there and cannot live on land."
+        ],
+        [
+          "What does a cow eat?",
+          "grass",
+          "sausages",
+          "fish",
+          "Cows munch grass all day long."
+        ],
+        [
+          "How does a parrot get from tree to tree?",
+          "it flies",
+          "it swims",
+          "it slides on its tummy",
+          "A parrot has wings and flies from tree to tree."
+        ],
+        [
+          "How does a snake move?",
+          "it slides on its tummy",
+          "it walks on four legs",
+          "it flies",
+          "A snake has no legs. It slides along on its tummy."
+        ],
+        [
+          "Where do honeybees live?",
+          "in a hive",
+          "in a pond",
+          "in a shoe",
+          "Honeybees live together in a hive, where they make honey."
+        ],
+        [
+          "What does a panda eat most of the time?",
+          "bamboo",
+          "fish",
+          "bread",
+          "Pandas eat bamboo for most of the day."
+        ],
+        [
+          "How does a kangaroo move?",
+          "it hops",
+          "it swims",
+          "it slides on its tummy",
+          "A kangaroo hops on its strong back legs."
+        ],
+        [
+          "A penguin cannot fly. What is it very good at?",
+          "swimming",
+          "climbing trees",
+          "digging holes",
+          "Penguins use their wings like flippers to swim fast."
+        ],
+        [
+          "What does a rabbit eat?",
+          "grass and leafy plants",
+          "meat",
+          "fish",
+          "Rabbits eat grass, hay and leafy plants."
+        ],
+        [
+          "Where does a frog like to live?",
+          "near a pond",
+          "in the hot desert",
+          "in the clouds",
+          "Frogs need water, so they live near ponds and streams."
+        ],
+        [
+          "Where does an owl rest in the daytime?",
+          "in a tree",
+          "under the water",
+          "inside a beehive",
+          "Owls hunt at night and rest in trees or barns in the day."
+        ],
+        [
+          "What does a lion eat?",
+          "meat",
+          "grass",
+          "bananas",
+          "Lions hunt other animals and eat meat."
+        ],
+        [
+          "How does a dolphin move?",
+          "it swims",
+          "it walks",
+          "it flies",
+          "Dolphins swim fast through the sea with their tails."
+        ],
+        [
+          "What does a koala eat?",
+          "leaves",
+          "fish",
+          "meat",
+          "Koalas live in gum trees and eat their leaves."
+        ],
+        [
+          "How does a snail move?",
+          "it slides along slowly",
+          "it runs very fast",
+          "it flies",
+          "A snail slides slowly on one big flat foot."
+        ],
+        [
+          "Where do many crabs live?",
+          "at the seaside",
+          "in the clouds",
+          "inside a beehive",
+          "Many crabs live on beaches and in rock pools by the sea."
+        ],
+        [
+          "What does a hedgehog like to eat?",
+          "beetles and worms",
+          "hay",
+          "fish",
+          "Hedgehogs snuffle about at night looking for beetles, worms and slugs."
+        ],
+        [
+          "How does a horse move?",
+          "it runs on four legs",
+          "it slides on its tummy",
+          "it flies",
+          "A horse walks, trots and gallops on its four long legs."
+        ],
+        [
+          "Where does a bat sleep in the day?",
+          "upside down in a cave",
+          "under the water",
+          "inside a beehive",
+          "Bats hang upside down in caves, trees or roofs while they sleep."
+        ],
+        [
+          "What does a giraffe eat?",
+          "leaves from tall trees",
+          "fish",
+          "meat",
+          "A giraffe uses its long neck to reach leaves high up in trees."
+        ],
+        [
+          "Where does a beaver build its home?",
+          "in a river",
+          "up a mountain",
+          "in the desert",
+          "Beavers build homes of sticks and mud in rivers and lakes."
+        ],
+        [
+          "How does a butterfly move from flower to flower?",
+          "it flies",
+          "it swims",
+          "it slides on its tummy",
+          "A butterfly flaps its wings and flies to the flowers."
+        ],
+        [
+          "What does a chipmunk like to eat?",
+          "nuts and seeds",
+          "fish",
+          "pebbles",
+          "Chipmunks fill their cheeks with nuts and seeds and store them."
+        ],
+        [
+          "Where does a shark live?",
+          "in the sea",
+          "up a tree",
+          "on a farm",
+          "Sharks are fish. They live in the sea."
+        ],
+        [
+          "How does a turtle walk on land?",
+          "slowly",
+          "very fast",
+          "it flies",
+          "On land a turtle walks slowly, carrying its heavy shell."
+        ],
+        [
+          "What does a seal eat?",
+          "fish",
+          "grass",
+          "carrots",
+          "Seals dive into the sea to catch fish."
+        ],
+        [
+          "Where does a zebra live?",
+          "on grassy plains",
+          "in the sea",
+          "at the snowy North Pole",
+          "Zebras live in Africa on wide, grassy land, where they eat grass."
+        ],
+        [
+          "How does a swan move across a lake?",
+          "it swims",
+          "it slides on its tummy",
+          "it digs",
+          "A swan paddles with its webbed feet to swim across the water."
+        ],
+        [
+          "Which food does a bear like?",
+          "berries and fish",
+          "sand",
+          "rocks",
+          "Bears eat many foods, like berries, nuts, honey and fish."
+        ],
+        [
+          "Where does a hippo spend most of its day?",
+          "in the water",
+          "up a tree",
+          "in the snow",
+          "Hippos stay in rivers and lakes in the day to keep cool."
+        ]
+      ],
+      "de": [
+        [
+          "Wo leben Fische?",
+          "im Wasser",
+          "oben auf einem Baum",
+          "in der Wüste",
+          "Fische leben im Wasser. Dort atmen sie, an Land können sie nicht leben."
+        ],
+        [
+          "Was frisst eine Kuh?",
+          "Gras",
+          "Würstchen",
+          "Fisch",
+          "Kühe fressen den ganzen Tag Gras."
+        ],
+        [
+          "Wie kommt ein Papagei von Baum zu Baum?",
+          "er fliegt",
+          "er schwimmt",
+          "er rutscht auf dem Bauch",
+          "Ein Papagei hat Flügel und fliegt von Baum zu Baum."
+        ],
+        [
+          "Wie bewegt sich eine Schlange?",
+          "sie gleitet auf dem Bauch",
+          "sie läuft auf vier Beinen",
+          "sie fliegt",
+          "Eine Schlange hat keine Beine. Sie gleitet auf dem Bauch dahin."
+        ],
+        [
+          "Wo wohnen Honigbienen?",
+          "in einem Bienenstock",
+          "in einem Teich",
+          "in einem Schuh",
+          "Honigbienen wohnen zusammen in einem Bienenstock. Dort machen sie Honig."
+        ],
+        [
+          "Was frisst ein Panda fast die ganze Zeit?",
+          "Bambus",
+          "Fisch",
+          "Brot",
+          "Pandas fressen fast den ganzen Tag Bambus."
+        ],
+        [
+          "Wie bewegt sich ein Känguru?",
+          "es hüpft",
+          "es schwimmt",
+          "es rutscht auf dem Bauch",
+          "Ein Känguru hüpft auf seinen starken Hinterbeinen."
+        ],
+        [
+          "Ein Pinguin kann nicht fliegen. Was kann er sehr gut?",
+          "schwimmen",
+          "auf Bäume klettern",
+          "Löcher graben",
+          "Pinguine schwimmen schnell. Ihre Flügel benutzen sie wie Flossen."
+        ],
+        [
+          "Was frisst ein Kaninchen?",
+          "Gras und Blätter",
+          "Fleisch",
+          "Fisch",
+          "Kaninchen fressen Gras, Heu und Blätter."
+        ],
+        [
+          "Wo lebt ein Frosch gern?",
+          "an einem Teich",
+          "in der heißen Wüste",
+          "in den Wolken",
+          "Frösche brauchen Wasser. Darum leben sie an Teichen und Bächen."
+        ],
+        [
+          "Wo ruht sich eine Eule am Tag aus?",
+          "auf einem Baum",
+          "unter Wasser",
+          "in einem Bienenstock",
+          "Eulen jagen nachts. Am Tag ruhen sie auf Bäumen oder in Scheunen."
+        ],
+        [
+          "Was frisst ein Löwe?",
+          "Fleisch",
+          "Gras",
+          "Bananen",
+          "Löwen jagen andere Tiere und fressen Fleisch."
+        ],
+        [
+          "Wie bewegt sich ein Delfin?",
+          "er schwimmt",
+          "er läuft",
+          "er fliegt",
+          "Delfine schwimmen mit ihrer Schwanzflosse schnell durchs Meer."
+        ],
+        [
+          "Was frisst ein Koala?",
+          "Blätter",
+          "Fisch",
+          "Fleisch",
+          "Koalas leben auf Eukalyptusbäumen und fressen deren Blätter."
+        ],
+        [
+          "Wie bewegt sich eine Schnecke?",
+          "sie kriecht langsam",
+          "sie rennt sehr schnell",
+          "sie fliegt",
+          "Eine Schnecke kriecht langsam auf einem großen, flachen Fuß."
+        ],
+        [
+          "Wo leben viele Krabben?",
+          "am Meer",
+          "in den Wolken",
+          "in einem Bienenstock",
+          "Viele Krabben leben am Strand und in Felsenpfützen am Meer."
+        ],
+        [
+          "Was frisst ein Igel gern?",
+          "Käfer und Würmer",
+          "Heu",
+          "Fisch",
+          "Igel suchen nachts nach Käfern, Würmern und Schnecken."
+        ],
+        [
+          "Wie bewegt sich ein Pferd?",
+          "es läuft auf vier Beinen",
+          "es rutscht auf dem Bauch",
+          "es fliegt",
+          "Ein Pferd geht, trabt und galoppiert auf seinen vier langen Beinen."
+        ],
+        [
+          "Wo schläft eine Fledermaus am Tag?",
+          "kopfüber in einer Höhle",
+          "unter Wasser",
+          "in einem Bienenstock",
+          "Fledermäuse hängen zum Schlafen kopfüber in Höhlen, Bäumen oder unter Dächern."
+        ],
+        [
+          "Was frisst eine Giraffe?",
+          "Blätter von hohen Bäumen",
+          "Fisch",
+          "Fleisch",
+          "Mit ihrem langen Hals erreicht die Giraffe Blätter hoch oben in den Bäumen."
+        ],
+        [
+          "Wo baut ein Biber sein Zuhause?",
+          "in einem Fluss",
+          "oben auf einem Berg",
+          "in der Wüste",
+          "Biber bauen ihre Burg aus Ästen und Schlamm in Flüssen und Seen."
+        ],
+        [
+          "Wie kommt ein Schmetterling von Blume zu Blume?",
+          "er fliegt",
+          "er schwimmt",
+          "er rutscht auf dem Bauch",
+          "Ein Schmetterling schlägt mit den Flügeln und fliegt zu den Blumen."
+        ],
+        [
+          "Was frisst ein Streifenhörnchen gern?",
+          "Nüsse und Samen",
+          "Fisch",
+          "Kieselsteine",
+          "Streifenhörnchen stopfen sich Nüsse und Samen in die Backen und legen Vorräte an."
+        ],
+        [
+          "Wo lebt ein Hai?",
+          "im Meer",
+          "auf einem Baum",
+          "auf einem Bauernhof",
+          "Haie sind Fische. Sie leben im Meer."
+        ],
+        [
+          "Wie läuft eine Schildkröte an Land?",
+          "langsam",
+          "sehr schnell",
+          "sie fliegt",
+          "An Land läuft eine Schildkröte langsam und trägt ihren schweren Panzer."
+        ],
+        [
+          "Was frisst eine Robbe?",
+          "Fisch",
+          "Gras",
+          "Möhren",
+          "Robben tauchen ins Meer, um Fische zu fangen."
+        ],
+        [
+          "Wo lebt ein Zebra?",
+          "in der Graslandschaft",
+          "im Meer",
+          "am verschneiten Nordpol",
+          "Zebras leben in Afrika im weiten Grasland und fressen dort Gras."
+        ],
+        [
+          "Wie bewegt sich ein Schwan über einen See?",
+          "er schwimmt",
+          "er rutscht auf dem Bauch",
+          "er gräbt",
+          "Ein Schwan paddelt mit seinen Schwimmfüßen über das Wasser."
+        ],
+        [
+          "Was frisst ein Bär gern?",
+          "Beeren und Fisch",
+          "Sand",
+          "Steine",
+          "Bären fressen vieles, zum Beispiel Beeren, Nüsse, Honig und Fisch."
+        ],
+        [
+          "Wo verbringt ein Nilpferd fast den ganzen Tag?",
+          "im Wasser",
+          "auf einem Baum",
+          "im Schnee",
+          "Nilpferde bleiben tagsüber in Flüssen und Seen, damit ihnen nicht zu heiß wird."
+        ]
+      ],
+      "fr": [
+        [
+          "Où vivent les poissons ?",
+          "dans l’eau",
+          "en haut d’un arbre",
+          "dans le désert",
+          "Les poissons vivent dans l’eau. Ils y respirent et ne peuvent pas vivre sur la terre."
+        ],
+        [
+          "Que mange une vache ?",
+          "de l’herbe",
+          "des saucisses",
+          "du poisson",
+          "Les vaches mâchent de l’herbe toute la journée."
+        ],
+        [
+          "Comment le perroquet va-t-il d’un arbre à l’autre ?",
+          "il vole",
+          "il nage",
+          "il glisse sur le ventre",
+          "Le perroquet a des ailes et vole d’arbre en arbre."
+        ],
+        [
+          "Comment se déplace un serpent ?",
+          "il glisse sur le ventre",
+          "il marche sur quatre pattes",
+          "il vole",
+          "Le serpent n’a pas de pattes. Il avance en glissant sur le ventre."
+        ],
+        [
+          "Où vivent les abeilles ?",
+          "dans une ruche",
+          "dans une mare",
+          "dans une chaussure",
+          "Les abeilles vivent ensemble dans une ruche, où elles fabriquent le miel."
+        ],
+        [
+          "Que mange le panda presque tout le temps ?",
+          "du bambou",
+          "du poisson",
+          "du pain",
+          "Le panda mange du bambou presque toute la journée."
+        ],
+        [
+          "Comment se déplace le kangourou ?",
+          "il saute",
+          "il nage",
+          "il glisse sur le ventre",
+          "Le kangourou fait des bonds sur ses grandes pattes arrière."
+        ],
+        [
+          "Le manchot ne peut pas voler. Qu’est-ce qu’il fait très bien ?",
+          "nager",
+          "grimper aux arbres",
+          "creuser des trous",
+          "Le manchot se sert de ses ailes comme de nageoires pour nager vite."
+        ],
+        [
+          "Que mange un lapin ?",
+          "de l’herbe et des feuilles",
+          "de la viande",
+          "du poisson",
+          "Le lapin mange de l’herbe, du foin et des feuilles."
+        ],
+        [
+          "Où la grenouille aime-t-elle vivre ?",
+          "près d’une mare",
+          "dans le désert brûlant",
+          "dans les nuages",
+          "La grenouille a besoin d’eau : elle vit près des mares et des ruisseaux."
+        ],
+        [
+          "Où la chouette se repose-t-elle pendant la journée ?",
+          "dans un arbre",
+          "sous l’eau",
+          "dans une ruche",
+          "La chouette chasse la nuit et se repose le jour dans un arbre ou une grange."
+        ],
+        [
+          "Que mange le lion ?",
+          "de la viande",
+          "de l’herbe",
+          "des bananes",
+          "Le lion chasse d’autres animaux et mange de la viande."
+        ],
+        [
+          "Comment se déplace le dauphin ?",
+          "il nage",
+          "il marche",
+          "il vole",
+          "Le dauphin nage vite dans la mer grâce à sa queue."
+        ],
+        [
+          "Que mange le koala ?",
+          "des feuilles",
+          "du poisson",
+          "de la viande",
+          "Le koala vit dans les eucalyptus et mange leurs feuilles."
+        ],
+        [
+          "Comment avance l’escargot ?",
+          "il glisse lentement",
+          "il court très vite",
+          "il vole",
+          "L’escargot glisse lentement sur un grand pied tout plat."
+        ],
+        [
+          "Où vivent beaucoup de crabes ?",
+          "au bord de la mer",
+          "dans les nuages",
+          "dans une ruche",
+          "Beaucoup de crabes vivent sur les plages et dans les rochers au bord de la mer."
+        ],
+        [
+          "Que mange le hérisson ?",
+          "des insectes et des vers",
+          "du foin",
+          "du poisson",
+          "La nuit, le hérisson cherche des insectes, des vers et des limaces."
+        ],
+        [
+          "Comment se déplace le cheval ?",
+          "il court sur quatre pattes",
+          "il glisse sur le ventre",
+          "il vole",
+          "Le cheval marche, trotte et galope sur ses quatre longues jambes."
+        ],
+        [
+          "Où la chauve-souris dort-elle le jour ?",
+          "la tête en bas dans une grotte",
+          "sous l’eau",
+          "dans une ruche",
+          "La chauve-souris dort suspendue la tête en bas, dans une grotte, un arbre ou un grenier."
+        ],
+        [
+          "Que mange la girafe ?",
+          "des feuilles des grands arbres",
+          "du poisson",
+          "de la viande",
+          "Avec son long cou, la girafe attrape les feuilles tout en haut des arbres."
+        ],
+        [
+          "Où le castor construit-il sa maison ?",
+          "dans une rivière",
+          "en haut d’une montagne",
+          "dans le désert",
+          "Le castor construit sa hutte avec des branches et de la boue dans les rivières et les lacs."
+        ],
+        [
+          "Comment le papillon va-t-il de fleur en fleur ?",
+          "il vole",
+          "il nage",
+          "il glisse sur le ventre",
+          "Le papillon bat des ailes et vole jusqu’aux fleurs."
+        ],
+        [
+          "Que mange le tamia ?",
+          "des noisettes et des graines",
+          "du poisson",
+          "des cailloux",
+          "Le tamia remplit ses joues de noisettes et de graines et les met de côté."
+        ],
+        [
+          "Où vit le requin ?",
+          "dans la mer",
+          "dans un arbre",
+          "dans une ferme",
+          "Le requin est un poisson. Il vit dans la mer."
+        ],
+        [
+          "Comment la tortue marche-t-elle sur la terre ?",
+          "lentement",
+          "très vite",
+          "elle vole",
+          "Sur la terre, la tortue marche lentement avec sa lourde carapace."
+        ],
+        [
+          "Que mange le phoque ?",
+          "du poisson",
+          "de l’herbe",
+          "des carottes",
+          "Le phoque plonge dans la mer pour attraper des poissons."
+        ],
+        [
+          "Où vit le zèbre ?",
+          "dans la savane herbeuse",
+          "dans la mer",
+          "au pôle Nord tout enneigé",
+          "Le zèbre vit en Afrique, dans de grandes plaines d’herbe, où il broute."
+        ],
+        [
+          "Comment le cygne traverse-t-il le lac ?",
+          "il nage",
+          "il glisse sur le ventre",
+          "il creuse",
+          "Le cygne pagaie avec ses pattes palmées pour nager sur l’eau."
+        ],
+        [
+          "Qu’est-ce que l’ours aime manger ?",
+          "des baies et du poisson",
+          "du sable",
+          "des pierres",
+          "L’ours mange beaucoup de choses : des baies, des noix, du miel et du poisson."
+        ],
+        [
+          "Où l’hippopotame passe-t-il presque toute la journée ?",
+          "dans l’eau",
+          "dans un arbre",
+          "dans la neige",
+          "Le jour, l’hippopotame reste dans les rivières et les lacs pour rester au frais."
+        ]
+      ],
+      "yo": [
+        [
+          "Níbo ni ẹja ń gbé?",
+          "nínú omi",
+          "lórí igi",
+          "nínú aṣálẹ̀",
+          "Inú omi ni ẹja ń gbé. Ibẹ̀ ló ti ń mí, kò sì lè gbé lórí ilẹ̀."
+        ],
+        [
+          "Kí ni màálù ń jẹ?",
+          "koríko",
+          "sọ́séèjì",
+          "ẹja",
+          "Màálù ń jẹ koríko láti àárọ̀ di alẹ́."
+        ],
+        [
+          "Báwo ni odíderẹ́ ṣe ń lọ láti igi kan sí òmíràn?",
+          "ó ń fò",
+          "ó ń lúwẹ̀",
+          "ó ń fi ikùn wọ́",
+          "Odíderẹ́ ní ìyẹ́, ó sì ń fò láti igi dé igi."
+        ],
+        [
+          "Báwo ni ejò ṣe ń rìn?",
+          "ó ń fi ikùn wọ́",
+          "ó ń fi ẹsẹ̀ mẹ́rin rìn",
+          "ó ń fò",
+          "Ejò kò ní ẹsẹ̀. Ó ń fi ikùn wọ́ lọ."
+        ],
+        [
+          "Níbo ni kòkòrò oyin ń gbé?",
+          "nínú ilé oyin",
+          "nínú adágún omi",
+          "nínú bàtà",
+          "Kòkòrò oyin ń gbé papọ̀ nínú ilé oyin, níbi tí wọ́n ti ń ṣe oyin."
+        ],
+        [
+          "Kí ni pándà ń jẹ ní ọ̀pọ̀ ìgbà?",
+          "igi oparun",
+          "ẹja",
+          "búrẹ́dì",
+          "Pándà ń jẹ oparun fún èyí tó pọ̀ jù nínú ọjọ́."
+        ],
+        [
+          "Báwo ni kangarú ṣe ń rìn?",
+          "ó ń bẹ́",
+          "ó ń lúwẹ̀",
+          "ó ń fi ikùn wọ́",
+          "Kangarú ń bẹ́ lórí ẹsẹ̀ ẹ̀yìn rẹ̀ tó lágbára."
+        ],
+        [
+          "Pẹ́ńgúìnì kò lè fò. Kí ló mọ̀ ọ́ ṣe dáadáa?",
+          "lílúwẹ̀",
+          "gígun igi",
+          "wíwa ihò",
+          "Pẹ́ńgúìnì ń lo ìyẹ́ rẹ̀ bí àjẹ̀ láti yára lúwẹ̀."
+        ],
+        [
+          "Kí ni ehoro ń jẹ?",
+          "koríko àti ewé",
+          "ẹran",
+          "ẹja",
+          "Ehoro ń jẹ koríko gbígbẹ, koríko tútù àti ewé."
+        ],
+        [
+          "Níbo ni ọ̀pọ̀lọ́ fẹ́ràn láti gbé?",
+          "lẹ́gbẹ̀ẹ́ adágún omi",
+          "nínú aṣálẹ̀ gbígbóná",
+          "nínú ìkùukùu",
+          "Ọ̀pọ̀lọ́ nílò omi, nítorí náà ó ń gbé lẹ́gbẹ̀ẹ́ adágún àti odò kékeré."
+        ],
+        [
+          "Níbo ni òwìwí ń sinmi ní ọ̀sán?",
+          "lórí igi",
+          "lábẹ́ omi",
+          "nínú ilé oyin",
+          "Òwìwí ń ṣọdẹ ní òru, ó sì ń sinmi lórí igi ní ọ̀sán."
+        ],
+        [
+          "Kí ni kìnnìún ń jẹ?",
+          "ẹran",
+          "koríko",
+          "ọ̀gẹ̀dẹ̀",
+          "Kìnnìún ń ṣọdẹ àwọn ẹranko mìíràn, ó sì ń jẹ ẹran."
+        ],
+        [
+          "Báwo ni ẹja àbùùbùtán dọ́fínì ṣe ń rìn?",
+          "ó ń lúwẹ̀",
+          "ó ń fi ẹsẹ̀ rìn",
+          "ó ń fò",
+          "Dọ́fínì ń fi ìrù rẹ̀ lúwẹ̀ kíákíá nínú òkun."
+        ],
+        [
+          "Kí ni kòálà ń jẹ?",
+          "ewé",
+          "ẹja",
+          "ẹran",
+          "Kòálà ń gbé lórí igi yúkálíptọ́sì, ó sì ń jẹ ewé rẹ̀."
+        ],
+        [
+          "Báwo ni ìgbín ṣe ń rìn?",
+          "ó ń wọ́ díẹ̀díẹ̀",
+          "ó ń sáré gan-an",
+          "ó ń fò",
+          "Ìgbín ń wọ́ díẹ̀díẹ̀ lórí ẹsẹ̀ pẹlẹbẹ ńlá kan."
+        ],
+        [
+          "Níbo ni ọ̀pọ̀ akàn ń gbé?",
+          "létí òkun",
+          "nínú ìkùukùu",
+          "nínú ilé oyin",
+          "Ọ̀pọ̀ akàn ń gbé ní etíkun àti nínú omi àárín àpáta létí òkun."
+        ],
+        [
+          "Kí ni òòrẹ̀ fẹ́ràn láti jẹ?",
+          "kòkòrò àti ekòló",
+          "koríko gbígbẹ",
+          "ẹja",
+          "Òòrẹ̀ ń wá kòkòrò àti ekòló kiri ní òru."
+        ],
+        [
+          "Báwo ni ẹṣin ṣe ń rìn?",
+          "ó ń sáré lórí ẹsẹ̀ mẹ́rin",
+          "ó ń fi ikùn wọ́",
+          "ó ń fò",
+          "Ẹṣin ń rìn, ó sì ń sáré lórí ẹsẹ̀ gígùn mẹ́rẹ̀ẹ̀rin rẹ̀."
+        ],
+        [
+          "Níbo ni àdán ń sùn ní ọ̀sán?",
+          "ní ìdorí kodò nínú ihò àpáta",
+          "lábẹ́ omi",
+          "nínú ilé oyin",
+          "Àdán máa ń so ìdorí kodò nínú ihò àpáta, lórí igi tàbí lábẹ́ òrùlé láti sùn."
+        ],
+        [
+          "Kí ni àgùnfọn ń jẹ?",
+          "ewé igi gíga",
+          "ẹja",
+          "ẹran",
+          "Àgùnfọn ń lo ọrùn gígùn rẹ̀ láti ká ewé lókè igi."
+        ],
+        [
+          "Níbo ni bífà ń kọ́ ilé rẹ̀ sí?",
+          "nínú odò",
+          "lórí òkè ńlá",
+          "nínú aṣálẹ̀",
+          "Bífà ń fi igi àti ẹrẹ̀ kọ́ ilé sínú odò àti adágún."
+        ],
+        [
+          "Báwo ni labalábá ṣe ń lọ láti òdòdó kan sí òmíràn?",
+          "ó ń fò",
+          "ó ń lúwẹ̀",
+          "ó ń fi ikùn wọ́",
+          "Labalábá ń ju ìyẹ́ rẹ̀, ó sì ń fò lọ sí ọ̀dọ̀ òdòdó."
+        ],
+        [
+          "Kí ni ọ̀kẹ́rẹ́ fẹ́ràn láti jẹ?",
+          "èso àti irúgbìn",
+          "ẹja",
+          "òkúta wẹ́wẹ́",
+          "Ọ̀kẹ́rẹ́ máa ń kó èso àti irúgbìn sí ẹ̀rẹ̀kẹ́ rẹ̀, ó sì ń tọ́jú wọn."
+        ],
+        [
+          "Níbo ni ẹja ekurá ń gbé?",
+          "nínú òkun",
+          "lórí igi",
+          "ní oko",
+          "Ẹja ni ekurá. Inú òkun ló ń gbé."
+        ],
+        [
+          "Báwo ni ìjàpá ṣe ń rìn lórí ilẹ̀?",
+          "díẹ̀díẹ̀",
+          "kíákíá gan-an",
+          "ó ń fò",
+          "Lórí ilẹ̀, ìjàpá ń rìn díẹ̀díẹ̀ pẹ̀lú ìkarahun wúwo rẹ̀."
+        ],
+        [
+          "Kí ni sílì ń jẹ?",
+          "ẹja",
+          "koríko",
+          "kárọ́ọ̀tì",
+          "Sílì máa ń bẹ́ sínú òkun láti mú ẹja."
+        ],
+        [
+          "Níbo ni kẹ́tẹ́kẹ́tẹ́ abìlà ń gbé?",
+          "ní pápá koríko",
+          "nínú òkun",
+          "ní ilẹ̀ yìnyín àríwá ayé",
+          "Abìlà ń gbé ní pápá koríko ńlá ní Áfíríkà, níbi tí ó ti ń jẹ koríko."
+        ],
+        [
+          "Báwo ni ẹyẹ swọ́nù ṣe ń la adágún kọjá?",
+          "ó ń lúwẹ̀",
+          "ó ń fi ikùn wọ́",
+          "ó ń walẹ̀",
+          "Swọ́nù ń fi ẹsẹ̀ rẹ̀ tó ní awọ láàárín ìka tì omi láti lúwẹ̀."
+        ],
+        [
+          "Oúnjẹ wo ni bẹ̀árì fẹ́ràn?",
+          "èso kéékèèké àti ẹja",
+          "iyanrìn",
+          "òkúta",
+          "Bẹ̀árì ń jẹ oríṣiríṣi oúnjẹ, bí èso kéékèèké, oyin àti ẹja."
+        ],
+        [
+          "Níbo ni erinmi ń lo èyí tó pọ̀ jù nínú ọjọ́?",
+          "nínú omi",
+          "lórí igi",
+          "nínú yìnyín",
+          "Erinmi ń dúró sínú odò àti adágún ní ọ̀sán kí ara rẹ̀ lè tutù."
+        ]
+      ]
+    }
+  },
+  "emoji": "paws",
+  "example": {
+    "i": 0,
+    "q_en": "Where do fish live?",
+    "answer_en": "in water",
+    "why_en": "Fish live in water. They breathe there and cannot live on land.",
+    "q_de": "Wo leben Fische?",
+    "answer_de": "im Wasser",
+    "why_de": "Fische leben im Wasser. Dort atmen sie, an Land können sie nicht leben.",
+    "q_fr": "Où vivent les poissons ?",
+    "answer_fr": "dans l’eau",
+    "why_fr": "Les poissons vivent dans l’eau. Ils y respirent et ne peuvent pas vivre sur la terre.",
+    "q_yo": "Níbo ni ẹja ń gbé?",
+    "answer_yo": "nínú omi",
+    "why_yo": "Inú omi ni ẹja ń gbé. Ibẹ̀ ló ti ń mí, kò sì lè gbé lórí ilẹ̀."
+  },
+  "text": {
+    "en": {
+      "title": "Animals: home, food and moving",
+      "teach": "Every animal has a home, its own food and its own way to move. Fish live in water and swim. Cows eat grass. Birds fly.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Tiere: Zuhause, Futter, Bewegung",
+      "teach": "Jedes Tier hat ein Zuhause, sein eigenes Futter und seine eigene Art, sich zu bewegen. Fische leben im Wasser und schwimmen. Kühe fressen Gras. Vögel fliegen.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les animaux : maison, repas, déplacements",
+      "teach": "Chaque animal a sa maison, sa nourriture et sa façon de bouger. Les poissons vivent dans l’eau et nagent. Les vaches mangent de l’herbe. Les oiseaux volent.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Àwọn ẹranko: ilé, oúnjẹ àti ìrìn",
+      "teach": "Ẹranko kọ̀ọ̀kan ní ilé tirẹ̀, oúnjẹ tirẹ̀ àti ọ̀nà tí ó ń gbà rìn. Ẹja ń gbé inú omi, ó sì ń lúwẹ̀. Màálù ń jẹ koríko. Ẹyẹ ń fò.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

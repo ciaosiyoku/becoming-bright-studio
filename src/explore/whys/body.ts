@@ -1,6 +1,6 @@
 import type { Why } from './types'
 
-// 100 Whys: your body and health. Short, true explanations for children aged 4–11, in English, German, French and Yoruba.
+// Whys: your body and health. Short, true explanations for children aged 4–12, in English, German, French and Yoruba.
 
 export const WHYS_BODY: Why[] = [
   { id: 'sleep', topic: 'body', emoji: 'moon',

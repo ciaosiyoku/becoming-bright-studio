@@ -1,0 +1,274 @@
+{
+  "id": "fr10-routine",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 5,
+  "ages": [
+    "10-12"
+  ],
+  "order": 34,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "clock",
+      "bell",
+      "droplet",
+      "scarf",
+      "moon",
+      "sparkles",
+      "sun",
+      "star",
+      "shoe",
+      "droplet",
+      "house",
+      "speech",
+      "girl",
+      "footprints",
+      "ribbon",
+      "droplet",
+      "sparkles",
+      "moon",
+      "cookie",
+      "clock",
+      "animal-snail",
+      "warning",
+      "backpack",
+      "bus",
+      "teddy",
+      "bell",
+      "star",
+      "animal-sloth",
+      "clock",
+      "school"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Je ___ lève à sept heures.",
+          "me",
+          "te",
+          "se",
+          "With je, the reflexive word is me: je me lève."
+        ],
+        [
+          "Tu ___ réveilles tôt.",
+          "te",
+          "me",
+          "se",
+          "With tu, the reflexive word is te: tu te réveilles."
+        ],
+        [
+          "Il ___ lave les mains.",
+          "se",
+          "me",
+          "nous",
+          "With il or elle, the reflexive word is se: il se lave."
+        ],
+        [
+          "Nous ___ habillons vite.",
+          "nous",
+          "vous",
+          "se",
+          "With nous, the reflexive word is also nous: nous nous habillons."
+        ],
+        [
+          "Vous ___ couchez à quelle heure ?",
+          "vous",
+          "nous",
+          "te",
+          "With vous, the reflexive word is also vous: vous vous couchez."
+        ],
+        [
+          "Elles ___ brossent les dents.",
+          "se",
+          "me",
+          "vous",
+          "With ils or elles, the reflexive word is se: elles se brossent."
+        ],
+        [
+          "What does je me lève mean?",
+          "I get up",
+          "I go to bed",
+          "I get dressed",
+          "Se lever means to get up."
+        ],
+        [
+          "What does je me couche mean?",
+          "I go to bed",
+          "I wake up",
+          "I have a wash",
+          "Se coucher means to go to bed."
+        ],
+        [
+          "What does je m’habille mean?",
+          "I get dressed",
+          "I brush my hair",
+          "I have breakfast",
+          "S’habiller means to get dressed."
+        ],
+        [
+          "What does je me douche mean?",
+          "I have a shower",
+          "I go to sleep",
+          "I wash the dishes",
+          "Se doucher means to have a shower."
+        ],
+        [
+          "Je ___ habille dans ma chambre.",
+          "m’",
+          "me",
+          "se",
+          "Me becomes m’ before a vowel or a silent h: je m’habille."
+        ],
+        [
+          "Il ___ appelle Lucas.",
+          "s’",
+          "se",
+          "m’",
+          "Se becomes s’ before a vowel: il s’appelle Lucas means his name is Lucas."
+        ],
+        [
+          "How do you say My name is Emma in French?",
+          "Je m’appelle Emma.",
+          "Je me appelle Emma.",
+          "Je s’appelle Emma.",
+          "With je, use m’ before appelle: je m’appelle."
+        ],
+        [
+          "Which sentence is correct?",
+          "Nous nous levons.",
+          "Nous se levons.",
+          "Nous me levons.",
+          "With nous, the reflexive word is nous, so nous appears twice."
+        ],
+        [
+          "How do you say She brushes her hair in French?",
+          "Elle se brosse les cheveux.",
+          "Elle me brosse les cheveux.",
+          "Elle se brosser les cheveux.",
+          "With elle, use se and the verb form brosse."
+        ],
+        [
+          "How do you say We have a wash in French?",
+          "Nous nous lavons.",
+          "Nous se lavons.",
+          "Vous vous lavez.",
+          "We is nous, and the reflexive word with nous is nous."
+        ],
+        [
+          "Which sentence has the right word order?",
+          "Je me brosse les dents.",
+          "Je brosse me les dents.",
+          "Me je brosse les dents.",
+          "The reflexive word goes just before the verb: je me brosse."
+        ],
+        [
+          "Le soir, je me ___ à neuf heures.",
+          "couche",
+          "couches",
+          "coucher",
+          "With je, the verb ends in -e: je me couche."
+        ],
+        [
+          "Tu te ___ les mains avant de manger.",
+          "laves",
+          "lave",
+          "lavez",
+          "With tu, the verb ends in -es: tu te laves."
+        ],
+        [
+          "Mon père se ___ à six heures.",
+          "lève",
+          "lèves",
+          "levons",
+          "Mon père is il, so the verb is lève: il se lève."
+        ],
+        [
+          "Je ne ___ lève pas tard.",
+          "me",
+          "te",
+          "le",
+          "In the negative, the reflexive word stays before the verb: je ne me lève pas."
+        ],
+        [
+          "Which sentence is correct?",
+          "Il ne se lave pas.",
+          "Il se ne lave pas.",
+          "Il ne lave se pas.",
+          "Ne comes first, then se and the verb, then pas."
+        ],
+        [
+          "Le matin, nous ___ dépêchons.",
+          "nous",
+          "vous",
+          "se",
+          "With nous, the reflexive word is nous: nous nous dépêchons."
+        ],
+        [
+          "What does se dépêcher mean?",
+          "to hurry",
+          "to relax",
+          "to get dressed",
+          "Se dépêcher means to hurry, for example to catch the bus."
+        ],
+        [
+          "What does s’endormir mean?",
+          "to fall asleep",
+          "to wake up",
+          "to have a wash",
+          "S’endormir means to fall asleep. Se réveiller means to wake up."
+        ],
+        [
+          "Vous vous ___ à quelle heure ?",
+          "réveillez",
+          "réveillons",
+          "réveillent",
+          "With vous, the verb ends in -ez: vous vous réveillez."
+        ],
+        [
+          "Les enfants ___ couchent tôt.",
+          "se",
+          "nous",
+          "me",
+          "Les enfants means they (ils), so the reflexive word is se."
+        ],
+        [
+          "What does je me repose mean?",
+          "I rest",
+          "I run",
+          "I get up",
+          "Se reposer means to rest. It does not mean to reposition."
+        ],
+        [
+          "How do you say I wake up at half past six in French?",
+          "Je me réveille à six heures et demie.",
+          "Je me réveille à six heures et quart.",
+          "Je te réveille à six heures et demie.",
+          "Et demie means half past. Je te réveille would mean I wake you up."
+        ],
+        [
+          "Tu t’___ en uniforme pour l’école.",
+          "habilles",
+          "habille",
+          "habillez",
+          "With tu, the verb ends in -es: tu t’habilles."
+        ]
+      ]
+    }
+  },
+  "emoji": "clock",
+  "example": {
+    "i": 0,
+    "q_en": "Je ___ lève à sept heures.",
+    "answer_en": "me",
+    "why_en": "With je, the reflexive word is me: je me lève."
+  },
+  "text": {
+    "en": {
+      "title": "My daily routine",
+      "teach": "Reflexive verbs have an extra small word (me, te, se, nous, vous) before the verb. Me, te and se become m’, t’ and s’ before a vowel: Je me lève et je m’habille.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

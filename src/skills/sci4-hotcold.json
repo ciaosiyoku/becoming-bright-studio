@@ -1,0 +1,936 @@
+{
+  "id": "sci4-hotcold",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 108,
+  "params": {
+    "emojis": [
+      "sun",
+      "cloud",
+      "droplet",
+      "fire",
+      "snowman",
+      "girl",
+      "cocoa",
+      "sun-small-cloud",
+      "polarbear",
+      "desert",
+      "thermometer",
+      "candle",
+      "iceskate",
+      "house",
+      "fruit-strawberry",
+      "sled",
+      "sun",
+      "beach",
+      "cake",
+      "sun-large-cloud",
+      "moon",
+      "animal-bear",
+      "snowflake",
+      "fog",
+      "droplet",
+      "cookie",
+      "snow",
+      "shoe",
+      "house",
+      "warning"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Is the sun hot or cold?",
+          "hot",
+          "cold",
+          "wet like rain",
+          "The sun is very, very hot. It warms the whole Earth."
+        ],
+        [
+          "Which one is cold?",
+          "snow",
+          "the sun",
+          "a fire",
+          "Snow is made of tiny bits of ice, so it is cold."
+        ],
+        [
+          "What happens to ice in a warm room?",
+          "it melts into water",
+          "it gets bigger",
+          "it turns into a stone",
+          "Warmth makes ice melt. It turns back into water."
+        ],
+        [
+          "Is it safe to touch a fire?",
+          "no, it will burn you",
+          "yes, it is cold",
+          "yes, it feels soft",
+          "Fire is very hot. It can burn your skin, so never touch it."
+        ],
+        [
+          "What keeps your hands warm in the snow?",
+          "gloves",
+          "ice cubes",
+          "a cold drink",
+          "Gloves cover your hands and keep the warmth in."
+        ],
+        [
+          "Something might be hot. What should you do?",
+          "ask a grown-up",
+          "touch it quickly",
+          "put it in your mouth",
+          "A grown-up can check if it is safe, so you do not get burnt."
+        ],
+        [
+          "Your cocoa is too hot. What should you do?",
+          "wait for it to cool",
+          "drink it all at once",
+          "pour it on your hand",
+          "Hot drinks can burn your mouth. Wait a little until it is warm, not hot."
+        ],
+        [
+          "What happens to a snowman when the sun shines?",
+          "it melts",
+          "it grows taller",
+          "it walks away",
+          "The warm sun melts the snow, so the snowman gets smaller."
+        ],
+        [
+          "Where does a polar bear live?",
+          "in a cold, icy place",
+          "in a hot desert",
+          "in a warm bath",
+          "Polar bears live near the North Pole, where there is lots of ice and snow."
+        ],
+        [
+          "How does sand in the hot sunshine feel?",
+          "hot",
+          "icy cold",
+          "wet like the sea",
+          "The sun heats the sand, so it can feel very hot under your feet."
+        ],
+        [
+          "What tells us how hot or cold it is?",
+          "a thermometer",
+          "a spoon",
+          "a pillow",
+          "A thermometer measures how hot or cold something is."
+        ],
+        [
+          "Can you touch a candle flame?",
+          "no, it can burn you",
+          "yes, it is cold",
+          "yes, it tickles",
+          "A candle flame is hot. Only grown-ups should light candles."
+        ],
+        [
+          "What is ice made of?",
+          "frozen water",
+          "frozen sand",
+          "paper",
+          "When water gets very cold, it freezes and turns into ice."
+        ],
+        [
+          "Which thing in the kitchen gets very hot?",
+          "the oven",
+          "the fridge",
+          "an ice cube",
+          "An oven gets very hot to cook food. Keep away from it."
+        ],
+        [
+          "Where do we keep food cold?",
+          "in the fridge",
+          "in the oven",
+          "in the hot sun",
+          "The fridge is cold inside, so food stays fresh for longer."
+        ],
+        [
+          "When can you ride on a sled?",
+          "when there is snow",
+          "on a hot beach",
+          "in the bath",
+          "A sled slides on snow and ice, so you need a cold, snowy day."
+        ],
+        [
+          "What do we wear on a hot, sunny day?",
+          "a sun hat",
+          "a thick winter coat",
+          "a woolly scarf",
+          "A sun hat shades your head and face from the hot sun."
+        ],
+        [
+          "Why do we put on sun cream?",
+          "to keep our skin safe from the sun",
+          "to make us cold",
+          "to make us taller",
+          "Strong sun can burn the skin. Sun cream helps to protect it."
+        ],
+        [
+          "A cake just came out of the oven. Is it hot?",
+          "yes, it is hot",
+          "no, it is frozen",
+          "no, it is full of snow",
+          "The oven heats the cake. Let it cool before you touch it."
+        ],
+        [
+          "Where will an ice lolly melt fastest?",
+          "in the hot sun",
+          "in the freezer",
+          "in the snow",
+          "Heat melts ice. The hot sun melts an ice lolly very fast."
+        ],
+        [
+          "What keeps you warm in bed at night?",
+          "a blanket",
+          "an ice pack",
+          "a cold drink",
+          "A blanket holds in the warmth of your body while you sleep."
+        ],
+        [
+          "What does a bear’s thick fur do?",
+          "it keeps the bear warm",
+          "it keeps the bear wet",
+          "it makes the bear cold",
+          "Thick fur traps warm air next to the body, like a cosy coat."
+        ],
+        [
+          "Brrr! Your teeth chatter. How do you feel?",
+          "cold",
+          "hot",
+          "full",
+          "When we are cold, our body shakes to make a little warmth."
+        ],
+        [
+          "Is the steam from a kettle safe to touch?",
+          "no, it is very hot",
+          "yes, it is icy",
+          "yes, it is soft like a pillow",
+          "Steam comes from boiling water. It is very hot and can burn you."
+        ],
+        [
+          "What dries up a puddle on a sunny day?",
+          "the warm sun",
+          "the cold snow",
+          "the moon",
+          "The sun warms the water, and bit by bit it goes into the air."
+        ],
+        [
+          "What happens to chocolate in a hot hand?",
+          "it melts",
+          "it freezes",
+          "it turns into ice",
+          "Chocolate melts when it gets warm, so it gets soft and sticky."
+        ],
+        [
+          "What happens to water in the freezer?",
+          "it turns into ice",
+          "it turns into milk",
+          "it gets hot",
+          "The freezer is very cold, so the water freezes into ice."
+        ],
+        [
+          "What should you wear on your feet in the snow?",
+          "warm boots",
+          "flip-flops",
+          "bare feet",
+          "Warm boots keep the cold snow away from your toes."
+        ],
+        [
+          "What does a heater do?",
+          "it makes the room warm",
+          "it makes snow",
+          "it makes the room icy",
+          "A heater warms the room. It can get hot, so do not touch it."
+        ],
+        [
+          "Who should light a fire or a candle?",
+          "only a grown-up",
+          "a small child",
+          "a teddy bear",
+          "Fire can burn people and things. Only grown-ups should light it."
+        ]
+      ],
+      "de": [
+        [
+          "Ist die Sonne heiß oder kalt?",
+          "heiß",
+          "kalt",
+          "nass wie Regen",
+          "Die Sonne ist sehr, sehr heiß. Sie wärmt die ganze Erde."
+        ],
+        [
+          "Was davon ist kalt?",
+          "Schnee",
+          "die Sonne",
+          "ein Feuer",
+          "Schnee besteht aus winzigen Eisstückchen. Darum ist er kalt."
+        ],
+        [
+          "Was passiert mit Eis in einem warmen Zimmer?",
+          "es schmilzt zu Wasser",
+          "es wird größer",
+          "es wird zu einem Stein",
+          "Wärme lässt Eis schmelzen. Es wird wieder zu Wasser."
+        ],
+        [
+          "Darf man ein Feuer anfassen?",
+          "nein, es verbrennt dich",
+          "ja, es ist kalt",
+          "ja, es ist weich",
+          "Feuer ist sehr heiß. Es verbrennt die Haut, also fass es nie an."
+        ],
+        [
+          "Was hält deine Hände im Schnee warm?",
+          "Handschuhe",
+          "Eiswürfel",
+          "ein kaltes Getränk",
+          "Handschuhe bedecken die Hände und halten die Wärme drin."
+        ],
+        [
+          "Etwas könnte heiß sein. Was tust du?",
+          "einen Erwachsenen fragen",
+          "schnell anfassen",
+          "in den Mund stecken",
+          "Ein Erwachsener prüft, ob es sicher ist. So verbrennst du dich nicht."
+        ],
+        [
+          "Dein Kakao ist zu heiß. Was tust du?",
+          "warten, bis er abkühlt",
+          "alles auf einmal trinken",
+          "ihn über die Hand gießen",
+          "Heiße Getränke verbrennen den Mund. Warte, bis er nur noch warm ist."
+        ],
+        [
+          "Was passiert mit einem Schneemann, wenn die Sonne scheint?",
+          "er schmilzt",
+          "er wird größer",
+          "er läuft weg",
+          "Die warme Sonne schmilzt den Schnee. Der Schneemann wird kleiner."
+        ],
+        [
+          "Wo lebt ein Eisbär?",
+          "an einem kalten, eisigen Ort",
+          "in einer heißen Wüste",
+          "in einer warmen Badewanne",
+          "Eisbären leben am Nordpol. Dort gibt es viel Eis und Schnee."
+        ],
+        [
+          "Wie fühlt sich Sand in der heißen Sonne an?",
+          "heiß",
+          "eiskalt",
+          "nass wie das Meer",
+          "Die Sonne heizt den Sand auf. Unter den Füßen kann er sehr heiß sein."
+        ],
+        [
+          "Was zeigt uns, wie heiß oder kalt es ist?",
+          "ein Thermometer",
+          "ein Löffel",
+          "ein Kissen",
+          "Ein Thermometer misst, wie heiß oder kalt etwas ist."
+        ],
+        [
+          "Darf man eine Kerzenflamme anfassen?",
+          "nein, sie kann dich verbrennen",
+          "ja, sie ist kalt",
+          "ja, sie kitzelt",
+          "Eine Kerzenflamme ist heiß. Nur Erwachsene zünden Kerzen an."
+        ],
+        [
+          "Woraus ist Eis?",
+          "aus gefrorenem Wasser",
+          "aus gefrorenem Sand",
+          "aus Papier",
+          "Wenn Wasser sehr kalt wird, gefriert es und wird zu Eis."
+        ],
+        [
+          "Was in der Küche wird sehr heiß?",
+          "der Backofen",
+          "der Kühlschrank",
+          "ein Eiswürfel",
+          "Ein Backofen wird sehr heiß, um Essen zu kochen. Bleib weg davon."
+        ],
+        [
+          "Wo halten wir Essen kalt?",
+          "im Kühlschrank",
+          "im Backofen",
+          "in der heißen Sonne",
+          "Im Kühlschrank ist es kalt. So bleibt Essen länger frisch."
+        ],
+        [
+          "Wann kannst du Schlitten fahren?",
+          "wenn Schnee liegt",
+          "an einem heißen Strand",
+          "in der Badewanne",
+          "Ein Schlitten rutscht auf Schnee und Eis. Du brauchst einen kalten Tag mit Schnee."
+        ],
+        [
+          "Was ziehen wir an einem heißen Sonnentag an?",
+          "einen Sonnenhut",
+          "einen dicken Wintermantel",
+          "einen Wollschal",
+          "Ein Sonnenhut gibt Kopf und Gesicht Schatten vor der heißen Sonne."
+        ],
+        [
+          "Warum cremen wir uns mit Sonnencreme ein?",
+          "damit die Sonne die Haut nicht verbrennt",
+          "damit uns kalt wird",
+          "damit wir größer werden",
+          "Starke Sonne kann die Haut verbrennen. Sonnencreme schützt sie."
+        ],
+        [
+          "Ein Kuchen kommt gerade aus dem Ofen. Ist er heiß?",
+          "ja, er ist heiß",
+          "nein, er ist gefroren",
+          "nein, er ist voller Schnee",
+          "Der Ofen macht den Kuchen heiß. Lass ihn abkühlen, bevor du ihn anfasst."
+        ],
+        [
+          "Wo schmilzt ein Eis am Stiel am schnellsten?",
+          "in der heißen Sonne",
+          "im Gefrierfach",
+          "im Schnee",
+          "Wärme schmilzt Eis. In der heißen Sonne schmilzt das Eis sehr schnell."
+        ],
+        [
+          "Was hält dich nachts im Bett warm?",
+          "eine Bettdecke",
+          "ein Kühlakku",
+          "ein kaltes Getränk",
+          "Eine Decke hält die Wärme deines Körpers fest, während du schläfst."
+        ],
+        [
+          "Wozu hat ein Bär ein dickes Fell?",
+          "es hält den Bären warm",
+          "es hält den Bären nass",
+          "es macht den Bären kalt",
+          "Dickes Fell hält warme Luft am Körper, wie ein kuscheliger Mantel."
+        ],
+        [
+          "Brrr! Deine Zähne klappern. Wie fühlst du dich?",
+          "mir ist kalt",
+          "mir ist heiß",
+          "ich bin satt",
+          "Wenn uns kalt ist, zittert der Körper, um ein bisschen Wärme zu machen."
+        ],
+        [
+          "Darf man den Dampf aus dem Wasserkocher anfassen?",
+          "nein, er ist sehr heiß",
+          "ja, er ist eiskalt",
+          "ja, er ist weich wie ein Kissen",
+          "Dampf kommt von kochendem Wasser. Er ist sehr heiß und kann dich verbrennen."
+        ],
+        [
+          "Was trocknet eine Pfütze an einem Sonnentag?",
+          "die warme Sonne",
+          "der kalte Schnee",
+          "der Mond",
+          "Die Sonne wärmt das Wasser, und nach und nach geht es in die Luft."
+        ],
+        [
+          "Was passiert mit Schokolade in einer warmen Hand?",
+          "sie schmilzt",
+          "sie gefriert",
+          "sie wird zu Eis",
+          "Schokolade schmilzt, wenn sie warm wird. Sie wird weich und klebrig."
+        ],
+        [
+          "Was passiert mit Wasser im Gefrierfach?",
+          "es wird zu Eis",
+          "es wird zu Milch",
+          "es wird heiß",
+          "Im Gefrierfach ist es sehr kalt. Das Wasser gefriert zu Eis."
+        ],
+        [
+          "Was ziehst du im Schnee an die Füße?",
+          "warme Stiefel",
+          "Badelatschen",
+          "gar nichts, barfuß",
+          "Warme Stiefel halten den kalten Schnee von deinen Zehen fern."
+        ],
+        [
+          "Was macht eine Heizung?",
+          "sie macht das Zimmer warm",
+          "sie macht Schnee",
+          "sie macht das Zimmer eisig",
+          "Eine Heizung wärmt das Zimmer. Sie kann heiß werden, also fass sie nicht an."
+        ],
+        [
+          "Wer darf ein Feuer oder eine Kerze anzünden?",
+          "nur ein Erwachsener",
+          "ein kleines Kind",
+          "ein Teddybär",
+          "Feuer kann Menschen und Dinge verbrennen. Nur Erwachsene zünden es an."
+        ]
+      ],
+      "fr": [
+        [
+          "Le soleil est-il chaud ou froid ?",
+          "chaud",
+          "froid",
+          "mouillé comme la pluie",
+          "Le soleil est très, très chaud. Il réchauffe toute la Terre."
+        ],
+        [
+          "Lequel est froid ?",
+          "la neige",
+          "le soleil",
+          "un feu",
+          "La neige est faite de minuscules morceaux de glace : elle est froide."
+        ],
+        [
+          "Que devient la glace dans une pièce chaude ?",
+          "elle fond et devient de l’eau",
+          "elle grossit",
+          "elle devient un caillou",
+          "La chaleur fait fondre la glace. Elle redevient de l’eau."
+        ],
+        [
+          "Peut-on toucher un feu ?",
+          "non, il te brûlerait",
+          "oui, il est froid",
+          "oui, il est tout doux",
+          "Le feu est très chaud. Il brûle la peau : n’y touche jamais."
+        ],
+        [
+          "Qu’est-ce qui garde tes mains au chaud dans la neige ?",
+          "des gants",
+          "des glaçons",
+          "une boisson froide",
+          "Les gants couvrent tes mains et gardent la chaleur."
+        ],
+        [
+          "Quelque chose est peut-être chaud. Que fais-tu ?",
+          "je demande à un adulte",
+          "je le touche vite",
+          "je le mets dans ma bouche",
+          "Un adulte peut vérifier si c’est sans danger. Ainsi, tu ne te brûles pas."
+        ],
+        [
+          "Ton chocolat chaud est trop chaud. Que fais-tu ?",
+          "j’attends qu’il refroidisse",
+          "je le bois d’un coup",
+          "je le verse sur ma main",
+          "Une boisson trop chaude brûle la bouche. Attends qu’elle soit tiède."
+        ],
+        [
+          "Que devient un bonhomme de neige quand le soleil brille ?",
+          "il fond",
+          "il grandit",
+          "il s’en va en marchant",
+          "Le soleil chaud fait fondre la neige : le bonhomme rapetisse."
+        ],
+        [
+          "Où vit l’ours polaire ?",
+          "dans un endroit froid et glacé",
+          "dans un désert chaud",
+          "dans un bain chaud",
+          "L’ours polaire vit près du pôle Nord, où il y a beaucoup de glace et de neige."
+        ],
+        [
+          "Comment est le sable sous un soleil brûlant ?",
+          "chaud",
+          "glacé",
+          "mouillé comme la mer",
+          "Le soleil chauffe le sable : il peut être très chaud sous les pieds."
+        ],
+        [
+          "Qu’est-ce qui nous dit s’il fait chaud ou froid ?",
+          "un thermomètre",
+          "une cuillère",
+          "un oreiller",
+          "Un thermomètre mesure si quelque chose est chaud ou froid."
+        ],
+        [
+          "Peut-on toucher la flamme d’une bougie ?",
+          "non, elle peut te brûler",
+          "oui, elle est froide",
+          "oui, elle chatouille",
+          "La flamme d’une bougie est chaude. Seuls les adultes allument les bougies."
+        ],
+        [
+          "De quoi est faite la glace ?",
+          "d’eau gelée",
+          "de sable gelé",
+          "de papier",
+          "Quand l’eau devient très froide, elle gèle et devient de la glace."
+        ],
+        [
+          "Qu’est-ce qui devient très chaud dans la cuisine ?",
+          "le four",
+          "le frigo",
+          "un glaçon",
+          "Le four devient très chaud pour cuire les plats. Reste loin de lui."
+        ],
+        [
+          "Où garde-t-on les aliments au froid ?",
+          "dans le frigo",
+          "dans le four",
+          "au soleil brûlant",
+          "Il fait froid dans le frigo : les aliments restent frais plus longtemps."
+        ],
+        [
+          "Quand peux-tu faire de la luge ?",
+          "quand il y a de la neige",
+          "sur une plage brûlante",
+          "dans le bain",
+          "La luge glisse sur la neige et la glace : il faut une journée froide et enneigée."
+        ],
+        [
+          "Que porte-t-on par une journée chaude et ensoleillée ?",
+          "un chapeau de soleil",
+          "un gros manteau d’hiver",
+          "une écharpe en laine",
+          "Le chapeau protège ta tête et ton visage du soleil brûlant."
+        ],
+        [
+          "Pourquoi met-on de la crème solaire ?",
+          "pour protéger la peau du soleil",
+          "pour avoir froid",
+          "pour grandir",
+          "Le soleil fort peut brûler la peau. La crème solaire la protège."
+        ],
+        [
+          "Un gâteau sort du four. Est-il chaud ?",
+          "oui, il est chaud",
+          "non, il est gelé",
+          "non, il est plein de neige",
+          "Le four chauffe le gâteau. Laisse-le refroidir avant d’y toucher."
+        ],
+        [
+          "Où un esquimau fond-il le plus vite ?",
+          "au soleil brûlant",
+          "dans le congélateur",
+          "dans la neige",
+          "La chaleur fait fondre la glace. Au soleil, l’esquimau fond très vite."
+        ],
+        [
+          "Qu’est-ce qui te tient chaud au lit la nuit ?",
+          "une couverture",
+          "une poche de glace",
+          "une boisson froide",
+          "La couverture garde la chaleur de ton corps pendant que tu dors."
+        ],
+        [
+          "À quoi sert l’épaisse fourrure de l’ours ?",
+          "à lui tenir chaud",
+          "à le garder mouillé",
+          "à lui donner froid",
+          "La fourrure épaisse garde l’air chaud contre le corps, comme un manteau douillet."
+        ],
+        [
+          "Brrr ! Tes dents claquent. Comment te sens-tu ?",
+          "j’ai froid",
+          "j’ai chaud",
+          "j’ai bien mangé",
+          "Quand on a froid, le corps tremble pour faire un peu de chaleur."
+        ],
+        [
+          "Peut-on toucher la vapeur de la bouilloire ?",
+          "non, elle est très chaude",
+          "oui, elle est glacée",
+          "oui, elle est douce comme un oreiller",
+          "La vapeur vient de l’eau qui bout. Elle est très chaude et peut te brûler."
+        ],
+        [
+          "Qu’est-ce qui sèche une flaque par une journée de soleil ?",
+          "le soleil chaud",
+          "la neige froide",
+          "la lune",
+          "Le soleil chauffe l’eau, et peu à peu elle part dans l’air."
+        ],
+        [
+          "Que devient le chocolat dans une main chaude ?",
+          "il fond",
+          "il gèle",
+          "il devient de la glace",
+          "Le chocolat fond quand il a chaud : il devient mou et collant."
+        ],
+        [
+          "Que devient l’eau dans le congélateur ?",
+          "elle devient de la glace",
+          "elle devient du lait",
+          "elle devient chaude",
+          "Il fait très froid dans le congélateur : l’eau gèle et devient de la glace."
+        ],
+        [
+          "Que mets-tu aux pieds dans la neige ?",
+          "des bottes chaudes",
+          "des tongs",
+          "rien, pieds nus",
+          "Les bottes chaudes gardent la neige froide loin de tes orteils."
+        ],
+        [
+          "À quoi sert le chauffage ?",
+          "à réchauffer la pièce",
+          "à faire de la neige",
+          "à rendre la pièce glacée",
+          "Le chauffage réchauffe la pièce. Il peut devenir chaud : n’y touche pas."
+        ],
+        [
+          "Qui peut allumer un feu ou une bougie ?",
+          "seulement un adulte",
+          "un petit enfant",
+          "un ours en peluche",
+          "Le feu peut brûler les gens et les choses. Seuls les adultes l’allument."
+        ]
+      ],
+      "yo": [
+        [
+          "Ṣé oòrùn gbóná àbí ó tutù?",
+          "ó gbóná",
+          "ó tutù",
+          "ó rin bí òjò",
+          "Oòrùn gbóná gan-an ni. Ó ń mú gbogbo ayé móoru."
+        ],
+        [
+          "Èwo ló tutù?",
+          "òjò dídì",
+          "oòrùn",
+          "iná",
+          "Òjò dídì jẹ́ yìnyín kéékèèké, nítorí náà ó tutù."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí yìnyín nínú yàrá tí ó móoru?",
+          "ó ń yọ́ di omi",
+          "ó ń tóbi sí i",
+          "ó ń di òkúta",
+          "Ooru ń mú yìnyín yọ́. Ó tún padà di omi."
+        ],
+        [
+          "Ṣé ó dára láti fọwọ́ kan iná?",
+          "rárá, yóò jó ọ",
+          "bẹ́ẹ̀ni, ó tutù",
+          "bẹ́ẹ̀ni, ó rọ̀",
+          "Iná gbóná gan-an. Ó lè jó awọ ara rẹ, nítorí náà má ṣe fọwọ́ kàn án láé."
+        ],
+        [
+          "Kí ló ń mú ọwọ́ rẹ móoru nínú òjò dídì?",
+          "ìbọ̀wọ́",
+          "yìnyín kéékèèké",
+          "ohun mímu tútù",
+          "Ìbọ̀wọ́ ń bo ọwọ́ rẹ, ó sì ń pa ooru mọ́ sínú."
+        ],
+        [
+          "Ohun kan lè gbóná. Kí ló yẹ kí o ṣe?",
+          "bi àgbàlagbà",
+          "fọwọ́ kàn án kíákíá",
+          "fi sí ẹnu rẹ",
+          "Àgbàlagbà lè yẹ̀ ẹ́ wò bóyá kò léwu, kí iná má baà jó ọ."
+        ],
+        [
+          "Kòkó rẹ ti gbóná jù. Kí ló yẹ kí o ṣe?",
+          "dúró kí ó tutù díẹ̀",
+          "mu gbogbo rẹ̀ lẹ́ẹ̀kan",
+          "dà á sí ọwọ́ rẹ",
+          "Ohun mímu gbígbóná lè jó ẹnu rẹ. Dúró títí yóò fi lọ́ wọ́rọ́wọ́rọ́."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí ọmọlangidi òjò dídì tí oòrùn bá yọ?",
+          "ó ń yọ́",
+          "ó ń ga sí i",
+          "ó ń rìn lọ",
+          "Oòrùn tí ó móoru ń mú òjò dídì yọ́, nítorí náà ọmọlangidi náà ń kéré sí i."
+        ],
+        [
+          "Níbo ni bíà funfun ń gbé?",
+          "ní ibi tí ó tutù, tí yìnyín pọ̀ sí",
+          "ní aṣálẹ̀ gbígbóná",
+          "nínú omi ìwẹ̀ lílọ́wọ́ọ́wọ́",
+          "Bíà funfun ń gbé nítòsí Òpó Àríwá, níbi tí yìnyín àti òjò dídì pọ̀ sí."
+        ],
+        [
+          "Báwo ni iyanrìn ṣe rí lára nínú oòrùn gbígbóná?",
+          "ó gbóná",
+          "ó tutù bí yìnyín",
+          "ó rin bí òkun",
+          "Oòrùn ń mú iyanrìn gbóná, ó sì lè gbóná gan-an lábẹ́ ẹsẹ̀ rẹ."
+        ],
+        [
+          "Kí ló ń sọ fún wa bí nǹkan ṣe gbóná tàbí tutù tó?",
+          "ẹ̀rọ ìwọ̀n ooru",
+          "ṣíbí",
+          "ìrọ̀rí",
+          "Ẹ̀rọ ìwọ̀n ooru (tẹ́mómítà) ń wọn bí nǹkan ṣe gbóná tàbí tutù tó."
+        ],
+        [
+          "Ṣé o lè fọwọ́ kan iná àbẹ́là?",
+          "rárá, ó lè jó ọ",
+          "bẹ́ẹ̀ni, ó tutù",
+          "bẹ́ẹ̀ni, ó ń rìn ọ́ lára",
+          "Iná àbẹ́là gbóná. Àgbàlagbà nìkan ló yẹ kí ó tan àbẹ́là."
+        ],
+        [
+          "Kí ni wọ́n fi ṣe yìnyín?",
+          "omi tí ó dì",
+          "iyanrìn tí ó dì",
+          "ìwé",
+          "Tí omi bá tutù gan-an, ó máa ń dì, ó sì di yìnyín."
+        ],
+        [
+          "Kí ló máa ń gbóná gan-an ní ilé ìdáná?",
+          "ààrò",
+          "fìríìjì",
+          "yìnyín kékeré",
+          "Ààrò máa ń gbóná gan-an láti se oúnjẹ. Má ṣe sún mọ́ ọn."
+        ],
+        [
+          "Níbo la ti ń pa oúnjẹ mọ́ kí ó tutù?",
+          "nínú fìríìjì",
+          "nínú ààrò",
+          "nínú oòrùn gbígbóná",
+          "Inú fìríìjì tutù, nítorí náà oúnjẹ kì í tètè bàjẹ́."
+        ],
+        [
+          "Ìgbà wo lo lè gun ọkọ̀ yìnyín?",
+          "tí òjò dídì bá wà",
+          "ní etí òkun gbígbóná",
+          "nínú omi ìwẹ̀",
+          "Ọkọ̀ yìnyín ń yọ̀ lórí òjò dídì àti yìnyín, nítorí náà o nílò ọjọ́ tí ó tutù."
+        ],
+        [
+          "Kí la máa ń wọ̀ ní ọjọ́ tí oòrùn mú?",
+          "fìlà oòrùn",
+          "ẹ̀wù òtútù tí ó nípọn",
+          "ìborùn onírun",
+          "Fìlà oòrùn ń bo orí àti ojú rẹ lọ́wọ́ oòrùn gbígbóná."
+        ],
+        [
+          "Kí ló dé tí a fi ń fi ìpara oòrùn pa ara?",
+          "kí oòrùn má baà ṣe awọ ara wa léṣe",
+          "kí ara wa lè tutù",
+          "kí a lè ga sí i",
+          "Oòrùn tí ó mú gan-an lè jó awọ ara. Ìpara oòrùn ń dáàbò bò ó."
+        ],
+        [
+          "Kéèkì ṣẹ̀ṣẹ̀ jáde láti inú ààrò. Ṣé ó gbóná?",
+          "bẹ́ẹ̀ni, ó gbóná",
+          "rárá, ó ti dì",
+          "rárá, òjò dídì kún inú rẹ̀",
+          "Ààrò ti mú kéèkì náà gbóná. Jẹ́ kí ó tutù kí o tó fọwọ́ kàn án."
+        ],
+        [
+          "Níbo ni yìnyín adùn onígi ti máa yọ́ jù?",
+          "nínú oòrùn gbígbóná",
+          "nínú ẹ̀rọ amúnǹkan-dì",
+          "nínú òjò dídì",
+          "Ooru ń mú yìnyín yọ́. Oòrùn gbígbóná ń mú un yọ́ kíákíá."
+        ],
+        [
+          "Kí ló ń mú ọ móoru lórí ibùsùn ní alẹ́?",
+          "aṣọ ìbora",
+          "àpò yìnyín",
+          "ohun mímu tútù",
+          "Aṣọ ìbora ń pa ooru ara rẹ mọ́ nígbà tí o bá ń sùn."
+        ],
+        [
+          "Kí ni irun tí ó nípọn ń ṣe fún bíà?",
+          "ó ń mú bíà móoru",
+          "ó ń mú bíà rin",
+          "ó ń mú bíà tutù",
+          "Irun tí ó nípọn ń pa afẹ́fẹ́ gbígbóná mọ́ ara, bí ẹ̀wù òtútù."
+        ],
+        [
+          "Bùrùù! Eyín rẹ ń gbọ̀n. Báwo lo ṣe rí lára?",
+          "òtútù ń mú mi",
+          "ooru ń mú mi",
+          "mo ti yó",
+          "Tí òtútù bá ń mú wa, ara wa máa ń gbọ̀n láti ṣe ooru díẹ̀."
+        ],
+        [
+          "Ṣé ó dára láti fọwọ́ kan èéfín omi láti inú ìkòkò omi gbígbóná?",
+          "rárá, ó gbóná gan-an",
+          "bẹ́ẹ̀ni, ó tutù bí yìnyín",
+          "bẹ́ẹ̀ni, ó rọ̀ bí ìrọ̀rí",
+          "Èéfín yìí ń wá láti inú omi tí ó ń hó. Ó gbóná gan-an, ó sì lè jó ọ."
+        ],
+        [
+          "Kí ló ń mú omi tí ó dúró sí ilẹ̀ gbẹ ní ọjọ́ tí oòrùn mú?",
+          "oòrùn tí ó móoru",
+          "òjò dídì tí ó tutù",
+          "òṣùpá",
+          "Oòrùn ń mú omi náà móoru, díẹ̀díẹ̀ ó sì ń lọ sínú afẹ́fẹ́."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí ṣokoléètì nínú ọwọ́ tí ó gbóná?",
+          "ó ń yọ́",
+          "ó ń dì",
+          "ó ń di yìnyín",
+          "Ṣokoléètì máa ń yọ́ tí ó bá móoru, ó sì máa ń rọ̀, ó ń lẹ̀ mọ́ ọwọ́."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí omi nínú ẹ̀rọ amúnǹkan-dì?",
+          "ó ń di yìnyín",
+          "ó ń di wàrà",
+          "ó ń gbóná",
+          "Inú ẹ̀rọ amúnǹkan-dì tutù gan-an, nítorí náà omi ń dì, ó sì di yìnyín."
+        ],
+        [
+          "Kí ló yẹ kí o wọ̀ sí ẹsẹ̀ nínú òjò dídì?",
+          "bàtà gígùn tí ó móoru",
+          "sálúbàtà pẹlẹbẹ",
+          "ẹsẹ̀ lásán",
+          "Bàtà gígùn tí ó móoru ń dáàbò bo ọmọ ìka ẹsẹ̀ rẹ lọ́wọ́ òjò dídì tútù."
+        ],
+        [
+          "Kí ni ẹ̀rọ amúlé-móoru ń ṣe?",
+          "ó ń mú yàrá móoru",
+          "ó ń ṣe òjò dídì",
+          "ó ń mú yàrá tutù bí yìnyín",
+          "Ẹ̀rọ amúlé-móoru ń mú yàrá móoru. Ó lè gbóná, nítorí náà má ṣe fọwọ́ kàn án."
+        ],
+        [
+          "Ta ló yẹ kí ó tan iná tàbí àbẹ́là?",
+          "àgbàlagbà nìkan",
+          "ọmọ kékeré",
+          "ọmọlangidi bíà",
+          "Iná lè jó ènìyàn àti nǹkan. Àgbàlagbà nìkan ló yẹ kí ó tàn án."
+        ]
+      ]
+    }
+  },
+  "emoji": "thermometer",
+  "example": {
+    "i": 0,
+    "q_en": "Is the sun hot or cold?",
+    "answer_en": "hot",
+    "why_en": "The sun is very, very hot. It warms the whole Earth.",
+    "q_de": "Ist die Sonne heiß oder kalt?",
+    "answer_de": "heiß",
+    "why_de": "Die Sonne ist sehr, sehr heiß. Sie wärmt die ganze Erde.",
+    "q_fr": "Le soleil est-il chaud ou froid ?",
+    "answer_fr": "chaud",
+    "why_fr": "Le soleil est très, très chaud. Il réchauffe toute la Terre.",
+    "q_yo": "Ṣé oòrùn gbóná àbí ó tutù?",
+    "answer_yo": "ó gbóná",
+    "why_yo": "Oòrùn gbóná gan-an ni. Ó ń mú gbogbo ayé móoru."
+  },
+  "text": {
+    "en": {
+      "title": "Hot and cold",
+      "teach": "The sun and fire are hot. Snow and ice are cold. Ice melts when it gets warm. Hot things can burn, so ask a grown-up.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Heiß und kalt",
+      "teach": "Die Sonne und Feuer sind heiß. Schnee und Eis sind kalt. Eis schmilzt, wenn es warm wird. Heißes kann brennen, darum frag einen Erwachsenen.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Chaud et froid",
+      "teach": "Le soleil et le feu sont chauds. La neige et la glace sont froides. La glace fond quand il fait chaud. Ce qui est chaud peut brûler : demande à un adulte.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Gbígbóná àti títutù",
+      "teach": "Oòrùn àti iná gbóná. Òjò dídì àti yìnyín tutù. Yìnyín máa ń yọ́ tí ooru bá dé bá a. Ohun gbígbóná lè jó ọ, nítorí náà bi àgbàlagbà.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

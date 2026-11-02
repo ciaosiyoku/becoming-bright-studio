@@ -1,0 +1,936 @@
+{
+  "id": "sci4-weather",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 106,
+  "params": {
+    "emojis": [
+      "rain",
+      "droplet",
+      "sun",
+      "snow",
+      "snowflake",
+      "snow",
+      "snowman",
+      "thermometer",
+      "cloud",
+      "sun-small-cloud",
+      "tree",
+      "sun-rain",
+      "storm",
+      "house",
+      "sun",
+      "beach",
+      "sled",
+      "iceskate",
+      "snowman",
+      "droplet",
+      "fog",
+      "cloud",
+      "sun-cloud",
+      "scarf",
+      "warning",
+      "sun-small-cloud",
+      "snowflake",
+      "sun-large-cloud",
+      "umbrella",
+      "rain"
+    ],
+    "bank": {
+      "en": [
+        [
+          "It is raining. What should you wear outside?",
+          "a raincoat",
+          "pyjamas",
+          "a paper crown",
+          "A raincoat keeps the rain off you, so you stay dry."
+        ],
+        [
+          "What is best on your feet for jumping in puddles?",
+          "rain boots",
+          "slippers",
+          "socks only",
+          "Rain boots keep water out, so your feet stay dry."
+        ],
+        [
+          "It is hot and sunny. What do you put on your skin?",
+          "sun cream",
+          "snow",
+          "mud",
+          "Sun cream helps stop the Sun from burning your skin."
+        ],
+        [
+          "What can you build with snow?",
+          "a snowman",
+          "a sandcastle",
+          "a treehouse",
+          "Snow can be pressed together and rolled into a snowman."
+        ],
+        [
+          "What colour is fresh snow?",
+          "white",
+          "green",
+          "red",
+          "Fresh snow is white and sparkly."
+        ],
+        [
+          "How does snow feel when you touch it?",
+          "cold",
+          "hot",
+          "warm like toast",
+          "Snow is frozen water, so it feels very cold."
+        ],
+        [
+          "It is snowy outside. What keeps your hands warm?",
+          "gloves",
+          "sunglasses",
+          "flip-flops",
+          "Gloves cover your hands and keep them warm in the cold."
+        ],
+        [
+          "On a cold day, what do you wrap around your neck?",
+          "a scarf",
+          "a belt",
+          "a necklace of sweets",
+          "A warm scarf keeps your neck cosy when it is cold."
+        ],
+        [
+          "Where does rain fall from?",
+          "the clouds",
+          "the trees",
+          "the grass",
+          "Rain is drops of water that fall from the clouds."
+        ],
+        [
+          "What does a windy day help you fly?",
+          "a kite",
+          "a stone",
+          "a chair",
+          "The wind pushes the kite up high into the sky."
+        ],
+        [
+          "How can you tell it is windy?",
+          "leaves and branches move",
+          "it gets dark",
+          "the grass turns blue",
+          "You cannot see wind, but you can see it push leaves and branches."
+        ],
+        [
+          "Sunshine and rain at the same time can make a…",
+          "rainbow",
+          "snowman",
+          "sandcastle",
+          "When sunlight shines through raindrops, we can see a rainbow."
+        ],
+        [
+          "What loud sound can you hear in a storm?",
+          "thunder",
+          "a doorbell",
+          "a cat purring",
+          "Thunder is the big rumbling sound you hear in a thunderstorm."
+        ],
+        [
+          "There is a thunderstorm. Where is the safest place to be?",
+          "inside a house",
+          "under a tall tree",
+          "on top of a hill",
+          "In a storm, it is safest to stay indoors, away from tall trees."
+        ],
+        [
+          "It is very hot. Where is a good place to play?",
+          "in the shade",
+          "next to a fire",
+          "in the hot sun all day",
+          "The shade is cooler and keeps the strong sunshine off you."
+        ],
+        [
+          "Which weather is best for a day at the beach?",
+          "sunny and warm",
+          "snowy",
+          "stormy",
+          "A warm, sunny day is great for playing on the sand."
+        ],
+        [
+          "When can you slide down a hill on a sledge?",
+          "when there is snow",
+          "on a hot, sunny day",
+          "when the grass is dry",
+          "A sledge slides easily over snow."
+        ],
+        [
+          "Water outside turns into ice when it is very…",
+          "cold",
+          "hot",
+          "windy",
+          "When it is very cold, water freezes and becomes hard ice."
+        ],
+        [
+          "The Sun comes out and it gets warm. What happens to a snowman?",
+          "it melts",
+          "it grows bigger",
+          "it walks away",
+          "Warmth turns snow back into water, so the snowman melts."
+        ],
+        [
+          "What makes puddles on the ground?",
+          "rain",
+          "paint",
+          "milk",
+          "Rain falls and collects in low places on the ground to make puddles."
+        ],
+        [
+          "It is foggy. What is hard to do?",
+          "see things far away",
+          "eat your lunch",
+          "sing a song",
+          "Fog is like a cloud near the ground, so it is hard to see far."
+        ],
+        [
+          "The wind is very strong. What might happen to your hat?",
+          "it blows away",
+          "it melts",
+          "it turns into a bird",
+          "Strong wind can lift a hat off your head and blow it away."
+        ],
+        [
+          "What tells us how hot or cold it is?",
+          "a thermometer",
+          "a spoon",
+          "a clock",
+          "A thermometer measures how warm or cold the air is."
+        ],
+        [
+          "What should you wear on a cold winter day?",
+          "a warm coat and hat",
+          "shorts and sandals",
+          "a swimsuit",
+          "A warm coat and hat keep the cold out."
+        ],
+        [
+          "What should you never look straight at?",
+          "the Sun",
+          "a flower",
+          "a book",
+          "The Sun is so bright that looking at it can hurt your eyes."
+        ],
+        [
+          "On a sunny day, what keeps the Sun out of your eyes?",
+          "a sun hat",
+          "a scarf",
+          "gloves",
+          "A sun hat with a brim shades your eyes and face."
+        ],
+        [
+          "In which season does snow usually fall?",
+          "winter",
+          "summer",
+          "on hot days",
+          "Snow falls when it is very cold, most often in winter."
+        ],
+        [
+          "Big dark grey clouds often mean…",
+          "rain is coming",
+          "it will be hot and sunny",
+          "it is bedtime",
+          "Dark clouds are full of water drops, so rain often comes soon."
+        ],
+        [
+          "Why do we open an umbrella?",
+          "to stay dry in the rain",
+          "to fly like a bird",
+          "to cook food",
+          "An umbrella stops raindrops from landing on you."
+        ],
+        [
+          "What does rain give to plants and animals?",
+          "water to drink",
+          "toys to play with",
+          "sweets to eat",
+          "Rain gives water, and every living thing needs water."
+        ]
+      ],
+      "de": [
+        [
+          "Es regnet. Was ziehst du draußen an?",
+          "eine Regenjacke",
+          "einen Schlafanzug",
+          "eine Papierkrone",
+          "Eine Regenjacke hält den Regen ab. So bleibst du trocken."
+        ],
+        [
+          "Was ist an den Füßen am besten, um in Pfützen zu springen?",
+          "Gummistiefel",
+          "Hausschuhe",
+          "nur Socken",
+          "Gummistiefel lassen kein Wasser hinein. So bleiben deine Füße trocken."
+        ],
+        [
+          "Es ist heiß und sonnig. Was cremst du auf deine Haut?",
+          "Sonnencreme",
+          "Schnee",
+          "Matsch",
+          "Sonnencreme schützt deine Haut vor Sonnenbrand."
+        ],
+        [
+          "Was kannst du aus Schnee bauen?",
+          "einen Schneemann",
+          "eine Sandburg",
+          "ein Baumhaus",
+          "Schnee kann man zusammendrücken und zu einem Schneemann rollen."
+        ],
+        [
+          "Welche Farbe hat frischer Schnee?",
+          "weiß",
+          "grün",
+          "rot",
+          "Frischer Schnee ist weiß und glitzert."
+        ],
+        [
+          "Wie fühlt sich Schnee an, wenn du ihn anfasst?",
+          "kalt",
+          "heiß",
+          "warm wie Toast",
+          "Schnee ist gefrorenes Wasser. Darum fühlt er sich sehr kalt an."
+        ],
+        [
+          "Draußen liegt Schnee. Was hält deine Hände warm?",
+          "Handschuhe",
+          "eine Sonnenbrille",
+          "Flip-Flops",
+          "Handschuhe bedecken deine Hände und halten sie in der Kälte warm."
+        ],
+        [
+          "Was wickelst du an einem kalten Tag um deinen Hals?",
+          "einen Schal",
+          "einen Gürtel",
+          "eine Kette aus Bonbons",
+          "Ein warmer Schal hält deinen Hals warm, wenn es kalt ist."
+        ],
+        [
+          "Woher fällt der Regen?",
+          "aus den Wolken",
+          "von den Bäumen",
+          "aus dem Gras",
+          "Regen sind Wassertropfen, die aus den Wolken fallen."
+        ],
+        [
+          "Was kannst du an einem windigen Tag fliegen lassen?",
+          "einen Drachen",
+          "einen Stein",
+          "einen Stuhl",
+          "Der Wind trägt den Drachen hoch in den Himmel."
+        ],
+        [
+          "Woran merkst du, dass es windig ist?",
+          "Blätter und Äste bewegen sich.",
+          "Es wird dunkel.",
+          "Das Gras wird blau.",
+          "Wind kann man nicht sehen, aber man sieht, wie er Blätter und Äste bewegt."
+        ],
+        [
+          "Was können Sonne und Regen zusammen machen?",
+          "einen Regenbogen",
+          "einen Schneemann",
+          "eine Sandburg",
+          "Wenn Sonnenlicht durch Regentropfen scheint, sehen wir einen Regenbogen."
+        ],
+        [
+          "Welches laute Geräusch hörst du bei einem Gewitter?",
+          "Donner",
+          "eine Türklingel",
+          "eine schnurrende Katze",
+          "Donner ist das laute Grollen, das man bei einem Gewitter hört."
+        ],
+        [
+          "Es gibt ein Gewitter. Wo bist du am sichersten?",
+          "in einem Haus",
+          "unter einem hohen Baum",
+          "oben auf einem Hügel",
+          "Bei Gewitter ist man drinnen am sichersten, weit weg von hohen Bäumen."
+        ],
+        [
+          "Es ist sehr heiß. Wo spielst du am besten?",
+          "im Schatten",
+          "neben einem Feuer",
+          "den ganzen Tag in der prallen Sonne",
+          "Im Schatten ist es kühler, und die starke Sonne trifft dich nicht."
+        ],
+        [
+          "Welches Wetter ist am besten für einen Tag am Strand?",
+          "sonnig und warm",
+          "verschneit",
+          "stürmisch",
+          "An einem warmen, sonnigen Tag kann man toll im Sand spielen."
+        ],
+        [
+          "Wann kannst du mit dem Schlitten den Hügel hinunterfahren?",
+          "wenn Schnee liegt",
+          "an einem heißen, sonnigen Tag",
+          "wenn das Gras trocken ist",
+          "Ein Schlitten rutscht leicht über den Schnee."
+        ],
+        [
+          "Wann wird Wasser draußen zu Eis?",
+          "wenn es sehr kalt ist",
+          "wenn es sehr heiß ist",
+          "wenn es windig ist",
+          "Wenn es sehr kalt ist, gefriert Wasser zu hartem Eis."
+        ],
+        [
+          "Die Sonne kommt heraus und es wird warm. Was passiert mit einem Schneemann?",
+          "Er schmilzt.",
+          "Er wird größer.",
+          "Er geht weg.",
+          "Wärme macht aus Schnee wieder Wasser. Der Schneemann schmilzt."
+        ],
+        [
+          "Wodurch entstehen Pfützen auf dem Boden?",
+          "durch Regen",
+          "durch Farbe",
+          "durch Milch",
+          "Regen fällt und sammelt sich in Mulden am Boden. So entstehen Pfützen."
+        ],
+        [
+          "Es ist neblig. Was ist schwer?",
+          "Dinge in der Ferne sehen",
+          "dein Mittagessen essen",
+          "ein Lied singen",
+          "Nebel ist wie eine Wolke am Boden. Darum kann man nicht weit sehen."
+        ],
+        [
+          "Der Wind ist sehr stark. Was kann mit deiner Mütze passieren?",
+          "Sie wird weggeweht.",
+          "Sie schmilzt.",
+          "Sie wird zu einem Vogel.",
+          "Starker Wind kann dir die Mütze vom Kopf wehen."
+        ],
+        [
+          "Was zeigt uns, wie warm oder kalt es ist?",
+          "ein Thermometer",
+          "ein Löffel",
+          "eine Uhr",
+          "Ein Thermometer misst, wie warm oder kalt die Luft ist."
+        ],
+        [
+          "Was ziehst du an einem kalten Wintertag an?",
+          "einen warmen Mantel und eine Mütze",
+          "kurze Hosen und Sandalen",
+          "einen Badeanzug",
+          "Ein warmer Mantel und eine Mütze halten die Kälte ab."
+        ],
+        [
+          "Wohin solltest du nie direkt schauen?",
+          "in die Sonne",
+          "auf eine Blume",
+          "in ein Buch",
+          "Die Sonne ist so hell, dass sie deinen Augen schaden kann."
+        ],
+        [
+          "Was schützt an einem sonnigen Tag deine Augen vor der Sonne?",
+          "ein Sonnenhut",
+          "ein Schal",
+          "Handschuhe",
+          "Ein Sonnenhut mit Krempe gibt deinen Augen und deinem Gesicht Schatten."
+        ],
+        [
+          "In welcher Jahreszeit fällt meistens Schnee?",
+          "im Winter",
+          "im Sommer",
+          "an heißen Tagen",
+          "Schnee fällt, wenn es sehr kalt ist, meistens im Winter."
+        ],
+        [
+          "Große dunkelgraue Wolken bedeuten oft:",
+          "Bald regnet es.",
+          "Es wird heiß und sonnig.",
+          "Es ist Schlafenszeit.",
+          "Dunkle Wolken sind voller Wassertropfen. Darum regnet es oft bald."
+        ],
+        [
+          "Warum spannen wir einen Regenschirm auf?",
+          "um im Regen trocken zu bleiben",
+          "um wie ein Vogel zu fliegen",
+          "um Essen zu kochen",
+          "Ein Regenschirm hält die Regentropfen von dir ab."
+        ],
+        [
+          "Was gibt der Regen Pflanzen und Tieren?",
+          "Wasser zum Trinken",
+          "Spielzeug zum Spielen",
+          "Süßigkeiten zum Essen",
+          "Regen bringt Wasser, und alle Lebewesen brauchen Wasser."
+        ]
+      ],
+      "fr": [
+        [
+          "Il pleut. Que mets-tu pour sortir ?",
+          "un imperméable",
+          "un pyjama",
+          "une couronne en papier",
+          "L’imperméable arrête la pluie : tu restes au sec."
+        ],
+        [
+          "Que mettre aux pieds pour sauter dans les flaques ?",
+          "des bottes de pluie",
+          "des chaussons",
+          "seulement des chaussettes",
+          "Les bottes de pluie ne laissent pas entrer l’eau : tes pieds restent secs."
+        ],
+        [
+          "Il fait chaud et il y a du soleil. Que mets-tu sur ta peau ?",
+          "de la crème solaire",
+          "de la neige",
+          "de la boue",
+          "La crème solaire protège ta peau des coups de soleil."
+        ],
+        [
+          "Que peux-tu construire avec de la neige ?",
+          "un bonhomme de neige",
+          "un château de sable",
+          "une cabane dans un arbre",
+          "On peut tasser et rouler la neige pour faire un bonhomme de neige."
+        ],
+        [
+          "De quelle couleur est la neige fraîche ?",
+          "blanche",
+          "verte",
+          "rouge",
+          "La neige fraîche est blanche et elle brille."
+        ],
+        [
+          "Quand tu touches la neige, elle est comment ?",
+          "froide",
+          "brûlante",
+          "chaude comme du pain grillé",
+          "La neige, c’est de l’eau gelée : elle est très froide."
+        ],
+        [
+          "Il y a de la neige dehors. Qu’est-ce qui garde tes mains au chaud ?",
+          "des gants",
+          "des lunettes de soleil",
+          "des tongs",
+          "Les gants couvrent tes mains et les gardent au chaud quand il fait froid."
+        ],
+        [
+          "Par temps froid, que mets-tu autour de ton cou ?",
+          "une écharpe",
+          "une ceinture",
+          "un collier de bonbons",
+          "Une écharpe bien chaude garde ton cou au chaud quand il fait froid."
+        ],
+        [
+          "D’où tombe la pluie ?",
+          "des nuages",
+          "des arbres",
+          "de l’herbe",
+          "La pluie, ce sont des gouttes d’eau qui tombent des nuages."
+        ],
+        [
+          "Par un jour de vent, que peux-tu faire voler ?",
+          "un cerf-volant",
+          "un caillou",
+          "une chaise",
+          "Le vent pousse le cerf-volant haut dans le ciel."
+        ],
+        [
+          "Comment sais-tu qu’il y a du vent ?",
+          "les feuilles et les branches bougent",
+          "il fait nuit",
+          "l’herbe devient bleue",
+          "On ne voit pas le vent, mais on le voit pousser les feuilles et les branches."
+        ],
+        [
+          "Le soleil et la pluie en même temps peuvent faire…",
+          "un arc-en-ciel",
+          "un bonhomme de neige",
+          "un château de sable",
+          "Quand le soleil brille à travers les gouttes de pluie, on voit un arc-en-ciel."
+        ],
+        [
+          "Quel grand bruit entend-on pendant un orage ?",
+          "le tonnerre",
+          "une sonnette",
+          "un chat qui ronronne",
+          "Le tonnerre, c’est le gros grondement qu’on entend pendant un orage."
+        ],
+        [
+          "Il y a un orage. Où est-on le plus en sécurité ?",
+          "dans une maison",
+          "sous un grand arbre",
+          "en haut d’une colline",
+          "Pendant un orage, le plus sûr est de rester à l’intérieur, loin des grands arbres."
+        ],
+        [
+          "Il fait très chaud. Où est-il bon de jouer ?",
+          "à l’ombre",
+          "à côté d’un feu",
+          "en plein soleil toute la journée",
+          "À l’ombre, il fait plus frais et le soleil ne tape pas sur toi."
+        ],
+        [
+          "Quel temps est le meilleur pour une journée à la plage ?",
+          "ensoleillé et chaud",
+          "neigeux",
+          "orageux",
+          "Par une belle journée chaude, on peut bien jouer dans le sable."
+        ],
+        [
+          "Quand peux-tu descendre une colline en luge ?",
+          "quand il y a de la neige",
+          "par une journée chaude et ensoleillée",
+          "quand l’herbe est sèche",
+          "Une luge glisse facilement sur la neige."
+        ],
+        [
+          "Dehors, l’eau se transforme en glace quand il fait très…",
+          "froid",
+          "chaud",
+          "venteux",
+          "Quand il fait très froid, l’eau gèle et devient de la glace dure."
+        ],
+        [
+          "Le soleil sort et il fait plus chaud. Que devient le bonhomme de neige ?",
+          "il fond",
+          "il grandit",
+          "il s’en va à pied",
+          "La chaleur transforme la neige en eau : le bonhomme de neige fond."
+        ],
+        [
+          "Qu’est-ce qui fait des flaques par terre ?",
+          "la pluie",
+          "la peinture",
+          "le lait",
+          "La pluie tombe et s’accumule dans les creux du sol : ça fait des flaques."
+        ],
+        [
+          "Il y a du brouillard. Qu’est-ce qui est difficile ?",
+          "voir loin",
+          "manger ton repas",
+          "chanter une chanson",
+          "Le brouillard, c’est comme un nuage près du sol : on ne voit pas loin."
+        ],
+        [
+          "Le vent est très fort. Que peut-il arriver à ton chapeau ?",
+          "il s’envole",
+          "il fond",
+          "il devient un oiseau",
+          "Un vent fort peut soulever ton chapeau et l’emporter."
+        ],
+        [
+          "Qu’est-ce qui nous dit s’il fait chaud ou froid ?",
+          "un thermomètre",
+          "une cuillère",
+          "une horloge",
+          "Le thermomètre mesure si l’air est chaud ou froid."
+        ],
+        [
+          "Que mets-tu par une froide journée d’hiver ?",
+          "un manteau chaud et un bonnet",
+          "un short et des sandales",
+          "un maillot de bain",
+          "Un manteau chaud et un bonnet te protègent du froid."
+        ],
+        [
+          "Que ne faut-il jamais regarder en face ?",
+          "le Soleil",
+          "une fleur",
+          "un livre",
+          "Le Soleil est si fort que le regarder peut abîmer tes yeux."
+        ],
+        [
+          "Par une journée de soleil, qu’est-ce qui protège tes yeux du soleil ?",
+          "un chapeau de soleil",
+          "une écharpe",
+          "des gants",
+          "Un chapeau à bord fait de l’ombre sur tes yeux et ton visage."
+        ],
+        [
+          "En quelle saison la neige tombe-t-elle le plus souvent ?",
+          "en hiver",
+          "en été",
+          "les jours de canicule",
+          "La neige tombe quand il fait très froid, le plus souvent en hiver."
+        ],
+        [
+          "De gros nuages gris foncé veulent souvent dire…",
+          "qu’il va pleuvoir",
+          "qu’il va faire chaud et beau",
+          "que c’est l’heure de dormir",
+          "Les nuages sombres sont pleins de gouttes d’eau : la pluie arrive souvent bientôt."
+        ],
+        [
+          "Pourquoi ouvre-t-on un parapluie ?",
+          "pour rester au sec sous la pluie",
+          "pour voler comme un oiseau",
+          "pour faire cuire à manger",
+          "Le parapluie empêche les gouttes de pluie de tomber sur toi."
+        ],
+        [
+          "Qu’apporte la pluie aux plantes et aux animaux ?",
+          "de l’eau à boire",
+          "des jouets",
+          "des bonbons",
+          "La pluie apporte de l’eau, et tous les êtres vivants ont besoin d’eau."
+        ]
+      ],
+      "yo": [
+        [
+          "Òjò ń rọ̀. Kí ló yẹ kí o wọ̀ lọ síta?",
+          "ẹ̀wù òjò",
+          "aṣọ ìsùn",
+          "adé bébà",
+          "Ẹ̀wù òjò kì í jẹ́ kí òjò pa ọ́, ara rẹ á sì gbẹ."
+        ],
+        [
+          "Kí ló dára jù lọ láti wọ̀ sẹ́sẹ̀ láti bẹ́ sínú omi ojú ọ̀nà?",
+          "bàtà rọ́bà òjò",
+          "sálúbàtà inú ilé",
+          "ìbọ̀sẹ̀ nìkan",
+          "Bàtà rọ́bà òjò kì í jẹ́ kí omi wọlé, ẹsẹ̀ rẹ á sì gbẹ."
+        ],
+        [
+          "Oòrùn mú, ooru sì pọ̀. Kí lo máa fi pa ara rẹ?",
+          "ìpara oòrùn",
+          "yìnyín",
+          "ẹrẹ̀",
+          "Ìpara oòrùn ń dáàbò bo awọ ara rẹ kí oòrùn má bàa jó o."
+        ],
+        [
+          "Kí lo lè fi yìnyín kọ́?",
+          "ọkùnrin yìnyín",
+          "ilé iyanrìn",
+          "ilé orí igi",
+          "A lè kó yìnyín jọ, ká yí i, ká sì fi ṣe ọkùnrin yìnyín."
+        ],
+        [
+          "Àwọ̀ wo ni yìnyín tuntun ní?",
+          "funfun",
+          "àwọ̀ ewé",
+          "pupa",
+          "Yìnyín tuntun funfun, ó sì máa ń dán."
+        ],
+        [
+          "Báwo ni yìnyín ṣe máa ń rí lára tí o bá fọwọ́ kàn án?",
+          "ó tutù",
+          "ó gbóná",
+          "ó lọ́wọ́ọ́rọ́ bí búrẹ́dì tí a sun",
+          "Yìnyín jẹ́ omi tó ti dì, nítorí náà ó tutù gan-an."
+        ],
+        [
+          "Yìnyín wà níta. Kí ló ń mú ọwọ́ rẹ móoru?",
+          "ìbọ̀wọ́",
+          "gíláàsì oòrùn",
+          "sálúbàtà",
+          "Ìbọ̀wọ́ máa ń bo ọwọ́ rẹ, ó sì ń mú un móoru nígbà òtútù."
+        ],
+        [
+          "Ní ọjọ́ tí òtútù mú, kí lo máa ń wé mọ́ ọrùn rẹ?",
+          "ìborùn",
+          "bẹ́líìtì",
+          "ìlẹ̀kẹ̀ súìtì",
+          "Ìborùn tó móoru máa ń mú ọrùn rẹ móoru nígbà òtútù."
+        ],
+        [
+          "Láti ibo ni òjò ti ń rọ̀?",
+          "láti inú ìkùukùu",
+          "láti orí igi",
+          "láti inú koríko",
+          "Òjò jẹ́ ẹ̀kán omi tó ń já bọ́ láti inú ìkùukùu."
+        ],
+        [
+          "Ní ọjọ́ tí afẹ́fẹ́ ń fẹ́ gan-an, kí lo lè fò sókè?",
+          "àfẹ́fẹ́lẹ̀",
+          "òkúta",
+          "àga",
+          "Afẹ́fẹ́ máa ń ti àfẹ́fẹ́lẹ̀ lọ sókè ọ̀run."
+        ],
+        [
+          "Báwo lo ṣe lè mọ̀ pé afẹ́fẹ́ ń fẹ́?",
+          "ewé àti ẹ̀ka igi ń mì",
+          "ilẹ̀ ń ṣú",
+          "koríko ń di búlúù",
+          "A kò lè rí afẹ́fẹ́, ṣùgbọ́n a lè rí bó ṣe ń mi ewé àti ẹ̀ka igi."
+        ],
+        [
+          "Oòrùn àti òjò lẹ́ẹ̀kan náà lè mú kí a rí…",
+          "òṣùmàrè",
+          "ọkùnrin yìnyín",
+          "ilé iyanrìn",
+          "Tí ìmọ́lẹ̀ oòrùn bá tàn gba inú ẹ̀kán òjò kọjá, a máa rí òṣùmàrè."
+        ],
+        [
+          "Ìró ńlá wo lo máa ń gbọ́ nígbà ìjì òjò?",
+          "ààrá",
+          "aago ẹnu ọ̀nà",
+          "ológbò tó ń kùn jẹ́jẹ́",
+          "Ààrá ni ìró ńlá tó ń dún nígbà ìjì òjò."
+        ],
+        [
+          "Ìjì òjò ń jà. Ibo ló dáàbò bò jù lọ láti wà?",
+          "nínú ilé",
+          "lábẹ́ igi gíga",
+          "lórí òkè",
+          "Nígbà ìjì òjò, ó dáa jù láti wà nínú ilé, kúrò lẹ́gbẹ̀ẹ́ igi gíga."
+        ],
+        [
+          "Ooru mú gan-an. Ibo ló dára láti ṣeré?",
+          "ní ibòji",
+          "lẹ́gbẹ̀ẹ́ iná",
+          "nínú oòrùn gbígbóná ní gbogbo ọjọ́",
+          "Ibòji tutù jù, oòrùn líle kò sì ní tàn lù ọ́."
+        ],
+        [
+          "Ojú ọjọ́ wo ló dára jù lọ fún ọjọ́ etí òkun?",
+          "oòrùn àti ooru díẹ̀",
+          "ìgbà yìnyín",
+          "ìjì líle",
+          "Ọjọ́ tí oòrùn mú, tí ooru sì wà, dára fún eré lórí iyanrìn."
+        ],
+        [
+          "Ìgbà wo lo lè fi ọkọ̀ yìnyín yọ̀ sílẹ̀ láti orí òkè?",
+          "nígbà tí yìnyín bá wà nílẹ̀",
+          "ní ọjọ́ tí oòrùn mú gan-an",
+          "nígbà tí koríko gbẹ",
+          "Ọkọ̀ yìnyín máa ń yọ̀ dáadáa lórí yìnyín."
+        ],
+        [
+          "Omi níta máa ń di yìnyín tí ojú ọjọ́ bá…",
+          "tutù gan-an",
+          "gbóná gan-an",
+          "ní afẹ́fẹ́ púpọ̀",
+          "Tí òtútù bá mú gan-an, omi máa ń dì, á sì di yìnyín líle."
+        ],
+        [
+          "Oòrùn yọ, ooru sì mú. Kí ló máa ṣẹlẹ̀ sí ọkùnrin yìnyín?",
+          "ó máa yọ́",
+          "ó máa tóbi sí i",
+          "ó máa rìn lọ",
+          "Ooru máa ń sọ yìnyín di omi padà, nítorí náà ọkùnrin yìnyín máa yọ́."
+        ],
+        [
+          "Kí ló ń fa omi tó dúró sí ojú ilẹ̀?",
+          "òjò",
+          "ọ̀dà",
+          "wàrà",
+          "Òjò máa ń rọ̀, omi rẹ̀ á sì kó jọ sí ibi tó jìn díẹ̀ nílẹ̀."
+        ],
+        [
+          "Kùrukùru bo ilẹ̀. Kí ló ṣòro láti ṣe?",
+          "láti rí nǹkan tó jìnnà",
+          "láti jẹ oúnjẹ ọ̀sán",
+          "láti kọ orin",
+          "Kùrukùru dà bí ìkùukùu tó sún mọ́ ilẹ̀, nítorí náà ó ṣòro láti rí ibi tó jìnnà."
+        ],
+        [
+          "Afẹ́fẹ́ ń fẹ́ gan-an. Kí ló lè ṣẹlẹ̀ sí fìlà rẹ?",
+          "afẹ́fẹ́ lè gbé e lọ",
+          "ó máa yọ́",
+          "ó máa di ẹyẹ",
+          "Afẹ́fẹ́ líle lè gbé fìlà kúrò lórí rẹ, kí ó sì gbé e lọ."
+        ],
+        [
+          "Kí ló ń sọ fún wa bí ojú ọjọ́ ṣe gbóná tàbí tutù tó?",
+          "ẹ̀rọ ìwọn ooru",
+          "ṣíbí",
+          "aago",
+          "Ẹ̀rọ ìwọn ooru ń wọn bí afẹ́fẹ́ ṣe gbóná tàbí tutù tó."
+        ],
+        [
+          "Kí ló yẹ kí o wọ̀ ní ọjọ́ tí òtútù mú gan-an?",
+          "ẹ̀wù òtútù àti fìlà tó móoru",
+          "ṣòkòtò péńpé àti sálúbàtà",
+          "aṣọ ìlúwẹ̀ẹ́",
+          "Ẹ̀wù òtútù àti fìlà tó móoru kì í jẹ́ kí òtútù wọ ara rẹ."
+        ],
+        [
+          "Kí ni o kò gbọdọ̀ wò tààrà láé?",
+          "oòrùn",
+          "òdòdó",
+          "ìwé",
+          "Oòrùn mọ́lẹ̀ débi pé wíwò ó lè pa ojú rẹ lára."
+        ],
+        [
+          "Ní ọjọ́ tí oòrùn mú, kí ló ń dáàbò bo ojú rẹ lọ́wọ́ oòrùn?",
+          "fìlà oòrùn",
+          "ìborùn",
+          "ìbọ̀wọ́",
+          "Fìlà oòrùn tó ní etí máa ń ṣíji bo ojú rẹ."
+        ],
+        [
+          "Ìgbà wo ni yìnyín sábà máa ń já?",
+          "ìgbà òtútù",
+          "ìgbà ẹ̀ẹ̀rùn",
+          "ní ọjọ́ tí ooru mú",
+          "Yìnyín máa ń já nígbà tí òtútù bá mú gan-an, pàápàá ní ìgbà òtútù."
+        ],
+        [
+          "Ìkùukùu dúdú ńlá sábà máa ń fi hàn pé…",
+          "òjò ń bọ̀",
+          "oòrùn máa mú gan-an",
+          "àkókò ìsùn ti tó",
+          "Ìkùukùu dúdú kún fún ẹ̀kán omi, nítorí náà òjò sábà máa ń rọ̀ láìpẹ́."
+        ],
+        [
+          "Kí ló dé tí a fi ń ṣí agbòjò?",
+          "kí òjò má bàa pa wá",
+          "láti fò bí ẹyẹ",
+          "láti se oúnjẹ",
+          "Agbòjò kì í jẹ́ kí ẹ̀kán òjò bà lé ọ."
+        ],
+        [
+          "Kí ni òjò ń fún ewéko àti ẹranko?",
+          "omi láti mu",
+          "ohun ìṣeré",
+          "súìtì láti jẹ",
+          "Òjò ń mú omi wá, gbogbo ohun alààyè ló sì nílò omi."
+        ]
+      ]
+    }
+  },
+  "emoji": "umbrella",
+  "example": {
+    "i": 0,
+    "q_en": "It is raining. What should you wear outside?",
+    "answer_en": "a raincoat",
+    "why_en": "A raincoat keeps the rain off you, so you stay dry.",
+    "q_de": "Es regnet. Was ziehst du draußen an?",
+    "answer_de": "eine Regenjacke",
+    "why_de": "Eine Regenjacke hält den Regen ab. So bleibst du trocken.",
+    "q_fr": "Il pleut. Que mets-tu pour sortir ?",
+    "answer_fr": "un imperméable",
+    "why_fr": "L’imperméable arrête la pluie : tu restes au sec.",
+    "q_yo": "Òjò ń rọ̀. Kí ló yẹ kí o wọ̀ lọ síta?",
+    "answer_yo": "ẹ̀wù òjò",
+    "why_yo": "Ẹ̀wù òjò kì í jẹ́ kí òjò pa ọ́, ara rẹ á sì gbẹ."
+  },
+  "text": {
+    "en": {
+      "title": "Weather and what to wear",
+      "teach": "Look at the sky! When it rains, put on a raincoat. When it is sunny, wear a sun hat. When it snows, wrap up warm.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Wetter und Kleidung",
+      "teach": "Schau zum Himmel! Wenn es regnet, zieh eine Regenjacke an. Wenn die Sonne scheint, setz einen Sonnenhut auf. Wenn es schneit, zieh dich warm an.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "La météo et les habits",
+      "teach": "Regarde le ciel ! Quand il pleut, mets un imperméable. Quand il fait soleil, mets un chapeau. Quand il neige, couvre-toi bien.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ojú ọjọ́ àti aṣọ wíwọ̀",
+      "teach": "Wo ojú ọ̀run! Tí òjò bá ń rọ̀, wọ ẹ̀wù òjò. Tí oòrùn bá mú, dé fìlà oòrùn. Tí yìnyín bá ń já, wọ aṣọ tó móoru.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

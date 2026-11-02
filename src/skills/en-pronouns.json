@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "words",
   "stage": 2,
+  "ages": [
+    "6-7"
+  ],
   "order": 22,
   "only": "en",
   "params": {
@@ -16,7 +19,27 @@
       "heart",
       "bone",
       "moon",
-      "hockey"
+      "hockey",
+      "fire",
+      "cloud",
+      "house",
+      "animal-swan",
+      "cocoa",
+      "speech",
+      "seedling",
+      "girl",
+      "umbrella",
+      "fruit-strawberry",
+      "animal-elephant",
+      "scarf",
+      "animal-honeybee",
+      "memo",
+      "wave",
+      "school",
+      "trophy",
+      "animal-penguin",
+      "party",
+      "heart"
     ],
     "bank": {
       "en": [
@@ -89,6 +112,146 @@
           "she",
           "it",
           "“The boys” means more than one person, so we use “they”."
+        ],
+        [
+          "Dad is cooking. ___ is making soup.",
+          "He",
+          "She",
+          "It",
+          "Dad is a man, so we use “He”."
+        ],
+        [
+          "The kite is up high. ___ is flying in the wind.",
+          "It",
+          "She",
+          "We",
+          "The kite is one thing, so we use “It”."
+        ],
+        [
+          "Ella and I are sisters. ___ share a room.",
+          "We",
+          "They",
+          "He",
+          "“Ella and I” includes me, so we use “We”."
+        ],
+        [
+          "I can see the swans. Can you see ___?",
+          "them",
+          "it",
+          "her",
+          "There are many swans, so we use “them”."
+        ],
+        [
+          "Mum is tired. Let’s make ___ a cup of tea.",
+          "her",
+          "him",
+          "they",
+          "Mum is a woman, so we use “her”."
+        ],
+        [
+          "Grandpa told a funny story. We all laughed with ___.",
+          "him",
+          "her",
+          "them",
+          "Grandpa is a man, so we use “him”."
+        ],
+        [
+          "The flowers are pretty. ___ are red and yellow.",
+          "They",
+          "It",
+          "He",
+          "There are many flowers, so we use “They”."
+        ],
+        [
+          "Which word can we use instead of “Lucy”?",
+          "she",
+          "he",
+          "they",
+          "Lucy is one girl, so we use “she”."
+        ],
+        [
+          "Which word can we use instead of “the umbrella”?",
+          "it",
+          "they",
+          "him",
+          "The umbrella is one thing, so we use “it”."
+        ],
+        [
+          "My friends and I went to the park. ___ had a picnic.",
+          "We",
+          "She",
+          "It",
+          "“My friends and I” includes me, so we use “We”."
+        ],
+        [
+          "The elephant is big. ___ has long tusks.",
+          "It",
+          "They",
+          "We",
+          "There is one elephant, so we use “It”."
+        ],
+        [
+          "Leo lost his hat. Can you help ___ find it?",
+          "him",
+          "her",
+          "them",
+          "Leo is a boy, so we use “him”."
+        ],
+        [
+          "The bees are busy. ___ make honey.",
+          "They",
+          "It",
+          "She",
+          "There are many bees, so we use “They”."
+        ],
+        [
+          "Aunt Rosa sent me a card. I wrote back to ___.",
+          "her",
+          "him",
+          "it",
+          "Aunt Rosa is a woman, so we use “her”."
+        ],
+        [
+          "I have two goldfish. I feed ___ every day.",
+          "them",
+          "it",
+          "him",
+          "There are two goldfish, so we use “them”."
+        ],
+        [
+          "Which word can we use instead of “Mr Lee”?",
+          "he",
+          "she",
+          "it",
+          "Mr Lee is a man, so we use “he”."
+        ],
+        [
+          "You and I are a team! ___ will win together.",
+          "We",
+          "They",
+          "She",
+          "“You and I” includes me, so we use “We”."
+        ],
+        [
+          "The penguin slid on the ice. ___ landed on its tummy.",
+          "It",
+          "They",
+          "We",
+          "There is one penguin, so we use “It”."
+        ],
+        [
+          "Zoe and Max are twins. ___ have the same birthday.",
+          "They",
+          "She",
+          "He",
+          "Zoe and Max are two people, so we use “They”."
+        ],
+        [
+          "Which word can we use instead of “my brother and I”?",
+          "we",
+          "they",
+          "he",
+          "“My brother and I” includes me, so we use “we”."
         ]
       ]
     }

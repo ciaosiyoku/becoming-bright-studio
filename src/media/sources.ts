@@ -8,11 +8,7 @@
 //   - Babyradio (Spain): in Spanish (adverts to verify).
 //   A US station (Kids Public Radio, ad-free) was checked but only streams over http://, which browsers block
 //   inside an https:// app.
-// Stories — LibriVox recordings of public-domain children's books, hosted by the Internet Archive.
-//   LibriVox: "all our recordings are public domain (definitely in the USA, and maybe in your country as well)"
-//   and "you may do whatever you like with our recordings – you don't need permission" (librivox.org,
-//   checked 19 Oct 2026). Each item is marked Public Domain on archive.org. Stories were chosen by hand; some
-//   classic stories were left out because of outdated or offensive language.
+// Stories — LibriVox recordings of public-domain children's books, by age range: see storyList.ts.
 
 export interface Station {
   id: string
@@ -56,73 +52,6 @@ export interface Collection {
   source: string
   tracks: Track[]
 }
-
-const IA = 'https://archive.org/download/'
-const potter = (n: number, title: string, length: number): Track => ({
-  id: `potter-${n}`,
-  title,
-  url: `${IA}thetaleofpeterrabbitandothers_2008_librivox/peterrabbitandothertales_${String(n).padStart(2, '0')}_potter_64kb.mp3`,
-  length,
-})
-const kipling = (n: number, title: string, length: number): Track => ({
-  id: `kipling-${n}`,
-  title,
-  url: `${IA}just_so_stories_1004_librivox/justsostories_${String(n).padStart(2, '0')}_kipling_64kb.mp3`,
-  length,
-})
-
-export const COLLECTIONS: Collection[] = [
-  {
-    id: 'potter',
-    title: 'The Tale of Peter Rabbit and others',
-    author: 'Beatrix Potter',
-    emoji: 'animal-rabbit',
-    source: 'https://archive.org/details/thetaleofpeterrabbitandothers_2008_librivox',
-    tracks: [
-      potter(1, 'The Tale of Peter Rabbit', 322),
-      potter(2, 'The Tale of Tom Kitten', 259),
-      potter(3, 'The Tale of Squirrel Nutkin', 406),
-      potter(4, 'The Tale of Benjamin Bunny', 475),
-      potter(5, 'The Tale of Jemima Puddle-Duck', 584),
-      potter(6, 'The Tale of the Flopsy Bunnies', 566),
-      potter(7, 'The Tale of Mrs. Tiggy-Winkle', 654),
-      potter(8, 'The Tale of Two Bad Mice', 387),
-      potter(9, 'The Tale of Johnny Town-Mouse', 551),
-      potter(10, 'The Tale of Mr. Jeremy Fisher', 354),
-      potter(11, 'The Tale of Mrs. Tittlemouse', 504),
-      potter(12, 'The Story of Miss Moppet', 101),
-      potter(15, 'The Tale of Timmy Tiptoes', 630),
-      potter(16, 'The Story of a Fierce Bad Rabbit', 96),
-      potter(18, 'The Tailor of Gloucester', 1382),
-    ],
-  },
-  {
-    id: 'velveteen',
-    title: 'The Velveteen Rabbit',
-    author: 'Margery Williams',
-    emoji: 'teddy',
-    source: 'https://archive.org/details/velveteen_rabbit_librivox',
-    tracks: [{ id: 'velveteen', title: 'The Velveteen Rabbit, or How Toys Become Real', url: `${IA}velveteen_rabbit_librivox/the_velveteen_rabbit_williams_64kb.mp3`, length: 1730 }],
-  },
-  {
-    id: 'just-so',
-    title: 'Just So Stories',
-    author: 'Rudyard Kipling',
-    emoji: 'animal-elephant',
-    source: 'https://archive.org/details/just_so_stories_1004_librivox',
-    tracks: [
-      kipling(1, 'How the Whale got his Throat', 578),
-      kipling(2, 'How the Camel got his Hump', 555),
-      kipling(3, 'How the Rhinoceros got his Skin', 485),
-      kipling(5, "The Elephant's Child", 1071),
-      kipling(6, 'The Sing-song of Old Man Kangaroo', 611),
-      kipling(7, 'The Beginning of the Armadillos', 1134),
-      kipling(8, 'How the First Letter was Written', 1272),
-      kipling(9, 'How the Alphabet was Made', 1565),
-      kipling(11, 'The Cat who Walked by Himself', 1537),
-    ],
-  },
-]
 
 /** A YouTube link (video or playlist) as {kind, id}; null when it is not a YouTube link. Pure (tested). */
 export function parseYouTube(link: string): { kind: 'video' | 'playlist'; id: string } | null {

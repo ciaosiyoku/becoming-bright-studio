@@ -1,0 +1,274 @@
+{
+  "id": "en4-animals",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 103,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "animal-elephant",
+      "animal-lion",
+      "animal-tiger",
+      "animal-zebra",
+      "animal-giraffe",
+      "animal-frog",
+      "animal-penguin",
+      "animal-rabbit",
+      "animal-horse",
+      "animal-cow",
+      "animal-fox",
+      "animal-bear",
+      "animal-owl",
+      "animal-panda",
+      "animal-dolphin",
+      "animal-octopus",
+      "animal-crab",
+      "animal-snail",
+      "animal-butterfly",
+      "animal-honeybee",
+      "animal-lady-beetle",
+      "animal-turtle",
+      "animal-kangaroo",
+      "animal-koala",
+      "animal-hedgehog",
+      "animal-mouse",
+      "animal-parrot",
+      "animal-camel",
+      "animal-flamingo",
+      "snake"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which animal is this?",
+          "elephant",
+          "lion",
+          "zebra",
+          "An elephant is very big and has a long trunk."
+        ],
+        [
+          "Which animal is this?",
+          "lion",
+          "tiger",
+          "bear",
+          "A lion has a big fluffy mane around its face."
+        ],
+        [
+          "Which animal is this?",
+          "tiger",
+          "lion",
+          "zebra",
+          "A tiger is orange with black stripes."
+        ],
+        [
+          "Which animal is this?",
+          "zebra",
+          "horse",
+          "tiger",
+          "A zebra has black and white stripes."
+        ],
+        [
+          "Which animal is this?",
+          "giraffe",
+          "camel",
+          "horse",
+          "A giraffe has a very long neck and spots."
+        ],
+        [
+          "Which animal is this?",
+          "frog",
+          "snail",
+          "turtle",
+          "A frog is green and loves to jump."
+        ],
+        [
+          "Which animal is this?",
+          "penguin",
+          "owl",
+          "swan",
+          "A penguin is black and white and waddles on the ice."
+        ],
+        [
+          "Which animal is this?",
+          "rabbit",
+          "mouse",
+          "fox",
+          "A rabbit has long ears and a fluffy tail."
+        ],
+        [
+          "Which animal is this?",
+          "horse",
+          "cow",
+          "deer",
+          "A horse has a long mane and we can ride it."
+        ],
+        [
+          "Which animal is this?",
+          "cow",
+          "horse",
+          "panda",
+          "A cow says moo and gives us milk."
+        ],
+        [
+          "Which animal is this?",
+          "fox",
+          "dog",
+          "bear",
+          "A fox is orange with a bushy tail."
+        ],
+        [
+          "Which animal is this?",
+          "bear",
+          "lion",
+          "panda",
+          "A bear is big, brown and furry."
+        ],
+        [
+          "Which animal is this?",
+          "owl",
+          "parrot",
+          "penguin",
+          "An owl has big round eyes and says hoot."
+        ],
+        [
+          "Which animal is this?",
+          "panda",
+          "zebra",
+          "koala",
+          "A panda is black and white and eats bamboo."
+        ],
+        [
+          "Which animal is this?",
+          "dolphin",
+          "crab",
+          "octopus",
+          "A dolphin is a clever animal that swims in the sea."
+        ],
+        [
+          "Which animal is this?",
+          "octopus",
+          "crab",
+          "snail",
+          "An octopus has eight long arms."
+        ],
+        [
+          "Which animal is this?",
+          "crab",
+          "octopus",
+          "frog",
+          "A crab has big claws and walks sideways."
+        ],
+        [
+          "Which animal is this?",
+          "snail",
+          "crab",
+          "turtle",
+          "A snail is slow and carries a shell on its back."
+        ],
+        [
+          "Which animal is this?",
+          "butterfly",
+          "bee",
+          "owl",
+          "A butterfly has big, bright wings."
+        ],
+        [
+          "Which animal is this?",
+          "bee",
+          "butterfly",
+          "ladybird",
+          "A bee is yellow and black and goes buzz."
+        ],
+        [
+          "Which animal is this?",
+          "ladybird",
+          "bee",
+          "snail",
+          "A ladybird is small and red with black spots."
+        ],
+        [
+          "Which animal is this?",
+          "turtle",
+          "frog",
+          "snail",
+          "A turtle has a hard shell and lives near water."
+        ],
+        [
+          "Which animal is this?",
+          "kangaroo",
+          "rabbit",
+          "deer",
+          "A kangaroo hops and carries its baby in a pouch."
+        ],
+        [
+          "Which animal is this?",
+          "koala",
+          "panda",
+          "bear",
+          "A koala has fluffy ears and climbs trees."
+        ],
+        [
+          "Which animal is this?",
+          "hedgehog",
+          "mouse",
+          "rabbit",
+          "A hedgehog is small and covered in spikes."
+        ],
+        [
+          "Which animal is this?",
+          "mouse",
+          "rabbit",
+          "hedgehog",
+          "A mouse is tiny and has a long thin tail."
+        ],
+        [
+          "Which animal is this?",
+          "parrot",
+          "owl",
+          "swan",
+          "A parrot has bright feathers and can copy words."
+        ],
+        [
+          "Which animal is this?",
+          "camel",
+          "horse",
+          "giraffe",
+          "A camel has a hump and lives in the desert."
+        ],
+        [
+          "Which animal is this?",
+          "flamingo",
+          "swan",
+          "parrot",
+          "A flamingo is pink and often stands on one leg."
+        ],
+        [
+          "Which animal is this?",
+          "snake",
+          "snail",
+          "frog",
+          "A snake is long and has no legs."
+        ]
+      ]
+    }
+  },
+  "emoji": "paws",
+  "example": {
+    "i": 0,
+    "q_en": "Which animal is this?",
+    "answer_en": "elephant",
+    "why_en": "An elephant is very big and has a long trunk."
+  },
+  "text": {
+    "en": {
+      "title": "Animal names",
+      "teach": "Look at the picture and say the animal’s name. A zebra has stripes, a giraffe has a long neck.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

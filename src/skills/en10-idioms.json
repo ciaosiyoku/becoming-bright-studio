@@ -1,0 +1,274 @@
+{
+  "id": "en10-idioms",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 201,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "rain",
+      "snowflake",
+      "cake",
+      "thermometer",
+      "paws",
+      "books",
+      "moon",
+      "gift",
+      "cloud",
+      "animal-horse",
+      "hockey",
+      "cookie",
+      "speech",
+      "snow",
+      "letters",
+      "storm",
+      "tree",
+      "game",
+      "animal-owl",
+      "warning",
+      "fire",
+      "sun-cloud",
+      "party",
+      "seedling",
+      "wave",
+      "chick",
+      "airplane",
+      "beach",
+      "iceskate",
+      "house"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “it’s raining cats and dogs” mean?",
+          "It is raining very heavily.",
+          "Pets are falling from the sky.",
+          "It is only drizzling a little.",
+          "This idiom describes a really heavy downpour. No animals are involved!"
+        ],
+        [
+          "What does “break the ice” mean?",
+          "Help people relax when they first meet.",
+          "Smash a frozen puddle.",
+          "End a friendship.",
+          "Breaking the ice means getting a conversation going so people feel comfortable."
+        ],
+        [
+          "What does “a piece of cake” mean?",
+          "Something very easy.",
+          "Something very difficult.",
+          "A sweet treat to share.",
+          "If a test was a piece of cake, it was no trouble at all."
+        ],
+        [
+          "What does “under the weather” mean?",
+          "Feeling a bit ill.",
+          "Standing out in the rain.",
+          "Feeling full of energy.",
+          "Someone who is under the weather is not feeling well."
+        ],
+        [
+          "What does “let the cat out of the bag” mean?",
+          "Give away a secret.",
+          "Set a pet free.",
+          "Lose your shopping.",
+          "Letting the cat out of the bag means telling something that was meant to stay secret."
+        ],
+        [
+          "What does “hit the books” mean?",
+          "Study hard.",
+          "Throw books around.",
+          "Tidy the bookshelf.",
+          "To hit the books is to settle down and study."
+        ],
+        [
+          "What does “once in a blue moon” mean?",
+          "Very rarely.",
+          "Every single night.",
+          "Only in winter.",
+          "Something that happens once in a blue moon hardly ever happens."
+        ],
+        [
+          "What does “cost an arm and a leg” mean?",
+          "Be very expensive.",
+          "Cause a nasty injury.",
+          "Be completely free.",
+          "If something costs an arm and a leg, it costs a huge amount of money."
+        ],
+        [
+          "What does “on cloud nine” mean?",
+          "Extremely happy.",
+          "Flying in a plane.",
+          "Very confused.",
+          "Being on cloud nine means feeling wonderfully happy."
+        ],
+        [
+          "What does “hold your horses” mean?",
+          "Wait and be patient.",
+          "Go horse riding.",
+          "Hurry up at once.",
+          "Hold your horses means slow down and do not rush."
+        ],
+        [
+          "What does “the ball is in your court” mean?",
+          "It is your turn to decide or act.",
+          "You have lost the game.",
+          "You must fetch the ball.",
+          "When the ball is in your court, the next move is up to you."
+        ],
+        [
+          "What does “bite off more than you can chew” mean?",
+          "Take on more than you can manage.",
+          "Eat your food too quickly.",
+          "Refuse to help anyone.",
+          "This means agreeing to do too much and then struggling to cope."
+        ],
+        [
+          "What does “spill the beans” mean?",
+          "Tell a secret.",
+          "Make a mess at dinner.",
+          "Cook a big meal.",
+          "Spilling the beans means revealing information that was supposed to be private."
+        ],
+        [
+          "What does “get cold feet” mean?",
+          "Become nervous and want to back out.",
+          "Need warmer socks.",
+          "Walk barefoot in the snow.",
+          "People get cold feet when they lose their nerve just before doing something."
+        ],
+        [
+          "What does “see eye to eye” mean?",
+          "Agree with each other.",
+          "Stare at each other.",
+          "Have perfect eyesight.",
+          "Two people who see eye to eye share the same opinion."
+        ],
+        [
+          "What does “a storm in a teacup” mean?",
+          "A big fuss about something small.",
+          "A sudden spell of bad weather.",
+          "A cup that has cracked.",
+          "A storm in a teacup is a lot of upset over something unimportant."
+        ],
+        [
+          "What does “barking up the wrong tree” mean?",
+          "Looking for an answer in the wrong place.",
+          "A dog that has got lost.",
+          "Climbing a very tall tree.",
+          "If you are barking up the wrong tree, your guess or search is mistaken."
+        ],
+        [
+          "What does “get the ball rolling” mean?",
+          "Start something off.",
+          "Play a game of football.",
+          "Put the toys away.",
+          "To get the ball rolling is to make a start on something."
+        ],
+        [
+          "What does “keep an eye on” mean?",
+          "Watch carefully.",
+          "Close one eye.",
+          "Lose sight of.",
+          "Keeping an eye on something means watching over it."
+        ],
+        [
+          "What does “the last straw” mean?",
+          "The final problem that makes someone lose patience.",
+          "The end of a drink.",
+          "A lucky prize.",
+          "The last straw is one small extra thing that is finally too much."
+        ],
+        [
+          "What does “in hot water” mean?",
+          "In trouble.",
+          "Having a warm bath.",
+          "Feeling cosy and warm.",
+          "Someone in hot water has done something that will get them told off."
+        ],
+        [
+          "What does “every cloud has a silver lining” mean?",
+          "Something good can come from a bad situation.",
+          "Clouds are made of metal.",
+          "It is about to rain.",
+          "This saying reminds us that even bad times can bring something good."
+        ],
+        [
+          "What does “pull someone’s leg” mean?",
+          "Tease or joke with someone.",
+          "Hurt someone’s leg.",
+          "Help someone to walk.",
+          "If you are pulling my leg, you are joking and trying to fool me."
+        ],
+        [
+          "What does “turn over a new leaf” mean?",
+          "Start behaving in a better way.",
+          "Do some gardening.",
+          "Turn to the next page.",
+          "Turning over a new leaf means making a fresh start and improving."
+        ],
+        [
+          "What does “like a fish out of water” mean?",
+          "Uncomfortable in an unfamiliar place.",
+          "Very good at swimming.",
+          "Very thirsty.",
+          "You feel like a fish out of water when you are somewhere that feels strange to you."
+        ],
+        [
+          "What does “the early bird catches the worm” mean?",
+          "People who start early get the best chances.",
+          "Birds only eat in the morning.",
+          "It is better to sleep in late.",
+          "This saying means that being early or quick gives you an advantage."
+        ],
+        [
+          "What does “when pigs fly” mean?",
+          "Something that will never happen.",
+          "Something that will happen very soon.",
+          "A show at a farm.",
+          "Pigs cannot fly, so when pigs fly means never."
+        ],
+        [
+          "What does “in the same boat” mean?",
+          "In the same difficult situation.",
+          "On a holiday cruise.",
+          "Going fishing together.",
+          "People in the same boat are facing the same problem."
+        ],
+        [
+          "What does “on thin ice” mean?",
+          "In a risky situation where trouble is close.",
+          "Ice skating in winter.",
+          "Feeling very cold.",
+          "If you are on thin ice, one more mistake could get you into trouble."
+        ],
+        [
+          "What does “sit on the fence” mean?",
+          "Avoid choosing a side.",
+          "Rest in the garden.",
+          "Mend a broken fence.",
+          "Someone sitting on the fence will not say which side they agree with."
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "i": 0,
+    "q_en": "What does “it’s raining cats and dogs” mean?",
+    "answer_en": "It is raining very heavily.",
+    "why_en": "This idiom describes a really heavy downpour. No animals are involved!"
+  },
+  "text": {
+    "en": {
+      "title": "Idioms",
+      "teach": "An idiom is a phrase whose meaning is different from its words. “Break a leg” means good luck, not an injury!",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

@@ -1,0 +1,936 @@
+{
+  "id": "sci10-ecosystems",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 210,
+  "params": {
+    "emojis": [
+      "globe",
+      "seedling",
+      "sun",
+      "sun-small-cloud",
+      "animal-rabbit",
+      "paws",
+      "footprints",
+      "chart",
+      "puzzle",
+      "animal-butterfly",
+      "animal-lion",
+      "animal-bear",
+      "animal-shark",
+      "animal-rabbit",
+      "desert",
+      "fruit-apple",
+      "tree",
+      "seedling",
+      "droplet",
+      "cake",
+      "animal-cow",
+      "thermometer",
+      "droplet",
+      "fruit-strawberry",
+      "snowflake",
+      "mountain",
+      "animal-turtle",
+      "animal-panda",
+      "animal-tiger",
+      "animal-honeybee"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is an ecosystem?",
+          "all the living things in an area and their surroundings, working together",
+          "a single animal and its food",
+          "a type of rock found underground",
+          "An ecosystem includes plants, animals and micro-organisms plus the soil, water and air they depend on."
+        ],
+        [
+          "What is always at the start of a food chain?",
+          "a green plant (a producer)",
+          "a predator",
+          "a decomposer",
+          "Food chains begin with a green plant, because plants make food that the other living things in the chain depend on."
+        ],
+        [
+          "Why are green plants called producers?",
+          "they make their own food using energy from sunlight",
+          "they produce meat for other animals",
+          "they eat other living things",
+          "Plants use sunlight, water and carbon dioxide to make sugars. This process is called photosynthesis."
+        ],
+        [
+          "Where does the energy in almost every food chain come from in the first place?",
+          "the Sun",
+          "the soil",
+          "the wind",
+          "Plants capture energy from sunlight. That energy then passes to every animal that eats the plants, or eats those animals."
+        ],
+        [
+          "What is a consumer in a food chain?",
+          "a living thing that gets its energy by eating other living things",
+          "a plant that makes food from sunlight",
+          "a rock that stores energy",
+          "Animals cannot make their own food, so they consume (eat) plants or other animals to get energy."
+        ],
+        [
+          "In the food chain grass → rabbit → fox, which living thing is the predator?",
+          "the fox",
+          "the rabbit",
+          "the grass",
+          "A predator hunts and eats other animals. The fox hunts the rabbit, so the fox is the predator."
+        ],
+        [
+          "In the same food chain grass → rabbit → fox, which living thing is the prey?",
+          "the rabbit",
+          "the fox",
+          "the grass",
+          "Prey is an animal that is hunted and eaten by a predator. Here the rabbit is hunted by the fox."
+        ],
+        [
+          "What do the arrows in a food chain show?",
+          "the direction in which energy (food) passes",
+          "which animal is the biggest",
+          "where each animal sleeps",
+          "Each arrow points from the living thing being eaten to the one that eats it, showing how energy moves."
+        ],
+        [
+          "What is a food web?",
+          "many food chains in a habitat linked together",
+          "one very long food chain",
+          "a web that a spider spins",
+          "Most animals eat, and are eaten by, more than one thing, so food chains join up into a web."
+        ],
+        [
+          "A caterpillar eats only leaves. What kind of consumer is it?",
+          "a herbivore",
+          "a carnivore",
+          "a producer",
+          "Herbivores eat only plants. A caterpillar feeds on leaves before it turns into a butterfly or moth."
+        ],
+        [
+          "A lion eats only meat. What kind of consumer is it?",
+          "a carnivore",
+          "a herbivore",
+          "a producer",
+          "Carnivores eat other animals. Lions hunt animals such as zebras and antelopes."
+        ],
+        [
+          "A bear eats berries, roots, insects and fish. What kind of consumer is it?",
+          "an omnivore",
+          "a herbivore",
+          "a producer",
+          "Omnivores eat both plants and animals, so a bear with such a mixed diet is an omnivore."
+        ],
+        [
+          "A large shark is at the top of its ocean food chain and nothing hunts it. It is called…",
+          "an apex predator",
+          "a producer",
+          "a decomposer",
+          "An apex (top) predator has no natural predators of its own in its ecosystem."
+        ],
+        [
+          "In a meadow, all the foxes move away. What will most likely happen to the rabbits at first?",
+          "their numbers will increase",
+          "they will all disappear at once",
+          "they will turn into foxes",
+          "With no predators eating them, more rabbits survive and breed, so the population grows, until food runs short."
+        ],
+        [
+          "A long drought kills most of the grass in a meadow. What happens to the rabbits that eat it?",
+          "their numbers fall because there is less food",
+          "their numbers rise quickly",
+          "nothing changes for them",
+          "Rabbits depend on grass for energy. With less food, fewer rabbits survive, which then affects the foxes too."
+        ],
+        [
+          "What do decomposers do in an ecosystem?",
+          "break down dead plants and animals",
+          "hunt healthy animals",
+          "make food from sunlight",
+          "Decomposers such as fungi and bacteria feed on dead material and waste, breaking it down into simpler substances."
+        ],
+        [
+          "Which of these is a decomposer?",
+          "a mushroom growing on a fallen log",
+          "a hawk",
+          "a daisy",
+          "Mushrooms are fungi. They feed by breaking down dead wood. Hawks are predators and daisies are producers."
+        ],
+        [
+          "Why are decomposers important for plants?",
+          "they return nutrients to the soil that plants use to grow",
+          "they eat the roots of living plants",
+          "they block sunlight from the leaves",
+          "When decomposers break down dead matter, nutrients go back into the soil, where new plants can take them up."
+        ],
+        [
+          "What are micro-organisms?",
+          "living things too small to see without a microscope",
+          "tiny grains of sand",
+          "baby insects that have just hatched",
+          "Bacteria, many fungi and other microbes are alive but so small that we need a microscope to see them."
+        ],
+        [
+          "Which micro-organism helps bread dough to rise?",
+          "yeast",
+          "the flu virus",
+          "mould",
+          "Yeast is a tiny fungus. It feeds on sugar and gives off carbon dioxide gas, which makes bubbles in the dough."
+        ],
+        [
+          "Helpful bacteria are used to turn milk into…",
+          "yogurt and cheese",
+          "plastic and glass",
+          "sugar and salt",
+          "Certain bacteria change the sugar in milk, making it thicker and sharper in taste, which gives us yogurt and cheese."
+        ],
+        [
+          "What can harmful micro-organisms do to people?",
+          "cause illnesses such as colds and food poisoning",
+          "make people grow taller",
+          "turn water into ice",
+          "Some bacteria and viruses are germs. If they get into the body, they can make us ill."
+        ],
+        [
+          "Why should you wash your hands with soap before eating?",
+          "to remove harmful germs",
+          "to feed the germs",
+          "to make the germs bigger",
+          "Soap and water lift germs off your skin and wash them away, so they cannot get into your body with your food."
+        ],
+        [
+          "Fuzzy mould grows on an old strawberry. What is the mould?",
+          "a fungus that is decomposing the fruit",
+          "paint that has dripped onto it",
+          "a new strawberry plant sprouting",
+          "Mould is a fungus. It feeds on the fruit and breaks it down, which is why old food goes rotten."
+        ],
+        [
+          "Why does food last longer in a fridge?",
+          "the cold slows down the growth of micro-organisms",
+          "the cold kills every micro-organism at once",
+          "the cold gives micro-organisms extra food",
+          "Micro-organisms grow and multiply slowly in the cold, so food takes longer to spoil. Freezing slows them even more."
+        ],
+        [
+          "How does cutting down large areas of forest affect wildlife?",
+          "many animals lose their habitat and food",
+          "it creates more homes for forest animals",
+          "it has no effect on animals",
+          "Forests give animals shelter and food. When trees are cleared, many species have nowhere to live."
+        ],
+        [
+          "How can plastic litter in the sea harm wildlife?",
+          "animals such as turtles may swallow it or get tangled in it",
+          "it gives fish a healthy meal",
+          "it makes the seawater cleaner",
+          "Turtles can mistake plastic bags for jellyfish, and nets or rings can trap animals. Less plastic means safer seas."
+        ],
+        [
+          "What is the main purpose of a nature reserve?",
+          "to protect wildlife and their habitats",
+          "to build new factories",
+          "to store rubbish safely",
+          "Nature reserves are protected areas where plants and animals, including rare species, can live and breed safely."
+        ],
+        [
+          "What does it mean when a species is endangered?",
+          "so few are left that it could die out",
+          "it lives only underwater",
+          "it is a very fierce animal",
+          "Endangered species are at risk of extinction, often because of habitat loss. Conservation work helps their numbers recover."
+        ],
+        [
+          "Which action would help wildlife near your home?",
+          "planting wildflowers for bees and other insects",
+          "dropping litter in the park",
+          "leaving taps running all day",
+          "Wildflowers give bees and other pollinators nectar and pollen. Insects then support the birds and animals that feed on them."
+        ]
+      ],
+      "de": [
+        [
+          "Was ist ein Ökosystem?",
+          "alle Lebewesen eines Gebiets und ihre Umgebung, die zusammenwirken",
+          "ein einzelnes Tier und sein Futter",
+          "eine Gesteinsart unter der Erde",
+          "Zu einem Ökosystem gehören Pflanzen, Tiere und Mikroorganismen sowie Boden, Wasser und Luft, von denen sie abhängen."
+        ],
+        [
+          "Was steht immer am Anfang einer Nahrungskette?",
+          "eine grüne Pflanze (ein Produzent)",
+          "ein Räuber",
+          "ein Zersetzer",
+          "Nahrungsketten beginnen mit einer grünen Pflanze, denn Pflanzen stellen die Nahrung her, von der die anderen Lebewesen abhängen."
+        ],
+        [
+          "Warum nennt man grüne Pflanzen Produzenten?",
+          "sie stellen mit Sonnenenergie ihre eigene Nahrung her",
+          "sie erzeugen Fleisch für andere Tiere",
+          "sie fressen andere Lebewesen",
+          "Pflanzen bilden aus Sonnenlicht, Wasser und Kohlendioxid Zucker. Diesen Vorgang nennt man Fotosynthese."
+        ],
+        [
+          "Woher stammt die Energie in fast jeder Nahrungskette ursprünglich?",
+          "von der Sonne",
+          "aus dem Boden",
+          "vom Wind",
+          "Pflanzen fangen die Energie des Sonnenlichts ein. Sie geht dann auf jedes Tier über, das die Pflanzen oder diese Tiere frisst."
+        ],
+        [
+          "Was ist ein Konsument in einer Nahrungskette?",
+          "ein Lebewesen, das Energie durch das Fressen anderer Lebewesen bekommt",
+          "eine Pflanze, die mit Sonnenlicht Nahrung herstellt",
+          "ein Stein, der Energie speichert",
+          "Tiere können keine eigene Nahrung herstellen. Sie fressen Pflanzen oder andere Tiere, um Energie zu bekommen."
+        ],
+        [
+          "In der Nahrungskette Gras → Kaninchen → Fuchs: Welches Lebewesen ist der Räuber?",
+          "der Fuchs",
+          "das Kaninchen",
+          "das Gras",
+          "Ein Räuber jagt und frisst andere Tiere. Der Fuchs jagt das Kaninchen, also ist er der Räuber."
+        ],
+        [
+          "In derselben Kette Gras → Kaninchen → Fuchs: Welches Lebewesen ist die Beute?",
+          "das Kaninchen",
+          "der Fuchs",
+          "das Gras",
+          "Beute ist ein Tier, das von einem Räuber gejagt und gefressen wird. Hier jagt der Fuchs das Kaninchen."
+        ],
+        [
+          "Was zeigen die Pfeile in einer Nahrungskette?",
+          "in welche Richtung die Energie (Nahrung) weitergegeben wird",
+          "welches Tier am größten ist",
+          "wo jedes Tier schläft",
+          "Jeder Pfeil zeigt vom gefressenen Lebewesen zu dem, das es frisst. So sieht man, wie die Energie wandert."
+        ],
+        [
+          "Was ist ein Nahrungsnetz?",
+          "viele miteinander verbundene Nahrungsketten in einem Lebensraum",
+          "eine einzige sehr lange Nahrungskette",
+          "ein Netz, das eine Spinne webt",
+          "Die meisten Tiere fressen mehr als eine Art und werden von mehr als einer gefressen. So verbinden sich die Ketten zu einem Netz."
+        ],
+        [
+          "Eine Raupe frisst nur Blätter. Was für ein Konsument ist sie?",
+          "ein Pflanzenfresser",
+          "ein Fleischfresser",
+          "ein Produzent",
+          "Pflanzenfresser fressen nur Pflanzen. Eine Raupe frisst Blätter, bevor sie zum Schmetterling oder Nachtfalter wird."
+        ],
+        [
+          "Ein Löwe frisst nur Fleisch. Was für ein Konsument ist er?",
+          "ein Fleischfresser",
+          "ein Pflanzenfresser",
+          "ein Produzent",
+          "Fleischfresser fressen andere Tiere. Löwen jagen zum Beispiel Zebras und Antilopen."
+        ],
+        [
+          "Ein Bär frisst Beeren, Wurzeln, Insekten und Fische. Was für ein Konsument ist er?",
+          "ein Allesfresser",
+          "ein Pflanzenfresser",
+          "ein Produzent",
+          "Allesfresser fressen Pflanzen und Tiere. Ein Bär mit so gemischter Nahrung ist also ein Allesfresser."
+        ],
+        [
+          "Ein großer Hai steht an der Spitze seiner Nahrungskette im Meer, und niemand jagt ihn. Man nennt ihn …",
+          "einen Spitzenprädator",
+          "einen Produzenten",
+          "einen Zersetzer",
+          "Ein Spitzenprädator hat in seinem Ökosystem keine natürlichen Feinde."
+        ],
+        [
+          "Auf einer Wiese ziehen alle Füchse weg. Was passiert wahrscheinlich zuerst mit den Kaninchen?",
+          "ihre Zahl steigt",
+          "sie verschwinden sofort alle",
+          "sie werden zu Füchsen",
+          "Ohne Räuber überleben mehr Kaninchen und bekommen Junge. Die Zahl steigt, bis das Futter knapp wird."
+        ],
+        [
+          "Eine lange Dürre lässt das meiste Gras einer Wiese absterben. Was passiert mit den Kaninchen, die es fressen?",
+          "ihre Zahl sinkt, weil es weniger Futter gibt",
+          "ihre Zahl steigt schnell",
+          "für sie ändert sich nichts",
+          "Kaninchen brauchen Gras als Energiequelle. Mit weniger Futter überleben weniger Kaninchen, und das trifft dann auch die Füchse."
+        ],
+        [
+          "Was machen Zersetzer in einem Ökosystem?",
+          "sie bauen tote Pflanzen und Tiere ab",
+          "sie jagen gesunde Tiere",
+          "sie stellen mit Sonnenlicht Nahrung her",
+          "Zersetzer wie Pilze und Bakterien ernähren sich von toten Stoffen und Abfall und zerlegen sie in einfachere Stoffe."
+        ],
+        [
+          "Was davon ist ein Zersetzer?",
+          "ein Pilz auf einem umgestürzten Baumstamm",
+          "ein Habicht",
+          "ein Gänseblümchen",
+          "Pilze ernähren sich, indem sie totes Holz abbauen. Habichte sind Räuber, Gänseblümchen sind Produzenten."
+        ],
+        [
+          "Warum sind Zersetzer für Pflanzen wichtig?",
+          "sie geben Nährstoffe an den Boden zurück, mit denen Pflanzen wachsen",
+          "sie fressen die Wurzeln lebender Pflanzen",
+          "sie halten das Sonnenlicht von den Blättern ab",
+          "Wenn Zersetzer tote Stoffe abbauen, gelangen Nährstoffe zurück in den Boden. Dort können neue Pflanzen sie aufnehmen."
+        ],
+        [
+          "Was sind Mikroorganismen?",
+          "Lebewesen, die so klein sind, dass man sie nur mit einem Mikroskop sieht",
+          "winzige Sandkörner",
+          "frisch geschlüpfte Insektenbabys",
+          "Bakterien, viele Pilze und andere Mikroben leben, sind aber so klein, dass man ein Mikroskop braucht, um sie zu sehen."
+        ],
+        [
+          "Welcher Mikroorganismus lässt Brotteig aufgehen?",
+          "Hefe",
+          "das Grippevirus",
+          "Schimmel",
+          "Hefe ist ein winziger Pilz. Sie frisst Zucker und gibt Kohlendioxid ab, das Bläschen im Teig bildet."
+        ],
+        [
+          "Mit nützlichen Bakterien macht man aus Milch …",
+          "Joghurt und Käse",
+          "Kunststoff und Glas",
+          "Zucker und Salz",
+          "Bestimmte Bakterien verändern den Zucker in der Milch. Sie wird dicker und säuerlicher, und so entstehen Joghurt und Käse."
+        ],
+        [
+          "Was können schädliche Mikroorganismen bei Menschen bewirken?",
+          "Krankheiten wie Erkältungen und Lebensmittelvergiftungen",
+          "dass Menschen größer werden",
+          "dass Wasser zu Eis wird",
+          "Manche Bakterien und Viren sind Krankheitserreger. Gelangen sie in den Körper, können sie uns krank machen."
+        ],
+        [
+          "Warum solltest du dir vor dem Essen die Hände mit Seife waschen?",
+          "um schädliche Keime zu entfernen",
+          "um die Keime zu füttern",
+          "damit die Keime größer werden",
+          "Seife und Wasser lösen Keime von der Haut und spülen sie weg. So gelangen sie nicht mit dem Essen in den Körper."
+        ],
+        [
+          "Auf einer alten Erdbeere wächst flauschiger Schimmel. Was ist der Schimmel?",
+          "ein Pilz, der die Frucht zersetzt",
+          "Farbe, die darauf getropft ist",
+          "eine neue Erdbeerpflanze, die austreibt",
+          "Schimmel ist ein Pilz. Er ernährt sich von der Frucht und zersetzt sie. Deshalb verdirbt altes Essen."
+        ],
+        [
+          "Warum hält sich Essen im Kühlschrank länger?",
+          "die Kälte bremst das Wachstum von Mikroorganismen",
+          "die Kälte tötet sofort alle Mikroorganismen",
+          "die Kälte gibt Mikroorganismen zusätzliche Nahrung",
+          "In der Kälte wachsen und vermehren sich Mikroorganismen langsam, deshalb verdirbt Essen später. Einfrieren bremst sie noch mehr."
+        ],
+        [
+          "Wie wirkt sich das Abholzen großer Waldflächen auf Wildtiere aus?",
+          "viele Tiere verlieren Lebensraum und Nahrung",
+          "es entstehen mehr Wohnorte für Waldtiere",
+          "es hat keine Wirkung auf Tiere",
+          "Wälder bieten Tieren Schutz und Nahrung. Werden die Bäume gefällt, haben viele Arten keinen Lebensraum mehr."
+        ],
+        [
+          "Wie kann Plastikmüll im Meer Tieren schaden?",
+          "Tiere wie Schildkröten können ihn verschlucken oder sich darin verfangen",
+          "er ist eine gesunde Mahlzeit für Fische",
+          "er macht das Meerwasser sauberer",
+          "Schildkröten halten Plastiktüten manchmal für Quallen, und Netze oder Ringe können Tiere festhalten. Weniger Plastik macht die Meere sicherer."
+        ],
+        [
+          "Wozu dient ein Naturschutzgebiet vor allem?",
+          "um Wildtiere und ihre Lebensräume zu schützen",
+          "um neue Fabriken zu bauen",
+          "um Müll sicher zu lagern",
+          "Naturschutzgebiete sind geschützte Flächen, in denen Pflanzen und Tiere, auch seltene Arten, sicher leben und sich vermehren können."
+        ],
+        [
+          "Was bedeutet es, wenn eine Art bedroht ist?",
+          "es gibt so wenige, dass sie aussterben könnte",
+          "sie lebt nur unter Wasser",
+          "es ist ein sehr wildes Tier",
+          "Bedrohte Arten könnten aussterben, oft weil ihr Lebensraum verschwindet. Naturschutz hilft, dass ihre Zahl wieder wächst."
+        ],
+        [
+          "Was würde den Wildtieren in deiner Nähe helfen?",
+          "Wildblumen für Bienen und andere Insekten pflanzen",
+          "Müll im Park liegen lassen",
+          "den Wasserhahn den ganzen Tag laufen lassen",
+          "Wildblumen liefern Bienen und anderen Bestäubern Nektar und Pollen. Die Insekten sind wiederum Nahrung für Vögel und andere Tiere."
+        ]
+      ],
+      "fr": [
+        [
+          "Qu’est-ce qu’un écosystème ?",
+          "tous les êtres vivants d’un lieu et leur milieu, qui fonctionnent ensemble",
+          "un seul animal et sa nourriture",
+          "une sorte de roche souterraine",
+          "Un écosystème comprend les plantes, les animaux et les micro-organismes, ainsi que le sol, l’eau et l’air dont ils dépendent."
+        ],
+        [
+          "Qu’y a-t-il toujours au début d’une chaîne alimentaire ?",
+          "une plante verte (un producteur)",
+          "un prédateur",
+          "un décomposeur",
+          "Une chaîne alimentaire commence par une plante verte, car les plantes fabriquent la nourriture dont dépendent les autres êtres vivants."
+        ],
+        [
+          "Pourquoi appelle-t-on les plantes vertes des producteurs ?",
+          "elles fabriquent leur propre nourriture grâce à l’énergie du Soleil",
+          "elles produisent de la viande pour les animaux",
+          "elles mangent d’autres êtres vivants",
+          "Les plantes fabriquent des sucres avec la lumière, l’eau et le dioxyde de carbone. C’est la photosynthèse."
+        ],
+        [
+          "D’où vient, au départ, l’énergie de presque toutes les chaînes alimentaires ?",
+          "du Soleil",
+          "du sol",
+          "du vent",
+          "Les plantes captent l’énergie de la lumière du Soleil. Cette énergie passe ensuite aux animaux qui mangent les plantes, puis à ceux qui mangent ces animaux."
+        ],
+        [
+          "Qu’est-ce qu’un consommateur dans une chaîne alimentaire ?",
+          "un être vivant qui tire son énergie en mangeant d’autres êtres vivants",
+          "une plante qui fabrique sa nourriture avec la lumière",
+          "une pierre qui stocke l’énergie",
+          "Les animaux ne fabriquent pas leur nourriture : ils consomment des plantes ou d’autres animaux pour avoir de l’énergie."
+        ],
+        [
+          "Dans la chaîne herbe → lapin → renard, quel être vivant est le prédateur ?",
+          "le renard",
+          "le lapin",
+          "l’herbe",
+          "Un prédateur chasse et mange d’autres animaux. Le renard chasse le lapin : c’est lui le prédateur."
+        ],
+        [
+          "Dans la même chaîne herbe → lapin → renard, quel être vivant est la proie ?",
+          "le lapin",
+          "le renard",
+          "l’herbe",
+          "Une proie est un animal chassé et mangé par un prédateur. Ici, le lapin est chassé par le renard."
+        ],
+        [
+          "Que montrent les flèches d’une chaîne alimentaire ?",
+          "dans quel sens passe l’énergie (la nourriture)",
+          "quel animal est le plus grand",
+          "où dort chaque animal",
+          "Chaque flèche va de l’être vivant mangé vers celui qui le mange : elle montre le trajet de l’énergie."
+        ],
+        [
+          "Qu’est-ce qu’un réseau alimentaire ?",
+          "plusieurs chaînes alimentaires d’un milieu reliées entre elles",
+          "une seule chaîne alimentaire très longue",
+          "une toile tissée par une araignée",
+          "La plupart des animaux mangent plusieurs sortes d’aliments et sont mangés par plusieurs espèces : les chaînes se relient en réseau."
+        ],
+        [
+          "Une chenille ne mange que des feuilles. Quel genre de consommateur est-elle ?",
+          "un herbivore",
+          "un carnivore",
+          "un producteur",
+          "Les herbivores ne mangent que des plantes. La chenille se nourrit de feuilles avant de devenir papillon."
+        ],
+        [
+          "Un lion ne mange que de la viande. Quel genre de consommateur est-il ?",
+          "un carnivore",
+          "un herbivore",
+          "un producteur",
+          "Les carnivores mangent d’autres animaux. Les lions chassent par exemple des zèbres et des antilopes."
+        ],
+        [
+          "Un ours mange des baies, des racines, des insectes et des poissons. Quel genre de consommateur est-il ?",
+          "un omnivore",
+          "un herbivore",
+          "un producteur",
+          "Les omnivores mangent des plantes et des animaux : avec ce menu varié, l’ours est omnivore."
+        ],
+        [
+          "Un grand requin est au sommet de sa chaîne alimentaire marine et rien ne le chasse. On l’appelle…",
+          "un superprédateur",
+          "un producteur",
+          "un décomposeur",
+          "Un superprédateur n’a pas de prédateur naturel dans son écosystème."
+        ],
+        [
+          "Dans une prairie, tous les renards s’en vont. Que va-t-il sans doute arriver d’abord aux lapins ?",
+          "leur nombre va augmenter",
+          "ils vont tous disparaître d’un coup",
+          "ils vont se changer en renards",
+          "Sans prédateurs, plus de lapins survivent et ont des petits : leur nombre augmente, jusqu’à ce que la nourriture manque."
+        ],
+        [
+          "Une longue sécheresse fait mourir presque toute l’herbe d’une prairie. Que deviennent les lapins qui la mangent ?",
+          "leur nombre baisse, car il y a moins de nourriture",
+          "leur nombre augmente vite",
+          "rien ne change pour eux",
+          "Les lapins tirent leur énergie de l’herbe. Avec moins de nourriture, moins de lapins survivent, ce qui touche ensuite les renards."
+        ],
+        [
+          "Que font les décomposeurs dans un écosystème ?",
+          "ils décomposent les plantes et les animaux morts",
+          "ils chassent les animaux en bonne santé",
+          "ils fabriquent de la nourriture avec la lumière",
+          "Les décomposeurs, comme les champignons et les bactéries, se nourrissent de matière morte et de déchets et les transforment en substances plus simples."
+        ],
+        [
+          "Lequel est un décomposeur ?",
+          "un champignon qui pousse sur un tronc tombé",
+          "un faucon",
+          "une pâquerette",
+          "Les champignons se nourrissent en décomposant le bois mort. Le faucon est un prédateur et la pâquerette un producteur."
+        ],
+        [
+          "Pourquoi les décomposeurs sont-ils importants pour les plantes ?",
+          "ils rendent au sol les nutriments qui aident les plantes à pousser",
+          "ils mangent les racines des plantes vivantes",
+          "ils empêchent la lumière d’atteindre les feuilles",
+          "En décomposant la matière morte, ils renvoient des nutriments dans le sol, où de nouvelles plantes peuvent les puiser."
+        ],
+        [
+          "Que sont les micro-organismes ?",
+          "des êtres vivants trop petits pour être vus sans microscope",
+          "de minuscules grains de sable",
+          "des bébés insectes qui viennent d’éclore",
+          "Les bactéries, beaucoup de champignons et d’autres microbes sont vivants, mais si petits qu’il faut un microscope pour les voir."
+        ],
+        [
+          "Quel micro-organisme fait lever la pâte à pain ?",
+          "la levure",
+          "le virus de la grippe",
+          "la moisissure",
+          "La levure est un minuscule champignon. Elle se nourrit de sucre et rejette du dioxyde de carbone, qui forme des bulles dans la pâte."
+        ],
+        [
+          "Des bactéries utiles servent à transformer le lait en…",
+          "yaourt et fromage",
+          "plastique et verre",
+          "sucre et sel",
+          "Certaines bactéries transforment le sucre du lait, qui devient plus épais et acidulé : on obtient du yaourt et du fromage."
+        ],
+        [
+          "Que peuvent provoquer les micro-organismes nuisibles chez l’être humain ?",
+          "des maladies comme le rhume ou l’intoxication alimentaire",
+          "une plus grande taille",
+          "la transformation de l’eau en glace",
+          "Certaines bactéries et certains virus sont des microbes pathogènes : s’ils entrent dans le corps, ils peuvent nous rendre malades."
+        ],
+        [
+          "Pourquoi faut-il se laver les mains au savon avant de manger ?",
+          "pour enlever les microbes nuisibles",
+          "pour nourrir les microbes",
+          "pour faire grossir les microbes",
+          "Le savon et l’eau décollent les microbes de la peau et les emportent : ils n’entrent pas dans le corps avec la nourriture."
+        ],
+        [
+          "Une moisissure duveteuse pousse sur une vieille fraise. Qu’est-ce que cette moisissure ?",
+          "un champignon qui décompose le fruit",
+          "de la peinture qui a coulé dessus",
+          "un nouveau plant de fraise qui germe",
+          "La moisissure est un champignon. Elle se nourrit du fruit et le décompose : c’est pourquoi les vieux aliments pourrissent."
+        ],
+        [
+          "Pourquoi les aliments se conservent-ils plus longtemps au réfrigérateur ?",
+          "le froid ralentit la croissance des micro-organismes",
+          "le froid tue tous les micro-organismes d’un coup",
+          "le froid donne plus de nourriture aux micro-organismes",
+          "Au froid, les micro-organismes grandissent et se multiplient lentement : les aliments s’abîment moins vite. La congélation les ralentit encore plus."
+        ],
+        [
+          "Quel effet a l’abattage de grandes surfaces de forêt sur les animaux sauvages ?",
+          "beaucoup d’animaux perdent leur habitat et leur nourriture",
+          "cela crée plus d’abris pour les animaux de la forêt",
+          "cela n’a aucun effet sur les animaux",
+          "La forêt offre abri et nourriture aux animaux. Quand on coupe les arbres, beaucoup d’espèces n’ont plus où vivre."
+        ],
+        [
+          "Comment les déchets en plastique dans la mer peuvent-ils nuire aux animaux ?",
+          "des animaux comme les tortues peuvent les avaler ou s’y emmêler",
+          "ils offrent un repas sain aux poissons",
+          "ils rendent l’eau de mer plus propre",
+          "Les tortues peuvent confondre un sac plastique avec une méduse, et les filets ou anneaux peuvent piéger des animaux. Moins de plastique, c’est des mers plus sûres."
+        ],
+        [
+          "À quoi sert surtout une réserve naturelle ?",
+          "à protéger les animaux sauvages et leurs habitats",
+          "à construire de nouvelles usines",
+          "à stocker les déchets",
+          "Une réserve naturelle est une zone protégée où plantes et animaux, même les espèces rares, peuvent vivre et se reproduire en sécurité."
+        ],
+        [
+          "Que veut dire qu’une espèce est menacée d’extinction ?",
+          "il en reste si peu qu’elle pourrait disparaître",
+          "elle vit seulement sous l’eau",
+          "c’est un animal très féroce",
+          "Une espèce menacée risque de disparaître, souvent à cause de la perte de son habitat. La protection de la nature aide sa population à remonter."
+        ],
+        [
+          "Quelle action aiderait les animaux sauvages près de chez toi ?",
+          "planter des fleurs sauvages pour les abeilles et les autres insectes",
+          "jeter des déchets dans le parc",
+          "laisser couler le robinet toute la journée",
+          "Les fleurs sauvages offrent nectar et pollen aux abeilles et aux autres pollinisateurs. Ces insectes nourrissent à leur tour oiseaux et autres animaux."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni àyíká ìṣẹ̀dá (ecosystem)?",
+          "gbogbo ohun alààyè ibì kan àti àyíká wọn, tí wọ́n jọ ń ṣiṣẹ́ pọ̀",
+          "ẹranko kan ṣoṣo àti oúnjẹ rẹ̀",
+          "irú òkúta kan tó wà lábẹ́ ilẹ̀",
+          "Àyíká ìṣẹ̀dá ní ewéko, ẹranko àti kòkòrò àìfojúrí nínú, pẹ̀lú ilẹ̀, omi àti afẹ́fẹ́ tí wọ́n gbára lé."
+        ],
+        [
+          "Kí ló máa ń wà ní ìbẹ̀rẹ̀ ẹ̀wọ̀n oúnjẹ nígbà gbogbo?",
+          "ewéko tútù (olùpèsè)",
+          "apẹranjẹ",
+          "ajẹrà",
+          "Ẹ̀wọ̀n oúnjẹ máa ń bẹ̀rẹ̀ pẹ̀lú ewéko tútù, nítorí ewéko ló ń ṣe oúnjẹ tí àwọn ohun alààyè yòókù gbára lé."
+        ],
+        [
+          "Kí ló dé tí a fi ń pe ewéko tútù ní olùpèsè?",
+          "wọ́n ń ṣe oúnjẹ ara wọn pẹ̀lú agbára oòrùn",
+          "wọ́n ń ṣe ẹran fún àwọn ẹranko míì",
+          "wọ́n ń jẹ àwọn ohun alààyè míì",
+          "Ewéko ń lo ìmọ́lẹ̀ oòrùn, omi àti afẹ́fẹ́ carbon dioxide láti ṣe ṣúgà. A ń pe èyí ní photosynthesis."
+        ],
+        [
+          "Láti ibo ni agbára inú fẹ́rẹ̀ẹ́ gbogbo ẹ̀wọ̀n oúnjẹ ti kọ́kọ́ wá?",
+          "oòrùn",
+          "ilẹ̀",
+          "afẹ́fẹ́",
+          "Ewéko ń gba agbára láti inú ìmọ́lẹ̀ oòrùn. Agbára náà sì ń kọjá sí ẹranko tó jẹ ewéko náà, àti sí ẹranko tó jẹ àwọn ẹranko wọ̀nyẹn."
+        ],
+        [
+          "Kí ni olùjẹ (consumer) nínú ẹ̀wọ̀n oúnjẹ?",
+          "ohun alààyè tó ń rí agbára nípa jíjẹ àwọn ohun alààyè míì",
+          "ewéko tó ń ṣe oúnjẹ pẹ̀lú ìmọ́lẹ̀ oòrùn",
+          "òkúta tó ń tọ́jú agbára",
+          "Ẹranko kò lè ṣe oúnjẹ ara rẹ̀, nítorí náà ó ń jẹ ewéko tàbí ẹranko míì láti rí agbára."
+        ],
+        [
+          "Nínú ẹ̀wọ̀n oúnjẹ koríko → ehoro → kọ̀lọ̀kọ̀lọ̀, èwo ni apẹranjẹ (predator)?",
+          "kọ̀lọ̀kọ̀lọ̀",
+          "ehoro",
+          "koríko",
+          "Apẹranjẹ máa ń dọdẹ, ó sì ń jẹ àwọn ẹranko míì. Kọ̀lọ̀kọ̀lọ̀ ń dọdẹ ehoro, nítorí náà òun ni apẹranjẹ."
+        ],
+        [
+          "Nínú ẹ̀wọ̀n kan náà koríko → ehoro → kọ̀lọ̀kọ̀lọ̀, èwo ni ẹran ìjẹ (prey)?",
+          "ehoro",
+          "kọ̀lọ̀kọ̀lọ̀",
+          "koríko",
+          "Ẹran ìjẹ ni ẹranko tí apẹranjẹ ń dọdẹ, tó sì ń jẹ. Níbí, kọ̀lọ̀kọ̀lọ̀ ló ń dọdẹ ehoro."
+        ],
+        [
+          "Kí ni àwọn ọfà inú ẹ̀wọ̀n oúnjẹ ń fi hàn?",
+          "ọ̀nà tí agbára (oúnjẹ) ń gbà kọjá",
+          "ẹranko tó tóbi jù",
+          "ibi tí ẹranko kọ̀ọ̀kan ń sùn",
+          "Ọfà kọ̀ọ̀kan ń tọ́ka láti ọ̀dọ̀ ohun tí a jẹ sí ọ̀dọ̀ èyí tó jẹ ẹ́, ó ń fi bí agbára ṣe ń rìn hàn."
+        ],
+        [
+          "Kí ni àwọ̀n oúnjẹ (food web)?",
+          "ọ̀pọ̀ ẹ̀wọ̀n oúnjẹ nínú ibùgbé kan tí wọ́n so pọ̀",
+          "ẹ̀wọ̀n oúnjẹ kan ṣoṣo tó gùn gan-an",
+          "ilé tí aláǹtakùn hun",
+          "Ọ̀pọ̀ ẹranko ń jẹ ju ohun kan lọ, ju ẹranko kan lọ sì ń jẹ wọ́n, nítorí náà àwọn ẹ̀wọ̀n oúnjẹ ń so pọ̀ di àwọ̀n."
+        ],
+        [
+          "Ìdin labalábá ń jẹ ewé nìkan. Irú olùjẹ wo ni?",
+          "ajẹko (herbivore)",
+          "ajẹran (carnivore)",
+          "olùpèsè (producer)",
+          "Ajẹko máa ń jẹ ewéko nìkan. Ìdin ń jẹ ewé kí ó tó di labalábá."
+        ],
+        [
+          "Kìnnìún ń jẹ ẹran nìkan. Irú olùjẹ wo ni?",
+          "ajẹran (carnivore)",
+          "ajẹko (herbivore)",
+          "olùpèsè (producer)",
+          "Ajẹran máa ń jẹ àwọn ẹranko míì. Kìnnìún ń dọdẹ ẹranko bí i kẹ̀tẹ́kẹ̀tẹ́ abìlà àti ìgalà."
+        ],
+        [
+          "Bíà ń jẹ èso igbó, gbòǹgbò, kòkòrò àti ẹja. Irú olùjẹ wo ni?",
+          "ajẹgbogbo (omnivore)",
+          "ajẹko (herbivore)",
+          "olùpèsè (producer)",
+          "Ajẹgbogbo ń jẹ ewéko àti ẹranko. Bíà tó ń jẹ oríṣiríṣi oúnjẹ bẹ́ẹ̀ jẹ́ ajẹgbogbo."
+        ],
+        [
+          "Ẹja ekurá ńlá wà ní orí ẹ̀wọ̀n oúnjẹ inú òkun, kò sì sí ohun tó ń dọdẹ rẹ̀. A ń pè é ní…",
+          "apẹranjẹ tó ga jù (apex predator)",
+          "olùpèsè",
+          "ajẹrà",
+          "Apẹranjẹ tó ga jù kò ní ọ̀tá àdánidá kankan nínú àyíká ìṣẹ̀dá rẹ̀."
+        ],
+        [
+          "Ní pápá kan, gbogbo kọ̀lọ̀kọ̀lọ̀ kó kúrò. Kí ló ṣeé ṣe jù kó kọ́kọ́ ṣẹlẹ̀ sí àwọn ehoro?",
+          "iye wọn máa pọ̀ sí i",
+          "gbogbo wọn máa pòórá lẹ́ẹ̀kan náà",
+          "wọ́n máa di kọ̀lọ̀kọ̀lọ̀",
+          "Láìsí apẹranjẹ, ehoro púpọ̀ sí i ń yè, wọ́n sì ń bímọ, nítorí náà iye wọn ń pọ̀ sí i títí oúnjẹ yóò fi wọ́n."
+        ],
+        [
+          "Ọ̀dá gígùn pa èyí tó pọ̀ jù nínú koríko pápá kan. Kí ló ṣẹlẹ̀ sí àwọn ehoro tó ń jẹ ẹ́?",
+          "iye wọn dín kù nítorí oúnjẹ kò tó",
+          "iye wọn pọ̀ sí i kíákíá",
+          "kò sí ohun tó yí padà fún wọn",
+          "Ehoro gbára lé koríko fún agbára. Tí oúnjẹ bá dín kù, ehoro díẹ̀ ló máa yè, èyí sì kan kọ̀lọ̀kọ̀lọ̀ náà."
+        ],
+        [
+          "Kí ni àwọn ajẹrà (decomposers) ń ṣe nínú àyíká ìṣẹ̀dá?",
+          "wọ́n ń mú kí ewéko àti ẹranko tó ti kú jẹrà",
+          "wọ́n ń dọdẹ àwọn ẹranko tó lera",
+          "wọ́n ń ṣe oúnjẹ pẹ̀lú ìmọ́lẹ̀ oòrùn",
+          "Àwọn ajẹrà bí i olú àti bakitéríà ń jẹ ohun tó ti kú àti ìdọ̀tí, wọ́n sì ń fọ́ wọn sí ohun tó rọrùn."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni ajẹrà?",
+          "olú tó hù lórí igi tó wó lulẹ̀",
+          "àwòdì",
+          "òdòdó daisy",
+          "Olú ń jẹun nípa mímú kí igi tó ti kú jẹrà. Àwòdì jẹ́ apẹranjẹ, òdòdó sì jẹ́ olùpèsè."
+        ],
+        [
+          "Kí ló dé tí àwọn ajẹrà fi ṣe pàtàkì fún ewéko?",
+          "wọ́n ń dá oúnjẹ aṣaralóore padà sínú ilẹ̀ fún ewéko láti fi dàgbà",
+          "wọ́n ń jẹ gbòǹgbò ewéko tó wà láàyè",
+          "wọ́n ń dí ìmọ́lẹ̀ oòrùn kúrò lára ewé",
+          "Tí ajẹrà bá ti mú kí ohun tó kú jẹrà, oúnjẹ aṣaralóore ń padà sínú ilẹ̀, níbi tí ewéko tuntun ti lè fà á mu."
+        ],
+        [
+          "Kí ni kòkòrò àìfojúrí (micro-organisms)?",
+          "àwọn ohun alààyè tó kéré jù láti rí láìlo máíkírósíkóòpù",
+          "ẹ̀yà iyanrìn kéékèèké",
+          "ọmọ kòkòrò tó ṣẹ̀ṣẹ̀ pa",
+          "Bakitéríà, ọ̀pọ̀ olú àti àwọn kòkòrò kéékèèké míì wà láàyè, ṣùgbọ́n wọ́n kéré débi pé a nílò máíkírósíkóòpù láti rí wọn."
+        ],
+        [
+          "Kòkòrò àìfojúrí wo ló ń jẹ́ kí ìyẹ̀fun búrẹ́dì wú?",
+          "ìwúkàrà (yeast)",
+          "kòkòrò àrùn ibà-òtútù (flu)",
+          "èbu",
+          "Ìwúkàrà jẹ́ olú kékeré kan. Ó ń jẹ ṣúgà, ó sì ń tú afẹ́fẹ́ carbon dioxide jáde, èyí tó ń ṣe ìhó kéékèèké nínú ìyẹ̀fun."
+        ],
+        [
+          "A ń lo bakitéríà tó wúlò láti sọ wàrà di…",
+          "yógọ́ọ̀tì àti wàràkàṣì",
+          "ike àti gíláàsì",
+          "ṣúgà àti iyọ̀",
+          "Àwọn bakitéríà kan ń yí ṣúgà inú wàrà padà, ó ń ki, ó sì ń kan díẹ̀, bẹ́ẹ̀ la ṣe ń rí yógọ́ọ̀tì àti wàràkàṣì."
+        ],
+        [
+          "Kí ni kòkòrò àìfojúrí tó lè ṣe ìpalára lè ṣe fún ènìyàn?",
+          "wọ́n lè fa àìsàn bí i òtútù àti májèlé oúnjẹ",
+          "wọ́n lè mú kí ènìyàn ga sí i",
+          "wọ́n lè sọ omi di yìnyín",
+          "Àwọn bakitéríà àti fáírọ́ọ̀sì kan jẹ́ kòkòrò àrùn. Tí wọ́n bá wọ inú ara, wọ́n lè mú wa ṣàìsàn."
+        ],
+        [
+          "Kí ló dé tí o fi gbọ́dọ̀ fi ọṣẹ fọ ọwọ́ kí o tó jẹun?",
+          "láti mú kòkòrò àrùn kúrò",
+          "láti bọ́ àwọn kòkòrò àrùn",
+          "láti mú kí kòkòrò àrùn tóbi sí i",
+          "Ọṣẹ àti omi ń yọ kòkòrò àrùn kúrò lára awọ ara, wọ́n sì ń wẹ̀ wọ́n lọ, kí wọ́n má bàa bá oúnjẹ wọ inú ara."
+        ],
+        [
+          "Èbu onírun rírọ̀ hù lára èso strawberry tó ti pẹ́. Kí ni èbu náà?",
+          "olú tó ń mú kí èso náà jẹrà",
+          "kùn tó kán sí i lára",
+          "igi strawberry tuntun tó ń hù",
+          "Olú ni èbu. Ó ń jẹ èso náà, ó sì ń mú kí ó jẹrà, ìdí nìyẹn tí oúnjẹ tó ti pẹ́ fi ń bàjẹ́."
+        ],
+        [
+          "Kí ló dé tí oúnjẹ fi ń pẹ́ jù nínú fìríìjì?",
+          "òtútù ń dín ìdàgbàsókè kòkòrò àìfojúrí kù",
+          "òtútù ń pa gbogbo kòkòrò àìfojúrí lẹ́ẹ̀kan náà",
+          "òtútù ń fún kòkòrò àìfojúrí ní oúnjẹ sí i",
+          "Nínú òtútù, kòkòrò àìfojúrí ń dàgbà, wọ́n sì ń pọ̀ sí i díẹ̀díẹ̀, nítorí náà oúnjẹ kì í tètè bàjẹ́. Dídì í ń dín wọn kù jù bẹ́ẹ̀ lọ."
+        ],
+        [
+          "Báwo ni gígé igbó ńlá lulẹ̀ ṣe ń kan àwọn ẹranko igbó?",
+          "ọ̀pọ̀ ẹranko ń pàdánù ibùgbé àti oúnjẹ wọn",
+          "ó ń ṣe ibùgbé púpọ̀ sí i fún ẹranko igbó",
+          "kò kan àwọn ẹranko rárá",
+          "Igbó ń fún ẹranko ní ààbò àti oúnjẹ. Tí a bá gé igi kúrò, ọ̀pọ̀ ẹ̀yà ẹranko kò ní ibi tí wọ́n máa gbé."
+        ],
+        [
+          "Báwo ni ìdọ̀tí ike inú òkun ṣe lè pa àwọn ẹranko lára?",
+          "ẹranko bí i ìjàpá òkun lè gbé e mì tàbí kí ó dì mọ́ wọn lára",
+          "ó ń jẹ́ oúnjẹ aṣaralóore fún ẹja",
+          "ó ń mú kí omi òkun mọ́ sí i",
+          "Ìjàpá òkun lè rò pé àpò ike jẹ́ jẹ́lífíṣì, àwọ̀n àti òrùka ike sì lè há ẹranko mọ́. Ike tó dín kù túmọ̀ sí òkun tó láàbò jù."
+        ],
+        [
+          "Kí ni ìdí pàtàkì fún ọgbà ìpamọ́ ẹranko àti ewéko (nature reserve)?",
+          "láti dáàbò bo ẹranko igbó àti ibùgbé wọn",
+          "láti kọ́ ilé-iṣẹ́ tuntun",
+          "láti kó ìdọ̀tí pamọ́",
+          "Ọgbà ìpamọ́ jẹ́ ibi tí a dáàbò bò, níbi tí ewéko àti ẹranko, títí kan àwọn tó ṣọ̀wọ́n, ti lè gbé, kí wọ́n sì bímọ láìléwu."
+        ],
+        [
+          "Kí ló túmọ̀ sí pé ẹ̀yà ẹranko kan wà nínú ewu píparun (endangered)?",
+          "díẹ̀ péré ló kù, ó sì lè parun tán",
+          "inú omi nìkan ló ń gbé",
+          "ẹranko ẹhànnà gan-an ni",
+          "Ẹ̀yà tó wà nínú ewu píparun lè pòórá láyé, nígbà míì nítorí pé ibùgbé wọn ń dín kù. Iṣẹ́ ìdáàbòbò ń ràn wọ́n lọ́wọ́ láti pọ̀ sí i."
+        ],
+        [
+          "Ìgbésẹ̀ wo ló máa ran àwọn ẹranko igbó tó wà nítòsí ilé rẹ lọ́wọ́?",
+          "gbígbin òdòdó igbó fún oyin àti àwọn kòkòrò míì",
+          "jíju ìdọ̀tí sílẹ̀ nínú pápá ìṣeré",
+          "fífi ẹ̀rọ omi sílẹ̀ kí ó máa ṣàn láti àárọ̀ dalẹ́",
+          "Òdòdó igbó ń fún oyin àti àwọn kòkòrò míì ní omi òdòdó àti eruku òdòdó. Àwọn kòkòrò yìí sì ń jẹ́ oúnjẹ fún ẹyẹ àti àwọn ẹranko míì."
+        ]
+      ]
+    }
+  },
+  "emoji": "tree",
+  "example": {
+    "i": 0,
+    "q_en": "What is an ecosystem?",
+    "answer_en": "all the living things in an area and their surroundings, working together",
+    "why_en": "An ecosystem includes plants, animals and micro-organisms plus the soil, water and air they depend on.",
+    "q_de": "Was ist ein Ökosystem?",
+    "answer_de": "alle Lebewesen eines Gebiets und ihre Umgebung, die zusammenwirken",
+    "why_de": "Zu einem Ökosystem gehören Pflanzen, Tiere und Mikroorganismen sowie Boden, Wasser und Luft, von denen sie abhängen.",
+    "q_fr": "Qu’est-ce qu’un écosystème ?",
+    "answer_fr": "tous les êtres vivants d’un lieu et leur milieu, qui fonctionnent ensemble",
+    "why_fr": "Un écosystème comprend les plantes, les animaux et les micro-organismes, ainsi que le sol, l’eau et l’air dont ils dépendent.",
+    "q_yo": "Kí ni àyíká ìṣẹ̀dá (ecosystem)?",
+    "answer_yo": "gbogbo ohun alààyè ibì kan àti àyíká wọn, tí wọ́n jọ ń ṣiṣẹ́ pọ̀",
+    "why_yo": "Àyíká ìṣẹ̀dá ní ewéko, ẹranko àti kòkòrò àìfojúrí nínú, pẹ̀lú ilẹ̀, omi àti afẹ́fẹ́ tí wọ́n gbára lé."
+  },
+  "text": {
+    "en": {
+      "title": "Ecosystems and food webs",
+      "teach": "In an ecosystem, living things depend on each other. Energy passes from producers (plants) to consumers along food chains, which link up into food webs. Decomposers and micro-organisms recycle dead material.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Ökosysteme und Nahrungsnetze",
+      "teach": "In einem Ökosystem sind Lebewesen voneinander abhängig. Energie geht in Nahrungsketten von Produzenten (Pflanzen) zu Konsumenten über, und die Ketten verbinden sich zu Nahrungsnetzen. Zersetzer und Mikroorganismen verwerten tote Stoffe.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Écosystèmes et réseaux alimentaires",
+      "teach": "Dans un écosystème, les êtres vivants dépendent les uns des autres. L’énergie passe des producteurs (les plantes) aux consommateurs le long des chaînes alimentaires, qui forment ensemble des réseaux. Les décomposeurs et les micro-organismes recyclent la matière morte.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Àyíká ìṣẹ̀dá àti àwọ̀n oúnjẹ",
+      "teach": "Nínú àyíká ìṣẹ̀dá (ecosystem), àwọn ohun alààyè gbára lé ara wọn. Agbára ń kọjá láti ọ̀dọ̀ olùpèsè (ewéko) sí olùjẹ nínú ẹ̀wọ̀n oúnjẹ, àwọn ẹ̀wọ̀n náà sì ń so pọ̀ di àwọ̀n oúnjẹ. Àwọn ajẹrà àti kòkòrò àìfojúrí ń sọ ohun tó kú di ọ̀tun.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

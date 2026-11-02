@@ -5,11 +5,13 @@ the change.
 
 ## Who it is for
 
-- **The child:** aged 4 to 11 (first written for 5 to 7, who are just starting to read). They can tap and
+- **The child:** aged 4 to 12 (first written for 5 to 7, who are just starting to read). **A grown-up gives each
+  child an age** (owner's decision, 27 Oct 2026), and the child sees only the skills for their age range: 4–5, 6–7,
+  8–9 or 10–12. Every subject has at least **300 different questions for each age range** (checked by a test). They can tap and
   listen; the youngest may not read a full sentence yet, so everything a young child must understand is a picture,
   a number line, or read aloud. **The child chooses which skill to learn** (owner's decision, 27 Oct 2026): first
   a subject, then a skill in teaching order. Nothing is locked. The Learn tab then shows **only the chosen skill**,
-  with "Choose another skill" next to it, so the child isn't faced with a page of 95 skills.
+  with "Choose another skill" next to it, so the child isn't faced with a page of 171 skills.
 - **The parent:** wants ten calm minutes of real practice, and to see afterwards what was hard. They aren't a
   teacher, and they don't want to configure much.
 
@@ -36,6 +38,9 @@ One parent screen, behind a PIN:
   passed, checks right, days in the app, skills learnt, time per area (lessons, games, listen and watch, explore),
   and the questions to practise again with what the child answered. It is made on the device. "Send by email" opens
   the parent's own mail app with the report as text, and nothing is sent otherwise.
+- **Off / Open / Earn first for each subject** (owner's decision, 27 Oct 2026). An "earn first" subject opens for
+  the day once the child has passed enough lessons that day (2 at first). At first numbers and words are open, and
+  patterns, science and French are earn first.
 - **Off / Open / Earn first** for every game, radio, stories, videos and explore item. "Earn first" means a passed
   lesson (4 of 5) earns minutes (10 at first) up to a daily limit (45 at first). The clock only runs while an earn-first
   item is open.
@@ -58,8 +63,9 @@ One parent screen, behind a PIN:
   machine-checked for completeness but have not yet been read aloud by native speakers. That reading is the next
   step for each of them (ROADMAP.md).*
 - **No reward that isn't earned by learning.** Time for games, radio and videos comes from passed lessons when
-  the grown-ups set an item to "Earn first". Games stay close to learning: memory cards made of a learnt skill's
-  questions, word builder, code breaker, picture puzzle and number slide.
+  the grown-ups set an item to "Earn first". Games train thinking: memory cards made of a learnt skill's questions,
+  word builder, code breaker, picture puzzle, number slide, and four reasoning games with levels that start at the
+  child's age and rise after each win (mini sudoku, Tower of Hanoi, repeat the pattern, picture logic).
 
 ## The session on paper (the demo before the app)
 
@@ -80,24 +86,27 @@ If this table can't be acted out with a child and a sheet of paper, the app shou
 
 Version 1 started with twelve (count to 5 and 10, one more, one less, add and take away within 5 and 10, which is
 bigger, first sounds, "a" or "an", rhyming pictures). The owner then asked for the original's other skills, rebuilt in
-this format (57). Then the owner asked for science, French and more English: **95 in all**, from Cambridge
-Primary early years to about Stage 6.
+this format (57). Then the owner asked for science, French and more English, and for ages 4 to 12 with 300
+questions per subject and age range: **171 in all**, from Cambridge Primary early years to about Stage 7.
 
 - **Numbers (31):** counting, adding and taking away up to 1000, tens and ones, times tables, time, place value,
   rounding, dividing, multiplying, fractions, percentages, order of operations, square numbers.
-- **Sounds and words (27, taught in English):** first sounds, rhymes, reading and spelling words, the missing letter,
-  "a" or "an", plurals, the past tense, alphabetical order, opposites, short forms, comparing, synonyms, homophones,
-  word classes, prefixes, capital letters, punctuation, question words, prepositions, pronouns, compound words,
-  suffixes, conjunctions, collective nouns, apostrophes.
-- **Patterns (9):** picture patterns and number sequences.
-- **Science (16, in every app language):** living things, the body, the senses, animals, plants, healthy eating,
-  materials, habitats, weather, solids, liquids and gases, magnets, forces, light, sound, space, electricity.
-- **French (12, taught in French):** greetings, colours, numbers, animals, fruit, body and family, days and months,
-  weather, le/la/l', être and avoir, plurals, simple sentences.
+- **Sounds and words (47, taught in English):** from letter names, first sounds and naming pictures (4–5), through
+  spelling, punctuation, pronouns and prepositions (6–9), to idioms, figurative language, the passive, formal
+  language, Greek and Latin roots, clauses, tenses and spelling rules (10–12).
+- **Patterns (13):** picture patterns and number sequences, up to steps of 250 and growing patterns.
+- **Science (40, in every app language):** 10 per age range, from my body, senses, weather and floating (4–5) to
+  body systems, evolution, classification, changes of materials, the solar system, forces, light, circuits and
+  ecosystems (10–12).
+- **French (40, taught in English):** 10 per age range, from greetings, colours and numbers (4–5) to the near future,
+  the passé composé, reflexive verbs, negation and reading short sentences (10–12). *Changed by the owner's decision
+  (27 Oct 2026): French was taught in French; it is now taught in English with French answers.*
 
 Science, French and the newer English skills are question banks: questions written by hand with one right answer
 each (checked by a test), rather than numbers made fresh.
 
-**Explore** (not lessons): places of the world (real photos with credits), "Did you know?" facts, and **100 Whys**
-(short answers to everyday questions about the body, nature, the sky and things around us). Like all facts, they are
+**Explore** (not lessons): places of the world (real photos with credits), "Did you know?" facts, and **500 Whys**
+(short answers to everyday questions in ten topics: the body, nature, the sky, things around us, food, getting
+around, our planet, people and feelings, history and inventions, play and sport). **Stories:** at least 50
+public-domain recordings for each age range (LibriVox), chosen by hand. Like all facts, they are
 to be checked against a source again before a wider release (ROADMAP.md).

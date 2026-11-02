@@ -1,0 +1,936 @@
+{
+  "id": "sci4-babies",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 104,
+  "params": {
+    "emojis": [
+      "fruit-apple",
+      "wave",
+      "house",
+      "animal-kangaroo",
+      "animal-hedgehog",
+      "animal-cow",
+      "beach",
+      "animal-parrot",
+      "heart",
+      "girl",
+      "paws",
+      "tree",
+      "animal-penguin",
+      "animal-elephant",
+      "animal-horse",
+      "animal-koala",
+      "animal-giraffe",
+      "fruit-pear",
+      "teddy",
+      "shoe",
+      "animal-seal",
+      "animal-swan",
+      "deer",
+      "animal-turtle",
+      "animal-honeybee",
+      "animal-dolphin",
+      "chick",
+      "animal-owl",
+      "animal-rabbit",
+      "animal-bear"
+    ],
+    "bank": {
+      "en": [
+        [
+          "A caterpillar munches leaves. What will it become?",
+          "a butterfly",
+          "a snail",
+          "a bird",
+          "A caterpillar makes a hard case, and later a butterfly comes out."
+        ],
+        [
+          "A tadpole swims in a pond and has a tail. What will it grow into?",
+          "a frog",
+          "a fish",
+          "a duck",
+          "A tadpole grows legs, loses its tail and becomes a frog."
+        ],
+        [
+          "Which farm animal lays eggs that hatch into chicks?",
+          "a hen",
+          "a cow",
+          "a horse",
+          "A hen lays eggs and sits on them until the chicks hatch."
+        ],
+        [
+          "Where does a baby kangaroo ride?",
+          "in its mum’s pouch",
+          "on its dad’s tail",
+          "in a nest in a tree",
+          "A baby kangaroo grows and rides in a warm pouch on its mum’s tummy."
+        ],
+        [
+          "A baby hedgehog has soft spines. What happens to them as it grows?",
+          "they get hard and prickly",
+          "they turn into fur",
+          "they turn green",
+          "A baby hedgehog’s spines are soft at first, then they get hard and sharp."
+        ],
+        [
+          "What does a baby cow drink?",
+          "milk from its mum",
+          "orange juice",
+          "tea",
+          "A baby cow drinks its mum’s milk until it is old enough to eat grass."
+        ],
+        [
+          "Which of these lays eggs?",
+          "a turtle",
+          "a cow",
+          "a horse",
+          "A turtle lays its eggs in a hole in the sand. Cows and horses have live babies."
+        ],
+        [
+          "Who brings food to baby birds in the nest?",
+          "their mum and dad",
+          "the fish",
+          "the cows",
+          "Bird parents fly back and forth to bring food to their hungry babies."
+        ],
+        [
+          "What do baby animals need from their parents?",
+          "food and care",
+          "a phone",
+          "a bike",
+          "Parents keep their babies fed, warm and safe while they grow."
+        ],
+        [
+          "A baby grows into a child. What does a child grow into?",
+          "a grown-up",
+          "a puppy",
+          "a tree",
+          "Children keep growing until they are grown-ups."
+        ],
+        [
+          "Which of these babies drinks milk from its mum?",
+          "a kitten",
+          "a baby snake",
+          "a chick",
+          "Kittens drink their mum’s milk. Snakes and chicks do not drink milk."
+        ],
+        [
+          "Where do many baby birds hatch?",
+          "in a nest",
+          "under the sea",
+          "in a shoe",
+          "Many birds build a nest, lay eggs in it and keep them warm until they hatch."
+        ],
+        [
+          "Where does a baby emperor penguin keep warm?",
+          "on its parent’s feet",
+          "in the icy sea",
+          "up a tree",
+          "The baby sits on a parent’s feet, tucked under a warm fold of skin."
+        ],
+        [
+          "What can a baby elephant use to hold its mum’s tail?",
+          "its trunk",
+          "its ears",
+          "its teeth",
+          "A baby elephant can curl its trunk round its mum’s tail as they walk."
+        ],
+        [
+          "When can a baby horse stand up?",
+          "a short time after it is born",
+          "when it is ten years old",
+          "never",
+          "A baby horse stands on its wobbly legs within a few hours of being born."
+        ],
+        [
+          "When a baby koala gets bigger, where does it ride?",
+          "on its mum’s back",
+          "on a fish",
+          "on a cloud",
+          "A baby koala first lives in its mum’s pouch, then rides on her back."
+        ],
+        [
+          "Who is taller: a baby giraffe or its mum?",
+          "its mum",
+          "the baby",
+          "they are the same",
+          "A baby giraffe is already tall, but its mum is more than twice as tall."
+        ],
+        [
+          "What helps children grow big and strong?",
+          "healthy food and sleep",
+          "sweets all day",
+          "staying up all night",
+          "Good food, plenty of sleep and playing help your body grow."
+        ],
+        [
+          "Can a newborn baby walk?",
+          "no, it learns later",
+          "yes, on its first day",
+          "yes, and it runs fast",
+          "New babies cannot walk. Most learn when they are about one year old."
+        ],
+        [
+          "Why do your old shoes get too small?",
+          "your feet grow",
+          "the shoes grow",
+          "the shoes melt",
+          "You are growing, so your feet get bigger, but shoes stay the same."
+        ],
+        [
+          "What does a baby seal drink?",
+          "milk from its mum",
+          "sea water",
+          "juice",
+          "A baby seal drinks its mum’s rich milk and grows fat and strong."
+        ],
+        [
+          "Where do baby swans like to swim?",
+          "close to their parents",
+          "next to sharks",
+          "up in the sky",
+          "Young swans stay close to their parents, who keep them safe."
+        ],
+        [
+          "A baby deer has white spots. What do they help it do?",
+          "hide among the trees",
+          "swim fast",
+          "fly",
+          "The spots look like patches of sunlight, so the baby is hard to see."
+        ],
+        [
+          "Baby sea turtles hatch on the beach. Where do they go next?",
+          "into the sea",
+          "up a tree",
+          "into a cave",
+          "As soon as they hatch, baby sea turtles hurry across the sand to the sea."
+        ],
+        [
+          "Where do baby bees grow up?",
+          "in the hive",
+          "in the sea",
+          "in a shoe",
+          "Baby bees grow in tiny wax rooms inside the hive."
+        ],
+        [
+          "Why does a baby dolphin swim up to the top of the water?",
+          "to breathe air",
+          "to sleep",
+          "to find snow",
+          "Dolphins breathe air, so the baby swims up to take a breath."
+        ],
+        [
+          "What does a baby bird break to get out of its egg?",
+          "its shell",
+          "a window",
+          "a stick",
+          "A baby bird pecks a hole in the shell to hatch."
+        ],
+        [
+          "A baby owl is fluffy. What grows on it so it can fly?",
+          "feathers",
+          "fur",
+          "leaves",
+          "Fluffy down is soon replaced by feathers, and then the owl can fly."
+        ],
+        [
+          "Where are wild baby rabbits born?",
+          "in a burrow under the ground",
+          "in the sea",
+          "in a beehive",
+          "Wild rabbits dig burrows and have their babies in a cosy nest underground."
+        ],
+        [
+          "Where does a mother bear have her babies?",
+          "in a cosy den",
+          "under the sea",
+          "on a cloud",
+          "Bear cubs are born in winter in a warm, safe den."
+        ]
+      ],
+      "de": [
+        [
+          "Eine Raupe frisst Blätter. Was wird aus ihr?",
+          "ein Schmetterling",
+          "eine Schnecke",
+          "ein Vogel",
+          "Die Raupe baut sich eine harte Hülle, und später kommt ein Schmetterling heraus."
+        ],
+        [
+          "Eine Kaulquappe schwimmt im Teich und hat einen Schwanz. Was wird aus ihr?",
+          "ein Frosch",
+          "ein Fisch",
+          "eine Ente",
+          "Die Kaulquappe bekommt Beine, verliert den Schwanz und wird ein Frosch."
+        ],
+        [
+          "Welches Bauernhoftier legt Eier, aus denen Küken schlüpfen?",
+          "ein Huhn",
+          "eine Kuh",
+          "ein Pferd",
+          "Ein Huhn legt Eier und sitzt darauf, bis die Küken schlüpfen."
+        ],
+        [
+          "Wo fährt ein Känguru-Baby mit?",
+          "im Beutel seiner Mama",
+          "auf dem Schwanz seines Papas",
+          "in einem Nest im Baum",
+          "Das Känguru-Baby wächst und reist im warmen Beutel am Bauch seiner Mama."
+        ],
+        [
+          "Ein Igelbaby hat weiche Stacheln. Was passiert mit ihnen, wenn es wächst?",
+          "sie werden hart und spitz",
+          "sie werden zu Fell",
+          "sie werden grün",
+          "Zuerst sind die Stacheln weich, dann werden sie hart und spitz."
+        ],
+        [
+          "Was trinkt ein Kälbchen?",
+          "Milch von seiner Mama",
+          "Orangensaft",
+          "Tee",
+          "Ein Kälbchen trinkt die Milch seiner Mama, bis es alt genug für Gras ist."
+        ],
+        [
+          "Wer von diesen legt Eier?",
+          "eine Schildkröte",
+          "eine Kuh",
+          "ein Pferd",
+          "Eine Schildkröte legt ihre Eier in ein Loch im Sand. Kühe und Pferde bekommen lebende Junge."
+        ],
+        [
+          "Wer bringt den Vogelbabys im Nest Futter?",
+          "ihre Mama und ihr Papa",
+          "die Fische",
+          "die Kühe",
+          "Vogeleltern fliegen hin und her und bringen ihren hungrigen Kleinen Futter."
+        ],
+        [
+          "Was brauchen Tierbabys von ihren Eltern?",
+          "Futter und Fürsorge",
+          "ein Telefon",
+          "ein Fahrrad",
+          "Eltern geben ihren Kleinen Futter, Wärme und Schutz, während sie wachsen."
+        ],
+        [
+          "Ein Baby wird ein Kind. Was wird aus einem Kind?",
+          "ein Erwachsener",
+          "ein Hündchen",
+          "ein Baum",
+          "Kinder wachsen weiter, bis sie erwachsen sind."
+        ],
+        [
+          "Welches Baby trinkt Milch bei seiner Mama?",
+          "ein Kätzchen",
+          "eine junge Schlange",
+          "ein Küken",
+          "Kätzchen trinken die Milch ihrer Mama. Schlangen und Küken trinken keine Milch."
+        ],
+        [
+          "Wo schlüpfen viele Vogelbabys?",
+          "in einem Nest",
+          "unter dem Meer",
+          "in einem Schuh",
+          "Viele Vögel bauen ein Nest, legen Eier hinein und wärmen sie, bis die Jungen schlüpfen."
+        ],
+        [
+          "Wo hält sich ein Kaiserpinguin-Baby warm?",
+          "auf den Füßen von Mama oder Papa",
+          "im eisigen Meer",
+          "oben auf einem Baum",
+          "Das Junge sitzt auf den Füßen eines Elternteils, unter einer warmen Hautfalte."
+        ],
+        [
+          "Womit kann sich ein Elefantenbaby am Schwanz seiner Mama festhalten?",
+          "mit dem Rüssel",
+          "mit den Ohren",
+          "mit den Zähnen",
+          "Ein Elefantenbaby kann beim Laufen den Rüssel um den Schwanz der Mama wickeln."
+        ],
+        [
+          "Wann kann ein Fohlen aufstehen?",
+          "kurz nach der Geburt",
+          "mit zehn Jahren",
+          "nie",
+          "Ein Fohlen steht schon wenige Stunden nach der Geburt auf seinen wackeligen Beinen."
+        ],
+        [
+          "Wo reitet ein Koalababy, wenn es größer wird?",
+          "auf dem Rücken seiner Mama",
+          "auf einem Fisch",
+          "auf einer Wolke",
+          "Ein Koalababy lebt zuerst im Beutel seiner Mama und reitet später auf ihrem Rücken."
+        ],
+        [
+          "Wer ist größer: ein Giraffenbaby oder seine Mama?",
+          "die Mama",
+          "das Baby",
+          "beide sind gleich groß",
+          "Ein Giraffenbaby ist schon groß, aber seine Mama ist mehr als doppelt so groß."
+        ],
+        [
+          "Was hilft Kindern, groß und stark zu werden?",
+          "gesundes Essen und Schlaf",
+          "den ganzen Tag Süßigkeiten",
+          "die ganze Nacht wach bleiben",
+          "Gutes Essen, viel Schlaf und Spielen helfen deinem Körper beim Wachsen."
+        ],
+        [
+          "Kann ein neugeborenes Baby laufen?",
+          "nein, das lernt es später",
+          "ja, schon am ersten Tag",
+          "ja, und es rennt schnell",
+          "Neugeborene können nicht laufen. Die meisten lernen es mit etwa einem Jahr."
+        ],
+        [
+          "Warum werden dir deine alten Schuhe zu klein?",
+          "meine Füße wachsen",
+          "die Schuhe wachsen",
+          "die Schuhe schmelzen",
+          "Du wächst, deine Füße werden größer, aber die Schuhe bleiben gleich."
+        ],
+        [
+          "Was trinkt ein Robbenbaby?",
+          "Milch von seiner Mama",
+          "Meerwasser",
+          "Saft",
+          "Ein Robbenbaby trinkt die fette Milch seiner Mama und wird rund und stark."
+        ],
+        [
+          "Wo schwimmen Schwanenbabys am liebsten?",
+          "nah bei ihren Eltern",
+          "neben Haien",
+          "oben im Himmel",
+          "Junge Schwäne bleiben nah bei ihren Eltern. Die passen auf sie auf."
+        ],
+        [
+          "Ein Rehkitz hat weiße Flecken. Wobei helfen sie ihm?",
+          "sich zwischen Bäumen verstecken",
+          "schnell schwimmen",
+          "fliegen",
+          "Die Flecken sehen aus wie Sonnenflecken. So sieht man das Kitz kaum."
+        ],
+        [
+          "Meeresschildkröten-Babys schlüpfen am Strand. Wohin gehen sie dann?",
+          "ins Meer",
+          "auf einen Baum",
+          "in eine Höhle",
+          "Gleich nach dem Schlüpfen krabbeln die Babys über den Sand ins Meer."
+        ],
+        [
+          "Wo wachsen Bienenbabys auf?",
+          "im Bienenstock",
+          "im Meer",
+          "in einem Schuh",
+          "Bienenbabys wachsen in winzigen Wachskammern im Bienenstock."
+        ],
+        [
+          "Warum schwimmt ein Delfinbaby an die Wasseroberfläche?",
+          "um Luft zu holen",
+          "um zu schlafen",
+          "um Schnee zu finden",
+          "Delfine atmen Luft. Darum schwimmt das Baby nach oben, um Luft zu holen."
+        ],
+        [
+          "Was muss ein Vogelbaby kaputt machen, um aus dem Ei zu kommen?",
+          "die Schale",
+          "ein Fenster",
+          "einen Stock",
+          "Das Vogelbaby pickt ein Loch in die Schale und schlüpft."
+        ],
+        [
+          "Ein Eulenbaby ist flauschig. Was wächst ihm, damit es fliegen kann?",
+          "Federn",
+          "Fell",
+          "Blätter",
+          "Der flauschige Flaum wird bald durch Federn ersetzt. Dann kann die Eule fliegen."
+        ],
+        [
+          "Wo kommen wilde Kaninchenbabys zur Welt?",
+          "in einem Bau unter der Erde",
+          "im Meer",
+          "in einem Bienenstock",
+          "Wildkaninchen graben Baue und bekommen ihre Jungen in einem warmen Nest unter der Erde."
+        ],
+        [
+          "Wo bekommt eine Bärenmama ihre Babys?",
+          "in einer gemütlichen Höhle",
+          "unter dem Meer",
+          "auf einer Wolke",
+          "Bärenbabys kommen im Winter in einer warmen, sicheren Höhle zur Welt."
+        ]
+      ],
+      "fr": [
+        [
+          "Une chenille grignote des feuilles. Que va-t-elle devenir ?",
+          "un papillon",
+          "un escargot",
+          "un oiseau",
+          "La chenille se fabrique une coque dure, et plus tard un papillon en sort."
+        ],
+        [
+          "Un têtard nage dans la mare et a une queue. Que va-t-il devenir ?",
+          "une grenouille",
+          "un poisson",
+          "un canard",
+          "Le têtard a des pattes qui poussent, il perd sa queue et devient une grenouille."
+        ],
+        [
+          "Quel animal de la ferme pond des œufs d’où sortent des poussins ?",
+          "la poule",
+          "la vache",
+          "le cheval",
+          "La poule pond des œufs et les couve jusqu’à ce que les poussins sortent."
+        ],
+        [
+          "Où voyage le bébé kangourou ?",
+          "dans la poche de sa maman",
+          "sur la queue de son papa",
+          "dans un nid dans un arbre",
+          "Le bébé kangourou grandit et voyage dans la poche chaude sur le ventre de sa maman."
+        ],
+        [
+          "Un bébé hérisson a des piquants tout mous. Que deviennent-ils quand il grandit ?",
+          "ils deviennent durs et piquants",
+          "ils deviennent des poils",
+          "ils deviennent verts",
+          "Au début, les piquants sont mous, puis ils deviennent durs et pointus."
+        ],
+        [
+          "Que boit un petit veau ?",
+          "le lait de sa maman",
+          "du jus d’orange",
+          "du thé",
+          "Le veau boit le lait de sa maman jusqu’à ce qu’il soit assez grand pour manger de l’herbe."
+        ],
+        [
+          "Lequel de ces animaux pond des œufs ?",
+          "la tortue",
+          "la vache",
+          "le cheval",
+          "La tortue pond ses œufs dans un trou dans le sable. La vache et la jument mettent au monde leurs petits."
+        ],
+        [
+          "Qui apporte à manger aux bébés oiseaux dans le nid ?",
+          "leur maman et leur papa",
+          "les poissons",
+          "les vaches",
+          "Les parents oiseaux font des allers-retours pour nourrir leurs petits affamés."
+        ],
+        [
+          "De quoi les bébés animaux ont-ils besoin de la part de leurs parents ?",
+          "de nourriture et de soins",
+          "d’un téléphone",
+          "d’un vélo",
+          "Les parents nourrissent leurs petits, les gardent au chaud et les protègent pendant qu’ils grandissent."
+        ],
+        [
+          "Un bébé devient un enfant. Et un enfant, que devient-il ?",
+          "un adulte",
+          "un chiot",
+          "un arbre",
+          "Les enfants grandissent jusqu’à devenir des adultes."
+        ],
+        [
+          "Lequel de ces bébés boit le lait de sa maman ?",
+          "un chaton",
+          "un bébé serpent",
+          "un poussin",
+          "Le chaton boit le lait de sa maman. Les serpents et les poussins ne boivent pas de lait."
+        ],
+        [
+          "Où naissent beaucoup de bébés oiseaux ?",
+          "dans un nid",
+          "au fond de la mer",
+          "dans une chaussure",
+          "Beaucoup d’oiseaux construisent un nid, y pondent leurs œufs et les gardent au chaud jusqu’à l’éclosion."
+        ],
+        [
+          "Où le bébé manchot empereur se tient-il au chaud ?",
+          "sur les pattes de son parent",
+          "dans la mer glacée",
+          "en haut d’un arbre",
+          "Le petit se pose sur les pattes d’un parent, bien caché sous un pli de peau tout chaud."
+        ],
+        [
+          "Avec quoi l’éléphanteau peut-il tenir la queue de sa maman ?",
+          "avec sa trompe",
+          "avec ses oreilles",
+          "avec ses dents",
+          "En marchant, l’éléphanteau peut enrouler sa trompe autour de la queue de sa maman."
+        ],
+        [
+          "Quand le poulain peut-il se mettre debout ?",
+          "peu de temps après sa naissance",
+          "à dix ans",
+          "jamais",
+          "Le poulain tient debout sur ses jambes tremblantes quelques heures après sa naissance."
+        ],
+        [
+          "Quand le bébé koala grandit, où se promène-t-il ?",
+          "sur le dos de sa maman",
+          "sur un poisson",
+          "sur un nuage",
+          "Le bébé koala vit d’abord dans la poche de sa maman, puis il voyage sur son dos."
+        ],
+        [
+          "Qui est le plus grand : le bébé girafe ou sa maman ?",
+          "sa maman",
+          "le bébé",
+          "ils sont pareils",
+          "Le bébé girafe est déjà grand, mais sa maman est plus de deux fois plus grande."
+        ],
+        [
+          "Qu’est-ce qui aide les enfants à devenir grands et forts ?",
+          "bien manger et bien dormir",
+          "des bonbons toute la journée",
+          "rester éveillé toute la nuit",
+          "Une bonne alimentation, beaucoup de sommeil et le jeu aident ton corps à grandir."
+        ],
+        [
+          "Un nouveau-né sait-il marcher ?",
+          "non, il apprend plus tard",
+          "oui, dès le premier jour",
+          "oui, et il court vite",
+          "Les nouveau-nés ne marchent pas. La plupart apprennent vers un an."
+        ],
+        [
+          "Pourquoi tes vieilles chaussures deviennent-elles trop petites ?",
+          "mes pieds grandissent",
+          "les chaussures grandissent",
+          "les chaussures fondent",
+          "Tu grandis, alors tes pieds aussi, mais les chaussures restent pareilles."
+        ],
+        [
+          "Que boit un bébé phoque ?",
+          "le lait de sa maman",
+          "l’eau de mer",
+          "du jus",
+          "Le bébé phoque boit le lait très riche de sa maman et devient gros et fort."
+        ],
+        [
+          "Où les bébés cygnes aiment-ils nager ?",
+          "près de leurs parents",
+          "à côté des requins",
+          "dans le ciel",
+          "Les jeunes cygnes restent près de leurs parents, qui les protègent."
+        ],
+        [
+          "Le faon a des taches blanches. À quoi lui servent-elles ?",
+          "à se cacher parmi les arbres",
+          "à nager vite",
+          "à voler",
+          "Les taches ressemblent à des petits coins de soleil : on voit à peine le faon."
+        ],
+        [
+          "Les bébés tortues de mer sortent de l’œuf sur la plage. Où vont-ils ensuite ?",
+          "dans la mer",
+          "en haut d’un arbre",
+          "dans une grotte",
+          "Dès leur sortie de l’œuf, les bébés tortues se dépêchent de traverser le sable vers la mer."
+        ],
+        [
+          "Où grandissent les bébés abeilles ?",
+          "dans la ruche",
+          "dans la mer",
+          "dans une chaussure",
+          "Les bébés abeilles grandissent dans de minuscules cases de cire, dans la ruche."
+        ],
+        [
+          "Pourquoi le bébé dauphin remonte-t-il à la surface de l’eau ?",
+          "pour respirer de l’air",
+          "pour dormir",
+          "pour trouver de la neige",
+          "Le dauphin respire de l’air, alors le petit remonte pour prendre son souffle."
+        ],
+        [
+          "Que doit casser le bébé oiseau pour sortir de son œuf ?",
+          "sa coquille",
+          "une fenêtre",
+          "un bâton",
+          "Le bébé oiseau fait un trou dans la coquille avec son bec pour sortir."
+        ],
+        [
+          "Le bébé chouette est tout duveteux. Qu’est-ce qui lui pousse pour qu’il puisse voler ?",
+          "des plumes",
+          "des poils",
+          "des feuilles",
+          "Le duvet est vite remplacé par des plumes, et la chouette peut alors voler."
+        ],
+        [
+          "Où naissent les bébés lapins sauvages ?",
+          "dans un terrier sous la terre",
+          "dans la mer",
+          "dans une ruche",
+          "Les lapins sauvages creusent des terriers et ont leurs petits dans un nid douillet sous la terre."
+        ],
+        [
+          "Où la maman ourse met-elle au monde ses petits ?",
+          "dans une tanière douillette",
+          "au fond de la mer",
+          "sur un nuage",
+          "Les oursons naissent en hiver dans une tanière chaude et bien abritée."
+        ]
+      ],
+      "yo": [
+        [
+          "Ìdin kan ń jẹ ewé. Kí ni yóò dà?",
+          "labalábá",
+          "ìgbín",
+          "ẹyẹ",
+          "Ìdin náà ń ṣe ìkarahun líle yí ara rẹ̀ ká, lẹ́yìn náà labalábá ń jáde."
+        ],
+        [
+          "Ẹ̀dá kékeré kan tó ní orí ribiti àti ìrù ń lúwẹ̀ nínú adágún. Lẹ́yìn ọjọ́ díẹ̀, ẹsẹ̀ mẹ́rin máa hù fún un, ìrù rẹ̀ á sì pòórá. Kí ni yóò dà?",
+          "ọ̀pọ̀lọ́",
+          "ẹja",
+          "pẹ́pẹ́yẹ",
+          "Ẹ̀dá yìí jáde láti inú ẹyin ọ̀pọ̀lọ́. Nígbà tí ẹsẹ̀ rẹ̀ bá hù tán, ó máa di ọ̀pọ̀lọ́ tó ń bẹ́ kiri."
+        ],
+        [
+          "Ẹranko oko wo ló ń yé ẹyin tí òròmọdìẹ ń jáde nínú rẹ̀?",
+          "adìẹ",
+          "màálù",
+          "ẹṣin",
+          "Adìẹ ń yé ẹyin, ó sì ń sàba lé e títí òròmọdìẹ yóò fi pa."
+        ],
+        [
+          "Níbo ni kangarú kékeré máa ń wà tí ìyá rẹ̀ bá ń bẹ́ kiri?",
+          "nínú àpò ìyá rẹ̀",
+          "lórí ìrù bàbá rẹ̀",
+          "nínú ìtẹ́ lórí igi",
+          "Kangarú kékeré ń dàgbà nínú àpò gbígbóná tó wà ní ikùn ìyá rẹ̀."
+        ],
+        [
+          "Òòrẹ̀ tí wọ́n ṣẹ̀ṣẹ̀ bí ní ẹ̀gún rírọ̀. Kí ló ń ṣẹlẹ̀ sí wọn bí ó ti ń dàgbà?",
+          "wọ́n ń le, wọ́n sì ń mú",
+          "wọ́n ń di irun",
+          "wọ́n ń di àwọ̀ ewé",
+          "Ẹ̀gún rẹ̀ rọ̀ ní ìbẹ̀rẹ̀, lẹ́yìn náà wọ́n ń le, wọ́n sì ń mú."
+        ],
+        [
+          "Kí ni màálù tí wọ́n ṣẹ̀ṣẹ̀ bí ń mu?",
+          "wàrà ìyá rẹ̀",
+          "omi ọsàn",
+          "tíì",
+          "Màálù kékeré ń mu wàrà ìyá rẹ̀ títí yóò fi lè jẹ koríko."
+        ],
+        [
+          "Èwo nínú àwọn ẹranko wọ̀nyí ló ń yé ẹyin?",
+          "ìjàpá",
+          "màálù",
+          "ẹṣin",
+          "Ìjàpá ń yé ẹyin sínú ihò nínú iyanrìn. Màálù àti ẹṣin ń bí ọmọ láàyè."
+        ],
+        [
+          "Ta ló ń gbé oúnjẹ wá fún àwọn ẹyẹ kékeré nínú ìtẹ́?",
+          "ìyá àti bàbá wọn",
+          "àwọn ẹja",
+          "àwọn màálù",
+          "Àwọn òbí ẹyẹ ń fò lọ, wọ́n sì ń fò bọ̀ láti gbé oúnjẹ wá fún àwọn ọmọ wọn tí ebi ń pa."
+        ],
+        [
+          "Kí ni àwọn ẹranko kékeré nílò láti ọ̀dọ̀ òbí wọn?",
+          "oúnjẹ àti ìtọ́jú",
+          "fóònù",
+          "kẹ̀kẹ́",
+          "Àwọn òbí ń bọ́ àwọn ọmọ wọn, wọ́n ń mú wọn gbóná, wọ́n sì ń dáàbò bò wọ́n bí wọ́n ti ń dàgbà."
+        ],
+        [
+          "Ìkókó ń dàgbà di ọmọdé. Kí ni ọmọdé ń dàgbà dà?",
+          "àgbàlagbà",
+          "ajá kékeré",
+          "igi",
+          "Àwọn ọmọdé ń dàgbà sí i títí wọ́n fi di àgbàlagbà."
+        ],
+        [
+          "Èwo nínú àwọn ẹranko kékeré wọ̀nyí ló ń mu wàrà ìyá rẹ̀?",
+          "ológbò kékeré",
+          "ejò kékeré",
+          "òròmọdìẹ",
+          "Ológbò kékeré ń mu wàrà ìyá rẹ̀. Ejò àti òròmọdìẹ kì í mu wàrà."
+        ],
+        [
+          "Níbo ni ọ̀pọ̀ ẹyẹ kékeré ti ń jáde láti inú ẹyin?",
+          "nínú ìtẹ́",
+          "lábẹ́ òkun",
+          "nínú bàtà",
+          "Ọ̀pọ̀ ẹyẹ ń kọ́ ìtẹ́, wọ́n ń yé ẹyin sínú rẹ̀, wọ́n sì ń mú un gbóná títí yóò fi pa."
+        ],
+        [
+          "Níbo ni pẹ́ńgúìnì ọba kékeré ti ń gba ooru?",
+          "lórí ẹsẹ̀ òbí rẹ̀",
+          "nínú òkun tó tutù nini",
+          "lórí igi",
+          "Ẹyẹ kékeré náà ń jókòó lórí ẹsẹ̀ òbí rẹ̀, lábẹ́ awọ ara gbígbóná tó bò ó."
+        ],
+        [
+          "Kí ni erin kékeré lè fi di ìrù ìyá rẹ̀ mú?",
+          "imú gígùn rẹ̀",
+          "etí rẹ̀",
+          "eyín rẹ̀",
+          "Erin kékeré lè fi imú gígùn rẹ̀ wé ìrù ìyá rẹ̀ bí wọ́n ti ń rìn."
+        ],
+        [
+          "Ìgbà wo ni ẹṣin tí wọ́n ṣẹ̀ṣẹ̀ bí lè dìde dúró?",
+          "láìpẹ́ lẹ́yìn tí wọ́n bí i",
+          "nígbà tí ó bá pé ọdún mẹ́wàá",
+          "kò jẹ́ dìde láé",
+          "Ẹṣin kékeré ń dìde dúró lórí ẹsẹ̀ rẹ̀ tó ń gbọ̀n láàárín wákàtí díẹ̀ lẹ́yìn tí wọ́n bí i."
+        ],
+        [
+          "Nígbà tí kòálà kékeré bá dàgbà díẹ̀, níbo ló máa ń gùn?",
+          "lórí ẹ̀yìn ìyá rẹ̀",
+          "lórí ẹja",
+          "lórí ìkùukùu",
+          "Kòálà kékeré kọ́kọ́ ń gbé inú àpò ìyá rẹ̀, lẹ́yìn náà ó ń gun ẹ̀yìn rẹ̀."
+        ],
+        [
+          "Ta ló ga jù: àgùnfọn kékeré tàbí ìyá rẹ̀?",
+          "ìyá rẹ̀",
+          "èyí kékeré náà",
+          "wọ́n ga bákan náà",
+          "Àgùnfọn kékeré ti ga, ṣùgbọ́n ìyá rẹ̀ ga ju ìlọ́po méjì rẹ̀ lọ."
+        ],
+        [
+          "Kí ló ń ran àwọn ọmọdé lọ́wọ́ láti dàgbà kí wọ́n sì lágbára?",
+          "oúnjẹ aṣaralóore àti oorun",
+          "ṣúgà láti àárọ̀ di alẹ́",
+          "àìsùn ní gbogbo òru",
+          "Oúnjẹ tó dára, oorun tó pọ̀ àti eré ṣíṣe ń ràn ara rẹ lọ́wọ́ láti dàgbà."
+        ],
+        [
+          "Ṣé ìkókó tí wọ́n ṣẹ̀ṣẹ̀ bí lè rìn?",
+          "rárá, ó máa kọ́ ọ lẹ́yìn náà",
+          "bẹ́ẹ̀ni, ní ọjọ́ àkọ́kọ́",
+          "bẹ́ẹ̀ni, ó sì ń sáré gan-an",
+          "Ìkókó tuntun kò lè rìn. Ọ̀pọ̀ wọn ń kọ́ ọ nígbà tí wọ́n bá tó ọmọ ọdún kan."
+        ],
+        [
+          "Kí ló dé tí bàtà àtijọ́ rẹ fi ń há ọ?",
+          "ẹsẹ̀ mi ń dàgbà",
+          "bàtà náà ń dàgbà",
+          "bàtà náà ń yọ́",
+          "Ò ń dàgbà, nítorí náà ẹsẹ̀ rẹ ń tóbi sí i, ṣùgbọ́n bàtà kò yí padà."
+        ],
+        [
+          "Kí ni sílì kékeré ń mu?",
+          "wàrà ìyá rẹ̀",
+          "omi òkun",
+          "omi èso",
+          "Sílì kékeré ń mu wàrà ìyá rẹ̀ tó lọ́ràá, ó sì ń sanra, ó ń lágbára."
+        ],
+        [
+          "Níbo ni àwọn swọ́nù kékeré fẹ́ràn láti lúwẹ̀?",
+          "nítòsí òbí wọn",
+          "lẹ́gbẹ̀ẹ́ ẹja ekurá",
+          "lókè ní ojú ọ̀run",
+          "Àwọn swọ́nù kékeré ń dúró nítòsí òbí wọn, tí wọ́n ń dáàbò bò wọ́n."
+        ],
+        [
+          "Àgbọ̀nrín kékeré ní àmì funfun lára. Kí ni wọ́n ń ràn án lọ́wọ́ láti ṣe?",
+          "láti farapamọ́ láàárín igi",
+          "láti yára lúwẹ̀",
+          "láti fò",
+          "Àwọn àmì náà dà bí ìtànṣán oòrùn lórí ilẹ̀, nítorí náà ó ṣòro láti rí i."
+        ],
+        [
+          "Àwọn ìjàpá omi kékeré ń jáde láti inú ẹyin ní etíkun. Ibo ni wọ́n ń lọ lẹ́yìn náà?",
+          "sínú òkun",
+          "sórí igi",
+          "sínú ihò àpáta",
+          "Gbàrà tí wọ́n bá jáde, wọ́n ń yára rìn kọjá iyanrìn lọ sínú òkun."
+        ],
+        [
+          "Níbo ni àwọn kòkòrò oyin kékeré ti ń dàgbà?",
+          "nínú ilé oyin",
+          "nínú òkun",
+          "nínú bàtà",
+          "Àwọn oyin kékeré ń dàgbà nínú yàrá kéékèèké tí a fi ìda ṣe nínú ilé oyin."
+        ],
+        [
+          "Kí ló dé tí dọ́fínì kékeré fi ń lúwẹ̀ wá sí òkè omi?",
+          "láti mí afẹ́fẹ́",
+          "láti sùn",
+          "láti wá yìnyín",
+          "Dọ́fínì ń mí afẹ́fẹ́, nítorí náà èyí kékeré ń lúwẹ̀ sókè láti mí."
+        ],
+        [
+          "Kí ni ẹyẹ kékeré máa ń fọ́ láti jáde nínú ẹyin?",
+          "èèpo ẹyin",
+          "fèrèsé",
+          "igi",
+          "Ẹyẹ kékeré ń fi ṣóńṣó ẹnu rẹ̀ lu èèpo ẹyin títí yóò fi jáde."
+        ],
+        [
+          "Òwìwí kékeré kún fún irun wíwẹ́. Kí ló ń hù fún un kí ó lè fò?",
+          "ìyẹ́",
+          "irun bí ti ajá",
+          "ewé",
+          "Kò pẹ́ tí ìyẹ́ fi ń rọ́pò irun wíwẹ́ náà, lẹ́yìn náà òwìwí lè fò."
+        ],
+        [
+          "Níbo ni wọ́n ti ń bí àwọn ehoro igbó kékeré?",
+          "nínú ihò abẹ́ ilẹ̀",
+          "nínú òkun",
+          "nínú ilé oyin",
+          "Ehoro igbó ń wa ihò, wọ́n sì ń bímọ sínú ìtẹ́ gbígbóná lábẹ́ ilẹ̀."
+        ],
+        [
+          "Níbo ni ìyá bẹ̀árì ti ń bí àwọn ọmọ rẹ̀?",
+          "nínú ihò tó gbóná",
+          "lábẹ́ òkun",
+          "lórí ìkùukùu",
+          "Àwọn bẹ̀árì kékeré ni a ń bí ní ìgbà òtútù nínú ihò tó gbóná, tó sì ní ààbò."
+        ]
+      ]
+    }
+  },
+  "emoji": "chick",
+  "example": {
+    "i": 0,
+    "q_en": "A caterpillar munches leaves. What will it become?",
+    "answer_en": "a butterfly",
+    "why_en": "A caterpillar makes a hard case, and later a butterfly comes out.",
+    "q_de": "Eine Raupe frisst Blätter. Was wird aus ihr?",
+    "answer_de": "ein Schmetterling",
+    "why_de": "Die Raupe baut sich eine harte Hülle, und später kommt ein Schmetterling heraus.",
+    "q_fr": "Une chenille grignote des feuilles. Que va-t-elle devenir ?",
+    "answer_fr": "un papillon",
+    "why_fr": "La chenille se fabrique une coque dure, et plus tard un papillon en sort.",
+    "q_yo": "Ìdin kan ń jẹ ewé. Kí ni yóò dà?",
+    "answer_yo": "labalábá",
+    "why_yo": "Ìdin náà ń ṣe ìkarahun líle yí ara rẹ̀ ká, lẹ́yìn náà labalábá ń jáde."
+  },
+  "text": {
+    "en": {
+      "title": "Animal babies and growing up",
+      "teach": "Baby animals grow up to be like their parents. Some hatch from eggs, some drink milk from their mum. A caterpillar becomes a butterfly and a tadpole becomes a frog.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Tierbabys und Großwerden",
+      "teach": "Tierbabys werden groß und dann wie ihre Eltern. Manche schlüpfen aus Eiern, manche trinken Milch bei ihrer Mama. Aus einer Raupe wird ein Schmetterling, aus einer Kaulquappe ein Frosch.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les bébés animaux et grandir",
+      "teach": "Les bébés animaux grandissent et deviennent comme leurs parents. Certains sortent d’un œuf, d’autres boivent le lait de leur maman. La chenille devient papillon et le têtard devient grenouille.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Àwọn ẹranko kékeré àti ìdàgbàsókè",
+      "teach": "Àwọn ẹranko kékeré ń dàgbà di bí òbí wọn. Àwọn kan ń jáde láti inú ẹyin, àwọn kan ń mu wàrà ìyá wọn. Ìdin tó ń jẹ ewé ń di labalábá.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

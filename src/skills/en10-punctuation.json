@@ -1,0 +1,274 @@
+{
+  "id": "en10-punctuation",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 209,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "moon",
+      "memo",
+      "house",
+      "animal-cow",
+      "tv",
+      "teddy",
+      "footprints",
+      "globe",
+      "rain",
+      "paws",
+      "fruit-strawberry",
+      "sun",
+      "fruit-banana",
+      "map",
+      "hockey",
+      "warning",
+      "telephone",
+      "animal-zebra",
+      "backpack",
+      "trophy",
+      "cake",
+      "gloves",
+      "storm",
+      "girl",
+      "sparkles",
+      "bell",
+      "road",
+      "clock",
+      "heart",
+      "snowflake"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which sentence is punctuated correctly?",
+          "It was late; we went home.",
+          "It was late we; went home.",
+          "It; was late we went home.",
+          "A semicolon joins two closely linked main clauses: “It was late” and “we went home”."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "You will need three things: a pen, a ruler and a rubber.",
+          "You will need three: things a pen, a ruler and a rubber.",
+          "You will: need three things a pen, a ruler and a rubber.",
+          "A colon comes after a complete clause to introduce a list."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "“Come here,” said Mum.",
+          "“Come here, said Mum.”",
+          "Come here,” said Mum.",
+          "Inverted commas go around the spoken words only, with a comma before the closing one."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "My uncle (who lives in Wales) is a farmer.",
+          "My uncle (who lives in Wales is a farmer).",
+          "My uncle who (lives in Wales) is a farmer.",
+          "Brackets go around the extra information, which could be taken out."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "The film – which lasted three hours – was amazing.",
+          "The film – which lasted three hours was amazing.",
+          "The film which – lasted three hours – was amazing.",
+          "A pair of dashes goes around the whole extra part of the sentence."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "The children’s toys were everywhere.",
+          "The childrens’ toys were everywhere.",
+          "The childrens toys were everywhere.",
+          "“Children” is already plural, so we add ’s to show the toys belong to them."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "“Where are you going?” asked Tom.",
+          "“Where are you going,” asked Tom?",
+          "“Where are you going?” asked Tom?",
+          "The question mark belongs to the spoken question, inside the inverted commas."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "I have been to Leeds, England; Paris, France; and Rome, Italy.",
+          "I have been to Leeds; England, Paris; France, and Rome; Italy.",
+          "I have been to Leeds, England, Paris; France and Rome, Italy.",
+          "Semicolons separate list items that already contain commas."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "I was soaked: it had poured all day.",
+          "I was: soaked it had poured all day.",
+          "I was soaked it had: poured all day.",
+          "A colon can introduce an explanation of the first clause."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "The dog wagged its tail.",
+          "The dog wagged it’s tail.",
+          "The dog wagged its’ tail.",
+          "“Its” without an apostrophe shows belonging. “It’s” means “it is”."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "We bought eggs, milk, bread and jam.",
+          "We bought, eggs milk bread and jam.",
+          "We bought eggs milk, bread, and, jam.",
+          "Commas separate the items in a list."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "After lunch, we played outside.",
+          "After, lunch we played outside.",
+          "After lunch we, played outside.",
+          "A comma goes after a fronted adverbial like “After lunch”."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "“I’m hungry,” said Ben, “so let’s eat.”",
+          "“I’m hungry,” said Ben, so let’s eat.”",
+          "“I’m hungry, said Ben, so let’s eat.”",
+          "Each part of the spoken words needs its own pair of inverted commas."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "The Nile (the longest river in Africa) flows north.",
+          "The Nile (the longest river in Africa flows north).",
+          "The (Nile the longest river in Africa) flows north.",
+          "Brackets go around the extra information only."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "Sam loves football; his sister prefers tennis.",
+          "Sam loves; football his sister prefers tennis.",
+          "Sam loves football his; sister prefers tennis.",
+          "The semicolon sits between the two linked main clauses."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "There was only one thing to do – run!",
+          "There was only – one thing to do run!",
+          "There was only one – thing to do run!",
+          "A single dash can add a dramatic ending after a complete clause."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "Dad had one rule: no phones at dinner.",
+          "Dad had: one rule no phones at dinner.",
+          "Dad: had one rule no phones at dinner.",
+          "The colon comes after the complete clause and introduces the rule."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "We’re going to the zoo, aren’t we?",
+          "Were going to the zoo, arent we?",
+          "We’re going to the zoo, are’nt we?",
+          "The apostrophe goes where letters are missing: we are → we’re, are not → aren’t."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "Mum said, “Tidy your room.”",
+          "Mum said, Tidy your room.”",
+          "Mum said “, Tidy your room.”",
+          "The spoken words need inverted commas at both ends, with a comma before them."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "The women’s team won the cup.",
+          "The womens’ team won the cup.",
+          "The womens team won the cup.",
+          "“Women” is already plural, so we add ’s to show belonging."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "I ate the cake (all of it).",
+          "I ate the cake (all of it.)",
+          "I ate (the cake all of it).",
+          "The full stop ends the whole sentence, so it goes after the closing bracket."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "Bring the following items: a hat, a coat and some gloves.",
+          "Bring the: following items a hat, a coat and some gloves.",
+          "Bring the following: items a hat, a coat and some gloves.",
+          "The colon comes straight after “items” to introduce the list."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "The sky went dark; a storm was coming.",
+          "The sky went dark, a storm was coming.",
+          "The sky; went dark a storm was coming.",
+          "A comma cannot join two main clauses on its own, but a semicolon can."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "My best friend – a girl called Zara – lives next door.",
+          "My best friend – a girl called Zara lives next door.",
+          "My best – friend a girl called Zara – lives next door.",
+          "The pair of dashes goes around the extra information about the friend."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "Did you remember your bag?",
+          "Did you remember your bag.",
+          "Did you remember? your bag",
+          "A question ends with a question mark."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "“Watch out!” shouted Kim.",
+          "“Watch out”! shouted Kim.",
+          "“Watch out!” Shouted Kim.",
+          "The exclamation mark goes inside the inverted commas, and “shouted” keeps a small letter."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "My brother, who is twelve, loves skateboarding.",
+          "My brother, who is twelve loves skateboarding.",
+          "My brother who, is twelve, loves skateboarding.",
+          "Commas go on both sides of the extra information “who is twelve”."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "There is one thing I hate: getting up early.",
+          "There is one: thing I hate getting up early.",
+          "There: is one thing I hate getting up early.",
+          "The colon comes after the complete clause and reveals what the thing is."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "Lucy’s brother is very tall.",
+          "Lucys brother is very tall.",
+          "Lucys’ brother is very tall.",
+          "For one owner, we add ’s: the brother belongs to Lucy."
+        ],
+        [
+          "Which sentence is punctuated correctly?",
+          "I love summer; winter is too cold for me.",
+          "I love summer; winter, is too cold for me.",
+          "I love; summer winter is too cold for me.",
+          "The semicolon links two related main clauses, with no extra comma."
+        ]
+      ]
+    }
+  },
+  "emoji": "memo",
+  "example": {
+    "i": 0,
+    "q_en": "Which sentence is punctuated correctly?",
+    "answer_en": "It was late; we went home.",
+    "why_en": "A semicolon joins two closely linked main clauses: “It was late” and “we went home”."
+  },
+  "text": {
+    "en": {
+      "title": "Punctuation",
+      "teach": "Semicolons join linked clauses; colons introduce lists or explanations: like this. Dashes – and brackets (like these) – add extra information. Inverted commas go around spoken words.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

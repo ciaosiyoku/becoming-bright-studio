@@ -1,0 +1,936 @@
+{
+  "id": "sci10-mixtures",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 205,
+  "params": {
+    "emojis": [
+      "beach",
+      "droplet",
+      "cocoa",
+      "beach",
+      "wave",
+      "magnet",
+      "droplet",
+      "memo",
+      "memo",
+      "droplet",
+      "droplet",
+      "thermometer",
+      "chart",
+      "wave",
+      "cake",
+      "puzzle",
+      "clock",
+      "cake",
+      "sun",
+      "cocoa",
+      "droplet",
+      "beach",
+      "droplet",
+      "openbook",
+      "fruit-grapes",
+      "sparkles",
+      "abacus",
+      "cocoa",
+      "cloud",
+      "memo"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Sand and small stones are mixed and poured into a sieve. What stays in the sieve?",
+          "the stones",
+          "the sand",
+          "nothing at all",
+          "The holes are big enough for the tiny sand grains to fall through, but too small for the stones."
+        ],
+        [
+          "What does it mean if a material is soluble?",
+          "it can dissolve in a liquid",
+          "it always floats on water",
+          "it is attracted to a magnet",
+          "A soluble material, like sugar, breaks up into tiny particles that spread through a liquid."
+        ],
+        [
+          "Sugar is stirred into warm tea and seems to vanish. What has happened to it?",
+          "it has dissolved",
+          "it has turned into water",
+          "it has evaporated into the air",
+          "The sugar has broken into particles too tiny to see. They are spread through the tea, which is why it tastes sweet."
+        ],
+        [
+          "Which of these is insoluble in water?",
+          "sand",
+          "salt",
+          "sugar",
+          "However long you stir, sand does not dissolve. It sinks to the bottom of the water."
+        ],
+        [
+          "How can you get the salt back out of salty water?",
+          "let the water evaporate",
+          "pour it through filter paper",
+          "use a magnet",
+          "When the water evaporates into the air, the salt cannot go with it, so salt crystals are left behind."
+        ],
+        [
+          "You hold a magnet over a mixture of iron filings and sand. What happens?",
+          "the iron filings jump up to the magnet",
+          "the sand jumps up to the magnet",
+          "both stay exactly where they are",
+          "Iron is a magnetic material, but sand is not, so only the iron is pulled out of the mixture."
+        ],
+        [
+          "Sand has been stirred into water. How can you get the sand back?",
+          "pour the mixture through filter paper",
+          "put the mixture in the freezer",
+          "stir the mixture faster",
+          "The water passes through the tiny holes in the paper, but the sand grains are too big and stay on top."
+        ],
+        [
+          "When you filter a mixture, what is the liquid that passes through the paper called?",
+          "the filtrate",
+          "the residue",
+          "the solute",
+          "The filtrate is the liquid that comes through the filter. Anything left on the paper is the residue."
+        ],
+        [
+          "When you filter muddy water, what is the solid left on the filter paper called?",
+          "the residue",
+          "the filtrate",
+          "the solvent",
+          "The residue is the solid that is too big to pass through the filter paper."
+        ],
+        [
+          "Salt dissolves in water to make a solution. What is the water called?",
+          "the solvent",
+          "the solute",
+          "the residue",
+          "The solvent is the liquid that does the dissolving. Here it is the water."
+        ],
+        [
+          "In salty water, what is the salt called?",
+          "the solute",
+          "the solvent",
+          "the filtrate",
+          "The solute is the substance that dissolves. The salt dissolves in the water, so the salt is the solute."
+        ],
+        [
+          "How can you make sugar dissolve faster in water?",
+          "use warmer water and stir it",
+          "use ice-cold water",
+          "drop the sugar in as one big lump",
+          "In warm water the particles move faster, and stirring helps them mix, so the sugar dissolves more quickly."
+        ],
+        [
+          "You keep stirring salt into a glass of water until no more will dissolve. What is this solution called?",
+          "a saturated solution",
+          "an evaporated solution",
+          "an insoluble solution",
+          "A saturated solution holds as much solute as it can. Any extra salt just sinks to the bottom."
+        ],
+        [
+          "Why can a filter NOT separate salt from salty water?",
+          "the dissolved salt particles are tiny enough to pass through",
+          "salt is too heavy for filter paper",
+          "filter paper soaks up all the salt",
+          "Once salt dissolves, its particles are much smaller than the holes in the paper, so they pass through with the water."
+        ],
+        [
+          "Which mixture could you separate using a sieve?",
+          "dried peas and flour",
+          "salt and water",
+          "sugar and water",
+          "The peas are much bigger than the flour grains, so they stay in the sieve. Dissolved salt or sugar would pass straight through."
+        ],
+        [
+          "When two materials are mixed, is the mixture a brand new material?",
+          "no, the parts can be separated again",
+          "yes, a mixture is always a new material",
+          "only if the mixture is a liquid",
+          "In a mixture, each material keeps its own properties, so the parts can be separated again."
+        ],
+        [
+          "Which of these changes can NOT be reversed?",
+          "burning wood",
+          "dissolving salt in water",
+          "melting ice",
+          "Burning makes new materials such as ash and smoke. You cannot turn them back into wood."
+        ],
+        [
+          "Baking a cake mixture makes new materials. What kind of change is this?",
+          "an irreversible change",
+          "a reversible change",
+          "a mixture you can sieve apart",
+          "Heat changes the eggs, flour and sugar into new materials. You cannot get the raw ingredients back."
+        ],
+        [
+          "How do salt makers on some coasts get salt from sea water?",
+          "they let the Sun evaporate the water in shallow pools",
+          "they pour the sea water through a sieve",
+          "they pull the salt out with magnets",
+          "The Sun heats the shallow pools, the water evaporates, and the salt is left behind to be collected."
+        ],
+        [
+          "Which of these dissolves in water?",
+          "instant coffee powder",
+          "pebbles",
+          "plastic beads",
+          "Instant coffee powder dissolves and colours the water. Pebbles and plastic beads stay solid at the bottom."
+        ],
+        [
+          "Cooking oil and water are shaken together, then left to stand. What happens?",
+          "the oil forms a layer on top of the water",
+          "the oil dissolves in the water",
+          "the oil sinks to the bottom",
+          "Oil does not dissolve in water, and it is less dense, so it floats up and makes a separate layer."
+        ],
+        [
+          "Rice and sand are mixed up. Which tool will separate them?",
+          "a sieve with holes bigger than sand but smaller than rice",
+          "a magnet",
+          "a funnel without filter paper",
+          "The sand falls through the holes and the rice grains stay in the sieve. Neither is magnetic."
+        ],
+        [
+          "Mia filters muddy pond water and it looks clear. Is it now safe to drink?",
+          "no, germs and dissolved substances can still be in it",
+          "yes, filtering removes everything",
+          "yes, clear water is always safe",
+          "Germs and dissolved substances are far too small to be caught by filter paper, so the water may still be harmful."
+        ],
+        [
+          "In a school science lab, which piece of equipment holds the filter paper?",
+          "a funnel",
+          "a thermometer",
+          "a magnet",
+          "The filter paper is folded into a cone and placed inside a funnel, which sits on top of a beaker or flask."
+        ],
+        [
+          "Which of these is a mixture?",
+          "a fruit salad",
+          "pure water",
+          "a pure gold ring",
+          "A fruit salad is made of different things mixed together, and you can easily pick them apart again."
+        ],
+        [
+          "Sugar dissolves in a glass of water. Where has the sugar gone?",
+          "it is still there, spread out as tiny particles",
+          "it has disappeared for ever",
+          "it has turned into water",
+          "The water tastes sweet, and if the water evaporates, the sugar is left behind. It was there all along."
+        ],
+        [
+          "You dissolve 10 g of salt in 100 g of water. What will the salty water weigh?",
+          "110 g",
+          "100 g",
+          "90 g",
+          "When a solid dissolves, nothing is lost. The mass of the solution is the mass of the water plus the mass of the salt."
+        ],
+        [
+          "Which method separates loose tea leaves from a cup of tea?",
+          "pouring it through a tea strainer",
+          "evaporating the tea",
+          "using a magnet",
+          "A tea strainer is a small sieve. The liquid flows through, and the leaves are too big to pass."
+        ],
+        [
+          "Sea water is boiled and the steam is cooled until it turns back into a liquid. What liquid do you collect?",
+          "pure water with no salt in it",
+          "salty sea water",
+          "liquid salt",
+          "Only the water evaporates; the salt stays in the pan. When the steam cools, it condenses into pure water. This is called distillation."
+        ],
+        [
+          "Why can filter paper separate sand from water?",
+          "its holes let water through but are too small for sand grains",
+          "it soaks up all the sand",
+          "it makes the sand dissolve",
+          "Filter paper is like a very fine sieve: water particles pass through, but the bigger sand grains are trapped."
+        ]
+      ],
+      "de": [
+        [
+          "Sand und kleine Steine werden gemischt und in ein Sieb geschüttet. Was bleibt im Sieb?",
+          "die Steine",
+          "der Sand",
+          "gar nichts",
+          "Die Löcher sind groß genug für die winzigen Sandkörner, aber zu klein für die Steine."
+        ],
+        [
+          "Was bedeutet es, wenn ein Stoff löslich ist?",
+          "er kann sich in einer Flüssigkeit auflösen",
+          "er schwimmt immer auf Wasser",
+          "er wird von einem Magneten angezogen",
+          "Ein löslicher Stoff wie Zucker zerfällt in winzige Teilchen, die sich in der Flüssigkeit verteilen."
+        ],
+        [
+          "Zucker wird in warmen Tee gerührt und scheint zu verschwinden. Was ist passiert?",
+          "er hat sich aufgelöst",
+          "er ist zu Wasser geworden",
+          "er ist in die Luft verdunstet",
+          "Der Zucker ist in winzige, unsichtbare Teilchen zerfallen. Sie sind im Tee verteilt, darum schmeckt er süß."
+        ],
+        [
+          "Was davon ist in Wasser unlöslich?",
+          "Sand",
+          "Salz",
+          "Zucker",
+          "Egal wie lange man rührt, Sand löst sich nicht auf. Er sinkt auf den Boden."
+        ],
+        [
+          "Wie bekommt man das Salz aus Salzwasser zurück?",
+          "das Wasser verdunsten lassen",
+          "es durch Filterpapier gießen",
+          "einen Magneten benutzen",
+          "Das Wasser verdunstet in die Luft, das Salz aber nicht. Darum bleiben Salzkristalle zurück."
+        ],
+        [
+          "Du hältst einen Magneten über ein Gemisch aus Eisenspänen und Sand. Was passiert?",
+          "die Eisenspäne springen zum Magneten",
+          "der Sand springt zum Magneten",
+          "beides bleibt genau liegen",
+          "Eisen ist magnetisch, Sand nicht. Darum wird nur das Eisen aus dem Gemisch gezogen."
+        ],
+        [
+          "Sand wurde in Wasser gerührt. Wie bekommt man den Sand zurück?",
+          "das Gemisch durch Filterpapier gießen",
+          "das Gemisch einfrieren",
+          "schneller umrühren",
+          "Das Wasser fließt durch die winzigen Löcher im Papier, die Sandkörner sind zu groß und bleiben liegen."
+        ],
+        [
+          "Wie heißt beim Filtern die Flüssigkeit, die durch das Papier läuft?",
+          "das Filtrat",
+          "der Rückstand",
+          "der gelöste Stoff",
+          "Das Filtrat ist die Flüssigkeit, die durch den Filter kommt. Was auf dem Papier bleibt, ist der Rückstand."
+        ],
+        [
+          "Wie heißt der Feststoff, der beim Filtern von schlammigem Wasser auf dem Filterpapier bleibt?",
+          "der Rückstand",
+          "das Filtrat",
+          "das Lösungsmittel",
+          "Der Rückstand ist der Feststoff, der zu groß ist, um durch das Filterpapier zu kommen."
+        ],
+        [
+          "Salz löst sich in Wasser und es entsteht eine Lösung. Wie nennt man das Wasser?",
+          "das Lösungsmittel",
+          "der gelöste Stoff",
+          "der Rückstand",
+          "Das Lösungsmittel ist die Flüssigkeit, in der sich etwas auflöst. Hier ist es das Wasser."
+        ],
+        [
+          "Wie nennt man das Salz im Salzwasser?",
+          "der gelöste Stoff",
+          "das Lösungsmittel",
+          "das Filtrat",
+          "Der gelöste Stoff ist der Stoff, der sich auflöst. Das Salz löst sich im Wasser auf."
+        ],
+        [
+          "Wie löst sich Zucker schneller in Wasser auf?",
+          "wärmeres Wasser nehmen und umrühren",
+          "eiskaltes Wasser nehmen",
+          "den Zucker als einen großen Klumpen hineinwerfen",
+          "In warmem Wasser bewegen sich die Teilchen schneller, und Rühren hilft beim Mischen. So löst sich der Zucker schneller."
+        ],
+        [
+          "Du rührst so lange Salz in ein Glas Wasser, bis sich nichts mehr auflöst. Wie heißt diese Lösung?",
+          "eine gesättigte Lösung",
+          "eine verdunstete Lösung",
+          "eine unlösliche Lösung",
+          "Eine gesättigte Lösung enthält so viel gelösten Stoff wie möglich. Weiteres Salz sinkt einfach auf den Boden."
+        ],
+        [
+          "Warum kann ein Filter Salz NICHT aus Salzwasser trennen?",
+          "die gelösten Salzteilchen sind klein genug, um durchzukommen",
+          "Salz ist zu schwer für Filterpapier",
+          "das Filterpapier saugt das ganze Salz auf",
+          "Gelöste Salzteilchen sind viel kleiner als die Löcher im Papier. Sie laufen mit dem Wasser hindurch."
+        ],
+        [
+          "Welches Gemisch kann man mit einem Sieb trennen?",
+          "getrocknete Erbsen und Mehl",
+          "Salz und Wasser",
+          "Zucker und Wasser",
+          "Die Erbsen sind viel größer als die Mehlkörnchen und bleiben im Sieb. Gelöstes Salz oder gelöster Zucker liefe einfach hindurch."
+        ],
+        [
+          "Ist ein Gemisch aus zwei Stoffen ein ganz neuer Stoff?",
+          "nein, die Teile lassen sich wieder trennen",
+          "ja, ein Gemisch ist immer ein neuer Stoff",
+          "nur wenn das Gemisch flüssig ist",
+          "In einem Gemisch behält jeder Stoff seine Eigenschaften. Darum kann man die Teile wieder trennen."
+        ],
+        [
+          "Welche dieser Veränderungen lässt sich NICHT rückgängig machen?",
+          "Holz verbrennen",
+          "Salz in Wasser lösen",
+          "Eis schmelzen",
+          "Beim Verbrennen entstehen neue Stoffe wie Asche und Rauch. Daraus wird nie wieder Holz."
+        ],
+        [
+          "Beim Backen eines Kuchens entstehen neue Stoffe. Was für eine Veränderung ist das?",
+          "eine nicht umkehrbare Veränderung",
+          "eine umkehrbare Veränderung",
+          "ein Gemisch, das man aussieben kann",
+          "Die Hitze verwandelt Eier, Mehl und Zucker in neue Stoffe. Die rohen Zutaten bekommt man nicht zurück."
+        ],
+        [
+          "Wie gewinnt man an manchen Küsten Salz aus Meerwasser?",
+          "die Sonne lässt das Wasser in flachen Becken verdunsten",
+          "man gießt das Meerwasser durch ein Sieb",
+          "man zieht das Salz mit Magneten heraus",
+          "Die Sonne erwärmt die flachen Becken, das Wasser verdunstet, und das Salz bleibt zum Einsammeln zurück."
+        ],
+        [
+          "Was davon löst sich in Wasser auf?",
+          "Pulverkaffee",
+          "Kieselsteine",
+          "Plastikperlen",
+          "Pulverkaffee löst sich auf und färbt das Wasser. Kiesel und Plastikperlen bleiben fest am Boden."
+        ],
+        [
+          "Speiseöl und Wasser werden geschüttelt und dann stehen gelassen. Was passiert?",
+          "das Öl bildet eine Schicht über dem Wasser",
+          "das Öl löst sich im Wasser auf",
+          "das Öl sinkt auf den Boden",
+          "Öl löst sich nicht in Wasser und hat eine geringere Dichte. Es steigt nach oben und bildet eine eigene Schicht."
+        ],
+        [
+          "Reis und Sand sind vermischt. Womit trennt man sie?",
+          "mit einem Sieb, dessen Löcher größer als Sand und kleiner als Reis sind",
+          "mit einem Magneten",
+          "mit einem Trichter ohne Filterpapier",
+          "Der Sand fällt durch die Löcher, die Reiskörner bleiben im Sieb. Keins von beiden ist magnetisch."
+        ],
+        [
+          "Mia filtert schlammiges Teichwasser, und es sieht klar aus. Kann man es jetzt trinken?",
+          "nein, es können noch Keime und gelöste Stoffe darin sein",
+          "ja, Filtern entfernt alles",
+          "ja, klares Wasser ist immer sicher",
+          "Keime und gelöste Stoffe sind viel zu klein für das Filterpapier. Das Wasser kann also noch schädlich sein."
+        ],
+        [
+          "Welches Laborgerät hält beim Filtern das Filterpapier?",
+          "ein Trichter",
+          "ein Thermometer",
+          "ein Magnet",
+          "Das Filterpapier wird zu einem Kegel gefaltet und in einen Trichter gelegt, der auf einem Becherglas oder Kolben steht."
+        ],
+        [
+          "Was davon ist ein Gemisch?",
+          "ein Obstsalat",
+          "reines Wasser",
+          "ein Ring aus reinem Gold",
+          "Ein Obstsalat besteht aus verschiedenen gemischten Dingen, die man leicht wieder auseinandersortieren kann."
+        ],
+        [
+          "Zucker löst sich in einem Glas Wasser auf. Wo ist der Zucker hin?",
+          "er ist noch da, verteilt als winzige Teilchen",
+          "er ist für immer verschwunden",
+          "er ist zu Wasser geworden",
+          "Das Wasser schmeckt süß, und wenn es verdunstet, bleibt der Zucker übrig. Er war die ganze Zeit da."
+        ],
+        [
+          "Du löst 10 g Salz in 100 g Wasser auf. Wie viel wiegt das Salzwasser?",
+          "110 g",
+          "100 g",
+          "90 g",
+          "Beim Auflösen geht nichts verloren. Die Masse der Lösung ist die Masse des Wassers plus die Masse des Salzes."
+        ],
+        [
+          "Womit trennt man lose Teeblätter von einer Tasse Tee?",
+          "man gießt ihn durch ein Teesieb",
+          "man lässt den Tee verdunsten",
+          "man benutzt einen Magneten",
+          "Ein Teesieb ist ein kleines Sieb. Die Flüssigkeit läuft hindurch, die Blätter sind zu groß."
+        ],
+        [
+          "Meerwasser wird gekocht und der Dampf wird abgekühlt, bis er wieder flüssig ist. Welche Flüssigkeit fängst du auf?",
+          "reines Wasser ohne Salz",
+          "salziges Meerwasser",
+          "flüssiges Salz",
+          "Nur das Wasser verdampft, das Salz bleibt im Topf. Der abgekühlte Dampf kondensiert zu reinem Wasser. Das nennt man Destillation."
+        ],
+        [
+          "Warum kann Filterpapier Sand von Wasser trennen?",
+          "seine Löcher lassen Wasser durch, sind aber zu klein für Sandkörner",
+          "es saugt den ganzen Sand auf",
+          "es löst den Sand auf",
+          "Filterpapier ist wie ein sehr feines Sieb: Wasserteilchen kommen durch, die größeren Sandkörner bleiben hängen."
+        ]
+      ],
+      "fr": [
+        [
+          "On verse un mélange de sable et de petits cailloux dans un tamis. Qu’est-ce qui reste dans le tamis ?",
+          "les cailloux",
+          "le sable",
+          "rien du tout",
+          "Les trous laissent passer les minuscules grains de sable, mais ils sont trop petits pour les cailloux."
+        ],
+        [
+          "Que veut dire « soluble » pour une matière ?",
+          "elle peut se dissoudre dans un liquide",
+          "elle flotte toujours sur l’eau",
+          "elle est attirée par un aimant",
+          "Une matière soluble, comme le sucre, se sépare en minuscules particules qui se répartissent dans le liquide."
+        ],
+        [
+          "On remue du sucre dans du thé chaud et il semble disparaître. Que s’est-il passé ?",
+          "il s’est dissous",
+          "il s’est transformé en eau",
+          "il s’est évaporé dans l’air",
+          "Le sucre s’est séparé en particules trop petites pour être vues. Elles sont réparties dans le thé, c’est pourquoi il a un goût sucré."
+        ],
+        [
+          "Laquelle de ces matières est insoluble dans l’eau ?",
+          "le sable",
+          "le sel",
+          "le sucre",
+          "On peut remuer très longtemps, le sable ne se dissout pas. Il tombe au fond de l’eau."
+        ],
+        [
+          "Comment récupérer le sel dans de l’eau salée ?",
+          "laisser l’eau s’évaporer",
+          "la verser dans un papier filtre",
+          "utiliser un aimant",
+          "L’eau s’évapore dans l’air, mais pas le sel. Il reste donc des cristaux de sel."
+        ],
+        [
+          "Tu tiens un aimant au-dessus d’un mélange de limaille de fer et de sable. Que se passe-t-il ?",
+          "la limaille de fer saute vers l’aimant",
+          "le sable saute vers l’aimant",
+          "rien ne bouge",
+          "Le fer est attiré par les aimants, mais pas le sable : seul le fer sort du mélange."
+        ],
+        [
+          "On a mélangé du sable à de l’eau. Comment récupérer le sable ?",
+          "verser le mélange dans un papier filtre",
+          "mettre le mélange au congélateur",
+          "remuer plus vite",
+          "L’eau passe par les minuscules trous du papier, mais les grains de sable sont trop gros et restent dessus."
+        ],
+        [
+          "Quand on filtre un mélange, comment s’appelle le liquide qui traverse le papier ?",
+          "le filtrat",
+          "le résidu",
+          "le soluté",
+          "Le filtrat est le liquide qui traverse le filtre. Ce qui reste sur le papier est le résidu."
+        ],
+        [
+          "Quand on filtre de l’eau boueuse, comment s’appelle le solide qui reste sur le papier filtre ?",
+          "le résidu",
+          "le filtrat",
+          "le solvant",
+          "Le résidu est le solide trop gros pour traverser le papier filtre."
+        ],
+        [
+          "Le sel se dissout dans l’eau et forme une solution. Comment appelle-t-on l’eau ?",
+          "le solvant",
+          "le soluté",
+          "le résidu",
+          "Le solvant est le liquide dans lequel une matière se dissout. Ici, c’est l’eau."
+        ],
+        [
+          "Dans l’eau salée, comment appelle-t-on le sel ?",
+          "le soluté",
+          "le solvant",
+          "le filtrat",
+          "Le soluté est la matière qui se dissout. Le sel se dissout dans l’eau, c’est donc le soluté."
+        ],
+        [
+          "Comment faire dissoudre le sucre plus vite dans l’eau ?",
+          "utiliser de l’eau plus chaude et remuer",
+          "utiliser de l’eau glacée",
+          "mettre le sucre en un seul gros morceau",
+          "Dans l’eau chaude, les particules bougent plus vite, et remuer aide à mélanger : le sucre se dissout plus vite."
+        ],
+        [
+          "Tu ajoutes du sel dans un verre d’eau jusqu’à ce qu’il ne se dissolve plus. Comment s’appelle cette solution ?",
+          "une solution saturée",
+          "une solution évaporée",
+          "une solution insoluble",
+          "Une solution saturée contient le plus de soluté possible. Le sel en trop tombe simplement au fond."
+        ],
+        [
+          "Pourquoi un filtre ne peut-il PAS séparer le sel de l’eau salée ?",
+          "les particules de sel dissous sont assez petites pour passer",
+          "le sel est trop lourd pour le papier filtre",
+          "le papier filtre absorbe tout le sel",
+          "Une fois dissous, le sel forme des particules bien plus petites que les trous du papier : elles passent avec l’eau."
+        ],
+        [
+          "Quel mélange peut-on séparer avec un tamis ?",
+          "des pois secs et de la farine",
+          "du sel et de l’eau",
+          "du sucre et de l’eau",
+          "Les pois sont bien plus gros que les grains de farine et restent dans le tamis. Le sel ou le sucre dissous passeraient à travers."
+        ],
+        [
+          "Quand on mélange deux matières, le mélange est-il une matière toute nouvelle ?",
+          "non, on peut séparer ses parties",
+          "oui, un mélange est toujours une matière nouvelle",
+          "seulement si le mélange est liquide",
+          "Dans un mélange, chaque matière garde ses propriétés : on peut donc séparer les parties."
+        ],
+        [
+          "Laquelle de ces transformations est impossible à inverser ?",
+          "brûler du bois",
+          "dissoudre du sel dans l’eau",
+          "faire fondre de la glace",
+          "En brûlant, le bois devient de nouvelles matières, comme la cendre et la fumée. On ne peut pas en refaire du bois."
+        ],
+        [
+          "Cuire une pâte à gâteau crée de nouvelles matières. Quel genre de transformation est-ce ?",
+          "une transformation irréversible",
+          "une transformation réversible",
+          "un mélange qu’on peut tamiser",
+          "La chaleur change les œufs, la farine et le sucre en nouvelles matières. On ne peut pas retrouver les ingrédients crus."
+        ],
+        [
+          "Comment, sur certaines côtes, récupère-t-on le sel de l’eau de mer ?",
+          "le Soleil fait évaporer l’eau dans des bassins peu profonds",
+          "on verse l’eau de mer dans un tamis",
+          "on attire le sel avec des aimants",
+          "Le Soleil chauffe les bassins, l’eau s’évapore et le sel reste : il n’y a plus qu’à le ramasser."
+        ],
+        [
+          "Laquelle de ces matières se dissout dans l’eau ?",
+          "le café soluble en poudre",
+          "les galets",
+          "les perles en plastique",
+          "Le café en poudre se dissout et colore l’eau. Les galets et les perles restent solides au fond."
+        ],
+        [
+          "On secoue de l’huile et de l’eau, puis on laisse reposer. Que se passe-t-il ?",
+          "l’huile forme une couche au-dessus de l’eau",
+          "l’huile se dissout dans l’eau",
+          "l’huile tombe au fond",
+          "L’huile ne se dissout pas dans l’eau et elle est moins dense : elle remonte et forme une couche à part."
+        ],
+        [
+          "Du riz et du sable sont mélangés. Quel outil peut les séparer ?",
+          "un tamis aux trous plus grands que le sable mais plus petits que le riz",
+          "un aimant",
+          "un entonnoir sans papier filtre",
+          "Le sable passe par les trous et les grains de riz restent dans le tamis. Aucun des deux n’est attiré par un aimant."
+        ],
+        [
+          "Mia filtre l’eau boueuse d’une mare et elle semble claire. Peut-on la boire sans danger ?",
+          "non, il peut encore y avoir des microbes et des matières dissoutes",
+          "oui, le filtre enlève tout",
+          "oui, une eau claire est toujours sans danger",
+          "Les microbes et les matières dissoutes sont bien trop petits pour être retenus par le papier : l’eau peut encore être dangereuse."
+        ],
+        [
+          "Au laboratoire de l’école, quel matériel tient le papier filtre ?",
+          "un entonnoir",
+          "un thermomètre",
+          "un aimant",
+          "On plie le papier filtre en cône et on le place dans un entonnoir posé sur un bécher ou une fiole."
+        ],
+        [
+          "Lequel de ces exemples est un mélange ?",
+          "une salade de fruits",
+          "de l’eau pure",
+          "une bague en or pur",
+          "Une salade de fruits contient différentes choses mélangées, qu’on peut facilement trier à nouveau."
+        ],
+        [
+          "Du sucre se dissout dans un verre d’eau. Où est passé le sucre ?",
+          "il est toujours là, réparti en minuscules particules",
+          "il a disparu pour toujours",
+          "il s’est transformé en eau",
+          "L’eau a un goût sucré, et si elle s’évapore, le sucre réapparaît. Il était là tout le temps."
+        ],
+        [
+          "Tu dissous 10 g de sel dans 100 g d’eau. Combien pèse l’eau salée ?",
+          "110 g",
+          "100 g",
+          "90 g",
+          "Quand un solide se dissout, rien ne disparaît. La masse de la solution est celle de l’eau plus celle du sel."
+        ],
+        [
+          "Quelle méthode sépare les feuilles de thé d’une tasse de thé ?",
+          "verser le thé dans une passoire à thé",
+          "faire évaporer le thé",
+          "utiliser un aimant",
+          "Une passoire à thé est un petit tamis. Le liquide passe et les feuilles, trop grosses, restent."
+        ],
+        [
+          "On fait bouillir de l’eau de mer et on refroidit la vapeur jusqu’à ce qu’elle redevienne liquide. Quel liquide recueille-t-on ?",
+          "de l’eau pure, sans sel",
+          "de l’eau de mer salée",
+          "du sel liquide",
+          "Seule l’eau s’évapore, le sel reste dans la casserole. En refroidissant, la vapeur se condense en eau pure. C’est la distillation."
+        ],
+        [
+          "Pourquoi le papier filtre peut-il séparer le sable de l’eau ?",
+          "ses trous laissent passer l’eau mais sont trop petits pour le sable",
+          "il absorbe tout le sable",
+          "il fait dissoudre le sable",
+          "Le papier filtre est comme un tamis très fin : l’eau passe, mais les grains de sable, plus gros, sont retenus."
+        ]
+      ],
+      "yo": [
+        [
+          "A da iyanrìn àti òkúta wẹ́wẹ́ pọ̀, a sì dà á sínú asẹ́. Kí ló kù sínú asẹ́?",
+          "àwọn òkúta wẹ́wẹ́",
+          "iyanrìn",
+          "kò sí nǹkan kan",
+          "Ihò asẹ́ tóbi tó fún hóró iyanrìn kéékèèké láti kọjá, ṣùgbọ́n ó kéré jù fún àwọn òkúta."
+        ],
+        [
+          "Kí ló túmọ̀ sí tí a bá sọ pé ohun kan ṣeé yọ́ nínú omi (soluble)?",
+          "ó lè yọ́ sínú omi tàbí ohun olómi",
+          "ó máa ń léfòó lórí omi nígbà gbogbo",
+          "mágínẹ́ẹ̀tì máa ń fà á",
+          "Ohun tí ó ṣeé yọ́, bí ṣúgà, máa ń fọ́ sí wẹ́wẹ́ tí ó tàn ká inú omi."
+        ],
+        [
+          "A ru ṣúgà sínú tíì gbígbóná, ó sì dà bí ẹni pé ó pòórá. Kí ló ṣẹlẹ̀ sí i?",
+          "ó ti yọ́ sínú tíì náà",
+          "ó ti di omi",
+          "ó ti di òru, ó fò lọ sínú afẹ́fẹ́",
+          "Ṣúgà náà ti fọ́ sí wẹ́wẹ́ tí ojú kò lè rí. Wọ́n tàn ká inú tíì, ìdí nìyẹn tí ó fi dùn."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni kò lè yọ́ nínú omi?",
+          "iyanrìn",
+          "iyọ̀",
+          "ṣúgà",
+          "Bí o tilẹ̀ rú u fún ìgbà pípẹ́, iyanrìn kò ní yọ́. Ó máa ń rì sí ìsàlẹ̀ omi."
+        ],
+        [
+          "Báwo ni o ṣe lè rí iyọ̀ gbà padà láti inú omi iyọ̀?",
+          "jẹ́ kí omi náà di òru",
+          "dà á gba inú bébà asẹ́",
+          "lo mágínẹ́ẹ̀tì",
+          "Tí omi bá di òru tí ó sì lọ sínú afẹ́fẹ́, iyọ̀ kò lè bá a lọ, nítorí náà kírísítà iyọ̀ yóò kù."
+        ],
+        [
+          "O gbé mágínẹ́ẹ̀tì sókè lórí àdàlù ẹ̀rúnrún irin àti iyanrìn. Kí ló ṣẹlẹ̀?",
+          "ẹ̀rúnrún irin fò sókè mọ́ mágínẹ́ẹ̀tì",
+          "iyanrìn fò sókè mọ́ mágínẹ́ẹ̀tì",
+          "méjèèjì dúró sí ibi tí wọ́n wà",
+          "Mágínẹ́ẹ̀tì máa ń fa irin, ṣùgbọ́n kò fa iyanrìn, nítorí náà irin nìkan ló jáde kúrò nínú àdàlù."
+        ],
+        [
+          "A ti ru iyanrìn sínú omi. Báwo ni o ṣe lè rí iyanrìn náà gbà padà?",
+          "dà àdàlù náà gba inú bébà asẹ́",
+          "fi àdàlù náà sínú fìríìsà",
+          "rú àdàlù náà yára sí i",
+          "Omi máa ń kọjá nínú ihò kéékèèké inú bébà náà, ṣùgbọ́n hóró iyanrìn tóbi jù, wọ́n sì máa ń kù sórí rẹ̀."
+        ],
+        [
+          "Tí a bá sẹ́ àdàlù, kí ni orúkọ omi tí ó kọjá nínú bébà asẹ́?",
+          "omi àsẹ́ (filtrate)",
+          "ìyókù orí asẹ́ (residue)",
+          "ohun tí a yọ́ (solute)",
+          "Omi àsẹ́ ni omi tí ó gba inú asẹ́ kọjá. Ohun tí ó kù sórí bébà ni ìyókù."
+        ],
+        [
+          "Tí a bá sẹ́ omi ẹlẹ́rẹ̀, kí ni orúkọ ohun líle tí ó kù sórí bébà asẹ́?",
+          "ìyókù orí asẹ́ (residue)",
+          "omi àsẹ́ (filtrate)",
+          "omi tí ń yọ́ nǹkan (solvent)",
+          "Ìyókù ni ohun líle tí ó tóbi jù láti gba inú bébà asẹ́ kọjá."
+        ],
+        [
+          "Iyọ̀ yọ́ sínú omi, ó sì di àpòpọ̀ (solution). Kí ni orúkọ omi náà?",
+          "omi tí ń yọ́ nǹkan (solvent)",
+          "ohun tí a yọ́ (solute)",
+          "ìyókù orí asẹ́ (residue)",
+          "Solvent ni omi tí ohun mìíràn ń yọ́ sínú rẹ̀. Níbí, omi ni."
+        ],
+        [
+          "Nínú omi iyọ̀, kí ni orúkọ iyọ̀ náà?",
+          "ohun tí a yọ́ (solute)",
+          "omi tí ń yọ́ nǹkan (solvent)",
+          "omi àsẹ́ (filtrate)",
+          "Solute ni ohun tí ó ń yọ́. Iyọ̀ ló yọ́ sínú omi, nítorí náà iyọ̀ ni solute."
+        ],
+        [
+          "Báwo ni o ṣe lè mú kí ṣúgà yọ́ yára sínú omi?",
+          "lo omi lílọ́wọ́ọ́wọ́, kí o sì rú u",
+          "lo omi tí ó tutù bí yìnyín",
+          "ju ṣúgà náà sínú rẹ̀ ní odidi ńlá kan",
+          "Nínú omi gbígbóná, àwọn èròjà kéékèèké máa ń yára rìn, rírú sì ń ràn wọ́n lọ́wọ́ láti dàpọ̀, nítorí náà ṣúgà yóò yára yọ́."
+        ],
+        [
+          "O ń rú iyọ̀ sínú ife omi títí kò fi lè yọ́ mọ́. Kí ni orúkọ àpòpọ̀ yìí?",
+          "àpòpọ̀ tí ó ti kún (saturated)",
+          "àpòpọ̀ tí ó ti di òru",
+          "àpòpọ̀ tí kò lè yọ́",
+          "Àpòpọ̀ tí ó ti kún ti gba iyọ̀ tó bí ó ṣe lè gbà. Iyọ̀ tí a bá fi kún un yóò kàn rì sí ìsàlẹ̀."
+        ],
+        [
+          "Kí ló dé tí asẹ́ KÒ fi lè ya iyọ̀ kúrò nínú omi iyọ̀?",
+          "èròjà iyọ̀ tí ó ti yọ́ kéré tó láti kọjá",
+          "iyọ̀ wúwo jù fún bébà asẹ́",
+          "bébà asẹ́ máa ń fa gbogbo iyọ̀ mu",
+          "Tí iyọ̀ bá ti yọ́, àwọn èròjà rẹ̀ kéré ju ihò inú bébà lọ, nítorí náà wọ́n máa ń bá omi kọjá."
+        ],
+        [
+          "Àdàlù wo ni o lè fi asẹ́ yà sọ́tọ̀?",
+          "ẹ̀wà gbígbẹ àti ìyẹ̀fun",
+          "iyọ̀ àti omi",
+          "ṣúgà àti omi",
+          "Ẹ̀wà tóbi ju hóró ìyẹ̀fun lọ, nítorí náà ó máa ń kù sínú asẹ́. Iyọ̀ tàbí ṣúgà tí ó ti yọ́ yóò gba inú rẹ̀ kọjá."
+        ],
+        [
+          "Tí a bá da ohun méjì pọ̀, ṣé àdàlù náà jẹ́ ohun tuntun pátápátá?",
+          "rárá, a lè ya àwọn apá rẹ̀ sọ́tọ̀ padà",
+          "bẹ́ẹ̀ni, àdàlù máa ń jẹ́ ohun tuntun nígbà gbogbo",
+          "kìkì tí àdàlù náà bá jẹ́ omi",
+          "Nínú àdàlù, ohun kọ̀ọ̀kan ṣì ní ìwà tirẹ̀, nítorí náà a lè ya wọ́n sọ́tọ̀ padà."
+        ],
+        [
+          "Èwo nínú àwọn ìyípadà wọ̀nyí ni a KÒ lè yí padà?",
+          "sísun igi",
+          "yíyọ́ iyọ̀ sínú omi",
+          "yíyọ́ yìnyín",
+          "Sísun máa ń ṣe ohun tuntun bí eérú àti èéfín. A kò lè sọ wọ́n di igi padà."
+        ],
+        [
+          "Dídín àkàrà òyìnbó (cake) máa ń ṣe ohun tuntun. Irú ìyípadà wo nìyí?",
+          "ìyípadà tí a kò lè yí padà",
+          "ìyípadà tí a lè yí padà",
+          "àdàlù tí a lè fi asẹ́ yà",
+          "Ooru máa ń sọ ẹyin, ìyẹ̀fun àti ṣúgà di ohun tuntun. A kò lè rí àwọn èròjà tútù náà gbà padà."
+        ],
+        [
+          "Báwo ni àwọn tí ń ṣe iyọ̀ ní etí òkun kan ṣe ń rí iyọ̀ láti inú omi òkun?",
+          "wọ́n ń jẹ́ kí oòrùn sọ omi inú adágún tí kò jìn di òru",
+          "wọ́n ń da omi òkun gba inú asẹ́",
+          "wọ́n ń fi mágínẹ́ẹ̀tì fa iyọ̀ jáde",
+          "Oòrùn máa ń mú adágún kéékèèké gbóná, omi á di òru, iyọ̀ á sì kù fún wọn láti kó."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló máa ń yọ́ sínú omi?",
+          "ìyẹ̀fun kọfí",
+          "òkúta wẹ́wẹ́",
+          "ìlẹ̀kẹ̀ ike",
+          "Ìyẹ̀fun kọfí máa ń yọ́, ó sì ń yí àwọ̀ omi padà. Òkúta àti ìlẹ̀kẹ̀ ike máa ń wà ní líle ní ìsàlẹ̀."
+        ],
+        [
+          "A mì epo ìdáná àti omi pọ̀, a sì fi wọ́n sílẹ̀. Kí ló ṣẹlẹ̀?",
+          "epo náà léfòó, ó sì di ìpele kan lórí omi",
+          "epo náà yọ́ sínú omi",
+          "epo náà rì sí ìsàlẹ̀",
+          "Epo kì í yọ́ sínú omi, ó sì fúyẹ́ ju omi lọ, nítorí náà ó máa ń léfòó sókè, ó sì ń dá wà lọ́tọ̀."
+        ],
+        [
+          "Ìrẹsì àti iyanrìn ti dàpọ̀. Irinṣẹ́ wo ló lè yà wọ́n sọ́tọ̀?",
+          "asẹ́ tí ihò rẹ̀ tóbi ju iyanrìn ṣùgbọ́n tí ó kéré ju ìrẹsì lọ",
+          "mágínẹ́ẹ̀tì",
+          "fọ́nẹ́ẹ̀lì láìsí bébà asẹ́",
+          "Iyanrìn máa ń gba inú ihò kọjá, ìrẹsì á sì kù sínú asẹ́. Mágínẹ́ẹ̀tì kò fa ìkankan nínú wọn."
+        ],
+        [
+          "Mia sẹ́ omi ẹlẹ́rẹ̀ láti inú adágún, ó sì mọ́ lójú. Ṣé ó ti dára láti mu báyìí?",
+          "rárá, kòkòrò àrùn àti ohun tí ó yọ́ ṣì lè wà nínú rẹ̀",
+          "bẹ́ẹ̀ni, sísẹ́ máa ń yọ gbogbo nǹkan kúrò",
+          "bẹ́ẹ̀ni, omi tí ó mọ́ lójú kò lè pani lára",
+          "Kòkòrò àrùn àti ohun tí ó ti yọ́ kéré jù fún bébà asẹ́ láti mú, nítorí náà omi náà ṣì lè ṣe ìpalára."
+        ],
+        [
+          "Nínú yàrá ìdánwò sáyẹ́ǹsì ní ilé ẹ̀kọ́, irinṣẹ́ wo ló máa ń gbé bébà asẹ́ dúró?",
+          "fọ́nẹ́ẹ̀lì",
+          "tẹ̀mọ́mítà",
+          "mágínẹ́ẹ̀tì",
+          "A máa ń ká bébà asẹ́ bí kọ̀ǹkọ̀, a sì fi sínú fọ́nẹ́ẹ̀lì tí ó jókòó lórí ife ìdánwò."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni àdàlù?",
+          "sàláàdì èso",
+          "omi mímọ́ gidi",
+          "òrùka wúrà gidi",
+          "Sàláàdì èso ní oríṣiríṣi nǹkan tí a dà pọ̀, a sì lè tètè ṣà wọ́n sọ́tọ̀ padà."
+        ],
+        [
+          "Ṣúgà yọ́ sínú ife omi kan. Ibo ni ṣúgà náà lọ?",
+          "ó ṣì wà níbẹ̀, ó ti tàn ká bí èròjà kéékèèké",
+          "ó ti pòórá títí láé",
+          "ó ti di omi",
+          "Omi náà dùn, tí omi bá sì di òru, ṣúgà yóò kù. Ó ti wà níbẹ̀ ní gbogbo ìgbà."
+        ],
+        [
+          "O yọ́ iyọ̀ gíráàmù 10 sínú omi gíráàmù 100. Báwo ni omi iyọ̀ náà yóò ṣe wúwo tó?",
+          "gíráàmù 110",
+          "gíráàmù 100",
+          "gíráàmù 90",
+          "Tí ohun líle bá yọ́, kò sí ohun tí ó sọnù. Ìwúwo àpòpọ̀ náà jẹ́ ìwúwo omi àti ìwúwo iyọ̀ pa pọ̀."
+        ],
+        [
+          "Ọ̀nà wo ló lè ya ewé tíì kúrò nínú ife tíì?",
+          "dída tíì náà gba inú asẹ́ tíì kékeré",
+          "jíjẹ́ kí tíì náà di òru",
+          "lílo mágínẹ́ẹ̀tì",
+          "Asẹ́ tíì jẹ́ asẹ́ kékeré. Omi máa ń kọjá, ṣùgbọ́n ewé tóbi jù láti kọjá."
+        ],
+        [
+          "A se omi òkun, a sì mú kí òru rẹ̀ tutù títí ó fi di omi padà. Omi wo ni o kó jọ?",
+          "omi mímọ́ tí kò ní iyọ̀ nínú",
+          "omi òkun oníyọ̀",
+          "iyọ̀ tí ó ti di omi",
+          "Omi nìkan ló ń di òru, iyọ̀ á sì kù sínú ìkòkò. Tí òru bá tutù, ó di omi mímọ́. Èyí ni a ń pè ní distillation."
+        ],
+        [
+          "Kí ló dé tí bébà asẹ́ fi lè ya iyanrìn kúrò nínú omi?",
+          "ihò rẹ̀ ń jẹ́ kí omi kọjá, ṣùgbọ́n wọ́n kéré jù fún hóró iyanrìn",
+          "ó máa ń fa gbogbo iyanrìn mu",
+          "ó máa ń mú kí iyanrìn yọ́",
+          "Bébà asẹ́ dà bí asẹ́ tí ihò rẹ̀ kéré gan-an: omi máa ń kọjá, ṣùgbọ́n hóró iyanrìn tí ó tóbi máa ń há síbẹ̀."
+        ]
+      ]
+    }
+  },
+  "emoji": "droplet",
+  "example": {
+    "i": 0,
+    "q_en": "Sand and small stones are mixed and poured into a sieve. What stays in the sieve?",
+    "answer_en": "the stones",
+    "why_en": "The holes are big enough for the tiny sand grains to fall through, but too small for the stones.",
+    "q_de": "Sand und kleine Steine werden gemischt und in ein Sieb geschüttet. Was bleibt im Sieb?",
+    "answer_de": "die Steine",
+    "why_de": "Die Löcher sind groß genug für die winzigen Sandkörner, aber zu klein für die Steine.",
+    "q_fr": "On verse un mélange de sable et de petits cailloux dans un tamis. Qu’est-ce qui reste dans le tamis ?",
+    "answer_fr": "les cailloux",
+    "why_fr": "Les trous laissent passer les minuscules grains de sable, mais ils sont trop petits pour les cailloux.",
+    "q_yo": "A da iyanrìn àti òkúta wẹ́wẹ́ pọ̀, a sì dà á sínú asẹ́. Kí ló kù sínú asẹ́?",
+    "answer_yo": "àwọn òkúta wẹ́wẹ́",
+    "why_yo": "Ihò asẹ́ tóbi tó fún hóró iyanrìn kéékèèké láti kọjá, ṣùgbọ́n ó kéré jù fún àwọn òkúta."
+  },
+  "text": {
+    "en": {
+      "title": "Mixtures and separating",
+      "teach": "A mixture can be separated again. Sieves catch big pieces, filters catch insoluble solids such as sand, evaporating leaves dissolved solids such as salt behind, and magnets pull out iron.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Gemische trennen",
+      "teach": "Ein Gemisch kann man wieder trennen. Ein Sieb hält große Stücke zurück, ein Filter hält unlösliche Feststoffe wie Sand zurück, beim Verdunsten bleiben gelöste Stoffe wie Salz übrig, und ein Magnet zieht Eisen heraus.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Mélanges et séparation",
+      "teach": "On peut séparer les parties d’un mélange. Le tamis retient les gros morceaux, le filtre retient les solides insolubles comme le sable, l’évaporation laisse les solides dissous comme le sel, et l’aimant attire le fer.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Àdàlù àti yíya wọ́n sọ́tọ̀",
+      "teach": "A lè ya àwọn ohun inú àdàlù sọ́tọ̀ padà. Asẹ́ máa ń mú àwọn ègé ńláńlá, bébà asẹ́ máa ń mú ohun líle tí kò lè yọ́ bí iyanrìn, tí omi bá di òru, ohun tí ó yọ́ bí iyọ̀ yóò kù, mágínẹ́ẹ̀tì sì máa ń fa irin jáde.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

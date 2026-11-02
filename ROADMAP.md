@@ -22,6 +22,8 @@ The order follows the learning contract: the lesson first, then the parent page,
 | Radio, stories, video library; places of the world, 100 Whys, Did you know? | done; **facts and Yoruba to verify** |
 | Science (16), French (12) and 10 more English skills as question banks | done; **French to be read by a native speaker** |
 | Learning reports (today, 7 and 30 days, email); Update now | done |
+| Ages 4–12 set by a grown-up; skills by age range; 300+ questions per subject and range; French taught in English | done (owner's request, 27 Oct 2026); **new questions to review** |
+| Subjects: Off / Open / Earn first; 500 Whys; 50+ stories per age range; thinking games with levels | done |
 
 ## Next, in this order
 
@@ -32,7 +34,7 @@ The order follows the learning contract: the lesson first, then the parent page,
    with older children.
 5. More skills only after these work with children (e.g. number bonds to 10, halves, CVC words).
 
-6. **Check the facts** in 100 Whys, Did you know? and places against a source, and confirm the radio stations'
+6. **Check the facts** in 500 Whys, Did you know? and places against a source, and confirm the radio stations'
    terms for third-party players.
 
 ## Later, as separate decisions

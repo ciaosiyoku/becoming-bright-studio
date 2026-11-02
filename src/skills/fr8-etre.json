@@ -1,0 +1,274 @@
+{
+  "id": "fr8-etre",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 3,
+  "ages": [
+    "8-9"
+  ],
+  "order": 23,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "teddy",
+      "girl",
+      "tree",
+      "heart",
+      "clock",
+      "moon",
+      "girl",
+      "school",
+      "paws",
+      "bus",
+      "house",
+      "beach",
+      "speech",
+      "speech",
+      "speech",
+      "girl",
+      "girl",
+      "star",
+      "school",
+      "seedling",
+      "speech",
+      "speech",
+      "speech",
+      "speech",
+      "cloud",
+      "heart",
+      "map",
+      "animal-fox",
+      "cake",
+      "house"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Je ___ content. (être)",
+          "suis",
+          "es",
+          "sommes",
+          "With je, être becomes suis: je suis."
+        ],
+        [
+          "Tu ___ grand. (être)",
+          "es",
+          "suis",
+          "êtes",
+          "With tu, être becomes es: tu es."
+        ],
+        [
+          "Il ___ dans le jardin. (être)",
+          "est",
+          "sont",
+          "suis",
+          "With il, être becomes est: il est."
+        ],
+        [
+          "Nous ___ amis. (être)",
+          "sommes",
+          "sont",
+          "êtes",
+          "With nous, être becomes sommes: nous sommes."
+        ],
+        [
+          "Vous ___ en retard. (être)",
+          "êtes",
+          "est",
+          "sommes",
+          "With vous, être becomes êtes: vous êtes."
+        ],
+        [
+          "Elles ___ fatiguées. (être)",
+          "sont",
+          "est",
+          "sommes",
+          "With elles, être becomes sont: elles sont."
+        ],
+        [
+          "Elle ___ ma sœur. (être)",
+          "est",
+          "suis",
+          "sont",
+          "With elle, être becomes est: elle est."
+        ],
+        [
+          "On ___ à l’école. (être)",
+          "est",
+          "sommes",
+          "sont",
+          "On works like il, so it takes est: on est."
+        ],
+        [
+          "Mon chat ___ noir. (être)",
+          "est",
+          "sont",
+          "es",
+          "Mon chat is one animal, like il, so we use est."
+        ],
+        [
+          "Les enfants ___ dans le bus. (être)",
+          "sont",
+          "est",
+          "sommes",
+          "Les enfants means they, so we use sont."
+        ],
+        [
+          "Paul et moi, nous ___ voisins. (être)",
+          "sommes",
+          "sont",
+          "est",
+          "Paul and me is nous, and nous takes sommes."
+        ],
+        [
+          "Tom et Léa ___ à la plage. (être)",
+          "sont",
+          "est",
+          "êtes",
+          "Tom and Léa means they, so we use sont."
+        ],
+        [
+          "What does je suis mean?",
+          "I am",
+          "I have",
+          "you are",
+          "Je suis is the je form of être, to be: I am."
+        ],
+        [
+          "What does nous sommes mean?",
+          "we are",
+          "they are",
+          "we have",
+          "Nous is we, and sommes is the nous form of être."
+        ],
+        [
+          "What does ils sont mean?",
+          "they are",
+          "he is",
+          "we are",
+          "Ils means they, and sont is the ils form of être."
+        ],
+        [
+          "How do you say ’you are’ to a friend?",
+          "tu es",
+          "tu as",
+          "vous avez",
+          "To one friend we use tu, and tu es means you are. Tu as means you have."
+        ],
+        [
+          "How do you say ’she is’?",
+          "elle est",
+          "elle a",
+          "elles sont",
+          "Elle is she and est is her form of être. Elle a means she has."
+        ],
+        [
+          "Which is correct?",
+          "Vous êtes gentils.",
+          "Vous sommes gentils.",
+          "Vous est gentils.",
+          "Vous always goes with êtes."
+        ],
+        [
+          "Which is correct?",
+          "Je suis en classe.",
+          "Je es en classe.",
+          "Je sont en classe.",
+          "Je always goes with suis."
+        ],
+        [
+          "Which is correct?",
+          "Les fleurs sont belles.",
+          "Les fleurs est belles.",
+          "Les fleurs sommes belles.",
+          "Les fleurs means they, so we need sont."
+        ],
+        [
+          "Which word goes with sommes?",
+          "nous",
+          "vous",
+          "ils",
+          "Sommes is only used with nous."
+        ],
+        [
+          "Which word goes with êtes?",
+          "vous",
+          "tu",
+          "nous",
+          "Êtes is only used with vous."
+        ],
+        [
+          "Which word goes with suis?",
+          "je",
+          "il",
+          "elles",
+          "Suis is only used with je."
+        ],
+        [
+          "Which word goes with sont?",
+          "elles",
+          "elle",
+          "nous",
+          "Sont goes with ils or elles, meaning they."
+        ],
+        [
+          "Le ciel ___ bleu. (être)",
+          "est",
+          "sont",
+          "suis",
+          "Le ciel is one thing, like il, so we use est."
+        ],
+        [
+          "Mes parents ___ gentils. (être)",
+          "sont",
+          "est",
+          "sommes",
+          "Mes parents means they, so we use sont."
+        ],
+        [
+          "Tu ___ où ? (être)",
+          "es",
+          "sommes",
+          "sont",
+          "With tu, être becomes es: tu es où ?"
+        ],
+        [
+          "Where is the fox? Le renard ___ sous l’arbre.",
+          "est",
+          "a",
+          "sont",
+          "To say where something is, use être. Le renard is one animal, so est."
+        ],
+        [
+          "How do you say ’I am nine’? Be careful!",
+          "J’ai neuf ans.",
+          "Je suis neuf ans.",
+          "Je es neuf ans.",
+          "For age, French uses avoir, not être: j’ai neuf ans."
+        ],
+        [
+          "Ma maison ___ petite. (être)",
+          "est",
+          "sont",
+          "êtes",
+          "Ma maison is one thing, like elle, so we use est."
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "i": 0,
+    "q_en": "Je ___ content. (être)",
+    "answer_en": "suis",
+    "why_en": "With je, être becomes suis: je suis."
+  },
+  "text": {
+    "en": {
+      "title": "être (to be)",
+      "teach": "être means to be: je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont. Nous sommes contents.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "id": "en4-home",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 109,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "moon",
+      "snowflake",
+      "cake",
+      "droplet",
+      "house",
+      "cocoa",
+      "fruit-blueberries",
+      "sparkles",
+      "beach",
+      "sun",
+      "house",
+      "droplet",
+      "cookie",
+      "teddy",
+      "clock",
+      "key",
+      "telephone",
+      "umbrella",
+      "light",
+      "books",
+      "shoe",
+      "gloves",
+      "scarf",
+      "framed",
+      "candle",
+      "calendar",
+      "radio",
+      "bell",
+      "house",
+      "school"
+    ],
+    "bank": {
+      "en": [
+        [
+          "You sleep in a ___.",
+          "bed",
+          "oven",
+          "fridge",
+          "You sleep in a bed at night."
+        ],
+        [
+          "You keep food cold in the ___.",
+          "fridge",
+          "oven",
+          "bath",
+          "A fridge keeps food cold and fresh."
+        ],
+        [
+          "You bake a cake in the ___.",
+          "oven",
+          "fridge",
+          "sink",
+          "An oven gets hot to bake food."
+        ],
+        [
+          "You wash all over in the ___.",
+          "bath",
+          "oven",
+          "bed",
+          "You fill the bath with water to wash."
+        ],
+        [
+          "You sit on a ___ at the table.",
+          "chair",
+          "cup",
+          "spoon",
+          "You sit on a chair."
+        ],
+        [
+          "You drink from a ___.",
+          "cup",
+          "fork",
+          "shoe",
+          "You drink from a cup."
+        ],
+        [
+          "You eat cereal with a ___.",
+          "spoon",
+          "comb",
+          "key",
+          "You eat cereal and milk with a spoon."
+        ],
+        [
+          "You brush your teeth with a ___.",
+          "toothbrush",
+          "spoon",
+          "sock",
+          "A toothbrush keeps your teeth clean."
+        ],
+        [
+          "You dry yourself with a ___.",
+          "towel",
+          "plate",
+          "book",
+          "A towel dries you after you get wet."
+        ],
+        [
+          "You look outside through the ___.",
+          "window",
+          "cup",
+          "bed",
+          "You can see outside through a window."
+        ],
+        [
+          "You put rubbish in the ___.",
+          "bin",
+          "bath",
+          "bed",
+          "Rubbish goes in the bin."
+        ],
+        [
+          "You wash your hands with ___.",
+          "soap",
+          "jam",
+          "mud",
+          "Soap and water make your hands clean."
+        ],
+        [
+          "You put your dinner on a ___.",
+          "plate",
+          "shoe",
+          "hat",
+          "You put food on a plate."
+        ],
+        [
+          "You rest your head on a ___ in bed.",
+          "pillow",
+          "plate",
+          "spoon",
+          "A soft pillow holds your head in bed."
+        ],
+        [
+          "What does a clock tell you?",
+          "the time",
+          "the weather",
+          "your name",
+          "A clock tells you the time."
+        ],
+        [
+          "What is a key for?",
+          "opening doors",
+          "cooking food",
+          "washing hands",
+          "A key opens a locked door."
+        ],
+        [
+          "What is a phone for?",
+          "calling people",
+          "cooking food",
+          "washing hair",
+          "You call people on a phone."
+        ],
+        [
+          "An umbrella keeps you ___.",
+          "dry",
+          "hungry",
+          "sleepy",
+          "An umbrella keeps the rain off you."
+        ],
+        [
+          "You switch on the light when it is ___.",
+          "dark",
+          "sunny",
+          "bright",
+          "A light helps you see in the dark."
+        ],
+        [
+          "A book has lots of ___.",
+          "pages",
+          "wheels",
+          "legs",
+          "A book has pages with words and pictures."
+        ],
+        [
+          "You wear shoes on your ___.",
+          "feet",
+          "hands",
+          "ears",
+          "Shoes go on your feet."
+        ],
+        [
+          "You wear gloves on your ___.",
+          "hands",
+          "feet",
+          "nose",
+          "Gloves keep your hands warm."
+        ],
+        [
+          "You wrap a scarf around your ___.",
+          "neck",
+          "feet",
+          "knees",
+          "A scarf keeps your neck warm."
+        ],
+        [
+          "You hang a picture on the ___.",
+          "wall",
+          "bath",
+          "plate",
+          "Pictures hang on the wall."
+        ],
+        [
+          "A candle gives us ___.",
+          "light",
+          "water",
+          "food",
+          "A candle has a flame that gives light."
+        ],
+        [
+          "A calendar shows the ___.",
+          "days",
+          "toys",
+          "food",
+          "A calendar shows the days and months."
+        ],
+        [
+          "A radio plays ___.",
+          "music",
+          "food",
+          "toys",
+          "You can listen to music on a radio."
+        ],
+        [
+          "You ring the doorbell at the front ___.",
+          "door",
+          "bath",
+          "oven",
+          "The doorbell is next to the front door."
+        ],
+        [
+          "The top of a house is the ___.",
+          "roof",
+          "floor",
+          "door",
+          "The roof is on top of a house."
+        ],
+        [
+          "You carry your school things in a ___.",
+          "bag",
+          "bath",
+          "fridge",
+          "A school bag holds your books."
+        ]
+      ]
+    }
+  },
+  "emoji": "house",
+  "example": {
+    "i": 0,
+    "q_en": "You sleep in a ___.",
+    "answer_en": "bed",
+    "why_en": "You sleep in a bed at night."
+  },
+  "text": {
+    "en": {
+      "title": "At home",
+      "teach": "Every room at home has useful things. You sleep in a bed, cook in an oven and wash in a bath.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

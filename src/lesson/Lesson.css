@@ -198,6 +198,9 @@ button.round {
 }
 .choice span {
   font-family: var(--display);
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  hyphens: auto;
 }
 .choices.pictures .choice span {
   font-size: 1.3rem;

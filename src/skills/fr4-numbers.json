@@ -1,0 +1,274 @@
+{
+  "id": "fr4-numbers",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 3,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "abacus",
+      "star",
+      "notes",
+      "abacus",
+      "gloves",
+      "star",
+      "notes",
+      "abacus",
+      "star",
+      "abacus",
+      "abacus",
+      "notes",
+      "star",
+      "abacus",
+      "notes",
+      "star",
+      "abacus",
+      "notes",
+      "star",
+      "abacus",
+      "chick",
+      "animal-cow",
+      "gloves",
+      "animal-lady-beetle",
+      "animal-octopus",
+      "gloves",
+      "abacus",
+      "notes",
+      "star",
+      "abacus"
+    ],
+    "bank": {
+      "en": [
+        [
+          "How do you say one (1) in French?",
+          "un",
+          "deux",
+          "dix",
+          "1 in French is ‘un’."
+        ],
+        [
+          "How do you say two (2) in French?",
+          "deux",
+          "trois",
+          "six",
+          "2 in French is ‘deux’."
+        ],
+        [
+          "How do you say three (3) in French?",
+          "trois",
+          "quatre",
+          "huit",
+          "3 in French is ‘trois’."
+        ],
+        [
+          "How do you say four (4) in French?",
+          "quatre",
+          "cinq",
+          "un",
+          "4 in French is ‘quatre’."
+        ],
+        [
+          "How do you say five (5) in French?",
+          "cinq",
+          "sept",
+          "deux",
+          "5 in French is ‘cinq’."
+        ],
+        [
+          "How do you say six (6) in French?",
+          "six",
+          "neuf",
+          "trois",
+          "6 in French is ‘six’."
+        ],
+        [
+          "How do you say seven (7) in French?",
+          "sept",
+          "dix",
+          "quatre",
+          "7 in French is ‘sept’."
+        ],
+        [
+          "How do you say eight (8) in French?",
+          "huit",
+          "un",
+          "cinq",
+          "8 in French is ‘huit’."
+        ],
+        [
+          "How do you say nine (9) in French?",
+          "neuf",
+          "deux",
+          "sept",
+          "9 in French is ‘neuf’."
+        ],
+        [
+          "How do you say ten (10) in French?",
+          "dix",
+          "six",
+          "trois",
+          "10 in French is ‘dix’."
+        ],
+        [
+          "Which number is ‘trois’?",
+          "3",
+          "5",
+          "8",
+          "‘Trois’ is the number 3."
+        ],
+        [
+          "Which number is ‘cinq’?",
+          "5",
+          "2",
+          "9",
+          "‘Cinq’ is the number 5."
+        ],
+        [
+          "Which number is ‘huit’?",
+          "8",
+          "4",
+          "1",
+          "‘Huit’ is the number 8."
+        ],
+        [
+          "Which number is ‘dix’?",
+          "10",
+          "6",
+          "3",
+          "‘Dix’ is the number 10."
+        ],
+        [
+          "Which number is ‘sept’?",
+          "7",
+          "1",
+          "4",
+          "‘Sept’ is the number 7."
+        ],
+        [
+          "Which number is ‘neuf’?",
+          "9",
+          "6",
+          "2",
+          "‘Neuf’ is the number 9."
+        ],
+        [
+          "Which number is ‘deux’?",
+          "2",
+          "7",
+          "10",
+          "‘Deux’ is the number 2."
+        ],
+        [
+          "Which number is ‘quatre’?",
+          "4",
+          "8",
+          "3",
+          "‘Quatre’ is the number 4."
+        ],
+        [
+          "Which number is ‘un’?",
+          "1",
+          "5",
+          "9",
+          "‘Un’ is the number 1."
+        ],
+        [
+          "Which number is ‘six’?",
+          "6",
+          "2",
+          "10",
+          "‘Six’ is the number 6."
+        ],
+        [
+          "How many legs does a chick have? Say it in French.",
+          "deux",
+          "quatre",
+          "huit",
+          "A chick has 2 legs: ‘deux’."
+        ],
+        [
+          "How many legs does a cow have? Say it in French.",
+          "quatre",
+          "deux",
+          "six",
+          "A cow has 4 legs: ‘quatre’."
+        ],
+        [
+          "How many fingers are on one hand? Say it in French.",
+          "cinq",
+          "trois",
+          "dix",
+          "One hand has 5 fingers: ‘cinq’."
+        ],
+        [
+          "How many legs does a ladybird have? Say it in French.",
+          "six",
+          "quatre",
+          "huit",
+          "A ladybird is an insect, and insects have 6 legs: ‘six’."
+        ],
+        [
+          "How many arms does an octopus have? Say it in French.",
+          "huit",
+          "cinq",
+          "dix",
+          "An octopus has 8 arms: ‘huit’."
+        ],
+        [
+          "How many fingers are on two hands? Say it in French.",
+          "dix",
+          "sept",
+          "quatre",
+          "Two hands have 10 fingers: ‘dix’."
+        ],
+        [
+          "Un, deux, … What comes next?",
+          "trois",
+          "cinq",
+          "dix",
+          "We count un, deux, trois: 1, 2, 3."
+        ],
+        [
+          "What number comes after ‘six’?",
+          "sept",
+          "neuf",
+          "deux",
+          "After 6 comes 7: six, sept."
+        ],
+        [
+          "What number comes after ‘huit’?",
+          "neuf",
+          "quatre",
+          "un",
+          "After 8 comes 9: huit, neuf."
+        ],
+        [
+          "What number comes just before ‘cinq’?",
+          "quatre",
+          "huit",
+          "dix",
+          "We count quatre, cinq: 4, 5."
+        ]
+      ]
+    }
+  },
+  "emoji": "abacus",
+  "example": {
+    "i": 0,
+    "q_en": "How do you say one (1) in French?",
+    "answer_en": "un",
+    "why_en": "1 in French is ‘un’."
+  },
+  "text": {
+    "en": {
+      "title": "Numbers 1 to 10 in French",
+      "teach": "Let’s count in French: un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix. That is 1 to 10!",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

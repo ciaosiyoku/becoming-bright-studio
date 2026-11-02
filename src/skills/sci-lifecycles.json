@@ -1,0 +1,936 @@
+{
+  "id": "sci-lifecycles",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 17,
+  "params": {
+    "emojis": [
+      "animal-frog",
+      "animal-frog",
+      "droplet",
+      "animal-frog",
+      "animal-frog",
+      "wave",
+      "animal-butterfly",
+      "seedling",
+      "gift",
+      "sparkles",
+      "tree",
+      "animal-butterfly",
+      "chick",
+      "chick",
+      "calendar",
+      "chick",
+      "chick",
+      "seedling",
+      "droplet",
+      "seedling",
+      "animal-honeybee",
+      "fruit-apple",
+      "tree",
+      "fruit-mango",
+      "teddy",
+      "heart",
+      "girl",
+      "footprints",
+      "puzzle",
+      "clock"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does a frog lay?",
+          "eggs called frogspawn",
+          "seeds",
+          "tiny stones",
+          "A mother frog lays lots of eggs covered in jelly. They are called frogspawn."
+        ],
+        [
+          "What hatches out of frogspawn?",
+          "a tadpole",
+          "a caterpillar",
+          "a chick",
+          "A tiny tadpole wriggles out of each egg. It has a tail and lives in the water."
+        ],
+        [
+          "How does a young tadpole move?",
+          "it swims with its tail",
+          "it flies with wings",
+          "it walks on four legs",
+          "A young tadpole has no legs yet. It wiggles its tail to swim through the water."
+        ],
+        [
+          "What does a tadpole grow as it changes into a frog?",
+          "legs",
+          "feathers",
+          "wings",
+          "First the back legs grow, then the front legs. Soon it can hop out of the water."
+        ],
+        [
+          "What happens to a tadpole’s tail as it becomes a frog?",
+          "it gets shorter and disappears",
+          "it grows longer",
+          "it turns into a wing",
+          "The tail slowly shrinks away. A grown-up frog has no tail."
+        ],
+        [
+          "Where does a frog lay its eggs?",
+          "in water",
+          "in a bird’s nest",
+          "on a hot road",
+          "Frogspawn must stay wet, so frogs lay their eggs in ponds and other still water."
+        ],
+        [
+          "What hatches from a butterfly’s egg?",
+          "a caterpillar",
+          "a tadpole",
+          "a chick",
+          "A tiny caterpillar comes out of the egg. It looks nothing like a butterfly yet."
+        ],
+        [
+          "What does a caterpillar spend most of its time doing?",
+          "eating leaves",
+          "swimming in ponds",
+          "building nests",
+          "A caterpillar eats and eats. It grows very fast and gets much bigger."
+        ],
+        [
+          "What does a caterpillar make around itself before it changes?",
+          "a hard case called a chrysalis",
+          "a nest of twigs",
+          "a shell of stone",
+          "Inside the chrysalis, the caterpillar’s body slowly changes into a butterfly."
+        ],
+        [
+          "What comes out of the chrysalis?",
+          "a butterfly",
+          "a frog",
+          "a bird",
+          "When the change is finished, the chrysalis splits open and a butterfly climbs out."
+        ],
+        [
+          "Where does a butterfly usually lay its eggs?",
+          "on plant leaves",
+          "in a pond",
+          "in the snow",
+          "The eggs go on leaves, so the caterpillars have food as soon as they hatch."
+        ],
+        [
+          "Which stage comes first in a butterfly’s life cycle?",
+          "the egg",
+          "the chrysalis",
+          "the grown-up butterfly",
+          "The order is egg, caterpillar, chrysalis, butterfly. Then the butterfly lays new eggs."
+        ],
+        [
+          "What does a chick hatch out of?",
+          "an egg",
+          "a seed",
+          "a chrysalis",
+          "A hen lays an egg. The chick grows inside it and then pecks its way out."
+        ],
+        [
+          "What keeps a hen’s eggs warm until they hatch?",
+          "the hen sitting on them",
+          "a cold wind",
+          "a pile of snow",
+          "The hen sits on her eggs to keep them warm, so the chicks inside can grow."
+        ],
+        [
+          "How long does a chick grow inside its egg before it hatches?",
+          "about three weeks",
+          "about one hour",
+          "about ten years",
+          "A chick needs about 21 days, or three weeks, to grow inside the egg."
+        ],
+        [
+          "What does a chick grow up to be?",
+          "a hen or a rooster",
+          "a duck",
+          "a frog",
+          "A chick grows into an adult chicken. A female is a hen and a male is a rooster."
+        ],
+        [
+          "What covers a chick when it has just hatched?",
+          "soft, fluffy feathers",
+          "hard scales",
+          "sharp spines",
+          "A new chick is covered in soft, fluffy down. Its grown-up feathers come later."
+        ],
+        [
+          "What does a new plant grow from?",
+          "a seed",
+          "a stone",
+          "an egg",
+          "Inside a seed is a tiny baby plant and some food to help it start growing."
+        ],
+        [
+          "What does a seed need to start growing?",
+          "water and warmth",
+          "ice and snow",
+          "salt and sand",
+          "When a seed gets water and is warm enough, it swells and begins to sprout."
+        ],
+        [
+          "What grows first out of a seed?",
+          "a root",
+          "a flower",
+          "a fruit",
+          "First a little root pushes down into the soil. Then a shoot grows up towards the light."
+        ],
+        [
+          "Which part of a plant makes new seeds?",
+          "the flower",
+          "the root",
+          "the leaf",
+          "Bees carry pollen from flower to flower. Then the flower can make seeds, often inside a fruit."
+        ],
+        [
+          "Where are the seeds of an apple?",
+          "inside the fruit",
+          "in the roots",
+          "on the leaves",
+          "Cut an apple in half and you will find small brown seeds in the middle."
+        ],
+        [
+          "Which way do a plant’s roots grow?",
+          "down into the soil",
+          "up into the sky",
+          "out of the flowers",
+          "Roots grow down into the ground. They hold the plant still and take in water."
+        ],
+        [
+          "What can grow from a mango seed?",
+          "a mango tree",
+          "an apple tree",
+          "a rock",
+          "A seed grows into the same kind of plant it came from. A mango seed grows into a mango tree."
+        ],
+        [
+          "How does a baby change as it grows up?",
+          "it gets taller and learns new things",
+          "it gets smaller every year",
+          "it turns into a bird",
+          "Babies grow bigger and stronger. They learn to talk and to do many new things."
+        ],
+        [
+          "What does a newborn baby drink?",
+          "milk",
+          "coffee",
+          "sea water",
+          "A newborn baby only drinks milk. It has everything the baby needs to grow."
+        ],
+        [
+          "What does a child grow into next?",
+          "a teenager",
+          "a baby",
+          "a toddler",
+          "People grow from baby to toddler to child. Then they become teenagers and later adults."
+        ],
+        [
+          "Can a baby walk as soon as it is born?",
+          "no, it learns to walk later",
+          "yes, straight away",
+          "it flies before it walks",
+          "Babies first learn to roll, sit and crawl. Most take their first steps at about one year old."
+        ],
+        [
+          "Which animal changes its body shape completely as it grows up?",
+          "a frog",
+          "a horse",
+          "an elephant",
+          "A tadpole looks like a tiny fish, but it grows into a frog with legs. A baby horse already looks like a horse."
+        ],
+        [
+          "What is a life cycle?",
+          "the changes a living thing goes through as it grows and has young",
+          "a kind of bicycle",
+          "the weather in one year",
+          "A life cycle goes round like a circle: young grow into adults, and adults have new young."
+        ]
+      ],
+      "de": [
+        [
+          "Was legt ein Frosch?",
+          "Eier, den Froschlaich",
+          "Samen",
+          "kleine Steine",
+          "Ein Froschweibchen legt viele Eier in einer glibberigen Hülle. Man nennt sie Froschlaich."
+        ],
+        [
+          "Was schlüpft aus dem Froschlaich?",
+          "eine Kaulquappe",
+          "eine Raupe",
+          "ein Küken",
+          "Aus jedem Ei schlüpft eine winzige Kaulquappe. Sie hat einen Schwanz und lebt im Wasser."
+        ],
+        [
+          "Wie bewegt sich eine junge Kaulquappe?",
+          "sie schwimmt mit dem Schwanz",
+          "sie fliegt mit Flügeln",
+          "sie läuft auf vier Beinen",
+          "Eine junge Kaulquappe hat noch keine Beine. Sie schlängelt sich mit dem Schwanz durchs Wasser."
+        ],
+        [
+          "Was wächst einer Kaulquappe, während sie zum Frosch wird?",
+          "Beine",
+          "Federn",
+          "Flügel",
+          "Zuerst wachsen die Hinterbeine, dann die Vorderbeine. Bald kann sie aus dem Wasser hüpfen."
+        ],
+        [
+          "Was passiert mit dem Schwanz der Kaulquappe, wenn sie zum Frosch wird?",
+          "er wird kürzer und verschwindet",
+          "er wird länger",
+          "er wird zu einem Flügel",
+          "Der Schwanz wird langsam immer kleiner. Ein erwachsener Frosch hat keinen Schwanz."
+        ],
+        [
+          "Wohin legt ein Frosch seine Eier?",
+          "ins Wasser",
+          "in ein Vogelnest",
+          "auf eine heiße Straße",
+          "Froschlaich muss nass bleiben. Darum legen Frösche ihre Eier in Teiche und andere stille Gewässer."
+        ],
+        [
+          "Was schlüpft aus dem Ei eines Schmetterlings?",
+          "eine Raupe",
+          "eine Kaulquappe",
+          "ein Küken",
+          "Aus dem Ei schlüpft eine winzige Raupe. Sie sieht noch gar nicht wie ein Schmetterling aus."
+        ],
+        [
+          "Womit verbringt eine Raupe die meiste Zeit?",
+          "mit Blätterfressen",
+          "mit Schwimmen im Teich",
+          "mit Nestbauen",
+          "Eine Raupe frisst und frisst. Sie wächst sehr schnell und wird viel größer."
+        ],
+        [
+          "Was bildet eine Raupe um sich herum, bevor sie sich verwandelt?",
+          "eine harte Hülle, die Puppe",
+          "ein Nest aus Zweigen",
+          "eine Schale aus Stein",
+          "In der Puppe verwandelt sich der Körper der Raupe langsam in einen Schmetterling."
+        ],
+        [
+          "Was kommt aus der Puppe heraus?",
+          "ein Schmetterling",
+          "ein Frosch",
+          "ein Vogel",
+          "Ist die Verwandlung fertig, platzt die Puppe auf und ein Schmetterling krabbelt heraus."
+        ],
+        [
+          "Wohin legt ein Schmetterling meist seine Eier?",
+          "auf Pflanzenblätter",
+          "in einen Teich",
+          "in den Schnee",
+          "Die Eier kommen auf Blätter. So haben die Raupen gleich nach dem Schlüpfen Futter."
+        ],
+        [
+          "Was kommt im Leben eines Schmetterlings zuerst?",
+          "das Ei",
+          "die Puppe",
+          "der fertige Schmetterling",
+          "Die Reihenfolge ist: Ei, Raupe, Puppe, Schmetterling. Dann legt der Schmetterling neue Eier."
+        ],
+        [
+          "Woraus schlüpft ein Küken?",
+          "aus einem Ei",
+          "aus einem Samen",
+          "aus einer Puppe",
+          "Eine Henne legt ein Ei. Darin wächst das Küken und pickt sich dann heraus."
+        ],
+        [
+          "Was hält die Eier einer Henne warm, bis die Küken schlüpfen?",
+          "die Henne, die darauf sitzt",
+          "ein kalter Wind",
+          "ein Haufen Schnee",
+          "Die Henne sitzt auf ihren Eiern und hält sie warm. So können die Küken darin wachsen."
+        ],
+        [
+          "Wie lange wächst ein Küken im Ei, bevor es schlüpft?",
+          "etwa drei Wochen",
+          "etwa eine Stunde",
+          "etwa zehn Jahre",
+          "Ein Küken braucht etwa 21 Tage, also drei Wochen, um im Ei zu wachsen."
+        ],
+        [
+          "Was wird aus einem Küken, wenn es groß ist?",
+          "eine Henne oder ein Hahn",
+          "eine Ente",
+          "ein Frosch",
+          "Aus einem Küken wird ein erwachsenes Huhn. Weibchen sind Hennen, Männchen sind Hähne."
+        ],
+        [
+          "Was bedeckt ein Küken, wenn es gerade geschlüpft ist?",
+          "weiche, flauschige Federn",
+          "harte Schuppen",
+          "spitze Stacheln",
+          "Ein frisch geschlüpftes Küken trägt weiche Daunen. Die richtigen Federn wachsen später."
+        ],
+        [
+          "Woraus wächst eine neue Pflanze?",
+          "aus einem Samen",
+          "aus einem Stein",
+          "aus einem Ei",
+          "In einem Samen steckt eine winzige Pflanze mit etwas Nahrung für den Start."
+        ],
+        [
+          "Was braucht ein Samen, um zu keimen?",
+          "Wasser und Wärme",
+          "Eis und Schnee",
+          "Salz und Sand",
+          "Bekommt ein Samen Wasser und ist es warm genug, quillt er auf und beginnt zu keimen."
+        ],
+        [
+          "Was wächst zuerst aus einem Samen?",
+          "eine Wurzel",
+          "eine Blüte",
+          "eine Frucht",
+          "Zuerst schiebt sich eine kleine Wurzel in die Erde. Dann wächst ein Spross zum Licht."
+        ],
+        [
+          "Welcher Teil einer Pflanze bildet neue Samen?",
+          "die Blüte",
+          "die Wurzel",
+          "das Blatt",
+          "Bienen tragen Blütenstaub von Blüte zu Blüte. Dann kann die Blüte Samen bilden, oft in einer Frucht."
+        ],
+        [
+          "Wo sind die Kerne eines Apfels?",
+          "im Inneren der Frucht",
+          "in den Wurzeln",
+          "auf den Blättern",
+          "Schneidet man einen Apfel durch, findet man in der Mitte kleine braune Kerne."
+        ],
+        [
+          "In welche Richtung wachsen die Wurzeln einer Pflanze?",
+          "nach unten in die Erde",
+          "nach oben in den Himmel",
+          "aus den Blüten heraus",
+          "Wurzeln wachsen nach unten in den Boden. Sie halten die Pflanze fest und nehmen Wasser auf."
+        ],
+        [
+          "Was kann aus einem Mangokern wachsen?",
+          "ein Mangobaum",
+          "ein Apfelbaum",
+          "ein Stein",
+          "Aus einem Samen wächst dieselbe Pflanzenart, von der er stammt. Aus einem Mangokern wird ein Mangobaum."
+        ],
+        [
+          "Wie verändert sich ein Baby, wenn es aufwächst?",
+          "es wird größer und lernt Neues",
+          "es wird jedes Jahr kleiner",
+          "es wird zu einem Vogel",
+          "Babys werden größer und stärker. Sie lernen sprechen und viele neue Dinge."
+        ],
+        [
+          "Was trinkt ein neugeborenes Baby?",
+          "Milch",
+          "Kaffee",
+          "Meerwasser",
+          "Ein neugeborenes Baby trinkt nur Milch. Darin ist alles, was es zum Wachsen braucht."
+        ],
+        [
+          "Was wird aus einem Kind als Nächstes?",
+          "ein Jugendlicher",
+          "ein Baby",
+          "ein Kleinkind",
+          "Menschen sind erst Baby, dann Kleinkind, dann Kind. Danach werden sie Jugendliche und später Erwachsene."
+        ],
+        [
+          "Kann ein Baby gleich nach der Geburt laufen?",
+          "nein, es lernt das Laufen später",
+          "ja, sofort",
+          "es fliegt, bevor es läuft",
+          "Babys lernen erst, sich zu drehen, zu sitzen und zu krabbeln. Die meisten machen mit etwa einem Jahr die ersten Schritte."
+        ],
+        [
+          "Welches Tier verändert beim Großwerden seine ganze Körperform?",
+          "der Frosch",
+          "das Pferd",
+          "der Elefant",
+          "Eine Kaulquappe sieht aus wie ein kleiner Fisch und wird zu einem Frosch mit Beinen. Ein Fohlen sieht schon aus wie ein Pferd."
+        ],
+        [
+          "Was ist ein Lebenszyklus?",
+          "die Veränderungen eines Lebewesens beim Wachsen und Junge-Bekommen",
+          "eine Art Fahrrad",
+          "das Wetter in einem Jahr",
+          "Ein Lebenszyklus läuft wie ein Kreis: Junge werden erwachsen, und Erwachsene bekommen wieder Junge."
+        ]
+      ],
+      "fr": [
+        [
+          "Que pond une grenouille ?",
+          "des œufs dans de la gelée",
+          "des graines",
+          "des petits cailloux",
+          "La grenouille pond beaucoup d’œufs entourés de gelée. On les appelle le frai."
+        ],
+        [
+          "Qu’est-ce qui sort des œufs de grenouille ?",
+          "un têtard",
+          "une chenille",
+          "un poussin",
+          "De chaque œuf sort un minuscule têtard. Il a une queue et vit dans l’eau."
+        ],
+        [
+          "Comment se déplace un jeune têtard ?",
+          "il nage avec sa queue",
+          "il vole avec des ailes",
+          "il marche sur quatre pattes",
+          "Un jeune têtard n’a pas encore de pattes. Il remue la queue pour nager."
+        ],
+        [
+          "Que pousse-t-il au têtard quand il devient grenouille ?",
+          "des pattes",
+          "des plumes",
+          "des ailes",
+          "D’abord les pattes arrière poussent, puis celles de devant. Bientôt, il peut sauter hors de l’eau."
+        ],
+        [
+          "Que devient la queue du têtard quand il se change en grenouille ?",
+          "elle raccourcit et disparaît",
+          "elle s’allonge",
+          "elle se change en aile",
+          "La queue rétrécit petit à petit. Une grenouille adulte n’a pas de queue."
+        ],
+        [
+          "Où une grenouille pond-elle ses œufs ?",
+          "dans l’eau",
+          "dans un nid d’oiseau",
+          "sur une route chaude",
+          "Les œufs doivent rester mouillés : les grenouilles pondent dans les mares et les eaux calmes."
+        ],
+        [
+          "Qu’est-ce qui sort de l’œuf d’un papillon ?",
+          "une chenille",
+          "un têtard",
+          "un poussin",
+          "Une minuscule chenille sort de l’œuf. Elle ne ressemble pas encore du tout à un papillon."
+        ],
+        [
+          "Que fait une chenille la plupart du temps ?",
+          "elle mange des feuilles",
+          "elle nage dans les mares",
+          "elle construit des nids",
+          "Une chenille mange sans arrêt. Elle grandit très vite et devient bien plus grosse."
+        ],
+        [
+          "Que fabrique une chenille autour d’elle avant de se transformer ?",
+          "une enveloppe dure, la chrysalide",
+          "un nid de brindilles",
+          "une coquille de pierre",
+          "Dans la chrysalide, le corps de la chenille se transforme lentement en papillon."
+        ],
+        [
+          "Qu’est-ce qui sort de la chrysalide ?",
+          "un papillon",
+          "une grenouille",
+          "un oiseau",
+          "Quand la transformation est finie, la chrysalide s’ouvre et un papillon en sort."
+        ],
+        [
+          "Où un papillon pond-il le plus souvent ses œufs ?",
+          "sur les feuilles des plantes",
+          "dans une mare",
+          "dans la neige",
+          "Les œufs sont pondus sur des feuilles : les chenilles ont à manger dès leur naissance."
+        ],
+        [
+          "Quelle étape vient en premier dans la vie d’un papillon ?",
+          "l’œuf",
+          "la chrysalide",
+          "le papillon adulte",
+          "L’ordre est : œuf, chenille, chrysalide, papillon. Puis le papillon pond de nouveaux œufs."
+        ],
+        [
+          "D’où sort un poussin ?",
+          "d’un œuf",
+          "d’une graine",
+          "d’une chrysalide",
+          "La poule pond un œuf. Le poussin grandit dedans, puis casse la coquille avec son bec."
+        ],
+        [
+          "Qu’est-ce qui garde les œufs de la poule au chaud jusqu’à l’éclosion ?",
+          "la poule assise dessus",
+          "un vent froid",
+          "un tas de neige",
+          "La poule couve ses œufs pour les garder au chaud. Ainsi, les poussins peuvent grandir dedans."
+        ],
+        [
+          "Combien de temps un poussin grandit-il dans l’œuf avant d’éclore ?",
+          "environ trois semaines",
+          "environ une heure",
+          "environ dix ans",
+          "Un poussin a besoin d’environ 21 jours, soit trois semaines, pour grandir dans l’œuf."
+        ],
+        [
+          "Que devient un poussin en grandissant ?",
+          "une poule ou un coq",
+          "un canard",
+          "une grenouille",
+          "Un poussin devient un poulet adulte. La femelle est une poule, le mâle est un coq."
+        ],
+        [
+          "Qu’est-ce qui couvre un poussin qui vient d’éclore ?",
+          "des plumes douces et duveteuses",
+          "des écailles dures",
+          "des piquants pointus",
+          "Un poussin tout neuf est couvert d’un duvet tout doux. Ses vraies plumes poussent plus tard."
+        ],
+        [
+          "D’où pousse une nouvelle plante ?",
+          "d’une graine",
+          "d’un caillou",
+          "d’un œuf",
+          "Dans une graine, il y a une minuscule plante et de la nourriture pour commencer à pousser."
+        ],
+        [
+          "De quoi une graine a-t-elle besoin pour germer ?",
+          "d’eau et de chaleur",
+          "de glace et de neige",
+          "de sel et de sable",
+          "Avec de l’eau et assez de chaleur, la graine gonfle et commence à germer."
+        ],
+        [
+          "Qu’est-ce qui sort en premier d’une graine ?",
+          "une racine",
+          "une fleur",
+          "un fruit",
+          "D’abord, une petite racine s’enfonce dans la terre. Ensuite, une tige pousse vers la lumière."
+        ],
+        [
+          "Quelle partie de la plante fabrique de nouvelles graines ?",
+          "la fleur",
+          "la racine",
+          "la feuille",
+          "Les abeilles portent le pollen de fleur en fleur. La fleur peut alors faire des graines, souvent dans un fruit."
+        ],
+        [
+          "Où sont les pépins d’une pomme ?",
+          "à l’intérieur du fruit",
+          "dans les racines",
+          "sur les feuilles",
+          "Coupe une pomme en deux : au milieu, tu trouveras de petits pépins bruns."
+        ],
+        [
+          "Dans quel sens poussent les racines d’une plante ?",
+          "vers le bas, dans la terre",
+          "vers le haut, dans le ciel",
+          "hors des fleurs",
+          "Les racines poussent vers le bas dans le sol. Elles tiennent la plante et puisent l’eau."
+        ],
+        [
+          "Que peut donner un noyau de mangue ?",
+          "un manguier",
+          "un pommier",
+          "un caillou",
+          "Une graine donne le même genre de plante que celle d’où elle vient. Un noyau de mangue devient un manguier."
+        ],
+        [
+          "Comment un bébé change-t-il en grandissant ?",
+          "il grandit et apprend de nouvelles choses",
+          "il rapetisse chaque année",
+          "il se change en oiseau",
+          "Les bébés deviennent plus grands et plus forts. Ils apprennent à parler et bien d’autres choses."
+        ],
+        [
+          "Que boit un nouveau-né ?",
+          "du lait",
+          "du café",
+          "de l’eau de mer",
+          "Un nouveau-né ne boit que du lait. Le lait contient tout ce dont il a besoin pour grandir."
+        ],
+        [
+          "Que devient un enfant ensuite ?",
+          "un adolescent",
+          "un bébé",
+          "un tout-petit",
+          "On est d’abord bébé, puis tout-petit, puis enfant. Ensuite, on devient adolescent, puis adulte."
+        ],
+        [
+          "Un bébé sait-il marcher dès sa naissance ?",
+          "non, il apprend à marcher plus tard",
+          "oui, tout de suite",
+          "il vole avant de marcher",
+          "Les bébés apprennent d’abord à se retourner, à s’asseoir et à ramper. La plupart font leurs premiers pas vers un an."
+        ],
+        [
+          "Quel animal change complètement de forme en grandissant ?",
+          "la grenouille",
+          "le cheval",
+          "l’éléphant",
+          "Le têtard ressemble à un petit poisson, puis devient une grenouille avec des pattes. Un poulain ressemble déjà à un cheval."
+        ],
+        [
+          "Qu’est-ce qu’un cycle de vie ?",
+          "les changements d’un être vivant qui grandit et a des petits",
+          "une sorte de vélo",
+          "le temps qu’il fait pendant un an",
+          "Un cycle de vie tourne comme un cercle : les petits deviennent adultes, et les adultes ont de nouveaux petits."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni àkèré ń yé?",
+          "ẹyin tí ohun tó rọ̀ bí jẹ́lì yí ká",
+          "irúgbìn",
+          "òkúta kéékèèké",
+          "Abo àkèré ń yé ẹyin púpọ̀. Ohun tó rọ̀ bí jẹ́lì ló yí wọn ká."
+        ],
+        [
+          "Kí ló ń jáde láti inú ẹyin àkèré?",
+          "ọmọ àkèré tó ní ìrù",
+          "ìdin",
+          "ọmọ adìẹ",
+          "Ọmọ àkèré kékeré kan ń jáde láti inú ẹyin kọ̀ọ̀kan. Ó ní ìrù, inú omi ló sì ń gbé."
+        ],
+        [
+          "Báwo ni ọmọ àkèré kékeré ṣe ń lọ káàkiri?",
+          "ó ń fi ìrù lúwẹ̀ẹ́",
+          "ó ń fi ìyẹ́ apá fò",
+          "ó ń fi ẹsẹ̀ mẹ́rin rìn",
+          "Ọmọ àkèré kékeré kò tíì ní ẹsẹ̀. Ó ń mi ìrù rẹ̀ láti lúwẹ̀ẹ́ nínú omi."
+        ],
+        [
+          "Kí ló ń hù jáde lára ọmọ àkèré bí ó ti ń di àkèré?",
+          "ẹsẹ̀",
+          "ìyẹ́",
+          "ìyẹ́ apá",
+          "Ẹsẹ̀ ẹ̀yìn ló kọ́kọ́ ń hù, lẹ́yìn náà ẹsẹ̀ iwájú. Láìpẹ́, ó lè fò jáde kúrò nínú omi."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí ìrù ọmọ àkèré bí ó ti ń di àkèré?",
+          "ó ń kúrú títí yóò fi pòórá",
+          "ó ń gùn sí i",
+          "ó ń di ìyẹ́ apá",
+          "Ìrù náà ń dín kù díẹ̀díẹ̀. Àkèré tó ti dàgbà kò ní ìrù."
+        ],
+        [
+          "Ibo ni àkèré ń yé ẹyin rẹ̀ sí?",
+          "sínú omi",
+          "sínú ìtẹ́ ẹyẹ",
+          "sójú ọ̀nà tó gbóná",
+          "Ẹyin àkèré gbọ́dọ̀ wà ní tútù, nítorí náà àkèré ń yé ẹyin sínú adágún àti omi tí kò ṣàn."
+        ],
+        [
+          "Kí ló ń jáde láti inú ẹyin labalábá?",
+          "ìdin",
+          "ọmọ àkèré",
+          "ọmọ adìẹ",
+          "Ìdin kékeré kan ń jáde láti inú ẹyin. Kò tíì jọ labalábá rárá."
+        ],
+        [
+          "Kí ni ìdin labalábá ń ṣe jù lọ?",
+          "ó ń jẹ ewé",
+          "ó ń lúwẹ̀ẹ́ nínú adágún",
+          "ó ń kọ́ ìtẹ́",
+          "Ìdin ń jẹun ṣáá. Ó ń dàgbà kíákíá, ó sì ń tóbi sí i gan-an."
+        ],
+        [
+          "Kí ni ìdin labalábá ń ṣe yí ara rẹ̀ ká kí ó tó yí padà?",
+          "àpò líle tí a ń pè ní kirisálísì",
+          "ìtẹ́ igi wẹ́wẹ́",
+          "ìkarawun òkúta",
+          "Nínú kirisálísì, ara ìdin náà ń yí padà díẹ̀díẹ̀ di labalábá."
+        ],
+        [
+          "Kí ló ń jáde láti inú kirisálísì?",
+          "labalábá",
+          "àkèré",
+          "ẹyẹ",
+          "Tí ìyípadà náà bá parí, kirisálísì á là, labalábá á sì jáde."
+        ],
+        [
+          "Ibo ni labalábá sábà máa ń yé ẹyin rẹ̀ sí?",
+          "sórí ewé ewéko",
+          "sínú adágún",
+          "sínú yìnyín",
+          "Ó ń yé ẹyin sórí ewé, kí ìdin lè rí oúnjẹ jẹ ní kété tí wọ́n bá jáde."
+        ],
+        [
+          "Ìpele wo ló kọ́kọ́ dé nínú ìgbésí ayé labalábá?",
+          "ẹyin",
+          "kirisálísì",
+          "labalábá tó ti dàgbà",
+          "Ètò rẹ̀ nìyí: ẹyin, ìdin, kirisálísì, labalábá. Lẹ́yìn náà, labalábá á yé ẹyin tuntun."
+        ],
+        [
+          "Láti inú kí ni ọmọ adìẹ ti ń jáde?",
+          "ẹyin",
+          "irúgbìn",
+          "kirisálísì",
+          "Abo adìẹ ń yé ẹyin. Ọmọ adìẹ ń dàgbà nínú rẹ̀, lẹ́yìn náà ó ń fi ṣóńṣó ẹnu rẹ̀ fọ́ ẹyin jáde."
+        ],
+        [
+          "Kí ló ń mú ẹyin adìẹ móoru títí wọn yóò fi pa?",
+          "abo adìẹ tó sàba lé wọn lórí",
+          "atẹ́gùn tútù",
+          "òkìtì yìnyín",
+          "Abo adìẹ ń sàba lé ẹyin rẹ̀ kí wọ́n lè móoru, kí ọmọ inú wọn lè dàgbà."
+        ],
+        [
+          "Báwo ni ọmọ adìẹ ṣe máa ń pẹ́ tó nínú ẹyin kí ó tó jáde?",
+          "nǹkan bí ọ̀sẹ̀ mẹ́ta",
+          "nǹkan bí wákàtí kan",
+          "nǹkan bí ọdún mẹ́wàá",
+          "Ọmọ adìẹ nílò nǹkan bí ọjọ́ mọ́kànlélógún, ìyẹn ọ̀sẹ̀ mẹ́ta, láti dàgbà nínú ẹyin."
+        ],
+        [
+          "Kí ni ọmọ adìẹ máa dà nígbà tí ó bá dàgbà?",
+          "abo adìẹ tàbí àkùkọ",
+          "pẹ́pẹ́yẹ",
+          "àkèré",
+          "Ọmọ adìẹ máa dàgbà di adìẹ ńlá. Abo ni abo adìẹ, akọ sì ni àkùkọ."
+        ],
+        [
+          "Kí ló bo ọmọ adìẹ tí ó ṣẹ̀ṣẹ̀ jáde láti inú ẹyin?",
+          "ìyẹ́ rírọ̀ tó fẹ́lẹ́",
+          "ìpẹ́ líle",
+          "ẹ̀gún mímú",
+          "Ìyẹ́ rírọ̀ ló bo ọmọ adìẹ tuntun. Ìyẹ́ àgbà rẹ̀ á hù lẹ́yìn náà."
+        ],
+        [
+          "Láti inú kí ni ewéko tuntun ti ń hù?",
+          "irúgbìn",
+          "òkúta",
+          "ẹyin",
+          "Nínú irúgbìn ni ewéko kékeré kan wà, pẹ̀lú oúnjẹ díẹ̀ tí yóò ràn án lọ́wọ́ láti bẹ̀rẹ̀ sí í hù."
+        ],
+        [
+          "Kí ni irúgbìn nílò láti bẹ̀rẹ̀ sí í hù?",
+          "omi àti ooru",
+          "yìnyín àti òtútù",
+          "iyọ̀ àti iyanrìn",
+          "Tí irúgbìn bá rí omi, tí ibẹ̀ sì móoru tó, ó máa wú, ó sì máa bẹ̀rẹ̀ sí í hù."
+        ],
+        [
+          "Kí ló kọ́kọ́ ń hù jáde láti inú irúgbìn?",
+          "gbòǹgbò",
+          "òdòdó",
+          "èso",
+          "Gbòǹgbò kékeré ló kọ́kọ́ ń wọ inú ilẹ̀. Lẹ́yìn náà, èèhù á gòkè sí ìmọ́lẹ̀."
+        ],
+        [
+          "Apá wo nínú ewéko ló ń mú irúgbìn tuntun jáde?",
+          "òdòdó",
+          "gbòǹgbò",
+          "ewé",
+          "Kòkòrò oyin ń gbé eruku òdòdó láti òdòdó kan sí òmíràn. Lẹ́yìn náà, òdòdó lè so irúgbìn, nígbà púpọ̀ nínú èso."
+        ],
+        [
+          "Ibo ni irúgbìn ápù wà?",
+          "nínú èso náà",
+          "nínú gbòǹgbò",
+          "lórí ewé",
+          "Tí o bá gé ápù sí méjì, wàá rí irúgbìn kéékèèké aláwọ̀ ilẹ̀ ní àárín rẹ̀."
+        ],
+        [
+          "Ọ̀nà wo ni gbòǹgbò ewéko ń hù sí?",
+          "sísàlẹ̀ sínú ilẹ̀",
+          "sókè sí ojú ọ̀run",
+          "jáde láti inú òdòdó",
+          "Gbòǹgbò ń hù wọ inú ilẹ̀. Ó ń di ewéko mú ṣinṣin, ó sì ń fa omi mu."
+        ],
+        [
+          "Kí ló lè hù láti inú kóró máńgòrò?",
+          "igi máńgòrò",
+          "igi ápù",
+          "òkúta",
+          "Irúgbìn máa ń hù di irú ewéko tí ó ti wá. Kóró máńgòrò máa hù di igi máńgòrò."
+        ],
+        [
+          "Báwo ni ọmọ ọwọ́ ṣe ń yí padà bí ó ti ń dàgbà?",
+          "ó ń ga sí i, ó sì ń kọ́ nǹkan tuntun",
+          "ó ń kéré sí i lọ́dọọdún",
+          "ó ń di ẹyẹ",
+          "Ọmọ ọwọ́ ń tóbi sí i, ó ń lágbára sí i, ó sì ń kọ́ bí a ṣe ń sọ̀rọ̀ àti ọ̀pọ̀lọpọ̀ nǹkan tuntun."
+        ],
+        [
+          "Kí ni ọmọ jòjòló ń mu?",
+          "wàrà",
+          "kọfí",
+          "omi òkun",
+          "Wàrà nìkan ni ọmọ jòjòló ń mu. Gbogbo ohun tí ó nílò láti dàgbà ló wà nínú rẹ̀."
+        ],
+        [
+          "Kí ni ọmọdé máa dà lẹ́yìn náà?",
+          "ọ̀dọ́",
+          "ọmọ ọwọ́",
+          "ọmọ tó ń kọ́ ìrìn",
+          "Ènìyàn kọ́kọ́ jẹ́ ọmọ ọwọ́, lẹ́yìn náà ọmọ tó ń kọ́ ìrìn, lẹ́yìn náà ọmọdé. Lẹ́yìn ìyẹn ló ń di ọ̀dọ́, kí ó tó di àgbàlagbà."
+        ],
+        [
+          "Ṣé ọmọ ọwọ́ lè rìn ní kété tí wọ́n bá bí i?",
+          "rárá, ó máa kọ́ ìrìn lẹ́yìn náà",
+          "bẹ́ẹ̀ni, lẹ́sẹ̀kẹsẹ̀",
+          "ó máa fò kí ó tó rìn",
+          "Ọmọ ọwọ́ kọ́kọ́ ń kọ́ bí a ṣe ń yí, jókòó àti rákò. Ọ̀pọ̀ wọn ń gbé ìgbésẹ̀ àkọ́kọ́ nígbà tí wọ́n bá tó ọmọ ọdún kan."
+        ],
+        [
+          "Ẹranko wo ló ń yí ìrísí ara rẹ̀ padà pátápátá bí ó ti ń dàgbà?",
+          "àkèré",
+          "ẹṣin",
+          "erin",
+          "Ọmọ àkèré dà bí ẹja kékeré, ṣùgbọ́n ó ń dàgbà di àkèré tó ní ẹsẹ̀. Ọmọ ẹṣin ti jọ ẹṣin tẹ́lẹ̀."
+        ],
+        [
+          "Kí ni àyíká ìgbésí ayé?",
+          "àwọn ìyípadà tí ohun alààyè ń là kọjá bí ó ti ń dàgbà, tí ó sì ń bímọ",
+          "irú kẹ̀kẹ́ kan",
+          "ojú ọjọ́ ọdún kan",
+          "Àyíká ìgbésí ayé ń yí bí òbìrí: ọmọ ń dàgbà di àgbà, àgbà sì ń bí ọmọ tuntun."
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-butterfly",
+  "example": {
+    "i": 0,
+    "q_en": "What does a frog lay?",
+    "answer_en": "eggs called frogspawn",
+    "why_en": "A mother frog lays lots of eggs covered in jelly. They are called frogspawn.",
+    "q_de": "Was legt ein Frosch?",
+    "answer_de": "Eier, den Froschlaich",
+    "why_de": "Ein Froschweibchen legt viele Eier in einer glibberigen Hülle. Man nennt sie Froschlaich.",
+    "q_fr": "Que pond une grenouille ?",
+    "answer_fr": "des œufs dans de la gelée",
+    "why_fr": "La grenouille pond beaucoup d’œufs entourés de gelée. On les appelle le frai.",
+    "q_yo": "Kí ni àkèré ń yé?",
+    "answer_yo": "ẹyin tí ohun tó rọ̀ bí jẹ́lì yí ká",
+    "why_yo": "Abo àkèré ń yé ẹyin púpọ̀. Ohun tó rọ̀ bí jẹ́lì ló yí wọn ká."
+  },
+  "text": {
+    "en": {
+      "title": "Life cycles",
+      "teach": "Living things grow, change and then have young of their own. Frog: egg, tadpole, frog. Butterfly: egg, caterpillar, chrysalis, butterfly.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Lebenszyklen",
+      "teach": "Lebewesen wachsen, verändern sich und bekommen dann selbst Junge. Frosch: Ei, Kaulquappe, Frosch. Schmetterling: Ei, Raupe, Puppe, Schmetterling.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les cycles de vie",
+      "teach": "Les êtres vivants grandissent, changent, puis ont à leur tour des petits. Grenouille : œuf, têtard, grenouille. Papillon : œuf, chenille, chrysalide, papillon.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Àyíká ìgbésí ayé",
+      "teach": "Àwọn ohun alààyè ń dàgbà, wọ́n ń yí padà, lẹ́yìn náà wọ́n á bímọ tiwọn. Àkèré: ẹyin, ọmọ àkèré, àkèré. Labalábá: ẹyin, ìdin, kirisálísì, labalábá.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

@@ -71,7 +71,7 @@ function Board({ skill, onBack }: { skill: string; onBack: () => void }) {
           {skillText(def, lang).title} · {T.games.help} {T.games.pairs(found.length, pairs)}
         </p>
       </div>
-      <div className={`memory-board n${cards.length}`}>
+      <div className={`memory-board n${cards.length} ${cards.some((c) => faceText(c).length > 14) ? 'wordy' : ''}`}>
         {cards.map((c, i) => {
           const shown = open.includes(i) || found.includes(c.pair)
           return (
@@ -91,9 +91,13 @@ function Board({ skill, onBack }: { skill: string; onBack: () => void }) {
   )
 }
 
+/** The words on a card (empty for pictures), to size the text so it always fits the card. */
+const faceText = (card: Card) => (card.face.kind === 'text' ? card.face.text : card.face.kind === 'choice' ? (card.face.choice.label ?? '') : '')
+const sizeOf = (text: string) => (text.length > 40 ? 'xs' : text.length > 22 ? 's' : text.length > 10 ? 'm' : '')
+
 function Face({ card }: { card: Card }) {
   const f = card.face
-  if (f.kind === 'text') return <span className="memory-text">{f.text}</span>
+  if (f.kind === 'text') return <span className={`memory-text ${sizeOf(f.text)}`}>{f.text}</span>
   if (f.kind === 'visual')
     return (
       <span className="memory-visual">
@@ -103,7 +107,7 @@ function Face({ card }: { card: Card }) {
   return (
     <span className="memory-visual">
       {f.choice.emoji && <Emoji name={f.choice.emoji} size={56} />}
-      {f.choice.label && <span className="memory-text">{f.choice.label}</span>}
+      {f.choice.label && <span className={`memory-text ${sizeOf(f.choice.label)}`}>{f.choice.label}</span>}
     </span>
   )
 }

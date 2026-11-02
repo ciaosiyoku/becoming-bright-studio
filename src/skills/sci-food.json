@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "science",
   "stage": 2,
+  "ages": [
+    "6-7"
+  ],
   "order": 6,
   "params": {
     "emojis": [
@@ -15,7 +18,27 @@
       "sun",
       "bone",
       "sparkles",
-      "hockey"
+      "hockey",
+      "seedling",
+      "tree",
+      "medal",
+      "speech",
+      "fruit-apple",
+      "backpack",
+      "droplet",
+      "anatomical-heart",
+      "fire",
+      "snowflake",
+      "clock",
+      "footprints",
+      "sun",
+      "animal-cow",
+      "chick",
+      "cake",
+      "road",
+      "thermometer",
+      "warning",
+      "sparkles"
     ],
     "bank": {
       "en": [
@@ -88,6 +111,146 @@
           "a cold",
           "nothing at all",
           "Bread, rice and pasta are full of starch, which your body turns into energy."
+        ],
+        [
+          "Which of these is a vegetable?",
+          "a carrot",
+          "a biscuit",
+          "a sweet",
+          "A carrot is part of a plant that we eat, so it is a vegetable. Biscuits and sweets are made in factories."
+        ],
+        [
+          "Which of these is a fruit?",
+          "a banana",
+          "a slice of cheese",
+          "a piece of bread",
+          "A banana grows on a plant and holds the plant’s seeds, so it is a fruit."
+        ],
+        [
+          "Which foods help your muscles grow strong?",
+          "fish, eggs and beans",
+          "sweets and crisps",
+          "fizzy drinks and lollipops",
+          "Fish, eggs and beans are full of protein. Your body uses protein to build muscles."
+        ],
+        [
+          "What should you do when you sneeze?",
+          "cover your nose and mouth with a tissue or your elbow",
+          "sneeze onto a friend",
+          "sneeze over the food",
+          "A sneeze sprays out germs. Covering it stops the germs reaching other people."
+        ],
+        [
+          "Why should you wash fruit before you eat it?",
+          "to wash off dirt and germs",
+          "to make it sweeter",
+          "to make it bigger",
+          "Fruit has been touched by many hands and may have dirt on it. Rinsing it under the tap makes it clean."
+        ],
+        [
+          "Which of these is the healthiest snack for school?",
+          "a handful of grapes",
+          "a bag of sweets",
+          "a big bar of chocolate",
+          "Grapes are fruit, full of water and vitamins. Sweets and chocolate have lots of added sugar."
+        ],
+        [
+          "Why do we need to drink water every day?",
+          "our bodies lose water all day and need more",
+          "water makes us shorter",
+          "water turns our hair green",
+          "You lose water when you breathe, sweat and go to the toilet. Drinking puts it back so your body works well."
+        ],
+        [
+          "What happens to your heart when you run fast?",
+          "it beats faster",
+          "it stops beating",
+          "it beats more slowly",
+          "When you run, your muscles need more oxygen. Your heart pumps faster to send them more blood."
+        ],
+        [
+          "Why do we cook chicken until it is hot all the way through?",
+          "to kill any germs inside",
+          "to make it cold",
+          "to make it raw",
+          "Raw chicken can carry germs that make you ill. Cooking it right through kills them."
+        ],
+        [
+          "Which of these foods should be kept in the fridge?",
+          "milk",
+          "a packet of dry pasta",
+          "a bag of rice",
+          "Germs grow fast in warm milk and make it go off. The cold fridge slows them down. Dry pasta and rice keep well in a cupboard."
+        ],
+        [
+          "About how long should you brush your teeth each time?",
+          "about two minutes",
+          "one second",
+          "a whole hour",
+          "Two minutes gives you time to clean every tooth, front and back."
+        ],
+        [
+          "Which of these is good exercise?",
+          "riding a bike",
+          "watching TV all day",
+          "lying on the sofa",
+          "Riding a bike makes your legs, heart and lungs work hard, so they get stronger."
+        ],
+        [
+          "Why is it good to eat breakfast?",
+          "it gives you energy to start the day",
+          "it makes you very sleepy",
+          "it makes you feel cold",
+          "After a long night without food, breakfast fills you up with energy for playing and learning."
+        ],
+        [
+          "Which of these foods is made from milk?",
+          "cheese",
+          "bread",
+          "an apple",
+          "Cheese is made by thickening milk and pressing it. Bread is made from flour, and apples grow on trees."
+        ],
+        [
+          "Which of these foods comes from a hen?",
+          "an egg",
+          "honey",
+          "rice",
+          "Hens lay eggs. Honey is made by bees, and rice grows as a plant."
+        ],
+        [
+          "Which of these is made from flour?",
+          "bread",
+          "an egg",
+          "a glass of milk",
+          "Flour is wheat grains ground into powder. Bakers mix it with water and yeast to make bread."
+        ],
+        [
+          "Why should you wear a helmet when you ride a bike?",
+          "to protect your head if you fall",
+          "to keep your hair dry",
+          "to make the bike go faster",
+          "If you fall off, a helmet takes the bump instead of your head and helps keep your brain safe."
+        ],
+        [
+          "Why do you get hot and sweaty when you run around?",
+          "your body is working hard and sweat cools you down",
+          "you are getting colder",
+          "you are falling asleep",
+          "Busy muscles make heat. Your skin lets out sweat, and as it dries it cools you down."
+        ],
+        [
+          "Why should you not eat food that has gone mouldy?",
+          "it can make you ill",
+          "it tastes like sweets",
+          "it makes you taller",
+          "Mould is a fuzzy growth that can carry germs. Eating it can give you a tummy ache."
+        ],
+        [
+          "What do we call the tiny living things that can make us ill?",
+          "germs",
+          "vitamins",
+          "bubbles",
+          "Germs are so small you cannot see them. Washing and keeping clean helps stop them making you ill."
         ]
       ],
       "de": [
@@ -160,6 +323,146 @@
           "eine Erkältung",
           "gar nichts",
           "Brot, Reis und Nudeln enthalten viel Stärke. Dein Körper macht daraus Energie."
+        ],
+        [
+          "Was davon ist ein Gemüse?",
+          "eine Karotte",
+          "ein Keks",
+          "ein Bonbon",
+          "Eine Karotte ist ein Teil einer Pflanze, den wir essen. Also ist sie ein Gemüse. Kekse und Bonbons werden in Fabriken gemacht."
+        ],
+        [
+          "Was davon ist ein Obst?",
+          "eine Banane",
+          "eine Scheibe Käse",
+          "ein Stück Brot",
+          "Eine Banane wächst an einer Pflanze und enthält ihre Samen. Darum ist sie ein Obst."
+        ],
+        [
+          "Welche Lebensmittel helfen deinen Muskeln, stark zu werden?",
+          "Fisch, Eier und Bohnen",
+          "Bonbons und Chips",
+          "Limonade und Lutscher",
+          "Fisch, Eier und Bohnen stecken voller Eiweiß. Dein Körper baut daraus Muskeln."
+        ],
+        [
+          "Was solltest du tun, wenn du niesen musst?",
+          "in ein Taschentuch oder in die Armbeuge niesen",
+          "einen Freund anniesen",
+          "über das Essen niesen",
+          "Beim Niesen fliegen Keime heraus. Wenn du es abdeckst, kommen die Keime nicht zu anderen Menschen."
+        ],
+        [
+          "Warum solltest du Obst vor dem Essen waschen?",
+          "um Schmutz und Keime abzuwaschen",
+          "damit es süßer wird",
+          "damit es größer wird",
+          "Viele Hände haben das Obst berührt, und es kann schmutzig sein. Wenn du es unter dem Wasserhahn abspülst, wird es sauber."
+        ],
+        [
+          "Was davon ist der gesündeste Snack für die Schule?",
+          "eine Handvoll Weintrauben",
+          "eine Tüte Bonbons",
+          "eine große Tafel Schokolade",
+          "Weintrauben sind Obst voller Wasser und Vitamine. Bonbons und Schokolade haben viel zugesetzten Zucker."
+        ],
+        [
+          "Warum müssen wir jeden Tag Wasser trinken?",
+          "unser Körper verliert den ganzen Tag Wasser und braucht neues",
+          "Wasser macht uns kleiner",
+          "Wasser färbt unsere Haare grün",
+          "Du verlierst Wasser beim Atmen, Schwitzen und auf der Toilette. Durch Trinken bekommt dein Körper es zurück und funktioniert gut."
+        ],
+        [
+          "Was passiert mit deinem Herzen, wenn du schnell rennst?",
+          "es schlägt schneller",
+          "es hört auf zu schlagen",
+          "es schlägt langsamer",
+          "Beim Rennen brauchen deine Muskeln mehr Sauerstoff. Dein Herz pumpt schneller, um ihnen mehr Blut zu schicken."
+        ],
+        [
+          "Warum braten wir Hähnchen, bis es ganz durch heiß ist?",
+          "um alle Keime darin zu töten",
+          "damit es kalt wird",
+          "damit es roh bleibt",
+          "Rohes Hähnchen kann Keime haben, die krank machen. Wenn es ganz durchgegart ist, sind sie tot."
+        ],
+        [
+          "Was davon muss in den Kühlschrank?",
+          "Milch",
+          "eine Packung trockene Nudeln",
+          "eine Tüte Reis",
+          "In warmer Milch wachsen Keime schnell, und sie wird schlecht. Im kalten Kühlschrank wachsen sie langsamer. Trockene Nudeln und Reis halten sich gut im Schrank."
+        ],
+        [
+          "Wie lange solltest du dir jedes Mal ungefähr die Zähne putzen?",
+          "etwa zwei Minuten",
+          "eine Sekunde",
+          "eine ganze Stunde",
+          "In zwei Minuten hast du Zeit, jeden Zahn vorne und hinten sauber zu machen."
+        ],
+        [
+          "Was davon ist gute Bewegung?",
+          "Fahrrad fahren",
+          "den ganzen Tag fernsehen",
+          "auf dem Sofa liegen",
+          "Beim Fahrradfahren arbeiten deine Beine, dein Herz und deine Lunge kräftig. So werden sie stärker."
+        ],
+        [
+          "Warum ist ein Frühstück gut?",
+          "es gibt dir Kraft für den Tag",
+          "es macht dich sehr müde",
+          "es lässt dich frieren",
+          "Nach einer langen Nacht ohne Essen gibt dir das Frühstück Energie zum Spielen und Lernen."
+        ],
+        [
+          "Was davon wird aus Milch gemacht?",
+          "Käse",
+          "Brot",
+          "ein Apfel",
+          "Käse entsteht, wenn man Milch dick werden lässt und presst. Brot macht man aus Mehl, und Äpfel wachsen an Bäumen."
+        ],
+        [
+          "Was davon kommt von einem Huhn?",
+          "ein Ei",
+          "Honig",
+          "Reis",
+          "Hühner legen Eier. Honig machen die Bienen, und Reis wächst als Pflanze."
+        ],
+        [
+          "Was davon wird aus Mehl gemacht?",
+          "Brot",
+          "ein Ei",
+          "ein Glas Milch",
+          "Mehl sind fein gemahlene Weizenkörner. Bäcker mischen es mit Wasser und Hefe und backen daraus Brot."
+        ],
+        [
+          "Warum solltest du beim Fahrradfahren einen Helm tragen?",
+          "um deinen Kopf zu schützen, wenn du stürzt",
+          "damit deine Haare trocken bleiben",
+          "damit das Fahrrad schneller fährt",
+          "Wenn du hinfällst, fängt der Helm den Stoß ab statt deines Kopfes und schützt dein Gehirn."
+        ],
+        [
+          "Warum wird dir beim Herumrennen heiß und du schwitzt?",
+          "dein Körper arbeitet hart, und Schweiß kühlt dich ab",
+          "dir wird kälter",
+          "du schläfst ein",
+          "Arbeitende Muskeln machen Wärme. Deine Haut gibt Schweiß ab, und wenn er trocknet, kühlt er dich."
+        ],
+        [
+          "Warum solltest du kein verschimmeltes Essen essen?",
+          "es kann dich krank machen",
+          "es schmeckt wie Bonbons",
+          "es macht dich größer",
+          "Schimmel ist ein flauschiger Belag, der Keime haben kann. Davon kannst du Bauchweh bekommen."
+        ],
+        [
+          "Wie nennt man die winzigen Lebewesen, die uns krank machen können?",
+          "Keime",
+          "Vitamine",
+          "Blasen",
+          "Keime sind so klein, dass du sie nicht sehen kannst. Waschen und Sauberkeit helfen, dass sie dich nicht krank machen."
         ]
       ],
       "fr": [
@@ -232,6 +535,146 @@
           "un rhume",
           "rien du tout",
           "Le pain, le riz et les pâtes sont pleins d’amidon, que ton corps transforme en énergie."
+        ],
+        [
+          "Lequel est un légume ?",
+          "une carotte",
+          "un biscuit",
+          "un bonbon",
+          "La carotte est une partie d’une plante que l’on mange : c’est un légume. Les biscuits et les bonbons sont fabriqués à l’usine."
+        ],
+        [
+          "Lequel est un fruit ?",
+          "une banane",
+          "une tranche de fromage",
+          "un morceau de pain",
+          "La banane pousse sur une plante et contient ses graines : c’est un fruit."
+        ],
+        [
+          "Quels aliments aident tes muscles à devenir forts ?",
+          "le poisson, les œufs et les haricots",
+          "les bonbons et les chips",
+          "les sodas et les sucettes",
+          "Le poisson, les œufs et les haricots sont pleins de protéines. Ton corps s’en sert pour fabriquer ses muscles."
+        ],
+        [
+          "Que dois-tu faire quand tu éternues ?",
+          "éternuer dans un mouchoir ou dans ton coude",
+          "éternuer sur un ami",
+          "éternuer au-dessus de la nourriture",
+          "Un éternuement projette des microbes. En le cachant, tu les empêches d’atteindre les autres."
+        ],
+        [
+          "Pourquoi faut-il laver les fruits avant de les manger ?",
+          "pour enlever la saleté et les microbes",
+          "pour les rendre plus sucrés",
+          "pour les faire grossir",
+          "Beaucoup de mains ont touché les fruits et ils peuvent être sales. Les rincer sous le robinet les rend propres."
+        ],
+        [
+          "Quel est le goûter le plus sain pour l’école ?",
+          "une poignée de raisins",
+          "un sachet de bonbons",
+          "une grande tablette de chocolat",
+          "Le raisin est un fruit plein d’eau et de vitamines. Les bonbons et le chocolat contiennent beaucoup de sucre ajouté."
+        ],
+        [
+          "Pourquoi devons-nous boire de l’eau chaque jour ?",
+          "notre corps perd de l’eau toute la journée et en a besoin",
+          "l’eau nous rend plus petits",
+          "l’eau rend nos cheveux verts",
+          "Tu perds de l’eau en respirant, en transpirant et aux toilettes. Boire la remplace pour que ton corps fonctionne bien."
+        ],
+        [
+          "Que fait ton cœur quand tu cours vite ?",
+          "il bat plus vite",
+          "il s’arrête de battre",
+          "il bat plus lentement",
+          "Quand tu cours, tes muscles ont besoin de plus d’oxygène. Ton cœur pompe plus vite pour leur envoyer plus de sang."
+        ],
+        [
+          "Pourquoi cuit-on le poulet jusqu’à ce qu’il soit bien chaud à cœur ?",
+          "pour tuer les microbes",
+          "pour le rendre froid",
+          "pour qu’il reste cru",
+          "Le poulet cru peut porter des microbes qui rendent malade. Bien le cuire les tue."
+        ],
+        [
+          "Lequel de ces aliments faut-il garder au frigo ?",
+          "le lait",
+          "un paquet de pâtes sèches",
+          "un sachet de riz",
+          "Les microbes se multiplient vite dans le lait tiède et il tourne. Le froid du frigo les ralentit. Les pâtes sèches et le riz se gardent bien dans un placard."
+        ],
+        [
+          "Combien de temps faut-il environ se brosser les dents à chaque fois ?",
+          "environ deux minutes",
+          "une seconde",
+          "une heure entière",
+          "Deux minutes, c’est le temps de nettoyer chaque dent, devant et derrière."
+        ],
+        [
+          "Lequel est un bon exercice ?",
+          "faire du vélo",
+          "regarder la télé toute la journée",
+          "rester allongé sur le canapé",
+          "Faire du vélo fait travailler tes jambes, ton cœur et tes poumons : ils deviennent plus forts."
+        ],
+        [
+          "Pourquoi est-ce bien de prendre un petit-déjeuner ?",
+          "il te donne de l’énergie pour commencer la journée",
+          "il te rend très endormi",
+          "il te donne froid",
+          "Après une longue nuit sans manger, le petit-déjeuner te donne de l’énergie pour jouer et apprendre."
+        ],
+        [
+          "Lequel de ces aliments est fait avec du lait ?",
+          "le fromage",
+          "le pain",
+          "une pomme",
+          "On fait le fromage en faisant épaissir le lait puis en le pressant. Le pain est fait avec de la farine et les pommes poussent sur les arbres."
+        ],
+        [
+          "Lequel de ces aliments vient d’une poule ?",
+          "un œuf",
+          "le miel",
+          "le riz",
+          "Les poules pondent des œufs. Le miel est fait par les abeilles et le riz est une plante."
+        ],
+        [
+          "Lequel est fait avec de la farine ?",
+          "le pain",
+          "un œuf",
+          "un verre de lait",
+          "La farine, ce sont des grains de blé moulus en poudre. Le boulanger la mélange avec de l’eau et de la levure pour faire du pain."
+        ],
+        [
+          "Pourquoi faut-il porter un casque à vélo ?",
+          "pour protéger ta tête si tu tombes",
+          "pour garder tes cheveux secs",
+          "pour que le vélo aille plus vite",
+          "Si tu tombes, le casque prend le choc à la place de ta tête et protège ton cerveau."
+        ],
+        [
+          "Pourquoi as-tu chaud et transpires-tu quand tu cours partout ?",
+          "ton corps travaille dur et la sueur te rafraîchit",
+          "tu as de plus en plus froid",
+          "tu es en train de t’endormir",
+          "Les muscles qui travaillent font de la chaleur. Ta peau fabrique de la sueur et, en séchant, elle te rafraîchit."
+        ],
+        [
+          "Pourquoi ne faut-il pas manger un aliment moisi ?",
+          "il peut te rendre malade",
+          "il a le goût des bonbons",
+          "il te fait grandir",
+          "La moisissure est une sorte de duvet qui peut porter des microbes. En manger peut te donner mal au ventre."
+        ],
+        [
+          "Comment appelle-t-on les minuscules êtres vivants qui peuvent nous rendre malades ?",
+          "les microbes",
+          "les vitamines",
+          "les bulles",
+          "Les microbes sont si petits qu’on ne peut pas les voir. Se laver et rester propre aide à ne pas tomber malade."
         ]
       ],
       "yo": [
@@ -304,6 +747,146 @@
           "òtútù àìsàn",
           "kò fún ọ ní nǹkan kan",
           "Búrẹ́dì, ìrẹsì àti pásítà kún fún oúnjẹ aṣaralóore tí ara ń sọ di agbára."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni ẹ̀fọ́ tàbí ewébẹ̀?",
+          "kárọ́ọ̀tì",
+          "bisikíìtì",
+          "súìtì",
+          "Kárọ́ọ̀tì jẹ́ apá kan ewéko tí a ń jẹ, nítorí náà ewébẹ̀ ni. Ilé iṣẹ́ ni wọ́n ti ń ṣe bisikíìtì àti súìtì."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni èso?",
+          "ọ̀gẹ̀dẹ̀",
+          "wàràkàṣì kan",
+          "búrẹ́dì kan",
+          "Ọ̀gẹ̀dẹ̀ ń hù lára ewéko, ó sì ní irúgbìn ewéko náà nínú, nítorí náà èso ni."
+        ],
+        [
+          "Àwọn oúnjẹ wo ló ń ràn iṣan rẹ lọ́wọ́ láti lágbára?",
+          "ẹja, ẹyin àti ẹ̀wà",
+          "súìtì àti kírísípì",
+          "ohun mímu tó ń ru àti súìtì onígi",
+          "Ẹja, ẹyin àti ẹ̀wà kún fún purotéènì. Ara rẹ ń lo purotéènì láti kọ́ iṣan."
+        ],
+        [
+          "Kí ló yẹ kí o ṣe nígbà tí o bá sín?",
+          "fi aṣọ ìnujú tàbí ìgúnpá rẹ bo imú àti ẹnu rẹ",
+          "sín sí ara ọ̀rẹ́ rẹ",
+          "sín sórí oúnjẹ",
+          "Sísín máa ń fọ́n kòkòrò àrùn jáde. Bíbo ó mọ́lẹ̀ kò ní jẹ́ kí kòkòrò àrùn dé ọ̀dọ̀ àwọn ẹlòmíràn."
+        ],
+        [
+          "Kí ló dé tí ó fi yẹ kí o fọ èso kí o tó jẹ ẹ́?",
+          "láti fọ ìdọ̀tí àti kòkòrò àrùn kúrò",
+          "kí ó lè dùn sí i",
+          "kí ó lè tóbi sí i",
+          "Ọ̀pọ̀ ọwọ́ ti fọwọ́ kan èso náà, ìdọ̀tí sì lè wà lára rẹ̀. Fífọ̀ ọ́ nínú omi ń jẹ́ kí ó mọ́."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni ìpápánu tó dára jù fún ìlera ní ilé ìwé?",
+          "èso àjàrà díẹ̀",
+          "àpò súìtì kan",
+          "ṣokoléètì ńlá kan",
+          "Èso àjàrà kún fún omi àti fítámìnì. Súìtì àti ṣokoléètì ní ṣúgà púpọ̀ tí wọ́n fi kún un."
+        ],
+        [
+          "Kí ló dé tí a fi nílò láti mu omi lójoojúmọ́?",
+          "ara wa ń pàdánù omi láàárọ̀ ṣúlẹ̀, ó sì nílò òmíràn",
+          "omi ń mú wa kúrú sí i",
+          "omi ń sọ irun wa di àwọ̀ ewé",
+          "O máa ń pàdánù omi nígbà tí o bá ń mí, tí o bá làágùn àti tí o bá lọ sí ilé ìgbọ̀nsẹ̀. Mímu omi ń dá a padà kí ara rẹ lè ṣiṣẹ́ dáadáa."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí ọkàn rẹ nígbà tí o bá ń sáré gan-an?",
+          "ó ń lù kíákíá sí i",
+          "ó dẹ́kun lílù",
+          "ó ń lù díẹ̀díẹ̀ sí i",
+          "Tí o bá ń sáré, iṣan rẹ nílò afẹ́fẹ́ ọ́síjìn púpọ̀ sí i. Ọkàn rẹ á fa ẹ̀jẹ̀ kíákíá láti fi ẹ̀jẹ̀ púpọ̀ ránṣẹ́ sí wọn."
+        ],
+        [
+          "Kí ló dé tí a fi ń se ẹran adìyẹ títí yóò fi jinná dé inú?",
+          "láti pa kòkòrò àrùn tó wà nínú rẹ̀",
+          "kí ó lè tutù",
+          "kí ó lè wà ní tútù láìjinná",
+          "Ẹran adìyẹ tí kò jinná lè ní kòkòrò àrùn tó ń fa àìsàn. Sísè é dáadáa ń pa wọ́n."
+        ],
+        [
+          "Èwo nínú àwọn oúnjẹ wọ̀nyí ló yẹ kí a fi sínú fìríìjì?",
+          "wàrà",
+          "páálí pásítà gbígbẹ",
+          "àpò ìrẹsì",
+          "Kòkòrò àrùn máa ń pọ̀ kíákíá nínú wàrà tó lọ́wọ́rọ́, ó sì máa bàjẹ́. Òtútù fìríìjì ń dín wọn kù. Pásítà gbígbẹ àti ìrẹsì máa ń pẹ́ dáadáa nínú kọ́bọ́ọ̀dù."
+        ],
+        [
+          "Báwo ló ṣe yẹ kí o pẹ́ tó nígbà tí o bá ń fọ eyín rẹ?",
+          "ìṣẹ́jú méjì ní ìwọ̀n",
+          "ìṣẹ́jú-àáyá kan",
+          "odindi wákàtí kan",
+          "Ìṣẹ́jú méjì ń fún ọ ní àkókò láti fọ gbogbo eyín, níwájú àti lẹ́yìn."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni eré ìdárayá tó dára?",
+          "gígun kẹ̀kẹ́",
+          "wíwo tẹlifíṣọ̀n láàárọ̀ ṣúlẹ̀",
+          "dídùbúlẹ̀ lórí àga ìtura",
+          "Gígun kẹ̀kẹ́ ń mú kí ẹsẹ̀, ọkàn àti ẹ̀dọ̀fóró rẹ ṣiṣẹ́ kára, nítorí náà wọ́n ń lágbára sí i."
+        ],
+        [
+          "Kí ló dé tí ó fi dára láti jẹ oúnjẹ àárọ̀?",
+          "ó ń fún ọ ní agbára láti bẹ̀rẹ̀ ọjọ́",
+          "ó ń mú oorun kùn ọ́ gan-an",
+          "ó ń mú kí òtútù mú ọ",
+          "Lẹ́yìn òru gígùn láìjẹun, oúnjẹ àárọ̀ ń fún ọ ní agbára láti ṣeré àti láti kẹ́kọ̀ọ́."
+        ],
+        [
+          "Èwo nínú àwọn oúnjẹ wọ̀nyí ni wọ́n fi wàrà ṣe?",
+          "wàràkàṣì",
+          "búrẹ́dì",
+          "ápù",
+          "Wọ́n ń ṣe wàràkàṣì nípa mímú kí wàrà ki, kí wọ́n sì tẹ̀ ẹ́. Ìyẹ̀fun ni wọ́n fi ń ṣe búrẹ́dì, ápù sì ń hù lórí igi."
+        ],
+        [
+          "Èwo nínú àwọn oúnjẹ wọ̀nyí ló ti ara adìyẹ wá?",
+          "ẹyin",
+          "oyin",
+          "ìrẹsì",
+          "Adìyẹ ló ń yé ẹyin. Kòkòrò oyin ló ń ṣe oyin, ìrẹsì sì jẹ́ ewéko tó ń hù."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni wọ́n fi ìyẹ̀fun ṣe?",
+          "búrẹ́dì",
+          "ẹyin",
+          "ife wàrà kan",
+          "Ìyẹ̀fun ni hóró àlìkámà tí wọ́n lọ̀ di lẹ́búlẹ́bú. Àwọn olùṣe búrẹ́dì ń pò ó mọ́ omi àti ìwúkàrà láti ṣe búrẹ́dì."
+        ],
+        [
+          "Kí ló dé tí ó fi yẹ kí o dé àṣíborí nígbà tí o bá ń gun kẹ̀kẹ́?",
+          "láti dáàbò bo orí rẹ tí o bá ṣubú",
+          "kí irun rẹ má baà tutù",
+          "kí kẹ̀kẹ́ lè yára sí i",
+          "Tí o bá ṣubú, àṣíborí ló máa gba ìkọlù dípò orí rẹ, ó sì ń dáàbò bo ọpọlọ rẹ."
+        ],
+        [
+          "Kí ló dé tí ara rẹ fi ń gbóná tí o sì ń làágùn nígbà tí o bá ń sáré kiri?",
+          "ara rẹ ń ṣiṣẹ́ kára, òógùn sì ń tù ọ́ lára",
+          "òtútù ń mú ọ sí i",
+          "oorun ń gbé ọ lọ",
+          "Iṣan tó ń ṣiṣẹ́ ń mú ooru jáde. Awọ ara rẹ ń tú òógùn jáde, bí ó sì ṣe ń gbẹ, ó ń tù ọ́ lára."
+        ],
+        [
+          "Kí ló dé tí o kò fi gbọ́dọ̀ jẹ oúnjẹ tó ti hu èbu?",
+          "ó lè mú ọ ṣàìsàn",
+          "ó dùn bí súìtì",
+          "ó ń mú ọ ga sí i",
+          "Èbu jẹ́ nǹkan onírun tó ń hù lára oúnjẹ, ó sì lè ní kòkòrò àrùn. Jíjẹ ẹ́ lè fa inú rírun."
+        ],
+        [
+          "Kí la ń pe àwọn ohun alààyè kéékèèké tó lè mú wa ṣàìsàn?",
+          "kòkòrò àrùn",
+          "fítámìnì",
+          "ìfòfòó",
+          "Kòkòrò àrùn kéré débi pé o kò lè rí wọn. Wíwẹ̀ àti mímọ́ ń dí wọn lọ́wọ́ láti mú ọ ṣàìsàn."
         ]
       ]
     }

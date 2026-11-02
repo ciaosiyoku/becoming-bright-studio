@@ -1,0 +1,274 @@
+{
+  "id": "en4-food",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 108,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "fruit-apple",
+      "fruit-banana",
+      "fruit-blueberries",
+      "fruit-cherries",
+      "fruit-coconut",
+      "fruit-grapes",
+      "fruit-kiwi",
+      "fruit-lemon",
+      "fruit-mango",
+      "fruit-peach",
+      "fruit-pear",
+      "fruit-pineapple",
+      "fruit-strawberry",
+      "fruit-watermelon",
+      "tangerine",
+      "cake",
+      "cookie",
+      "cocoa",
+      "fruit-pear",
+      "droplet",
+      "animal-honeybee",
+      "animal-cow",
+      "chick",
+      "animal-rabbit",
+      "paws",
+      "animal-panda",
+      "animal-chipmunk",
+      "animal-seal",
+      "animal-koala",
+      "sun"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What fruit is this?",
+          "apple",
+          "lemon",
+          "banana",
+          "This is an apple. It is round and crunchy."
+        ],
+        [
+          "What fruit is this?",
+          "banana",
+          "pear",
+          "cherry",
+          "This is a banana. It is long and yellow."
+        ],
+        [
+          "What fruit are these?",
+          "blueberries",
+          "bananas",
+          "lemons",
+          "These are blueberries. They are small and blue."
+        ],
+        [
+          "What fruit are these?",
+          "cherries",
+          "lemons",
+          "pears",
+          "These are cherries. They are small and red with long stalks."
+        ],
+        [
+          "What fruit is this?",
+          "coconut",
+          "banana",
+          "strawberry",
+          "This is a coconut. It is hairy and brown outside."
+        ],
+        [
+          "What fruit are these?",
+          "grapes",
+          "lemons",
+          "pineapples",
+          "These are grapes. They grow in a bunch."
+        ],
+        [
+          "What fruit is this?",
+          "kiwi",
+          "banana",
+          "cherry",
+          "This is a kiwi. It is green inside with tiny black seeds."
+        ],
+        [
+          "What fruit is this?",
+          "lemon",
+          "strawberry",
+          "pear",
+          "This is a lemon. It is yellow and tastes sour."
+        ],
+        [
+          "What fruit is this?",
+          "mango",
+          "banana",
+          "grapes",
+          "This is a mango. It is sweet and juicy."
+        ],
+        [
+          "What fruit is this?",
+          "peach",
+          "pineapple",
+          "grapes",
+          "This is a peach. Its skin is soft and fuzzy."
+        ],
+        [
+          "What fruit is this?",
+          "pear",
+          "banana",
+          "cherry",
+          "This is a pear. It is thin at the top and round at the bottom."
+        ],
+        [
+          "What fruit is this?",
+          "pineapple",
+          "apple",
+          "cherry",
+          "This is a pineapple. It has spiky leaves on top."
+        ],
+        [
+          "What fruit is this?",
+          "strawberry",
+          "banana",
+          "pear",
+          "This is a strawberry. It is red with tiny seeds on the outside."
+        ],
+        [
+          "What fruit is this?",
+          "watermelon",
+          "banana",
+          "lemon",
+          "This is a watermelon. It is green outside and red inside."
+        ],
+        [
+          "What fruit is this?",
+          "orange",
+          "banana",
+          "grapes",
+          "This is an orange. You peel it before you eat it."
+        ],
+        [
+          "What food is this?",
+          "cake",
+          "soup",
+          "egg",
+          "This is a cake. We eat cake at birthday parties."
+        ],
+        [
+          "What food is this?",
+          "biscuit",
+          "cheese",
+          "carrot",
+          "This is a biscuit. It is crunchy and sweet."
+        ],
+        [
+          "What drink is this?",
+          "hot chocolate",
+          "orange juice",
+          "lemonade",
+          "This is hot chocolate. It is a warm brown drink."
+        ],
+        [
+          "Which one is a fruit?",
+          "pear",
+          "bread",
+          "egg",
+          "A pear is a fruit. It grows on a tree."
+        ],
+        [
+          "Which one can you drink?",
+          "water",
+          "bread",
+          "apple",
+          "You can drink water."
+        ],
+        [
+          "Bees make a sweet food. What is it?",
+          "honey",
+          "cheese",
+          "bread",
+          "Bees make honey."
+        ],
+        [
+          "Cows give us a drink. What is it?",
+          "milk",
+          "juice",
+          "tea",
+          "Milk comes from cows."
+        ],
+        [
+          "Hens lay these and we can eat them. What are they?",
+          "eggs",
+          "apples",
+          "cakes",
+          "Hens lay eggs."
+        ],
+        [
+          "Rabbits love to munch an orange vegetable. What is it?",
+          "carrot",
+          "pea",
+          "onion",
+          "A carrot is an orange vegetable."
+        ],
+        [
+          "What does a dog like to chew?",
+          "bone",
+          "cake",
+          "sweets",
+          "Dogs like to chew bones."
+        ],
+        [
+          "Pandas love to eat a tall green plant. What is it?",
+          "bamboo",
+          "cheese",
+          "biscuits",
+          "Pandas eat lots of bamboo."
+        ],
+        [
+          "Chipmunks love to nibble these. What are they?",
+          "nuts",
+          "fish",
+          "soup",
+          "Chipmunks eat nuts and seeds."
+        ],
+        [
+          "Seals catch food in the sea. What do they eat?",
+          "fish",
+          "carrots",
+          "grass",
+          "Seals eat fish."
+        ],
+        [
+          "What does a koala eat?",
+          "leaves",
+          "fish",
+          "cake",
+          "Koalas eat leaves from gum trees."
+        ],
+        [
+          "Which cold treat melts in the hot sun?",
+          "ice cream",
+          "bread",
+          "apple",
+          "Ice cream melts when it gets warm."
+        ]
+      ]
+    }
+  },
+  "emoji": "fruit-strawberry",
+  "example": {
+    "i": 0,
+    "q_en": "What fruit is this?",
+    "answer_en": "apple",
+    "why_en": "This is an apple. It is round and crunchy."
+  },
+  "text": {
+    "en": {
+      "title": "Food and fruit",
+      "teach": "Look at the picture and say the name of the food. An apple is round and crunchy, a banana is long and yellow.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "science",
   "stage": 1,
+  "ages": [
+    "6-7"
+  ],
   "order": 4,
   "params": {
     "emojis": [
@@ -15,7 +18,27 @@
       "animal-shark",
       "animal-bat",
       "animal-penguin",
-      "animal-flamingo"
+      "animal-flamingo",
+      "droplet",
+      "polarbear",
+      "animal-camel",
+      "seedling",
+      "snake",
+      "animal-turtle",
+      "animal-frog",
+      "animal-lion",
+      "animal-rabbit",
+      "animal-honeybee",
+      "animal-dolphin",
+      "animal-kangaroo",
+      "animal-owl",
+      "animal-octopus",
+      "animal-giraffe",
+      "animal-swan",
+      "animal-elephant",
+      "animal-crab",
+      "animal-snail",
+      "animal-hedgehog"
     ],
     "bank": {
       "en": [
@@ -88,6 +111,146 @@
           "a puppy",
           "a calf",
           "Birds lay eggs, so a baby duck hatches from an egg. Puppies and calves grow inside their mothers."
+        ],
+        [
+          "A tadpole swims in a pond. What does it grow into?",
+          "a frog",
+          "a fish",
+          "a snake",
+          "A tadpole hatches from an egg in the water. It grows legs, loses its tail and becomes a frog."
+        ],
+        [
+          "Why does a polar bear have thick white fur?",
+          "to keep warm and hide in the snow",
+          "to keep cool in the desert",
+          "to help it fly",
+          "Thick fur keeps the bear warm in the icy Arctic, and white fur is hard to see against the snow."
+        ],
+        [
+          "What does a camel keep in its hump?",
+          "fat, to use for energy",
+          "its babies",
+          "snow, to cool down",
+          "A camel’s hump stores fat. When food is hard to find in the desert, the camel uses this fat for energy."
+        ],
+        [
+          "What does a caterpillar turn into?",
+          "a butterfly",
+          "a bird",
+          "a fish",
+          "A caterpillar eats lots of leaves, then makes a hard case around itself. Later a butterfly comes out."
+        ],
+        [
+          "What covers a snake’s body?",
+          "scales",
+          "feathers",
+          "fur",
+          "A snake’s skin is covered in dry scales. Snakes are reptiles, and all reptiles have scaly skin."
+        ],
+        [
+          "Which group does a turtle belong to?",
+          "reptiles",
+          "birds",
+          "insects",
+          "A turtle has scaly skin and lays eggs with tough shells on land, so it is a reptile."
+        ],
+        [
+          "A frog can live in water and on land. Which group is it in?",
+          "amphibians",
+          "birds",
+          "mammals",
+          "Frogs are amphibians. They start life in water as tadpoles and can later live on land too."
+        ],
+        [
+          "What does a lion eat?",
+          "meat",
+          "grass",
+          "leaves",
+          "A lion is a meat eater. It hunts other animals such as zebras for its food."
+        ],
+        [
+          "What does a rabbit eat?",
+          "grass and other plants",
+          "meat",
+          "fish",
+          "Rabbits are plant eaters. They munch grass, leaves and vegetables all day."
+        ],
+        [
+          "What sweet food do honeybees make?",
+          "honey",
+          "milk",
+          "jam",
+          "Bees collect nectar from flowers and turn it into honey inside their hive."
+        ],
+        [
+          "A dolphin lives in the sea. How does it breathe?",
+          "it comes up to breathe air",
+          "with gills, like a fish",
+          "it never needs to breathe",
+          "A dolphin is a mammal. It swims up and breathes air through a hole on top of its head."
+        ],
+        [
+          "Where does a baby kangaroo grow after it is born?",
+          "in its mother’s pouch",
+          "inside an egg",
+          "in a nest in a tree",
+          "A newborn kangaroo is tiny. It crawls into its mother’s pouch, drinks milk and grows there."
+        ],
+        [
+          "When do most owls hunt for food?",
+          "at night",
+          "under the water",
+          "only in the snow",
+          "Most owls hunt at night. Their big eyes see well in the dark and their ears hear tiny sounds."
+        ],
+        [
+          "How many arms does an octopus have?",
+          "eight",
+          "six",
+          "two",
+          "An octopus has eight long arms covered in suckers. It uses them to grab food and move along the sea floor."
+        ],
+        [
+          "How does a giraffe’s long neck help it?",
+          "it can reach leaves high up in trees",
+          "it can swim faster",
+          "it can dig deep holes",
+          "With its long neck, a giraffe eats leaves from the tops of trees that other animals cannot reach."
+        ],
+        [
+          "All birds have a beak and feathers. What else do all birds have?",
+          "two legs and two wings",
+          "four legs and a tail",
+          "gills and fins",
+          "Every bird has two legs and two wings, even birds that cannot fly, like penguins and ostriches."
+        ],
+        [
+          "What does an elephant use its trunk for?",
+          "to pick up food and suck up water",
+          "to fly from tree to tree",
+          "to lay its eggs",
+          "An elephant’s trunk is its long nose. It uses it to smell, grab food and suck up water to drink."
+        ],
+        [
+          "A crab has a hard shell. What is the shell for?",
+          "to protect its soft body",
+          "to help it fly",
+          "to keep it warm in the snow",
+          "The hard shell is like armour. It keeps the crab’s soft body safe from bumps and hungry animals."
+        ],
+        [
+          "A snail has no legs. How does it move?",
+          "it slides along on one big, slimy foot",
+          "it hops like a rabbit",
+          "it flies with wings",
+          "A snail glides on one strong, flat foot. Slime under the foot helps it slide smoothly."
+        ],
+        [
+          "What does a hedgehog do in the cold winter?",
+          "it sleeps deeply for a long time",
+          "it flies to a warm country",
+          "it swims in the sea",
+          "A hedgehog hibernates. It sleeps in a cosy nest of leaves until spring, when food is easy to find again."
         ]
       ],
       "de": [
@@ -160,6 +323,146 @@
           "ein Welpe",
           "ein Kalb",
           "Vögel legen Eier, darum schlüpft ein Entenküken aus einem Ei. Welpen und Kälber wachsen im Bauch ihrer Mutter."
+        ],
+        [
+          "Eine Kaulquappe schwimmt im Teich. Was wird aus ihr?",
+          "ein Frosch",
+          "ein Fisch",
+          "eine Schlange",
+          "Eine Kaulquappe schlüpft im Wasser aus einem Ei. Ihr wachsen Beine, der Schwanz verschwindet und sie wird ein Frosch."
+        ],
+        [
+          "Warum hat ein Eisbär dickes weißes Fell?",
+          "um warm zu bleiben und sich im Schnee zu verstecken",
+          "um in der Wüste kühl zu bleiben",
+          "damit er fliegen kann",
+          "Dickes Fell hält den Bären in der eisigen Arktis warm, und weißes Fell sieht man im Schnee kaum."
+        ],
+        [
+          "Was speichert ein Kamel in seinem Höcker?",
+          "Fett, als Kraftvorrat",
+          "seine Jungen",
+          "Schnee zum Abkühlen",
+          "Im Höcker eines Kamels ist Fett. Wenn es in der Wüste wenig Futter gibt, holt sich das Kamel daraus Kraft."
+        ],
+        [
+          "Was wird aus einer Raupe?",
+          "ein Schmetterling",
+          "ein Vogel",
+          "ein Fisch",
+          "Eine Raupe frisst viele Blätter und baut sich dann eine harte Hülle. Später schlüpft daraus ein Schmetterling."
+        ],
+        [
+          "Was bedeckt den Körper einer Schlange?",
+          "Schuppen",
+          "Federn",
+          "Fell",
+          "Die Haut einer Schlange ist mit trockenen Schuppen bedeckt. Schlangen sind Reptilien, und alle Reptilien haben Schuppen."
+        ],
+        [
+          "Zu welcher Gruppe gehört eine Schildkröte?",
+          "zu den Reptilien",
+          "zu den Vögeln",
+          "zu den Insekten",
+          "Eine Schildkröte hat schuppige Haut und legt Eier mit fester Schale an Land. Sie ist ein Reptil."
+        ],
+        [
+          "Ein Frosch kann im Wasser und an Land leben. Zu welcher Gruppe gehört er?",
+          "zu den Amphibien",
+          "zu den Vögeln",
+          "zu den Säugetieren",
+          "Frösche sind Amphibien. Sie beginnen ihr Leben als Kaulquappen im Wasser und können später auch an Land leben."
+        ],
+        [
+          "Was frisst ein Löwe?",
+          "Fleisch",
+          "Gras",
+          "Blätter",
+          "Ein Löwe ist ein Fleischfresser. Er jagt andere Tiere, zum Beispiel Zebras."
+        ],
+        [
+          "Was frisst ein Kaninchen?",
+          "Gras und andere Pflanzen",
+          "Fleisch",
+          "Fisch",
+          "Kaninchen sind Pflanzenfresser. Sie knabbern den ganzen Tag Gras, Blätter und Gemüse."
+        ],
+        [
+          "Welche süße Nahrung machen Honigbienen?",
+          "Honig",
+          "Milch",
+          "Marmelade",
+          "Bienen sammeln Nektar aus Blüten und machen daraus im Bienenstock Honig."
+        ],
+        [
+          "Ein Delfin lebt im Meer. Wie atmet er?",
+          "er taucht auf und atmet Luft",
+          "mit Kiemen wie ein Fisch",
+          "er muss nie atmen",
+          "Ein Delfin ist ein Säugetier. Er schwimmt nach oben und atmet Luft durch ein Loch oben auf dem Kopf."
+        ],
+        [
+          "Wo wächst ein Kängurubaby nach der Geburt weiter?",
+          "im Beutel seiner Mutter",
+          "in einem Ei",
+          "in einem Nest im Baum",
+          "Ein neugeborenes Känguru ist winzig. Es krabbelt in den Beutel der Mutter, trinkt Milch und wächst dort."
+        ],
+        [
+          "Wann jagen die meisten Eulen?",
+          "in der Nacht",
+          "unter Wasser",
+          "nur im Schnee",
+          "Die meisten Eulen jagen nachts. Ihre großen Augen sehen gut im Dunkeln und ihre Ohren hören leise Geräusche."
+        ],
+        [
+          "Wie viele Arme hat ein Krake?",
+          "acht",
+          "sechs",
+          "zwei",
+          "Ein Krake hat acht lange Arme mit Saugnäpfen. Damit greift er Futter und bewegt sich über den Meeresboden."
+        ],
+        [
+          "Wobei hilft der lange Hals einer Giraffe?",
+          "sie erreicht Blätter hoch oben in den Bäumen",
+          "sie kann schneller schwimmen",
+          "sie kann tiefe Löcher graben",
+          "Mit ihrem langen Hals frisst die Giraffe Blätter ganz oben in den Bäumen, an die andere Tiere nicht kommen."
+        ],
+        [
+          "Alle Vögel haben einen Schnabel und Federn. Was haben alle Vögel noch?",
+          "zwei Beine und zwei Flügel",
+          "vier Beine und einen Schwanz",
+          "Kiemen und Flossen",
+          "Jeder Vogel hat zwei Beine und zwei Flügel, auch Vögel, die nicht fliegen können, wie Pinguine und Strauße."
+        ],
+        [
+          "Wofür benutzt ein Elefant seinen Rüssel?",
+          "um Futter zu greifen und Wasser aufzusaugen",
+          "um von Baum zu Baum zu fliegen",
+          "um Eier zu legen",
+          "Der Rüssel ist die lange Nase des Elefanten. Damit riecht er, greift Futter und saugt Wasser zum Trinken auf."
+        ],
+        [
+          "Eine Krabbe hat einen harten Panzer. Wofür ist er da?",
+          "er schützt ihren weichen Körper",
+          "er hilft ihr beim Fliegen",
+          "er wärmt sie im Schnee",
+          "Der harte Panzer ist wie eine Rüstung. Er schützt den weichen Körper der Krabbe vor Stößen und hungrigen Tieren."
+        ],
+        [
+          "Eine Schnecke hat keine Beine. Wie bewegt sie sich?",
+          "sie gleitet auf einem großen, schleimigen Fuß",
+          "sie hüpft wie ein Hase",
+          "sie fliegt mit Flügeln",
+          "Eine Schnecke gleitet auf einem kräftigen, flachen Fuß. Der Schleim darunter hilft ihr, leicht voranzukommen."
+        ],
+        [
+          "Was macht ein Igel im kalten Winter?",
+          "er schläft lange und tief",
+          "er fliegt in ein warmes Land",
+          "er schwimmt im Meer",
+          "Ein Igel hält Winterschlaf. Er schläft in einem gemütlichen Laubnest, bis es im Frühling wieder genug Futter gibt."
         ]
       ],
       "fr": [
@@ -232,6 +535,146 @@
           "un chiot",
           "un veau",
           "Les oiseaux pondent des œufs : le caneton sort donc d’un œuf. Le chiot et le veau grandissent dans le ventre de leur maman."
+        ],
+        [
+          "Un têtard nage dans la mare. Que devient-il ?",
+          "une grenouille",
+          "un poisson",
+          "un serpent",
+          "Le têtard sort d’un œuf dans l’eau. Il lui pousse des pattes, sa queue disparaît et il devient une grenouille."
+        ],
+        [
+          "Pourquoi l’ours polaire a-t-il une épaisse fourrure blanche ?",
+          "pour avoir chaud et se cacher dans la neige",
+          "pour avoir frais dans le désert",
+          "pour pouvoir voler",
+          "La fourrure épaisse garde l’ours au chaud dans l’Arctique glacé, et le blanc se voit à peine sur la neige."
+        ],
+        [
+          "Que garde le chameau dans sa bosse ?",
+          "de la graisse, comme réserve d’énergie",
+          "ses petits",
+          "de la neige pour se rafraîchir",
+          "La bosse du chameau contient de la graisse. Quand il trouve peu à manger dans le désert, il y puise son énergie."
+        ],
+        [
+          "Que devient une chenille ?",
+          "un papillon",
+          "un oiseau",
+          "un poisson",
+          "La chenille mange beaucoup de feuilles, puis elle s’enferme dans une coque dure. Plus tard, un papillon en sort."
+        ],
+        [
+          "Qu’est-ce qui couvre le corps d’un serpent ?",
+          "des écailles",
+          "des plumes",
+          "des poils",
+          "La peau du serpent est couverte d’écailles sèches. Les serpents sont des reptiles, et tous les reptiles ont des écailles."
+        ],
+        [
+          "À quel groupe appartient la tortue ?",
+          "aux reptiles",
+          "aux oiseaux",
+          "aux insectes",
+          "La tortue a une peau à écailles et pond sur la terre des œufs à coquille solide : c’est un reptile."
+        ],
+        [
+          "La grenouille peut vivre dans l’eau et sur la terre. À quel groupe appartient-elle ?",
+          "aux amphibiens",
+          "aux oiseaux",
+          "aux mammifères",
+          "Les grenouilles sont des amphibiens. Elles commencent leur vie dans l’eau comme têtards, puis peuvent aussi vivre sur la terre."
+        ],
+        [
+          "Que mange le lion ?",
+          "de la viande",
+          "de l’herbe",
+          "des feuilles",
+          "Le lion est carnivore : il chasse d’autres animaux, comme les zèbres, pour se nourrir."
+        ],
+        [
+          "Que mange le lapin ?",
+          "de l’herbe et d’autres plantes",
+          "de la viande",
+          "du poisson",
+          "Le lapin est herbivore : il grignote de l’herbe, des feuilles et des légumes toute la journée."
+        ],
+        [
+          "Quel aliment sucré les abeilles fabriquent-elles ?",
+          "du miel",
+          "du lait",
+          "de la confiture",
+          "Les abeilles récoltent le nectar des fleurs et le transforment en miel dans leur ruche."
+        ],
+        [
+          "Le dauphin vit dans la mer. Comment respire-t-il ?",
+          "il remonte respirer de l’air",
+          "avec des branchies, comme un poisson",
+          "il n’a jamais besoin de respirer",
+          "Le dauphin est un mammifère. Il remonte à la surface et respire de l’air par un trou sur le dessus de sa tête."
+        ],
+        [
+          "Où grandit le bébé kangourou après sa naissance ?",
+          "dans la poche de sa maman",
+          "dans un œuf",
+          "dans un nid dans un arbre",
+          "Le bébé kangourou est tout petit à la naissance. Il grimpe dans la poche de sa maman, boit du lait et y grandit."
+        ],
+        [
+          "Quand la plupart des chouettes chassent-elles ?",
+          "la nuit",
+          "sous l’eau",
+          "seulement dans la neige",
+          "La plupart des chouettes chassent la nuit. Leurs grands yeux voient bien dans le noir et elles entendent les plus petits bruits."
+        ],
+        [
+          "Combien de bras a une pieuvre ?",
+          "huit",
+          "six",
+          "deux",
+          "La pieuvre a huit longs bras couverts de ventouses. Elle s’en sert pour attraper sa nourriture et avancer au fond de la mer."
+        ],
+        [
+          "À quoi sert le long cou de la girafe ?",
+          "à atteindre les feuilles en haut des arbres",
+          "à nager plus vite",
+          "à creuser des trous profonds",
+          "Grâce à son long cou, la girafe mange les feuilles tout en haut des arbres, que les autres animaux n’atteignent pas."
+        ],
+        [
+          "Tous les oiseaux ont un bec et des plumes. Qu’ont-ils tous aussi ?",
+          "deux pattes et deux ailes",
+          "quatre pattes et une queue",
+          "des branchies et des nageoires",
+          "Chaque oiseau a deux pattes et deux ailes, même ceux qui ne volent pas, comme les manchots et les autruches."
+        ],
+        [
+          "À quoi sert la trompe de l’éléphant ?",
+          "à attraper la nourriture et aspirer l’eau",
+          "à voler d’arbre en arbre",
+          "à pondre ses œufs",
+          "La trompe est le long nez de l’éléphant. Il s’en sert pour sentir, attraper sa nourriture et aspirer l’eau qu’il boit."
+        ],
+        [
+          "Le crabe a une carapace dure. À quoi sert-elle ?",
+          "à protéger son corps mou",
+          "à l’aider à voler",
+          "à lui tenir chaud dans la neige",
+          "La carapace est comme une armure. Elle protège le corps mou du crabe des chocs et des animaux affamés."
+        ],
+        [
+          "L’escargot n’a pas de pattes. Comment avance-t-il ?",
+          "il glisse sur un grand pied gluant",
+          "il saute comme un lapin",
+          "il vole avec des ailes",
+          "L’escargot glisse sur un seul pied plat et musclé. La bave sous son pied l’aide à avancer en douceur."
+        ],
+        [
+          "Que fait le hérisson pendant l’hiver froid ?",
+          "il dort très longtemps",
+          "il s’envole vers un pays chaud",
+          "il nage dans la mer",
+          "Le hérisson hiberne. Il dort dans un nid douillet de feuilles jusqu’au printemps, quand la nourriture revient."
         ]
       ],
       "yo": [
@@ -304,6 +747,146 @@
           "ọmọ ajá",
           "ọmọ màlúù",
           "Ẹyẹ ń yé ẹyin, nítorí náà ọmọ pẹ́pẹ́yẹ ń jáde láti inú ẹyin. Ọmọ ajá àti ọmọ màlúù ń dàgbà nínú ikùn ìyá wọn."
+        ],
+        [
+          "Tádípóòlù ń lúwẹ̀ẹ́ nínú adágún omi. Kí ló máa dà nígbà tó bá dàgbà?",
+          "àkèré",
+          "ẹja",
+          "ejò",
+          "Tádípóòlù ń jáde láti inú ẹyin nínú omi. Ẹsẹ̀ máa hù fún un, ìrù rẹ̀ máa pòórá, ó sì máa di àkèré."
+        ],
+        [
+          "Kí ló dé tí bíà inú yìnyín fi ní irun funfun tó nípọn?",
+          "kí ara rẹ̀ lè móoru, kí ó sì lè fara pamọ́ nínú yìnyín",
+          "kí ara rẹ̀ lè tutù nínú aṣálẹ̀",
+          "kí ó lè fò",
+          "Irun tó nípọn ń mú ara bíà náà móoru níbi tí yìnyín pọ̀ sí, irun funfun kò sì hàn dáadáa lórí yìnyín."
+        ],
+        [
+          "Kí ni ràkúnmí ń kó pamọ́ sínú iké ẹ̀yìn rẹ̀?",
+          "ọ̀rá, fún agbára",
+          "àwọn ọmọ rẹ̀",
+          "yìnyín, kí ara rẹ̀ lè tutù",
+          "Ọ̀rá ló wà nínú iké ẹ̀yìn ràkúnmí. Nígbà tí oúnjẹ bá wọ́n nínú aṣálẹ̀, ràkúnmí ń lo ọ̀rá yìí fún agbára."
+        ],
+        [
+          "Kí ni ìdin tó ń jẹ ewé máa dà?",
+          "labalábá",
+          "ẹyẹ",
+          "ẹja",
+          "Ìdin náà ń jẹ ewé púpọ̀, lẹ́yìn náà ó máa ṣe ìkarahun líle yí ara rẹ̀ ká. Lẹ́yìn ìgbà díẹ̀, labalábá máa jáde."
+        ],
+        [
+          "Kí ló bo ara ejò?",
+          "ìpẹ́",
+          "ìyẹ́",
+          "irun",
+          "Ìpẹ́ gbígbẹ ló bo awọ ejò. Ẹranko afàyàfà ni ejò, gbogbo ẹranko afàyàfà ló sì ní ìpẹ́."
+        ],
+        [
+          "Ìsọ̀rí wo ni ìjàpá wà?",
+          "ẹranko afàyàfà",
+          "ẹyẹ",
+          "kòkòrò",
+          "Ìjàpá ní awọ onípẹ́, ó sì ń yé ẹyin tí èèpo rẹ̀ le sórí ilẹ̀, nítorí náà ẹranko afàyàfà ni."
+        ],
+        [
+          "Àkèré lè gbé inú omi àti lórí ilẹ̀. Ìsọ̀rí wo ló wà?",
+          "ẹranko ilẹ̀-àti-omi",
+          "ẹyẹ",
+          "ẹranko afọmúbọ́mọ",
+          "Ẹranko ilẹ̀-àti-omi ni àkèré. Ó ń bẹ̀rẹ̀ ayé rẹ̀ nínú omi gẹ́gẹ́ bí tádípóòlù, lẹ́yìn náà ó lè gbé lórí ilẹ̀ pẹ̀lú."
+        ],
+        [
+          "Kí ni kìnnìún ń jẹ?",
+          "ẹran",
+          "koríko",
+          "ewé",
+          "Ẹranko ajẹran ni kìnnìún. Ó ń dọdẹ àwọn ẹranko mìíràn bí abilà fún oúnjẹ."
+        ],
+        [
+          "Kí ni ehoro ń jẹ?",
+          "koríko àti àwọn ewéko mìíràn",
+          "ẹran",
+          "ẹja",
+          "Ẹranko ajewéko ni ehoro. Ó ń jẹ koríko, ewé àti ẹ̀fọ́ láti àárọ̀ di alẹ́."
+        ],
+        [
+          "Oúnjẹ dídùn wo ni kòkòrò oyin ń ṣe?",
+          "oyin",
+          "wàrà",
+          "jámù",
+          "Kòkòrò oyin ń kó omi dídùn láti inú òdòdó, wọ́n sì ń sọ ọ́ di oyin nínú ilé wọn."
+        ],
+        [
+          "Ẹja dọ́lfínì ń gbé inú òkun. Báwo ló ṣe ń mí?",
+          "ó ń gòkè wá sí orí omi láti mí afẹ́fẹ́",
+          "pẹ̀lú ihò ìmí ẹ̀gbẹ́ orí bí ẹja",
+          "kò nílò láti mí rárá",
+          "Ẹranko afọmúbọ́mọ ni dọ́lfínì. Ó ń lúwẹ̀ẹ́ gòkè, ó sì ń mí afẹ́fẹ́ gba ihò kan lórí rẹ̀."
+        ],
+        [
+          "Ibo ni ọmọ kangarú ti ń dàgbà lẹ́yìn tí wọ́n bí i?",
+          "nínú àpò ikùn ìyá rẹ̀",
+          "nínú ẹyin",
+          "nínú ìtẹ́ lórí igi",
+          "Ọmọ kangarú kéré gan-an nígbà tí wọ́n bí i. Ó ń rá wọ inú àpò ikùn ìyá rẹ̀, ó ń mu wàrà, ó sì ń dàgbà níbẹ̀."
+        ],
+        [
+          "Ìgbà wo ni ọ̀pọ̀ òwìwí máa ń wá oúnjẹ?",
+          "lóru",
+          "lábẹ́ omi",
+          "nínú yìnyín nìkan",
+          "Ọ̀pọ̀ òwìwí ń dọdẹ lóru. Ojú ńlá wọn ń ríran dáadáa nínú òkùnkùn, etí wọn sì ń gbọ́ ìró kékeré."
+        ],
+        [
+          "Apá mélòó ni ọ́kítópọ́ọ̀sì ní?",
+          "mẹ́jọ",
+          "mẹ́fà",
+          "méjì",
+          "Ọ́kítópọ́ọ̀sì ní apá gígùn mẹ́jọ tí ohun ìfàmọ́ra bò. Ó ń fi wọ́n mú oúnjẹ, ó sì ń fi wọ́n rìn ní ìsàlẹ̀ òkun."
+        ],
+        [
+          "Báwo ni ọrùn gígùn àgùnfọn ṣe ń ràn án lọ́wọ́?",
+          "ó lè dé ewé tó wà lókè igi",
+          "ó lè lúwẹ̀ẹ́ kíákíá",
+          "ó lè gbẹ́ ihò jíjìn",
+          "Pẹ̀lú ọrùn gígùn rẹ̀, àgùnfọn ń jẹ ewé orí igi tí àwọn ẹranko mìíràn kò lè dé."
+        ],
+        [
+          "Gbogbo ẹyẹ ló ní ṣóńṣó ẹnu àti ìyẹ́. Kí ni gbogbo ẹyẹ tún ní?",
+          "ẹsẹ̀ méjì àti apá ìyẹ́ méjì",
+          "ẹsẹ̀ mẹ́rin àti ìrù",
+          "ihò ìmí ẹja àti lẹbẹ",
+          "Gbogbo ẹyẹ ló ní ẹsẹ̀ méjì àti apá ìyẹ́ méjì, àní àwọn ẹyẹ tí kò lè fò bí pẹ́ńgúìn àti ògòngò."
+        ],
+        [
+          "Kí ni erin ń fi kí-ǹ-ní rẹ̀ ṣe?",
+          "láti mú oúnjẹ àti láti fa omi mu",
+          "láti fò láti orí igi kan sí òmíràn",
+          "láti yé ẹyin rẹ̀",
+          "Kí-ǹ-ní erin ni imú gígùn rẹ̀. Ó ń fi gbóòórùn, ó ń fi mú oúnjẹ, ó sì ń fi fa omi tí yóò mu."
+        ],
+        [
+          "Akàn ní ìkarahun líle. Kí ni ìkarahun náà wà fún?",
+          "láti dáàbò bo ara rírọ̀ rẹ̀",
+          "láti ràn án lọ́wọ́ láti fò",
+          "láti mú ara rẹ̀ móoru nínú yìnyín",
+          "Ìkarahun líle dà bí ẹ̀wù ogun. Ó ń dáàbò bo ara rírọ̀ akàn kúrò lọ́wọ́ ìkọlù àti ẹranko tí ebi ń pa."
+        ],
+        [
+          "Ìgbín kò ní ẹsẹ̀. Báwo ló ṣe ń rìn?",
+          "ó ń fà lọ lórí ẹsẹ̀ ńlá kan tó ń yọ̀",
+          "ó ń bẹ́ bí ehoro",
+          "ó ń fi ìyẹ́ fò",
+          "Ìgbín ń fà lọ lórí ẹsẹ̀ pẹlẹbẹ kan tó lágbára. Omi yíyọ̀ lábẹ́ ẹsẹ̀ náà ń jẹ́ kí ó rìn wọ́ọ́rọ́wọ́."
+        ],
+        [
+          "Kí ni òòrẹ̀ ń ṣe nígbà òtútù?",
+          "ó ń sùn fọnfọn fún ìgbà pípẹ́",
+          "ó ń fò lọ sí ìlú tó móoru",
+          "ó ń lúwẹ̀ẹ́ nínú òkun",
+          "Òòrẹ̀ ń sùn oorun ìgbà òtútù. Ó ń sùn nínú ìtẹ́ ewé títí di ìgbà ìrúwé, nígbà tí oúnjẹ bá tún pọ̀."
         ]
       ]
     }

@@ -1,0 +1,274 @@
+{
+  "id": "en4-sizes",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 107,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "animal-mouse",
+      "animal-horse",
+      "animal-giraffe",
+      "snake",
+      "chick",
+      "key",
+      "house",
+      "animal-crab",
+      "tree",
+      "animal-lion",
+      "fruit-grapes",
+      "fruit-pineapple",
+      "house",
+      "road",
+      "books",
+      "sun",
+      "animal-bear",
+      "girl",
+      "animal-frog",
+      "fruit-watermelon",
+      "scarf",
+      "polarbear",
+      "animal-cow",
+      "teddy",
+      "animal-giraffe",
+      "animal-dolphin",
+      "airplane",
+      "animal-hedgehog",
+      "animal-penguin",
+      "bus"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which is the biggest: a mouse, a rabbit or an elephant?",
+          "elephant",
+          "mouse",
+          "rabbit",
+          "An elephant is much bigger than a rabbit or a mouse."
+        ],
+        [
+          "Which is the smallest: a horse, a ladybird or a cow?",
+          "ladybird",
+          "horse",
+          "cow",
+          "A ladybird is tiny. It could sit on your finger."
+        ],
+        [
+          "Which is the tallest: a giraffe, a frog or a penguin?",
+          "giraffe",
+          "frog",
+          "penguin",
+          "A giraffe is the tallest animal of all."
+        ],
+        [
+          "Which is the longest: a snake, a snail or a bee?",
+          "snake",
+          "snail",
+          "bee",
+          "A snake has a long body. A snail and a bee are small."
+        ],
+        [
+          "Which is the heaviest: an elephant, a chick or a butterfly?",
+          "elephant",
+          "chick",
+          "butterfly",
+          "An elephant is very heavy. A chick and a butterfly are light."
+        ],
+        [
+          "Which is the biggest: a bus, a shoe or a key?",
+          "bus",
+          "shoe",
+          "key",
+          "A bus is big enough to carry lots of people."
+        ],
+        [
+          "Which is the smallest: a house, a tree or a strawberry?",
+          "strawberry",
+          "house",
+          "tree",
+          "A strawberry fits in your hand. A house and a tree are much bigger."
+        ],
+        [
+          "Which is the biggest: a crab, an octopus or a whale?",
+          "whale",
+          "crab",
+          "octopus",
+          "A whale is huge, much bigger than a crab or an octopus."
+        ],
+        [
+          "Which is the tallest: a mouse, a tree or a cat?",
+          "tree",
+          "mouse",
+          "cat",
+          "A tree grows much taller than a mouse or a cat."
+        ],
+        [
+          "Which is the smallest: a lion, a bee or a horse?",
+          "bee",
+          "lion",
+          "horse",
+          "A bee is a tiny insect."
+        ],
+        [
+          "Which is the biggest: a grape, an apple or a watermelon?",
+          "watermelon",
+          "grape",
+          "apple",
+          "A watermelon is very big. You need two hands to hold it."
+        ],
+        [
+          "Which is the smallest: a pineapple, a blueberry or a coconut?",
+          "blueberry",
+          "pineapple",
+          "coconut",
+          "A blueberry is tiny. You can eat it in one bite."
+        ],
+        [
+          "Which is the tallest: a house, a mountain or a tree?",
+          "mountain",
+          "house",
+          "tree",
+          "A mountain is much taller than a house or a tree."
+        ],
+        [
+          "Which is the longest: a shoe, a key or a road?",
+          "road",
+          "shoe",
+          "key",
+          "A road can go on for miles."
+        ],
+        [
+          "Which is the heaviest: a book, a bus or a sock?",
+          "bus",
+          "book",
+          "sock",
+          "A bus is very heavy. You can lift a book or a sock."
+        ],
+        [
+          "Which is the biggest: a cake, a house or the sun?",
+          "the sun",
+          "a cake",
+          "a house",
+          "The sun looks small because it is far away, but it is huge."
+        ],
+        [
+          "Which is the smallest: a bear, a mouse or a camel?",
+          "mouse",
+          "bear",
+          "camel",
+          "A mouse is tiny next to a bear or a camel."
+        ],
+        [
+          "Which is the tallest: a chick, a girl or a snail?",
+          "girl",
+          "chick",
+          "snail",
+          "A girl is much taller than a chick or a snail."
+        ],
+        [
+          "Which is the biggest: a frog, a hippo or a hedgehog?",
+          "hippo",
+          "frog",
+          "hedgehog",
+          "A hippo is huge. A frog and a hedgehog are small."
+        ],
+        [
+          "Which is the smallest: a watermelon, a cherry or a pumpkin?",
+          "cherry",
+          "watermelon",
+          "pumpkin",
+          "A cherry is tiny next to a watermelon or a pumpkin."
+        ],
+        [
+          "Which is the longest: a sock, a glove or a scarf?",
+          "scarf",
+          "sock",
+          "glove",
+          "A scarf is long so it can wrap around your neck."
+        ],
+        [
+          "Which is the heaviest: a rabbit, a polar bear or a chick?",
+          "polar bear",
+          "rabbit",
+          "chick",
+          "A polar bear is big and very heavy."
+        ],
+        [
+          "Which is the lightest: a cow, a horse or a butterfly?",
+          "butterfly",
+          "cow",
+          "horse",
+          "A butterfly is so light it can float in the air."
+        ],
+        [
+          "Which is the biggest: a teddy, a shoe or a house?",
+          "house",
+          "teddy",
+          "shoe",
+          "A house is big enough for a whole family to live in."
+        ],
+        [
+          "Which is the shortest: a giraffe, a mouse or a tree?",
+          "mouse",
+          "giraffe",
+          "tree",
+          "A mouse is very short. A giraffe and a tree are tall."
+        ],
+        [
+          "Which is the smallest: a dolphin, a snail or a whale?",
+          "snail",
+          "dolphin",
+          "whale",
+          "A snail is tiny. Dolphins and whales are big."
+        ],
+        [
+          "Which is the biggest: a key, a cake or an aeroplane?",
+          "aeroplane",
+          "key",
+          "cake",
+          "An aeroplane is big enough to carry lots of people."
+        ],
+        [
+          "Which is the tallest: a hedgehog, a camel or a frog?",
+          "camel",
+          "hedgehog",
+          "frog",
+          "A camel is tall. A hedgehog and a frog are small."
+        ],
+        [
+          "Which is the heaviest: a penguin, a whale or a duck?",
+          "whale",
+          "penguin",
+          "duck",
+          "A whale is much heavier than a penguin or a duck."
+        ],
+        [
+          "Which is the smallest: a bus, a key or a house?",
+          "key",
+          "bus",
+          "house",
+          "A key is small enough to fit in your pocket."
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-elephant",
+  "example": {
+    "i": 0,
+    "q_en": "Which is the biggest: a mouse, a rabbit or an elephant?",
+    "answer_en": "elephant",
+    "why_en": "An elephant is much bigger than a rabbit or a mouse."
+  },
+  "text": {
+    "en": {
+      "title": "Big and small",
+      "teach": "We can compare things. An elephant is bigger than a mouse, and a giraffe is taller than a frog.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

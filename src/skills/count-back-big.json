@@ -1,0 +1,54 @@
+{
+  "id": "count-back-big",
+  "kind": "sequence",
+  "subject": "patterns",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 11,
+  "params": {
+    "steps": [
+      -3,
+      -4,
+      -5,
+      -25
+    ],
+    "start": [
+      10,
+      100
+    ]
+  },
+  "emoji": "footprints",
+  "example": {
+    "items": "100, 75, 50, 25",
+    "answer": 0,
+    "steps": "−25   −25   −25   −25"
+  },
+  "text": {
+    "en": {
+      "title": "Counting back in 3s, 4s, 5s and 25s",
+      "teach": "Find the step by taking each number from the next. 100, 75, 50, 25: each step is −25, so next comes 0.",
+      "prompt": "Which number comes next?",
+      "reason": "The steps are {steps}, so the next number is {answer}."
+    },
+    "de": {
+      "title": "Rückwärts in 3er-, 4er-, 5er- und 25er-Schritten",
+      "teach": "Finde den Schritt, indem du jede Zahl von der nächsten abziehst. 100, 75, 50, 25: Jeder Schritt ist −25, also kommt als Nächstes 0.",
+      "prompt": "Welche Zahl kommt als Nächstes?",
+      "reason": "Die Schritte sind {steps}, also ist die nächste Zahl {answer}."
+    },
+    "fr": {
+      "title": "Compter à rebours de 3, 4, 5 et 25",
+      "teach": "Trouve le pas en enlevant chaque nombre du suivant. 100, 75, 50, 25 : chaque pas est −25, donc ensuite vient 0.",
+      "prompt": "Quel nombre vient ensuite ?",
+      "reason": "Les pas sont {steps}, donc le nombre suivant est {answer}."
+    },
+    "yo": {
+      "title": "Kíkà sẹ́yìn ní 3, 4, 5 àti 25",
+      "teach": "Wá ìgbésẹ̀ náà nípa yíyọ nọ́ńbà kọ̀ọ̀kan kúrò nínú èyí tó tẹ̀lé e. 100, 75, 50, 25: ìgbésẹ̀ kọ̀ọ̀kan jẹ́ −25, nítorí náà 0 ló kàn.",
+      "prompt": "Nọ́ńbà wo ló kàn?",
+      "reason": "Àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà nọ́ńbà tó kàn ni {answer}."
+    }
+  }
+}

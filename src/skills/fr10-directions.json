@@ -1,0 +1,274 @@
+{
+  "id": "fr10-directions",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 5,
+  "ages": [
+    "10-12"
+  ],
+  "order": 39,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "map",
+      "road",
+      "road",
+      "road",
+      "wave",
+      "house",
+      "house",
+      "footprints",
+      "clock",
+      "footprints",
+      "clock",
+      "road",
+      "airplane",
+      "bus",
+      "animal-horse",
+      "wave",
+      "road",
+      "clock",
+      "bus",
+      "speech",
+      "road",
+      "warning",
+      "warning",
+      "road",
+      "minibus",
+      "clock",
+      "globe",
+      "school",
+      "tv",
+      "memo"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does tournez à gauche mean?",
+          "turn left",
+          "turn right",
+          "go straight on",
+          "Gauche means left, so tournez à gauche means turn left."
+        ],
+        [
+          "What does tournez à droite mean?",
+          "turn right",
+          "turn left",
+          "go back",
+          "Droite means right, so tournez à droite means turn right."
+        ],
+        [
+          "What does allez tout droit mean?",
+          "go straight on",
+          "turn right",
+          "stop here",
+          "Tout droit means straight on. Be careful: droite with an -e means right."
+        ],
+        [
+          "How do you say Take the first street on the left in French?",
+          "Prenez la première rue à gauche.",
+          "Prenez la première rue à droite.",
+          "Prenez la deuxième rue à gauche.",
+          "First is première and on the left is à gauche."
+        ],
+        [
+          "How do you say Cross the bridge in French?",
+          "Traversez le pont.",
+          "Tournez le pont.",
+          "Traversez la place.",
+          "To cross is traverser, and bridge is le pont."
+        ],
+        [
+          "What does en face de mean?",
+          "opposite",
+          "next to",
+          "behind",
+          "En face de means opposite, facing something."
+        ],
+        [
+          "What does à côté de mean?",
+          "next to",
+          "opposite",
+          "far from",
+          "À côté de means next to."
+        ],
+        [
+          "What does loin d’ici mean?",
+          "far from here",
+          "near here",
+          "next to here",
+          "Loin means far. Near is près."
+        ],
+        [
+          "What does près de la gare mean?",
+          "near the station",
+          "far from the station",
+          "inside the station",
+          "Près de means near, and la gare is the station."
+        ],
+        [
+          "Je vais à l’école ___ pied.",
+          "à",
+          "en",
+          "au",
+          "On foot is à pied."
+        ],
+        [
+          "Nous allons à Londres ___ train.",
+          "en",
+          "à",
+          "au",
+          "You ride inside a train, so you say en train."
+        ],
+        [
+          "Il va au travail ___ voiture.",
+          "en",
+          "à",
+          "au",
+          "You sit inside a car, so you say en voiture."
+        ],
+        [
+          "Elle va à New York ___ avion.",
+          "en",
+          "à",
+          "au",
+          "You sit inside a plane, so you say en avion."
+        ],
+        [
+          "Les enfants vont à l’école ___ bus.",
+          "en",
+          "à",
+          "au",
+          "You ride inside a bus, so you say en bus."
+        ],
+        [
+          "Mon cousin se promène ___ cheval.",
+          "à",
+          "en",
+          "au",
+          "You sit on top of a horse, so you say à cheval."
+        ],
+        [
+          "On prend le ___ pour traverser la mer.",
+          "bateau",
+          "bus",
+          "vélo",
+          "A boat (le bateau) can cross the sea. A bus and a bike cannot."
+        ],
+        [
+          "What does le métro mean?",
+          "the underground train",
+          "the bike",
+          "the motorway",
+          "Le métro is a train that runs under a city."
+        ],
+        [
+          "What does la gare mean?",
+          "the train station",
+          "the airport",
+          "the bus stop",
+          "La gare is the train station. The airport is l’aéroport."
+        ],
+        [
+          "What does l’arrêt de bus mean?",
+          "the bus stop",
+          "the bus driver",
+          "the bus ticket",
+          "Arrêt comes from arrêter (to stop), so l’arrêt de bus is the bus stop."
+        ],
+        [
+          "How do you politely ask where the bank is in French?",
+          "Où est la banque, s’il vous plaît ?",
+          "Qui est la banque, s’il vous plaît ?",
+          "Où est la plage, s’il vous plaît ?",
+          "Where is où, and the bank is la banque. Qui means who."
+        ],
+        [
+          "Allez tout ___, puis tournez à gauche.",
+          "droit",
+          "droite",
+          "gauche",
+          "Tout droit means straight on. Droite means right."
+        ],
+        [
+          "Tournez à ___ au feu rouge. (right)",
+          "droite",
+          "droit",
+          "gauche",
+          "Right is à droite, with an -e at the end."
+        ],
+        [
+          "Which means at the traffic lights?",
+          "aux feux",
+          "au carrefour",
+          "au rond-point",
+          "Les feux are the traffic lights. Le carrefour is a crossroads."
+        ],
+        [
+          "What does le carrefour mean?",
+          "the crossroads",
+          "the car park",
+          "the roundabout",
+          "Le carrefour is the place where roads cross. The roundabout is le rond-point."
+        ],
+        [
+          "Which word is a type of transport?",
+          "le train",
+          "la gare",
+          "le billet",
+          "Le train is transport. La gare is the station and le billet is the ticket."
+        ],
+        [
+          "C’est à cinq minutes ___ pied.",
+          "à",
+          "en",
+          "de",
+          "On foot is always à pied."
+        ],
+        [
+          "Je préfère voyager ___ train parce que c’est rapide.",
+          "en",
+          "à",
+          "de",
+          "You ride inside a train, so you say en train."
+        ],
+        [
+          "How do you say The museum is behind the school in French?",
+          "Le musée est derrière l’école.",
+          "Le musée est devant l’école.",
+          "Le musée est dans l’école.",
+          "Behind is derrière. Devant means in front of."
+        ],
+        [
+          "How do you say The cinema is on the right in French?",
+          "Le cinéma est à droite.",
+          "Le cinéma est à gauche.",
+          "Le cinéma est tout droit.",
+          "On the right is à droite."
+        ],
+        [
+          "What does un billet aller-retour mean?",
+          "a return ticket",
+          "a single ticket",
+          "a bus pass",
+          "Aller-retour means there and back, so it is a return ticket."
+        ]
+      ]
+    }
+  },
+  "emoji": "map",
+  "example": {
+    "i": 0,
+    "q_en": "What does tournez à gauche mean?",
+    "answer_en": "turn left",
+    "why_en": "Gauche means left, so tournez à gauche means turn left."
+  },
+  "text": {
+    "en": {
+      "title": "Directions and transport",
+      "teach": "Directions: tournez à gauche (turn left), tournez à droite (turn right), allez tout droit (go straight on). Use en for transport you ride inside (en bus, en train) and à for on foot or on horseback (à pied, à cheval).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

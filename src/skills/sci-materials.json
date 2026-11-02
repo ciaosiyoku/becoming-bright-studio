@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "science",
   "stage": 2,
+  "ages": [
+    "6-7"
+  ],
   "order": 7,
   "params": {
     "emojis": [
@@ -15,7 +18,27 @@
       "books",
       "road",
       "rain",
-      "droplet"
+      "droplet",
+      "shoe",
+      "backpack",
+      "candle",
+      "snowman",
+      "house",
+      "fire",
+      "droplet",
+      "sled",
+      "teddy",
+      "plug",
+      "road",
+      "scarf",
+      "beach",
+      "palette",
+      "tree",
+      "factory",
+      "ribbon",
+      "warning",
+      "cocoa",
+      "sparkles"
     ],
     "bank": {
       "en": [
@@ -88,6 +111,146 @@
           "it floats",
           "it melts",
           "A coin is small but heavy for its size, so it sinks to the bottom."
+        ],
+        [
+          "Why are the soles of many shoes made of rubber?",
+          "rubber is bendy and grips the ground",
+          "rubber is see-through",
+          "rubber is magnetic",
+          "Rubber bends when you walk and is grippy, so you do not slip so easily."
+        ],
+        [
+          "Why is a school bag made of strong fabric?",
+          "it bends and does not tear easily",
+          "it is see-through",
+          "it melts in the sun",
+          "Strong fabric can bend and fold without ripping, so it can carry heavy books every day."
+        ],
+        [
+          "What happens to candle wax when it gets hot?",
+          "it melts",
+          "it turns into glass",
+          "it freezes",
+          "Wax is solid when it is cool. Near the hot flame it melts into a runny liquid, then goes hard again when it cools."
+        ],
+        [
+          "What happens to ice when it gets warm?",
+          "it melts into water",
+          "it turns into wood",
+          "it gets harder",
+          "Ice is frozen water. When it warms up, it melts and becomes runny water again."
+        ],
+        [
+          "Why are many houses built with bricks?",
+          "bricks are hard and strong",
+          "bricks are soft and bendy",
+          "bricks are see-through",
+          "Bricks are hard and strong, so walls made of them stay up for a very long time and keep out wind and rain."
+        ],
+        [
+          "Why are cooking pans made of metal?",
+          "metal can take the heat and lets it through to the food",
+          "metal is see-through",
+          "metal is soft like wool",
+          "Metal does not burn or melt on a cooker, and heat passes through it quickly to cook the food."
+        ],
+        [
+          "Which of these soaks up spilled water best?",
+          "a sponge",
+          "a plastic spoon",
+          "a metal key",
+          "A sponge is full of tiny holes that soak up water. Plastic and metal do not soak up water."
+        ],
+        [
+          "Why is the bottom of a sledge smooth?",
+          "so it slides easily over the snow",
+          "so it sticks to the snow",
+          "so it melts the snow",
+          "A smooth surface rubs less on the snow, so the sledge slides fast down the hill."
+        ],
+        [
+          "What is inside a soft teddy bear?",
+          "soft, fluffy stuffing",
+          "heavy stones",
+          "water",
+          "A teddy is filled with soft, light stuffing, so it is squashy and nice to cuddle."
+        ],
+        [
+          "Why is the outside of a plug made of plastic?",
+          "plastic does not let electricity through, so it keeps us safe",
+          "plastic is magnetic",
+          "plastic is see-through",
+          "Electricity can pass through metal but not through plastic. The plastic cover stops it reaching your fingers."
+        ],
+        [
+          "What are most roads covered with?",
+          "hard, black tarmac",
+          "soft cotton wool",
+          "jelly",
+          "Tarmac is hard and strong, so cars, buses and lorries can drive over it every day."
+        ],
+        [
+          "Which material comes from sheep?",
+          "wool",
+          "glass",
+          "plastic",
+          "Sheep grow thick, curly wool. Farmers cut it off in summer and it is spun into yarn for jumpers and scarves."
+        ],
+        [
+          "What is glass made from?",
+          "sand heated until it melts",
+          "wool",
+          "paper",
+          "Sand is heated in a very hot oven until it melts. When it cools down, it becomes hard, see-through glass."
+        ],
+        [
+          "Which of these can you squash into a new shape with your hands?",
+          "modelling clay",
+          "a stone",
+          "a metal key",
+          "Modelling clay is soft, so you can squash, roll and twist it into any shape you like."
+        ],
+        [
+          "Which of these materials is natural, not made by people?",
+          "wood",
+          "plastic",
+          "glass",
+          "Wood comes straight from trees, so it is a natural material. People make plastic and glass in factories."
+        ],
+        [
+          "What is most plastic made from?",
+          "oil from deep under the ground",
+          "wool from sheep",
+          "leaves from trees",
+          "Most plastic is made in factories from oil that is pumped up from deep under the ground."
+        ],
+        [
+          "Which of these materials is stretchy?",
+          "rubber",
+          "glass",
+          "stone",
+          "A rubber band can be pulled long and then springs back to its shape. Glass and stone cannot stretch."
+        ],
+        [
+          "What may happen if you drop a glass bottle on a hard floor?",
+          "it may break into sharp pieces",
+          "it bounces like a ball",
+          "it melts",
+          "Glass is hard but brittle. It can smash into sharp pieces, so ask a grown-up to clear it up."
+        ],
+        [
+          "Why is a wooden spoon good for stirring hot soup?",
+          "wood does not get hot as fast as metal",
+          "wood is see-through",
+          "wood is magnetic",
+          "Heat travels slowly through wood, so the handle stays cool enough to hold while you stir."
+        ],
+        [
+          "Which of these is shiny?",
+          "a new metal spoon",
+          "a woolly sock",
+          "a piece of bark",
+          "Smooth, clean metal reflects light well, so it looks shiny. Wool and bark are dull."
         ]
       ],
       "de": [
@@ -160,6 +323,146 @@
           "sie schwimmt",
           "sie schmilzt",
           "Eine Münze ist klein, aber für ihre Größe schwer. Darum sinkt sie auf den Boden."
+        ],
+        [
+          "Warum sind die Sohlen vieler Schuhe aus Gummi?",
+          "Gummi ist biegsam und rutscht nicht leicht",
+          "Gummi ist durchsichtig",
+          "Gummi ist magnetisch",
+          "Gummi biegt sich beim Gehen und haftet gut am Boden. So rutschst du nicht so leicht aus."
+        ],
+        [
+          "Warum ist eine Schultasche aus festem Stoff?",
+          "er ist biegsam und reißt nicht leicht",
+          "er ist durchsichtig",
+          "er schmilzt in der Sonne",
+          "Fester Stoff lässt sich biegen und falten, ohne zu reißen. So trägt er jeden Tag schwere Bücher."
+        ],
+        [
+          "Was passiert mit Kerzenwachs, wenn es heiß wird?",
+          "es schmilzt",
+          "es wird zu Glas",
+          "es gefriert",
+          "Wachs ist fest, wenn es kühl ist. Neben der heißen Flamme schmilzt es und wird flüssig. Beim Abkühlen wird es wieder hart."
+        ],
+        [
+          "Was passiert mit Eis, wenn es warm wird?",
+          "es schmilzt zu Wasser",
+          "es wird zu Holz",
+          "es wird härter",
+          "Eis ist gefrorenes Wasser. Wird es warm, schmilzt es und wird wieder zu flüssigem Wasser."
+        ],
+        [
+          "Warum baut man viele Häuser aus Ziegelsteinen?",
+          "Ziegel sind hart und fest",
+          "Ziegel sind weich und biegsam",
+          "Ziegel sind durchsichtig",
+          "Ziegel sind hart und fest. Mauern aus Ziegeln halten sehr lange und schützen vor Wind und Regen."
+        ],
+        [
+          "Warum sind Kochtöpfe aus Metall?",
+          "Metall hält die Hitze aus und leitet sie zum Essen",
+          "Metall ist durchsichtig",
+          "Metall ist weich wie Wolle",
+          "Metall brennt und schmilzt auf dem Herd nicht, und die Hitze geht schnell hindurch zum Essen."
+        ],
+        [
+          "Was davon saugt verschüttetes Wasser am besten auf?",
+          "ein Schwamm",
+          "ein Plastiklöffel",
+          "ein Metallschlüssel",
+          "Ein Schwamm ist voller winziger Löcher, die Wasser aufsaugen. Kunststoff und Metall saugen kein Wasser auf."
+        ],
+        [
+          "Warum ist die Unterseite eines Schlittens glatt?",
+          "damit er leicht über den Schnee gleitet",
+          "damit er am Schnee kleben bleibt",
+          "damit er den Schnee schmilzt",
+          "Eine glatte Fläche reibt weniger am Schnee. So saust der Schlitten schnell den Berg hinunter."
+        ],
+        [
+          "Was ist in einem weichen Teddybären?",
+          "weiche, flauschige Füllung",
+          "schwere Steine",
+          "Wasser",
+          "Ein Teddy ist mit weicher, leichter Füllung gestopft. Darum ist er knautschig und gut zum Kuscheln."
+        ],
+        [
+          "Warum ist ein Stecker außen aus Kunststoff?",
+          "Kunststoff leitet keinen Strom und schützt uns",
+          "Kunststoff ist magnetisch",
+          "Kunststoff ist durchsichtig",
+          "Strom fließt durch Metall, aber nicht durch Kunststoff. Die Hülle aus Kunststoff hält den Strom von deinen Fingern fern."
+        ],
+        [
+          "Womit sind die meisten Straßen bedeckt?",
+          "mit hartem, schwarzem Asphalt",
+          "mit weicher Watte",
+          "mit Wackelpudding",
+          "Asphalt ist hart und fest. Autos, Busse und Lastwagen können jeden Tag darüberfahren."
+        ],
+        [
+          "Welches Material kommt vom Schaf?",
+          "Wolle",
+          "Glas",
+          "Kunststoff",
+          "Schafe haben dicke, lockige Wolle. Im Sommer wird sie geschoren und zu Garn für Pullover und Schals gesponnen."
+        ],
+        [
+          "Woraus wird Glas gemacht?",
+          "aus Sand, der geschmolzen wird",
+          "aus Wolle",
+          "aus Papier",
+          "Sand wird in einem sehr heißen Ofen geschmolzen. Wenn er abkühlt, wird daraus hartes, durchsichtiges Glas."
+        ],
+        [
+          "Was davon kannst du mit den Händen in eine neue Form drücken?",
+          "Knete",
+          "einen Stein",
+          "einen Metallschlüssel",
+          "Knete ist weich. Du kannst sie drücken, rollen und drehen, bis sie die Form hat, die du willst."
+        ],
+        [
+          "Welches dieser Materialien ist natürlich und nicht vom Menschen gemacht?",
+          "Holz",
+          "Kunststoff",
+          "Glas",
+          "Holz kommt direkt von Bäumen, darum ist es ein natürliches Material. Kunststoff und Glas werden von Menschen in Fabriken hergestellt."
+        ],
+        [
+          "Woraus wird der meiste Kunststoff gemacht?",
+          "aus Erdöl tief aus dem Boden",
+          "aus Schafwolle",
+          "aus Baumblättern",
+          "Der meiste Kunststoff wird in Fabriken aus Erdöl gemacht, das tief aus der Erde hochgepumpt wird."
+        ],
+        [
+          "Welches dieser Materialien ist dehnbar?",
+          "Gummi",
+          "Glas",
+          "Stein",
+          "Ein Gummiband kann man lang ziehen, und dann schnellt es in seine Form zurück. Glas und Stein kann man nicht dehnen."
+        ],
+        [
+          "Was kann passieren, wenn eine Glasflasche auf einen harten Boden fällt?",
+          "sie kann in scharfe Scherben zerbrechen",
+          "sie springt wie ein Ball",
+          "sie schmilzt",
+          "Glas ist hart, aber zerbrechlich. Es kann in scharfe Scherben zerspringen. Lass einen Erwachsenen aufräumen."
+        ],
+        [
+          "Warum ist ein Holzlöffel gut zum Umrühren heißer Suppe?",
+          "Holz wird nicht so schnell heiß wie Metall",
+          "Holz ist durchsichtig",
+          "Holz ist magnetisch",
+          "Wärme wandert nur langsam durch Holz. Darum bleibt der Griff beim Rühren kühl genug zum Anfassen."
+        ],
+        [
+          "Was davon glänzt?",
+          "ein neuer Metalllöffel",
+          "eine Wollsocke",
+          "ein Stück Baumrinde",
+          "Glattes, sauberes Metall wirft das Licht gut zurück. Darum glänzt es. Wolle und Rinde sind matt."
         ]
       ],
       "fr": [
@@ -232,6 +535,146 @@
           "elle flotte",
           "elle fond",
           "Une pièce est petite mais lourde pour sa taille : elle coule au fond."
+        ],
+        [
+          "Pourquoi les semelles de beaucoup de chaussures sont-elles en caoutchouc ?",
+          "le caoutchouc est souple et accroche le sol",
+          "le caoutchouc est transparent",
+          "le caoutchouc est attiré par les aimants",
+          "Le caoutchouc plie quand tu marches et accroche bien le sol : tu glisses moins facilement."
+        ],
+        [
+          "Pourquoi un sac d’école est-il fait d’un tissu solide ?",
+          "il plie et ne se déchire pas facilement",
+          "il est transparent",
+          "il fond au soleil",
+          "Un tissu solide peut plier sans se déchirer : il porte des livres lourds tous les jours."
+        ],
+        [
+          "Que devient la cire d’une bougie quand elle chauffe ?",
+          "elle fond",
+          "elle se change en verre",
+          "elle gèle",
+          "La cire est solide quand elle est froide. Près de la flamme chaude, elle fond et devient liquide, puis durcit en refroidissant."
+        ],
+        [
+          "Que devient la glace quand elle se réchauffe ?",
+          "elle fond et devient de l’eau",
+          "elle se change en bois",
+          "elle devient plus dure",
+          "La glace, c’est de l’eau gelée. Quand elle se réchauffe, elle fond et redevient de l’eau liquide."
+        ],
+        [
+          "Pourquoi construit-on beaucoup de maisons en briques ?",
+          "les briques sont dures et solides",
+          "les briques sont molles et souples",
+          "les briques sont transparentes",
+          "Les briques sont dures et solides : les murs tiennent très longtemps et protègent du vent et de la pluie."
+        ],
+        [
+          "Pourquoi les casseroles sont-elles en métal ?",
+          "le métal supporte la chaleur et la laisse passer vers les aliments",
+          "le métal est transparent",
+          "le métal est doux comme la laine",
+          "Le métal ne brûle pas et ne fond pas sur la cuisinière, et la chaleur le traverse vite pour cuire les aliments."
+        ],
+        [
+          "Lequel absorbe le mieux l’eau renversée ?",
+          "une éponge",
+          "une cuillère en plastique",
+          "une clé en métal",
+          "L’éponge est pleine de petits trous qui absorbent l’eau. Le plastique et le métal n’absorbent pas l’eau."
+        ],
+        [
+          "Pourquoi le dessous d’une luge est-il lisse ?",
+          "pour glisser facilement sur la neige",
+          "pour coller à la neige",
+          "pour faire fondre la neige",
+          "Une surface lisse frotte moins sur la neige : la luge glisse vite en bas de la pente."
+        ],
+        [
+          "Qu’y a-t-il dans un ours en peluche tout doux ?",
+          "un rembourrage doux et moelleux",
+          "des pierres lourdes",
+          "de l’eau",
+          "La peluche est remplie d’un rembourrage léger et doux : elle est moelleuse et agréable à câliner."
+        ],
+        [
+          "Pourquoi l’extérieur d’une prise est-il en plastique ?",
+          "le plastique ne laisse pas passer l’électricité et nous protège",
+          "le plastique est attiré par les aimants",
+          "le plastique est transparent",
+          "L’électricité passe dans le métal mais pas dans le plastique. L’enveloppe en plastique l’empêche d’atteindre tes doigts."
+        ],
+        [
+          "De quoi la plupart des routes sont-elles recouvertes ?",
+          "de goudron noir et dur",
+          "de coton doux",
+          "de gelée",
+          "Le goudron est dur et solide : les voitures, les bus et les camions roulent dessus tous les jours."
+        ],
+        [
+          "Quel matériau vient du mouton ?",
+          "la laine",
+          "le verre",
+          "le plastique",
+          "Le mouton a une laine épaisse et frisée. On la tond en été, puis on la file pour faire des pulls et des écharpes."
+        ],
+        [
+          "Avec quoi fabrique-t-on le verre ?",
+          "avec du sable chauffé jusqu’à ce qu’il fonde",
+          "avec de la laine",
+          "avec du papier",
+          "On chauffe du sable dans un four très chaud jusqu’à ce qu’il fonde. En refroidissant, il devient du verre dur et transparent."
+        ],
+        [
+          "Lequel peux-tu écraser avec tes mains pour lui donner une nouvelle forme ?",
+          "de la pâte à modeler",
+          "un caillou",
+          "une clé en métal",
+          "La pâte à modeler est molle : tu peux l’écraser, la rouler et la tordre pour lui donner la forme que tu veux."
+        ],
+        [
+          "Lequel de ces matériaux est naturel, et pas fabriqué par l’homme ?",
+          "le bois",
+          "le plastique",
+          "le verre",
+          "Le bois vient directement des arbres : c’est un matériau naturel. Le plastique et le verre sont fabriqués dans des usines."
+        ],
+        [
+          "Avec quoi fabrique-t-on la plupart des plastiques ?",
+          "avec du pétrole venu du sous-sol",
+          "avec de la laine de mouton",
+          "avec des feuilles d’arbres",
+          "La plupart des plastiques sont fabriqués en usine avec du pétrole pompé très profond sous la terre."
+        ],
+        [
+          "Lequel de ces matériaux est élastique ?",
+          "le caoutchouc",
+          "le verre",
+          "la pierre",
+          "Un élastique en caoutchouc s’allonge quand on tire dessus, puis reprend sa forme. Le verre et la pierre ne s’étirent pas."
+        ],
+        [
+          "Que peut-il arriver si une bouteille en verre tombe sur un sol dur ?",
+          "elle peut se casser en morceaux coupants",
+          "elle rebondit comme un ballon",
+          "elle fond",
+          "Le verre est dur mais fragile. Il peut se briser en morceaux coupants : demande à un adulte de ramasser."
+        ],
+        [
+          "Pourquoi une cuillère en bois est-elle pratique pour remuer une soupe chaude ?",
+          "le bois chauffe moins vite que le métal",
+          "le bois est transparent",
+          "le bois est attiré par les aimants",
+          "La chaleur traverse lentement le bois : le manche reste assez frais pour être tenu pendant que tu remues."
+        ],
+        [
+          "Lequel brille ?",
+          "une cuillère en métal neuve",
+          "une chaussette en laine",
+          "un morceau d’écorce",
+          "Le métal lisse et propre renvoie bien la lumière : il brille. La laine et l’écorce sont ternes."
         ]
       ],
       "yo": [
@@ -304,6 +747,146 @@
           "ó máa léfòó",
           "ó máa yọ́",
           "Owó ẹyọ kéré, ṣùgbọ́n ó wúwo fún ìwọ̀n rẹ̀, nítorí náà ó máa rì sí ìsàlẹ̀."
+        ],
+        [
+          "Kí ló dé tí wọ́n fi ń fi rọ́bà ṣe ìsàlẹ̀ ọ̀pọ̀ bàtà?",
+          "rọ́bà ń tẹ̀, ó sì ń di ilẹ̀ mú",
+          "a lè ríran kọjá rọ́bà",
+          "òòfà lè fa rọ́bà",
+          "Rọ́bà ń tẹ̀ nígbà tí o bá ń rìn, ó sì ń di ilẹ̀ mú, nítorí náà o kò ní tètè yọ̀ ṣubú."
+        ],
+        [
+          "Kí ló dé tí wọ́n fi ń fi aṣọ tó lágbára ṣe àpò ilé ìwé?",
+          "ó ń tẹ̀, kò sì ní tètè ya",
+          "a lè ríran kọjá rẹ̀",
+          "ó ń yọ́ nínú oòrùn",
+          "Aṣọ tó lágbára lè tẹ̀ tàbí ká láì ya, nítorí náà ó lè gbé ìwé tó wúwo lójoojúmọ́."
+        ],
+        [
+          "Kí ló máa ń ṣẹlẹ̀ sí ìda àbẹ́là tí ó bá gbóná?",
+          "ó máa yọ́",
+          "ó máa di díńgí",
+          "ó máa dì",
+          "Ìda le nígbà tó bá tutù. Lẹ́gbẹ̀ẹ́ iná tó gbóná, ó máa yọ́ di omi, lẹ́yìn náà ó máa tún le nígbà tó bá tutù."
+        ],
+        [
+          "Kí ló máa ń ṣẹlẹ̀ sí omi dídì tí ó bá gbóná?",
+          "ó máa yọ́ di omi",
+          "ó máa di igi",
+          "ó máa túbọ̀ le",
+          "Omi tó dì ni omi dídì. Tí ó bá gbóná, ó máa yọ́, ó sì máa padà di omi."
+        ],
+        [
+          "Kí ló dé tí wọ́n fi ń fi bíríkì kọ́ ọ̀pọ̀ ilé?",
+          "bíríkì le, ó sì lágbára",
+          "bíríkì rọ̀, ó sì ń tẹ̀",
+          "a lè ríran kọjá bíríkì",
+          "Bíríkì le, ó sì lágbára, nítorí náà ògiri tí a fi bíríkì kọ́ máa ń pẹ́, ó sì ń dí atẹ́gùn àti òjò."
+        ],
+        [
+          "Kí ló dé tí wọ́n fi ń fi irin ṣe ìkòkò ìdáná?",
+          "irin lè fara da ooru, ó sì ń jẹ́ kí ooru dé oúnjẹ",
+          "a lè ríran kọjá irin",
+          "irin rọ̀ bí irun àgùntàn",
+          "Irin kì í jóná, kì í sì í yọ́ lórí ààrò, ooru sì ń yára gba inú rẹ̀ kọjá láti se oúnjẹ."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló dára jù láti fa omi tó dà sílẹ̀ mu?",
+          "kànìnkànìn",
+          "ṣíbí pílásítíìkì",
+          "kọ́kọ́rọ́ irin",
+          "Kànìnkànìn kún fún ihò kéékèèké tó ń fa omi mu. Pílásítíìkì àti irin kì í fa omi mu."
+        ],
+        [
+          "Kí ló dé tí ìsàlẹ̀ ọkọ̀ yìnyín fi máa ń dán?",
+          "kí ó lè yọ̀ wọ́ọ́rọ́wọ́ lórí yìnyín",
+          "kí ó lè lẹ̀ mọ́ yìnyín",
+          "kí ó lè yọ́ yìnyín",
+          "Ojú tó dán kì í ha yìnyín púpọ̀, nítorí náà ọkọ̀ yìnyín ń yára yọ̀ sísàlẹ̀ òkè."
+        ],
+        [
+          "Kí ló wà nínú ọmọlangidi bíà tó rọ̀?",
+          "òwú rírọ̀ fẹ́lẹ́fẹ́lẹ́",
+          "òkúta tó wúwo",
+          "omi",
+          "Wọ́n fi òwú rírọ̀ tó fúyẹ́ kún inú ọmọlangidi bíà, nítorí náà ó rọ̀, ó sì dùn láti gbá mọ́ra."
+        ],
+        [
+          "Kí ló dé tí wọ́n fi ń fi pílásítíìkì ṣe ìta pọ́ọ̀gù iná?",
+          "pílásítíìkì kì í jẹ́ kí iná mànàmáná kọjá, ó sì ń dáàbò bò wá",
+          "òòfà lè fa pílásítíìkì",
+          "a lè ríran kọjá pílásítíìkì",
+          "Iná mànàmáná lè gba inú irin kọjá, ṣùgbọ́n kò lè gba inú pílásítíìkì. Pílásítíìkì náà kò jẹ́ kí ó dé ìka rẹ."
+        ],
+        [
+          "Kí ni wọ́n fi bo ọ̀pọ̀ jùlọ ojú ọ̀nà?",
+          "ọ̀dà dúdú tó le",
+          "òwú rírọ̀",
+          "jẹ́lì",
+          "Ọ̀dà le, ó sì lágbára, nítorí náà mọ́tò, bọ́ọ̀sì àti ọkọ̀ akẹ́rù lè máa rìn lórí rẹ̀ lójoojúmọ́."
+        ],
+        [
+          "Ohun èlò wo ló ti ara àgùntàn wá?",
+          "irun àgùntàn",
+          "díńgí",
+          "pílásítíìkì",
+          "Àgùntàn ní irun tó nípọn, tó ká. Wọ́n ń gé e ní ìgbà ẹ̀ẹ̀rùn, wọ́n sì ń ran án di òwú fún ṣẹ́ẹ̀tì òtútù àti ìborùn."
+        ],
+        [
+          "Láti inú kí ni wọ́n ti ń ṣe díńgí?",
+          "iyanrìn tí wọ́n yọ́ nínú iná",
+          "irun àgùntàn",
+          "bébà",
+          "Wọ́n ń ki iyanrìn bọ inú ààrò tó gbóná gan-an títí yóò fi yọ́. Nígbà tó bá tutù, ó máa di díńgí líle tí a lè ríran kọjá."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí lo lè fi ọwọ́ tẹ̀ di ìrísí tuntun?",
+          "amọ̀ ìṣeré",
+          "òkúta",
+          "kọ́kọ́rọ́ irin",
+          "Amọ̀ ìṣeré rọ̀, nítorí náà o lè tẹ̀ ẹ́, yí i, kí o sì lọ́ ọ di ìrísí èyíkéyìí tí o fẹ́."
+        ],
+        [
+          "Èwo nínú àwọn ohun èlò wọ̀nyí ló jẹ́ ti àdáyébá, tí ènìyàn kò ṣe?",
+          "igi",
+          "pílásítíìkì",
+          "díńgí",
+          "Igi wá tààrà láti ara àwọn igi, nítorí náà ohun èlò àdáyébá ni. Ènìyàn ló ń ṣe pílásítíìkì àti díńgí ní ilé iṣẹ́."
+        ],
+        [
+          "Láti inú kí ni wọ́n ti ń ṣe ọ̀pọ̀ jùlọ pílásítíìkì?",
+          "epo rọ̀bì láti inú ilẹ̀ jíjìn",
+          "irun àgùntàn",
+          "ewé igi",
+          "Wọ́n ń ṣe ọ̀pọ̀ jùlọ pílásítíìkì ní ilé iṣẹ́ láti inú epo rọ̀bì tí wọ́n fà jáde láti inú ilẹ̀ jíjìn."
+        ],
+        [
+          "Èwo nínú àwọn ohun èlò wọ̀nyí ló ṣeé fà gùn?",
+          "rọ́bà",
+          "díńgí",
+          "òkúta",
+          "O lè fa rọ́bà gùn, lẹ́yìn náà ó máa padà sí ìrísí rẹ̀. Díńgí àti òkúta kò ṣeé fà gùn."
+        ],
+        [
+          "Kí ló lè ṣẹlẹ̀ tí ìgò díńgí bá jábọ́ sórí ilẹ̀ líle?",
+          "ó lè fọ́ sí wẹ́wẹ́ tó mú",
+          "ó máa ta sókè bí bọ́ọ̀lù",
+          "ó máa yọ́",
+          "Díńgí le, ṣùgbọ́n ó máa ń tètè fọ́. Ó lè fọ́ sí wẹ́wẹ́ tó mú, nítorí náà jẹ́ kí àgbàlagbà kó o."
+        ],
+        [
+          "Kí ló dé tí ṣíbí igi fi dára fún rírú ọbẹ̀ gbígbóná?",
+          "igi kì í tètè gbóná bí irin",
+          "a lè ríran kọjá igi",
+          "òòfà lè fa igi",
+          "Ooru kì í yára gba inú igi kọjá, nítorí náà ọwọ́ ṣíbí náà kì í gbóná jù láti dì mú nígbà tí o bá ń rú u."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló ń dán?",
+          "ṣíbí irin tuntun",
+          "ìbọ̀sẹ̀ irun àgùntàn",
+          "èèpo igi",
+          "Irin tó mọ́, tó sì dán ń tan ìmọ́lẹ̀ padà dáadáa, nítorí náà ó ń dán. Irun àgùntàn àti èèpo igi kì í dán."
         ]
       ]
     }

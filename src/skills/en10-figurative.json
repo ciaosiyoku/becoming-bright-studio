@@ -1,0 +1,274 @@
+{
+  "id": "en10-figurative",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 202,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "sun",
+      "school",
+      "sun-small-cloud",
+      "snake",
+      "animal-honeybee",
+      "footprints",
+      "clock",
+      "tree",
+      "warning",
+      "animal-bear",
+      "animal-mouse",
+      "tv",
+      "glowstar",
+      "fire",
+      "animal-parrot",
+      "snow",
+      "paws",
+      "seedling",
+      "bell",
+      "animal-frog",
+      "cloud",
+      "sun-large-cloud",
+      "computer",
+      "wave",
+      "fruit-lemon",
+      "animal-lion",
+      "music",
+      "moon",
+      "house",
+      "footprints"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which figure of speech is this? “Her smile was as bright as the sun.”",
+          "simile",
+          "metaphor",
+          "onomatopoeia",
+          "It compares two things using “like” or “as”, so it is a simile."
+        ],
+        [
+          "Which figure of speech is this? “The classroom was a zoo.”",
+          "metaphor",
+          "simile",
+          "onomatopoeia",
+          "It says one thing is another, without “like” or “as”, so it is a metaphor."
+        ],
+        [
+          "Which figure of speech is this? “The sun smiled down on us.”",
+          "personification",
+          "simile",
+          "onomatopoeia",
+          "It gives a human action or feeling to something that is not human, so it is personification."
+        ],
+        [
+          "Which figure of speech is this? “Seven slippery snakes slid silently.”",
+          "alliteration",
+          "simile",
+          "personification",
+          "Several nearby words start with the same sound, so it is alliteration."
+        ],
+        [
+          "Which figure of speech is this? “Buzz! went the bee.”",
+          "onomatopoeia",
+          "metaphor",
+          "simile",
+          "The word sounds like the noise it describes, so it is onomatopoeia."
+        ],
+        [
+          "Which figure of speech is this? “He ran like the wind.”",
+          "simile",
+          "personification",
+          "onomatopoeia",
+          "It compares two things using “like” or “as”, so it is a simile."
+        ],
+        [
+          "Which figure of speech is this? “Time is a thief.”",
+          "metaphor",
+          "simile",
+          "onomatopoeia",
+          "It says one thing is another, without “like” or “as”, so it is a metaphor."
+        ],
+        [
+          "Which figure of speech is this? “The leaves danced in the breeze.”",
+          "personification",
+          "alliteration",
+          "simile",
+          "It gives a human action or feeling to something that is not human, so it is personification."
+        ],
+        [
+          "Which figure of speech is this? “Crash! The plates fell to the floor.”",
+          "onomatopoeia",
+          "metaphor",
+          "personification",
+          "The word sounds like the noise it describes, so it is onomatopoeia."
+        ],
+        [
+          "Which figure of speech is this? “Big brown bears bounce on beds.”",
+          "alliteration",
+          "metaphor",
+          "onomatopoeia",
+          "Several nearby words start with the same sound, so it is alliteration."
+        ],
+        [
+          "Which figure of speech is this? “The baby was as quiet as a mouse.”",
+          "simile",
+          "metaphor",
+          "onomatopoeia",
+          "It compares two things using “like” or “as”, so it is a simile."
+        ],
+        [
+          "Which figure of speech is this? “My brother is a couch potato.”",
+          "metaphor",
+          "simile",
+          "onomatopoeia",
+          "It says one thing is another, without “like” or “as”, so it is a metaphor."
+        ],
+        [
+          "Which figure of speech is this? “The stars winked at us.”",
+          "personification",
+          "simile",
+          "onomatopoeia",
+          "It gives a human action or feeling to something that is not human, so it is personification."
+        ],
+        [
+          "Which figure of speech is this? “The bacon sizzled in the pan.”",
+          "onomatopoeia",
+          "simile",
+          "metaphor",
+          "The word sounds like the noise it describes, so it is onomatopoeia."
+        ],
+        [
+          "Which figure of speech is this? “Peter’s pet parrot pecked peanuts.”",
+          "alliteration",
+          "simile",
+          "personification",
+          "Several nearby words start with the same sound, so it is alliteration."
+        ],
+        [
+          "Which figure of speech is this? “The snow was a white blanket over the town.”",
+          "metaphor",
+          "simile",
+          "onomatopoeia",
+          "It says one thing is another, without “like” or “as”, so it is a metaphor."
+        ],
+        [
+          "Which figure of speech is this? “The cat’s eyes shone like lamps.”",
+          "simile",
+          "metaphor",
+          "alliteration",
+          "It compares two things using “like” or “as”, so it is a simile."
+        ],
+        [
+          "Which figure of speech is this? “The flowers nodded their heads in the sun.”",
+          "personification",
+          "simile",
+          "onomatopoeia",
+          "It gives a human action or feeling to something that is not human, so it is personification."
+        ],
+        [
+          "Which figure of speech is this? “The clock went tick-tock all night.”",
+          "onomatopoeia",
+          "simile",
+          "metaphor",
+          "The word sounds like the noise it describes, so it is onomatopoeia."
+        ],
+        [
+          "Which figure of speech is this? “Funny frogs found five flies.”",
+          "alliteration",
+          "simile",
+          "metaphor",
+          "Several nearby words start with the same sound, so it is alliteration."
+        ],
+        [
+          "Which figure of speech is this? “The pillow was as soft as a cloud.”",
+          "simile",
+          "personification",
+          "onomatopoeia",
+          "It compares two things using “like” or “as”, so it is a simile."
+        ],
+        [
+          "Which figure of speech is this? “The playground was an oven in the summer heat.”",
+          "metaphor",
+          "simile",
+          "onomatopoeia",
+          "It says one thing is another, without “like” or “as”, so it is a metaphor."
+        ],
+        [
+          "Which figure of speech is this? “My computer refused to work this morning.”",
+          "personification",
+          "simile",
+          "alliteration",
+          "It gives a human action or feeling to something that is not human, so it is personification."
+        ],
+        [
+          "Which figure of speech is this? “Splash! She jumped into the pool.”",
+          "onomatopoeia",
+          "simile",
+          "metaphor",
+          "The word sounds like the noise it describes, so it is onomatopoeia."
+        ],
+        [
+          "Which figure of speech is this? “Lucy loves lemon lollies.”",
+          "alliteration",
+          "personification",
+          "simile",
+          "Several nearby words start with the same sound, so it is alliteration."
+        ],
+        [
+          "Which figure of speech is this? “He was as brave as a lion.”",
+          "simile",
+          "metaphor",
+          "alliteration",
+          "It compares two things using “like” or “as”, so it is a simile."
+        ],
+        [
+          "Which figure of speech is this? “Her words were music to my ears.”",
+          "metaphor",
+          "simile",
+          "onomatopoeia",
+          "It says one thing is another, without “like” or “as”, so it is a metaphor."
+        ],
+        [
+          "Which figure of speech is this? “The moon peeped shyly from behind a cloud.”",
+          "personification",
+          "onomatopoeia",
+          "alliteration",
+          "It gives a human action or feeling to something that is not human, so it is personification."
+        ],
+        [
+          "Which figure of speech is this? “The doorbell went ding-dong.”",
+          "onomatopoeia",
+          "personification",
+          "metaphor",
+          "The word sounds like the noise it describes, so it is onomatopoeia."
+        ],
+        [
+          "Which figure of speech is this? “Dan’s dog dug deep ditches.”",
+          "alliteration",
+          "metaphor",
+          "onomatopoeia",
+          "Several nearby words start with the same sound, so it is alliteration."
+        ]
+      ]
+    }
+  },
+  "emoji": "sparkles",
+  "example": {
+    "i": 0,
+    "q_en": "Which figure of speech is this? “Her smile was as bright as the sun.”",
+    "answer_en": "simile",
+    "why_en": "It compares two things using “like” or “as”, so it is a simile."
+  },
+  "text": {
+    "en": {
+      "title": "Figures of speech",
+      "teach": "Writers paint pictures with words. A simile uses like or as, a metaphor says one thing is another, personification makes things act human, alliteration repeats first sounds, and onomatopoeia sounds like the noise.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

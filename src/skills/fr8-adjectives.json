@@ -1,0 +1,274 @@
+{
+  "id": "fr8-adjectives",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 3,
+  "ages": [
+    "8-9"
+  ],
+  "order": 26,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "house",
+      "paws",
+      "paws",
+      "seedling",
+      "scarf",
+      "bus",
+      "framed",
+      "snowflake",
+      "girl",
+      "gloves",
+      "fruit-apple",
+      "animal-mouse",
+      "paws",
+      "party",
+      "party",
+      "girl",
+      "teddy",
+      "memo",
+      "memo",
+      "memo",
+      "palette",
+      "fruit-apple",
+      "paws",
+      "house",
+      "ribbon",
+      "palette",
+      "shoe",
+      "cloud",
+      "snow",
+      "snake"
+    ],
+    "bank": {
+      "en": [
+        [
+          "une ___ maison (petit)",
+          "petite",
+          "petit",
+          "petits",
+          "Maison is feminine, so petit adds an -e."
+        ],
+        [
+          "un chat ___ (noir)",
+          "noir",
+          "noire",
+          "noirs",
+          "Chat is masculine and singular, so noir does not change."
+        ],
+        [
+          "des ___ chiens (petit)",
+          "petits",
+          "petites",
+          "petite",
+          "Chiens is masculine and plural, so petit adds an -s."
+        ],
+        [
+          "des fleurs ___ (vert)",
+          "vertes",
+          "verts",
+          "verte",
+          "Fleurs is feminine and plural, so vert adds -es."
+        ],
+        [
+          "Which is correct?",
+          "un pull rouge",
+          "un rouge pull",
+          "un pull rouges",
+          "Colours go after the noun, and rouge already ends in -e."
+        ],
+        [
+          "Which is correct?",
+          "une voiture bleue",
+          "une bleue voiture",
+          "une voiture bleu",
+          "Voiture is feminine, so bleu adds -e, and the colour comes after."
+        ],
+        [
+          "Which is correct?",
+          "des yeux verts",
+          "des verts yeux",
+          "des yeux vert",
+          "Yeux is plural, so vert adds -s, and the colour comes after."
+        ],
+        [
+          "une robe ___ (blanc)",
+          "blanche",
+          "blanc",
+          "blancs",
+          "Blanc has a special feminine form: blanche."
+        ],
+        [
+          "une ___ fille (grand)",
+          "grande",
+          "grand",
+          "grands",
+          "Fille is feminine, so grand adds an -e."
+        ],
+        [
+          "deux ___ garçons (grand)",
+          "grands",
+          "grandes",
+          "grand",
+          "Garçons is masculine and plural, so grand adds an -s."
+        ],
+        [
+          "Which is correct?",
+          "une pomme rouge",
+          "une pomme rougee",
+          "une pomme rouges",
+          "Rouge already ends in -e, so it does not add another one for a feminine noun."
+        ],
+        [
+          "des souris ___ (gris)",
+          "grises",
+          "gris",
+          "grise",
+          "Souris is feminine and here it is plural, so gris becomes grises."
+        ],
+        [
+          "un ___ chien (petit)",
+          "petit",
+          "petite",
+          "petites",
+          "Chien is masculine and singular, so petit does not change."
+        ],
+        [
+          "Les filles sont ___. (content)",
+          "contentes",
+          "contents",
+          "contente",
+          "Les filles is feminine plural, so content adds -es."
+        ],
+        [
+          "Les garçons sont ___. (content)",
+          "contents",
+          "contentes",
+          "content",
+          "Les garçons is masculine plural, so content adds -s."
+        ],
+        [
+          "Ma mère est ___. (grand)",
+          "grande",
+          "grand",
+          "grands",
+          "Ma mère is feminine and singular, so grand adds -e."
+        ],
+        [
+          "Mon père est ___. (petit)",
+          "petit",
+          "petite",
+          "petits",
+          "Mon père is masculine and singular, so petit does not change."
+        ],
+        [
+          "What do you add to most adjectives for a feminine noun?",
+          "-e",
+          "-s",
+          "-x",
+          "Most adjectives add -e for a feminine noun: petit, petite."
+        ],
+        [
+          "What do you add to most adjectives for a masculine plural noun?",
+          "-s",
+          "-e",
+          "-es",
+          "For masculine plural, add -s: petits."
+        ],
+        [
+          "What do you add to most adjectives for a feminine plural noun?",
+          "-es",
+          "-x",
+          "-e",
+          "For feminine plural, add -e and -s: petites."
+        ],
+        [
+          "Where do colours usually go in French?",
+          "after the noun",
+          "before the noun",
+          "before le or la",
+          "Colours follow the noun: un chat noir."
+        ],
+        [
+          "How do you say ’a green apple’?",
+          "une pomme verte",
+          "une verte pomme",
+          "une pomme vert",
+          "Pomme is feminine, so vert becomes verte, after the noun."
+        ],
+        [
+          "How do you say ’black cats’?",
+          "des chats noirs",
+          "des noirs chats",
+          "des chats noires",
+          "Chats is masculine plural, so noir adds -s, after the noun."
+        ],
+        [
+          "How do you say ’a small table’?",
+          "une petite table",
+          "une table petit",
+          "un petit table",
+          "Table is feminine, so we use une and petite."
+        ],
+        [
+          "une jupe ___ (bleu)",
+          "bleue",
+          "bleu",
+          "bleus",
+          "Jupe is feminine and singular, so bleu adds -e."
+        ],
+        [
+          "des crayons ___ (bleu)",
+          "bleus",
+          "bleues",
+          "bleu",
+          "Crayons is masculine plural, so bleu adds -s."
+        ],
+        [
+          "des chaussures ___ (noir)",
+          "noires",
+          "noirs",
+          "noir",
+          "Chaussures is feminine plural, so noir adds -es."
+        ],
+        [
+          "Le ciel est ___. (gris)",
+          "gris",
+          "grise",
+          "grises",
+          "Le ciel is masculine and singular, so gris stays the same."
+        ],
+        [
+          "La neige est ___. (blanc)",
+          "blanche",
+          "blanc",
+          "blancs",
+          "La neige is feminine, so blanc becomes blanche."
+        ],
+        [
+          "Le serpent est ___. (vert)",
+          "vert",
+          "verte",
+          "vertes",
+          "Le serpent is masculine and singular, so vert does not change."
+        ]
+      ]
+    }
+  },
+  "emoji": "palette",
+  "example": {
+    "i": 0,
+    "q_en": "une ___ maison (petit)",
+    "answer_en": "petite",
+    "why_en": "Maison is feminine, so petit adds an -e."
+  },
+  "text": {
+    "en": {
+      "title": "Adjective agreement",
+      "teach": "Adjectives change to match the noun: add -e for feminine and -s for plural. Most colours come after the noun: un petit chat, une petite souris, des chats noirs.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

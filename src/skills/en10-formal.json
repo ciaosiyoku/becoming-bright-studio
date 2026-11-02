@@ -1,0 +1,274 @@
+{
+  "id": "en10-formal",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 204,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "speech",
+      "memo",
+      "scroll",
+      "girl",
+      "chart",
+      "puzzle",
+      "memo",
+      "clock",
+      "radio",
+      "tv",
+      "gift",
+      "bell",
+      "backpack",
+      "telephone",
+      "calendar",
+      "heart",
+      "medal",
+      "openbook",
+      "chart",
+      "backpack",
+      "chart",
+      "thermometer",
+      "computer",
+      "warning",
+      "gear",
+      "thermometer",
+      "sun",
+      "bus",
+      "school",
+      "letters"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which is the most formal way to ask for help?",
+          "Could you please assist me?",
+          "Gimme a hand, yeah?",
+          "Help me out, mate.",
+          "“Could you please assist me?” is polite and uses formal words, with no slang."
+        ],
+        [
+          "Which is the most formal greeting for a letter to a head teacher?",
+          "Dear Mrs Patel,",
+          "Hiya Mrs P!",
+          "Hey there,",
+          "Formal letters begin with “Dear” followed by the person’s title and surname."
+        ],
+        [
+          "A letter starts “Dear Sir or Madam”. Which ending is correct and formal?",
+          "Yours faithfully,",
+          "See ya!",
+          "Cheers,",
+          "When you do not know the person’s name, a formal letter ends with “Yours faithfully”."
+        ],
+        [
+          "Which is the most formal way to say “kids”?",
+          "children",
+          "kiddos",
+          "nippers",
+          "“Children” is the standard, formal word. The others are slang."
+        ],
+        [
+          "Which is the most formal way to say “loads of”?",
+          "a great deal of",
+          "tons of",
+          "heaps of",
+          "“A great deal of” suits formal writing. “Tons of” and “heaps of” are chatty."
+        ],
+        [
+          "Which is the most formal way to say “find out”?",
+          "discover",
+          "suss out",
+          "twig",
+          "“Discover” is formal. “Suss out” and “twig” are informal slang."
+        ],
+        [
+          "Which is the most formal way to finish “Where can I ___ a form?”",
+          "obtain",
+          "grab",
+          "nab",
+          "“Obtain” is a formal word for get. “Grab” and “nab” are casual."
+        ],
+        [
+          "Which is the most formal apology?",
+          "We apologise for the delay.",
+          "Sorry ’bout that!",
+          "Oops, my bad.",
+          "“We apologise for the delay” uses full words and no slang, so it is formal."
+        ],
+        [
+          "Which sentence is written in formal English?",
+          "I am writing to complain about the noise.",
+          "I’m dead annoyed about the noise.",
+          "The noise is doing my head in.",
+          "Formal English avoids slang like “dead annoyed” and “doing my head in”."
+        ],
+        [
+          "Which sentence is informal?",
+          "That film was awesome!",
+          "The film was excellent.",
+          "The film was most enjoyable.",
+          "“Awesome” is a chatty word, so this sentence is informal."
+        ],
+        [
+          "Which is the most formal way to say “buy”?",
+          "purchase",
+          "pick up",
+          "grab",
+          "“Purchase” is the formal word for buy."
+        ],
+        [
+          "Which is the most formal way to say “start”?",
+          "commence",
+          "kick off",
+          "get going",
+          "“Commence” is formal. “Kick off” and “get going” are everyday phrases."
+        ],
+        [
+          "Which is the most formal way to say “need”?",
+          "require",
+          "gotta have",
+          "be dying for",
+          "“Require” is the formal word for need."
+        ],
+        [
+          "Which is the most formal way to say “let us know”?",
+          "inform us",
+          "give us a shout",
+          "drop us a line",
+          "“Inform us” is formal. The other two are friendly, casual phrases."
+        ],
+        [
+          "Which sentence is the most formal?",
+          "The meeting has been postponed.",
+          "The meeting’s off for now.",
+          "We’ve ditched the meeting till later.",
+          "“Postponed” is a formal word and the sentence has no slang or shortened words."
+        ],
+        [
+          "Which is the most formal way to say “Thanks a lot!”?",
+          "Thank you very much.",
+          "Ta!",
+          "Cheers, mate!",
+          "“Thank you very much” is the formal way to thank someone."
+        ],
+        [
+          "Which is the best way to begin a formal speech?",
+          "Good afternoon, everyone.",
+          "Hiya, guys!",
+          "Alright, you lot?",
+          "“Good afternoon, everyone” is a polite, formal greeting."
+        ],
+        [
+          "Which is the most formal way to finish “The test was ___ difficult”?",
+          "somewhat",
+          "kinda",
+          "sorta",
+          "“Somewhat” is formal. “Kinda” and “sorta” are slang spellings."
+        ],
+        [
+          "Which word would not suit a formal report?",
+          "gonna",
+          "therefore",
+          "however",
+          "“Gonna” is slang for “going to”, so it does not belong in formal writing."
+        ],
+        [
+          "Which word would not suit formal writing?",
+          "stuff",
+          "items",
+          "equipment",
+          "“Stuff” is a casual word. “Items” or “equipment” would be used instead."
+        ],
+        [
+          "Which is the most formal way to finish “Prices have ___”?",
+          "increased",
+          "shot up",
+          "gone through the roof",
+          "“Increased” is formal. The other two are lively, informal phrases."
+        ],
+        [
+          "Which is the most formal way to say “check out”?",
+          "examine",
+          "have a squiz at",
+          "eyeball",
+          "“Examine” is the formal word. The others are slang."
+        ],
+        [
+          "Which ending suits an email to a business you do not know?",
+          "Kind regards,",
+          "Luv ya!",
+          "Laters!",
+          "“Kind regards” is a polite, formal way to end an email."
+        ],
+        [
+          "Which notice is the most formal?",
+          "We cannot accept late entries.",
+          "We can’t take late stuff.",
+          "No late ones, sorry!",
+          "It uses the full form “cannot” and no slang, so it is the most formal."
+        ],
+        [
+          "Which is the most formal way to say “sort out”?",
+          "repair",
+          "fix up",
+          "patch up",
+          "“Repair” is the formal word for mending something."
+        ],
+        [
+          "Which sentence suits a science report?",
+          "The water was heated to 50 °C.",
+          "We got the water nice and hot.",
+          "The water got super hot.",
+          "A science report uses formal, exact language, such as a measured temperature."
+        ],
+        [
+          "Which greeting is the most informal?",
+          "Hey!",
+          "Good morning.",
+          "Dear Mr Jones,",
+          "“Hey!” is a casual greeting used with friends."
+        ],
+        [
+          "Which is the most formal way to finish “The bus will ___ at noon”?",
+          "depart",
+          "head off",
+          "scoot off",
+          "“Depart” is the formal word for leave."
+        ],
+        [
+          "Which is the most formal way to finish “Please ___ the meeting”?",
+          "attend",
+          "show up at",
+          "turn up at",
+          "“Attend” is formal. “Show up” and “turn up” are everyday phrases."
+        ],
+        [
+          "Which word would not suit a formal letter?",
+          "awesome",
+          "grateful",
+          "sincerely",
+          "“Awesome” is informal. “Grateful” and “sincerely” are often used in formal letters."
+        ]
+      ]
+    }
+  },
+  "emoji": "gradcap",
+  "example": {
+    "i": 0,
+    "q_en": "Which is the most formal way to ask for help?",
+    "answer_en": "Could you please assist me?",
+    "why_en": "“Could you please assist me?” is polite and uses formal words, with no slang."
+  },
+  "text": {
+    "en": {
+      "title": "Formal and informal",
+      "teach": "Formal English is used in letters, reports and speeches: full words, no slang (I am writing to ask…). Informal English is for friends (Hiya, guess what!).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

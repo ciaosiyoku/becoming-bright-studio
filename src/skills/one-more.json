@@ -3,6 +3,10 @@
   "kind": "one-more",
   "subject": "numbers",
   "stage": 1,
+  "ages": [
+    "4-5",
+    "6-7"
+  ],
   "order": 4,
   "params": {
     "max": 10

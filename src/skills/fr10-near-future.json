@@ -1,0 +1,274 @@
+{
+  "id": "fr10-near-future",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 5,
+  "ages": [
+    "10-12"
+  ],
+  "order": 32,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "game",
+      "map",
+      "fruit-apple",
+      "girl",
+      "tv",
+      "road",
+      "wave",
+      "airplane",
+      "books",
+      "music",
+      "moon",
+      "cake",
+      "memo",
+      "road",
+      "sun",
+      "rain",
+      "house",
+      "beach",
+      "umbrella",
+      "cookie",
+      "bus",
+      "trophy",
+      "telephone",
+      "clock",
+      "letters",
+      "globe",
+      "party",
+      "gift",
+      "seedling",
+      "calendar"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Je ___ jouer au foot.",
+          "vais",
+          "va",
+          "vas",
+          "The near future starts with aller. With je, it is je vais."
+        ],
+        [
+          "Demain, nous ___ visiter Paris.",
+          "allons",
+          "allez",
+          "vont",
+          "With nous, aller becomes allons, then comes the infinitive visiter."
+        ],
+        [
+          "Tu vas ___ une pomme.",
+          "manger",
+          "mange",
+          "mangé",
+          "After the form of aller, the second verb stays in the infinitive: manger."
+        ],
+        [
+          "Elle va ___ ses amis.",
+          "voir",
+          "voit",
+          "vu",
+          "After va, use the infinitive voir (to see)."
+        ],
+        [
+          "Ils vont ___ la télé.",
+          "regarder",
+          "regardent",
+          "regardé",
+          "After vont, the verb stays in the infinitive: regarder."
+        ],
+        [
+          "Vous allez ___ le train.",
+          "prendre",
+          "prenez",
+          "pris",
+          "After allez, use the infinitive prendre (to take)."
+        ],
+        [
+          "What does Je vais nager mean?",
+          "I am going to swim",
+          "I swam",
+          "I am swimming now",
+          "Je vais plus an infinitive talks about the future: I am going to swim."
+        ],
+        [
+          "What does Nous allons partir mean?",
+          "We are going to leave",
+          "We left",
+          "We leave every day",
+          "Nous allons plus partir means we are going to leave."
+        ],
+        [
+          "How do you say He is going to read in French?",
+          "Il va lire.",
+          "Il lit.",
+          "Il a lu.",
+          "Il va plus the infinitive lire means he is going to read. Il lit is now and il a lu is the past."
+        ],
+        [
+          "How do you say They are going to sing in French?",
+          "Ils vont chanter.",
+          "Ils chantent.",
+          "Ils vont chantent.",
+          "Use ils vont plus the infinitive chanter."
+        ],
+        [
+          "Which sentence talks about the future?",
+          "Je vais dormir.",
+          "Je dors.",
+          "J’ai dormi.",
+          "Je vais dormir means I am going to sleep. The others are present and past."
+        ],
+        [
+          "Which sentence is correct?",
+          "On va faire un gâteau.",
+          "On va fait un gâteau.",
+          "On vont faire un gâteau.",
+          "On uses va, and the second verb is the infinitive faire."
+        ],
+        [
+          "Ce soir, je vais ___ mes devoirs.",
+          "faire",
+          "fais",
+          "fait",
+          "After je vais, use the infinitive faire."
+        ],
+        [
+          "Samedi, mes parents ___ acheter un vélo.",
+          "vont",
+          "va",
+          "allons",
+          "Mes parents means they, so aller becomes vont."
+        ],
+        [
+          "Il va ___ beau demain.",
+          "faire",
+          "fait",
+          "va",
+          "Weather uses faire. In the near future: il va faire beau."
+        ],
+        [
+          "Il va ___ cet après-midi.",
+          "pleuvoir",
+          "pleut",
+          "plu",
+          "Pleuvoir means to rain. After il va, use the infinitive."
+        ],
+        [
+          "Tu vas ___ ta chambre.",
+          "ranger",
+          "ranges",
+          "rangé",
+          "After tu vas, use the infinitive ranger (to tidy)."
+        ],
+        [
+          "Nous allons ___ à la plage.",
+          "aller",
+          "allons",
+          "allé",
+          "Aller can follow itself: nous allons aller means we are going to go."
+        ],
+        [
+          "Je ne vais pas ___.",
+          "sortir",
+          "sors",
+          "sorti",
+          "Ne … pas goes around vais, and the second verb stays in the infinitive."
+        ],
+        [
+          "Which sentence is correct?",
+          "Je ne vais pas manger.",
+          "Je ne vais manger pas.",
+          "Je vais pas ne manger.",
+          "Ne … pas goes around the form of aller: je ne vais pas manger."
+        ],
+        [
+          "Elles vont ___ le bus.",
+          "prendre",
+          "prennent",
+          "pris",
+          "After vont, use the infinitive prendre."
+        ],
+        [
+          "What does Vous allez gagner mean?",
+          "You are going to win",
+          "You won",
+          "You are winning now",
+          "Vous allez plus gagner means you are going to win."
+        ],
+        [
+          "Je vais ___ mon grand-père.",
+          "appeler",
+          "appelle",
+          "appelé",
+          "After je vais, use the infinitive appeler (to call)."
+        ],
+        [
+          "How do you say We are going to eat at midday in French?",
+          "Nous allons manger à midi.",
+          "Nous allons mangé à midi.",
+          "Nous avons mangé à midi.",
+          "Use nous allons plus the infinitive manger. Nous avons mangé is the past."
+        ],
+        [
+          "Which word is the infinitive in Tu vas écrire une lettre?",
+          "écrire",
+          "vas",
+          "lettre",
+          "Écrire (to write) is the infinitive that comes after vas."
+        ],
+        [
+          "L’été prochain, nous ___ voyager en Espagne.",
+          "allons",
+          "avons",
+          "sommes",
+          "The near future uses aller: nous allons voyager."
+        ],
+        [
+          "How do you say She is going to dance in French?",
+          "Elle va danser.",
+          "Elle a dansé.",
+          "Elle danse.",
+          "Elle va plus danser means she is going to dance."
+        ],
+        [
+          "Mon frère va ___ quinze ans.",
+          "avoir",
+          "a",
+          "être",
+          "In French you have an age, so you use avoir: il va avoir quinze ans."
+        ],
+        [
+          "Les enfants vont ___ dans le jardin.",
+          "jouer",
+          "jouent",
+          "joué",
+          "After vont, use the infinitive jouer."
+        ],
+        [
+          "Qu’est-ce que tu vas ___ ce week-end ?",
+          "faire",
+          "fais",
+          "fait",
+          "Qu’est-ce que tu vas faire ? means What are you going to do?"
+        ]
+      ]
+    }
+  },
+  "emoji": "calendar",
+  "example": {
+    "i": 0,
+    "q_en": "Je ___ jouer au foot.",
+    "answer_en": "vais",
+    "why_en": "The near future starts with aller. With je, it is je vais."
+  },
+  "text": {
+    "en": {
+      "title": "The near future",
+      "teach": "To say what is going to happen, use aller in the present plus a verb in the infinitive: Je vais manger. (I am going to eat.)",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "id": "fr8-hobbies",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 3,
+  "ages": [
+    "8-9"
+  ],
+  "order": 30,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "game",
+      "music",
+      "music",
+      "road",
+      "wave",
+      "trophy",
+      "music",
+      "game",
+      "party",
+      "medal",
+      "music",
+      "road",
+      "speech",
+      "notes",
+      "openbook",
+      "palette",
+      "trophy",
+      "music",
+      "mountain",
+      "speech",
+      "books",
+      "snow",
+      "joystick",
+      "medal",
+      "animal-horse",
+      "speech",
+      "speech",
+      "notes",
+      "trophy",
+      "music"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Je joue ___ football.",
+          "au",
+          "du",
+          "de la",
+          "For a sport we use jouer à. À + le becomes au."
+        ],
+        [
+          "Je joue ___ piano.",
+          "du",
+          "au",
+          "à la",
+          "For an instrument we use jouer de. De + le becomes du."
+        ],
+        [
+          "Je joue ___ guitare.",
+          "de la",
+          "à la",
+          "du",
+          "Guitare is a feminine instrument, so jouer de la."
+        ],
+        [
+          "Je fais ___ vélo.",
+          "du",
+          "au",
+          "de la",
+          "We say faire du vélo. Vélo is masculine, so de + le becomes du."
+        ],
+        [
+          "Je fais ___ natation.",
+          "de la",
+          "du",
+          "au",
+          "Natation is feminine, so we say faire de la natation."
+        ],
+        [
+          "Tu joues ___ tennis ?",
+          "au",
+          "du",
+          "de la",
+          "Tennis is a masculine sport, so jouer au."
+        ],
+        [
+          "Il joue ___ violon.",
+          "du",
+          "au",
+          "de la",
+          "Violon is a masculine instrument, so jouer du."
+        ],
+        [
+          "Nous jouons ___ cartes.",
+          "aux",
+          "du",
+          "de la",
+          "Cartes is a plural game, so à + les becomes aux."
+        ],
+        [
+          "Elle fait ___ danse.",
+          "de la",
+          "du",
+          "au",
+          "Danse is feminine, so we say faire de la danse."
+        ],
+        [
+          "Ils jouent ___ basket.",
+          "au",
+          "du",
+          "à la",
+          "Basket is a masculine sport, so jouer au."
+        ],
+        [
+          "Which one is about a musical instrument?",
+          "jouer du piano",
+          "jouer au foot",
+          "faire du vélo",
+          "For an instrument we use jouer du or jouer de la."
+        ],
+        [
+          "Faire du vélo. What does it mean?",
+          "to go cycling",
+          "to play the piano",
+          "to go swimming",
+          "Le vélo is a bike, so faire du vélo is cycling."
+        ],
+        [
+          "La natation. What does it mean?",
+          "swimming",
+          "dancing",
+          "reading",
+          "La natation is the sport of swimming."
+        ],
+        [
+          "Jouer de la flûte. What does it mean?",
+          "to play the flute",
+          "to play football",
+          "to make a cake",
+          "La flûte is an instrument, so this means to play the flute."
+        ],
+        [
+          "Lire. What does it mean?",
+          "to read",
+          "to sing",
+          "to draw",
+          "Lire means to read."
+        ],
+        [
+          "Dessiner. What does it mean?",
+          "to draw",
+          "to dance",
+          "to swim",
+          "Dessiner means to draw."
+        ],
+        [
+          "How do you say ’I play rugby’?",
+          "Je joue au rugby.",
+          "Je joue du rugby.",
+          "Je fais au rugby.",
+          "Rugby is a sport, so we use jouer au."
+        ],
+        [
+          "How do you say ’I play the drums’?",
+          "Je joue de la batterie.",
+          "Je joue à la batterie.",
+          "Je joue au batterie.",
+          "La batterie is an instrument, so we use jouer de la."
+        ],
+        [
+          "How do you say ’I go skiing’?",
+          "Je fais du ski.",
+          "Je joue du ski.",
+          "Je fais au ski.",
+          "For skiing we use faire: faire du ski."
+        ],
+        [
+          "J’aime nager. What do I like?",
+          "swimming",
+          "skating",
+          "singing",
+          "Nager means to swim."
+        ],
+        [
+          "Mon passe-temps préféré, c’est la lecture. What is my hobby?",
+          "reading",
+          "drawing",
+          "cooking",
+          "La lecture means reading."
+        ],
+        [
+          "Le week-end, je fais du patin à glace. What do I do?",
+          "ice skating",
+          "sledging",
+          "cycling",
+          "Le patin à glace is ice skating."
+        ],
+        [
+          "Tu joues ___ jeux vidéo ?",
+          "aux",
+          "au",
+          "du",
+          "Jeux vidéo is plural, so à + les becomes aux."
+        ],
+        [
+          "Je fais ___ judo.",
+          "du",
+          "de la",
+          "au",
+          "Judo is masculine, so we say faire du judo."
+        ],
+        [
+          "Je fais ___ équitation.",
+          "de l’",
+          "du",
+          "au",
+          "Before a vowel, du and de la become de l’: de l’équitation."
+        ],
+        [
+          "L’équitation. What does it mean?",
+          "horse riding",
+          "swimming",
+          "gymnastics",
+          "L’équitation is the sport of riding horses."
+        ],
+        [
+          "Qu’est-ce que tu aimes faire ? What does it mean?",
+          "What do you like doing?",
+          "Where do you live?",
+          "How old are you?",
+          "Aimer means to like and faire means to do."
+        ],
+        [
+          "Which hobby is about music?",
+          "jouer de la trompette",
+          "jouer au hockey",
+          "faire du vélo",
+          "La trompette is a musical instrument."
+        ],
+        [
+          "Which one is a sport?",
+          "le tennis",
+          "le piano",
+          "la lecture",
+          "Tennis is a sport. Piano is an instrument and lecture is reading."
+        ],
+        [
+          "Je chante dans une chorale. What do I do?",
+          "I sing in a choir.",
+          "I dance in a show.",
+          "I play chess.",
+          "Chanter means to sing, and une chorale is a choir."
+        ]
+      ]
+    }
+  },
+  "emoji": "trophy",
+  "example": {
+    "i": 0,
+    "q_en": "Je joue ___ football.",
+    "answer_en": "au",
+    "why_en": "For a sport we use jouer à. À + le becomes au."
+  },
+  "text": {
+    "en": {
+      "title": "Sports and hobbies",
+      "teach": "Use jouer au for a sport or game, jouer du or de la for an instrument, and faire du or de la for activities: je joue au foot, je joue du piano, je fais de la natation.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

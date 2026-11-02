@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "science",
   "stage": 3,
+  "ages": [
+    "8-9"
+  ],
   "order": 11,
   "params": {
     "emojis": [
@@ -15,7 +18,27 @@
       "heart",
       "globe",
       "scroll",
-      "map"
+      "map",
+      "puzzle",
+      "medal",
+      "sparkles",
+      "magnet",
+      "gear",
+      "plug",
+      "heart",
+      "droplet",
+      "chart",
+      "memo",
+      "gift",
+      "footprints",
+      "map",
+      "factory",
+      "globe",
+      "animal-horse",
+      "magnet",
+      "scroll",
+      "game",
+      "scarf"
     ],
     "bank": {
       "en": [
@@ -88,6 +111,146 @@
           "lost toys",
           "what time it is",
           "A compass needle always turns to point north, so it helps people find their way."
+        ],
+        [
+          "Will a magnet attract a plastic toy brick?",
+          "no, plastic is not magnetic",
+          "yes, it sticks",
+          "only if the brick is blue",
+          "Magnets do not pull on plastic at all."
+        ],
+        [
+          "Will a magnet attract a gold ring?",
+          "no, gold is not magnetic",
+          "yes, it sticks",
+          "only if the ring is shiny",
+          "Gold is a metal, but magnets do not pull on it."
+        ],
+        [
+          "Will a magnet attract a glass marble?",
+          "no, glass is not magnetic",
+          "yes, it sticks",
+          "only if the marble rolls",
+          "Glass is not attracted by magnets."
+        ],
+        [
+          "Tiny bits of iron are sprinkled around a bar magnet. Where do most of them gather?",
+          "at the two poles",
+          "exactly in the middle",
+          "nowhere, they fly away",
+          "A magnet’s pull is strongest at its poles, so the iron bits crowd at the ends."
+        ],
+        [
+          "Are all metals magnetic?",
+          "no, only a few, such as iron and nickel",
+          "yes, every metal is magnetic",
+          "no metal is ever magnetic",
+          "Iron, nickel and steel are attracted by magnets. Gold, copper and aluminium are metals that are not."
+        ],
+        [
+          "Which word means that two magnets push each other away?",
+          "repel",
+          "attract",
+          "reflect",
+          "When magnets repel, they push apart. When they attract, they pull together."
+        ],
+        [
+          "Which word means that a magnet pulls something towards it?",
+          "attract",
+          "repel",
+          "melt",
+          "A magnet attracts iron and steel: it pulls them towards itself."
+        ],
+        [
+          "A steel paper clip lies at the bottom of a glass of water. Can a magnet outside the glass move it?",
+          "yes, the pull passes through glass and water",
+          "no, water stops all magnets",
+          "only if the water is hot",
+          "A magnet’s pull can pass through glass and water, so you can drag the clip around from outside."
+        ],
+        [
+          "How could you test which of two magnets is stronger?",
+          "see which one can hold the longest chain of paper clips",
+          "see which one is the heaviest",
+          "see which one is the brightest colour",
+          "A stronger magnet can hold more paper clips. Weight and colour do not tell you its strength."
+        ],
+        [
+          "A fridge magnet sticks to the fridge door. What is the door most likely made of?",
+          "steel",
+          "wood",
+          "glass",
+          "Fridge doors are usually made of steel on the outside, and steel is attracted by magnets."
+        ],
+        [
+          "Which of these would a magnet pick up?",
+          "a steel bottle top",
+          "a sheet of aluminium foil",
+          "a rubber band",
+          "Steel is magnetic. Aluminium and rubber are not attracted by magnets."
+        ],
+        [
+          "Does a magnet have to touch a paper clip to pull it?",
+          "no, it can pull from a short distance",
+          "yes, it must always touch",
+          "only when it is dark",
+          "Magnetism works across a small gap. You can see a paper clip jump to a magnet before they touch."
+        ],
+        [
+          "What happens to a magnet’s pull as you move an iron nail further away from it?",
+          "the pull gets weaker",
+          "the pull gets stronger",
+          "the pull stays exactly the same",
+          "A magnet pulls hardest on things close to it. The further away, the weaker the pull."
+        ],
+        [
+          "Why do recycling centres use big magnets?",
+          "to pull steel cans out from aluminium cans",
+          "to make the cans colder",
+          "to paint the cans",
+          "Steel cans stick to the magnet but aluminium cans do not, so the two metals can be sorted."
+        ],
+        [
+          "A bar magnet hangs freely from a string. Which way does its north pole turn?",
+          "towards the north",
+          "straight down to the ground",
+          "towards the Sun",
+          "A freely hanging magnet lines up with the Earth’s magnetism, so its north pole points north, like a compass."
+        ],
+        [
+          "What shape is a horseshoe magnet?",
+          "a U shape",
+          "a round ball",
+          "a star",
+          "A horseshoe magnet is bent into a U, so both poles sit side by side and pull strongly together."
+        ],
+        [
+          "Two magnets are pushing each other apart. You turn one of them round. What happens now?",
+          "they pull together",
+          "they still push apart",
+          "they disappear",
+          "Turning one magnet round puts a north pole next to a south pole, and opposite poles attract."
+        ],
+        [
+          "Why does a compass needle always point north?",
+          "the Earth acts like a giant magnet",
+          "the Earth is made of plastic",
+          "the Moon pulls the needle",
+          "Deep inside, the Earth behaves like a huge magnet, and the compass needle lines up with it."
+        ],
+        [
+          "In a fishing game, a magnet on a rod picks up the toy fish. What must the fish have on them?",
+          "a piece of steel or iron",
+          "a piece of paper",
+          "a piece of plastic",
+          "The magnet can only pick up the fish if they have something magnetic, like a steel clip, on them."
+        ],
+        [
+          "Will a magnet attract a cotton sock?",
+          "no, cotton is not magnetic",
+          "yes, it sticks",
+          "only if the sock is wet",
+          "Cotton comes from a plant. Magnets do not pull on it."
         ]
       ],
       "de": [
@@ -160,6 +323,146 @@
           "verlorene Spielsachen zu finden",
           "die Uhrzeit zu finden",
           "Eine Kompassnadel dreht sich immer nach Norden. So hilft sie Menschen, den Weg zu finden."
+        ],
+        [
+          "Zieht ein Magnet einen Spielbaustein aus Plastik an?",
+          "nein, Plastik ist nicht magnetisch",
+          "ja, er bleibt kleben",
+          "nur wenn der Stein blau ist",
+          "Magnete ziehen Plastik überhaupt nicht an."
+        ],
+        [
+          "Zieht ein Magnet einen Goldring an?",
+          "nein, Gold ist nicht magnetisch",
+          "ja, er bleibt kleben",
+          "nur wenn der Ring glänzt",
+          "Gold ist ein Metall, aber Magnete ziehen es nicht an."
+        ],
+        [
+          "Zieht ein Magnet eine Glasmurmel an?",
+          "nein, Glas ist nicht magnetisch",
+          "ja, sie bleibt kleben",
+          "nur wenn die Murmel rollt",
+          "Glas wird von Magneten nicht angezogen."
+        ],
+        [
+          "Um einen Stabmagneten werden winzige Eisenspäne gestreut. Wo sammeln sich die meisten?",
+          "an den beiden Polen",
+          "genau in der Mitte",
+          "nirgends, sie fliegen weg",
+          "An den Polen zieht ein Magnet am stärksten. Darum drängen sich die Eisenspäne an den Enden."
+        ],
+        [
+          "Sind alle Metalle magnetisch?",
+          "nein, nur wenige, zum Beispiel Eisen und Nickel",
+          "ja, jedes Metall ist magnetisch",
+          "kein Metall ist jemals magnetisch",
+          "Eisen, Nickel und Stahl werden von Magneten angezogen. Gold, Kupfer und Aluminium sind Metalle, die es nicht werden."
+        ],
+        [
+          "Welches Wort bedeutet, dass zwei Magnete sich wegdrücken?",
+          "abstoßen",
+          "anziehen",
+          "spiegeln",
+          "Wenn Magnete sich abstoßen, drücken sie sich weg. Wenn sie sich anziehen, ziehen sie zueinander."
+        ],
+        [
+          "Welches Wort bedeutet, dass ein Magnet etwas zu sich heranzieht?",
+          "anziehen",
+          "abstoßen",
+          "schmelzen",
+          "Ein Magnet zieht Eisen und Stahl an: Er zieht sie zu sich heran."
+        ],
+        [
+          "Eine Büroklammer aus Stahl liegt am Boden eines Wasserglases. Kann ein Magnet außen am Glas sie bewegen?",
+          "ja, die Kraft geht durch Glas und Wasser",
+          "nein, Wasser hält jeden Magneten auf",
+          "nur wenn das Wasser heiß ist",
+          "Die Kraft eines Magneten geht durch Glas und Wasser. So kannst du die Klammer von außen herumziehen."
+        ],
+        [
+          "Wie könntest du testen, welcher von zwei Magneten stärker ist?",
+          "schauen, welcher die längste Kette aus Büroklammern hält",
+          "schauen, welcher am schwersten ist",
+          "schauen, welcher die hellste Farbe hat",
+          "Ein stärkerer Magnet kann mehr Büroklammern halten. Gewicht und Farbe verraten nicht seine Stärke."
+        ],
+        [
+          "Ein Kühlschrankmagnet haftet an der Kühlschranktür. Woraus ist die Tür wahrscheinlich?",
+          "aus Stahl",
+          "aus Holz",
+          "aus Glas",
+          "Kühlschranktüren sind außen meist aus Stahl, und Stahl wird von Magneten angezogen."
+        ],
+        [
+          "Was davon würde ein Magnet hochheben?",
+          "einen Flaschendeckel aus Stahl",
+          "ein Stück Alufolie",
+          "ein Gummiband",
+          "Stahl ist magnetisch. Aluminium und Gummi werden von Magneten nicht angezogen."
+        ],
+        [
+          "Muss ein Magnet eine Büroklammer berühren, um sie anzuziehen?",
+          "nein, er kann aus kurzer Entfernung ziehen",
+          "ja, er muss sie immer berühren",
+          "nur wenn es dunkel ist",
+          "Magnetismus wirkt über eine kleine Lücke. Eine Büroklammer springt zum Magneten, bevor sie ihn berührt."
+        ],
+        [
+          "Was passiert mit der Kraft eines Magneten, wenn du einen Eisennagel weiter wegschiebst?",
+          "die Kraft wird schwächer",
+          "die Kraft wird stärker",
+          "die Kraft bleibt genau gleich",
+          "Ein Magnet zieht nahe Dinge am stärksten an. Je weiter weg, desto schwächer die Kraft."
+        ],
+        [
+          "Warum benutzen Recyclinghöfe große Magnete?",
+          "um Stahldosen von Aluminiumdosen zu trennen",
+          "um die Dosen zu kühlen",
+          "um die Dosen anzumalen",
+          "Stahldosen bleiben am Magneten hängen, Aluminiumdosen nicht. So kann man die beiden Metalle trennen."
+        ],
+        [
+          "Ein Stabmagnet hängt frei an einem Faden. Wohin dreht sich sein Nordpol?",
+          "nach Norden",
+          "gerade nach unten zum Boden",
+          "zur Sonne",
+          "Ein frei hängender Magnet richtet sich nach dem Magnetismus der Erde aus. Sein Nordpol zeigt nach Norden, wie ein Kompass."
+        ],
+        [
+          "Welche Form hat ein Hufeisenmagnet?",
+          "die Form eines U",
+          "eine runde Kugel",
+          "ein Stern",
+          "Ein Hufeisenmagnet ist zu einem U gebogen. So liegen beide Pole nebeneinander und ziehen zusammen kräftig."
+        ],
+        [
+          "Zwei Magnete stoßen sich ab. Du drehst einen davon um. Was passiert jetzt?",
+          "sie ziehen sich an",
+          "sie stoßen sich weiter ab",
+          "sie verschwinden",
+          "Wenn du einen Magneten umdrehst, liegt ein Nordpol neben einem Südpol. Verschiedene Pole ziehen sich an."
+        ],
+        [
+          "Warum zeigt eine Kompassnadel immer nach Norden?",
+          "die Erde wirkt wie ein riesiger Magnet",
+          "die Erde ist aus Plastik",
+          "der Mond zieht an der Nadel",
+          "Tief im Inneren verhält sich die Erde wie ein riesiger Magnet, und die Kompassnadel richtet sich danach aus."
+        ],
+        [
+          "Bei einem Angelspiel hebt ein Magnet an der Angel die Spielfische hoch. Was müssen die Fische haben?",
+          "ein Stück Stahl oder Eisen",
+          "ein Stück Papier",
+          "ein Stück Plastik",
+          "Der Magnet kann die Fische nur hochheben, wenn sie etwas Magnetisches tragen, zum Beispiel eine Stahlklammer."
+        ],
+        [
+          "Zieht ein Magnet eine Baumwollsocke an?",
+          "nein, Baumwolle ist nicht magnetisch",
+          "ja, sie bleibt kleben",
+          "nur wenn die Socke nass ist",
+          "Baumwolle kommt von einer Pflanze. Magnete ziehen sie nicht an."
         ]
       ],
       "fr": [
@@ -232,6 +535,146 @@
           "à trouver les jouets perdus",
           "à savoir l’heure",
           "L’aiguille d’une boussole se tourne toujours vers le nord : elle aide à trouver son chemin."
+        ],
+        [
+          "Un aimant attire-t-il une brique de jeu en plastique ?",
+          "non, le plastique n’est pas magnétique",
+          "oui, elle colle",
+          "seulement si la brique est bleue",
+          "Les aimants n’attirent pas du tout le plastique."
+        ],
+        [
+          "Un aimant attire-t-il une bague en or ?",
+          "non, l’or n’est pas magnétique",
+          "oui, elle colle",
+          "seulement si la bague brille",
+          "L’or est un métal, mais les aimants ne l’attirent pas."
+        ],
+        [
+          "Un aimant attire-t-il une bille en verre ?",
+          "non, le verre n’est pas magnétique",
+          "oui, elle colle",
+          "seulement si la bille roule",
+          "Le verre n’est pas attiré par les aimants."
+        ],
+        [
+          "On saupoudre de la limaille de fer autour d’un aimant droit. Où s’en regroupe-t-il le plus ?",
+          "aux deux pôles",
+          "juste au milieu",
+          "nulle part, elle s’envole",
+          "C’est aux pôles que l’aimant attire le plus fort : la limaille s’entasse aux deux bouts."
+        ],
+        [
+          "Tous les métaux sont-ils magnétiques ?",
+          "non, seulement quelques-uns, comme le fer et le nickel",
+          "oui, tous les métaux sont magnétiques",
+          "aucun métal n’est jamais magnétique",
+          "Le fer, le nickel et l’acier sont attirés par les aimants. L’or, le cuivre et l’aluminium sont des métaux qui ne le sont pas."
+        ],
+        [
+          "Quel mot veut dire que deux aimants s’écartent l’un de l’autre ?",
+          "se repousser",
+          "s’attirer",
+          "se refléter",
+          "Quand des aimants se repoussent, ils s’écartent. Quand ils s’attirent, ils se rapprochent."
+        ],
+        [
+          "Quel mot veut dire qu’un aimant tire quelque chose vers lui ?",
+          "attirer",
+          "repousser",
+          "fondre",
+          "Un aimant attire le fer et l’acier : il les tire vers lui."
+        ],
+        [
+          "Un trombone en acier est au fond d’un verre d’eau. Un aimant placé dehors peut-il le faire bouger ?",
+          "oui, la force traverse le verre et l’eau",
+          "non, l’eau arrête tous les aimants",
+          "seulement si l’eau est chaude",
+          "La force d’un aimant traverse le verre et l’eau : tu peux promener le trombone depuis l’extérieur."
+        ],
+        [
+          "Comment tester lequel de deux aimants est le plus fort ?",
+          "regarder lequel tient la plus longue chaîne de trombones",
+          "regarder lequel est le plus lourd",
+          "regarder lequel a la couleur la plus vive",
+          "Un aimant plus fort tient plus de trombones. Le poids et la couleur ne disent rien de sa force."
+        ],
+        [
+          "Un aimant tient sur la porte du frigo. En quoi la porte est-elle sûrement faite ?",
+          "en acier",
+          "en bois",
+          "en verre",
+          "La porte d’un frigo est en général en acier à l’extérieur, et l’acier est attiré par les aimants."
+        ],
+        [
+          "Lequel un aimant pourrait-il soulever ?",
+          "une capsule de bouteille en acier",
+          "une feuille de papier aluminium",
+          "un élastique",
+          "L’acier est magnétique. L’aluminium et le caoutchouc ne sont pas attirés par les aimants."
+        ],
+        [
+          "Un aimant doit-il toucher un trombone pour l’attirer ?",
+          "non, il peut l’attirer d’un peu loin",
+          "oui, il doit toujours le toucher",
+          "seulement quand il fait noir",
+          "Le magnétisme agit à petite distance : le trombone saute vers l’aimant avant de le toucher."
+        ],
+        [
+          "Que devient la force d’un aimant quand tu éloignes un clou en fer ?",
+          "elle devient plus faible",
+          "elle devient plus forte",
+          "elle reste exactement pareille",
+          "Un aimant attire plus fort ce qui est près de lui. Plus c’est loin, plus la force est faible."
+        ],
+        [
+          "Pourquoi les centres de recyclage utilisent-ils de gros aimants ?",
+          "pour séparer les boîtes en acier des canettes en aluminium",
+          "pour refroidir les boîtes",
+          "pour peindre les boîtes",
+          "Les boîtes en acier collent à l’aimant, mais pas les canettes en aluminium : on peut trier les deux métaux."
+        ],
+        [
+          "Un aimant droit pend librement au bout d’un fil. Vers où se tourne son pôle nord ?",
+          "vers le nord",
+          "tout droit vers le sol",
+          "vers le Soleil",
+          "Un aimant suspendu librement s’aligne sur le magnétisme de la Terre : son pôle nord montre le nord, comme une boussole."
+        ],
+        [
+          "Quelle forme a un aimant en fer à cheval ?",
+          "la forme d’un U",
+          "une boule ronde",
+          "une étoile",
+          "Un aimant en fer à cheval est courbé en U : ses deux pôles sont côte à côte et attirent fort ensemble."
+        ],
+        [
+          "Deux aimants se repoussent. Tu retournes l’un des deux. Que se passe-t-il maintenant ?",
+          "ils s’attirent",
+          "ils se repoussent encore",
+          "ils disparaissent",
+          "En retournant un aimant, tu mets un pôle nord face à un pôle sud : deux pôles différents s’attirent."
+        ],
+        [
+          "Pourquoi l’aiguille d’une boussole montre-t-elle toujours le nord ?",
+          "la Terre agit comme un aimant géant",
+          "la Terre est en plastique",
+          "la Lune tire sur l’aiguille",
+          "Au fond d’elle, la Terre se comporte comme un énorme aimant, et l’aiguille de la boussole s’aligne dessus."
+        ],
+        [
+          "Dans un jeu de pêche, un aimant au bout de la canne attrape les poissons. Que doivent avoir les poissons ?",
+          "un morceau d’acier ou de fer",
+          "un morceau de papier",
+          "un morceau de plastique",
+          "L’aimant ne peut attraper les poissons que s’ils portent quelque chose de magnétique, comme un trombone en acier."
+        ],
+        [
+          "Un aimant attire-t-il une chaussette en coton ?",
+          "non, le coton n’est pas magnétique",
+          "oui, elle colle",
+          "seulement si la chaussette est mouillée",
+          "Le coton vient d’une plante. Les aimants ne l’attirent pas."
         ]
       ],
       "yo": [
@@ -304,6 +747,146 @@
           "àwọn ohun ìṣeré tó sọnù",
           "àkókò tí ó jẹ́",
           "Abẹ́rẹ́ kọ́ńpáàsì máa ń yí sí àríwá nígbà gbogbo, nítorí náà ó ń ran ènìyàn lọ́wọ́ láti mọ ọ̀nà."
+        ],
+        [
+          "Ṣé òòfà máa fa búlọ́ọ̀kù ìṣeré onike?",
+          "rárá, òòfà kì í fa ike",
+          "bẹ́ẹ̀ni, ó máa lẹ̀ mọ́ ọn",
+          "tí búlọ́ọ̀kù náà bá jẹ́ búlúù nìkan",
+          "Òòfà kì í fa ike rárá."
+        ],
+        [
+          "Ṣé òòfà máa fa òrùka wúrà?",
+          "rárá, òòfà kì í fa wúrà",
+          "bẹ́ẹ̀ni, ó máa lẹ̀ mọ́ ọn",
+          "tí òrùka náà bá ń dán nìkan",
+          "Irin kan ni wúrà, ṣùgbọ́n òòfà kì í fà á."
+        ],
+        [
+          "Ṣé òòfà máa fa kóòkó gíláàsì?",
+          "rárá, òòfà kì í fa gíláàsì",
+          "bẹ́ẹ̀ni, ó máa lẹ̀ mọ́ ọn",
+          "tí kóòkó náà bá ń yí nìkan",
+          "Òòfà kì í fa gíláàsì."
+        ],
+        [
+          "Wọ́n fọ́n ẹ̀kúnná irin kéékèèké yí òòfà gígùn ká. Ibo ni èyí tó pọ̀ jùlọ máa kó jọ sí?",
+          "ní òpin méjèèjì",
+          "ní àárín gan-an",
+          "kò sí ibì kankan, wọ́n á fò lọ",
+          "Agbára òòfà pọ̀ jùlọ ní àwọn òpin rẹ̀, nítorí náà ẹ̀kúnná irin náà á kó jọ sí òpin méjèèjì."
+        ],
+        [
+          "Ṣé òòfà ń fa gbogbo irin?",
+          "rárá, díẹ̀ nínú wọn nìkan, bí irin gidi àti níkẹ́ẹ̀lì",
+          "bẹ́ẹ̀ni, ó ń fa gbogbo irin",
+          "òòfà kì í fa irin kankan rárá",
+          "Òòfà ń fa irin gidi àti níkẹ́ẹ̀lì. Wúrà, bàbà àti alumíníọ̀mù kò ní fà mọ́ ọn."
+        ],
+        [
+          "Ọ̀rọ̀ wo ló túmọ̀ sí pé òòfà méjì ń ti ara wọn sẹ́yìn?",
+          "títa ara wọn nù",
+          "fífa ara wọn mọ́ra",
+          "dídá ìmọ́lẹ̀ padà",
+          "Tí òòfà bá ń ta ara wọn nù, wọ́n á ti ara wọn sẹ́yìn. Tí wọ́n bá ń fa ara wọn mọ́ra, wọ́n á sún mọ́ ara wọn."
+        ],
+        [
+          "Ọ̀rọ̀ wo ló túmọ̀ sí pé òòfà ń fa nǹkan sọ́dọ̀ ara rẹ̀?",
+          "fífà mọ́ra",
+          "títa nù",
+          "yíyọ́",
+          "Òòfà ń fa irin mọ́ra: ó ń fà á sọ́dọ̀ ara rẹ̀."
+        ],
+        [
+          "Píìnì ìwé onírin kan wà ní ìsàlẹ̀ ife omi gíláàsì. Ṣé òòfà tó wà lẹ́yìn ife náà lè sún un?",
+          "bẹ́ẹ̀ni, agbára rẹ̀ ń gba inú gíláàsì àti omi kọjá",
+          "rárá, omi ń dí gbogbo òòfà lọ́wọ́",
+          "tí omi náà bá gbóná nìkan",
+          "Agbára òòfà lè gba inú gíláàsì àti omi kọjá, nítorí náà o lè fa píìnì náà káàkiri láti ìta."
+        ],
+        [
+          "Báwo ni o ṣe lè dán an wò láti mọ èwo nínú òòfà méjì ló lágbára jù?",
+          "wo èwo ló lè gbé ẹ̀wọ̀n píìnì ìwé tó gùn jùlọ dúró",
+          "wo èwo ló wúwo jùlọ",
+          "wo èwo ló ní àwọ̀ tó mọ́lẹ̀ jùlọ",
+          "Òòfà tó lágbára jù lè gbé píìnì púpọ̀ dúró. Ìwúwo àti àwọ̀ kò lè sọ bí agbára rẹ̀ ṣe pọ̀ tó."
+        ],
+        [
+          "Òòfà kan lẹ̀ mọ́ ilẹ̀kùn fìríìjì. Kí ni wọ́n ṣeé ṣe kí wọ́n fi ṣe ilẹ̀kùn náà?",
+          "irin",
+          "igi",
+          "gíláàsì",
+          "Irin ni wọ́n sábà máa ń fi ṣe ìta ilẹ̀kùn fìríìjì, òòfà sì máa ń fa irin."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni òòfà máa gbé sókè?",
+          "ìdérí ìgò onírin",
+          "bébà alumíníọ̀mù tínrín",
+          "rọ́bà ìdìpọ̀",
+          "Òòfà ń fa irin. Kò fa alumíníọ̀mù tàbí rọ́bà."
+        ],
+        [
+          "Ṣé òòfà gbọ́dọ̀ kan píìnì ìwé kí ó tó lè fà á?",
+          "rárá, ó lè fà á láti ọ̀ọ́kán díẹ̀",
+          "bẹ́ẹ̀ni, ó gbọ́dọ̀ kàn án nígbà gbogbo",
+          "nígbà tí òkùnkùn bá ṣú nìkan",
+          "Agbára òòfà ń ṣiṣẹ́ kọjá àlàfo kékeré. Píìnì náà á fò mọ́ òòfà kí wọ́n tó kan ara wọn."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí agbára òòfà bí o ṣe ń gbé ìṣó irin jìnnà sí i?",
+          "agbára rẹ̀ ń dín kù",
+          "agbára rẹ̀ ń pọ̀ sí i",
+          "agbára rẹ̀ wà bákan náà gẹ́lẹ́",
+          "Òòfà ń fa ohun tó sún mọ́ ọn jùlọ. Bí nǹkan bá ṣe jìnnà tó, bẹ́ẹ̀ ni agbára rẹ̀ ṣe ń dín kù."
+        ],
+        [
+          "Kí ló dé tí ibi àtúnlò ohun èlò fi ń lo òòfà ńlá?",
+          "láti ya agolo irin kúrò lára agolo alumíníọ̀mù",
+          "láti mú agolo náà tutù",
+          "láti kun agolo náà",
+          "Agolo irin ń lẹ̀ mọ́ òòfà, ṣùgbọ́n ti alumíníọ̀mù kì í lẹ̀, nítorí náà a lè ya irin méjèèjì sọ́tọ̀."
+        ],
+        [
+          "Òòfà gígùn kan so rọ̀ lórí okùn láìsí ohun tó dí i. Ọ̀nà wo ni òpin àríwá rẹ̀ máa yí sí?",
+          "sí àríwá",
+          "tààrà sí ilẹ̀",
+          "sí oòrùn",
+          "Òòfà tó so rọ̀ fàlàlà máa ń tẹ̀lé agbára òòfà ilẹ̀ ayé, nítorí náà òpin àríwá rẹ̀ á tọ́ka sí àríwá, bí kọ́ńpáàsì."
+        ],
+        [
+          "Irú ìrísí wo ni òòfà bàtà ẹṣin ní?",
+          "ìrísí lẹ́tà U",
+          "bọ́ọ̀lù roboto",
+          "ìràwọ̀",
+          "Wọ́n tẹ òòfà bàtà ẹṣin bí U, nítorí náà òpin méjèèjì wà lẹ́gbẹ̀ẹ́ ara wọn, wọ́n sì ń fà dáadáa pọ̀."
+        ],
+        [
+          "Òòfà méjì ń ti ara wọn sẹ́yìn. O yí ọ̀kan nínú wọn padà. Kí ló ṣẹlẹ̀ báyìí?",
+          "wọ́n fa ara wọn mọ́ra",
+          "wọ́n ṣì ń ti ara wọn sẹ́yìn",
+          "wọ́n pòórá",
+          "Yíyí òòfà kan padà ń mú òpin àríwá kojú òpin gúúsù, òpin tí kò jọra sì máa ń fa ara wọn."
+        ],
+        [
+          "Kí ló dé tí abẹ́rẹ́ kọ́ńpáàsì fi máa ń tọ́ka sí àríwá nígbà gbogbo?",
+          "ilẹ̀ ayé ń ṣiṣẹ́ bí òòfà ńlá kan",
+          "ike ni wọ́n fi ṣe ilẹ̀ ayé",
+          "òṣùpá ń fa abẹ́rẹ́ náà",
+          "Nínú ilẹ̀ ayé lọ́hùn-ún, ó ń ṣe bí òòfà ńlá kan, abẹ́rẹ́ kọ́ńpáàsì sì ń tẹ̀lé e."
+        ],
+        [
+          "Nínú eré ìpẹja, òòfà tó wà lórí ọ̀pá ń gbé ẹja ìṣeré sókè. Kí ló gbọ́dọ̀ wà lára àwọn ẹja náà?",
+          "ègé irin",
+          "ègé bébà",
+          "ègé ike",
+          "Òòfà lè gbé ẹja náà sókè tí ohun tí òòfà ń fà, bí píìnì onírin, bá wà lára wọn nìkan."
+        ],
+        [
+          "Ṣé òòfà máa fa ìbọ̀sẹ̀ òwú?",
+          "rárá, òòfà kì í fa òwú",
+          "bẹ́ẹ̀ni, ó máa lẹ̀ mọ́ ọn",
+          "tí ìbọ̀sẹ̀ náà bá tutù nìkan",
+          "Ara ewéko ni òwú ti wá. Òòfà kì í fà á."
         ]
       ]
     }

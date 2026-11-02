@@ -1,0 +1,274 @@
+{
+  "id": "fr6-phrases",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 1,
+  "ages": [
+    "6-7"
+  ],
+  "order": 20,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "girl",
+      "speech",
+      "speech",
+      "cake",
+      "cake",
+      "gift",
+      "speech",
+      "sun",
+      "cloud",
+      "map",
+      "paws",
+      "house",
+      "backpack",
+      "sun",
+      "speech",
+      "speech",
+      "cake",
+      "heart",
+      "speech",
+      "moon",
+      "speech",
+      "clock",
+      "memo",
+      "cake",
+      "party",
+      "teddy",
+      "map",
+      "star",
+      "gift",
+      "heart"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “Je m’appelle Léa” mean?",
+          "My name is Léa",
+          "I am Léa’s friend",
+          "Léa is calling me",
+          "Je m’appelle tells someone your name."
+        ],
+        [
+          "How do you say “My name is Tom” in French?",
+          "Je m’appelle Tom.",
+          "J’ai Tom ans.",
+          "Où est Tom ?",
+          "To give your name, say je m’appelle and then your name."
+        ],
+        [
+          "How do you ask “What is your name?” in French?",
+          "Comment tu t’appelles ?",
+          "Comment ça va ?",
+          "Quel âge as-tu ?",
+          "Comment tu t’appelles ? asks a friend’s name. Comment ça va ? asks how they are."
+        ],
+        [
+          "What does “J’ai sept ans” mean?",
+          "I am seven years old",
+          "I have seven friends",
+          "It is seven o’clock",
+          "J’ai … ans tells your age. Sept is seven."
+        ],
+        [
+          "How do you say “I am six years old” in French?",
+          "J’ai six ans.",
+          "Je suis six ans.",
+          "J’ai six heures.",
+          "In French you “have” your years: j’ai six ans."
+        ],
+        [
+          "How do you ask “How old are you?” in French?",
+          "Quel âge as-tu ?",
+          "Comment tu t’appelles ?",
+          "Où es-tu ?",
+          "Quel âge means what age, so Quel âge as-tu ? asks how old you are."
+        ],
+        [
+          "What does “Comment ça va ?” mean?",
+          "How are you?",
+          "What is your name?",
+          "Where are you?",
+          "Comment ça va ? asks how someone is."
+        ],
+        [
+          "What does “Ça va bien, merci” mean?",
+          "I’m fine, thank you",
+          "I’m not well",
+          "See you soon",
+          "Bien means well and merci means thank you."
+        ],
+        [
+          "How do you say “I’m not well” in French?",
+          "Ça ne va pas.",
+          "Ça va très bien.",
+          "Bonjour.",
+          "Ne… pas means not, so ça ne va pas means I’m not well."
+        ],
+        [
+          "What does “Où est… ?” mean?",
+          "Where is…?",
+          "Who is…?",
+          "What is…?",
+          "Où means where, and est means is."
+        ],
+        [
+          "What does “Où est le chat ?” mean?",
+          "Where is the cat?",
+          "Who is the cat?",
+          "Here is the cat.",
+          "Où est means where is, and le chat is the cat."
+        ],
+        [
+          "How do you ask “Where are the toilets?” in French?",
+          "Où sont les toilettes ?",
+          "Comment ça va ?",
+          "Je m’appelle Paul.",
+          "Où sont means where are, and les toilettes are the toilets."
+        ],
+        [
+          "How do you ask “Where is my bag?” in French?",
+          "Où est mon sac ?",
+          "Voici mon sac.",
+          "J’aime mon sac.",
+          "Où est means where is, and mon sac is my bag."
+        ],
+        [
+          "What does “Bonjour” mean?",
+          "Hello",
+          "Goodbye",
+          "Good night",
+          "Bonjour is how you say hello in the daytime."
+        ],
+        [
+          "What does “Au revoir” mean?",
+          "Goodbye",
+          "Hello",
+          "Thank you",
+          "Au revoir means goodbye."
+        ],
+        [
+          "Someone asks “Comment tu t’appelles ?”. What do you answer?",
+          "Je m’appelle Sam.",
+          "J’ai sept ans.",
+          "Ça va bien.",
+          "They asked your name, so you say je m’appelle and your name."
+        ],
+        [
+          "Someone asks “Quel âge as-tu ?”. What do you answer?",
+          "J’ai huit ans.",
+          "Je m’appelle Zoé.",
+          "Très bien, merci.",
+          "They asked your age, so you answer j’ai … ans."
+        ],
+        [
+          "Someone asks “Comment ça va ?”. What do you answer?",
+          "Ça va bien, merci.",
+          "J’ai six ans.",
+          "Au revoir.",
+          "They asked how you are, so you say ça va bien, merci."
+        ],
+        [
+          "What does “Et toi ?” mean?",
+          "And you?",
+          "Me too.",
+          "Thank you.",
+          "Et means and, and toi means you."
+        ],
+        [
+          "What does “Bonne nuit” mean?",
+          "Good night",
+          "Good morning",
+          "Good luck",
+          "La nuit is the night, so bonne nuit means good night."
+        ],
+        [
+          "What does “Salut !” mean to a friend?",
+          "Hi!",
+          "Sorry!",
+          "Help!",
+          "Salut is a friendly hi. Friends can also use it to say bye."
+        ],
+        [
+          "How do you say “See you soon!” in French?",
+          "À bientôt !",
+          "Bonne nuit !",
+          "Bon appétit !",
+          "Bientôt means soon, so à bientôt means see you soon."
+        ],
+        [
+          "Fill the gap: Je m’___ Hugo.",
+          "appelle",
+          "ai",
+          "suis",
+          "To give your name, say je m’appelle: Je m’appelle Hugo."
+        ],
+        [
+          "Fill the gap: J’___ neuf ans.",
+          "ai",
+          "suis",
+          "appelle",
+          "For your age French uses j’ai: J’ai neuf ans."
+        ],
+        [
+          "Léo says “J’ai dix ans.” How old is Léo?",
+          "10",
+          "6",
+          "12",
+          "Dix means ten, so Léo is 10."
+        ],
+        [
+          "Mia says “Je m’appelle Mia et j’ai cinq ans.” How old is Mia?",
+          "5",
+          "7",
+          "15",
+          "Cinq means five, so Mia is 5."
+        ],
+        [
+          "What does “Où est la piscine ?” mean?",
+          "Where is the swimming pool?",
+          "Is the swimming pool open?",
+          "I like the swimming pool.",
+          "Où est means where is, and la piscine is the swimming pool."
+        ],
+        [
+          "What does “Très bien !” mean?",
+          "Very good!",
+          "Very bad!",
+          "Very hot!",
+          "Très means very and bien means good or well."
+        ],
+        [
+          "How do you say “Thank you very much” in French?",
+          "Merci beaucoup.",
+          "Merci, au revoir.",
+          "S’il vous plaît.",
+          "Beaucoup means a lot, so merci beaucoup is thank you very much."
+        ],
+        [
+          "Your friend looks sad. What do you ask?",
+          "Ça va ?",
+          "Bon appétit !",
+          "Bonne nuit !",
+          "Ça va ? asks if your friend is all right."
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "i": 0,
+    "q_en": "What does “Je m’appelle Léa” mean?",
+    "answer_en": "My name is Léa",
+    "why_en": "Je m’appelle tells someone your name."
+  },
+  "text": {
+    "en": {
+      "title": "Talking about me in French",
+      "teach": "Say who you are in French: Je m’appelle Sam (My name is Sam). J’ai sept ans (I am seven). Ask Comment ça va ? (How are you?) and Où est… ? (Where is…?).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

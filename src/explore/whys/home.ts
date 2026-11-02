@@ -1,6 +1,6 @@
 import type { Why } from './types'
 
-// 100 Whys: everyday things at home and around town. Short, true explanations for children aged 4–11, in English, German, French and Yoruba.
+// Whys: everyday things at home and around town. Short, true explanations for children aged 4–12, in English, German, French and Yoruba.
 
 export const WHYS_HOME: Why[] = [
   { id: 'ice-melts', topic: 'home', emoji: 'droplet',

@@ -1,0 +1,936 @@
+{
+  "id": "sci10-circuits",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 209,
+  "params": {
+    "emojis": [
+      "battery",
+      "light",
+      "key",
+      "light",
+      "battery",
+      "sparkles",
+      "lowbattery",
+      "memo",
+      "memo",
+      "globe",
+      "gear",
+      "plug",
+      "gloves",
+      "plug",
+      "key",
+      "medal",
+      "puzzle",
+      "storm",
+      "battery",
+      "chart",
+      "bell",
+      "plug",
+      "droplet",
+      "warning",
+      "school",
+      "light",
+      "gear",
+      "factory",
+      "house",
+      "globe"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does a cell (battery) do in a circuit?",
+          "it pushes the electric current round the circuit",
+          "it stops the current flowing",
+          "it makes the wires longer",
+          "A cell gives the push that makes electricity flow round a complete circuit."
+        ],
+        [
+          "What must be true for a bulb in a circuit to light up?",
+          "the circuit must be complete, with no gaps",
+          "there must be a gap in the circuit",
+          "the wires must be made of string",
+          "Electricity can only flow if there is an unbroken loop from the cell, through the bulb and back."
+        ],
+        [
+          "What does a switch do in a circuit?",
+          "it opens or closes a gap in the circuit",
+          "it makes the cell stronger",
+          "it changes the colour of the bulb",
+          "Closing a switch completes the circuit so current flows. Opening it makes a gap and the current stops."
+        ],
+        [
+          "The switch in a working circuit is opened (turned off). What happens?",
+          "the circuit is broken and the bulb goes out",
+          "the bulb gets brighter",
+          "the current flows faster",
+          "An open switch leaves a gap, so the current cannot flow and the bulb goes out."
+        ],
+        [
+          "A series circuit has one cell and one bulb. You add a second cell. What happens to the bulb?",
+          "it gets brighter",
+          "it gets dimmer",
+          "it goes out",
+          "Two cells give a bigger push (higher voltage), so more current flows and the bulb shines more brightly."
+        ],
+        [
+          "You add a second bulb in series but keep the same single cell. How do the bulbs shine?",
+          "each bulb is dimmer than one bulb alone",
+          "each bulb is brighter than one bulb alone",
+          "both bulbs go out",
+          "The same push from one cell now has to drive current through two bulbs, so less current flows and each is dimmer."
+        ],
+        [
+          "In a series circuit with three bulbs, one bulb breaks. What happens to the other two?",
+          "they go out too",
+          "they get brighter",
+          "nothing changes",
+          "A series circuit has only one path. A broken bulb makes a gap, so the current stops everywhere."
+        ],
+        [
+          "In a circuit diagram, what does a circle with a cross inside it stand for?",
+          "a bulb",
+          "a cell",
+          "a switch",
+          "A bulb (lamp) is drawn as a circle with a cross. A cell is two parallel lines of different lengths."
+        ],
+        [
+          "Which component is shown by a long line and a short line side by side?",
+          "a cell",
+          "a bulb",
+          "a buzzer",
+          "The circuit symbol for a cell is a long line (positive side) next to a shorter line (negative side)."
+        ],
+        [
+          "Why do scientists draw circuits with symbols instead of pictures?",
+          "the simple symbols are understood the same way everywhere",
+          "symbols make the electricity stronger",
+          "symbols are needed to switch the bulb on",
+          "Standard symbols are quick to draw and clear, and people all over the world read them in the same way."
+        ],
+        [
+          "In a circuit diagram, a circle with the letter M inside stands for…",
+          "a motor",
+          "a bulb",
+          "a switch",
+          "M stands for motor, a component that uses electricity to make something spin."
+        ],
+        [
+          "Which of these is a good electrical conductor?",
+          "a copper wire",
+          "a plastic ruler",
+          "a wooden spoon",
+          "Copper is a metal. Metals let electricity flow through them easily, so they are good conductors."
+        ],
+        [
+          "Which of these is an electrical insulator?",
+          "rubber",
+          "an iron nail",
+          "aluminium foil",
+          "Rubber does not let electricity flow through it. Iron and aluminium are metals, so they conduct."
+        ],
+        [
+          "Why are the wires of a lamp covered in plastic?",
+          "plastic is an insulator, so it stops us getting a shock",
+          "plastic makes the electricity flow faster",
+          "plastic makes the wire conduct better",
+          "The metal inside carries the current, while the plastic coat insulates it so the current cannot pass into your body."
+        ],
+        [
+          "Which group of materials are mostly good conductors of electricity?",
+          "metals",
+          "plastics",
+          "woods",
+          "Metals such as copper, iron and aluminium conduct electricity. Plastics and wood are insulators."
+        ],
+        [
+          "You put a metal coin in the gap of a circuit. Will the bulb light?",
+          "yes, because metal conducts electricity",
+          "no, because coins are round",
+          "no, because coins are too small",
+          "The metal coin closes the gap and lets the current flow, so the bulb lights."
+        ],
+        [
+          "How could you test whether a material is a conductor?",
+          "put it in a gap in a circuit and see if the bulb lights",
+          "drop it in water and see if it floats",
+          "weigh it on a scale",
+          "If the bulb lights with the material in the gap, current is flowing through it, so it is a conductor."
+        ],
+        [
+          "What is an electric current?",
+          "a flow of electricity around a circuit",
+          "water moving inside the wires",
+          "heat coming out of a bulb",
+          "An electric current is the flow of electricity (tiny charged particles) through a complete circuit."
+        ],
+        [
+          "You swap a 1.5 volt cell for a 3 volt battery in a simple circuit. What happens to the bulb?",
+          "it shines more brightly",
+          "it shines more dimly",
+          "it stops working at once",
+          "A higher voltage gives a bigger push, so more current flows and the bulb is brighter (too much could blow it)."
+        ],
+        [
+          "In what unit is the voltage of a cell measured?",
+          "volts",
+          "metres",
+          "kilograms",
+          "Voltage tells us how strong a cell’s push is. It is measured in volts (V), for example 1.5 V."
+        ],
+        [
+          "A buzzer is in a series circuit. You add another cell. How does the buzzer sound?",
+          "louder",
+          "quieter",
+          "silent",
+          "More cells give more push, so more current flows through the buzzer and it sounds louder."
+        ],
+        [
+          "Why must you never push objects into a plug socket?",
+          "mains electricity is very powerful and can badly hurt you",
+          "it would make the socket magnetic",
+          "it would turn off all the lights in town",
+          "Mains electricity has a much higher voltage than school cells. Touching it through a metal object is extremely dangerous."
+        ],
+        [
+          "Why should you never touch switches or plugs with wet hands?",
+          "water helps electricity flow into your body",
+          "water makes the plug too heavy",
+          "wet hands make the bulb dimmer",
+          "Water with salts or dirt in it conducts electricity, so wet skin makes a shock much more likely."
+        ],
+        [
+          "Where is it NOT safe to fly a kite?",
+          "near overhead power lines",
+          "in an open park",
+          "on a wide, empty beach",
+          "Power lines carry very high voltages. A kite or its string touching them could let electricity reach you."
+        ],
+        [
+          "Why is it safe to use cells for circuit experiments at school but not mains electricity?",
+          "cells have a low voltage",
+          "cells contain no electricity",
+          "cells are made of plastic",
+          "Cells usually give only a few volts, which is safe to handle. Mains electricity is about 230 volts in many countries."
+        ],
+        [
+          "When current flows through a bulb, the electrical energy is changed mainly into…",
+          "light and heat",
+          "sound and movement",
+          "water and air",
+          "The thin wire (filament) or LED inside the bulb gives out light, and some energy is also given off as heat."
+        ],
+        [
+          "A circuit has a cell, a bulb and a closed switch, but the bulb does not light. What is the most likely cause?",
+          "one of the wires is not connected properly",
+          "the wires are too shiny",
+          "the switch is closed",
+          "A loose connection leaves a gap, so the circuit is not complete. A closed switch is needed for the bulb to light."
+        ],
+        [
+          "Where does most mains electricity come from?",
+          "power stations and wind or solar farms",
+          "the plug sockets make it themselves",
+          "it falls from clouds as rain",
+          "Electricity is generated in power stations, wind turbines and solar farms, then carried to homes through cables."
+        ],
+        [
+          "Why is it a good idea to switch off lights when you leave a room?",
+          "it saves energy and money",
+          "it makes the bulbs brighter next time",
+          "it charges the cells in the wall",
+          "Lights left on keep using electricity. Switching them off saves energy, money and the resources used to make electricity."
+        ],
+        [
+          "Which of these makes electricity without burning any fuel?",
+          "a wind turbine",
+          "a coal power station",
+          "a gas power station",
+          "A wind turbine uses moving air to turn a generator. Coal and gas stations burn fuel, which releases carbon dioxide."
+        ]
+      ],
+      "de": [
+        [
+          "Was macht eine Batterie in einem Stromkreis?",
+          "sie treibt den Strom durch den Stromkreis",
+          "sie hält den Strom an",
+          "sie macht die Kabel länger",
+          "Die Batterie liefert den Antrieb, damit Strom durch einen geschlossenen Stromkreis fließt."
+        ],
+        [
+          "Was muss gelten, damit eine Lampe im Stromkreis leuchtet?",
+          "der Stromkreis muss geschlossen sein, ohne Lücke",
+          "im Stromkreis muss eine Lücke sein",
+          "die Kabel müssen aus Schnur sein",
+          "Strom fließt nur, wenn es eine geschlossene Schleife von der Batterie über die Lampe und zurück gibt."
+        ],
+        [
+          "Was macht ein Schalter im Stromkreis?",
+          "er öffnet oder schließt eine Lücke im Stromkreis",
+          "er macht die Batterie stärker",
+          "er ändert die Farbe der Lampe",
+          "Ein geschlossener Schalter schließt den Stromkreis, und Strom fließt. Ein offener Schalter macht eine Lücke, und der Strom stoppt."
+        ],
+        [
+          "In einem funktionierenden Stromkreis wird der Schalter geöffnet (ausgeschaltet). Was passiert?",
+          "der Stromkreis ist unterbrochen, und die Lampe geht aus",
+          "die Lampe wird heller",
+          "der Strom fließt schneller",
+          "Ein offener Schalter lässt eine Lücke. Der Strom kann nicht fließen, und die Lampe erlischt."
+        ],
+        [
+          "Ein Reihenstromkreis hat eine Batterie und eine Lampe. Du fügst eine zweite Batterie hinzu. Was passiert mit der Lampe?",
+          "sie wird heller",
+          "sie wird dunkler",
+          "sie geht aus",
+          "Zwei Batterien treiben stärker an (höhere Spannung). Es fließt mehr Strom, und die Lampe leuchtet heller."
+        ],
+        [
+          "Du baust eine zweite Lampe in Reihe ein, behältst aber dieselbe eine Batterie. Wie leuchten die Lampen?",
+          "jede ist dunkler als eine Lampe allein",
+          "jede ist heller als eine Lampe allein",
+          "beide gehen aus",
+          "Dieselbe Batterie muss den Strom nun durch zwei Lampen treiben. Es fließt weniger Strom, und jede Lampe ist dunkler."
+        ],
+        [
+          "In einem Reihenstromkreis mit drei Lampen geht eine kaputt. Was passiert mit den anderen zwei?",
+          "sie gehen auch aus",
+          "sie werden heller",
+          "nichts ändert sich",
+          "Ein Reihenstromkreis hat nur einen Weg. Eine kaputte Lampe macht eine Lücke, und der Strom stoppt überall."
+        ],
+        [
+          "Wofür steht in einem Schaltplan ein Kreis mit einem Kreuz darin?",
+          "für eine Lampe",
+          "für eine Batterie",
+          "für einen Schalter",
+          "Eine Lampe wird als Kreis mit Kreuz gezeichnet. Eine Batterie sind zwei parallele Striche unterschiedlicher Länge."
+        ],
+        [
+          "Welches Bauteil zeigt das Schaltzeichen aus einem langen und einem kurzen Strich nebeneinander?",
+          "eine Batterie",
+          "eine Lampe",
+          "einen Summer",
+          "Das Schaltzeichen der Batterie ist ein langer Strich (Pluspol) neben einem kürzeren Strich (Minuspol)."
+        ],
+        [
+          "Warum zeichnen Fachleute Stromkreise mit Schaltzeichen statt mit Bildern?",
+          "die einfachen Zeichen versteht man überall gleich",
+          "Schaltzeichen machen den Strom stärker",
+          "Schaltzeichen braucht man, um die Lampe einzuschalten",
+          "Einheitliche Schaltzeichen sind schnell gezeichnet und eindeutig. Menschen auf der ganzen Welt lesen sie gleich."
+        ],
+        [
+          "In einem Schaltplan steht ein Kreis mit dem Buchstaben M darin für …",
+          "einen Motor",
+          "eine Lampe",
+          "einen Schalter",
+          "M steht für Motor, ein Bauteil, das mit Strom etwas in Drehung versetzt."
+        ],
+        [
+          "Was davon ist ein guter elektrischer Leiter?",
+          "ein Kupferdraht",
+          "ein Kunststofflineal",
+          "ein Holzlöffel",
+          "Kupfer ist ein Metall. Metalle lassen Strom leicht hindurch und sind deshalb gute Leiter."
+        ],
+        [
+          "Was davon ist ein elektrischer Isolator?",
+          "Gummi",
+          "ein Eisennagel",
+          "Alufolie",
+          "Gummi lässt keinen Strom durch. Eisen und Aluminium sind Metalle und leiten Strom."
+        ],
+        [
+          "Warum sind die Kabel einer Lampe mit Kunststoff ummantelt?",
+          "Kunststoff isoliert und schützt uns vor einem Stromschlag",
+          "Kunststoff lässt den Strom schneller fließen",
+          "Kunststoff macht das Kabel zu einem besseren Leiter",
+          "Das Metall innen leitet den Strom. Der Kunststoffmantel isoliert, damit kein Strom in deinen Körper gelangt."
+        ],
+        [
+          "Welche Stoffgruppe leitet Strom meistens gut?",
+          "Metalle",
+          "Kunststoffe",
+          "Hölzer",
+          "Metalle wie Kupfer, Eisen und Aluminium leiten Strom. Kunststoffe und Holz sind Isolatoren."
+        ],
+        [
+          "Du legst eine Metallmünze in die Lücke eines Stromkreises. Leuchtet die Lampe?",
+          "ja, weil Metall Strom leitet",
+          "nein, weil Münzen rund sind",
+          "nein, weil Münzen zu klein sind",
+          "Die Metallmünze schließt die Lücke und lässt den Strom fließen. Deshalb leuchtet die Lampe."
+        ],
+        [
+          "Wie kannst du testen, ob ein Stoff ein Leiter ist?",
+          "ihn in eine Lücke im Stromkreis setzen und schauen, ob die Lampe leuchtet",
+          "ihn ins Wasser werfen und schauen, ob er schwimmt",
+          "ihn auf einer Waage wiegen",
+          "Leuchtet die Lampe, wenn der Stoff in der Lücke steckt, fließt Strom hindurch. Dann ist er ein Leiter."
+        ],
+        [
+          "Was ist elektrischer Strom?",
+          "Elektrizität, die durch einen Stromkreis fließt",
+          "Wasser, das in den Kabeln fließt",
+          "Wärme, die aus einer Lampe kommt",
+          "Elektrischer Strom ist das Fließen von Elektrizität (winzigen geladenen Teilchen) durch einen geschlossenen Stromkreis."
+        ],
+        [
+          "Du tauschst in einem einfachen Stromkreis eine 1,5-Volt-Batterie gegen eine 3-Volt-Batterie. Was passiert mit der Lampe?",
+          "sie leuchtet heller",
+          "sie leuchtet schwächer",
+          "sie hört sofort auf zu leuchten",
+          "Eine höhere Spannung treibt stärker an. Es fließt mehr Strom, und die Lampe wird heller (zu viel kann sie durchbrennen lassen)."
+        ],
+        [
+          "In welcher Einheit misst man die Spannung einer Batterie?",
+          "in Volt",
+          "in Metern",
+          "in Kilogramm",
+          "Die Spannung sagt, wie stark eine Batterie antreibt. Man misst sie in Volt (V), zum Beispiel 1,5 V."
+        ],
+        [
+          "Ein Summer ist in einem Reihenstromkreis. Du fügst eine weitere Batterie hinzu. Wie klingt der Summer?",
+          "lauter",
+          "leiser",
+          "gar nicht mehr",
+          "Mehr Batterien treiben stärker an. Durch den Summer fließt mehr Strom, und er wird lauter."
+        ],
+        [
+          "Warum darfst du nie Gegenstände in eine Steckdose stecken?",
+          "Netzstrom ist sehr stark und kann dich schwer verletzen",
+          "die Steckdose würde magnetisch",
+          "alle Lichter der Stadt würden ausgehen",
+          "Netzstrom hat eine viel höhere Spannung als Schulbatterien. Ihn über einen Metallgegenstand zu berühren ist äußerst gefährlich."
+        ],
+        [
+          "Warum solltest du Schalter oder Stecker nie mit nassen Händen anfassen?",
+          "Wasser hilft dem Strom, in deinen Körper zu fließen",
+          "Wasser macht den Stecker zu schwer",
+          "nasse Hände machen die Lampe dunkler",
+          "Wasser mit Salzen oder Schmutz leitet Strom. Mit nasser Haut ist ein Stromschlag viel wahrscheinlicher."
+        ],
+        [
+          "Wo ist es NICHT sicher, einen Drachen steigen zu lassen?",
+          "in der Nähe von Stromleitungen",
+          "auf einer offenen Wiese im Park",
+          "an einem weiten, leeren Strand",
+          "Stromleitungen führen sehr hohe Spannungen. Berührt der Drachen oder seine Schnur sie, kann der Strom dich erreichen."
+        ],
+        [
+          "Warum darf man in der Schule mit Batterien experimentieren, aber nicht mit Netzstrom?",
+          "Batterien haben eine niedrige Spannung",
+          "Batterien enthalten keinen Strom",
+          "Batterien sind aus Kunststoff",
+          "Batterien liefern meist nur wenige Volt, das ist ungefährlich. Netzstrom hat in vielen Ländern etwa 230 Volt."
+        ],
+        [
+          "Fließt Strom durch eine Lampe, wird die elektrische Energie vor allem umgewandelt in …",
+          "Licht und Wärme",
+          "Schall und Bewegung",
+          "Wasser und Luft",
+          "Der dünne Glühdraht oder die LED in der Lampe gibt Licht ab, und ein Teil der Energie wird zu Wärme."
+        ],
+        [
+          "Ein Stromkreis hat eine Batterie, eine Lampe und einen geschlossenen Schalter, aber die Lampe leuchtet nicht. Was ist der wahrscheinlichste Grund?",
+          "ein Kabel ist nicht richtig angeschlossen",
+          "die Kabel glänzen zu sehr",
+          "der Schalter ist geschlossen",
+          "Ein lockerer Anschluss lässt eine Lücke, und der Stromkreis ist nicht geschlossen. Ein geschlossener Schalter ist nötig, damit die Lampe leuchtet."
+        ],
+        [
+          "Woher kommt der meiste Netzstrom?",
+          "aus Kraftwerken sowie Wind- und Solarparks",
+          "die Steckdosen erzeugen ihn selbst",
+          "er fällt als Regen aus den Wolken",
+          "Strom wird in Kraftwerken, Windrädern und Solarparks erzeugt und dann über Leitungen zu den Häusern gebracht."
+        ],
+        [
+          "Warum ist es gut, das Licht auszuschalten, wenn du einen Raum verlässt?",
+          "es spart Energie und Geld",
+          "die Lampen leuchten danach heller",
+          "es lädt die Batterien in der Wand auf",
+          "Brennendes Licht verbraucht weiter Strom. Ausschalten spart Energie, Geld und die Rohstoffe für die Stromerzeugung."
+        ],
+        [
+          "Was davon erzeugt Strom, ohne Brennstoff zu verbrennen?",
+          "ein Windrad",
+          "ein Kohlekraftwerk",
+          "ein Gaskraftwerk",
+          "Ein Windrad nutzt bewegte Luft, um einen Generator zu drehen. Kohle- und Gaskraftwerke verbrennen Brennstoff und geben dabei Kohlendioxid ab."
+        ]
+      ],
+      "fr": [
+        [
+          "À quoi sert une pile dans un circuit ?",
+          "elle pousse le courant électrique dans le circuit",
+          "elle arrête le courant",
+          "elle allonge les fils",
+          "La pile donne l’élan qui fait circuler l’électricité dans un circuit fermé."
+        ],
+        [
+          "Que faut-il pour qu’une ampoule s’allume dans un circuit ?",
+          "le circuit doit être fermé, sans coupure",
+          "il doit y avoir une coupure dans le circuit",
+          "les fils doivent être en ficelle",
+          "Le courant ne circule que s’il existe une boucle sans coupure, de la pile à l’ampoule et retour."
+        ],
+        [
+          "À quoi sert un interrupteur dans un circuit ?",
+          "il ouvre ou ferme une coupure dans le circuit",
+          "il rend la pile plus puissante",
+          "il change la couleur de l’ampoule",
+          "Fermer l’interrupteur ferme le circuit et le courant passe. L’ouvrir crée une coupure et le courant s’arrête."
+        ],
+        [
+          "Dans un circuit qui marche, on ouvre l’interrupteur (on éteint). Que se passe-t-il ?",
+          "le circuit est coupé et l’ampoule s’éteint",
+          "l’ampoule brille plus fort",
+          "le courant va plus vite",
+          "Un interrupteur ouvert laisse une coupure : le courant ne passe plus et l’ampoule s’éteint."
+        ],
+        [
+          "Un circuit en série a une pile et une ampoule. Tu ajoutes une deuxième pile. Que devient l’ampoule ?",
+          "elle brille plus fort",
+          "elle brille moins fort",
+          "elle s’éteint",
+          "Deux piles poussent plus fort (tension plus élevée) : plus de courant passe et l’ampoule brille davantage."
+        ],
+        [
+          "Tu ajoutes une deuxième ampoule en série avec la même pile unique. Comment brillent les ampoules ?",
+          "chacune brille moins qu’une ampoule seule",
+          "chacune brille plus qu’une ampoule seule",
+          "les deux s’éteignent",
+          "La même pile doit faire passer le courant dans deux ampoules : il circule moins de courant et chacune brille moins."
+        ],
+        [
+          "Dans un circuit en série avec trois ampoules, une ampoule grille. Que deviennent les deux autres ?",
+          "elles s’éteignent aussi",
+          "elles brillent plus fort",
+          "rien ne change",
+          "Un circuit en série n’a qu’un seul chemin. L’ampoule grillée crée une coupure : le courant s’arrête partout."
+        ],
+        [
+          "Dans un schéma électrique, que représente un cercle avec une croix dedans ?",
+          "une ampoule",
+          "une pile",
+          "un interrupteur",
+          "L’ampoule (lampe) se dessine par un cercle barré d’une croix. La pile, ce sont deux traits parallèles de longueurs différentes."
+        ],
+        [
+          "Quel composant est représenté par un trait long et un trait court côte à côte ?",
+          "une pile",
+          "une ampoule",
+          "un buzzer",
+          "Le symbole de la pile est un trait long (borne plus) à côté d’un trait plus court (borne moins)."
+        ],
+        [
+          "Pourquoi les scientifiques dessinent-ils les circuits avec des symboles plutôt qu’avec des images ?",
+          "ces symboles simples se comprennent de la même façon partout",
+          "les symboles rendent le courant plus fort",
+          "il faut des symboles pour allumer l’ampoule",
+          "Les symboles normalisés sont rapides à tracer et clairs, et tout le monde dans le monde les lit de la même manière."
+        ],
+        [
+          "Dans un schéma électrique, un cercle avec la lettre M dedans représente…",
+          "un moteur",
+          "une ampoule",
+          "un interrupteur",
+          "M signifie moteur : un composant qui utilise l’électricité pour faire tourner quelque chose."
+        ],
+        [
+          "Lequel est un bon conducteur électrique ?",
+          "un fil de cuivre",
+          "une règle en plastique",
+          "une cuillère en bois",
+          "Le cuivre est un métal. Les métaux laissent passer facilement le courant : ce sont de bons conducteurs."
+        ],
+        [
+          "Lequel est un isolant électrique ?",
+          "le caoutchouc",
+          "un clou en fer",
+          "du papier d’aluminium",
+          "Le caoutchouc ne laisse pas passer le courant. Le fer et l’aluminium sont des métaux : ils conduisent."
+        ],
+        [
+          "Pourquoi les fils d’une lampe sont-ils recouverts de plastique ?",
+          "le plastique est isolant et nous protège d’une décharge",
+          "le plastique fait aller le courant plus vite",
+          "le plastique rend le fil plus conducteur",
+          "Le métal à l’intérieur transporte le courant ; la gaine en plastique l’isole pour qu’il ne passe pas dans ton corps."
+        ],
+        [
+          "Quel groupe de matières conduit le plus souvent bien l’électricité ?",
+          "les métaux",
+          "les plastiques",
+          "les bois",
+          "Les métaux comme le cuivre, le fer et l’aluminium conduisent l’électricité. Le plastique et le bois sont isolants."
+        ],
+        [
+          "Tu places une pièce en métal dans la coupure d’un circuit. L’ampoule s’allume-t-elle ?",
+          "oui, car le métal conduit le courant",
+          "non, car les pièces sont rondes",
+          "non, car les pièces sont trop petites",
+          "La pièce en métal referme la coupure et laisse passer le courant : l’ampoule s’allume."
+        ],
+        [
+          "Comment tester si une matière est conductrice ?",
+          "la placer dans la coupure d’un circuit et voir si l’ampoule s’allume",
+          "la jeter dans l’eau pour voir si elle flotte",
+          "la peser sur une balance",
+          "Si l’ampoule s’allume quand la matière est dans la coupure, le courant la traverse : elle est conductrice."
+        ],
+        [
+          "Qu’est-ce qu’un courant électrique ?",
+          "de l’électricité qui circule dans un circuit",
+          "de l’eau qui coule dans les fils",
+          "de la chaleur qui sort d’une ampoule",
+          "Le courant électrique, c’est l’électricité (de minuscules particules chargées) qui circule dans un circuit fermé."
+        ],
+        [
+          "Dans un circuit simple, tu remplaces une pile de 1,5 volt par une pile de 3 volts. Que devient l’ampoule ?",
+          "elle brille plus fort",
+          "elle brille moins fort",
+          "elle s’arrête tout de suite",
+          "Une tension plus élevée pousse plus fort : plus de courant passe et l’ampoule brille davantage (trop peut la griller)."
+        ],
+        [
+          "Dans quelle unité mesure-t-on la tension d’une pile ?",
+          "en volts",
+          "en mètres",
+          "en kilogrammes",
+          "La tension indique la force de poussée d’une pile. Elle se mesure en volts (V), par exemple 1,5 V."
+        ],
+        [
+          "Un buzzer est dans un circuit en série. Tu ajoutes une pile. Comment sonne le buzzer ?",
+          "plus fort",
+          "moins fort",
+          "il se tait",
+          "Plus de piles poussent plus fort : plus de courant traverse le buzzer et il sonne plus fort."
+        ],
+        [
+          "Pourquoi ne faut-il jamais enfoncer d’objets dans une prise électrique ?",
+          "le courant du secteur est très puissant et peut te blesser gravement",
+          "la prise deviendrait magnétique",
+          "toutes les lumières de la ville s’éteindraient",
+          "Le courant du secteur a une tension bien plus élevée que les piles de l’école. Le toucher par un objet en métal est très dangereux."
+        ],
+        [
+          "Pourquoi ne faut-il jamais toucher un interrupteur ou une prise avec les mains mouillées ?",
+          "l’eau aide le courant à passer dans ton corps",
+          "l’eau rend la prise trop lourde",
+          "les mains mouillées font baisser la lumière",
+          "L’eau qui contient des sels ou de la saleté conduit le courant : avec la peau mouillée, une décharge est bien plus probable."
+        ],
+        [
+          "Où n’est-il PAS prudent de faire voler un cerf-volant ?",
+          "près des lignes électriques",
+          "dans un grand parc dégagé",
+          "sur une grande plage vide",
+          "Les lignes électriques transportent de très hautes tensions. Si le cerf-volant ou sa ficelle les touche, le courant peut t’atteindre."
+        ],
+        [
+          "Pourquoi peut-on faire des expériences avec des piles à l’école, mais pas avec le courant du secteur ?",
+          "les piles ont une faible tension",
+          "les piles ne contiennent pas d’électricité",
+          "les piles sont en plastique",
+          "Une pile ne donne que quelques volts, ce qui est sans danger. Le courant du secteur fait environ 230 volts dans de nombreux pays."
+        ],
+        [
+          "Quand le courant traverse une ampoule, l’énergie électrique se transforme surtout en…",
+          "lumière et chaleur",
+          "son et mouvement",
+          "eau et air",
+          "Le fil fin (filament) ou la LED de l’ampoule émet de la lumière, et une partie de l’énergie part en chaleur."
+        ],
+        [
+          "Un circuit a une pile, une ampoule et un interrupteur fermé, mais l’ampoule ne s’allume pas. Quelle est la cause la plus probable ?",
+          "un fil est mal branché",
+          "les fils sont trop brillants",
+          "l’interrupteur est fermé",
+          "Un mauvais branchement laisse une coupure : le circuit n’est pas fermé. L’interrupteur fermé, lui, est nécessaire pour allumer l’ampoule."
+        ],
+        [
+          "D’où vient la plupart du courant du secteur ?",
+          "des centrales électriques et des parcs éoliens ou solaires",
+          "les prises le fabriquent elles-mêmes",
+          "il tombe des nuages avec la pluie",
+          "L’électricité est produite dans des centrales, des éoliennes et des parcs solaires, puis amenée aux maisons par des câbles."
+        ],
+        [
+          "Pourquoi est-il bien d’éteindre la lumière en quittant une pièce ?",
+          "cela économise l’énergie et l’argent",
+          "les ampoules brillent plus fort ensuite",
+          "cela recharge les piles dans le mur",
+          "Une lampe allumée continue d’utiliser de l’électricité. L’éteindre économise l’énergie, l’argent et les ressources servant à produire le courant."
+        ],
+        [
+          "Lequel produit de l’électricité sans brûler de combustible ?",
+          "une éolienne",
+          "une centrale à charbon",
+          "une centrale à gaz",
+          "Une éolienne utilise l’air en mouvement pour faire tourner un générateur. Les centrales à charbon et à gaz brûlent du combustible et rejettent du dioxyde de carbone."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni bátírì ń ṣe nínú àyíká iná?",
+          "ó ń ti ìṣàn iná yí àyíká náà ká",
+          "ó ń dá ìṣàn iná dúró",
+          "ó ń mú kí wáyà gùn sí i",
+          "Bátírì ló ń fún iná ní agbára láti ṣàn yí àyíká tó pé ká."
+        ],
+        [
+          "Kí ló gbọ́dọ̀ wà kí gílóòbù tó lè tàn nínú àyíká iná?",
+          "àyíká náà gbọ́dọ̀ pé, láìsí àlàfo",
+          "àlàfo gbọ́dọ̀ wà nínú àyíká náà",
+          "wáyà gbọ́dọ̀ jẹ́ okùn òwú",
+          "Iná lè ṣàn kìkì tí ọ̀nà bá pé láti bátírì, gba inú gílóòbù, padà sí bátírì."
+        ],
+        [
+          "Kí ni súwíìṣì ń ṣe nínú àyíká iná?",
+          "ó ń ṣí tàbí ó ń ti àlàfo kan nínú àyíká náà",
+          "ó ń mú kí bátírì lágbára sí i",
+          "ó ń yí àwọ̀ gílóòbù padà",
+          "Tí a bá ti súwíìṣì, àyíká náà á pé, iná á sì ṣàn. Tí a bá ṣí i, àlàfo á wà, iná á sì dúró."
+        ],
+        [
+          "Nínú àyíká iná tó ń ṣiṣẹ́, a ṣí súwíìṣì (a pa á). Kí ló ṣẹlẹ̀?",
+          "àyíká náà já, gílóòbù sì kú",
+          "gílóòbù mọ́lẹ̀ sí i",
+          "iná ń ṣàn yára sí i",
+          "Súwíìṣì tó ṣí ń fi àlàfo sílẹ̀, nítorí náà iná kò lè ṣàn, gílóòbù sì kú."
+        ],
+        [
+          "Àyíká iná oníṣísẹ̀ńtẹ̀lé (series) ní bátírì kan àti gílóòbù kan. O fi bátírì kejì kún un. Kí ló ṣẹlẹ̀ sí gílóòbù?",
+          "ó mọ́lẹ̀ sí i",
+          "ìmọ́lẹ̀ rẹ̀ dín kù",
+          "ó kú",
+          "Bátírì méjì ń ti iná lágbára jù (fóltéèjì ga sí i), nítorí náà iná púpọ̀ sí i ń ṣàn, gílóòbù sì ń mọ́lẹ̀ sí i."
+        ],
+        [
+          "O fi gílóòbù kejì kún àyíká oníṣísẹ̀ńtẹ̀lé, ṣùgbọ́n bátírì kan náà ló wà. Báwo ni gílóòbù méjèèjì ṣe ń tàn?",
+          "ìmọ́lẹ̀ ọ̀kọ̀ọ̀kan dín sí ti gílóòbù kan ṣoṣo",
+          "ọ̀kọ̀ọ̀kan mọ́lẹ̀ ju gílóòbù kan ṣoṣo lọ",
+          "méjèèjì kú",
+          "Bátírì kan náà ní láti ti iná gba inú gílóòbù méjì, nítorí náà iná tó ń ṣàn dín kù, ìmọ́lẹ̀ ọ̀kọ̀ọ̀kan sì dín kù."
+        ],
+        [
+          "Nínú àyíká oníṣísẹ̀ńtẹ̀lé tó ní gílóòbù mẹ́ta, ọ̀kan bàjẹ́. Kí ló ṣẹlẹ̀ sí méjì yòókù?",
+          "àwọn náà kú",
+          "wọ́n mọ́lẹ̀ sí i",
+          "kò sí ohun tó yí padà",
+          "Ọ̀nà kan ṣoṣo ló wà nínú àyíká oníṣísẹ̀ńtẹ̀lé. Gílóòbù tó bàjẹ́ ń fi àlàfo sílẹ̀, nítorí náà iná dúró níbi gbogbo."
+        ],
+        [
+          "Nínú àwòrán àyíká iná, kí ni òbìrìkìtì tí àmì àgbélébùú wà nínú rẹ̀ dúró fún?",
+          "gílóòbù",
+          "bátírì",
+          "súwíìṣì",
+          "A máa ń ya gílóòbù bí òbìrìkìtì tí ìlà méjì ré kọjá ara wọn nínú rẹ̀. Bátírì jẹ́ ìlà méjì tó dúró lẹ́gbẹ̀ẹ́ ara wọn, tí gígùn wọn yàtọ̀."
+        ],
+        [
+          "Ẹ̀yà wo ni ìlà gígùn kan àti ìlà kúkúrú kan lẹ́gbẹ̀ẹ́ ara wọn dúró fún?",
+          "bátírì",
+          "gílóòbù",
+          "agogo iná (buzzer)",
+          "Àmì bátírì jẹ́ ìlà gígùn (apá pọ́sítíìfù) lẹ́gbẹ̀ẹ́ ìlà kúkúrú (apá nẹ́gátíìfù)."
+        ],
+        [
+          "Kí ló dé tí àwọn onímọ̀ sáyẹ́ǹsì fi ń lo àmì dípò àwòrán láti ya àyíká iná?",
+          "gbogbo ènìyàn níbi gbogbo ló ń lóye àwọn àmì rírọrùn náà lọ́nà kan náà",
+          "àmì ń mú kí iná lágbára sí i",
+          "a nílò àmì láti tan gílóòbù",
+          "Àwọn àmì tí gbogbo ayé gbà ń yá láti yà, wọ́n ṣe kedere, àwọn ènìyàn kárí ayé sì ń kà wọ́n lọ́nà kan náà."
+        ],
+        [
+          "Nínú àwòrán àyíká iná, òbìrìkìtì tí lẹ́tà M wà nínú rẹ̀ dúró fún…",
+          "mọ́tò",
+          "gílóòbù",
+          "súwíìṣì",
+          "M dúró fún mọ́tò, ẹ̀yà tó ń lo iná mànàmáná láti mú nǹkan yí po."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló ń gbé iná mànàmáná kọjá dáadáa (conductor)?",
+          "wáyà kọ́pà",
+          "rúlà ike",
+          "ṣíbí igi",
+          "Irin ni kọ́pà. Irin ń jẹ́ kí iná mànàmáná ṣàn kọjá nínú rẹ̀ ní ìrọ̀rùn, nítorí náà ó jẹ́ conductor tó dáa."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni kì í jẹ́ kí iná mànàmáná kọjá (insulator)?",
+          "rọ́bà",
+          "ìṣó irin",
+          "bébà aluminiọ́mù",
+          "Rọ́bà kì í jẹ́ kí iná mànàmáná ṣàn kọjá. Irin àti aluminiọ́mù jẹ́ irin, wọ́n ń gbé iná kọjá."
+        ],
+        [
+          "Kí ló dé tí wọ́n fi ike bo wáyà fìtílà?",
+          "ike jẹ́ insulator, ó ń dáàbò bò wá kí iná má gbá wa",
+          "ike ń jẹ́ kí iná ṣàn yára sí i",
+          "ike ń jẹ́ kí wáyà gbé iná dáadáa sí i",
+          "Irin inú wáyà ló ń gbé iná, ike tó bò ó ló ń dí i kí iná má bàa wọ ara rẹ."
+        ],
+        [
+          "Ẹgbẹ́ ohun wo ló sábà máa ń gbé iná mànàmáná kọjá dáadáa?",
+          "irin",
+          "ike",
+          "igi",
+          "Irin bí i kọ́pà, irin dúdú àti aluminiọ́mù ń gbé iná kọjá. Ike àti igi kì í jẹ́ kí iná kọjá."
+        ],
+        [
+          "O fi owó ẹyọ onírin sí àlàfo inú àyíká iná. Ṣé gílóòbù máa tàn?",
+          "bẹ́ẹ̀ni, nítorí irin ń gbé iná kọjá",
+          "rárá, nítorí owó ẹyọ rí róbótó",
+          "rárá, nítorí owó ẹyọ kéré jù",
+          "Owó ẹyọ onírin náà ń dí àlàfo náà, ó sì ń jẹ́ kí iná ṣàn, nítorí náà gílóòbù ń tàn."
+        ],
+        [
+          "Báwo lo ṣe lè dán an wò bóyá ohun kan ń gbé iná kọjá?",
+          "fi sí àlàfo inú àyíká iná kí o wò bóyá gílóòbù máa tàn",
+          "jù ú sínú omi kí o wò bóyá ó máa léfòó",
+          "wọ̀n ọ́n lórí òṣùwọ̀n",
+          "Tí gílóòbù bá tàn nígbà tí ohun náà wà nínú àlàfo, iná ń ṣàn kọjá nínú rẹ̀, nítorí náà ó jẹ́ conductor."
+        ],
+        [
+          "Kí ni ìṣàn iná mànàmáná (electric current)?",
+          "iná mànàmáná tó ń ṣàn yí àyíká ká",
+          "omi tó ń ṣàn nínú wáyà",
+          "ooru tó ń jáde láti inú gílóòbù",
+          "Ìṣàn iná ni iná mànàmáná (àwọn èròjà kéékèèké tó gbé agbára iná) tó ń ṣàn gba inú àyíká tó pé."
+        ],
+        [
+          "Nínú àyíká iná kékeré, o pààrọ̀ bátírì fóltì 1.5 sí bátírì fóltì 3. Kí ló ṣẹlẹ̀ sí gílóòbù?",
+          "ó mọ́lẹ̀ sí i",
+          "ìmọ́lẹ̀ rẹ̀ dín kù",
+          "ó dáwọ́ dúró lójú ẹsẹ̀",
+          "Fóltéèjì tó ga ń ti iná lágbára sí i, nítorí náà iná púpọ̀ sí i ń ṣàn, gílóòbù sì ń mọ́lẹ̀ sí i (tó bá pọ̀ jù, ó lè jó)."
+        ],
+        [
+          "Kí ni ìwọ̀n tí a fi ń wọn fóltéèjì bátírì?",
+          "fóltì",
+          "mítà",
+          "kìlógíráàmù",
+          "Fóltéèjì ń sọ bí agbára títì bátírì ṣe pọ̀ tó. A ń wọ̀n ọ́n ní fóltì (V), bí àpẹẹrẹ 1.5 V."
+        ],
+        [
+          "Agogo iná (buzzer) wà nínú àyíká oníṣísẹ̀ńtẹ̀lé. O fi bátírì míì kún un. Báwo ni ohùn agogo náà ṣe máa rí?",
+          "ó dún kíkan sí i",
+          "ohùn rẹ̀ rọlẹ̀ sí i",
+          "kò dún mọ́",
+          "Bátírì púpọ̀ sí i ń ti iná lágbára sí i, nítorí náà iná púpọ̀ ń ṣàn gba inú agogo náà, ó sì ń dún kíkan sí i."
+        ],
+        [
+          "Kí ló dé tí o kò gbọ́dọ̀ ti nǹkan bọ inú sọ́kẹ́ẹ̀tì iná rárá?",
+          "iná ìlú lágbára gan-an, ó sì lè pa ọ́ lára gidigidi",
+          "sọ́kẹ́ẹ̀tì náà máa di òòfà",
+          "gbogbo iná ìlú máa kú",
+          "Fóltéèjì iná ìlú ga ju ti bátírì ilé-ìwé lọ fíìfíì. Fífi nǹkan onírin kàn án léwu púpọ̀."
+        ],
+        [
+          "Kí ló dé tí o kò gbọ́dọ̀ fi ọwọ́ tútù kan súwíìṣì tàbí plọ́ọ̀gì?",
+          "omi ń ran iná lọ́wọ́ láti ṣàn wọ ara rẹ",
+          "omi ń mú kí plọ́ọ̀gì wúwo jù",
+          "ọwọ́ tútù ń dín ìmọ́lẹ̀ gílóòbù kù",
+          "Omi tí iyọ̀ tàbí ìdọ̀tí wà nínú rẹ̀ ń gbé iná kọjá, nítorí náà ó rọrùn kí iná gbá ẹni tí ọwọ́ rẹ̀ tutù."
+        ],
+        [
+          "Níbo ni ó ti léwu láti fò àwòdì-ìwé (kite)?",
+          "nítòsí wáyà iná ńláńlá tó wà lókè",
+          "nínú pápá ìṣeré tó fẹ̀",
+          "ní etíkun tó fẹ̀, tí kò sí ènìyàn",
+          "Wáyà iná ńláńlá ń gbé fóltéèjì tó ga gan-an. Tí àwòdì-ìwé tàbí okùn rẹ̀ bá kàn wọ́n, iná lè dé ọ̀dọ̀ rẹ."
+        ],
+        [
+          "Kí ló dé tí ó fi dáa láti lo bátírì fún àdánwò àyíká iná ní ilé-ìwé, ṣùgbọ́n kì í ṣe iná ìlú?",
+          "fóltéèjì bátírì kéré",
+          "kò sí iná mànàmáná nínú bátírì",
+          "ike ni wọ́n fi ṣe bátírì",
+          "Bátírì sábà máa ń ní fóltì díẹ̀ péré, èyí kò léwu. Iná ìlú ní ọ̀pọ̀ orílẹ̀-èdè jẹ́ nǹkan bí fóltì 230."
+        ],
+        [
+          "Tí iná bá ń ṣàn gba inú gílóòbù, agbára iná mànàmáná máa ń yí padà jù lọ sí…",
+          "ìmọ́lẹ̀ àti ooru",
+          "ohùn àti ìrìn",
+          "omi àti afẹ́fẹ́",
+          "Wáyà tínín-tínín (filament) tàbí LED inú gílóòbù ń tan ìmọ́lẹ̀, apá kan agbára náà sì ń di ooru."
+        ],
+        [
+          "Àyíká iná kan ní bátírì, gílóòbù àti súwíìṣì tí a ti, ṣùgbọ́n gílóòbù kò tàn. Kí ló ṣeé ṣe jù pé ó fà á?",
+          "ọ̀kan nínú àwọn wáyà kò so dáadáa",
+          "àwọn wáyà ń dán jù",
+          "a ti súwíìṣì",
+          "Wáyà tí kò so dáadáa ń fi àlàfo sílẹ̀, nítorí náà àyíká náà kò pé. A nílò súwíìṣì tí a ti kí gílóòbù tó lè tàn."
+        ],
+        [
+          "Ibo ni èyí tó pọ̀ jù nínú iná ìlú ti ń wá?",
+          "ilé-iṣẹ́ amúnáwá àti oko afẹ́fẹ́ tàbí oko oòrùn",
+          "sọ́kẹ́ẹ̀tì ló ń ṣe é fúnra rẹ̀",
+          "ó ń jábọ́ láti inú àwọsánmà bí òjò",
+          "Ilé-iṣẹ́ amúnáwá, ẹ̀rọ afẹ́fẹ́ àti pákó oòrùn ló ń ṣe iná mànàmáná, wáyà ló sì ń gbé e dé ilé."
+        ],
+        [
+          "Kí ló dé tí ó fi dáa láti pa iná nígbà tí o bá kúrò nínú yàrá?",
+          "ó ń ṣọ́ agbára iná àti owó",
+          "ó ń jẹ́ kí gílóòbù mọ́lẹ̀ sí i nígbà míì",
+          "ó ń gba agbára sínú bátírì inú ògiri",
+          "Iná tí a fi sílẹ̀ ń bá a lọ láti lo iná mànàmáná. Pípa á ń ṣọ́ agbára, owó àti ohun àlùmọ́ọ́nì tí a fi ń ṣe iná."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló ń ṣe iná mànàmáná láìsun epo kankan?",
+          "ẹ̀rọ afẹ́fẹ́ (wind turbine)",
+          "ilé-iṣẹ́ amúnáwá tó ń sun èédú",
+          "ilé-iṣẹ́ amúnáwá tó ń sun gáàsì",
+          "Ẹ̀rọ afẹ́fẹ́ ń lo afẹ́fẹ́ tó ń fẹ́ láti yí ẹ̀rọ amúnáwá. Ilé-iṣẹ́ èédú àti gáàsì ń sun epo, èyí sì ń tú afẹ́fẹ́ carbon dioxide jáde."
+        ]
+      ]
+    }
+  },
+  "emoji": "battery",
+  "example": {
+    "i": 0,
+    "q_en": "What does a cell (battery) do in a circuit?",
+    "answer_en": "it pushes the electric current round the circuit",
+    "why_en": "A cell gives the push that makes electricity flow round a complete circuit.",
+    "q_de": "Was macht eine Batterie in einem Stromkreis?",
+    "answer_de": "sie treibt den Strom durch den Stromkreis",
+    "why_de": "Die Batterie liefert den Antrieb, damit Strom durch einen geschlossenen Stromkreis fließt.",
+    "q_fr": "À quoi sert une pile dans un circuit ?",
+    "answer_fr": "elle pousse le courant électrique dans le circuit",
+    "why_fr": "La pile donne l’élan qui fait circuler l’électricité dans un circuit fermé.",
+    "q_yo": "Kí ni bátírì ń ṣe nínú àyíká iná?",
+    "answer_yo": "ó ń ti ìṣàn iná yí àyíká náà ká",
+    "why_yo": "Bátírì ló ń fún iná ní agbára láti ṣàn yí àyíká tó pé ká."
+  },
+  "text": {
+    "en": {
+      "title": "Electric circuits",
+      "teach": "A bulb lights only in a complete circuit with no gaps. Cells push the current round; more cells make a bulb brighter. Metals are good conductors, while plastic and rubber are insulators.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Stromkreise",
+      "teach": "Eine Lampe leuchtet nur in einem geschlossenen Stromkreis ohne Lücke. Batterien treiben den Strom an; mehr Batterien machen eine Lampe heller. Metalle leiten Strom gut, Kunststoff und Gummi sind Isolatoren.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les circuits électriques",
+      "teach": "Une ampoule ne brille que dans un circuit fermé, sans coupure. Les piles font circuler le courant ; avec plus de piles, l’ampoule brille plus fort. Les métaux sont de bons conducteurs, le plastique et le caoutchouc sont des isolants.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Àyíká iná mànàmáná",
+      "teach": "Gílóòbù máa ń tàn nínú àyíká iná tó pé, tí kò ní àlàfo nìkan. Bátírì ló ń ti iná yí àyíká ká; bátírì púpọ̀ sí i ń jẹ́ kí gílóòbù mọ́lẹ̀ sí i. Irin ń gbé iná kọjá dáadáa, ṣùgbọ́n ike àti rọ́bà kì í jẹ́ kí iná kọjá.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

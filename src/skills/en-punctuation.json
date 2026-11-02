@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "words",
   "stage": 2,
+  "ages": [
+    "6-7"
+  ],
   "order": 19,
   "only": "en",
   "params": {
@@ -16,7 +19,27 @@
       "warning",
       "animal-zebra",
       "speech",
-      "bus"
+      "bus",
+      "beach",
+      "paws",
+      "trophy",
+      "gloves",
+      "bone",
+      "palette",
+      "cloud",
+      "party",
+      "fruit-banana",
+      "memo",
+      "sun-rain",
+      "tv",
+      "bus",
+      "sparkles",
+      "ribbon",
+      "clock",
+      "books",
+      "school",
+      "animal-lion",
+      "animal-cow"
     ],
     "bank": {
       "en": [
@@ -89,6 +112,146 @@
           "The bus is, late today.",
           "the bus is late today",
           "It starts with a capital, ends with a full stop and needs no comma."
+        ],
+        [
+          "Which mark ends this sentence? “Can you swim___”",
+          "?",
+          ".",
+          ",",
+          "It asks something, so it ends with a question mark."
+        ],
+        [
+          "Which mark ends this sentence? “The cat is asleep___”",
+          ".",
+          "?",
+          ",",
+          "It tells us something, so it ends with a full stop."
+        ],
+        [
+          "Which mark ends this sentence? “Hooray, we won___”",
+          "!",
+          "?",
+          ",",
+          "It is a happy shout, so it ends with an exclamation mark."
+        ],
+        [
+          "Which list has the commas in the right places?",
+          "I packed a hat, a scarf and gloves.",
+          "I packed, a hat a scarf and gloves.",
+          "I packed a hat a scarf, and, gloves.",
+          "The comma goes between a hat and a scarf. “And” joins the last two."
+        ],
+        [
+          "Which is written correctly?",
+          "Where is the dog?",
+          "Where is the dog.",
+          "where is the dog?",
+          "It is a question, so it starts with a capital and ends with a question mark."
+        ],
+        [
+          "Which mark ends this sentence? “Which colour do you like best___”",
+          "?",
+          ".",
+          ",",
+          "It asks a question, so it ends with a question mark."
+        ],
+        [
+          "Which mark ends this sentence? “My kite is blue___”",
+          ".",
+          "?",
+          ",",
+          "It tells us something, so it ends with a full stop."
+        ],
+        [
+          "Which mark ends this sentence? “What a lovely party___”",
+          "!",
+          "?",
+          ",",
+          "It shows surprise and joy, so it ends with an exclamation mark."
+        ],
+        [
+          "Which list has the commas in the right places?",
+          "Mum bought bananas, plums and grapes.",
+          "Mum bought bananas plums, and, grapes.",
+          "Mum, bought bananas plums and grapes.",
+          "Put a comma between the things in the list, but not before “and”."
+        ],
+        [
+          "What does a full stop show?",
+          "the end of a telling sentence",
+          "the sentence asks something",
+          "the sentence is a shout",
+          "A full stop goes at the end of a sentence that tells us something."
+        ],
+        [
+          "Which is written correctly?",
+          "I can see a rainbow.",
+          "I can see a rainbow?",
+          "i can see a rainbow.",
+          "It tells us something, so it ends with a full stop, and I is a capital."
+        ],
+        [
+          "Which mark ends this sentence? “When does the film start___”",
+          "?",
+          ".",
+          ",",
+          "It asks a question, so it ends with a question mark."
+        ],
+        [
+          "Which mark ends this sentence? “Quick, run for the bus___”",
+          "!",
+          "?",
+          ",",
+          "It is a shout to hurry, so it ends with an exclamation mark."
+        ],
+        [
+          "What does an exclamation mark show?",
+          "a shout or surprise",
+          "a question",
+          "a list",
+          "An exclamation mark goes at the end of a shout or a surprise."
+        ],
+        [
+          "Which list has the commas in the right places?",
+          "The flag is red, white and blue.",
+          "The flag is red white, and, blue.",
+          "The flag, is red white and blue.",
+          "The comma goes between red and white. “And” joins the last two."
+        ],
+        [
+          "Which is written correctly?",
+          "Is it time for lunch?",
+          "Is it time for lunch.",
+          "Is it, time for lunch?",
+          "It is a question, so it needs a question mark and no comma."
+        ],
+        [
+          "Which mark goes between the things in a list?",
+          "a comma",
+          "a question mark",
+          "an exclamation mark",
+          "Commas split up the things in a list."
+        ],
+        [
+          "Which mark ends this sentence? “Our class has twenty children___”",
+          ".",
+          "?",
+          ",",
+          "It tells us something, so it ends with a full stop."
+        ],
+        [
+          "Which is written correctly?",
+          "We had a fun day at the zoo.",
+          "We had a fun day at the zoo?",
+          "We had, a fun day at the zoo.",
+          "It tells us something, so it ends with a full stop and needs no comma."
+        ],
+        [
+          "Which list has the commas in the right places?",
+          "At the farm we saw cows, pigs and sheep.",
+          "At the farm we saw, cows pigs and sheep.",
+          "At the farm we saw cows pigs, and, sheep.",
+          "The comma goes between cows and pigs. “And” joins the last two."
         ]
       ]
     }

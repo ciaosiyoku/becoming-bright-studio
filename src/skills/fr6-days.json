@@ -1,0 +1,274 @@
+{
+  "id": "fr6-days",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 1,
+  "ages": [
+    "6-7"
+  ],
+  "order": 12,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "sun",
+      "moon",
+      "clock",
+      "party",
+      "letters",
+      "speech",
+      "speech",
+      "speech",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "speech",
+      "sun",
+      "calendar"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is “lundi” in English?",
+          "Monday",
+          "Sunday",
+          "Tuesday",
+          "Lundi is Monday, the first day of the week in France."
+        ],
+        [
+          "How do you say Tuesday in French?",
+          "mardi",
+          "mercredi",
+          "lundi",
+          "Tuesday is mardi."
+        ],
+        [
+          "What is “mercredi” in English?",
+          "Wednesday",
+          "Monday",
+          "Friday",
+          "Mercredi is Wednesday, the middle of the week."
+        ],
+        [
+          "How do you say Thursday in French?",
+          "jeudi",
+          "mardi",
+          "samedi",
+          "Thursday is jeudi."
+        ],
+        [
+          "What is “vendredi” in English?",
+          "Friday",
+          "Thursday",
+          "Sunday",
+          "Vendredi is Friday."
+        ],
+        [
+          "How do you say Saturday in French?",
+          "samedi",
+          "dimanche",
+          "lundi",
+          "Saturday is samedi. It sounds a bit like Saturday."
+        ],
+        [
+          "What is “dimanche” in English?",
+          "Sunday",
+          "Saturday",
+          "Monday",
+          "Dimanche is Sunday, the last day of the week in France."
+        ],
+        [
+          "Which day comes after “lundi”?",
+          "mardi",
+          "dimanche",
+          "jeudi",
+          "After Monday comes Tuesday: lundi, mardi."
+        ],
+        [
+          "Which day comes after “jeudi”?",
+          "vendredi",
+          "mercredi",
+          "samedi",
+          "After Thursday comes Friday: jeudi, vendredi."
+        ],
+        [
+          "Which day comes before “samedi”?",
+          "vendredi",
+          "dimanche",
+          "lundi",
+          "Friday comes just before Saturday: vendredi, samedi."
+        ],
+        [
+          "Which day comes after “samedi”?",
+          "dimanche",
+          "vendredi",
+          "mardi",
+          "After Saturday comes Sunday: samedi, dimanche."
+        ],
+        [
+          "Which day comes after “dimanche”?",
+          "lundi",
+          "samedi",
+          "mercredi",
+          "After Sunday a new week starts with lundi."
+        ],
+        [
+          "Which day comes before “mercredi”?",
+          "mardi",
+          "jeudi",
+          "vendredi",
+          "Tuesday comes just before Wednesday: mardi, mercredi."
+        ],
+        [
+          "How many days are there in “une semaine”?",
+          "7",
+          "5",
+          "10",
+          "Une semaine is a week, and a week has seven days."
+        ],
+        [
+          "What does “la semaine” mean?",
+          "the week",
+          "the day",
+          "the month",
+          "La semaine means the week."
+        ],
+        [
+          "What does “aujourd’hui” mean?",
+          "today",
+          "tomorrow",
+          "yesterday",
+          "Aujourd’hui means today."
+        ],
+        [
+          "What does “demain” mean?",
+          "tomorrow",
+          "yesterday",
+          "Sunday",
+          "Demain means tomorrow, the day after today."
+        ],
+        [
+          "What does “hier” mean?",
+          "yesterday",
+          "here",
+          "tomorrow",
+          "Hier means yesterday. It looks like “here”, but it is not."
+        ],
+        [
+          "Which two days make “le week-end”?",
+          "samedi et dimanche",
+          "lundi et mardi",
+          "jeudi et vendredi",
+          "The weekend is Saturday and Sunday: samedi et dimanche."
+        ],
+        [
+          "How is Monday written in the middle of a French sentence?",
+          "lundi",
+          "Lundi",
+          "LUNDI",
+          "French days of the week do not take a capital letter."
+        ],
+        [
+          "“Aujourd’hui, c’est lundi.” What day is it today?",
+          "Monday",
+          "Tuesday",
+          "Sunday",
+          "C’est lundi means it is Monday."
+        ],
+        [
+          "“Aujourd’hui, c’est jeudi.” What is “demain”?",
+          "vendredi",
+          "mercredi",
+          "samedi",
+          "If today is Thursday, tomorrow is Friday: vendredi."
+        ],
+        [
+          "“Aujourd’hui, c’est mardi.” What was “hier”?",
+          "lundi",
+          "mercredi",
+          "dimanche",
+          "If today is Tuesday, yesterday was Monday: lundi."
+        ],
+        [
+          "Which day is the first day of the week in France?",
+          "lundi",
+          "dimanche",
+          "samedi",
+          "French calendars start the week on lundi (Monday)."
+        ],
+        [
+          "Which day is the last day of the week in France?",
+          "dimanche",
+          "samedi",
+          "lundi",
+          "French calendars end the week on dimanche (Sunday)."
+        ],
+        [
+          "Keep going: lundi, mardi, mercredi, ___",
+          "jeudi",
+          "vendredi",
+          "dimanche",
+          "After Wednesday comes Thursday: jeudi."
+        ],
+        [
+          "Keep going: vendredi, samedi, ___",
+          "dimanche",
+          "lundi",
+          "jeudi",
+          "After Saturday comes Sunday: dimanche."
+        ],
+        [
+          "How do you ask “What day is it?” in French?",
+          "Quel jour sommes-nous ?",
+          "Quel âge as-tu ?",
+          "Comment ça va ?",
+          "Quel jour means which day. Quel âge as-tu ? asks how old you are."
+        ],
+        [
+          "What does “le jour” mean?",
+          "the day",
+          "the week",
+          "the night",
+          "Le jour means the day. The night is la nuit."
+        ],
+        [
+          "Which day is between “mardi” and “jeudi”?",
+          "mercredi",
+          "lundi",
+          "vendredi",
+          "Mardi, mercredi, jeudi: Wednesday sits between Tuesday and Thursday."
+        ]
+      ]
+    }
+  },
+  "emoji": "calendar",
+  "example": {
+    "i": 0,
+    "q_en": "What is “lundi” in English?",
+    "answer_en": "Monday",
+    "why_en": "Lundi is Monday, the first day of the week in France."
+  },
+  "text": {
+    "en": {
+      "title": "Days of the week in French",
+      "teach": "The French days are lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche. In France the week starts on lundi (Monday), and the days do not need a capital letter.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

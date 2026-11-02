@@ -1,0 +1,274 @@
+{
+  "id": "fr8-questions",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 3,
+  "ages": [
+    "8-9"
+  ],
+  "order": 29,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "girl",
+      "map",
+      "calendar",
+      "speech",
+      "abacus",
+      "puzzle",
+      "cookie",
+      "map",
+      "girl",
+      "heart",
+      "abacus",
+      "anatomical-heart",
+      "cake",
+      "books",
+      "speech",
+      "bus",
+      "gift",
+      "speech",
+      "girl",
+      "calendar",
+      "puzzle",
+      "abacus",
+      "map",
+      "clock",
+      "music",
+      "school",
+      "calendar",
+      "paws",
+      "heart",
+      "backpack"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does qui mean?",
+          "who",
+          "what",
+          "where",
+          "Qui asks about a person: who?"
+        ],
+        [
+          "What does où mean?",
+          "where",
+          "when",
+          "who",
+          "Où asks about a place: where?"
+        ],
+        [
+          "What does quand mean?",
+          "when",
+          "how",
+          "why",
+          "Quand asks about time: when?"
+        ],
+        [
+          "What does comment mean?",
+          "how",
+          "how many",
+          "what",
+          "Comment means how, as in Comment vas-tu ?"
+        ],
+        [
+          "What does combien mean?",
+          "how many",
+          "how",
+          "why",
+          "Combien asks about a number: how many or how much?"
+        ],
+        [
+          "What does pourquoi mean?",
+          "why",
+          "because",
+          "who",
+          "Pourquoi means why. Because is parce que."
+        ],
+        [
+          "Que manges-tu ? What does que mean here?",
+          "what",
+          "who",
+          "where",
+          "Que asks about a thing: what are you eating?"
+        ],
+        [
+          "___ habites-tu ? – J’habite à Lyon.",
+          "Où",
+          "Qui",
+          "Combien",
+          "The answer is a place, so the question uses où."
+        ],
+        [
+          "___ est-ce ? – C’est ma tante.",
+          "Qui",
+          "Où",
+          "Quand",
+          "The answer is a person, so the question uses qui."
+        ],
+        [
+          "___ vas-tu ? – Je vais bien, merci.",
+          "Comment",
+          "Pourquoi",
+          "Où",
+          "Comment vas-tu ? asks how you are."
+        ],
+        [
+          "___ de frères as-tu ? – J’ai deux frères.",
+          "Combien",
+          "Comment",
+          "Qui",
+          "The answer is a number, so the question uses combien."
+        ],
+        [
+          "___ pleures-tu ? – Parce que j’ai mal.",
+          "Pourquoi",
+          "Quand",
+          "Combien",
+          "The answer starts with parce que (because), so the question is pourquoi."
+        ],
+        [
+          "___ est ton anniversaire ? – C’est le 3 mai.",
+          "Quand",
+          "Qui",
+          "Pourquoi",
+          "The answer is a date, so the question uses quand."
+        ],
+        [
+          "___ fais-tu ? – Je lis un livre.",
+          "Que",
+          "Où",
+          "Qui",
+          "The answer says what you are doing, so the question uses que."
+        ],
+        [
+          "Comment t’appelles-tu ? What does it mean?",
+          "What is your name?",
+          "How old are you?",
+          "Where do you live?",
+          "S’appeler means to be called, so it asks your name."
+        ],
+        [
+          "Où est la gare ? What does it mean?",
+          "Where is the station?",
+          "When is the train?",
+          "Who is at the station?",
+          "Où means where, and la gare is the station."
+        ],
+        [
+          "Combien ça coûte ? What does it mean?",
+          "How much does it cost?",
+          "What is it?",
+          "Where is it?",
+          "Combien asks how much, and coûter means to cost."
+        ],
+        [
+          "Pourquoi means why. Which words often start the answer?",
+          "parce que",
+          "comment",
+          "quand",
+          "We answer why with because, which is parce que."
+        ],
+        [
+          "How do you ask ’Who?’ in French?",
+          "Qui ?",
+          "Où ?",
+          "Quand ?",
+          "Qui means who."
+        ],
+        [
+          "How do you ask ’When?’ in French?",
+          "Quand ?",
+          "Combien ?",
+          "Comment ?",
+          "Quand means when."
+        ],
+        [
+          "How do you ask ’Why?’ in French?",
+          "Pourquoi ?",
+          "Parce que ?",
+          "Pour ?",
+          "Pourquoi means why. Parce que means because."
+        ],
+        [
+          "How do you ask ’How many?’ in French?",
+          "Combien ?",
+          "Comment ?",
+          "Quand ?",
+          "Combien means how many."
+        ],
+        [
+          "Which question asks about a place?",
+          "Où vas-tu ?",
+          "Quand pars-tu ?",
+          "Qui es-tu ?",
+          "Où asks where, so it asks about a place."
+        ],
+        [
+          "Which question asks about a time?",
+          "Quand manges-tu ?",
+          "Où manges-tu ?",
+          "Qui mange ?",
+          "Quand asks when, so it asks about a time."
+        ],
+        [
+          "Which question asks about a person?",
+          "Qui chante ?",
+          "Où chantes-tu ?",
+          "Pourquoi chantes-tu ?",
+          "Qui asks who, so it asks about a person."
+        ],
+        [
+          "___ d’élèves sont dans ta classe ? – Vingt-cinq.",
+          "Combien",
+          "Qui",
+          "Quand",
+          "The answer is a number, so the question uses combien."
+        ],
+        [
+          "Tu arrives ___ ? – Demain.",
+          "quand",
+          "qui",
+          "combien",
+          "Demain (tomorrow) is a time, so the question uses quand."
+        ],
+        [
+          "___ s’appelle ton chien ? – Il s’appelle Rex.",
+          "Comment",
+          "Combien",
+          "Où",
+          "Comment s’appelle... ? asks for a name."
+        ],
+        [
+          "Qui est ton ami ? Which is the right answer?",
+          "C’est Hugo.",
+          "À l’école.",
+          "Demain.",
+          "Qui asks who, so the answer is a person."
+        ],
+        [
+          "Où est ton sac ? Which is the right answer?",
+          "Sous la table.",
+          "C’est Hugo.",
+          "À huit heures.",
+          "Où asks where, so the answer is a place."
+        ]
+      ]
+    }
+  },
+  "emoji": "puzzle",
+  "example": {
+    "i": 0,
+    "q_en": "What does qui mean?",
+    "answer_en": "who",
+    "why_en": "Qui asks about a person: who?"
+  },
+  "text": {
+    "en": {
+      "title": "Question words",
+      "teach": "Question words: qui (who), que (what), où (where), quand (when), comment (how), combien (how many), pourquoi (why). Où habites-tu ?",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

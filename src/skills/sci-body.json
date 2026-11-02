@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "science",
   "stage": 1,
+  "ages": [
+    "6-7"
+  ],
   "order": 2,
   "params": {
     "emojis": [
@@ -15,7 +18,27 @@
       "cake",
       "footprints",
       "sun",
-      "gloves"
+      "gloves",
+      "anatomical-heart",
+      "bone",
+      "medal",
+      "bone",
+      "hockey",
+      "shoe",
+      "sparkles",
+      "fruit-apple",
+      "cookie",
+      "droplet",
+      "girl",
+      "trophy",
+      "footprints",
+      "fog",
+      "fruit-banana",
+      "thermometer",
+      "gloves",
+      "moon",
+      "scarf",
+      "droplet"
     ],
     "bank": {
       "en": [
@@ -88,6 +111,146 @@
           "your ankle",
           "your knee",
           "Your wrist is between your hand and your arm. It lets your hand bend and turn."
+        ],
+        [
+          "What carries blood from your heart all around your body?",
+          "tubes called blood vessels",
+          "your bones",
+          "your hairs",
+          "Blood flows through tiny tubes called blood vessels. They reach every part of your body."
+        ],
+        [
+          "Which part of your body protects your brain?",
+          "your skull",
+          "your nose",
+          "your fingers",
+          "Your skull is a hard bone around your brain. It keeps it safe like a helmet."
+        ],
+        [
+          "What happens to your heart when you run fast?",
+          "it beats faster",
+          "it stops",
+          "it beats more slowly",
+          "When you run, your muscles need more blood, so your heart beats faster to send it."
+        ],
+        [
+          "Which bones keep your heart and lungs safe?",
+          "your ribs",
+          "your toes",
+          "your finger bones",
+          "Your ribs curve around your chest like a cage. They protect your heart and lungs."
+        ],
+        [
+          "Which joint bends in the middle of your arm?",
+          "your elbow",
+          "your knee",
+          "your ankle",
+          "Your elbow is halfway along your arm. It bends when you lift a cup or throw a ball."
+        ],
+        [
+          "Which joint joins your foot to your leg?",
+          "your ankle",
+          "your wrist",
+          "your elbow",
+          "Your ankle is just above your foot. It lets your foot bend and turn."
+        ],
+        [
+          "Why should you brush your teeth every day?",
+          "to keep them clean and healthy",
+          "to make them grow longer",
+          "to help you hear better",
+          "Brushing takes away bits of food and germs that can make holes in your teeth."
+        ],
+        [
+          "What happens after a baby tooth falls out?",
+          "a bigger tooth grows in its place",
+          "nothing ever grows there again",
+          "a flower grows there",
+          "Children lose their baby teeth. Bigger adult teeth grow in to take their place."
+        ],
+        [
+          "Where does food go after you swallow it?",
+          "down a tube to your stomach",
+          "into your lungs",
+          "up into your brain",
+          "When you swallow, food slides down a long tube called the food pipe to your stomach."
+        ],
+        [
+          "Why does your body need water?",
+          "to work properly and stay healthy",
+          "to turn your skin blue",
+          "to make you shorter",
+          "Much of your body is water. You lose some when you sweat and breathe, so you need to drink more."
+        ],
+        [
+          "What grows on top of your head?",
+          "hair",
+          "leaves",
+          "feathers",
+          "Hair grows on your head. It helps keep your head warm and shades it from the sun."
+        ],
+        [
+          "What happens to your muscles when you play and exercise a lot?",
+          "they get stronger",
+          "they disappear",
+          "they turn into bone",
+          "Using your muscles often makes them stronger, so running and climbing get easier."
+        ],
+        [
+          "What do you stand and walk on?",
+          "your feet",
+          "your hands",
+          "your ears",
+          "Your feet carry the weight of your whole body when you stand, walk and run."
+        ],
+        [
+          "Where in your body are your lungs?",
+          "in your chest",
+          "in your feet",
+          "in your head",
+          "Your two lungs are inside your chest, behind your ribs, one on each side of your heart."
+        ],
+        [
+          "What helps your body grow strong?",
+          "healthy food, sleep and exercise",
+          "eating only sweets",
+          "staying awake all night",
+          "Your body grows best with good food, plenty of sleep and lots of moving about."
+        ],
+        [
+          "Why do you sweat when you are hot?",
+          "it helps your body cool down",
+          "it makes you even hotter",
+          "it helps you see",
+          "Sweat is water on your skin. As it dries, it takes heat away and cools you."
+        ],
+        [
+          "What protects the tips of your fingers and toes?",
+          "your nails",
+          "feathers",
+          "scales",
+          "Nails are hard and keep the ends of your fingers and toes safe. They keep growing, so we cut them."
+        ],
+        [
+          "Does your heart keep beating while you sleep?",
+          "yes, it beats all the time",
+          "no, it stops",
+          "only when you dream",
+          "Your heart never takes a break. It beats day and night, even when you are fast asleep."
+        ],
+        [
+          "Which part of your body joins your head to your shoulders?",
+          "your neck",
+          "your knee",
+          "your elbow",
+          "Your neck holds up your head and lets you turn it to look around."
+        ],
+        [
+          "Why should you wash your hands before you eat?",
+          "to wash away germs",
+          "to make your hands grow",
+          "to make food taste salty",
+          "Germs too small to see can sit on your hands. Soap and water wash them away so they do not make you ill."
         ]
       ],
       "de": [
@@ -160,6 +323,146 @@
           "dein Fußgelenk",
           "dein Knie",
           "Das Handgelenk ist zwischen Hand und Arm. Damit kann sich die Hand beugen und drehen."
+        ],
+        [
+          "Was bringt das Blut vom Herzen in den ganzen Körper?",
+          "Röhren, die Blutgefäße heißen",
+          "deine Knochen",
+          "deine Haare",
+          "Das Blut fließt durch feine Röhren, die Blutgefäße. Sie reichen bis in jeden Teil des Körpers."
+        ],
+        [
+          "Was schützt dein Gehirn?",
+          "dein Schädel",
+          "deine Nase",
+          "deine Finger",
+          "Der Schädel ist ein harter Knochen um das Gehirn. Er schützt es wie ein Helm."
+        ],
+        [
+          "Was macht dein Herz, wenn du schnell rennst?",
+          "es schlägt schneller",
+          "es hört auf zu schlagen",
+          "es schlägt langsamer",
+          "Beim Rennen brauchen die Muskeln mehr Blut. Darum schlägt das Herz schneller."
+        ],
+        [
+          "Welche Knochen schützen Herz und Lunge?",
+          "deine Rippen",
+          "deine Zehen",
+          "deine Fingerknochen",
+          "Die Rippen biegen sich wie ein Käfig um die Brust. Sie schützen Herz und Lunge."
+        ],
+        [
+          "Welches Gelenk ist in der Mitte deines Arms?",
+          "dein Ellenbogen",
+          "dein Knie",
+          "dein Fußgelenk",
+          "Der Ellenbogen ist in der Mitte des Arms. Er beugt sich, wenn du einen Becher hebst oder einen Ball wirfst."
+        ],
+        [
+          "Welches Gelenk verbindet deinen Fuß mit dem Bein?",
+          "dein Fußgelenk",
+          "dein Handgelenk",
+          "dein Ellenbogen",
+          "Das Fußgelenk ist direkt über dem Fuß. Mit ihm kann sich der Fuß beugen und drehen."
+        ],
+        [
+          "Warum solltest du jeden Tag die Zähne putzen?",
+          "damit sie sauber und gesund bleiben",
+          "damit sie länger werden",
+          "damit du besser hörst",
+          "Beim Putzen gehen Essensreste und Keime weg, die Löcher in die Zähne machen können."
+        ],
+        [
+          "Was passiert, nachdem ein Milchzahn ausgefallen ist?",
+          "ein größerer Zahn wächst nach",
+          "dort wächst nie wieder etwas",
+          "dort wächst eine Blume",
+          "Kinder verlieren ihre Milchzähne. Größere bleibende Zähne wachsen an ihrer Stelle."
+        ],
+        [
+          "Wohin kommt das Essen, wenn du es geschluckt hast?",
+          "durch eine Röhre in den Magen",
+          "in die Lunge",
+          "hinauf ins Gehirn",
+          "Beim Schlucken rutscht das Essen durch eine lange Röhre, die Speiseröhre, in den Magen."
+        ],
+        [
+          "Warum braucht dein Körper Wasser?",
+          "damit er gut arbeitet und gesund bleibt",
+          "damit die Haut blau wird",
+          "damit du kleiner wirst",
+          "Dein Körper besteht zu einem großen Teil aus Wasser. Beim Schwitzen und Atmen verlierst du etwas davon, darum musst du trinken."
+        ],
+        [
+          "Was wächst oben auf deinem Kopf?",
+          "Haare",
+          "Blätter",
+          "Federn",
+          "Auf dem Kopf wachsen Haare. Sie halten den Kopf warm und schützen ihn vor der Sonne."
+        ],
+        [
+          "Was passiert mit deinen Muskeln, wenn du viel spielst und dich bewegst?",
+          "sie werden stärker",
+          "sie verschwinden",
+          "sie werden zu Knochen",
+          "Wer seine Muskeln oft benutzt, macht sie stärker. Dann fallen Rennen und Klettern leichter."
+        ],
+        [
+          "Worauf stehst und gehst du?",
+          "auf deinen Füßen",
+          "auf deinen Händen",
+          "auf deinen Ohren",
+          "Deine Füße tragen deinen ganzen Körper, wenn du stehst, gehst und rennst."
+        ],
+        [
+          "Wo in deinem Körper ist deine Lunge?",
+          "im Brustkorb",
+          "in den Füßen",
+          "im Kopf",
+          "Die beiden Lungenflügel liegen im Brustkorb, hinter den Rippen, rechts und links vom Herzen."
+        ],
+        [
+          "Was hilft deinem Körper, stark zu werden?",
+          "gesundes Essen, Schlaf und Bewegung",
+          "nur Süßigkeiten essen",
+          "die ganze Nacht wach bleiben",
+          "Dein Körper wächst am besten mit gutem Essen, viel Schlaf und viel Bewegung."
+        ],
+        [
+          "Warum schwitzt du, wenn dir heiß ist?",
+          "damit dein Körper abkühlt",
+          "damit dir noch heißer wird",
+          "damit du besser siehst",
+          "Schweiß ist Wasser auf der Haut. Wenn er trocknet, nimmt er Wärme mit und kühlt dich."
+        ],
+        [
+          "Was schützt die Spitzen deiner Finger und Zehen?",
+          "deine Nägel",
+          "Federn",
+          "Schuppen",
+          "Nägel sind hart und schützen die Finger- und Zehenspitzen. Sie wachsen immer weiter, darum schneiden wir sie."
+        ],
+        [
+          "Schlägt dein Herz weiter, wenn du schläfst?",
+          "ja, es schlägt immer",
+          "nein, es hört auf",
+          "nur wenn du träumst",
+          "Dein Herz macht nie Pause. Es schlägt Tag und Nacht, auch wenn du tief schläfst."
+        ],
+        [
+          "Welcher Körperteil verbindet deinen Kopf mit den Schultern?",
+          "dein Hals",
+          "dein Knie",
+          "dein Ellenbogen",
+          "Der Hals hält den Kopf und lässt ihn sich drehen, damit du dich umschauen kannst."
+        ],
+        [
+          "Warum solltest du vor dem Essen die Hände waschen?",
+          "um Keime abzuwaschen",
+          "damit die Hände wachsen",
+          "damit das Essen salzig schmeckt",
+          "Auf den Händen können winzige Keime sitzen. Seife und Wasser waschen sie ab, damit du nicht krank wirst."
         ]
       ],
       "fr": [
@@ -232,6 +535,146 @@
           "ta cheville",
           "ton genou",
           "Le poignet est entre la main et le bras. Il permet à ta main de plier et de tourner."
+        ],
+        [
+          "Qu’est-ce qui transporte le sang du cœur dans tout le corps ?",
+          "des tuyaux appelés vaisseaux sanguins",
+          "tes os",
+          "tes cheveux",
+          "Le sang circule dans de petits tuyaux, les vaisseaux sanguins. Ils vont dans toutes les parties du corps."
+        ],
+        [
+          "Quelle partie du corps protège ton cerveau ?",
+          "ton crâne",
+          "ton nez",
+          "tes doigts",
+          "Le crâne est un os dur autour du cerveau. Il le protège comme un casque."
+        ],
+        [
+          "Que fait ton cœur quand tu cours vite ?",
+          "il bat plus vite",
+          "il s’arrête",
+          "il bat plus lentement",
+          "Quand tu cours, tes muscles ont besoin de plus de sang, alors ton cœur bat plus vite."
+        ],
+        [
+          "Quels os protègent ton cœur et tes poumons ?",
+          "tes côtes",
+          "tes orteils",
+          "les os de tes doigts",
+          "Les côtes forment comme une cage autour de la poitrine. Elles protègent le cœur et les poumons."
+        ],
+        [
+          "Quelle articulation plie au milieu de ton bras ?",
+          "ton coude",
+          "ton genou",
+          "ta cheville",
+          "Le coude est au milieu du bras. Il se plie quand tu lèves un verre ou lances un ballon."
+        ],
+        [
+          "Quelle articulation relie ton pied à ta jambe ?",
+          "ta cheville",
+          "ton poignet",
+          "ton coude",
+          "La cheville est juste au-dessus du pied. Elle permet au pied de se plier et de tourner."
+        ],
+        [
+          "Pourquoi faut-il se brosser les dents chaque jour ?",
+          "pour les garder propres et en bonne santé",
+          "pour qu’elles deviennent plus longues",
+          "pour mieux entendre",
+          "Le brossage enlève les restes de nourriture et les microbes qui peuvent faire des trous dans les dents."
+        ],
+        [
+          "Que se passe-t-il quand une dent de lait tombe ?",
+          "une dent plus grande pousse à sa place",
+          "plus rien ne pousse jamais à cet endroit",
+          "une fleur pousse à sa place",
+          "Les enfants perdent leurs dents de lait. Des dents d’adulte, plus grandes, poussent à leur place."
+        ],
+        [
+          "Où va la nourriture quand tu l’avales ?",
+          "dans un tuyau jusqu’à l’estomac",
+          "dans les poumons",
+          "jusqu’au cerveau",
+          "Quand tu avales, la nourriture glisse dans un long tuyau, l’œsophage, jusqu’à l’estomac."
+        ],
+        [
+          "Pourquoi ton corps a-t-il besoin d’eau ?",
+          "pour bien fonctionner et rester en bonne santé",
+          "pour que ta peau devienne bleue",
+          "pour te rendre plus petit",
+          "Ton corps contient beaucoup d’eau. Tu en perds quand tu transpires et respires, alors il faut boire."
+        ],
+        [
+          "Qu’est-ce qui pousse sur ta tête ?",
+          "des cheveux",
+          "des feuilles",
+          "des plumes",
+          "Des cheveux poussent sur la tête. Ils la gardent au chaud et la protègent du soleil."
+        ],
+        [
+          "Que deviennent tes muscles si tu joues et bouges beaucoup ?",
+          "ils deviennent plus forts",
+          "ils disparaissent",
+          "ils se changent en os",
+          "Quand on se sert souvent de ses muscles, ils deviennent plus forts : courir et grimper devient plus facile."
+        ],
+        [
+          "Sur quoi tiens-tu debout et marches-tu ?",
+          "sur tes pieds",
+          "sur tes mains",
+          "sur tes oreilles",
+          "Tes pieds portent tout ton corps quand tu es debout, que tu marches ou que tu cours."
+        ],
+        [
+          "Où sont tes poumons ?",
+          "dans ta poitrine",
+          "dans tes pieds",
+          "dans ta tête",
+          "Tes deux poumons sont dans ta poitrine, derrière les côtes, de chaque côté du cœur."
+        ],
+        [
+          "Qu’est-ce qui aide ton corps à devenir fort ?",
+          "bien manger, dormir et bouger",
+          "manger seulement des bonbons",
+          "rester éveillé toute la nuit",
+          "Ton corps grandit mieux avec une bonne alimentation, beaucoup de sommeil et du mouvement."
+        ],
+        [
+          "Pourquoi transpires-tu quand tu as chaud ?",
+          "pour refroidir ton corps",
+          "pour avoir encore plus chaud",
+          "pour mieux voir",
+          "La sueur est de l’eau sur la peau. En séchant, elle emporte de la chaleur et te rafraîchit."
+        ],
+        [
+          "Qu’est-ce qui protège le bout de tes doigts et de tes orteils ?",
+          "tes ongles",
+          "des plumes",
+          "des écailles",
+          "Les ongles sont durs et protègent le bout des doigts et des orteils. Ils poussent sans arrêt, alors on les coupe."
+        ],
+        [
+          "Ton cœur bat-il encore quand tu dors ?",
+          "oui, il bat tout le temps",
+          "non, il s’arrête",
+          "seulement quand tu rêves",
+          "Ton cœur ne s’arrête jamais. Il bat jour et nuit, même quand tu dors profondément."
+        ],
+        [
+          "Quelle partie du corps relie ta tête à tes épaules ?",
+          "ton cou",
+          "ton genou",
+          "ton coude",
+          "Le cou tient la tête et lui permet de tourner pour regarder autour de toi."
+        ],
+        [
+          "Pourquoi faut-il se laver les mains avant de manger ?",
+          "pour enlever les microbes",
+          "pour faire grandir ses mains",
+          "pour que la nourriture soit salée",
+          "Des microbes trop petits pour être vus peuvent se trouver sur les mains. L’eau et le savon les enlèvent pour qu’on ne tombe pas malade."
         ]
       ],
       "yo": [
@@ -304,6 +747,146 @@
           "ọrùn ẹsẹ̀ rẹ",
           "orúnkún rẹ",
           "Ọrùn ọwọ́ wà láàárín ọwọ́ àti apá. Òun ló ń jẹ́ kí ọwọ́ tẹ̀, kí ó sì yí."
+        ],
+        [
+          "Kí ló ń gbé ẹ̀jẹ̀ láti ọkàn lọ sí gbogbo ara rẹ?",
+          "àwọn òpó kéékèèké tí ẹ̀jẹ̀ ń ṣàn nínú wọn",
+          "egungun rẹ",
+          "irun rẹ",
+          "Ẹ̀jẹ̀ ń ṣàn gba inú àwọn òpó kéékèèké tí a ń pè ní ìṣàn ẹ̀jẹ̀. Wọ́n dé gbogbo apá ara rẹ."
+        ],
+        [
+          "Apá ara wo ló ń dáàbò bo ọpọlọ rẹ?",
+          "agbárí rẹ",
+          "imú rẹ",
+          "ìka ọwọ́ rẹ",
+          "Agbárí jẹ́ egungun líle tó yí ọpọlọ ká. Ó ń dáàbò bò ó bí àṣíborí."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí ọkàn rẹ nígbà tí o bá ń sáré kíákíá?",
+          "ó ń lù kíákíá sí i",
+          "ó ń dúró",
+          "ó ń lù díẹ̀díẹ̀ sí i",
+          "Tí o bá ń sáré, iṣan ara rẹ nílò ẹ̀jẹ̀ púpọ̀ sí i, nítorí náà ọkàn rẹ á máa lù kíákíá."
+        ],
+        [
+          "Egungun wo ló ń dáàbò bo ọkàn àti ẹ̀dọ̀fóró rẹ?",
+          "egungun ìhà rẹ",
+          "ọmọ ìka ẹsẹ̀ rẹ",
+          "egungun ìka ọwọ́ rẹ",
+          "Egungun ìhà yí àyà rẹ ká bí àgò. Wọ́n ń dáàbò bo ọkàn àti ẹ̀dọ̀fóró."
+        ],
+        [
+          "Oríkèé wo ló ń tẹ̀ ní àárín apá rẹ?",
+          "ìgbọ̀nwọ́ rẹ",
+          "orúnkún rẹ",
+          "ọrùn ẹsẹ̀ rẹ",
+          "Ìgbọ̀nwọ́ wà ní àárín apá. Òun ló ń jẹ́ kí apá tẹ̀ nígbà tí o bá gbé ife tàbí ju bọ́ọ̀lù."
+        ],
+        [
+          "Oríkèé wo ló so àtẹ́lẹsẹ̀ rẹ mọ́ ojúgun rẹ?",
+          "ọrùn ẹsẹ̀ rẹ",
+          "ọrùn ọwọ́ rẹ",
+          "ìgbọ̀nwọ́ rẹ",
+          "Ọrùn ẹsẹ̀ wà lókè àtẹ́lẹsẹ̀ gan-an. Òun ló ń jẹ́ kí ẹsẹ̀ tẹ̀, kí ó sì yí."
+        ],
+        [
+          "Kí nìdí tí o fi gbọ́dọ̀ máa fọ eyín rẹ lójoojúmọ́?",
+          "kí wọ́n lè mọ́, kí wọ́n sì ní ìlera",
+          "kí wọ́n lè gùn sí i",
+          "kí o lè gbọ́ràn dáadáa",
+          "Fífọ eyín ń mú èérún oúnjẹ àti kòkòrò àrùn kúrò, tí wọ́n lè dá ihò sínú eyín."
+        ],
+        [
+          "Kí ló máa ń ṣẹlẹ̀ lẹ́yìn tí eyín ọmọdé bá yọ?",
+          "eyín tó tóbi jù ú lọ á hù sí ààyè rẹ̀",
+          "kò sí ohun tí yóò hù níbẹ̀ mọ́ láé",
+          "òdòdó á hù níbẹ̀",
+          "Àwọn ọmọdé máa ń pàdánù eyín ọmọdé wọn. Eyín àgbà tó tóbi jù wọ́n lọ á hù sí ààyè wọn."
+        ],
+        [
+          "Ibo ni oúnjẹ ń lọ lẹ́yìn tí o bá gbé e mì?",
+          "ó ń gba inú òpó kan lọ sínú ikùn rẹ",
+          "sínú ẹ̀dọ̀fóró rẹ",
+          "sókè sínú ọpọlọ rẹ",
+          "Tí o bá gbé oúnjẹ mì, ó ń yọ̀ gba inú òpó gígùn kan lọ sínú ikùn."
+        ],
+        [
+          "Kí nìdí tí ara rẹ fi nílò omi?",
+          "kí ó lè ṣiṣẹ́ dáadáa, kí ó sì ní ìlera",
+          "kí awọ ara rẹ lè di búlúù",
+          "kí o lè kúrú sí i",
+          "Omi pọ̀ gan-an nínú ara rẹ. O máa ń pàdánù díẹ̀ nígbà tí o bá ń làágùn tàbí mí, nítorí náà o gbọ́dọ̀ máa mu omi."
+        ],
+        [
+          "Kí ló ń hù lórí rẹ?",
+          "irun",
+          "ewé",
+          "ìyẹ́",
+          "Irun ń hù lórí. Ó ń jẹ́ kí orí móoru, ó sì ń dáàbò bò ó lọ́wọ́ oòrùn."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí iṣan ara rẹ tí o bá ń ṣeré, tí o sì ń ṣe eré ìdárayá púpọ̀?",
+          "wọ́n ń lágbára sí i",
+          "wọ́n ń pòórá",
+          "wọ́n ń di egungun",
+          "Tí o bá ń lo iṣan ara rẹ dáadáa, wọ́n á lágbára sí i, sísáré àti gígun nǹkan á sì rọrùn."
+        ],
+        [
+          "Kí lo fi ń dúró, tí o sì fi ń rìn?",
+          "ẹsẹ̀ rẹ",
+          "ọwọ́ rẹ",
+          "etí rẹ",
+          "Ẹsẹ̀ rẹ ló ń gbé gbogbo ara rẹ nígbà tí o bá dúró, rìn tàbí sáré."
+        ],
+        [
+          "Ibo ni ẹ̀dọ̀fóró rẹ wà nínú ara rẹ?",
+          "nínú àyà rẹ",
+          "nínú ẹsẹ̀ rẹ",
+          "nínú orí rẹ",
+          "Ẹ̀dọ̀fóró rẹ méjèèjì wà nínú àyà, lẹ́yìn egungun ìhà, ní ẹ̀gbẹ́ méjèèjì ọkàn."
+        ],
+        [
+          "Kí ló ń ran ara rẹ lọ́wọ́ láti dàgbà kí ó sì lágbára?",
+          "oúnjẹ aṣaralóore, oorun àti eré ìdárayá",
+          "jíjẹ ìpanu dídùn nìkan",
+          "ṣíṣọ́nà ní gbogbo òru",
+          "Ara rẹ ń dàgbà dáadáa pẹ̀lú oúnjẹ tó dára, oorun tó tó àti eré ìdárayá púpọ̀."
+        ],
+        [
+          "Kí nìdí tí o fi ń làágùn nígbà tí ara rẹ bá gbóná?",
+          "ó ń jẹ́ kí ara rẹ tutù",
+          "ó ń mú kí ara rẹ gbóná sí i",
+          "ó ń bá ọ ríran",
+          "Òógùn jẹ́ omi lórí awọ ara. Bí ó ti ń gbẹ, ó ń mú ooru lọ, ó sì ń tù ọ́ lára."
+        ],
+        [
+          "Kí ló ń dáàbò bo orí ìka ọwọ́ àti ẹsẹ̀ rẹ?",
+          "èékánná rẹ",
+          "ìyẹ́",
+          "ìpẹ́",
+          "Èékánná le, ó sì ń dáàbò bo orí ìka ọwọ́ àti ẹsẹ̀. Ó ń hù ṣáá, nítorí náà a máa ń gé e."
+        ],
+        [
+          "Ṣé ọkàn rẹ ń lù nígbà tí o bá ń sùn?",
+          "bẹ́ẹ̀ni, ó ń lù ní gbogbo ìgbà",
+          "rárá, ó ń dúró",
+          "nígbà tí o bá ń lá àlá nìkan",
+          "Ọkàn rẹ kì í sinmi. Ó ń lù ní ọ̀sán àti ní òru, kódà nígbà tí o bá sùn fọnfọn."
+        ],
+        [
+          "Apá ara wo ló so orí rẹ mọ́ èjìká rẹ?",
+          "ọrùn rẹ",
+          "orúnkún rẹ",
+          "ìgbọ̀nwọ́ rẹ",
+          "Ọrùn ló gbé orí dúró, ó sì ń jẹ́ kí o yí orí láti wo àyíká."
+        ],
+        [
+          "Kí nìdí tí o fi gbọ́dọ̀ fọ ọwọ́ rẹ kí o tó jẹun?",
+          "láti fọ kòkòrò àrùn kúrò",
+          "kí ọwọ́ rẹ lè dàgbà",
+          "kí oúnjẹ lè ní iyọ̀",
+          "Kòkòrò àrùn tí ojú kò lè rí lè wà lọ́wọ́ rẹ. Ọṣẹ àti omi ń fọ̀ wọ́n kúrò kí wọ́n má bàa mú ọ ṣàìsàn."
         ]
       ]
     }

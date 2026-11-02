@@ -1,0 +1,274 @@
+{
+  "id": "en10-roots",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 205,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "telephone",
+      "seedling",
+      "memo",
+      "droplet",
+      "backpack",
+      "glowstar",
+      "music",
+      "animal-lady-beetle",
+      "gear",
+      "globe",
+      "thermometer",
+      "clock",
+      "radio",
+      "bone",
+      "house",
+      "gloves",
+      "star",
+      "speech",
+      "wave",
+      "sun",
+      "tv",
+      "books",
+      "minibus",
+      "animal-shark",
+      "sparkles",
+      "glowstar",
+      "animal-frog",
+      "openbook",
+      "radio",
+      "mountain"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does the root “tele” mean?",
+          "far",
+          "near",
+          "sound",
+          "“tele” means far, as in telephone and television."
+        ],
+        [
+          "What does the root “bio” mean?",
+          "life",
+          "two",
+          "book",
+          "“bio” means life, as in biology."
+        ],
+        [
+          "What does the root “graph” mean?",
+          "write",
+          "hear",
+          "carry",
+          "“graph” means write, as in autograph and paragraph."
+        ],
+        [
+          "What does the root “aqua” mean?",
+          "water",
+          "air",
+          "sky",
+          "“aqua” means water, as in aquarium."
+        ],
+        [
+          "What does the root “port” mean?",
+          "carry",
+          "look",
+          "break",
+          "“port” means carry, as in portable and transport."
+        ],
+        [
+          "What does the root “scope” mean?",
+          "look at",
+          "write",
+          "life",
+          "“scope” means look at, as in telescope and microscope."
+        ],
+        [
+          "What does the root “phon” mean?",
+          "sound",
+          "light",
+          "far",
+          "“phon” means sound, as in phone and microphone."
+        ],
+        [
+          "What does the root “micro” mean?",
+          "very small",
+          "very big",
+          "very slow",
+          "“micro” means very small, as in microscope."
+        ],
+        [
+          "What does the root “auto” mean?",
+          "self",
+          "car",
+          "many",
+          "“auto” means self, as in autograph, your own signature."
+        ],
+        [
+          "What does the root “geo” mean?",
+          "earth",
+          "sea",
+          "gold",
+          "“geo” means earth, as in geography."
+        ],
+        [
+          "What does the root “therm” mean?",
+          "heat",
+          "cold",
+          "time",
+          "“therm” means heat, as in thermometer."
+        ],
+        [
+          "What does the root “chron” mean?",
+          "time",
+          "colour",
+          "sound",
+          "“chron” means time, as in chronological, in time order."
+        ],
+        [
+          "What does the root “aud” mean?",
+          "hear",
+          "see",
+          "speak",
+          "“aud” means hear, as in audio and audience."
+        ],
+        [
+          "What does the root “rupt” mean?",
+          "break",
+          "build",
+          "carry",
+          "“rupt” means break, as in erupt and interrupt."
+        ],
+        [
+          "What does the root “struct” mean?",
+          "build",
+          "break",
+          "write",
+          "“struct” means build, as in structure and construct."
+        ],
+        [
+          "What does the root “manu” mean?",
+          "hand",
+          "foot",
+          "head",
+          "“manu” means hand, as in manual, done by hand."
+        ],
+        [
+          "What does the root “astro” mean?",
+          "star",
+          "moon",
+          "sea",
+          "“astro” means star, as in astronaut and astronomy."
+        ],
+        [
+          "What does the root “dict” mean?",
+          "say",
+          "build",
+          "carry",
+          "“dict” means say, as in dictionary and predict."
+        ],
+        [
+          "What does the root “hydro” mean?",
+          "water",
+          "fire",
+          "earth",
+          "“hydro” means water, as in hydrant."
+        ],
+        [
+          "What does the root “photo” mean?",
+          "light",
+          "dark",
+          "sound",
+          "“photo” means light, as in photograph, made by light."
+        ],
+        [
+          "Which word contains a root meaning “far”?",
+          "television",
+          "biology",
+          "aquarium",
+          "“Tele” means far. A television shows pictures sent from far away."
+        ],
+        [
+          "Which word contains a root meaning “life”?",
+          "biography",
+          "telephone",
+          "portable",
+          "“Bio” means life. A biography is the story of someone’s life."
+        ],
+        [
+          "Which word contains a root meaning “carry”?",
+          "transport",
+          "telescope",
+          "autograph",
+          "“Port” means carry. Transport carries people or goods."
+        ],
+        [
+          "Which word contains a root meaning “water”?",
+          "aquarium",
+          "geography",
+          "microphone",
+          "“Aqua” means water. An aquarium is a tank of water for fish."
+        ],
+        [
+          "Which word contains a root meaning “look at”?",
+          "microscope",
+          "thermometer",
+          "dictionary",
+          "“Scope” means look at. A microscope helps us look at tiny things."
+        ],
+        [
+          "Using its roots, what is a telescope?",
+          "a tool for seeing things far away",
+          "a tool for hearing quiet sounds",
+          "a tool for writing quickly",
+          "“Tele” means far and “scope” means look at."
+        ],
+        [
+          "Using its roots, what does a biologist study?",
+          "living things",
+          "rocks",
+          "old books",
+          "“Bio” means life and “logy” means the study of."
+        ],
+        [
+          "Using its roots, what is an autobiography?",
+          "the story of a person’s life, written by that person",
+          "a book about cars",
+          "the story of a person’s life, written by someone else",
+          "“Auto” means self, “bio” means life and “graph” means write."
+        ],
+        [
+          "What do the two roots in “microphone” mean?",
+          "small and sound",
+          "far and light",
+          "big and write",
+          "“Micro” means small and “phon” means sound. A microphone picks up small sounds and makes them louder."
+        ],
+        [
+          "Using its roots, what is geology?",
+          "the study of the earth and its rocks",
+          "the study of time",
+          "the study of stars",
+          "“Geo” means earth and “logy” means the study of."
+        ]
+      ]
+    }
+  },
+  "emoji": "books",
+  "example": {
+    "i": 0,
+    "q_en": "What does the root “tele” mean?",
+    "answer_en": "far",
+    "why_en": "“tele” means far, as in telephone and television."
+  },
+  "text": {
+    "en": {
+      "title": "Greek and Latin roots",
+      "teach": "Many English words are built from old Greek and Latin parts called roots. Tele means far and phon means sound, so a telephone carries sound from far away.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

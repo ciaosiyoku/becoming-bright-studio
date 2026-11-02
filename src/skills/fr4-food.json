@@ -1,0 +1,274 @@
+{
+  "id": "fr4-food",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 9,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "cake",
+      "cookie",
+      "cocoa",
+      "droplet",
+      "memo",
+      "animal-cow",
+      "speech",
+      "chick",
+      "snowflake",
+      "thermometer",
+      "letters",
+      "memo",
+      "wave",
+      "tangerine",
+      "speech",
+      "fruit-strawberry",
+      "letters",
+      "memo",
+      "animal-rabbit",
+      "speech",
+      "letters",
+      "speech",
+      "letters",
+      "speech",
+      "letters",
+      "speech",
+      "letters",
+      "speech",
+      "letters",
+      "speech"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is this called in French?",
+          "le gâteau",
+          "le pain",
+          "le lait",
+          "This is a cake. In French it is ‘le gâteau’."
+        ],
+        [
+          "What is this called in French?",
+          "le biscuit",
+          "le fromage",
+          "la soupe",
+          "This is a biscuit. In French it is ‘le biscuit’."
+        ],
+        [
+          "What is this hot drink called in French?",
+          "le chocolat chaud",
+          "le jus d’orange",
+          "l’eau",
+          "This is hot chocolate. In French it is ‘le chocolat chaud’."
+        ],
+        [
+          "How do you say ‘water’ in French?",
+          "l’eau",
+          "le lait",
+          "le pain",
+          "‘Water’ in French is ‘l’eau’."
+        ],
+        [
+          "How do you say ‘bread’ in French?",
+          "le pain",
+          "le beurre",
+          "la glace",
+          "‘Bread’ in French is ‘le pain’."
+        ],
+        [
+          "How do you say ‘milk’ in French?",
+          "le lait",
+          "l’eau",
+          "le riz",
+          "‘Milk’ in French is ‘le lait’. Cows give us milk."
+        ],
+        [
+          "How do you say ‘cheese’ in French?",
+          "le fromage",
+          "le gâteau",
+          "la soupe",
+          "‘Cheese’ in French is ‘le fromage’."
+        ],
+        [
+          "How do you say ‘egg’ in French?",
+          "l’œuf",
+          "le pain",
+          "la pizza",
+          "‘Egg’ in French is ‘l’œuf’."
+        ],
+        [
+          "How do you say ‘ice cream’ in French?",
+          "la glace",
+          "le lait",
+          "le riz",
+          "‘Ice cream’ in French is ‘la glace’."
+        ],
+        [
+          "How do you say ‘soup’ in French?",
+          "la soupe",
+          "la glace",
+          "le biscuit",
+          "‘Soup’ in French is ‘la soupe’. It is almost the same word!"
+        ],
+        [
+          "How do you say ‘rice’ in French?",
+          "le riz",
+          "le pain",
+          "l’eau",
+          "‘Rice’ in French is ‘le riz’."
+        ],
+        [
+          "How do you say ‘chicken’ (the food) in French?",
+          "le poulet",
+          "le poisson",
+          "le fromage",
+          "Chicken to eat is ‘le poulet’ in French."
+        ],
+        [
+          "How do you say ‘fish’ (the food) in French?",
+          "le poisson",
+          "le poulet",
+          "la glace",
+          "Fish is ‘le poisson’ in French."
+        ],
+        [
+          "How do you say ‘orange juice’ in French?",
+          "le jus d’orange",
+          "le lait",
+          "la soupe",
+          "‘Orange juice’ in French is ‘le jus d’orange’."
+        ],
+        [
+          "How do you say ‘butter’ in French?",
+          "le beurre",
+          "le chocolat",
+          "l’œuf",
+          "‘Butter’ in French is ‘le beurre’."
+        ],
+        [
+          "How do you say ‘jam’ in French?",
+          "la confiture",
+          "la carotte",
+          "le riz",
+          "‘Jam’ in French is ‘la confiture’. Strawberry jam is ‘la confiture de fraises’."
+        ],
+        [
+          "How do you say ‘chips’ in French?",
+          "les frites",
+          "les pâtes",
+          "le lait",
+          "‘Chips’ in French is ‘les frites’."
+        ],
+        [
+          "How do you say ‘pasta’ in French?",
+          "les pâtes",
+          "les frites",
+          "le pain",
+          "‘Pasta’ in French is ‘les pâtes’."
+        ],
+        [
+          "How do you say ‘carrot’ in French?",
+          "la carotte",
+          "le gâteau",
+          "le lait",
+          "‘Carrot’ in French is ‘la carotte’."
+        ],
+        [
+          "How do you say ‘tomato’ in French?",
+          "la tomate",
+          "la carotte",
+          "le beurre",
+          "‘Tomato’ in French is ‘la tomate’."
+        ],
+        [
+          "What does ‘le pain’ mean?",
+          "bread",
+          "milk",
+          "cheese",
+          "‘Le pain’ means bread."
+        ],
+        [
+          "What does ‘le lait’ mean?",
+          "milk",
+          "water",
+          "juice",
+          "‘Le lait’ means milk."
+        ],
+        [
+          "What does ‘le fromage’ mean?",
+          "cheese",
+          "cake",
+          "egg",
+          "‘Le fromage’ means cheese."
+        ],
+        [
+          "What does ‘l’eau’ mean?",
+          "water",
+          "bread",
+          "soup",
+          "‘L’eau’ means water."
+        ],
+        [
+          "What does ‘la glace’ mean?",
+          "ice cream",
+          "chocolate",
+          "rice",
+          "‘La glace’ means ice cream."
+        ],
+        [
+          "What does ‘le gâteau’ mean?",
+          "cake",
+          "bread",
+          "butter",
+          "‘Le gâteau’ means cake."
+        ],
+        [
+          "What does ‘le poulet’ mean?",
+          "chicken",
+          "cheese",
+          "rice",
+          "‘Le poulet’ means chicken."
+        ],
+        [
+          "What does ‘les frites’ mean?",
+          "chips",
+          "pasta",
+          "eggs",
+          "‘Les frites’ means chips."
+        ],
+        [
+          "What does ‘la soupe’ mean?",
+          "soup",
+          "jam",
+          "ice cream",
+          "‘La soupe’ means soup."
+        ],
+        [
+          "What does ‘l’œuf’ mean?",
+          "egg",
+          "milk",
+          "carrot",
+          "‘L’œuf’ means egg."
+        ]
+      ]
+    }
+  },
+  "emoji": "cake",
+  "example": {
+    "i": 0,
+    "q_en": "What is this called in French?",
+    "answer_en": "le gâteau",
+    "why_en": "This is a cake. In French it is ‘le gâteau’."
+  },
+  "text": {
+    "en": {
+      "title": "Food in French",
+      "teach": "Food and drinks in French: ‘le pain’ is bread, ‘le lait’ is milk and ‘le gâteau’ is cake. Water is ‘l’eau’.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

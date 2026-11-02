@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "science",
   "stage": 3,
+  "ages": [
+    "8-9"
+  ],
   "order": 12,
   "params": {
     "emojis": [
@@ -15,7 +18,27 @@
       "tree",
       "hockey",
       "wave",
-      "books"
+      "books",
+      "house",
+      "shoe",
+      "gear",
+      "cloud",
+      "airplane",
+      "memo",
+      "animal-shark",
+      "palette",
+      "gear",
+      "globe",
+      "game",
+      "snow",
+      "magnet",
+      "ribbon",
+      "wave",
+      "gloves",
+      "beach",
+      "gift",
+      "backpack",
+      "moon"
     ],
     "bank": {
       "en": [
@@ -88,6 +111,146 @@
           "an empty box",
           "a feather",
           "Heavier things need a bigger force to get them moving."
+        ],
+        [
+          "You open a drawer by its handle. Is that a push or a pull?",
+          "a pull",
+          "a push",
+          "a song",
+          "You pull the drawer towards you to open it."
+        ],
+        [
+          "Why do trainers have bumpy, grippy soles?",
+          "to make more friction so you do not slip",
+          "to make the shoes lighter than air",
+          "to make the shoes sing",
+          "Bumps and grooves rub against the ground and make more friction, so your feet grip."
+        ],
+        [
+          "What can you use to measure how big a force is?",
+          "a forcemeter",
+          "a thermometer",
+          "a clock",
+          "A forcemeter has a spring inside. The harder you pull, the more the spring stretches."
+        ],
+        [
+          "Why does a parachute fall slowly?",
+          "the air pushes up against it",
+          "it has no weight at all",
+          "gravity stops working",
+          "A parachute is wide, so lots of air pushes against it. This air resistance slows it down."
+        ],
+        [
+          "What is air resistance?",
+          "a force from the air that slows moving things down",
+          "a force that pulls things up into the sky",
+          "a kind of rain",
+          "When something moves through air, the air pushes against it and slows it down."
+        ],
+        [
+          "You drop a flat sheet of paper and the same sheet screwed into a ball. Which lands last?",
+          "the flat sheet",
+          "the paper ball",
+          "they both float away",
+          "The flat sheet is wider, so more air pushes against it and it falls more slowly."
+        ],
+        [
+          "Why do fish and fast boats have smooth, pointed shapes?",
+          "to cut through the water with less water resistance",
+          "to sink to the bottom faster",
+          "to change colour in the water",
+          "A smooth, pointed shape lets water slide past easily, so the water slows it down less."
+        ],
+        [
+          "You squash a ball of modelling clay with your hand. What does the push do?",
+          "it changes the clay’s shape",
+          "it changes the clay’s colour",
+          "it makes the clay alive",
+          "A force can change the shape of soft things, like clay or dough."
+        ],
+        [
+          "How do the brakes on a bike slow it down?",
+          "they rub on the wheel and make friction",
+          "they make the bike lighter",
+          "they switch off gravity",
+          "When you squeeze the brakes, pads rub on the wheel. Friction slows the wheel down."
+        ],
+        [
+          "In which direction does gravity pull things on Earth?",
+          "down, towards the ground",
+          "up, towards the sky",
+          "always to the left",
+          "Gravity pulls everything towards the middle of the Earth, so things fall down."
+        ],
+        [
+          "You throw a ball high into the air. Why does it come back down?",
+          "gravity pulls it back down",
+          "the air pushes it down on purpose",
+          "the ball gets tired",
+          "Your throw pushes the ball up, but gravity keeps pulling it, so it slows, stops and falls."
+        ],
+        [
+          "Why do people spread sand or grit on icy paths?",
+          "to make more friction so feet and wheels do not slip",
+          "to make the ice smoother",
+          "to make the path warmer than the Sun",
+          "Sand and grit make the surface rough, so there is more friction and less slipping."
+        ],
+        [
+          "Which force can pull something without touching it?",
+          "magnetism",
+          "friction",
+          "a kick",
+          "A magnet can pull an iron nail from a little way off. Friction and kicks only work when things touch."
+        ],
+        [
+          "In a tug of war, both teams pull exactly as hard as each other. What happens?",
+          "the rope stays still",
+          "the rope flies up into the air",
+          "both teams fall asleep",
+          "When two forces are equal and pull opposite ways, they balance, so nothing moves."
+        ],
+        [
+          "Why is it harder to walk through water in a pool than through air?",
+          "water pushes back much more than air",
+          "there is no gravity in a pool",
+          "air is heavier than water",
+          "Water resistance is stronger than air resistance, so moving through water takes more effort."
+        ],
+        [
+          "You rub your hands together fast and they feel warm. Which force causes this?",
+          "friction",
+          "gravity",
+          "magnetism",
+          "When surfaces rub together, friction slows them and also makes heat."
+        ],
+        [
+          "A sailing boat moves across the sea without an engine. What pushes it along?",
+          "the wind blowing on its sail",
+          "the fish under the boat",
+          "the Moon pulling on the sail",
+          "Wind pushes against the big sail, and that push moves the boat through the water."
+        ],
+        [
+          "You stretch an elastic band and then let go of one end. What happens?",
+          "it springs back to its shape",
+          "it stays stretched for ever",
+          "it turns into water",
+          "A stretched elastic band pulls back, so it snaps back when you let go."
+        ],
+        [
+          "You lift your school bag off the floor by its strap. Is that a push or a pull?",
+          "a pull",
+          "a push",
+          "a smell",
+          "You pull the strap upwards, against gravity, to lift the bag."
+        ],
+        [
+          "Gravity on the Moon is much weaker than on Earth. How high could you jump there?",
+          "much higher than on Earth",
+          "much lower than on Earth",
+          "you could not jump at all",
+          "The Moon pulls on you less strongly, so the same jump takes you much higher."
         ]
       ],
       "de": [
@@ -160,6 +323,146 @@
           "eine leere Kiste",
           "eine Feder",
           "Schwerere Dinge brauchen eine größere Kraft, damit sie sich bewegen."
+        ],
+        [
+          "Du öffnest eine Schublade am Griff. Ist das Drücken oder Ziehen?",
+          "Ziehen",
+          "Drücken",
+          "ein Lied",
+          "Du ziehst die Schublade zu dir hin, um sie zu öffnen."
+        ],
+        [
+          "Warum haben Turnschuhe eine raue, griffige Sohle?",
+          "damit es mehr Reibung gibt und du nicht ausrutschst",
+          "damit die Schuhe leichter als Luft sind",
+          "damit die Schuhe singen",
+          "Noppen und Rillen reiben am Boden und machen mehr Reibung. So haben deine Füße Halt."
+        ],
+        [
+          "Womit kannst du messen, wie groß eine Kraft ist?",
+          "mit einem Kraftmesser",
+          "mit einem Thermometer",
+          "mit einer Uhr",
+          "In einem Kraftmesser ist eine Feder. Je stärker du ziehst, desto mehr dehnt sie sich."
+        ],
+        [
+          "Warum fällt ein Fallschirm langsam?",
+          "die Luft drückt von unten dagegen",
+          "er wiegt überhaupt nichts",
+          "die Schwerkraft hört auf",
+          "Ein Fallschirm ist breit, darum drückt viel Luft dagegen. Dieser Luftwiderstand bremst ihn."
+        ],
+        [
+          "Was ist Luftwiderstand?",
+          "eine Kraft der Luft, die Dinge in Bewegung bremst",
+          "eine Kraft, die Dinge in den Himmel zieht",
+          "eine Art Regen",
+          "Wenn sich etwas durch die Luft bewegt, drückt die Luft dagegen und bremst es."
+        ],
+        [
+          "Du lässt ein glattes Blatt Papier und das gleiche Blatt als Kugel fallen. Was landet zuletzt?",
+          "das glatte Blatt",
+          "die Papierkugel",
+          "beide fliegen davon",
+          "Das glatte Blatt ist breiter, darum drückt mehr Luft dagegen und es fällt langsamer."
+        ],
+        [
+          "Warum haben Fische und schnelle Boote eine glatte, spitze Form?",
+          "damit sie mit weniger Wasserwiderstand durchs Wasser gleiten",
+          "damit sie schneller auf den Grund sinken",
+          "damit sie im Wasser die Farbe wechseln",
+          "Bei einer glatten, spitzen Form gleitet das Wasser leicht vorbei und bremst weniger."
+        ],
+        [
+          "Du drückst eine Kugel aus Knete platt. Was bewirkt das Drücken?",
+          "es ändert die Form der Knete",
+          "es ändert die Farbe der Knete",
+          "es macht die Knete lebendig",
+          "Eine Kraft kann die Form von weichen Dingen wie Knete oder Teig ändern."
+        ],
+        [
+          "Wie bremsen die Bremsen ein Fahrrad?",
+          "sie reiben am Rad und machen Reibung",
+          "sie machen das Fahrrad leichter",
+          "sie schalten die Schwerkraft aus",
+          "Wenn du die Bremse drückst, reiben Bremsklötze am Rad. Die Reibung bremst das Rad."
+        ],
+        [
+          "In welche Richtung zieht die Schwerkraft auf der Erde?",
+          "nach unten, zum Boden hin",
+          "nach oben, zum Himmel hin",
+          "immer nach links",
+          "Die Schwerkraft zieht alles zur Mitte der Erde. Darum fallen Dinge nach unten."
+        ],
+        [
+          "Du wirfst einen Ball hoch in die Luft. Warum kommt er wieder herunter?",
+          "die Schwerkraft zieht ihn zurück",
+          "die Luft drückt ihn absichtlich herunter",
+          "der Ball wird müde",
+          "Dein Wurf schiebt den Ball hoch, aber die Schwerkraft zieht weiter. Er wird langsamer, hält an und fällt."
+        ],
+        [
+          "Warum streut man Sand oder Splitt auf vereiste Wege?",
+          "damit es mehr Reibung gibt und Füße und Räder nicht rutschen",
+          "damit das Eis glatter wird",
+          "damit der Weg wärmer als die Sonne wird",
+          "Sand und Splitt machen den Boden rau. So gibt es mehr Reibung und weniger Rutschen."
+        ],
+        [
+          "Welche Kraft kann etwas ziehen, ohne es zu berühren?",
+          "Magnetismus",
+          "Reibung",
+          "ein Tritt",
+          "Ein Magnet kann einen Eisennagel aus kurzer Entfernung anziehen. Reibung und Tritte wirken nur bei Berührung."
+        ],
+        [
+          "Beim Tauziehen ziehen beide Mannschaften genau gleich stark. Was passiert?",
+          "das Seil bewegt sich nicht",
+          "das Seil fliegt in die Luft",
+          "beide Mannschaften schlafen ein",
+          "Wenn zwei gleich große Kräfte in entgegengesetzte Richtungen ziehen, heben sie sich auf. Nichts bewegt sich."
+        ],
+        [
+          "Warum ist es schwerer, im Schwimmbad durchs Wasser zu gehen als durch die Luft?",
+          "Wasser drückt viel stärker dagegen als Luft",
+          "im Schwimmbad gibt es keine Schwerkraft",
+          "Luft ist schwerer als Wasser",
+          "Der Wasserwiderstand ist stärker als der Luftwiderstand. Darum ist Gehen im Wasser anstrengender."
+        ],
+        [
+          "Du reibst deine Hände schnell aneinander und sie werden warm. Welche Kraft macht das?",
+          "Reibung",
+          "Schwerkraft",
+          "Magnetismus",
+          "Wenn Flächen aneinander reiben, bremst die Reibung sie und macht dabei Wärme."
+        ],
+        [
+          "Ein Segelboot fährt ohne Motor übers Meer. Was schiebt es an?",
+          "der Wind, der ins Segel bläst",
+          "die Fische unter dem Boot",
+          "der Mond, der am Segel zieht",
+          "Der Wind drückt gegen das große Segel, und dieser Schub bewegt das Boot durchs Wasser."
+        ],
+        [
+          "Du dehnst ein Gummiband und lässt dann ein Ende los. Was passiert?",
+          "es schnellt in seine Form zurück",
+          "es bleibt für immer gedehnt",
+          "es wird zu Wasser",
+          "Ein gedehntes Gummiband zieht zurück. Darum schnellt es zurück, wenn du loslässt."
+        ],
+        [
+          "Du hebst deine Schultasche am Riemen vom Boden hoch. Ist das Drücken oder Ziehen?",
+          "Ziehen",
+          "Drücken",
+          "ein Geruch",
+          "Du ziehst den Riemen nach oben, gegen die Schwerkraft, um die Tasche zu heben."
+        ],
+        [
+          "Auf dem Mond ist die Schwerkraft viel schwächer als auf der Erde. Wie hoch könntest du dort springen?",
+          "viel höher als auf der Erde",
+          "viel niedriger als auf der Erde",
+          "gar nicht",
+          "Der Mond zieht dich weniger stark an. Darum bringt dich der gleiche Sprung viel höher."
         ]
       ],
       "fr": [
@@ -232,6 +535,146 @@
           "une caisse vide",
           "une plume",
           "Les choses plus lourdes ont besoin d’une force plus grande pour se mettre à bouger."
+        ],
+        [
+          "Tu ouvres un tiroir par sa poignée. Est-ce pousser ou tirer ?",
+          "tirer",
+          "pousser",
+          "une chanson",
+          "Tu tires le tiroir vers toi pour l’ouvrir."
+        ],
+        [
+          "Pourquoi les baskets ont-elles des semelles à crampons ?",
+          "pour faire plus de frottement et ne pas glisser",
+          "pour que les chaussures soient plus légères que l’air",
+          "pour que les chaussures chantent",
+          "Les crampons frottent contre le sol et font plus de frottement : tes pieds accrochent."
+        ],
+        [
+          "Avec quoi peut-on mesurer la force d’une poussée ou d’une traction ?",
+          "un dynamomètre",
+          "un thermomètre",
+          "une horloge",
+          "Un dynamomètre contient un ressort. Plus tu tires fort, plus le ressort s’allonge."
+        ],
+        [
+          "Pourquoi un parachute tombe-t-il lentement ?",
+          "l’air pousse contre lui vers le haut",
+          "il ne pèse rien du tout",
+          "la gravité s’arrête",
+          "Un parachute est large : beaucoup d’air pousse contre lui. Cette résistance de l’air le ralentit."
+        ],
+        [
+          "Qu’est-ce que la résistance de l’air ?",
+          "une force de l’air qui ralentit ce qui bouge",
+          "une force qui tire les choses vers le ciel",
+          "une sorte de pluie",
+          "Quand un objet avance dans l’air, l’air pousse contre lui et le ralentit."
+        ],
+        [
+          "Tu lâches une feuille de papier bien à plat et la même feuille roulée en boule. Laquelle arrive en dernier ?",
+          "la feuille à plat",
+          "la boule de papier",
+          "les deux s’envolent",
+          "La feuille à plat est plus large : plus d’air pousse contre elle, donc elle tombe plus lentement."
+        ],
+        [
+          "Pourquoi les poissons et les bateaux rapides ont-ils une forme lisse et pointue ?",
+          "pour fendre l’eau avec moins de résistance",
+          "pour couler plus vite au fond",
+          "pour changer de couleur dans l’eau",
+          "Avec une forme lisse et pointue, l’eau glisse facilement autour : elle freine moins."
+        ],
+        [
+          "Tu écrases une boule de pâte à modeler avec la main. Que fait la poussée ?",
+          "elle change la forme de la pâte",
+          "elle change la couleur de la pâte",
+          "elle rend la pâte vivante",
+          "Une force peut changer la forme des choses molles, comme la pâte à modeler."
+        ],
+        [
+          "Comment les freins d’un vélo le ralentissent-ils ?",
+          "ils frottent sur la roue et font du frottement",
+          "ils rendent le vélo plus léger",
+          "ils arrêtent la gravité",
+          "Quand tu serres les freins, des patins frottent sur la roue. Le frottement la ralentit."
+        ],
+        [
+          "Dans quelle direction la gravité attire-t-elle les choses sur Terre ?",
+          "vers le bas, vers le sol",
+          "vers le haut, vers le ciel",
+          "toujours vers la gauche",
+          "La gravité attire tout vers le centre de la Terre : les choses tombent vers le bas."
+        ],
+        [
+          "Tu lances une balle très haut. Pourquoi retombe-t-elle ?",
+          "la gravité la ramène vers le bas",
+          "l’air la pousse exprès vers le bas",
+          "la balle est fatiguée",
+          "Ton lancer pousse la balle vers le haut, mais la gravité l’attire toujours : elle ralentit, s’arrête et retombe."
+        ],
+        [
+          "Pourquoi met-on du sable ou du gravier sur les chemins verglacés ?",
+          "pour faire plus de frottement et ne pas glisser",
+          "pour rendre la glace plus lisse",
+          "pour rendre le chemin plus chaud que le Soleil",
+          "Le sable et le gravier rendent le sol rugueux : il y a plus de frottement, donc on glisse moins."
+        ],
+        [
+          "Quelle force peut attirer un objet sans le toucher ?",
+          "le magnétisme",
+          "le frottement",
+          "un coup de pied",
+          "Un aimant attire un clou en fer d’un peu loin. Le frottement et le coup de pied ne marchent qu’en touchant."
+        ],
+        [
+          "Au tir à la corde, les deux équipes tirent exactement aussi fort. Que se passe-t-il ?",
+          "la corde ne bouge pas",
+          "la corde s’envole",
+          "les deux équipes s’endorment",
+          "Quand deux forces égales tirent dans des sens opposés, elles s’équilibrent : rien ne bouge."
+        ],
+        [
+          "Pourquoi est-il plus dur de marcher dans l’eau d’une piscine que dans l’air ?",
+          "l’eau pousse contre toi bien plus que l’air",
+          "il n’y a pas de gravité dans une piscine",
+          "l’air est plus lourd que l’eau",
+          "La résistance de l’eau est plus forte que celle de l’air : avancer dans l’eau demande plus d’effort."
+        ],
+        [
+          "Tu frottes vite tes mains l’une contre l’autre et elles chauffent. Quelle force fait cela ?",
+          "le frottement",
+          "la gravité",
+          "le magnétisme",
+          "Quand deux surfaces frottent, le frottement les ralentit et produit aussi de la chaleur."
+        ],
+        [
+          "Un voilier avance sur la mer sans moteur. Qu’est-ce qui le pousse ?",
+          "le vent qui souffle dans sa voile",
+          "les poissons sous le bateau",
+          "la Lune qui tire sur la voile",
+          "Le vent pousse contre la grande voile, et cette poussée fait avancer le bateau sur l’eau."
+        ],
+        [
+          "Tu étires un élastique puis tu lâches un bout. Que se passe-t-il ?",
+          "il reprend sa forme d’un coup",
+          "il reste étiré pour toujours",
+          "il se transforme en eau",
+          "Un élastique étiré tire pour revenir : quand tu le lâches, il reprend sa forme."
+        ],
+        [
+          "Tu soulèves ton cartable du sol par sa bretelle. Est-ce pousser ou tirer ?",
+          "tirer",
+          "pousser",
+          "une odeur",
+          "Tu tires la bretelle vers le haut, contre la gravité, pour soulever le cartable."
+        ],
+        [
+          "Sur la Lune, la gravité est bien plus faible que sur Terre. Jusqu’où pourrais-tu sauter là-bas ?",
+          "bien plus haut que sur Terre",
+          "bien moins haut que sur Terre",
+          "tu ne pourrais pas sauter du tout",
+          "La Lune t’attire moins fort : le même saut t’emmène beaucoup plus haut."
         ]
       ],
       "yo": [
@@ -304,6 +747,146 @@
           "àpótí òfìfo",
           "ìyẹ́ ẹyẹ",
           "Ohun tó wúwo jù nílò agbára tó pọ̀ jù kí ó tó lè rìn."
+        ],
+        [
+          "O ṣí àpótí tábìlì nípa dídi ọwọ́ rẹ̀ mú. Ṣé títì ni àbí fífà?",
+          "fífà",
+          "títì",
+          "orin",
+          "O fa àpótí náà sọ́dọ̀ rẹ kí ó lè ṣí."
+        ],
+        [
+          "Kí ló dé tí bàtà eré ìdárayá fi ní àtẹ́lẹ̀sẹ̀ tó ní ìlà àti ìkọ́?",
+          "kí ìfarakanra lè pọ̀ sí i, kí o má bàa yọ̀",
+          "kí bàtà náà lè fúyẹ́ ju afẹ́fẹ́ lọ",
+          "kí bàtà náà lè máa kọrin",
+          "Ìlà àti ìkọ́ ń ha ilẹ̀, wọ́n sì ń mú ìfarakanra pọ̀ sí i, nítorí náà ẹsẹ̀ rẹ á dúró ṣinṣin."
+        ],
+        [
+          "Kí ni o lè fi wọn bí agbára kan ṣe pọ̀ tó?",
+          "ẹ̀rọ ìwọn agbára",
+          "tẹ́mómítà",
+          "aago",
+          "Ìsun (spring) wà nínú ẹ̀rọ ìwọn agbára. Bí o bá ṣe fà á tó, bẹ́ẹ̀ ni ìsun náà ṣe ń nà tó."
+        ],
+        [
+          "Kí ló dé tí parachute fi ń já bọ́ díẹ̀díẹ̀?",
+          "afẹ́fẹ́ ń tì í sókè",
+          "kò ní ìwúwo rárá",
+          "agbára òòfà ilẹ̀ ayé dúró",
+          "Parachute fẹ̀, nítorí náà afẹ́fẹ́ púpọ̀ ń tì í. Agbára afẹ́fẹ́ yìí ń dín ìrìn rẹ̀ kù."
+        ],
+        [
+          "Kí ni agbára ìdènà afẹ́fẹ́?",
+          "agbára láti inú afẹ́fẹ́ tí ń dín ìrìn ohun tí ń lọ kù",
+          "agbára tí ń fa nǹkan lọ sí ojú ọ̀run",
+          "irú òjò kan",
+          "Nígbà tí nǹkan bá ń gba inú afẹ́fẹ́ kọjá, afẹ́fẹ́ ń tì í, ó sì ń dín ìrìn rẹ̀ kù."
+        ],
+        [
+          "O ju bébà kan tó tẹ́ sílẹ̀ àti bébà kan náà tí o ká di bọ́ọ̀lù sílẹ̀. Èwo ló máa dé ilẹ̀ kẹ́yìn?",
+          "bébà tó tẹ́",
+          "bọ́ọ̀lù bébà",
+          "àwọn méjèèjì á fò lọ",
+          "Bébà tó tẹ́ fẹ̀ jù, nítorí náà afẹ́fẹ́ púpọ̀ ń tì í, ó sì ń já bọ́ díẹ̀díẹ̀."
+        ],
+        [
+          "Kí ló dé tí ẹja àti ọkọ̀ ojú omi tó yára fi ní ìrísí tó dán tí ó sì ṣóńṣó?",
+          "kí wọ́n lè la omi kọjá láìsí ìdènà púpọ̀",
+          "kí wọ́n lè tètè rì sí ìsàlẹ̀",
+          "kí wọ́n lè yí àwọ̀ padà nínú omi",
+          "Ìrísí tó dán tí ó sì ṣóńṣó ń jẹ́ kí omi yọ̀ kọjá ní irọ̀rùn, nítorí náà omi kò ní dí i lọ́wọ́ púpọ̀."
+        ],
+        [
+          "O fi ọwọ́ tẹ bọ́ọ̀lù amọ̀ ìṣeré pẹrẹsẹ. Kí ni títì náà ṣe?",
+          "ó yí ìrísí amọ̀ náà padà",
+          "ó yí àwọ̀ amọ̀ náà padà",
+          "ó sọ amọ̀ náà di alààyè",
+          "Agbára lè yí ìrísí àwọn ohun tó rọ̀ padà, bí amọ̀ tàbí ìyẹ̀fun tí a pò."
+        ],
+        [
+          "Báwo ni bíréèkì kẹ̀kẹ́ ṣe ń dín ìrìn rẹ̀ kù?",
+          "wọ́n ń ha táyà, wọ́n sì ń ṣe ìfarakanra",
+          "wọ́n ń mú kẹ̀kẹ́ náà fúyẹ́",
+          "wọ́n ń pa agbára òòfà ilẹ̀ ayé",
+          "Tí o bá fún bíréèkì, ohun kan á máa ha táyà. Ìfarakanra yìí ń dín ìrìn táyà náà kù."
+        ],
+        [
+          "Ọ̀nà wo ni agbára òòfà ilẹ̀ ayé ń fa nǹkan sí?",
+          "sísàlẹ̀, sí ilẹ̀",
+          "sókè, sí ojú ọ̀run",
+          "sí apá òsì nígbà gbogbo",
+          "Agbára òòfà ilẹ̀ ayé ń fa gbogbo nǹkan sí àárín ayé, nítorí náà nǹkan ń já bọ́ sílẹ̀."
+        ],
+        [
+          "O ju bọ́ọ̀lù sókè fíofío. Kí ló dé tí ó fi padà wálẹ̀?",
+          "agbára òòfà ilẹ̀ ayé fà á padà sílẹ̀",
+          "afẹ́fẹ́ mọ̀ọ́mọ̀ tì í sílẹ̀",
+          "ó ti rẹ bọ́ọ̀lù náà",
+          "Jíjù rẹ ti bọ́ọ̀lù náà sókè, ṣùgbọ́n agbára òòfà ilẹ̀ ayé ń fà á ṣáá, nítorí náà ó dúró, ó sì já bọ́."
+        ],
+        [
+          "Kí ló dé tí àwọn ènìyàn fi ń da iyanrìn sí ojú ọ̀nà tí yìnyín bò?",
+          "kí ìfarakanra lè pọ̀ sí i, kí ẹsẹ̀ àti táyà má bàa yọ̀",
+          "kí yìnyín náà lè dán sí i",
+          "kí ọ̀nà náà lè gbóná ju oòrùn lọ",
+          "Iyanrìn ń mú ojú ọ̀nà ní ìkanra, nítorí náà ìfarakanra á pọ̀ sí i, nǹkan kò sì ní yọ̀."
+        ],
+        [
+          "Agbára wo ló lè fa nǹkan láìfọwọ́kàn án?",
+          "agbára òòfà irin (magnetism)",
+          "ìfarakanra",
+          "gbígbá",
+          "Òòfà lè fa ìṣó irin láti ọ̀ọ́kán díẹ̀. Ìfarakanra àti gbígbá ń ṣiṣẹ́ nígbà tí nǹkan bá kan ara wọn nìkan."
+        ],
+        [
+          "Nínú eré fífa okùn, ẹgbẹ́ méjèèjì ń fà á pẹ̀lú agbára kan náà gẹ́lẹ́. Kí ló ṣẹlẹ̀?",
+          "okùn náà kò ní sún",
+          "okùn náà á fò lọ sókè",
+          "ẹgbẹ́ méjèèjì á sùn lọ",
+          "Tí agbára méjì tó dọ́gba bá ń fà sí ọ̀nà òdìkejì, wọ́n á dọ́gba, kò sì sí ohun tí yóò sún."
+        ],
+        [
+          "Kí ló dé tí rírìn nínú omi adágún fi le ju rírìn nínú afẹ́fẹ́ lọ?",
+          "omi ń tì ọ́ sẹ́yìn ju afẹ́fẹ́ lọ púpọ̀",
+          "kò sí agbára òòfà nínú adágún omi",
+          "afẹ́fẹ́ wúwo ju omi lọ",
+          "Ìdènà omi lágbára ju ìdènà afẹ́fẹ́ lọ, nítorí náà rírìn nínú omi ń gba agbára púpọ̀."
+        ],
+        [
+          "O ha ọwọ́ rẹ méjèèjì pọ̀ kíákíá, wọ́n sì gbóná. Agbára wo ló fa èyí?",
+          "ìfarakanra",
+          "agbára òòfà ilẹ̀ ayé",
+          "agbára òòfà irin",
+          "Tí ojú ohun méjì bá ń ha ara wọn, ìfarakanra ń dín ìrìn wọn kù, ó sì tún ń mú ooru wá."
+        ],
+        [
+          "Ọkọ̀ ojú omi onígbòkun ń rìn lórí òkun láìsí ẹ̀rọ. Kí ló ń tì í lọ?",
+          "afẹ́fẹ́ tí ń fẹ́ lu ìgbòkun rẹ̀",
+          "àwọn ẹja tó wà lábẹ́ ọkọ̀ náà",
+          "òṣùpá tí ń fa ìgbòkun náà",
+          "Afẹ́fẹ́ ń ti ìgbòkun ńlá náà, títì yẹn ló sì ń gbé ọkọ̀ náà la omi kọjá."
+        ],
+        [
+          "O na rọ́bà ìdìpọ̀ kan, lẹ́yìn náà o fi ẹ̀gbẹ́ kan sílẹ̀. Kí ló ṣẹlẹ̀?",
+          "ó fò padà sí ìrísí rẹ̀",
+          "ó máa wà ní nínà títí láé",
+          "ó di omi",
+          "Rọ́bà tí a nà máa ń fà padà, nítorí náà ó máa fò padà tí o bá fi sílẹ̀."
+        ],
+        [
+          "O fi okùn rẹ̀ gbé àpò ilé ìwé rẹ sókè láti ilẹ̀. Ṣé títì ni àbí fífà?",
+          "fífà",
+          "títì",
+          "òórùn",
+          "O fa okùn náà sókè, lòdì sí agbára òòfà ilẹ̀ ayé, kí o lè gbé àpò náà."
+        ],
+        [
+          "Agbára òòfà lórí òṣùpá kéré gan-an ju ti ilẹ̀ ayé lọ. Báwo ni o ṣe lè fò ga tó níbẹ̀?",
+          "ga ju ti ilẹ̀ ayé lọ púpọ̀",
+          "kéré ju ti ilẹ̀ ayé lọ púpọ̀",
+          "o kò ní lè fò rárá",
+          "Òṣùpá kò fà ọ́ tó ilẹ̀ ayé, nítorí náà fífò kan náà á gbé ọ ga sí i púpọ̀."
         ]
       ]
     }

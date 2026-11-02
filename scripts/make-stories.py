@@ -1,0 +1,94 @@
+"""Builds src/media/storyList.ts: public-domain LibriVox recordings for each age range, from the Internet Archive.
+
+Each collection lists the tracks to leave out (introductions, and stories not suitable for children today: a racial
+slur, death as a character, religious stories, the most graphic scenes, dated portrayals). Run again to refresh lengths:
+    python scripts/make-stories.py
+"""
+import html, json, os, re, urllib.request
+
+COLLECTIONS = [
+    # id, archive.org item, band, language, emoji, title, author, track numbers to leave out (1-based)
+    ("aesop", "aesopforchildren_1308_librivox", "4-5", "en", "animal-fox", "The Aesop for Children", "Aesop", [9]),
+    ("potter", "thetaleofpeterrabbitandothers_2008_librivox", "4-5", "en", "animal-rabbit", "The Tale of Peter Rabbit and Others", "Beatrix Potter", []),
+    ("velveteen", "velveteen_rabbit_librivox", "4-5", "en", "teddy", "The Velveteen Rabbit", "Margery Williams", []),
+    ("abc-contes", "abcpetitscontes_1609_librivox", "4-5", "fr", "letters", "ABC : Petits Contes", "Jules Lemaître", [1]),
+    ("just-so", "just_so_stories_1004_librivox", "6-7", "en", "animal-elephant", "Just So Stories", "Rudyard Kipling", [4]),
+    ("west-wind", "motherwestwind_why_0907_librivox", "6-7", "en", "animal-chipmunk", "Mother West Wind ‘Why’ Stories", "Thornton W. Burgess", []),
+    ("wiggily", "unclewiggilyonthefarm_1911_librivox", "6-7", "en", "animal-rabbit", "Uncle Wiggily on the Farm", "Howard R. Garis", []),
+    ("grimm-de", "maerchen_grimm_1406_librivox", "6-7", "de", "animal-frog", "Ausgewählte Märchen der Brüder Grimm", "Jacob und Wilhelm Grimm", [7, 13, 22]),
+    ("perrault", "contes_temps_passe_librivox", "6-7", "fr", "shoe", "Contes du temps passé", "Charles Perrault", [1, 4]),
+    ("fifty-famous", "fifty_famous_stories_lc_librivox", "8-9", "en", "scroll", "Fifty Famous Stories Retold", "James Baldwin", [1, 18]),
+    ("jungle-book", "jungle_book_mh_0808_librivox", "8-9", "en", "animal-tiger", "The Jungle Book", "Rudyard Kipling", []),
+    ("willows", "wind_in_the_willows_collab_librivox", "8-9", "en", "animal-otter", "The Wind in the Willows", "Kenneth Grahame", [7]),
+    ("andersen-de", "maerchen_andersen_1004_librivox", "8-9", "de", "animal-swan", "Märchen", "Hans Christian Andersen",
+     [3, 5, 8, 11, 12, 13, 14, 15, 17, 21, 22, 23, 24, 25, 27, 29] + list(range(30, 60))),
+    ("shakespeare", "tales_shakespeare_librivox", "10-12", "en", "openbook", "Tales from Shakespeare", "Charles and Mary Lamb", [1]),
+    ("holmes", "adventures_sherlockholmes_1007_librivox", "10-12", "en", "key", "The Adventures of Sherlock Holmes", "Arthur Conan Doyle", []),
+    ("happy-prince", "hpot_librivox", "10-12", "en", "medal", "The Happy Prince and Other Tales", "Oscar Wilde", [1, 3]),
+    ("dragons", "bookofdragons_0904_librivox", "10-12", "en", "dinosaur", "The Book of Dragons", "Edith Nesbit", []),
+    ("thirty-more", "thirtymorefamousstoriesretold_1409_librivox", "10-12", "en", "globe", "Thirty More Famous Stories Retold", "James Baldwin", [1]),
+]
+
+OUT = os.path.join(os.path.dirname(__file__), "..", "src", "media", "storyList.ts")
+
+
+def seconds(length):
+    if ":" in length:
+        return sum(int(float(x)) * 60 ** i for i, x in enumerate(reversed(length.split(":"))))
+    return round(float(length or 0))
+
+
+def clean(title):
+    # "01 - The Tale of Peter Rabbit", "03_selfish_giant" → readable titles.
+    title = html.unescape(title)
+    t = title.split(" - ", 1)[1] if " - " in title[:6] else title
+    if "_" in t and " " not in t:
+        t = t.split("_", 1)[1].replace("_", " ").capitalize()
+    t = t.lstrip("0123456789").lstrip("-. ") if t[:2].isdigit() else t
+    t = re.sub(r'^[a-z] - ', '', t)
+    return t.replace("\\'", "’").replace("'", "’").strip()
+
+
+lines = []
+for cid, ident, band, lang, emoji, title, author, skip in COLLECTIONS:
+    meta = json.load(urllib.request.urlopen(f"https://archive.org/metadata/{ident}", timeout=60))
+    files = sorted((f for f in meta["files"] if f.get("format") == "64Kbps MP3"), key=lambda f: f["name"])
+    tracks = []
+    for n, f in enumerate(files, 1):
+        if n in skip:
+            continue
+        name = clean(f.get("title", f["name"]))
+        tracks.append(f"      {{ id: '{cid}-{n}', title: {json.dumps(name, ensure_ascii=False)}, url: `${{IA}}{ident}/{f['name']}`, length: {seconds(f.get('length', '0'))} }},")
+    lines.append(f"""  {{
+    id: '{cid}',
+    band: '{band}',
+    lang: '{lang}',
+    title: {json.dumps(title, ensure_ascii=False)},
+    author: {json.dumps(author, ensure_ascii=False)},
+    emoji: '{emoji}',
+    source: 'https://archive.org/details/{ident}',
+    tracks: [
+{chr(10).join(tracks)}
+    ],
+  }},""")
+    print(cid, band, len(tracks))
+
+header = """// Stories read aloud for each age range: public-domain LibriVox recordings streamed from the Internet Archive.
+// LibriVox: "all our recordings are public domain" and "you may do whatever you like with our recordings"
+// (librivox.org). Generated by scripts/make-stories.py, which lists the stories left out and why; edit that script,
+// not this file.
+
+import type { AgeBand } from '@/skills/ages'
+import type { Collection } from './sources'
+
+const IA = 'https://archive.org/download/'
+
+export interface StoryCollection extends Collection {
+  band: AgeBand
+  lang: 'en' | 'de' | 'fr'
+}
+
+export const STORIES: StoryCollection[] = [
+"""
+with open(OUT, "w", encoding="utf-8", newline="\n") as f:
+    f.write(header + "\n".join(lines) + "\n]\n")

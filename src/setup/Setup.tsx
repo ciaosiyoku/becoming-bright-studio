@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { addChild, COLOURS, newChild } from '@/app/state'
+import { AGES } from '@/skills/ages'
 import { useStore } from '@/app/store'
 import { useT } from '@/i18n'
 import { ChoosePin } from '@/parent/PinScreens'
@@ -10,7 +11,7 @@ import './Setup.css'
 export function Setup() {
   const T = useT()
   const { update } = useStore()
-  const [child, setChild] = useState<{ name: string; colour: string } | null>(null)
+  const [child, setChild] = useState<ChildInfo | null>(null)
   if (!child)
     return (
       <main className="setup">
@@ -31,7 +32,7 @@ export function Setup() {
         note={T.setup.pinText}
         onClose={() => setChild(null)}
         onDone={(pin, recovery) => {
-          const c = newChild(child.name, child.colour)
+          const c = newChild(child.name, child.colour, undefined, child.age)
           update((s) => addChild({ ...s, family: { ...s.family, pin, recovery } }, c))
         }}
       />
@@ -49,10 +50,17 @@ export function NeedPin() {
   )
 }
 
-/** A child's first name and colour (setup, and adding a child on the grown-ups' screen). */
-export function ChildForm({ submit, onDone }: { submit: string; onDone: (child: { name: string; colour: string }) => void }) {
+export interface ChildInfo {
+  name: string
+  colour: string
+  age: number | null
+}
+
+/** A child's first name, age and colour (setup, and adding a child on the grown-ups' screen). */
+export function ChildForm({ submit, onDone }: { submit: string; onDone: (child: ChildInfo) => void }) {
   const T = useT()
   const [name, setName] = useState('')
+  const [age, setAge] = useState<number | null>(null)
   const [colour, setColour] = useState<string>(COLOURS[0])
   return (
     <div className="child-form">
@@ -62,6 +70,10 @@ export function ChildForm({ submit, onDone }: { submit: string; onDone: (child: 
         <input value={name} maxLength={24} placeholder={T.setup.namePlaceholder} onChange={(e) => setName(e.target.value)} />
       </label>
       <div className="field">
+        <span>{T.setup.age}</span>
+        <AgePicker age={age} onAge={setAge} />
+      </div>
+      <div className="field">
         <span>{T.setup.colour}</span>
         <div className="colours">
           {COLOURS.map((c) => (
@@ -69,9 +81,22 @@ export function ChildForm({ submit, onDone }: { submit: string; onDone: (child: 
           ))}
         </div>
       </div>
-      <button className="big" onClick={() => onDone({ name, colour })}>
+      <button className="big" disabled={age === null} onClick={() => onDone({ name, colour, age })}>
         {submit}
       </button>
+    </div>
+  )
+}
+
+/** The child's age, 4 to 12: it decides which skills and stories they see. */
+export function AgePicker({ age, onAge }: { age: number | null; onAge: (age: number) => void }) {
+  return (
+    <div className="ages" role="radiogroup">
+      {AGES.map((a) => (
+        <button key={a} role="radio" aria-checked={a === age} className={a === age ? '' : 'secondary'} onClick={() => onAge(a)}>
+          {a}
+        </button>
+      ))}
     </div>
   )
 }

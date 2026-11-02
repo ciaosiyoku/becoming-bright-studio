@@ -1,0 +1,274 @@
+{
+  "id": "fr10-negation",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 5,
+  "ages": [
+    "10-12"
+  ],
+  "order": 35,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "speech",
+      "cloud",
+      "seedling",
+      "game",
+      "tv",
+      "music",
+      "computer",
+      "calendar",
+      "lowbattery",
+      "droplet",
+      "house",
+      "animal-horse",
+      "paws",
+      "cocoa",
+      "teddy",
+      "clock",
+      "wave",
+      "memo",
+      "hockey",
+      "cookie",
+      "medal",
+      "animal-snail",
+      "cookie",
+      "cake",
+      "moon",
+      "puzzle",
+      "rain",
+      "clock",
+      "school",
+      "sun"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Je ___ parle pas allemand.",
+          "ne",
+          "n’",
+          "pas",
+          "Ne goes before the verb and pas after it. Parle starts with a consonant, so it stays ne."
+        ],
+        [
+          "Il ___ pas content.",
+          "n’est",
+          "ne est",
+          "est ne",
+          "Ne becomes n’ before a vowel: il n’est pas content."
+        ],
+        [
+          "Which is the negative of J’aime les épinards?",
+          "Je n’aime pas les épinards.",
+          "Je ne aime pas les épinards.",
+          "Je n’aime les épinards pas.",
+          "Ne becomes n’ before aime, and pas comes straight after the verb."
+        ],
+        [
+          "Which is the negative of Nous jouons au tennis?",
+          "Nous ne jouons pas au tennis.",
+          "Nous jouons ne pas au tennis.",
+          "Nous ne pas jouons au tennis.",
+          "Ne … pas goes around the verb: ne jouons pas."
+        ],
+        [
+          "What does Je ne regarde jamais la télé mean?",
+          "I never watch TV",
+          "I don’t watch TV any more",
+          "I always watch TV",
+          "Ne … jamais means never."
+        ],
+        [
+          "What does Elle ne joue plus du piano mean?",
+          "She doesn’t play the piano any more",
+          "She never plays the piano",
+          "She plays the piano a lot",
+          "Ne … plus means not any more, so she used to play but stopped."
+        ],
+        [
+          "What does Tu ne travailles pas mean?",
+          "You don’t work",
+          "You always work",
+          "You worked a lot",
+          "Ne … pas makes the verb negative: you don’t work."
+        ],
+        [
+          "Which word means never?",
+          "jamais",
+          "plus",
+          "pas",
+          "Ne … jamais means never. Ne … plus means not any more."
+        ],
+        [
+          "Which pair means not any more?",
+          "ne … plus",
+          "ne … jamais",
+          "ne … pas",
+          "Ne … plus means not any more or no longer."
+        ],
+        [
+          "How do you say I never drink milk in French?",
+          "Je ne bois jamais de lait.",
+          "Je ne bois plus de lait.",
+          "Je bois toujours du lait.",
+          "Never is ne … jamais. Ne … plus would mean not any more."
+        ],
+        [
+          "How do you say We don’t live in Paris any more in French?",
+          "Nous n’habitons plus à Paris.",
+          "Nous n’habitons jamais à Paris.",
+          "Nous habitons à Paris.",
+          "Not any more is ne … plus, and ne becomes n’ before habitons."
+        ],
+        [
+          "How do you say She doesn’t like horses in French?",
+          "Elle n’aime pas les chevaux.",
+          "Elle n’aime plus les chevaux.",
+          "Elle aime les chevaux.",
+          "Doesn’t like is n’aime pas. N’aime plus would mean she doesn’t like them any more."
+        ],
+        [
+          "Which is the negative of J’ai un chat?",
+          "Je n’ai pas de chat.",
+          "Je ne ai pas de chat.",
+          "Je n’ai de chat pas.",
+          "Ne becomes n’ before ai, and un becomes de after a negative."
+        ],
+        [
+          "Il n’y a pas ___ lait.",
+          "de",
+          "du",
+          "le",
+          "After a negative, du, de la and des change to de: pas de lait."
+        ],
+        [
+          "Je n’ai pas ___ frères.",
+          "de",
+          "des",
+          "d’",
+          "After a negative, des changes to de. D’ is only used before a vowel."
+        ],
+        [
+          "Which sentence is correct?",
+          "Tu ne viens jamais.",
+          "Tu jamais ne viens.",
+          "Tu ne jamais viens.",
+          "Ne goes before the verb and jamais goes after it."
+        ],
+        [
+          "Which sentence is correct?",
+          "On ne va plus à la piscine.",
+          "On ne plus va à la piscine.",
+          "On va ne plus à la piscine.",
+          "Ne goes before the verb and plus goes after it."
+        ],
+        [
+          "Which sentence is correct?",
+          "Je n’ai pas fini.",
+          "Je n’ai fini pas.",
+          "Je ne pas ai fini.",
+          "In the passé composé, ne … pas goes around avoir: je n’ai pas fini."
+        ],
+        [
+          "Tu aimes le foot ? Which answer is correct?",
+          "Non, je n’aime pas le foot.",
+          "Non, je aime pas le foot.",
+          "Non, je n’aime le foot.",
+          "You need both parts, n’ and pas, around the verb."
+        ],
+        [
+          "Tu as faim ? – Non, je n’ai ___ faim.",
+          "pas",
+          "de",
+          "ne",
+          "The negative needs pas after the verb: je n’ai pas faim."
+        ],
+        [
+          "Mon grand-père a 90 ans. Il ne travaille ___.",
+          "plus",
+          "souvent",
+          "encore",
+          "He has stopped working, so ne … plus (not any more) fits."
+        ],
+        [
+          "Je ne touche ___ les escargots.",
+          "jamais",
+          "souvent",
+          "toujours",
+          "Ne needs a partner such as jamais. Souvent and toujours cannot go with ne here."
+        ],
+        [
+          "What does Il n’y a plus de biscuits mean?",
+          "There are no biscuits left.",
+          "There are never any biscuits.",
+          "There are lots of biscuits.",
+          "Il n’y a plus de means there is no more of something, so the biscuits are all gone."
+        ],
+        [
+          "What does Je n’ai plus faim mean?",
+          "I am not hungry any more",
+          "I am never hungry",
+          "I am very hungry",
+          "Ne … plus means not any more."
+        ],
+        [
+          "What does Nous ne sortons jamais le soir mean?",
+          "We never go out in the evening",
+          "We always go out in the evening",
+          "We are going out this evening",
+          "Ne … jamais means never."
+        ],
+        [
+          "In a negative sentence, which word comes after the verb?",
+          "pas",
+          "ne",
+          "je",
+          "Ne comes before the verb and pas comes after it."
+        ],
+        [
+          "Which is the negative of Il pleut?",
+          "Il ne pleut pas.",
+          "Il pleut ne pas.",
+          "Il ne pas pleut.",
+          "Ne … pas goes around the verb pleut."
+        ],
+        [
+          "Which is the negative of Vous êtes en retard?",
+          "Vous n’êtes pas en retard.",
+          "Vous ne êtes pas en retard.",
+          "Vous n’êtes en retard pas.",
+          "Ne becomes n’ before êtes, and pas comes straight after the verb."
+        ],
+        [
+          "How do you say They never go to school on Sundays in French?",
+          "Ils ne vont jamais à l’école le dimanche.",
+          "Ils vont toujours à l’école le dimanche.",
+          "Ils ne vont pas jamais à l’école le dimanche.",
+          "Never is ne … jamais. You do not add pas as well."
+        ],
+        [
+          "Which sentence is correct?",
+          "Je ne me lève pas tôt.",
+          "Je me ne lève pas tôt.",
+          "Je ne lève me pas tôt.",
+          "With a reflexive verb, ne goes before me: je ne me lève pas."
+        ]
+      ]
+    }
+  },
+  "emoji": "warning",
+  "example": {
+    "i": 0,
+    "q_en": "Je ___ parle pas allemand.",
+    "answer_en": "ne",
+    "why_en": "Ne goes before the verb and pas after it. Parle starts with a consonant, so it stays ne."
+  },
+  "text": {
+    "en": {
+      "title": "Saying no",
+      "teach": "Put ne … pas around the verb to say not: Je ne mange pas. Ne … jamais means never and ne … plus means not any more. Ne becomes n’ before a vowel: Je n’aime pas.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

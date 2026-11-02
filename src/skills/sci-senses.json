@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "science",
   "stage": 1,
+  "ages": [
+    "6-7"
+  ],
   "order": 3,
   "params": {
     "emojis": [
@@ -15,7 +18,27 @@
       "fruit-strawberry",
       "cake",
       "tv",
-      "snowflake"
+      "snowflake",
+      "notes",
+      "fruit-pineapple",
+      "rain",
+      "light",
+      "fruit-watermelon",
+      "candle",
+      "sun",
+      "fog",
+      "fruit-cherries",
+      "puzzle",
+      "wave",
+      "animal-rabbit",
+      "snake",
+      "warning",
+      "sparkles",
+      "openbook",
+      "storm",
+      "cookie",
+      "girl",
+      "beach"
     ],
     "bank": {
       "en": [
@@ -88,6 +111,146 @@
           "that it is loud",
           "that it is sweet",
           "Your skin can feel hot and cold. Snow feels cold because it is frozen water."
+        ],
+        [
+          "Which part of your body do you hear music with?",
+          "your ears",
+          "your eyes",
+          "your nose",
+          "Music is sound. Sounds travel through the air and into your ears."
+        ],
+        [
+          "Which sense tells you that a pineapple is prickly on the outside?",
+          "touch, with your skin",
+          "hearing, with your ears",
+          "taste, with your tongue",
+          "When you hold a pineapple, your skin feels its rough, spiky outside."
+        ],
+        [
+          "You are in bed with your eyes closed. Which sense tells you that it is raining?",
+          "hearing, with your ears",
+          "sight, with your eyes",
+          "taste, with your tongue",
+          "Your eyes are shut, but you can still hear the raindrops tapping on the window."
+        ],
+        [
+          "Why is it hard to see in a very dark room?",
+          "your eyes need light to see",
+          "your ears are blocked",
+          "your nose is blocked",
+          "You can only see when light goes into your eyes. With no light, you see almost nothing."
+        ],
+        [
+          "How does a ripe watermelon taste?",
+          "sweet",
+          "salty",
+          "bitter",
+          "Ripe watermelon has natural sugar in it, so your tongue tastes it as sweet."
+        ],
+        [
+          "Why should you never touch a candle flame to check if it is hot?",
+          "it can burn your skin",
+          "it will make a loud bang",
+          "it will taste sour",
+          "A flame is very hot. Your skin can feel its heat from nearby, but touching it would burn you."
+        ],
+        [
+          "Why should you never look straight at the Sun?",
+          "it can hurt your eyes",
+          "it makes your ears ring",
+          "it makes your teeth wobble",
+          "The Sun is so bright that looking at it can damage your eyes. Always look away."
+        ],
+        [
+          "What helps keep dust out of your eyes?",
+          "your eyelids and eyelashes",
+          "your fingernails",
+          "your teeth",
+          "When dust flies near, you blink. Your eyelids and eyelashes stop it getting into your eyes."
+        ],
+        [
+          "Which sense tells you that cherries are red?",
+          "sight, with your eyes",
+          "hearing, with your ears",
+          "smell, with your nose",
+          "Colours are seen with your eyes. You cannot hear or smell a colour."
+        ],
+        [
+          "Which of these feels rough when you touch it?",
+          "tree bark",
+          "a glass window",
+          "a silk ribbon",
+          "Tree bark is bumpy and rough. Glass and silk feel smooth under your fingers."
+        ],
+        [
+          "How does sea water taste?",
+          "salty",
+          "sweet",
+          "like milk",
+          "Sea water has lots of salt in it. Your tongue tastes the salt straight away."
+        ],
+        [
+          "Rabbits have long ears. What do they help a rabbit do?",
+          "hear sounds from far away",
+          "taste its food",
+          "see in the dark",
+          "A rabbit can turn its big ears to catch quiet sounds, even from far away."
+        ],
+        [
+          "A snake flicks its tongue in and out. What does that help it do?",
+          "smell the air",
+          "hear music",
+          "see colours",
+          "A snake picks up smells from the air with its tongue. That helps it find food."
+        ],
+        [
+          "Which sense can warn you that milk has gone bad before you drink it?",
+          "smell, with your nose",
+          "hearing, with your ears",
+          "touch, with your skin",
+          "Old milk smells sour. Your nose warns you before you take a sip."
+        ],
+        [
+          "Which of these tastes sweet?",
+          "honey",
+          "salt",
+          "a lemon",
+          "Honey is full of sugar, so it tastes sweet. Salt tastes salty and a lemon tastes sour."
+        ],
+        [
+          "Some blind people read with their fingertips. Which sense do they use?",
+          "touch",
+          "taste",
+          "smell",
+          "Braille is writing made of tiny raised dots. People feel the dots with their fingers to read."
+        ],
+        [
+          "What can you do to protect your ears from a very loud noise?",
+          "cover your ears",
+          "close your eyes",
+          "hold your nose",
+          "Very loud sounds can hurt your ears. Covering them lets less sound in."
+        ],
+        [
+          "Why does food taste of less when you have a blocked nose?",
+          "smell helps you taste",
+          "your ears are full",
+          "your eyes are tired",
+          "Taste and smell work together. When your nose is blocked, food seems to have less flavour."
+        ],
+        [
+          "Which sense organ covers your whole body?",
+          "your skin",
+          "your tongue",
+          "your nose",
+          "Your skin covers you from head to toe. Everywhere, it feels touch, heat, cold and pain."
+        ],
+        [
+          "What do sunglasses do?",
+          "protect your eyes from bright sunlight",
+          "help you hear better",
+          "make food taste better",
+          "Sunglasses block some of the strong sunlight, so it is kinder to your eyes."
         ]
       ],
       "de": [
@@ -160,6 +323,146 @@
           "dass er laut ist",
           "dass er süß ist",
           "Deine Haut spürt warm und kalt. Schnee fühlt sich kalt an, weil er gefrorenes Wasser ist."
+        ],
+        [
+          "Mit welchem Körperteil hörst du Musik?",
+          "mit den Ohren",
+          "mit den Augen",
+          "mit der Nase",
+          "Musik ist Schall. Der Schall reist durch die Luft in deine Ohren."
+        ],
+        [
+          "Welcher Sinn sagt dir, dass eine Ananas außen stachelig ist?",
+          "Tasten, mit der Haut",
+          "Hören, mit den Ohren",
+          "Schmecken, mit der Zunge",
+          "Wenn du eine Ananas hältst, spürt deine Haut die raue, stachelige Schale."
+        ],
+        [
+          "Du liegst mit geschlossenen Augen im Bett. Welcher Sinn sagt dir, dass es regnet?",
+          "Hören, mit den Ohren",
+          "Sehen, mit den Augen",
+          "Schmecken, mit der Zunge",
+          "Deine Augen sind zu, aber du hörst die Tropfen ans Fenster prasseln."
+        ],
+        [
+          "Warum siehst du in einem ganz dunklen Zimmer kaum etwas?",
+          "die Augen brauchen Licht zum Sehen",
+          "die Ohren sind verstopft",
+          "die Nase ist verstopft",
+          "Du siehst nur, wenn Licht in deine Augen fällt. Ohne Licht siehst du fast nichts."
+        ],
+        [
+          "Wie schmeckt eine reife Wassermelone?",
+          "süß",
+          "salzig",
+          "bitter",
+          "Reife Wassermelone enthält natürlichen Zucker. Darum schmeckt sie deiner Zunge süß."
+        ],
+        [
+          "Warum solltest du nie eine Kerzenflamme anfassen, um zu prüfen, ob sie heiß ist?",
+          "sie kann deine Haut verbrennen",
+          "es gibt einen lauten Knall",
+          "sie schmeckt sauer",
+          "Eine Flamme ist sehr heiß. Deine Haut spürt die Wärme schon aus der Nähe, aber anfassen würde sie verbrennen."
+        ],
+        [
+          "Warum solltest du nie direkt in die Sonne schauen?",
+          "es kann deinen Augen schaden",
+          "dann klingeln deine Ohren",
+          "dann wackeln deine Zähne",
+          "Die Sonne ist so hell, dass sie deinen Augen schaden kann. Schau immer weg."
+        ],
+        [
+          "Was hält Staub von deinen Augen fern?",
+          "Augenlider und Wimpern",
+          "deine Fingernägel",
+          "deine Zähne",
+          "Fliegt Staub heran, blinzelst du. Lider und Wimpern halten ihn von den Augen fern."
+        ],
+        [
+          "Welcher Sinn sagt dir, dass Kirschen rot sind?",
+          "Sehen, mit den Augen",
+          "Hören, mit den Ohren",
+          "Riechen, mit der Nase",
+          "Farben sieht man mit den Augen. Eine Farbe kann man nicht hören oder riechen."
+        ],
+        [
+          "Was davon fühlt sich rau an?",
+          "Baumrinde",
+          "eine Glasscheibe",
+          "ein Seidenband",
+          "Baumrinde ist holprig und rau. Glas und Seide fühlen sich glatt an."
+        ],
+        [
+          "Wie schmeckt Meerwasser?",
+          "salzig",
+          "süß",
+          "wie Milch",
+          "Im Meerwasser ist viel Salz. Deine Zunge schmeckt es sofort."
+        ],
+        [
+          "Hasen haben lange Ohren. Wobei helfen sie einem Hasen?",
+          "beim Hören von Geräuschen aus der Ferne",
+          "beim Schmecken des Futters",
+          "beim Sehen im Dunkeln",
+          "Ein Hase kann seine großen Ohren drehen. So hört er auch leise Geräusche von Weitem."
+        ],
+        [
+          "Eine Schlange lässt ihre Zunge rein und raus schnellen. Wozu?",
+          "um die Luft zu riechen",
+          "um Musik zu hören",
+          "um Farben zu sehen",
+          "Mit der Zunge nimmt die Schlange Gerüche aus der Luft auf. So findet sie Futter."
+        ],
+        [
+          "Welcher Sinn kann dich warnen, dass Milch schlecht ist, bevor du sie trinkst?",
+          "Riechen, mit der Nase",
+          "Hören, mit den Ohren",
+          "Tasten, mit der Haut",
+          "Alte Milch riecht sauer. Deine Nase warnt dich, bevor du einen Schluck nimmst."
+        ],
+        [
+          "Was davon schmeckt süß?",
+          "Honig",
+          "Salz",
+          "eine Zitrone",
+          "Honig steckt voller Zucker und schmeckt süß. Salz schmeckt salzig, eine Zitrone sauer."
+        ],
+        [
+          "Manche blinde Menschen lesen mit den Fingerspitzen. Welchen Sinn benutzen sie?",
+          "Tasten",
+          "Schmecken",
+          "Riechen",
+          "Blindenschrift besteht aus kleinen erhabenen Punkten. Man ertastet sie mit den Fingern und liest so."
+        ],
+        [
+          "Was kannst du tun, um deine Ohren vor sehr lautem Lärm zu schützen?",
+          "die Ohren zuhalten",
+          "die Augen schließen",
+          "die Nase zuhalten",
+          "Sehr laute Geräusche können den Ohren schaden. Hältst du sie zu, kommt weniger Schall hinein."
+        ],
+        [
+          "Warum schmeckt Essen nach weniger, wenn deine Nase verstopft ist?",
+          "Riechen hilft beim Schmecken",
+          "die Ohren sind voll",
+          "die Augen sind müde",
+          "Schmecken und Riechen arbeiten zusammen. Bei verstopfter Nase schmeckt das Essen nach weniger."
+        ],
+        [
+          "Welches Sinnesorgan bedeckt deinen ganzen Körper?",
+          "deine Haut",
+          "deine Zunge",
+          "deine Nase",
+          "Die Haut bedeckt dich von Kopf bis Fuß. Überall spürt sie Berührung, Wärme, Kälte und Schmerz."
+        ],
+        [
+          "Wozu ist eine Sonnenbrille gut?",
+          "sie schützt die Augen vor grellem Sonnenlicht",
+          "sie hilft dir, besser zu hören",
+          "sie lässt das Essen besser schmecken",
+          "Eine Sonnenbrille hält einen Teil des starken Sonnenlichts ab und schont so die Augen."
         ]
       ],
       "fr": [
@@ -232,6 +535,146 @@
           "qu’elle est bruyante",
           "qu’elle est sucrée",
           "Ta peau sent le chaud et le froid. La neige est froide parce que c’est de l’eau gelée."
+        ],
+        [
+          "Avec quelle partie du corps entends-tu la musique ?",
+          "les oreilles",
+          "les yeux",
+          "le nez",
+          "La musique est un son. Les sons voyagent dans l’air jusqu’à tes oreilles."
+        ],
+        [
+          "Quel sens te dit qu’un ananas pique à l’extérieur ?",
+          "le toucher, avec la peau",
+          "l’ouïe, avec les oreilles",
+          "le goût, avec la langue",
+          "Quand tu tiens un ananas, ta peau sent son écorce rugueuse et piquante."
+        ],
+        [
+          "Tu es au lit, les yeux fermés. Quel sens te dit qu’il pleut ?",
+          "l’ouïe, avec les oreilles",
+          "la vue, avec les yeux",
+          "le goût, avec la langue",
+          "Tes yeux sont fermés, mais tu entends les gouttes taper contre la fenêtre."
+        ],
+        [
+          "Pourquoi voit-on mal dans une pièce très sombre ?",
+          "les yeux ont besoin de lumière pour voir",
+          "les oreilles sont bouchées",
+          "le nez est bouché",
+          "On ne voit que si de la lumière entre dans les yeux. Sans lumière, on ne voit presque rien."
+        ],
+        [
+          "Quel goût a une pastèque bien mûre ?",
+          "sucré",
+          "salé",
+          "amer",
+          "Une pastèque mûre contient du sucre naturel : ta langue la trouve sucrée."
+        ],
+        [
+          "Pourquoi ne faut-il jamais toucher la flamme d’une bougie pour savoir si elle est chaude ?",
+          "elle peut brûler ta peau",
+          "elle va faire un grand bruit",
+          "elle aura un goût acide",
+          "Une flamme est très chaude. Ta peau sent sa chaleur de près, mais la toucher la brûlerait."
+        ],
+        [
+          "Pourquoi ne faut-il jamais regarder le Soleil en face ?",
+          "il peut abîmer tes yeux",
+          "il fait siffler tes oreilles",
+          "il fait bouger tes dents",
+          "Le Soleil est si lumineux qu’il peut abîmer tes yeux. Détourne toujours le regard."
+        ],
+        [
+          "Qu’est-ce qui empêche la poussière d’entrer dans tes yeux ?",
+          "tes paupières et tes cils",
+          "tes ongles",
+          "tes dents",
+          "Quand de la poussière arrive, tu clignes des yeux. Tes paupières et tes cils l’empêchent d’entrer."
+        ],
+        [
+          "Quel sens te dit que les cerises sont rouges ?",
+          "la vue, avec les yeux",
+          "l’ouïe, avec les oreilles",
+          "l’odorat, avec le nez",
+          "Les couleurs se voient avec les yeux. On ne peut ni entendre ni sentir une couleur."
+        ],
+        [
+          "Lequel est rugueux quand on le touche ?",
+          "l’écorce d’un arbre",
+          "une vitre",
+          "un ruban de soie",
+          "L’écorce est bosselée et rugueuse. Le verre et la soie sont lisses sous les doigts."
+        ],
+        [
+          "Quel goût a l’eau de mer ?",
+          "salé",
+          "sucré",
+          "un goût de lait",
+          "L’eau de mer contient beaucoup de sel. Ta langue le goûte tout de suite."
+        ],
+        [
+          "Les lapins ont de longues oreilles. À quoi leur servent-elles ?",
+          "à entendre les bruits de loin",
+          "à goûter leur nourriture",
+          "à voir dans le noir",
+          "Le lapin peut tourner ses grandes oreilles pour capter les petits bruits, même lointains."
+        ],
+        [
+          "Un serpent sort et rentre sa langue très vite. À quoi cela lui sert-il ?",
+          "à sentir les odeurs dans l’air",
+          "à écouter de la musique",
+          "à voir les couleurs",
+          "Avec sa langue, le serpent attrape les odeurs dans l’air. Cela l’aide à trouver à manger."
+        ],
+        [
+          "Quel sens peut t’avertir que le lait a tourné avant que tu le boives ?",
+          "l’odorat, avec le nez",
+          "l’ouïe, avec les oreilles",
+          "le toucher, avec la peau",
+          "Le lait tourné sent l’aigre. Ton nez te prévient avant que tu en boives."
+        ],
+        [
+          "Lequel a un goût sucré ?",
+          "le miel",
+          "le sel",
+          "un citron",
+          "Le miel est plein de sucre : il est sucré. Le sel est salé et le citron est acide."
+        ],
+        [
+          "Certaines personnes aveugles lisent du bout des doigts. Quel sens utilisent-elles ?",
+          "le toucher",
+          "le goût",
+          "l’odorat",
+          "Le braille est une écriture faite de petits points en relief. On les sent avec les doigts pour lire."
+        ],
+        [
+          "Que peux-tu faire pour protéger tes oreilles d’un bruit très fort ?",
+          "te boucher les oreilles",
+          "fermer les yeux",
+          "te boucher le nez",
+          "Les bruits très forts peuvent abîmer les oreilles. En les bouchant, moins de son entre."
+        ],
+        [
+          "Pourquoi les aliments ont-ils moins de goût quand ton nez est bouché ?",
+          "l’odorat aide à goûter",
+          "tes oreilles sont pleines",
+          "tes yeux sont fatigués",
+          "Le goût et l’odorat travaillent ensemble. Avec le nez bouché, les aliments semblent avoir moins de goût."
+        ],
+        [
+          "Quel organe des sens recouvre tout ton corps ?",
+          "ta peau",
+          "ta langue",
+          "ton nez",
+          "La peau te recouvre de la tête aux pieds. Partout, elle sent le toucher, le chaud, le froid et la douleur."
+        ],
+        [
+          "À quoi servent les lunettes de soleil ?",
+          "à protéger les yeux du soleil trop fort",
+          "à mieux entendre",
+          "à donner meilleur goût aux aliments",
+          "Les lunettes de soleil arrêtent une partie de la forte lumière du soleil et ménagent tes yeux."
         ]
       ],
       "yo": [
@@ -304,6 +747,146 @@
           "pé ó pariwo",
           "pé ó dùn",
           "Awọ ara rẹ mọ ohun tó gbóná àti ohun tó tutù. Yìnyín tutù nítorí omi tó dì ni."
+        ],
+        [
+          "Ẹ̀yà ara wo ni o fi ń gbọ́ orin?",
+          "etí rẹ",
+          "ojú rẹ",
+          "imú rẹ",
+          "Ohùn ni orin. Ohùn ń rìn gba inú afẹ́fẹ́ wọ etí rẹ."
+        ],
+        [
+          "Ìmọ̀lára wo ló ń sọ fún ọ pé ara òde ọ̀pẹ̀ òyìnbó ní ẹ̀gún?",
+          "ìfọwọ́kàn, pẹ̀lú awọ ara rẹ",
+          "ìgbọ́ràn, pẹ̀lú etí rẹ",
+          "ìtọ́wò, pẹ̀lú ahọ́n rẹ",
+          "Nígbà tí o bá gbé ọ̀pẹ̀ òyìnbó mú, awọ ara rẹ á mọ̀ pé ara rẹ̀ ní ẹ̀gún, kò sì dán."
+        ],
+        [
+          "O dùbúlẹ̀ sórí ibùsùn, o sì di ojú rẹ. Ìmọ̀lára wo ló ń sọ fún ọ pé òjò ń rọ̀?",
+          "ìgbọ́ràn, pẹ̀lú etí rẹ",
+          "ìríran, pẹ̀lú ojú rẹ",
+          "ìtọ́wò, pẹ̀lú ahọ́n rẹ",
+          "Ojú rẹ ti dì, ṣùgbọ́n o ṣì ń gbọ́ ìró òjò tí ń lu fèrèsé."
+        ],
+        [
+          "Kí nìdí tí kò fi rọrùn láti ríran nínú yàrá tó ṣókùnkùn biribiri?",
+          "ojú nílò ìmọ́lẹ̀ láti ríran",
+          "etí rẹ ti dí",
+          "imú rẹ ti dí",
+          "O lè ríran kìkì tí ìmọ́lẹ̀ bá wọ ojú rẹ. Láìsí ìmọ́lẹ̀, o kò ní rí nǹkan kan dáadáa."
+        ],
+        [
+          "Báwo ni bàrà olómi tó pọ́n ṣe rí lẹ́nu?",
+          "ó dùn",
+          "ó ní iyọ̀",
+          "ó korò",
+          "Ṣúgà àdánidá wà nínú bàrà olómi tó pọ́n, nítorí náà ahọ́n rẹ á mọ̀ pé ó dùn."
+        ],
+        [
+          "Kí nìdí tí o kò fi gbọ́dọ̀ fọwọ́ kan iná àbẹ́là láti mọ̀ bóyá ó gbóná?",
+          "ó lè jó awọ ara rẹ",
+          "ó máa dún kíkankíkan",
+          "ó máa kan lẹ́nu",
+          "Iná gbóná gan-an. Awọ ara rẹ lè mọ ooru rẹ̀ láti ìtòsí, ṣùgbọ́n fífọwọ́ kàn án á jó ọ."
+        ],
+        [
+          "Kí nìdí tí o kò fi gbọ́dọ̀ wo oòrùn tààrà?",
+          "ó lè ba ojú rẹ jẹ́",
+          "ó máa mú etí rẹ dún",
+          "ó máa mú eyín rẹ mì",
+          "Oòrùn mọ́lẹ̀ gan-an débi pé wíwò ó lè ba ojú rẹ jẹ́. Máa yí ojú kúrò nígbà gbogbo."
+        ],
+        [
+          "Kí ló ń dènà erùpẹ̀ láti wọ ojú rẹ?",
+          "ìpénpéjú àti irun ìpénpéjú rẹ",
+          "èékánná rẹ",
+          "eyín rẹ",
+          "Tí erùpẹ̀ bá ń fò bọ̀, o máa ṣẹ́jú. Ìpénpéjú àti irun rẹ̀ kì í jẹ́ kí ó wọ ojú rẹ."
+        ],
+        [
+          "Ìmọ̀lára wo ló ń sọ fún ọ pé ṣẹ́rì pupa?",
+          "ìríran, pẹ̀lú ojú rẹ",
+          "ìgbọ́ràn, pẹ̀lú etí rẹ",
+          "ìgbóòórùn, pẹ̀lú imú rẹ",
+          "Ojú ni a fi ń rí àwọ̀. O kò lè gbọ́ àwọ̀, o kò sì lè gbóòórùn rẹ̀."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ni kò dán tí o bá fọwọ́ kàn án?",
+          "èèpo igi",
+          "fèrèsé gíláàsì",
+          "rìbọ́ọ̀nù sílíkì",
+          "Èèpo igi ní kóńkó, kò sì dán. Gíláàsì àti sílíkì máa ń dán lábẹ́ ìka rẹ."
+        ],
+        [
+          "Báwo ni omi òkun ṣe rí lẹ́nu?",
+          "ó ní iyọ̀",
+          "ó dùn",
+          "ó dà bí wàrà",
+          "Iyọ̀ pọ̀ nínú omi òkun. Ahọ́n rẹ á tọ́ iyọ̀ náà lẹ́sẹ̀kẹsẹ̀."
+        ],
+        [
+          "Ehoro ní etí gígùn. Kí ni etí náà ń ràn án lọ́wọ́ láti ṣe?",
+          "gbọ́ ìró láti ọ̀nà jíjìn",
+          "tọ́ oúnjẹ rẹ̀ wò",
+          "ríran nínú òkùnkùn",
+          "Ehoro lè yí etí ńlá rẹ̀ láti gbọ́ ìró wẹ́rẹ́, kódà láti ọ̀nà jíjìn."
+        ],
+        [
+          "Ejò máa ń yọ ahọ́n rẹ̀ jáde, ó sì ń fà á padà. Kí ni ìyẹn ń ràn án lọ́wọ́ láti ṣe?",
+          "gbóòórùn inú afẹ́fẹ́",
+          "gbọ́ orin",
+          "rí àwọ̀",
+          "Ejò ń fi ahọ́n rẹ̀ gba òórùn láti inú afẹ́fẹ́. Èyí ń ràn án lọ́wọ́ láti rí oúnjẹ."
+        ],
+        [
+          "Ìmọ̀lára wo ló lè kìlọ̀ fún ọ pé wàrà ti bàjẹ́ kí o tó mu ún?",
+          "ìgbóòórùn, pẹ̀lú imú rẹ",
+          "ìgbọ́ràn, pẹ̀lú etí rẹ",
+          "ìfọwọ́kàn, pẹ̀lú awọ ara rẹ",
+          "Wàrà tó ti bàjẹ́ máa ń rùn kíkan. Imú rẹ á kìlọ̀ fún ọ kí o tó mu ún."
+        ],
+        [
+          "Èwo nínú ìwọ̀nyí ló dùn?",
+          "oyin",
+          "iyọ̀",
+          "lẹ́mọ́ọ̀nù",
+          "Ṣúgà pọ̀ nínú oyin, nítorí náà ó dùn. Lẹ́mọ́ọ̀nù kan, iyọ̀ kò sì dùn bí oyin."
+        ],
+        [
+          "Àwọn afọ́jú kan máa ń fi orí ìka ka ìwé. Ìmọ̀lára wo ni wọ́n ń lò?",
+          "ìfọwọ́kàn",
+          "ìtọ́wò",
+          "ìgbóòórùn",
+          "Bírélì jẹ́ ìkọ̀wé tí wọ́n fi àmì kéékèèké tó yọ sókè ṣe. Wọ́n ń fi ìka fọwọ́ kàn án láti kà á."
+        ],
+        [
+          "Kí lo lè ṣe láti dáàbò bo etí rẹ lọ́wọ́ ariwo tó pọ̀ jù?",
+          "dí etí rẹ",
+          "di ojú rẹ",
+          "di imú rẹ",
+          "Ariwo tó pọ̀ jù lè ṣe etí léṣe. Tí o bá dí etí rẹ, ohùn tó ń wọlé á dín kù."
+        ],
+        [
+          "Kí nìdí tí oúnjẹ kò fi ní adùn tó bẹ́ẹ̀ nígbà tí imú rẹ bá dí?",
+          "ìgbóòórùn ń ran ìtọ́wò lọ́wọ́",
+          "etí rẹ ti kún",
+          "ojú rẹ ti rẹ̀",
+          "Ìtọ́wò àti ìgbóòórùn ń ṣiṣẹ́ papọ̀. Tí imú rẹ bá dí, oúnjẹ á dà bí ẹni pé kò ní adùn púpọ̀."
+        ],
+        [
+          "Ẹ̀yà ìmọ̀lára wo ló bo gbogbo ara rẹ?",
+          "awọ ara rẹ",
+          "ahọ́n rẹ",
+          "imú rẹ",
+          "Awọ ara bò ọ́ láti orí dé ẹsẹ̀. Níbi gbogbo ló ti ń mọ ìfọwọ́kàn, ooru, òtútù àti ìrora."
+        ],
+        [
+          "Kí ni gíláàsì oòrùn ń ṣe?",
+          "ó ń dáàbò bo ojú lọ́wọ́ ìmọ́lẹ̀ oòrùn tó mọ́lẹ̀ jù",
+          "ó ń jẹ́ kí o gbọ́ràn dáadáa",
+          "ó ń jẹ́ kí oúnjẹ dùn sí i",
+          "Gíláàsì oòrùn ń dí apá kan ìmọ́lẹ̀ oòrùn tó le, kí ojú rẹ má bàa farapa."
         ]
       ]
     }

@@ -1,0 +1,274 @@
+{
+  "id": "en10-spelling",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 210,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "cake",
+      "star",
+      "light",
+      "teddy",
+      "gift",
+      "sparkles",
+      "scroll",
+      "beach",
+      "puzzle",
+      "memo",
+      "glowstar",
+      "clock",
+      "ribbon",
+      "fruit-apple",
+      "gloves",
+      "house",
+      "heart",
+      "thermometer",
+      "gradcap",
+      "animal-panda",
+      "clock",
+      "moon",
+      "animal-fox",
+      "warning",
+      "globe",
+      "seedling",
+      "puzzle",
+      "storm",
+      "chart",
+      "music"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which spelling is correct? (very tasty)",
+          "delicious",
+          "delitious",
+          "delicous",
+          "Delicious ends in -cious, like precious and gracious."
+        ],
+        [
+          "Which spelling is correct? (wanting to do well)",
+          "ambitious",
+          "ambicious",
+          "ambitous",
+          "The root word “ambition” has a t, so we write -tious."
+        ],
+        [
+          "Which spelling is correct? (able to be seen)",
+          "visible",
+          "visable",
+          "visibel",
+          "“Vis” is not a full word on its own, so it takes -ible."
+        ],
+        [
+          "Which spelling is correct? (cosy and relaxing)",
+          "comfortable",
+          "comfortible",
+          "comfterble",
+          "“Comfort” is a complete word, so we add -able."
+        ],
+        [
+          "Which spelling is correct? (to get something)",
+          "receive",
+          "recieve",
+          "receeve",
+          "After c, the rule is e before i: receive."
+        ],
+        [
+          "Which spelling is correct? (to think something is true)",
+          "believe",
+          "beleive",
+          "beleve",
+          "Here the sound is “ee” and there is no c, so i comes before e."
+        ],
+        [
+          "Which spelling is correct? (a soldier who wore armour long ago)",
+          "knight",
+          "nite",
+          "knite",
+          "“Knight” has a silent k and a silent gh."
+        ],
+        [
+          "Which spelling is correct? (land with water all around it)",
+          "island",
+          "iland",
+          "ilsand",
+          "“Island” has a silent s."
+        ],
+        [
+          "Which spelling is correct? (very strange)",
+          "weird",
+          "wierd",
+          "weerd",
+          "“Weird” breaks the i before e rule, so it has to be learned."
+        ],
+        [
+          "Which spelling is correct? (needed)",
+          "necessary",
+          "neccessary",
+          "necesary",
+          "Necessary has one c and two s’s."
+        ],
+        [
+          "Which spelling is correct? (able to happen)",
+          "possible",
+          "possable",
+          "posible",
+          "“Poss” is not a full word, so it takes -ible, and there are two s’s."
+        ],
+        [
+          "Which spelling is correct? (can be trusted)",
+          "reliable",
+          "relible",
+          "reliabel",
+          "From “rely”: the y changes to i and we add -able."
+        ],
+        [
+          "Which spelling is correct? (worth a lot and dearly loved)",
+          "precious",
+          "pretious",
+          "precous",
+          "Precious ends in -cious."
+        ],
+        [
+          "Which spelling is correct? (good for your body)",
+          "nutritious",
+          "nutricious",
+          "nutritous",
+          "Like “nutrition”, it has a t, so it ends in -tious."
+        ],
+        [
+          "Which spelling is correct? (the short, thick finger)",
+          "thumb",
+          "thum",
+          "thumbe",
+          "“Thumb” has a silent b at the end."
+        ],
+        [
+          "Which spelling is correct? (the top of a room)",
+          "ceiling",
+          "cieling",
+          "seiling",
+          "After c, the rule is e before i: ceiling."
+        ],
+        [
+          "Which spelling is correct? (someone you like and trust)",
+          "friend",
+          "freind",
+          "frend",
+          "“Friend” has i before e. Remember: a friend to the end."
+        ],
+        [
+          "Which spelling is correct? (the study of the world around us)",
+          "science",
+          "sience",
+          "scince",
+          "“Science” has a silent c after the s."
+        ],
+        [
+          "Which spelling is correct? (showing good sense)",
+          "sensible",
+          "sensable",
+          "sensibel",
+          "“Sensible” takes -ible."
+        ],
+        [
+          "Which spelling is correct? (very sweet and lovable)",
+          "adorable",
+          "adorible",
+          "adorabel",
+          "From the word “adore”: drop the e and add -able."
+        ],
+        [
+          "Which spelling is correct? (the joint between your hand and arm)",
+          "wrist",
+          "rist",
+          "wriste",
+          "“Wrist” has a silent w."
+        ],
+        [
+          "Which spelling is correct? (awake and aware)",
+          "conscious",
+          "concious",
+          "consious",
+          "Conscious has “sc” in the middle and ends in -cious."
+        ],
+        [
+          "Which spelling is correct? (feeling that something is not right)",
+          "suspicious",
+          "suspitious",
+          "suspicous",
+          "Like “suspicion”, it uses a c, so it ends in -cious."
+        ],
+        [
+          "Which spelling is correct? (careful to avoid danger)",
+          "cautious",
+          "caucious",
+          "cautous",
+          "Like “caution”, it has a t, so it ends in -tious."
+        ],
+        [
+          "Which spelling is correct? (from another country)",
+          "foreign",
+          "foriegn",
+          "forein",
+          "“Foreign” breaks the i before e rule and has a silent g."
+        ],
+        [
+          "Which spelling is correct? (a baby sheep)",
+          "lamb",
+          "lam",
+          "lambe",
+          "“Lamb” has a silent b."
+        ],
+        [
+          "Which spelling is correct? (a feeling of not being sure)",
+          "doubt",
+          "dout",
+          "doubte",
+          "“Doubt” has a silent b."
+        ],
+        [
+          "Which spelling is correct? (very nasty or unpleasant)",
+          "horrible",
+          "horrable",
+          "horribel",
+          "“Horr” is not a full word, so it takes -ible."
+        ],
+        [
+          "Which spelling is correct? (apart, not together)",
+          "separate",
+          "seperate",
+          "seprate",
+          "Remember: there is “a rat” in sep-a-rate."
+        ],
+        [
+          "Which spelling is correct? (the beat in music)",
+          "rhythm",
+          "rythm",
+          "rhythem",
+          "“Rhythm” has a silent h after the r and no vowel between th and m."
+        ]
+      ]
+    }
+  },
+  "emoji": "letters",
+  "example": {
+    "i": 0,
+    "q_en": "Which spelling is correct? (very tasty)",
+    "answer_en": "delicious",
+    "why_en": "Delicious ends in -cious, like precious and gracious."
+  },
+  "text": {
+    "en": {
+      "title": "Spelling rules",
+      "teach": "Some spelling patterns help: -cious and -tious endings (delicious, ambitious), -able after a full word (comfortable), i before e except after c (receive), and silent letters (knight, thumb).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

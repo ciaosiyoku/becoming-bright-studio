@@ -1,0 +1,274 @@
+{
+  "id": "fr6-drinks",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 1,
+  "ages": [
+    "6-7"
+  ],
+  "order": 17,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "speech",
+      "speech",
+      "speech",
+      "memo",
+      "animal-cow",
+      "speech",
+      "cocoa",
+      "speech",
+      "animal-mouse",
+      "speech",
+      "fruit-banana",
+      "speech",
+      "party",
+      "memo",
+      "speech",
+      "speech",
+      "droplet",
+      "cocoa",
+      "speech",
+      "cake",
+      "cocoa",
+      "speech",
+      "cocoa",
+      "animal-mouse",
+      "memo",
+      "cake",
+      "fruit-apple",
+      "tree",
+      "backpack",
+      "house"
+    ],
+    "bank": {
+      "en": [
+        [
+          "How do you say “please” to a waiter in French?",
+          "s’il vous plaît",
+          "merci",
+          "bonjour",
+          "Please is s’il vous plaît. Merci means thank you."
+        ],
+        [
+          "What does “merci” mean?",
+          "thank you",
+          "please",
+          "hello",
+          "Merci means thank you."
+        ],
+        [
+          "What does “Je voudrais…” mean?",
+          "I would like…",
+          "I have…",
+          "I am…",
+          "Je voudrais is a polite way to say I would like."
+        ],
+        [
+          "What is “l’eau”?",
+          "water",
+          "milk",
+          "juice",
+          "L’eau means water."
+        ],
+        [
+          "How do you say “milk” in French?",
+          "le lait",
+          "l’eau",
+          "le pain",
+          "Milk is le lait."
+        ],
+        [
+          "What is “un jus d’orange”?",
+          "an orange juice",
+          "an orange cake",
+          "a hot chocolate",
+          "Un jus is a juice, so un jus d’orange is an orange juice."
+        ],
+        [
+          "How do you say “a hot chocolate” in French?",
+          "un chocolat chaud",
+          "un chocolat froid",
+          "un jus de pomme",
+          "Chaud means hot, so a hot chocolate is un chocolat chaud."
+        ],
+        [
+          "What is “le pain”?",
+          "bread",
+          "cheese",
+          "butter",
+          "Le pain means bread."
+        ],
+        [
+          "How do you say “cheese” in French?",
+          "le fromage",
+          "le gâteau",
+          "le poulet",
+          "Cheese is le fromage."
+        ],
+        [
+          "What is “une pomme”?",
+          "an apple",
+          "a pear",
+          "a banana",
+          "Une pomme is an apple."
+        ],
+        [
+          "How do you say “a banana” in French?",
+          "une banane",
+          "une pomme",
+          "une poire",
+          "A banana is une banane."
+        ],
+        [
+          "What is “un gâteau”?",
+          "a cake",
+          "a biscuit",
+          "an ice cream",
+          "Un gâteau is a cake."
+        ],
+        [
+          "How do you say “an ice cream” in French?",
+          "une glace",
+          "un gâteau",
+          "une crêpe",
+          "An ice cream is une glace."
+        ],
+        [
+          "What is “une fraise”?",
+          "a strawberry",
+          "a cherry",
+          "a grape",
+          "Une fraise is a strawberry."
+        ],
+        [
+          "How do you say “chips” (fries) in French?",
+          "des frites",
+          "des fraises",
+          "des pommes",
+          "Chips are des frites. Des fraises are strawberries."
+        ],
+        [
+          "What is “le poulet”?",
+          "chicken",
+          "fish",
+          "egg",
+          "Le poulet is chicken to eat."
+        ],
+        [
+          "Which is the polite way to ask for water?",
+          "Je voudrais de l’eau, s’il vous plaît.",
+          "De l’eau !",
+          "Donne-moi de l’eau !",
+          "Je voudrais and s’il vous plaît make it polite."
+        ],
+        [
+          "The waiter brings your drink. What do you say?",
+          "Merci !",
+          "Bonne nuit !",
+          "Au revoir !",
+          "When someone gives you something, you say merci: thank you."
+        ],
+        [
+          "What does “Un croissant, s’il vous plaît” mean?",
+          "A croissant, please",
+          "A croissant, thank you",
+          "I like croissants",
+          "S’il vous plaît means please."
+        ],
+        [
+          "What does “J’ai faim” mean?",
+          "I am hungry",
+          "I am thirsty",
+          "I am tired",
+          "J’ai faim means I am hungry. In French you say “I have hunger”."
+        ],
+        [
+          "What does “J’ai soif” mean?",
+          "I am thirsty",
+          "I am hungry",
+          "I am cold",
+          "J’ai soif means I am thirsty."
+        ],
+        [
+          "How do you say “I would like a pancake” in French?",
+          "Je voudrais une crêpe.",
+          "Je voudrais une pomme.",
+          "J’aime les crêpes.",
+          "Je voudrais is I would like, and une crêpe is a pancake."
+        ],
+        [
+          "What does “J’aime le chocolat” mean?",
+          "I like chocolate",
+          "I would like a chocolate",
+          "I don’t like chocolate",
+          "J’aime means I like."
+        ],
+        [
+          "What does “Je n’aime pas le fromage” mean?",
+          "I don’t like cheese",
+          "I like cheese",
+          "I would like some cheese",
+          "Ne… pas makes it “not”: je n’aime pas means I don’t like."
+        ],
+        [
+          "How do you ask for the bill in a café?",
+          "L’addition, s’il vous plaît.",
+          "La carte, s’il vous plaît.",
+          "Bon appétit !",
+          "L’addition is the bill. La carte is the menu."
+        ],
+        [
+          "What does “Bon appétit !” mean?",
+          "Enjoy your meal!",
+          "Good morning!",
+          "See you soon!",
+          "People say bon appétit before they start to eat."
+        ],
+        [
+          "Which one is a drink?",
+          "le jus de pomme",
+          "le pain",
+          "la banane",
+          "Le jus de pomme is apple juice, a drink."
+        ],
+        [
+          "Which one is a fruit?",
+          "une poire",
+          "un gâteau",
+          "le lait",
+          "Une poire is a pear, a fruit."
+        ],
+        [
+          "What is “un sandwich au fromage”?",
+          "a cheese sandwich",
+          "a ham sandwich",
+          "a cheesecake",
+          "Au fromage means with cheese, so it is a cheese sandwich."
+        ],
+        [
+          "You walk into a French café. What do you say first?",
+          "Bonjour !",
+          "Bonne nuit !",
+          "Merci !",
+          "You greet people with bonjour (hello) when you come in."
+        ]
+      ]
+    }
+  },
+  "emoji": "cocoa",
+  "example": {
+    "i": 0,
+    "q_en": "How do you say “please” to a waiter in French?",
+    "answer_en": "s’il vous plaît",
+    "why_en": "Please is s’il vous plaît. Merci means thank you."
+  },
+  "text": {
+    "en": {
+      "title": "Food, drink and ordering in French",
+      "teach": "To order politely in French, say Je voudrais… (I would like…) and s’il vous plaît (please): Je voudrais un jus d’orange, s’il vous plaît. Then say merci (thank you)!",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

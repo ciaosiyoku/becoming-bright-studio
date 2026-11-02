@@ -1,0 +1,936 @@
+{
+  "id": "sci4-body",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 101,
+  "params": {
+    "emojis": [
+      "footprints",
+      "party",
+      "fruit-apple",
+      "girl",
+      "fog",
+      "ribbon",
+      "gloves",
+      "deer",
+      "backpack",
+      "bone",
+      "cocoa",
+      "cake",
+      "shoe",
+      "music",
+      "beach",
+      "anatomical-heart",
+      "trophy",
+      "scarf",
+      "paws",
+      "moon",
+      "clock",
+      "sparkles",
+      "snowman",
+      "cookie",
+      "seedling",
+      "books",
+      "snowflake",
+      "sun",
+      "joystick",
+      "teddy"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which part of your body do you walk on?",
+          "your feet",
+          "your ears",
+          "your hair",
+          "You stand and walk on your two feet."
+        ],
+        [
+          "What do you use to clap?",
+          "your hands",
+          "your knees",
+          "your nose",
+          "You clap by hitting your hands together."
+        ],
+        [
+          "What do you chew an apple with?",
+          "your teeth",
+          "your fingers",
+          "your ears",
+          "Your teeth bite and chew food into small soft pieces."
+        ],
+        [
+          "Put your hand on your chest. What goes thump-thump inside?",
+          "your heart",
+          "your tummy",
+          "your knee",
+          "Your heart beats all the time, day and night."
+        ],
+        [
+          "What goes in and out of you when you breathe?",
+          "air",
+          "sand",
+          "juice",
+          "When you breathe, air goes in and out through your nose and mouth."
+        ],
+        [
+          "What grows on top of your head?",
+          "hair",
+          "leaves",
+          "feathers",
+          "Hair grows on your head. It keeps growing, so it needs a cut now and then."
+        ],
+        [
+          "How many fingers are on one hand?",
+          "five",
+          "two",
+          "ten",
+          "One hand has five fingers: four fingers and a thumb."
+        ],
+        [
+          "A deer has four legs. How many legs do you have?",
+          "two",
+          "four",
+          "six",
+          "People walk on two legs. A deer walks on four."
+        ],
+        [
+          "You bend your arm to lift your bag. Where does your arm bend?",
+          "at the elbow",
+          "at the chin",
+          "at the toe",
+          "Your elbow is in the middle of your arm. It lets your arm bend."
+        ],
+        [
+          "Dogs like to chew bones. Do you have bones inside you too?",
+          "yes, lots of them",
+          "no, not one",
+          "only in my hair",
+          "You have more than two hundred bones. They hold your body up."
+        ],
+        [
+          "What do you hold a cup with?",
+          "your hand",
+          "your foot",
+          "your ear",
+          "Your hand can grip things, like a cup, a spoon or a pencil."
+        ],
+        [
+          "Where does your food go after you swallow it?",
+          "into your tummy",
+          "into your feet",
+          "into your hair",
+          "After you swallow, food slides down into your tummy."
+        ],
+        [
+          "What do you kick a ball with?",
+          "your foot",
+          "your ear",
+          "your nose",
+          "You kick a ball with your foot."
+        ],
+        [
+          "What do you use to talk and sing?",
+          "your mouth",
+          "your elbow",
+          "your knee",
+          "Your voice comes out of your mouth when you talk and sing."
+        ],
+        [
+          "What covers the outside of your whole body?",
+          "your skin",
+          "your shoes",
+          "your bones",
+          "Skin covers all of your body and keeps the inside safe."
+        ],
+        [
+          "Your heart is a pump. What does it push all round your body?",
+          "blood",
+          "milk",
+          "sand",
+          "Your heart pumps blood to every part of your body."
+        ],
+        [
+          "What does your heart do when you run fast?",
+          "it beats faster",
+          "it stops",
+          "it falls asleep",
+          "When you run, your heart beats faster to send more blood to your muscles."
+        ],
+        [
+          "Which part joins your head to the rest of your body?",
+          "your neck",
+          "your knee",
+          "your toe",
+          "Your neck holds up your head and lets you turn it."
+        ],
+        [
+          "Animals have claws. What do you have at the ends of your fingers?",
+          "nails",
+          "feathers",
+          "leaves",
+          "You have a nail at the end of each finger and toe."
+        ],
+        [
+          "What do you close when you go to sleep?",
+          "your eyes",
+          "your ears",
+          "your elbows",
+          "You shut your eyes to sleep. Your ears cannot close."
+        ],
+        [
+          "Why does your body need sleep?",
+          "to rest and grow",
+          "to get hungry",
+          "to make it rain",
+          "While you sleep, your body rests, mends and grows."
+        ],
+        [
+          "How do you keep your teeth clean?",
+          "brush them",
+          "eat lots of sweets",
+          "never open your mouth",
+          "Brushing takes away bits of food and keeps your teeth healthy."
+        ],
+        [
+          "A snowman has a carrot for this. What is in the middle of your face?",
+          "your nose",
+          "your knee",
+          "your toes",
+          "Your nose sits in the middle of your face, between your eyes and your mouth."
+        ],
+        [
+          "Where is your tongue?",
+          "in your mouth",
+          "in your ear",
+          "on your foot",
+          "Your tongue is inside your mouth. It helps you eat and talk."
+        ],
+        [
+          "You get bigger every year. What grows with you?",
+          "your bones",
+          "your shoes",
+          "your toys",
+          "Your bones grow longer, so you get taller. Shoes and toys stay the same size."
+        ],
+        [
+          "Your brain helps you think. Where is it?",
+          "inside your head",
+          "inside your foot",
+          "inside your hand",
+          "Your brain is inside your head, kept safe by the hard bone of your skull."
+        ],
+        [
+          "What does your body do when you are very cold?",
+          "it shivers",
+          "it melts",
+          "it turns green",
+          "Shivering makes your muscles move fast, and that warms you up."
+        ],
+        [
+          "You run about on a hot day. What comes out of your skin?",
+          "sweat",
+          "milk",
+          "sand",
+          "Sweat is water from your skin. It helps your body cool down."
+        ],
+        [
+          "How many thumbs do you have?",
+          "two",
+          "ten",
+          "six",
+          "You have one thumb on each hand, so two in all."
+        ],
+        [
+          "What do you use to give someone a hug?",
+          "your arms",
+          "your ears",
+          "your toes",
+          "You wrap your arms around someone to hug them."
+        ]
+      ],
+      "de": [
+        [
+          "Worauf läufst du?",
+          "auf den Füßen",
+          "auf den Ohren",
+          "auf den Haaren",
+          "Du stehst und läufst auf deinen zwei Füßen."
+        ],
+        [
+          "Womit klatschst du?",
+          "mit den Händen",
+          "mit den Knien",
+          "mit der Nase",
+          "Beim Klatschen schlägst du deine Hände zusammen."
+        ],
+        [
+          "Womit kaust du einen Apfel?",
+          "mit den Zähnen",
+          "mit den Fingern",
+          "mit den Ohren",
+          "Die Zähne beißen und kauen das Essen in kleine weiche Stücke."
+        ],
+        [
+          "Leg die Hand auf deine Brust. Was macht da drinnen bum-bum?",
+          "dein Herz",
+          "dein Bauch",
+          "dein Knie",
+          "Dein Herz schlägt immer, am Tag und in der Nacht."
+        ],
+        [
+          "Was geht beim Atmen in dich hinein und wieder hinaus?",
+          "Luft",
+          "Sand",
+          "Saft",
+          "Beim Atmen geht Luft durch Nase und Mund hinein und hinaus."
+        ],
+        [
+          "Was wächst oben auf deinem Kopf?",
+          "Haare",
+          "Blätter",
+          "Federn",
+          "Auf deinem Kopf wachsen Haare. Sie wachsen immer weiter, darum schneidet man sie ab und zu."
+        ],
+        [
+          "Wie viele Finger hat eine Hand?",
+          "fünf",
+          "zwei",
+          "zehn",
+          "Eine Hand hat fünf Finger: vier Finger und einen Daumen."
+        ],
+        [
+          "Ein Reh hat vier Beine. Wie viele Beine hast du?",
+          "zwei",
+          "vier",
+          "sechs",
+          "Menschen laufen auf zwei Beinen. Ein Reh läuft auf vier."
+        ],
+        [
+          "Du beugst den Arm, um deine Tasche zu heben. Wo knickt der Arm?",
+          "am Ellbogen",
+          "am Kinn",
+          "am Zeh",
+          "Der Ellbogen ist in der Mitte vom Arm. Mit ihm kann sich der Arm beugen."
+        ],
+        [
+          "Hunde kauen gern Knochen. Hast du auch Knochen in dir?",
+          "ja, ganz viele",
+          "nein, keinen einzigen",
+          "nur in den Haaren",
+          "Du hast mehr als zweihundert Knochen. Sie halten deinen Körper aufrecht."
+        ],
+        [
+          "Womit hältst du eine Tasse?",
+          "mit der Hand",
+          "mit dem Fuß",
+          "mit dem Ohr",
+          "Mit der Hand kannst du Dinge greifen, zum Beispiel eine Tasse, einen Löffel oder einen Stift."
+        ],
+        [
+          "Wohin kommt dein Essen, wenn du es geschluckt hast?",
+          "in den Bauch",
+          "in die Füße",
+          "in die Haare",
+          "Nach dem Schlucken rutscht das Essen hinunter in deinen Bauch."
+        ],
+        [
+          "Womit schießt du einen Ball?",
+          "mit dem Fuß",
+          "mit dem Ohr",
+          "mit der Nase",
+          "Einen Ball schießt du mit dem Fuß."
+        ],
+        [
+          "Womit sprichst und singst du?",
+          "mit dem Mund",
+          "mit dem Ellbogen",
+          "mit dem Knie",
+          "Wenn du sprichst und singst, kommt deine Stimme aus dem Mund."
+        ],
+        [
+          "Was bedeckt deinen ganzen Körper von außen?",
+          "die Haut",
+          "die Schuhe",
+          "die Knochen",
+          "Die Haut bedeckt deinen ganzen Körper und schützt das Innere."
+        ],
+        [
+          "Dein Herz ist eine Pumpe. Was pumpt es durch deinen ganzen Körper?",
+          "Blut",
+          "Milch",
+          "Sand",
+          "Dein Herz pumpt Blut in jeden Teil deines Körpers."
+        ],
+        [
+          "Was macht dein Herz, wenn du schnell rennst?",
+          "es schlägt schneller",
+          "es bleibt stehen",
+          "es schläft ein",
+          "Beim Rennen schlägt dein Herz schneller und schickt mehr Blut zu den Muskeln."
+        ],
+        [
+          "Welcher Teil verbindet deinen Kopf mit dem übrigen Körper?",
+          "der Hals",
+          "das Knie",
+          "der Zeh",
+          "Der Hals trägt deinen Kopf, und mit ihm kannst du den Kopf drehen."
+        ],
+        [
+          "Tiere haben Krallen. Was hast du vorn an deinen Fingern?",
+          "Nägel",
+          "Federn",
+          "Blätter",
+          "An jedem Finger und jedem Zeh hast du einen Nagel."
+        ],
+        [
+          "Was machst du zu, wenn du schlafen gehst?",
+          "die Augen",
+          "die Ohren",
+          "die Ellbogen",
+          "Zum Schlafen machst du die Augen zu. Die Ohren kann man nicht schließen."
+        ],
+        [
+          "Warum braucht dein Körper Schlaf?",
+          "zum Ausruhen und Wachsen",
+          "damit er Hunger bekommt",
+          "damit es regnet",
+          "Während du schläfst, ruht sich dein Körper aus, heilt und wächst."
+        ],
+        [
+          "Wie hältst du deine Zähne sauber?",
+          "ich putze sie",
+          "ich esse viele Süßigkeiten",
+          "ich mache nie den Mund auf",
+          "Beim Putzen gehen Essensreste weg, und die Zähne bleiben gesund."
+        ],
+        [
+          "Ein Schneemann hat dafür eine Möhre. Was ist mitten in deinem Gesicht?",
+          "die Nase",
+          "das Knie",
+          "die Zehen",
+          "Die Nase sitzt mitten im Gesicht, zwischen den Augen und dem Mund."
+        ],
+        [
+          "Wo ist deine Zunge?",
+          "im Mund",
+          "im Ohr",
+          "am Fuß",
+          "Deine Zunge ist im Mund. Sie hilft dir beim Essen und Sprechen."
+        ],
+        [
+          "Du wirst jedes Jahr größer. Was wächst mit dir mit?",
+          "deine Knochen",
+          "deine Schuhe",
+          "deine Spielsachen",
+          "Deine Knochen werden länger, darum wirst du größer. Schuhe und Spielsachen bleiben gleich groß."
+        ],
+        [
+          "Dein Gehirn hilft dir beim Denken. Wo ist es?",
+          "im Kopf",
+          "im Fuß",
+          "in der Hand",
+          "Dein Gehirn ist im Kopf. Der harte Schädelknochen schützt es."
+        ],
+        [
+          "Was macht dein Körper, wenn dir sehr kalt ist?",
+          "er zittert",
+          "er schmilzt",
+          "er wird grün",
+          "Beim Zittern bewegen sich die Muskeln schnell, und das wärmt dich."
+        ],
+        [
+          "Du tobst an einem heißen Tag herum. Was kommt aus deiner Haut?",
+          "Schweiß",
+          "Milch",
+          "Sand",
+          "Schweiß ist Wasser aus der Haut. Er hilft dem Körper, sich abzukühlen."
+        ],
+        [
+          "Wie viele Daumen hast du?",
+          "zwei",
+          "zehn",
+          "sechs",
+          "An jeder Hand ist ein Daumen, also zwei zusammen."
+        ],
+        [
+          "Womit umarmst du jemanden?",
+          "mit den Armen",
+          "mit den Ohren",
+          "mit den Zehen",
+          "Beim Umarmen legst du die Arme um jemanden."
+        ]
+      ],
+      "fr": [
+        [
+          "Avec quelle partie du corps est-ce que tu marches ?",
+          "avec mes pieds",
+          "avec mes oreilles",
+          "avec mes cheveux",
+          "Tu te tiens debout et tu marches sur tes deux pieds."
+        ],
+        [
+          "Avec quoi est-ce que tu applaudis ?",
+          "avec mes mains",
+          "avec mes genoux",
+          "avec mon nez",
+          "Pour applaudir, tu tapes tes mains l’une contre l’autre."
+        ],
+        [
+          "Avec quoi est-ce que tu mâches une pomme ?",
+          "avec mes dents",
+          "avec mes doigts",
+          "avec mes oreilles",
+          "Tes dents croquent et mâchent la nourriture en petits morceaux."
+        ],
+        [
+          "Pose ta main sur ta poitrine. Qu’est-ce qui fait boum-boum dedans ?",
+          "mon cœur",
+          "mon ventre",
+          "mon genou",
+          "Ton cœur bat tout le temps, le jour comme la nuit."
+        ],
+        [
+          "Qu’est-ce qui entre et sort quand tu respires ?",
+          "de l’air",
+          "du sable",
+          "du jus",
+          "Quand tu respires, l’air entre et sort par ton nez et ta bouche."
+        ],
+        [
+          "Qu’est-ce qui pousse sur ta tête ?",
+          "des cheveux",
+          "des feuilles",
+          "des plumes",
+          "Des cheveux poussent sur ta tête. Ils poussent sans arrêt, alors on les coupe de temps en temps."
+        ],
+        [
+          "Combien de doigts as-tu sur une main ?",
+          "cinq",
+          "deux",
+          "dix",
+          "Une main a cinq doigts : quatre doigts et un pouce."
+        ],
+        [
+          "Un cerf a quatre pattes. Combien de jambes as-tu ?",
+          "deux",
+          "quatre",
+          "six",
+          "Les gens marchent sur deux jambes. Le cerf marche sur quatre pattes."
+        ],
+        [
+          "Tu plies ton bras pour soulever ton sac. Où ton bras se plie-t-il ?",
+          "au coude",
+          "au menton",
+          "à l’orteil",
+          "Le coude est au milieu du bras. Grâce à lui, ton bras peut se plier."
+        ],
+        [
+          "Les chiens aiment ronger des os. Est-ce que tu as des os toi aussi ?",
+          "oui, plein",
+          "non, pas un seul",
+          "seulement dans mes cheveux",
+          "Tu as plus de deux cents os. Ils tiennent ton corps debout."
+        ],
+        [
+          "Avec quoi est-ce que tu tiens une tasse ?",
+          "avec ma main",
+          "avec mon pied",
+          "avec mon oreille",
+          "Ta main peut attraper les choses : une tasse, une cuillère ou un crayon."
+        ],
+        [
+          "Où va ta nourriture quand tu l’as avalée ?",
+          "dans mon ventre",
+          "dans mes pieds",
+          "dans mes cheveux",
+          "Quand tu avales, la nourriture descend dans ton ventre."
+        ],
+        [
+          "Avec quoi est-ce que tu tapes dans un ballon ?",
+          "avec mon pied",
+          "avec mon oreille",
+          "avec mon nez",
+          "On tape dans un ballon avec le pied."
+        ],
+        [
+          "Avec quoi est-ce que tu parles et chantes ?",
+          "avec ma bouche",
+          "avec mon coude",
+          "avec mon genou",
+          "Quand tu parles et chantes, ta voix sort par ta bouche."
+        ],
+        [
+          "Qu’est-ce qui recouvre tout ton corps à l’extérieur ?",
+          "ma peau",
+          "mes chaussures",
+          "mes os",
+          "La peau recouvre tout ton corps et protège l’intérieur."
+        ],
+        [
+          "Ton cœur est une pompe. Qu’est-ce qu’il envoie dans tout ton corps ?",
+          "du sang",
+          "du lait",
+          "du sable",
+          "Ton cœur pompe le sang vers toutes les parties de ton corps."
+        ],
+        [
+          "Que fait ton cœur quand tu cours vite ?",
+          "il bat plus vite",
+          "il s’arrête",
+          "il s’endort",
+          "Quand tu cours, ton cœur bat plus vite pour envoyer plus de sang à tes muscles."
+        ],
+        [
+          "Quelle partie relie ta tête au reste de ton corps ?",
+          "mon cou",
+          "mon genou",
+          "mon orteil",
+          "Ton cou porte ta tête et te permet de la tourner."
+        ],
+        [
+          "Les animaux ont des griffes. Qu’as-tu au bout de tes doigts ?",
+          "des ongles",
+          "des plumes",
+          "des feuilles",
+          "Tu as un ongle au bout de chaque doigt et de chaque orteil."
+        ],
+        [
+          "Qu’est-ce que tu fermes quand tu t’endors ?",
+          "mes yeux",
+          "mes oreilles",
+          "mes coudes",
+          "Pour dormir, tu fermes les yeux. Les oreilles, elles, ne se ferment pas."
+        ],
+        [
+          "Pourquoi ton corps a-t-il besoin de dormir ?",
+          "pour se reposer et grandir",
+          "pour avoir faim",
+          "pour faire pleuvoir",
+          "Pendant que tu dors, ton corps se repose, se répare et grandit."
+        ],
+        [
+          "Comment gardes-tu tes dents propres ?",
+          "je les brosse",
+          "je mange plein de bonbons",
+          "je n’ouvre jamais la bouche",
+          "Le brossage enlève les petits bouts de nourriture et garde tes dents en bonne santé."
+        ],
+        [
+          "Le bonhomme de neige a une carotte à cet endroit. Qu’y a-t-il au milieu de ton visage ?",
+          "mon nez",
+          "mon genou",
+          "mes orteils",
+          "Ton nez est au milieu de ton visage, entre tes yeux et ta bouche."
+        ],
+        [
+          "Où est ta langue ?",
+          "dans ma bouche",
+          "dans mon oreille",
+          "sur mon pied",
+          "Ta langue est dans ta bouche. Elle t’aide à manger et à parler."
+        ],
+        [
+          "Tu grandis chaque année. Qu’est-ce qui grandit avec toi ?",
+          "mes os",
+          "mes chaussures",
+          "mes jouets",
+          "Tes os s’allongent, alors tu grandis. Les chaussures et les jouets gardent la même taille."
+        ],
+        [
+          "Ton cerveau t’aide à réfléchir. Où se trouve-t-il ?",
+          "dans ma tête",
+          "dans mon pied",
+          "dans ma main",
+          "Ton cerveau est dans ta tête, protégé par l’os dur du crâne."
+        ],
+        [
+          "Que fait ton corps quand tu as très froid ?",
+          "il frissonne",
+          "il fond",
+          "il devient vert",
+          "Quand tu frissonnes, tes muscles bougent très vite, et ça te réchauffe."
+        ],
+        [
+          "Tu cours par une journée très chaude. Qu’est-ce qui sort de ta peau ?",
+          "de la sueur",
+          "du lait",
+          "du sable",
+          "La sueur, c’est de l’eau qui sort de ta peau. Elle aide ton corps à se rafraîchir."
+        ],
+        [
+          "Combien de pouces as-tu ?",
+          "deux",
+          "dix",
+          "six",
+          "Tu as un pouce à chaque main, donc deux en tout."
+        ],
+        [
+          "Avec quoi fais-tu un câlin à quelqu’un ?",
+          "avec mes bras",
+          "avec mes oreilles",
+          "avec mes orteils",
+          "Pour faire un câlin, tu entoures quelqu’un de tes bras."
+        ]
+      ],
+      "yo": [
+        [
+          "Ẹ̀yà ara wo lo fi ń rìn?",
+          "ẹsẹ̀ mi",
+          "etí mi",
+          "irun mi",
+          "O ń dúró, o sì ń rìn lórí ẹsẹ̀ rẹ méjèèjì."
+        ],
+        [
+          "Kí lo fi ń pàtẹ́wọ́?",
+          "ọwọ́ mi",
+          "orúnkún mi",
+          "imú mi",
+          "Tí o bá ń pàtẹ́wọ́, o ń lu ọwọ́ rẹ méjèèjì papọ̀."
+        ],
+        [
+          "Kí lo fi ń jẹ àpùlù?",
+          "eyín mi",
+          "ìka ọwọ́ mi",
+          "etí mi",
+          "Eyín rẹ ń gé oúnjẹ, wọ́n sì ń lọ̀ ọ́ di wẹ́wẹ́."
+        ],
+        [
+          "Fi ọwọ́ rẹ lé àyà rẹ. Kí ló ń lù kìkì nínú rẹ̀?",
+          "ọkàn mi",
+          "ikùn mi",
+          "orúnkún mi",
+          "Ọkàn rẹ ń lù ní gbogbo ìgbà, ní ọ̀sán àti ní òru."
+        ],
+        [
+          "Kí ló ń wọlé tí ó sì ń jáde nínú rẹ nígbà tí o bá ń mí?",
+          "afẹ́fẹ́",
+          "iyanrìn",
+          "omi èso",
+          "Nígbà tí o bá ń mí, afẹ́fẹ́ ń wọlé, ó sì ń jáde láti imú àti ẹnu rẹ."
+        ],
+        [
+          "Kí ló ń hù lórí rẹ?",
+          "irun",
+          "ewé",
+          "ìyẹ́",
+          "Irun ń hù lórí rẹ. Ó ń gùn sí i ṣáá, nítorí náà a máa ń gẹ̀ ẹ́ nígbà mìíràn."
+        ],
+        [
+          "Ìka mélòó ló wà ní ọwọ́ kan?",
+          "márùn-ún",
+          "méjì",
+          "mẹ́wàá",
+          "Ọwọ́ kan ní ìka márùn-ún: ìka mẹ́rin àti àtàǹpàkò kan."
+        ],
+        [
+          "Àgbọ̀nrín ní ẹsẹ̀ mẹ́rin. Ẹsẹ̀ mélòó ni ìwọ ní?",
+          "méjì",
+          "mẹ́rin",
+          "mẹ́fà",
+          "Ènìyàn ń fi ẹsẹ̀ méjì rìn. Àgbọ̀nrín ń fi ẹsẹ̀ mẹ́rin rìn."
+        ],
+        [
+          "O ká apá rẹ láti gbé àpò rẹ. Níbo ni apá rẹ ti ń ká?",
+          "ní ìgbọ̀nwọ́",
+          "ní àgbọ̀n",
+          "ní ìka ẹsẹ̀",
+          "Ìgbọ̀nwọ́ wà ní àárín apá rẹ. Òun ló ń jẹ́ kí apá rẹ lè ká."
+        ],
+        [
+          "Ajá fẹ́ràn láti jẹ egungun. Ṣé ìwọ náà ní egungun nínú ara rẹ?",
+          "bẹ́ẹ̀ni, ó pọ̀ gan-an",
+          "rárá, kò sí ẹyọ kan",
+          "nínú irun mi nìkan",
+          "O ní egungun tó ju igba lọ. Àwọn ló ń gbé ara rẹ dúró."
+        ],
+        [
+          "Kí lo fi ń di ife mú?",
+          "ọwọ́ mi",
+          "ẹsẹ̀ mi",
+          "etí mi",
+          "Ọwọ́ rẹ lè di nǹkan mú, bí ife, ṣíbí tàbí pẹ́ńsùlù."
+        ],
+        [
+          "Níbo ni oúnjẹ ń lọ lẹ́yìn tí o bá gbé e mì?",
+          "sínú ikùn mi",
+          "sínú ẹsẹ̀ mi",
+          "sínú irun mi",
+          "Lẹ́yìn tí o bá gbé oúnjẹ mì, ó máa ń sọ̀ kalẹ̀ sínú ikùn rẹ."
+        ],
+        [
+          "Kí lo fi ń gbá bọ́ọ̀lù?",
+          "ẹsẹ̀ mi",
+          "etí mi",
+          "imú mi",
+          "Ẹsẹ̀ ni a fi ń gbá bọ́ọ̀lù."
+        ],
+        [
+          "Kí lo fi ń sọ̀rọ̀ tí o sì ń kọrin?",
+          "ẹnu mi",
+          "ìgbọ̀nwọ́ mi",
+          "orúnkún mi",
+          "Ohùn rẹ ń jáde láti ẹnu rẹ nígbà tí o bá ń sọ̀rọ̀ tàbí kọrin."
+        ],
+        [
+          "Kí ló bo gbogbo ara rẹ lóde?",
+          "awọ ara mi",
+          "bàtà mi",
+          "egungun mi",
+          "Awọ ara bo gbogbo ara rẹ, ó sì ń dáàbò bo inú rẹ̀."
+        ],
+        [
+          "Ọkàn rẹ ń ṣiṣẹ́ bí ẹ̀rọ fífa omi. Kí ló ń fà káàkiri gbogbo ara rẹ?",
+          "ẹ̀jẹ̀",
+          "wàrà",
+          "iyanrìn",
+          "Ọkàn rẹ ń fa ẹ̀jẹ̀ lọ sí gbogbo ẹ̀yà ara rẹ."
+        ],
+        [
+          "Kí ni ọkàn rẹ ń ṣe nígbà tí o bá ń sáré gan-an?",
+          "ó ń yára lù sí i",
+          "ó dúró",
+          "ó sùn lọ",
+          "Tí o bá ń sáré, ọkàn rẹ ń yára lù láti rán ẹ̀jẹ̀ púpọ̀ sí iṣan ara rẹ."
+        ],
+        [
+          "Ẹ̀yà wo ló so orí rẹ mọ́ ìyókù ara rẹ?",
+          "ọrùn mi",
+          "orúnkún mi",
+          "ìka ẹsẹ̀ mi",
+          "Ọrùn rẹ ló gbé orí rẹ ró, ó sì ń jẹ́ kí o lè yí orí rẹ."
+        ],
+        [
+          "Àwọn ẹranko ní èékánná mímú. Kí ló wà ní orí ìka ọwọ́ rẹ?",
+          "èékánná",
+          "ìyẹ́",
+          "ewé",
+          "Èékánná wà ní orí ìka ọwọ́ àti ìka ẹsẹ̀ rẹ kọ̀ọ̀kan."
+        ],
+        [
+          "Kí lo máa ń dì nígbà tí o bá fẹ́ sùn?",
+          "ojú mi",
+          "etí mi",
+          "ìgbọ̀nwọ́ mi",
+          "O máa ń di ojú rẹ láti sùn. Etí kò ṣeé dì."
+        ],
+        [
+          "Kí ló dé tí ara rẹ fi nílò oorun?",
+          "láti sinmi àti láti dàgbà",
+          "láti ní ebi",
+          "láti mú kí òjò rọ̀",
+          "Nígbà tí o bá ń sùn, ara rẹ ń sinmi, ó ń tún ara ṣe, ó sì ń dàgbà."
+        ],
+        [
+          "Báwo lo ṣe ń jẹ́ kí eyín rẹ mọ́?",
+          "mo ń fọ̀ wọ́n",
+          "mo ń jẹ ọ̀pọ̀ ṣúgà",
+          "mi kì í ya ẹnu mi",
+          "Fífọ eyín ń mú ẹ̀rúnrún oúnjẹ kúrò, ó sì ń jẹ́ kí eyín rẹ ní ìlera."
+        ],
+        [
+          "Ère yìnyín ní kárọ́ọ̀tì níbí. Kí ló wà ní àárín ojú rẹ?",
+          "imú mi",
+          "orúnkún mi",
+          "ìka ẹsẹ̀ mi",
+          "Imú rẹ wà ní àárín ojú rẹ, láàárín ẹyinjú rẹ àti ẹnu rẹ."
+        ],
+        [
+          "Níbo ni ahọ́n rẹ wà?",
+          "nínú ẹnu mi",
+          "nínú etí mi",
+          "lórí ẹsẹ̀ mi",
+          "Ahọ́n rẹ wà nínú ẹnu rẹ. Ó ń ràn ọ́ lọ́wọ́ láti jẹun àti láti sọ̀rọ̀."
+        ],
+        [
+          "Ò ń ga sí i lọ́dọọdún. Kí ló ń dàgbà pẹ̀lú rẹ?",
+          "egungun mi",
+          "bàtà mi",
+          "ohun ìṣeré mi",
+          "Egungun rẹ ń gùn sí i, nítorí náà o ń ga. Bàtà àti ohun ìṣeré kì í tóbi sí i."
+        ],
+        [
+          "Ọpọlọ rẹ ń ràn ọ́ lọ́wọ́ láti ronú. Níbo ló wà?",
+          "nínú orí mi",
+          "nínú ẹsẹ̀ mi",
+          "nínú ọwọ́ mi",
+          "Ọpọlọ rẹ wà nínú orí rẹ, egungun agbárí líle sì ń dáàbò bò ó."
+        ],
+        [
+          "Kí ni ara rẹ ń ṣe nígbà tí òtútù bá mú ọ gan-an?",
+          "ó ń gbọ̀n",
+          "ó ń yọ́",
+          "ó ń di àwọ̀ ewé",
+          "Gbígbọ̀n ń mú kí iṣan ara rẹ yára ṣiṣẹ́, èyí sì ń mú ọ gbóná."
+        ],
+        [
+          "O ń sáré kiri ní ọjọ́ tí oòrùn mú. Kí ló ń jáde lára awọ rẹ?",
+          "òógùn",
+          "wàrà",
+          "iyanrìn",
+          "Òógùn jẹ́ omi tó ń jáde láti ara awọ rẹ. Ó ń ràn ara rẹ lọ́wọ́ láti tutù."
+        ],
+        [
+          "Àtàǹpàkò mélòó ni o ní?",
+          "méjì",
+          "mẹ́wàá",
+          "mẹ́fà",
+          "Àtàǹpàkò kan wà ní ọwọ́ kọ̀ọ̀kan, nítorí náà méjì ni lápapọ̀."
+        ],
+        [
+          "Kí lo fi ń gbá ẹnì kan mọ́ra?",
+          "apá mi",
+          "etí mi",
+          "ìka ẹsẹ̀ mi",
+          "O máa ń fi apá rẹ yí ẹnì kan ká láti gbá a mọ́ra."
+        ]
+      ]
+    }
+  },
+  "emoji": "girl",
+  "example": {
+    "i": 0,
+    "q_en": "Which part of your body do you walk on?",
+    "answer_en": "your feet",
+    "why_en": "You stand and walk on your two feet.",
+    "q_de": "Worauf läufst du?",
+    "answer_de": "auf den Füßen",
+    "why_de": "Du stehst und läufst auf deinen zwei Füßen.",
+    "q_fr": "Avec quelle partie du corps est-ce que tu marches ?",
+    "answer_fr": "avec mes pieds",
+    "why_fr": "Tu te tiens debout et tu marches sur tes deux pieds.",
+    "q_yo": "Ẹ̀yà ara wo lo fi ń rìn?",
+    "answer_yo": "ẹsẹ̀ mi",
+    "why_yo": "O ń dúró, o sì ń rìn lórí ẹsẹ̀ rẹ méjèèjì."
+  },
+  "text": {
+    "en": {
+      "title": "My body",
+      "teach": "Your body has lots of parts, and each one has a job. You walk with your feet, hold things with your hands and chew with your teeth.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Mein Körper",
+      "teach": "Dein Körper hat viele Teile, und jedes hat eine Aufgabe. Mit den Füßen läufst du, mit den Händen hältst du etwas, mit den Zähnen kaust du.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Mon corps",
+      "teach": "Ton corps a beaucoup de parties, et chacune a un travail. Tu marches avec tes pieds, tu tiens les choses avec tes mains et tu mâches avec tes dents.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ara mi",
+      "teach": "Ara rẹ ní ọ̀pọ̀lọpọ̀ ẹ̀yà, iṣẹ́ kọ̀ọ̀kan sì ní tirẹ̀. O ń fi ẹsẹ̀ rìn, o ń fi ọwọ́ di nǹkan mú, o sì ń fi eyín jẹ oúnjẹ.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

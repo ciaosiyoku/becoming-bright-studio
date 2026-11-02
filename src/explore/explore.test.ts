@@ -9,11 +9,11 @@ import { WHY_TOPICS, WHYS } from './whys'
 const emojis = new Set(Object.keys(import.meta.glob('/public/emoji/*.png')).map((f) => f.replace('/public/emoji/', '').replace('.png', '')))
 const photos = new Set(Object.keys(import.meta.glob('/public/photos/places/*.jpg')).map((f) => f.replace('/public/photos/places/', '').replace('.jpg', '')))
 
-describe('100 Whys', () => {
-  it('has 100 whys, 25 per topic, each with a different id and a picture that exists', () => {
-    expect(WHYS.length).toBe(100)
-    for (const t of WHY_TOPICS) expect(WHYS.filter((w) => w.topic === t).length, t).toBe(25)
-    expect(new Set(WHYS.map((w) => w.id)).size).toBe(100)
+describe('500 Whys', () => {
+  it('has 500 whys, 50 per topic, each with a different id and a picture that exists', () => {
+    expect(WHYS.length).toBe(500)
+    for (const t of WHY_TOPICS) expect(WHYS.filter((w) => w.topic === t).length, t).toBe(50)
+    expect(new Set(WHYS.map((w) => w.id)).size).toBe(500)
     expect(WHYS.filter((w) => !emojis.has(w.emoji)).map((w) => w.id)).toEqual([])
   })
   it('asks a question and answers it in every language', () => {
@@ -25,7 +25,7 @@ describe('100 Whys', () => {
       }
   })
   it('asks each question only once', () => {
-    for (const { id } of LANGS) expect(new Set(WHYS.map((w) => w[id][0])).size, id).toBe(100)
+    for (const { id } of LANGS) expect(new Set(WHYS.map((w) => w[id][0])).size, id).toBe(500)
   })
 })
 

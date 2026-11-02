@@ -1,0 +1,274 @@
+{
+  "id": "en10-clauses",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 206,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "medal",
+      "books",
+      "tree",
+      "road",
+      "minibus",
+      "abacus",
+      "beach",
+      "paws",
+      "cake",
+      "music",
+      "shoe",
+      "palette",
+      "animal-owl",
+      "speech",
+      "rain",
+      "moon",
+      "bell",
+      "snow",
+      "puzzle",
+      "paws",
+      "bus",
+      "house",
+      "map",
+      "gear",
+      "cocoa",
+      "scarf",
+      "heart",
+      "animal-fox",
+      "openbook",
+      "sun-rain"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which word fills the gap? “The girl ___ won the race is my cousin.”",
+          "who",
+          "which",
+          "where",
+          "We use “who” for people."
+        ],
+        [
+          "Which word fills the gap? “The book ___ I borrowed was brilliant.”",
+          "which",
+          "who",
+          "where",
+          "We use “which” for things."
+        ],
+        [
+          "Which word fills the gap? “That is the park ___ we play football.”",
+          "where",
+          "who",
+          "whose",
+          "We use “where” for places."
+        ],
+        [
+          "Which word fills the gap? “This is the boy ___ bike was stolen.”",
+          "whose",
+          "who",
+          "which",
+          "We use “whose” to show that something belongs to someone."
+        ],
+        [
+          "Which word fills the gap? “Our car, ___ is very old, still runs well.”",
+          "which",
+          "who",
+          "where",
+          "We use “which” for things."
+        ],
+        [
+          "Which word fills the gap? “Mr Ali, ___ teaches us maths, plays the guitar.”",
+          "who",
+          "which",
+          "where",
+          "We use “who” for people."
+        ],
+        [
+          "Which word fills the gap? “The town ___ my gran lives is by the sea.”",
+          "where",
+          "which",
+          "who",
+          "We use “where” for places."
+        ],
+        [
+          "Which word fills the gap? “I met a woman ___ dog can do tricks.”",
+          "whose",
+          "who",
+          "where",
+          "We use “whose” to show that something belongs to someone."
+        ],
+        [
+          "Which word fills the gap? “The cake ___ Dad baked was delicious.”",
+          "which",
+          "who",
+          "where",
+          "We use “which” for things."
+        ],
+        [
+          "Which word fills the gap? “The children ___ sang in the show got a prize.”",
+          "who",
+          "which",
+          "whose",
+          "We use “who” for people."
+        ],
+        [
+          "Which word fills the gap? “That is the shop ___ I bought my trainers.”",
+          "where",
+          "who",
+          "whose",
+          "We use “where” for places."
+        ],
+        [
+          "Which word fills the gap? “The artist ___ paintings we saw is famous.”",
+          "whose",
+          "which",
+          "who",
+          "We use “whose” to show that something belongs to someone."
+        ],
+        [
+          "Which word is the relative pronoun in “The owl that lives in the barn hoots at night”?",
+          "that",
+          "owl",
+          "night",
+          "“That” starts the relative clause, which tells us more about the owl."
+        ],
+        [
+          "Which word is the relative pronoun in “I have a friend who speaks three languages”?",
+          "who",
+          "friend",
+          "speaks",
+          "“Who” starts the relative clause, which tells us more about the friend."
+        ],
+        [
+          "Which part is the main clause in “Although it was raining, we went to the park”?",
+          "we went to the park",
+          "Although it was raining",
+          "to the park",
+          "“We went to the park” makes sense on its own, so it is the main clause."
+        ],
+        [
+          "Which part is the subordinate clause in “I brushed my teeth before I went to bed”?",
+          "before I went to bed",
+          "I brushed my teeth",
+          "my teeth",
+          "“Before I went to bed” does not make sense on its own, so it is the subordinate clause."
+        ],
+        [
+          "Which part is the subordinate clause in “When the bell rang, everyone ran outside”?",
+          "When the bell rang",
+          "everyone ran outside",
+          "ran outside",
+          "“When the bell rang” needs the rest of the sentence to make sense, so it is subordinate."
+        ],
+        [
+          "Which sentence contains a subordinate clause?",
+          "We stayed inside because it was cold.",
+          "We stayed inside.",
+          "It was cold and windy.",
+          "“Because it was cold” is a subordinate clause. It adds a reason to the main clause."
+        ],
+        [
+          "Which word can start a subordinate clause?",
+          "because",
+          "and",
+          "but",
+          "“Because” is a subordinating conjunction. “And” and “but” join two main clauses."
+        ],
+        [
+          "Which is the main clause in “The cat, which was very hungry, ate all its food”?",
+          "The cat ate all its food",
+          "which was very hungry",
+          "very hungry",
+          "Take out the relative clause and “The cat ate all its food” still makes sense on its own."
+        ],
+        [
+          "Which of these is a main clause that makes sense on its own?",
+          "The bus was late.",
+          "Because the bus was late",
+          "Until the bus came",
+          "“The bus was late.” is complete. The others leave you waiting for more."
+        ],
+        [
+          "Which part is the relative clause in “The boy who lives next door has a puppy”?",
+          "who lives next door",
+          "The boy has a puppy",
+          "next door",
+          "A relative clause starts with a relative pronoun such as “who” and tells us more about a noun."
+        ],
+        [
+          "Which part is the relative clause in “Paris, which is in France, is a big city”?",
+          "which is in France",
+          "Paris is a big city",
+          "a big city",
+          "“Which is in France” starts with “which” and adds extra information about Paris."
+        ],
+        [
+          "Which sentence uses the correct relative pronoun?",
+          "The man who fixed our roof was kind.",
+          "The man which fixed our roof was kind.",
+          "The man whose fixed our roof was kind.",
+          "The man is a person, so we use “who”."
+        ],
+        [
+          "Which sentence uses the correct relative pronoun?",
+          "This is the café where we had lunch.",
+          "This is the café who we had lunch.",
+          "This is the café whose we had lunch.",
+          "A café is a place, so we use “where”."
+        ],
+        [
+          "Which sentence uses the correct relative pronoun?",
+          "I like the coat which has a hood.",
+          "I like the coat who has a hood.",
+          "I like the coat whose has a hood.",
+          "A coat is a thing, so we use “which”."
+        ],
+        [
+          "Which word fills the gap? “My friend Jo, ___ mum is a nurse, came to tea.”",
+          "whose",
+          "who",
+          "which",
+          "We use “whose” to show that something belongs to someone."
+        ],
+        [
+          "Which word fills the gap? “The fox ___ we saw last night ran across the road.”",
+          "which",
+          "whose",
+          "where",
+          "The fox is an animal, not a place or an owner, so “which” fits."
+        ],
+        [
+          "Which part is the subordinate clause in “If you finish early, you can read a book”?",
+          "If you finish early",
+          "you can read a book",
+          "a book",
+          "“If you finish early” does not make sense alone, so it is the subordinate clause."
+        ],
+        [
+          "Which sentence has a main clause and a subordinate clause?",
+          "I smiled when I saw the rainbow.",
+          "I smiled and waved.",
+          "I saw a rainbow.",
+          "“When I saw the rainbow” is a subordinate clause added to the main clause “I smiled”."
+        ]
+      ]
+    }
+  },
+  "emoji": "puzzle",
+  "example": {
+    "i": 0,
+    "q_en": "Which word fills the gap? “The girl ___ won the race is my cousin.”",
+    "answer_en": "who",
+    "why_en": "We use “who” for people."
+  },
+  "text": {
+    "en": {
+      "title": "Clauses and relative pronouns",
+      "teach": "A main clause makes sense on its own. A subordinate clause does not (because it was cold). Relative pronouns start relative clauses: who for people, which for things, where for places, whose for belonging, and that.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

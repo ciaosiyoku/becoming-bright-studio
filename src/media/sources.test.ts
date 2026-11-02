@@ -1,10 +1,12 @@
 import { describe, expect, it } from 'vitest'
-import { callLinkOk, COLLECTIONS, embedUrl, parseYouTube, STATIONS } from './sources'
+import { callLinkOk, embedUrl, parseYouTube, STATIONS } from './sources'
+import { STORIES } from './storyList'
+import { AGE_BANDS } from '@/skills/ages'
 
 describe('listen and watch sources', () => {
   it('only uses HTTPS addresses', () => {
     for (const s of STATIONS) expect(s.url).toMatch(/^https:\/\//)
-    for (const c of COLLECTIONS) for (const t of c.tracks) expect(t.url).toMatch(/^https:\/\/archive\.org\/download\//)
+    for (const c of STORIES) for (const t of c.tracks) expect(t.url).toMatch(/^https:\/\/archive\.org\/download\//)
   })
   it('reads YouTube links of every common shape', () => {
     expect(parseYouTube('https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=10')).toEqual({ kind: 'video', id: 'dQw4w9WgXcQ' })
@@ -22,5 +24,13 @@ describe('listen and watch sources', () => {
     expect(callLinkOk('facetime:someone@example.com')).toBe(true)
     expect(callLinkOk('https://example.com')).toBe(false)
     expect(callLinkOk('javascript:alert(1)')).toBe(false)
+  })
+})
+
+describe('stories', () => {
+  it('has at least 50 stories for every age range, each with a different id', () => {
+    for (const band of AGE_BANDS) expect(STORIES.filter((c) => c.band === band).reduce((n, c) => n + c.tracks.length, 0), band).toBeGreaterThanOrEqual(50)
+    const ids = STORIES.flatMap((c) => c.tracks.map((t) => t.id))
+    expect(new Set(ids).size).toBe(ids.length)
   })
 })

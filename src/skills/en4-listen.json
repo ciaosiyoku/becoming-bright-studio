@@ -1,0 +1,274 @@
+{
+  "id": "en4-listen",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 110,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "sun",
+      "wave",
+      "tree",
+      "girl",
+      "bone",
+      "bus",
+      "animal-cow",
+      "cake",
+      "star",
+      "animal-frog",
+      "snowflake",
+      "umbrella",
+      "animal-lion",
+      "animal-honeybee",
+      "teddy",
+      "bell",
+      "school",
+      "shoe",
+      "animal-snail",
+      "chick",
+      "fruit-banana",
+      "animal-rabbit",
+      "snowman",
+      "animal-elephant",
+      "animal-giraffe",
+      "animal-owl",
+      "cocoa",
+      "fire",
+      "animal-horse",
+      "gloves"
+    ],
+    "bank": {
+      "en": [
+        [
+          "The sun is in the ___.",
+          "sky",
+          "bath",
+          "box",
+          "The sun shines in the sky."
+        ],
+        [
+          "A fish swims in the ___.",
+          "sea",
+          "tree",
+          "bed",
+          "Fish swim in the sea."
+        ],
+        [
+          "The bird is in the ___.",
+          "tree",
+          "cup",
+          "shoe",
+          "Birds sit in trees."
+        ],
+        [
+          "I wear a hat on my ___.",
+          "head",
+          "foot",
+          "knee",
+          "A hat goes on your head."
+        ],
+        [
+          "The dog likes to chew a ___.",
+          "bone",
+          "bus",
+          "cloud",
+          "Dogs like to chew bones."
+        ],
+        [
+          "I ride on the ___ to school.",
+          "bus",
+          "cake",
+          "moon",
+          "A bus takes you to school."
+        ],
+        [
+          "The cow says ___.",
+          "moo",
+          "quack",
+          "woof",
+          "A cow says moo."
+        ],
+        [
+          "We eat ___ at a party.",
+          "cake",
+          "socks",
+          "rocks",
+          "We eat cake at a party."
+        ],
+        [
+          "The stars come out at ___.",
+          "night",
+          "lunchtime",
+          "breakfast",
+          "We see stars in the dark night sky."
+        ],
+        [
+          "The frog can ___.",
+          "jump",
+          "read",
+          "cook",
+          "Frogs jump with their strong legs."
+        ],
+        [
+          "Snow is very ___.",
+          "cold",
+          "hot",
+          "sweet",
+          "Snow is cold and icy."
+        ],
+        [
+          "Open the ___ in the rain.",
+          "umbrella",
+          "cake",
+          "sock",
+          "An umbrella keeps the rain off."
+        ],
+        [
+          "The lion says ___.",
+          "roar",
+          "moo",
+          "tweet",
+          "A lion roars."
+        ],
+        [
+          "A bee makes ___.",
+          "honey",
+          "milk",
+          "bread",
+          "Bees make honey."
+        ],
+        [
+          "My teddy sleeps in my ___.",
+          "bed",
+          "cup",
+          "shoe",
+          "A teddy can sleep in your bed."
+        ],
+        [
+          "The ___ goes ding-dong.",
+          "bell",
+          "cat",
+          "cake",
+          "A bell goes ding-dong."
+        ],
+        [
+          "I learn and play at ___.",
+          "school",
+          "sea",
+          "sky",
+          "You learn and play at school."
+        ],
+        [
+          "I put my socks on my ___.",
+          "feet",
+          "ears",
+          "nose",
+          "Socks go on your feet."
+        ],
+        [
+          "The snail is very ___.",
+          "slow",
+          "fast",
+          "loud",
+          "A snail moves slowly."
+        ],
+        [
+          "The hen lays ___.",
+          "eggs",
+          "cars",
+          "shoes",
+          "Hens lay eggs."
+        ],
+        [
+          "I eat a yellow ___.",
+          "banana",
+          "sock",
+          "bus",
+          "A banana is yellow and you can eat it."
+        ],
+        [
+          "Rabbits like to eat ___.",
+          "carrots",
+          "stones",
+          "socks",
+          "Rabbits munch carrots."
+        ],
+        [
+          "We build a ___ in the snow.",
+          "snowman",
+          "cake",
+          "bed",
+          "You make a snowman out of snow."
+        ],
+        [
+          "The elephant has a long ___.",
+          "trunk",
+          "wing",
+          "shell",
+          "An elephant has a long trunk."
+        ],
+        [
+          "The giraffe has a long ___.",
+          "neck",
+          "shell",
+          "wing",
+          "A giraffe has a very long neck."
+        ],
+        [
+          "The owl says ___.",
+          "hoot",
+          "moo",
+          "oink",
+          "An owl says hoot."
+        ],
+        [
+          "I drink my ___ from a cup.",
+          "milk",
+          "sand",
+          "socks",
+          "You can drink milk from a cup."
+        ],
+        [
+          "The fire is very ___.",
+          "hot",
+          "cold",
+          "wet",
+          "Fire is hot, so never touch it."
+        ],
+        [
+          "The horse can ___ fast.",
+          "run",
+          "read",
+          "fly",
+          "A horse can run very fast."
+        ],
+        [
+          "I wear ___ on my hands.",
+          "gloves",
+          "boots",
+          "hats",
+          "Gloves go on your hands."
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "i": 0,
+    "q_en": "The sun is in the ___.",
+    "answer_en": "sky",
+    "why_en": "The sun shines in the sky."
+  },
+  "text": {
+    "en": {
+      "title": "Listen and finish",
+      "teach": "Listen to the whole sentence, then pick the word that makes sense: The fish swims in the sea.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

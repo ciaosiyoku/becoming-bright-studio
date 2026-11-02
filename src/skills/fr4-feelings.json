@@ -1,0 +1,274 @@
+{
+  "id": "fr4-feelings",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 10,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "party",
+      "letters",
+      "rain",
+      "speech",
+      "moon",
+      "letters",
+      "cookie",
+      "speech",
+      "droplet",
+      "letters",
+      "snowman",
+      "speech",
+      "sun",
+      "letters",
+      "storm",
+      "speech",
+      "thermometer",
+      "letters",
+      "teddy",
+      "speech",
+      "sun-small-cloud",
+      "animal-sloth",
+      "letters",
+      "gift",
+      "speech",
+      "medal",
+      "rain",
+      "moon",
+      "cake",
+      "snow"
+    ],
+    "bank": {
+      "en": [
+        [
+          "How do you say ‘happy’ in French?",
+          "content",
+          "triste",
+          "fatigué",
+          "‘Happy’ in French is ‘content’. A girl says ‘contente’."
+        ],
+        [
+          "What does ‘content’ mean?",
+          "happy",
+          "sad",
+          "cold",
+          "‘Content’ means happy. A girl says ‘contente’."
+        ],
+        [
+          "How do you say ‘sad’ in French?",
+          "triste",
+          "content",
+          "calme",
+          "‘Sad’ in French is ‘triste’."
+        ],
+        [
+          "What does ‘triste’ mean?",
+          "sad",
+          "happy",
+          "hungry",
+          "‘Triste’ means sad."
+        ],
+        [
+          "How do you say ‘tired’ in French?",
+          "fatigué",
+          "content",
+          "en colère",
+          "‘Tired’ in French is ‘fatigué’. A girl says ‘fatiguée’."
+        ],
+        [
+          "What does ‘fatigué’ mean?",
+          "tired",
+          "angry",
+          "happy",
+          "‘Fatigué’ means tired."
+        ],
+        [
+          "How do you say ‘I am hungry’ in French?",
+          "j’ai faim",
+          "j’ai froid",
+          "je suis triste",
+          "‘I am hungry’ in French is ‘j’ai faim’."
+        ],
+        [
+          "What does ‘j’ai faim’ mean?",
+          "I am hungry",
+          "I am cold",
+          "I am sad",
+          "‘J’ai faim’ means I am hungry."
+        ],
+        [
+          "How do you say ‘I am thirsty’ in French?",
+          "j’ai soif",
+          "j’ai faim",
+          "j’ai chaud",
+          "‘I am thirsty’ in French is ‘j’ai soif’."
+        ],
+        [
+          "What does ‘j’ai soif’ mean?",
+          "I am thirsty",
+          "I am tired",
+          "I am happy",
+          "‘J’ai soif’ means I am thirsty."
+        ],
+        [
+          "How do you say ‘I am cold’ in French?",
+          "j’ai froid",
+          "j’ai chaud",
+          "j’ai faim",
+          "‘I am cold’ in French is ‘j’ai froid’."
+        ],
+        [
+          "What does ‘j’ai froid’ mean?",
+          "I am cold",
+          "I am hot",
+          "I am thirsty",
+          "‘J’ai froid’ means I am cold."
+        ],
+        [
+          "How do you say ‘I am hot’ in French?",
+          "j’ai chaud",
+          "j’ai froid",
+          "j’ai soif",
+          "‘I am hot’ in French is ‘j’ai chaud’."
+        ],
+        [
+          "What does ‘j’ai chaud’ mean?",
+          "I am hot",
+          "I am cold",
+          "I am hungry",
+          "‘J’ai chaud’ means I am hot. Careful: ‘chaud’ sounds a bit like cold, but it means hot!"
+        ],
+        [
+          "How do you say ‘angry’ in French?",
+          "en colère",
+          "content",
+          "calme",
+          "‘Angry’ in French is ‘en colère’."
+        ],
+        [
+          "What does ‘en colère’ mean?",
+          "angry",
+          "sleepy",
+          "happy",
+          "‘En colère’ means angry."
+        ],
+        [
+          "How do you say ‘ill’ in French?",
+          "malade",
+          "content",
+          "calme",
+          "‘Ill’ in French is ‘malade’."
+        ],
+        [
+          "What does ‘malade’ mean?",
+          "ill",
+          "happy",
+          "thirsty",
+          "‘Malade’ means ill."
+        ],
+        [
+          "How do you say ‘I am scared’ in French?",
+          "j’ai peur",
+          "j’ai faim",
+          "je suis content",
+          "‘I am scared’ in French is ‘j’ai peur’."
+        ],
+        [
+          "What does ‘j’ai peur’ mean?",
+          "I am scared",
+          "I am hungry",
+          "I am happy",
+          "‘J’ai peur’ means I am scared."
+        ],
+        [
+          "How do you say ‘calm’ in French?",
+          "calme",
+          "triste",
+          "malade",
+          "‘Calm’ in French is ‘calme’. It is almost the same word!"
+        ],
+        [
+          "How do you say ‘I am sleepy’ in French?",
+          "j’ai sommeil",
+          "j’ai faim",
+          "j’ai chaud",
+          "‘I am sleepy’ in French is ‘j’ai sommeil’."
+        ],
+        [
+          "What does ‘j’ai sommeil’ mean?",
+          "I am sleepy",
+          "I am thirsty",
+          "I am angry",
+          "‘J’ai sommeil’ means I am sleepy."
+        ],
+        [
+          "How do you say ‘surprised’ in French?",
+          "surpris",
+          "triste",
+          "fatigué",
+          "‘Surprised’ in French is ‘surpris’. A girl says ‘surprise’."
+        ],
+        [
+          "What does ‘surpris’ mean?",
+          "surprised",
+          "tired",
+          "cold",
+          "‘Surpris’ means surprised."
+        ],
+        [
+          "You win a medal. How do you feel? Say it in French.",
+          "content",
+          "triste",
+          "malade",
+          "Winning makes us happy: ‘content’. A girl says ‘contente’."
+        ],
+        [
+          "You are crying. How do you feel? Say it in French.",
+          "triste",
+          "content",
+          "j’ai chaud",
+          "When we cry, we often feel sad: ‘triste’."
+        ],
+        [
+          "It is late and you yawn. How do you feel? Say it in French.",
+          "fatigué",
+          "content",
+          "en colère",
+          "Yawning shows we are tired: ‘fatigué’."
+        ],
+        [
+          "It is lunchtime and your tummy rumbles. What do you say in French?",
+          "j’ai faim",
+          "j’ai froid",
+          "j’ai peur",
+          "A rumbling tummy means you are hungry: ‘j’ai faim’."
+        ],
+        [
+          "You play in the snow with no gloves. What do you say in French?",
+          "j’ai froid",
+          "j’ai chaud",
+          "j’ai soif",
+          "Snow is cold, so you say ‘j’ai froid’."
+        ]
+      ]
+    }
+  },
+  "emoji": "heart",
+  "example": {
+    "i": 0,
+    "q_en": "How do you say ‘happy’ in French?",
+    "answer_en": "content",
+    "why_en": "‘Happy’ in French is ‘content’. A girl says ‘contente’."
+  },
+  "text": {
+    "en": {
+      "title": "Feelings in French",
+      "teach": "Feelings in French: ‘content’ is happy (a girl says ‘contente’), ‘triste’ is sad and ‘j’ai faim’ means I am hungry.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

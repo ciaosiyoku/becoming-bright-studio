@@ -1,6 +1,7 @@
 import type { Lang } from '@/i18n'
 import type { PinHash } from '@/parent/pin'
 import type { VoiceGender } from '@/shared/speak'
+import type { Subject } from '@/skills/types'
 import { type Access, defaultAccess, type ItemId } from './items'
 
 // The app state: one document, saved on the device under one key (STATE_KEY, see store.tsx). Pure helpers,
@@ -40,6 +41,10 @@ export interface Child {
   skills: Record<string, SkillProgress>
   /** Recent misses, newest last (at most MAX_MISSES). */
   misses: Miss[]
+  /** 4 to 12, chosen by a grown-up: the child sees the skills for their age (skills/ages.ts). null: not set yet, every skill. */
+  age: number | null
+  /** Their level in each thinking game (games/levels.ts). */
+  levels: Record<string, number>
   /** The skill the child chose to learn (the Learn tab shows only this one). */
   current: string | null
   /** Lessons passed (4 of 5 checks) per day ("YYYY-MM-DD" → count): they earn time (app/access.ts). */
@@ -65,8 +70,10 @@ export interface Family {
   pinLock: { wrong: number; until: number }
   /** Each game, radio, story, video and explore item: off, open, or "earn first" (app/items.ts). */
   access: Record<ItemId, Access>
-  /** Earned time: minutes per passed lesson, and the most a day. */
-  rewards: { minutesPerLesson: number; maxPerDay: number }
+  /** Each subject: off, open, or "earn first" (opens for the day after `rewards.lessonsToOpen` passed lessons). */
+  subjects: Record<Subject, Access>
+  /** Earned time: minutes per passed lesson, and the most a day; lessons passed in a day that open the "earn first" subjects. */
+  rewards: { minutesPerLesson: number; maxPerDay: number; lessonsToOpen: number }
   /** Reading aloud with a female or a male voice (shared/speak.ts). */
   voice: VoiceGender
 }
@@ -87,12 +94,15 @@ export interface AppState {
 export const MAX_MISSES = 300
 export const COLOURS = ['#5b6cf0', '#e2557e', '#178c84', '#e08a1e', '#8b5cf6', '#22a06b'] as const
 
-export const emptyFamily = (): Family => ({ pin: null, recovery: null, pinLock: { wrong: 0, until: 0 }, access: defaultAccess(), rewards: { minutesPerLesson: 10, maxPerDay: 45 }, voice: 'female' })
+/** Numbers and words always open; patterns, science and French opened by passing lessons first. */
+export const defaultSubjects = (): Record<Subject, Access> => ({ numbers: 'open', words: 'open', patterns: 'earn', science: 'earn', french: 'earn' })
+
+export const emptyFamily = (): Family => ({ pin: null, recovery: null, pinLock: { wrong: 0, until: 0 }, access: defaultAccess(), subjects: defaultSubjects(), rewards: { minutesPerLesson: 10, maxPerDay: 45, lessonsToOpen: 2 }, voice: 'female' })
 
 export const emptyState = (): AppState => ({ version: STATE_VERSION, family: emptyFamily(), children: [], activeChild: null, lang: null, lastBackupAt: null, updatedAt: 0 })
 
-export function newChild(name: string, colour: string, id: string = crypto.randomUUID()): Child {
-  return { id, name: name.trim(), colour, skills: {}, misses: [], current: null, passes: {}, lessons: {}, earnedUsed: {}, usage: {} }
+export function newChild(name: string, colour: string, id: string = crypto.randomUUID(), age: number | null = null): Child {
+  return { id, name: name.trim(), colour, age, levels: {}, skills: {}, misses: [], current: null, passes: {}, lessons: {}, earnedUsed: {}, usage: {} }
 }
 
 const isObject = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v)
@@ -103,7 +113,10 @@ export function withDefaults(saved: unknown): AppState {
   if (!isObject(saved)) return base
   const state = { ...base, ...saved } as AppState
   const savedFamily = isObject(saved.family) ? saved.family : {}
-  state.family = { ...emptyFamily(), ...savedFamily, access: { ...defaultAccess(), ...(isObject(savedFamily.access) ? savedFamily.access : {}) } }
+  state.family = { ...emptyFamily(), ...savedFamily, access: { ...defaultAccess(), ...(isObject(savedFamily.access) ? savedFamily.access : {}) },
+    subjects: { ...defaultSubjects(), ...(isObject(savedFamily.subjects) ? savedFamily.subjects : {}) },
+    rewards: { ...emptyFamily().rewards, ...(isObject(savedFamily.rewards) ? savedFamily.rewards : {}) },
+  }
   state.children = Array.isArray(saved.children) ? saved.children.filter(isObject).map((c) => ({ ...newChild('', COLOURS[0], String(c.id ?? crypto.randomUUID())), ...c }) as Child) : []
   if (!state.children.some((c) => c.id === state.activeChild)) state.activeChild = state.children[0]?.id ?? null
   return state

@@ -9,7 +9,7 @@
 
 <p align="center"><b>Every day a little brighter.</b></p>
 
-**Short lessons that explain themselves, one skill at a time, for children aged 4 to 11. The child chooses the skill.** It works in the browser
+**Short lessons that explain themselves, one skill at a time, for children aged 4 to 12. The child chooses the skill.** It works in the browser
 and does not block other apps. Everything stays on the family's device: no accounts, no tracking.
 
 - **Install:** https://ciaosiyoku.github.io/becoming-bright-studio/install.html (steps for your device, QR code)
@@ -37,21 +37,19 @@ Written down before any code in the [learning contract](docs/LEARNING-CONTRACT.m
 After every answer, the right one turns green and the reason stays on screen until the child taps **Next**, which
 unlocks after a moment. Nothing moves on by itself, so red never means "go faster".
 
-**95 skills, and the child chooses.** The child picks a subject, then a skill. The Learn tab then shows only that
-skill, with "Choose another skill" next to it. Nothing is locked.
+**171 skills for ages 4 to 12, and the child chooses.** A grown-up gives each child an age; the child sees the
+skills for their age range (4–5, 6–7, 8–9, 10–12), picks a subject, then a skill. The Learn tab then shows only that
+skill. Every subject has **at least 300 different questions per age range** (a test checks it).
 
 - **Numbers (31):** counting; adding and taking away within 5, 10, 20, 100 and 1000; one more and one less; tens
   and ones; times tables; hours, minutes and seconds; place value; rounding; dividing; multiplying; fractions;
   percentages; order of operations; square numbers.
-- **Sounds and words (27, taught in English):** first sounds, rhymes, reading and spelling words, the missing letter,
-  "a" or "an", plurals, the past tense, alphabetical order, opposites, short forms, comparing, synonyms, homophones,
-  word classes, prefixes, capital letters, punctuation, question words, prepositions, pronouns, compound words,
-  suffixes, conjunctions, collective nouns, apostrophes.
-- **Patterns (9):** picture patterns and number sequences.
-- **Science (16):** living things, body, senses, animals, plants, healthy eating, materials, habitats, weather,
-  states of matter, magnets, forces, light, sound, space, electricity.
-- **French (12, taught in French):** greetings, colours, numbers, animals, fruit, body and family, days, weather,
-  le/la/l', être and avoir, plurals, sentences.
+- **Sounds and words (47, taught in English):** letters and first sounds up to idioms, the passive and Greek and
+  Latin roots.
+- **Patterns (13):** picture patterns and number sequences.
+- **Science (40, in every app language):** 10 per age range, from my body and the senses to body systems, evolution
+  and circuits.
+- **French (40, taught in English):** 10 per age range, from greetings and colours to the passé composé.
 
 Numbers are made fresh each time so answers can't be learnt by heart. Science, French and the newer English skills
 are hand-written question banks. A test checks that every question, and every teach card's example, has **exactly
@@ -61,11 +59,12 @@ one right answer** in every language shipped.
 
 | Tab | Items |
 |---|---|
-| **Games** | Memory (cards from a learnt skill's questions), Word builder, Code breaker, Picture puzzle, Number slide |
-| **Listen and watch** | Children's radio (live), Stories (LibriVox, public domain), Videos (a checked library from official channels) |
-| **Explore** | Places of the world (real photos with credits), 100 Whys, Did you know? |
+| **Games** | Memory, Word builder, Code breaker, Picture puzzle, Number slide, and thinking games with levels: Mini sudoku, Tower of Hanoi, Repeat the pattern, Picture logic |
+| **Listen and watch** | Children's radio (live), Stories (at least 50 per age range, LibriVox, public domain), Videos (a checked library from official channels) |
+| **Explore** | Places of the world (real photos with credits), 500 Whys, Did you know? |
 
-The grown-ups set each item to **Off**, **Open** or **Earn first**. With Earn first, a passed lesson earns minutes
+The grown-ups set each subject and each item to **Off**, **Open** or **Earn first**. An earn-first subject opens for
+the day after a set number of passed lessons (2 at first). With Earn first, a passed lesson earns minutes
 (10 at first, up to 45 a day), and the clock at the top shows what's left.
 
 ## For grown-ups
@@ -113,9 +112,11 @@ Every push to `main` is checked, built and published to GitHub Pages by `.github
 | `src/lesson/` | The session (teach, guided, checks) and its screen |
 | `src/parent/` | PIN, recovery code, the grown-ups' screen |
 | `src/skills/bank.ts` | Question banks (science, French, newer English skills); `scripts/bank-example.py` sets each bank's teach example |
-| `src/games/` | Memory, word builder, code breaker, picture puzzle, number slide |
+| `src/games/` | Memory, word builder, code breaker, picture puzzle, number slide, and the thinking games (levels in `levels.ts`) |
 | `src/media/` | Radio, stories, videos |
-| `src/explore/` | Places of the world, 100 Whys, Did you know? |
+| `src/explore/` | Places of the world, 500 Whys, Did you know? |
+| `src/skills/ages.ts` | Age ranges; `ages.test.ts` checks 300 questions per subject and range |
+| `scripts/make-stories.py` | Builds the stories list per age range from the Internet Archive |
 | `src/app/items.ts`, `access.ts` | The items of each tab, Off / Open / Earn first, earned time |
 | `src/parent/report.ts` | The learning report (pure, tested) |
 | `src/i18n/` | Every sentence, one file per language |

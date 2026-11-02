@@ -1,4 +1,4 @@
-export type WhyTopic = 'body' | 'nature' | 'sky' | 'home'
+export type WhyTopic = 'body' | 'nature' | 'sky' | 'home' | 'food' | 'transport' | 'earth' | 'people' | 'history' | 'play'
 
 /** One "why": the question and a short, true answer in each language. */
 export interface Why {

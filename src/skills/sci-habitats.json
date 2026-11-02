@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "science",
   "stage": 3,
+  "ages": [
+    "8-9"
+  ],
   "order": 8,
   "params": {
     "emojis": [
@@ -15,7 +18,27 @@
       "globe",
       "polarbear",
       "sun",
-      "animal-owl"
+      "animal-owl",
+      "animal-giraffe",
+      "animal-penguin",
+      "animal-rabbit",
+      "animal-cow",
+      "animal-lion",
+      "animal-bear",
+      "animal-frog",
+      "desert",
+      "sun-small-cloud",
+      "tree",
+      "warning",
+      "snow",
+      "beach",
+      "droplet",
+      "animal-butterfly",
+      "moon",
+      "animal-parrot",
+      "animal-swan",
+      "animal-snail",
+      "animal-spouting-whale"
     ],
     "bank": {
       "en": [
@@ -88,6 +111,146 @@
           "a producer",
           "a plant",
           "A predator is an animal that hunts other animals for food. The mouse is its prey."
+        ],
+        [
+          "Which animal lives on the hot, grassy African savannah?",
+          "a zebra",
+          "a penguin",
+          "an octopus",
+          "Zebras eat the grass of the savannah. Penguins need cold coasts and octopuses need the sea."
+        ],
+        [
+          "Where is the home of the emperor penguin?",
+          "the icy land and sea around the South Pole",
+          "a hot, sandy desert",
+          "the top of a jungle tree",
+          "Emperor penguins live in Antarctica. Thick feathers and fat keep them warm."
+        ],
+        [
+          "Food chain: grass → rabbit → fox. What is the rabbit to the fox?",
+          "its prey",
+          "its predator",
+          "its producer",
+          "Prey is an animal that is hunted and eaten. The fox hunts the rabbit, so the rabbit is its prey."
+        ],
+        [
+          "A cow eats only grass and other plants. What do we call an animal like that?",
+          "a herbivore",
+          "a carnivore",
+          "a producer",
+          "Herbivores eat only plants. Carnivores eat meat, and producers are plants."
+        ],
+        [
+          "A lion eats only meat. What do we call an animal like that?",
+          "a carnivore",
+          "a herbivore",
+          "a producer",
+          "Carnivores eat other animals. A lion hunts zebras and antelopes and does not eat grass."
+        ],
+        [
+          "A brown bear eats berries, roots, fish and insects. What do we call an animal like that?",
+          "an omnivore",
+          "a herbivore",
+          "a producer",
+          "An omnivore eats both plants and animals. Berries and roots are plants; fish and insects are animals."
+        ],
+        [
+          "Where does a common frog lay its eggs, called frogspawn?",
+          "in a pond",
+          "in the hot sand of a desert",
+          "in a bird’s nest",
+          "Frogspawn must stay in water. The tadpoles that hatch live in the pond until they become frogs."
+        ],
+        [
+          "Why can a cactus live in the dry desert?",
+          "it stores water in its thick stem",
+          "it needs rain every day",
+          "it grows best in deep snow",
+          "A cactus keeps water inside its fat stem, and its spines lose very little water."
+        ],
+        [
+          "Where does the energy in every food chain first come from?",
+          "the Sun",
+          "the Moon",
+          "the predators",
+          "Plants use sunlight to make food. Animals get energy by eating plants or other animals."
+        ],
+        [
+          "Which of these animals makes its home in a woodland?",
+          "a hedgehog",
+          "a shark",
+          "a camel",
+          "Hedgehogs find beetles, worms and leafy hiding places in woods. Sharks live in the sea and camels in deserts."
+        ],
+        [
+          "What happens to woodland animals if all the trees are cut down?",
+          "they lose their homes and food",
+          "they get more food than before",
+          "nothing changes for them",
+          "Trees give animals food, shelter and nesting places. Without them, many animals cannot live there."
+        ],
+        [
+          "Why does an Arctic fox have white fur in winter?",
+          "so it blends in with the snow",
+          "so it stays cool in the heat",
+          "so it can see in the dark",
+          "White fur is hard to spot against snow. This helps the fox creep up on prey without being seen."
+        ],
+        [
+          "Which animal might you find in a rock pool at the seaside?",
+          "a crab",
+          "a squirrel",
+          "a camel",
+          "Rock pools are filled by sea water, so sea creatures like crabs live there."
+        ],
+        [
+          "Which animal builds dams of sticks across rivers?",
+          "a beaver",
+          "a lion",
+          "a penguin",
+          "Beavers cut down small trees with their strong teeth and use them to dam rivers and make a pond for their home."
+        ],
+        [
+          "Food chain: leaf → caterpillar → bird → hawk. Which animal is at the top?",
+          "the hawk",
+          "the caterpillar",
+          "the leaf",
+          "Nothing in this chain eats the hawk, so it is the top predator. The leaf is the producer."
+        ],
+        [
+          "Why do many desert animals come out mainly at night?",
+          "it is much cooler at night",
+          "the sand turns into water at night",
+          "the Sun is hotter at night",
+          "Desert days are very hot. Many animals hide in burrows by day and look for food in the cool night."
+        ],
+        [
+          "Which habitat is hot, wet and full of very tall trees?",
+          "a rainforest",
+          "a desert",
+          "the Arctic",
+          "Rainforests get rain almost every day and stay warm, so huge numbers of plants and animals live there."
+        ],
+        [
+          "Why do ducks and swans have webbed feet?",
+          "to paddle well through water",
+          "to climb up trees",
+          "to dig deep holes in sand",
+          "The skin between their toes pushes lots of water back, like a paddle, so they swim well."
+        ],
+        [
+          "Snails often hide under stones and logs during the day. Why?",
+          "it is cool and damp there, so they do not dry out",
+          "they want to sunbathe",
+          "they are looking for snow",
+          "Snails need damp places. Under stones and logs it is shady, so their soft bodies stay moist."
+        ],
+        [
+          "A whale lives in the ocean. Why must it swim up to the surface?",
+          "to breathe air",
+          "to eat sand",
+          "to sleep in a tree",
+          "Whales are mammals with lungs, not gills. They breathe air through a blowhole on top of the head."
         ]
       ],
       "de": [
@@ -160,6 +323,146 @@
           "ein Erzeuger",
           "eine Pflanze",
           "Ein Räuber ist ein Tier, das andere Tiere jagt, um sie zu fressen. Die Maus ist seine Beute."
+        ],
+        [
+          "Welches Tier lebt in der heißen, grasigen Savanne Afrikas?",
+          "ein Zebra",
+          "ein Pinguin",
+          "ein Krake",
+          "Zebras fressen das Gras der Savanne. Pinguine brauchen kalte Küsten und Kraken das Meer."
+        ],
+        [
+          "Wo ist der Kaiserpinguin zu Hause?",
+          "im eisigen Land und Meer rund um den Südpol",
+          "in einer heißen Sandwüste",
+          "oben auf einem Dschungelbaum",
+          "Kaiserpinguine leben in der Antarktis. Dichte Federn und Fett halten sie warm."
+        ],
+        [
+          "Nahrungskette: Gras → Hase → Fuchs. Was ist der Hase für den Fuchs?",
+          "seine Beute",
+          "sein Räuber",
+          "sein Erzeuger",
+          "Beute ist ein Tier, das gejagt und gefressen wird. Der Fuchs jagt den Hasen, also ist der Hase seine Beute."
+        ],
+        [
+          "Eine Kuh frisst nur Gras und andere Pflanzen. Wie nennt man so ein Tier?",
+          "Pflanzenfresser",
+          "Fleischfresser",
+          "Erzeuger",
+          "Pflanzenfresser fressen nur Pflanzen. Fleischfresser fressen Fleisch, und Erzeuger sind Pflanzen."
+        ],
+        [
+          "Ein Löwe frisst nur Fleisch. Wie nennt man so ein Tier?",
+          "Fleischfresser",
+          "Pflanzenfresser",
+          "Erzeuger",
+          "Fleischfresser fressen andere Tiere. Ein Löwe jagt Zebras und Antilopen und frisst kein Gras."
+        ],
+        [
+          "Ein Braunbär frisst Beeren, Wurzeln, Fische und Insekten. Wie nennt man so ein Tier?",
+          "Allesfresser",
+          "Pflanzenfresser",
+          "Erzeuger",
+          "Ein Allesfresser frisst Pflanzen und Tiere. Beeren und Wurzeln sind Pflanzen, Fische und Insekten sind Tiere."
+        ],
+        [
+          "Wohin legt ein Grasfrosch seine Eier, den Froschlaich?",
+          "in einen Teich",
+          "in den heißen Sand einer Wüste",
+          "in ein Vogelnest",
+          "Froschlaich muss im Wasser bleiben. Die Kaulquappen leben im Teich, bis sie Frösche werden."
+        ],
+        [
+          "Warum kann ein Kaktus in der trockenen Wüste leben?",
+          "er speichert Wasser in seinem dicken Stamm",
+          "er braucht jeden Tag Regen",
+          "er wächst am besten in tiefem Schnee",
+          "Ein Kaktus speichert Wasser in seinem dicken Stamm, und seine Stacheln verlieren kaum Wasser."
+        ],
+        [
+          "Woher kommt die Energie in jeder Nahrungskette ursprünglich?",
+          "von der Sonne",
+          "vom Mond",
+          "von den Räubern",
+          "Pflanzen machen mit Sonnenlicht Nahrung. Tiere bekommen Energie, wenn sie Pflanzen oder andere Tiere fressen."
+        ],
+        [
+          "Welches dieser Tiere lebt im Wald?",
+          "ein Igel",
+          "ein Hai",
+          "ein Kamel",
+          "Igel finden im Wald Käfer, Würmer und Laubverstecke. Haie leben im Meer und Kamele in der Wüste."
+        ],
+        [
+          "Was passiert mit den Waldtieren, wenn alle Bäume gefällt werden?",
+          "sie verlieren ihr Zuhause und ihre Nahrung",
+          "sie bekommen mehr Nahrung als vorher",
+          "für sie ändert sich nichts",
+          "Bäume geben Tieren Nahrung, Schutz und Nistplätze. Ohne Bäume können viele Tiere dort nicht leben."
+        ],
+        [
+          "Warum hat ein Polarfuchs im Winter weißes Fell?",
+          "damit er im Schnee kaum zu sehen ist",
+          "damit er in der Hitze kühl bleibt",
+          "damit er im Dunkeln sehen kann",
+          "Weißes Fell ist im Schnee schwer zu erkennen. So kann sich der Fuchs ungesehen an Beute anschleichen."
+        ],
+        [
+          "Welches Tier findest du vielleicht in einem Felsentümpel am Meer?",
+          "eine Krabbe",
+          "ein Eichhörnchen",
+          "ein Kamel",
+          "Felsentümpel werden von Meerwasser gefüllt. Darum leben dort Meerestiere wie Krabben."
+        ],
+        [
+          "Welches Tier baut Dämme aus Ästen quer durch Flüsse?",
+          "ein Biber",
+          "ein Löwe",
+          "ein Pinguin",
+          "Biber fällen kleine Bäume mit ihren starken Zähnen. Damit stauen sie Flüsse zu einem Teich für ihre Burg."
+        ],
+        [
+          "Nahrungskette: Blatt → Raupe → Vogel → Habicht. Welches Tier steht ganz oben?",
+          "der Habicht",
+          "die Raupe",
+          "das Blatt",
+          "In dieser Kette frisst niemand den Habicht. Er ist der oberste Räuber. Das Blatt ist der Erzeuger."
+        ],
+        [
+          "Warum kommen viele Wüstentiere vor allem nachts heraus?",
+          "nachts ist es viel kühler",
+          "nachts wird der Sand zu Wasser",
+          "nachts ist die Sonne heißer",
+          "Wüstentage sind sehr heiß. Viele Tiere verstecken sich tagsüber in Höhlen und suchen nachts Futter."
+        ],
+        [
+          "Welcher Lebensraum ist heiß, nass und voller sehr hoher Bäume?",
+          "ein Regenwald",
+          "eine Wüste",
+          "die Arktis",
+          "Im Regenwald regnet es fast jeden Tag, und es bleibt warm. Darum leben dort sehr viele Pflanzen und Tiere."
+        ],
+        [
+          "Warum haben Enten und Schwäne Schwimmhäute an den Füßen?",
+          "damit sie gut durchs Wasser paddeln",
+          "damit sie auf Bäume klettern",
+          "damit sie tiefe Löcher in Sand graben",
+          "Die Haut zwischen den Zehen schiebt viel Wasser nach hinten, wie ein Paddel. So schwimmen sie gut."
+        ],
+        [
+          "Schnecken verstecken sich tagsüber oft unter Steinen und Holz. Warum?",
+          "dort ist es kühl und feucht, so trocknen sie nicht aus",
+          "sie wollen sich sonnen",
+          "sie suchen Schnee",
+          "Schnecken brauchen feuchte Orte. Unter Steinen und Holz ist es schattig, so bleibt ihr weicher Körper feucht."
+        ],
+        [
+          "Ein Wal lebt im Meer. Warum muss er an die Oberfläche schwimmen?",
+          "um Luft zu atmen",
+          "um Sand zu fressen",
+          "um auf einem Baum zu schlafen",
+          "Wale sind Säugetiere mit Lungen, nicht mit Kiemen. Sie atmen Luft durch ein Blasloch oben auf dem Kopf."
         ]
       ],
       "fr": [
@@ -232,6 +535,146 @@
           "un producteur",
           "une plante",
           "Un prédateur est un animal qui chasse d’autres animaux pour se nourrir. La souris est sa proie."
+        ],
+        [
+          "Quel animal vit dans la savane africaine, chaude et couverte d’herbe ?",
+          "le zèbre",
+          "le manchot",
+          "la pieuvre",
+          "Le zèbre mange l’herbe de la savane. Le manchot a besoin de côtes froides et la pieuvre de la mer."
+        ],
+        [
+          "Où vit le manchot empereur ?",
+          "sur les glaces et dans la mer autour du pôle Sud",
+          "dans un désert de sable brûlant",
+          "en haut d’un arbre de la jungle",
+          "Le manchot empereur vit en Antarctique. Ses plumes serrées et sa graisse le gardent au chaud."
+        ],
+        [
+          "Chaîne alimentaire : herbe → lapin → renard. Qu’est le lapin pour le renard ?",
+          "sa proie",
+          "son prédateur",
+          "son producteur",
+          "Une proie est un animal chassé et mangé. Le renard chasse le lapin : le lapin est sa proie."
+        ],
+        [
+          "La vache ne mange que de l’herbe et d’autres plantes. Comment appelle-t-on un tel animal ?",
+          "un herbivore",
+          "un carnivore",
+          "un producteur",
+          "Les herbivores ne mangent que des plantes. Les carnivores mangent de la viande, et les producteurs sont des plantes."
+        ],
+        [
+          "Le lion ne mange que de la viande. Comment appelle-t-on un tel animal ?",
+          "un carnivore",
+          "un herbivore",
+          "un producteur",
+          "Les carnivores mangent d’autres animaux. Le lion chasse les zèbres et les antilopes, il ne mange pas d’herbe."
+        ],
+        [
+          "L’ours brun mange des baies, des racines, des poissons et des insectes. Comment appelle-t-on un tel animal ?",
+          "un omnivore",
+          "un herbivore",
+          "un producteur",
+          "Un omnivore mange des plantes et des animaux. Les baies et les racines sont des plantes ; les poissons et les insectes sont des animaux."
+        ],
+        [
+          "Où la grenouille rousse pond-elle ses œufs ?",
+          "dans une mare",
+          "dans le sable brûlant d’un désert",
+          "dans un nid d’oiseau",
+          "Les œufs de grenouille doivent rester dans l’eau. Les têtards vivent dans la mare jusqu’à devenir des grenouilles."
+        ],
+        [
+          "Pourquoi un cactus peut-il vivre dans le désert sec ?",
+          "il garde de l’eau dans sa tige épaisse",
+          "il a besoin de pluie tous les jours",
+          "il pousse mieux dans la neige épaisse",
+          "Le cactus stocke de l’eau dans sa tige épaisse, et ses épines perdent très peu d’eau."
+        ],
+        [
+          "D’où vient au départ l’énergie de toute chaîne alimentaire ?",
+          "du Soleil",
+          "de la Lune",
+          "des prédateurs",
+          "Les plantes fabriquent leur nourriture avec la lumière du Soleil. Les animaux trouvent leur énergie en mangeant des plantes ou d’autres animaux."
+        ],
+        [
+          "Lequel de ces animaux vit dans les bois ?",
+          "le hérisson",
+          "le requin",
+          "le chameau",
+          "Le hérisson trouve dans les bois des insectes, des vers et des tas de feuilles pour se cacher. Le requin vit dans la mer et le chameau dans le désert."
+        ],
+        [
+          "Que se passe-t-il pour les animaux des bois si on coupe tous les arbres ?",
+          "ils perdent leur abri et leur nourriture",
+          "ils ont plus à manger qu’avant",
+          "rien ne change pour eux",
+          "Les arbres donnent aux animaux nourriture, abri et endroits pour nicher. Sans eux, beaucoup d’animaux ne peuvent plus vivre là."
+        ],
+        [
+          "Pourquoi le renard polaire a-t-il une fourrure blanche en hiver ?",
+          "pour se confondre avec la neige",
+          "pour rester au frais quand il fait chaud",
+          "pour voir dans le noir",
+          "Une fourrure blanche se voit mal sur la neige : le renard peut s’approcher de ses proies sans être vu."
+        ],
+        [
+          "Quel animal peux-tu trouver dans une flaque entre les rochers au bord de la mer ?",
+          "un crabe",
+          "un écureuil",
+          "un chameau",
+          "Ces flaques sont remplies d’eau de mer : des animaux marins comme les crabes y vivent."
+        ],
+        [
+          "Quel animal construit des barrages de branches sur les rivières ?",
+          "le castor",
+          "le lion",
+          "le manchot",
+          "Le castor coupe de petits arbres avec ses dents solides et s’en sert pour barrer la rivière et faire un étang pour sa hutte."
+        ],
+        [
+          "Chaîne alimentaire : feuille → chenille → oiseau → épervier. Quel animal est tout en haut ?",
+          "l’épervier",
+          "la chenille",
+          "la feuille",
+          "Dans cette chaîne, personne ne mange l’épervier : c’est le super-prédateur. La feuille est le producteur."
+        ],
+        [
+          "Pourquoi beaucoup d’animaux du désert sortent-ils surtout la nuit ?",
+          "il fait bien plus frais la nuit",
+          "le sable se change en eau la nuit",
+          "le Soleil chauffe plus la nuit",
+          "Le jour, le désert est brûlant. Beaucoup d’animaux se cachent dans des terriers et cherchent à manger dans la fraîcheur de la nuit."
+        ],
+        [
+          "Quel milieu de vie est chaud, humide et plein d’arbres très hauts ?",
+          "la forêt tropicale",
+          "le désert",
+          "l’Arctique",
+          "Dans la forêt tropicale, il pleut presque tous les jours et il fait chaud : énormément de plantes et d’animaux y vivent."
+        ],
+        [
+          "Pourquoi les canards et les cygnes ont-ils des pattes palmées ?",
+          "pour bien pagayer dans l’eau",
+          "pour grimper aux arbres",
+          "pour creuser des trous dans le sable",
+          "La peau entre leurs doigts pousse beaucoup d’eau vers l’arrière, comme une rame : ils nagent bien."
+        ],
+        [
+          "Les escargots se cachent souvent sous les pierres et les bûches dans la journée. Pourquoi ?",
+          "il y fait frais et humide, donc ils ne se dessèchent pas",
+          "ils veulent bronzer",
+          "ils cherchent de la neige",
+          "Les escargots ont besoin d’humidité. Sous les pierres et les bûches, il y a de l’ombre : leur corps mou reste humide."
+        ],
+        [
+          "La baleine vit dans l’océan. Pourquoi doit-elle remonter à la surface ?",
+          "pour respirer de l’air",
+          "pour manger du sable",
+          "pour dormir dans un arbre",
+          "Les baleines sont des mammifères avec des poumons, pas des branchies. Elles respirent par un évent sur le dessus de la tête."
         ]
       ],
       "yo": [
@@ -304,6 +747,146 @@
           "olùpèsè",
           "ewéko",
           "Ẹranko apẹranjẹ ni ẹranko tó ń dọdẹ àwọn ẹranko mìíràn láti jẹ. Eku ni ohun tí ó ń dọdẹ."
+        ],
+        [
+          "Ẹranko wo ló ń gbé ní pápá koríko Áfíríkà tó gbóná?",
+          "kẹ́tẹ́kẹ́tẹ́ abìlà",
+          "pẹ́ńgúìnì",
+          "ẹja ẹlẹ́sẹ̀ mẹ́jọ",
+          "Kẹ́tẹ́kẹ́tẹ́ abìlà ń jẹ koríko pápá náà. Pẹ́ńgúìnì nílò etí òkun tó tutù, ẹja ẹlẹ́sẹ̀ mẹ́jọ sì nílò òkun."
+        ],
+        [
+          "Ibo ni ilé pẹ́ńgúìnì ọba?",
+          "ilẹ̀ àti òkun tí yìnyín bò ní agbègbè Gúúsù Ilẹ̀ Ayé",
+          "aṣálẹ̀ oníyanrìn tó gbóná",
+          "orí igi inú igbó kìjikìji",
+          "Pẹ́ńgúìnì ọba ń gbé ní Antarctica. Ìyẹ́ tó nípọn àti ọ̀rá ń mú ara wọn móoru."
+        ],
+        [
+          "Ẹ̀wọ̀n oúnjẹ: koríko → ehoro → kọ̀lọ̀kọ̀lọ̀. Kí ni ehoro jẹ́ sí kọ̀lọ̀kọ̀lọ̀?",
+          "ẹran ìdọdẹ rẹ̀",
+          "apẹranjẹ rẹ̀",
+          "olùpèsè rẹ̀",
+          "Ẹran ìdọdẹ ni ẹranko tí wọ́n ń dọdẹ, tí wọ́n sì ń jẹ. Kọ̀lọ̀kọ̀lọ̀ ń dọdẹ ehoro, nítorí náà ehoro ni ẹran ìdọdẹ rẹ̀."
+        ],
+        [
+          "Màlúù ń jẹ koríko àti ewéko mìíràn nìkan. Kí la ń pe irú ẹranko bẹ́ẹ̀?",
+          "ajewéko",
+          "ajẹran",
+          "olùpèsè",
+          "Ajewéko ń jẹ ewéko nìkan. Ajẹran ń jẹ ẹran, ewéko sì ni olùpèsè."
+        ],
+        [
+          "Kìnnìún ń jẹ ẹran nìkan. Kí la ń pe irú ẹranko bẹ́ẹ̀?",
+          "ajẹran",
+          "ajewéko",
+          "olùpèsè",
+          "Ajẹran ń jẹ àwọn ẹranko mìíràn. Kìnnìún ń dọdẹ kẹ́tẹ́kẹ́tẹ́ abìlà àti ìgalà, kì í jẹ koríko."
+        ],
+        [
+          "Bíà aláwọ̀ ilẹ̀ ń jẹ èso igi kéékèèké, gbòǹgbò, ẹja àti kòkòrò. Kí la ń pe irú ẹranko bẹ́ẹ̀?",
+          "ajẹgbogbo",
+          "ajewéko",
+          "olùpèsè",
+          "Ajẹgbogbo ń jẹ ewéko àti ẹranko. Èso àti gbòǹgbò jẹ́ ewéko; ẹja àti kòkòrò jẹ́ ẹranko."
+        ],
+        [
+          "Ibo ni ọ̀pọ̀lọ́ máa ń yé ẹyin rẹ̀ sí?",
+          "inú adágún omi",
+          "inú iyanrìn gbígbóná aṣálẹ̀",
+          "inú ìtẹ́ ẹyẹ",
+          "Ẹyin ọ̀pọ̀lọ́ gbọ́dọ̀ wà nínú omi. Àwọn ọmọ ọ̀pọ̀lọ́ tí wọ́n pa ń gbé inú adágún náà títí wọ́n á fi di ọ̀pọ̀lọ́."
+        ],
+        [
+          "Kí ló dé tí igi ọ̀gàn-ọ̀gàn aṣálẹ̀ (cactus) fi lè gbé inú aṣálẹ̀ tó gbẹ?",
+          "ó ń tọ́jú omi sínú igi rẹ̀ tó nípọn",
+          "ó nílò òjò lójoojúmọ́",
+          "ó ń dàgbà dáadáa nínú yìnyín tó jìn",
+          "Cactus ń pa omi mọ́ sínú igi rẹ̀ tó sanra, ẹ̀gún rẹ̀ kì í sì í jẹ́ kí omi púpọ̀ sọnù."
+        ],
+        [
+          "Ibo ni agbára inú gbogbo ẹ̀wọ̀n oúnjẹ ti kọ́kọ́ wá?",
+          "oòrùn",
+          "òṣùpá",
+          "àwọn apẹranjẹ",
+          "Ewéko ń fi ìmọ́lẹ̀ oòrùn ṣe oúnjẹ. Ẹranko ń rí agbára nípa jíjẹ ewéko tàbí ẹranko mìíràn."
+        ],
+        [
+          "Èwo nínú àwọn ẹranko wọ̀nyí ló ń gbé inú igbó?",
+          "òòrẹ̀ (hedgehog)",
+          "ẹja yanmìyanmì",
+          "ràkúnmí",
+          "Òòrẹ̀ ń rí kòkòrò, ekòló àti ewé láti farapamọ́ sí nínú igbó. Ẹja yanmìyanmì ń gbé inú òkun, ràkúnmí sì ń gbé aṣálẹ̀."
+        ],
+        [
+          "Kí ló máa ṣẹlẹ̀ sí àwọn ẹranko inú igbó tí wọ́n bá gé gbogbo igi lulẹ̀?",
+          "wọ́n á pàdánù ilé àti oúnjẹ wọn",
+          "wọ́n á rí oúnjẹ púpọ̀ ju ti tẹ́lẹ̀ lọ",
+          "kò sí ohun tí yóò yí padà fún wọn",
+          "Igi ń fún ẹranko ní oúnjẹ, ààbò àti ibi ìtẹ́. Láìsí igi, ọ̀pọ̀ ẹranko kò ní lè gbé ibẹ̀."
+        ],
+        [
+          "Kí ló dé tí kọ̀lọ̀kọ̀lọ̀ agbègbè Àríwá fi ní irun funfun nígbà òtútù?",
+          "kí ó lè fara pamọ́ nínú yìnyín",
+          "kí ara rẹ̀ lè tutù nínú ooru",
+          "kí ó lè ríran nínú òkùnkùn",
+          "Ó ṣòro láti rí irun funfun lórí yìnyín. Èyí ń jẹ́ kí kọ̀lọ̀kọ̀lọ̀ náà yọ́ lọ bá ẹran ìdọdẹ láìjẹ́ pé wọ́n rí i."
+        ],
+        [
+          "Ẹranko wo ni o lè rí nínú kòtò omi láàárín àpáta ní etí òkun?",
+          "akàn",
+          "ọ̀kẹ́rẹ́",
+          "ràkúnmí",
+          "Omi òkun ló ń kún inú àwọn kòtò wọ̀nyí, nítorí náà ẹranko òkun bí akàn ń gbé ibẹ̀."
+        ],
+        [
+          "Ẹranko wo ló ń fi igi kéékèèké kọ́ ìsédò sí odò?",
+          "bíífà (beaver)",
+          "kìnnìún",
+          "pẹ́ńgúìnì",
+          "Bíífà ń fi eyín rẹ̀ tó lágbára gé igi kéékèèké, ó sì ń fi wọ́n sé odò kí ó lè ní adágún fún ilé rẹ̀."
+        ],
+        [
+          "Ẹ̀wọ̀n oúnjẹ: ewé → ìdin labalábá → ẹyẹ → àṣá. Ẹranko wo ló wà ní òkè pátápátá?",
+          "àṣá",
+          "ìdin labalábá",
+          "ewé",
+          "Kò sí ohun tó ń jẹ àṣá nínú ẹ̀wọ̀n yìí, nítorí náà òun ni apẹranjẹ tó ga jùlọ. Ewé ni olùpèsè."
+        ],
+        [
+          "Kí ló dé tí ọ̀pọ̀ ẹranko aṣálẹ̀ fi máa ń jáde ní alẹ́ jùlọ?",
+          "ojú ọjọ́ tutù jù ní alẹ́",
+          "iyanrìn máa ń di omi ní alẹ́",
+          "oòrùn máa ń gbóná jù ní alẹ́",
+          "Ọ̀sán aṣálẹ̀ gbóná gan-an. Ọ̀pọ̀ ẹranko ń farapamọ́ sínú ihò ní ọ̀sán, wọ́n sì ń wá oúnjẹ nínú ìtutù alẹ́."
+        ],
+        [
+          "Ibùgbé wo ló gbóná, tí ó tutù fún omi, tí ó sì kún fún igi gíga?",
+          "igbó kìjikìji",
+          "aṣálẹ̀",
+          "agbègbè Àríwá tí yìnyín bò",
+          "Òjò ń rọ̀ fẹ́rẹ̀ẹ́ lójoojúmọ́ nínú igbó kìjikìji, ó sì máa ń gbóná, nítorí náà ọ̀pọ̀lọpọ̀ ewéko àti ẹranko ń gbé ibẹ̀."
+        ],
+        [
+          "Kí ló dé tí pẹ́pẹ́yẹ àti ẹyẹ swan fi ní awọ láàárín ìka ẹsẹ̀ wọn?",
+          "kí wọ́n lè lúwẹ̀ẹ́ dáadáa nínú omi",
+          "kí wọ́n lè gun igi",
+          "kí wọ́n lè gbẹ́ ihò jíjìn sínú iyanrìn",
+          "Awọ láàárín ìka ẹsẹ̀ wọn ń ti omi púpọ̀ sẹ́yìn bí àjẹ̀, nítorí náà wọ́n ń lúwẹ̀ẹ́ dáadáa."
+        ],
+        [
+          "Ìgbín sábà máa ń farapamọ́ sábẹ́ òkúta àti igi ní ọ̀sán. Kí ló dé?",
+          "ibẹ̀ tutù, ó sì rin, nítorí náà ara wọn kò ní gbẹ",
+          "wọ́n fẹ́ yáná oòrùn",
+          "wọ́n ń wá yìnyín",
+          "Ìgbín nílò ibi tó rin. Ibòji wà lábẹ́ òkúta àti igi, nítorí náà ara wọn tó rọ̀ kò ní gbẹ."
+        ],
+        [
+          "Wélì (whale) ń gbé inú òkun. Kí ló dé tí ó fi gbọ́dọ̀ lúwẹ̀ẹ́ sókè wá sí ojú omi?",
+          "láti mí afẹ́fẹ́",
+          "láti jẹ iyanrìn",
+          "láti sùn lórí igi",
+          "Ẹranko afọ́mọlọ́mú ni wélì, kì í ṣe ẹja. Ó ní ẹ̀dọ̀fóró, ó sì ń mí afẹ́fẹ́ láti ihò kan lórí orí rẹ̀."
         ]
       ]
     }

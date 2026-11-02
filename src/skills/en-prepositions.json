@@ -3,6 +3,9 @@
   "kind": "bank",
   "subject": "words",
   "stage": 2,
+  "ages": [
+    "6-7"
+  ],
   "order": 21,
   "only": "en",
   "params": {
@@ -16,7 +19,27 @@
       "letters",
       "backpack",
       "sun-large-cloud",
-      "umbrella"
+      "umbrella",
+      "animal-owl",
+      "cocoa",
+      "shoe",
+      "letters",
+      "road",
+      "cake",
+      "bus",
+      "locked",
+      "fruit-cherries",
+      "tree",
+      "abacus",
+      "teddy",
+      "animal-rabbit",
+      "animal-honeybee",
+      "puzzle",
+      "wave",
+      "animal-hedgehog",
+      "calendar",
+      "animal-giraffe",
+      "snow"
     ],
     "bank": {
       "en": [
@@ -89,6 +112,146 @@
           "on",
           "between",
           "The umbrella is above us, so we stand under it."
+        ],
+        [
+          "The owl is sitting ___ a branch.",
+          "on",
+          "in",
+          "between",
+          "The owl is on top of the branch, so it sits on it."
+        ],
+        [
+          "The milk is ___ the fridge, so it stays cold.",
+          "in",
+          "on",
+          "between",
+          "The milk is inside the fridge, so it is in it."
+        ],
+        [
+          "The shoes are ___ the bed, so you must look down low to find them.",
+          "under",
+          "on",
+          "between",
+          "The bed is above the shoes, so they are under it."
+        ],
+        [
+          "The letter M comes ___ L and N.",
+          "between",
+          "on",
+          "under",
+          "M is in the middle of L and N, so it is between them."
+        ],
+        [
+          "The car is parked ___ the house, where you cannot see it from the street.",
+          "behind",
+          "in",
+          "on",
+          "The house blocks the view from the front, so the car is behind it."
+        ],
+        [
+          "The cake is ___ the plate.",
+          "on",
+          "under",
+          "between",
+          "The plate holds the cake up, so the cake is on it."
+        ],
+        [
+          "My little brother sits ___ me on the bus, in the seat beside me.",
+          "next to",
+          "under",
+          "in",
+          "Beside me means next to me."
+        ],
+        [
+          "The key is locked away ___ the box.",
+          "in",
+          "on",
+          "between",
+          "The key is inside the box, so it is in it."
+        ],
+        [
+          "A cherry sits ___ top of the cake.",
+          "on",
+          "under",
+          "between",
+          "The cherry is on top of the cake."
+        ],
+        [
+          "Hide ___ the tree so nobody on the path can see you.",
+          "behind",
+          "on",
+          "between",
+          "The tree is in front of you and hides you, so you are behind it."
+        ],
+        [
+          "The number 2 comes ___ 1 and 3.",
+          "between",
+          "under",
+          "on",
+          "2 is in the middle of 1 and 3, so it is between them."
+        ],
+        [
+          "The teddy sits ___ the doll on the shelf, side by side.",
+          "next to",
+          "between",
+          "under",
+          "Side by side means next to each other."
+        ],
+        [
+          "The rabbit digs a burrow deep ___ the ground, below the grass.",
+          "under",
+          "on",
+          "between",
+          "The burrow is below the grass, so it is under the ground."
+        ],
+        [
+          "The bee lands ___ a flower.",
+          "on",
+          "under",
+          "between",
+          "The bee rests on top of the flower, so it lands on it."
+        ],
+        [
+          "The ball rolled ___ the sofa, and now it is stuck below it.",
+          "under",
+          "on",
+          "between",
+          "The ball is below the sofa, so it is under it."
+        ],
+        [
+          "The goldfish swims ___ its bowl of water.",
+          "in",
+          "on",
+          "under",
+          "The goldfish is inside the bowl, so it swims in it."
+        ],
+        [
+          "The hedgehog curls up ___ a pile of leaves, hidden inside it.",
+          "in",
+          "on",
+          "next to",
+          "The hedgehog is inside the pile, so it is in it."
+        ],
+        [
+          "Wednesday comes ___ Tuesday and Thursday.",
+          "between",
+          "under",
+          "in",
+          "Wednesday is in the middle of Tuesday and Thursday, so it is between them."
+        ],
+        [
+          "The giraffe stands ___ the zebra, right beside it.",
+          "next to",
+          "between",
+          "under",
+          "Right beside means next to."
+        ],
+        [
+          "Snow lies ___ the roof of the house.",
+          "on",
+          "under",
+          "between",
+          "The snow rests on top of the roof, so it lies on it."
         ]
       ]
     }

@@ -7,7 +7,7 @@ import { WHY_TOPICS, WHYS } from './whys'
 import type { Why, WhyTopic } from './whys/types'
 import './Explore.css'
 
-/** 100 Whys: the child picks a question about something around them, thinks, then finds out why. */
+/** 500 Whys: the child picks a question about something around them, thinks, then finds out why. */
 export function Whys() {
   const T = useT()
   const lang = useLang()

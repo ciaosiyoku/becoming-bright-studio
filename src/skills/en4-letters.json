@@ -1,0 +1,274 @@
+{
+  "id": "en4-letters",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 101,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "fruit-apple",
+      "bus",
+      "cake",
+      "animal-dolphin",
+      "animal-elephant",
+      "animal-frog",
+      "fruit-grapes",
+      "house",
+      "iceskate",
+      "joystick",
+      "key",
+      "fruit-lemon",
+      "moon",
+      "notes",
+      "animal-octopus",
+      "animal-penguin",
+      "letters",
+      "animal-rabbit",
+      "sun",
+      "tree",
+      "umbrella",
+      "letters",
+      "fruit-watermelon",
+      "letters",
+      "letters",
+      "animal-zebra",
+      "animal-mouse",
+      "animal-tiger",
+      "snake",
+      "animal-horse"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which is the letter a?",
+          "a",
+          "o",
+          "e",
+          "a is for apple. It is round with a little tail."
+        ],
+        [
+          "Which is the letter b?",
+          "b",
+          "d",
+          "p",
+          "b is for bus. It has a tall line with a round tummy at the bottom on the right."
+        ],
+        [
+          "Which is the letter c?",
+          "c",
+          "e",
+          "o",
+          "c is for cake. It is a round shape with a gap on the right."
+        ],
+        [
+          "Which is the letter d?",
+          "d",
+          "b",
+          "q",
+          "d is for dolphin. It has a round tummy on the left and a tall line on the right."
+        ],
+        [
+          "Which is the letter e?",
+          "e",
+          "c",
+          "a",
+          "e is for elephant. It has a little line across the middle."
+        ],
+        [
+          "Which is the letter f?",
+          "f",
+          "t",
+          "l",
+          "f is for frog. It has a hook at the top and a line across."
+        ],
+        [
+          "Which is the letter g?",
+          "g",
+          "q",
+          "y",
+          "g is for grapes. It has a round top and a tail that curls under."
+        ],
+        [
+          "Which is the letter h?",
+          "h",
+          "n",
+          "k",
+          "h is for house. It has a tall line and a little hump."
+        ],
+        [
+          "Which is the letter i?",
+          "i",
+          "j",
+          "l",
+          "i is for ice skate. It is a short line with a dot on top."
+        ],
+        [
+          "Which is the letter j?",
+          "j",
+          "i",
+          "g",
+          "j is for joystick. It has a dot on top and a tail that hooks to the left."
+        ],
+        [
+          "Which is the letter k?",
+          "k",
+          "h",
+          "x",
+          "k is for key. It has a tall line and two little arms."
+        ],
+        [
+          "Which is the letter l?",
+          "l",
+          "i",
+          "t",
+          "l is for lemon. It is one tall straight line with no dot."
+        ],
+        [
+          "Which is the letter m?",
+          "m",
+          "n",
+          "w",
+          "m is for moon. It has two humps."
+        ],
+        [
+          "Which is the letter n?",
+          "n",
+          "m",
+          "u",
+          "n is for notes. It has one hump."
+        ],
+        [
+          "Which is the letter o?",
+          "o",
+          "c",
+          "a",
+          "o is for octopus. It is a round circle with no gap."
+        ],
+        [
+          "Which is the letter p?",
+          "p",
+          "q",
+          "b",
+          "p is for penguin. Its line goes down below and the round part is on the right."
+        ],
+        [
+          "Which is the letter q?",
+          "q",
+          "p",
+          "g",
+          "q has a round part on the left and a straight tail going down."
+        ],
+        [
+          "Which is the letter r?",
+          "r",
+          "n",
+          "h",
+          "r is for rabbit. It is a short line with a little arm at the top."
+        ],
+        [
+          "Which is the letter s?",
+          "s",
+          "z",
+          "c",
+          "s is for sun. It curves like a snake."
+        ],
+        [
+          "Which is the letter t?",
+          "t",
+          "f",
+          "l",
+          "t is for tree. It has a line across near the top and a little curl at the bottom."
+        ],
+        [
+          "Which is the letter u?",
+          "u",
+          "n",
+          "v",
+          "u is for umbrella. It is like a cup that is open at the top."
+        ],
+        [
+          "Which is the letter v?",
+          "v",
+          "w",
+          "y",
+          "v has two straight lines that meet at the bottom, like a pointy cup."
+        ],
+        [
+          "Which is the letter w?",
+          "w",
+          "m",
+          "v",
+          "w is for watermelon. It has two pointy dips at the bottom."
+        ],
+        [
+          "Which is the letter x?",
+          "x",
+          "k",
+          "y",
+          "x is made of two lines that cross in the middle."
+        ],
+        [
+          "Which is the letter y?",
+          "y",
+          "v",
+          "g",
+          "y has two short arms and a long tail going down."
+        ],
+        [
+          "Which is the letter z?",
+          "z",
+          "s",
+          "n",
+          "z is for zebra. It has a line on top, a line on the bottom and a slope between them."
+        ],
+        [
+          "Which is the big letter M?",
+          "M",
+          "W",
+          "N",
+          "M is for Mouse. Big M has two tall lines with a pointy dip in the middle."
+        ],
+        [
+          "Which is the big letter T?",
+          "T",
+          "F",
+          "I",
+          "T is for Tiger. Big T has one line across the top and one line down."
+        ],
+        [
+          "Which is the big letter S?",
+          "S",
+          "Z",
+          "C",
+          "S is for Snake. Big S bends like a snake."
+        ],
+        [
+          "Which is the big letter H?",
+          "H",
+          "K",
+          "N",
+          "H is for Horse. Big H has two tall lines joined across the middle."
+        ]
+      ]
+    }
+  },
+  "emoji": "letters",
+  "example": {
+    "i": 0,
+    "q_en": "Which is the letter a?",
+    "answer_en": "a",
+    "why_en": "a is for apple. It is round with a little tail."
+  },
+  "text": {
+    "en": {
+      "title": "Letter names",
+      "teach": "Every letter has a name and a shape. Look closely: b, d and p look alike, but each one faces a different way.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

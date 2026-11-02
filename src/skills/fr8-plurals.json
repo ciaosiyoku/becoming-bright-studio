@@ -1,0 +1,274 @@
+{
+  "id": "fr8-plurals",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 3,
+  "ages": [
+    "8-9"
+  ],
+  "order": 27,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "paws",
+      "cake",
+      "animal-horse",
+      "animal-parrot",
+      "memo",
+      "wave",
+      "animal-elephant",
+      "house",
+      "snowman",
+      "framed",
+      "animal-mouse",
+      "game",
+      "girl",
+      "gloves",
+      "framed",
+      "anatomical-heart",
+      "scarf",
+      "books",
+      "heart",
+      "memo",
+      "memo",
+      "cake",
+      "animal-horse",
+      "computer",
+      "palette",
+      "teddy",
+      "house",
+      "seedling",
+      "locked",
+      "house"
+    ],
+    "bank": {
+      "en": [
+        [
+          "un chat → des ___",
+          "chats",
+          "chatx",
+          "chates",
+          "Most nouns just add -s in the plural."
+        ],
+        [
+          "un gâteau → des ___",
+          "gâteaux",
+          "gâteaus",
+          "gâteau",
+          "Words ending in -eau add -x in the plural."
+        ],
+        [
+          "un cheval → des ___",
+          "chevaux",
+          "chevals",
+          "chevales",
+          "Most words ending in -al change to -aux."
+        ],
+        [
+          "un oiseau → des ___",
+          "oiseaux",
+          "oiseaus",
+          "oiseau",
+          "Oiseau ends in -eau, so it adds -x."
+        ],
+        [
+          "un journal → des ___",
+          "journaux",
+          "journals",
+          "journales",
+          "Journal ends in -al, so it becomes journaux."
+        ],
+        [
+          "un bateau → des ___",
+          "bateaux",
+          "bateaus",
+          "bateau",
+          "Bateau ends in -eau, so it adds -x."
+        ],
+        [
+          "un animal → des ___",
+          "animaux",
+          "animals",
+          "animales",
+          "Animal ends in -al, so it becomes animaux."
+        ],
+        [
+          "une maison → des ___",
+          "maisons",
+          "maisonx",
+          "maison",
+          "Maison is a normal noun, so it adds -s."
+        ],
+        [
+          "un chapeau → des ___",
+          "chapeaux",
+          "chapeaus",
+          "chapeau",
+          "Chapeau ends in -eau, so it adds -x."
+        ],
+        [
+          "un nez → des ___",
+          "nez",
+          "nezs",
+          "nezes",
+          "Words ending in -z do not change in the plural."
+        ],
+        [
+          "une souris → des ___",
+          "souris",
+          "souriss",
+          "sourix",
+          "Words that already end in -s stay the same."
+        ],
+        [
+          "un jeu → des ___",
+          "jeux",
+          "jeus",
+          "jeu",
+          "Words ending in -eu add -x, like jeux."
+        ],
+        [
+          "un cheveu → des ___",
+          "cheveux",
+          "cheveus",
+          "cheveu",
+          "Cheveu ends in -eu, so it adds -x."
+        ],
+        [
+          "un bras → des ___",
+          "bras",
+          "brass",
+          "braux",
+          "Bras already ends in -s, so it stays the same."
+        ],
+        [
+          "un œil → des ___",
+          "yeux",
+          "œils",
+          "œuils",
+          "Œil has a special plural: yeux."
+        ],
+        [
+          "un hôpital → des ___",
+          "hôpitaux",
+          "hôpitals",
+          "hôpitales",
+          "Hôpital ends in -al, so it becomes hôpitaux."
+        ],
+        [
+          "un manteau → des ___",
+          "manteaux",
+          "manteaus",
+          "manteau",
+          "Manteau ends in -eau, so it adds -x."
+        ],
+        [
+          "le livre → ___ livres",
+          "les",
+          "la",
+          "le",
+          "In the plural, le and la both become les."
+        ],
+        [
+          "un ami → ___ amis",
+          "des",
+          "un",
+          "une",
+          "In the plural, un and une become des."
+        ],
+        [
+          "What do words ending in -eau add in the plural?",
+          "-x",
+          "-s",
+          "-al",
+          "Words ending in -eau add -x, like bateaux."
+        ],
+        [
+          "What do most words ending in -al become in the plural?",
+          "-aux",
+          "-als",
+          "-ales",
+          "Most -al words change to -aux, like animaux."
+        ],
+        [
+          "Which one is plural?",
+          "les gâteaux",
+          "le gâteau",
+          "un gâteau",
+          "Les and the -x show that there is more than one."
+        ],
+        [
+          "Which one is plural?",
+          "des chevaux",
+          "un cheval",
+          "le cheval",
+          "Des and the ending -aux show more than one."
+        ],
+        [
+          "un bureau → des ___",
+          "bureaux",
+          "bureaus",
+          "bureau",
+          "Bureau ends in -eau, so it adds -x."
+        ],
+        [
+          "un pinceau → des ___",
+          "pinceaux",
+          "pinceaus",
+          "pinceau",
+          "Pinceau ends in -eau, so it adds -x."
+        ],
+        [
+          "un jouet → des ___",
+          "jouets",
+          "jouetx",
+          "jouetes",
+          "Jouet is a normal noun, so it adds -s."
+        ],
+        [
+          "un tapis → des ___",
+          "tapis",
+          "tapiss",
+          "tapix",
+          "Tapis already ends in -s, so it stays the same."
+        ],
+        [
+          "Which plural is correct?",
+          "des fleurs",
+          "des fleur",
+          "des fleurx",
+          "Fleur is a normal noun, so it adds -s."
+        ],
+        [
+          "Which plural is correct?",
+          "les châteaux",
+          "les châteaus",
+          "les château",
+          "Château ends in -eau, so it adds -x."
+        ],
+        [
+          "un mur → des ___",
+          "murs",
+          "murx",
+          "mures",
+          "Mur is a normal noun, so it adds -s."
+        ]
+      ]
+    }
+  },
+  "emoji": "cake",
+  "example": {
+    "i": 0,
+    "q_en": "un chat → des ___",
+    "answer_en": "chats",
+    "why_en": "Most nouns just add -s in the plural."
+  },
+  "text": {
+    "en": {
+      "title": "French plurals",
+      "teach": "Most French nouns add -s in the plural. Words ending in -eau add -x, and most words ending in -al change to -aux: un gâteau, des gâteaux; un cheval, des chevaux.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

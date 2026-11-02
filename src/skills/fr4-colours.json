@@ -1,0 +1,274 @@
+{
+  "id": "fr4-colours",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 2,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "fruit-strawberry",
+      "palette",
+      "fruit-banana",
+      "palette",
+      "animal-frog",
+      "palette",
+      "sun-small-cloud",
+      "palette",
+      "tangerine",
+      "palette",
+      "animal-flamingo",
+      "fruit-grapes",
+      "palette",
+      "snow",
+      "palette",
+      "palette",
+      "animal-panda",
+      "animal-bear",
+      "palette",
+      "animal-elephant",
+      "palette",
+      "fruit-lemon",
+      "tree",
+      "fruit-cherries",
+      "fruit-blueberries",
+      "sun",
+      "palette",
+      "snowman",
+      "rain",
+      "cocoa"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What colour is this strawberry in French?",
+          "rouge",
+          "bleu",
+          "vert",
+          "Strawberries are red. Red in French is ‘rouge’."
+        ],
+        [
+          "What does ‘rouge’ mean?",
+          "red",
+          "blue",
+          "yellow",
+          "‘Rouge’ means red."
+        ],
+        [
+          "What colour is the banana in French?",
+          "jaune",
+          "noir",
+          "rose",
+          "A ripe banana is yellow. Yellow in French is ‘jaune’."
+        ],
+        [
+          "What does ‘jaune’ mean?",
+          "yellow",
+          "green",
+          "white",
+          "‘Jaune’ means yellow."
+        ],
+        [
+          "What colour is the frog in French?",
+          "vert",
+          "rouge",
+          "blanc",
+          "This frog is green. Green in French is ‘vert’."
+        ],
+        [
+          "What does ‘vert’ mean?",
+          "green",
+          "red",
+          "black",
+          "‘Vert’ means green."
+        ],
+        [
+          "What colour is the sky on a sunny day, in French?",
+          "bleu",
+          "noir",
+          "rose",
+          "A sunny sky is blue. Blue in French is ‘bleu’."
+        ],
+        [
+          "What does ‘bleu’ mean?",
+          "blue",
+          "yellow",
+          "pink",
+          "‘Bleu’ means blue."
+        ],
+        [
+          "What colour is this tangerine in French?",
+          "orange",
+          "bleu",
+          "vert",
+          "It is orange. ‘Orange’ is the same word in French!"
+        ],
+        [
+          "What does ‘rose’ mean when it is a colour?",
+          "pink",
+          "grey",
+          "green",
+          "As a colour, ‘rose’ means pink."
+        ],
+        [
+          "What colour is the flamingo in French?",
+          "rose",
+          "noir",
+          "vert",
+          "Flamingos are pink. Pink in French is ‘rose’."
+        ],
+        [
+          "What colour are these grapes in French?",
+          "violet",
+          "jaune",
+          "blanc",
+          "These grapes are purple. Purple in French is ‘violet’."
+        ],
+        [
+          "What does ‘violet’ mean?",
+          "purple",
+          "orange",
+          "brown",
+          "‘Violet’ means purple."
+        ],
+        [
+          "What colour is snow in French?",
+          "blanc",
+          "noir",
+          "rouge",
+          "Snow is white. White in French is ‘blanc’."
+        ],
+        [
+          "What does ‘blanc’ mean?",
+          "white",
+          "black",
+          "blue",
+          "‘Blanc’ means white."
+        ],
+        [
+          "What does ‘noir’ mean?",
+          "black",
+          "white",
+          "red",
+          "‘Noir’ means black."
+        ],
+        [
+          "A panda has two colours. What are they in French?",
+          "noir et blanc",
+          "rouge et vert",
+          "jaune et bleu",
+          "A panda is black and white: ‘noir et blanc’."
+        ],
+        [
+          "What colour is the bear in French?",
+          "marron",
+          "bleu",
+          "rose",
+          "This bear is brown. Brown in French is ‘marron’."
+        ],
+        [
+          "What does ‘marron’ mean?",
+          "brown",
+          "purple",
+          "grey",
+          "‘Marron’ means brown."
+        ],
+        [
+          "What colour is the elephant in French?",
+          "gris",
+          "jaune",
+          "vert",
+          "Elephants are grey. Grey in French is ‘gris’."
+        ],
+        [
+          "What does ‘gris’ mean?",
+          "grey",
+          "pink",
+          "orange",
+          "‘Gris’ means grey."
+        ],
+        [
+          "What colour is a lemon in French?",
+          "jaune",
+          "violet",
+          "noir",
+          "A lemon is yellow: ‘jaune’."
+        ],
+        [
+          "What colour are the leaves on this tree, in French?",
+          "vert",
+          "rose",
+          "blanc",
+          "The leaves are green: ‘vert’."
+        ],
+        [
+          "What colour are cherries in French?",
+          "rouge",
+          "gris",
+          "bleu",
+          "Cherries are red: ‘rouge’."
+        ],
+        [
+          "What colour are blueberries in French?",
+          "bleu",
+          "jaune",
+          "orange",
+          "Blueberries are blue: ‘bleu’."
+        ],
+        [
+          "How do you say ‘yellow’ in French?",
+          "jaune",
+          "vert",
+          "gris",
+          "‘Yellow’ in French is ‘jaune’. The sun looks jaune."
+        ],
+        [
+          "How do you say ‘black’ in French?",
+          "noir",
+          "rose",
+          "jaune",
+          "‘Black’ in French is ‘noir’."
+        ],
+        [
+          "How do you say ‘white’ in French?",
+          "blanc",
+          "jaune",
+          "marron",
+          "‘White’ in French is ‘blanc’. A snowman is blanc."
+        ],
+        [
+          "What colour are rain clouds, in French?",
+          "gris",
+          "rose",
+          "jaune",
+          "Rain clouds are grey: ‘gris’."
+        ],
+        [
+          "What colour is hot chocolate, in French?",
+          "marron",
+          "vert",
+          "bleu",
+          "Hot chocolate is brown: ‘marron’."
+        ]
+      ]
+    }
+  },
+  "emoji": "palette",
+  "example": {
+    "i": 0,
+    "q_en": "What colour is this strawberry in French?",
+    "answer_en": "rouge",
+    "why_en": "Strawberries are red. Red in French is ‘rouge’."
+  },
+  "text": {
+    "en": {
+      "title": "Colours in French",
+      "teach": "Colours in French: ‘rouge’ is red, ‘bleu’ is blue, ‘jaune’ is yellow and ‘vert’ is green. A strawberry is rouge!",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}
