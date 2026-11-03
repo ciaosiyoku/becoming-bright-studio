@@ -75,6 +75,8 @@ export const yo: Strings = {
     bestStreak: (n: number) => `Èyí tó ga jù: ${n}`,
     streakStart: 'Ṣe ẹ̀kọ́ kan lónìí láti bẹ̀rẹ̀ ìtẹ̀léra!',
     streakKeep: 'Ṣe ẹ̀kọ́ kan lónìí kí ìtẹ̀léra rẹ má bàá já!',
+    lastWeek: 'Ọjọ́ méje sẹ́yìn',
+    continueWith: (skill: string) => `Tẹ̀síwájú: ${skill}`,
   },
   install: {
     title: 'Fi Becoming Bright Studio sórí ẹ̀rọ',

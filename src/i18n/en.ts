@@ -72,6 +72,8 @@ export const en = {
     bestStreak: (n: number) => `Best: ${n}`,
     streakStart: 'Do a lesson today to start a streak!',
     streakKeep: 'Do a lesson today to keep your streak!',
+    lastWeek: 'The last 7 days',
+    continueWith: (skill: string) => `Continue: ${skill}`,
   },
   install: {
     title: 'Install Becoming Bright Studio',

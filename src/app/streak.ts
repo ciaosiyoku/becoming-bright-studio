@@ -31,3 +31,10 @@ export function streaks(child: Child, today: string): { current: number; best: n
   }
   return { current, best: Math.max(best, current), today: learnt(child, today) }
 }
+
+/** The last `n` days up to today, oldest first, each with whether it had a lesson (the streak's week row). */
+export function lastDays(child: Child, today: string, n = 7): { day: string; done: boolean }[] {
+  const days = [today]
+  while (days.length < n) days.unshift(dayBefore(days[0]))
+  return days.map((day) => ({ day, done: learnt(child, day) }))
+}

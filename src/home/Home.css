@@ -85,3 +85,53 @@ button.round {
 .streak-text small {
   color: var(--muted);
 }
+.streak {
+  flex-wrap: wrap;
+}
+/* The last 7 days: a dot per day, ticked when it had a lesson; today outlined. */
+.streak-week {
+  display: flex;
+  gap: 0.35rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.streak-week li {
+  display: grid;
+  justify-items: center;
+  gap: 0.15rem;
+}
+.streak-dot {
+  display: grid;
+  place-items: center;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 50%;
+  background: var(--sunken);
+  color: #fff;
+  font-weight: 700;
+}
+.streak-week li.done .streak-dot {
+  background: var(--amber, #e08a1e);
+}
+.streak-week li.today .streak-dot {
+  outline: 3px solid var(--accent);
+}
+.streak-week small {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+.continue {
+  justify-self: start;
+  margin: 0.2rem 0 0.8rem;
+  gap: 0.5rem;
+}
+.streak-text {
+  flex: 1 1 10rem;
+}
+@media (max-width: 600px) {
+  .streak-week {
+    flex-basis: 100%;
+    justify-content: space-between;
+  }
+}
