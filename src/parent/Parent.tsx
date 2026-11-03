@@ -14,7 +14,7 @@ import { NO_LOCK } from './pin'
 import { LanguagePicker } from '@/shared/LanguagePicker'
 import { speak, useVoiceChoice, type VoiceGender } from '@/shared/speak'
 import { AgePicker, ChildForm } from '@/setup/Setup'
-import { ChoosePin } from './PinScreens'
+import { ChoosePin, RecoveryDetails } from './PinScreens'
 import { ReportCard } from './ReportCard'
 import './Parent.css'
 
@@ -271,25 +271,41 @@ function UpdateCard() {
 /** Changing the PIN (with a new recovery code, shown once). */
 function PinCard() {
   const T = useT()
-  const { update } = useStore()
+  const { state, update } = useStore()
   const [changing, setChanging] = useState(false)
-  const [done, setDone] = useState(false)
+  const [details, setDetails] = useState(false)
+  const [done, setDone] = useState('')
+  const missing = !state.family.recoveryEmail || !state.family.secretWord
   return (
-    <section className="card parent-card">
+    <section className={`card parent-card ${missing ? 'due' : ''}`}>
       <h2>{T.parent.security}</h2>
+      {missing && <p>{T.recovery.detailsMissing}</p>}
       <div className="row">
         <button className="secondary" onClick={() => setChanging(true)}>
           {T.parent.changePin}
         </button>
+        <button className={missing ? '' : 'secondary'} onClick={() => setDetails(true)}>
+          {T.recovery.detailsChange}
+        </button>
       </div>
-      {done && <p className="pill">{T.parent.pinChanged}</p>}
+      {done && <p className="pill">{done}</p>}
+      {details && (
+        <RecoveryDetails
+          onClose={() => setDetails(false)}
+          onDone={(recoveryEmail, secretWord) => {
+            update((s) => ({ ...s, family: { ...s.family, recoveryEmail, secretWord } }))
+            setDetails(false)
+            setDone(T.recovery.detailsSaved)
+          }}
+        />
+      )}
       {changing && (
         <ChoosePin
           onClose={() => setChanging(false)}
           onDone={(pin, recovery) => {
             update((s) => ({ ...s, family: { ...s.family, pin, recovery, pinLock: NO_LOCK } }))
             setChanging(false)
-            setDone(true)
+            setDone(T.parent.pinChanged)
           }}
         />
       )}

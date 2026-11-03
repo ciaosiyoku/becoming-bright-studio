@@ -31,8 +31,9 @@ export async function pinMatches(pin: string, stored: PinHash | null): Promise<b
 
 // ---- A forgotten PIN ----
 // There is no server, so no reset e-mail, and no "reset after 24 hours" (a child can wait 24 hours too). Two ways:
-// 1. The recovery code: shown once at setup, to write down or print. Stored only as a hash, like the PIN.
-// 2. Without it: start again from a backup file. Backups never hold the PIN, so the parent then chooses a new one.
+// 1. The recovery code (shown once at setup, to write down or print) together with the grown-up's email address or
+//    secret word. All three are stored only as hashes, like the PIN; the email is never sent anywhere.
+// 2. Without them: start again from a backup file. Backups never hold the PIN, so the parent then chooses a new one.
 
 /** Letters and digits that cannot be mixed up when read from paper (no 0/O, 1/I/L). */
 const CODE_ALPHABET = '23456789ABCDEFGHJKMNPQRSTUVWXYZ'
@@ -43,6 +44,15 @@ export function newRecoveryCode(): string {
   const chars = [...n].map((b) => CODE_ALPHABET[b % CODE_ALPHABET.length]).join('')
   return `${chars.slice(0, 4)}-${chars.slice(4, 8)}-${chars.slice(8)}`
 }
+
+/** An email address or secret word as typed, made comparable: no spaces around, small letters, single spaces. */
+export const normalizeAnswer = (text: string) => text.trim().toLowerCase().replace(/\s+/g, ' ')
+
+/** A plausible email address (something@something.something). */
+export const emailOk = (email: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim())
+
+/** A secret word: at least 3 letters. */
+export const SECRET_MIN = 3
 
 /** The code as typed, made comparable: capitals, without spaces or dashes. */
 export const normalizeCode = (code: string) => code.toUpperCase().replace(/[^0-9A-Z]/g, '')

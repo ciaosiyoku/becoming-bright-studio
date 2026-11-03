@@ -1,5 +1,7 @@
 import { describe, expect, it } from 'vitest'
-import { afterWrongPin, hashPin, lockSecondsLeft, makePin, NO_LOCK, newRecoveryCode, normalizeCode, pinMatches } from './pin'
+import { afterWrongPin, emailOk, hashPin, lockSecondsLeft, makePin, NO_LOCK, newRecoveryCode, normalizeAnswer, normalizeCode, pinMatches } from './pin'
+import { makeBackup } from '@/data/backup'
+import { emptyState } from '@/app/state'
 
 describe('parent PIN', () => {
   it('stores a salted hash and checks a PIN against it', async () => {
@@ -43,5 +45,26 @@ describe('wrong PIN tries', () => {
   it('keeps a running wait while more tries are counted', () => {
     const lock = afterWrongPin(tries(5, 1000), 2000)
     expect(lock).toEqual({ wrong: 6, until: 31_000 })
+  })
+})
+
+describe('email address and secret word', () => {
+  it('match however they are typed (capitals, spaces), and only the right one', async () => {
+    const stored = await makePin(normalizeAnswer('Parent@Example.com'))
+    expect(await pinMatches(normalizeAnswer('  parent@example.COM '), stored)).toBe(true)
+    expect(await pinMatches(normalizeAnswer('other@example.com'), stored)).toBe(false)
+    const word = await makePin(normalizeAnswer('Blue  Giraffe'))
+    expect(await pinMatches(normalizeAnswer('blue giraffe'), word)).toBe(true)
+  })
+  it('accept only something that looks like an email address', () => {
+    expect(['a@b.co', ' name.surname@mail.example.org '].map(emailOk)).toEqual([true, true])
+    expect(['a@b', 'ab.co', 'a b@c.de', ''].map(emailOk)).toEqual([false, false, false, false])
+  })
+  it('are never written into a backup file', async () => {
+    const state = emptyState()
+    state.family.recoveryEmail = await makePin('parent@example.com')
+    state.family.secretWord = await makePin('giraffe')
+    const file = JSON.parse(makeBackup(state))
+    expect([file.state.family.recoveryEmail, file.state.family.secretWord]).toEqual([null, null])
   })
 })

@@ -72,8 +72,12 @@ the day after a set number of passed lessons (2 at first). With Earn first, a pa
 - **One screen, behind a PIN:** a **learning report** per child (today, 7 days, 30 days: lessons, passed, checks
   right, skills learnt, time per area, questions to practise again, Send by email), children, Off / Open / Earn first
   for every item, minutes per lesson and per day, language, voice, backup, the PIN, and **Update now**.
-- **PIN:** stored as a salted hash. A **recovery code** is shown once at setup, with a Print button. There is no
-  24-hour reset: without the code, the way back is starting again from a backup (backups never hold the PIN).
+- **PIN:** stored as a salted hash. A **recovery code** is shown once at setup, with a Print button, and the grown-up
+  adds an **email address and a secret word**. A forgotten PIN needs the code plus the email or the secret word (all
+  stored only as hashes; nothing is sent). There is no 24-hour reset: without them, the way back is starting again
+  from a backup (backups never hold the PIN, the code, the email or the secret word).
+- **Streaks:** days in a row with a lesson, and the best streak, at the top of the Learn tab. Stories heard and Whys
+  read get a tick.
 - **Backup** in one file, with an automatic reminder once a week.
 - **Several children** on one device: each with a name, a colour and their own progress. One PIN for the family.
 - **Updates:** the app checks for a new version once a day and loads it between activities, never in the middle

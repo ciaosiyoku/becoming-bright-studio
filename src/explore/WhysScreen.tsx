@@ -1,4 +1,6 @@
-import { ArrowLeft, ArrowRight, Volume2 } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Check, Volume2 } from 'lucide-react'
+import { activeChild, updateChild, withId } from '@/app/state'
+import { useStore } from '@/app/store'
 import { useEffect, useState } from 'react'
 import { useLang, useT } from '@/i18n'
 import { Emoji } from '@/shared/Emoji'
@@ -13,6 +15,8 @@ export function Whys() {
   const lang = useLang()
   const [topic, setTopic] = useState<WhyTopic | null>(null)
   const [open, setOpen] = useState<number | null>(null)
+  const { state } = useStore()
+  const read = new Set(activeChild(state)?.whysRead ?? [])
   const list = WHYS.filter((w) => !topic || w.topic === topic)
   if (open !== null && list[open]) return <WhyCard key={list[open].id} why={list[open]} onBack={() => setOpen(null)} onNext={() => setOpen((open + 1) % list.length)} />
   return (
@@ -21,6 +25,7 @@ export function Whys() {
         <button role="radio" aria-checked={topic === null} className={topic === null ? '' : 'secondary'} onClick={() => setTopic(null)}>
           {T.whys.all} ({WHYS.length})
         </button>
+        <span className="pill">{T.whys.readOf(list.filter((w) => read.has(w.id)).length, list.length)}</span>
         {WHY_TOPICS.map((t) => (
           <button key={t} role="radio" aria-checked={topic === t} className={topic === t ? '' : 'secondary'} onClick={() => setTopic(t)}>
             {T.whys.topics[t]}
@@ -29,8 +34,9 @@ export function Whys() {
       </div>
       <div className="why-list">
         {list.map((w, i) => (
-          <button key={w.id} className="card" onClick={() => setOpen(i)}>
-            <Emoji name={w.emoji} size={40} /> {w[lang][0]}
+          <button key={w.id} className={`card ${read.has(w.id) ? 'read' : ''}`} onClick={() => setOpen(i)}>
+            <Emoji name={w.emoji} size={40} /> <span className="why-q">{w[lang][0]}</span>
+            {read.has(w.id) && <Check className="why-tick" aria-label={T.whys.read} />}
           </button>
         ))}
       </div>
@@ -43,6 +49,8 @@ function WhyCard({ why, onBack, onNext }: { why: Why; onBack: () => void; onNext
   const T = useT()
   const lang = useLang()
   const speaks = useCanSpeak(lang)
+  const { state, update } = useStore()
+  const child = activeChild(state)
   const [open, setOpen] = useState(false)
   const [question, answer] = why[lang]
   useEffect(() => {
@@ -51,6 +59,7 @@ function WhyCard({ why, onBack, onNext }: { why: Why; onBack: () => void; onNext
   }, [question, lang])
   const show = () => {
     setOpen(true)
+    if (child) update((s) => updateChild(s, child.id, (c) => ({ ...c, whysRead: withId(c.whysRead, why.id) })))
     speak(answer, lang)
   }
   return (

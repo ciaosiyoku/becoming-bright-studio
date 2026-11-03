@@ -43,6 +43,9 @@ export interface Child {
   misses: Miss[]
   /** 4 to 12, chosen by a grown-up: the child sees the skills for their age (skills/ages.ts). null: not set yet, every skill. */
   age: number | null
+  /** Stories listened to the end, and whys whose answer was opened (ids): ticked in the lists. */
+  heard: string[]
+  whysRead: string[]
   /** Their level in each thinking game (games/levels.ts). */
   levels: Record<string, number>
   /** The skill the child chose to learn (the Learn tab shows only this one). */
@@ -66,6 +69,9 @@ export interface Family {
   pin: PinHash | null
   /** The recovery code for a forgotten PIN, stored only as a hash. */
   recovery: PinHash | null
+  /** The grown-up's email address and secret word, as hashes: one of them is needed with the recovery code. */
+  recoveryEmail: PinHash | null
+  secretWord: PinHash | null
   /** Wrong PIN tries and the wait they started (parent/pin.ts). */
   pinLock: { wrong: number; until: number }
   /** Each game, radio, story, video and explore item: off, open, or "earn first" (app/items.ts). */
@@ -97,12 +103,12 @@ export const COLOURS = ['#5b6cf0', '#e2557e', '#178c84', '#e08a1e', '#8b5cf6', '
 /** Numbers and words always open; patterns, science and French opened by passing lessons first. */
 export const defaultSubjects = (): Record<Subject, Access> => ({ numbers: 'open', words: 'open', patterns: 'earn', science: 'earn', french: 'earn' })
 
-export const emptyFamily = (): Family => ({ pin: null, recovery: null, pinLock: { wrong: 0, until: 0 }, access: defaultAccess(), subjects: defaultSubjects(), rewards: { minutesPerLesson: 10, maxPerDay: 45, lessonsToOpen: 2 }, voice: 'female' })
+export const emptyFamily = (): Family => ({ pin: null, recovery: null, recoveryEmail: null, secretWord: null, pinLock: { wrong: 0, until: 0 }, access: defaultAccess(), subjects: defaultSubjects(), rewards: { minutesPerLesson: 10, maxPerDay: 45, lessonsToOpen: 2 }, voice: 'female' })
 
 export const emptyState = (): AppState => ({ version: STATE_VERSION, family: emptyFamily(), children: [], activeChild: null, lang: null, lastBackupAt: null, updatedAt: 0 })
 
 export function newChild(name: string, colour: string, id: string = crypto.randomUUID(), age: number | null = null): Child {
-  return { id, name: name.trim(), colour, age, levels: {}, skills: {}, misses: [], current: null, passes: {}, lessons: {}, earnedUsed: {}, usage: {} }
+  return { id, name: name.trim(), colour, age, heard: [], whysRead: [], levels: {}, skills: {}, misses: [], current: null, passes: {}, lessons: {}, earnedUsed: {}, usage: {} }
 }
 
 const isObject = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v)
@@ -142,3 +148,6 @@ export function isoDate(d: Date): string {
   const p = (n: number) => String(n).padStart(2, '0')
   return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`
 }
+
+/** A list of ids with one more (unchanged when it is already there). Pure. */
+export const withId = (ids: readonly string[] | undefined, id: string): string[] => (ids?.includes(id) ? [...ids] : [...(ids ?? []), id])

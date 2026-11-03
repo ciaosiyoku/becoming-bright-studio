@@ -3,7 +3,8 @@ import { addChild, COLOURS, newChild } from '@/app/state'
 import { AGES } from '@/skills/ages'
 import { useStore } from '@/app/store'
 import { useT } from '@/i18n'
-import { ChoosePin } from '@/parent/PinScreens'
+import type { PinHash } from '@/parent/pin'
+import { ChoosePin, RecoveryDetails } from '@/parent/PinScreens'
 import { LanguagePicker } from '@/shared/LanguagePicker'
 import './Setup.css'
 
@@ -12,6 +13,7 @@ export function Setup() {
   const T = useT()
   const { update } = useStore()
   const [child, setChild] = useState<ChildInfo | null>(null)
+  const [pins, setPins] = useState<{ pin: PinHash; recovery: PinHash } | null>(null)
   if (!child)
     return (
       <main className="setup">
@@ -25,15 +27,18 @@ export function Setup() {
         </section>
       </main>
     )
+  if (!pins)
+    return (
+      <main className="setup">
+        <ChoosePin title={T.setup.pinTitle} note={T.setup.pinText} onClose={() => setChild(null)} onDone={(pin, recovery) => setPins({ pin, recovery })} />
+      </main>
+    )
   return (
     <main className="setup">
-      <ChoosePin
-        title={T.setup.pinTitle}
-        note={T.setup.pinText}
-        onClose={() => setChild(null)}
-        onDone={(pin, recovery) => {
+      <RecoveryDetails
+        onDone={(recoveryEmail, secretWord) => {
           const c = newChild(child.name, child.colour, undefined, child.age)
-          update((s) => addChild({ ...s, family: { ...s.family, pin, recovery } }, c))
+          update((s) => addChild({ ...s, family: { ...s.family, ...pins, recoveryEmail, secretWord } }, c))
         }}
       />
     </main>
@@ -43,9 +48,14 @@ export function Setup() {
 /** After starting again from a backup (which holds no PIN): choose a new PIN before anything else. */
 export function NeedPin() {
   const { update } = useStore()
+  const [pins, setPins] = useState<{ pin: PinHash; recovery: PinHash } | null>(null)
   return (
     <main className="setup">
-      <ChoosePin onDone={(pin, recovery) => update((s) => ({ ...s, family: { ...s.family, pin, recovery } }))} />
+      {pins ? (
+        <RecoveryDetails onDone={(recoveryEmail, secretWord) => update((s) => ({ ...s, family: { ...s.family, ...pins, recoveryEmail, secretWord } }))} />
+      ) : (
+        <ChoosePin onDone={(pin, recovery) => setPins({ pin, recovery })} />
+      )}
     </main>
   )
 }

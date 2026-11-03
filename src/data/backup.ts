@@ -28,7 +28,7 @@ export class BackupError extends Error {
 
 /** The backup file's text. */
 export function makeBackup(state: AppState, now = new Date()): string {
-  const family = { ...state.family, pin: null, recovery: null, pinLock: { wrong: 0, until: 0 } }
+  const family = { ...state.family, pin: null, recovery: null, recoveryEmail: null, secretWord: null, pinLock: { wrong: 0, until: 0 } }
   const file: BackupFile = { app: BACKUP_APP, format: BACKUP_FORMAT, savedAt: now.toISOString(), state: { ...state, family } }
   return JSON.stringify(file, null, 1)
 }

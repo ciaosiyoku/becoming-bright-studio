@@ -56,8 +56,9 @@ One parent screen, behind a PIN:
   radio station (Fun Kids) plays short adverts, and the app says so.
 - **No "this locks the iPad".** It's a web app: it works in the browser and doesn't block other apps. Keeping a
   child in one app is a device setting (Guided Access, app pinning), not something this app can do.
-- **No 24-hour PIN reset.** A lost PIN is recovered with the recovery code shown at setup, or by starting again
-  from a backup.
+- **No 24-hour PIN reset.** A lost PIN is recovered with the recovery code shown at setup **together with the
+  grown-up's email address or secret word** (owner's decision, 2 Nov 2026), or by starting again from a backup. The
+  email and secret word are stored only as salted hashes; nothing is ever emailed (there is no server).
 - **No language that a native speaker hasn't read aloud,** sentence by sentence. *Exception, by the owner's
   decision (27 Oct 2026): version 1 ships English, Deutsch, Français and Yorùbá. German, French and Yoruba are
   machine-checked for completeness but have not yet been read aloud by native speakers. That reading is the next

@@ -1,6 +1,7 @@
 """Builds src/media/storyList.ts: public-domain LibriVox recordings for each age range, from the Internet Archive.
 
-Each collection lists the tracks to leave out (introductions, and stories not suitable for children today: a racial
+Every story stands alone (no chapters of a novel, no story in two parts, no track with several stories). Each
+collection lists the tracks to leave out (introductions, parts of a longer story, and stories not suitable for children today: a racial
 slur, death as a character, religious stories, the most graphic scenes, dated portrayals). Run again to refresh lengths:
     python scripts/make-stories.py
 """
@@ -8,18 +9,16 @@ import html, json, os, re, urllib.request
 
 COLLECTIONS = [
     # id, archive.org item, band, language, emoji, title, author, track numbers to leave out (1-based)
-    ("aesop", "aesopforchildren_1308_librivox", "4-5", "en", "animal-fox", "The Aesop for Children", "Aesop", [9]),
     ("potter", "thetaleofpeterrabbitandothers_2008_librivox", "4-5", "en", "animal-rabbit", "The Tale of Peter Rabbit and Others", "Beatrix Potter", []),
     ("velveteen", "velveteen_rabbit_librivox", "4-5", "en", "teddy", "The Velveteen Rabbit", "Margery Williams", []),
     ("abc-contes", "abcpetitscontes_1609_librivox", "4-5", "fr", "letters", "ABC : Petits Contes", "Jules Lemaître", [1]),
     ("just-so", "just_so_stories_1004_librivox", "6-7", "en", "animal-elephant", "Just So Stories", "Rudyard Kipling", [4]),
     ("west-wind", "motherwestwind_why_0907_librivox", "6-7", "en", "animal-chipmunk", "Mother West Wind ‘Why’ Stories", "Thornton W. Burgess", []),
-    ("wiggily", "unclewiggilyonthefarm_1911_librivox", "6-7", "en", "animal-rabbit", "Uncle Wiggily on the Farm", "Howard R. Garis", []),
+    ("wiggily", "unclewiggilyonthefarm_1911_librivox", "4-5", "en", "animal-rabbit", "Uncle Wiggily on the Farm", "Howard R. Garis", []),
     ("grimm-de", "maerchen_grimm_1406_librivox", "6-7", "de", "animal-frog", "Ausgewählte Märchen der Brüder Grimm", "Jacob und Wilhelm Grimm", [7, 13, 22]),
-    ("perrault", "contes_temps_passe_librivox", "6-7", "fr", "shoe", "Contes du temps passé", "Charles Perrault", [1, 4]),
+    ("perrault", "contes_temps_passe_librivox", "6-7", "fr", "shoe", "Contes du temps passé", "Charles Perrault", [1, 4, 10, 11]),
     ("fifty-famous", "fifty_famous_stories_lc_librivox", "8-9", "en", "scroll", "Fifty Famous Stories Retold", "James Baldwin", [1, 18]),
-    ("jungle-book", "jungle_book_mh_0808_librivox", "8-9", "en", "animal-tiger", "The Jungle Book", "Rudyard Kipling", []),
-    ("willows", "wind_in_the_willows_collab_librivox", "8-9", "en", "animal-otter", "The Wind in the Willows", "Kenneth Grahame", [7]),
+    ("jungle-book", "jungle_book_mh_0808_librivox", "8-9", "en", "animal-tiger", "The Jungle Book", "Rudyard Kipling", [1, 2, 3, 4, 5, 6, 7, 8]),
     ("andersen-de", "maerchen_andersen_1004_librivox", "8-9", "de", "animal-swan", "Märchen", "Hans Christian Andersen",
      [3, 5, 8, 11, 12, 13, 14, 15, 17, 21, 22, 23, 24, 25, 27, 29] + list(range(30, 60))),
     ("shakespeare", "tales_shakespeare_librivox", "10-12", "en", "openbook", "Tales from Shakespeare", "Charles and Mary Lamb", [1]),

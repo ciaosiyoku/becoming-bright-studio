@@ -2,6 +2,7 @@ import { ArrowLeft } from 'lucide-react'
 import { useState } from 'react'
 import { subjectState } from '@/app/access'
 import { activeChild, updateChild } from '@/app/state'
+import { streaks } from '@/app/streak'
 import { useToday } from '@/shared/useToday'
 import { useStore } from '@/app/store'
 import { backupDue } from '@/data/backup'
@@ -26,6 +27,7 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
   const forChild = (subject: Subject) => bySubject(subject).filter((def) => suitsAge(def, child.age))
   const [now] = useState(Date.now)
   const today = useToday()
+  const streak = streaks(child, today)
   const stateOf = (subject: Subject) => subjectState(state.family, child, subject, today)
   const current = child.current ? skillById(child.current) : undefined
   const [choosing, setChoosing] = useState<Subject | 'subjects' | null>(current ? null : 'subjects')
@@ -36,6 +38,14 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
 
   return (
     <main className="page">
+      <section className={`card streak ${streak.today ? 'done' : ''}`} aria-live="polite">
+        <Emoji name={streak.current > 0 ? 'fire' : 'seedling'} size={44} />
+        <span className="streak-text">
+          <b>{streak.current > 0 ? T.home.streak(streak.current) : T.home.streakStart}</b>
+          {streak.current > 0 && !streak.today && <small>{T.home.streakKeep}</small>}
+        </span>
+        {streak.best > 0 && <span className="pill">{T.home.bestStreak(streak.best)}</span>}
+      </section>
       {backupDue(state, now) && (
         <button className="backup-reminder secondary" onClick={onParent}>
           <Emoji name="memo" size={32} /> {T.home.backupDue}

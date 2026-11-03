@@ -3,7 +3,7 @@ import { type ChangeEvent, type ReactNode, useRef, useState } from 'react'
 import { useStore } from '@/app/store'
 import { BackupError, parseBackup } from '@/data/backup'
 import { useT } from '@/i18n'
-import { afterWrongPin, lockSecondsLeft, makePin, NO_LOCK, newRecoveryCode, normalizeCode, PIN_LENGTH, pinMatches, type PinHash } from './pin'
+import { afterWrongPin, emailOk, lockSecondsLeft, makePin, NO_LOCK, newRecoveryCode, normalizeAnswer, normalizeCode, PIN_LENGTH, pinMatches, type PinHash, SECRET_MIN } from './pin'
 import './PinScreens.css'
 
 /** A big number pad for 4 digits; calls onPin when the 4th digit is typed. */
@@ -95,6 +95,45 @@ export function RecoveryCode({ code, onDone }: { code: string; onDone: () => voi
   )
 }
 
+/** The grown-up's email address and secret word, both stored only as hashes; one of them is asked for, together with the recovery code, when the PIN is forgotten. */
+export function RecoveryDetails({ onDone, onClose }: { onDone: (email: PinHash, word: PinHash) => void; onClose?: () => void }) {
+  const T = useT()
+  const [email, setEmail] = useState('')
+  const [word, setWord] = useState('')
+  const [busy, setBusy] = useState(false)
+  const ok = emailOk(email) && normalizeAnswer(word).length >= SECRET_MIN
+  const save = async () => {
+    setBusy(true)
+    const [e, w] = await Promise.all([makePin(normalizeAnswer(email)), makePin(normalizeAnswer(word))])
+    onDone(e, w)
+  }
+  return (
+    <div className="pin-backdrop">
+      <section className="card pin-card forgot">
+        {onClose && (
+          <button className="secondary pin-close" onClick={onClose} aria-label={T.common.cancel}>
+            <X />
+          </button>
+        )}
+        <h2>{T.recovery.detailsTitle}</h2>
+        <p className="muted">{T.recovery.detailsText}</p>
+        <label className="field">
+          <span>{T.recovery.emailLabel}</span>
+          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} autoComplete="email" />
+        </label>
+        <label className="field">
+          <span>{T.recovery.wordLabel}</span>
+          <input value={word} onChange={(e) => setWord(e.target.value)} autoComplete="off" />
+        </label>
+        <p className="muted">{T.recovery.wordNote}</p>
+        <button onClick={() => void save()} disabled={!ok || busy}>
+          {T.recovery.detailsSave}
+        </button>
+      </section>
+    </div>
+  )
+}
+
 /**
  * Asks for the PIN before the grown-ups' screen. Wrong tries are kept in the state, and each block of 5 waits
  * longer (pin.ts). "Forgot the PIN?": the recovery code, or starting again from a backup. No 24-hour reset.
@@ -156,11 +195,18 @@ function Forgot({ onCode, onBack, onClose }: { onCode: () => void; onBack: () =>
   const T = useT()
   const { state, replace } = useStore()
   const [typed, setTyped] = useState('')
+  const [answer, setAnswer] = useState('')
   const [error, setError] = useState('')
   const file = useRef<HTMLInputElement>(null)
+  const { recovery, recoveryEmail, secretWord } = state.family
+  // Families set up before the email and secret word existed need only the code.
+  const needsAnswer = Boolean(recoveryEmail || secretWord)
   const check = async () => {
-    if (state.family.recovery && (await pinMatches(normalizeCode(typed), state.family.recovery))) return onCode()
-    setError(T.recovery.codeWrong)
+    const codeOk = Boolean(recovery) && (await pinMatches(normalizeCode(typed), recovery))
+    const a = normalizeAnswer(answer)
+    const answerOk = !needsAnswer || (await pinMatches(a, recoveryEmail)) || (await pinMatches(a, secretWord))
+    if (codeOk && answerOk) return onCode()
+    setError(codeOk ? T.recovery.answerWrong : T.recovery.codeWrong)
   }
   const startAgain = async (e: ChangeEvent<HTMLInputElement>) => {
     const f = e.target.files?.[0]
@@ -187,7 +233,13 @@ function Forgot({ onCode, onBack, onClose }: { onCode: () => void; onBack: () =>
           <span>{T.recovery.codeLabel}</span>
           <input value={typed} onChange={(e) => setTyped(e.target.value)} placeholder="XXXX-XXXX-XXXX" autoCapitalize="characters" />
         </label>
-        <button onClick={() => void check()} disabled={normalizeCode(typed).length < 12}>
+        {needsAnswer && (
+          <label className="field">
+            <span>{T.recovery.answerLabel}</span>
+            <input value={answer} onChange={(e) => setAnswer(e.target.value)} autoComplete="off" />
+          </label>
+        )}
+        <button onClick={() => void check()} disabled={normalizeCode(typed).length < 12 || (needsAnswer && normalizeAnswer(answer).length < SECRET_MIN)}>
           {T.recovery.check}
         </button>
         {error && <p className="pin-error">{error}</p>}
