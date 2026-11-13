@@ -41,10 +41,10 @@ unlocks after a moment. Nothing moves on by itself, so red never means "go faste
 skills for their age range (4–5, 6–7, 8–9, 10–12), picks a subject, then a skill. The Learn tab then shows only that
 skill. Every subject has **at least 300 different questions per age range** (a test checks it).
 
-- **Numbers (31):** counting; adding and taking away within 5, 10, 20, 100 and 1000; one more and one less; tens
+- **Maths (31):** counting; adding and taking away within 5, 10, 20, 100 and 1000; one more and one less; tens
   and ones; times tables; hours, minutes and seconds; place value; rounding; dividing; multiplying; fractions;
   percentages; order of operations; square numbers.
-- **Sounds and words (47, taught in English):** letters and first sounds up to idioms, the passive and Greek and
+- **English (47):** letters and first sounds up to idioms, the passive and Greek and
   Latin roots.
 - **Patterns (13):** picture patterns and number sequences.
 - **Science (40, in every app language):** 10 per age range, from my body and the senses to body systems, evolution
@@ -84,7 +84,7 @@ the day after a set number of passed lessons (2 at first). With Earn first, a pa
   of a lesson or a video. **Update now** fetches it straight away.
 - **Reading voice:** female or male. The voices come from the device; when it has none of the chosen kind, the
   nearest voice reads a little lower or higher, and the grown-ups' screen says so.
-- **Languages:** English, Deutsch, Français, Yorùbá. The English sound and word lessons stay in English.
+- **Languages:** English, Deutsch, Français, Yorùbá. The English lessons stay in English.
 
 ## What it is not
 

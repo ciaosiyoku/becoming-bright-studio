@@ -59,7 +59,7 @@ export const de: Strings = {
     parents: 'Erwachsene',
     backupDue: 'Erwachsene: Es ist Zeit für eine Sicherung.',
     choose: 'Such dir eine Fähigkeit aus',
-    subjects: { numbers: 'Zahlen', words: 'Laute und Wörter', patterns: 'Muster', science: 'Sachkunde', french: 'Französisch' },
+    subjects: { numbers: 'Mathe', words: 'Englisch', patterns: 'Muster', science: 'Sachkunde', french: 'Französisch' },
     level: (n: number) => `Stufe ${n}`,
     who: 'Wer lernt?',
     yourSkill: 'Deine Fähigkeit',
@@ -164,7 +164,7 @@ export const de: Strings = {
   },
   language: {
     label: 'Sprache',
-    note: 'Die Sprache der App und der Zahlen-Lektionen. Die englischen Laut- und Wort-Lektionen bleiben auf Englisch.',
+    note: 'Die Sprache der App und der Mathe-Lektionen. Die Englisch-Lektionen bleiben auf Englisch.',
   },
   nav: {
     learn: 'Lernen',

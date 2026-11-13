@@ -60,7 +60,7 @@ export const yo: Strings = {
     parents: 'Àgbàlagbà',
     backupDue: 'Àgbàlagbà: ó tó àkókò láti ṣe ẹ̀dà ìpamọ́.',
     choose: 'Yan ọgbọ́n kan',
-    subjects: { numbers: 'Nọ́ńbà', words: 'Ìró àti ọ̀rọ̀', patterns: 'Àpẹẹrẹ', science: 'Sáyẹ́ǹsì', french: 'Èdè Faransé' },
+    subjects: { numbers: 'Ìṣirò', words: 'Èdè Gẹ̀ẹ́sì', patterns: 'Àpẹẹrẹ', science: 'Sáyẹ́ǹsì', french: 'Èdè Faransé' },
     level: (n: number) => `Ìpele ${n}`,
     who: 'Ta ló ń kẹ́kọ̀ọ́?',
     yourSkill: 'Ọgbọ́n rẹ',
@@ -165,7 +165,7 @@ export const yo: Strings = {
   },
   language: {
     label: 'Èdè',
-    note: 'Èdè áàpù àti ti ẹ̀kọ́ nọ́ńbà. Ẹ̀kọ́ ìró àti ọ̀rọ̀ Gẹ̀ẹ́sì máa wà ní Gẹ̀ẹ́sì.',
+    note: 'Èdè áàpù àti ti ẹ̀kọ́ ìṣirò. Ẹ̀kọ́ Gẹ̀ẹ́sì máa wà ní Gẹ̀ẹ́sì.',
   },
   nav: {
     learn: 'Kẹ́kọ̀ọ́',
