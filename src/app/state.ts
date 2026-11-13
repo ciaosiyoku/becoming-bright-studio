@@ -82,6 +82,8 @@ export interface Family {
   rewards: { minutesPerLesson: number; maxPerDay: number; lessonsToOpen: number }
   /** Reading aloud with a female or a male voice (shared/speak.ts). */
   voice: VoiceGender
+  /** Soft sound effects for taps, answers and a finished lesson (shared/sounds.ts). */
+  sounds: boolean
 }
 
 export interface AppState {
@@ -103,7 +105,7 @@ export const COLOURS = ['#5b6cf0', '#e2557e', '#178c84', '#e08a1e', '#8b5cf6', '
 /** Maths and English always open; patterns, science and French opened by passing lessons first. */
 export const defaultSubjects = (): Record<Subject, Access> => ({ numbers: 'open', words: 'open', patterns: 'earn', science: 'earn', french: 'earn' })
 
-export const emptyFamily = (): Family => ({ pin: null, recovery: null, recoveryEmail: null, secretWord: null, pinLock: { wrong: 0, until: 0 }, access: defaultAccess(), subjects: defaultSubjects(), rewards: { minutesPerLesson: 10, maxPerDay: 45, lessonsToOpen: 2 }, voice: 'female' })
+export const emptyFamily = (): Family => ({ pin: null, recovery: null, recoveryEmail: null, secretWord: null, pinLock: { wrong: 0, until: 0 }, access: defaultAccess(), subjects: defaultSubjects(), rewards: { minutesPerLesson: 10, maxPerDay: 45, lessonsToOpen: 2 }, voice: 'female', sounds: true })
 
 export const emptyState = (): AppState => ({ version: STATE_VERSION, family: emptyFamily(), children: [], activeChild: null, lang: null, lastBackupAt: null, updatedAt: 0 })
 

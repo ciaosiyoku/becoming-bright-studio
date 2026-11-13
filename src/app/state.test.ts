@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { activeChild, addChild, emptyState, newChild, removeChild, updateChild } from './state'
+import { activeChild, addChild, emptyState, newChild, removeChild, updateChild, withDefaults, type Family } from './state'
 
 describe('children', () => {
   const two = () => addChild(addChild(emptyState(), newChild('Ada', '#111', 'a')), newChild('Ben', '#222', 'b'))
@@ -18,5 +18,14 @@ describe('children', () => {
   })
   it('trims the name', () => {
     expect(newChild('  Sam ', '#000').name).toBe('Sam')
+  })
+})
+
+describe('settings saved before a new one existed', () => {
+  it('get its default: sound effects on', () => {
+    const family: Partial<Family> = { ...emptyState().family }
+    delete family.sounds
+    expect(withDefaults({ ...emptyState(), family }).family.sounds).toBe(true)
+    expect(withDefaults({ ...emptyState(), family: { ...emptyState().family, sounds: false } }).family.sounds).toBe(false)
   })
 })

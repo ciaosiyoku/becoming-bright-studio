@@ -6,7 +6,8 @@
   grid-template-rows: auto 1fr;
   gap: 1rem;
   padding: 1rem 1.2rem 1.2rem;
-  max-width: 60rem;
+  /* Wide enough for Sunny beside the question card. */
+  max-width: 68rem;
   margin: 0 auto;
 }
 .lesson-top {
@@ -103,9 +104,15 @@ button.round {
   background: var(--mint-soft);
   border-color: var(--mint);
 }
+/* A miss is never red: a soft amber, dashed, and the right answer turns green beside it. */
 .choice.wrong {
-  background: var(--red-soft);
-  border-color: var(--red);
+  background: var(--amber-soft);
+  border-color: var(--amber);
+  border-style: dashed;
+  color: var(--amber);
+}
+.choice.right {
+  animation: pop 0.35s ease-out;
 }
 .choice.faded {
   opacity: 0.35;
@@ -303,4 +310,173 @@ button.round {
   font-size: clamp(1.05rem, 2.4vw, 1.4rem);
   line-height: 1.25;
   padding: 0.6rem 0.8rem;
+}
+
+/* ---- Sunny, stars and progress (the lesson redesign) ---- */
+
+/* Where the child is: a dot per question; right checks get a star. */
+.steps {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.step {
+  display: grid;
+  place-items: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  background: var(--sunken);
+}
+.step.practice.done,
+.step.practice.now {
+  background: var(--sky-soft);
+}
+.step.done {
+  background: var(--sky);
+}
+.step.now {
+  width: 2.1rem;
+  height: 2.1rem;
+  background: var(--card);
+  box-shadow: 0 0 0 4px var(--accent);
+}
+.step.star {
+  background: var(--sun);
+  animation: pop 0.4s ease-out;
+}
+.step svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  fill: var(--card);
+}
+
+/* Sunny beside the question card. */
+.lesson-stage {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  min-height: 0;
+}
+.lesson-stage > .lesson-card {
+  flex: 1;
+  min-width: 0;
+}
+.sunny-side {
+  flex-shrink: 0;
+  margin-bottom: 1rem;
+}
+.sunny-cheer {
+  animation: bounce 0.6s ease-out;
+}
+.sunny-teach {
+  margin-bottom: -0.4rem;
+}
+
+/* The star a right check earns, next to the reason. */
+.star-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  background: var(--sun);
+  color: #5c3a00;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.2rem;
+  animation: pop 0.45s ease-out;
+}
+.feedback-words small {
+  display: block;
+  font-size: 1.15rem;
+  color: var(--amber);
+}
+
+/* The end of a lesson: the tree (or seedling) with Sunny, and a star for each check right. */
+.result-scene {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+.result-stars {
+  display: flex;
+  gap: 0.4rem;
+}
+.result-stars svg {
+  width: 2.6rem;
+  height: 2.6rem;
+  fill: var(--sunken);
+}
+.result-stars svg.got {
+  fill: var(--sun);
+  animation: pop 0.5s ease-out both;
+}
+.result-stars svg.got:nth-child(2) { animation-delay: 0.12s; }
+.result-stars svg.got:nth-child(3) { animation-delay: 0.24s; }
+.result-stars svg.got:nth-child(4) { animation-delay: 0.36s; }
+.result-stars svg.got:nth-child(5) { animation-delay: 0.48s; }
+
+@keyframes pop {
+  0% {
+    transform: scale(0.6);
+  }
+  60% {
+    transform: scale(1.12);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-0.9rem);
+  }
+}
+
+/* A phone, or a narrow window: Sunny sits above the card, smaller. */
+@media (max-width: 760px) {
+  .lesson-stage {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sunny-side {
+    width: 84px;
+    height: 84px;
+    margin-bottom: -0.6rem;
+  }
+  .steps {
+    gap: 0.25rem;
+  }
+  .step {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+  .step.now {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+  .step svg {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+}
+
+/* The tablet asks for less motion: no bounces or pops. */
+@media (prefers-reduced-motion: reduce) {
+  .choice.right,
+  .step.star,
+  .sunny-cheer,
+  .star-badge,
+  .result-stars svg.got,
+  .grow {
+    animation: none;
+  }
 }

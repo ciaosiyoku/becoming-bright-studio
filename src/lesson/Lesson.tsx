@@ -12,7 +12,9 @@ import { bySubject, itemWords, skillById, skillLang, skillText } from '@/skills/
 import type { Choice, Item, SkillDef } from '@/skills/types'
 import { useSkills } from '@/skills/useSkills'
 import { NumberLine } from './NumberLine'
-import { type CheckAnswer, CHECKS, finishSession, newSession, nextSkill, PASS, resultOf, stepOf } from './session'
+import { type CheckAnswer, CHECKS, finishSession, GUIDED, newSession, nextSkill, PASS, resultOf, stepOf } from './session'
+import { playSound } from '@/shared/sounds'
+import { Sunny } from '@/shared/Sunny'
 import { VisualView } from './VisualView'
 import './Lesson.css'
 
@@ -75,12 +77,36 @@ function LessonSession({ def, onClose }: { def: SkillDef; onClose: () => void })
         <h1>
           <Emoji name={def.emoji} size={40} /> {skillText(def, appLang).title}
         </h1>
-        {phase === 'items' && <span className="pill">{step.kind === 'guided' ? T.lesson.guided(step.n, step.of) : T.lesson.check(step.n, step.of)}</span>}
+        {phase === 'items' && <Steps index={index} total={session.items.length} checks={checks} label={step.kind === 'guided' ? T.lesson.guided(step.n, step.of) : T.lesson.check(step.n, step.of)} />}
       </header>
       {phase === 'teach' && <TeachCard def={def} lang={lang} onReady={() => setPhase('items')} />}
-      {phase === 'items' && <Question key={index} skill={skill} item={session.items[index]} lang={lang} onAnswered={answered} onNext={next} />}
+      {phase === 'items' && <Question key={index} skill={skill} item={session.items[index]} lang={lang} isCheck={step.kind === 'check'} onAnswered={answered} onNext={next} />}
       {phase === 'result' && <Result skill={skill} checks={checks} onClose={onClose} />}
     </main>
+  )
+}
+
+/**
+ * Where the child is: one dot per question (2 practice tries, then 5 checks). A right check gets a star; practice
+ * tries never count, so they never get one. The words ("Check 2 of 5") are there for screen readers.
+ */
+function Steps({ index, total, checks, label }: { index: number; total: number; checks: CheckAnswer[]; label: string }) {
+  return (
+    <ol className="steps" aria-label={label}>
+      {Array.from({ length: total }, (_, i) => {
+        const star = i >= GUIDED && checks[i - GUIDED]?.right
+        const state = i === index ? 'now' : i < index ? (star ? 'star' : 'done') : ''
+        return (
+          <li key={i} className={`step ${state} ${i < GUIDED ? 'practice' : ''}`}>
+            {state === 'star' && (
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z" />
+              </svg>
+            )}
+          </li>
+        )
+      })}
+    </ol>
   )
 }
 
@@ -93,6 +119,7 @@ function TeachCard({ def, lang, onReady }: { def: SkillDef; lang: Lang; onReady:
   useEffect(() => speak(sentence, lang), [sentence, lang])
   return (
     <section className="card lesson-card teach">
+      <Sunny mood="happy" size={110} className="sunny-teach" />
       <span className="pill">{T.lesson.teach}</span>
       {card.visual && <VisualView visual={card.visual} big />}
       {card.line && <NumberLine line={card.line} />}
@@ -103,7 +130,13 @@ function TeachCard({ def, lang, onReady }: { def: SkillDef; lang: Lang; onReady:
             <Volume2 /> {T.lesson.hear}
           </button>
         )}
-        <button className="big" onClick={onReady}>
+        <button
+          className="big"
+          onClick={() => {
+            playSound('tap')
+            onReady()
+          }}
+        >
           {T.lesson.ready} <ArrowRight />
         </button>
       </div>
@@ -118,7 +151,7 @@ const describe = (c: Choice) => c.label ?? c.emoji?.replace(/^(animal|fruit)-/, 
  * One question. After the answer, right or wrong: the right answer turns green, the reason (with its number line)
  * shows and is read aloud, and "Next" can be tapped after a moment. Nothing moves on by itself.
  */
-function Question({ skill, item, lang, onAnswered, onNext }: { skill: string; item: Item; lang: Lang; onAnswered: (a: CheckAnswer) => CheckAnswer[]; onNext: (all: CheckAnswer[]) => void }) {
+function Question({ skill, item, lang, isCheck, onAnswered, onNext }: { skill: string; item: Item; lang: Lang; isCheck: boolean; onAnswered: (a: CheckAnswer) => CheckAnswer[]; onNext: (all: CheckAnswer[]) => void }) {
   const T = useT()
   const def = skillById(skill)!
   const words = itemWords(def, item, lang)
@@ -139,10 +172,14 @@ function Question({ skill, item, lang, onAnswered, onNext }: { skill: string; it
     setPicked(i)
     const right = i === item.answer
     setAll(onAnswered({ right, prompt: words.prompt, given: describe(item.choices[i]), answer: rightLabel }))
-    speak(`${right ? T.lesson.yes : T.lesson.answerIs(rightLabel)} ${words.reason}`, lang)
+    playSound(right ? 'right' : 'miss')
+    // After a miss, Sunny says "Let's look together" before the answer and its reason.
+    speak(`${right ? T.lesson.yes : `${T.lesson.lookTogether} ${T.lesson.answerIs(rightLabel)}`} ${words.reason}`, lang)
   }
   const right = picked === item.answer
   return (
+    <div className="lesson-stage">
+      <Sunny mood={picked === null ? 'think' : right ? 'cheer' : 'happy'} size={150} className="sunny-side" />
     <section className="card lesson-card">
       <div className="ask">
         <p>{words.prompt}</p>
@@ -166,7 +203,9 @@ function Question({ skill, item, lang, onAnswered, onNext }: { skill: string; it
       </div>
       {picked !== null && (
         <div className={`feedback ${right ? 'is-right' : 'is-wrong'}`} role="status">
+          {right && isCheck && <span className="star-badge">{T.lesson.star}</span>}
           <div className="feedback-words">
+            {!right && <small>{T.lesson.lookTogether}</small>}
             <b>{right ? T.lesson.yes : T.lesson.answerIs(rightLabel)}</b>
             <p>{words.reason}</p>
           </div>
@@ -177,6 +216,7 @@ function Question({ skill, item, lang, onAnswered, onNext }: { skill: string; it
         </div>
       )}
     </section>
+    </div>
   )
 }
 
@@ -199,10 +239,24 @@ function Result({ skill, checks, onClose }: { skill: string; checks: CheckAnswer
   // The minutes this lesson earned (a passed lesson; none once today's most is reached).
   const child = activeChild(state)!
   const gained = right >= PASS ? earnedMinutes(child, state.family, today) - earnedMinutes({ ...child, passes: { ...child.passes, [today]: (child.passes[today] ?? 1) - 1 } }, state.family, today) : 0
+  // A short tune as the tree grows.
+  useEffect(() => {
+    if (mastered) playSound('done')
+  }, [mastered])
   return (
     <section className="card lesson-card result">
-      <Emoji name={mastered ? 'tree' : 'seedling'} size={150} className={mastered ? 'grow' : ''} />
+      <div className="result-scene">
+        <Emoji name={mastered ? 'tree' : 'seedling'} size={150} className={mastered ? 'grow' : ''} />
+        <Sunny mood={mastered ? 'cheer' : 'happy'} size={120} className="sunny-result" />
+      </div>
       <h2>{mastered ? T.lesson.learntTitle : T.lesson.notYetTitle}</h2>
+      <p className="result-stars" aria-label={T.lesson.score(right, CHECKS)}>
+        {Array.from({ length: CHECKS }, (_, i) => (
+          <svg key={i} viewBox="0 0 24 24" className={i < right ? 'got' : ''} aria-hidden="true">
+            <path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z" />
+          </svg>
+        ))}
+      </p>
       <p>{T.lesson.score(right, CHECKS)}</p>
       <p>{mastered ? T.lesson.learntText(skillText(def, lang).title) : T.lesson.notYetText}</p>
       {mastered && upcomingDef && <p className="pill">{T.lesson.nextUp(skillText(upcomingDef, lang).title)}</p>}
