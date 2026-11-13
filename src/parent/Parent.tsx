@@ -222,6 +222,24 @@ function SoundsCard() {
           {T.parent.soundsTry}
         </button>
       </div>
+      <h3>{T.parent.cheers}</h3>
+      <p className="muted">{T.parent.cheersNote}</p>
+      <div className="row">
+        {[true, false].map((value) => (
+          <button key={String(value)} className={state.family.cheers === value ? '' : 'secondary'} aria-pressed={state.family.cheers === value} onClick={() => update((s) => ({ ...s, family: { ...s.family, cheers: value } }))}>
+            {value ? T.common.on : T.common.off}
+          </button>
+        ))}
+      </div>
+      <h3>{T.parent.motion}</h3>
+      <p className="muted">{T.parent.motionNote}</p>
+      <div className="row">
+        {(['lively', 'calm'] as const).map((value) => (
+          <button key={value} className={state.family.motion === value ? '' : 'secondary'} aria-pressed={state.family.motion === value} onClick={() => update((s) => ({ ...s, family: { ...s.family, motion: value } }))}>
+            {value === 'lively' ? T.parent.lively : T.parent.calm}
+          </button>
+        ))}
+      </div>
     </section>
   )
 }

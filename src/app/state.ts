@@ -84,6 +84,10 @@ export interface Family {
   voice: VoiceGender
   /** Soft sound effects for taps, answers and a finished lesson (shared/sounds.ts). */
   sounds: boolean
+  /** Sunny cheers a right answer (off: a calm smile only). */
+  cheers: boolean
+  /** Movement: "lively" pops and bounces, or "calm" (none). The tablet's reduce-motion setting also makes it calm. */
+  motion: 'lively' | 'calm'
 }
 
 export interface AppState {
@@ -105,7 +109,7 @@ export const COLOURS = ['#5b6cf0', '#e2557e', '#178c84', '#e08a1e', '#8b5cf6', '
 /** Maths and English always open; patterns, science and French opened by passing lessons first. */
 export const defaultSubjects = (): Record<Subject, Access> => ({ numbers: 'open', words: 'open', patterns: 'earn', science: 'earn', french: 'earn' })
 
-export const emptyFamily = (): Family => ({ pin: null, recovery: null, recoveryEmail: null, secretWord: null, pinLock: { wrong: 0, until: 0 }, access: defaultAccess(), subjects: defaultSubjects(), rewards: { minutesPerLesson: 10, maxPerDay: 45, lessonsToOpen: 2 }, voice: 'female', sounds: true })
+export const emptyFamily = (): Family => ({ pin: null, recovery: null, recoveryEmail: null, secretWord: null, pinLock: { wrong: 0, until: 0 }, access: defaultAccess(), subjects: defaultSubjects(), rewards: { minutesPerLesson: 10, maxPerDay: 45, lessonsToOpen: 2 }, voice: 'female', sounds: true, cheers: true, motion: 'lively' })
 
 export const emptyState = (): AppState => ({ version: STATE_VERSION, family: emptyFamily(), children: [], activeChild: null, lang: null, lastBackupAt: null, updatedAt: 0 })
 

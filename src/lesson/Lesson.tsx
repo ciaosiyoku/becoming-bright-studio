@@ -163,6 +163,8 @@ function Question({ skill, item, lang, isCheck, onAnswered, onNext }: { skill: s
   const def = skillById(skill)!
   const words = itemWords(def, item, lang)
   const canSpeak = useCanSpeak(lang)
+  /** Sunny cheers a right answer, unless the grown-ups chose a calm smile. */
+  const cheers = useStore().state.family.cheers
   const [picked, setPicked] = useState<number | null>(null)
   const [all, setAll] = useState<CheckAnswer[] | null>(null)
   const [nextReady, setNextReady] = useState(false)
@@ -186,7 +188,7 @@ function Question({ skill, item, lang, isCheck, onAnswered, onNext }: { skill: s
   const right = picked === item.answer
   return (
     <div className="lesson-stage">
-      <Sunny mood={picked === null ? 'think' : right ? 'cheer' : 'happy'} size={150} className="sunny-side" />
+      <Sunny mood={picked === null ? 'think' : right && cheers ? 'cheer' : 'happy'} size={150} className="sunny-side" />
     <section className="card lesson-card">
       <div className="ask">
         <p>{words.prompt}</p>
@@ -254,7 +256,7 @@ function Result({ skill, checks, stickers, onClose }: { skill: string; checks: C
     <section className="card lesson-card result">
       <div className="result-scene">
         <Emoji name={mastered ? 'tree' : 'seedling'} size={150} className={mastered ? 'grow' : ''} />
-        <Sunny mood={mastered ? 'cheer' : 'happy'} size={120} className="sunny-result" />
+        <Sunny mood={mastered && state.family.cheers ? 'cheer' : 'happy'} size={120} className="sunny-result" />
       </div>
       <h2>{mastered ? T.lesson.learntTitle : T.lesson.notYetTitle}</h2>
       <p className="result-stars" aria-label={T.lesson.score(right, CHECKS)}>
