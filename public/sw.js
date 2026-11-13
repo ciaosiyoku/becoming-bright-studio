@@ -2,7 +2,8 @@
 // (New concept: a service worker is a small script the browser keeps next to a site. It sits between the page
 // and the network, so it can answer from a saved copy when there is no connection.)
 //
-// - Page loads: network first, so new versions arrive; the saved page only when offline.
+// - Page loads: network first (never the browser's short-term copy), so new versions arrive; the saved page only
+//   when offline.
 // - App files (assets, emoji, fonts): cache first (built file names change with every version, so never stale).
 // - The app's update check (src/shared/autoUpdate.ts, cache: 'no-store'): always the network, never the saved
 //   page. Answered from here it would always name the running version, so no update would ever be seen.
@@ -38,8 +39,13 @@ self.addEventListener('fetch', (event) => {
   if (req.mode === 'navigate') {
     // Each page (the app, the install page) is kept under its own address, without "?…" (e.g. ?demo).
     const page = url.origin + url.pathname
+    // cache: 'no-cache' asks the server every time (a quick "not changed" when nothing is new). Without it the
+    // browser reused the page for up to 10 minutes (GitHub Pages sends max-age=600), so a tablet reopened soon
+    // after an update still started the old version.
     event.respondWith(
-      fetch(req)
+      // redirect: 'manual', as for the page's own request: a redirect (e.g. to the address with a final "/") goes back
+      // to the browser to follow, which a navigation needs.
+      fetch(url.href, { cache: 'no-cache', redirect: 'manual' })
         .then((res) => {
           if (res.ok && !res.redirected) keep(page, res)
           return res
