@@ -59,7 +59,7 @@ export const fr: Strings = {
     parents: 'Adultes',
     backupDue: 'Adultes : il est temps de faire une sauvegarde.',
     choose: 'Choisis une compétence',
-    subjects: { numbers: 'Nombres', words: 'Sons et mots', patterns: 'Suites', science: 'Sciences', french: 'Français' },
+    subjects: { numbers: 'Maths', words: 'Anglais', patterns: 'Suites', science: 'Sciences', french: 'Français' },
     level: (n: number) => `Niveau ${n}`,
     who: 'Qui apprend ?',
     yourSkill: 'Ta compétence',
@@ -164,7 +164,7 @@ export const fr: Strings = {
   },
   language: {
     label: 'Langue',
-    note: 'La langue de l’application et des leçons de nombres. Les leçons anglaises de sons et de mots restent en anglais.',
+    note: 'La langue de l’application et des leçons de maths. Les leçons d’anglais restent en anglais.',
   },
   nav: {
     learn: 'Apprendre',

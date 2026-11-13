@@ -57,7 +57,7 @@ export const en = {
     parents: 'Grown-ups',
     backupDue: 'Grown-ups: it is time to save a backup.',
     choose: 'Choose a skill',
-    subjects: { numbers: 'Numbers', words: 'Sounds and words', patterns: 'Patterns', science: 'Science', french: 'French' },
+    subjects: { numbers: 'Maths', words: 'English', patterns: 'Patterns', science: 'Science', french: 'French' },
     level: (n: number) => `Level ${n}`,
     who: 'Who is learning?',
     yourSkill: 'Your skill',
@@ -162,7 +162,7 @@ export const en = {
   },
   language: {
     label: 'Language',
-    note: 'The language of the app and of the number lessons. The English sound and word lessons stay in English.',
+    note: 'The language of the app and of the maths lessons. The English lessons stay in English.',
   },
   nav: {
     learn: 'Learn',

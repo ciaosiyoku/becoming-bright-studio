@@ -100,7 +100,7 @@ export interface AppState {
 export const MAX_MISSES = 300
 export const COLOURS = ['#5b6cf0', '#e2557e', '#178c84', '#e08a1e', '#8b5cf6', '#22a06b'] as const
 
-/** Numbers and words always open; patterns, science and French opened by passing lessons first. */
+/** Maths and English always open; patterns, science and French opened by passing lessons first. */
 export const defaultSubjects = (): Record<Subject, Access> => ({ numbers: 'open', words: 'open', patterns: 'earn', science: 'earn', french: 'earn' })
 
 export const emptyFamily = (): Family => ({ pin: null, recovery: null, recoveryEmail: null, secretWord: null, pinLock: { wrong: 0, until: 0 }, access: defaultAccess(), subjects: defaultSubjects(), rewards: { minutesPerLesson: 10, maxPerDay: 45, lessonsToOpen: 2 }, voice: 'female' })

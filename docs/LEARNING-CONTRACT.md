@@ -39,7 +39,7 @@ One parent screen, behind a PIN:
   and the questions to practise again with what the child answered. It is made on the device. "Send by email" opens
   the parent's own mail app with the report as text, and nothing is sent otherwise.
 - **Off / Open / Earn first for each subject** (owner's decision, 27 Oct 2026). An "earn first" subject opens for
-  the day once the child has passed enough lessons that day (2 at first). At first numbers and words are open, and
+  the day once the child has passed enough lessons that day (2 at first). At first maths and English are open, and
   patterns, science and French are earn first.
 - **Off / Open / Earn first** for every game, radio, stories, videos and explore item. "Earn first" means a passed
   lesson (4 of 5) earns minutes (10 at first) up to a daily limit (45 at first). The clock only runs while an earn-first
@@ -90,9 +90,9 @@ bigger, first sounds, "a" or "an", rhyming pictures). The owner then asked for t
 this format (57). Then the owner asked for science, French and more English, and for ages 4 to 12 with 300
 questions per subject and age range: **171 in all**, from Cambridge Primary early years to about Stage 7.
 
-- **Numbers (31):** counting, adding and taking away up to 1000, tens and ones, times tables, time, place value,
+- **Maths (31):** counting, adding and taking away up to 1000, tens and ones, times tables, time, place value,
   rounding, dividing, multiplying, fractions, percentages, order of operations, square numbers.
-- **Sounds and words (47, taught in English):** from letter names, first sounds and naming pictures (4–5), through
+- **English (47):** from letter names, first sounds and naming pictures (4–5), through
   spelling, punctuation, pronouns and prepositions (6–9), to idioms, figurative language, the passive, formal
   language, Greek and Latin roots, clauses, tenses and spelling rules (10–12).
 - **Patterns (13):** picture patterns and number sequences, up to steps of 250 and growing patterns.
