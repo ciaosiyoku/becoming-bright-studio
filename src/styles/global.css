@@ -232,3 +232,11 @@ button.big {
   gap: 0.5rem;
   flex-basis: 100%;
 }
+
+/* Calm movement, chosen by the grown-ups (App.tsx sets data-motion): no pops, bounces or glows anywhere. */
+:root[data-motion='calm'] *,
+:root[data-motion='calm'] *::before,
+:root[data-motion='calm'] *::after {
+  animation: none !important;
+  transition: none !important;
+}

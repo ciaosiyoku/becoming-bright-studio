@@ -27,5 +27,9 @@ describe('settings saved before a new one existed', () => {
     delete family.sounds
     expect(withDefaults({ ...emptyState(), family }).family.sounds).toBe(true)
     expect(withDefaults({ ...emptyState(), family: { ...emptyState().family, sounds: false } }).family.sounds).toBe(false)
+    const older: Partial<Family> = { ...emptyState().family }
+    delete older.cheers
+    delete older.motion
+    expect(withDefaults({ ...emptyState(), family: older }).family).toMatchObject({ cheers: true, motion: 'lively' })
   })
 })

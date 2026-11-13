@@ -47,6 +47,10 @@ function Screens() {
   useEffect(() => setVoiceGender(state.family.voice), [state.family.voice])
   // Sound effects on or off (the grown-ups' choice).
   useEffect(() => setSoundsOn(state.family.sounds), [state.family.sounds])
+  // Calm movement (the grown-ups' choice): global.css stops every animation under data-motion="calm".
+  useEffect(() => {
+    document.documentElement.dataset.motion = state.family.motion
+  }, [state.family.motion])
 
   // The child's colour on buttons.
   useEffect(() => {
