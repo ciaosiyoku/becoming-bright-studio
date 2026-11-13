@@ -2,7 +2,8 @@ import { describe, expect, it } from 'vitest'
 import { AGE_BANDS, bandOf, skillBands, suitsAge } from './ages'
 import { bankOf } from './bank'
 import { itemKey, makeItem, seeded } from './generate'
-import { SKILLS, SUBJECTS } from './index'
+import { ALL_SKILLS as SKILLS } from './all'
+import { SUBJECTS } from './index'
 import type { SkillDef } from './types'
 
 /** Questions counted per skill at most, so one big generator can't fill a range alone. */

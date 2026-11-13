@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { seeded } from '@/skills/generate'
-import { SKILLS } from '@/skills/index'
+import { ALL_SKILLS as SKILLS } from '@/skills/all'
 import { hasCards, makeCards, PAIRS } from './pairs'
 
 describe('memory game cards', () => {

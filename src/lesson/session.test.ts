@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest'
 import { newChild } from '@/app/state'
 import { itemKey, seeded } from '@/skills/generate'
-import { fill, skillById } from '@/skills/index'
+import { ALL_SKILLS } from '@/skills/all'
+import { fill } from '@/skills/index'
 import { type CheckAnswer, finishSession, newSession, nextSkill, resultOf, stepOf } from './session'
 
 const check = (right: boolean, n = 1): CheckAnswer => ({ right, prompt: `What is ${n} + 1?`, given: right ? String(n + 1) : '9', answer: String(n + 1) })
@@ -9,7 +10,7 @@ const day = new Date(2026, 9, 27, 12)
 
 describe('a session', () => {
   it('has 2 guided tries and 5 checks, all different, none the teach example', () => {
-    const def = skillById('add-5')!
+    const def = ALL_SKILLS.find((s) => s.id === 'add-5')!
     const s = newSession(def, seeded(3))
     expect(s.items).toHaveLength(7)
     expect(new Set(s.items.map(itemKey)).size).toBe(7)

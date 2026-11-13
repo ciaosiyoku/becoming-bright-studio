@@ -8,6 +8,7 @@ import '@fontsource/fredoka/latin-500.css'
 import '@fontsource/fredoka/latin-600.css'
 import './styles/global.css'
 import App from './app/App'
+import { syncOfflineFiles } from './shared/offline'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -18,4 +19,6 @@ createRoot(document.getElementById('root')!).render(
 // Offline start (public/sw.js). Not in dev: Vite serves files itself and a cache would hide changes.
 if (import.meta.env.PROD && 'serviceWorker' in navigator) {
   navigator.serviceWorker.register('./sw.js').catch((err) => console.warn('service worker:', err))
+  // A few seconds after the start: save every part of the app for offline use, and delete old versions' files.
+  window.addEventListener('load', () => setTimeout(() => void syncOfflineFiles(), 5000))
 }

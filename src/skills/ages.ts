@@ -1,4 +1,4 @@
-import type { SkillDef } from './types'
+import type { SkillMeta } from './types'
 
 // Age ranges: the parent gives each child an age (4 to 12), and the child chooses among the skills of their range.
 // A skill belongs to the ranges in its JSON "ages", or else to the range of its school stage.
@@ -19,7 +19,7 @@ export function bandOf(age: number): AgeBand {
 const bandOfStage = (stage: number): AgeBand => (stage <= 0 ? '4-5' : stage <= 2 ? '6-7' : stage <= 4 ? '8-9' : '10-12')
 
 /** The ranges a skill is for. */
-export const skillBands = (def: SkillDef): AgeBand[] => (def.ages?.length ? def.ages : [bandOfStage(def.stage)])
+export const skillBands = (def: SkillMeta): AgeBand[] => (def.ages?.length ? def.ages : [bandOfStage(def.stage)])
 
 /** Whether a skill suits a child of this age (no age yet: every skill). */
-export const suitsAge = (def: SkillDef, age: number | null | undefined): boolean => age == null || skillBands(def).includes(bandOf(age))
+export const suitsAge = (def: SkillMeta, age: number | null | undefined): boolean => age == null || skillBands(def).includes(bandOf(age))

@@ -1,9 +1,10 @@
-import { useEffect, useRef, useState } from 'react'
+import { lazy, useEffect, useRef, useState } from 'react'
 import { Home } from '@/home/Home'
 import { Lesson } from '@/lesson/Lesson'
-import { Parent } from '@/parent/Parent'
 import { PinGate } from '@/parent/PinScreens'
 import { NeedPin, Setup } from '@/setup/Setup'
+import { useT } from '@/i18n'
+import { Loading } from '@/shared/Loading'
 import { useAutoUpdate } from '@/shared/autoUpdate'
 import { setVoiceGender } from '@/shared/speak'
 import { ItemScreen } from './ItemScreen'
@@ -29,9 +30,13 @@ export default function App() {
   )
 }
 
+// The grown-ups' screen (with the reports) loads when it opens: the children's first screen loads faster.
+const Parent = lazy(() => import('@/parent/Parent').then((m) => ({ default: m.Parent })))
+
 const TICK_SECONDS = 15
 
 function Screens() {
+  const T = useT()
   const { state, ready } = useStore()
   const [screen, setScreen] = useState<Screen>({ name: 'tabs' })
   const [tab, setTab] = useState<MainTab>('learn')
@@ -55,7 +60,21 @@ function Screens() {
   const tabs = () => setScreen({ name: 'tabs' })
   if (screen.name === 'lesson') return <Lesson key={screen.skill} skill={screen.skill} onClose={tabs} />
   if (screen.name === 'item') return <ItemScreen id={screen.id} onClose={tabs} />
-  if (screen.name === 'parent') return <Parent onClose={tabs} />
+  if (screen.name === 'parent')
+    return (
+      <Loading
+        failed={
+          <main className="page">
+            <p>{T.parent.updateOffline}</p>
+            <button className="big" onClick={tabs}>
+              {T.common.back}
+            </button>
+          </main>
+        }
+      >
+        <Parent onClose={tabs} />
+      </Loading>
+    )
   return (
     <>
       <Shell tab={tab} onTab={setTab} onParent={() => setScreen({ name: 'pin' })}>
