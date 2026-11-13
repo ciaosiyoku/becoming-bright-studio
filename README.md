@@ -135,4 +135,4 @@ child-facing sentence aloud first.
 Code: [MIT](LICENSE), based on Kids' Learning Studio by Oluwasedago. Logo: original, drawn by
 `scripts/make-brand.mjs` ([brand/](brand/README.md)). Pictures: [Microsoft Fluent Emoji](public/emoji/CREDITS.md)
 (MIT). Place photos: Wikimedia Commons, free licences ([credits](public/photos/CREDITS.md)). Stories: LibriVox
-(public domain). Fonts: Andika and Fredoka (SIL Open Font License).
+(public domain). Fonts: Andika and Fredoka (SIL Open Font License)
