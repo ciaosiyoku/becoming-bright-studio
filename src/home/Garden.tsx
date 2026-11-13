@@ -17,11 +17,17 @@ const ROWS = 3
 /** The most trees drawn (the newest ones); the count in words is always the real one. */
 export const MAX_TREES = PER_ROW * ROWS - 3
 
+/** The picture is wide (a tablet in landscape); a narrower screen shows its middle. */
+export const WIDTH = 1200
+const HEIGHT = 330
+/** Trees fill each row from the middle outwards, so the first ones are seen on every screen. */
+const COLUMN_ORDER = [4, 3, 5, 2, 6, 1, 7, 0, 8]
+
 /** Where tree number i stands: back row first, each row a little bigger and lower (nearer). Pure (tested). */
 export function spot(i: number): { x: number; y: number; scale: number } {
   const row = Math.floor(i / PER_ROW) % ROWS
-  const col = i % PER_ROW
-  return { x: 46 + col * 72 + (row % 2) * 34, y: 178 + row * 46, scale: 0.78 + row * 0.14 }
+  const col = COLUMN_ORDER[i % PER_ROW]
+  return { x: 170 + col * 108 + (row % 2) * 40, y: 196 + row * 50, scale: 0.86 + row * 0.14 }
 }
 
 const CANOPY = ['#2fa36b', '#3cb878', '#36ae72']
@@ -30,15 +36,15 @@ export function Garden({ trees, label }: { trees: Subject[]; label: string }) {
   const shown = trees.slice(-MAX_TREES)
   const plots = [0, 1, 2].map((k) => shown.length + k)
   return (
-    <svg className="garden" viewBox="0 0 680 330" preserveAspectRatio="xMidYMax slice" role="img" aria-label={label}>
-      <rect width="680" height="330" fill="#ddf0fc" />
-      <circle cx="610" cy="58" r="30" fill="#ffe08a" />
-      <ellipse cx="130" cy="62" rx="44" ry="15" fill="#ffffff" />
-      <ellipse cx="168" cy="54" rx="32" ry="17" fill="#ffffff" />
-      <ellipse cx="420" cy="84" rx="38" ry="12" fill="#ffffff" />
-      <path d="M0 170 Q170 120 340 160 T680 150 V330 H0 Z" fill="#bfe8cf" />
-      <path d="M0 230 Q200 190 400 222 T680 214 V330 H0 Z" fill="#8fd6ae" />
-      <path d="M0 290 Q220 266 680 282 V330 H0 Z" fill="#6cc596" />
+    <svg className="garden" viewBox={`0 0 ${WIDTH} ${HEIGHT}`} preserveAspectRatio="xMidYMax slice" role="img" aria-label={label}>
+      <rect width={WIDTH} height={HEIGHT} fill="#ddf0fc" />
+      <circle cx="860" cy="58" r="30" fill="#ffe08a" />
+      <ellipse cx="380" cy="62" rx="44" ry="15" fill="#ffffff" />
+      <ellipse cx="418" cy="54" rx="32" ry="17" fill="#ffffff" />
+      <ellipse cx="700" cy="84" rx="38" ry="12" fill="#ffffff" />
+      <path d="M0 176 Q300 120 600 166 T1200 156 V330 H0 Z" fill="#bfe8cf" />
+      <path d="M0 236 Q340 196 700 228 T1200 220 V330 H0 Z" fill="#8fd6ae" />
+      <path d="M0 296 Q400 270 1200 288 V330 H0 Z" fill="#6cc596" />
       {plots.map((i) => {
         const { x, y, scale } = spot(i)
         return <ellipse key={`plot-${i}`} cx={x} cy={y + 4} rx={26 * scale} ry={9 * scale} fill="none" stroke="#2e7d57" strokeWidth="3" strokeDasharray="6 6" />

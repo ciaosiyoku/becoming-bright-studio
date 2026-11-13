@@ -358,6 +358,8 @@ button.round {
 .lesson-stage {
   display: flex;
   align-items: flex-end;
+  /* Centred in the screen's height, with Sunny at the card's foot (not pushed to the bottom of the page). */
+  align-self: center;
   gap: 1rem;
   min-height: 0;
 }

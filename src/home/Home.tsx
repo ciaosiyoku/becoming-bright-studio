@@ -1,5 +1,5 @@
 import { ArrowLeft, ArrowRight } from 'lucide-react'
-import { type CSSProperties, useState } from 'react'
+import { type CSSProperties, useEffect, useRef, useState } from 'react'
 import { subjectState } from '@/app/access'
 import { activeChild, updateChild } from '@/app/state'
 import { lastDays, streaks } from '@/app/streak'
@@ -13,6 +13,7 @@ import { suitsAge } from '@/skills/ages'
 import { bySubject, skillById, SKILLS, skillText, SUBJECT_EMOJI, SUBJECTS } from '@/skills/index'
 import { Sunny } from '@/shared/Sunny'
 import { Garden, SUBJECT_COLOURS } from './Garden'
+import { roadPath, stoneSpot } from './road'
 import { stickerText } from './stickerText'
 import type { Subject } from '@/skills/types'
 import './Home.css'
@@ -40,6 +41,13 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
   const stateOf = (subject: Subject) => subjectState(state.family, child, subject, today)
   const current = child.current ? skillById(child.current) : undefined
   const [view, setView] = useState<View>({ name: 'subjects' })
+  // Each view starts at its top (the tab scrolls as one page, App's Shell): a subject, a skill or the stickers.
+  const page = useRef<HTMLElement>(null)
+  useEffect(() => {
+    page.current?.closest('.shell-main')?.scrollTo({ top: 0 })
+  }, [view])
+  /** Stepping stones per row: 4 on a tablet, 2 on a phone. */
+  const [perRow] = useState(() => (globalThis.matchMedia?.('(max-width: 600px)').matches ? 2 : 4))
   const openSkill = (id: string) => {
     update((s) => updateChild(s, child.id, (c) => ({ ...c, current: id })))
     setView({ name: 'skill', id })
@@ -62,12 +70,12 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
   }
 
   return (
-    <main className="page">
+    <main className="page" ref={page}>
       {view.name === 'subjects' && (
         <section className="hello">
           <Sunny mood="happy" size={96} />
           <div className="hello-bubble">
-            <b>{T.home.hello(child.name)}</b>
+            <b>{T.home.goal}</b>
             <span>{passedToday >= goal ? T.home.goalDone : T.home.goalLeft(goal - passedToday)}</span>
           </div>
           <span className="stars-chip">
@@ -193,34 +201,23 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
             <h2>{T.home.subjects[view.subject]}</h2>
           </div>
           <p className="muted">{T.home.pickSkill}</p>
-          {/* The skills as stepping stones, in teaching order, winding like a board game: left to right, then back. */}
-          <ol className="stones" style={{ '--subject': SUBJECT_COLOURS[view.subject].main, '--subject-soft': SUBJECT_COLOURS[view.subject].soft } as CSSProperties}>
-            {forChild(view.subject).map((def, i) => {
-              const learnt = Boolean(child.skills[def.id]?.mastered)
-              const row = Math.floor(i / STONES_PER_ROW)
-              const col = row % 2 === 0 ? i % STONES_PER_ROW : STONES_PER_ROW - 1 - (i % STONES_PER_ROW)
-              const n = starsOf(def.id)
-              return (
-                <li key={def.id} style={{ gridRow: row + 1, gridColumn: col + 1 }}>
-                  <button className={`stone ${learnt ? 'learnt' : ''} ${def.id === child.current ? 'open' : ''}`} onClick={() => openSkill(def.id)}>
-                    <span className="stone-face">
-                      <Emoji name={learnt ? 'tree' : def.emoji} size={52} />
-                    </span>
-                    <span className="stone-title">{skillText(def, lang).title}</span>
-                    {learnt ? (
-                      <span className="stone-stars" aria-label={T.home.stars(n)}>
-                        {[0, 1, 2].map((k) => (
-                          <StarIcon key={k} off={k >= n} />
-                        ))}
-                      </span>
-                    ) : (
-                      <small>{T.home.level(def.stage + 1)}</small>
-                    )}
-                  </button>
-                </li>
-              )
-            })}
-          </ol>
+          {/* The skills as stepping stones on a winding road, in teaching order, like a board game: left to right,
+              then back. Sunny waits by the chosen skill. */}
+          <Stones
+            perRow={perRow}
+            colours={SUBJECT_COLOURS[view.subject]}
+            stones={forChild(view.subject).map((def) => ({
+              id: def.id,
+              emoji: child.skills[def.id]?.mastered ? 'tree' : def.emoji,
+              title: skillText(def, lang).title,
+              learnt: Boolean(child.skills[def.id]?.mastered),
+              stars: starsOf(def.id),
+              chosen: def.id === child.current,
+              level: T.home.level(def.stage + 1),
+            }))}
+            starsLabel={T.home.stars}
+            onOpen={openSkill}
+          />
         </section>
       )}
 
@@ -253,8 +250,53 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
   )
 }
 
-/** Stepping stones per row of the skill path (a phone shows them in one column: Home.css). */
-const STONES_PER_ROW = 4
+interface Stone {
+  id: string
+  emoji: string
+  title: string
+  learnt: boolean
+  stars: number
+  chosen: boolean
+  level: string
+}
+
+function Stones({ stones, perRow, colours, starsLabel, onOpen }: { stones: Stone[]; perRow: number; colours: { main: string; soft: string }; starsLabel: (n: number) => string; onOpen: (id: string) => void }) {
+  const rows = Math.ceil(stones.length / perRow)
+  const vars = { '--subject': colours.main, '--subject-soft': colours.soft, '--rows': rows } as CSSProperties
+  return (
+    <div className="stones" style={vars}>
+      <svg className="stones-road" viewBox={`0 0 100 ${rows * 100}`} preserveAspectRatio="none" aria-hidden="true">
+        <path d={roadPath(stones.length, perRow)} className="road" vectorEffect="non-scaling-stroke" />
+        <path d={roadPath(stones.length, perRow)} className="road-dashes" vectorEffect="non-scaling-stroke" />
+      </svg>
+      <ol>
+        {stones.map((st, i) => {
+          const { row, col } = stoneSpot(i, perRow)
+          return (
+            <li key={st.id} style={{ left: `${((col + 0.5) * 100) / perRow}%`, top: `calc(${row} * var(--row-height))` }}>
+              <button className={`stone ${st.learnt ? 'learnt' : ''} ${st.chosen ? 'open' : ''}`} onClick={() => onOpen(st.id)}>
+                <span className="stone-face">
+                  <Emoji name={st.emoji} size={52} />
+                </span>
+                <span className="stone-title">{st.title}</span>
+                {st.learnt ? (
+                  <span className="stone-stars" aria-label={starsLabel(st.stars)}>
+                    {[0, 1, 2].map((k) => (
+                      <StarIcon key={k} off={k >= st.stars} />
+                    ))}
+                  </span>
+                ) : (
+                  <small>{st.level}</small>
+                )}
+              </button>
+              {st.chosen && <Sunny mood="cheer" size={64} className="stone-sunny" />}
+            </li>
+          )
+        })}
+      </ol>
+    </div>
+  )
+}
 
 /** A star (gold, or a grey outline for one not earned yet). */
 function StarIcon({ off = false }: { off?: boolean }) {
