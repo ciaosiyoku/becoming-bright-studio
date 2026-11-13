@@ -1,0 +1,37 @@
+# Checks a pull request before it is merged: the same install, checks, tests and build as the deploy
+# (deploy.yml), without publishing. It also lists the size of what the app loads at the start, so a change that
+# makes the first download much bigger is seen in the pull request.
+name: Check
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run check-private
+      - run: npm run lint
+      - run: npm test
+      - run: npm run build
+      - name: Size of the first download
+        run: |
+          echo "## Size of the app's files" >> "$GITHUB_STEP_SUMMARY"
+          echo "Loaded at the start (index.html and what it names):" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          for f in $(grep -oE 'assets/[^"]+\.(js|css)' dist/index.html | sort -u); do
+            printf '%8s KB  %8s KB gzip  %s\n' $(( $(wc -c < "dist/$f") / 1024 )) $(( $(gzip -c "dist/$f" | wc -c) / 1024 )) "$f"
+          done >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          echo "All files in dist/assets: $(ls dist/assets | wc -l), $(du -sk dist/assets | cut -f1) KB" >> "$GITHUB_STEP_SUMMARY"
+          test -f dist/asset-manifest.json && echo "dist/asset-manifest.json: present" >> "$GITHUB_STEP_SUMMARY"

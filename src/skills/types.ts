@@ -49,6 +49,13 @@ export interface SkillDef {
   text: Partial<Record<Lang, SkillText>> & { en: SkillText }
 }
 
+/**
+ * A skill without its question maker's settings (params): what the home screen, the reports and the age ranges
+ * need. Loaded with the app; the full skill (with params, which hold the question banks) is loaded only when a
+ * lesson or a game needs it (skills/index.ts: loadSkill).
+ */
+export type SkillMeta = Omit<SkillDef, 'params'>
+
 export type Subject = 'numbers' | 'words' | 'patterns' | 'science' | 'french'
 
 export type GeneratorKind = 'count' | 'add' | 'subtract' | 'one-more' | 'one-less' | 'bigger' | 'first-sound' | 'a-an' | 'rhyme' | CalcKind | WordKind | BankKind

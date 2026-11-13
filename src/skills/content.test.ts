@@ -2,7 +2,8 @@ import { describe, expect, it } from 'vitest'
 import { LANGS } from '@/i18n'
 import { bankOf, bankValues, type BankQuestion } from './bank'
 import { exampleItem, makeItem, seeded, teachCard } from './generate'
-import { itemWords, SKILLS, skillLang, SUBJECTS } from './index'
+import { ALL_SKILLS as SKILLS } from './all'
+import { itemWords, SKILLS as META, skillLang, SUBJECTS } from './index'
 import type { Item, SkillDef } from './types'
 
 // The original's best test, kept: every question of every skill has exactly one right answer, and it is true,
@@ -230,6 +231,17 @@ describe('the skill list', () => {
       expect(new Set(orders).size, `${subject}: each order once`).toBe(orders.length)
     }
     for (const def of SKILLS) expect(teachCard(def).visual, def.id).toBeDefined()
+  })
+
+  it('starts the app with every skill, without its questions (virtual:skill-meta in vite.config.ts)', () => {
+    const withoutParams = (def: object) => {
+      const copy: Record<string, unknown> = { ...def }
+      delete copy.params
+      return copy
+    }
+    const byId = (a: { id: string }, b: { id: string }) => a.id.localeCompare(b.id)
+    for (const def of META) expect('params' in def, def.id).toBe(false)
+    expect([...META].sort(byId)).toEqual([...SKILLS].sort(byId).map(withoutParams))
   })
 })
 

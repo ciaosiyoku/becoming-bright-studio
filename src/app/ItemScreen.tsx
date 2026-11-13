@@ -1,21 +1,7 @@
 import { ArrowLeft } from 'lucide-react'
-import type { ReactNode } from 'react'
-import { WordBuilder } from '@/games/builder/WordBuilder'
-import { CodeBreaker } from '@/games/codebreaker/CodeBreaker'
-import { MemoryGame } from '@/games/Memory'
-import { PuzzleGame } from '@/games/puzzle/PuzzleGame'
-import { SlidingPuzzle } from '@/games/sliding/SlidingPuzzle'
-import { HanoiGame } from '@/games/hanoi/HanoiGame'
-import { LogicGame } from '@/games/logic/LogicGame'
-import { SequenceGame } from '@/games/sequence/SequenceGame'
-import { SudokuGame } from '@/games/sudoku/SudokuGame'
-import { Facts } from '@/explore/FactsScreen'
-import { Places } from '@/explore/PlacesScreen'
-import { Whys } from '@/explore/WhysScreen'
+import { lazy, type ReactNode } from 'react'
 import { useT } from '@/i18n'
-import { Radio } from '@/media/Radio'
-import { Stories } from '@/media/Stories'
-import { Videos } from '@/media/Videos'
+import { Loading } from '@/shared/Loading'
 import { Emoji } from '@/shared/Emoji'
 import { clock } from '@/shared/clock'
 import { accessOf, earnedSecondsLeft } from './access'
@@ -23,6 +9,24 @@ import { type ItemId, ITEMS } from './items'
 import { useToday } from '@/shared/useToday'
 import { activeChild } from './state'
 import { useStore } from './store'
+
+// Each game, the radio, stories, videos and explore items load when they open (the first screen loads faster);
+// shared/offline.ts saves them all on the device in the background, so they still open without Wi-Fi.
+const MemoryGame = lazy(() => import('@/games/Memory').then((m) => ({ default: m.MemoryGame })))
+const WordBuilder = lazy(() => import('@/games/builder/WordBuilder').then((m) => ({ default: m.WordBuilder })))
+const CodeBreaker = lazy(() => import('@/games/codebreaker/CodeBreaker').then((m) => ({ default: m.CodeBreaker })))
+const PuzzleGame = lazy(() => import('@/games/puzzle/PuzzleGame').then((m) => ({ default: m.PuzzleGame })))
+const SlidingPuzzle = lazy(() => import('@/games/sliding/SlidingPuzzle').then((m) => ({ default: m.SlidingPuzzle })))
+const HanoiGame = lazy(() => import('@/games/hanoi/HanoiGame').then((m) => ({ default: m.HanoiGame })))
+const LogicGame = lazy(() => import('@/games/logic/LogicGame').then((m) => ({ default: m.LogicGame })))
+const SequenceGame = lazy(() => import('@/games/sequence/SequenceGame').then((m) => ({ default: m.SequenceGame })))
+const SudokuGame = lazy(() => import('@/games/sudoku/SudokuGame').then((m) => ({ default: m.SudokuGame })))
+const Facts = lazy(() => import('@/explore/FactsScreen').then((m) => ({ default: m.Facts })))
+const Places = lazy(() => import('@/explore/PlacesScreen').then((m) => ({ default: m.Places })))
+const Whys = lazy(() => import('@/explore/WhysScreen').then((m) => ({ default: m.Whys })))
+const Radio = lazy(() => import('@/media/Radio').then((m) => ({ default: m.Radio })))
+const Stories = lazy(() => import('@/media/Stories').then((m) => ({ default: m.Stories })))
+const Videos = lazy(() => import('@/media/Videos').then((m) => ({ default: m.Videos })))
 
 /** One item full screen, with a back button; an "earn first" item shows the earned time left and closes when it runs out. */
 export function ItemScreen({ id, onClose }: { id: ItemId; onClose: () => void }) {
@@ -52,7 +56,18 @@ export function ItemScreen({ id, onClose }: { id: ItemId; onClose: () => void })
           </button>
         </section>
       ) : (
-        <Content id={id} />
+        <Loading
+          failed={
+            <section className="card todays">
+              <p>{T.parent.updateOffline}</p>
+              <button className="big" onClick={onClose}>
+                {T.common.back}
+              </button>
+            </section>
+          }
+        >
+          <Content id={id} />
+        </Loading>
       )}
     </main>
   )

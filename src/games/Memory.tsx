@@ -5,7 +5,9 @@ import { useStore } from '@/app/store'
 import { useLang, useT } from '@/i18n'
 import { VisualView } from '@/lesson/VisualView'
 import { Emoji } from '@/shared/Emoji'
-import { SKILLS, skillById, skillText } from '@/skills/index'
+import { SKILLS, skillText } from '@/skills/index'
+import type { SkillDef } from '@/skills/types'
+import { useSkills } from '@/skills/useSkills'
 import { type Card, hasCards, makeCards } from './pairs'
 import './Memory.css'
 
@@ -19,15 +21,18 @@ export function MemoryGame() {
   const lang = useLang()
   const { state } = useStore()
   const child = activeChild(state)!
-  const learnt = SKILLS.filter((s) => child.skills[s.id]?.mastered && hasCards(s, lang))
-  const [skill, setSkill] = useState<string | null>(null)
-  if (skill) return <Board key={skill} skill={skill} onBack={() => setSkill(null)} />
+  // The learnt skills' questions are loaded when the game opens (skills/index.ts: loadSkill).
+  const loaded = useSkills(SKILLS.filter((s) => child.skills[s.id]?.mastered).map((s) => s.id))
+  const [skill, setSkill] = useState<SkillDef | null>(null)
+  if (skill) return <Board key={skill.id} def={skill} onBack={() => setSkill(null)} />
+  if (loaded === null) return <section className="card memory-pick" />
+  const learnt = loaded === 'error' ? [] : loaded.filter((s) => hasCards(s, lang))
   return (
     <section className="card memory-pick">
-      <p>{learnt.length ? T.games.chooseCards : T.games.noneLearnt}</p>
+      <p>{loaded === 'error' ? T.parent.updateOffline : learnt.length ? T.games.chooseCards : T.games.noneLearnt}</p>
       <div className="tiles">
         {learnt.map((def) => (
-          <button key={def.id} className="tile" onClick={() => setSkill(def.id)}>
+          <button key={def.id} className="tile" onClick={() => setSkill(def)}>
             <Emoji name={def.emoji} size={48} />
             <span>{skillText(def, lang).title}</span>
           </button>
@@ -37,10 +42,9 @@ export function MemoryGame() {
   )
 }
 
-function Board({ skill, onBack }: { skill: string; onBack: () => void }) {
+function Board({ def, onBack }: { def: SkillDef; onBack: () => void }) {
   const T = useT()
   const lang = useLang()
-  const def = skillById(skill)!
   const [cards, setCards] = useState<Card[]>(() => makeCards(def, Math.random, lang))
   const [open, setOpen] = useState<number[]>([])
   const [found, setFound] = useState<number[]>([])

@@ -9,7 +9,8 @@ import { Emoji } from '@/shared/Emoji'
 import { speak, stopSpeaking, useCanSpeak } from '@/shared/speak'
 import { teachCard } from '@/skills/generate'
 import { bySubject, itemWords, skillById, skillLang, skillText } from '@/skills/index'
-import type { Choice, Item } from '@/skills/types'
+import type { Choice, Item, SkillDef } from '@/skills/types'
+import { useSkills } from '@/skills/useSkills'
 import { NumberLine } from './NumberLine'
 import { type CheckAnswer, CHECKS, finishSession, newSession, nextSkill, PASS, resultOf, stepOf } from './session'
 import { VisualView } from './VisualView'
@@ -21,7 +22,28 @@ const NEXT_DELAY_MS = 1200
 /** One session of one skill: teach card, two guided tries, five checks, result (session.ts). */
 export function Lesson({ skill, onClose }: { skill: string; onClose: () => void }) {
   const T = useT()
-  const def = skillById(skill)!
+  // The skill's questions are loaded when the lesson opens (skills/index.ts: loadSkill), from the device once saved.
+  const loaded = useSkills([skill])
+  if (loaded === null) return <main className="lesson" />
+  if (loaded === 'error')
+    return (
+      <main className="lesson">
+        <section className="card lesson-card">
+          <p>{T.parent.updateOffline}</p>
+          <div className="row center">
+            <button className="big" onClick={onClose}>
+              {T.common.back}
+            </button>
+          </div>
+        </section>
+      </main>
+    )
+  return <LessonSession def={loaded[0]} onClose={onClose} />
+}
+
+function LessonSession({ def, onClose }: { def: SkillDef; onClose: () => void }) {
+  const T = useT()
+  const skill = def.id
   const appLang = useLang()
   const lang = skillLang(def, appLang)
   const { state, update } = useStore()
@@ -55,7 +77,7 @@ export function Lesson({ skill, onClose }: { skill: string; onClose: () => void 
         </h1>
         {phase === 'items' && <span className="pill">{step.kind === 'guided' ? T.lesson.guided(step.n, step.of) : T.lesson.check(step.n, step.of)}</span>}
       </header>
-      {phase === 'teach' && <TeachCard skill={skill} lang={lang} onReady={() => setPhase('items')} />}
+      {phase === 'teach' && <TeachCard def={def} lang={lang} onReady={() => setPhase('items')} />}
       {phase === 'items' && <Question key={index} skill={skill} item={session.items[index]} lang={lang} onAnswered={answered} onNext={next} />}
       {phase === 'result' && <Result skill={skill} checks={checks} onClose={onClose} />}
     </main>
@@ -63,9 +85,8 @@ export function Lesson({ skill, onClose }: { skill: string; onClose: () => void 
 }
 
 /** The teach card: one picture or number line, one sentence, read aloud. */
-function TeachCard({ skill, lang, onReady }: { skill: string; lang: Lang; onReady: () => void }) {
+function TeachCard({ def, lang, onReady }: { def: SkillDef; lang: Lang; onReady: () => void }) {
   const T = useT()
-  const def = skillById(skill)!
   const card = teachCard(def, lang)
   const sentence = itemWords(def, card, lang).teach
   const canSpeak = useCanSpeak(lang)
