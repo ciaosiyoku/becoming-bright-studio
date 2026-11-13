@@ -7,6 +7,7 @@ import { useT } from '@/i18n'
 import { Loading } from '@/shared/Loading'
 import { useAutoUpdate } from '@/shared/autoUpdate'
 import { setVoiceGender } from '@/shared/speak'
+import { setSoundsOn } from '@/shared/sounds'
 import { ItemScreen } from './ItemScreen'
 import { ItemsPage } from './ItemsPage'
 import { accessOf, earnedSecondsLeft } from './access'
@@ -44,6 +45,8 @@ function Screens() {
 
   // The reading voice the grown-ups chose.
   useEffect(() => setVoiceGender(state.family.voice), [state.family.voice])
+  // Sound effects on or off (the grown-ups' choice).
+  useEffect(() => setSoundsOn(state.family.sounds), [state.family.sounds])
 
   // The child's colour on buttons.
   useEffect(() => {

@@ -12,6 +12,7 @@ import { Emoji } from '@/shared/Emoji'
 import { runningVersion, updateNow } from '@/shared/autoUpdate'
 import { NO_LOCK } from './pin'
 import { LanguagePicker } from '@/shared/LanguagePicker'
+import { playSound } from '@/shared/sounds'
 import { speak, useVoiceChoice, type VoiceGender } from '@/shared/speak'
 import { AgePicker, ChildForm } from '@/setup/Setup'
 import { ChoosePin, RecoveryDetails } from './PinScreens'
@@ -41,6 +42,7 @@ export function Parent({ onClose }: { onClose: () => void }) {
         <LanguagePicker />
       </section>
       <VoiceCard />
+      <SoundsCard />
       <BackupCard />
       <PinCard />
       <UpdateCard />
@@ -196,6 +198,30 @@ function VoiceCard() {
       {!choice && <p className="muted">{T.parent.noVoice}</p>}
       {choice && !choice.exact && <p className="muted">{T.parent.notExact(want === 'male')}</p>}
       {choice && <small className="muted">{choice.voice.name}</small>}
+    </section>
+  )
+}
+
+/** Sound effects on or off, and a try (shared/sounds.ts). */
+function SoundsCard() {
+  const T = useT()
+  const { state, update } = useStore()
+  const on = state.family.sounds
+  const set = (sounds: boolean) => update((s) => ({ ...s, family: { ...s.family, sounds } }))
+  return (
+    <section className="card parent-card">
+      <h2>{T.parent.sounds}</h2>
+      <p className="muted">{T.parent.soundsNote}</p>
+      <div className="row">
+        {[true, false].map((value) => (
+          <button key={String(value)} className={on === value ? '' : 'secondary'} aria-pressed={on === value} onClick={() => set(value)}>
+            {value ? T.common.on : T.common.off}
+          </button>
+        ))}
+        <button className="secondary" onClick={() => playSound('right')} disabled={!on}>
+          {T.parent.soundsTry}
+        </button>
+      </div>
     </section>
   )
 }
