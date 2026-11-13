@@ -135,3 +135,330 @@ button.round {
     justify-content: space-between;
   }
 }
+
+/* ---- The redesign: Sunny's hello, the garden, subject cards, stepping stones, stickers ---- */
+
+/* Sunny says hello, with today's goal, and the stars so far. */
+.hello {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.hello-bubble {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.8rem 1.1rem;
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+.hello-bubble b {
+  font-family: var(--display);
+  font-size: 1.5rem;
+  color: var(--ink);
+}
+.hello-bubble span {
+  font-size: 1.1rem;
+}
+.stars-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background: #fff1c9;
+  color: #7a4b00;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.2rem;
+  white-space: nowrap;
+}
+.star-icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  fill: var(--sun);
+  stroke: #e09a00;
+  stroke-width: 1.2;
+  stroke-linejoin: round;
+}
+.star-icon.off {
+  fill: var(--sunken);
+  stroke: #d9c8d4;
+}
+
+/* The garden: a tree for each skill learnt. Its name, today's goal and the stickers float on it. */
+.garden-card {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  min-height: 15rem;
+}
+.garden {
+  display: block;
+  width: 100%;
+  height: clamp(15rem, 34vh, 22rem);
+}
+.garden-name,
+.goal {
+  position: absolute;
+  top: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 92%);
+  color: var(--text);
+}
+.garden-name {
+  left: 0.8rem;
+}
+.garden-name b,
+.goal b {
+  font-family: var(--display);
+  color: var(--ink);
+}
+.goal {
+  right: 0.8rem;
+}
+.goal-dots {
+  display: inline-flex;
+  gap: 0.3rem;
+}
+.goal-dots i {
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  border: 3px dashed var(--mint);
+  box-sizing: border-box;
+}
+.goal-dots i.done {
+  border: 0;
+  background: var(--mint);
+}
+.stickers-button {
+  position: absolute;
+  right: 0.8rem;
+  bottom: 0.8rem;
+  gap: 0.4rem;
+  background: rgb(255 255 255 / 94%);
+}
+
+/* "Continue: …": the biggest button on the page. */
+.continue-big {
+  width: 100%;
+  justify-content: flex-start;
+  gap: 0.9rem;
+  margin: 0.4rem 0 0.9rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.4rem;
+}
+.continue-big span {
+  flex: 1;
+  text-align: left;
+}
+
+/* A card per subject: its picture on its colour, its name, and how far along it is. */
+.subject-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 0.8rem;
+}
+.subject-card {
+  justify-content: flex-start;
+  gap: 0.9rem;
+  min-height: 5.5rem;
+  padding: 0.6rem 1rem 0.6rem 0.6rem;
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  text-align: left;
+}
+.subject-card:disabled {
+  opacity: 0.6;
+}
+.subject-icon {
+  display: grid;
+  place-items: center;
+  width: 4.4rem;
+  height: 4.4rem;
+  flex-shrink: 0;
+  border-radius: var(--radius-s);
+  background: var(--subject-soft);
+}
+.subject-text {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  gap: 0.4rem;
+}
+.subject-text b {
+  font-family: var(--display);
+  font-size: 1.35rem;
+}
+.subject-bar {
+  display: block;
+  height: 0.7rem;
+  border-radius: 999px;
+  background: var(--sunken);
+  overflow: hidden;
+}
+.subject-bar i {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: var(--subject);
+}
+.subject-card small {
+  max-width: 7rem;
+  font-family: 'Andika', sans-serif;
+  font-weight: 400;
+  color: var(--muted);
+  text-align: right;
+}
+
+/* The skill path: stepping stones, winding like a board game. */
+.stones {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.2rem 0.8rem;
+  margin: 1rem 0 0;
+  padding: 1rem;
+  list-style: none;
+  border-radius: var(--radius);
+  background: var(--subject-soft);
+}
+.stones li {
+  display: grid;
+}
+.stone {
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.4rem;
+  background: transparent;
+  box-shadow: none;
+  color: var(--ink);
+  text-align: center;
+}
+.stone-face {
+  display: grid;
+  place-items: center;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background: var(--card);
+  border: 4px dashed color-mix(in srgb, var(--subject) 55%, white);
+  box-sizing: border-box;
+}
+.stone.learnt .stone-face {
+  background: var(--mint-soft);
+  border: 4px solid var(--mint);
+}
+.stone.open .stone-face {
+  width: 7rem;
+  height: 7rem;
+  border: 5px solid var(--accent);
+  box-shadow: 0 0 0 8px color-mix(in srgb, var(--accent) 20%, transparent);
+  animation: glow 2.4s ease-in-out infinite;
+}
+.stone-title {
+  font-family: var(--display);
+  font-size: 1rem;
+  line-height: 1.15;
+}
+.stone small {
+  font-family: 'Andika', sans-serif;
+  font-weight: 400;
+  color: var(--muted);
+}
+.stone-stars {
+  display: inline-flex;
+  gap: 0.1rem;
+}
+.stone-stars .star-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+@keyframes glow {
+  50% {
+    box-shadow: 0 0 0 14px color-mix(in srgb, var(--accent) 12%, transparent);
+  }
+}
+
+/* The sticker book: every sticker, the ones not earned yet faded, each saying how to earn it. */
+.sticker-book {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  gap: 0.9rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sticker {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 0.4rem;
+  min-height: 11rem;
+  padding: 0.8rem;
+  border-radius: var(--radius);
+  border: 3px dashed var(--line);
+  background: var(--sunken-soft);
+  text-align: center;
+}
+.sticker .emoji {
+  filter: grayscale(1);
+  opacity: 0.35;
+}
+.sticker.got {
+  border: 3px solid #ffe3a3;
+  background: #fffdf7;
+}
+.sticker.got .emoji {
+  filter: none;
+  opacity: 1;
+}
+.sticker span {
+  font-family: var(--display);
+  font-size: 1rem;
+  color: var(--ink);
+  line-height: 1.15;
+}
+.sticker small {
+  color: var(--muted);
+}
+
+@media (max-width: 600px) {
+  .hello .sunny {
+    width: 64px;
+    height: 64px;
+  }
+  .stones {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* Two columns: the stones simply follow each other. */
+  .stones li {
+    grid-row: auto !important;
+    grid-column: auto !important;
+  }
+  .goal {
+    top: auto;
+    bottom: 0.8rem;
+    left: 0.8rem;
+    right: auto;
+  }
+  .stickers-button {
+    bottom: auto;
+    top: 3.6rem;
+    left: 0.8rem;
+    right: auto;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .stone.open .stone-face {
+    animation: none;
+  }
+}
