@@ -1,14 +1,16 @@
 import { ArrowLeft, ArrowRight, Volume2 } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { earnedMinutes } from '@/app/access'
-import { activeChild, updateChild } from '@/app/state'
+import { activeChild, isoDate, updateChild } from '@/app/state'
+import { earnedIds, newStickers, type Sticker } from '@/app/stickers'
+import { stickerText } from '@/home/stickerText'
 import { useToday } from '@/shared/useToday'
 import { useStore } from '@/app/store'
 import { type Lang, useLang, useT } from '@/i18n'
 import { Emoji } from '@/shared/Emoji'
 import { speak, stopSpeaking, useCanSpeak } from '@/shared/speak'
 import { teachCard } from '@/skills/generate'
-import { bySubject, itemWords, skillById, skillLang, skillText } from '@/skills/index'
+import { bySubject, itemWords, skillById, SKILLS, skillLang, skillText } from '@/skills/index'
 import type { Choice, Item, SkillDef } from '@/skills/types'
 import { useSkills } from '@/skills/useSkills'
 import { NumberLine } from './NumberLine'
@@ -54,6 +56,8 @@ function LessonSession({ def, onClose }: { def: SkillDef; onClose: () => void })
   const [phase, setPhase] = useState<'teach' | 'items' | 'result'>('teach')
   const [index, setIndex] = useState(0)
   const [checks, setChecks] = useState<CheckAnswer[]>([])
+  /** Stickers this lesson earned (shown on the result). */
+  const [stickers, setStickers] = useState<Sticker[]>([])
   useEffect(() => stopSpeaking, [])
 
   const step = stepOf(index)
@@ -64,7 +68,10 @@ function LessonSession({ def, onClose }: { def: SkillDef; onClose: () => void })
   }
   const next = (all: CheckAnswer[]) => {
     if (index + 1 < session.items.length) return setIndex(index + 1)
-    update((s) => updateChild(s, child.id, (c) => finishSession(c, skill, all, new Date())))
+    const now = new Date()
+    const day = isoDate(now)
+    setStickers(newStickers(earnedIds(child, SKILLS, day), earnedIds(finishSession(child, skill, all, now), SKILLS, day)))
+    update((s) => updateChild(s, child.id, (c) => finishSession(c, skill, all, now)))
     setPhase('result')
   }
 
@@ -81,7 +88,7 @@ function LessonSession({ def, onClose }: { def: SkillDef; onClose: () => void })
       </header>
       {phase === 'teach' && <TeachCard def={def} lang={lang} onReady={() => setPhase('items')} />}
       {phase === 'items' && <Question key={index} skill={skill} item={session.items[index]} lang={lang} isCheck={step.kind === 'check'} onAnswered={answered} onNext={next} />}
-      {phase === 'result' && <Result skill={skill} checks={checks} onClose={onClose} />}
+      {phase === 'result' && <Result skill={skill} checks={checks} stickers={stickers} onClose={onClose} />}
     </main>
   )
 }
@@ -221,7 +228,7 @@ function Question({ skill, item, lang, isCheck, onAnswered, onNext }: { skill: s
 }
 
 /** The end of the session: mastered (a tree, and the memory game when games are allowed) or "let's practise again". */
-function Result({ skill, checks, onClose }: { skill: string; checks: CheckAnswer[]; onClose: () => void }) {
+function Result({ skill, checks, stickers, onClose }: { skill: string; checks: CheckAnswer[]; stickers: Sticker[]; onClose: () => void }) {
   const T = useT()
   const today = useToday()
   const lang = useLang()
@@ -260,6 +267,15 @@ function Result({ skill, checks, onClose }: { skill: string; checks: CheckAnswer
       <p>{T.lesson.score(right, CHECKS)}</p>
       <p>{mastered ? T.lesson.learntText(skillText(def, lang).title) : T.lesson.notYetText}</p>
       {mastered && upcomingDef && <p className="pill">{T.lesson.nextUp(skillText(upcomingDef, lang).title)}</p>}
+      {stickers.map((st) => (
+        <p key={st.id} className="new-sticker">
+          <Emoji name={st.emoji} size={72} />
+          <span>
+            <b>{T.lesson.newSticker}</b>
+            <small>{stickerText(T, st.rule)}</small>
+          </span>
+        </p>
+      ))}
       {gained > 0 && (
         <p className="earned-now">
           <Emoji name="clock" size={36} /> {T.access.earnedNow(gained)}
