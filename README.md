@@ -74,7 +74,8 @@ the day after a set number of passed lessons (2 at first). With Earn first, a pa
 
 ## For grown-ups
 
-- **One screen, behind a PIN:** a **learning report** per child (today, 7 days, 30 days: lessons, passed, checks
+- **Settings, behind a PIN:** a card per section, in the style of the Learn tab (picture, name, what it is set to
+  now; a card that needs a look has an amber ring). Inside: a **learning report** per child (today, 7 days, 30 days: lessons, passed, checks
   right, skills learnt, time per area, questions to practise again, Send by email), children, Off / Open / Earn first
   for every item, minutes per lesson and per day, language, voice, backup, the PIN, and **Update now**.
 - **PIN:** stored as a salted hash. A **recovery code** is shown once at setup, with a Print button, and the grown-up
@@ -121,7 +122,7 @@ Every push to `main` is checked, built and published to GitHub Pages by `.github
 | `src/skills/*.json` | One file per skill: its words in each language and its question maker |
 | `src/skills/generate.ts`, `numbers.ts`, `words.ts` | The question makers and teach cards |
 | `src/lesson/` | The session (teach, guided, checks) and its screen |
-| `src/parent/` | PIN, recovery code, the grown-ups' screen |
+| `src/parent/` | PIN, recovery code, Settings |
 | `src/skills/bank.ts` | Question banks (science, French, newer English skills); `scripts/bank-example.py` sets each bank's teach example |
 | `src/games/` | Memory, word builder, code breaker, picture puzzle, number slide, and the thinking games (levels in `levels.ts`) |
 | `src/media/` | Radio, stories, videos |

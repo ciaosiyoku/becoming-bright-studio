@@ -1,9 +1,9 @@
-import { ArrowLeft } from 'lucide-react'
-import { type ChangeEvent, useRef, useState } from 'react'
+import { ArrowLeft, ArrowRight } from 'lucide-react'
+import { type ChangeEvent, type CSSProperties, useRef, useState } from 'react'
 import { addChild, newChild, removeChild, updateChild } from '@/app/state'
 import { useStore } from '@/app/store'
 import { BackupError, backupDue, makeBackup, parseBackup, saveBackupFile } from '@/data/backup'
-import { useLang, useT } from '@/i18n'
+import { LANGS, useLang, useT } from '@/i18n'
 import { SKILLS, SUBJECT_EMOJI, SUBJECTS } from '@/skills/index'
 import type { Subject } from '@/skills/types'
 import { accessOf } from '@/app/access'
@@ -19,33 +19,106 @@ import { ChoosePin, RecoveryDetails } from './PinScreens'
 import { ReportCard } from './ReportCard'
 import './Parent.css'
 
-/** The grown-ups' screen (behind the PIN): each child's learning report, children, the games switch, backup, the PIN. */
+type Section = 'reports' | 'children' | 'access' | 'language' | 'voice' | 'sounds' | 'backup' | 'pin' | 'update'
+
+/** Each section's picture and colours (like the subject cards on the Learn tab). */
+const LOOK: Record<Section, { emoji: string; colour: string; soft: string }> = {
+  reports: { emoji: 'chart', colour: 'var(--sky)', soft: 'var(--sky-soft)' },
+  children: { emoji: 'girl', colour: 'var(--peach)', soft: 'var(--peach-soft)' },
+  access: { emoji: 'key', colour: 'var(--sun)', soft: 'var(--amber-soft)' },
+  language: { emoji: 'globe', colour: 'var(--mint)', soft: 'var(--mint-soft)' },
+  voice: { emoji: 'speech', colour: 'var(--lilac)', soft: 'var(--lilac-soft)' },
+  sounds: { emoji: 'music', colour: 'var(--accent)', soft: 'var(--accent-soft)' },
+  backup: { emoji: 'memo', colour: 'var(--peach)', soft: 'var(--peach-soft)' },
+  pin: { emoji: 'locked', colour: 'var(--red)', soft: 'var(--red-soft)' },
+  update: { emoji: 'sparkles', colour: 'var(--sky)', soft: 'var(--sky-soft)' },
+}
+const ORDER: Section[] = ['reports', 'children', 'access', 'language', 'voice', 'sounds', 'backup', 'pin', 'update']
+
+/**
+ * Settings (behind the PIN), in the style of the Learn tab: one card per section, each with its picture, name and
+ * what it is set to now; a card opens its section, and Back goes to the cards, then out. A section that needs a
+ * look (a backup is due, the recovery details are missing) has an amber ring.
+ */
 export function Parent({ onClose }: { onClose: () => void }) {
   const T = useT()
+  const lang = useLang()
   const { state } = useStore()
+  const [open, setOpen] = useState<Section | null>(null)
+  const [now] = useState(Date.now)
+  const top = useRef<HTMLElement>(null)
+  const go = (section: Section | null) => {
+    setOpen(section)
+    top.current?.scrollTo({ top: 0 })
+  }
+  const f = state.family
+  const title: Record<Section, string> = {
+    reports: T.parent.reports,
+    children: T.parent.children,
+    access: T.parent.accessTitle,
+    language: T.language.label,
+    voice: T.parent.voice,
+    sounds: T.parent.soundsTitle,
+    backup: T.parent.backup,
+    pin: T.parent.security,
+    update: T.parent.updateTitle,
+  }
+  const status: Record<Section, string> = {
+    reports: state.children.map((c) => c.name || '?').join(', '),
+    children: state.children.map((c) => c.name || '?').join(', '),
+    access: T.parent.earnShort(f.rewards.minutesPerLesson, f.rewards.maxPerDay),
+    language: LANGS.find((l) => l.id === lang)?.name ?? '',
+    voice: f.voice === 'off' ? T.parent.voiceOff : VOICE_NAMES[f.voice],
+    sounds: `${T.parent.sounds}: ${f.sounds ? T.common.on : T.common.off}`,
+    backup: state.lastBackupAt ? T.parent.lastBackup(new Date(state.lastBackupAt).toLocaleDateString()) : T.parent.never,
+    pin: !f.recoveryEmail || !f.secretWord ? T.recovery.detailsMissing : '',
+    update: T.parent.version(runningVersion()),
+  }
+  const due: Partial<Record<Section, boolean>> = { backup: backupDue(state, now), pin: !f.recoveryEmail || !f.secretWord }
+  const look = (s: Section) => ({ '--subject': LOOK[s].colour, '--subject-soft': LOOK[s].soft }) as CSSProperties
   return (
-    <main className="parent">
-      <header className="parent-top">
-        <button className="secondary" onClick={onClose}>
-          <ArrowLeft /> {T.common.back}
+    <main className="parent" ref={top}>
+      <header className="settings-top">
+        <button className="secondary round" onClick={() => (open ? go(null) : onClose())} aria-label={T.common.back}>
+          <ArrowLeft />
         </button>
-        <h1>{T.parent.title}</h1>
+        {open && (
+          <span className="settings-icon small" style={look(open)}>
+            <Emoji name={LOOK[open].emoji} size={36} />
+          </span>
+        )}
+        <h1>{open ? title[open] : T.parent.title}</h1>
       </header>
-      {state.children.map((c) => (
-        <ReportCard key={c.id} child={c} />
-      ))}
-      <ChildrenCard />
-      <AccessCard />
-      <section className="card parent-card">
-        <h2>{T.language.label}</h2>
-        <p className="muted">{T.language.note}</p>
-        <LanguagePicker />
-      </section>
-      <VoiceCard />
-      <SoundsCard />
-      <BackupCard />
-      <PinCard />
-      <UpdateCard />
+      {!open && (
+        <div className="settings-list">
+          {ORDER.map((s) => (
+            <button key={s} className={`settings-tile ${due[s] ? 'due' : ''}`} style={look(s)} onClick={() => go(s)}>
+              <span className="settings-icon">
+                <Emoji name={LOOK[s].emoji} size={48} />
+              </span>
+              <span className="settings-text">
+                <b>{title[s]}</b>
+                {status[s] && <small>{status[s]}</small>}
+              </span>
+              <ArrowRight className="settings-arrow" />
+            </button>
+          ))}
+        </div>
+      )}
+      {open === 'reports' && state.children.map((c) => <ReportCard key={c.id} child={c} />)}
+      {open === 'children' && <ChildrenCard />}
+      {open === 'access' && <AccessCard />}
+      {open === 'language' && (
+        <section className="card parent-card">
+          <p className="muted">{T.language.note}</p>
+          <LanguagePicker />
+        </section>
+      )}
+      {open === 'voice' && <VoiceCard />}
+      {open === 'sounds' && <SoundsCard />}
+      {open === 'backup' && <BackupCard />}
+      {open === 'pin' && <PinCard />}
+      {open === 'update' && <UpdateCard />}
     </main>
   )
 }
@@ -57,7 +130,6 @@ function ChildrenCard() {
   const [adding, setAdding] = useState(false)
   return (
     <section className="card parent-card">
-      <h2>{T.parent.children}</h2>
       <p className="muted">{T.parent.childrenNote}</p>
       <ul className="child-list">
         {state.children.map((c) => (
@@ -105,7 +177,6 @@ function AccessCard() {
   const setSubject = (subject: Subject, value: Access) => update((s) => ({ ...s, family: { ...s.family, subjects: { ...s.family.subjects, [subject]: value } } }))
   return (
     <section className="card parent-card">
-      <h2>{T.parent.accessTitle}</h2>
       <p className="muted">{T.parent.accessNote}</p>
       <table className="access">
         <tbody>
@@ -189,7 +260,6 @@ function VoiceCard() {
   const label = (o: VoiceOption) => (o === 'off' ? T.parent.voiceOff : VOICE_NAMES[o])
   return (
     <section className="card parent-card">
-      <h2>{T.parent.voice}</h2>
       <p className="muted">{T.parent.voiceNote}</p>
       <div className="row">
         {VOICE_OPTIONS.map((o) => (
@@ -221,7 +291,6 @@ function SoundsCard() {
   const set = (sounds: boolean) => update((s) => ({ ...s, family: { ...s.family, sounds } }))
   return (
     <section className="card parent-card">
-      <h2>{T.parent.sounds}</h2>
       <p className="muted">{T.parent.soundsNote}</p>
       <div className="row">
         {[true, false].map((value) => (
@@ -283,7 +352,6 @@ function BackupCard() {
   }
   return (
     <section className={`card parent-card ${backupDue(state, now) ? 'due' : ''}`}>
-      <h2>{T.parent.backup}</h2>
       <p className="muted">{T.parent.backupNote}</p>
       <p>{state.lastBackupAt ? T.parent.lastBackup(new Date(state.lastBackupAt).toLocaleDateString()) : T.parent.never}</p>
       <div className="row">
@@ -309,7 +377,6 @@ function UpdateCard() {
   }
   return (
     <section className="card parent-card">
-      <h2>{T.parent.updateTitle}</h2>
       <p className="muted">{T.parent.updateNote}</p>
       <p>{T.parent.version(runningVersion())}</p>
       <div className="row">
@@ -333,7 +400,6 @@ function PinCard() {
   const missing = !state.family.recoveryEmail || !state.family.secretWord
   return (
     <section className={`card parent-card ${missing ? 'due' : ''}`}>
-      <h2>{T.parent.security}</h2>
       {missing && <p>{T.recovery.detailsMissing}</p>}
       <div className="row">
         <button className="secondary" onClick={() => setChanging(true)}>

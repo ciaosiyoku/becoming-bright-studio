@@ -8,11 +8,6 @@
   max-width: 64rem;
   margin: 0 auto;
 }
-.parent-top {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
 .parent-card {
   display: grid;
   gap: 0.6rem;
@@ -146,7 +141,7 @@ button.round {
   justify-self: start;
 }
 
-/* A reading-voice choice, with the name of the device voice that reads it. */
+/* A reading-voice choice: Mary or Barry, with female or male under the name. */
 .voice-option {
   flex-direction: column;
   gap: 0.1rem;
@@ -157,4 +152,71 @@ button.round {
   font-weight: 400;
   font-size: 0.75rem;
   opacity: 0.85;
+}
+
+/* Settings, in the style of the Learn tab: a card per section (picture, name, what it is set to), then the section. */
+.settings-top {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.settings-top h1 {
+  font-size: 1.7rem;
+}
+.settings-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 0.8rem;
+}
+.settings-tile {
+  justify-content: flex-start;
+  gap: 0.9rem;
+  min-height: 5.5rem;
+  padding: 0.6rem 1rem 0.6rem 0.6rem;
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  text-align: left;
+}
+.settings-tile.due {
+  box-shadow: 0 0 0 3px var(--amber), var(--shadow);
+}
+.settings-icon {
+  display: grid;
+  place-items: center;
+  width: 4.4rem;
+  height: 4.4rem;
+  flex-shrink: 0;
+  border-radius: var(--radius-s);
+  background: var(--subject-soft);
+}
+.settings-icon.small {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+.settings-text {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  gap: 0.25rem;
+}
+.settings-text b {
+  font-family: var(--display);
+  font-size: 1.25rem;
+}
+.settings-text small {
+  font-family: 'Andika', sans-serif;
+  font-weight: 400;
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.settings-tile.due small {
+  color: var(--amber);
+}
+.settings-arrow {
+  flex-shrink: 0;
+  color: var(--subject);
 }
