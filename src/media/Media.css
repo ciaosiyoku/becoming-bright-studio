@@ -445,3 +445,9 @@
 .story-card .story-text {
   cursor: pointer;
 }
+
+/* The stories' languages, under the age ranges. */
+.listen .story-langs button {
+  min-height: 2.8rem;
+  padding: 0 1rem;
+}

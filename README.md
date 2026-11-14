@@ -81,7 +81,7 @@ one right answer** in every language shipped.
 | Tab | Items |
 |---|---|
 | **Games** | Memory, Word builder, Code breaker, Picture puzzle, Number slide, and thinking games with levels: Mini sudoku, Tower of Hanoi, Repeat the pattern, Picture logic |
-| **Listen and watch** | Children's radio (live: Die Maus, Fun Kids, Mon Petit France Inter, Babyradio, Kids FM 101.7 Lagos from Nigeria and Radio Nursery from Canada), Stories (at least 50 per age range, LibriVox, public domain), **Fables** (50 per age range, read aloud by Mary or Barry, each with its lesson to think about first), Videos (a checked library from official channels) |
+| **Listen and watch** | Children's radio (live: Die Maus, Fun Kids, Mon Petit France Inter, Babyradio, Kids FM 101.7 Lagos from Nigeria and Radio Nursery from Canada), Stories (at least 50 per age range, LibriVox, public domain; sorted by age range and language, each opening on its own page with the previous and next story), **Fables** (50 per age range, read aloud by Mary or Barry, each with its lesson to think about first), Videos (a checked library from official channels) |
 | **Explore** | Places of the world (real photos with credits), 500 Whys, Did you know? |
 
 The grown-ups set each subject and each item to **Off**, **Open** or **Earn first**. An earn-first subject opens for

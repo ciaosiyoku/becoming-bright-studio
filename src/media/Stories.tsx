@@ -10,14 +10,20 @@ import { scenesOf, storyScene } from './scenes'
 import type { Track } from './sources'
 import { loadStoryText, paragraphAt, paragraphStarts } from './storyText'
 import { Stage } from './Stage'
-import { STORIES } from './storyList'
+import { STORIES, type StoryCollection } from './storyList'
 import { useAudio } from './useAudio'
 import './Media.css'
 
 const RATES = [0.75, 0.9, 1] as const
 
+type StoryLang = StoryCollection['lang']
+/** The stories' languages, each in its own words (the same in every app language). */
+const STORY_LANGS: StoryLang[] = ['en', 'de', 'fr']
+const LANG_NAMES: Record<StoryLang, string> = { en: 'English', de: 'Deutsch', fr: 'Français' }
+
 /**
- * Stories read aloud (LibriVox, public domain), by age range. Every story stands alone: one card each, with its
+ * Stories read aloud (LibriVox, public domain), by age range and by language (English, German, French; the app
+ * language first when the age range has stories in it). Every story stands alone: one card each, with its
  * whole title, the book it comes from, and a tick once it has been heard to the end. Tapping a story opens its own
  * page, where it plays like the fables (an animated scene for the part being read, with its words; storyText.ts), with
  * buttons for the previous or next story and back to all stories. The recording keeps playing on the list.
@@ -30,10 +36,12 @@ export function Stories() {
   const heard = new Set(child?.heard ?? [])
   const [band, setBand] = useState<AgeBand>(child?.age ? bandOf(child.age) : '6-7')
   const p = useAudio((id) => child && update((s) => updateChild(s, child.id, (c) => ({ ...c, heard: withId(c.heard, id) }))))
-  // Books in the app language first, then each book's stories in order.
-  const stories = STORIES.filter((c) => c.band === band)
-    .sort((a, b) => Number(b.lang === lang) - Number(a.lang === lang))
-    .flatMap((book) => book.tracks.map((track) => ({ book, track })))
+  // The languages this age range has stories in; the app language first chosen when there are some in it.
+  const langs = STORY_LANGS.filter((l) => STORIES.some((c) => c.band === band && c.lang === l))
+  const [picked, setPicked] = useState<StoryLang | null>(null)
+  const storyLang: StoryLang = picked && langs.includes(picked) ? picked : langs.includes(lang as StoryLang) ? (lang as StoryLang) : langs[0]
+  // The books of that age range and language, each book's stories in order.
+  const stories = STORIES.filter((c) => c.band === band && c.lang === storyLang).flatMap((book) => book.tracks.map((track) => ({ book, track })))
   const done = stories.filter((s) => heard.has(s.track.id)).length
   // The story open on its own page (index in the list), or null for the list.
   const [open, setOpen] = useState<number | null>(null)
@@ -75,6 +83,15 @@ export function Stories() {
         ))}
         <span className="pill">{T.listen.heardOf(done, stories.length)}</span>
       </div>
+      {langs.length > 1 && (
+        <div className="shelf-tabs story-langs" role="radiogroup" aria-label={T.language.label}>
+          {langs.map((l) => (
+            <button key={l} role="radio" aria-checked={l === storyLang} className={l === storyLang ? '' : 'secondary'} onClick={() => setPicked(l)}>
+              {LANG_NAMES[l]}
+            </button>
+          ))}
+        </div>
+      )}
       <div className="story-speed" role="radiogroup" aria-label={T.listen.speed}>
         <span>{T.listen.speed}</span>
         {RATES.map((r) => (
