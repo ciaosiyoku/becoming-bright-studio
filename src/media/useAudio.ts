@@ -78,9 +78,16 @@ export function useAudio(onFinished?: (id: string) => void) {
     setId(null)
     setState('idle')
   }
+  /** Jumps to a time in the recording (seconds). */
+  const seek = (t: number) => {
+    const a = ref.current
+    if (!a || !Number.isFinite(a.duration)) return
+    a.currentTime = Math.max(0, Math.min(a.duration - 1, t))
+    setTime(a.currentTime)
+  }
   const setRate = (r: number) => {
     setRateState(r)
     if (ref.current) ref.current.playbackRate = r
   }
-  return { id, state, time, duration, rate, play, toggle, stop, setRate }
+  return { id, state, time, duration, rate, play, toggle, stop, seek, setRate }
 }

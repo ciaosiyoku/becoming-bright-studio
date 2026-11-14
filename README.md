@@ -97,8 +97,14 @@ Stories*). Each fable plays as a **little animated film**: one scene per paragra
 stage that shows the place it describes (running, hopping, flying, swimming, falling, sleeping), while Mary or Barry
 reads it and the word being read lights up. Pause, go back or skip at any time; without a voice the scenes move on at
 reading pace. Then the child thinks and taps **What is the lesson?** The scenes are made from the words
-(`src/media/scenes.ts`), so every fable is animated, including new ones. They are in English. While a **story**
-plays, a small animated scene from its title moves along with it.
+(`src/media/scenes.ts`), so every fable is animated, including new ones. They are in English.
+
+**Stories play like the fables,** read by their human LibriVox readers: while a recording plays, the scene for the
+part being read is on the stage and its words are shown underneath, with buttons to jump to the part before or after.
+The words are the books' public-domain texts from Project Gutenberg (`public/stories/`, one file per book), matched to
+177 of the 272 recordings; where the time falls in the text is estimated from the paragraphs' lengths, so a scene can
+change a few seconds early or late. Recordings without a matching text (Uncle Wiggily on the Farm, Thirty More Famous
+Stories Retold, most of the German tales) show one scene made from their title.
 
 ## Settings (for grown-ups)
 
@@ -152,7 +158,8 @@ Every push to `main` is checked, built and published to GitHub Pages by `.github
 | `src/parent/` | PIN, recovery code, Settings |
 | `src/skills/bank.ts` | Question banks (science, French, newer English skills); `scripts/bank-example.py` sets each bank's teach example |
 | `src/games/` | Memory, word builder, code breaker, picture puzzle, number slide, and the thinking games (levels in `levels.ts`) |
-| `src/media/` | Radio, stories, fables (`fables/`, one file per age range), the animated scenes (`scenes.ts`, `Stage.tsx`), videos |
+| `src/media/` | Radio, stories, fables (`fables/`, one file per age range), the animated scenes (`scenes.ts`, `Stage.tsx`), the story texts' timing (`storyText.ts`), videos |
+| `public/stories/` | The story recordings' texts (Project Gutenberg, public domain), one file per book |
 | `src/explore/` | Places of the world, 500 Whys, Did you know? |
 | `src/home/`, `src/app/stickers.ts` | The Learn tab: Sunny, today's goal, the garden, subject cards, the skill path; the 100 stickers |
 | `src/skills/ages.ts` | Age ranges; `ages.test.ts` checks 300 questions per subject and range |
@@ -171,4 +178,4 @@ child-facing sentence aloud first.
 Code: [MIT](LICENSE), based on Kids' Learning Studio by Oluwasedago. Logo: original, drawn by
 `scripts/make-brand.mjs` ([brand/](brand/README.md)). Pictures: [Microsoft Fluent Emoji](public/emoji/CREDITS.md)
 (MIT). Place photos: Wikimedia Commons, free licences ([credits](public/photos/CREDITS.md)). Stories: LibriVox
-(public domain). Fables: public-domain tales, retold in our own words. Fonts: Andika and Fredoka (SIL Open Font License).
+(public domain). Fables: public-domain tales, retold in our own words. Story texts: Project Gutenberg (public domain). Fonts: Andika and Fredoka (SIL Open Font License).

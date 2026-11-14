@@ -9,7 +9,8 @@
 //   - Kids FM 101.7 Lagos (Nigeria) and Radio Nursery (Canada), in English: see below.
 //   A US station (Kids Public Radio, ad-free) was checked but only streams over http://, which browsers block
 //   inside an https:// app.
-// Stories — LibriVox recordings of public-domain children's books, by age range: see storyList.ts.
+// Stories — LibriVox recordings of public-domain children's books, by age range: see storyList.ts. Their words, for
+//   the story film: public/stories (Project Gutenberg texts; see storyText.ts).
 
 export interface Station {
   id: string
