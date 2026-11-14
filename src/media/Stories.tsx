@@ -6,6 +6,8 @@ import { useLang, useT } from '@/i18n'
 import { AGE_BANDS, type AgeBand, bandOf } from '@/skills/ages'
 import { clock } from '@/shared/clock'
 import { Emoji } from '@/shared/Emoji'
+import { storyScene } from './scenes'
+import { Stage } from './Stage'
 import { STORIES } from './storyList'
 import { useAudio } from './useAudio'
 import './Media.css'
@@ -14,7 +16,8 @@ const RATES = [0.75, 0.9, 1] as const
 
 /**
  * Stories read aloud (LibriVox, public domain), by age range. Every story stands alone: one card each, with its
- * whole title, the book it comes from, and a tick once it has been heard to the end.
+ * whole title, the book it comes from, and a tick once it has been heard to the end. While one plays, a little animated
+ * scene from its title moves along with it at the top (still while paused).
  */
 export function Stories() {
   const T = useT()
@@ -29,8 +32,26 @@ export function Stories() {
     .sort((a, b) => Number(b.lang === lang) - Number(a.lang === lang))
     .flatMap((book) => book.tracks.map((track) => ({ book, track })))
   const done = stories.filter((s) => heard.has(s.track.id)).length
+  const now = stories.find((s) => s.track.id === p.id)
   return (
     <div className="listen">
+      {now && (
+        <section className="card story-stage">
+          <Stage scene={storyScene(now.track.title, now.book.emoji)} playing={p.state === 'playing'} />
+          <div className="story-now">
+            <button className="story-play" onClick={() => p.toggle()} aria-label={p.state === 'playing' ? T.listen.pause : T.listen.play}>
+              {p.state === 'playing' ? <Pause /> : <Play />}
+            </button>
+            <span className="story-text">
+              <b className="story-title">{now.track.title}</b>
+              <small className="muted">{p.state === 'error' ? T.listen.error : p.state === 'loading' ? T.listen.loading : p.duration ? `${clock(p.time)} / ${clock(p.duration)}` : ''}</small>
+            </span>
+          </div>
+          <span className="story-progress" aria-hidden="true">
+            <i style={{ width: `${p.duration ? Math.min(100, (p.time / p.duration) * 100) : 0}%` }} />
+          </span>
+        </section>
+      )}
       <div className="shelf-tabs" role="radiogroup">
         {AGE_BANDS.map((b) => (
           <button key={b} role="radio" aria-checked={b === band} className={b === band ? '' : 'secondary'} onClick={() => setBand(b)}>

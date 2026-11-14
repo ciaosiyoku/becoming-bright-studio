@@ -293,6 +293,9 @@ export const en = {
     all: 'All',
   },
   fables: {
+    previous: 'Previous scene',
+    skip: 'Next scene',
+    again: 'Watch again',
     lesson: 'What is the lesson?',
     another: 'Another fable',
     read: 'Read',

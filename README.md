@@ -93,7 +93,12 @@ tales from India; Anansi stories from Ghana; tales from Nigeria and West Africa;
 Christian Andersen; tales from Russia, China and Japan; folk tales such as *The Three Little Pigs*), retold for this
 app in our own words. They get longer and richer with each age range: very short ones for ages 4–5 (*The Tortoise and the
 Hare*, *The Lion and the Mouse*), up to fables to discuss for ages 10–12 (*The Lion-Makers*, *How Anansi Brought the
-Stories*). The child hears or reads the fable, thinks, then taps **What is the lesson?** They are in English.
+Stories*). Each fable plays as a **little animated film**: one scene per paragraph, the animals it names moving on a
+stage that shows the place it describes (running, hopping, flying, swimming, falling, sleeping), while Mary or Barry
+reads it and the word being read lights up. Pause, go back or skip at any time; without a voice the scenes move on at
+reading pace. Then the child thinks and taps **What is the lesson?** The scenes are made from the words
+(`src/media/scenes.ts`), so every fable is animated, including new ones. They are in English. While a **story**
+plays, a small animated scene from its title moves along with it.
 
 ## Settings (for grown-ups)
 
@@ -147,7 +152,7 @@ Every push to `main` is checked, built and published to GitHub Pages by `.github
 | `src/parent/` | PIN, recovery code, Settings |
 | `src/skills/bank.ts` | Question banks (science, French, newer English skills); `scripts/bank-example.py` sets each bank's teach example |
 | `src/games/` | Memory, word builder, code breaker, picture puzzle, number slide, and the thinking games (levels in `levels.ts`) |
-| `src/media/` | Radio, stories, fables (`fables/`, one file per age range), videos |
+| `src/media/` | Radio, stories, fables (`fables/`, one file per age range), the animated scenes (`scenes.ts`, `Stage.tsx`), videos |
 | `src/explore/` | Places of the world, 500 Whys, Did you know? |
 | `src/home/`, `src/app/stickers.ts` | The Learn tab: Sunny, today's goal, the garden, subject cards, the skill path; the 100 stickers |
 | `src/skills/ages.ts` | Age ranges; `ages.test.ts` checks 300 questions per subject and range |

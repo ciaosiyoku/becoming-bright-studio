@@ -296,6 +296,9 @@ export const yo: Strings = {
     all: 'Gbogbo rẹ̀',
   },
   fables: {
+    previous: 'Ìran tó ṣáájú',
+    skip: 'Ìran tó kàn',
+    again: 'Wò ó lẹ́ẹ̀kan sí i',
     lesson: 'Kí ni ẹ̀kọ́ rẹ̀?',
     another: 'Ìtàn míì',
     read: 'A ti kà á',

@@ -121,7 +121,7 @@ export function pickVoice<V extends VoiceLike>(voices: V[], lang: Lang, choice: 
 export function speak(text: string, lang: Lang) {
   const picked = pickVoice(voicesOf(lang), lang, option)
   if (!picked) return
-  speechSynthesis.cancel()
+  stopSpeaking()
   const u = new SpeechSynthesisUtterance(text)
   u.voice = picked.voice
   u.lang = picked.voice.lang
@@ -130,8 +130,37 @@ export function speak(text: string, lang: Lang) {
   speechSynthesis.speak(u)
 }
 
+// Each new reading gets a number, so the end of a reading that was stopped is not mistaken for a finished one.
+let reading = 0
+
 export const stopSpeaking = () => {
+  reading++
   if ('speechSynthesis' in globalThis) speechSynthesis.cancel()
+}
+
+/**
+ * Reads a text aloud and reports along the way: `onWord` with the character reached (to light up the word being read,
+ * where the browser tells), `onEnd` once it has been read to the end (not when it was stopped). False when nothing can
+ * read it (reading aloud off, or no voice for the language).
+ */
+export function speakAlong(text: string, lang: Lang, on: { onWord?: (charIndex: number) => void; onEnd?: () => void }): boolean {
+  const picked = pickVoice(voicesOf(lang), lang, option)
+  if (!picked) return false
+  stopSpeaking()
+  const mine = ++reading
+  const u = new SpeechSynthesisUtterance(text)
+  u.voice = picked.voice
+  u.lang = picked.voice.lang
+  u.rate = picked.rate
+  u.pitch = picked.pitch
+  u.onboundary = (e) => {
+    if (mine === reading && e.name !== 'sentence') on.onWord?.(e.charIndex)
+  }
+  u.onend = () => {
+    if (mine === reading) on.onEnd?.()
+  }
+  speechSynthesis.speak(u)
+  return true
 }
 
 /** The voices of a language, updated when the browser has loaded them (they often arrive after the page). */

@@ -1,17 +1,20 @@
-import { ArrowLeft, ArrowRight, Check, Volume2 } from 'lucide-react'
-import { useEffect, useState } from 'react'
+import { ArrowLeft, ArrowRight, Check, Pause, Play, RotateCcw, SkipBack, SkipForward } from 'lucide-react'
+import { useEffect, useMemo, useState } from 'react'
 import { activeChild, updateChild, withId } from '@/app/state'
 import { useStore } from '@/app/store'
 import { useLang, useT } from '@/i18n'
 import { AGE_BANDS, type AgeBand, bandOf } from '@/skills/ages'
 import { Emoji } from '@/shared/Emoji'
-import { speak, stopSpeaking, useCanSpeak } from '@/shared/speak'
+import { speakAlong, stopSpeaking } from '@/shared/speak'
 import { type Fable, FABLES, fableKey } from './fables'
+import { type Scene, scenesOf, wordAt, wordsOf } from './scenes'
+import { Stage } from './Stage'
 import './Media.css'
 
 /**
- * Fables: 50 for each age range (media/fables). The child picks one, hears or reads it, thinks about what it teaches,
- * then turns over the lesson. A fable counts as read once its lesson has been shown. In English, read by Mary or Barry.
+ * Fables: 50 for each age range (media/fables). The child picks one and watches it as a little animated film, read by
+ * Mary or Barry, thinks about what it teaches, then turns over the lesson. A fable counts as read once its lesson has
+ * been shown. In English.
  */
 export function Fables() {
   const T = useT()
@@ -54,48 +57,105 @@ export function Fables() {
   )
 }
 
-/** One fable: the story (read aloud on a tap), then "What is the lesson?", then the lesson. */
+/**
+ * One fable as a little animated film: scene by scene (media/scenes.ts), each scene read aloud by Mary or Barry with
+ * the word being read lit up, then on to the next by itself. Pause, go back or skip at any time. Without a voice the
+ * scenes still move on, at reading pace. At the end: "What is the lesson?", then the lesson.
+ */
 function FableCard({ fable, onBack, onNext }: { fable: Fable; onBack: () => void; onNext: () => void }) {
   const T = useT()
-  const speaks = useCanSpeak('en')
   const { state, update } = useStore()
   const child = activeChild(state)
+  const scenes = useMemo(() => scenesOf(fable.text, fable.emoji), [fable])
+  const [at, setAt] = useState(0)
+  const [playing, setPlaying] = useState(true)
+  const [word, setWord] = useState(-1)
   const [shown, setShown] = useState(false)
-  const story = `${fable.title}. ${fable.text.join(' ')}`
+  const done = at >= scenes.length
+  const scene = scenes[Math.min(at, scenes.length - 1)]
+  const words = useMemo(() => wordsOf(scene.text), [scene])
+  // Read the scene, then go on to the next (the title is read before the first scene).
+  useEffect(() => {
+    if (!playing || done) return
+    const intro = at === 0 ? `${fable.title}. ` : ''
+    const next = () => {
+      setWord(-1)
+      setAt((a) => a + 1)
+    }
+    const spoken = speakAlong(intro + scene.text, 'en', { onWord: (c) => setWord(wordAt(words, c - intro.length)), onEnd: next })
+    if (spoken) return stopSpeaking
+    // No voice: move on at reading pace.
+    const timer = setTimeout(next, 1500 + words.length * 420)
+    return () => clearTimeout(timer)
+  }, [at, playing, done, scene, words, fable.title])
   useEffect(() => stopSpeaking, [])
-  const hear = () => speak(shown ? `${story} ${fable.moral}` : story, 'en')
+  const go = (to: number) => {
+    stopSpeaking()
+    setWord(-1)
+    setAt(Math.max(0, Math.min(scenes.length, to)))
+    setPlaying(true)
+  }
   const lesson = () => {
     setShown(true)
     if (child) update((s) => updateChild(s, child.id, (c) => ({ ...c, heard: withId(c.heard, fableKey(fable)) })))
-    speak(fable.moral, 'en')
+    speakAlong(fable.moral, 'en', {})
   }
+  const ending: Scene = { cast: [scenes[scenes.length - 1].cast[0], 'glowstar'], backdrop: 'sky', action: 'hop', text: fable.moral }
   return (
     <div className="listen">
       <article className="card fable-card" lang="en">
-        <Emoji name={fable.emoji} size={110} />
         <h2>{fable.title}</h2>
-        <small className="muted">{T.fables.from[fable.from]}</small>
-        {fable.text.map((p, i) => (
-          <p key={i}>{p}</p>
-        ))}
-        {shown ? (
-          <p className="fable-moral">
-            <Emoji name="glowstar" size={32} /> <span>{fable.moral}</span>
+        <Stage scene={done ? ending : scene} playing={playing || done} big />
+        {!done && (
+          <p className="fable-words">
+            {words.map((w, i) => (
+              <span key={i} className={i === word ? 'on' : ''}>
+                {w.word}{' '}
+              </span>
+            ))}
           </p>
-        ) : (
-          <button className="big" onClick={lesson}>
-            {T.fables.lesson}
-          </button>
         )}
+        {done &&
+          (shown ? (
+            <p className="fable-moral">
+              <Emoji name="glowstar" size={32} /> <span>{fable.moral}</span>
+            </p>
+          ) : (
+            <button className="big" onClick={lesson}>
+              {T.fables.lesson}
+            </button>
+          ))}
+        <div className="scene-dots" aria-hidden="true">
+          {scenes.map((_, i) => (
+            <i key={i} className={i === at ? 'on' : i < at ? 'seen' : ''} />
+          ))}
+        </div>
         <div className="row">
           <button className="secondary" onClick={onBack} aria-label={T.common.back}>
             <ArrowLeft />
           </button>
-          {speaks && (
-            <button className="secondary" onClick={hear}>
-              <Volume2 /> {T.lesson.hear}
+          <button className="secondary round" onClick={() => go(at - 1)} disabled={at === 0} aria-label={T.fables.previous}>
+            <SkipBack />
+          </button>
+          {done ? (
+            <button className="secondary" onClick={() => go(0)}>
+              <RotateCcw /> {T.fables.again}
+            </button>
+          ) : (
+            <button
+              className="secondary"
+              onClick={() => {
+                if (playing) stopSpeaking()
+                setWord(-1)
+                setPlaying(!playing)
+              }}
+            >
+              {playing ? <Pause /> : <Play />} {playing ? T.listen.pause : T.listen.play}
             </button>
           )}
+          <button className="secondary round" onClick={() => go(at + 1)} disabled={done} aria-label={T.fables.skip}>
+            <SkipForward />
+          </button>
           <button className={shown ? 'big' : 'secondary'} onClick={onNext}>
             {T.fables.another} <ArrowRight />
           </button>

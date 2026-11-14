@@ -295,6 +295,9 @@ export const fr: Strings = {
     all: 'Tout',
   },
   fables: {
+    previous: 'Scène précédente',
+    skip: 'Scène suivante',
+    again: 'Revoir',
     lesson: 'Quelle est la morale ?',
     another: 'Une autre fable',
     read: 'Lue',

@@ -330,3 +330,56 @@
   justify-content: center;
   gap: 0.6rem;
 }
+
+/* The fable film: the words of the scene, the word being read lit up, and dots for the scenes. */
+.fable-words {
+  min-height: 4.5em;
+}
+.fable-words span {
+  border-radius: 6px;
+  transition: background 0.15s;
+}
+.fable-words span.on {
+  background: var(--sun);
+  color: var(--ink);
+}
+.scene-dots {
+  display: flex;
+  gap: 0.45rem;
+}
+.scene-dots i {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background: var(--sunken);
+}
+.scene-dots i.seen {
+  background: var(--accent-soft);
+}
+.scene-dots i.on {
+  background: var(--accent);
+}
+/* The story playing: its scene, title, time and progress, at the top of the Stories list. */
+.story-stage {
+  display: grid;
+  gap: 0.7rem;
+  margin-bottom: 0.8rem;
+}
+.story-now {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.story-progress {
+  display: block;
+  height: 0.6rem;
+  border-radius: 999px;
+  background: var(--sunken);
+  overflow: hidden;
+}
+.story-progress i {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  border-radius: 999px;
+}
