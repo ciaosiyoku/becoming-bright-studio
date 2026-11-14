@@ -246,6 +246,11 @@ export const de: Strings = {
     logic: 'Finde die Regel, füll die Lücke',
   },
   listen: {
+    allStories: 'Alle Geschichten',
+    previousStory: 'Vorige Geschichte',
+    nextStory: 'Nächste Geschichte',
+    storyOf: (n: number, of: number) => `Geschichte ${n} von ${of}`,
+    openStory: (title: string) => `${title} öffnen`,
     speed: 'Tempo',
     speeds: { slow: 'Langsam', slower: 'Etwas langsamer', normal: 'Normal' },
     play: 'Abspielen',

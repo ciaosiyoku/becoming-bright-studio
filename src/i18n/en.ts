@@ -244,6 +244,11 @@ export const en = {
     logic: 'Find the rule, fill the gap',
   },
   listen: {
+    allStories: 'All stories',
+    previousStory: 'Previous story',
+    nextStory: 'Next story',
+    storyOf: (n: number, of: number) => `story ${n} of ${of}`,
+    openStory: (title: string) => `Open ${title}`,
     speed: 'Speed',
     speeds: { slow: 'Slow', slower: 'A bit slower', normal: 'Normal' },
     play: 'Play',

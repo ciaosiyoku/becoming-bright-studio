@@ -1,4 +1,4 @@
-import { Check, Pause, Play, SkipBack, SkipForward } from 'lucide-react'
+import { ArrowLeft, BookOpen, Check, ChevronLeft, ChevronRight, Pause, Play, SkipBack, SkipForward } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import { activeChild, updateChild, withId } from '@/app/state'
 import { useStore } from '@/app/store'
@@ -18,8 +18,9 @@ const RATES = [0.75, 0.9, 1] as const
 
 /**
  * Stories read aloud (LibriVox, public domain), by age range. Every story stands alone: one card each, with its
- * whole title, the book it comes from, and a tick once it has been heard to the end. While one plays, it plays like
- * the fables at the top: an animated scene for the part being read, with its words lit up (storyText.ts).
+ * whole title, the book it comes from, and a tick once it has been heard to the end. Tapping a story opens its own
+ * page, where it plays like the fables (an animated scene for the part being read, with its words; storyText.ts), with
+ * buttons for the previous or next story and back to all stories. The recording keeps playing on the list.
  */
 export function Stories() {
   const T = useT()
@@ -34,11 +35,38 @@ export function Stories() {
     .sort((a, b) => Number(b.lang === lang) - Number(a.lang === lang))
     .flatMap((book) => book.tracks.map((track) => ({ book, track })))
   const done = stories.filter((s) => heard.has(s.track.id)).length
-  const now = stories.find((s) => s.track.id === p.id)
+  // The story open on its own page (index in the list), or null for the list.
+  const [open, setOpen] = useState<number | null>(null)
+  const start = (i: number) => {
+    const s = stories[i]
+    if (!s) return
+    setOpen(i)
+    if (p.id !== s.track.id) p.play(s.track.id, s.track.url)
+  }
+  if (open !== null && stories[open]) {
+    const { book, track } = stories[open]
+    return (
+      <div className="listen with-film">
+        <StoryFilm key={track.id} book={book.id} emoji={book.emoji} track={track} p={p} />
+        <div className="story-nav">
+          <button className="secondary" onClick={() => setOpen(null)}>
+            <ArrowLeft /> {T.listen.allStories}
+          </button>
+          <button className="secondary" onClick={() => start(open - 1)} disabled={open === 0}>
+            <ChevronLeft /> {T.listen.previousStory}
+          </button>
+          <button className="secondary" onClick={() => start(open + 1)} disabled={open === stories.length - 1}>
+            {T.listen.nextStory} <ChevronRight />
+          </button>
+        </div>
+        <small className="muted story-of">
+          <Emoji name={book.emoji} size={20} /> {book.title} · {book.author} · {T.listen.storyOf(open + 1, stories.length)}
+        </small>
+      </div>
+    )
+  }
   return (
-    // While a story plays, the film sits on top and the whole page scrolls (the list alone would have no room left).
-    <div className={`listen ${now ? 'with-film' : ''}`}>
-      {now && <StoryFilm key={now.track.id} book={now.book.id} emoji={now.book.emoji} track={now.track} p={p} />}
+    <div className="listen">
       <div className="shelf-tabs" role="radiogroup">
         {AGE_BANDS.map((b) => (
           <button key={b} role="radio" aria-checked={b === band} className={b === band ? '' : 'secondary'} onClick={() => setBand(b)}>
@@ -64,7 +92,10 @@ export function Stories() {
               <button className={`story-play ${on ? '' : 'secondary'}`} onClick={() => (on ? p.toggle() : p.play(track.id, track.url))} aria-label={on && p.state === 'playing' ? T.listen.pause : T.listen.play}>
                 {on && p.state === 'playing' ? <Pause /> : <Play />}
               </button>
-              <span className="story-text">
+              <button className="story-open" onClick={() => start(stories.findIndex((s) => s.track.id === track.id))} aria-label={T.listen.openStory(track.title)}>
+                <BookOpen />
+              </button>
+              <span className="story-text" onClick={() => start(stories.findIndex((s) => s.track.id === track.id))}>
                 <b className="story-title">{track.title}</b>
                 <small>
                   <Emoji name={book.emoji} size={20} /> {book.title} · {book.author}

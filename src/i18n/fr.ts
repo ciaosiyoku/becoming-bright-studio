@@ -246,6 +246,11 @@ export const fr: Strings = {
     logic: 'Trouve la règle, complète la case',
   },
   listen: {
+    allStories: 'Toutes les histoires',
+    previousStory: 'Histoire précédente',
+    nextStory: 'Histoire suivante',
+    storyOf: (n: number, of: number) => `histoire ${n} sur ${of}`,
+    openStory: (title: string) => `Ouvrir ${title}`,
     speed: 'Vitesse',
     speeds: { slow: 'Lent', slower: 'Un peu plus lent', normal: 'Normal' },
     play: 'Écouter',

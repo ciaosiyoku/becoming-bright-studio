@@ -247,6 +247,11 @@ export const yo: Strings = {
     logic: 'Wá òfin náà, kún àyè òfo',
   },
   listen: {
+    allStories: 'Gbogbo ìtàn',
+    previousStory: 'Ìtàn tó ṣáájú',
+    nextStory: 'Ìtàn tó kàn',
+    storyOf: (n: number, of: number) => `ìtàn ${n} nínú ${of}`,
+    openStory: (title: string) => `Ṣí ${title}`,
     speed: 'Ìyára',
     speeds: { slow: 'Díẹ̀díẹ̀', slower: 'Díẹ̀ ní ìyára', normal: 'Bó ṣe yẹ' },
     play: 'Ṣe é',
