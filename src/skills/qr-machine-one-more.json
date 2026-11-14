@@ -1,0 +1,38 @@
+{
+  "id": "qr-machine-one-more",
+  "kind": "qr-machine",
+  "subject": "quantitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 15,
+  "only": "en",
+  "params": {
+    "steps": [
+      "+1",
+      "-1"
+    ],
+    "ins": [
+      1,
+      9
+    ]
+  },
+  "emoji": "gear",
+  "example": {
+    "in": 2,
+    "step1": "+1",
+    "step2": "",
+    "machine": "+1",
+    "answer": 3,
+    "working": "2 +1 = 3"
+  },
+  "text": {
+    "en": {
+      "title": "One more, one less machines",
+      "teach": "A number goes in and the machine changes it. {in} goes in, the machine does {machine}: {working}.",
+      "prompt": "{in} goes into the machine. What comes out?",
+      "reason": "{working}."
+    }
+  }
+}

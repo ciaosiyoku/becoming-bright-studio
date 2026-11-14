@@ -1,0 +1,63 @@
+{
+  "id": "ql-hot-cold-pictures",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 0,
+  "ages": [
+    "4-5",
+    "6-7"
+  ],
+  "order": 18,
+  "only": "en",
+  "params": {
+    "lists": {
+      "heat": [
+        [
+          "snowflake",
+          "snowflake"
+        ],
+        [
+          "water",
+          "droplet"
+        ],
+        [
+          "hot cocoa",
+          "cocoa"
+        ],
+        [
+          "fire",
+          "fire"
+        ],
+        [
+          "the sun",
+          "sun"
+        ]
+      ]
+    }
+  },
+  "emoji": "fire",
+  "example": {
+    "rule": "heat-most",
+    "list": "heat",
+    "ask": "most",
+    "items": "snowflake|hot cocoa|the sun",
+    "order": "snowflake, hot cocoa, the sun",
+    "answer": "the sun"
+  },
+  "text": {
+    "en": {
+      "title": "Hot and cold",
+      "teach": "Think about how hot each one is. From coldest to hottest: {order}. The hottest is {answer}.",
+      "prompt": "Which is the hottest?",
+      "prompts": {
+        "heat-most": "Which is the hottest?",
+        "heat-least": "Which is the coldest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "heat-most": "From coldest to hottest: {order}. The hottest is {answer}.",
+        "heat-least": "From coldest to hottest: {order}. The coldest is {answer}."
+      }
+    }
+  }
+}

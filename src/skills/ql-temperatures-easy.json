@@ -1,0 +1,60 @@
+{
+  "id": "ql-temperatures-easy",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 37,
+  "only": "en",
+  "params": {
+    "lists": {
+      "temperature": [
+        [
+          "an ice lolly"
+        ],
+        [
+          "cold water"
+        ],
+        [
+          "a summer day"
+        ],
+        [
+          "a warm bath"
+        ],
+        [
+          "a cup of tea"
+        ],
+        [
+          "a hot oven"
+        ]
+      ]
+    }
+  },
+  "emoji": "thermometer",
+  "example": {
+    "rule": "temperature-most",
+    "list": "temperature",
+    "ask": "most",
+    "items": "an ice lolly|a summer day|a hot oven",
+    "order": "an ice lolly, a summer day, a hot oven",
+    "answer": "a hot oven"
+  },
+  "text": {
+    "en": {
+      "title": "Hot and cold things",
+      "teach": "Think about how hot each one is. From coldest to hottest: {order}. The hottest is {answer}.",
+      "prompt": "Which is the hottest?",
+      "prompts": {
+        "temperature-most": "Which is the hottest?",
+        "temperature-least": "Which is the coldest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "temperature-most": "From coldest to hottest: {order}. The hottest is {answer}.",
+        "temperature-least": "From coldest to hottest: {order}. The coldest is {answer}."
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "vr-antonyms",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 44,
+  "only": "en",
+  "params": {
+    "relations": {
+      "opposite": [
+        [
+          "generous",
+          "mean"
+        ],
+        [
+          "ancient",
+          "modern"
+        ],
+        [
+          "shallow",
+          "deep"
+        ],
+        [
+          "reveal",
+          "hide"
+        ],
+        [
+          "victory",
+          "defeat"
+        ],
+        [
+          "expand",
+          "shrink"
+        ],
+        [
+          "rough",
+          "smooth"
+        ],
+        [
+          "permit",
+          "forbid"
+        ],
+        [
+          "humble",
+          "proud"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "opposite",
+    "a": "generous",
+    "b": "mean",
+    "c": "ancient",
+    "answer": "modern"
+  },
+  "text": {
+    "en": {
+      "title": "Hard opposites",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. {a} and {b} are opposites, so {c} goes with {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "opposite": "{a} and {b} are opposites, so {c} goes with {answer}."
+      }
+    }
+  }
+}

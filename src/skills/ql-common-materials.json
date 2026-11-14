@@ -1,0 +1,62 @@
+{
+  "id": "ql-common-materials",
+  "kind": "ql-common",
+  "subject": "qualitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 33,
+  "only": "en",
+  "params": {
+    "qualities": {
+      "wooden": [
+        "a wooden spoon",
+        "a cricket bat",
+        "a log",
+        "a chopping board",
+        "a garden fence",
+        "a pencil"
+      ],
+      "metal": [
+        "a key",
+        "a coin",
+        "a nail",
+        "a saucepan",
+        "a paperclip",
+        "a tin can"
+      ],
+      "glass": [
+        "a window",
+        "a jam jar",
+        "a light bulb",
+        "a mirror",
+        "a vase",
+        "a marble"
+      ],
+      "paper": [
+        "a book",
+        "a newspaper",
+        "an envelope",
+        "a paper plane",
+        "a tissue",
+        "a magazine"
+      ]
+    }
+  },
+  "emoji": "sparkles",
+  "example": {
+    "answer": "wooden",
+    "things": "a wooden spoon, a cricket bat, a log",
+    "last": "a log",
+    "first": "a wooden spoon, a cricket bat"
+  },
+  "text": {
+    "en": {
+      "title": "What are they made of?",
+      "teach": "Find the one word that is true of all three. {first} and {last} are all {answer}.",
+      "prompt": "Which word describes all three?",
+      "reason": "{first} and {last} are all {answer}."
+    }
+  }
+}

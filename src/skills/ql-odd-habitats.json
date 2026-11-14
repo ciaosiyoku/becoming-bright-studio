@@ -1,0 +1,92 @@
+{
+  "id": "ql-odd-habitats",
+  "kind": "odd-one-out",
+  "subject": "qualitative",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 22,
+  "only": "en",
+  "params": {
+    "groups": {
+      "sea animals": [
+        [
+          "dolphin",
+          "animal-dolphin"
+        ],
+        [
+          "shark",
+          "animal-shark"
+        ],
+        [
+          "octopus",
+          "animal-octopus"
+        ],
+        [
+          "whale",
+          "animal-spouting-whale"
+        ],
+        [
+          "crab",
+          "animal-crab"
+        ]
+      ],
+      "farm animals": [
+        [
+          "cow",
+          "animal-cow"
+        ],
+        [
+          "horse",
+          "animal-horse"
+        ],
+        [
+          "chick",
+          "chick"
+        ],
+        [
+          "rabbit",
+          "animal-rabbit"
+        ]
+      ],
+      "animals of the African grasslands": [
+        [
+          "lion",
+          "animal-lion"
+        ],
+        [
+          "zebra",
+          "animal-zebra"
+        ],
+        [
+          "giraffe",
+          "animal-giraffe"
+        ],
+        [
+          "elephant",
+          "animal-elephant"
+        ],
+        [
+          "hippo",
+          "animal-hippopotamus"
+        ]
+      ]
+    }
+  },
+  "emoji": "globe",
+  "example": {
+    "group": "sea animals",
+    "oddGroup": "farm animals",
+    "items": "dolphin, octopus, shark",
+    "answer": "cow"
+  },
+  "text": {
+    "en": {
+      "title": "Where do they live?",
+      "teach": "Three pictures go together. The {items} are all {group}, and the {answer} is not.",
+      "prompt": "Which picture does not belong?",
+      "reason": "The others are all {group}; the {answer} is not."
+    }
+  }
+}

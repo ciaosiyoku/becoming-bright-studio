@@ -1,0 +1,61 @@
+{
+  "id": "vr-goes",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 0,
+  "ages": [
+    "4-5",
+    "6-7"
+  ],
+  "order": 20,
+  "only": "en",
+  "params": {
+    "relations": {
+      "goes": [
+        [
+          "car",
+          "road"
+        ],
+        [
+          "train",
+          "track"
+        ],
+        [
+          "boat",
+          "water"
+        ],
+        [
+          "plane",
+          "runway"
+        ],
+        [
+          "skier",
+          "snow"
+        ],
+        [
+          "skater",
+          "ice"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "goes",
+    "a": "car",
+    "b": "road",
+    "c": "train",
+    "answer": "track"
+  },
+  "text": {
+    "en": {
+      "title": "Where things go",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A {a} goes on the {b}, and a {c} goes on the {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "goes": "A {a} goes on the {b}, and a {c} goes on the {answer}."
+      }
+    }
+  }
+}

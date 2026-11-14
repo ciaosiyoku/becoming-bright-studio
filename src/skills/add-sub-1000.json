@@ -3,6 +3,10 @@
   "kind": "add-sub-big",
   "subject": "numbers",
   "stage": 4,
+  "ages": [
+    "8-9",
+    "10-12"
+  ],
   "order": 21,
   "params": {},
   "emoji": "animal-elephant",

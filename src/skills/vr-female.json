@@ -1,0 +1,64 @@
+{
+  "id": "vr-female",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 42,
+  "only": "en",
+  "params": {
+    "relations": {
+      "female": [
+        [
+          "lion",
+          "lioness"
+        ],
+        [
+          "bull",
+          "cow"
+        ],
+        [
+          "rooster",
+          "hen"
+        ],
+        [
+          "stallion",
+          "mare"
+        ],
+        [
+          "ram",
+          "ewe"
+        ],
+        [
+          "tiger",
+          "tigress"
+        ],
+        [
+          "drake",
+          "duck"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "female",
+    "a": "lion",
+    "b": "lioness",
+    "c": "bull",
+    "answer": "cow"
+  },
+  "text": {
+    "en": {
+      "title": "Male and female animals",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A female {a} is a {b}, and a female {c} is a {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "female": "A female {a} is a {b}, and a female {c} is a {answer}."
+      }
+    }
+  }
+}

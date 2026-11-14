@@ -3,6 +3,10 @@
   "kind": "picture-pattern",
   "subject": "patterns",
   "stage": 0,
+  "ages": [
+    "4-5",
+    "6-7"
+  ],
   "order": 1,
   "params": {
     "rules": [

@@ -1,0 +1,68 @@
+{
+  "id": "vr-parts",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 32,
+  "only": "en",
+  "params": {
+    "relations": {
+      "part": [
+        [
+          "petal",
+          "flower"
+        ],
+        [
+          "page",
+          "book"
+        ],
+        [
+          "wheel",
+          "car"
+        ],
+        [
+          "finger",
+          "hand"
+        ],
+        [
+          "leaf",
+          "tree"
+        ],
+        [
+          "key",
+          "piano"
+        ],
+        [
+          "brick",
+          "wall"
+        ],
+        [
+          "feather",
+          "bird"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "part",
+    "a": "petal",
+    "b": "flower",
+    "c": "page",
+    "answer": "book"
+  },
+  "text": {
+    "en": {
+      "title": "Part of a whole",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A {a} is part of a {b}, and a {c} is part of a {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "part": "A {a} is part of a {b}, and a {c} is part of a {answer}."
+      }
+    }
+  }
+}

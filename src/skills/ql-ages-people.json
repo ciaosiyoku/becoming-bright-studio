@@ -1,0 +1,63 @@
+{
+  "id": "ql-ages-people",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 26,
+  "only": "en",
+  "params": {
+    "lists": {
+      "age": [
+        [
+          "a baby"
+        ],
+        [
+          "a toddler"
+        ],
+        [
+          "a child"
+        ],
+        [
+          "a teenager"
+        ],
+        [
+          "a parent"
+        ],
+        [
+          "a grandparent"
+        ],
+        [
+          "a great-grandparent"
+        ]
+      ]
+    }
+  },
+  "emoji": "clock",
+  "example": {
+    "rule": "age-most",
+    "list": "age",
+    "ask": "most",
+    "items": "a baby|a child|a great-grandparent",
+    "order": "a baby, a child, a great-grandparent",
+    "answer": "a great-grandparent"
+  },
+  "text": {
+    "en": {
+      "title": "Young and old",
+      "teach": "Think about how old each person usually is. From youngest to oldest: {order}. The oldest is {answer}.",
+      "prompt": "Which is the oldest?",
+      "prompts": {
+        "age-most": "Which is the oldest?",
+        "age-least": "Which is the youngest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "age-most": "From youngest to oldest: {order}. The oldest is {answer}.",
+        "age-least": "From youngest to oldest: {order}. The youngest is {answer}."
+      }
+    }
+  }
+}

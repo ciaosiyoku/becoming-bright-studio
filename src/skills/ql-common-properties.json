@@ -1,0 +1,62 @@
+{
+  "id": "ql-common-properties",
+  "kind": "ql-common",
+  "subject": "qualitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 44,
+  "only": "en",
+  "params": {
+    "qualities": {
+      "absorbent": [
+        "a sponge",
+        "a towel",
+        "kitchen roll",
+        "a nappy",
+        "a mop",
+        "a flannel"
+      ],
+      "stretchy": [
+        "a rubber band",
+        "a balloon",
+        "a trampoline",
+        "leggings",
+        "a hair bobble",
+        "a bungee rope"
+      ],
+      "sour": [
+        "a lemon",
+        "vinegar",
+        "a lime",
+        "sour sweets",
+        "a grapefruit",
+        "a pickle"
+      ],
+      "nocturnal": [
+        "an owl",
+        "a bat",
+        "a fox",
+        "a hedgehog",
+        "a moth",
+        "a badger"
+      ]
+    }
+  },
+  "emoji": "sparkles",
+  "example": {
+    "answer": "absorbent",
+    "things": "a sponge, a towel, kitchen roll",
+    "last": "kitchen roll",
+    "first": "a sponge, a towel"
+  },
+  "text": {
+    "en": {
+      "title": "Properties",
+      "teach": "Find the one word that is true of all three. {first} and {last} are all {answer}.",
+      "prompt": "Which word describes all three?",
+      "reason": "{first} and {last} are all {answer}."
+    }
+  }
+}

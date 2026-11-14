@@ -1,0 +1,64 @@
+{
+  "id": "vr-collective",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 43,
+  "only": "en",
+  "params": {
+    "relations": {
+      "group": [
+        [
+          "wolf",
+          "pack"
+        ],
+        [
+          "bee",
+          "swarm"
+        ],
+        [
+          "fish",
+          "shoal"
+        ],
+        [
+          "cow",
+          "herd"
+        ],
+        [
+          "bird",
+          "flock"
+        ],
+        [
+          "lion",
+          "pride"
+        ],
+        [
+          "ship",
+          "fleet"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "group",
+    "a": "wolf",
+    "b": "pack",
+    "c": "bee",
+    "answer": "swarm"
+  },
+  "text": {
+    "en": {
+      "title": "Groups of animals and things",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A group of {a}s is a {b}, and a group of {c}s is a {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "group": "A group of {a}s is a {b}, and a group of {c}s is a {answer}."
+      }
+    }
+  }
+}

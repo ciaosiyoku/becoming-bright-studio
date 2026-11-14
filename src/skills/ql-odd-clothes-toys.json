@@ -1,0 +1,84 @@
+{
+  "id": "ql-odd-clothes-toys",
+  "kind": "odd-one-out",
+  "subject": "qualitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 12,
+  "only": "en",
+  "params": {
+    "groups": {
+      "clothes": [
+        [
+          "scarf",
+          "scarf"
+        ],
+        [
+          "gloves",
+          "gloves"
+        ],
+        [
+          "shoe",
+          "shoe"
+        ],
+        [
+          "ice skate",
+          "iceskate"
+        ]
+      ],
+      "toys": [
+        [
+          "teddy",
+          "teddy"
+        ],
+        [
+          "puzzle",
+          "puzzle"
+        ],
+        [
+          "game",
+          "game"
+        ],
+        [
+          "joystick",
+          "joystick"
+        ]
+      ],
+      "school things": [
+        [
+          "books",
+          "books"
+        ],
+        [
+          "backpack",
+          "backpack"
+        ],
+        [
+          "memo",
+          "memo"
+        ],
+        [
+          "school",
+          "school"
+        ]
+      ]
+    }
+  },
+  "emoji": "teddy",
+  "example": {
+    "group": "clothes",
+    "oddGroup": "toys",
+    "items": "gloves, scarf, shoe",
+    "answer": "teddy"
+  },
+  "text": {
+    "en": {
+      "title": "Clothes, toys or school?",
+      "teach": "Three pictures go together. The {items} are all {group}, and the {answer} is not.",
+      "prompt": "Which picture does not belong?",
+      "reason": "The others are all {group}; the {answer} is not."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "ql-common-touch",
+  "kind": "ql-common",
+  "subject": "qualitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 30,
+  "only": "en",
+  "params": {
+    "qualities": {
+      "rough": [
+        "sandpaper",
+        "tree bark",
+        "a brick",
+        "gravel",
+        "a pineapple skin",
+        "a cat's tongue"
+      ],
+      "sticky": [
+        "glue",
+        "sticky tape",
+        "slime",
+        "a plaster",
+        "chewing gum",
+        "a sticker"
+      ],
+      "shiny": [
+        "gold",
+        "a diamond",
+        "a mirror",
+        "glitter",
+        "tinfoil",
+        "a new coin"
+      ],
+      "fluffy": [
+        "a cloud",
+        "cotton wool",
+        "a dandelion clock",
+        "candy floss",
+        "a newly hatched chick",
+        "a pompom"
+      ]
+    }
+  },
+  "emoji": "sparkles",
+  "example": {
+    "answer": "rough",
+    "things": "sandpaper, tree bark, a brick",
+    "last": "a brick",
+    "first": "sandpaper, tree bark"
+  },
+  "text": {
+    "en": {
+      "title": "How do they feel?",
+      "teach": "Find the one word that is true of all three. {first} and {last} are all {answer}.",
+      "prompt": "Which word describes all three?",
+      "reason": "{first} and {last} are all {answer}."
+    }
+  }
+}

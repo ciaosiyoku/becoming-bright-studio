@@ -3,6 +3,10 @@
   "kind": "count",
   "subject": "numbers",
   "stage": 0,
+  "ages": [
+    "4-5",
+    "6-7"
+  ],
   "order": 2,
   "params": {
     "min": 5,

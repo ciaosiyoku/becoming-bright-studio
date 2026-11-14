@@ -22,8 +22,11 @@ export interface Card {
 
 const answerKey = (c: Choice) => c.label ?? c.emoji ?? ''
 
+/** Questions whose choices are the question (the odd one out, which is biggest): no card can show them alone. */
+const NO_CARDS = new Set(['odd-one-out', 'ql-compare'])
+
 /** A question bank makes memory cards only with at least 4 different answers ("le", "la", "l’" has 3). */
-export const hasCards = (def: SkillDef, lang: Lang = 'en') => def.kind !== 'bank' || new Set(bankOf(def, skillLang(def, lang)).map((q) => q[1])).size >= 4
+export const hasCards = (def: SkillDef, lang: Lang = 'en') => !NO_CARDS.has(def.kind) && (def.kind !== 'bank' || new Set(bankOf(def, skillLang(def, lang)).map((q) => q[1])).size >= 4)
 
 /** Up to `PAIRS` pairs of cards from a skill's questions, shuffled: no two pairs share a question or an answer. */
 export function makeCards(def: SkillDef, r: Random = Math.random, lang: Lang = 'en'): Card[] {

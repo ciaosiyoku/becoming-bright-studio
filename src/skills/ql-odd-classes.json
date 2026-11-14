@@ -1,0 +1,96 @@
+{
+  "id": "ql-odd-classes",
+  "kind": "odd-one-out",
+  "subject": "qualitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 45,
+  "only": "en",
+  "params": {
+    "groups": {
+      "mammals": [
+        [
+          "dolphin",
+          "animal-dolphin"
+        ],
+        [
+          "bat",
+          "animal-bat"
+        ],
+        [
+          "whale",
+          "animal-spouting-whale"
+        ],
+        [
+          "horse",
+          "animal-horse"
+        ],
+        [
+          "elephant",
+          "animal-elephant"
+        ],
+        [
+          "mouse",
+          "animal-mouse"
+        ]
+      ],
+      "birds": [
+        [
+          "owl",
+          "animal-owl"
+        ],
+        [
+          "parrot",
+          "animal-parrot"
+        ],
+        [
+          "penguin",
+          "animal-penguin"
+        ],
+        [
+          "swan",
+          "animal-swan"
+        ],
+        [
+          "flamingo",
+          "animal-flamingo"
+        ],
+        [
+          "peacock",
+          "animal-peacock"
+        ]
+      ],
+      "insects": [
+        [
+          "bee",
+          "animal-honeybee"
+        ],
+        [
+          "butterfly",
+          "animal-butterfly"
+        ],
+        [
+          "ladybird",
+          "animal-lady-beetle"
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-bat",
+  "example": {
+    "group": "mammals",
+    "oddGroup": "birds",
+    "items": "bat, dolphin, whale",
+    "answer": "owl"
+  },
+  "text": {
+    "en": {
+      "title": "Mammal, bird or insect?",
+      "teach": "Three pictures go together. The {items} are all {group}, and the {answer} is not.",
+      "prompt": "Which picture does not belong?",
+      "reason": "The others are all {group}; the {answer} is not."
+    }
+  }
+}

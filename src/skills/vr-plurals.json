@@ -1,0 +1,69 @@
+{
+  "id": "vr-plurals",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 2,
+  "ages": [
+    "6-7",
+    "8-9"
+  ],
+  "order": 24,
+  "only": "en",
+  "params": {
+    "relations": {
+      "plural": [
+        [
+          "mouse",
+          "mice"
+        ],
+        [
+          "child",
+          "children"
+        ],
+        [
+          "foot",
+          "feet"
+        ],
+        [
+          "tooth",
+          "teeth"
+        ],
+        [
+          "man",
+          "men"
+        ],
+        [
+          "goose",
+          "geese"
+        ],
+        [
+          "woman",
+          "women"
+        ],
+        [
+          "person",
+          "people"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "plural",
+    "a": "mouse",
+    "b": "mice",
+    "c": "child",
+    "answer": "children"
+  },
+  "text": {
+    "en": {
+      "title": "One and many",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. One {a}, many {b}; one {c}, many {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "plural": "One {a}, many {b}; one {c}, many {answer}."
+      }
+    }
+  }
+}

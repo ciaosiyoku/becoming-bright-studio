@@ -1,0 +1,63 @@
+{
+  "id": "ql-history",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 43,
+  "only": "en",
+  "params": {
+    "lists": {
+      "time": [
+        [
+          "smartphones"
+        ],
+        [
+          "the first moon landing"
+        ],
+        [
+          "the first aeroplane"
+        ],
+        [
+          "the Vikings"
+        ],
+        [
+          "the Romans"
+        ],
+        [
+          "the pyramids"
+        ],
+        [
+          "the dinosaurs"
+        ]
+      ]
+    }
+  },
+  "emoji": "scroll",
+  "example": {
+    "rule": "time-most",
+    "list": "time",
+    "ask": "most",
+    "items": "smartphones|the first aeroplane|the dinosaurs",
+    "order": "smartphones, the first aeroplane, the dinosaurs",
+    "answer": "the dinosaurs"
+  },
+  "text": {
+    "en": {
+      "title": "What came first?",
+      "teach": "Put them in order of time. From newest to oldest: {order}. {answer} came first.",
+      "prompt": "Which came first?",
+      "prompts": {
+        "time-most": "Which came first?",
+        "time-least": "Which came last?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "time-most": "From newest to oldest: {order}. {answer} came first.",
+        "time-least": "From newest to oldest: {order}. {answer} came last."
+      }
+    }
+  }
+}

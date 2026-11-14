@@ -1,0 +1,40 @@
+{
+  "id": "qr-machine-double",
+  "kind": "qr-machine",
+  "subject": "quantitative",
+  "stage": 2,
+  "ages": [
+    "6-7",
+    "8-9"
+  ],
+  "order": 25,
+  "only": "en",
+  "params": {
+    "steps": [
+      "x2",
+      "x5",
+      "x10"
+    ],
+    "ins": [
+      1,
+      12
+    ]
+  },
+  "emoji": "gear",
+  "example": {
+    "in": 2,
+    "step1": "x2",
+    "step2": "",
+    "machine": "×2",
+    "answer": 4,
+    "working": "2 ×2 = 4"
+  },
+  "text": {
+    "en": {
+      "title": "Doubling and times machines",
+      "teach": "A number goes in and the machine changes it. {in} goes in, the machine does {machine}: {working}.",
+      "prompt": "{in} goes into the machine. What comes out?",
+      "reason": "{working}."
+    }
+  }
+}

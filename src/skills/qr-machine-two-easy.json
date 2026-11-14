@@ -1,0 +1,45 @@
+{
+  "id": "qr-machine-two-easy",
+  "kind": "qr-machine",
+  "subject": "quantitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 33,
+  "only": "en",
+  "params": {
+    "steps": [
+      "+2",
+      "+3",
+      "+5",
+      "x2"
+    ],
+    "ins": [
+      1,
+      10
+    ],
+    "steps2": [
+      "+1",
+      "+2",
+      "-1"
+    ]
+  },
+  "emoji": "gear",
+  "example": {
+    "in": 2,
+    "step1": "+2",
+    "step2": "+1",
+    "machine": "+2 then +1",
+    "answer": 5,
+    "working": "2 +2 = 4, then 4 +1 = 5"
+  },
+  "text": {
+    "en": {
+      "title": "Easy two-step machines",
+      "teach": "A number goes in and the machine changes it. {in} goes in, the machine does {machine}: {working}.",
+      "prompt": "{in} goes into the machine. What comes out?",
+      "reason": "{working}."
+    }
+  }
+}

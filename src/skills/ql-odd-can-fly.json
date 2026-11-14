@@ -1,0 +1,82 @@
+{
+  "id": "ql-odd-can-fly",
+  "kind": "odd-one-out",
+  "subject": "qualitative",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 23,
+  "only": "en",
+  "params": {
+    "groups": {
+      "things that can fly": [
+        [
+          "owl",
+          "animal-owl"
+        ],
+        [
+          "parrot",
+          "animal-parrot"
+        ],
+        [
+          "butterfly",
+          "animal-butterfly"
+        ],
+        [
+          "bee",
+          "animal-honeybee"
+        ],
+        [
+          "bat",
+          "animal-bat"
+        ],
+        [
+          "plane",
+          "airplane"
+        ]
+      ],
+      "animals that cannot fly": [
+        [
+          "cow",
+          "animal-cow"
+        ],
+        [
+          "horse",
+          "animal-horse"
+        ],
+        [
+          "snail",
+          "animal-snail"
+        ],
+        [
+          "turtle",
+          "animal-turtle"
+        ],
+        [
+          "penguin",
+          "animal-penguin"
+        ],
+        [
+          "rabbit",
+          "animal-rabbit"
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-butterfly",
+  "example": {
+    "group": "things that can fly",
+    "oddGroup": "animals that cannot fly",
+    "items": "butterfly, owl, parrot",
+    "answer": "cow"
+  },
+  "text": {
+    "en": {
+      "title": "Can it fly?",
+      "teach": "Three pictures go together. The {items} are all {group}, and the {answer} is not.",
+      "prompt": "Which picture does not belong?",
+      "reason": "The others are all {group}; the {answer} is not."
+    }
+  }
+}

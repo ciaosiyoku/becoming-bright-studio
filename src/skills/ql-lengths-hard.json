@@ -1,0 +1,60 @@
+{
+  "id": "ql-lengths-hard",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 52,
+  "only": "en",
+  "params": {
+    "lists": {
+      "length": [
+        [
+          "an ant"
+        ],
+        [
+          "a hand"
+        ],
+        [
+          "a bed"
+        ],
+        [
+          "a bus"
+        ],
+        [
+          "a blue whale"
+        ],
+        [
+          "a football pitch"
+        ]
+      ]
+    }
+  },
+  "emoji": "road",
+  "example": {
+    "rule": "length-most",
+    "list": "length",
+    "ask": "most",
+    "items": "an ant|a bed|a football pitch",
+    "order": "an ant, a bed, a football pitch",
+    "answer": "a football pitch"
+  },
+  "text": {
+    "en": {
+      "title": "Short and long",
+      "teach": "Think about how long each one is. From shortest to longest: {order}. The longest is {answer}.",
+      "prompt": "Which is the longest?",
+      "prompts": {
+        "length-most": "Which is the longest?",
+        "length-least": "Which is the shortest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "length-most": "From shortest to longest: {order}. The longest is {answer}.",
+        "length-least": "From shortest to longest: {order}. The shortest is {answer}."
+      }
+    }
+  }
+}

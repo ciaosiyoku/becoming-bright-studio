@@ -3,6 +3,11 @@
   "kind": "tens",
   "subject": "numbers",
   "stage": 2,
+  "ages": [
+    "4-5",
+    "6-7",
+    "8-9"
+  ],
   "order": 13,
   "params": {},
   "emoji": "animal-kangaroo",

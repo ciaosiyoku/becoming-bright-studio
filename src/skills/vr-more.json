@@ -1,0 +1,68 @@
+{
+  "id": "vr-more",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 26,
+  "only": "en",
+  "params": {
+    "relations": {
+      "more": [
+        [
+          "big",
+          "bigger"
+        ],
+        [
+          "small",
+          "smaller"
+        ],
+        [
+          "tall",
+          "taller"
+        ],
+        [
+          "fast",
+          "faster"
+        ],
+        [
+          "happy",
+          "happier"
+        ],
+        [
+          "hot",
+          "hotter"
+        ],
+        [
+          "funny",
+          "funnier"
+        ],
+        [
+          "long",
+          "longer"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "more",
+    "a": "big",
+    "b": "bigger",
+    "c": "small",
+    "answer": "smaller"
+  },
+  "text": {
+    "en": {
+      "title": "Big, bigger",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. {b} is more {a}, and {answer} is more {c}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "more": "{b} is more {a}, and {answer} is more {c}."
+      }
+    }
+  }
+}

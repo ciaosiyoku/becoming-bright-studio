@@ -1,0 +1,90 @@
+{
+  "id": "vr-odd-shapes",
+  "kind": "odd-one-out",
+  "subject": "verbal",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 12,
+  "only": "en",
+  "params": {
+    "groups": {
+      "shapes": [
+        [
+          "circle"
+        ],
+        [
+          "square"
+        ],
+        [
+          "triangle"
+        ],
+        [
+          "star"
+        ],
+        [
+          "heart"
+        ],
+        [
+          "oval"
+        ]
+      ],
+      "numbers": [
+        [
+          "one"
+        ],
+        [
+          "two"
+        ],
+        [
+          "three"
+        ],
+        [
+          "four"
+        ],
+        [
+          "five"
+        ],
+        [
+          "six"
+        ]
+      ],
+      "fruits": [
+        [
+          "apple"
+        ],
+        [
+          "pear"
+        ],
+        [
+          "plum"
+        ],
+        [
+          "grape"
+        ],
+        [
+          "lemon"
+        ],
+        [
+          "melon"
+        ]
+      ]
+    }
+  },
+  "emoji": "letters",
+  "example": {
+    "group": "shapes",
+    "oddGroup": "numbers",
+    "items": "circle, square, triangle",
+    "answer": "one"
+  },
+  "text": {
+    "en": {
+      "title": "Odd one out: shapes and numbers",
+      "teach": "Look for what three of them share. {items} are all {group}; {answer} is not.",
+      "prompt": "Which word is the odd one out?",
+      "reason": "The others are all {group}; {answer} is not."
+    }
+  }
+}

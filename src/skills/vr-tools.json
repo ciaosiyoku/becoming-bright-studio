@@ -1,0 +1,64 @@
+{
+  "id": "vr-tools",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 34,
+  "only": "en",
+  "params": {
+    "relations": {
+      "tool": [
+        [
+          "painter",
+          "brush"
+        ],
+        [
+          "writer",
+          "pen"
+        ],
+        [
+          "gardener",
+          "spade"
+        ],
+        [
+          "builder",
+          "hammer"
+        ],
+        [
+          "tailor",
+          "needle"
+        ],
+        [
+          "angler",
+          "rod"
+        ],
+        [
+          "photographer",
+          "camera"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "tool",
+    "a": "painter",
+    "b": "brush",
+    "c": "writer",
+    "answer": "pen"
+  },
+  "text": {
+    "en": {
+      "title": "Who uses what",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A {a} works with a {b}, and a {c} works with a {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "tool": "A {a} works with a {b}, and a {c} works with a {answer}."
+      }
+    }
+  }
+}

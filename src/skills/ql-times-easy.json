@@ -1,0 +1,60 @@
+{
+  "id": "ql-times-easy",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 27,
+  "only": "en",
+  "params": {
+    "lists": {
+      "time": [
+        [
+          "a blink"
+        ],
+        [
+          "brushing your teeth"
+        ],
+        [
+          "watching a film"
+        ],
+        [
+          "a school day"
+        ],
+        [
+          "a week"
+        ],
+        [
+          "a year"
+        ]
+      ]
+    }
+  },
+  "emoji": "clock",
+  "example": {
+    "rule": "time-most",
+    "list": "time",
+    "ask": "most",
+    "items": "a blink|watching a film|a year",
+    "order": "a blink, watching a film, a year",
+    "answer": "a year"
+  },
+  "text": {
+    "en": {
+      "title": "Long and short times",
+      "teach": "Think about how long each one takes. From shortest to longest: {order}. The longest is {answer}.",
+      "prompt": "Which is the longest?",
+      "prompts": {
+        "time-most": "Which is the longest?",
+        "time-least": "Which is the shortest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "time-most": "From shortest to longest: {order}. The longest is {answer}.",
+        "time-least": "From shortest to longest: {order}. The shortest is {answer}."
+      }
+    }
+  }
+}

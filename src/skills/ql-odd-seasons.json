@@ -1,0 +1,88 @@
+{
+  "id": "ql-odd-seasons",
+  "kind": "odd-one-out",
+  "subject": "qualitative",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 24,
+  "only": "en",
+  "params": {
+    "groups": {
+      "winter things": [
+        [
+          "snowman",
+          "snowman"
+        ],
+        [
+          "sled",
+          "sled"
+        ],
+        [
+          "scarf",
+          "scarf"
+        ],
+        [
+          "snowflake",
+          "snowflake"
+        ],
+        [
+          "gloves",
+          "gloves"
+        ]
+      ],
+      "summer things": [
+        [
+          "beach",
+          "beach"
+        ],
+        [
+          "watermelon",
+          "fruit-watermelon"
+        ],
+        [
+          "sunshine",
+          "sun"
+        ],
+        [
+          "wave",
+          "wave"
+        ]
+      ],
+      "party things": [
+        [
+          "cake",
+          "cake"
+        ],
+        [
+          "present",
+          "gift"
+        ],
+        [
+          "party popper",
+          "party"
+        ],
+        [
+          "ribbon",
+          "ribbon"
+        ]
+      ]
+    }
+  },
+  "emoji": "snowman",
+  "example": {
+    "group": "winter things",
+    "oddGroup": "summer things",
+    "items": "scarf, sled, snowman",
+    "answer": "beach"
+  },
+  "text": {
+    "en": {
+      "title": "Winter, summer or party?",
+      "teach": "Three pictures go together. The {items} are all {group}, and the {answer} is not.",
+      "prompt": "Which picture does not belong?",
+      "reason": "The others are all {group}; the {answer} is not."
+    }
+  }
+}

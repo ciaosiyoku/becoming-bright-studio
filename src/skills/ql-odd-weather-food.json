@@ -1,0 +1,88 @@
+{
+  "id": "ql-odd-weather-food",
+  "kind": "odd-one-out",
+  "subject": "qualitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 10,
+  "only": "en",
+  "params": {
+    "groups": {
+      "kinds of weather": [
+        [
+          "rain",
+          "rain"
+        ],
+        [
+          "snow",
+          "snow"
+        ],
+        [
+          "storm",
+          "storm"
+        ],
+        [
+          "fog",
+          "fog"
+        ]
+      ],
+      "things to eat": [
+        [
+          "cake",
+          "cake"
+        ],
+        [
+          "cookie",
+          "cookie"
+        ],
+        [
+          "apple",
+          "fruit-apple"
+        ],
+        [
+          "banana",
+          "fruit-banana"
+        ],
+        [
+          "cherries",
+          "fruit-cherries"
+        ]
+      ],
+      "toys": [
+        [
+          "teddy",
+          "teddy"
+        ],
+        [
+          "puzzle",
+          "puzzle"
+        ],
+        [
+          "game",
+          "game"
+        ],
+        [
+          "joystick",
+          "joystick"
+        ]
+      ]
+    }
+  },
+  "emoji": "sun-cloud",
+  "example": {
+    "group": "kinds of weather",
+    "oddGroup": "things to eat",
+    "items": "rain, snow, storm",
+    "answer": "cake"
+  },
+  "text": {
+    "en": {
+      "title": "Weather, food or toys?",
+      "teach": "Three pictures go together. The {items} are all {group}, and the {answer} is not.",
+      "prompt": "Which picture does not belong?",
+      "reason": "The others are all {group}; the {answer} is not."
+    }
+  }
+}

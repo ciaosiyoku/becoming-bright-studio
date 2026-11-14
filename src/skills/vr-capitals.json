@@ -1,0 +1,72 @@
+{
+  "id": "vr-capitals",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 41,
+  "only": "en",
+  "params": {
+    "relations": {
+      "capital": [
+        [
+          "France",
+          "Paris"
+        ],
+        [
+          "Italy",
+          "Rome"
+        ],
+        [
+          "Spain",
+          "Madrid"
+        ],
+        [
+          "Germany",
+          "Berlin"
+        ],
+        [
+          "Kenya",
+          "Nairobi"
+        ],
+        [
+          "Nigeria",
+          "Abuja"
+        ],
+        [
+          "Japan",
+          "Tokyo"
+        ],
+        [
+          "Egypt",
+          "Cairo"
+        ],
+        [
+          "Ghana",
+          "Accra"
+        ]
+      ]
+    }
+  },
+  "emoji": "globe",
+  "example": {
+    "rule": "capital",
+    "a": "France",
+    "b": "Paris",
+    "c": "Italy",
+    "answer": "Rome"
+  },
+  "text": {
+    "en": {
+      "title": "Countries and capitals",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. The capital of {a} is {b}, and the capital of {c} is {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "capital": "The capital of {a} is {b}, and the capital of {c} is {answer}."
+      }
+    }
+  }
+}

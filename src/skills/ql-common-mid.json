@@ -1,0 +1,78 @@
+{
+  "id": "ql-common-mid",
+  "kind": "ql-common",
+  "subject": "qualitative",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 25,
+  "only": "en",
+  "params": {
+    "qualities": {
+      "hot": [
+        "fire",
+        "an oven",
+        "a kettle",
+        "a toaster",
+        "a volcano",
+        "a bonfire"
+      ],
+      "cold": [
+        "a freezer",
+        "an iceberg",
+        "a snowman",
+        "frost",
+        "an icicle",
+        "a glacier"
+      ],
+      "wet": [
+        "rain",
+        "a puddle",
+        "a river",
+        "the sea",
+        "a bath",
+        "a waterfall"
+      ],
+      "soft": [
+        "a pillow",
+        "a feather",
+        "cotton wool",
+        "a teddy bear",
+        "a blanket",
+        "a duvet"
+      ],
+      "sharp": [
+        "a knife",
+        "a needle",
+        "a thorn",
+        "a pin",
+        "scissors",
+        "a saw"
+      ],
+      "sweet": [
+        "honey",
+        "sugar",
+        "jam",
+        "syrup",
+        "chocolate",
+        "a toffee"
+      ]
+    }
+  },
+  "emoji": "sparkles",
+  "example": {
+    "answer": "hot",
+    "things": "fire, an oven, a kettle",
+    "last": "a kettle",
+    "first": "fire, an oven"
+  },
+  "text": {
+    "en": {
+      "title": "What do they share?",
+      "teach": "Find the one word that is true of all three. {first} and {last} are all {answer}.",
+      "prompt": "Which word describes all three?",
+      "reason": "{first} and {last} are all {answer}."
+    }
+  }
+}

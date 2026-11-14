@@ -1,0 +1,36 @@
+{
+  "id": "qr-take-missing-20",
+  "kind": "qr-balance",
+  "subject": "quantitative",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 22,
+  "only": "en",
+  "params": {
+    "max": 20,
+    "ops": [
+      "sub"
+    ]
+  },
+  "emoji": "abacus",
+  "example": {
+    "op": "sub",
+    "a": 4,
+    "b": 1,
+    "c": 3,
+    "blank": "second",
+    "answer": 1,
+    "shown": "4 − ? = 3",
+    "full": "4 − 1 = 3"
+  },
+  "text": {
+    "en": {
+      "title": "Missing numbers: taking away to 20",
+      "teach": "Something is hiding behind the ?. Try numbers until the sum is true: {shown}, and {full}.",
+      "prompt": "What is the missing number?",
+      "reason": "{full}, so the missing number is {answer}."
+    }
+  }
+}

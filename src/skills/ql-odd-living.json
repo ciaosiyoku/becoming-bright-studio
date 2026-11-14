@@ -1,0 +1,70 @@
+{
+  "id": "ql-odd-living",
+  "kind": "odd-one-out",
+  "subject": "qualitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 36,
+  "only": "en",
+  "params": {
+    "groups": {
+      "living things": [
+        [
+          "a tree"
+        ],
+        [
+          "a frog"
+        ],
+        [
+          "a mushroom"
+        ],
+        [
+          "grass"
+        ],
+        [
+          "a bee"
+        ],
+        [
+          "a person"
+        ]
+      ],
+      "things that were never alive": [
+        [
+          "a rock"
+        ],
+        [
+          "plastic"
+        ],
+        [
+          "glass"
+        ],
+        [
+          "a metal spoon"
+        ],
+        [
+          "a cloud"
+        ],
+        [
+          "sand"
+        ]
+      ]
+    }
+  },
+  "emoji": "seedling",
+  "example": {
+    "group": "living things",
+    "oddGroup": "things that were never alive",
+    "items": "a frog, a mushroom, a tree",
+    "answer": "a rock"
+  },
+  "text": {
+    "en": {
+      "title": "Alive or not?",
+      "teach": "Ask what three of them share. {items} are all {group}; {answer} is not.",
+      "prompt": "Which is the odd one out?",
+      "reason": "The others are all {group}; {answer} is not."
+    }
+  }
+}

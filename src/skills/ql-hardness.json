@@ -1,0 +1,60 @@
+{
+  "id": "ql-hardness",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 51,
+  "only": "en",
+  "params": {
+    "lists": {
+      "hardness": [
+        [
+          "talc"
+        ],
+        [
+          "a fingernail"
+        ],
+        [
+          "a copper coin"
+        ],
+        [
+          "glass"
+        ],
+        [
+          "steel"
+        ],
+        [
+          "diamond"
+        ]
+      ]
+    }
+  },
+  "emoji": "gear",
+  "example": {
+    "rule": "hardness-most",
+    "list": "hardness",
+    "ask": "most",
+    "items": "talc|a copper coin|diamond",
+    "order": "talc, a copper coin, diamond",
+    "answer": "diamond"
+  },
+  "text": {
+    "en": {
+      "title": "Hard and soft materials",
+      "teach": "Hard things scratch softer ones. From softest to hardest: {order}. The hardest is {answer}.",
+      "prompt": "Which is the hardest?",
+      "prompts": {
+        "hardness-most": "Which is the hardest?",
+        "hardness-least": "Which is the softest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "hardness-most": "From softest to hardest: {order}. The hardest is {answer}.",
+        "hardness-least": "From softest to hardest: {order}. The softest is {answer}."
+      }
+    }
+  }
+}

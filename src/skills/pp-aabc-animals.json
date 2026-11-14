@@ -1,0 +1,61 @@
+{
+  "id": "pp-aabc-animals",
+  "kind": "picture-pattern",
+  "subject": "patterns",
+  "stage": 4,
+  "ages": [
+    "8-9",
+    "10-12"
+  ],
+  "order": 24,
+  "params": {
+    "rules": [
+      "AABC",
+      "ABCC"
+    ],
+    "pictures": [
+      "animal-frog",
+      "animal-fox",
+      "animal-owl",
+      "animal-panda",
+      "animal-lion",
+      "animal-rabbit",
+      "animal-cow",
+      "animal-zebra"
+    ]
+  },
+  "emoji": "animal-frog",
+  "example": {
+    "rule": "AABC",
+    "unit": 4,
+    "items": "animal-frog animal-frog animal-fox animal-owl animal-frog animal-frog animal-fox animal-owl",
+    "symbols": "animal-frog animal-fox animal-owl",
+    "answer": "animal-frog"
+  },
+  "text": {
+    "en": {
+      "title": "Picture patterns AABC / ABCC: animals",
+      "teach": "In a pattern, a group of pictures repeats ({rule}). Find the group, then say which picture comes next.",
+      "prompt": "What comes next?",
+      "reason": "The pattern repeats every {unit} pictures, so the next one is the picture {unit} back."
+    },
+    "de": {
+      "title": "Bildermuster AABC / ABCC: Tiere",
+      "teach": "In einem Muster wiederholt sich eine Gruppe von Bildern ({rule}). Finde die Gruppe und sag, welches Bild als Nächstes kommt.",
+      "prompt": "Was kommt als Nächstes?",
+      "reason": "Das Muster wiederholt sich alle {unit} Bilder, also ist das nächste Bild das, das {unit} Bilder davor steht."
+    },
+    "fr": {
+      "title": "Suites d’images AABC / ABCC : animaux",
+      "teach": "Dans une suite, un groupe d’images se répète ({rule}). Trouve le groupe, puis dis quelle image vient ensuite.",
+      "prompt": "Qu’est-ce qui vient ensuite ?",
+      "reason": "Le motif se répète toutes les {unit} images : l’image suivante est celle qui se trouve {unit} images avant."
+    },
+    "yo": {
+      "title": "Àpẹẹrẹ àwòrán AABC / ABCC: ẹranko",
+      "teach": "Nínú àpẹẹrẹ, àwùjọ àwòrán kan ń tún ara rẹ̀ ṣe ({rule}). Wá àwùjọ náà, lẹ́yìn náà sọ àwòrán tó kàn.",
+      "prompt": "Kí ló kàn?",
+      "reason": "Àpẹẹrẹ náà ń tún ara rẹ̀ ṣe ní àwòrán {unit} {unit}, nítorí náà àwòrán tó kàn ni èyí tó wà ní àwòrán {unit} sẹ́yìn."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "ql-ages-things",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 35,
+  "only": "en",
+  "params": {
+    "lists": {
+      "age": [
+        [
+          "a newborn baby"
+        ],
+        [
+          "a toddler"
+        ],
+        [
+          "a teenager"
+        ],
+        [
+          "a grown-up"
+        ],
+        [
+          "a grandparent"
+        ],
+        [
+          "an old oak tree"
+        ],
+        [
+          "a castle"
+        ]
+      ]
+    }
+  },
+  "emoji": "clock",
+  "example": {
+    "rule": "age-most",
+    "list": "age",
+    "ask": "most",
+    "items": "a newborn baby|a teenager|a castle",
+    "order": "a newborn baby, a teenager, a castle",
+    "answer": "a castle"
+  },
+  "text": {
+    "en": {
+      "title": "Old and new",
+      "teach": "Think about how old each one is. From youngest to oldest: {order}. The oldest is {answer}.",
+      "prompt": "Which is the oldest?",
+      "prompts": {
+        "age-most": "Which is the oldest?",
+        "age-least": "Which is the youngest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "age-most": "From youngest to oldest: {order}. The oldest is {answer}.",
+        "age-least": "From youngest to oldest: {order}. The youngest is {answer}."
+      }
+    }
+  }
+}

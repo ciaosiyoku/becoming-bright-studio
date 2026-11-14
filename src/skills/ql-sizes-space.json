@@ -1,0 +1,60 @@
+{
+  "id": "ql-sizes-space",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 42,
+  "only": "en",
+  "params": {
+    "lists": {
+      "size": [
+        [
+          "the Moon"
+        ],
+        [
+          "Mars"
+        ],
+        [
+          "the Earth"
+        ],
+        [
+          "Neptune"
+        ],
+        [
+          "Jupiter"
+        ],
+        [
+          "the Sun"
+        ]
+      ]
+    }
+  },
+  "emoji": "moon",
+  "example": {
+    "rule": "size-most",
+    "list": "size",
+    "ask": "most",
+    "items": "the Moon|the Earth|the Sun",
+    "order": "the Moon, the Earth, the Sun",
+    "answer": "the Sun"
+  },
+  "text": {
+    "en": {
+      "title": "Sizes in space",
+      "teach": "Think about how big each one is. From smallest to biggest: {order}. The biggest is {answer}.",
+      "prompt": "Which is the biggest?",
+      "prompts": {
+        "size-most": "Which is the biggest?",
+        "size-least": "Which is the smallest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "size-most": "From smallest to biggest: {order}. The biggest is {answer}.",
+        "size-least": "From smallest to biggest: {order}. The smallest is {answer}."
+      }
+    }
+  }
+}

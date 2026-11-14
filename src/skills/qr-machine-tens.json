@@ -1,0 +1,40 @@
+{
+  "id": "qr-machine-tens",
+  "kind": "qr-machine",
+  "subject": "quantitative",
+  "stage": 2,
+  "ages": [
+    "6-7",
+    "8-9"
+  ],
+  "order": 24,
+  "only": "en",
+  "params": {
+    "steps": [
+      "+10",
+      "+20",
+      "-10"
+    ],
+    "ins": [
+      10,
+      80
+    ]
+  },
+  "emoji": "gear",
+  "example": {
+    "in": 11,
+    "step1": "+10",
+    "step2": "",
+    "machine": "+10",
+    "answer": 21,
+    "working": "11 +10 = 21"
+  },
+  "text": {
+    "en": {
+      "title": "Machines in tens",
+      "teach": "A number goes in and the machine changes it. {in} goes in, the machine does {machine}: {working}.",
+      "prompt": "{in} goes into the machine. What comes out?",
+      "reason": "{working}."
+    }
+  }
+}

@@ -43,3 +43,13 @@ describe('age ranges', () => {
         expect(counts.get(`${subject} ${band}`) ?? 0).toBeGreaterThanOrEqual(PER_RANGE)
       })
 })
+
+describe('choice', () => {
+  // Owner's request (Nov 2026): every subject offers at least 15 skills for every age range (some shared with the
+  // range next to it).
+  for (const subject of SUBJECTS)
+    for (const band of AGE_BANDS)
+      it(`${subject}, ages ${band}: at least 15 skills`, () => {
+        expect(SKILLS.filter((s) => s.subject === subject && skillBands(s).includes(band)).length).toBeGreaterThanOrEqual(15)
+      })
+})

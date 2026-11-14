@@ -1,0 +1,79 @@
+{
+  "id": "ql-common-easy",
+  "kind": "ql-common",
+  "subject": "qualitative",
+  "stage": 0,
+  "ages": [
+    "4-5",
+    "6-7"
+  ],
+  "order": 21,
+  "only": "en",
+  "params": {
+    "qualities": {
+      "hot": [
+        "fire",
+        "the sun",
+        "an oven",
+        "a kettle",
+        "a bonfire",
+        "a toaster"
+      ],
+      "cold": [
+        "a snowman",
+        "a freezer",
+        "an ice lolly",
+        "an iceberg",
+        "frost",
+        "an icicle"
+      ],
+      "wet": [
+        "rain",
+        "a puddle",
+        "a bath",
+        "the sea",
+        "a pond",
+        "a river"
+      ],
+      "soft": [
+        "a pillow",
+        "a teddy bear",
+        "a feather",
+        "a blanket",
+        "a cushion",
+        "cotton wool"
+      ],
+      "sweet": [
+        "honey",
+        "jam",
+        "sugar",
+        "syrup",
+        "a lollipop",
+        "chocolate"
+      ],
+      "loud": [
+        "a drum",
+        "thunder",
+        "a siren",
+        "a trumpet",
+        "a shout",
+        "a car horn"
+      ]
+    }
+  },
+  "emoji": "sparkles",
+  "example": {
+    "answer": "hot",
+    "things": "fire, the sun, an oven",
+    "last": "an oven",
+    "first": "fire, the sun"
+  },
+  "text": {
+    "en": {
+      "title": "What do they share? (easy)",
+      "teach": "Find the one word that is true of all three. {first} and {last} are all {answer}.",
+      "prompt": "Which word describes all three?",
+      "reason": "{first} and {last} are all {answer}."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ql-distances-easy",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 31,
+  "only": "en",
+  "params": {
+    "lists": {
+      "distance": [
+        [
+          "across a room"
+        ],
+        [
+          "a football pitch"
+        ],
+        [
+          "a mile"
+        ],
+        [
+          "across a city"
+        ],
+        [
+          "across a country"
+        ],
+        [
+          "around the world"
+        ]
+      ]
+    }
+  },
+  "emoji": "map",
+  "example": {
+    "rule": "distance-most",
+    "list": "distance",
+    "ask": "most",
+    "items": "across a room|a mile|around the world",
+    "order": "across a room, a mile, around the world",
+    "answer": "around the world"
+  },
+  "text": {
+    "en": {
+      "title": "Near and far",
+      "teach": "Think about how far each one is. From shortest to longest: {order}. The longest distance is {answer}.",
+      "prompt": "Which is the longest distance?",
+      "prompts": {
+        "distance-most": "Which is the longest distance?",
+        "distance-least": "Which is the shortest distance?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "distance-most": "From shortest to longest: {order}. The longest distance is {answer}.",
+        "distance-least": "From shortest to longest: {order}. The shortest distance is {answer}."
+      }
+    }
+  }
+}

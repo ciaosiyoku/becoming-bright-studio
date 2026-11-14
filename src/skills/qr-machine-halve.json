@@ -1,0 +1,41 @@
+{
+  "id": "qr-machine-halve",
+  "kind": "qr-machine",
+  "subject": "quantitative",
+  "stage": 4,
+  "ages": [
+    "8-9",
+    "10-12"
+  ],
+  "order": 32,
+  "only": "en",
+  "params": {
+    "steps": [
+      "/2",
+      "/4",
+      "/5",
+      "/10"
+    ],
+    "ins": [
+      2,
+      100
+    ]
+  },
+  "emoji": "gear",
+  "example": {
+    "in": 4,
+    "step1": "/2",
+    "step2": "",
+    "machine": "÷2",
+    "answer": 2,
+    "working": "4 ÷2 = 2"
+  },
+  "text": {
+    "en": {
+      "title": "Halving and dividing machines",
+      "teach": "A number goes in and the machine changes it. {in} goes in, the machine does {machine}: {working}.",
+      "prompt": "{in} goes into the machine. What comes out?",
+      "reason": "{working}."
+    }
+  }
+}

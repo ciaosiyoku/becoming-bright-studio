@@ -1,0 +1,60 @@
+{
+  "id": "vr-wear",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 17,
+  "only": "en",
+  "params": {
+    "relations": {
+      "wear": [
+        [
+          "head",
+          "hat"
+        ],
+        [
+          "foot",
+          "shoe"
+        ],
+        [
+          "hand",
+          "glove"
+        ],
+        [
+          "neck",
+          "scarf"
+        ],
+        [
+          "eyes",
+          "glasses"
+        ],
+        [
+          "wrist",
+          "watch"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "wear",
+    "a": "head",
+    "b": "hat",
+    "c": "foot",
+    "answer": "shoe"
+  },
+  "text": {
+    "en": {
+      "title": "What we wear",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. You wear a {b} on your {a}, and a {answer} on your {c}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "wear": "You wear a {b} on your {a}, and a {answer} on your {c}."
+      }
+    }
+  }
+}

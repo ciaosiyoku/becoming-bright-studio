@@ -1,0 +1,64 @@
+{
+  "id": "vr-workers",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 33,
+  "only": "en",
+  "params": {
+    "relations": {
+      "worker": [
+        [
+          "doctor",
+          "hospital"
+        ],
+        [
+          "teacher",
+          "school"
+        ],
+        [
+          "chef",
+          "kitchen"
+        ],
+        [
+          "farmer",
+          "farm"
+        ],
+        [
+          "pilot",
+          "aeroplane"
+        ],
+        [
+          "librarian",
+          "library"
+        ],
+        [
+          "baker",
+          "bakery"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "worker",
+    "a": "doctor",
+    "b": "hospital",
+    "c": "teacher",
+    "answer": "school"
+  },
+  "text": {
+    "en": {
+      "title": "Where people work",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A {a} works in a {b}, and a {c} works in a {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "worker": "A {a} works in a {b}, and a {c} works in a {answer}."
+      }
+    }
+  }
+}

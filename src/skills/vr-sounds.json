@@ -1,0 +1,68 @@
+{
+  "id": "vr-sounds",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 14,
+  "only": "en",
+  "params": {
+    "relations": {
+      "sound": [
+        [
+          "cow",
+          "moo"
+        ],
+        [
+          "dog",
+          "woof"
+        ],
+        [
+          "cat",
+          "miaow"
+        ],
+        [
+          "duck",
+          "quack"
+        ],
+        [
+          "sheep",
+          "baa"
+        ],
+        [
+          "lion",
+          "roar"
+        ],
+        [
+          "owl",
+          "hoot"
+        ],
+        [
+          "pig",
+          "oink"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "sound",
+    "a": "cow",
+    "b": "moo",
+    "c": "dog",
+    "answer": "woof"
+  },
+  "text": {
+    "en": {
+      "title": "Animal sounds",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A {a} says {b}, and a {c} says {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "sound": "A {a} says {b}, and a {c} says {answer}."
+      }
+    }
+  }
+}

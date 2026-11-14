@@ -269,7 +269,8 @@ function Result({ skill, checks, stickers, onClose }: { skill: string; checks: C
       <p>{T.lesson.score(right, CHECKS)}</p>
       <p>{mastered ? T.lesson.learntText(skillText(def, lang).title) : T.lesson.notYetText}</p>
       {mastered && upcomingDef && <p className="pill">{T.lesson.nextUp(skillText(upcomingDef, lang).title)}</p>}
-      {stickers.map((st) => (
+      {/* Up to three new stickers here; the sticker book has them all. */}
+      {stickers.slice(0, 3).map((st) => (
         <p key={st.id} className="new-sticker">
           <Emoji name={st.emoji} size={72} />
           <span>
@@ -278,6 +279,7 @@ function Result({ skill, checks, stickers, onClose }: { skill: string; checks: C
           </span>
         </p>
       ))}
+      {stickers.length > 3 && <p className="pill">{T.lesson.moreStickers(stickers.length - 3)}</p>}
       {gained > 0 && (
         <p className="earned-now">
           <Emoji name="clock" size={36} /> {T.access.earnedNow(gained)}

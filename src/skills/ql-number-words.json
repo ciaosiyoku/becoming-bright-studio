@@ -1,0 +1,60 @@
+{
+  "id": "ql-number-words",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 46,
+  "only": "en",
+  "params": {
+    "lists": {
+      "number": [
+        [
+          "a pair"
+        ],
+        [
+          "a dozen"
+        ],
+        [
+          "a score"
+        ],
+        [
+          "a hundred"
+        ],
+        [
+          "a thousand"
+        ],
+        [
+          "a million"
+        ]
+      ]
+    }
+  },
+  "emoji": "chart",
+  "example": {
+    "rule": "number-most",
+    "list": "number",
+    "ask": "most",
+    "items": "a pair|a score|a million",
+    "order": "a pair, a score, a million",
+    "answer": "a million"
+  },
+  "text": {
+    "en": {
+      "title": "Number words",
+      "teach": "A pair is 2, a dozen 12, a score 20. From smallest to biggest: {order}. The biggest number is {answer}.",
+      "prompt": "Which is the biggest number?",
+      "prompts": {
+        "number-most": "Which is the biggest number?",
+        "number-least": "Which is the smallest number?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "number-most": "From smallest to biggest: {order}. The biggest number is {answer}.",
+        "number-least": "From smallest to biggest: {order}. The smallest number is {answer}."
+      }
+    }
+  }
+}

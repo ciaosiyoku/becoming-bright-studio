@@ -1,0 +1,74 @@
+{
+  "id": "ql-odd-farm-wild",
+  "kind": "odd-one-out",
+  "subject": "qualitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 9,
+  "only": "en",
+  "params": {
+    "groups": {
+      "farm animals": [
+        [
+          "cow",
+          "animal-cow"
+        ],
+        [
+          "horse",
+          "animal-horse"
+        ],
+        [
+          "chick",
+          "chick"
+        ],
+        [
+          "rabbit",
+          "animal-rabbit"
+        ]
+      ],
+      "wild animals": [
+        [
+          "lion",
+          "animal-lion"
+        ],
+        [
+          "tiger",
+          "animal-tiger"
+        ],
+        [
+          "zebra",
+          "animal-zebra"
+        ],
+        [
+          "giraffe",
+          "animal-giraffe"
+        ],
+        [
+          "elephant",
+          "animal-elephant"
+        ],
+        [
+          "panda",
+          "animal-panda"
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-cow",
+  "example": {
+    "group": "farm animals",
+    "oddGroup": "wild animals",
+    "items": "chick, cow, horse",
+    "answer": "lion"
+  },
+  "text": {
+    "en": {
+      "title": "Farm or wild?",
+      "teach": "Three pictures go together. The {items} are all {group}, and the {answer} is not.",
+      "prompt": "Which picture does not belong?",
+      "reason": "The others are all {group}; the {answer} is not."
+    }
+  }
+}

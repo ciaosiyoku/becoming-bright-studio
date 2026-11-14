@@ -37,23 +37,23 @@ Written down before any code in the [learning contract](docs/LEARNING-CONTRACT.m
 After every answer, the right one turns green and the reason stays on screen until the child taps **Next**, which
 unlocks after a moment. Nothing moves on by itself, so red never means "go faster".
 
-**195 skills for ages 4 to 12, and the child chooses.** A grown-up gives each child an age; the child sees the
+**344 skills for ages 4 to 12, and the child chooses.** A grown-up gives each child an age; the child sees the
 skills for their age range (4–5, 6–7, 8–9, 10–12), picks a subject, then a skill. The Learn tab then shows only that
-skill. Every subject has **at least 300 different questions per age range** (a test checks it).
+skill. Every subject has **at least 300 different questions per age range** and **at least 15 skills per age range** (some shared with the range next to it; tests check both).
 
-- **Maths (31):** counting; adding and taking away within 5, 10, 20, 100 and 1000; one more and one less; tens
+- **Maths (32):** counting; adding and taking away within 5, 10, 20, 100 and 1000; one more and one less; tens
   and ones; times tables; hours, minutes and seconds; place value; rounding; dividing; multiplying; fractions;
   percentages; order of operations; square numbers.
 - **English (47):** letters and first sounds up to idioms, the passive and Greek and
   Latin roots.
-- **Patterns (13):** picture patterns and number sequences.
+- **Patterns (37):** picture patterns and number sequences.
 - **Science (40, in every app language):** 10 per age range, from my body and the senses to body systems, evolution
   and circuits.
 - **French (40, taught in English):** 10 per age range, from greetings and colours to the passé composé.
-- **Verbal reasoning (8, in English):** the odd word out, word pairs and analogies, letter codes.
-- **Quantitative reasoning (8, in English):** missing numbers, number machines, number stories (to 10, 20 and 100;
+- **Verbal reasoning (51, in English):** the odd word out, word pairs and analogies, letter codes.
+- **Quantitative reasoning (45, in English):** missing numbers, number machines, number stories (to 10, 20 and 100;
   times, sharing and prices).
-- **Qualitative reasoning (8, in English):** reasoning about qualities: the odd picture out, which is biggest, fastest,
+- **Qualitative reasoning (52, in English):** reasoning about qualities: the odd picture out, which is biggest, fastest,
   heaviest, hottest or oldest, and which word describes three things.
 
 Numbers are made fresh each time so answers can't be learnt by heart. Science, French and the newer English skills
@@ -81,7 +81,9 @@ the day after a set number of passed lessons (2 at first). With Earn first, a pa
   adds an **email address and a secret word**. A forgotten PIN needs the code plus the email or the secret word (all
   stored only as hashes; nothing is sent). There is no 24-hour reset: without them, the way back is starting again
   from a backup (backups never hold the PIN, the code, the email or the secret word).
-- **Streaks:** days in a row with a lesson, and the best streak, at the top of the Learn tab. Stories heard and Whys
+- **Streaks:** days in a row with a lesson, and the best streak, at the top of the Learn tab.
+- **100 stickers,** each with its own picture, all won by learning: first trees in each subject, trees grown,
+  days in a row, lessons finished, stars collected, 5 of 5, every skill of a subject for the child's age. Stories heard and Whys
   read get a tick.
 - **Backup** in one file, with an automatic reminder once a week.
 - **Several children** on one device: each with a name, a colour and their own progress. One PIN for the family.

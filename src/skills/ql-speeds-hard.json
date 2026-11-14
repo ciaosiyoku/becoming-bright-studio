@@ -1,0 +1,66 @@
+{
+  "id": "ql-speeds-hard",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 50,
+  "only": "en",
+  "params": {
+    "lists": {
+      "speed": [
+        [
+          "a sloth"
+        ],
+        [
+          "a tortoise"
+        ],
+        [
+          "a person walking"
+        ],
+        [
+          "a cheetah"
+        ],
+        [
+          "a car on a motorway"
+        ],
+        [
+          "a jet plane"
+        ],
+        [
+          "sound"
+        ],
+        [
+          "light"
+        ]
+      ]
+    }
+  },
+  "emoji": "sparkles",
+  "example": {
+    "rule": "speed-most",
+    "list": "speed",
+    "ask": "most",
+    "items": "a sloth|a person walking|light",
+    "order": "a sloth, a person walking, light",
+    "answer": "light"
+  },
+  "text": {
+    "en": {
+      "title": "The fastest things",
+      "teach": "Think about how fast each one moves. From slowest to fastest: {order}. The fastest is {answer}.",
+      "prompt": "Which is the fastest?",
+      "prompts": {
+        "speed-most": "Which is the fastest?",
+        "speed-least": "Which is the slowest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "speed-most": "From slowest to fastest: {order}. The fastest is {answer}.",
+        "speed-least": "From slowest to fastest: {order}. The slowest is {answer}."
+      }
+    }
+  }
+}

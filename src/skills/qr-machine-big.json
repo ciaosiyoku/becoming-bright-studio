@@ -1,0 +1,44 @@
+{
+  "id": "qr-machine-big",
+  "kind": "qr-machine",
+  "subject": "quantitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 41,
+  "only": "en",
+  "params": {
+    "steps": [
+      "x6",
+      "x7",
+      "x8",
+      "x9",
+      "x11",
+      "x12",
+      "+25",
+      "-25"
+    ],
+    "ins": [
+      5,
+      50
+    ]
+  },
+  "emoji": "gear",
+  "example": {
+    "in": 6,
+    "step1": "x6",
+    "step2": "",
+    "machine": "×6",
+    "answer": 36,
+    "working": "6 ×6 = 36"
+  },
+  "text": {
+    "en": {
+      "title": "Big number machines",
+      "teach": "A number goes in and the machine changes it. {in} goes in, the machine does {machine}: {working}.",
+      "prompt": "{in} goes into the machine. What comes out?",
+      "reason": "{working}."
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "vr-same",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 36,
+  "only": "en",
+  "params": {
+    "relations": {
+      "same": [
+        [
+          "big",
+          "large"
+        ],
+        [
+          "quick",
+          "fast"
+        ],
+        [
+          "shut",
+          "close"
+        ],
+        [
+          "glad",
+          "happy"
+        ],
+        [
+          "begin",
+          "start"
+        ],
+        [
+          "tiny",
+          "small"
+        ],
+        [
+          "shout",
+          "yell"
+        ],
+        [
+          "silent",
+          "quiet"
+        ],
+        [
+          "cross",
+          "angry"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "same",
+    "a": "big",
+    "b": "large",
+    "c": "quick",
+    "answer": "fast"
+  },
+  "text": {
+    "en": {
+      "title": "Same meaning",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. {a} means the same as {b}, and {c} means the same as {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "same": "{a} means the same as {b}, and {c} means the same as {answer}."
+      }
+    }
+  }
+}

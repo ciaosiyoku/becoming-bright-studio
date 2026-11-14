@@ -1,0 +1,63 @@
+{
+  "id": "ql-capacity",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 32,
+  "only": "en",
+  "params": {
+    "lists": {
+      "capacity": [
+        [
+          "a teaspoon"
+        ],
+        [
+          "a cup"
+        ],
+        [
+          "a jug"
+        ],
+        [
+          "a bucket"
+        ],
+        [
+          "a bath"
+        ],
+        [
+          "a swimming pool"
+        ],
+        [
+          "a lake"
+        ]
+      ]
+    }
+  },
+  "emoji": "droplet",
+  "example": {
+    "rule": "capacity-most",
+    "list": "capacity",
+    "ask": "most",
+    "items": "a teaspoon|a jug|a lake",
+    "order": "a teaspoon, a jug, a lake",
+    "answer": "a lake"
+  },
+  "text": {
+    "en": {
+      "title": "Holding the most",
+      "teach": "Think about how much each one holds. From least to most: {order}. {answer} holds the most.",
+      "prompt": "Which holds the most?",
+      "prompts": {
+        "capacity-most": "Which holds the most?",
+        "capacity-least": "Which holds the least?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "capacity-most": "From least to most: {order}. {answer} holds the most.",
+        "capacity-least": "From least to most: {order}. {answer} holds the least."
+      }
+    }
+  }
+}

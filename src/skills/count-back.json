@@ -3,6 +3,10 @@
   "kind": "sequence",
   "subject": "patterns",
   "stage": 3,
+  "ages": [
+    "8-9",
+    "10-12"
+  ],
   "order": 6,
   "params": {
     "steps": [

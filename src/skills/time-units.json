@@ -3,6 +3,10 @@
   "kind": "time-units",
   "subject": "numbers",
   "stage": 3,
+  "ages": [
+    "8-9",
+    "10-12"
+  ],
   "order": 17,
   "params": {},
   "emoji": "clock",

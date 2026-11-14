@@ -1,0 +1,63 @@
+{
+  "id": "ql-weights-easy",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 28,
+  "only": "en",
+  "params": {
+    "lists": {
+      "weight": [
+        [
+          "a feather"
+        ],
+        [
+          "a pencil"
+        ],
+        [
+          "an apple"
+        ],
+        [
+          "a book"
+        ],
+        [
+          "a cat"
+        ],
+        [
+          "a child"
+        ],
+        [
+          "a car"
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-elephant",
+  "example": {
+    "rule": "weight-most",
+    "list": "weight",
+    "ask": "most",
+    "items": "a feather|an apple|a car",
+    "order": "a feather, an apple, a car",
+    "answer": "a car"
+  },
+  "text": {
+    "en": {
+      "title": "Heavy and light things",
+      "teach": "Think about how heavy each one is. From lightest to heaviest: {order}. The heaviest is {answer}.",
+      "prompt": "Which is the heaviest?",
+      "prompts": {
+        "weight-most": "Which is the heaviest?",
+        "weight-least": "Which is the lightest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "weight-most": "From lightest to heaviest: {order}. The heaviest is {answer}.",
+        "weight-least": "From lightest to heaviest: {order}. The lightest is {answer}."
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "qr-machine-plus",
+  "kind": "qr-machine",
+  "subject": "quantitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 13,
+  "only": "en",
+  "params": {
+    "steps": [
+      "+1",
+      "+2",
+      "+3"
+    ],
+    "ins": [
+      0,
+      7
+    ]
+  },
+  "emoji": "gear",
+  "example": {
+    "in": 1,
+    "step1": "+1",
+    "step2": "",
+    "machine": "+1",
+    "answer": 2,
+    "working": "1 +1 = 2"
+  },
+  "text": {
+    "en": {
+      "title": "Adding machines",
+      "teach": "A number goes in and the machine changes it. {in} goes in, the machine does {machine}: {working}.",
+      "prompt": "{in} goes into the machine. What comes out?",
+      "reason": "{working}."
+    }
+  }
+}

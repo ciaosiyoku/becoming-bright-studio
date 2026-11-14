@@ -1,0 +1,114 @@
+{
+  "id": "qr-price-stories",
+  "kind": "qr-story",
+  "subject": "quantitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 44,
+  "only": "en",
+  "params": {
+    "rules": [
+      "unit"
+    ],
+    "max": 100,
+    "names": [
+      "Ada",
+      "Ben",
+      "Chloe",
+      "Dan",
+      "Ella",
+      "Femi",
+      "Grace",
+      "Hassan",
+      "Ivy",
+      "Jay",
+      "Kemi",
+      "Leo",
+      "Mia",
+      "Noah",
+      "Ola",
+      "Priya",
+      "Sam",
+      "Tunde",
+      "Zara"
+    ],
+    "things": [
+      [
+        "apples",
+        "fruit-apple"
+      ],
+      [
+        "cookies",
+        "cookie"
+      ],
+      [
+        "cakes",
+        "cake"
+      ],
+      [
+        "stars",
+        "star"
+      ],
+      [
+        "bananas",
+        "fruit-banana"
+      ],
+      [
+        "strawberries",
+        "fruit-strawberry"
+      ],
+      [
+        "candles",
+        "candle"
+      ],
+      [
+        "presents",
+        "gift"
+      ],
+      [
+        "teddies",
+        "teddy"
+      ],
+      [
+        "keys",
+        "key"
+      ],
+      [
+        "lemons",
+        "fruit-lemon"
+      ],
+      [
+        "pears",
+        "fruit-pear"
+      ]
+    ]
+  },
+  "emoji": "fruit-lemon",
+  "example": {
+    "rule": "unit",
+    "name": "Ada",
+    "thing": "lemons",
+    "emoji": "fruit-lemon",
+    "a": 3,
+    "b": 5,
+    "c": 12,
+    "answer": 20,
+    "price": 4
+  },
+  "text": {
+    "en": {
+      "title": "Price stories",
+      "teach": "Find the numbers in the story, then work it out. One costs {c} ÷ {a} = {price}p, so {b} cost {b} × {price} = {answer}p.",
+      "prompt": "{a} {thing} cost {c}p. How much do {b} {thing} cost?",
+      "prompts": {
+        "unit": "{a} {thing} cost {c}p. How much do {b} {thing} cost?"
+      },
+      "reason": "One costs {c} ÷ {a} = {price}p, so {b} cost {b} × {price} = {answer}p.",
+      "reasons": {
+        "unit": "One costs {c} ÷ {a} = {price}p, so {b} cost {b} × {price} = {answer}p."
+      }
+    }
+  }
+}

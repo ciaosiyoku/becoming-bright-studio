@@ -1,0 +1,48 @@
+{
+  "id": "vr-code-three",
+  "kind": "vr-code",
+  "subject": "verbal",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 48,
+  "only": "en",
+  "params": {
+    "words": [
+      "house",
+      "plant",
+      "train",
+      "cloud",
+      "bread",
+      "smile",
+      "stone",
+      "beach",
+      "river",
+      "tiger",
+      "lemon",
+      "horse"
+    ],
+    "shifts": [
+      3,
+      -3
+    ]
+  },
+  "emoji": "key",
+  "example": {
+    "shift": 3,
+    "w1": "HOUSE",
+    "c1": "KRXVH",
+    "w2": "PLANT",
+    "answer": "SODQW",
+    "move": "+3"
+  },
+  "text": {
+    "en": {
+      "title": "Letter codes: three steps",
+      "teach": "In a code, every letter moves the same number of places along the alphabet. {w1} → {c1}: each letter moves {move}, so {w2} → {answer}.",
+      "prompt": "If {w1} is written {c1}, how is {w2} written?",
+      "reason": "Each letter moves {move} along the alphabet, so {w2} becomes {answer}."
+    }
+  }
+}

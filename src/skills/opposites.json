@@ -3,6 +3,10 @@
   "kind": "opposite",
   "subject": "words",
   "stage": 4,
+  "ages": [
+    "8-9",
+    "10-12"
+  ],
   "order": 11,
   "only": "en",
   "params": {

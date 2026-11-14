@@ -1,0 +1,60 @@
+{
+  "id": "ql-loudness-hard",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 48,
+  "only": "en",
+  "params": {
+    "lists": {
+      "loudness": [
+        [
+          "a pin dropping"
+        ],
+        [
+          "a whisper"
+        ],
+        [
+          "a normal voice"
+        ],
+        [
+          "a busy street"
+        ],
+        [
+          "a rock concert"
+        ],
+        [
+          "a jet engine taking off"
+        ]
+      ]
+    }
+  },
+  "emoji": "bell",
+  "example": {
+    "rule": "loudness-most",
+    "list": "loudness",
+    "ask": "most",
+    "items": "a pin dropping|a normal voice|a jet engine taking off",
+    "order": "a pin dropping, a normal voice, a jet engine taking off",
+    "answer": "a jet engine taking off"
+  },
+  "text": {
+    "en": {
+      "title": "Loud and quiet (hard)",
+      "teach": "Think about how loud each one is. From quietest to loudest: {order}. The loudest is {answer}.",
+      "prompt": "Which is the loudest?",
+      "prompts": {
+        "loudness-most": "Which is the loudest?",
+        "loudness-least": "Which is the quietest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "loudness-most": "From quietest to loudest: {order}. The loudest is {answer}.",
+        "loudness-least": "From quietest to loudest: {order}. The quietest is {answer}."
+      }
+    }
+  }
+}

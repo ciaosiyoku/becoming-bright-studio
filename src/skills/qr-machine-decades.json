@@ -1,0 +1,38 @@
+{
+  "id": "qr-machine-decades",
+  "kind": "qr-machine",
+  "subject": "quantitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 43,
+  "only": "en",
+  "params": {
+    "steps": [
+      "x10",
+      "/10"
+    ],
+    "ins": [
+      1,
+      99
+    ]
+  },
+  "emoji": "gear",
+  "example": {
+    "in": 2,
+    "step1": "x10",
+    "step2": "",
+    "machine": "×10",
+    "answer": 20,
+    "working": "2 ×10 = 20"
+  },
+  "text": {
+    "en": {
+      "title": "Times and divide by 10",
+      "teach": "A number goes in and the machine changes it. {in} goes in, the machine does {machine}: {working}.",
+      "prompt": "{in} goes into the machine. What comes out?",
+      "reason": "{working}."
+    }
+  }
+}

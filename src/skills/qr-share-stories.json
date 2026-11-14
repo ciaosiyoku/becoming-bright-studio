@@ -1,0 +1,113 @@
+{
+  "id": "qr-share-stories",
+  "kind": "qr-story",
+  "subject": "quantitative",
+  "stage": 4,
+  "ages": [
+    "8-9",
+    "10-12"
+  ],
+  "order": 36,
+  "only": "en",
+  "params": {
+    "rules": [
+      "share"
+    ],
+    "max": 100,
+    "names": [
+      "Ada",
+      "Ben",
+      "Chloe",
+      "Dan",
+      "Ella",
+      "Femi",
+      "Grace",
+      "Hassan",
+      "Ivy",
+      "Jay",
+      "Kemi",
+      "Leo",
+      "Mia",
+      "Noah",
+      "Ola",
+      "Priya",
+      "Sam",
+      "Tunde",
+      "Zara"
+    ],
+    "things": [
+      [
+        "apples",
+        "fruit-apple"
+      ],
+      [
+        "cookies",
+        "cookie"
+      ],
+      [
+        "cakes",
+        "cake"
+      ],
+      [
+        "stars",
+        "star"
+      ],
+      [
+        "bananas",
+        "fruit-banana"
+      ],
+      [
+        "strawberries",
+        "fruit-strawberry"
+      ],
+      [
+        "candles",
+        "candle"
+      ],
+      [
+        "presents",
+        "gift"
+      ],
+      [
+        "teddies",
+        "teddy"
+      ],
+      [
+        "keys",
+        "key"
+      ],
+      [
+        "lemons",
+        "fruit-lemon"
+      ],
+      [
+        "pears",
+        "fruit-pear"
+      ]
+    ]
+  },
+  "emoji": "cake",
+  "example": {
+    "rule": "share",
+    "name": "Ivy",
+    "thing": "cakes",
+    "emoji": "cake",
+    "a": 12,
+    "b": 3,
+    "answer": 4
+  },
+  "text": {
+    "en": {
+      "title": "Sharing stories",
+      "teach": "Find the numbers in the story, then work it out. {a} ÷ {b} = {answer}.",
+      "prompt": "{a} {thing} are shared equally between {b} friends. How many does each friend get?",
+      "prompts": {
+        "share": "{a} {thing} are shared equally between {b} friends. How many does each friend get?"
+      },
+      "reason": "{a} ÷ {b} = {answer}.",
+      "reasons": {
+        "share": "{a} ÷ {b} = {answer}."
+      }
+    }
+  }
+}

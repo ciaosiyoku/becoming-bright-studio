@@ -1,0 +1,78 @@
+{
+  "id": "ql-common-more",
+  "kind": "ql-common",
+  "subject": "qualitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 39,
+  "only": "en",
+  "params": {
+    "qualities": {
+      "loud": [
+        "a drum",
+        "thunder",
+        "a siren",
+        "a trumpet",
+        "an alarm clock",
+        "a car horn"
+      ],
+      "round": [
+        "a ball",
+        "a wheel",
+        "a plate",
+        "a hoop",
+        "a pizza",
+        "a clock face"
+      ],
+      "heavy": [
+        "an elephant",
+        "a boulder",
+        "an anvil",
+        "a wardrobe",
+        "a fridge",
+        "a stone statue"
+      ],
+      "tiny": [
+        "an ant",
+        "a crumb",
+        "a flea",
+        "a grain of rice",
+        "a speck of dust",
+        "a grain of sand"
+      ],
+      "sharp": [
+        "a knife",
+        "a needle",
+        "a thorn",
+        "a pin",
+        "scissors",
+        "a saw"
+      ],
+      "sweet": [
+        "honey",
+        "sugar",
+        "jam",
+        "syrup",
+        "chocolate",
+        "a toffee"
+      ]
+    }
+  },
+  "emoji": "sparkles",
+  "example": {
+    "answer": "loud",
+    "things": "a drum, thunder, a siren",
+    "last": "a siren",
+    "first": "a drum, thunder"
+  },
+  "text": {
+    "en": {
+      "title": "One word for three things",
+      "teach": "Find the one word that is true of all three. {first} and {last} are all {answer}.",
+      "prompt": "Which word describes all three?",
+      "reason": "{first} and {last} are all {answer}."
+    }
+  }
+}

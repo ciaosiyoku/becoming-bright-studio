@@ -1,0 +1,37 @@
+{
+  "id": "qr-missing-times-5",
+  "kind": "qr-balance",
+  "subject": "quantitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 30,
+  "only": "en",
+  "params": {
+    "max": 100,
+    "ops": [
+      "mul"
+    ],
+    "mulMax": 5
+  },
+  "emoji": "chart",
+  "example": {
+    "op": "mul",
+    "a": 3,
+    "b": 4,
+    "c": 12,
+    "blank": "first",
+    "answer": 3,
+    "shown": "? × 4 = 12",
+    "full": "3 × 4 = 12"
+  },
+  "text": {
+    "en": {
+      "title": "Missing numbers: tables to 5",
+      "teach": "Something is hiding behind the ?. Try numbers until the sum is true: {shown}, and {full}.",
+      "prompt": "What is the missing number?",
+      "reason": "{full}, so the missing number is {answer}."
+    }
+  }
+}

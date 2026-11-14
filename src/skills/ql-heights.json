@@ -1,0 +1,70 @@
+{
+  "id": "ql-heights",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 16,
+  "only": "en",
+  "params": {
+    "lists": {
+      "height": [
+        [
+          "mouse",
+          "animal-mouse"
+        ],
+        [
+          "rabbit",
+          "animal-rabbit"
+        ],
+        [
+          "fox",
+          "animal-fox"
+        ],
+        [
+          "deer",
+          "deer"
+        ],
+        [
+          "horse",
+          "animal-horse"
+        ],
+        [
+          "elephant",
+          "animal-elephant"
+        ],
+        [
+          "giraffe",
+          "animal-giraffe"
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-giraffe",
+  "example": {
+    "rule": "height-most",
+    "list": "height",
+    "ask": "most",
+    "items": "mouse|fox|giraffe",
+    "order": "mouse, fox, giraffe",
+    "answer": "giraffe"
+  },
+  "text": {
+    "en": {
+      "title": "Tall and short animals",
+      "teach": "Think about how tall each animal really is. From shortest to tallest: {order}. The tallest is the {answer}.",
+      "prompt": "Which is the tallest?",
+      "prompts": {
+        "height-most": "Which is the tallest?",
+        "height-least": "Which is the shortest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "height-most": "From shortest to tallest: {order}. The tallest is {answer}.",
+        "height-least": "From shortest to tallest: {order}. The shortest is {answer}."
+      }
+    }
+  }
+}

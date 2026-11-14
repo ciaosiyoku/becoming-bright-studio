@@ -1,0 +1,62 @@
+{
+  "id": "ql-speeds-pictures",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 17,
+  "only": "en",
+  "params": {
+    "lists": {
+      "speed": [
+        [
+          "snail",
+          "animal-snail"
+        ],
+        [
+          "sloth",
+          "animal-sloth"
+        ],
+        [
+          "hedgehog",
+          "animal-hedgehog"
+        ],
+        [
+          "horse",
+          "animal-horse"
+        ],
+        [
+          "plane",
+          "airplane"
+        ]
+      ]
+    }
+  },
+  "emoji": "airplane",
+  "example": {
+    "rule": "speed-most",
+    "list": "speed",
+    "ask": "most",
+    "items": "snail|hedgehog|plane",
+    "order": "snail, hedgehog, plane",
+    "answer": "plane"
+  },
+  "text": {
+    "en": {
+      "title": "Fast and slow",
+      "teach": "Think about how fast each one can go. From slowest to fastest: {order}. The fastest is the {answer}.",
+      "prompt": "Which is the fastest?",
+      "prompts": {
+        "speed-most": "Which is the fastest?",
+        "speed-least": "Which is the slowest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "speed-most": "From slowest to fastest: {order}. The fastest is {answer}.",
+        "speed-least": "From slowest to fastest: {order}. The slowest is {answer}."
+      }
+    }
+  }
+}

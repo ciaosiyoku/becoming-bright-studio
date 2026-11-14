@@ -1,0 +1,78 @@
+{
+  "id": "after-10",
+  "kind": "neighbour",
+  "subject": "numbers",
+  "stage": 0,
+  "ages": [
+    "4-5",
+    "6-7"
+  ],
+  "order": 32,
+  "params": {
+    "max": 10
+  },
+  "emoji": "footprints",
+  "example": {
+    "n": 6,
+    "answer": 7,
+    "rule": "after"
+  },
+  "text": {
+    "en": {
+      "title": "Numbers to 10: before and after",
+      "teach": "When we count, each number has one just after it and one just before it. After 6 comes 7.",
+      "prompt": "Which number comes after {n}?",
+      "reason": "",
+      "prompts": {
+        "after": "Which number comes after {n}?",
+        "before": "Which number comes before {n}?"
+      },
+      "reasons": {
+        "after": "Count on one: {n}, then {answer}.",
+        "before": "Count back one: {n}, then {answer}."
+      }
+    },
+    "de": {
+      "title": "Zahlen bis 10: davor und danach",
+      "teach": "Beim Zählen hat jede Zahl eine direkt danach und eine direkt davor. Nach 6 kommt 7.",
+      "prompt": "Welche Zahl kommt nach {n}?",
+      "reason": "",
+      "prompts": {
+        "after": "Welche Zahl kommt nach {n}?",
+        "before": "Welche Zahl kommt vor {n}?"
+      },
+      "reasons": {
+        "after": "Zähl eins weiter: {n}, dann {answer}.",
+        "before": "Zähl eins zurück: {n}, dann {answer}."
+      }
+    },
+    "fr": {
+      "title": "Nombres jusqu’à 10 : avant et après",
+      "teach": "Quand on compte, chaque nombre a un nombre juste après et un juste avant. Après 6 vient 7.",
+      "prompt": "Quel nombre vient après {n} ?",
+      "reason": "",
+      "prompts": {
+        "after": "Quel nombre vient après {n} ?",
+        "before": "Quel nombre vient avant {n} ?"
+      },
+      "reasons": {
+        "after": "Compte un de plus : {n}, puis {answer}.",
+        "before": "Compte un en arrière : {n}, puis {answer}."
+      }
+    },
+    "yo": {
+      "title": "Nọ́ńbà títí dé 10: ṣáájú àti lẹ́yìn",
+      "teach": "Nígbà tí a bá ń kà, nọ́ńbà kọ̀ọ̀kan ní èyí tó tẹ̀lé e àti èyí tó ṣáájú rẹ̀. Lẹ́yìn 6 ni 7.",
+      "prompt": "Nọ́ńbà wo ló tẹ̀lé {n}?",
+      "reason": "",
+      "prompts": {
+        "after": "Nọ́ńbà wo ló tẹ̀lé {n}?",
+        "before": "Nọ́ńbà wo ló ṣáájú {n}?"
+      },
+      "reasons": {
+        "after": "Kà ọ̀kan síwájú: {n}, lẹ́yìn náà {answer}.",
+        "before": "Kà ọ̀kan sẹ́yìn: {n}, lẹ́yìn náà {answer}."
+      }
+    }
+  }
+}

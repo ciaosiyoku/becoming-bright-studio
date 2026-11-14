@@ -1,0 +1,68 @@
+{
+  "id": "vr-young-hard",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 46,
+  "only": "en",
+  "params": {
+    "relations": {
+      "young": [
+        [
+          "goose",
+          "gosling"
+        ],
+        [
+          "kangaroo",
+          "joey"
+        ],
+        [
+          "swan",
+          "cygnet"
+        ],
+        [
+          "deer",
+          "fawn"
+        ],
+        [
+          "owl",
+          "owlet"
+        ],
+        [
+          "eagle",
+          "eaglet"
+        ],
+        [
+          "bear",
+          "cub"
+        ],
+        [
+          "goat",
+          "kid"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "young",
+    "a": "goose",
+    "b": "gosling",
+    "c": "kangaroo",
+    "answer": "joey"
+  },
+  "text": {
+    "en": {
+      "title": "Unusual young animals",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A young {a} is a {b}, and a young {c} is a {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "young": "A young {a} is a {b}, and a young {c} is a {answer}."
+      }
+    }
+  }
+}

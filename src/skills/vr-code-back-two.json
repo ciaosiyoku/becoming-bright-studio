@@ -1,0 +1,47 @@
+{
+  "id": "vr-code-back-two",
+  "kind": "vr-code",
+  "subject": "verbal",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 49,
+  "only": "en",
+  "params": {
+    "words": [
+      "bird",
+      "fish",
+      "star",
+      "rain",
+      "milk",
+      "tree",
+      "lamp",
+      "frog",
+      "ship",
+      "coat",
+      "moon",
+      "book"
+    ],
+    "shifts": [
+      -2
+    ]
+  },
+  "emoji": "key",
+  "example": {
+    "shift": -2,
+    "w1": "BIRD",
+    "c1": "ZGPB",
+    "w2": "FISH",
+    "answer": "DGQF",
+    "move": "−2"
+  },
+  "text": {
+    "en": {
+      "title": "Letter codes: two steps back",
+      "teach": "In a code, every letter moves the same number of places along the alphabet. {w1} → {c1}: each letter moves {move}, so {w2} → {answer}.",
+      "prompt": "If {w1} is written {c1}, how is {w2} written?",
+      "reason": "Each letter moves {move} along the alphabet, so {w2} becomes {answer}."
+    }
+  }
+}

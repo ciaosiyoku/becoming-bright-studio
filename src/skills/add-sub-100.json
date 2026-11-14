@@ -3,6 +3,10 @@
   "kind": "add-sub",
   "subject": "numbers",
   "stage": 3,
+  "ages": [
+    "8-9",
+    "10-12"
+  ],
   "order": 15,
   "params": {
     "max": 100,

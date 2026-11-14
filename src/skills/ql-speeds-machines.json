@@ -1,0 +1,57 @@
+{
+  "id": "ql-speeds-machines",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 40,
+  "only": "en",
+  "params": {
+    "lists": {
+      "speed": [
+        [
+          "a bicycle"
+        ],
+        [
+          "a car"
+        ],
+        [
+          "a high-speed train"
+        ],
+        [
+          "a jet plane"
+        ],
+        [
+          "a rocket"
+        ]
+      ]
+    }
+  },
+  "emoji": "airplane",
+  "example": {
+    "rule": "speed-most",
+    "list": "speed",
+    "ask": "most",
+    "items": "a bicycle|a high-speed train|a rocket",
+    "order": "a bicycle, a high-speed train, a rocket",
+    "answer": "a rocket"
+  },
+  "text": {
+    "en": {
+      "title": "Fast machines",
+      "teach": "Think about the top speed of each. From slowest to fastest: {order}. The fastest is {answer}.",
+      "prompt": "Which is the fastest?",
+      "prompts": {
+        "speed-most": "Which is the fastest?",
+        "speed-least": "Which is the slowest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "speed-most": "From slowest to fastest: {order}. The fastest is {answer}.",
+        "speed-least": "From slowest to fastest: {order}. The slowest is {answer}."
+      }
+    }
+  }
+}

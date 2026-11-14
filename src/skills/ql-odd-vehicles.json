@@ -1,0 +1,76 @@
+{
+  "id": "ql-odd-vehicles",
+  "kind": "odd-one-out",
+  "subject": "qualitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 13,
+  "only": "en",
+  "params": {
+    "groups": {
+      "things to ride in": [
+        [
+          "bus",
+          "bus"
+        ],
+        [
+          "plane",
+          "airplane"
+        ],
+        [
+          "minibus",
+          "minibus"
+        ],
+        [
+          "sled",
+          "sled"
+        ]
+      ],
+      "buildings": [
+        [
+          "house",
+          "house"
+        ],
+        [
+          "school",
+          "school"
+        ],
+        [
+          "factory",
+          "factory"
+        ]
+      ],
+      "animals": [
+        [
+          "cow",
+          "animal-cow"
+        ],
+        [
+          "zebra",
+          "animal-zebra"
+        ],
+        [
+          "panda",
+          "animal-panda"
+        ]
+      ]
+    }
+  },
+  "emoji": "bus",
+  "example": {
+    "group": "things to ride in",
+    "oddGroup": "buildings",
+    "items": "bus, minibus, plane",
+    "answer": "house"
+  },
+  "text": {
+    "en": {
+      "title": "Ride, build or live?",
+      "teach": "Three pictures go together. The {items} are all {group}, and the {answer} is not.",
+      "prompt": "Which picture does not belong?",
+      "reason": "The others are all {group}; the {answer} is not."
+    }
+  }
+}

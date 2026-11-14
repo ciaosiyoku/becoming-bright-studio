@@ -1,0 +1,47 @@
+{
+  "id": "qr-machine-two-hard",
+  "kind": "qr-machine",
+  "subject": "quantitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 42,
+  "only": "en",
+  "params": {
+    "steps": [
+      "x6",
+      "x7",
+      "x8",
+      "x9"
+    ],
+    "ins": [
+      2,
+      12
+    ],
+    "steps2": [
+      "-1",
+      "-3",
+      "-5",
+      "-9",
+      "+7"
+    ]
+  },
+  "emoji": "gear",
+  "example": {
+    "in": 3,
+    "step1": "x6",
+    "step2": "-1",
+    "machine": "×6 then −1",
+    "answer": 17,
+    "working": "3 ×6 = 18, then 18 −1 = 17"
+  },
+  "text": {
+    "en": {
+      "title": "Hard two-step machines",
+      "teach": "A number goes in and the machine changes it. {in} goes in, the machine does {machine}: {working}.",
+      "prompt": "{in} goes into the machine. What comes out?",
+      "reason": "{working}."
+    }
+  }
+}

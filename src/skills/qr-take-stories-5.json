@@ -1,0 +1,112 @@
+{
+  "id": "qr-take-stories-5",
+  "kind": "qr-story",
+  "subject": "quantitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 17,
+  "only": "en",
+  "params": {
+    "rules": [
+      "take"
+    ],
+    "max": 5,
+    "names": [
+      "Ada",
+      "Ben",
+      "Chloe",
+      "Dan",
+      "Ella",
+      "Femi",
+      "Grace",
+      "Hassan",
+      "Ivy",
+      "Jay",
+      "Kemi",
+      "Leo",
+      "Mia",
+      "Noah",
+      "Ola",
+      "Priya",
+      "Sam",
+      "Tunde",
+      "Zara"
+    ],
+    "things": [
+      [
+        "apples",
+        "fruit-apple"
+      ],
+      [
+        "cookies",
+        "cookie"
+      ],
+      [
+        "cakes",
+        "cake"
+      ],
+      [
+        "stars",
+        "star"
+      ],
+      [
+        "bananas",
+        "fruit-banana"
+      ],
+      [
+        "strawberries",
+        "fruit-strawberry"
+      ],
+      [
+        "candles",
+        "candle"
+      ],
+      [
+        "presents",
+        "gift"
+      ],
+      [
+        "teddies",
+        "teddy"
+      ],
+      [
+        "keys",
+        "key"
+      ],
+      [
+        "lemons",
+        "fruit-lemon"
+      ],
+      [
+        "pears",
+        "fruit-pear"
+      ]
+    ]
+  },
+  "emoji": "cookie",
+  "example": {
+    "rule": "take",
+    "name": "Mia",
+    "thing": "cookies",
+    "emoji": "cookie",
+    "a": 4,
+    "b": 1,
+    "answer": 3
+  },
+  "text": {
+    "en": {
+      "title": "Taking-away stories to 5",
+      "teach": "Find the numbers in the story, then work it out. {a} − {b} = {answer}.",
+      "prompt": "{name} has {a} {thing} and gives {b} away. How many {thing} are left?",
+      "prompts": {
+        "take": "{name} has {a} {thing} and gives {b} away. How many {thing} are left?"
+      },
+      "reason": "{a} − {b} = {answer}.",
+      "reasons": {
+        "take": "{a} − {b} = {answer}."
+      }
+    }
+  }
+}

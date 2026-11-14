@@ -1,0 +1,64 @@
+{
+  "id": "ql-loudness",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 2,
+  "ages": [
+    "6-7",
+    "8-9"
+  ],
+  "order": 29,
+  "only": "en",
+  "params": {
+    "lists": {
+      "loudness": [
+        [
+          "a whisper"
+        ],
+        [
+          "talking"
+        ],
+        [
+          "a dog barking"
+        ],
+        [
+          "a lawnmower"
+        ],
+        [
+          "a fire engine siren"
+        ],
+        [
+          "thunder"
+        ],
+        [
+          "a rocket launch"
+        ]
+      ]
+    }
+  },
+  "emoji": "bell",
+  "example": {
+    "rule": "loudness-most",
+    "list": "loudness",
+    "ask": "most",
+    "items": "a whisper|a dog barking|a rocket launch",
+    "order": "a whisper, a dog barking, a rocket launch",
+    "answer": "a rocket launch"
+  },
+  "text": {
+    "en": {
+      "title": "Loud and quiet",
+      "teach": "Think about how loud each one is. From quietest to loudest: {order}. The loudest is {answer}.",
+      "prompt": "Which is the loudest?",
+      "prompts": {
+        "loudness-most": "Which is the loudest?",
+        "loudness-least": "Which is the quietest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "loudness-most": "From quietest to loudest: {order}. The loudest is {answer}.",
+        "loudness-least": "From quietest to loudest: {order}. The quietest is {answer}."
+      }
+    }
+  }
+}

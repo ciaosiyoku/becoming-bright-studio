@@ -1,0 +1,70 @@
+{
+  "id": "ql-sizes-fruit",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 15,
+  "only": "en",
+  "params": {
+    "lists": {
+      "size": [
+        [
+          "blueberries",
+          "fruit-blueberries"
+        ],
+        [
+          "cherries",
+          "fruit-cherries"
+        ],
+        [
+          "strawberry",
+          "fruit-strawberry"
+        ],
+        [
+          "apple",
+          "fruit-apple"
+        ],
+        [
+          "mango",
+          "fruit-mango"
+        ],
+        [
+          "pineapple",
+          "fruit-pineapple"
+        ],
+        [
+          "watermelon",
+          "fruit-watermelon"
+        ]
+      ]
+    }
+  },
+  "emoji": "fruit-watermelon",
+  "example": {
+    "rule": "size-most",
+    "list": "size",
+    "ask": "most",
+    "items": "blueberries|strawberry|watermelon",
+    "order": "blueberries, strawberry, watermelon",
+    "answer": "watermelon"
+  },
+  "text": {
+    "en": {
+      "title": "Big and small fruit",
+      "teach": "Think about how big each fruit really is. From smallest to biggest: {order}. The biggest is the {answer}.",
+      "prompt": "Which is the biggest?",
+      "prompts": {
+        "size-most": "Which is the biggest?",
+        "size-least": "Which is the smallest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "size-most": "From smallest to biggest: {order}. The biggest is {answer}.",
+        "size-least": "From smallest to biggest: {order}. The smallest is {answer}."
+      }
+    }
+  }
+}

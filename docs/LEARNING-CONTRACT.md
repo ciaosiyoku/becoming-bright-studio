@@ -11,7 +11,7 @@ the change.
   listen; the youngest may not read a full sentence yet, so everything a young child must understand is a picture,
   a number line, or read aloud. **The child chooses which skill to learn** (owner's decision, 27 Oct 2026): first
   a subject, then a skill in teaching order. Nothing is locked. The Learn tab then shows **only the chosen skill**,
-  with "Choose another skill" next to it, so the child isn't faced with a page of 195 skills.
+  with "Choose another skill" next to it, so the child isn't faced with a page of 344 skills.
 - **The parent:** wants ten calm minutes of real practice, and to see afterwards what was hard. They aren't a
   teacher, and they don't want to configure much.
 
@@ -92,18 +92,18 @@ If this table can't be acted out with a child and a sheet of paper, the app shou
 Version 1 started with twelve (count to 5 and 10, one more, one less, add and take away within 5 and 10, which is
 bigger, first sounds, "a" or "an", rhyming pictures). The owner then asked for the original's other skills, rebuilt in
 this format (57). Then the owner asked for science, French and more English, and for ages 4 to 12 with 300
-questions per subject and age range: **195 in all** (with the three reasoning subjects), from Cambridge Primary early years to about Stage 7.
+questions per subject and age range: **344 in all** (with the three reasoning subjects; at least 15 skills per subject for every age range), from Cambridge Primary early years to about Stage 7.
 
-- **Maths (31):** counting, adding and taking away up to 1000, tens and ones, times tables, time, place value,
+- **Maths (32):** counting, adding and taking away up to 1000, tens and ones, times tables, time, place value,
   rounding, dividing, multiplying, fractions, percentages, order of operations, square numbers.
 - **English (47):** from letter names, first sounds and naming pictures (4–5), through
   spelling, punctuation, pronouns and prepositions (6–9), to idioms, figurative language, the passive, formal
   language, Greek and Latin roots, clauses, tenses and spelling rules (10–12).
-- **Patterns (13):** picture patterns and number sequences, up to steps of 250 and growing patterns.
+- **Patterns (37):** picture patterns and number sequences, up to steps of 250 and growing patterns.
 - **Science (40, in every app language):** 10 per age range, from my body, senses, weather and floating (4–5) to
   body systems, evolution, classification, changes of materials, the solar system, forces, light, circuits and
   ecosystems (10–12).
-- **Verbal, quantitative and qualitative reasoning (8 each, in English; owner's request, Nov 2026):** two skills per
+- **Verbal, quantitative and qualitative reasoning (in English; owner's request, Nov 2026):** at least 15 skills per
   age range in each, all made fresh each time (src/skills/reasoning.ts), every answer checked by the content test.
 - **French (40, taught in English):** 10 per age range, from greetings, colours and numbers (4–5) to the near future,
   the passé composé, reflexive verbs, negation and reading short sentences (10–12). *Changed by the owner's decision

@@ -1,0 +1,68 @@
+{
+  "id": "vr-opposites",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 23,
+  "only": "en",
+  "params": {
+    "relations": {
+      "opposite": [
+        [
+          "early",
+          "late"
+        ],
+        [
+          "full",
+          "empty"
+        ],
+        [
+          "thick",
+          "thin"
+        ],
+        [
+          "loud",
+          "quiet"
+        ],
+        [
+          "light",
+          "dark"
+        ],
+        [
+          "push",
+          "pull"
+        ],
+        [
+          "first",
+          "last"
+        ],
+        [
+          "win",
+          "lose"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "opposite",
+    "a": "early",
+    "b": "late",
+    "c": "full",
+    "answer": "empty"
+  },
+  "text": {
+    "en": {
+      "title": "More opposites",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. {a} and {b} are opposites, so {c} goes with {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "opposite": "{a} and {b} are opposites, so {c} goes with {answer}."
+      }
+    }
+  }
+}

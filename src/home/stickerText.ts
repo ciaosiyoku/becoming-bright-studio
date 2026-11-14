@@ -17,5 +17,17 @@ export function stickerText(T: Strings, rule: StickerRule): string {
       return t.perfect
     case 'days':
       return t.days(rule.n)
+    case 'lessons':
+      return t.lessons(rule.n)
+    case 'learningDays':
+      return t.learningDays(rule.n)
+    case 'stars':
+      return t.stars(rule.n)
+    case 'perfectCount':
+      return t.perfectCount(rule.n)
+    case 'perfectIn':
+      return t.perfectIn(T.home.subjects[rule.subject])
+    case 'allOf':
+      return t.allOf(T.home.subjects[rule.subject])
   }
 }

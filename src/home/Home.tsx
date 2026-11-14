@@ -113,7 +113,8 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
             <span className="pill">{T.home.stickersOf(stickers.length, STICKERS.length)}</span>
           </div>
           <ul className="sticker-book">
-            {STICKERS.map((st) => {
+            {/* The ones won first, then the ones still to win, each saying how. */}
+            {[...STICKERS.filter((st) => stickers.includes(st.id)), ...STICKERS.filter((st) => !stickers.includes(st.id))].map((st) => {
               const got = stickers.includes(st.id)
               return (
                 <li key={st.id} className={`sticker ${got ? 'got' : ''}`}>

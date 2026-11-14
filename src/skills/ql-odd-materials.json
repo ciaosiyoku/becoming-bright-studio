@@ -1,0 +1,99 @@
+{
+  "id": "ql-odd-materials",
+  "kind": "odd-one-out",
+  "subject": "qualitative",
+  "stage": 4,
+  "ages": [
+    "8-9",
+    "10-12"
+  ],
+  "order": 34,
+  "only": "en",
+  "params": {
+    "groups": {
+      "wooden things": [
+        [
+          "a wooden spoon"
+        ],
+        [
+          "a cricket bat"
+        ],
+        [
+          "a log"
+        ],
+        [
+          "a chopping board"
+        ],
+        [
+          "a garden fence"
+        ]
+      ],
+      "metal things": [
+        [
+          "a key"
+        ],
+        [
+          "a coin"
+        ],
+        [
+          "a nail"
+        ],
+        [
+          "a saucepan"
+        ],
+        [
+          "a paperclip"
+        ]
+      ],
+      "glass things": [
+        [
+          "a window"
+        ],
+        [
+          "a jam jar"
+        ],
+        [
+          "a light bulb"
+        ],
+        [
+          "a mirror"
+        ],
+        [
+          "a vase"
+        ]
+      ],
+      "paper things": [
+        [
+          "a book"
+        ],
+        [
+          "a newspaper"
+        ],
+        [
+          "an envelope"
+        ],
+        [
+          "a paper plane"
+        ],
+        [
+          "a tissue"
+        ]
+      ]
+    }
+  },
+  "emoji": "framed",
+  "example": {
+    "group": "wooden things",
+    "oddGroup": "metal things",
+    "items": "a cricket bat, a log, a wooden spoon",
+    "answer": "a key"
+  },
+  "text": {
+    "en": {
+      "title": "Odd material out",
+      "teach": "Ask what three of them share. {items} are all {group}; {answer} is not.",
+      "prompt": "Which is the odd one out?",
+      "reason": "The others are all {group}; {answer} is not."
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "ql-sizes-sea",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 0,
+  "ages": [
+    "4-5",
+    "6-7"
+  ],
+  "order": 20,
+  "only": "en",
+  "params": {
+    "lists": {
+      "size": [
+        [
+          "crab",
+          "animal-crab"
+        ],
+        [
+          "octopus",
+          "animal-octopus"
+        ],
+        [
+          "seal",
+          "animal-seal"
+        ],
+        [
+          "dolphin",
+          "animal-dolphin"
+        ],
+        [
+          "shark",
+          "animal-shark"
+        ],
+        [
+          "whale",
+          "animal-spouting-whale"
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-spouting-whale",
+  "example": {
+    "rule": "size-most",
+    "list": "size",
+    "ask": "most",
+    "items": "crab|seal|whale",
+    "order": "crab, seal, whale",
+    "answer": "whale"
+  },
+  "text": {
+    "en": {
+      "title": "Big and small sea animals",
+      "teach": "Think about how big each sea animal is. From smallest to biggest: {order}. The biggest is the {answer}.",
+      "prompt": "Which is the biggest?",
+      "prompts": {
+        "size-most": "Which is the biggest?",
+        "size-least": "Which is the smallest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "size-most": "From smallest to biggest: {order}. The biggest is {answer}.",
+        "size-least": "From smallest to biggest: {order}. The smallest is {answer}."
+      }
+    }
+  }
+}

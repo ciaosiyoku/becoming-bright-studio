@@ -1,0 +1,66 @@
+{
+  "id": "ql-weights-pictures",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 19,
+  "only": "en",
+  "params": {
+    "lists": {
+      "weight": [
+        [
+          "cherries",
+          "fruit-cherries"
+        ],
+        [
+          "apple",
+          "fruit-apple"
+        ],
+        [
+          "pineapple",
+          "fruit-pineapple"
+        ],
+        [
+          "watermelon",
+          "fruit-watermelon"
+        ],
+        [
+          "horse",
+          "animal-horse"
+        ],
+        [
+          "elephant",
+          "animal-elephant"
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-elephant",
+  "example": {
+    "rule": "weight-most",
+    "list": "weight",
+    "ask": "most",
+    "items": "cherries|pineapple|elephant",
+    "order": "cherries, pineapple, elephant",
+    "answer": "elephant"
+  },
+  "text": {
+    "en": {
+      "title": "Heavy and light",
+      "teach": "Think about how heavy each one is. From lightest to heaviest: {order}. The heaviest is the {answer}.",
+      "prompt": "Which is the heaviest?",
+      "prompts": {
+        "weight-most": "Which is the heaviest?",
+        "weight-least": "Which is the lightest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "weight-most": "From lightest to heaviest: {order}. The heaviest is {answer}.",
+        "weight-least": "From lightest to heaviest: {order}. The lightest is {answer}."
+      }
+    }
+  }
+}

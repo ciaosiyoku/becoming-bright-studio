@@ -1,0 +1,60 @@
+{
+  "id": "vr-young-easy",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 16,
+  "only": "en",
+  "params": {
+    "relations": {
+      "young": [
+        [
+          "cat",
+          "kitten"
+        ],
+        [
+          "dog",
+          "puppy"
+        ],
+        [
+          "cow",
+          "calf"
+        ],
+        [
+          "sheep",
+          "lamb"
+        ],
+        [
+          "hen",
+          "chick"
+        ],
+        [
+          "duck",
+          "duckling"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "young",
+    "a": "cat",
+    "b": "kitten",
+    "c": "dog",
+    "answer": "puppy"
+  },
+  "text": {
+    "en": {
+      "title": "Baby animals",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A young {a} is a {b}, and a young {c} is a {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "young": "A young {a} is a {b}, and a young {c} is a {answer}."
+      }
+    }
+  }
+}

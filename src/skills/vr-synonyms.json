@@ -1,0 +1,72 @@
+{
+  "id": "vr-synonyms",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 45,
+  "only": "en",
+  "params": {
+    "relations": {
+      "same": [
+        [
+          "ancient",
+          "old"
+        ],
+        [
+          "brave",
+          "bold"
+        ],
+        [
+          "vast",
+          "huge"
+        ],
+        [
+          "weary",
+          "tired"
+        ],
+        [
+          "damp",
+          "moist"
+        ],
+        [
+          "swift",
+          "quick"
+        ],
+        [
+          "cease",
+          "stop"
+        ],
+        [
+          "glimmer",
+          "shine"
+        ],
+        [
+          "scarce",
+          "rare"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "same",
+    "a": "ancient",
+    "b": "old",
+    "c": "brave",
+    "answer": "bold"
+  },
+  "text": {
+    "en": {
+      "title": "Hard synonyms",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. {a} means the same as {b}, and {c} means the same as {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "same": "{a} means the same as {b}, and {c} means the same as {answer}."
+      }
+    }
+  }
+}

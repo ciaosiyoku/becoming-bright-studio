@@ -1,0 +1,91 @@
+{
+  "id": "ql-odd-states",
+  "kind": "odd-one-out",
+  "subject": "qualitative",
+  "stage": 4,
+  "ages": [
+    "8-9",
+    "10-12"
+  ],
+  "order": 38,
+  "only": "en",
+  "params": {
+    "groups": {
+      "solids": [
+        [
+          "a brick"
+        ],
+        [
+          "a coin"
+        ],
+        [
+          "an ice cube"
+        ],
+        [
+          "a book"
+        ],
+        [
+          "a stone"
+        ],
+        [
+          "a spoon"
+        ]
+      ],
+      "liquids": [
+        [
+          "milk"
+        ],
+        [
+          "water"
+        ],
+        [
+          "juice"
+        ],
+        [
+          "oil"
+        ],
+        [
+          "vinegar"
+        ],
+        [
+          "shampoo"
+        ]
+      ],
+      "gases": [
+        [
+          "steam"
+        ],
+        [
+          "air"
+        ],
+        [
+          "oxygen"
+        ],
+        [
+          "helium"
+        ],
+        [
+          "carbon dioxide"
+        ],
+        [
+          "water vapour"
+        ]
+      ]
+    }
+  },
+  "emoji": "droplet",
+  "example": {
+    "group": "solids",
+    "oddGroup": "liquids",
+    "items": "a brick, a coin, an ice cube",
+    "answer": "milk"
+  },
+  "text": {
+    "en": {
+      "title": "Solid, liquid or gas?",
+      "teach": "Ask what three of them share. {items} are all {group}; {answer} is not.",
+      "prompt": "Which is the odd one out?",
+      "reason": "The others are all {group}; {answer} is not."
+    }
+  }
+}

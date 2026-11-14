@@ -1,0 +1,112 @@
+{
+  "id": "qr-times-stories",
+  "kind": "qr-story",
+  "subject": "quantitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 35,
+  "only": "en",
+  "params": {
+    "rules": [
+      "times"
+    ],
+    "max": 100,
+    "names": [
+      "Ada",
+      "Ben",
+      "Chloe",
+      "Dan",
+      "Ella",
+      "Femi",
+      "Grace",
+      "Hassan",
+      "Ivy",
+      "Jay",
+      "Kemi",
+      "Leo",
+      "Mia",
+      "Noah",
+      "Ola",
+      "Priya",
+      "Sam",
+      "Tunde",
+      "Zara"
+    ],
+    "things": [
+      [
+        "apples",
+        "fruit-apple"
+      ],
+      [
+        "cookies",
+        "cookie"
+      ],
+      [
+        "cakes",
+        "cake"
+      ],
+      [
+        "stars",
+        "star"
+      ],
+      [
+        "bananas",
+        "fruit-banana"
+      ],
+      [
+        "strawberries",
+        "fruit-strawberry"
+      ],
+      [
+        "candles",
+        "candle"
+      ],
+      [
+        "presents",
+        "gift"
+      ],
+      [
+        "teddies",
+        "teddy"
+      ],
+      [
+        "keys",
+        "key"
+      ],
+      [
+        "lemons",
+        "fruit-lemon"
+      ],
+      [
+        "pears",
+        "fruit-pear"
+      ]
+    ]
+  },
+  "emoji": "star",
+  "example": {
+    "rule": "times",
+    "name": "Ben",
+    "thing": "stars",
+    "emoji": "star",
+    "a": 3,
+    "b": 4,
+    "answer": 12
+  },
+  "text": {
+    "en": {
+      "title": "Times stories",
+      "teach": "Find the numbers in the story, then work it out. {a} × {b} = {answer}.",
+      "prompt": "There are {a} bags with {b} {thing} in each. How many {thing} are there in all?",
+      "prompts": {
+        "times": "There are {a} bags with {b} {thing} in each. How many {thing} are there in all?"
+      },
+      "reason": "{a} × {b} = {answer}.",
+      "reasons": {
+        "times": "{a} × {b} = {answer}."
+      }
+    }
+  }
+}

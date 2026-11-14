@@ -1,0 +1,91 @@
+{
+  "id": "vr-odd-places",
+  "kind": "odd-one-out",
+  "subject": "verbal",
+  "stage": 4,
+  "ages": [
+    "8-9",
+    "10-12"
+  ],
+  "order": 38,
+  "only": "en",
+  "params": {
+    "groups": {
+      "buildings": [
+        [
+          "school"
+        ],
+        [
+          "hospital"
+        ],
+        [
+          "library"
+        ],
+        [
+          "museum"
+        ],
+        [
+          "church"
+        ],
+        [
+          "castle"
+        ]
+      ],
+      "landscapes": [
+        [
+          "mountain"
+        ],
+        [
+          "valley"
+        ],
+        [
+          "river"
+        ],
+        [
+          "desert"
+        ],
+        [
+          "forest"
+        ],
+        [
+          "beach"
+        ]
+      ],
+      "rooms": [
+        [
+          "kitchen"
+        ],
+        [
+          "bedroom"
+        ],
+        [
+          "bathroom"
+        ],
+        [
+          "hall"
+        ],
+        [
+          "attic"
+        ],
+        [
+          "cellar"
+        ]
+      ]
+    }
+  },
+  "emoji": "letters",
+  "example": {
+    "group": "buildings",
+    "oddGroup": "landscapes",
+    "items": "hospital, library, school",
+    "answer": "mountain"
+  },
+  "text": {
+    "en": {
+      "title": "Odd one out: places",
+      "teach": "Look for what three of them share. {items} are all {group}; {answer} is not.",
+      "prompt": "Which word is the odd one out?",
+      "reason": "The others are all {group}; {answer} is not."
+    }
+  }
+}

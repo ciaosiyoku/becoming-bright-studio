@@ -1,0 +1,55 @@
+{
+  "id": "seq-tricky",
+  "kind": "sequence",
+  "subject": "patterns",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 36,
+  "params": {
+    "steps": [
+      12,
+      15,
+      19,
+      -11,
+      -13
+    ],
+    "start": [
+      10,
+      100
+    ]
+  },
+  "emoji": "chart",
+  "example": {
+    "items": "10, 22, 34, 46",
+    "answer": 58,
+    "steps": "+12   +12   +12   +12"
+  },
+  "text": {
+    "en": {
+      "title": "Tricky steps",
+      "teach": "Find the step by taking each number from the next. {items}: the steps are {steps}, so next comes {answer}.",
+      "prompt": "Which number comes next?",
+      "reason": "The steps are {steps}, so the next number is {answer}."
+    },
+    "de": {
+      "title": "Knifflige Schritte",
+      "teach": "Finde den Schritt, indem du jede Zahl von der nächsten abziehst. {items}: Die Schritte sind {steps}, also kommt als Nächstes {answer}.",
+      "prompt": "Welche Zahl kommt als Nächstes?",
+      "reason": "Die Schritte sind {steps}, also ist die nächste Zahl {answer}."
+    },
+    "fr": {
+      "title": "Des pas difficiles",
+      "teach": "Trouve le pas en enlevant chaque nombre du suivant. {items} : les pas sont {steps}, donc ensuite vient {answer}.",
+      "prompt": "Quel nombre vient ensuite ?",
+      "reason": "Les pas sont {steps}, donc le nombre suivant est {answer}."
+    },
+    "yo": {
+      "title": "Ìgbésẹ̀ tó le",
+      "teach": "Wá ìgbésẹ̀ náà nípa yíyọ nọ́ńbà kọ̀ọ̀kan kúrò nínú èyí tó tẹ̀lé e. {items}: àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà {answer} ló kàn.",
+      "prompt": "Nọ́ńbà wo ló kàn?",
+      "reason": "Àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà nọ́ńbà tó kàn ni {answer}."
+    }
+  }
+}

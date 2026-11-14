@@ -1,0 +1,64 @@
+{
+  "id": "vr-homes",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 22,
+  "only": "en",
+  "params": {
+    "relations": {
+      "home": [
+        [
+          "bird",
+          "nest"
+        ],
+        [
+          "bee",
+          "hive"
+        ],
+        [
+          "dog",
+          "kennel"
+        ],
+        [
+          "spider",
+          "web"
+        ],
+        [
+          "rabbit",
+          "burrow"
+        ],
+        [
+          "horse",
+          "stable"
+        ],
+        [
+          "fish",
+          "pond"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "home",
+    "a": "bird",
+    "b": "nest",
+    "c": "bee",
+    "answer": "hive"
+  },
+  "text": {
+    "en": {
+      "title": "Where animals live",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A {a} lives in a {b}, and a {c} lives in a {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "home": "A {a} lives in a {b}, and a {c} lives in a {answer}."
+      }
+    }
+  }
+}

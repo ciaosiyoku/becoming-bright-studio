@@ -1,0 +1,65 @@
+{
+  "id": "vr-eats",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 0,
+  "ages": [
+    "4-5",
+    "6-7"
+  ],
+  "order": 18,
+  "only": "en",
+  "params": {
+    "relations": {
+      "eats": [
+        [
+          "rabbit",
+          "carrots"
+        ],
+        [
+          "monkey",
+          "bananas"
+        ],
+        [
+          "cow",
+          "grass"
+        ],
+        [
+          "dog",
+          "bones"
+        ],
+        [
+          "bird",
+          "seeds"
+        ],
+        [
+          "mouse",
+          "cheese"
+        ],
+        [
+          "panda",
+          "bamboo"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "eats",
+    "a": "rabbit",
+    "b": "carrots",
+    "c": "monkey",
+    "answer": "bananas"
+  },
+  "text": {
+    "en": {
+      "title": "What animals eat",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A {a} eats {b}, and a {c} eats {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "eats": "A {a} eats {b}, and a {c} eats {answer}."
+      }
+    }
+  }
+}

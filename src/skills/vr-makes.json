@@ -1,0 +1,64 @@
+{
+  "id": "vr-makes",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 35,
+  "only": "en",
+  "params": {
+    "relations": {
+      "makes": [
+        [
+          "bee",
+          "honey"
+        ],
+        [
+          "cow",
+          "milk"
+        ],
+        [
+          "hen",
+          "eggs"
+        ],
+        [
+          "sheep",
+          "wool"
+        ],
+        [
+          "silkworm",
+          "silk"
+        ],
+        [
+          "tree",
+          "wood"
+        ],
+        [
+          "oyster",
+          "pearls"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "makes",
+    "a": "bee",
+    "b": "honey",
+    "c": "cow",
+    "answer": "milk"
+  },
+  "text": {
+    "en": {
+      "title": "What it gives us",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A {a} gives us {b}, and a {c} gives us {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "makes": "A {a} gives us {b}, and a {c} gives us {answer}."
+      }
+    }
+  }
+}

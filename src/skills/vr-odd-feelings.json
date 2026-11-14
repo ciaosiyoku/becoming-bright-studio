@@ -1,0 +1,90 @@
+{
+  "id": "vr-odd-feelings",
+  "kind": "odd-one-out",
+  "subject": "verbal",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 30,
+  "only": "en",
+  "params": {
+    "groups": {
+      "feelings": [
+        [
+          "happy"
+        ],
+        [
+          "sad"
+        ],
+        [
+          "angry"
+        ],
+        [
+          "scared"
+        ],
+        [
+          "excited"
+        ],
+        [
+          "proud"
+        ]
+      ],
+      "weather words": [
+        [
+          "rainy"
+        ],
+        [
+          "sunny"
+        ],
+        [
+          "windy"
+        ],
+        [
+          "snowy"
+        ],
+        [
+          "foggy"
+        ],
+        [
+          "stormy"
+        ]
+      ],
+      "colours": [
+        [
+          "red"
+        ],
+        [
+          "blue"
+        ],
+        [
+          "green"
+        ],
+        [
+          "orange"
+        ],
+        [
+          "yellow"
+        ],
+        [
+          "purple"
+        ]
+      ]
+    }
+  },
+  "emoji": "letters",
+  "example": {
+    "group": "feelings",
+    "oddGroup": "weather words",
+    "items": "angry, happy, sad",
+    "answer": "rainy"
+  },
+  "text": {
+    "en": {
+      "title": "Odd one out: feelings",
+      "teach": "Look for what three of them share. {items} are all {group}; {answer} is not.",
+      "prompt": "Which word is the odd one out?",
+      "reason": "The others are all {group}; {answer} is not."
+    }
+  }
+}

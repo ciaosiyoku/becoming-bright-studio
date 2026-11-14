@@ -1,0 +1,53 @@
+{
+  "id": "seq-back-fives-tens",
+  "kind": "sequence",
+  "subject": "patterns",
+  "stage": 2,
+  "ages": [
+    "6-7",
+    "8-9"
+  ],
+  "order": 30,
+  "params": {
+    "steps": [
+      -5,
+      -10
+    ],
+    "start": [
+      0,
+      20
+    ]
+  },
+  "emoji": "chart",
+  "example": {
+    "items": "20, 15, 10, 5",
+    "answer": 0,
+    "steps": "−5   −5   −5   −5"
+  },
+  "text": {
+    "en": {
+      "title": "Counting back in fives and tens",
+      "teach": "Find the step by taking each number from the next. {items}: the steps are {steps}, so next comes {answer}.",
+      "prompt": "Which number comes next?",
+      "reason": "The steps are {steps}, so the next number is {answer}."
+    },
+    "de": {
+      "title": "In Fünfer- und Zehnerschritten rückwärts zählen",
+      "teach": "Finde den Schritt, indem du jede Zahl von der nächsten abziehst. {items}: Die Schritte sind {steps}, also kommt als Nächstes {answer}.",
+      "prompt": "Welche Zahl kommt als Nächstes?",
+      "reason": "Die Schritte sind {steps}, also ist die nächste Zahl {answer}."
+    },
+    "fr": {
+      "title": "Compter à rebours de 5 en 5 et de 10 en 10",
+      "teach": "Trouve le pas en enlevant chaque nombre du suivant. {items} : les pas sont {steps}, donc ensuite vient {answer}.",
+      "prompt": "Quel nombre vient ensuite ?",
+      "reason": "Les pas sont {steps}, donc le nombre suivant est {answer}."
+    },
+    "yo": {
+      "title": "Kíkà sẹ́yìn ní márùn-ún àti mẹ́wàá",
+      "teach": "Wá ìgbésẹ̀ náà nípa yíyọ nọ́ńbà kọ̀ọ̀kan kúrò nínú èyí tó tẹ̀lé e. {items}: àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà {answer} ló kàn.",
+      "prompt": "Nọ́ńbà wo ló kàn?",
+      "reason": "Àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà nọ́ńbà tó kàn ni {answer}."
+    }
+  }
+}

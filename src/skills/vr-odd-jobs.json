@@ -1,0 +1,90 @@
+{
+  "id": "vr-odd-jobs",
+  "kind": "odd-one-out",
+  "subject": "verbal",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 29,
+  "only": "en",
+  "params": {
+    "groups": {
+      "instruments": [
+        [
+          "drum"
+        ],
+        [
+          "piano"
+        ],
+        [
+          "guitar"
+        ],
+        [
+          "violin"
+        ],
+        [
+          "flute"
+        ],
+        [
+          "trumpet"
+        ]
+      ],
+      "sports": [
+        [
+          "football"
+        ],
+        [
+          "tennis"
+        ],
+        [
+          "swimming"
+        ],
+        [
+          "golf"
+        ],
+        [
+          "hockey"
+        ],
+        [
+          "rugby"
+        ]
+      ],
+      "jobs": [
+        [
+          "doctor"
+        ],
+        [
+          "teacher"
+        ],
+        [
+          "farmer"
+        ],
+        [
+          "baker"
+        ],
+        [
+          "pilot"
+        ],
+        [
+          "nurse"
+        ]
+      ]
+    }
+  },
+  "emoji": "letters",
+  "example": {
+    "group": "instruments",
+    "oddGroup": "sports",
+    "items": "drum, guitar, piano",
+    "answer": "football"
+  },
+  "text": {
+    "en": {
+      "title": "Odd one out: music, sport, jobs",
+      "teach": "Look for what three of them share. {items} are all {group}; {answer} is not.",
+      "prompt": "Which word is the odd one out?",
+      "reason": "The others are all {group}; {answer} is not."
+    }
+  }
+}

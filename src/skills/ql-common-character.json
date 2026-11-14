@@ -1,0 +1,78 @@
+{
+  "id": "ql-common-character",
+  "kind": "ql-common",
+  "subject": "qualitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 47,
+  "only": "en",
+  "params": {
+    "qualities": {
+      "honest": [
+        "telling the truth",
+        "handing in a lost purse",
+        "owning up to a mistake",
+        "giving back extra change",
+        "admitting you broke a cup",
+        "keeping a promise"
+      ],
+      "generous": [
+        "sharing your sweets",
+        "giving to charity",
+        "lending your bike",
+        "donating old toys",
+        "buying a friend a gift",
+        "giving away your last biscuit"
+      ],
+      "brave": [
+        "rescuing a kitten from a tree",
+        "speaking up for a friend",
+        "going on stage for the first time",
+        "facing your fears",
+        "jumping into the deep end",
+        "trying again after falling"
+      ],
+      "patient": [
+        "waiting your turn",
+        "queuing quietly",
+        "waiting for a cake to bake",
+        "not rushing a puzzle",
+        "letting others finish speaking",
+        "waiting for a seed to grow"
+      ],
+      "polite": [
+        "saying please",
+        "saying thank you",
+        "holding the door open",
+        "knocking before you enter",
+        "saying excuse me",
+        "shaking hands to say hello"
+      ],
+      "tidy": [
+        "putting toys away",
+        "making your bed",
+        "folding clothes",
+        "clearing the table",
+        "hanging up your coat",
+        "sorting your pencils"
+      ]
+    }
+  },
+  "emoji": "sparkles",
+  "example": {
+    "answer": "honest",
+    "things": "telling the truth, handing in a lost purse, owning up to a mistake",
+    "last": "owning up to a mistake",
+    "first": "telling the truth, handing in a lost purse"
+  },
+  "text": {
+    "en": {
+      "title": "Kind of person",
+      "teach": "Find the one word that is true of all three. {first} and {last} are all {answer}.",
+      "prompt": "Which word describes all three?",
+      "reason": "{first} and {last} are all {answer}."
+    }
+  }
+}

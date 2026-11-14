@@ -1,0 +1,90 @@
+{
+  "id": "vr-odd-house",
+  "kind": "odd-one-out",
+  "subject": "verbal",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 28,
+  "only": "en",
+  "params": {
+    "groups": {
+      "rooms": [
+        [
+          "kitchen"
+        ],
+        [
+          "bedroom"
+        ],
+        [
+          "bathroom"
+        ],
+        [
+          "hall"
+        ],
+        [
+          "attic"
+        ],
+        [
+          "cellar"
+        ]
+      ],
+      "garden things": [
+        [
+          "spade"
+        ],
+        [
+          "rake"
+        ],
+        [
+          "hose"
+        ],
+        [
+          "wheelbarrow"
+        ],
+        [
+          "flowerpot"
+        ],
+        [
+          "watering can"
+        ]
+      ],
+      "furniture": [
+        [
+          "bed"
+        ],
+        [
+          "chair"
+        ],
+        [
+          "table"
+        ],
+        [
+          "sofa"
+        ],
+        [
+          "desk"
+        ],
+        [
+          "wardrobe"
+        ]
+      ]
+    }
+  },
+  "emoji": "letters",
+  "example": {
+    "group": "rooms",
+    "oddGroup": "garden things",
+    "items": "bathroom, bedroom, kitchen",
+    "answer": "spade"
+  },
+  "text": {
+    "en": {
+      "title": "Odd one out: house and garden",
+      "teach": "Look for what three of them share. {items} are all {group}; {answer} is not.",
+      "prompt": "Which word is the odd one out?",
+      "reason": "The others are all {group}; {answer} is not."
+    }
+  }
+}
