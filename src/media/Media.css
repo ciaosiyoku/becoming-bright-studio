@@ -245,3 +245,88 @@
   font-size: 0.75rem;
   font-weight: 700;
 }
+
+/* Fables: one tile per fable (picture, title, where it comes from), then the fable with its lesson. */
+.fable-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));
+  gap: 0.7rem;
+}
+.fable-tile {
+  width: 100%;
+  justify-content: flex-start;
+  gap: 0.8rem;
+  min-height: 5rem;
+  padding: 0.5rem 0.9rem 0.5rem 0.5rem;
+  color: var(--ink);
+  text-align: left;
+}
+.fable-tile.read {
+  background: var(--mint-soft);
+}
+.fable-icon {
+  display: grid;
+  place-items: center;
+  width: 3.8rem;
+  height: 3.8rem;
+  flex-shrink: 0;
+  border-radius: var(--radius-s);
+  background: var(--peach-soft);
+}
+.fable-name {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  gap: 0.15rem;
+}
+.fable-name b {
+  font-family: var(--display);
+  font-size: 1.15rem;
+}
+.fable-name small {
+  font-family: 'Andika', sans-serif;
+  font-weight: 400;
+  color: var(--muted);
+}
+.fable-tick {
+  flex-shrink: 0;
+  color: var(--mint);
+}
+.fable-card {
+  display: grid;
+  justify-items: center;
+  gap: 0.9rem;
+  max-width: 44rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.6rem 1.4rem;
+}
+.fable-card h2 {
+  font-size: clamp(1.4rem, 3.6vw, 2rem);
+  text-align: center;
+}
+.fable-card p {
+  justify-self: stretch;
+  font-size: clamp(1.1rem, 2.6vw, 1.35rem);
+  line-height: 1.55;
+  color: var(--ink);
+}
+.fable-card .fable-moral {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.8rem 1rem;
+  border-radius: var(--radius-s);
+  background: var(--amber-soft);
+  font-family: var(--display);
+  font-weight: 600;
+}
+.fable-card .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+}

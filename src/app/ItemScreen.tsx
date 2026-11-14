@@ -25,6 +25,7 @@ const Facts = lazy(() => import('@/explore/FactsScreen').then((m) => ({ default:
 const Places = lazy(() => import('@/explore/PlacesScreen').then((m) => ({ default: m.Places })))
 const Whys = lazy(() => import('@/explore/WhysScreen').then((m) => ({ default: m.Whys })))
 const Radio = lazy(() => import('@/media/Radio').then((m) => ({ default: m.Radio })))
+const Fables = lazy(() => import('@/media/Fables').then((m) => ({ default: m.Fables })))
 const Stories = lazy(() => import('@/media/Stories').then((m) => ({ default: m.Stories })))
 const Videos = lazy(() => import('@/media/Videos').then((m) => ({ default: m.Videos })))
 
@@ -97,6 +98,8 @@ function Content({ id }: { id: ItemId }): ReactNode {
       return <Radio />
     case 'stories':
       return <Stories />
+    case 'fables':
+      return <Fables />
     case 'videos':
       return <Videos />
     case 'places':

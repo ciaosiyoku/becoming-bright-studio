@@ -19,6 +19,7 @@ export const ITEMS = {
   logic: { tab: 'games', emoji: 'gradcap', access: 'earn' },
   radio: { tab: 'media', emoji: 'radio', access: 'earn' },
   stories: { tab: 'media', emoji: 'openbook', access: 'open' },
+  fables: { tab: 'media', emoji: 'scroll', access: 'open' },
   videos: { tab: 'media', emoji: 'tv', access: 'earn' },
   places: { tab: 'explore', emoji: 'map', access: 'open' },
   whys: { tab: 'explore', emoji: 'globe', access: 'open' },
