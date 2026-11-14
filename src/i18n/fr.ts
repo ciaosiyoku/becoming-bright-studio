@@ -298,7 +298,7 @@ export const fr: Strings = {
     read: 'Lue',
     readOf: (n: number, of: number) => `${n} sur ${of} lues`,
     inEnglish: 'Les fables sont en anglais.',
-    from: { aesop: 'Ésope', panchatantra: 'Panchatantra (Inde)', jataka: 'Contes Jataka (Inde)', anansi: 'Histoire d’Anansi (Ghana)', nigeria: 'Conte du Nigeria', westAfrica: 'Conte d’Afrique de l’Ouest', laFontaine: 'La Fontaine (France)', folk: 'Conte populaire' },
+    from: { india: 'Conte d’Inde', grimm: 'Frères Grimm (Allemagne)', andersen: 'Hans Christian Andersen (Danemark)', russia: 'Conte de Russie', china: 'Conte de Chine', japan: 'Conte du Japon', aesop: 'Ésope', panchatantra: 'Panchatantra (Inde)', jataka: 'Contes Jataka (Inde)', anansi: 'Histoire d’Anansi (Ghana)', nigeria: 'Conte du Nigeria', westAfrica: 'Conte d’Afrique de l’Ouest', laFontaine: 'La Fontaine (France)', folk: 'Conte populaire' },
   },
   whys: {
     all: 'Tout',

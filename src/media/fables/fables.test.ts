@@ -6,8 +6,8 @@ const all = AGE_BANDS.flatMap((b) => FABLES[b])
 const emojis = new Set(Object.keys(import.meta.glob('/public/emoji/*.png')).map((f) => f.replace('/public/emoji/', '').replace('.png', '')))
 
 describe('fables', () => {
-  it('has 20 fables for every age range', () => {
-    for (const b of AGE_BANDS) expect(FABLES[b], b).toHaveLength(20)
+  it('has 50 fables for every age range', () => {
+    for (const b of AGE_BANDS) expect(FABLES[b], b).toHaveLength(50)
   })
   it('never repeats a fable, an id or a title', () => {
     expect(new Set(all.map(fableKey)).size).toBe(all.length)

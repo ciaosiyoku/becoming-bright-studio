@@ -10,7 +10,7 @@ import { type Fable, FABLES, fableKey } from './fables'
 import './Media.css'
 
 /**
- * Fables: 20 for each age range (media/fables). The child picks one, hears or reads it, thinks about what it teaches,
+ * Fables: 50 for each age range (media/fables). The child picks one, hears or reads it, thinks about what it teaches,
  * then turns over the lesson. A fable counts as read once its lesson has been shown. In English, read by Mary or Barry.
  */
 export function Fables() {

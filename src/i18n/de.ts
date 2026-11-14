@@ -298,7 +298,7 @@ export const de: Strings = {
     read: 'Gelesen',
     readOf: (n: number, of: number) => `${n} von ${of} gelesen`,
     inEnglish: 'Die Fabeln sind auf Englisch.',
-    from: { aesop: 'Äsop', panchatantra: 'Panchatantra (Indien)', jataka: 'Jataka-Geschichten (Indien)', anansi: 'Anansi-Geschichte (Ghana)', nigeria: 'Volksmärchen aus Nigeria', westAfrica: 'Volksmärchen aus Westafrika', laFontaine: 'La Fontaine (Frankreich)', folk: 'Volksmärchen' },
+    from: { india: 'Volksmärchen aus Indien', grimm: 'Brüder Grimm (Deutschland)', andersen: 'Hans Christian Andersen (Dänemark)', russia: 'Volksmärchen aus Russland', china: 'Geschichte aus China', japan: 'Volksmärchen aus Japan', aesop: 'Äsop', panchatantra: 'Panchatantra (Indien)', jataka: 'Jataka-Geschichten (Indien)', anansi: 'Anansi-Geschichte (Ghana)', nigeria: 'Volksmärchen aus Nigeria', westAfrica: 'Volksmärchen aus Westafrika', laFontaine: 'La Fontaine (Frankreich)', folk: 'Volksmärchen' },
   },
   whys: {
     all: 'Alle',

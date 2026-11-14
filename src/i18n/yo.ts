@@ -299,7 +299,7 @@ export const yo: Strings = {
     read: 'A ti kà á',
     readOf: (n: number, of: number) => `${n} nínú ${of} ni a ti kà`,
     inEnglish: 'Èdè Gẹ̀ẹ́sì ni àwọn ìtàn wọ̀nyí wà.',
-    from: { aesop: 'Aesop', panchatantra: 'Panchatantra (India)', jataka: 'Ìtàn Jataka (India)', anansi: 'Ìtàn Anansi (Ghana)', nigeria: 'Ìtàn àbáláyé láti Nàìjíríà', westAfrica: 'Ìtàn àbáláyé láti Ìwọ̀ Oòrùn Áfíríkà', laFontaine: 'La Fontaine (Faransé)', folk: 'Ìtàn àbáláyé' },
+    from: { india: 'Ìtàn àbáláyé láti India', grimm: 'Àwọn Arákùnrin Grimm (Jámánì)', andersen: 'Hans Christian Andersen (Denmark)', russia: 'Ìtàn àbáláyé láti Rọ́ṣíà', china: 'Ìtàn láti Ṣáínà', japan: 'Ìtàn àbáláyé láti Japan', aesop: 'Aesop', panchatantra: 'Panchatantra (India)', jataka: 'Ìtàn Jataka (India)', anansi: 'Ìtàn Anansi (Ghana)', nigeria: 'Ìtàn àbáláyé láti Nàìjíríà', westAfrica: 'Ìtàn àbáláyé láti Ìwọ̀ Oòrùn Áfíríkà', laFontaine: 'La Fontaine (Faransé)', folk: 'Ìtàn àbáláyé' },
   },
   whys: {
     all: 'Gbogbo rẹ̀',
