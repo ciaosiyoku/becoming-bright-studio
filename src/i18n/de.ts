@@ -257,7 +257,7 @@ export const de: Strings = {
     addedByParent: 'Von den Eltern hinzugefügt',
     stories: (n: number) => (n === 1 ? '1 Geschichte' : `${n} Geschichten`),
     credit: (author: string) => `${author}. Gelesen von LibriVox-Freiwilligen; gemeinfrei. Quelle:`,
-    radioNote: 'Das Radio kommt live vom jeweiligen Sender. Die Maus und Mon Petit France Inter haben keine Werbung; Fun Kids spielt kurze Werbung.',
+    radioNote: 'Das Radio kommt live vom jeweiligen Sender. Die Maus und Mon Petit France Inter haben keine Werbung; Fun Kids und Kids FM spielen Werbung.',
     storiesNote: 'Klassische Kinderbücher auf Englisch, vorgelesen von LibriVox-Freiwilligen (gemeinfrei), gestreamt vom Internet Archive.',
     noVideos: 'Noch keine Videos. Eltern können im Elternbereich YouTube-Videos hinzufügen.',
     ages: (band: string) => `${band.replace('-', '–')} Jahre`,
@@ -269,6 +269,8 @@ export const de: Strings = {
     funkids: 'Kinderradio aus Großbritannien, 6–12 Jahre (auf Englisch, mit kurzer Werbung)',
     babyradio: 'Kinderradio aus Spanien: Lieder und Geschichten (auf Spanisch)',
     monpetitfranceinter: 'Kinderradio von Radio France, 6–12 Jahre (auf Französisch, ohne Werbung)',
+    kidsfm: 'Kinderradio aus Lagos, Nigeria: Musik, Geschichten und Spiele (auf Englisch, mit Werbung)',
+    radionursery: 'Kindermusik aus Kanada: Lieder, Kinderreime und Mitsinglieder (auf Englisch)',
   },
   videos: {
     fromParents: 'Von deinen Eltern',

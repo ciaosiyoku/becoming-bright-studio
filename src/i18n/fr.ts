@@ -257,7 +257,7 @@ export const fr: Strings = {
     addedByParent: 'Ajouté par un parent',
     stories: (n: number) => (n === 1 ? '1 histoire' : `${n} histoires`),
     credit: (author: string) => `${author}. Lu par des bénévoles de LibriVox ; domaine public. Source :`,
-    radioNote: 'La radio est diffusée en direct par chaque station. Die Maus et Mon Petit France Inter n’ont pas de publicité ; Fun Kids diffuse de courtes publicités.',
+    radioNote: 'La radio est diffusée en direct par chaque station. Die Maus et Mon Petit France Inter n’ont pas de publicité ; Fun Kids et Kids FM diffusent de la publicité.',
     storiesNote: 'Des classiques de la littérature enfantine en anglais, lus par des bénévoles de LibriVox (domaine public), diffusés depuis l’Internet Archive.',
     noVideos: 'Pas encore de vidéos. Un parent peut ajouter des vidéos YouTube dans l’espace parents.',
     ages: (band: string) => `${band.replace('-', '–')} ans`,
@@ -269,6 +269,8 @@ export const fr: Strings = {
     funkids: 'Radio britannique pour les 6–12 ans (en anglais, avec de courtes publicités)',
     babyradio: 'Radio pour enfants d’Espagne : chansons et histoires (en espagnol)',
     monpetitfranceinter: 'La radio des enfants de Radio France, pour les 6–12 ans (sans publicité)',
+    kidsfm: 'La radio des enfants de Lagos, au Nigeria : musique, histoires et jeux (en anglais, avec publicité)',
+    radionursery: 'Musique pour enfants du Canada : chansons, comptines et chansons à reprendre (en anglais)',
   },
   videos: {
     fromParents: 'De tes parents',

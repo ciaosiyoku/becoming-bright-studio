@@ -258,7 +258,7 @@ export const yo: Strings = {
     addedByParent: 'Òbí ló fi kún un',
     stories: (n: number) => `ìtàn ${n}`,
     credit: (author: string) => `${author}. Àwọn olùyọ̀ǹda LibriVox ló kà á; public domain. Orísun:`,
-    radioNote: 'Rédíò ń wá ní tààrà láti ilé iṣẹ́ kọ̀ọ̀kan. Die Maus àti Mon Petit France Inter kò ní ìpolówó; Fun Kids ń ṣe ìpolówó kúkúrú.',
+    radioNote: 'Rédíò ń wá ní tààrà láti ilé iṣẹ́ kọ̀ọ̀kan. Die Maus àti Mon Petit France Inter kò ní ìpolówó; Fun Kids àti Kids FM ń ṣe ìpolówó.',
     storiesNote: 'Àwọn ìwé ọmọdé àtayébáyé tí àwọn olùyọ̀ǹda LibriVox kà sókè (public domain), láti Internet Archive. Ní èdè Gẹ̀ẹ́sì ni wọ́n wà.',
     noVideos: 'Kò tíì sí fídíò. Òbí lè fi fídíò YouTube kún un ní ojú ìwé òbí.',
     ages: (band: string) => `Ọdún ${band.replace('-', '–')}`,
@@ -270,6 +270,8 @@ export const yo: Strings = {
     funkids: 'Rédíò ọmọdé UK, ọmọ ọdún 6–12 (ní èdè Gẹ̀ẹ́sì, pẹ̀lú ìpolówó kúkúrú)',
     babyradio: 'Rédíò ọmọdé láti Spéènì: orin àti ìtàn (ní èdè Spáníṣì)',
     monpetitfranceinter: 'Rédíò ọmọdé Faransé láti Radio France, ọmọ ọdún 6–12 (ní èdè Faransé, kò ní ìpolówó)',
+    kidsfm: 'Rédíò ọmọdé láti Èkó, Nàìjíríà: orin, ìtàn àti eré (ní èdè Gẹ̀ẹ́sì, pẹ̀lú ìpolówó)',
+    radionursery: 'Orin ọmọdé láti Kánádà: orin, orin ọmọdé àti orin àjùmọ̀kọ (ní èdè Gẹ̀ẹ́sì)',
   },
   videos: {
     fromParents: 'Láti ọ̀dọ̀ àwọn òbí rẹ',

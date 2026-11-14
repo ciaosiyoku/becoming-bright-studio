@@ -6,6 +6,7 @@
 //     stream link each time (allowed for web players: Access-Control-Allow-Origin *).
 //   - Fun Kids (UK, funkidslive.com): in English, with short adverts.
 //   - Babyradio (Spain): in Spanish (adverts to verify).
+//   - Kids FM 101.7 Lagos (Nigeria) and Radio Nursery (Canada), in English: see below.
 //   A US station (Kids Public Radio, ad-free) was checked but only streams over http://, which browsers block
 //   inside an https:// app.
 // Stories — LibriVox recordings of public-domain children's books, by age range: see storyList.ts.
@@ -30,6 +31,14 @@ export const STATIONS: Station[] = [
   // Babyradio España (Cádiz, children's radio since 2011), in Spanish. StreamTheWorld's address forwards to a live
   // server each time (checked 24 Oct 2026: MP3, 128 kbit/s). Adverts: TO VERIFY by listening.
   { id: 'babyradio', name: 'Babyradio', url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/SAM04AAC34_SC', lang: 'es', emoji: 'teddy', builtIn: true },
+  // Kids FM 101.7 Lagos (Nigeria's first children's radio station, Steam Broadcasting), in English. The address its own
+  // web player uses (kidsfm.ng/lagos/player), checked 14 Nov 2026: plays in the browser. A commercial station:
+  // adverts likely.
+  { id: 'kidsfm', name: 'Kids FM 101.7 Lagos', url: 'https://kids1017fmlagos-atunwadigital.streamguys1.com/kids1017fmlagos', lang: 'en', emoji: 'party', builtIn: true },
+  // Radio Nursery (Hamilton, Ontario, Canada): free children's music, its "Sunny Steps" day stream, in English. The
+  // address its host (AzuraCast) gives for the day stream, over the usual HTTPS port; checked 14 Nov 2026: AAC,
+  // 128 kbit/s, plays in the browser. Adverts: TO VERIFY by listening.
+  { id: 'radionursery', name: 'Radio Nursery', url: 'https://a5.asurahosting.com/listen/radio_nursery_-_day/radio.mp3', lang: 'en', emoji: 'notes', builtIn: true },
 ]
 
 /** The built-in stations with the ones in the app language first (otherwise in the order above). */
