@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { activeChild, addChild, emptyState, newChild, removeChild, updateChild, withDefaults, type Family } from './state'
+import { activeChild, addChild, emptyState, newChild, removeChild, updateChild, voiceOf, withDefaults, type Family } from './state'
 
 describe('children', () => {
   const two = () => addChild(addChild(emptyState(), newChild('Ada', '#111', 'a')), newChild('Ben', '#222', 'b'))
@@ -31,5 +31,16 @@ describe('settings saved before a new one existed', () => {
     delete older.cheers
     delete older.motion
     expect(withDefaults({ ...emptyState(), family: older }).family).toMatchObject({ cheers: true, motion: 'lively' })
+  })
+})
+
+describe('the reading voice', () => {
+  it('keeps a choice, and turns the old "female" or "male" into voice 1', () => {
+    expect(voiceOf('male-2')).toBe('male-2')
+    expect(voiceOf('off')).toBe('off')
+    expect(voiceOf('male')).toBe('male-1')
+    expect(voiceOf('female')).toBe('female-1')
+    expect(voiceOf(undefined)).toBe('female-1')
+    expect(withDefaults({ ...emptyState(), family: { ...emptyState().family, voice: 'male' } }).family.voice).toBe('male-1')
   })
 })

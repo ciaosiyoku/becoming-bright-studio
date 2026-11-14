@@ -1,0 +1,146 @@
+{
+  "id": "vr-analogies-hard",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 8,
+  "only": "en",
+  "params": {
+    "relations": {
+      "same": [
+        [
+          "ancient",
+          "old"
+        ],
+        [
+          "brave",
+          "bold"
+        ],
+        [
+          "vast",
+          "huge"
+        ],
+        [
+          "weary",
+          "tired"
+        ],
+        [
+          "damp",
+          "moist"
+        ],
+        [
+          "swift",
+          "quick"
+        ],
+        [
+          "cease",
+          "stop"
+        ],
+        [
+          "glimmer",
+          "shine"
+        ],
+        [
+          "scarce",
+          "rare"
+        ]
+      ],
+      "opposite": [
+        [
+          "generous",
+          "mean"
+        ],
+        [
+          "ancient",
+          "modern"
+        ],
+        [
+          "shallow",
+          "deep"
+        ],
+        [
+          "reveal",
+          "hide"
+        ],
+        [
+          "victory",
+          "defeat"
+        ],
+        [
+          "expand",
+          "shrink"
+        ],
+        [
+          "rough",
+          "smooth"
+        ],
+        [
+          "permit",
+          "forbid"
+        ],
+        [
+          "humble",
+          "proud"
+        ]
+      ],
+      "group": [
+        [
+          "wolf",
+          "pack"
+        ],
+        [
+          "bee",
+          "swarm"
+        ],
+        [
+          "fish",
+          "shoal"
+        ],
+        [
+          "cow",
+          "herd"
+        ],
+        [
+          "bird",
+          "flock"
+        ],
+        [
+          "lion",
+          "pride"
+        ],
+        [
+          "ship",
+          "fleet"
+        ],
+        [
+          "star",
+          "galaxy"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "group",
+    "a": "wolf",
+    "b": "pack",
+    "c": "bee",
+    "answer": "swarm"
+  },
+  "text": {
+    "en": {
+      "title": "Hard analogies",
+      "teach": "Name the link exactly, then use it again. Many wolves make a {b}, so many bees make a {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They are linked the same way.",
+      "reasons": {
+        "same": "{a} means the same as {b}, and {c} means the same as {answer}.",
+        "opposite": "{a} is the opposite of {b}, and {c} is the opposite of {answer}.",
+        "group": "A group of {a}s is a {b}, and a group of {c}s is a {answer}."
+      }
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": "vr-analogies",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 5,
+  "only": "en",
+  "params": {
+    "relations": {
+      "part": [
+        [
+          "petal",
+          "flower"
+        ],
+        [
+          "page",
+          "book"
+        ],
+        [
+          "wheel",
+          "car"
+        ],
+        [
+          "finger",
+          "hand"
+        ],
+        [
+          "leaf",
+          "tree"
+        ],
+        [
+          "key",
+          "piano"
+        ],
+        [
+          "brick",
+          "wall"
+        ],
+        [
+          "feather",
+          "bird"
+        ]
+      ],
+      "worker": [
+        [
+          "doctor",
+          "hospital"
+        ],
+        [
+          "teacher",
+          "school"
+        ],
+        [
+          "chef",
+          "kitchen"
+        ],
+        [
+          "farmer",
+          "farm"
+        ],
+        [
+          "pilot",
+          "aeroplane"
+        ],
+        [
+          "librarian",
+          "library"
+        ],
+        [
+          "baker",
+          "bakery"
+        ]
+      ],
+      "tool": [
+        [
+          "painter",
+          "brush"
+        ],
+        [
+          "writer",
+          "pen"
+        ],
+        [
+          "gardener",
+          "spade"
+        ],
+        [
+          "builder",
+          "hammer"
+        ],
+        [
+          "tailor",
+          "needle"
+        ],
+        [
+          "angler",
+          "rod"
+        ],
+        [
+          "photographer",
+          "camera"
+        ]
+      ],
+      "same": [
+        [
+          "big",
+          "large"
+        ],
+        [
+          "quick",
+          "fast"
+        ],
+        [
+          "shut",
+          "close"
+        ],
+        [
+          "glad",
+          "happy"
+        ],
+        [
+          "begin",
+          "start"
+        ],
+        [
+          "tiny",
+          "small"
+        ],
+        [
+          "shout",
+          "yell"
+        ],
+        [
+          "silent",
+          "quiet"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "tool",
+    "a": "painter",
+    "b": "brush",
+    "c": "writer",
+    "answer": "pen"
+  },
+  "text": {
+    "en": {
+      "title": "Analogies",
+      "teach": "An analogy keeps the same link. A {a} works with a {b}, so a {c} works with a {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They are linked the same way.",
+      "reasons": {
+        "part": "A {a} is part of a {b}, and a {c} is part of a {answer}.",
+        "worker": "A {a} works in a {b}, and a {c} works in a {answer}.",
+        "tool": "A {a} works with a {b}, and a {c} works with a {answer}.",
+        "same": "{a} means the same as {b}, and {c} means the same as {answer}."
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "qr-missing-100",
+  "kind": "qr-balance",
+  "subject": "quantitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 6,
+  "only": "en",
+  "params": {
+    "max": 100,
+    "ops": [
+      "add",
+      "sub",
+      "mul"
+    ],
+    "mulMax": 10
+  },
+  "emoji": "chart",
+  "example": {
+    "op": "mul",
+    "a": 6,
+    "b": 7,
+    "c": 42,
+    "blank": "second",
+    "answer": 7,
+    "shown": "6 × ? = 42",
+    "full": "6 × 7 = 42"
+  },
+  "text": {
+    "en": {
+      "title": "Missing numbers to 100",
+      "teach": "Use the opposite step to find what is hiding. {shown}: 42 ÷ 6 = 7, so {full}.",
+      "prompt": "What is the missing number?",
+      "reason": "{full}, so the missing number is {answer}."
+    }
+  }
+}

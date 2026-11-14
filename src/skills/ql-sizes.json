@@ -1,0 +1,78 @@
+{
+  "id": "ql-sizes",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 2,
+  "only": "en",
+  "params": {
+    "lists": {
+      "size": [
+        [
+          "ladybird",
+          "animal-lady-beetle"
+        ],
+        [
+          "mouse",
+          "animal-mouse"
+        ],
+        [
+          "rabbit",
+          "animal-rabbit"
+        ],
+        [
+          "fox",
+          "animal-fox"
+        ],
+        [
+          "deer",
+          "deer"
+        ],
+        [
+          "horse",
+          "animal-horse"
+        ],
+        [
+          "hippo",
+          "animal-hippopotamus"
+        ],
+        [
+          "elephant",
+          "animal-elephant"
+        ],
+        [
+          "whale",
+          "animal-spouting-whale"
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-elephant",
+  "example": {
+    "rule": "size-most",
+    "list": "size",
+    "ask": "most",
+    "items": "mouse|fox|elephant",
+    "order": "mouse, fox, elephant",
+    "answer": "elephant"
+  },
+  "text": {
+    "en": {
+      "title": "Biggest and smallest",
+      "teach": "Think about how big each animal really is. From smallest to biggest: {order}. The biggest is the {answer}.",
+      "prompt": "Which is the biggest?",
+      "prompts": {
+        "size-most": "Which is the biggest?",
+        "size-least": "Which is the smallest?"
+      },
+      "reason": "From smallest to biggest: {order}.",
+      "reasons": {
+        "size-most": "From smallest to biggest: {order}. The biggest is the {answer}.",
+        "size-least": "From smallest to biggest: {order}. The smallest is the {answer}."
+      }
+    }
+  }
+}

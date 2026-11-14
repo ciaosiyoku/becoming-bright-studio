@@ -16,10 +16,10 @@ describe('backup file', () => {
   })
   it('never holds the PIN or the recovery code, but keeps the other settings', () => {
     const hash = { salt: 's', hash: 'h', iterations: 1 }
-    const s = { ...withChild(true), family: { ...emptyFamily(), pin: hash, recovery: hash, pinLock: { wrong: 3, until: 9 }, voice: 'male' as const } }
+    const s = { ...withChild(true), family: { ...emptyFamily(), pin: hash, recovery: hash, pinLock: { wrong: 3, until: 9 }, voice: 'male-2' as const } }
     const text = makeBackup(s)
     expect(text).not.toContain('"h"')
-    expect(parseBackup(text).family).toEqual({ ...emptyFamily(), voice: 'male' })
+    expect(parseBackup(text).family).toEqual({ ...emptyFamily(), voice: 'male-2' })
   })
   it('says what is wrong with a file that is not a backup', () => {
     const reason = (text: string) => {

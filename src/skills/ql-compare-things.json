@@ -1,0 +1,117 @@
+{
+  "id": "ql-compare-things",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 4,
+  "only": "en",
+  "params": {
+    "lists": {
+      "size": [
+        [
+          "a pea"
+        ],
+        [
+          "an apple"
+        ],
+        [
+          "a football"
+        ],
+        [
+          "a chair"
+        ],
+        [
+          "a car"
+        ],
+        [
+          "a house"
+        ],
+        [
+          "a mountain"
+        ]
+      ],
+      "speed": [
+        [
+          "a snail"
+        ],
+        [
+          "a tortoise"
+        ],
+        [
+          "a person walking"
+        ],
+        [
+          "a horse"
+        ],
+        [
+          "a car"
+        ],
+        [
+          "a plane"
+        ],
+        [
+          "a rocket"
+        ]
+      ],
+      "height": [
+        [
+          "a flower"
+        ],
+        [
+          "a child"
+        ],
+        [
+          "a door"
+        ],
+        [
+          "a giraffe"
+        ],
+        [
+          "a house"
+        ],
+        [
+          "a church tower"
+        ],
+        [
+          "a mountain"
+        ]
+      ]
+    }
+  },
+  "emoji": "thermometer",
+  "example": {
+    "rule": "speed-most",
+    "list": "speed",
+    "ask": "most",
+    "items": "a snail|a horse|a plane",
+    "order": "a snail, a horse, a plane",
+    "answer": "a plane"
+  },
+  "text": {
+    "en": {
+      "title": "Fastest, biggest, tallest",
+      "teach": "Put them in order in your head. From slowest to fastest: {order}. The fastest is {answer}.",
+      "prompt": "Which is the fastest?",
+      "prompts": {
+        "size-most": "Which is the biggest?",
+        "size-least": "Which is the smallest?",
+        "speed-most": "Which is the fastest?",
+        "speed-least": "Which is the slowest?",
+        "height-most": "Which is the tallest?",
+        "height-least": "Which is the shortest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "size-most": "From smallest to biggest: {order}. The biggest is {answer}.",
+        "size-least": "From smallest to biggest: {order}. The smallest is {answer}.",
+        "speed-most": "From slowest to fastest: {order}. The fastest is {answer}.",
+        "speed-least": "From slowest to fastest: {order}. The slowest is {answer}.",
+        "height-most": "From shortest to tallest: {order}. The tallest is {answer}.",
+        "height-least": "From shortest to tallest: {order}. The shortest is {answer}."
+      }
+    }
+  }
+}

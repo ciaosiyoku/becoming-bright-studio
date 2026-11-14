@@ -1,0 +1,126 @@
+{
+  "id": "ql-compare-more",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 6,
+  "only": "en",
+  "params": {
+    "lists": {
+      "time": [
+        [
+          "a blink"
+        ],
+        [
+          "a minute"
+        ],
+        [
+          "an hour"
+        ],
+        [
+          "a day"
+        ],
+        [
+          "a week"
+        ],
+        [
+          "a month"
+        ],
+        [
+          "a year"
+        ],
+        [
+          "a century"
+        ]
+      ],
+      "weight": [
+        [
+          "a feather"
+        ],
+        [
+          "an apple"
+        ],
+        [
+          "a bag of sugar"
+        ],
+        [
+          "a child"
+        ],
+        [
+          "a horse"
+        ],
+        [
+          "a car"
+        ],
+        [
+          "an elephant"
+        ],
+        [
+          "a lorry"
+        ]
+      ],
+      "speed": [
+        [
+          "a snail"
+        ],
+        [
+          "a tortoise"
+        ],
+        [
+          "a person walking"
+        ],
+        [
+          "a person running"
+        ],
+        [
+          "a horse galloping"
+        ],
+        [
+          "a car on a motorway"
+        ],
+        [
+          "a jet plane"
+        ],
+        [
+          "a rocket"
+        ]
+      ]
+    }
+  },
+  "emoji": "clock",
+  "example": {
+    "rule": "time-most",
+    "list": "time",
+    "ask": "most",
+    "items": "a minute|a day|a year",
+    "order": "a minute, a day, a year",
+    "answer": "a year"
+  },
+  "text": {
+    "en": {
+      "title": "Longest, heaviest, fastest",
+      "teach": "Compare what you know about each one. From shortest to longest: {order}. The longest is {answer}.",
+      "prompt": "Which is the longest?",
+      "prompts": {
+        "time-most": "Which is the longest time?",
+        "time-least": "Which is the shortest time?",
+        "weight-most": "Which is the heaviest?",
+        "weight-least": "Which is the lightest?",
+        "speed-most": "Which is the fastest?",
+        "speed-least": "Which is the slowest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "time-most": "From shortest to longest: {order}. The longest is {answer}.",
+        "time-least": "From shortest to longest: {order}. The shortest is {answer}.",
+        "weight-most": "From lightest to heaviest: {order}. The heaviest is {answer}.",
+        "weight-least": "From lightest to heaviest: {order}. The lightest is {answer}.",
+        "speed-most": "From slowest to fastest: {order}. The fastest is {answer}.",
+        "speed-least": "From slowest to fastest: {order}. The slowest is {answer}."
+      }
+    }
+  }
+}

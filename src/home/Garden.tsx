@@ -10,6 +10,9 @@ export const SUBJECT_COLOURS: Record<Subject, { main: string; soft: string; deep
   patterns: { main: '#8b5cf6', soft: '#efe8fe', deep: '#5b33c2' },
   science: { main: '#22a06b', soft: '#dcf5ea', deep: '#145f40' },
   french: { main: '#e2557e', soft: '#fde4ef', deep: '#9b2458' },
+  verbal: { main: '#0ea5a4', soft: '#dff6f5', deep: '#0b6665' },
+  quantitative: { main: '#4655d6', soft: '#e6e9fd', deep: '#2f3bb0' },
+  qualitative: { main: '#d9a400', soft: '#fff4cc', deep: '#7a5c00' },
 }
 
 const PER_ROW = 9

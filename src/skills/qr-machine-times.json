@@ -1,0 +1,53 @@
+{
+  "id": "qr-machine-times",
+  "kind": "qr-machine",
+  "subject": "quantitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 5,
+  "only": "en",
+  "params": {
+    "steps": [
+      "x2",
+      "x3",
+      "x4",
+      "x5",
+      "x6",
+      "x7",
+      "x8",
+      "x9",
+      "x10",
+      "+6",
+      "+9",
+      "-4",
+      "-7",
+      "/2",
+      "/3",
+      "/4",
+      "/5"
+    ],
+    "ins": [
+      2,
+      20
+    ]
+  },
+  "emoji": "gear",
+  "example": {
+    "in": 6,
+    "step1": "x4",
+    "step2": "",
+    "machine": "×4",
+    "answer": 24,
+    "working": "6 ×4 = 24"
+  },
+  "text": {
+    "en": {
+      "title": "Times machines",
+      "teach": "The machine can multiply, divide, add or take away. {in} goes in, the machine does {machine}: {working}.",
+      "prompt": "{in} goes into the machine. What comes out?",
+      "reason": "{working}."
+    }
+  }
+}

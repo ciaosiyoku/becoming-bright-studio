@@ -1,0 +1,123 @@
+{
+  "id": "ql-compare-hard",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 8,
+  "only": "en",
+  "params": {
+    "lists": {
+      "temperature": [
+        [
+          "a freezer"
+        ],
+        [
+          "ice"
+        ],
+        [
+          "cold tap water"
+        ],
+        [
+          "a warm bath"
+        ],
+        [
+          "a cup of hot tea"
+        ],
+        [
+          "boiling water"
+        ],
+        [
+          "a hot oven"
+        ],
+        [
+          "the surface of the Sun"
+        ]
+      ],
+      "distance": [
+        [
+          "the length of a pencil"
+        ],
+        [
+          "across a classroom"
+        ],
+        [
+          "a football pitch"
+        ],
+        [
+          "a mile"
+        ],
+        [
+          "London to Paris"
+        ],
+        [
+          "around the Earth"
+        ],
+        [
+          "the Earth to the Moon"
+        ],
+        [
+          "the Earth to the Sun"
+        ]
+      ],
+      "age": [
+        [
+          "a newborn baby"
+        ],
+        [
+          "a teenager"
+        ],
+        [
+          "a grandparent"
+        ],
+        [
+          "an old oak tree"
+        ],
+        [
+          "the pyramids"
+        ],
+        [
+          "dinosaur fossils"
+        ],
+        [
+          "the Earth"
+        ]
+      ]
+    }
+  },
+  "emoji": "globe",
+  "example": {
+    "rule": "temperature-most",
+    "list": "temperature",
+    "ask": "most",
+    "items": "ice|a warm bath|boiling water",
+    "order": "ice, a warm bath, boiling water",
+    "answer": "boiling water"
+  },
+  "text": {
+    "en": {
+      "title": "Ordering by quality",
+      "teach": "Use what you know to put them in order. From coldest to hottest: {order}. The hottest is {answer}.",
+      "prompt": "Which is the hottest?",
+      "prompts": {
+        "temperature-most": "Which is the hottest?",
+        "temperature-least": "Which is the coldest?",
+        "distance-most": "Which is the longest distance?",
+        "distance-least": "Which is the shortest distance?",
+        "age-most": "Which is the oldest?",
+        "age-least": "Which is the youngest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "temperature-most": "From coldest to hottest: {order}. The hottest is {answer}.",
+        "temperature-least": "From coldest to hottest: {order}. The coldest is {answer}.",
+        "distance-most": "From shortest to longest: {order}. The longest is {answer}.",
+        "distance-least": "From shortest to longest: {order}. The shortest is {answer}.",
+        "age-most": "From youngest to oldest: {order}. The oldest is {answer}.",
+        "age-least": "From youngest to oldest: {order}. The youngest is {answer}."
+      }
+    }
+  }
+}

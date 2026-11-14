@@ -152,6 +152,60 @@ function problem(def: SkillDef, item: Item): string | null {
     }
     case 'bank':
       return onlyOne((l) => l === bankOf(def, skillLang(def, 'en'))[Number(v.i)][1]) ? null : `wrong answer to question ${v.i}`
+    // The reasoning subjects (reasoning.ts), each worked out here again.
+    case 'qr-balance': {
+      // Put the choice in the gap and see if the sum is true: "? + 3 = 7" with 4 → 4 + 3 = 7.
+      const holds = (l: string) => {
+        const [lhs, rhs] = String(v.shown).replace('?', l).split(' = ')
+        const [x, op, y] = lhs.split(' ')
+        const result = op === '+' ? Number(x) + Number(y) : op === '−' ? Number(x) - Number(y) : Number(x) * Number(y)
+        return result === Number(rhs)
+      }
+      return onlyOne(holds) ? null : `wrong missing number in ${v.shown}`
+    }
+    case 'qr-machine': {
+      const step = (x: number, s: string) => (s[0] === '+' ? x + Number(s.slice(1)) : s[0] === '-' ? x - Number(s.slice(1)) : s[0] === 'x' ? x * Number(s.slice(1)) : x / Number(s.slice(1)))
+      const out = v.step2 ? step(step(Number(v.in), String(v.step1)), String(v.step2)) : step(Number(v.in), String(v.step1))
+      return Number.isInteger(out) && out >= 0 && onlyOne((l) => Number(l) === out) ? null : 'wrong machine answer'
+    }
+    case 'qr-story': {
+      const [a, b] = [Number(v.a), Number(v.b)]
+      const answers: Record<string, number> = { add: a + b, take: a - b, times: a * b, share: a / b, unit: (Number(v.c) / a) * b }
+      const out = answers[String(v.rule)]
+      return out !== undefined && Number.isInteger(out) && out >= 0 && onlyOne((l) => Number(l) === out) ? null : 'wrong story answer'
+    }
+    case 'vr-analogy': {
+      const partner = (def.params.relations as Record<string, [string, string][]>)[String(v.rule)].find((p) => p[0] === v.c)?.[1]
+      const first = (def.params.relations as Record<string, [string, string][]>)[String(v.rule)].find((p) => p[0] === v.a)?.[1]
+      return first === v.b && onlyOne((l) => l === partner) ? null : `wrong pair for ${v.c}`
+    }
+    case 'vr-code': {
+      const move = (String(v.c1).charCodeAt(0) - String(v.w1).charCodeAt(0) + 26) % 26
+      const code = (w: string) => [...w].map((c) => String.fromCharCode(((c.charCodeAt(0) - 65 + move) % 26) + 65)).join('')
+      return code(String(v.w1)) === v.c1 && onlyOne((l) => l === code(String(v.w2))) ? null : `wrong code for ${v.w2}`
+    }
+    case 'odd-one-out': {
+      const groups = def.params.groups as Record<string, [string, string?][]>
+      const groupOf = (word: string) => Object.keys(groups).filter((g) => groups[g].some((x) => x[0] === word))
+      const words = item.choices.map((c) => c.label ?? '')
+      if (words.some((w) => groupOf(w).length !== 1)) return 'a word in no group, or in two'
+      const sameGroup = groupOf(String(v.answer))[0]
+      const others = words.filter((w) => w !== v.answer)
+      const shared = groupOf(others[0])[0]
+      return right(item) === item.choices[item.answer].label && item.choices[item.answer].label === v.answer && sameGroup !== shared && others.every((w) => groupOf(w)[0] === shared) ? null : 'not exactly one odd one out'
+    }
+    case 'ql-compare': {
+      const list = (def.params.lists as Record<string, [string, string?][]>)[String(v.list)].map((x) => x[0])
+      const at = item.choices.map((c) => list.indexOf(c.label ?? ''))
+      if (at.some((i) => i < 0)) return 'a choice not in the list'
+      const want = v.ask === 'most' ? Math.max(...at) : Math.min(...at)
+      return list.indexOf(item.choices[item.answer].label ?? '') === want ? null : `wrong ${v.rule}`
+    }
+    case 'ql-common': {
+      const qualities = def.params.qualities as Record<string, string[]>
+      const things = String(v.things).split(', ')
+      return onlyOne((l) => things.every((t) => qualities[l]?.includes(t))) ? null : `not one word for ${v.things}`
+    }
     default:
       return `no check for ${def.kind}`
   }

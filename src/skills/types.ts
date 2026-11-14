@@ -1,6 +1,7 @@
 import type { Lang } from '@/i18n'
 import type { BankKind } from './bank'
 import type { CalcKind } from './numbers'
+import type { ReasonKind } from './reasoning'
 import type { WordKind } from './words'
 
 // What a skill is (src/skills/<id>.json) and what one generated question looks like.
@@ -56,9 +57,9 @@ export interface SkillDef {
  */
 export type SkillMeta = Omit<SkillDef, 'params'>
 
-export type Subject = 'numbers' | 'words' | 'patterns' | 'science' | 'french'
+export type Subject = 'numbers' | 'words' | 'patterns' | 'science' | 'french' | 'verbal' | 'quantitative' | 'qualitative'
 
-export type GeneratorKind = 'count' | 'add' | 'subtract' | 'one-more' | 'one-less' | 'bigger' | 'first-sound' | 'a-an' | 'rhyme' | CalcKind | WordKind | BankKind
+export type GeneratorKind = 'count' | 'add' | 'subtract' | 'one-more' | 'one-less' | 'bigger' | 'first-sound' | 'a-an' | 'rhyme' | CalcKind | WordKind | BankKind | ReasonKind
 
 /** What the question shows. */
 export type Visual =

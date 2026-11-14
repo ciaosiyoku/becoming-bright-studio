@@ -1,0 +1,120 @@
+{
+  "id": "qr-stories-times",
+  "kind": "qr-story",
+  "subject": "quantitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 8,
+  "only": "en",
+  "params": {
+    "rules": [
+      "times",
+      "share",
+      "unit"
+    ],
+    "max": 100,
+    "names": [
+      "Ada",
+      "Ben",
+      "Chloe",
+      "Dan",
+      "Ella",
+      "Femi",
+      "Grace",
+      "Hassan",
+      "Ivy",
+      "Jay",
+      "Kemi",
+      "Leo",
+      "Mia",
+      "Noah",
+      "Ola",
+      "Priya",
+      "Sam",
+      "Tunde",
+      "Zara"
+    ],
+    "things": [
+      [
+        "apples",
+        "fruit-apple"
+      ],
+      [
+        "cookies",
+        "cookie"
+      ],
+      [
+        "cakes",
+        "cake"
+      ],
+      [
+        "stars",
+        "star"
+      ],
+      [
+        "bananas",
+        "fruit-banana"
+      ],
+      [
+        "strawberries",
+        "fruit-strawberry"
+      ],
+      [
+        "candles",
+        "candle"
+      ],
+      [
+        "presents",
+        "gift"
+      ],
+      [
+        "teddies",
+        "teddy"
+      ],
+      [
+        "keys",
+        "key"
+      ],
+      [
+        "lemons",
+        "fruit-lemon"
+      ],
+      [
+        "pears",
+        "fruit-pear"
+      ]
+    ]
+  },
+  "emoji": "cake",
+  "example": {
+    "rule": "unit",
+    "name": "Ada",
+    "thing": "lemons",
+    "emoji": "fruit-lemon",
+    "a": 3,
+    "b": 5,
+    "c": 12,
+    "answer": 20,
+    "price": 4
+  },
+  "text": {
+    "en": {
+      "title": "Stories with times and sharing",
+      "teach": "First find what one costs, then what many cost. {a} {thing} cost {c}p, so one costs {price}p, and {b} cost {answer}p.",
+      "prompt": "{a} {thing} cost {c}p. How much do {b} {thing} cost?",
+      "prompts": {
+        "times": "There are {a} bags with {b} {thing} in each. How many {thing} are there in all?",
+        "share": "{a} {thing} are shared equally between {b} friends. How many does each friend get?",
+        "unit": "{a} {thing} cost {c}p. How much do {b} {thing} cost?"
+      },
+      "reason": "One costs {c} ÷ {a} = {price}p, so {b} cost {b} × {price} = {answer}p.",
+      "reasons": {
+        "times": "{a} × {b} = {answer}.",
+        "share": "{a} ÷ {b} = {answer}.",
+        "unit": "One costs {c} ÷ {a} = {price}p, so {b} cost {b} × {price} = {answer}p."
+      }
+    }
+  }
+}

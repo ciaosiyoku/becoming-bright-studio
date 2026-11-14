@@ -31,9 +31,9 @@ export function loadSkill(id: string): Promise<SkillDef> {
 }
 
 /** The subjects in home-screen order, each with its skills in teaching order. */
-export const SUBJECTS: Subject[] = ['numbers', 'words', 'patterns', 'science', 'french']
+export const SUBJECTS: Subject[] = ['numbers', 'words', 'patterns', 'science', 'french', 'verbal', 'quantitative', 'qualitative']
 /** The picture of each subject (the skill chooser). */
-export const SUBJECT_EMOJI: Record<Subject, string> = { numbers: 'abacus', words: 'letters', patterns: 'puzzle', science: 'magnet', french: 'speech' }
+export const SUBJECT_EMOJI: Record<Subject, string> = { numbers: 'abacus', words: 'letters', patterns: 'puzzle', science: 'magnet', french: 'speech', verbal: 'openbook', quantitative: 'chart', qualitative: 'palette' }
 export const bySubject = (subject: Subject) => SKILLS.filter((s) => s.subject === subject).sort((a, b) => a.order - b.order)
 
 export const skillById = (id: string): SkillMeta | undefined => SKILLS.find((s) => s.id === id)

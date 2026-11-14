@@ -1,0 +1,156 @@
+{
+  "id": "ql-odd-pictures-2",
+  "kind": "odd-one-out",
+  "subject": "qualitative",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 3,
+  "only": "en",
+  "params": {
+    "groups": {
+      "sea animals": [
+        [
+          "dolphin",
+          "animal-dolphin"
+        ],
+        [
+          "shark",
+          "animal-shark"
+        ],
+        [
+          "octopus",
+          "animal-octopus"
+        ],
+        [
+          "whale",
+          "animal-spouting-whale"
+        ],
+        [
+          "crab",
+          "animal-crab"
+        ],
+        [
+          "seal",
+          "animal-seal"
+        ]
+      ],
+      "birds": [
+        [
+          "owl",
+          "animal-owl"
+        ],
+        [
+          "parrot",
+          "animal-parrot"
+        ],
+        [
+          "chick",
+          "chick"
+        ],
+        [
+          "swan",
+          "animal-swan"
+        ],
+        [
+          "flamingo",
+          "animal-flamingo"
+        ],
+        [
+          "peacock",
+          "animal-peacock"
+        ]
+      ],
+      "winter things": [
+        [
+          "snowman",
+          "snowman"
+        ],
+        [
+          "scarf",
+          "scarf"
+        ],
+        [
+          "gloves",
+          "gloves"
+        ],
+        [
+          "sled",
+          "sled"
+        ],
+        [
+          "ice skate",
+          "iceskate"
+        ],
+        [
+          "snowflake",
+          "snowflake"
+        ]
+      ],
+      "things that need electricity": [
+        [
+          "computer",
+          "computer"
+        ],
+        [
+          "television",
+          "tv"
+        ],
+        [
+          "radio",
+          "radio"
+        ],
+        [
+          "telephone",
+          "telephone"
+        ],
+        [
+          "light bulb",
+          "light"
+        ]
+      ],
+      "fruits": [
+        [
+          "strawberry",
+          "fruit-strawberry"
+        ],
+        [
+          "watermelon",
+          "fruit-watermelon"
+        ],
+        [
+          "pineapple",
+          "fruit-pineapple"
+        ],
+        [
+          "peach",
+          "fruit-peach"
+        ],
+        [
+          "kiwi",
+          "fruit-kiwi"
+        ],
+        [
+          "mango",
+          "fruit-mango"
+        ]
+      ]
+    }
+  },
+  "emoji": "puzzle",
+  "example": {
+    "group": "birds",
+    "oddGroup": "sea animals",
+    "items": "owl, parrot, swan",
+    "answer": "shark"
+  },
+  "text": {
+    "en": {
+      "title": "Spot what is different",
+      "teach": "Ask what three of them share. The {items} are all {group}, and the {answer} is not.",
+      "prompt": "Which picture does not belong?",
+      "reason": "The others are all {group}; the {answer} is not."
+    }
+  }
+}

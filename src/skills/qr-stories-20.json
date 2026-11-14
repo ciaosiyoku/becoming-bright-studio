@@ -1,0 +1,115 @@
+{
+  "id": "qr-stories-20",
+  "kind": "qr-story",
+  "subject": "quantitative",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 4,
+  "only": "en",
+  "params": {
+    "rules": [
+      "add",
+      "take"
+    ],
+    "max": 20,
+    "names": [
+      "Ada",
+      "Ben",
+      "Chloe",
+      "Dan",
+      "Ella",
+      "Femi",
+      "Grace",
+      "Hassan",
+      "Ivy",
+      "Jay",
+      "Kemi",
+      "Leo",
+      "Mia",
+      "Noah",
+      "Ola",
+      "Priya",
+      "Sam",
+      "Tunde",
+      "Zara"
+    ],
+    "things": [
+      [
+        "apples",
+        "fruit-apple"
+      ],
+      [
+        "cookies",
+        "cookie"
+      ],
+      [
+        "cakes",
+        "cake"
+      ],
+      [
+        "stars",
+        "star"
+      ],
+      [
+        "bananas",
+        "fruit-banana"
+      ],
+      [
+        "strawberries",
+        "fruit-strawberry"
+      ],
+      [
+        "candles",
+        "candle"
+      ],
+      [
+        "presents",
+        "gift"
+      ],
+      [
+        "teddies",
+        "teddy"
+      ],
+      [
+        "keys",
+        "key"
+      ],
+      [
+        "lemons",
+        "fruit-lemon"
+      ],
+      [
+        "pears",
+        "fruit-pear"
+      ]
+    ]
+  },
+  "emoji": "cookie",
+  "example": {
+    "rule": "take",
+    "name": "Mia",
+    "thing": "cookies",
+    "emoji": "cookie",
+    "a": 12,
+    "b": 5,
+    "answer": 7
+  },
+  "text": {
+    "en": {
+      "title": "Number stories to 20",
+      "teach": "Find the numbers in the story, then add or take away. {name} has {a} {thing} and gives {b} away: {a} − {b} = {answer}.",
+      "prompt": "{name} has {a} {thing} and gives {b} away. How many {thing} are left?",
+      "prompts": {
+        "add": "{name} has {a} {thing}. {name} gets {b} more. How many {thing} does {name} have now?",
+        "take": "{name} has {a} {thing} and gives {b} away. How many {thing} are left?"
+      },
+      "reason": "{a} − {b} = {answer}.",
+      "reasons": {
+        "add": "{a} + {b} = {answer}.",
+        "take": "{a} − {b} = {answer}."
+      }
+    }
+  }
+}

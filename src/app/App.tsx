@@ -6,7 +6,7 @@ import { NeedPin, Setup } from '@/setup/Setup'
 import { useT } from '@/i18n'
 import { Loading } from '@/shared/Loading'
 import { useAutoUpdate } from '@/shared/autoUpdate'
-import { setVoiceGender } from '@/shared/speak'
+import { setVoiceOption } from '@/shared/speak'
 import { setSoundsOn } from '@/shared/sounds'
 import { ItemScreen } from './ItemScreen'
 import { ItemsPage } from './ItemsPage'
@@ -44,7 +44,7 @@ function Screens() {
   const child = activeChild(state)
 
   // The reading voice the grown-ups chose.
-  useEffect(() => setVoiceGender(state.family.voice), [state.family.voice])
+  useEffect(() => setVoiceOption(state.family.voice), [state.family.voice])
   // Sound effects on or off (the grown-ups' choice).
   useEffect(() => setSoundsOn(state.family.sounds), [state.family.sounds])
   // Calm movement (the grown-ups' choice): global.css stops every animation under data-motion="calm".

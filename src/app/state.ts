@@ -1,6 +1,6 @@
 import type { Lang } from '@/i18n'
 import type { PinHash } from '@/parent/pin'
-import type { VoiceGender } from '@/shared/speak'
+import type { VoiceOption } from '@/shared/speak'
 import type { Subject } from '@/skills/types'
 import { type Access, defaultAccess, type ItemId } from './items'
 
@@ -80,8 +80,8 @@ export interface Family {
   subjects: Record<Subject, Access>
   /** Earned time: minutes per passed lesson, and the most a day; lessons passed in a day that open the "earn first" subjects. */
   rewards: { minutesPerLesson: number; maxPerDay: number; lessonsToOpen: number }
-  /** Reading aloud with a female or a male voice (shared/speak.ts). */
-  voice: VoiceGender
+  /** Who reads aloud: the 1st or 2nd female or male voice of the device, or "off" (shared/speak.ts). */
+  voice: VoiceOption
   /** Soft sound effects for taps, answers and a finished lesson (shared/sounds.ts). */
   sounds: boolean
   /** Sunny cheers a right answer (off: a calm smile only). */
@@ -106,10 +106,10 @@ export interface AppState {
 export const MAX_MISSES = 300
 export const COLOURS = ['#5b6cf0', '#e2557e', '#178c84', '#e08a1e', '#8b5cf6', '#22a06b'] as const
 
-/** Maths and English always open; patterns, science and French opened by passing lessons first. */
-export const defaultSubjects = (): Record<Subject, Access> => ({ numbers: 'open', words: 'open', patterns: 'earn', science: 'earn', french: 'earn' })
+/** Maths and English always open; patterns, science, French and the three reasoning subjects opened by passing lessons first. */
+export const defaultSubjects = (): Record<Subject, Access> => ({ numbers: 'open', words: 'open', patterns: 'earn', science: 'earn', french: 'earn', verbal: 'earn', quantitative: 'earn', qualitative: 'earn' })
 
-export const emptyFamily = (): Family => ({ pin: null, recovery: null, recoveryEmail: null, secretWord: null, pinLock: { wrong: 0, until: 0 }, access: defaultAccess(), subjects: defaultSubjects(), rewards: { minutesPerLesson: 10, maxPerDay: 45, lessonsToOpen: 2 }, voice: 'female', sounds: true, cheers: true, motion: 'lively' })
+export const emptyFamily = (): Family => ({ pin: null, recovery: null, recoveryEmail: null, secretWord: null, pinLock: { wrong: 0, until: 0 }, access: defaultAccess(), subjects: defaultSubjects(), rewards: { minutesPerLesson: 10, maxPerDay: 45, lessonsToOpen: 2 }, voice: 'female-1', sounds: true, cheers: true, motion: 'lively' })
 
 export const emptyState = (): AppState => ({ version: STATE_VERSION, family: emptyFamily(), children: [], activeChild: null, lang: null, lastBackupAt: null, updatedAt: 0 })
 
@@ -118,6 +118,10 @@ export function newChild(name: string, colour: string, id: string = crypto.rando
 }
 
 const isObject = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v)
+
+const VOICES: readonly unknown[] = ['female-1', 'female-2', 'male-1', 'male-2', 'off']
+/** The reading voice as saved; "female" or "male" (saved before there were two of each) become voice 1. Pure. */
+export const voiceOf = (saved: unknown): VoiceOption => (VOICES.includes(saved) ? (saved as VoiceOption) : saved === 'male' ? 'male-1' : 'female-1')
 
 /** A saved document completed with today's defaults (fields added in a later version), children included. Pure. */
 export function withDefaults(saved: unknown): AppState {
@@ -128,6 +132,7 @@ export function withDefaults(saved: unknown): AppState {
   state.family = { ...emptyFamily(), ...savedFamily, access: { ...defaultAccess(), ...(isObject(savedFamily.access) ? savedFamily.access : {}) },
     subjects: { ...defaultSubjects(), ...(isObject(savedFamily.subjects) ? savedFamily.subjects : {}) },
     rewards: { ...emptyFamily().rewards, ...(isObject(savedFamily.rewards) ? savedFamily.rewards : {}) },
+    voice: voiceOf(savedFamily.voice),
   }
   state.children = Array.isArray(saved.children) ? saved.children.filter(isObject).map((c) => ({ ...newChild('', COLOURS[0], String(c.id ?? crypto.randomUUID())), ...c }) as Child) : []
   if (!state.children.some((c) => c.id === state.activeChild)) state.activeChild = state.children[0]?.id ?? null

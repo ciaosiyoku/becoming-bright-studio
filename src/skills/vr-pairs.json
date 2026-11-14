@@ -1,0 +1,134 @@
+{
+  "id": "vr-pairs",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 4,
+  "only": "en",
+  "params": {
+    "relations": {
+      "young": [
+        [
+          "cat",
+          "kitten"
+        ],
+        [
+          "dog",
+          "puppy"
+        ],
+        [
+          "cow",
+          "calf"
+        ],
+        [
+          "sheep",
+          "lamb"
+        ],
+        [
+          "hen",
+          "chick"
+        ],
+        [
+          "horse",
+          "foal"
+        ],
+        [
+          "duck",
+          "duckling"
+        ],
+        [
+          "frog",
+          "tadpole"
+        ]
+      ],
+      "home": [
+        [
+          "bird",
+          "nest"
+        ],
+        [
+          "bee",
+          "hive"
+        ],
+        [
+          "dog",
+          "kennel"
+        ],
+        [
+          "spider",
+          "web"
+        ],
+        [
+          "rabbit",
+          "burrow"
+        ],
+        [
+          "horse",
+          "stable"
+        ],
+        [
+          "fish",
+          "pond"
+        ]
+      ],
+      "opposite": [
+        [
+          "early",
+          "late"
+        ],
+        [
+          "full",
+          "empty"
+        ],
+        [
+          "thick",
+          "thin"
+        ],
+        [
+          "loud",
+          "quiet"
+        ],
+        [
+          "light",
+          "dark"
+        ],
+        [
+          "push",
+          "pull"
+        ],
+        [
+          "first",
+          "last"
+        ],
+        [
+          "win",
+          "lose"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "young",
+    "a": "cat",
+    "b": "kitten",
+    "c": "dog",
+    "answer": "puppy"
+  },
+  "text": {
+    "en": {
+      "title": "Word pairs",
+      "teach": "Say how the first pair goes together, then find a word that goes with the third the same way. A {b} is a young {a}, so a young {c} is a {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "young": "A young {a} is a {b}, and a young {c} is a {answer}.",
+        "home": "A {a} lives in a {b}, and a {c} lives in a {answer}.",
+        "opposite": "{a} and {b} are opposites, so the opposite of {c} is {answer}."
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "ql-common-hard",
+  "kind": "ql-common",
+  "subject": "qualitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 7,
+  "only": "en",
+  "params": {
+    "qualities": {
+      "fragile": [
+        "an egg",
+        "an eggshell",
+        "a china cup",
+        "a snowflake",
+        "a mirror",
+        "a butterfly's wing",
+        "a sandcastle",
+        "a dried leaf"
+      ],
+      "waterproof": [
+        "an umbrella",
+        "wellington boots",
+        "a raincoat",
+        "a swimming cap",
+        "a tent",
+        "a duck's feathers",
+        "a shower curtain",
+        "a diving suit"
+      ],
+      "transparent": [
+        "cling film",
+        "a clear plastic bottle",
+        "bubble wrap",
+        "a clear plastic ruler",
+        "a clear plastic bag",
+        "clean water",
+        "a window"
+      ],
+      "ancient": [
+        "the pyramids",
+        "dinosaur fossils",
+        "Stonehenge",
+        "cave paintings",
+        "a Roman coin",
+        "a castle ruin",
+        "an Egyptian mummy",
+        "a stone axe"
+      ],
+      "edible": [
+        "bread",
+        "an apple",
+        "rice",
+        "cheese",
+        "a carrot",
+        "porridge",
+        "a sandwich",
+        "a banana"
+      ],
+      "liquid": [
+        "shampoo",
+        "washing-up liquid",
+        "perfume",
+        "liquid soap",
+        "bubble mixture",
+        "cooking oil",
+        "paint",
+        "bath foam"
+      ],
+      "magnetic": [
+        "an iron nail",
+        "a steel paperclip",
+        "an iron key",
+        "a steel pin",
+        "a fridge magnet",
+        "iron filings",
+        "a compass needle",
+        "a steel spoon"
+      ],
+      "poisonous": [
+        "deadly nightshade berries",
+        "a death cap mushroom",
+        "a rattlesnake bite",
+        "a poison dart frog",
+        "rat poison",
+        "a scorpion sting",
+        "foxglove leaves"
+      ]
+    }
+  },
+  "emoji": "sparkles",
+  "example": {
+    "answer": "fragile",
+    "things": "an egg, a china cup, a mirror",
+    "last": "a mirror",
+    "first": "an egg, a china cup"
+  },
+  "text": {
+    "en": {
+      "title": "The shared quality",
+      "teach": "Test each word against all three things; only one fits every one. {first} and {last} are all {answer}.",
+      "prompt": "Which word describes all three?",
+      "reason": "{first} and {last} are all {answer}."
+    }
+  }
+}

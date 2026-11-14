@@ -1,0 +1,130 @@
+{
+  "id": "ql-common",
+  "kind": "ql-common",
+  "subject": "qualitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 5,
+  "only": "en",
+  "params": {
+    "qualities": {
+      "hot": [
+        "fire",
+        "an oven",
+        "a kettle",
+        "a toaster",
+        "a volcano",
+        "a bonfire",
+        "a radiator",
+        "a hot-water bottle"
+      ],
+      "cold": [
+        "a freezer",
+        "an iceberg",
+        "a snowman",
+        "frost",
+        "an icicle",
+        "a glacier",
+        "an ice lolly",
+        "the North Pole"
+      ],
+      "wet": [
+        "rain",
+        "a puddle",
+        "a river",
+        "the sea",
+        "a bath",
+        "a pond",
+        "a wave",
+        "a waterfall"
+      ],
+      "soft": [
+        "a pillow",
+        "a feather",
+        "cotton wool",
+        "a teddy bear",
+        "a blanket",
+        "a cushion",
+        "a kitten's fur",
+        "a duvet"
+      ],
+      "sharp": [
+        "a knife",
+        "a needle",
+        "a thorn",
+        "a pin",
+        "scissors",
+        "a saw",
+        "a cactus spine",
+        "a shark's tooth"
+      ],
+      "sweet": [
+        "honey",
+        "sugar",
+        "jam",
+        "syrup",
+        "chocolate",
+        "a lollipop",
+        "a toffee",
+        "treacle"
+      ],
+      "loud": [
+        "a drum",
+        "thunder",
+        "a siren",
+        "a trumpet",
+        "an alarm clock",
+        "a shout",
+        "a car horn",
+        "a lion's roar"
+      ],
+      "round": [
+        "a ball",
+        "a wheel",
+        "a plate",
+        "a hoop",
+        "a pizza",
+        "a clock face",
+        "a roundabout",
+        "the full moon"
+      ],
+      "heavy": [
+        "an elephant",
+        "a boulder",
+        "an anvil",
+        "a wardrobe",
+        "a fridge",
+        "a stone statue",
+        "a sack of potatoes",
+        "a hippo"
+      ],
+      "tiny": [
+        "an ant",
+        "a crumb",
+        "a flea",
+        "a grain of rice",
+        "a speck of dust",
+        "a grain of sand",
+        "a mosquito",
+        "an eyelash"
+      ]
+    }
+  },
+  "emoji": "sparkles",
+  "example": {
+    "answer": "cold",
+    "things": "a freezer, an iceberg, a snowman",
+    "last": "a snowman",
+    "first": "a freezer, an iceberg"
+  },
+  "text": {
+    "en": {
+      "title": "What do they share?",
+      "teach": "Find the one word that is true of all three. {first} and {last} are all {answer}.",
+      "prompt": "Which word describes all three?",
+      "reason": "{first} and {last} are all {answer}."
+    }
+  }
+}

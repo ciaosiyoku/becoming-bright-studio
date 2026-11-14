@@ -1,0 +1,64 @@
+{
+  "id": "vr-codes",
+  "kind": "vr-code",
+  "subject": "verbal",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 7,
+  "only": "en",
+  "params": {
+    "words": [
+      "bird",
+      "fish",
+      "star",
+      "rain",
+      "milk",
+      "tree",
+      "lamp",
+      "frog",
+      "ship",
+      "coat",
+      "plan",
+      "moon",
+      "book",
+      "drum",
+      "seed",
+      "gold",
+      "house",
+      "plant",
+      "train",
+      "cloud",
+      "bread",
+      "smile",
+      "stone",
+      "beach"
+    ],
+    "shifts": [
+      1,
+      2,
+      3,
+      -1,
+      -2,
+      -3
+    ]
+  },
+  "emoji": "key",
+  "example": {
+    "shift": 2,
+    "w1": "STAR",
+    "c1": "UVCT",
+    "w2": "MOON",
+    "answer": "OQQP",
+    "move": "+2"
+  },
+  "text": {
+    "en": {
+      "title": "Harder letter codes",
+      "teach": "Work out the move from the first word, then use it on the second. {w1} → {c1}: each letter moves {move}, so {w2} → {answer}.",
+      "prompt": "If {w1} is written {c1}, how is {w2} written?",
+      "reason": "Each letter moves {move} along the alphabet, so {w2} becomes {answer}."
+    }
+  }
+}

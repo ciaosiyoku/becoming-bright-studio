@@ -512,3 +512,9 @@ button.round {
     animation: none;
   }
 }
+
+/* Four choices (the odd one out): two by two. */
+.choices.four {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 36rem;
+}

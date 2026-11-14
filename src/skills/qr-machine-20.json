@@ -1,0 +1,47 @@
+{
+  "id": "qr-machine-20",
+  "kind": "qr-machine",
+  "subject": "quantitative",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 3,
+  "only": "en",
+  "params": {
+    "steps": [
+      "+1",
+      "+2",
+      "+3",
+      "+4",
+      "+5",
+      "+10",
+      "-1",
+      "-2",
+      "-3",
+      "-4",
+      "-5"
+    ],
+    "ins": [
+      1,
+      20
+    ]
+  },
+  "emoji": "gear",
+  "example": {
+    "in": 7,
+    "step1": "+3",
+    "step2": "",
+    "machine": "+3",
+    "answer": 10,
+    "working": "7 +3 = 10"
+  },
+  "text": {
+    "en": {
+      "title": "Number machines",
+      "teach": "A number goes into the machine and the machine changes it. {in} goes in, the machine does {machine}: {working}.",
+      "prompt": "{in} goes into the machine. What comes out?",
+      "reason": "{working}."
+    }
+  }
+}

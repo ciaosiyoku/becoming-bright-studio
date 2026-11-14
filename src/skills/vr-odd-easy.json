@@ -1,0 +1,110 @@
+{
+  "id": "vr-odd-easy",
+  "kind": "odd-one-out",
+  "subject": "verbal",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 1,
+  "only": "en",
+  "params": {
+    "groups": {
+      "animals": [
+        [
+          "cat"
+        ],
+        [
+          "dog"
+        ],
+        [
+          "cow"
+        ],
+        [
+          "pig"
+        ],
+        [
+          "hen"
+        ],
+        [
+          "duck"
+        ]
+      ],
+      "fruits": [
+        [
+          "apple"
+        ],
+        [
+          "pear"
+        ],
+        [
+          "plum"
+        ],
+        [
+          "grape"
+        ],
+        [
+          "lemon"
+        ],
+        [
+          "melon"
+        ]
+      ],
+      "colours": [
+        [
+          "red"
+        ],
+        [
+          "blue"
+        ],
+        [
+          "green"
+        ],
+        [
+          "pink"
+        ],
+        [
+          "yellow"
+        ],
+        [
+          "purple"
+        ]
+      ],
+      "toys": [
+        [
+          "ball"
+        ],
+        [
+          "doll"
+        ],
+        [
+          "kite"
+        ],
+        [
+          "teddy"
+        ],
+        [
+          "yo-yo"
+        ],
+        [
+          "blocks"
+        ]
+      ]
+    }
+  },
+  "emoji": "letters",
+  "example": {
+    "group": "animals",
+    "oddGroup": "fruits",
+    "items": "cat, cow, pig",
+    "answer": "apple"
+  },
+  "text": {
+    "en": {
+      "title": "The odd word out",
+      "teach": "Three words go together, one does not. {items} are all {group}; {answer} is not.",
+      "prompt": "Which word is the odd one out?",
+      "reason": "The others are all {group}; {answer} is not."
+    }
+  }
+}

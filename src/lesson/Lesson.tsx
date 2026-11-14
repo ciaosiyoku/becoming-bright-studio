@@ -199,7 +199,7 @@ function Question({ skill, item, lang, isCheck, onAnswered, onNext }: { skill: s
         )}
       </div>
       {item.visual && <VisualView visual={item.visual} big />}
-      <div className={`choices ${item.choices.every((c) => c.emoji) ? 'pictures' : ''} ${item.choices.length === 2 ? 'two' : ''} ${item.choices.some((c) => (c.label?.length ?? 0) > 12) ? 'long' : ''}`}>
+      <div className={`choices ${item.choices.every((c) => c.emoji) ? 'pictures' : ''} ${item.choices.length === 2 ? 'two' : ''} ${item.choices.length === 4 ? 'four' : ''} ${item.choices.some((c) => (c.label?.length ?? 0) > 12) ? 'long' : ''}`}>
         {item.choices.map((c, i) => {
           const state = picked === null ? '' : i === item.answer ? 'right' : i === picked ? 'wrong' : 'faded'
           return (

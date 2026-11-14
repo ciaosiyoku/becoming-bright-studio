@@ -13,7 +13,7 @@ import { runningVersion, updateNow } from '@/shared/autoUpdate'
 import { NO_LOCK } from './pin'
 import { LanguagePicker } from '@/shared/LanguagePicker'
 import { playSound } from '@/shared/sounds'
-import { speak, useVoiceChoice, type VoiceGender } from '@/shared/speak'
+import { speak, VOICE_OPTIONS, useVoiceChoice, type VoiceOption } from '@/shared/speak'
 import { AgePicker, ChildForm } from '@/setup/Setup'
 import { ChoosePin, RecoveryDetails } from './PinScreens'
 import { ReportCard } from './ReportCard'
@@ -149,14 +149,15 @@ function AccessCard() {
           ))}
         </tbody>
       </table>
-      <Stepper label={T.parent.lessonsToOpen} value={r.lessonsToOpen} min={1} max={5} step={1} onChange={(n) => reward({ lessonsToOpen: n })} />
+      <Stepper label={T.parent.lessonsToOpen} value={r.lessonsToOpen} min={1} max={5} step={1} unit={T.parent.lessonsCount} onChange={(n) => reward({ lessonsToOpen: n })} />
       <Stepper label={T.parent.minutesPerLesson} value={r.minutesPerLesson} min={5} max={30} step={5} onChange={(n) => reward({ minutesPerLesson: n })} />
       <Stepper label={T.parent.maxPerDay} value={r.maxPerDay} min={10} max={180} step={5} onChange={(n) => reward({ maxPerDay: n })} />
     </section>
   )
 }
 
-function Stepper({ label, value, min, max, step, onChange }: { label: string; value: number; min: number; max: number; step: number; onChange: (n: number) => void }) {
+/** A number with − and +. `unit` says what it counts ("10 min", "2 lessons"); minutes when not given. */
+function Stepper({ label, value, min, max, step, unit = (n) => `${n} min`, onChange }: { label: string; value: number; min: number; max: number; step: number; unit?: (n: number) => string; onChange: (n: number) => void }) {
   return (
     <div className="stepper-row">
       <span>{label}</span>
@@ -164,7 +165,7 @@ function Stepper({ label, value, min, max, step, onChange }: { label: string; va
         <button className="secondary round" onClick={() => onChange(Math.max(min, value - step))} disabled={value <= min} aria-label={`${label} −`}>
           −
         </button>
-        <strong>{value} min</strong>
+        <strong>{unit(value)}</strong>
         <button className="secondary round" onClick={() => onChange(Math.min(max, value + step))} disabled={value >= max} aria-label={`${label} +`}>
           +
         </button>
@@ -173,31 +174,41 @@ function Stepper({ label, value, min, max, step, onChange }: { label: string; va
   )
 }
 
-/** Reading aloud with a female or a male voice, and a test. Says when the device has no voice of that kind. */
+/**
+ * Who reads aloud: two female and two male voices (the best the device has, see shared/speak.ts), or none. Shows the
+ * voice that will read, says when the device has fewer voices of a kind, and has a test.
+ */
 function VoiceCard() {
   const T = useT()
   const lang = useLang()
   const { state, update } = useStore()
   const want = state.family.voice
   const choice = useVoiceChoice(lang, want)
-  const set = (voice: VoiceGender) => update((s) => ({ ...s, family: { ...s.family, voice } }))
+  const set = (voice: VoiceOption) => update((s) => ({ ...s, family: { ...s.family, voice } }))
+  const label = (o: VoiceOption) => (o === 'off' ? T.parent.voiceOff : `${o.startsWith('male') ? T.parent.male : T.parent.female} ${o.slice(-1)}`)
   return (
     <section className="card parent-card">
       <h2>{T.parent.voice}</h2>
       <p className="muted">{T.parent.voiceNote}</p>
       <div className="row">
-        {(['female', 'male'] as const).map((g) => (
-          <button key={g} className={want === g ? '' : 'secondary'} aria-pressed={want === g} onClick={() => set(g)}>
-            {g === 'female' ? T.parent.female : T.parent.male}
+        {VOICE_OPTIONS.map((o) => (
+          <button key={o} className={want === o ? '' : 'secondary'} aria-pressed={want === o} onClick={() => set(o)}>
+            {label(o)}
           </button>
         ))}
-        <button className="secondary" onClick={() => speak(T.parent.sample, lang)} disabled={!choice}>
-          {T.parent.test}
-        </button>
       </div>
-      {!choice && <p className="muted">{T.parent.noVoice}</p>}
-      {choice && !choice.exact && <p className="muted">{T.parent.notExact(want === 'male')}</p>}
-      {choice && <small className="muted">{choice.voice.name}</small>}
+      {want !== 'off' && (
+        <div className="row">
+          <button className="secondary" onClick={() => speak(T.parent.sample, lang)} disabled={!choice}>
+            {T.parent.test}
+          </button>
+          {choice && <small className="muted">{choice.voice.name}</small>}
+        </div>
+      )}
+      {want === 'off' && <p className="muted">{T.parent.voiceOffNote}</p>}
+      {want !== 'off' && !choice && <p className="muted">{T.parent.noVoice}</p>}
+      {choice && !choice.exact && <p className="muted">{T.parent.notExact(want.startsWith('male'))}</p>}
+      {choice && choice.exact && choice.same && <p className="muted">{T.parent.sameVoice}</p>}
     </section>
   )
 }
