@@ -395,3 +395,20 @@
   line-height: 1.5;
   color: var(--ink);
 }
+
+/* A story playing: the page scrolls as a whole, so the list below the film can still be reached; the stage is a
+   little shorter so the words and buttons fit on a tablet screen. */
+.listen.with-film {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.listen.with-film .story-cards {
+  flex: none;
+  overflow: visible;
+}
+.listen.with-film .story-stage {
+  flex: none;
+}
+.story-stage .stage {
+  max-height: 34vh;
+}

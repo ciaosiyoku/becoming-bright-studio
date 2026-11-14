@@ -36,7 +36,8 @@ export function Stories() {
   const done = stories.filter((s) => heard.has(s.track.id)).length
   const now = stories.find((s) => s.track.id === p.id)
   return (
-    <div className="listen">
+    // While a story plays, the film sits on top and the whole page scrolls (the list alone would have no room left).
+    <div className={`listen ${now ? 'with-film' : ''}`}>
       {now && <StoryFilm key={now.track.id} book={now.book.id} emoji={now.book.emoji} track={now.track} p={p} />}
       <div className="shelf-tabs" role="radiogroup">
         {AGE_BANDS.map((b) => (
