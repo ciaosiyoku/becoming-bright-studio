@@ -13,7 +13,7 @@ import { runningVersion, updateNow } from '@/shared/autoUpdate'
 import { NO_LOCK } from './pin'
 import { LanguagePicker } from '@/shared/LanguagePicker'
 import { playSound } from '@/shared/sounds'
-import { speak, VOICE_OPTIONS, useVoiceChoice, type VoiceOption } from '@/shared/speak'
+import { shortName, speak, VOICE_OPTIONS, useVoicePlan, type VoiceOption } from '@/shared/speak'
 import { AgePicker, ChildForm } from '@/setup/Setup'
 import { ChoosePin, RecoveryDetails } from './PinScreens'
 import { ReportCard } from './ReportCard'
@@ -183,7 +183,8 @@ function VoiceCard() {
   const lang = useLang()
   const { state, update } = useStore()
   const want = state.family.voice
-  const choice = useVoiceChoice(lang, want)
+  const plan = useVoicePlan(lang)
+  const choice = want === 'off' ? null : (plan?.[want] ?? null)
   const set = (voice: VoiceOption) => update((s) => ({ ...s, family: { ...s.family, voice } }))
   const label = (o: VoiceOption) => (o === 'off' ? T.parent.voiceOff : `${o.startsWith('male') ? T.parent.male : T.parent.female} ${o.slice(-1)}`)
   return (
@@ -192,8 +193,9 @@ function VoiceCard() {
       <p className="muted">{T.parent.voiceNote}</p>
       <div className="row">
         {VOICE_OPTIONS.map((o) => (
-          <button key={o} className={want === o ? '' : 'secondary'} aria-pressed={want === o} onClick={() => set(o)}>
+          <button key={o} className={`voice-option ${want === o ? '' : 'secondary'}`} aria-pressed={want === o} onClick={() => set(o)}>
             {label(o)}
+            {o !== 'off' && plan && <small>{shortName(plan[o].voice.name)}</small>}
           </button>
         ))}
       </div>
@@ -207,8 +209,7 @@ function VoiceCard() {
       )}
       {want === 'off' && <p className="muted">{T.parent.voiceOffNote}</p>}
       {want !== 'off' && !choice && <p className="muted">{T.parent.noVoice}</p>}
-      {choice && !choice.exact && <p className="muted">{T.parent.notExact(want.startsWith('male'))}</p>}
-      {choice && choice.exact && choice.same && <p className="muted">{T.parent.sameVoice}</p>}
+      {choice && (!choice.exact || choice.shared) && <p className="muted">{T.parent.sameVoice}</p>}
     </section>
   )
 }

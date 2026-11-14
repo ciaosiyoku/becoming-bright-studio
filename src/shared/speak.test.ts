@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { genderOf, pickVoice } from './speak'
+import { genderOf, pickVoice, shortName, voicePlan } from './speak'
 
 const v = (name: string, lang = 'en-GB', localService = true) => ({ name, lang, localService })
 
@@ -16,20 +16,33 @@ describe('reading voice', () => {
     const voices = [v('Microsoft Hazel - English (United Kingdom)'), v('Microsoft Libby Online (Natural) - English (United Kingdom)', 'en-GB', false), v('Microsoft Ryan')]
     expect(pickVoice(voices, 'en', 'female-1')?.voice.name).toMatch(/Libby/)
     expect(pickVoice(voices, 'en', 'female-2')?.voice.name).toMatch(/Hazel/)
+    expect(pickVoice(voices, 'en', 'male-1')).toMatchObject({ voice: voices[2], exact: true, shared: false, pitch: 1 })
   })
-  it('gives two voices of each kind; with only one, voice 2 is the same voice a little lower or higher', () => {
-    const voices = [v('Microsoft Libby'), v('Microsoft Ryan'), v('English United Kingdom')]
-    expect(pickVoice(voices, 'en', 'male-1')).toEqual({ voice: voices[1], exact: true, same: false, pitch: 1 })
-    const male2 = pickVoice(voices, 'en', 'male-2')!
-    expect(male2.voice).toBe(voices[1])
-    expect(male2.same).toBe(true)
-    expect(male2.pitch).toBeLessThan(1)
-    expect(pickVoice(voices, 'en', 'female-2')!.pitch).toBeGreaterThan(1)
+  it('gives four different voices when the names do not say female or male (a tablet: one voice per accent)', () => {
+    const voices = [v('English United Kingdom'), v('English United States', 'en-US'), v('English Australia', 'en-AU'), v('English India', 'en-IN')]
+    const plan = voicePlan(voices, 'en')!
+    const names = Object.values(plan).map((p) => p.voice.name)
+    expect(new Set(names).size).toBe(4)
+    expect(plan['male-1'].pitch).toBeLessThan(1)
+    expect(plan['female-1'].pitch).toBeGreaterThan(1)
   })
-  it('without a voice of the kind, the nearest reads higher or lower; off reads nothing', () => {
-    expect(pickVoice([v('Samantha')], 'en', 'male-1')).toMatchObject({ exact: false, pitch: 0.8 })
-    expect(pickVoice([v('English United Kingdom'), v('Samantha')], 'en', 'male-1')?.voice.name).toBe('English United Kingdom')
+  it('with fewer voices, choices share one, and voice 1 and 2 of a kind never sound alike', () => {
+    for (const voices of [[v('English United Kingdom')], [v('English United Kingdom'), v('English United States', 'en-US')], [v('Samantha'), v('Daniel')]]) {
+      const plan = voicePlan(voices, 'en')!
+      for (const [one, two] of [['female-1', 'female-2'], ['male-1', 'male-2']] as const) {
+        const a = plan[one]
+        const b = plan[two]
+        expect(a.voice !== b.voice || a.pitch !== b.pitch, `${voices.length} voices: ${one} / ${two}`).toBe(true)
+      }
+    }
+  })
+  it('reads nothing when off, or without a voice', () => {
     expect(pickVoice([v('Microsoft Libby')], 'en', 'off')).toBeNull()
     expect(pickVoice([], 'en', 'female-1')).toBeNull()
+  })
+  it('shortens a voice name for the buttons', () => {
+    expect(shortName('Microsoft Libby Online (Natural) - English (United Kingdom)')).toBe('Libby Online')
+    expect(shortName('English United Kingdom')).toBe('English United Kingdom')
+    expect(shortName('Google UK English Female')).toBe('UK English Female')
   })
 })

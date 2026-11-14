@@ -145,3 +145,16 @@ button.round {
 .report-mail {
   justify-self: start;
 }
+
+/* A reading-voice choice, with the name of the device voice that reads it. */
+.voice-option {
+  flex-direction: column;
+  gap: 0.1rem;
+  line-height: 1.15;
+}
+.voice-option small {
+  font-family: 'Andika', sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  opacity: 0.85;
+}

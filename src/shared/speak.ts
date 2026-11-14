@@ -59,27 +59,79 @@ export function rankVoices<V extends VoiceLike>(voices: V[], lang: Lang, want: V
   return [...voices].sort((a, b) => score(b) - score(a))
 }
 
-/**
- * The voice for a choice, and how it reads: Female 1 and Male 1 are the best voice of that kind, Female 2 and Male 2
- * the next one. A device with only one voice of the kind uses it for both, voice 2 a little higher (female) or lower
- * (male) so they still sound different. With no voice of the kind, the nearest one reads higher or lower. `exact`:
- * really of that kind; `same`: voice 2 is voice 1 again. null: reading aloud is off, or the device has no voice.
- * Pure (tested).
- */
-export function pickVoice<V extends VoiceLike>(voices: V[], lang: Lang, choice: VoiceOption): { voice: V; exact: boolean; same: boolean; pitch: number } | null {
-  if (choice === 'off') return null
-  const [want, nth] = choice.split('-') as [VoiceGender, '1' | '2']
-  const ranked = rankVoices(voices, lang, want)
-  if (!ranked.length) return null
-  const ofKind = ranked.filter((v) => genderOf(v.name) === want)
-  const exact = ofKind.length > 0
-  const second = nth === '2'
-  const voice = second && ofKind.length >= 2 ? ofKind[1] : ranked[0]
-  const same = second && ofKind.length < 2
-  // No voice of the kind: the nearest reads higher for female, lower for male; voice 2 a little more again.
-  const shift = (exact ? 0 : 0.2) + (same ? 0.12 : 0)
-  return { voice, exact, same, pitch: want === 'male' ? 1 - shift : 1 + shift }
+/** How one choice reads: its voice, pitch and speed. `exact`: the voice really is of the chosen kind; `shared`: the
+ * device has too few voices, so this voice also reads another choice (pitch and speed tell them apart). */
+export interface VoicePick<V> {
+  voice: V
+  exact: boolean
+  shared: boolean
+  pitch: number
+  rate: number
 }
+
+/** Pitch and speed per choice when its voice is not of its kind or is shared: clearly apart, still natural. */
+const TUNE: Record<Exclude<VoiceOption, 'off'>, { pitch: number; rate: number }> = {
+  'female-1': { pitch: 1.12, rate: 0.9 },
+  'female-2': { pitch: 1.32, rate: 0.96 },
+  'male-1': { pitch: 0.8, rate: 0.88 },
+  'male-2': { pitch: 0.64, rate: 0.84 },
+}
+
+/**
+ * The four voices, in three rounds, each taking the best voice not taken yet (Female 1, Male 1, Female 2, Male 2
+ * in turn): first a voice of the choice's own kind; then any voice left, of unknown kind first (tablets often name
+ * voices only by accent: "English United Kingdom", "English United States" …, so different accents still give
+ * different voices); last, voice 2 shares voice 1 of its kind (voice 1 shares the best of its kind). A voice of the
+ * right kind, not shared, reads as it is; any other gets its own pitch and speed, so each choice sounds different.
+ * null: the device has no voice for the language. Pure (tested).
+ */
+export function voicePlan<V extends VoiceLike>(voices: V[], lang: Lang): Record<Exclude<VoiceOption, 'off'>, VoicePick<V>> | null {
+  if (!voices.length) return null
+  type Choice = Exclude<VoiceOption, 'off'>
+  const order: Choice[] = ['female-1', 'male-1', 'female-2', 'male-2']
+  const kind = (c: Choice): VoiceGender => (c.startsWith('male') ? 'male' : 'female')
+  const taken = new Set<V>()
+  const got: Partial<Record<Choice, { voice: V; shared: boolean }>> = {}
+  const take = (c: Choice, voice: V | undefined) => {
+    if (!voice || got[c]) return
+    taken.add(voice)
+    got[c] = { voice, shared: false }
+  }
+  // 1. A voice of the choice's own kind.
+  for (const c of order) take(c, rankVoices(voices, lang, kind(c)).find((v) => !taken.has(v) && genderOf(v.name) === kind(c)))
+  // 2. Any voice left (unknown kind first: rankVoices puts it before the other kind).
+  for (const c of order) take(c, rankVoices(voices, lang, kind(c)).find((v) => !taken.has(v)))
+  // 3. Too few voices: share.
+  for (const c of order) {
+    if (got[c]) continue
+    const one = got[`${kind(c)}-1` as Choice]
+    got[c] = { voice: c.endsWith('2') && one ? one.voice : rankVoices(voices, lang, kind(c))[0], shared: true }
+  }
+  const plan = {} as Record<Choice, VoicePick<V>>
+  for (const c of order) {
+    const { voice, shared } = got[c]!
+    const exact = genderOf(voice.name) === kind(c)
+    plan[c] = { voice, exact, shared, ...(exact && !shared ? { pitch: 1, rate: 0.9 } : TUNE[c]) }
+  }
+  // Voice 2 must not sound like voice 1.
+  for (const [one, two] of [['female-1', 'female-2'], ['male-1', 'male-2']] as const) {
+    if (plan[one].voice === plan[two].voice && plan[one].pitch === plan[two].pitch) plan[two] = { ...plan[two], shared: true, ...TUNE[two] }
+  }
+  return plan
+}
+
+/** The voice for a choice, or null when reading aloud is off or the device has no voice. Pure (tested). */
+export function pickVoice<V extends VoiceLike>(voices: V[], lang: Lang, choice: VoiceOption): VoicePick<V> | null {
+  if (choice === 'off') return null
+  return voicePlan(voices, lang)?.[choice] ?? null
+}
+
+/** A voice's name, short: "Microsoft Libby Online (Natural) - English (United Kingdom)" → "Libby Online". */
+export const shortName = (name: string) =>
+  name
+    .replace(/^(microsoft|google|apple|samsung|android)\s+/i, '')
+    .split(/\s[-–(]|\s\(/)[0]
+    .trim() || name
 
 /** Reads a sentence aloud (stopping whatever was being read). */
 export function speak(text: string, lang: Lang) {
@@ -89,7 +141,7 @@ export function speak(text: string, lang: Lang) {
   const u = new SpeechSynthesisUtterance(text)
   u.voice = picked.voice
   u.lang = picked.voice.lang
-  u.rate = 0.9
+  u.rate = picked.rate
   u.pitch = picked.pitch
   speechSynthesis.speak(u)
 }
@@ -121,4 +173,9 @@ export function useCanSpeak(lang: Lang): boolean {
 /** The voice that will read a language for a choice (for the grown-ups' screen). */
 export function useVoiceChoice(lang: Lang, choice: VoiceOption) {
   return pickVoice(useVoices(lang), lang, choice)
+}
+
+/** All four choices' voices (the grown-ups' screen shows each one's name). */
+export function useVoicePlan(lang: Lang) {
+  return voicePlan(useVoices(lang), lang)
 }

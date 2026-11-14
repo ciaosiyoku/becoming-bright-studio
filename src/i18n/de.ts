@@ -317,7 +317,7 @@ export const de: Strings = {
     noVoice: 'Dieses Gerät hat keine Stimme für diese Sprache: Die Wörter werden nur angezeigt.',
     voiceOff: 'Aus',
     voiceOffNote: 'Nichts wird vorgelesen: Die Wörter werden gezeigt, die Lautsprecher-Knöpfe sind ausgeblendet.',
-    sameVoice: 'Dieses Gerät hat nur eine Stimme dieser Art. Stimme 2 ist dieselbe Stimme, etwas höher oder tiefer.',
+    sameVoice: 'Dieses Gerät hat wenige Stimmen, daher teilen sich manche Auswahlen eine Stimme; eine höhere oder tiefere Tonlage und ein anderes Tempo lassen jede anders klingen. Tippe eine Auswahl an, dann auf „Stimme testen“.',
     sounds: 'Geräusche',
     soundsNote: 'Leise Geräusche beim Tippen, bei richtigen Antworten und am Ende einer Lektion. Ein Fehler summt nie. Die Vorlesestimme bleibt am lautesten.',
     soundsTry: 'Geräusch anhören',

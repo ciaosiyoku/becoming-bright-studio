@@ -318,7 +318,7 @@ export const yo: Strings = {
     noVoice: 'Ẹ̀rọ yìí kò ní ohùn fún èdè yìí: àkọsílẹ̀ nìkan ni ọ̀rọ̀ náà máa wà.',
     voiceOff: 'Pa á',
     voiceOffNote: 'Kò sí ohun tí a ó kà sókè: àwọn ọ̀rọ̀ ń hàn, a sì fi àwọn bọ́tìnnì agbóhùnsókè pamọ́.',
-    sameVoice: 'Ohùn kan ṣoṣo irú èyí ló wà lórí ẹ̀rọ yìí, nítorí náà ohùn 2 jẹ́ ohùn kan náà, ó ga díẹ̀ tàbí ó rẹlẹ̀ díẹ̀.',
+    sameVoice: 'Ohùn díẹ̀ ló wà lórí ẹ̀rọ yìí, nítorí náà àwọn ìyàn kan ń lo ohùn kan náà; ohùn tó ga tàbí tó rẹlẹ̀ àti ìyára tó yàtọ̀ ló ń mú kí ọ̀kọ̀ọ̀kan dún yàtọ̀. Tẹ ìyàn kan, lẹ́yìn náà dán ohùn náà wò.',
     sounds: 'Àwọn ìró kékeré',
     soundsNote: 'Ìró jẹ́jẹ́ fún títẹ̀, ìdáhùn tó tọ̀nà àti òpin ẹ̀kọ́. Àṣìṣe kò ní dún burúkú rárá. Ohùn tó ń kàwé ló máa ròkè jù.',
     soundsTry: 'Gbọ́ ìró kan',

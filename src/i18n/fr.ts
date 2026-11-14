@@ -317,7 +317,7 @@ export const fr: Strings = {
     noVoice: 'Cet appareil n’a pas de voix pour cette langue : les mots sont seulement affichés.',
     voiceOff: 'Désactivée',
     voiceOffNote: 'Rien n’est lu à voix haute : les mots s’affichent et les boutons haut-parleur sont masqués.',
-    sameVoice: 'Cet appareil n’a qu’une voix de ce type : la voix 2 est la même voix, un peu plus aiguë ou plus grave.',
+    sameVoice: 'Cet appareil a peu de voix : certains choix partagent une voix, rendue différente par une hauteur et une vitesse plus hautes ou plus basses. Touchez un choix, puis « Essayer la voix ».',
     sounds: 'Effets sonores',
     soundsNote: 'Des sons doux pour les touches, les bonnes réponses et la fin d’une leçon. Une erreur ne fait jamais de bruit désagréable. La voix de lecture reste la plus forte.',
     soundsTry: 'Écouter un son',

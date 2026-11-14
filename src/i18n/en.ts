@@ -315,7 +315,7 @@ export const en = {
     noVoice: 'This device has no voice for this language: the words are shown only.',
     voiceOff: 'Off',
     voiceOffNote: 'Nothing is read aloud: the words are shown, and the speaker buttons are hidden.',
-    sameVoice: 'This device has only one voice of this kind, so voice 2 is the same voice, a little higher or lower.',
+    sameVoice: 'This device has few voices, so some choices share a voice; a higher or lower pitch and speed make each one sound different. Tap a choice, then Test the voice.',
     sounds: 'Sound effects',
     soundsNote: 'Soft sounds for taps, right answers and a finished lesson. A miss never buzzes. The reading voice stays the loudest.',
     soundsTry: 'Try a sound',
