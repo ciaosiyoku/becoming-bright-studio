@@ -89,8 +89,8 @@ the day after a set number of passed lessons (2 at first). With Earn first, a pa
 - **Several children** on one device: each with a name, a colour and their own progress. One PIN for the family.
 - **Updates:** the app checks for a new version once a day and loads it between activities, never in the middle
   of a lesson or a video. **Update now** fetches it straight away.
-- **Reading voice:** female or male. The voices come from the device; when it has none of the chosen kind, the
-  nearest voice reads a little lower or higher, and the grown-ups' screen says so.
+- **Reading voice:** Mary (female), Barry (male) or Off. The voices come from the device; when it has none of the
+  chosen kind, the nearest voice reads a little lower or higher, so Mary and Barry never sound alike.
 - **Languages:** English, Deutsch, Français, Yorùbá. The English lessons stay in English.
 
 ## What it is not

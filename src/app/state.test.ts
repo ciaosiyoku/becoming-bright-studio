@@ -35,12 +35,13 @@ describe('settings saved before a new one existed', () => {
 })
 
 describe('the reading voice', () => {
-  it('keeps a choice, and turns the old "female" or "male" into voice 1', () => {
-    expect(voiceOf('male-2')).toBe('male-2')
+  it('keeps a choice, and turns the older choices into Mary or Barry', () => {
+    expect(voiceOf('male-2')).toBe('male')
+    expect(voiceOf('female-2')).toBe('female')
+    expect(voiceOf('male')).toBe('male')
     expect(voiceOf('off')).toBe('off')
-    expect(voiceOf('male')).toBe('male-1')
-    expect(voiceOf('female')).toBe('female-1')
-    expect(voiceOf(undefined)).toBe('female-1')
-    expect(withDefaults({ ...emptyState(), family: { ...emptyState().family, voice: 'male' } }).family.voice).toBe('male-1')
+    expect(voiceOf('female')).toBe('female')
+    expect(voiceOf(undefined)).toBe('female')
+    expect(withDefaults({ ...emptyState(), family: { ...emptyState().family, voice: 'male-1' } }).family.voice).toBe('male')
   })
 })

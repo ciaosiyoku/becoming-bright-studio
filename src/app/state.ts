@@ -80,7 +80,7 @@ export interface Family {
   subjects: Record<Subject, Access>
   /** Earned time: minutes per passed lesson, and the most a day; lessons passed in a day that open the "earn first" subjects. */
   rewards: { minutesPerLesson: number; maxPerDay: number; lessonsToOpen: number }
-  /** Who reads aloud: the 1st or 2nd female or male voice of the device, or "off" (shared/speak.ts). */
+  /** Who reads aloud: Mary (female), Barry (male), or "off" (shared/speak.ts). */
   voice: VoiceOption
   /** Soft sound effects for taps, answers and a finished lesson (shared/sounds.ts). */
   sounds: boolean
@@ -109,7 +109,7 @@ export const COLOURS = ['#5b6cf0', '#e2557e', '#178c84', '#e08a1e', '#8b5cf6', '
 /** Maths and English always open; patterns, science, French and the three reasoning subjects opened by passing lessons first. */
 export const defaultSubjects = (): Record<Subject, Access> => ({ numbers: 'open', words: 'open', patterns: 'earn', science: 'earn', french: 'earn', verbal: 'earn', quantitative: 'earn', qualitative: 'earn' })
 
-export const emptyFamily = (): Family => ({ pin: null, recovery: null, recoveryEmail: null, secretWord: null, pinLock: { wrong: 0, until: 0 }, access: defaultAccess(), subjects: defaultSubjects(), rewards: { minutesPerLesson: 10, maxPerDay: 45, lessonsToOpen: 2 }, voice: 'female-1', sounds: true, cheers: true, motion: 'lively' })
+export const emptyFamily = (): Family => ({ pin: null, recovery: null, recoveryEmail: null, secretWord: null, pinLock: { wrong: 0, until: 0 }, access: defaultAccess(), subjects: defaultSubjects(), rewards: { minutesPerLesson: 10, maxPerDay: 45, lessonsToOpen: 2 }, voice: 'female', sounds: true, cheers: true, motion: 'lively' })
 
 export const emptyState = (): AppState => ({ version: STATE_VERSION, family: emptyFamily(), children: [], activeChild: null, lang: null, lastBackupAt: null, updatedAt: 0 })
 
@@ -119,9 +119,10 @@ export function newChild(name: string, colour: string, id: string = crypto.rando
 
 const isObject = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v)
 
-const VOICES: readonly unknown[] = ['female-1', 'female-2', 'male-1', 'male-2', 'off']
-/** The reading voice as saved; "female" or "male" (saved before there were two of each) become voice 1. Pure. */
-export const voiceOf = (saved: unknown): VoiceOption => (VOICES.includes(saved) ? (saved as VoiceOption) : saved === 'male' ? 'male-1' : 'female-1')
+const VOICES: readonly unknown[] = ['female', 'male', 'off']
+/** The reading voice as saved; the older choices (two voices of each kind) become Mary or Barry. Pure. */
+export const voiceOf = (saved: unknown): VoiceOption =>
+  VOICES.includes(saved) ? (saved as VoiceOption) : typeof saved === 'string' && saved.startsWith('male') ? 'male' : 'female'
 
 /** A saved document completed with today's defaults (fields added in a later version), children included. Pure. */
 export function withDefaults(saved: unknown): AppState {

@@ -13,7 +13,7 @@ import { runningVersion, updateNow } from '@/shared/autoUpdate'
 import { NO_LOCK } from './pin'
 import { LanguagePicker } from '@/shared/LanguagePicker'
 import { playSound } from '@/shared/sounds'
-import { shortName, speak, VOICE_OPTIONS, useVoicePlan, type VoiceOption } from '@/shared/speak'
+import { speak, VOICE_NAMES, VOICE_OPTIONS, useVoicePlan, type VoiceOption } from '@/shared/speak'
 import { AgePicker, ChildForm } from '@/setup/Setup'
 import { ChoosePin, RecoveryDetails } from './PinScreens'
 import { ReportCard } from './ReportCard'
@@ -175,8 +175,8 @@ function Stepper({ label, value, min, max, step, unit = (n) => `${n} min`, onCha
 }
 
 /**
- * Who reads aloud: two female and two male voices (the best the device has, see shared/speak.ts), or none. Shows the
- * voice that will read, says when the device has fewer voices of a kind, and has a test.
+ * Who reads aloud: Mary (female) or Barry (male), the best voices the device has (see shared/speak.ts), or none.
+ * Says when the device has too few voices, and has a test.
  */
 function VoiceCard() {
   const T = useT()
@@ -186,7 +186,7 @@ function VoiceCard() {
   const plan = useVoicePlan(lang)
   const choice = want === 'off' ? null : (plan?.[want] ?? null)
   const set = (voice: VoiceOption) => update((s) => ({ ...s, family: { ...s.family, voice } }))
-  const label = (o: VoiceOption) => (o === 'off' ? T.parent.voiceOff : `${o.startsWith('male') ? T.parent.male : T.parent.female} ${o.slice(-1)}`)
+  const label = (o: VoiceOption) => (o === 'off' ? T.parent.voiceOff : VOICE_NAMES[o])
   return (
     <section className="card parent-card">
       <h2>{T.parent.voice}</h2>
@@ -195,7 +195,7 @@ function VoiceCard() {
         {VOICE_OPTIONS.map((o) => (
           <button key={o} className={`voice-option ${want === o ? '' : 'secondary'}`} aria-pressed={want === o} onClick={() => set(o)}>
             {label(o)}
-            {o !== 'off' && plan && <small>{shortName(plan[o].voice.name)}</small>}
+            {o !== 'off' && <small>{o === 'male' ? T.parent.male : T.parent.female}</small>}
           </button>
         ))}
       </div>
@@ -204,7 +204,6 @@ function VoiceCard() {
           <button className="secondary" onClick={() => speak(T.parent.sample, lang)} disabled={!choice}>
             {T.parent.test}
           </button>
-          {choice && <small className="muted">{choice.voice.name}</small>}
         </div>
       )}
       {want === 'off' && <p className="muted">{T.parent.voiceOffNote}</p>}

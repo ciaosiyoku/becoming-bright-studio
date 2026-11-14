@@ -15,11 +15,13 @@ const VARIANT: Record<Lang, string> = { en: 'en-GB', de: 'de-DE', fr: 'fr-FR', y
 export type VoiceGender = 'female' | 'male'
 
 /**
- * The grown-ups' choice: the best or second-best female or male voice the device has, or no reading aloud at all
- * ("off": the words are shown, the speaker buttons hide).
+ * The grown-ups' choice: Mary (the best female voice the device has), Barry (the best male voice), or no reading
+ * aloud at all ("off": the words are shown, the speaker buttons hide).
  */
-export type VoiceOption = 'female-1' | 'female-2' | 'male-1' | 'male-2' | 'off'
-export const VOICE_OPTIONS: VoiceOption[] = ['female-1', 'female-2', 'male-1', 'male-2', 'off']
+export type VoiceOption = 'female' | 'male' | 'off'
+export const VOICE_OPTIONS: VoiceOption[] = ['female', 'male', 'off']
+/** The readers' names, the same in every language. */
+export const VOICE_NAMES: Record<Exclude<VoiceOption, 'off'>, string> = { female: 'Mary', male: 'Barry' }
 
 // Voice names by kind ("female" is tested first: it contains "male").
 const FEMALE =
@@ -33,7 +35,7 @@ export function genderOf(name: string): VoiceGender | null {
   return null
 }
 
-let option: VoiceOption = 'female-1'
+let option: VoiceOption = 'female'
 /** The family's choice (App.tsx passes it here from the settings). */
 export const setVoiceOption = (o: VoiceOption) => {
   option = o
@@ -70,53 +72,42 @@ export interface VoicePick<V> {
 }
 
 /** Pitch and speed per choice when its voice is not of its kind or is shared: clearly apart, still natural. */
-const TUNE: Record<Exclude<VoiceOption, 'off'>, { pitch: number; rate: number }> = {
-  'female-1': { pitch: 1.12, rate: 0.9 },
-  'female-2': { pitch: 1.32, rate: 0.96 },
-  'male-1': { pitch: 0.8, rate: 0.88 },
-  'male-2': { pitch: 0.64, rate: 0.84 },
+const TUNE: Record<VoiceGender, { pitch: number; rate: number }> = {
+  female: { pitch: 1.18, rate: 0.92 },
+  male: { pitch: 0.72, rate: 0.86 },
 }
 
 /**
- * The four voices, in three rounds, each taking the best voice not taken yet (Female 1, Male 1, Female 2, Male 2
- * in turn): first a voice of the choice's own kind; then any voice left, of unknown kind first (tablets often name
- * voices only by accent: "English United Kingdom", "English United States" …, so different accents still give
- * different voices); last, voice 2 shares voice 1 of its kind (voice 1 shares the best of its kind). A voice of the
- * right kind, not shared, reads as it is; any other gets its own pitch and speed, so each choice sounds different.
+ * Mary's and Barry's voices, each a different voice when the device has two: first a voice of the choice's own kind
+ * (Mary first); then any voice left, of unknown kind first (tablets often name voices only by accent: "English United
+ * Kingdom", "English United States" …); last, with a single voice, both share it. A voice of the right kind, not
+ * shared, reads as it is; any other gets its own pitch and speed, so Mary and Barry never sound alike.
  * null: the device has no voice for the language. Pure (tested).
  */
-export function voicePlan<V extends VoiceLike>(voices: V[], lang: Lang): Record<Exclude<VoiceOption, 'off'>, VoicePick<V>> | null {
+export function voicePlan<V extends VoiceLike>(voices: V[], lang: Lang): Record<VoiceGender, VoicePick<V>> | null {
   if (!voices.length) return null
-  type Choice = Exclude<VoiceOption, 'off'>
-  const order: Choice[] = ['female-1', 'male-1', 'female-2', 'male-2']
-  const kind = (c: Choice): VoiceGender => (c.startsWith('male') ? 'male' : 'female')
+  const order: VoiceGender[] = ['female', 'male']
   const taken = new Set<V>()
-  const got: Partial<Record<Choice, { voice: V; shared: boolean }>> = {}
-  const take = (c: Choice, voice: V | undefined) => {
+  const got: Partial<Record<VoiceGender, { voice: V; shared: boolean }>> = {}
+  const take = (c: VoiceGender, voice: V | undefined) => {
     if (!voice || got[c]) return
     taken.add(voice)
     got[c] = { voice, shared: false }
   }
   // 1. A voice of the choice's own kind.
-  for (const c of order) take(c, rankVoices(voices, lang, kind(c)).find((v) => !taken.has(v) && genderOf(v.name) === kind(c)))
+  for (const c of order) take(c, rankVoices(voices, lang, c).find((v) => !taken.has(v) && genderOf(v.name) === c))
   // 2. Any voice left (unknown kind first: rankVoices puts it before the other kind).
-  for (const c of order) take(c, rankVoices(voices, lang, kind(c)).find((v) => !taken.has(v)))
-  // 3. Too few voices: share.
-  for (const c of order) {
-    if (got[c]) continue
-    const one = got[`${kind(c)}-1` as Choice]
-    got[c] = { voice: c.endsWith('2') && one ? one.voice : rankVoices(voices, lang, kind(c))[0], shared: true }
-  }
-  const plan = {} as Record<Choice, VoicePick<V>>
+  for (const c of order) take(c, rankVoices(voices, lang, c).find((v) => !taken.has(v)))
+  // 3. A single voice: both share it.
+  for (const c of order) if (!got[c]) got[c] = { voice: rankVoices(voices, lang, c)[0], shared: true }
+  const plan = {} as Record<VoiceGender, VoicePick<V>>
   for (const c of order) {
     const { voice, shared } = got[c]!
-    const exact = genderOf(voice.name) === kind(c)
+    const exact = genderOf(voice.name) === c
     plan[c] = { voice, exact, shared, ...(exact && !shared ? { pitch: 1, rate: 0.9 } : TUNE[c]) }
   }
-  // Voice 2 must not sound like voice 1.
-  for (const [one, two] of [['female-1', 'female-2'], ['male-1', 'male-2']] as const) {
-    if (plan[one].voice === plan[two].voice && plan[one].pitch === plan[two].pitch) plan[two] = { ...plan[two], shared: true, ...TUNE[two] }
-  }
+  // Sharing a voice: both get their own pitch and speed.
+  if (plan.female.voice === plan.male.voice) for (const c of order) plan[c] = { ...plan[c], shared: true, ...TUNE[c] }
   return plan
 }
 
@@ -125,13 +116,6 @@ export function pickVoice<V extends VoiceLike>(voices: V[], lang: Lang, choice: 
   if (choice === 'off') return null
   return voicePlan(voices, lang)?.[choice] ?? null
 }
-
-/** A voice's name, short: "Microsoft Libby Online (Natural) - English (United Kingdom)" → "Libby Online". */
-export const shortName = (name: string) =>
-  name
-    .replace(/^(microsoft|google|apple|samsung|android)\s+/i, '')
-    .split(/\s[-–(]|\s\(/)[0]
-    .trim() || name
 
 /** Reads a sentence aloud (stopping whatever was being read). */
 export function speak(text: string, lang: Lang) {
@@ -175,7 +159,7 @@ export function useVoiceChoice(lang: Lang, choice: VoiceOption) {
   return pickVoice(useVoices(lang), lang, choice)
 }
 
-/** All four choices' voices (the grown-ups' screen shows each one's name). */
+/** Mary's and Barry's voices (for the grown-ups' screen). */
 export function useVoicePlan(lang: Lang) {
   return voicePlan(useVoices(lang), lang)
 }
