@@ -1,0 +1,154 @@
+{
+  "id": "fr8-dates",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 40,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “le 3 mars” mean?",
+          "the 3rd of March",
+          "the 3rd of May",
+          "March 13th",
+          "Mars is March."
+        ],
+        [
+          "How do you say “the 1st of May”?",
+          "le premier mai",
+          "le un mai",
+          "le une mai",
+          "For the 1st, French uses premier."
+        ],
+        [
+          "What does “le 14 juillet” mean?",
+          "the 14th of July",
+          "the 14th of June",
+          "the 4th of July",
+          "Juillet is July."
+        ],
+        [
+          "What does “Quelle est la date aujourd’hui ?” mean?",
+          "What is the date today?",
+          "What time is it today?",
+          "What day was yesterday?",
+          "Aujourd’hui means today."
+        ],
+        [
+          "What does “le 25 décembre” mean?",
+          "the 25th of December",
+          "the 25th of November",
+          "the 2nd of December",
+          "Décembre is December."
+        ],
+        [
+          "What does “mon anniversaire est le 10 avril” mean?",
+          "My birthday is the 10th of April",
+          "My birthday is in August",
+          "My birthday is the 10th of May",
+          "Avril is April."
+        ],
+        [
+          "What does “janvier” mean?",
+          "January",
+          "June",
+          "July",
+          "Janvier is January."
+        ],
+        [
+          "What does “juin” mean?",
+          "June",
+          "July",
+          "January",
+          "Juin is June; juillet is July."
+        ],
+        [
+          "What does “août” mean?",
+          "August",
+          "April",
+          "October",
+          "Août is August."
+        ],
+        [
+          "Do French months start with a capital letter?",
+          "no",
+          "yes",
+          "only in January",
+          "In French, months are written with a small letter: mai, juin."
+        ],
+        [
+          "What does “hier” mean?",
+          "yesterday",
+          "tomorrow",
+          "today",
+          "Hier means yesterday."
+        ],
+        [
+          "What does “demain” mean?",
+          "tomorrow",
+          "yesterday",
+          "today",
+          "Demain means tomorrow."
+        ],
+        [
+          "What does “le 31 octobre” mean?",
+          "the 31st of October",
+          "the 13th of October",
+          "the 31st of August",
+          "Octobre is October."
+        ],
+        [
+          "What does “septembre” mean?",
+          "September",
+          "seventh",
+          "December",
+          "Septembre is September."
+        ],
+        [
+          "How do you say “the 2nd of February”?",
+          "le deux février",
+          "le second février",
+          "le deuxième de février",
+          "For dates after the 1st, French just uses the number: le deux février."
+        ]
+      ]
+    }
+  },
+  "emoji": "calendar",
+  "example": {
+    "i": 0,
+    "q_en": "What does “le 3 mars” mean?",
+    "answer_en": "the 3rd of March",
+    "why_en": "Mars is March."
+  },
+  "text": {
+    "en": {
+      "title": "Dates in French",
+      "teach": "Dates in French: le 3 mars (the 3rd of March), le premier mai (the 1st of May). Quelle est la date aujourd’hui ?",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

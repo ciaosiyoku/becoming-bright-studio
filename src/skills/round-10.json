@@ -3,6 +3,9 @@
   "kind": "round",
   "subject": "numbers",
   "stage": 3,
+  "ages": [
+    "8-9"
+  ],
   "order": 19,
   "params": {
     "to": 10

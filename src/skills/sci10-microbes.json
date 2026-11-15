@@ -1,0 +1,443 @@
+{
+  "id": "sci10-microbes",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 211,
+  "params": {
+    "emojis": [
+      "anatomical-heart",
+      "anatomical-heart",
+      "anatomical-heart",
+      "anatomical-heart",
+      "anatomical-heart",
+      "anatomical-heart",
+      "anatomical-heart",
+      "anatomical-heart",
+      "anatomical-heart",
+      "anatomical-heart",
+      "anatomical-heart",
+      "anatomical-heart",
+      "anatomical-heart"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What do you need to see most microbes?",
+          "a microscope",
+          "a telescope",
+          "a mirror",
+          "Microbes are far too small for our eyes."
+        ],
+        [
+          "Which microbe makes bread rise?",
+          "yeast",
+          "mould on cheese",
+          "a virus",
+          "Yeast gives off gas that puffs up dough."
+        ],
+        [
+          "Which food is made with helpful bacteria?",
+          "yoghurt",
+          "sugar",
+          "salt",
+          "Bacteria turn milk into yoghurt."
+        ],
+        [
+          "What is the green fuzz on old bread?",
+          "mould, a kind of fungus",
+          "paint",
+          "moss",
+          "Mould grows on food left too long."
+        ],
+        [
+          "How can we stop harmful germs spreading?",
+          "wash our hands with soap",
+          "share cups",
+          "cough into our hands and touch food",
+          "Soap and water wash germs away."
+        ],
+        [
+          "Why do we keep food in the fridge?",
+          "cold slows microbe growth",
+          "it makes food bigger",
+          "microbes love the cold",
+          "Microbes grow slowly when it is cold."
+        ],
+        [
+          "Microbes that break down dead leaves are called…",
+          "decomposers",
+          "predators",
+          "producers",
+          "Decomposers return nutrients to the soil."
+        ],
+        [
+          "A medicine that kills bacteria is an…",
+          "antibiotic",
+          "antenna",
+          "anchor",
+          "Antibiotics fight bacteria, not viruses."
+        ],
+        [
+          "Which illness is caused by a virus?",
+          "a cold",
+          "a broken arm",
+          "sunburn",
+          "Colds are spread by viruses."
+        ],
+        [
+          "What does a vaccine do?",
+          "trains your body to fight a disease",
+          "feeds the germs",
+          "makes you taller",
+          "Vaccines teach the immune system."
+        ],
+        [
+          "Which scientist discovered penicillin?",
+          "Alexander Fleming",
+          "Isaac Newton",
+          "Charles Darwin",
+          "Fleming found penicillin in 1928."
+        ],
+        [
+          "Microbes grow fastest where it is…",
+          "warm and moist",
+          "frozen",
+          "dry and very hot",
+          "Warmth and moisture help microbes grow."
+        ],
+        [
+          "Why do we cover our mouth when we sneeze?",
+          "to stop germs spreading through the air",
+          "to keep our teeth warm",
+          "to sneeze louder",
+          "Sneezes spray tiny droplets full of germs."
+        ]
+      ],
+      "de": [
+        [
+          "Was braucht man, um Mikroben zu sehen?",
+          "ein Mikroskop",
+          "ein Teleskop",
+          "einen Spiegel",
+          "Mikroben sind viel zu klein für unsere Augen."
+        ],
+        [
+          "Welche Mikrobe lässt Brot aufgehen?",
+          "Hefe",
+          "Käseschimmel",
+          "ein Virus",
+          "Hefe bildet Gas, das den Teig aufbläht."
+        ],
+        [
+          "Welches Lebensmittel entsteht mit nützlichen Bakterien?",
+          "Joghurt",
+          "Zucker",
+          "Salz",
+          "Bakterien machen aus Milch Joghurt."
+        ],
+        [
+          "Was ist der grüne Flaum auf altem Brot?",
+          "Schimmel, ein Pilz",
+          "Farbe",
+          "Moos",
+          "Schimmel wächst auf altem Essen."
+        ],
+        [
+          "Wie stoppen wir schädliche Keime?",
+          "Hände mit Seife waschen",
+          "Becher teilen",
+          "in die Hand husten und Essen anfassen",
+          "Seife und Wasser spülen Keime weg."
+        ],
+        [
+          "Warum kommt Essen in den Kühlschrank?",
+          "Kälte bremst das Wachstum von Mikroben",
+          "es wird größer",
+          "Mikroben lieben Kälte",
+          "In der Kälte wachsen Mikroben langsam."
+        ],
+        [
+          "Mikroben, die tote Blätter zersetzen, heißen…",
+          "Zersetzer",
+          "Räuber",
+          "Erzeuger",
+          "Zersetzer geben Nährstoffe an den Boden zurück."
+        ],
+        [
+          "Ein Medikament gegen Bakterien ist ein…",
+          "Antibiotikum",
+          "Antenne",
+          "Anker",
+          "Antibiotika wirken gegen Bakterien, nicht gegen Viren."
+        ],
+        [
+          "Welche Krankheit kommt von einem Virus?",
+          "eine Erkältung",
+          "ein gebrochener Arm",
+          "ein Sonnenbrand",
+          "Erkältungen werden von Viren verbreitet."
+        ],
+        [
+          "Was macht eine Impfung?",
+          "sie trainiert den Körper gegen eine Krankheit",
+          "sie füttert die Keime",
+          "sie macht größer",
+          "Impfungen trainieren das Immunsystem."
+        ],
+        [
+          "Wer entdeckte das Penicillin?",
+          "Alexander Fleming",
+          "Isaac Newton",
+          "Charles Darwin",
+          "Fleming entdeckte es 1928."
+        ],
+        [
+          "Mikroben wachsen am schnellsten, wo es…",
+          "warm und feucht ist",
+          "gefroren ist",
+          "trocken und sehr heiß ist",
+          "Wärme und Feuchtigkeit helfen Mikroben."
+        ],
+        [
+          "Warum hält man beim Niesen die Hand vor?",
+          "damit Keime nicht durch die Luft fliegen",
+          "damit die Zähne warm bleiben",
+          "um lauter zu niesen",
+          "Niesen versprüht Tröpfchen mit Keimen."
+        ]
+      ],
+      "fr": [
+        [
+          "Que faut-il pour voir la plupart des microbes ?",
+          "un microscope",
+          "un télescope",
+          "un miroir",
+          "Les microbes sont trop petits pour nos yeux."
+        ],
+        [
+          "Quel microbe fait lever le pain ?",
+          "la levure",
+          "la moisissure du fromage",
+          "un virus",
+          "La levure produit un gaz qui gonfle la pâte."
+        ],
+        [
+          "Quel aliment est fait avec de bonnes bactéries ?",
+          "le yaourt",
+          "le sucre",
+          "le sel",
+          "Des bactéries transforment le lait en yaourt."
+        ],
+        [
+          "Qu’est-ce que le duvet vert sur le vieux pain ?",
+          "de la moisissure, un champignon",
+          "de la peinture",
+          "de la mousse",
+          "La moisissure pousse sur les vieux aliments."
+        ],
+        [
+          "Comment éviter que les microbes se propagent ?",
+          "se laver les mains au savon",
+          "partager les verres",
+          "tousser dans la main puis toucher la nourriture",
+          "Le savon élimine les microbes."
+        ],
+        [
+          "Pourquoi mettre la nourriture au frigo ?",
+          "le froid ralentit les microbes",
+          "elle grossit",
+          "les microbes aiment le froid",
+          "Les microbes poussent lentement au froid."
+        ],
+        [
+          "Les microbes qui décomposent les feuilles mortes sont des…",
+          "décomposeurs",
+          "prédateurs",
+          "producteurs",
+          "Les décomposeurs rendent les nutriments au sol."
+        ],
+        [
+          "Un médicament qui tue les bactéries est un…",
+          "antibiotique",
+          "antenne",
+          "ancre",
+          "Les antibiotiques agissent sur les bactéries, pas les virus."
+        ],
+        [
+          "Quelle maladie est causée par un virus ?",
+          "le rhume",
+          "un bras cassé",
+          "un coup de soleil",
+          "Le rhume est dû à des virus."
+        ],
+        [
+          "À quoi sert un vaccin ?",
+          "il entraîne le corps à combattre une maladie",
+          "il nourrit les microbes",
+          "il fait grandir",
+          "Le vaccin entraîne le système immunitaire."
+        ],
+        [
+          "Quel savant a découvert la pénicilline ?",
+          "Alexander Fleming",
+          "Isaac Newton",
+          "Charles Darwin",
+          "Fleming l’a découverte en 1928."
+        ],
+        [
+          "Les microbes poussent le plus vite là où il fait…",
+          "chaud et humide",
+          "gelé",
+          "sec et très chaud",
+          "Chaleur et humidité aident les microbes."
+        ],
+        [
+          "Pourquoi se couvrir la bouche en éternuant ?",
+          "pour ne pas répandre de microbes",
+          "pour garder les dents au chaud",
+          "pour éternuer plus fort",
+          "L’éternuement projette des gouttelettes pleines de microbes."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí lo nílò láti rí ọ̀pọ̀ ẹ̀dá kíkíní?",
+          "máíkírósíkóòpù",
+          "ẹ̀rọ-ìwòjìnnà",
+          "dígí",
+          "Ẹ̀dá kíkíní kéré jù fún ojú wa."
+        ],
+        [
+          "Ẹ̀dá kíkíní wo ló ń mú búrẹ́dì wú?",
+          "ìwúkàrà",
+          "èbu wàràkàṣì",
+          "fáírọ́ọ̀sì",
+          "Ìwúkàrà ń tú gáàsì tó ń mú ìyẹ̀fun wú."
+        ],
+        [
+          "Oúnjẹ wo ni à ń fi bakitéríà rere ṣe?",
+          "yógọ́ọ̀tì",
+          "ṣúgà",
+          "iyọ̀",
+          "Bakitéríà ń sọ wàrà di yógọ́ọ̀tì."
+        ],
+        [
+          "Kí ni èérí aláwọ̀ ewé lára búrẹ́dì àtijọ́?",
+          "èbu, irú olú kan",
+          "àwọ̀ kíkùn",
+          "ewé-òkúta",
+          "Èbu ń hù lára oúnjẹ tó ti pẹ́ jù."
+        ],
+        [
+          "Báwo la ṣe lè dá kòkòrò àrùn dúró láti tàn ká?",
+          "fífi ọṣẹ fọ ọwọ́",
+          "pínpín ife",
+          "wíkọ́ sọ́wọ́ kí a sì fọwọ́ kan oúnjẹ",
+          "Ọṣẹ àti omi ń fọ kòkòrò àrùn kúrò."
+        ],
+        [
+          "Kí ló dé tí a fi ń kó oúnjẹ sínú fíríjì?",
+          "òtútù ń dín ìdàgbà ẹ̀dá kíkíní kù",
+          "ó ń mú oúnjẹ tóbi",
+          "ẹ̀dá kíkíní fẹ́ràn òtútù",
+          "Ẹ̀dá kíkíní ń dàgbà díẹ̀díẹ̀ nínú òtútù."
+        ],
+        [
+          "Ẹ̀dá kíkíní tó ń jẹ ewé tó ti kú ni à ń pè ní…",
+          "olùjẹrà",
+          "apanirun",
+          "olùpèsè",
+          "Olùjẹrà ń dá oúnjẹ padà sínú ilẹ̀."
+        ],
+        [
+          "Oògùn tó ń pa bakitéríà ni…",
+          "oògùn apakòkòrò",
+          "ìwo-ìmọ̀lára",
+          "ìdákọ̀ró",
+          "Oògùn apakòkòrò ń bá bakitéríà jà, kì í ṣe fáírọ́ọ̀sì."
+        ],
+        [
+          "Àìsàn wo ni fáírọ́ọ̀sì ń fà?",
+          "ọ̀tútù-àyà",
+          "apá tó dá",
+          "ìjóná oòrùn",
+          "Fáírọ́ọ̀sì ló ń tan ọ̀tútù-àyà kálẹ̀."
+        ],
+        [
+          "Kí ni abẹ́rẹ́ àjẹsára ń ṣe?",
+          "ó ń kọ́ ara rẹ láti bá àìsàn jà",
+          "ó ń bọ́ kòkòrò àrùn",
+          "ó ń mú ọ ga",
+          "Àjẹsára ń kọ́ ààbò ara."
+        ],
+        [
+          "Onímọ̀ wo ló ṣàwárí pẹ̀nísílìnì?",
+          "Alexander Fleming",
+          "Isaac Newton",
+          "Charles Darwin",
+          "Fleming ṣàwárí rẹ̀ ní 1928."
+        ],
+        [
+          "Ẹ̀dá kíkíní ń dàgbà yára jù níbi tó…",
+          "lọ́wọ́rọ́ tó sì tutù rinrin",
+          "ti dì",
+          "gbẹ tó sì gbóná janjan",
+          "Ìlọ́wọ́rọ́ àti ọ̀rinrin ń ran ẹ̀dá kíkíní lọ́wọ́."
+        ],
+        [
+          "Kí ló dé tí a fi ń bo ẹnu nígbà tí a bá sín?",
+          "kí kòkòrò àrùn má bàa tàn kálẹ̀ nínú afẹ́fẹ́",
+          "kí eyín wa lè lọ́wọ́rọ́",
+          "láti sín kíkankíkan",
+          "Sísín ń fọ́n ẹ̀kán omi tó kún fún kòkòrò àrùn."
+        ]
+      ]
+    }
+  },
+  "emoji": "anatomical-heart",
+  "example": {
+    "i": 0,
+    "q_en": "What do you need to see most microbes?",
+    "answer_en": "a microscope",
+    "why_en": "Microbes are far too small for our eyes.",
+    "q_de": "Was braucht man, um Mikroben zu sehen?",
+    "answer_de": "ein Mikroskop",
+    "why_de": "Mikroben sind viel zu klein für unsere Augen.",
+    "q_fr": "Que faut-il pour voir la plupart des microbes ?",
+    "answer_fr": "un microscope",
+    "why_fr": "Les microbes sont trop petits pour nos yeux.",
+    "q_yo": "Kí lo nílò láti rí ọ̀pọ̀ ẹ̀dá kíkíní?",
+    "answer_yo": "máíkírósíkóòpù",
+    "why_yo": "Ẹ̀dá kíkíní kéré jù fún ojú wa."
+  },
+  "text": {
+    "en": {
+      "title": "Microorganisms",
+      "teach": "Microorganisms are living things too small to see without a microscope. Some cause disease, but many are helpful: they make bread rise, turn milk into yoghurt and break down dead things.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Mikroorganismen",
+      "teach": "Mikroorganismen sind Lebewesen, die man nur mit dem Mikroskop sieht. Manche machen krank, viele helfen: Sie lassen Brot aufgehen, machen Joghurt und zersetzen Totes.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les micro-organismes",
+      "teach": "Les micro-organismes sont des êtres vivants trop petits pour être vus sans microscope. Certains rendent malade, mais beaucoup sont utiles : ils font lever le pain, font le yaourt et décomposent les choses mortes.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Àwọn ẹ̀dá kíkíní",
+      "teach": "Ẹ̀dá kíkíní jẹ́ ẹ̀dá alààyè tó kéré jù láti rí láìsí máíkírósíkóòpù. Àwọn kan ń fa àìsàn, ṣùgbọ́n ọ̀pọ̀ ń ṣèrànwọ́: wọ́n ń mú búrẹ́dì wú, wọ́n ń sọ wàrà di yógọ́ọ̀tì, wọ́n sì ń jẹ àwọn ohun tó ti kú.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

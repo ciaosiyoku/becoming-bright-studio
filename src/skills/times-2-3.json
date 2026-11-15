@@ -1,0 +1,49 @@
+{
+  "id": "times-2-3",
+  "kind": "times",
+  "subject": "numbers",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 35,
+  "params": {
+    "tables": [
+      2,
+      3
+    ]
+  },
+  "emoji": "fruit-cherries",
+  "example": {
+    "n": 5,
+    "t": 2,
+    "answer": 10,
+    "counting": "2, 4, 6, 8, 10"
+  },
+  "text": {
+    "en": {
+      "title": "The 2 and 3 times tables",
+      "teach": "{n} × {t} means {n} lots of {t}. Count in steps of {t}, {n} times: {counting}.",
+      "prompt": "What is {n} × {t}?",
+      "reason": "Count in {t}s {n} times: {counting}."
+    },
+    "de": {
+      "title": "Das 2er- und 3er-Einmaleins",
+      "teach": "{n} × {t} heißt {n}-mal die {t}. Zähl {n}-mal in {t}er-Schritten: {counting}.",
+      "prompt": "Was ist {n} × {t}?",
+      "reason": "Zähl {n}-mal in {t}er-Schritten: {counting}."
+    },
+    "fr": {
+      "title": "Les tables de 2 et 3",
+      "teach": "{n} × {t}, c’est {n} fois {t}. Compte de {t} en {t}, {n} fois : {counting}.",
+      "prompt": "Combien font {n} × {t} ?",
+      "reason": "Compte de {t} en {t}, {n} fois : {counting}."
+    },
+    "yo": {
+      "title": "Tábìlì ìsọdipúpọ̀ 2 àti 3",
+      "teach": "{n} × {t} túmọ̀ sí {t} ní ìgbà {n}. Kà ní ìgbésẹ̀ {t}, ìgbà {n}: {counting}.",
+      "prompt": "Kí ni {n} × {t}?",
+      "reason": "Kà ní {t} {t} ní ìgbà {n}: {counting}."
+    }
+  }
+}

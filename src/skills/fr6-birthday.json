@@ -1,0 +1,154 @@
+{
+  "id": "fr6-birthday",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 22,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "cake",
+      "cake",
+      "cake",
+      "cake",
+      "cake",
+      "cake",
+      "cake",
+      "cake",
+      "cake",
+      "cake",
+      "cake",
+      "cake",
+      "cake",
+      "cake",
+      "cake"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “joyeux anniversaire” mean?",
+          "happy birthday",
+          "happy new year",
+          "merry Christmas",
+          "Joyeux anniversaire means happy birthday."
+        ],
+        [
+          "What does “J’ai sept ans” mean?",
+          "I am seven",
+          "I have seven cakes",
+          "I am in year seven",
+          "In French you “have” years: j’ai sept ans = I am seven."
+        ],
+        [
+          "What does “le gâteau” mean?",
+          "the cake",
+          "the present",
+          "the candle",
+          "Le gâteau is the cake."
+        ],
+        [
+          "What does “un cadeau” mean?",
+          "a present",
+          "a party",
+          "a balloon",
+          "Un cadeau is a present."
+        ],
+        [
+          "What does “une bougie” mean?",
+          "a candle",
+          "a cake",
+          "a card",
+          "Une bougie is a candle."
+        ],
+        [
+          "What does “un ballon” mean at a party?",
+          "a balloon",
+          "a present",
+          "a hat",
+          "Un ballon is a ball or a balloon."
+        ],
+        [
+          "What does “la fête” mean?",
+          "the party",
+          "the cake",
+          "the game",
+          "La fête is the party."
+        ],
+        [
+          "How do you ask “How old are you?” in French?",
+          "Quel âge as-tu ?",
+          "Comment t’appelles-tu ?",
+          "Où habites-tu ?",
+          "Quel âge as-tu ? asks how old someone is."
+        ],
+        [
+          "How do you say “I am six” in French?",
+          "J’ai six ans",
+          "Je suis six",
+          "J’ai six",
+          "You say j’ai six ans."
+        ],
+        [
+          "What does “une carte” mean?",
+          "a card",
+          "a cake",
+          "a candle",
+          "Une carte is a card."
+        ],
+        [
+          "What does “mon anniversaire” mean?",
+          "my birthday",
+          "my party",
+          "my present",
+          "Mon anniversaire is my birthday."
+        ],
+        [
+          "What does “Mon anniversaire est en mai” mean?",
+          "My birthday is in May",
+          "My birthday is on Monday",
+          "My birthday is in March",
+          "Mai is May."
+        ],
+        [
+          "What does “souffler les bougies” mean?",
+          "to blow out the candles",
+          "to light the candles",
+          "to eat the cake",
+          "Souffler means to blow."
+        ],
+        [
+          "What does “les invités” mean?",
+          "the guests",
+          "the presents",
+          "the games",
+          "Les invités are the guests."
+        ],
+        [
+          "What does “J’ai huit ans” mean?",
+          "I am eight",
+          "I have eight presents",
+          "I am late",
+          "Huit is eight: j’ai huit ans = I am eight."
+        ]
+      ]
+    }
+  },
+  "emoji": "cake",
+  "example": {
+    "i": 0,
+    "q_en": "What does “joyeux anniversaire” mean?",
+    "answer_en": "happy birthday",
+    "why_en": "Joyeux anniversaire means happy birthday."
+  },
+  "text": {
+    "en": {
+      "title": "Birthdays in French",
+      "teach": "Joyeux anniversaire! means happy birthday. J’ai sept ans means I am seven (I have seven years).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

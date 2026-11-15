@@ -1,0 +1,154 @@
+{
+  "id": "en6-ing-words",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 103,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints"
+    ],
+    "bank": {
+      "en": [
+        [
+          "jump + ing =",
+          "jumping",
+          "jumpping",
+          "jumpeing",
+          "Jump ends in two consonants, so just add -ing: jumping."
+        ],
+        [
+          "run + ing =",
+          "running",
+          "runing",
+          "runeing",
+          "Run ends in one vowel and one consonant, so double the n: running."
+        ],
+        [
+          "make + ing =",
+          "making",
+          "makeing",
+          "makking",
+          "Make ends in e, so drop the e: making."
+        ],
+        [
+          "swim + ing =",
+          "swimming",
+          "swiming",
+          "swimeing",
+          "Swim: one vowel, one consonant, so double the m: swimming."
+        ],
+        [
+          "ride + ing =",
+          "riding",
+          "rideing",
+          "ridding",
+          "Ride ends in e, so drop the e: riding."
+        ],
+        [
+          "play + ing =",
+          "playing",
+          "plaing",
+          "playying",
+          "Play ends in y after a vowel, so just add -ing: playing."
+        ],
+        [
+          "sit + ing =",
+          "sitting",
+          "siting",
+          "siteing",
+          "Sit: one vowel, one consonant, so double the t: sitting."
+        ],
+        [
+          "bake + ing =",
+          "baking",
+          "bakeing",
+          "bakking",
+          "Bake ends in e, so drop the e: baking."
+        ],
+        [
+          "read + ing =",
+          "reading",
+          "readding",
+          "readeing",
+          "Read has two vowels before the d, so just add -ing: reading."
+        ],
+        [
+          "hop + ing =",
+          "hopping",
+          "hoping",
+          "hopeing",
+          "Hop: one vowel, one consonant, so double the p: hopping."
+        ],
+        [
+          "write + ing =",
+          "writing",
+          "writeing",
+          "writting",
+          "Write ends in e, so drop the e: writing."
+        ],
+        [
+          "sing + ing =",
+          "singing",
+          "singging",
+          "singeing",
+          "Sing ends in two consonants, so just add -ing: singing."
+        ],
+        [
+          "shop + ing =",
+          "shopping",
+          "shoping",
+          "shopeing",
+          "Shop: one vowel, one consonant, so double the p: shopping."
+        ],
+        [
+          "smile + ing =",
+          "smiling",
+          "smileing",
+          "smilling",
+          "Smile ends in e, so drop the e: smiling."
+        ],
+        [
+          "eat + ing =",
+          "eating",
+          "eatting",
+          "eateing",
+          "Eat has two vowels before the t, so just add -ing: eating."
+        ]
+      ]
+    }
+  },
+  "emoji": "footprints",
+  "example": {
+    "i": 0,
+    "q_en": "jump + ing =",
+    "answer_en": "jumping",
+    "why_en": "Jump ends in two consonants, so just add -ing: jumping."
+  },
+  "text": {
+    "en": {
+      "title": "Adding -ing",
+      "teach": "Add -ing to a doing word. If it ends in e, drop the e: make → making. If it ends in one vowel and one consonant, double the last letter: run → running.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

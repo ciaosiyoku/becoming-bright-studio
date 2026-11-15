@@ -1,0 +1,52 @@
+{
+  "id": "multiply-3x1",
+  "kind": "multiply",
+  "subject": "numbers",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 32,
+  "params": {
+    "aMin": 100,
+    "aMax": 400,
+    "bMin": 2,
+    "bMax": 9
+  },
+  "emoji": "glowstar",
+  "example": {
+    "a": 141,
+    "b": 5,
+    "answer": 705,
+    "aT": 140,
+    "aO": 1,
+    "p1": 700,
+    "p2": 5
+  },
+  "text": {
+    "en": {
+      "title": "Multiplying a 3-digit number",
+      "teach": "Split the bigger number into tens and ones. {a} × {b}: {aT} × {b} = {p1}, {aO} × {b} = {p2}, and {p1} + {p2} = {answer}.",
+      "prompt": "What is {a} × {b}?",
+      "reason": "{aT} × {b} = {p1} and {aO} × {b} = {p2}; {p1} + {p2} = {answer}."
+    },
+    "de": {
+      "title": "Eine dreistellige Zahl malnehmen",
+      "teach": "Zerlege die größere Zahl in Zehner und Einer. {a} × {b}: {aT} × {b} = {p1}, {aO} × {b} = {p2}, und {p1} + {p2} = {answer}.",
+      "prompt": "Was ist {a} × {b}?",
+      "reason": "{aT} × {b} = {p1} und {aO} × {b} = {p2}; {p1} + {p2} = {answer}."
+    },
+    "fr": {
+      "title": "Multiplier un nombre à trois chiffres",
+      "teach": "Décompose le plus grand nombre en dizaines et unités. {a} × {b} : {aT} × {b} = {p1}, {aO} × {b} = {p2}, et {p1} + {p2} = {answer}.",
+      "prompt": "Combien font {a} × {b} ?",
+      "reason": "{aT} × {b} = {p1} et {aO} × {b} = {p2} ; {p1} + {p2} = {answer}."
+    },
+    "yo": {
+      "title": "Ìsọdipúpọ̀ nọ́ńbà oní-díjíìtì mẹ́ta",
+      "teach": "Pín nọ́ńbà tó tóbi jù sí ẹ̀wá àti ẹyọ. {a} × {b}: {aT} × {b} = {p1}, {aO} × {b} = {p2}, {p1} + {p2} = {answer}.",
+      "prompt": "Kí ni {a} × {b}?",
+      "reason": "{aT} × {b} = {p1}, {aO} × {b} = {p2}; {p1} + {p2} = {answer}."
+    }
+  }
+}

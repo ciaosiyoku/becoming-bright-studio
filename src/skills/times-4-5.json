@@ -1,0 +1,49 @@
+{
+  "id": "times-4-5",
+  "kind": "times",
+  "subject": "numbers",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 36,
+  "params": {
+    "tables": [
+      4,
+      5
+    ]
+  },
+  "emoji": "fruit-cherries",
+  "example": {
+    "n": 9,
+    "t": 4,
+    "answer": 36,
+    "counting": "4, 8, 12, 16, 20, 24, 28, 32, 36"
+  },
+  "text": {
+    "en": {
+      "title": "The 4 and 5 times tables",
+      "teach": "{n} × {t} means {n} lots of {t}. Count in steps of {t}, {n} times: {counting}.",
+      "prompt": "What is {n} × {t}?",
+      "reason": "Count in {t}s {n} times: {counting}."
+    },
+    "de": {
+      "title": "Das 4er- und 5er-Einmaleins",
+      "teach": "{n} × {t} heißt {n}-mal die {t}. Zähl {n}-mal in {t}er-Schritten: {counting}.",
+      "prompt": "Was ist {n} × {t}?",
+      "reason": "Zähl {n}-mal in {t}er-Schritten: {counting}."
+    },
+    "fr": {
+      "title": "Les tables de 4 et 5",
+      "teach": "{n} × {t}, c’est {n} fois {t}. Compte de {t} en {t}, {n} fois : {counting}.",
+      "prompt": "Combien font {n} × {t} ?",
+      "reason": "Compte de {t} en {t}, {n} fois : {counting}."
+    },
+    "yo": {
+      "title": "Tábìlì ìsọdipúpọ̀ 4 àti 5",
+      "teach": "{n} × {t} túmọ̀ sí {t} ní ìgbà {n}. Kà ní ìgbésẹ̀ {t}, ìgbà {n}: {counting}.",
+      "prompt": "Kí ni {n} × {t}?",
+      "reason": "Kà ní {t} {t} ní ìgbà {n}: {counting}."
+    }
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "id": "sci6-teeth",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 106,
+  "params": {
+    "emojis": [
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone"
+    ],
+    "bank": {
+      "en": [
+        [
+          "How often should you brush your teeth?",
+          "twice a day",
+          "once a week",
+          "once a month",
+          "Brush in the morning and before bed."
+        ],
+        [
+          "Who looks after your teeth?",
+          "a dentist",
+          "a vet",
+          "a baker",
+          "A dentist checks and cares for teeth."
+        ],
+        [
+          "Which food is worst for your teeth?",
+          "sticky sweets",
+          "carrots",
+          "cheese",
+          "Sugar in sweets helps holes form in teeth."
+        ],
+        [
+          "What are the teeth you have as a young child called?",
+          "baby teeth",
+          "grown-up teeth",
+          "wisdom teeth",
+          "Baby teeth fall out and grown-up teeth replace them."
+        ],
+        [
+          "How long should you brush for?",
+          "about two minutes",
+          "two seconds",
+          "two hours",
+          "Two minutes cleans every tooth."
+        ],
+        [
+          "What do we put on a toothbrush?",
+          "toothpaste",
+          "jam",
+          "soap",
+          "Toothpaste helps clean and protect teeth."
+        ],
+        [
+          "Which teeth are at the front, for biting?",
+          "incisors",
+          "molars",
+          "tusks",
+          "Front teeth, incisors, are sharp for biting."
+        ],
+        [
+          "Which teeth are at the back, for chewing?",
+          "molars",
+          "incisors",
+          "baby teeth",
+          "Molars are wide and flat for grinding food."
+        ],
+        [
+          "Which drink is best for teeth?",
+          "water",
+          "fizzy pop",
+          "sweet squash",
+          "Water has no sugar."
+        ],
+        [
+          "What can happen if you never brush?",
+          "holes in your teeth",
+          "longer hair",
+          "bigger feet",
+          "Without brushing, teeth can get holes (decay)."
+        ],
+        [
+          "How many sets of teeth do people grow?",
+          "two",
+          "one",
+          "five",
+          "Baby teeth first, then grown-up teeth."
+        ],
+        [
+          "Which snack is kind to teeth?",
+          "an apple slice",
+          "a toffee",
+          "a lollipop",
+          "Crunchy fruit is kinder than sticky sweets."
+        ],
+        [
+          "When should you visit the dentist?",
+          "for regular check-ups",
+          "only when a tooth falls out",
+          "never",
+          "Regular check-ups keep teeth healthy."
+        ]
+      ],
+      "de": [
+        [
+          "Wie oft solltest du Zähne putzen?",
+          "zweimal am Tag",
+          "einmal pro Woche",
+          "einmal im Monat",
+          "Morgens und vor dem Schlafen."
+        ],
+        [
+          "Wer kümmert sich um deine Zähne?",
+          "der Zahnarzt",
+          "der Tierarzt",
+          "der Bäcker",
+          "Der Zahnarzt prüft und pflegt die Zähne."
+        ],
+        [
+          "Welches Essen ist am schlechtesten für die Zähne?",
+          "klebrige Süßigkeiten",
+          "Karotten",
+          "Käse",
+          "Zucker in Süßigkeiten macht Löcher in Zähne."
+        ],
+        [
+          "Wie heißen die Zähne, die kleine Kinder haben?",
+          "Milchzähne",
+          "bleibende Zähne",
+          "Weisheitszähne",
+          "Milchzähne fallen aus und bleibende Zähne wachsen nach."
+        ],
+        [
+          "Wie lange solltest du putzen?",
+          "etwa zwei Minuten",
+          "zwei Sekunden",
+          "zwei Stunden",
+          "Zwei Minuten reichen für alle Zähne."
+        ],
+        [
+          "Was kommt auf die Zahnbürste?",
+          "Zahnpasta",
+          "Marmelade",
+          "Seife",
+          "Zahnpasta hilft beim Putzen und schützt die Zähne."
+        ],
+        [
+          "Welche Zähne sind vorne zum Abbeißen?",
+          "Schneidezähne",
+          "Backenzähne",
+          "Stoßzähne",
+          "Schneidezähne sind scharf zum Abbeißen."
+        ],
+        [
+          "Welche Zähne sind hinten zum Kauen?",
+          "Backenzähne",
+          "Schneidezähne",
+          "Milchzähne",
+          "Backenzähne sind breit zum Zermahlen."
+        ],
+        [
+          "Welches Getränk ist am besten für die Zähne?",
+          "Wasser",
+          "Limo",
+          "süßer Sirup",
+          "Wasser hat keinen Zucker."
+        ],
+        [
+          "Was kann passieren, wenn du nie putzt?",
+          "Löcher in den Zähnen",
+          "längere Haare",
+          "größere Füße",
+          "Ohne Putzen bekommen Zähne Löcher."
+        ],
+        [
+          "Wie viele Sätze Zähne bekommen Menschen?",
+          "zwei",
+          "einen",
+          "fünf",
+          "Erst Milchzähne, dann bleibende Zähne."
+        ],
+        [
+          "Welcher Snack ist gut für die Zähne?",
+          "ein Apfelstück",
+          "ein Karamellbonbon",
+          "ein Lutscher",
+          "Knackiges Obst ist besser als klebrige Süßigkeiten."
+        ],
+        [
+          "Wann solltest du zum Zahnarzt gehen?",
+          "regelmäßig zur Kontrolle",
+          "nur wenn ein Zahn ausfällt",
+          "nie",
+          "Regelmäßige Kontrollen halten die Zähne gesund."
+        ]
+      ],
+      "fr": [
+        [
+          "Combien de fois faut-il se brosser les dents ?",
+          "deux fois par jour",
+          "une fois par semaine",
+          "une fois par mois",
+          "Le matin et avant de dormir."
+        ],
+        [
+          "Qui soigne tes dents ?",
+          "le dentiste",
+          "le vétérinaire",
+          "le boulanger",
+          "Le dentiste soigne les dents."
+        ],
+        [
+          "Quel aliment est le pire pour les dents ?",
+          "les bonbons collants",
+          "les carottes",
+          "le fromage",
+          "Le sucre des bonbons fait des caries."
+        ],
+        [
+          "Comment s’appellent les dents des jeunes enfants ?",
+          "les dents de lait",
+          "les dents définitives",
+          "les dents de sagesse",
+          "Les dents de lait tombent et sont remplacées."
+        ],
+        [
+          "Combien de temps faut-il se brosser les dents ?",
+          "environ deux minutes",
+          "deux secondes",
+          "deux heures",
+          "Deux minutes pour bien nettoyer chaque dent."
+        ],
+        [
+          "Que met-on sur la brosse à dents ?",
+          "du dentifrice",
+          "de la confiture",
+          "du savon",
+          "Le dentifrice nettoie et protège."
+        ],
+        [
+          "Quelles dents sont devant, pour mordre ?",
+          "les incisives",
+          "les molaires",
+          "les défenses",
+          "Les incisives sont tranchantes pour mordre."
+        ],
+        [
+          "Quelles dents sont au fond, pour mâcher ?",
+          "les molaires",
+          "les incisives",
+          "les dents de lait",
+          "Les molaires sont larges pour broyer."
+        ],
+        [
+          "Quelle boisson est la meilleure pour les dents ?",
+          "l’eau",
+          "le soda",
+          "le sirop sucré",
+          "L’eau ne contient pas de sucre."
+        ],
+        [
+          "Que peut-il arriver si tu ne te brosses jamais les dents ?",
+          "des caries",
+          "des cheveux plus longs",
+          "des pieds plus grands",
+          "Sans brossage, les dents ont des caries."
+        ],
+        [
+          "Combien de séries de dents les humains ont-ils ?",
+          "deux",
+          "une",
+          "cinq",
+          "D’abord les dents de lait, puis les dents définitives."
+        ],
+        [
+          "Quel goûter est bon pour les dents ?",
+          "une tranche de pomme",
+          "un caramel",
+          "une sucette",
+          "Les fruits croquants sont meilleurs que les bonbons collants."
+        ],
+        [
+          "Quand faut-il aller chez le dentiste ?",
+          "régulièrement pour un contrôle",
+          "seulement quand une dent tombe",
+          "jamais",
+          "Les contrôles réguliers gardent les dents saines."
+        ]
+      ],
+      "yo": [
+        [
+          "Ìgbà mélòó ló yẹ kí o fọ eyín rẹ?",
+          "lẹ́ẹ̀mejì lóòjọ́",
+          "lẹ́ẹ̀kan lọ́sẹ̀",
+          "lẹ́ẹ̀kan lóṣù",
+          "Ní òwúrọ̀ àti kí o tó sùn."
+        ],
+        [
+          "Ta ló ń tọ́jú eyín rẹ?",
+          "dókítà eyín",
+          "dókítà ẹranko",
+          "alákàrà",
+          "Dókítà eyín ló ń yẹ eyín wò."
+        ],
+        [
+          "Oúnjẹ wo ló burú jù fún eyín?",
+          "súìtì tó ń lẹ̀",
+          "kárọ́ọ̀tì",
+          "wàràkàṣì",
+          "Ṣúgà inú súìtì ń mú ihò wá sí eyín."
+        ],
+        [
+          "Kí ni a ń pe eyín tí ọmọdé ní?",
+          "eyín ọmọdé",
+          "eyín àgbà",
+          "eyín ọgbọ́n",
+          "Eyín ọmọdé máa ń yọ, eyín àgbà sì ń rọ́pò wọn."
+        ],
+        [
+          "Báwo ló ṣe yẹ kí o pẹ́ tó nígbà tí o bá ń fọ eyín?",
+          "nǹkan bí ìṣẹ́jú méjì",
+          "ìṣẹ́jú-àáyá méjì",
+          "wákàtí méjì",
+          "Ìṣẹ́jú méjì ń fọ gbogbo eyín."
+        ],
+        [
+          "Kí la máa ń fi sí búrọ́ọ̀ṣì eyín?",
+          "ọṣẹ eyín",
+          "jámù",
+          "ọṣẹ",
+          "Ọṣẹ eyín ń ràn wá lọ́wọ́ láti fọ eyín."
+        ],
+        [
+          "Eyín wo ló wà níwájú fún gígé?",
+          "eyín iwájú",
+          "eyín ẹ̀yìn",
+          "eyín erin",
+          "Eyín iwájú mú fún gígé."
+        ],
+        [
+          "Eyín wo ló wà lẹ́yìn fún jíjẹ?",
+          "eyín ẹ̀yìn",
+          "eyín iwájú",
+          "eyín ọmọdé",
+          "Eyín ẹ̀yìn fẹ̀ fún lílọ oúnjẹ."
+        ],
+        [
+          "Ohun mímu wo ló dára jù fún eyín?",
+          "omi",
+          "ọtí ẹlẹ́rìndòdò",
+          "oje aládùn",
+          "Omi kò ní ṣúgà."
+        ],
+        [
+          "Kí ló lè ṣẹlẹ̀ tí o kò bá fọ eyín láéláé?",
+          "ihò nínú eyín",
+          "irun tó gùn sí i",
+          "ẹsẹ̀ tó tóbi sí i",
+          "Láìfọ eyín, eyín lè ní ihò."
+        ],
+        [
+          "Ìgbà mélòó ni ènìyàn ń hu eyín?",
+          "méjì",
+          "ẹ̀ẹ̀kan",
+          "márùn-ún",
+          "Eyín ọmọdé kọ́kọ́, lẹ́yìn náà eyín àgbà."
+        ],
+        [
+          "Ìpanu wo ló dára fún eyín?",
+          "ẹ̀bẹ́ ápù",
+          "súìtì tọ́fì",
+          "súìtì onígi",
+          "Èso tó ń kán dára ju súìtì tó ń lẹ̀ lọ."
+        ],
+        [
+          "Ìgbà wo ló yẹ kí o lọ sọ́dọ̀ dókítà eyín?",
+          "déédéé fún àyẹ̀wò",
+          "nígbà tí eyín bá yọ nìkan",
+          "láéláé",
+          "Àyẹ̀wò déédéé ń jẹ́ kí eyín wà ní ìlera."
+        ]
+      ]
+    }
+  },
+  "emoji": "bone",
+  "example": {
+    "i": 0,
+    "q_en": "How often should you brush your teeth?",
+    "answer_en": "twice a day",
+    "why_en": "Brush in the morning and before bed.",
+    "q_de": "Wie oft solltest du Zähne putzen?",
+    "answer_de": "zweimal am Tag",
+    "why_de": "Morgens und vor dem Schlafen.",
+    "q_fr": "Combien de fois faut-il se brosser les dents ?",
+    "answer_fr": "deux fois par jour",
+    "why_fr": "Le matin et avant de dormir.",
+    "q_yo": "Ìgbà mélòó ló yẹ kí o fọ eyín rẹ?",
+    "answer_yo": "lẹ́ẹ̀mejì lóòjọ́",
+    "why_yo": "Ní òwúrọ̀ àti kí o tó sùn."
+  },
+  "text": {
+    "en": {
+      "title": "Looking after teeth",
+      "teach": "Brush your teeth twice a day for two minutes, eat fewer sweets, and visit the dentist.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Zähne pflegen",
+      "teach": "Putz dir zweimal am Tag zwei Minuten die Zähne, iss weniger Süßes und geh zum Zahnarzt.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Prendre soin de ses dents",
+      "teach": "Brosse-toi les dents deux fois par jour pendant deux minutes, mange moins de sucreries et va chez le dentiste.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Títọ́jú eyín",
+      "teach": "Fọ eyín rẹ lẹ́ẹ̀mejì lóòjọ́ fún ìṣẹ́jú méjì, jẹ súìtì díẹ̀, kí o sì máa lọ sọ́dọ̀ dókítà eyín.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

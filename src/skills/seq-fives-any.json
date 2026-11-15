@@ -1,0 +1,51 @@
+{
+  "id": "seq-fives-any",
+  "kind": "sequence",
+  "subject": "patterns",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 34,
+  "params": {
+    "steps": [
+      5
+    ],
+    "start": [
+      1,
+      40
+    ]
+  },
+  "emoji": "chart",
+  "example": {
+    "items": "32, 37, 42, 47",
+    "answer": 52,
+    "steps": "+5   +5   +5   +5"
+  },
+  "text": {
+    "en": {
+      "title": "Counting in fives from any number",
+      "teach": "Find the step by taking each number from the next. {items}: the steps are {steps}, so next comes {answer}.",
+      "prompt": "Which number comes next?",
+      "reason": "The steps are {steps}, so the next number is {answer}."
+    },
+    "de": {
+      "title": "In Fünferschritten ab jeder Zahl",
+      "teach": "Finde den Schritt, indem du jede Zahl von der nächsten abziehst. {items}: Die Schritte sind {steps}, also kommt als Nächstes {answer}.",
+      "prompt": "Welche Zahl kommt als Nächstes?",
+      "reason": "Die Schritte sind {steps}, also ist die nächste Zahl {answer}."
+    },
+    "fr": {
+      "title": "Compter de 5 en 5 depuis n’importe quel nombre",
+      "teach": "Trouve le pas en enlevant chaque nombre du suivant. {items} : les pas sont {steps}, donc ensuite vient {answer}.",
+      "prompt": "Quel nombre vient ensuite ?",
+      "reason": "Les pas sont {steps}, donc le nombre suivant est {answer}."
+    },
+    "yo": {
+      "title": "Kíkà ní márùn-ún márùn-ún láti nọ́ńbà èyíkéyìí",
+      "teach": "Wá ìgbésẹ̀ náà nípa yíyọ nọ́ńbà kọ̀ọ̀kan kúrò nínú èyí tó tẹ̀lé e. {items}: àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà {answer} ló kàn.",
+      "prompt": "Nọ́ńbà wo ló kàn?",
+      "reason": "Àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà nọ́ńbà tó kàn ni {answer}."
+    }
+  }
+}

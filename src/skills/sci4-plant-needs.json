@@ -1,0 +1,443 @@
+{
+  "id": "sci4-plant-needs",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 113,
+  "params": {
+    "emojis": [
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What do plants need to drink?",
+          "water",
+          "milk",
+          "juice",
+          "Plants drink water through their roots."
+        ],
+        [
+          "What does a seed grow into?",
+          "a plant",
+          "a stone",
+          "a bird",
+          "A seed grows into a plant."
+        ],
+        [
+          "Which part of a plant is under the ground?",
+          "the roots",
+          "the flower",
+          "the leaves",
+          "Roots grow under the ground and take in water."
+        ],
+        [
+          "What do plants need from the sun?",
+          "light",
+          "rain",
+          "wind",
+          "Plants need sunlight to make their food."
+        ],
+        [
+          "What happens to a plant with no water?",
+          "it dries up",
+          "it grows faster",
+          "it turns blue",
+          "Without water, a plant dries up and wilts."
+        ],
+        [
+          "What colour are most leaves?",
+          "green",
+          "purple",
+          "black",
+          "Most leaves are green."
+        ],
+        [
+          "Where do we plant a seed?",
+          "in soil",
+          "in a fridge",
+          "in a book",
+          "Seeds are planted in soil."
+        ],
+        [
+          "Which part of a plant is often colourful and smells nice?",
+          "the flower",
+          "the root",
+          "the stem",
+          "Flowers are often bright and sweet-smelling."
+        ],
+        [
+          "Which grows from a seed?",
+          "a sunflower",
+          "a rock",
+          "a spoon",
+          "A sunflower grows from a seed."
+        ],
+        [
+          "What holds a plant up?",
+          "the stem",
+          "the petals",
+          "the seeds",
+          "The stem holds the plant up."
+        ],
+        [
+          "What grows on an apple tree?",
+          "apples",
+          "bananas",
+          "carrots",
+          "Apples grow on apple trees."
+        ],
+        [
+          "Which vegetable grows under the ground?",
+          "a carrot",
+          "a pea",
+          "a tomato",
+          "Carrots grow under the ground; we eat the root."
+        ],
+        [
+          "Is a tree a plant?",
+          "yes",
+          "no",
+          "only in winter",
+          "A tree is a big plant."
+        ]
+      ],
+      "de": [
+        [
+          "Was trinken Pflanzen?",
+          "Wasser",
+          "Milch",
+          "Saft",
+          "Pflanzen trinken Wasser über ihre Wurzeln."
+        ],
+        [
+          "Was wächst aus einem Samen?",
+          "eine Pflanze",
+          "ein Stein",
+          "ein Vogel",
+          "Aus einem Samen wächst eine Pflanze."
+        ],
+        [
+          "Welcher Teil einer Pflanze ist unter der Erde?",
+          "die Wurzeln",
+          "die Blüte",
+          "die Blätter",
+          "Wurzeln wachsen unter der Erde und nehmen Wasser auf."
+        ],
+        [
+          "Was brauchen Pflanzen von der Sonne?",
+          "Licht",
+          "Regen",
+          "Wind",
+          "Pflanzen brauchen Sonnenlicht, um Nahrung zu machen."
+        ],
+        [
+          "Was passiert mit einer Pflanze ohne Wasser?",
+          "sie vertrocknet",
+          "sie wächst schneller",
+          "sie wird blau",
+          "Ohne Wasser vertrocknet und welkt eine Pflanze."
+        ],
+        [
+          "Welche Farbe haben die meisten Blätter?",
+          "grün",
+          "lila",
+          "schwarz",
+          "Die meisten Blätter sind grün."
+        ],
+        [
+          "Wo pflanzen wir einen Samen?",
+          "in die Erde",
+          "in den Kühlschrank",
+          "in ein Buch",
+          "Samen pflanzt man in die Erde."
+        ],
+        [
+          "Welcher Teil einer Pflanze ist oft bunt und duftet?",
+          "die Blüte",
+          "die Wurzel",
+          "der Stängel",
+          "Blüten sind oft bunt und duften."
+        ],
+        [
+          "Was wächst aus einem Samen?",
+          "eine Sonnenblume",
+          "ein Felsen",
+          "ein Löffel",
+          "Eine Sonnenblume wächst aus einem Samen."
+        ],
+        [
+          "Was hält eine Pflanze aufrecht?",
+          "der Stängel",
+          "die Blütenblätter",
+          "die Samen",
+          "Der Stängel hält die Pflanze aufrecht."
+        ],
+        [
+          "Was wächst an einem Apfelbaum?",
+          "Äpfel",
+          "Bananen",
+          "Karotten",
+          "Äpfel wachsen an Apfelbäumen."
+        ],
+        [
+          "Welches Gemüse wächst unter der Erde?",
+          "eine Karotte",
+          "eine Erbse",
+          "eine Tomate",
+          "Karotten wachsen unter der Erde; wir essen die Wurzel."
+        ],
+        [
+          "Ist ein Baum eine Pflanze?",
+          "ja",
+          "nein",
+          "nur im Winter",
+          "Ein Baum ist eine große Pflanze."
+        ]
+      ],
+      "fr": [
+        [
+          "Que boivent les plantes ?",
+          "de l’eau",
+          "du lait",
+          "du jus",
+          "Les plantes boivent de l’eau par leurs racines."
+        ],
+        [
+          "Que devient une graine ?",
+          "une plante",
+          "un caillou",
+          "un oiseau",
+          "Une graine devient une plante."
+        ],
+        [
+          "Quelle partie de la plante est sous la terre ?",
+          "les racines",
+          "la fleur",
+          "les feuilles",
+          "Les racines poussent sous la terre et prennent l’eau."
+        ],
+        [
+          "De quoi les plantes ont-elles besoin du soleil ?",
+          "de lumière",
+          "de pluie",
+          "de vent",
+          "Les plantes ont besoin de lumière pour fabriquer leur nourriture."
+        ],
+        [
+          "Que devient une plante sans eau ?",
+          "elle se dessèche",
+          "elle pousse plus vite",
+          "elle devient bleue",
+          "Sans eau, la plante se dessèche et se fane."
+        ],
+        [
+          "De quelle couleur sont la plupart des feuilles ?",
+          "vertes",
+          "violettes",
+          "noires",
+          "La plupart des feuilles sont vertes."
+        ],
+        [
+          "Où plante-t-on une graine ?",
+          "dans la terre",
+          "dans le frigo",
+          "dans un livre",
+          "On plante les graines dans la terre."
+        ],
+        [
+          "Quelle partie de la plante est souvent colorée et parfumée ?",
+          "la fleur",
+          "la racine",
+          "la tige",
+          "Les fleurs sont souvent colorées et sentent bon."
+        ],
+        [
+          "Qu’est-ce qui pousse à partir d’une graine ?",
+          "un tournesol",
+          "un rocher",
+          "une cuillère",
+          "Le tournesol pousse à partir d’une graine."
+        ],
+        [
+          "Qu’est-ce qui tient la plante debout ?",
+          "la tige",
+          "les pétales",
+          "les graines",
+          "La tige tient la plante debout."
+        ],
+        [
+          "Que pousse-t-il sur un pommier ?",
+          "des pommes",
+          "des bananes",
+          "des carottes",
+          "Les pommes poussent sur le pommier."
+        ],
+        [
+          "Quel légume pousse sous la terre ?",
+          "la carotte",
+          "le petit pois",
+          "la tomate",
+          "La carotte pousse sous la terre : on mange sa racine."
+        ],
+        [
+          "Un arbre est-il une plante ?",
+          "oui",
+          "non",
+          "seulement en hiver",
+          "L’arbre est une grande plante."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni ewéko ń mu?",
+          "omi",
+          "wàrà",
+          "oje",
+          "Ewéko ń mu omi láti ara gbòǹgbò rẹ̀."
+        ],
+        [
+          "Kí ni irúgbìn máa ń dà?",
+          "ewéko",
+          "òkúta",
+          "ẹyẹ",
+          "Irúgbìn máa ń hù di ewéko."
+        ],
+        [
+          "Apá wo ni ewéko wà lábẹ́ ilẹ̀?",
+          "gbòǹgbò",
+          "òdòdó",
+          "ewé",
+          "Gbòǹgbò ń dàgbà lábẹ́ ilẹ̀ ó sì ń gba omi."
+        ],
+        [
+          "Kí ni ewéko nílò láti ọ̀dọ̀ oòrùn?",
+          "ìmọ́lẹ̀",
+          "òjò",
+          "afẹ́fẹ́",
+          "Ewéko nílò ìmọ́lẹ̀ oòrùn láti ṣe oúnjẹ rẹ̀."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí ewéko tí kò ní omi?",
+          "ó ń gbẹ",
+          "ó ń yára dàgbà",
+          "ó ń di aláwọ̀ búlúù",
+          "Láìsí omi, ewéko máa ń gbẹ ó sì ń rẹ̀."
+        ],
+        [
+          "Àwọ̀ wo ni ọ̀pọ̀ ewé ní?",
+          "àwọ̀ ewé",
+          "àlùkò",
+          "dúdú",
+          "Ọ̀pọ̀ ewé ní àwọ̀ ewé."
+        ],
+        [
+          "Níbo la ti ń gbin irúgbìn?",
+          "nínú erùpẹ̀",
+          "nínú fíríìjì",
+          "nínú ìwé",
+          "A máa ń gbin irúgbìn sínú erùpẹ̀."
+        ],
+        [
+          "Apá wo ni ewéko tó máa ń ní àwọ̀ tó sì ń rùn dáadáa?",
+          "òdòdó",
+          "gbòǹgbò",
+          "igi rẹ̀",
+          "Òdòdó máa ń ní àwọ̀ dídán ó sì ń rùn dáadáa."
+        ],
+        [
+          "Èwo ló ń hù láti ara irúgbìn?",
+          "òdòdó oòrùn",
+          "àpáta",
+          "ṣíbí",
+          "Òdòdó oòrùn ń hù láti ara irúgbìn."
+        ],
+        [
+          "Kí ló ń mú ewéko dúró?",
+          "igi rẹ̀",
+          "ewé òdòdó",
+          "irúgbìn",
+          "Igi rẹ̀ ló ń mú ewéko dúró."
+        ],
+        [
+          "Kí ló ń hù lórí igi ápù?",
+          "ápù",
+          "ọ̀gẹ̀dẹ̀",
+          "kárọ́ọ̀tì",
+          "Ápù ń hù lórí igi ápù."
+        ],
+        [
+          "Ẹ̀fọ́ wo ló ń hù lábẹ́ ilẹ̀?",
+          "kárọ́ọ̀tì",
+          "ẹ̀wà kékeré",
+          "tòmátì",
+          "Kárọ́ọ̀tì ń hù lábẹ́ ilẹ̀; gbòǹgbò rẹ̀ la ń jẹ."
+        ],
+        [
+          "Ṣé igi jẹ́ ewéko?",
+          "bẹ́ẹ̀ni",
+          "rárá",
+          "ní ìgbà òtútù nìkan",
+          "Igi jẹ́ ewéko ńlá."
+        ]
+      ]
+    }
+  },
+  "emoji": "seedling",
+  "example": {
+    "i": 0,
+    "q_en": "What do plants need to drink?",
+    "answer_en": "water",
+    "why_en": "Plants drink water through their roots.",
+    "q_de": "Was trinken Pflanzen?",
+    "answer_de": "Wasser",
+    "why_de": "Pflanzen trinken Wasser über ihre Wurzeln.",
+    "q_fr": "Que boivent les plantes ?",
+    "answer_fr": "de l’eau",
+    "why_fr": "Les plantes boivent de l’eau par leurs racines.",
+    "q_yo": "Kí ni ewéko ń mu?",
+    "answer_yo": "omi",
+    "why_yo": "Ewéko ń mu omi láti ara gbòǹgbò rẹ̀."
+  },
+  "text": {
+    "en": {
+      "title": "What plants need",
+      "teach": "Plants need water, light and soil to grow. A seed grows into a plant.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Was Pflanzen brauchen",
+      "teach": "Pflanzen brauchen Wasser, Licht und Erde zum Wachsen. Aus einem Samen wächst eine Pflanze.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Ce dont les plantes ont besoin",
+      "teach": "Les plantes ont besoin d’eau, de lumière et de terre pour pousser. Une graine devient une plante.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ohun tí ewéko nílò",
+      "teach": "Ewéko nílò omi, ìmọ́lẹ̀ àti erùpẹ̀ láti dàgbà. Irúgbìn máa ń hù di ewéko.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

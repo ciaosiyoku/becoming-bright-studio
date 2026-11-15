@@ -1,0 +1,154 @@
+{
+  "id": "en6-days-months",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 105,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar",
+      "calendar"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which day comes after Monday?",
+          "Tuesday",
+          "Sunday",
+          "Thursday",
+          "Monday, then Tuesday."
+        ],
+        [
+          "Which day comes before Saturday?",
+          "Friday",
+          "Sunday",
+          "Monday",
+          "Friday comes before Saturday."
+        ],
+        [
+          "How many days are there in a week?",
+          "seven",
+          "five",
+          "twelve",
+          "A week has seven days."
+        ],
+        [
+          "How many months are there in a year?",
+          "twelve",
+          "seven",
+          "ten",
+          "A year has twelve months."
+        ],
+        [
+          "Which month comes first?",
+          "January",
+          "March",
+          "December",
+          "The year starts in January."
+        ],
+        [
+          "Which month comes last?",
+          "December",
+          "January",
+          "June",
+          "The year ends in December."
+        ],
+        [
+          "Which month comes after March?",
+          "April",
+          "February",
+          "May",
+          "March, then April."
+        ],
+        [
+          "Which month comes before August?",
+          "July",
+          "September",
+          "June",
+          "July comes before August."
+        ],
+        [
+          "Which day comes after Wednesday?",
+          "Thursday",
+          "Tuesday",
+          "Friday",
+          "Wednesday, then Thursday."
+        ],
+        [
+          "Which two days make the weekend?",
+          "Saturday and Sunday",
+          "Monday and Tuesday",
+          "Friday and Monday",
+          "Saturday and Sunday are the weekend."
+        ],
+        [
+          "Which month comes after October?",
+          "November",
+          "September",
+          "December",
+          "October, then November."
+        ],
+        [
+          "Which is the shortest month?",
+          "February",
+          "March",
+          "July",
+          "February has only 28 days (29 in a leap year)."
+        ],
+        [
+          "Which is spelt correctly?",
+          "Wednesday",
+          "Wensday",
+          "Wednsday",
+          "Wednesday has a silent d: Wed-nes-day."
+        ],
+        [
+          "Which is spelt correctly?",
+          "February",
+          "Febuary",
+          "Februery",
+          "February has an r after the b: Feb-ru-ary."
+        ],
+        [
+          "Do the names of days start with a capital letter?",
+          "yes, always",
+          "no, never",
+          "only on Sunday",
+          "Days of the week always start with a capital letter."
+        ]
+      ]
+    }
+  },
+  "emoji": "calendar",
+  "example": {
+    "i": 0,
+    "q_en": "Which day comes after Monday?",
+    "answer_en": "Tuesday",
+    "why_en": "Monday, then Tuesday."
+  },
+  "text": {
+    "en": {
+      "title": "Days and months",
+      "teach": "There are 7 days in a week, starting Monday, and 12 months in a year, from January to December.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

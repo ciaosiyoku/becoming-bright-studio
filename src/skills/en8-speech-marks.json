@@ -1,0 +1,154 @@
+{
+  "id": "en8-speech-marks",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 28,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "speech",
+      "speech",
+      "speech",
+      "speech",
+      "speech",
+      "speech",
+      "speech",
+      "speech",
+      "speech",
+      "speech",
+      "speech",
+      "speech",
+      "speech",
+      "speech",
+      "speech"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which is punctuated correctly?",
+          "“Come here,” said Mum.",
+          "“Come here”, said Mum.",
+          "Come here, “said Mum.”",
+          "The comma goes inside the speech marks: “Come here,” said Mum."
+        ],
+        [
+          "Which is punctuated correctly?",
+          "“Where are you?” asked Leo.",
+          "“Where are you”? asked Leo.",
+          "“Where are you?” Asked Leo.",
+          "The question mark goes inside, and “asked” stays lower case."
+        ],
+        [
+          "Which words are spoken? “I love pizza,” said Ana.",
+          "I love pizza",
+          "said Ana",
+          "pizza, said",
+          "The spoken words are inside the speech marks."
+        ],
+        [
+          "Which is punctuated correctly?",
+          "Sam shouted, “Look out!”",
+          "Sam shouted “Look out!”",
+          "Sam shouted, “look out”!",
+          "A comma before the speech, and the ! inside the marks."
+        ],
+        [
+          "Which is punctuated correctly?",
+          "“It is raining,” said Dad.",
+          "“It is raining.” said Dad.",
+          "“It is raining” said Dad.",
+          "Use a comma, not a full stop, when the sentence goes on."
+        ],
+        [
+          "Which is punctuated correctly?",
+          "Mia asked, “Can I play?”",
+          "Mia asked “can I play?”",
+          "Mia asked, “Can I play”?",
+          "Comma before, capital letter to start, ? inside."
+        ],
+        [
+          "What do speech marks show?",
+          "the words someone says",
+          "a list of things",
+          "a new paragraph",
+          "Speech marks show the exact words spoken."
+        ],
+        [
+          "Which is punctuated correctly?",
+          "“Help!” cried the man.",
+          "“Help”! cried the man.",
+          "“Help!” Cried the man.",
+          "The ! goes inside and “cried” is lower case."
+        ],
+        [
+          "Which is punctuated correctly?",
+          "“Let’s go,” whispered Kim.",
+          "“Let’s go” whispered Kim.",
+          "“Let’s go.” whispered Kim.",
+          "A comma goes inside before “whispered”."
+        ],
+        [
+          "When a new person starts to speak, we …",
+          "start a new line",
+          "use a full stop",
+          "leave out the speech marks",
+          "Each new speaker starts on a new line."
+        ],
+        [
+          "Which is punctuated correctly?",
+          "Tom said, “My cat is black.”",
+          "Tom said, “my cat is black.”",
+          "Tom said “My cat is black”.",
+          "Comma before, capital letter, full stop inside."
+        ],
+        [
+          "Which is punctuated correctly?",
+          "“Are we there yet?” moaned Jo.",
+          "“Are we there yet” moaned Jo?",
+          "“Are we there yet?”, moaned Jo.",
+          "The ? goes inside and no comma is needed after it."
+        ],
+        [
+          "Which is punctuated correctly?",
+          "“Stop that!” said the teacher.",
+          "“Stop that”! said the teacher.",
+          "“Stop that!”, said the teacher.",
+          "The ! goes inside and replaces the comma."
+        ],
+        [
+          "Which sentence has NO spoken words?",
+          "Ben said that he was tired.",
+          "“I am tired,” said Ben.",
+          "Ben said, “I am tired.”",
+          "Reported speech (said that …) needs no speech marks."
+        ],
+        [
+          "Which is punctuated correctly?",
+          "“Good morning,” said the farmer.",
+          "“Good morning” said the farmer.",
+          "“good morning,” said the farmer.",
+          "Capital letter to start and a comma inside."
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "i": 0,
+    "q_en": "Which is punctuated correctly?",
+    "answer_en": "“Come here,” said Mum.",
+    "why_en": "The comma goes inside the speech marks: “Come here,” said Mum."
+  },
+  "text": {
+    "en": {
+      "title": "Speech marks",
+      "teach": "Speech marks go around the words someone says. The punctuation inside them comes before the closing mark: “Come here,” said Mum.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

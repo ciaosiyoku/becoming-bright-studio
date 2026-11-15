@@ -1,0 +1,68 @@
+{
+  "id": "vr-pairs-prefixes",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 53,
+  "only": "en",
+  "params": {
+    "relations": {
+      "prefix": [
+        [
+          "happy",
+          "unhappy"
+        ],
+        [
+          "possible",
+          "impossible"
+        ],
+        [
+          "agree",
+          "disagree"
+        ],
+        [
+          "legal",
+          "illegal"
+        ],
+        [
+          "honest",
+          "dishonest"
+        ],
+        [
+          "regular",
+          "irregular"
+        ],
+        [
+          "visible",
+          "invisible"
+        ],
+        [
+          "kind",
+          "unkind"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "prefix",
+    "a": "kind",
+    "b": "unkind",
+    "c": "agree",
+    "answer": "disagree"
+  },
+  "text": {
+    "en": {
+      "title": "Opposites made with a prefix",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. {a} becomes {b} with a prefix, so {c} becomes {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "prefix": "{a} becomes {b} with a prefix, so {c} becomes {answer}."
+      }
+    }
+  }
+}

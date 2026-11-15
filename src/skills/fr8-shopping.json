@@ -1,0 +1,154 @@
+{
+  "id": "fr8-shopping",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 36,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “Je voudrais un croissant” mean?",
+          "I would like a croissant",
+          "I have a croissant",
+          "I make a croissant",
+          "Je voudrais means I would like."
+        ],
+        [
+          "What does “C’est combien ?” mean?",
+          "How much is it?",
+          "What is it?",
+          "Where is it?",
+          "C’est combien ? asks the price."
+        ],
+        [
+          "What does “Ça fait deux euros” mean?",
+          "That’s two euros",
+          "I have two euros",
+          "Two euros, please",
+          "Ça fait means that makes / that’s."
+        ],
+        [
+          "What does “le magasin” mean?",
+          "the shop",
+          "the market",
+          "the money",
+          "Le magasin is the shop."
+        ],
+        [
+          "What does “le marché” mean?",
+          "the market",
+          "the shop",
+          "the bank",
+          "Le marché is the market."
+        ],
+        [
+          "What does “l’argent” mean?",
+          "money",
+          "silver coins only",
+          "the bill",
+          "L’argent means money (and silver)."
+        ],
+        [
+          "What does “un kilo de pommes” mean?",
+          "a kilo of apples",
+          "a bag of apples",
+          "an apple pie",
+          "Un kilo de means a kilo of."
+        ],
+        [
+          "What does “Voilà” mean when the shopkeeper gives you something?",
+          "Here you are",
+          "Goodbye",
+          "Too expensive",
+          "Voilà means here you are."
+        ],
+        [
+          "What does “C’est trop cher” mean?",
+          "It’s too expensive",
+          "It’s very cheap",
+          "It’s too big",
+          "Cher means expensive."
+        ],
+        [
+          "What does “la boulangerie” sell?",
+          "bread",
+          "meat",
+          "shoes",
+          "La boulangerie is the bakery."
+        ],
+        [
+          "What does “la boucherie” sell?",
+          "meat",
+          "bread",
+          "books",
+          "La boucherie is the butcher’s."
+        ],
+        [
+          "What does “un paquet de biscuits” mean?",
+          "a packet of biscuits",
+          "a box of chocolates",
+          "a bag of sweets",
+          "Un paquet de means a packet of."
+        ],
+        [
+          "How do you say “I would like some bread”?",
+          "Je voudrais du pain",
+          "J’aime le pain",
+          "J’ai du pain",
+          "Je voudrais du pain = I would like some bread."
+        ],
+        [
+          "What does “Et avec ceci ?” mean?",
+          "Anything else?",
+          "With what?",
+          "Is that all free?",
+          "The shopkeeper asks: anything else?"
+        ],
+        [
+          "What does “C’est tout, merci” mean?",
+          "That’s all, thank you",
+          "It’s free, thank you",
+          "It’s a lot, thank you",
+          "C’est tout means that’s all."
+        ]
+      ]
+    }
+  },
+  "emoji": "gift",
+  "example": {
+    "i": 0,
+    "q_en": "What does “Je voudrais un croissant” mean?",
+    "answer_en": "I would like a croissant",
+    "why_en": "Je voudrais means I would like."
+  },
+  "text": {
+    "en": {
+      "title": "Shopping in French",
+      "teach": "At the shop: Je voudrais … (I would like …). C’est combien ? (How much is it?). Ça fait trois euros (That’s three euros).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

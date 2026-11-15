@@ -1,0 +1,96 @@
+{
+  "id": "ql-odd-bugs-birds",
+  "kind": "odd-one-out",
+  "subject": "qualitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 22,
+  "only": "en",
+  "params": {
+    "groups": {
+      "minibeasts": [
+        [
+          "bee",
+          "animal-honeybee"
+        ],
+        [
+          "butterfly",
+          "animal-butterfly"
+        ],
+        [
+          "ladybird",
+          "animal-lady-beetle"
+        ],
+        [
+          "snail",
+          "animal-snail"
+        ]
+      ],
+      "birds": [
+        [
+          "owl",
+          "animal-owl"
+        ],
+        [
+          "parrot",
+          "animal-parrot"
+        ],
+        [
+          "swan",
+          "animal-swan"
+        ],
+        [
+          "flamingo",
+          "animal-flamingo"
+        ],
+        [
+          "peacock",
+          "animal-peacock"
+        ],
+        [
+          "penguin",
+          "animal-penguin"
+        ]
+      ],
+      "fruits": [
+        [
+          "apple",
+          "fruit-apple"
+        ],
+        [
+          "banana",
+          "fruit-banana"
+        ],
+        [
+          "pear",
+          "fruit-pear"
+        ],
+        [
+          "cherries",
+          "fruit-cherries"
+        ],
+        [
+          "grapes",
+          "fruit-grapes"
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-butterfly",
+  "example": {
+    "group": "birds",
+    "oddGroup": "fruits",
+    "items": "flamingo, owl, swan",
+    "answer": "apple"
+  },
+  "text": {
+    "en": {
+      "title": "Odd one out: minibeasts, birds and fruit",
+      "teach": "Three pictures go together. The {items} are all {group}, and the {answer} is not.",
+      "prompt": "Which picture does not belong?",
+      "reason": "The others are all {group}; the {answer} is not."
+    }
+  }
+}

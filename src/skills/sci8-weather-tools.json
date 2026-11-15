@@ -1,0 +1,443 @@
+{
+  "id": "sci8-weather-tools",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 24,
+  "params": {
+    "emojis": [
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which tool measures temperature?",
+          "a thermometer",
+          "a rain gauge",
+          "a wind vane",
+          "A thermometer shows how hot or cold it is."
+        ],
+        [
+          "Which tool collects and measures rain?",
+          "a rain gauge",
+          "a thermometer",
+          "a compass",
+          "A rain gauge shows how much rain fell."
+        ],
+        [
+          "What does a wind vane show?",
+          "which way the wind blows",
+          "how hot it is",
+          "how much rain fell",
+          "A wind vane points into the wind."
+        ],
+        [
+          "What does an anemometer measure?",
+          "wind speed",
+          "rain",
+          "sunshine",
+          "Its spinning cups measure wind speed."
+        ],
+        [
+          "Temperature is usually measured in…",
+          "degrees Celsius",
+          "metres",
+          "kilograms",
+          "We write temperature like 20 °C."
+        ],
+        [
+          "Rainfall is usually measured in…",
+          "millimetres",
+          "degrees",
+          "litres per person",
+          "Rain is measured as a depth in mm."
+        ],
+        [
+          "Where should you put a rain gauge?",
+          "in an open space away from trees",
+          "under a roof",
+          "inside a cupboard",
+          "Nothing should block the rain from falling in."
+        ],
+        [
+          "Why should a thermometer be kept in the shade?",
+          "direct sun gives a reading that is too high",
+          "it is afraid of light",
+          "it works only at night",
+          "Sun on the thermometer heats it, not just the air."
+        ],
+        [
+          "Someone who studies and forecasts weather is a…",
+          "meteorologist",
+          "dentist",
+          "librarian",
+          "Meteorologists forecast the weather."
+        ],
+        [
+          "Water freezes at…",
+          "0 °C",
+          "50 °C",
+          "100 °C",
+          "Water turns to ice at 0 °C."
+        ],
+        [
+          "Why do we record weather every day at the same time?",
+          "so the readings are fair to compare",
+          "because tools break at night",
+          "to use up paper",
+          "Same time each day makes a fair test."
+        ],
+        [
+          "A simple way to show wind strength is…",
+          "a windsock",
+          "a ruler",
+          "a kettle",
+          "A windsock fills up more in strong wind."
+        ],
+        [
+          "Which tool shows the direction north?",
+          "a compass",
+          "a rain gauge",
+          "a thermometer",
+          "A compass needle points north."
+        ]
+      ],
+      "de": [
+        [
+          "Was misst die Temperatur?",
+          "ein Thermometer",
+          "ein Regenmesser",
+          "eine Windfahne",
+          "Ein Thermometer zeigt, wie warm es ist."
+        ],
+        [
+          "Was sammelt und misst Regen?",
+          "ein Regenmesser",
+          "ein Thermometer",
+          "ein Kompass",
+          "Ein Regenmesser zeigt die Regenmenge."
+        ],
+        [
+          "Was zeigt eine Windfahne?",
+          "woher der Wind weht",
+          "wie warm es ist",
+          "wie viel Regen fiel",
+          "Die Windfahne zeigt die Windrichtung."
+        ],
+        [
+          "Was misst ein Anemometer?",
+          "die Windgeschwindigkeit",
+          "den Regen",
+          "den Sonnenschein",
+          "Die drehenden Schalen messen den Wind."
+        ],
+        [
+          "Temperatur misst man meist in…",
+          "Grad Celsius",
+          "Metern",
+          "Kilogramm",
+          "Man schreibt z. B. 20 °C."
+        ],
+        [
+          "Regen misst man meist in…",
+          "Millimetern",
+          "Grad",
+          "Litern pro Person",
+          "Regen misst man als Höhe in mm."
+        ],
+        [
+          "Wo stellt man einen Regenmesser auf?",
+          "auf freier Fläche, weg von Bäumen",
+          "unter ein Dach",
+          "in einen Schrank",
+          "Nichts soll den Regen abhalten."
+        ],
+        [
+          "Warum hängt ein Thermometer im Schatten?",
+          "direkte Sonne zeigt zu viel an",
+          "es hat Angst vor Licht",
+          "es geht nur nachts",
+          "Sonne erwärmt das Thermometer selbst."
+        ],
+        [
+          "Wer das Wetter erforscht und vorhersagt, ist…",
+          "Meteorologe",
+          "Zahnarzt",
+          "Bibliothekar",
+          "Meteorologen machen Wettervorhersagen."
+        ],
+        [
+          "Wasser gefriert bei…",
+          "0 °C",
+          "50 °C",
+          "100 °C",
+          "Bei 0 °C wird Wasser zu Eis."
+        ],
+        [
+          "Warum misst man täglich zur selben Zeit?",
+          "damit man die Werte fair vergleichen kann",
+          "weil Geräte nachts kaputtgehen",
+          "um Papier zu verbrauchen",
+          "Gleiche Zeit macht den Vergleich fair."
+        ],
+        [
+          "Ein einfacher Windstärkezeiger ist…",
+          "ein Windsack",
+          "ein Lineal",
+          "ein Wasserkocher",
+          "Der Windsack bläht sich bei starkem Wind."
+        ],
+        [
+          "Welches Gerät zeigt Norden?",
+          "ein Kompass",
+          "ein Regenmesser",
+          "ein Thermometer",
+          "Die Kompassnadel zeigt nach Norden."
+        ]
+      ],
+      "fr": [
+        [
+          "Quel outil mesure la température ?",
+          "un thermomètre",
+          "un pluviomètre",
+          "une girouette",
+          "Le thermomètre indique le chaud et le froid."
+        ],
+        [
+          "Quel outil recueille et mesure la pluie ?",
+          "un pluviomètre",
+          "un thermomètre",
+          "une boussole",
+          "Le pluviomètre indique la quantité de pluie."
+        ],
+        [
+          "Que montre une girouette ?",
+          "d’où vient le vent",
+          "la température",
+          "la quantité de pluie",
+          "La girouette indique la direction du vent."
+        ],
+        [
+          "Que mesure un anémomètre ?",
+          "la vitesse du vent",
+          "la pluie",
+          "l’ensoleillement",
+          "Ses coupelles tournent avec le vent."
+        ],
+        [
+          "On mesure souvent la température en…",
+          "degrés Celsius",
+          "mètres",
+          "kilogrammes",
+          "On écrit par exemple 20 °C."
+        ],
+        [
+          "On mesure la pluie en…",
+          "millimètres",
+          "degrés",
+          "litres par personne",
+          "La pluie se mesure en hauteur, en mm."
+        ],
+        [
+          "Où placer un pluviomètre ?",
+          "dans un endroit dégagé, loin des arbres",
+          "sous un toit",
+          "dans un placard",
+          "Rien ne doit empêcher la pluie d’y tomber."
+        ],
+        [
+          "Pourquoi garder un thermomètre à l’ombre ?",
+          "au soleil, il indiquerait trop chaud",
+          "il a peur de la lumière",
+          "il ne marche que la nuit",
+          "Le soleil chaufferait le thermomètre lui-même."
+        ],
+        [
+          "La personne qui prévoit la météo est un…",
+          "météorologue",
+          "dentiste",
+          "bibliothécaire",
+          "Les météorologues prévoient le temps."
+        ],
+        [
+          "L’eau gèle à…",
+          "0 °C",
+          "50 °C",
+          "100 °C",
+          "L’eau devient glace à 0 °C."
+        ],
+        [
+          "Pourquoi relever la météo chaque jour à la même heure ?",
+          "pour comparer les mesures équitablement",
+          "parce que les outils cassent la nuit",
+          "pour utiliser du papier",
+          "La même heure rend la comparaison juste."
+        ],
+        [
+          "Un moyen simple de voir la force du vent est…",
+          "une manche à air",
+          "une règle",
+          "une bouilloire",
+          "La manche à air se gonfle avec le vent fort."
+        ],
+        [
+          "Quel outil indique le nord ?",
+          "une boussole",
+          "un pluviomètre",
+          "un thermomètre",
+          "L’aiguille de la boussole indique le nord."
+        ]
+      ],
+      "yo": [
+        [
+          "Irinṣẹ́ wo ló ń wọn ooru?",
+          "ìwọ̀n-ooru",
+          "ìwọ̀n-òjò",
+          "àsíá-afẹ́fẹ́",
+          "Ìwọ̀n-ooru ń fi bí ó ṣe gbóná tàbí tutù hàn."
+        ],
+        [
+          "Irinṣẹ́ wo ló ń gba òjò, tó sì ń wọn ọ́n?",
+          "ìwọ̀n-òjò",
+          "ìwọ̀n-ooru",
+          "kọ́ńpáàsì",
+          "Ìwọ̀n-òjò ń fi iye òjò tó rọ̀ hàn."
+        ],
+        [
+          "Kí ni àsíá-afẹ́fẹ́ ń fi hàn?",
+          "ọ̀nà tí afẹ́fẹ́ ń fẹ́ sí",
+          "bí ó ṣe gbóná tó",
+          "iye òjò tó rọ̀",
+          "Àsíá-afẹ́fẹ́ ń tọ́ka sí ọ̀nà afẹ́fẹ́."
+        ],
+        [
+          "Kí ni ìwọ̀n-ìyára-afẹ́fẹ́ ń wọ̀n?",
+          "bí afẹ́fẹ́ ṣe ń yára",
+          "òjò",
+          "ìtànṣán oòrùn",
+          "Àwọn ife rẹ̀ tó ń yí ń wọn ìyára afẹ́fẹ́."
+        ],
+        [
+          "À máa ń wọn ooru ní…",
+          "dígírì Celsius",
+          "mítà",
+          "kìlógíráàmù",
+          "À ń kọ ooru bí 20 °C."
+        ],
+        [
+          "À máa ń wọn òjò ní…",
+          "mìlímítà",
+          "dígírì",
+          "lítà fún ẹnì kọ̀ọ̀kan",
+          "À ń wọn òjò bí jíjìn ní mm."
+        ],
+        [
+          "Níbo ló yẹ kí o gbé ìwọ̀n-òjò sí?",
+          "ní gbangba, jìnnà sí igi",
+          "lábẹ́ òrùlé",
+          "nínú kọ́bọ́ọ̀dù",
+          "Kò sí ohun tó gbọdọ̀ dí òjò lọ́wọ́ láti wọlé."
+        ],
+        [
+          "Kí ló dé tí a fi gbọ́dọ̀ gbé ìwọ̀n-ooru sí ibòji?",
+          "oòrùn tààrà ń jẹ́ kí ó kà ju bó ti yẹ lọ",
+          "ó ń bẹ̀rù ìmọ́lẹ̀",
+          "ó ń ṣiṣẹ́ lóru nìkan",
+          "Oòrùn yóò mú ìwọ̀n-ooru fúnra rẹ̀ gbóná."
+        ],
+        [
+          "Ẹni tó ń kẹ́kọ̀ọ́ ojú ọjọ́, tó sì ń sọ tẹ́lẹ̀ ni…",
+          "onímọ̀ ojú ọjọ́",
+          "dókítà eyín",
+          "olùtọ́jú ilé ìkàwé",
+          "Onímọ̀ ojú ọjọ́ ń sọ ojú ọjọ́ tẹ́lẹ̀."
+        ],
+        [
+          "Omi ń dì ní…",
+          "0 °C",
+          "50 °C",
+          "100 °C",
+          "Omi ń di yìnyín ní 0 °C."
+        ],
+        [
+          "Kí ló dé tí a fi ń kọ ojú ọjọ́ sílẹ̀ ní àkókò kan náà lójoojúmọ́?",
+          "kí á lè fi wọ́n wéra lọ́nà tó tọ́",
+          "nítorí irinṣẹ́ ń bàjẹ́ lóru",
+          "láti lo ìwé tán",
+          "Àkókò kan náà ń jẹ́ kí ìfiwéra tọ́."
+        ],
+        [
+          "Ọ̀nà rírọrùn láti fi agbára afẹ́fẹ́ hàn ni…",
+          "àpò-afẹ́fẹ́",
+          "rúlà",
+          "ìkòkò ìgbómi",
+          "Àpò-afẹ́fẹ́ ń kún sí i nígbà tí afẹ́fẹ́ bá le."
+        ],
+        [
+          "Irinṣẹ́ wo ló ń fi àríwá hàn?",
+          "kọ́ńpáàsì",
+          "ìwọ̀n-òjò",
+          "ìwọ̀n-ooru",
+          "Abẹ́rẹ́ kọ́ńpáàsì ń tọ́ka sí àríwá."
+        ]
+      ]
+    }
+  },
+  "emoji": "thermometer",
+  "example": {
+    "i": 0,
+    "q_en": "Which tool measures temperature?",
+    "answer_en": "a thermometer",
+    "why_en": "A thermometer shows how hot or cold it is.",
+    "q_de": "Was misst die Temperatur?",
+    "answer_de": "ein Thermometer",
+    "why_de": "Ein Thermometer zeigt, wie warm es ist.",
+    "q_fr": "Quel outil mesure la température ?",
+    "answer_fr": "un thermomètre",
+    "why_fr": "Le thermomètre indique le chaud et le froid.",
+    "q_yo": "Irinṣẹ́ wo ló ń wọn ooru?",
+    "answer_yo": "ìwọ̀n-ooru",
+    "why_yo": "Ìwọ̀n-ooru ń fi bí ó ṣe gbóná tàbí tutù hàn."
+  },
+  "text": {
+    "en": {
+      "title": "Measuring weather",
+      "teach": "Scientists use tools to measure weather: a thermometer for temperature, a rain gauge for rain, a wind vane for wind direction and an anemometer for wind speed.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Wetter messen",
+      "teach": "Forscher messen das Wetter: Thermometer für Temperatur, Regenmesser für Regen, Windfahne für Windrichtung und Anemometer für Windstärke.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Mesurer la météo",
+      "teach": "Les scientifiques mesurent la météo : thermomètre pour la température, pluviomètre pour la pluie, girouette pour la direction du vent et anémomètre pour sa vitesse.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Wíwọn ojú ọjọ́",
+      "teach": "Àwọn onímọ̀ ń lo irinṣẹ́ láti wọn ojú ọjọ́: ìwọ̀n-ooru fún ooru, ìwọ̀n-òjò fún òjò, àsíá-afẹ́fẹ́ fún ọ̀nà afẹ́fẹ́, àti ìwọ̀n-ìyára-afẹ́fẹ́ fún bí afẹ́fẹ́ ṣe ń yára.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

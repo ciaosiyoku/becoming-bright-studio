@@ -1,0 +1,154 @@
+{
+  "id": "en10-modal-verbs",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 212,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "cloud",
+      "cloud",
+      "cloud",
+      "cloud",
+      "cloud",
+      "cloud",
+      "cloud",
+      "cloud",
+      "cloud",
+      "cloud",
+      "cloud",
+      "cloud",
+      "cloud",
+      "cloud",
+      "cloud"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which shows that something is certain?",
+          "It will snow tomorrow.",
+          "It might snow tomorrow.",
+          "It could snow tomorrow.",
+          "“Will” shows we are certain."
+        ],
+        [
+          "Which shows that something is only possible?",
+          "We might go to the park.",
+          "We will go to the park.",
+          "We must go to the park.",
+          "“Might” shows a possibility, not a certainty."
+        ],
+        [
+          "Which shows that something is necessary?",
+          "You must wear a seat belt.",
+          "You could wear a seat belt.",
+          "You might wear a seat belt.",
+          "“Must” shows it is necessary."
+        ],
+        [
+          "Which gives advice?",
+          "You should drink water.",
+          "You will drink water.",
+          "You can’t drink water.",
+          "“Should” gives advice."
+        ],
+        [
+          "Which shows that someone is able to do something?",
+          "She can swim.",
+          "She might swim.",
+          "She should swim.",
+          "“Can” shows ability."
+        ],
+        [
+          "Which is the least sure?",
+          "It might be true.",
+          "It must be true.",
+          "It will be true.",
+          "“Might” is the least certain."
+        ],
+        [
+          "Which is the most sure?",
+          "The sun will rise tomorrow.",
+          "The sun may rise tomorrow.",
+          "The sun could rise tomorrow.",
+          "“Will” is the most certain."
+        ],
+        [
+          "Which asks politely for permission?",
+          "May I come in?",
+          "Must I come in?",
+          "Will I come in?",
+          "“May I …?” politely asks permission."
+        ],
+        [
+          "Which word is a modal verb?",
+          "should",
+          "quickly",
+          "happy",
+          "Should is a modal verb; it shows advice or duty."
+        ],
+        [
+          "Which shows something is not allowed?",
+          "You must not run by the pool.",
+          "You could run by the pool.",
+          "You will run by the pool.",
+          "“Must not” means it is not allowed."
+        ],
+        [
+          "Which shows a past ability?",
+          "I could read when I was four.",
+          "I can read when I was four.",
+          "I will read when I was four.",
+          "“Could” is the past of “can”."
+        ],
+        [
+          "Which is a polite request?",
+          "Would you pass the salt?",
+          "Must you pass the salt?",
+          "Might you pass the salt?",
+          "“Would you …?” is a polite request."
+        ],
+        [
+          "“The keys must be in the car — I left them there.” How sure is the speaker?",
+          "very sure",
+          "not sure at all",
+          "only a little sure",
+          "“Must” here shows a confident conclusion."
+        ],
+        [
+          "Which sentence shows a promise?",
+          "I will help you tomorrow.",
+          "I might help you tomorrow.",
+          "I could help you tomorrow.",
+          "“Will” makes it a promise."
+        ],
+        [
+          "Which word is NOT a modal verb?",
+          "often",
+          "might",
+          "shall",
+          "Often is an adverb; might and shall are modal verbs."
+        ]
+      ]
+    }
+  },
+  "emoji": "cloud",
+  "example": {
+    "i": 0,
+    "q_en": "Which shows that something is certain?",
+    "answer_en": "It will snow tomorrow.",
+    "why_en": "“Will” shows we are certain."
+  },
+  "text": {
+    "en": {
+      "title": "How sure? Modal verbs",
+      "teach": "Modal verbs show how sure or how necessary something is: it will rain (certain), it might rain (possible), you must stop (necessary).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

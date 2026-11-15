@@ -1,0 +1,443 @@
+{
+  "id": "sci8-insects",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 23,
+  "params": {
+    "emojis": [
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle"
+    ],
+    "bank": {
+      "en": [
+        [
+          "How many legs does an insect have?",
+          "six",
+          "eight",
+          "four",
+          "All insects have six legs."
+        ],
+        [
+          "Is a spider an insect?",
+          "no, it has eight legs",
+          "yes, it has six legs",
+          "yes, it has wings",
+          "Spiders are arachnids with eight legs."
+        ],
+        [
+          "How many body parts does an insect have?",
+          "three",
+          "two",
+          "five",
+          "Head, thorax and abdomen."
+        ],
+        [
+          "What does a caterpillar turn into?",
+          "a butterfly",
+          "a spider",
+          "a worm",
+          "Caterpillars become butterflies or moths."
+        ],
+        [
+          "What are an insect’s feelers called?",
+          "antennae",
+          "claws",
+          "fins",
+          "Antennae help insects smell and feel."
+        ],
+        [
+          "Which insect makes honey?",
+          "the bee",
+          "the ant",
+          "the fly",
+          "Bees make honey from nectar."
+        ],
+        [
+          "Why are bees important for plants?",
+          "they carry pollen between flowers",
+          "they eat the leaves",
+          "they water them",
+          "Bees pollinate flowers so seeds can form."
+        ],
+        [
+          "Where are an insect’s legs joined on?",
+          "the thorax",
+          "the head",
+          "the abdomen",
+          "All six legs grow from the thorax."
+        ],
+        [
+          "Which of these is an insect?",
+          "a ladybird",
+          "a snail",
+          "a woodlouse",
+          "A ladybird is a beetle, which is an insect."
+        ],
+        [
+          "What do ants live in?",
+          "a colony",
+          "a pond",
+          "a shell",
+          "Ants live together in a colony."
+        ],
+        [
+          "The hard outer covering of an insect is its…",
+          "exoskeleton",
+          "fur",
+          "feathers",
+          "Insects wear their skeleton on the outside."
+        ],
+        [
+          "The resting stage between caterpillar and butterfly is the…",
+          "pupa (chrysalis)",
+          "egg",
+          "tadpole",
+          "Inside the chrysalis the body changes."
+        ],
+        [
+          "Big changes in shape as an insect grows are called…",
+          "metamorphosis",
+          "hibernation",
+          "evaporation",
+          "Metamorphosis means a change of form."
+        ]
+      ],
+      "de": [
+        [
+          "Wie viele Beine hat ein Insekt?",
+          "sechs",
+          "acht",
+          "vier",
+          "Alle Insekten haben sechs Beine."
+        ],
+        [
+          "Ist eine Spinne ein Insekt?",
+          "nein, sie hat acht Beine",
+          "ja, sie hat sechs Beine",
+          "ja, sie hat Flügel",
+          "Spinnen sind Spinnentiere mit acht Beinen."
+        ],
+        [
+          "Wie viele Körperteile hat ein Insekt?",
+          "drei",
+          "zwei",
+          "fünf",
+          "Kopf, Brust und Hinterleib."
+        ],
+        [
+          "Was wird aus einer Raupe?",
+          "ein Schmetterling",
+          "eine Spinne",
+          "ein Wurm",
+          "Raupen werden Schmetterlinge oder Motten."
+        ],
+        [
+          "Wie heißen die Fühler eines Insekts?",
+          "Antennen",
+          "Krallen",
+          "Flossen",
+          "Mit Antennen riechen und tasten Insekten."
+        ],
+        [
+          "Welches Insekt macht Honig?",
+          "die Biene",
+          "die Ameise",
+          "die Fliege",
+          "Bienen machen Honig aus Nektar."
+        ],
+        [
+          "Warum sind Bienen wichtig für Pflanzen?",
+          "sie tragen Pollen von Blüte zu Blüte",
+          "sie fressen die Blätter",
+          "sie gießen sie",
+          "Bienen bestäuben Blüten."
+        ],
+        [
+          "Wo sitzen die Beine eines Insekts?",
+          "an der Brust",
+          "am Kopf",
+          "am Hinterleib",
+          "Alle sechs Beine sitzen an der Brust."
+        ],
+        [
+          "Welches ist ein Insekt?",
+          "ein Marienkäfer",
+          "eine Schnecke",
+          "eine Assel",
+          "Der Marienkäfer ist ein Käfer, also ein Insekt."
+        ],
+        [
+          "Wie leben Ameisen?",
+          "in einem Staat (Kolonie)",
+          "in einem Teich",
+          "in einer Muschel",
+          "Ameisen leben zusammen in einem Staat."
+        ],
+        [
+          "Die harte Hülle eines Insekts heißt…",
+          "Außenskelett",
+          "Fell",
+          "Federn",
+          "Insekten tragen ihr Skelett außen."
+        ],
+        [
+          "Die Ruhephase zwischen Raupe und Falter ist die…",
+          "Puppe",
+          "Ei",
+          "Kaulquappe",
+          "In der Puppe verwandelt sich der Körper."
+        ],
+        [
+          "Große Gestaltveränderungen beim Wachsen heißen…",
+          "Metamorphose",
+          "Winterschlaf",
+          "Verdunstung",
+          "Metamorphose bedeutet Verwandlung."
+        ]
+      ],
+      "fr": [
+        [
+          "Combien de pattes a un insecte ?",
+          "six",
+          "huit",
+          "quatre",
+          "Tous les insectes ont six pattes."
+        ],
+        [
+          "L’araignée est-elle un insecte ?",
+          "non, elle a huit pattes",
+          "oui, elle a six pattes",
+          "oui, elle a des ailes",
+          "L’araignée est un arachnide à huit pattes."
+        ],
+        [
+          "Combien de parties a le corps d’un insecte ?",
+          "trois",
+          "deux",
+          "cinq",
+          "Tête, thorax et abdomen."
+        ],
+        [
+          "Que devient une chenille ?",
+          "un papillon",
+          "une araignée",
+          "un ver",
+          "La chenille devient papillon."
+        ],
+        [
+          "Comment s’appellent les « cornes » d’un insecte ?",
+          "les antennes",
+          "les griffes",
+          "les nageoires",
+          "Les antennes servent à sentir et toucher."
+        ],
+        [
+          "Quel insecte fait du miel ?",
+          "l’abeille",
+          "la fourmi",
+          "la mouche",
+          "Les abeilles font le miel avec le nectar."
+        ],
+        [
+          "Pourquoi les abeilles sont-elles utiles aux plantes ?",
+          "elles transportent le pollen",
+          "elles mangent les feuilles",
+          "elles les arrosent",
+          "Les abeilles pollinisent les fleurs."
+        ],
+        [
+          "Où sont fixées les pattes d’un insecte ?",
+          "au thorax",
+          "à la tête",
+          "à l’abdomen",
+          "Les six pattes partent du thorax."
+        ],
+        [
+          "Lequel est un insecte ?",
+          "une coccinelle",
+          "un escargot",
+          "un cloporte",
+          "La coccinelle est un coléoptère, donc un insecte."
+        ],
+        [
+          "Comment vivent les fourmis ?",
+          "en colonie",
+          "dans une mare",
+          "dans une coquille",
+          "Les fourmis vivent ensemble en colonie."
+        ],
+        [
+          "La carapace dure d’un insecte est son…",
+          "exosquelette",
+          "pelage",
+          "plumage",
+          "Les insectes ont le squelette à l’extérieur."
+        ],
+        [
+          "L’étape de repos entre chenille et papillon est la…",
+          "chrysalide",
+          "l’œuf",
+          "le têtard",
+          "Dans la chrysalide, le corps se transforme."
+        ],
+        [
+          "Les grands changements de forme s’appellent…",
+          "la métamorphose",
+          "l’hibernation",
+          "l’évaporation",
+          "Métamorphose veut dire changement de forme."
+        ]
+      ],
+      "yo": [
+        [
+          "Ẹsẹ̀ mélòó ni kòkòrò ní?",
+          "mẹ́fà",
+          "mẹ́jọ",
+          "mẹ́rin",
+          "Gbogbo kòkòrò ní ẹsẹ̀ mẹ́fà."
+        ],
+        [
+          "Ṣé aláǹtakùn jẹ́ kòkòrò?",
+          "rárá, ó ní ẹsẹ̀ mẹ́jọ",
+          "bẹ́ẹ̀ni, ó ní ẹsẹ̀ mẹ́fà",
+          "bẹ́ẹ̀ni, ó ní ìyẹ́",
+          "Aláǹtakùn ní ẹsẹ̀ mẹ́jọ."
+        ],
+        [
+          "Apá ara mélòó ni kòkòrò ní?",
+          "mẹ́ta",
+          "méjì",
+          "márùn-ún",
+          "Orí, àyà àti ikùn."
+        ],
+        [
+          "Kí ni ìdin labalábá ń dà?",
+          "labalábá",
+          "aláǹtakùn",
+          "kòkòrò ilẹ̀",
+          "Ìdin ń di labalábá."
+        ],
+        [
+          "Kí ni orúkọ ìwo ìmọ̀lára kòkòrò?",
+          "ìwo-ìmọ̀lára",
+          "èékánná",
+          "lẹbẹ ẹja",
+          "Ìwo-ìmọ̀lára ń ràn kòkòrò lọ́wọ́ láti gbóòórùn àti láti fọwọ́ kàn."
+        ],
+        [
+          "Kòkòrò wo ló ń ṣe oyin?",
+          "oyin (kòkòrò)",
+          "èèrà",
+          "eṣinṣin",
+          "Kòkòrò oyin ń ṣe oyin láti inú omi òdòdó."
+        ],
+        [
+          "Kí ló dé tí oyin fi ṣe pàtàkì fún ewéko?",
+          "wọ́n ń gbé eruku òdòdó láti òdòdó kan sí òmíràn",
+          "wọ́n ń jẹ ewé",
+          "wọ́n ń bomi rin wọ́n",
+          "Oyin ń gbé eruku òdòdó kí irúgbìn lè dàgbà."
+        ],
+        [
+          "Níbo ni ẹsẹ̀ kòkòrò ti so mọ́ ara?",
+          "àyà",
+          "orí",
+          "ikùn",
+          "Gbogbo ẹsẹ̀ mẹ́fà ń hù láti àyà."
+        ],
+        [
+          "Èwo nínú wọ̀nyí ni kòkòrò?",
+          "kòkòrò pupa alámì dúdú",
+          "ìgbín",
+          "kòkòrò onígbá ilẹ̀",
+          "Kòkòrò pupa alámì dúdú jẹ́ kòkòrò gidi."
+        ],
+        [
+          "Báwo ni èèrà ṣe ń gbé?",
+          "ní agbo ìlú èèrà",
+          "nínú adágún",
+          "nínú ìkarahun",
+          "Èèrà ń gbé papọ̀ ní agbo."
+        ],
+        [
+          "Ìbòrí líle ara kòkòrò ni…",
+          "egungun òde-ara",
+          "irun",
+          "ìyẹ́ ẹyẹ",
+          "Kòkòrò ní egungun wọn lóde ara."
+        ],
+        [
+          "Ìpele ìsinmi láàárín ìdin àti labalábá ni…",
+          "ilé ìyípadà (pupa)",
+          "ẹyin",
+          "ọmọ àkèré",
+          "Nínú ilé ìyípadà ni ara ti ń yí padà."
+        ],
+        [
+          "Ìyípadà ìrísí ńlá bí kòkòrò ṣe ń dàgbà ni…",
+          "ìparadà",
+          "oorun ìgbà òtútù",
+          "ìfẹ́yọ̀ omi",
+          "Ìparadà túmọ̀ sí yíyí ìrísí padà."
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-lady-beetle",
+  "example": {
+    "i": 0,
+    "q_en": "How many legs does an insect have?",
+    "answer_en": "six",
+    "why_en": "All insects have six legs.",
+    "q_de": "Wie viele Beine hat ein Insekt?",
+    "answer_de": "sechs",
+    "why_de": "Alle Insekten haben sechs Beine.",
+    "q_fr": "Combien de pattes a un insecte ?",
+    "answer_fr": "six",
+    "why_fr": "Tous les insectes ont six pattes.",
+    "q_yo": "Ẹsẹ̀ mélòó ni kòkòrò ní?",
+    "answer_yo": "mẹ́fà",
+    "why_yo": "Gbogbo kòkòrò ní ẹsẹ̀ mẹ́fà."
+  },
+  "text": {
+    "en": {
+      "title": "Insects",
+      "teach": "Insects have six legs and three body parts: head, thorax and abdomen. Many have wings and antennae, and many change shape as they grow.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Insekten",
+      "teach": "Insekten haben sechs Beine und drei Körperteile: Kopf, Brust und Hinterleib. Viele haben Flügel und Fühler und verwandeln sich beim Wachsen.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les insectes",
+      "teach": "Les insectes ont six pattes et trois parties : tête, thorax et abdomen. Beaucoup ont des ailes et des antennes, et changent de forme en grandissant.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Àwọn kòkòrò",
+      "teach": "Kòkòrò ní ẹsẹ̀ mẹ́fà àti apá ara mẹ́ta: orí, àyà àti ikùn. Ọ̀pọ̀ ní ìyẹ́ àti ìwo-ìmọ̀lára, ọ̀pọ̀ sì ń yí ìrísí padà bí wọ́n ṣe ń dàgbà.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

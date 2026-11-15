@@ -1,0 +1,87 @@
+{
+  "id": "vr-odd-body-vehicles",
+  "kind": "odd-one-out",
+  "subject": "verbal",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 22,
+  "only": "en",
+  "params": {
+    "groups": {
+      "body parts": [
+        [
+          "arm"
+        ],
+        [
+          "leg"
+        ],
+        [
+          "nose"
+        ],
+        [
+          "ear"
+        ],
+        [
+          "hand"
+        ],
+        [
+          "foot"
+        ]
+      ],
+      "things that go": [
+        [
+          "car"
+        ],
+        [
+          "bus"
+        ],
+        [
+          "bike"
+        ],
+        [
+          "train"
+        ],
+        [
+          "boat"
+        ],
+        [
+          "van"
+        ]
+      ],
+      "drinks": [
+        [
+          "milk"
+        ],
+        [
+          "water"
+        ],
+        [
+          "juice"
+        ],
+        [
+          "tea"
+        ],
+        [
+          "cocoa"
+        ]
+      ]
+    }
+  },
+  "emoji": "letters",
+  "example": {
+    "group": "drinks",
+    "oddGroup": "body parts",
+    "items": "cocoa, juice, milk",
+    "answer": "ear"
+  },
+  "text": {
+    "en": {
+      "title": "Odd word out: body, vehicles or drinks",
+      "teach": "Three words go together, one does not. {items} are all {group}; {answer} is not.",
+      "prompt": "Which word is the odd one out?",
+      "reason": "The others are all {group}; {answer} is not."
+    }
+  }
+}

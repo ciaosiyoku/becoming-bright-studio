@@ -1,0 +1,154 @@
+{
+  "id": "fr10-time-words",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 46,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "clock",
+      "clock"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “hier” mean?",
+          "yesterday",
+          "today",
+          "tomorrow",
+          "Hier means yesterday."
+        ],
+        [
+          "What does “aujourd’hui” mean?",
+          "today",
+          "tomorrow",
+          "yesterday",
+          "Aujourd’hui means today."
+        ],
+        [
+          "What does “demain” mean?",
+          "tomorrow",
+          "yesterday",
+          "later",
+          "Demain means tomorrow."
+        ],
+        [
+          "What does “souvent” mean?",
+          "often",
+          "never",
+          "sometimes",
+          "Souvent means often."
+        ],
+        [
+          "What does “toujours” mean?",
+          "always",
+          "never",
+          "often",
+          "Toujours means always (or still)."
+        ],
+        [
+          "What does “ne … jamais” mean?",
+          "never",
+          "always",
+          "often",
+          "Je ne mange jamais … = I never eat …"
+        ],
+        [
+          "What does “quelquefois” mean?",
+          "sometimes",
+          "always",
+          "never",
+          "Quelquefois means sometimes."
+        ],
+        [
+          "What does “maintenant” mean?",
+          "now",
+          "later",
+          "before",
+          "Maintenant means now."
+        ],
+        [
+          "What does “plus tard” mean?",
+          "later",
+          "earlier",
+          "now",
+          "Plus tard means later."
+        ],
+        [
+          "What does “le matin” mean?",
+          "the morning",
+          "the evening",
+          "the night",
+          "Le matin is the morning."
+        ],
+        [
+          "What does “le soir” mean?",
+          "the evening",
+          "the morning",
+          "the afternoon",
+          "Le soir is the evening."
+        ],
+        [
+          "What does “le week-end” mean?",
+          "the weekend",
+          "the week",
+          "the end",
+          "Le week-end is the weekend."
+        ],
+        [
+          "What does “d’abord” mean?",
+          "first",
+          "last",
+          "after",
+          "D’abord means first (of all)."
+        ],
+        [
+          "What does “ensuite” mean?",
+          "then",
+          "before",
+          "never",
+          "Ensuite means then / next."
+        ],
+        [
+          "What does “Je joue toujours au foot le samedi” mean?",
+          "I always play football on Saturdays",
+          "I never play football on Saturdays",
+          "I played football last Saturday",
+          "Toujours means always."
+        ]
+      ]
+    }
+  },
+  "emoji": "clock",
+  "example": {
+    "i": 0,
+    "q_en": "What does “hier” mean?",
+    "answer_en": "yesterday",
+    "why_en": "Hier means yesterday."
+  },
+  "text": {
+    "en": {
+      "title": "When? Time words in French",
+      "teach": "Time words: hier (yesterday), aujourd’hui (today), demain (tomorrow), souvent (often), toujours (always), jamais (never).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

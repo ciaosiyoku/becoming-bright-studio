@@ -1,0 +1,49 @@
+{
+  "id": "percent-10-50",
+  "kind": "percent",
+  "subject": "numbers",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 29,
+  "params": {
+    "percents": [
+      10,
+      50
+    ]
+  },
+  "emoji": "battery",
+  "example": {
+    "p": 10,
+    "n": 340,
+    "tenth": 34,
+    "answer": 34
+  },
+  "text": {
+    "en": {
+      "title": "10% and 50% of amounts",
+      "teach": "Percent means out of 100. 10% of {n} is {tenth}, so {p}% of {n} is {tenth} × {p} ÷ 10 = {answer}.",
+      "prompt": "What is {p}% of {n}?",
+      "reason": "10% of {n} is {tenth}, so {p}% is {tenth} × {p} ÷ 10 = {answer}."
+    },
+    "de": {
+      "title": "10 % und 50 % von Mengen",
+      "teach": "Prozent heißt von hundert. 10 % von {n} sind {tenth}, also sind {p} % von {n} {tenth} × {p} ÷ 10 = {answer}.",
+      "prompt": "Was sind {p} % von {n}?",
+      "reason": "10 % von {n} sind {tenth}, also sind {p} % {tenth} × {p} ÷ 10 = {answer}."
+    },
+    "fr": {
+      "title": "10 % et 50 % d’une quantité",
+      "teach": "Pour cent veut dire sur 100. 10 % de {n}, c’est {tenth}, donc {p} % de {n}, c’est {tenth} × {p} ÷ 10 = {answer}.",
+      "prompt": "Combien font {p} % de {n} ?",
+      "reason": "10 % de {n}, c’est {tenth}, donc {p} %, c’est {tenth} × {p} ÷ 10 = {answer}."
+    },
+    "yo": {
+      "title": "10% àti 50% nǹkan",
+      "teach": "Ìdá-ọgọ́rùn-ún túmọ̀ sí nínú ọgọ́rùn-ún. 10% nínú {n} jẹ́ {tenth}, nítorí náà {p}% nínú {n} jẹ́ {tenth} × {p} ÷ 10 = {answer}.",
+      "prompt": "Kí ni {p}% nínú {n}?",
+      "reason": "10% nínú {n} jẹ́ {tenth}, nítorí náà {p}% jẹ́ {tenth} × {p} ÷ 10 = {answer}."
+    }
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "id": "sci4-pets",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 111,
+  "params": {
+    "emojis": [
+      "paws",
+      "paws",
+      "paws",
+      "paws",
+      "paws",
+      "paws",
+      "paws",
+      "paws",
+      "paws",
+      "paws",
+      "paws",
+      "paws",
+      "paws"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does a pet need every day?",
+          "food and water",
+          "sweets",
+          "a bath every hour",
+          "Pets need food and fresh water every day."
+        ],
+        [
+          "Where does a pet fish live?",
+          "in a tank of water",
+          "in a basket",
+          "in a hutch",
+          "Fish need water to breathe, so they live in a tank."
+        ],
+        [
+          "Where does a pet rabbit sleep?",
+          "in a hutch",
+          "in a fish tank",
+          "in a nest in a tree",
+          "A rabbit sleeps in a hutch with soft hay."
+        ],
+        [
+          "What does a dog need to stay healthy?",
+          "walks",
+          "chocolate",
+          "a cage all day",
+          "Dogs need walks to run and play. Chocolate is bad for dogs."
+        ],
+        [
+          "How should we hold a small pet?",
+          "gently",
+          "by its tail",
+          "very tightly",
+          "Small pets can get hurt, so we hold them gently."
+        ],
+        [
+          "What do we do after touching a pet?",
+          "wash our hands",
+          "eat a snack",
+          "touch our eyes",
+          "Washing our hands gets rid of germs from the pet."
+        ],
+        [
+          "What does a pet cat like to do a lot?",
+          "sleep",
+          "swim",
+          "fly",
+          "Cats sleep for many hours every day."
+        ],
+        [
+          "What do pet birds eat?",
+          "seeds",
+          "bones",
+          "cheese",
+          "Most pet birds eat seeds."
+        ],
+        [
+          "Who helps a pet when it is ill?",
+          "a vet",
+          "a baker",
+          "a pilot",
+          "A vet is a doctor for animals."
+        ],
+        [
+          "What should a pet always have in its bowl?",
+          "fresh water",
+          "juice",
+          "milkshake",
+          "Animals need clean, fresh water all the time."
+        ],
+        [
+          "What does a hamster run on to exercise?",
+          "a wheel",
+          "a ladder",
+          "a lead",
+          "A hamster runs on a wheel in its cage."
+        ],
+        [
+          "Why do we clean a pet’s home?",
+          "to keep it healthy",
+          "to make it cross",
+          "to make it hungry",
+          "A clean home keeps a pet healthy."
+        ],
+        [
+          "What does a dog do with its tail when it is happy?",
+          "wags it",
+          "hides it",
+          "eats it",
+          "A happy dog wags its tail."
+        ]
+      ],
+      "de": [
+        [
+          "Was braucht ein Haustier jeden Tag?",
+          "Futter und Wasser",
+          "Süßigkeiten",
+          "jede Stunde ein Bad",
+          "Haustiere brauchen jeden Tag Futter und frisches Wasser."
+        ],
+        [
+          "Wo lebt ein Haustierfisch?",
+          "in einem Aquarium",
+          "in einem Korb",
+          "in einem Stall",
+          "Fische brauchen Wasser zum Atmen, darum leben sie im Aquarium."
+        ],
+        [
+          "Wo schläft ein Hauskaninchen?",
+          "in einem Stall",
+          "in einem Aquarium",
+          "in einem Nest im Baum",
+          "Ein Kaninchen schläft in einem Stall mit weichem Heu."
+        ],
+        [
+          "Was braucht ein Hund, um gesund zu bleiben?",
+          "Spaziergänge",
+          "Schokolade",
+          "den ganzen Tag einen Käfig",
+          "Hunde brauchen Spaziergänge. Schokolade ist schlecht für Hunde."
+        ],
+        [
+          "Wie halten wir ein kleines Haustier?",
+          "sanft",
+          "am Schwanz",
+          "ganz fest",
+          "Kleine Tiere können sich wehtun, darum halten wir sie sanft."
+        ],
+        [
+          "Was tun wir, nachdem wir ein Haustier gestreichelt haben?",
+          "Hände waschen",
+          "etwas essen",
+          "die Augen reiben",
+          "Händewaschen entfernt Keime vom Tier."
+        ],
+        [
+          "Was macht eine Hauskatze sehr gern?",
+          "schlafen",
+          "schwimmen",
+          "fliegen",
+          "Katzen schlafen viele Stunden am Tag."
+        ],
+        [
+          "Was fressen Ziervögel?",
+          "Körner",
+          "Knochen",
+          "Käse",
+          "Die meisten Ziervögel fressen Körner."
+        ],
+        [
+          "Wer hilft einem kranken Haustier?",
+          "ein Tierarzt",
+          "ein Bäcker",
+          "ein Pilot",
+          "Ein Tierarzt ist ein Arzt für Tiere."
+        ],
+        [
+          "Was sollte immer im Napf eines Haustiers sein?",
+          "frisches Wasser",
+          "Saft",
+          "Milchshake",
+          "Tiere brauchen immer sauberes, frisches Wasser."
+        ],
+        [
+          "Worauf rennt ein Hamster, um sich zu bewegen?",
+          "auf einem Laufrad",
+          "auf einer Leiter",
+          "an einer Leine",
+          "Ein Hamster rennt im Käfig in seinem Laufrad."
+        ],
+        [
+          "Warum putzen wir das Zuhause eines Haustiers?",
+          "damit es gesund bleibt",
+          "damit es böse wird",
+          "damit es Hunger bekommt",
+          "Ein sauberes Zuhause hält ein Tier gesund."
+        ],
+        [
+          "Was macht ein fröhlicher Hund mit dem Schwanz?",
+          "er wedelt damit",
+          "er versteckt ihn",
+          "er frisst ihn",
+          "Ein fröhlicher Hund wedelt mit dem Schwanz."
+        ]
+      ],
+      "fr": [
+        [
+          "De quoi un animal a-t-il besoin chaque jour ?",
+          "de nourriture et d’eau",
+          "de bonbons",
+          "d’un bain toutes les heures",
+          "Un animal a besoin chaque jour de nourriture et d’eau fraîche."
+        ],
+        [
+          "Où vit un poisson de compagnie ?",
+          "dans un aquarium",
+          "dans un panier",
+          "dans un clapier",
+          "Les poissons ont besoin d’eau pour respirer : ils vivent dans un aquarium."
+        ],
+        [
+          "Où dort un lapin de compagnie ?",
+          "dans un clapier",
+          "dans un aquarium",
+          "dans un nid dans un arbre",
+          "Un lapin dort dans un clapier avec du foin."
+        ],
+        [
+          "De quoi un chien a-t-il besoin pour rester en bonne santé ?",
+          "de promenades",
+          "de chocolat",
+          "d’une cage toute la journée",
+          "Les chiens ont besoin de promenades. Le chocolat est mauvais pour eux."
+        ],
+        [
+          "Comment tenir un petit animal ?",
+          "doucement",
+          "par la queue",
+          "très fort",
+          "Les petits animaux se blessent facilement : on les tient doucement."
+        ],
+        [
+          "Que fait-on après avoir touché un animal ?",
+          "on se lave les mains",
+          "on mange un goûter",
+          "on se frotte les yeux",
+          "Se laver les mains enlève les microbes."
+        ],
+        [
+          "Qu’est-ce qu’un chat aime beaucoup faire ?",
+          "dormir",
+          "nager",
+          "voler",
+          "Les chats dorment de nombreuses heures par jour."
+        ],
+        [
+          "Que mangent les oiseaux de compagnie ?",
+          "des graines",
+          "des os",
+          "du fromage",
+          "La plupart des oiseaux mangent des graines."
+        ],
+        [
+          "Qui soigne un animal malade ?",
+          "le vétérinaire",
+          "le boulanger",
+          "le pilote",
+          "Le vétérinaire est le médecin des animaux."
+        ],
+        [
+          "Que doit-il toujours y avoir dans la gamelle ?",
+          "de l’eau fraîche",
+          "du jus",
+          "du milk-shake",
+          "Les animaux ont toujours besoin d’eau propre."
+        ],
+        [
+          "Sur quoi court un hamster pour faire de l’exercice ?",
+          "sur une roue",
+          "sur une échelle",
+          "en laisse",
+          "Le hamster court dans sa roue."
+        ],
+        [
+          "Pourquoi nettoie-t-on la maison d’un animal ?",
+          "pour qu’il reste en bonne santé",
+          "pour le fâcher",
+          "pour lui donner faim",
+          "Un abri propre garde l’animal en bonne santé."
+        ],
+        [
+          "Que fait un chien content avec sa queue ?",
+          "il la remue",
+          "il la cache",
+          "il la mange",
+          "Un chien content remue la queue."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni ẹran ọ̀sìn nílò lójoojúmọ́?",
+          "oúnjẹ àti omi",
+          "súìtì",
+          "ìwẹ̀ ní wákàtí kọ̀ọ̀kan",
+          "Ẹran ọ̀sìn nílò oúnjẹ àti omi tútù lójoojúmọ́."
+        ],
+        [
+          "Níbo ni ẹja ọ̀sìn ń gbé?",
+          "nínú agbada omi",
+          "nínú apẹ̀rẹ̀",
+          "nínú àgò ehoro",
+          "Ẹja nílò omi láti mí, nítorí náà ó ń gbé nínú agbada omi."
+        ],
+        [
+          "Níbo ni ehoro ọ̀sìn ń sùn?",
+          "nínú àgò",
+          "nínú agbada ẹja",
+          "nínú ìtẹ́ lórí igi",
+          "Ehoro ń sùn nínú àgò pẹ̀lú koríko rírọ̀."
+        ],
+        [
+          "Kí ni ajá nílò láti wà ní ìlera?",
+          "ìrìn àjò",
+          "ṣokoléètì",
+          "àgò ní gbogbo ọjọ́",
+          "Ajá nílò láti rìn àti láti ṣeré. Ṣokoléètì kò dára fún ajá."
+        ],
+        [
+          "Báwo ló ṣe yẹ ká gbé ẹran ọ̀sìn kékeré?",
+          "pẹ̀lẹ́pẹ̀lẹ́",
+          "ní ìrù rẹ̀",
+          "ní líle",
+          "Ẹran kékeré lè farapa, nítorí náà a máa gbé e pẹ̀lẹ́pẹ̀lẹ́."
+        ],
+        [
+          "Kí la máa ń ṣe lẹ́yìn tí a bá fọwọ́ kan ẹran ọ̀sìn?",
+          "a máa fọ ọwọ́ wa",
+          "a máa jẹ ìpanu",
+          "a máa fọwọ́ kan ojú wa",
+          "Fífọ ọwọ́ ń mú kòkòrò àrùn kúrò."
+        ],
+        [
+          "Kí ni ológbò ọ̀sìn fẹ́ràn láti ṣe gan-an?",
+          "láti sùn",
+          "láti lúwẹ̀ẹ́",
+          "láti fò",
+          "Ológbò máa ń sùn fún ọ̀pọ̀ wákàtí lójoojúmọ́."
+        ],
+        [
+          "Kí ni ẹyẹ ọ̀sìn ń jẹ?",
+          "irúgbìn",
+          "egungun",
+          "wàràkàṣì",
+          "Ọ̀pọ̀ ẹyẹ ọ̀sìn ń jẹ irúgbìn."
+        ],
+        [
+          "Ta ló ń ran ẹran ọ̀sìn lọ́wọ́ tó bá ń ṣàìsàn?",
+          "dókítà ẹranko",
+          "alákàrà",
+          "awakọ̀ òfuurufú",
+          "Dókítà ẹranko ni dókítà fún àwọn ẹranko."
+        ],
+        [
+          "Kí ló yẹ kó máa wà nínú abọ́ ẹran ọ̀sìn nígbà gbogbo?",
+          "omi tútù",
+          "oje",
+          "mílíìkì aládùn",
+          "Ẹranko nílò omi mímọ́ nígbà gbogbo."
+        ],
+        [
+          "Kí ni eku hamster ń sáré lé lórí láti ṣe eré ìdárayá?",
+          "kẹ̀kẹ́ yíyí",
+          "àkàbà",
+          "okùn",
+          "Hamster ń sáré lórí kẹ̀kẹ́ yíyí nínú àgò rẹ̀."
+        ],
+        [
+          "Kí ló dé tí a fi ń tún ilé ẹran ọ̀sìn ṣe?",
+          "kí ó lè wà ní ìlera",
+          "kí inú lè bí i",
+          "kí ebi lè pa á",
+          "Ilé tó mọ́ ń jẹ́ kí ẹran ọ̀sìn wà ní ìlera."
+        ],
+        [
+          "Kí ni ajá tínú rẹ̀ dùn ń ṣe pẹ̀lú ìrù rẹ̀?",
+          "ó ń jù ú",
+          "ó ń fi pamọ́",
+          "ó ń jẹ ẹ́",
+          "Ajá tínú rẹ̀ dùn máa ń ju ìrù rẹ̀."
+        ]
+      ]
+    }
+  },
+  "emoji": "paws",
+  "example": {
+    "i": 0,
+    "q_en": "What does a pet need every day?",
+    "answer_en": "food and water",
+    "why_en": "Pets need food and fresh water every day.",
+    "q_de": "Was braucht ein Haustier jeden Tag?",
+    "answer_de": "Futter und Wasser",
+    "why_de": "Haustiere brauchen jeden Tag Futter und frisches Wasser.",
+    "q_fr": "De quoi un animal a-t-il besoin chaque jour ?",
+    "answer_fr": "de nourriture et d’eau",
+    "why_fr": "Un animal a besoin chaque jour de nourriture et d’eau fraîche.",
+    "q_yo": "Kí ni ẹran ọ̀sìn nílò lójoojúmọ́?",
+    "answer_yo": "oúnjẹ àti omi",
+    "why_yo": "Ẹran ọ̀sìn nílò oúnjẹ àti omi tútù lójoojúmọ́."
+  },
+  "text": {
+    "en": {
+      "title": "Looking after pets",
+      "teach": "Pets need food, fresh water, a safe home and kindness, every day.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Haustiere versorgen",
+      "teach": "Haustiere brauchen jeden Tag Futter, frisches Wasser, ein sicheres Zuhause und Liebe.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "S’occuper des animaux",
+      "teach": "Les animaux ont besoin chaque jour de nourriture, d’eau fraîche, d’un abri et de gentillesse.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Títọ́jú ẹran ọ̀sìn",
+      "teach": "Ẹran ọ̀sìn nílò oúnjẹ, omi tútù, ilé tó dáàbò bò wọ́n àti ìfẹ́ lójoojúmọ́.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "id": "sci10-plant-reproduction",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 212,
+  "params": {
+    "emojis": [
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling",
+      "seedling"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is pollination?",
+          "moving pollen to the stigma",
+          "watering a plant",
+          "cutting the stem",
+          "Pollen must reach the stigma."
+        ],
+        [
+          "Which part of the flower makes pollen?",
+          "the stamen",
+          "the root",
+          "the stem",
+          "The stamen is the male part."
+        ],
+        [
+          "Why are many flowers brightly coloured?",
+          "to attract insects",
+          "to scare birds",
+          "to keep warm",
+          "Colour and scent bring pollinators."
+        ],
+        [
+          "How are dandelion seeds spread?",
+          "by the wind",
+          "by squirrels burying them",
+          "by exploding pods",
+          "Their fluffy parachutes float on the wind."
+        ],
+        [
+          "How are coconuts spread?",
+          "by floating on water",
+          "by sticking to fur",
+          "by the wind blowing them far",
+          "Coconuts can float across the sea."
+        ],
+        [
+          "When a seed starts to grow it is called…",
+          "germination",
+          "evaporation",
+          "pollination",
+          "A germinating seed sends out a root and shoot."
+        ],
+        [
+          "What does a seed need to germinate?",
+          "water and warmth",
+          "darkness and salt",
+          "only sunlight",
+          "Most seeds need water and warmth to start."
+        ],
+        [
+          "Which part of the flower becomes the fruit?",
+          "the ovary",
+          "the petal",
+          "the leaf",
+          "After fertilisation the ovary swells into fruit."
+        ],
+        [
+          "How do burdock seeds travel?",
+          "they hook onto animal fur",
+          "they float on rivers",
+          "they fly with wings",
+          "Hooked burrs stick to passing animals."
+        ],
+        [
+          "Why do plants spread their seeds far away?",
+          "so young plants are not crowded",
+          "to get rid of them",
+          "because seeds are heavy",
+          "Spreading out gives each plant light, water and space."
+        ],
+        [
+          "Growing a new plant from a cutting is…",
+          "asexual reproduction",
+          "pollination",
+          "photosynthesis",
+          "One parent, no seeds needed."
+        ],
+        [
+          "Which part of the flower catches pollen?",
+          "the stigma",
+          "the sepal",
+          "the root hair",
+          "The sticky stigma traps pollen."
+        ],
+        [
+          "A potato growing new shoots from its eyes is an example of…",
+          "reproduction without seeds",
+          "pollination by bees",
+          "seed dispersal by wind",
+          "Tubers can grow new plants without seeds."
+        ]
+      ],
+      "de": [
+        [
+          "Was ist Bestäubung?",
+          "Pollen gelangt zur Narbe",
+          "eine Pflanze gießen",
+          "den Stängel schneiden",
+          "Pollen muss die Narbe erreichen."
+        ],
+        [
+          "Welcher Blütenteil bildet Pollen?",
+          "das Staubblatt",
+          "die Wurzel",
+          "der Stängel",
+          "Das Staubblatt ist der männliche Teil."
+        ],
+        [
+          "Warum sind viele Blüten bunt?",
+          "um Insekten anzulocken",
+          "um Vögel zu erschrecken",
+          "um warm zu bleiben",
+          "Farbe und Duft locken Bestäuber an."
+        ],
+        [
+          "Wie werden Löwenzahnsamen verbreitet?",
+          "durch den Wind",
+          "von Eichhörnchen vergraben",
+          "durch platzende Hülsen",
+          "Ihre Schirmchen fliegen mit dem Wind."
+        ],
+        [
+          "Wie werden Kokosnüsse verbreitet?",
+          "sie schwimmen auf dem Wasser",
+          "sie haften am Fell",
+          "der Wind trägt sie weit",
+          "Kokosnüsse treiben über das Meer."
+        ],
+        [
+          "Wenn ein Samen zu wachsen beginnt, heißt das…",
+          "Keimung",
+          "Verdunstung",
+          "Bestäubung",
+          "Ein keimender Samen bildet Wurzel und Spross."
+        ],
+        [
+          "Was braucht ein Samen zum Keimen?",
+          "Wasser und Wärme",
+          "Dunkelheit und Salz",
+          "nur Sonnenlicht",
+          "Die meisten Samen brauchen Wasser und Wärme."
+        ],
+        [
+          "Welcher Teil wird zur Frucht?",
+          "der Fruchtknoten",
+          "das Blütenblatt",
+          "das Blatt",
+          "Nach der Befruchtung wird der Fruchtknoten zur Frucht."
+        ],
+        [
+          "Wie reisen Klettensamen?",
+          "sie haken sich ins Fell",
+          "sie schwimmen auf Flüssen",
+          "sie fliegen mit Flügeln",
+          "Die Haken bleiben an Tieren hängen."
+        ],
+        [
+          "Warum verbreiten Pflanzen ihre Samen weit?",
+          "damit junge Pflanzen Platz haben",
+          "um sie loszuwerden",
+          "weil Samen schwer sind",
+          "So bekommt jede Pflanze Licht, Wasser und Platz."
+        ],
+        [
+          "Eine neue Pflanze aus einem Steckling ist…",
+          "ungeschlechtliche Vermehrung",
+          "Bestäubung",
+          "Fotosynthese",
+          "Ein Elternteil, keine Samen nötig."
+        ],
+        [
+          "Welcher Blütenteil fängt Pollen auf?",
+          "die Narbe",
+          "das Kelchblatt",
+          "das Wurzelhaar",
+          "Die klebrige Narbe hält Pollen fest."
+        ],
+        [
+          "Eine Kartoffel, die aus ihren Augen austreibt, zeigt…",
+          "Vermehrung ohne Samen",
+          "Bestäubung durch Bienen",
+          "Samenverbreitung durch Wind",
+          "Knollen bilden neue Pflanzen ohne Samen."
+        ]
+      ],
+      "fr": [
+        [
+          "Qu’est-ce que la pollinisation ?",
+          "le transport du pollen jusqu’au stigmate",
+          "arroser une plante",
+          "couper la tige",
+          "Le pollen doit atteindre le stigmate."
+        ],
+        [
+          "Quelle partie de la fleur fait le pollen ?",
+          "l’étamine",
+          "la racine",
+          "la tige",
+          "L’étamine est la partie mâle."
+        ],
+        [
+          "Pourquoi tant de fleurs sont colorées ?",
+          "pour attirer les insectes",
+          "pour effrayer les oiseaux",
+          "pour garder la chaleur",
+          "Couleur et parfum attirent les pollinisateurs."
+        ],
+        [
+          "Comment les graines de pissenlit se dispersent-elles ?",
+          "par le vent",
+          "enterrées par les écureuils",
+          "par des gousses qui éclatent",
+          "Leurs parachutes flottent au vent."
+        ],
+        [
+          "Comment les noix de coco se dispersent-elles ?",
+          "en flottant sur l’eau",
+          "en s’accrochant aux poils",
+          "le vent les porte loin",
+          "La noix de coco flotte sur la mer."
+        ],
+        [
+          "Quand une graine commence à pousser, c’est…",
+          "la germination",
+          "l’évaporation",
+          "la pollinisation",
+          "La graine sort une racine et une tige."
+        ],
+        [
+          "De quoi une graine a-t-elle besoin pour germer ?",
+          "d’eau et de chaleur",
+          "d’obscurité et de sel",
+          "seulement de lumière",
+          "La plupart des graines ont besoin d’eau et de chaleur."
+        ],
+        [
+          "Quelle partie devient le fruit ?",
+          "l’ovaire",
+          "le pétale",
+          "la feuille",
+          "Après fécondation, l’ovaire devient fruit."
+        ],
+        [
+          "Comment voyagent les graines de bardane ?",
+          "elles s’accrochent aux poils",
+          "elles flottent sur les rivières",
+          "elles volent avec des ailes",
+          "Leurs crochets s’accrochent aux animaux."
+        ],
+        [
+          "Pourquoi les plantes dispersent-elles leurs graines loin ?",
+          "pour que les jeunes plantes ne soient pas serrées",
+          "pour s’en débarrasser",
+          "parce que les graines sont lourdes",
+          "Ainsi chacune a lumière, eau et place."
+        ],
+        [
+          "Faire pousser une plante à partir d’une bouture est…",
+          "la reproduction asexuée",
+          "la pollinisation",
+          "la photosynthèse",
+          "Un seul parent, pas de graine."
+        ],
+        [
+          "Quelle partie de la fleur capte le pollen ?",
+          "le stigmate",
+          "le sépale",
+          "le poil absorbant",
+          "Le stigmate collant retient le pollen."
+        ],
+        [
+          "Une pomme de terre qui germe par ses yeux montre…",
+          "une reproduction sans graines",
+          "une pollinisation par les abeilles",
+          "une dispersion par le vent",
+          "Les tubercules donnent des plantes sans graine."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni ìgbé-eruku?",
+          "gbígbé eruku òdòdó dé abo òdòdó",
+          "bíbomi rin ewéko",
+          "gígé igi ewéko",
+          "Eruku òdòdó gbọ́dọ̀ dé abo òdòdó."
+        ],
+        [
+          "Apá òdòdó wo ló ń ṣe eruku òdòdó?",
+          "akọ òdòdó",
+          "gbòǹgbò",
+          "igi ewéko",
+          "Akọ òdòdó ni apá akọ."
+        ],
+        [
+          "Kí ló dé tí ọ̀pọ̀ òdòdó fi ní àwọ̀ mímọ́lẹ̀?",
+          "láti fa kòkòrò mọ́ra",
+          "láti dẹ́rù ba ẹyẹ",
+          "láti lọ́wọ́rọ́",
+          "Àwọ̀ àti òórùn ń fa olùgbé-eruku wá."
+        ],
+        [
+          "Báwo ni irúgbìn dandelion ṣe ń tàn ká?",
+          "nípasẹ̀ afẹ́fẹ́",
+          "ọ̀kẹ́rẹ́ ń bò wọ́n mọ́lẹ̀",
+          "nípasẹ̀ èso tó ń bẹ́",
+          "Àwọn ìyẹ́ fúlẹ́fúlẹ́ wọn ń fò pẹ̀lú afẹ́fẹ́."
+        ],
+        [
+          "Báwo ni àgbọn ṣe ń tàn ká?",
+          "nípa líléfòó lórí omi",
+          "nípa líle mọ́ irun ẹranko",
+          "afẹ́fẹ́ ń gbé wọn lọ jìnnà",
+          "Àgbọn lè léfòó kọjá òkun."
+        ],
+        [
+          "Nígbà tí irúgbìn bá bẹ̀rẹ̀ sí í dàgbà, à ń pè é ní…",
+          "híhù",
+          "ìfẹ́yọ̀ omi",
+          "ìgbé-eruku",
+          "Irúgbìn tó ń hù ń yọ gbòǹgbò àti ọ̀mùnú."
+        ],
+        [
+          "Kí ni irúgbìn nílò láti hù?",
+          "omi àti ìlọ́wọ́rọ́",
+          "òkùnkùn àti iyọ̀",
+          "ìmọ́lẹ̀ oòrùn nìkan",
+          "Ọ̀pọ̀ irúgbìn nílò omi àti ìlọ́wọ́rọ́."
+        ],
+        [
+          "Apá òdòdó wo ló ń di èso?",
+          "àpò ẹyin òdòdó",
+          "ewé òdòdó",
+          "ewé",
+          "Lẹ́yìn ìlóyún, àpò ẹyin ń wú di èso."
+        ],
+        [
+          "Báwo ni irúgbìn ẹlẹ́gùn-ún ṣe ń rìnrìn àjò?",
+          "wọ́n ń kọ́ mọ́ irun ẹranko",
+          "wọ́n ń léfòó lórí odò",
+          "wọ́n ń fò pẹ̀lú ìyẹ́",
+          "Ẹ̀gún wọn ń lẹ̀ mọ́ ẹranko tó ń kọjá."
+        ],
+        [
+          "Kí ló dé tí ewéko fi ń fọ́n irúgbìn wọn lọ jìnnà?",
+          "kí ọmọ ewéko má bàa há",
+          "láti lé wọn dànù",
+          "nítorí irúgbìn wúwo",
+          "Ìtànká ń fún ewéko kọ̀ọ̀kan ní ìmọ́lẹ̀, omi àti àyè."
+        ],
+        [
+          "Gbígbin ewéko tuntun láti ara ẹ̀ka gígé jẹ́…",
+          "ìbísí láìsí akọ àti abo",
+          "ìgbé-eruku",
+          "ìṣe-oúnjẹ ewéko",
+          "Òbí kan, kò nílò irúgbìn."
+        ],
+        [
+          "Apá òdòdó wo ló ń gba eruku òdòdó?",
+          "abo òdòdó (stigma)",
+          "ewé ìbòrí òdòdó",
+          "irun gbòǹgbò",
+          "Abo òdòdó tó lẹ̀ ń mú eruku òdòdó."
+        ],
+        [
+          "Ànàmọ́ òyìnbó tó ń hù láti ojú rẹ̀ jẹ́ àpẹẹrẹ…",
+          "ìbísí láìsí irúgbìn",
+          "ìgbé-eruku láti ọwọ́ oyin",
+          "ìtànká irúgbìn nípasẹ̀ afẹ́fẹ́",
+          "Isu lè hù di ewéko tuntun láìsí irúgbìn."
+        ]
+      ]
+    }
+  },
+  "emoji": "seedling",
+  "example": {
+    "i": 0,
+    "q_en": "What is pollination?",
+    "answer_en": "moving pollen to the stigma",
+    "why_en": "Pollen must reach the stigma.",
+    "q_de": "Was ist Bestäubung?",
+    "answer_de": "Pollen gelangt zur Narbe",
+    "why_de": "Pollen muss die Narbe erreichen.",
+    "q_fr": "Qu’est-ce que la pollinisation ?",
+    "answer_fr": "le transport du pollen jusqu’au stigmate",
+    "why_fr": "Le pollen doit atteindre le stigmate.",
+    "q_yo": "Kí ni ìgbé-eruku?",
+    "answer_yo": "gbígbé eruku òdòdó dé abo òdòdó",
+    "why_yo": "Eruku òdòdó gbọ́dọ̀ dé abo òdòdó."
+  },
+  "text": {
+    "en": {
+      "title": "How plants reproduce",
+      "teach": "Flowers make seeds. Pollen moves from the stamen to the stigma (pollination), a seed forms (fertilisation), then seeds are spread by wind, water or animals and germinate.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Wie Pflanzen sich vermehren",
+      "teach": "Blüten bilden Samen. Pollen gelangt vom Staubblatt zur Narbe (Bestäubung), ein Samen entsteht (Befruchtung), dann wird er durch Wind, Wasser oder Tiere verbreitet und keimt.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "La reproduction des plantes",
+      "teach": "Les fleurs font des graines. Le pollen passe de l’étamine au stigmate (pollinisation), une graine se forme (fécondation), puis elle est dispersée par le vent, l’eau ou les animaux et germe.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Bí ewéko ṣe ń bí sí i",
+      "teach": "Òdòdó ń ṣe irúgbìn. Eruku òdòdó ń lọ láti ara akọ òdòdó sí abo òdòdó (ìgbé-eruku), irúgbìn ń dá (ìlóyún), lẹ́yìn náà afẹ́fẹ́, omi tàbí ẹranko ń fọ́n irúgbìn ká, ó sì ń hù.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

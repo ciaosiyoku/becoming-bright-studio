@@ -1,0 +1,154 @@
+{
+  "id": "fr4-big-small",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 18,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "animal-elephant",
+      "animal-elephant",
+      "animal-elephant",
+      "animal-elephant",
+      "animal-elephant",
+      "animal-elephant",
+      "animal-elephant",
+      "animal-elephant",
+      "animal-elephant",
+      "animal-elephant",
+      "animal-elephant",
+      "animal-elephant",
+      "animal-elephant",
+      "animal-elephant",
+      "animal-elephant"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “grand” mean?",
+          "big",
+          "small",
+          "short",
+          "Grand means big (or tall)."
+        ],
+        [
+          "What does “petit” mean?",
+          "small",
+          "big",
+          "long",
+          "Petit means small."
+        ],
+        [
+          "What is “long” in French?",
+          "long",
+          "court",
+          "petit",
+          "Long is the same in French: long."
+        ],
+        [
+          "What does “court” mean?",
+          "short",
+          "long",
+          "big",
+          "Court means short."
+        ],
+        [
+          "An elephant is …",
+          "grand",
+          "petit",
+          "court",
+          "An elephant is big: grand."
+        ],
+        [
+          "A mouse is …",
+          "petite",
+          "grande",
+          "longue",
+          "A mouse is small: une souris petite."
+        ],
+        [
+          "What does “un grand chien” mean?",
+          "a big dog",
+          "a small dog",
+          "a long dog",
+          "Grand chien is a big dog."
+        ],
+        [
+          "What does “un petit chat” mean?",
+          "a small cat",
+          "a big cat",
+          "a fat cat",
+          "Petit chat is a small cat."
+        ],
+        [
+          "What does “gros” mean?",
+          "fat",
+          "thin",
+          "tall",
+          "Gros means fat or large."
+        ],
+        [
+          "What does “mince” mean?",
+          "thin",
+          "fat",
+          "short",
+          "Mince means thin."
+        ],
+        [
+          "What does “haut” mean?",
+          "high",
+          "low",
+          "small",
+          "Haut means high."
+        ],
+        [
+          "What does “bas” mean?",
+          "low",
+          "high",
+          "big",
+          "Bas means low."
+        ],
+        [
+          "A giraffe has a … neck.",
+          "long cou",
+          "court cou",
+          "petit cou",
+          "A giraffe has a long neck: un long cou."
+        ],
+        [
+          "What does “très grand” mean?",
+          "very big",
+          "very small",
+          "not big",
+          "Très means very."
+        ],
+        [
+          "Which word is the opposite of “grand”?",
+          "petit",
+          "long",
+          "gros",
+          "Grand (big) and petit (small) are opposites."
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-elephant",
+  "example": {
+    "i": 0,
+    "q_en": "What does “grand” mean?",
+    "answer_en": "big",
+    "why_en": "Grand means big (or tall)."
+  },
+  "text": {
+    "en": {
+      "title": "Big and small in French",
+      "teach": "Describing words in French: grand (big), petit (small), long, court (short), gros (fat), mince (thin).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

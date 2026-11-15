@@ -1,0 +1,154 @@
+{
+  "id": "fr4-toys",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 15,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is “a ball” in French?",
+          "un ballon",
+          "une poupée",
+          "un livre",
+          "A ball is un ballon."
+        ],
+        [
+          "What is “a teddy” in French?",
+          "un nounours",
+          "un ballon",
+          "un vélo",
+          "A teddy is un nounours."
+        ],
+        [
+          "What is “a doll” in French?",
+          "une poupée",
+          "un nounours",
+          "une voiture",
+          "A doll is une poupée."
+        ],
+        [
+          "What does “un vélo” mean?",
+          "a bike",
+          "a ball",
+          "a kite",
+          "Un vélo is a bike."
+        ],
+        [
+          "What does “une voiture” mean?",
+          "a car",
+          "a doll",
+          "a game",
+          "Une voiture is a car (a toy car too)."
+        ],
+        [
+          "What is “a game” in French?",
+          "un jeu",
+          "un vélo",
+          "un train",
+          "A game is un jeu."
+        ],
+        [
+          "What does “un cerf-volant” mean?",
+          "a kite",
+          "a ball",
+          "a teddy",
+          "Un cerf-volant is a kite."
+        ],
+        [
+          "What is “a book” in French?",
+          "un livre",
+          "un jeu",
+          "un ballon",
+          "A book is un livre."
+        ],
+        [
+          "What does “un train” mean?",
+          "a train",
+          "a plane",
+          "a car",
+          "Un train is a train: the same word!"
+        ],
+        [
+          "What does “je joue” mean?",
+          "I play",
+          "I eat",
+          "I sleep",
+          "Je joue means I play."
+        ],
+        [
+          "What is “a puzzle” in French?",
+          "un puzzle",
+          "une poupée",
+          "un vélo",
+          "A puzzle is un puzzle."
+        ],
+        [
+          "What does “un avion” mean?",
+          "a plane",
+          "a train",
+          "a boat",
+          "Un avion is a plane."
+        ],
+        [
+          "What does “un bateau” mean?",
+          "a boat",
+          "a bike",
+          "a ball",
+          "Un bateau is a boat."
+        ],
+        [
+          "What does “les cubes” mean?",
+          "building blocks",
+          "crayons",
+          "books",
+          "Les cubes are building blocks."
+        ],
+        [
+          "What does “mon jouet préféré” mean?",
+          "my favourite toy",
+          "my new book",
+          "my big ball",
+          "Jouet means toy and préféré means favourite."
+        ]
+      ]
+    }
+  },
+  "emoji": "teddy",
+  "example": {
+    "i": 0,
+    "q_en": "What is “a ball” in French?",
+    "answer_en": "un ballon",
+    "why_en": "A ball is un ballon."
+  },
+  "text": {
+    "en": {
+      "title": "Toys in French",
+      "teach": "Toys in French: le ballon (ball), la poupée (doll), le nounours (teddy), le jeu (game).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

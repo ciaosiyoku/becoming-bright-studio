@@ -3,6 +3,9 @@
   "kind": "comparison",
   "subject": "words",
   "stage": 4,
+  "ages": [
+    "8-9"
+  ],
   "order": 13,
   "only": "en",
   "params": {

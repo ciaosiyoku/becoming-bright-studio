@@ -1,0 +1,154 @@
+{
+  "id": "fr4-farm",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 16,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "animal-cow",
+      "animal-cow",
+      "animal-cow",
+      "animal-cow",
+      "animal-cow",
+      "animal-cow",
+      "animal-cow",
+      "animal-cow",
+      "animal-cow",
+      "animal-cow",
+      "animal-cow",
+      "animal-cow",
+      "animal-cow",
+      "animal-cow",
+      "animal-cow"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is “a cow” in French?",
+          "une vache",
+          "un cochon",
+          "un cheval",
+          "A cow is une vache."
+        ],
+        [
+          "What is “a pig” in French?",
+          "un cochon",
+          "une vache",
+          "un canard",
+          "A pig is un cochon."
+        ],
+        [
+          "What is “a horse” in French?",
+          "un cheval",
+          "un chien",
+          "un mouton",
+          "A horse is un cheval."
+        ],
+        [
+          "What does “un mouton” mean?",
+          "a sheep",
+          "a goat",
+          "a cow",
+          "Un mouton is a sheep."
+        ],
+        [
+          "What does “une poule” mean?",
+          "a hen",
+          "a duck",
+          "a cat",
+          "Une poule is a hen."
+        ],
+        [
+          "What does “un canard” mean?",
+          "a duck",
+          "a hen",
+          "a horse",
+          "Un canard is a duck."
+        ],
+        [
+          "What does “une chèvre” mean?",
+          "a goat",
+          "a sheep",
+          "a pig",
+          "Une chèvre is a goat."
+        ],
+        [
+          "What does “un lapin” mean?",
+          "a rabbit",
+          "a mouse",
+          "a dog",
+          "Un lapin is a rabbit."
+        ],
+        [
+          "What does “la ferme” mean?",
+          "the farm",
+          "the field",
+          "the barn",
+          "La ferme is the farm."
+        ],
+        [
+          "What does a French cow say?",
+          "meuh",
+          "cocorico",
+          "coin-coin",
+          "In French a cow says meuh."
+        ],
+        [
+          "What does a French rooster say?",
+          "cocorico",
+          "meuh",
+          "ouaf",
+          "In French a rooster says cocorico."
+        ],
+        [
+          "What does a French duck say?",
+          "coin-coin",
+          "miaou",
+          "meuh",
+          "In French a duck says coin-coin."
+        ],
+        [
+          "What is “a dog” in French?",
+          "un chien",
+          "un chat",
+          "un cheval",
+          "A dog is un chien."
+        ],
+        [
+          "What is “a cat” in French?",
+          "un chat",
+          "un chien",
+          "un canard",
+          "A cat is un chat."
+        ],
+        [
+          "What does “un âne” mean?",
+          "a donkey",
+          "a horse",
+          "a goat",
+          "Un âne is a donkey."
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-cow",
+  "example": {
+    "i": 0,
+    "q_en": "What is “a cow” in French?",
+    "answer_en": "une vache",
+    "why_en": "A cow is une vache."
+  },
+  "text": {
+    "en": {
+      "title": "Farm animals in French",
+      "teach": "On the farm: la vache (cow), le cochon (pig), le mouton (sheep), la poule (hen), le cheval (horse).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

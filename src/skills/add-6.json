@@ -1,0 +1,45 @@
+{
+  "id": "add-6",
+  "kind": "add",
+  "subject": "numbers",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 13,
+  "params": {
+    "max": 6
+  },
+  "emoji": "animal-rabbit",
+  "example": {
+    "a": 5,
+    "b": 1,
+    "answer": 6
+  },
+  "text": {
+    "en": {
+      "title": "Add within 6",
+      "teach": "Start at the first number and jump forward. {a} and {b} more: jump from {a}, {b} hops, to {answer}.",
+      "prompt": "What is {a} + {b}?",
+      "reason": "Start at {a}, jump {b} → {answer}."
+    },
+    "de": {
+      "title": "Plus bis 6",
+      "teach": "Fang bei der ersten Zahl an und spring vorwärts. {a} und {b} mehr: von {a} aus {b} Sprünge, bis {answer}.",
+      "prompt": "Was ist {a} + {b}?",
+      "reason": "Fang bei {a} an, spring {b} weiter → {answer}."
+    },
+    "fr": {
+      "title": "Additionner jusqu’à 6",
+      "teach": "Pars du premier nombre et saute en avant. {a} et encore {b} : depuis {a}, {b} sauts, jusqu’à {answer}.",
+      "prompt": "Combien font {a} + {b} ?",
+      "reason": "Pars de {a}, saute {b} fois → {answer}."
+    },
+    "yo": {
+      "title": "Àròpọ̀ títí dé 6",
+      "teach": "Bẹ̀rẹ̀ ní nọ́ńbà àkọ́kọ́ kí o sì fò síwájú. {a} àti {b} sí i: láti {a}, fò ìgbà {b}, sí {answer}.",
+      "prompt": "Kí ni {a} + {b}?",
+      "reason": "Bẹ̀rẹ̀ ní {a}, fò ìgbà {b} → {answer}."
+    }
+  }
+}

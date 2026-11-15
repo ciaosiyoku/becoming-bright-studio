@@ -1,0 +1,154 @@
+{
+  "id": "fr10-future",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 41,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "airplane",
+      "airplane",
+      "airplane",
+      "airplane",
+      "airplane",
+      "airplane",
+      "airplane",
+      "airplane",
+      "airplane",
+      "airplane",
+      "airplane",
+      "airplane",
+      "airplane",
+      "airplane",
+      "airplane"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Je ___ au tennis demain. (jouer)",
+          "jouerai",
+          "joueras",
+          "jouerons",
+          "With je, the future ending is -ai: jouerai."
+        ],
+        [
+          "Tu ___ à Paris. (voyager)",
+          "voyageras",
+          "voyagerai",
+          "voyagerez",
+          "With tu, the ending is -as: voyageras."
+        ],
+        [
+          "Il ___ la porte. (fermer)",
+          "fermera",
+          "fermerai",
+          "fermeront",
+          "With il, the ending is -a: fermera."
+        ],
+        [
+          "Nous ___ un gâteau. (manger)",
+          "mangerons",
+          "mangerez",
+          "mangera",
+          "With nous, the ending is -ons: mangerons."
+        ],
+        [
+          "Vous ___ demain. (arriver)",
+          "arriverez",
+          "arriverons",
+          "arrivera",
+          "With vous, the ending is -ez: arriverez."
+        ],
+        [
+          "Elles ___ la télé. (regarder)",
+          "regarderont",
+          "regardera",
+          "regarderons",
+          "With elles, the ending is -ont: regarderont."
+        ],
+        [
+          "What does “Je serai” mean?",
+          "I will be",
+          "I was",
+          "I am",
+          "Serai is the future of être."
+        ],
+        [
+          "What does “J’aurai” mean?",
+          "I will have",
+          "I had",
+          "I have",
+          "Aurai is the future of avoir."
+        ],
+        [
+          "What does “J’irai” mean?",
+          "I will go",
+          "I went",
+          "I go",
+          "Irai is the future of aller."
+        ],
+        [
+          "What does “Il fera beau” mean?",
+          "The weather will be nice",
+          "The weather was nice",
+          "He will make something nice",
+          "Fera is the future of faire: il fera beau."
+        ],
+        [
+          "Which sentence is in the future?",
+          "Je finirai demain.",
+          "J’ai fini hier.",
+          "Je finis maintenant.",
+          "Finirai is the future."
+        ],
+        [
+          "What does “l’année prochaine” mean?",
+          "next year",
+          "last year",
+          "this year",
+          "Prochaine means next."
+        ],
+        [
+          "Nous ___ en vacances. (partir)",
+          "partirons",
+          "partirez",
+          "partira",
+          "With nous: partirons."
+        ],
+        [
+          "What does “Je serai médecin” mean?",
+          "I will be a doctor",
+          "I was a doctor",
+          "I would like a doctor",
+          "Serai means will be."
+        ],
+        [
+          "What does “Ils viendront” mean?",
+          "They will come",
+          "They came",
+          "They come",
+          "Viendront is the future of venir."
+        ]
+      ]
+    }
+  },
+  "emoji": "airplane",
+  "example": {
+    "i": 0,
+    "q_en": "Je ___ au tennis demain. (jouer)",
+    "answer_en": "jouerai",
+    "why_en": "With je, the future ending is -ai: jouerai."
+  },
+  "text": {
+    "en": {
+      "title": "The future tense",
+      "teach": "The future tense adds endings to the infinitive: je jouerai, tu joueras, il jouera, nous jouerons, vous jouerez, ils joueront.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

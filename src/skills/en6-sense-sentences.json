@@ -1,0 +1,154 @@
+{
+  "id": "en6-sense-sentences",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 106,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "openbook",
+      "openbook",
+      "openbook",
+      "openbook",
+      "openbook",
+      "openbook",
+      "openbook",
+      "openbook",
+      "openbook",
+      "openbook",
+      "openbook",
+      "openbook",
+      "openbook",
+      "openbook",
+      "openbook"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which sentence makes sense?",
+          "The dog barked at the cat.",
+          "The cat barked at the moon pie.",
+          "The table ate the dog.",
+          "Dogs bark, so “The dog barked at the cat” makes sense."
+        ],
+        [
+          "Which sentence makes sense?",
+          "I drink milk from a cup.",
+          "I drink a cup from milk.",
+          "The milk drinks me.",
+          "We drink milk from a cup."
+        ],
+        [
+          "Which sentence makes sense?",
+          "Fish swim in the sea.",
+          "Fish fly in the sky.",
+          "The sea swims in fish.",
+          "Fish live and swim in the sea."
+        ],
+        [
+          "Which sentence makes sense?",
+          "Birds build nests in trees.",
+          "Trees build birds in nests.",
+          "Nests eat birds.",
+          "Birds build their nests in trees."
+        ],
+        [
+          "Which sentence makes sense?",
+          "We wear coats when it is cold.",
+          "We wear coats in the bath.",
+          "Coats wear us when it is hot.",
+          "Coats keep us warm when it is cold."
+        ],
+        [
+          "Which sentence makes sense?",
+          "The sun rises in the morning.",
+          "The sun rises at midnight.",
+          "The morning rises in the sun.",
+          "The sun comes up in the morning."
+        ],
+        [
+          "Which sentence makes sense?",
+          "I brush my teeth before bed.",
+          "I brush my bed before teeth.",
+          "My teeth brush me.",
+          "We brush our teeth before bed."
+        ],
+        [
+          "Which sentence makes sense?",
+          "Ice cream melts in the sun.",
+          "Ice cream freezes in the sun.",
+          "The sun melts in ice cream.",
+          "Heat from the sun melts ice cream."
+        ],
+        [
+          "Which sentence makes sense?",
+          "A baker makes bread.",
+          "Bread makes a baker.",
+          "A baker eats the oven.",
+          "Bakers bake bread."
+        ],
+        [
+          "Which sentence makes sense?",
+          "Cows eat grass in the field.",
+          "Grass eats cows in the field.",
+          "Cows eat fields in the grass.",
+          "Cows graze on grass in fields."
+        ],
+        [
+          "Which sentence makes sense?",
+          "Rain falls from the clouds.",
+          "Clouds fall from the rain.",
+          "Rain falls up to the clouds.",
+          "Rain falls down from clouds."
+        ],
+        [
+          "Which sentence makes sense?",
+          "I read a book at bedtime.",
+          "A book reads me at bedtime.",
+          "I read a bed at booktime.",
+          "People read books, not the other way round."
+        ],
+        [
+          "Which sentence makes sense?",
+          "The baby is sleeping in the cot.",
+          "The cot is sleeping in the baby.",
+          "The baby is sleeping in the oven.",
+          "Babies sleep in cots."
+        ],
+        [
+          "Which sentence makes sense?",
+          "We cut paper with scissors.",
+          "We cut scissors with paper.",
+          "Paper cuts us with scissors.",
+          "Scissors are for cutting paper."
+        ],
+        [
+          "Which sentence makes sense?",
+          "Leaves fall from trees in autumn.",
+          "Trees fall from leaves in autumn.",
+          "Leaves grow on clouds in autumn.",
+          "In autumn, leaves fall from trees."
+        ]
+      ]
+    }
+  },
+  "emoji": "openbook",
+  "example": {
+    "i": 0,
+    "q_en": "Which sentence makes sense?",
+    "answer_en": "The dog barked at the cat.",
+    "why_en": "Dogs bark, so “The dog barked at the cat” makes sense."
+  },
+  "text": {
+    "en": {
+      "title": "Does it make sense?",
+      "teach": "Read each sentence and picture it. Only one makes sense in real life.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

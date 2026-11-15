@@ -1,0 +1,37 @@
+{
+  "id": "qr-missing-15",
+  "kind": "qr-balance",
+  "subject": "quantitative",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 30,
+  "only": "en",
+  "params": {
+    "max": 15,
+    "ops": [
+      "add",
+      "sub"
+    ]
+  },
+  "emoji": "abacus",
+  "example": {
+    "op": "add",
+    "a": 5,
+    "b": 7,
+    "c": 12,
+    "blank": "second",
+    "answer": 7,
+    "shown": "5 + ? = 12",
+    "full": "5 + 7 = 12"
+  },
+  "text": {
+    "en": {
+      "title": "Missing numbers to 15",
+      "teach": "Something is hiding behind the ?. {shown}: which number and 2 make 5? 3, because {full}.",
+      "prompt": "What is the missing number?",
+      "reason": "{full}, so the missing number is {answer}."
+    }
+  }
+}

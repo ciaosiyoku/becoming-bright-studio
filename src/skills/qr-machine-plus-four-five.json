@@ -1,0 +1,38 @@
+{
+  "id": "qr-machine-plus-four-five",
+  "kind": "qr-machine",
+  "subject": "quantitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 22,
+  "only": "en",
+  "params": {
+    "steps": [
+      "+4",
+      "+5"
+    ],
+    "ins": [
+      0,
+      10
+    ]
+  },
+  "emoji": "gear",
+  "example": {
+    "in": 5,
+    "step1": "+5",
+    "step2": "",
+    "machine": "+5",
+    "answer": 10,
+    "working": "5 +5 = 10"
+  },
+  "text": {
+    "en": {
+      "title": "Adding machines: +4 and +5",
+      "teach": "A number goes in and the machine changes it. {in} goes in, the machine does {machine}: {working}.",
+      "prompt": "{in} goes into the machine. What comes out?",
+      "reason": "{working}."
+    }
+  }
+}

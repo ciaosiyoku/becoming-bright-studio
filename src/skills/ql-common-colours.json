@@ -1,0 +1,62 @@
+{
+  "id": "ql-common-colours",
+  "kind": "ql-common",
+  "subject": "qualitative",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 30,
+  "only": "en",
+  "params": {
+    "qualities": {
+      "green": [
+        "grass",
+        "a frog",
+        "a leaf",
+        "peas",
+        "broccoli",
+        "a lime"
+      ],
+      "yellow": [
+        "a banana",
+        "a lemon",
+        "a sunflower",
+        "a duckling",
+        "a buttercup",
+        "butter"
+      ],
+      "white": [
+        "snow",
+        "milk",
+        "a polar bear",
+        "a swan",
+        "sugar",
+        "a snowman"
+      ],
+      "red": [
+        "a strawberry",
+        "a tomato",
+        "a ladybird",
+        "a cherry",
+        "a fire engine",
+        "a postbox"
+      ]
+    }
+  },
+  "emoji": "palette",
+  "example": {
+    "answer": "yellow",
+    "things": "a buttercup, a duckling, butter",
+    "last": "butter",
+    "first": "a buttercup, a duckling"
+  },
+  "text": {
+    "en": {
+      "title": "What colour are they all?",
+      "teach": "Find the one word that is true of all three. {first} and {last} are all {answer}.",
+      "prompt": "Which word describes all three?",
+      "reason": "{first} and {last} are all {answer}."
+    }
+  }
+}

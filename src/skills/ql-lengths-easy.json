@@ -1,0 +1,60 @@
+{
+  "id": "ql-lengths-easy",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 31,
+  "only": "en",
+  "params": {
+    "lists": {
+      "length": [
+        [
+          "a grain of rice"
+        ],
+        [
+          "a crayon"
+        ],
+        [
+          "a shoe"
+        ],
+        [
+          "a bed"
+        ],
+        [
+          "a car"
+        ],
+        [
+          "a train"
+        ]
+      ]
+    }
+  },
+  "emoji": "road",
+  "example": {
+    "rule": "length-least",
+    "list": "length",
+    "ask": "least",
+    "items": "a crayon|a shoe|a train",
+    "order": "a crayon, a shoe, a train",
+    "answer": "a crayon"
+  },
+  "text": {
+    "en": {
+      "title": "Longest and shortest",
+      "teach": "Think about how long each one is. From shortest to longest: {order}. The longest is {answer}.",
+      "prompt": "Which is the longest?",
+      "prompts": {
+        "length-most": "Which is the longest?",
+        "length-least": "Which is the shortest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "length-most": "From shortest to longest: {order}. The longest is {answer}.",
+        "length-least": "From shortest to longest: {order}. The shortest is {answer}."
+      }
+    }
+  }
+}

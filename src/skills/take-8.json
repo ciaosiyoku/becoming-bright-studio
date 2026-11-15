@@ -1,0 +1,45 @@
+{
+  "id": "take-8",
+  "kind": "subtract",
+  "subject": "numbers",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 18,
+  "params": {
+    "max": 8
+  },
+  "emoji": "animal-penguin",
+  "example": {
+    "a": 2,
+    "b": 1,
+    "answer": 1
+  },
+  "text": {
+    "en": {
+      "title": "Take away within 8",
+      "teach": "Start at the first number and jump back. {a} take away {b}: jump back {b} hops, to {answer}.",
+      "prompt": "What is {a} − {b}?",
+      "reason": "Start at {a}, jump back {b} → {answer}."
+    },
+    "de": {
+      "title": "Minus bis 8",
+      "teach": "Fang bei der ersten Zahl an und spring zurück. {a} minus {b}: {b} Sprünge zurück, auf {answer}.",
+      "prompt": "Was ist {a} − {b}?",
+      "reason": "Fang bei {a} an, spring {b} zurück → {answer}."
+    },
+    "fr": {
+      "title": "Soustraire jusqu’à 8",
+      "teach": "Pars du premier nombre et saute en arrière. {a} moins {b} : {b} sauts en arrière, jusqu’à {answer}.",
+      "prompt": "Combien font {a} − {b} ?",
+      "reason": "Pars de {a}, recule de {b} → {answer}."
+    },
+    "yo": {
+      "title": "Àyọkúrò títí dé 8",
+      "teach": "Bẹ̀rẹ̀ ní nọ́ńbà àkọ́kọ́ kí o sì fò sẹ́yìn. {a} yọ {b}: fò sẹ́yìn ìgbà {b}, sí {answer}.",
+      "prompt": "Kí ni {a} − {b}?",
+      "reason": "Bẹ̀rẹ̀ ní {a}, fò sẹ́yìn ìgbà {b} → {answer}."
+    }
+  }
+}

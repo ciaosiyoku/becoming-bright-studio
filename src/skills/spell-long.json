@@ -3,6 +3,9 @@
   "kind": "spelling",
   "subject": "words",
   "stage": 3,
+  "ages": [
+    "8-9"
+  ],
   "order": 8,
   "only": "en",
   "params": {

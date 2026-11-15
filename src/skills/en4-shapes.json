@@ -1,0 +1,154 @@
+{
+  "id": "en4-shapes",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 111,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which shape is round, with no corners?",
+          "circle",
+          "square",
+          "triangle",
+          "A circle is round all the way and has no corners."
+        ],
+        [
+          "Which shape has 3 sides?",
+          "triangle",
+          "circle",
+          "square",
+          "A triangle has 3 sides and 3 corners."
+        ],
+        [
+          "Which shape has 4 sides that are all the same?",
+          "square",
+          "triangle",
+          "circle",
+          "A square has 4 equal sides and 4 corners."
+        ],
+        [
+          "What shape is a ball?",
+          "round",
+          "square",
+          "flat",
+          "A ball is round, so it can roll."
+        ],
+        [
+          "What shape is a slice of pizza?",
+          "triangle",
+          "circle",
+          "square",
+          "A slice of pizza is pointed at one end, like a triangle."
+        ],
+        [
+          "What shape is a door?",
+          "rectangle",
+          "circle",
+          "triangle",
+          "A door has 4 sides: two long and two short. That is a rectangle."
+        ],
+        [
+          "What shape is a coin?",
+          "circle",
+          "square",
+          "triangle",
+          "A coin is round and flat, like a circle."
+        ],
+        [
+          "Which shape has 4 sides, two long and two short?",
+          "rectangle",
+          "square",
+          "circle",
+          "A rectangle has two long sides and two short sides."
+        ],
+        [
+          "What shape is a star on a Christmas tree?",
+          "star",
+          "circle",
+          "square",
+          "A star has points sticking out all around."
+        ],
+        [
+          "What shape is the full moon?",
+          "circle",
+          "triangle",
+          "rectangle",
+          "The full moon looks round, like a circle."
+        ],
+        [
+          "What shape do we draw to show love?",
+          "heart",
+          "circle",
+          "square",
+          "We draw a heart shape to show love."
+        ],
+        [
+          "How many corners does a triangle have?",
+          "three",
+          "four",
+          "none",
+          "A triangle has 3 sides and 3 corners."
+        ],
+        [
+          "How many corners does a circle have?",
+          "none",
+          "three",
+          "four",
+          "A circle is round all the way, so it has no corners."
+        ],
+        [
+          "What shape is a window pane, with 4 equal sides?",
+          "square",
+          "circle",
+          "triangle",
+          "Four equal sides make a square."
+        ],
+        [
+          "What shape is an egg?",
+          "oval",
+          "square",
+          "triangle",
+          "An egg is round but longer one way: an oval."
+        ]
+      ]
+    }
+  },
+  "emoji": "puzzle",
+  "example": {
+    "i": 0,
+    "q_en": "Which shape is round, with no corners?",
+    "answer_en": "circle",
+    "why_en": "A circle is round all the way and has no corners."
+  },
+  "text": {
+    "en": {
+      "title": "Shape names",
+      "teach": "Count the sides and look at the corners. A triangle has 3 sides, a square has 4 equal sides, a circle is round.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

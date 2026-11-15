@@ -1,0 +1,154 @@
+{
+  "id": "fr4-actions",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 19,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints",
+      "footprints"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “sauter” mean?",
+          "to jump",
+          "to run",
+          "to sing",
+          "Sauter means to jump."
+        ],
+        [
+          "What does “courir” mean?",
+          "to run",
+          "to sleep",
+          "to eat",
+          "Courir means to run."
+        ],
+        [
+          "What does “danser” mean?",
+          "to dance",
+          "to sing",
+          "to swim",
+          "Danser means to dance."
+        ],
+        [
+          "What does “chanter” mean?",
+          "to sing",
+          "to dance",
+          "to read",
+          "Chanter means to sing."
+        ],
+        [
+          "What does “dormir” mean?",
+          "to sleep",
+          "to run",
+          "to play",
+          "Dormir means to sleep."
+        ],
+        [
+          "What does “manger” mean?",
+          "to eat",
+          "to drink",
+          "to sleep",
+          "Manger means to eat."
+        ],
+        [
+          "What does “boire” mean?",
+          "to drink",
+          "to eat",
+          "to jump",
+          "Boire means to drink."
+        ],
+        [
+          "What does “nager” mean?",
+          "to swim",
+          "to fly",
+          "to walk",
+          "Nager means to swim."
+        ],
+        [
+          "What does “marcher” mean?",
+          "to walk",
+          "to run",
+          "to sit",
+          "Marcher means to walk."
+        ],
+        [
+          "What does “jouer” mean?",
+          "to play",
+          "to work",
+          "to sleep",
+          "Jouer means to play."
+        ],
+        [
+          "What is “to jump” in French?",
+          "sauter",
+          "courir",
+          "dormir",
+          "To jump is sauter."
+        ],
+        [
+          "What is “to sing” in French?",
+          "chanter",
+          "danser",
+          "manger",
+          "To sing is chanter."
+        ],
+        [
+          "What does “lire” mean?",
+          "to read",
+          "to write",
+          "to sing",
+          "Lire means to read."
+        ],
+        [
+          "What does “dessiner” mean?",
+          "to draw",
+          "to dance",
+          "to drink",
+          "Dessiner means to draw."
+        ],
+        [
+          "What does “s’asseoir” mean?",
+          "to sit down",
+          "to stand up",
+          "to lie down",
+          "S’asseoir means to sit down."
+        ]
+      ]
+    }
+  },
+  "emoji": "footprints",
+  "example": {
+    "i": 0,
+    "q_en": "What does “sauter” mean?",
+    "answer_en": "to jump",
+    "why_en": "Sauter means to jump."
+  },
+  "text": {
+    "en": {
+      "title": "Action words in French",
+      "teach": "Doing words in French: sauter (jump), courir (run), danser (dance), chanter (sing), dormir (sleep).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

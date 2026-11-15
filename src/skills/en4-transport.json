@@ -1,0 +1,154 @@
+{
+  "id": "en4-transport",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 114,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What flies in the sky and carries people?",
+          "a plane",
+          "a bus",
+          "a boat",
+          "A plane has wings and flies in the sky."
+        ],
+        [
+          "What goes on water?",
+          "a boat",
+          "a bike",
+          "a car",
+          "A boat floats and goes on water."
+        ],
+        [
+          "What runs on rails?",
+          "a train",
+          "a boat",
+          "a plane",
+          "A train runs along rails."
+        ],
+        [
+          "What has two wheels and pedals?",
+          "a bike",
+          "a bus",
+          "a train",
+          "A bike has two wheels and you push the pedals."
+        ],
+        [
+          "What big vehicle takes lots of people along the road?",
+          "a bus",
+          "a bike",
+          "a boat",
+          "A bus carries lots of people on the road."
+        ],
+        [
+          "What do firefighters drive?",
+          "a fire engine",
+          "a bus",
+          "a tractor",
+          "Firefighters drive a fire engine with a ladder and hoses."
+        ],
+        [
+          "What does a farmer drive in the field?",
+          "a tractor",
+          "a plane",
+          "a boat",
+          "A farmer drives a tractor in the fields."
+        ],
+        [
+          "What goes up into space?",
+          "a rocket",
+          "a bike",
+          "a bus",
+          "A rocket blasts off into space."
+        ],
+        [
+          "What slides down a snowy hill?",
+          "a sledge",
+          "a car",
+          "a boat",
+          "A sledge slides over the snow."
+        ],
+        [
+          "What has a siren and takes people to hospital?",
+          "an ambulance",
+          "a tractor",
+          "a bike",
+          "An ambulance takes sick people to hospital."
+        ],
+        [
+          "What flies with spinning blades on top?",
+          "a helicopter",
+          "a boat",
+          "a train",
+          "A helicopter has spinning blades on top."
+        ],
+        [
+          "What do you push with one foot, standing on it?",
+          "a scooter",
+          "a plane",
+          "a bus",
+          "You stand on a scooter and push with one foot."
+        ],
+        [
+          "How many wheels does a car usually have?",
+          "four",
+          "two",
+          "one",
+          "A car usually has four wheels."
+        ],
+        [
+          "Where does a plane take off?",
+          "at an airport",
+          "at a station",
+          "at a harbour",
+          "Planes take off and land at an airport."
+        ],
+        [
+          "Where does a train stop for people?",
+          "at a station",
+          "at an airport",
+          "at a harbour",
+          "Trains stop at stations for people to get on and off."
+        ]
+      ]
+    }
+  },
+  "emoji": "bus",
+  "example": {
+    "i": 0,
+    "q_en": "What flies in the sky and carries people?",
+    "answer_en": "a plane",
+    "why_en": "A plane has wings and flies in the sky."
+  },
+  "text": {
+    "en": {
+      "title": "Things that go",
+      "teach": "Some things go on roads, some on rails, some on water and some in the sky. A boat goes on water, a plane flies.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

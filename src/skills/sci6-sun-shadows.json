@@ -1,0 +1,443 @@
+{
+  "id": "sci6-sun-shadows",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 112,
+  "params": {
+    "emojis": [
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun"
+    ],
+    "bank": {
+      "en": [
+        [
+          "When are shadows shortest?",
+          "at midday",
+          "in the early morning",
+          "in the evening",
+          "The sun is highest at midday."
+        ],
+        [
+          "When are shadows longest?",
+          "early morning and evening",
+          "at midday",
+          "never",
+          "A low sun makes long shadows."
+        ],
+        [
+          "Where does the sun rise?",
+          "in the east",
+          "in the west",
+          "in the north",
+          "The sun rises in the east."
+        ],
+        [
+          "Where does the sun set?",
+          "in the west",
+          "in the east",
+          "in the south",
+          "The sun sets in the west."
+        ],
+        [
+          "Does the sun really move round the Earth?",
+          "no, the Earth spins",
+          "yes, every day",
+          "only in summer",
+          "The Earth spins, so the sun seems to move."
+        ],
+        [
+          "Which side of you is your shadow on?",
+          "the side away from the light",
+          "the side facing the light",
+          "always above you",
+          "Shadows fall on the side away from the light."
+        ],
+        [
+          "How can you protect your skin from strong sun?",
+          "sun cream and a hat",
+          "a woolly scarf",
+          "staying in the sun all day",
+          "Sun cream and a hat stop sunburn."
+        ],
+        [
+          "What could you use to tell the time from the sun?",
+          "a sundial",
+          "a thermometer",
+          "a ruler",
+          "A sundial uses a shadow to show the time."
+        ],
+        [
+          "What is the sun?",
+          "a star",
+          "a planet",
+          "a moon",
+          "The sun is our nearest star."
+        ],
+        [
+          "Why is it dark at night?",
+          "our side of the Earth faces away from the sun",
+          "the sun switches off",
+          "clouds hide everything",
+          "As the Earth spins, our side turns away from the sun."
+        ],
+        [
+          "How long does the Earth take to spin round once?",
+          "one day",
+          "one week",
+          "one year",
+          "One spin takes about 24 hours."
+        ],
+        [
+          "Is it safe to look at the sun through sunglasses?",
+          "no, never look straight at it",
+          "yes, for as long as you like",
+          "yes, at midday",
+          "Looking at the sun can hurt your eyes, even with sunglasses."
+        ],
+        [
+          "What happens to a shadow as the sun moves across the sky?",
+          "it moves and changes length",
+          "it stays exactly the same",
+          "it turns into light",
+          "As the sun’s position changes, shadows move and change."
+        ]
+      ],
+      "de": [
+        [
+          "Wann sind Schatten am kürzesten?",
+          "mittags",
+          "früh am Morgen",
+          "abends",
+          "Mittags steht die Sonne am höchsten."
+        ],
+        [
+          "Wann sind Schatten am längsten?",
+          "früh morgens und abends",
+          "mittags",
+          "nie",
+          "Eine tiefe Sonne macht lange Schatten."
+        ],
+        [
+          "Wo geht die Sonne auf?",
+          "im Osten",
+          "im Westen",
+          "im Norden",
+          "Die Sonne geht im Osten auf."
+        ],
+        [
+          "Wo geht die Sonne unter?",
+          "im Westen",
+          "im Osten",
+          "im Süden",
+          "Die Sonne geht im Westen unter."
+        ],
+        [
+          "Bewegt sich die Sonne wirklich um die Erde?",
+          "nein, die Erde dreht sich",
+          "ja, jeden Tag",
+          "nur im Sommer",
+          "Die Erde dreht sich, darum scheint die Sonne zu wandern."
+        ],
+        [
+          "Auf welcher Seite ist dein Schatten?",
+          "auf der Seite weg vom Licht",
+          "auf der Seite zum Licht",
+          "immer über dir",
+          "Schatten fallen auf die lichtabgewandte Seite."
+        ],
+        [
+          "Wie schützt du deine Haut vor starker Sonne?",
+          "Sonnencreme und Hut",
+          "ein Wollschal",
+          "den ganzen Tag in der Sonne bleiben",
+          "Sonnencreme und Hut schützen vor Sonnenbrand."
+        ],
+        [
+          "Womit kann man an der Sonne die Zeit ablesen?",
+          "mit einer Sonnenuhr",
+          "mit einem Thermometer",
+          "mit einem Lineal",
+          "Eine Sonnenuhr zeigt mit einem Schatten die Zeit."
+        ],
+        [
+          "Was ist die Sonne?",
+          "ein Stern",
+          "ein Planet",
+          "ein Mond",
+          "Die Sonne ist unser nächster Stern."
+        ],
+        [
+          "Warum ist es nachts dunkel?",
+          "unsere Erdseite ist von der Sonne abgewandt",
+          "die Sonne schaltet sich aus",
+          "Wolken verdecken alles",
+          "Die Erde dreht sich, unsere Seite zeigt weg von der Sonne."
+        ],
+        [
+          "Wie lange braucht die Erde für eine Drehung?",
+          "einen Tag",
+          "eine Woche",
+          "ein Jahr",
+          "Eine Drehung dauert etwa 24 Stunden."
+        ],
+        [
+          "Darf man mit Sonnenbrille in die Sonne schauen?",
+          "nein, nie direkt hineinschauen",
+          "ja, so lange man will",
+          "ja, mittags",
+          "In die Sonne zu schauen schadet den Augen, auch mit Sonnenbrille."
+        ],
+        [
+          "Was passiert mit einem Schatten, wenn die Sonne wandert?",
+          "er wandert und ändert seine Länge",
+          "er bleibt genau gleich",
+          "er wird zu Licht",
+          "Wenn die Sonne wandert, wandern die Schatten mit."
+        ]
+      ],
+      "fr": [
+        [
+          "Quand les ombres sont-elles les plus courtes ?",
+          "à midi",
+          "tôt le matin",
+          "le soir",
+          "À midi, le soleil est le plus haut."
+        ],
+        [
+          "Quand les ombres sont-elles les plus longues ?",
+          "tôt le matin et le soir",
+          "à midi",
+          "jamais",
+          "Un soleil bas fait de longues ombres."
+        ],
+        [
+          "Où le soleil se lève-t-il ?",
+          "à l’est",
+          "à l’ouest",
+          "au nord",
+          "Le soleil se lève à l’est."
+        ],
+        [
+          "Où le soleil se couche-t-il ?",
+          "à l’ouest",
+          "à l’est",
+          "au sud",
+          "Le soleil se couche à l’ouest."
+        ],
+        [
+          "Le soleil tourne-t-il vraiment autour de la Terre ?",
+          "non, c’est la Terre qui tourne",
+          "oui, chaque jour",
+          "seulement en été",
+          "La Terre tourne sur elle-même, le soleil semble bouger."
+        ],
+        [
+          "De quel côté est ton ombre ?",
+          "du côté opposé à la lumière",
+          "du côté de la lumière",
+          "toujours au-dessus de toi",
+          "L’ombre tombe du côté opposé à la lumière."
+        ],
+        [
+          "Comment protéger sa peau d’un soleil fort ?",
+          "crème solaire et chapeau",
+          "une écharpe en laine",
+          "rester au soleil toute la journée",
+          "Crème solaire et chapeau évitent les coups de soleil."
+        ],
+        [
+          "Avec quoi lire l’heure grâce au soleil ?",
+          "un cadran solaire",
+          "un thermomètre",
+          "une règle",
+          "Le cadran solaire montre l’heure avec une ombre."
+        ],
+        [
+          "Qu’est-ce que le soleil ?",
+          "une étoile",
+          "une planète",
+          "une lune",
+          "Le soleil est notre étoile la plus proche."
+        ],
+        [
+          "Pourquoi fait-il nuit ?",
+          "notre côté de la Terre est tourné à l’opposé du soleil",
+          "le soleil s’éteint",
+          "les nuages cachent tout",
+          "La Terre tourne et notre côté s’éloigne du soleil."
+        ],
+        [
+          "Combien de temps faut-il à la Terre pour faire un tour sur elle-même ?",
+          "un jour",
+          "une semaine",
+          "un an",
+          "Un tour dure environ 24 heures."
+        ],
+        [
+          "Peut-on regarder le soleil avec des lunettes de soleil ?",
+          "non, jamais en face",
+          "oui, aussi longtemps qu’on veut",
+          "oui, à midi",
+          "Regarder le soleil abîme les yeux, même avec des lunettes."
+        ],
+        [
+          "Que devient une ombre quand le soleil traverse le ciel ?",
+          "elle bouge et change de longueur",
+          "elle reste exactement pareille",
+          "elle devient lumière",
+          "Quand le soleil bouge, l’ombre bouge aussi."
+        ]
+      ],
+      "yo": [
+        [
+          "Ìgbà wo ni òjìji máa ń kúrú jù?",
+          "ní ọ̀sán gangan",
+          "ní àárọ̀ kùtù",
+          "ní ìrọ̀lẹ́",
+          "Oòrùn máa ń ga jù ní ọ̀sán gangan."
+        ],
+        [
+          "Ìgbà wo ni òjìji máa ń gùn jù?",
+          "àárọ̀ kùtù àti ìrọ̀lẹ́",
+          "ọ̀sán gangan",
+          "láéláé",
+          "Oòrùn tó wà nísàlẹ̀ ń ṣe òjìji gígùn."
+        ],
+        [
+          "Níbo ni oòrùn ti ń yọ?",
+          "ní ìlà-oòrùn",
+          "ní ìwọ̀-oòrùn",
+          "ní àríwá",
+          "Oòrùn ń yọ ní ìlà-oòrùn."
+        ],
+        [
+          "Níbo ni oòrùn ti ń wọ̀?",
+          "ní ìwọ̀-oòrùn",
+          "ní ìlà-oòrùn",
+          "ní gúúsù",
+          "Oòrùn ń wọ̀ ní ìwọ̀-oòrùn."
+        ],
+        [
+          "Ṣé oòrùn ń yí ayé ká lóòótọ́?",
+          "rárá, ayé ló ń yípo",
+          "bẹ́ẹ̀ni, lójoojúmọ́",
+          "ní ìgbà ẹ̀ẹ̀rùn nìkan",
+          "Ayé ń yípo, nítorí náà oòrùn dàbí ẹni pé ó ń rìn."
+        ],
+        [
+          "Ẹ̀gbẹ́ wo ni òjìji rẹ máa ń wà?",
+          "ẹ̀gbẹ́ tí kò kọjú sí ìmọ́lẹ̀",
+          "ẹ̀gbẹ́ tó kọjú sí ìmọ́lẹ̀",
+          "lókè rẹ nígbà gbogbo",
+          "Òjìji máa ń wà ní ẹ̀gbẹ́ tí kò kọjú sí ìmọ́lẹ̀."
+        ],
+        [
+          "Báwo lo ṣe lè dáàbò bo awọ rẹ lọ́wọ́ oòrùn líle?",
+          "ìpara oòrùn àti fìlà",
+          "ìborùn irun àgùntàn",
+          "dídúró nínú oòrùn ní gbogbo ọjọ́",
+          "Ìpara oòrùn àti fìlà ń dènà ìjóná oòrùn."
+        ],
+        [
+          "Kí lo lè lò láti mọ àkókò láti ara oòrùn?",
+          "aago oòrùn",
+          "ìwọ̀n-ooru",
+          "rúlà",
+          "Aago oòrùn ń lo òjìji láti fi àkókò hàn."
+        ],
+        [
+          "Kí ni oòrùn?",
+          "ìràwọ̀",
+          "pílánẹ́ẹ̀tì",
+          "òṣùpá",
+          "Oòrùn ni ìràwọ̀ tó súnmọ́ wa jù."
+        ],
+        [
+          "Kí ló dé tí ó fi ṣókùnkùn lóru?",
+          "ẹ̀gbẹ́ ayé wa kò kọjú sí oòrùn",
+          "oòrùn ń kú",
+          "ìkùukùu ń bo gbogbo nǹkan",
+          "Bí ayé ṣe ń yípo, ẹ̀gbẹ́ wa ń yí kúrò lọ́dọ̀ oòrùn."
+        ],
+        [
+          "Báwo ni ayé ṣe ń pẹ́ tó láti yípo lẹ́ẹ̀kan?",
+          "ọjọ́ kan",
+          "ọ̀sẹ̀ kan",
+          "ọdún kan",
+          "Yíyípo kan máa ń gba nǹkan bí wákàtí 24."
+        ],
+        [
+          "Ṣé ó dára láti wo oòrùn pẹ̀lú gíláàsì oòrùn?",
+          "rárá, má wò ó tààrà láéláé",
+          "bẹ́ẹ̀ni, fún bí o ṣe fẹ́",
+          "bẹ́ẹ̀ni, ní ọ̀sán gangan",
+          "Wíwo oòrùn lè ṣe ojú léṣe, kódà pẹ̀lú gíláàsì."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí òjìji bí oòrùn ṣe ń rìn kọjá ojú ọ̀run?",
+          "ó ń yí ipò padà, gígùn rẹ̀ sì ń yí",
+          "ó wà bákan náà gẹ́lẹ́",
+          "ó ń di ìmọ́lẹ̀",
+          "Bí ipò oòrùn ṣe ń yí, òjìji náà ń yí."
+        ]
+      ]
+    }
+  },
+  "emoji": "sun",
+  "example": {
+    "i": 0,
+    "q_en": "When are shadows shortest?",
+    "answer_en": "at midday",
+    "why_en": "The sun is highest at midday.",
+    "q_de": "Wann sind Schatten am kürzesten?",
+    "answer_de": "mittags",
+    "why_de": "Mittags steht die Sonne am höchsten.",
+    "q_fr": "Quand les ombres sont-elles les plus courtes ?",
+    "answer_fr": "à midi",
+    "why_fr": "À midi, le soleil est le plus haut.",
+    "q_yo": "Ìgbà wo ni òjìji máa ń kúrú jù?",
+    "answer_yo": "ní ọ̀sán gangan",
+    "why_yo": "Oòrùn máa ń ga jù ní ọ̀sán gangan."
+  },
+  "text": {
+    "en": {
+      "title": "The sun and shadows",
+      "teach": "The sun seems to move across the sky each day. Shadows are long in the morning and evening and short at midday.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Sonne und Schatten",
+      "teach": "Die Sonne scheint jeden Tag über den Himmel zu wandern. Schatten sind morgens und abends lang und mittags kurz.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Le soleil et les ombres",
+      "teach": "Le soleil semble traverser le ciel chaque jour. Les ombres sont longues le matin et le soir, et courtes à midi.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Oòrùn àti òjìji",
+      "teach": "Oòrùn dàbí ẹni pé ó ń rìn kọjá ojú ọ̀run lójoojúmọ́. Òjìji máa ń gùn ní òwúrọ̀ àti ìrọ̀lẹ́, ó sì máa ń kúrú ní ọ̀sán gangan.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

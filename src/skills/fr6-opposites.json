@@ -1,0 +1,154 @@
+{
+  "id": "fr6-opposites",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 26,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun",
+      "sun"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is the opposite of “chaud” (hot)?",
+          "froid",
+          "grand",
+          "lent",
+          "Chaud (hot) and froid (cold) are opposites."
+        ],
+        [
+          "What is the opposite of “grand” (big)?",
+          "petit",
+          "chaud",
+          "jeune",
+          "Grand (big) and petit (small) are opposites."
+        ],
+        [
+          "What is the opposite of “rapide” (fast)?",
+          "lent",
+          "froid",
+          "haut",
+          "Rapide (fast) and lent (slow) are opposites."
+        ],
+        [
+          "What is the opposite of “vieux” (old)?",
+          "jeune",
+          "petit",
+          "triste",
+          "Vieux (old) and jeune (young) are opposites."
+        ],
+        [
+          "What is the opposite of “content” (happy)?",
+          "triste",
+          "grand",
+          "chaud",
+          "Content (happy) and triste (sad) are opposites."
+        ],
+        [
+          "What is the opposite of “ouvert” (open)?",
+          "fermé",
+          "plein",
+          "bas",
+          "Ouvert (open) and fermé (closed) are opposites."
+        ],
+        [
+          "What is the opposite of “jour” (day)?",
+          "nuit",
+          "soleil",
+          "matin",
+          "Le jour (day) and la nuit (night) are opposites."
+        ],
+        [
+          "What is the opposite of “haut” (high)?",
+          "bas",
+          "long",
+          "lent",
+          "Haut (high) and bas (low) are opposites."
+        ],
+        [
+          "What is the opposite of “plein” (full)?",
+          "vide",
+          "fermé",
+          "froid",
+          "Plein (full) and vide (empty) are opposites."
+        ],
+        [
+          "What is the opposite of “long”?",
+          "court",
+          "grand",
+          "vieux",
+          "Long and court (short) are opposites."
+        ],
+        [
+          "What does “froid” mean?",
+          "cold",
+          "hot",
+          "wet",
+          "Froid means cold."
+        ],
+        [
+          "What does “lent” mean?",
+          "slow",
+          "fast",
+          "late",
+          "Lent means slow."
+        ],
+        [
+          "What does “triste” mean?",
+          "sad",
+          "happy",
+          "tired",
+          "Triste means sad."
+        ],
+        [
+          "What does “vide” mean?",
+          "empty",
+          "full",
+          "open",
+          "Vide means empty."
+        ],
+        [
+          "What is the opposite of “oui”?",
+          "non",
+          "merci",
+          "bonjour",
+          "Oui (yes) and non (no) are opposites."
+        ]
+      ]
+    }
+  },
+  "emoji": "sun",
+  "example": {
+    "i": 0,
+    "q_en": "What is the opposite of “chaud” (hot)?",
+    "answer_en": "froid",
+    "why_en": "Chaud (hot) and froid (cold) are opposites."
+  },
+  "text": {
+    "en": {
+      "title": "Opposites in French",
+      "teach": "Opposites in French: grand / petit (big / small), chaud / froid (hot / cold), vieux / jeune (old / young), rapide / lent (fast / slow).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

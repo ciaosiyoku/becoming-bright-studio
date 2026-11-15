@@ -1,0 +1,49 @@
+{
+  "id": "times-8-9",
+  "kind": "times",
+  "subject": "numbers",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 25,
+  "params": {
+    "tables": [
+      8,
+      9
+    ]
+  },
+  "emoji": "fruit-cherries",
+  "example": {
+    "n": 2,
+    "t": 8,
+    "answer": 16,
+    "counting": "8, 16"
+  },
+  "text": {
+    "en": {
+      "title": "The 8 and 9 times tables",
+      "teach": "{n} × {t} means {n} lots of {t}. Count in steps of {t}, {n} times: {counting}.",
+      "prompt": "What is {n} × {t}?",
+      "reason": "Count in {t}s {n} times: {counting}."
+    },
+    "de": {
+      "title": "Das 8er- und 9er-Einmaleins",
+      "teach": "{n} × {t} heißt {n}-mal die {t}. Zähl {n}-mal in {t}er-Schritten: {counting}.",
+      "prompt": "Was ist {n} × {t}?",
+      "reason": "Zähl {n}-mal in {t}er-Schritten: {counting}."
+    },
+    "fr": {
+      "title": "Les tables de 8 et 9",
+      "teach": "{n} × {t}, c’est {n} fois {t}. Compte de {t} en {t}, {n} fois : {counting}.",
+      "prompt": "Combien font {n} × {t} ?",
+      "reason": "Compte de {t} en {t}, {n} fois : {counting}."
+    },
+    "yo": {
+      "title": "Tábìlì ìsọdipúpọ̀ 8 àti 9",
+      "teach": "{n} × {t} túmọ̀ sí {t} ní ìgbà {n}. Kà ní ìgbésẹ̀ {t}, ìgbà {n}: {counting}.",
+      "prompt": "Kí ni {n} × {t}?",
+      "reason": "Kà ní {t} {t} ní ìgbà {n}: {counting}."
+    }
+  }
+}

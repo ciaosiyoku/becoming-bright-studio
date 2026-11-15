@@ -1,0 +1,154 @@
+{
+  "id": "fr6-rooms",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 23,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "house",
+      "house",
+      "house",
+      "house",
+      "house",
+      "house",
+      "house",
+      "house",
+      "house",
+      "house",
+      "house",
+      "house",
+      "house",
+      "house",
+      "house"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “la cuisine” mean?",
+          "the kitchen",
+          "the bedroom",
+          "the garden",
+          "La cuisine is the kitchen."
+        ],
+        [
+          "What does “la chambre” mean?",
+          "the bedroom",
+          "the bathroom",
+          "the kitchen",
+          "La chambre is the bedroom."
+        ],
+        [
+          "What does “la salle de bains” mean?",
+          "the bathroom",
+          "the living room",
+          "the garden",
+          "La salle de bains is the bathroom."
+        ],
+        [
+          "What does “le salon” mean?",
+          "the living room",
+          "the kitchen",
+          "the bedroom",
+          "Le salon is the living room."
+        ],
+        [
+          "What does “le jardin” mean?",
+          "the garden",
+          "the garage",
+          "the kitchen",
+          "Le jardin is the garden."
+        ],
+        [
+          "What does “le garage” mean?",
+          "the garage",
+          "the garden",
+          "the attic",
+          "Le garage is the garage."
+        ],
+        [
+          "What is “the kitchen” in French?",
+          "la cuisine",
+          "la chambre",
+          "le salon",
+          "The kitchen is la cuisine."
+        ],
+        [
+          "Where do you sleep?",
+          "dans la chambre",
+          "dans la cuisine",
+          "dans le jardin",
+          "You sleep in the bedroom: la chambre."
+        ],
+        [
+          "Where do you cook?",
+          "dans la cuisine",
+          "dans la salle de bains",
+          "dans la chambre",
+          "You cook in the kitchen: la cuisine."
+        ],
+        [
+          "What does “la salle à manger” mean?",
+          "the dining room",
+          "the bathroom",
+          "the bedroom",
+          "La salle à manger is the dining room."
+        ],
+        [
+          "What does “l’escalier” mean?",
+          "the stairs",
+          "the door",
+          "the window",
+          "L’escalier is the stairs."
+        ],
+        [
+          "What does “la porte” mean?",
+          "the door",
+          "the window",
+          "the wall",
+          "La porte is the door."
+        ],
+        [
+          "What does “la fenêtre” mean?",
+          "the window",
+          "the door",
+          "the roof",
+          "La fenêtre is the window."
+        ],
+        [
+          "What does “J’habite dans une maison” mean?",
+          "I live in a house",
+          "I play in a house",
+          "I have a house",
+          "J’habite means I live."
+        ],
+        [
+          "What does “un appartement” mean?",
+          "a flat",
+          "a garden",
+          "a garage",
+          "Un appartement is a flat (apartment)."
+        ]
+      ]
+    }
+  },
+  "emoji": "house",
+  "example": {
+    "i": 0,
+    "q_en": "What does “la cuisine” mean?",
+    "answer_en": "the kitchen",
+    "why_en": "La cuisine is the kitchen."
+  },
+  "text": {
+    "en": {
+      "title": "Rooms of the house in French",
+      "teach": "Rooms in French: la cuisine (kitchen), la chambre (bedroom), la salle de bains (bathroom), le salon (living room), le jardin (garden).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

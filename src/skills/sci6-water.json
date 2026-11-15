@@ -1,0 +1,443 @@
+{
+  "id": "sci6-water",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 107,
+  "params": {
+    "emojis": [
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does water turn into when it freezes?",
+          "ice",
+          "steam",
+          "sand",
+          "Freezing turns water into ice."
+        ],
+        [
+          "What comes off a boiling kettle?",
+          "steam",
+          "ice",
+          "smoke from fire",
+          "Very hot water turns into steam."
+        ],
+        [
+          "Where does rain come from?",
+          "clouds",
+          "trees",
+          "the ground",
+          "Rain falls from clouds."
+        ],
+        [
+          "What happens to ice in a warm room?",
+          "it melts",
+          "it grows",
+          "it turns to stone",
+          "Warmth melts ice into water."
+        ],
+        [
+          "Why do we need to drink water?",
+          "to stay alive and healthy",
+          "to change colour",
+          "to grow wings",
+          "Our bodies need water to work."
+        ],
+        [
+          "Which is frozen water?",
+          "snow",
+          "rain",
+          "juice",
+          "Snow is made of tiny ice crystals."
+        ],
+        [
+          "Where does a puddle go on a sunny day?",
+          "it dries up into the air",
+          "it sinks into the sky",
+          "it turns into ice",
+          "The sun warms the water and it evaporates."
+        ],
+        [
+          "Which place has salty water?",
+          "the sea",
+          "a river",
+          "a rain cloud",
+          "Sea water is salty; rivers are mostly fresh water."
+        ],
+        [
+          "How can we save water?",
+          "turn off the tap while brushing",
+          "leave the tap running",
+          "fill the bath to the top every time",
+          "Turning off the tap saves water."
+        ],
+        [
+          "What do plants, animals and people all need?",
+          "water",
+          "chocolate",
+          "television",
+          "All living things need water."
+        ],
+        [
+          "What forms on a cold window on a frosty morning?",
+          "frost",
+          "sand",
+          "paint",
+          "Frost is tiny ice that forms on cold things."
+        ],
+        [
+          "Which is a liquid?",
+          "milk",
+          "a stone",
+          "a spoon",
+          "Milk flows and takes the shape of its container."
+        ],
+        [
+          "Where does tap water come from before it reaches us?",
+          "rivers, lakes and underground",
+          "the moon",
+          "shops only",
+          "Water is collected from rivers, lakes and underground, then cleaned."
+        ]
+      ],
+      "de": [
+        [
+          "Was wird aus Wasser, wenn es gefriert?",
+          "Eis",
+          "Dampf",
+          "Sand",
+          "Beim Gefrieren wird Wasser zu Eis."
+        ],
+        [
+          "Was kommt aus einem kochenden Wasserkocher?",
+          "Dampf",
+          "Eis",
+          "Rauch",
+          "Sehr heißes Wasser wird zu Dampf."
+        ],
+        [
+          "Woher kommt Regen?",
+          "aus Wolken",
+          "von Bäumen",
+          "aus dem Boden",
+          "Regen fällt aus Wolken."
+        ],
+        [
+          "Was passiert mit Eis in einem warmen Zimmer?",
+          "es schmilzt",
+          "es wächst",
+          "es wird zu Stein",
+          "Wärme lässt Eis schmelzen."
+        ],
+        [
+          "Warum müssen wir Wasser trinken?",
+          "um gesund und am Leben zu bleiben",
+          "um die Farbe zu wechseln",
+          "um Flügel zu bekommen",
+          "Unser Körper braucht Wasser."
+        ],
+        [
+          "Was ist gefrorenes Wasser?",
+          "Schnee",
+          "Regen",
+          "Saft",
+          "Schnee besteht aus kleinen Eiskristallen."
+        ],
+        [
+          "Wohin verschwindet eine Pfütze an einem sonnigen Tag?",
+          "sie verdunstet in die Luft",
+          "sie sinkt in den Himmel",
+          "sie wird zu Eis",
+          "Die Sonne wärmt das Wasser und es verdunstet."
+        ],
+        [
+          "Wo ist das Wasser salzig?",
+          "im Meer",
+          "im Fluss",
+          "in einer Regenwolke",
+          "Meerwasser ist salzig."
+        ],
+        [
+          "Wie können wir Wasser sparen?",
+          "beim Zähneputzen den Hahn zudrehen",
+          "den Hahn laufen lassen",
+          "jedes Mal die Wanne randvoll füllen",
+          "Hahn zudrehen spart Wasser."
+        ],
+        [
+          "Was brauchen Pflanzen, Tiere und Menschen alle?",
+          "Wasser",
+          "Schokolade",
+          "Fernsehen",
+          "Alle Lebewesen brauchen Wasser."
+        ],
+        [
+          "Was bildet sich an einem kalten Fenster an einem frostigen Morgen?",
+          "Raureif",
+          "Sand",
+          "Farbe",
+          "Raureif ist feines Eis auf kalten Dingen."
+        ],
+        [
+          "Was ist eine Flüssigkeit?",
+          "Milch",
+          "ein Stein",
+          "ein Löffel",
+          "Milch fließt und nimmt die Form des Gefäßes an."
+        ],
+        [
+          "Woher kommt Leitungswasser?",
+          "aus Flüssen, Seen und dem Boden",
+          "vom Mond",
+          "nur aus Läden",
+          "Wasser kommt aus Flüssen, Seen und dem Untergrund und wird gereinigt."
+        ]
+      ],
+      "fr": [
+        [
+          "Que devient l’eau quand elle gèle ?",
+          "de la glace",
+          "de la vapeur",
+          "du sable",
+          "En gelant, l’eau devient glace."
+        ],
+        [
+          "Qu’est-ce qui sort d’une bouilloire qui bout ?",
+          "de la vapeur",
+          "de la glace",
+          "de la fumée",
+          "L’eau très chaude devient vapeur."
+        ],
+        [
+          "D’où vient la pluie ?",
+          "des nuages",
+          "des arbres",
+          "du sol",
+          "La pluie tombe des nuages."
+        ],
+        [
+          "Que devient la glace dans une pièce chaude ?",
+          "elle fond",
+          "elle grandit",
+          "elle devient pierre",
+          "La chaleur fait fondre la glace."
+        ],
+        [
+          "Pourquoi faut-il boire de l’eau ?",
+          "pour vivre et rester en bonne santé",
+          "pour changer de couleur",
+          "pour avoir des ailes",
+          "Notre corps a besoin d’eau."
+        ],
+        [
+          "Qu’est-ce qui est de l’eau gelée ?",
+          "la neige",
+          "la pluie",
+          "le jus",
+          "La neige est faite de petits cristaux de glace."
+        ],
+        [
+          "Où va une flaque par un jour ensoleillé ?",
+          "elle s’évapore dans l’air",
+          "elle tombe dans le ciel",
+          "elle gèle",
+          "Le soleil chauffe l’eau qui s’évapore."
+        ],
+        [
+          "Où l’eau est-elle salée ?",
+          "dans la mer",
+          "dans une rivière",
+          "dans un nuage",
+          "L’eau de mer est salée."
+        ],
+        [
+          "Comment économiser l’eau ?",
+          "fermer le robinet en se brossant les dents",
+          "laisser couler le robinet",
+          "remplir la baignoire à ras bord",
+          "Fermer le robinet économise l’eau."
+        ],
+        [
+          "De quoi ont besoin plantes, animaux et humains ?",
+          "d’eau",
+          "de chocolat",
+          "de télévision",
+          "Tous les êtres vivants ont besoin d’eau."
+        ],
+        [
+          "Que se forme-t-il sur une vitre froide un matin d’hiver ?",
+          "du givre",
+          "du sable",
+          "de la peinture",
+          "Le givre est de la glace très fine."
+        ],
+        [
+          "Qu’est-ce qui est un liquide ?",
+          "le lait",
+          "une pierre",
+          "une cuillère",
+          "Le lait coule et prend la forme du récipient."
+        ],
+        [
+          "D’où vient l’eau du robinet ?",
+          "des rivières, des lacs et du sous-sol",
+          "de la lune",
+          "seulement des magasins",
+          "L’eau vient des rivières, des lacs et du sous-sol, puis est nettoyée."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni omi máa ń dà tí ó bá dì?",
+          "yìnyín",
+          "ooru omi",
+          "iyanrìn",
+          "Dídì ń sọ omi di yìnyín."
+        ],
+        [
+          "Kí ló ń jáde láti inú kẹ́tù tó ń hó?",
+          "ooru omi",
+          "yìnyín",
+          "èéfín iná",
+          "Omi gbígbóná gan-an máa ń di ooru omi."
+        ],
+        [
+          "Níbo ni òjò ti ń wá?",
+          "láti inú ìkùukùu",
+          "láti ara igi",
+          "láti inú ilẹ̀",
+          "Òjò ń rọ̀ láti inú ìkùukùu."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí yìnyín nínú yàrá tó lọ́ wọ́ọ́rọ́?",
+          "ó ń yọ́",
+          "ó ń dàgbà",
+          "ó ń di òkúta",
+          "Ooru ń yọ́ yìnyín di omi."
+        ],
+        [
+          "Kí ló dé tí a fi gbọ́dọ̀ mu omi?",
+          "láti wà láàyè àti ní ìlera",
+          "láti yí àwọ̀ padà",
+          "láti hu ìyẹ́",
+          "Ara wa nílò omi láti ṣiṣẹ́."
+        ],
+        [
+          "Èwo ni omi tó dì?",
+          "òjò dídì",
+          "òjò",
+          "oje",
+          "Òjò dídì jẹ́ yìnyín kéékèèké."
+        ],
+        [
+          "Níbo ni omi kékeré ń lọ ní ọjọ́ oòrùn?",
+          "ó ń gbẹ lọ sínú afẹ́fẹ́",
+          "ó ń rì sínú ojú ọ̀run",
+          "ó ń di yìnyín",
+          "Oòrùn ń mú omi lọ́ ó sì ń gbẹ lọ."
+        ],
+        [
+          "Níbo ni omi ti ní iyọ̀?",
+          "òkun",
+          "odò",
+          "ìkùukùu òjò",
+          "Omi òkun ní iyọ̀; omi odò kò ní."
+        ],
+        [
+          "Báwo la ṣe lè ṣọ́ omi?",
+          "pa ẹ̀rọ omi nígbà tí o bá ń fọ eyín",
+          "fi ẹ̀rọ omi sílẹ̀ kó máa ṣàn",
+          "kún agbada ìwẹ̀ dé ẹnu nígbà gbogbo",
+          "Pípa ẹ̀rọ omi ń ṣọ́ omi."
+        ],
+        [
+          "Kí ni ewéko, ẹranko àti ènìyàn gbogbo nílò?",
+          "omi",
+          "ṣokoléètì",
+          "tẹlifíṣọ̀n",
+          "Gbogbo ohun alààyè nílò omi."
+        ],
+        [
+          "Kí ló ń hù sórí fèrèsé tútù ní òwúrọ̀ òtútù?",
+          "ìrì dídì",
+          "iyanrìn",
+          "ọ̀dà",
+          "Ìrì dídì jẹ́ yìnyín kéékèèké."
+        ],
+        [
+          "Èwo ni olómi?",
+          "wàrà",
+          "òkúta",
+          "ṣíbí",
+          "Wàrà ń ṣàn ó sì ń gba ìrísí ohun tí ó wà nínú rẹ̀."
+        ],
+        [
+          "Níbo ni omi ẹ̀rọ ti ń wá kí ó tó dé ọ̀dọ̀ wa?",
+          "odò, adágún àti abẹ́ ilẹ̀",
+          "òṣùpá",
+          "ilé ìtajà nìkan",
+          "A máa ń kó omi láti odò, adágún àti abẹ́ ilẹ̀, a sì ń fọ̀ ọ́."
+        ]
+      ]
+    }
+  },
+  "emoji": "droplet",
+  "example": {
+    "i": 0,
+    "q_en": "What does water turn into when it freezes?",
+    "answer_en": "ice",
+    "why_en": "Freezing turns water into ice.",
+    "q_de": "Was wird aus Wasser, wenn es gefriert?",
+    "answer_de": "Eis",
+    "why_de": "Beim Gefrieren wird Wasser zu Eis.",
+    "q_fr": "Que devient l’eau quand elle gèle ?",
+    "answer_fr": "de la glace",
+    "why_fr": "En gelant, l’eau devient glace.",
+    "q_yo": "Kí ni omi máa ń dà tí ó bá dì?",
+    "answer_yo": "yìnyín",
+    "why_yo": "Dídì ń sọ omi di yìnyín."
+  },
+  "text": {
+    "en": {
+      "title": "Water all around us",
+      "teach": "Water can be liquid (rain, rivers), solid (ice, snow) or a gas (steam). We need water to live.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Wasser überall",
+      "teach": "Wasser kann flüssig (Regen, Flüsse), fest (Eis, Schnee) oder gasförmig (Dampf) sein. Wir brauchen Wasser zum Leben.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "L’eau autour de nous",
+      "teach": "L’eau peut être liquide (pluie, rivières), solide (glace, neige) ou gazeuse (vapeur). Nous avons besoin d’eau pour vivre.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Omi yí wa ká",
+      "teach": "Omi lè jẹ́ olómi (òjò, odò), líle (yìnyín) tàbí èéfín (ooru omi). A nílò omi láti wà láàyè.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "id": "sci4-growing-up",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 112,
+  "params": {
+    "emojis": [
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does a baby grow into?",
+          "a child",
+          "a puppy",
+          "a tree",
+          "A baby grows into a child."
+        ],
+        [
+          "What does a baby drink?",
+          "milk",
+          "coffee",
+          "lemonade",
+          "Babies drink milk."
+        ],
+        [
+          "Who is the oldest?",
+          "a grandad",
+          "a baby",
+          "a child",
+          "A grandad is older than a child or a baby."
+        ],
+        [
+          "Who is the youngest?",
+          "a baby",
+          "a teenager",
+          "a mum",
+          "A baby is the youngest."
+        ],
+        [
+          "What helps you grow strong?",
+          "healthy food",
+          "only sweets",
+          "no sleep",
+          "Healthy food helps us grow strong."
+        ],
+        [
+          "What do babies do a lot?",
+          "sleep",
+          "drive cars",
+          "go to work",
+          "Babies sleep for many hours a day."
+        ],
+        [
+          "How does a baby move before it can walk?",
+          "it crawls",
+          "it runs",
+          "it skips",
+          "Babies crawl before they can walk."
+        ],
+        [
+          "What grows in a child’s mouth?",
+          "new teeth",
+          "feathers",
+          "leaves",
+          "Children grow new teeth when their baby teeth fall out."
+        ],
+        [
+          "What do your shoes do as you grow?",
+          "they get too small",
+          "they get bigger",
+          "they change colour",
+          "Your feet grow, so your old shoes get too small."
+        ],
+        [
+          "What helps your body rest and grow at night?",
+          "sleep",
+          "television",
+          "cake",
+          "Our bodies grow and rest while we sleep."
+        ],
+        [
+          "Who is a grown-up?",
+          "a teacher",
+          "a toddler",
+          "a baby",
+          "Teachers are grown-ups."
+        ],
+        [
+          "What do you celebrate when you are one year older?",
+          "a birthday",
+          "a holiday",
+          "a school day",
+          "Each birthday, we are one year older."
+        ],
+        [
+          "What is a young child just learning to walk called?",
+          "a toddler",
+          "a teenager",
+          "a grandparent",
+          "A toddler is a young child learning to walk."
+        ]
+      ],
+      "de": [
+        [
+          "Was wird aus einem Baby?",
+          "ein Kind",
+          "ein Welpe",
+          "ein Baum",
+          "Aus einem Baby wird ein Kind."
+        ],
+        [
+          "Was trinkt ein Baby?",
+          "Milch",
+          "Kaffee",
+          "Limonade",
+          "Babys trinken Milch."
+        ],
+        [
+          "Wer ist am ältesten?",
+          "ein Opa",
+          "ein Baby",
+          "ein Kind",
+          "Ein Opa ist älter als ein Kind oder ein Baby."
+        ],
+        [
+          "Wer ist am jüngsten?",
+          "ein Baby",
+          "ein Teenager",
+          "eine Mama",
+          "Ein Baby ist am jüngsten."
+        ],
+        [
+          "Was hilft dir, stark zu werden?",
+          "gesundes Essen",
+          "nur Süßigkeiten",
+          "kein Schlaf",
+          "Gesundes Essen hilft uns, stark zu werden."
+        ],
+        [
+          "Was machen Babys sehr viel?",
+          "schlafen",
+          "Auto fahren",
+          "arbeiten gehen",
+          "Babys schlafen viele Stunden am Tag."
+        ],
+        [
+          "Wie bewegt sich ein Baby, bevor es laufen kann?",
+          "es krabbelt",
+          "es rennt",
+          "es hüpft",
+          "Babys krabbeln, bevor sie laufen können."
+        ],
+        [
+          "Was wächst im Mund eines Kindes?",
+          "neue Zähne",
+          "Federn",
+          "Blätter",
+          "Kinder bekommen neue Zähne, wenn die Milchzähne ausfallen."
+        ],
+        [
+          "Was passiert mit deinen Schuhen, wenn du wächst?",
+          "sie werden zu klein",
+          "sie werden größer",
+          "sie wechseln die Farbe",
+          "Deine Füße wachsen, darum werden alte Schuhe zu klein."
+        ],
+        [
+          "Was hilft deinem Körper nachts beim Ausruhen und Wachsen?",
+          "Schlaf",
+          "Fernsehen",
+          "Kuchen",
+          "Unser Körper wächst und ruht sich aus, während wir schlafen."
+        ],
+        [
+          "Wer ist erwachsen?",
+          "eine Lehrerin",
+          "ein Kleinkind",
+          "ein Baby",
+          "Lehrerinnen und Lehrer sind Erwachsene."
+        ],
+        [
+          "Was feierst du, wenn du ein Jahr älter wirst?",
+          "Geburtstag",
+          "Ferien",
+          "einen Schultag",
+          "An jedem Geburtstag sind wir ein Jahr älter."
+        ],
+        [
+          "Wie heißt ein kleines Kind, das gerade laufen lernt?",
+          "Kleinkind",
+          "Teenager",
+          "Großelternteil",
+          "Ein Kleinkind lernt gerade laufen."
+        ]
+      ],
+      "fr": [
+        [
+          "Que devient un bébé ?",
+          "un enfant",
+          "un chiot",
+          "un arbre",
+          "Un bébé devient un enfant."
+        ],
+        [
+          "Que boit un bébé ?",
+          "du lait",
+          "du café",
+          "de la limonade",
+          "Les bébés boivent du lait."
+        ],
+        [
+          "Qui est le plus âgé ?",
+          "un grand-père",
+          "un bébé",
+          "un enfant",
+          "Un grand-père est plus âgé qu’un enfant ou un bébé."
+        ],
+        [
+          "Qui est le plus jeune ?",
+          "un bébé",
+          "un adolescent",
+          "une maman",
+          "Le bébé est le plus jeune."
+        ],
+        [
+          "Qu’est-ce qui t’aide à devenir fort ?",
+          "manger sainement",
+          "seulement des bonbons",
+          "ne pas dormir",
+          "Une nourriture saine nous aide à grandir fort."
+        ],
+        [
+          "Que font beaucoup les bébés ?",
+          "dormir",
+          "conduire",
+          "aller travailler",
+          "Les bébés dorment de nombreuses heures."
+        ],
+        [
+          "Comment un bébé se déplace-t-il avant de marcher ?",
+          "il marche à quatre pattes",
+          "il court",
+          "il saute",
+          "Les bébés marchent à quatre pattes avant de marcher."
+        ],
+        [
+          "Qu’est-ce qui pousse dans la bouche d’un enfant ?",
+          "de nouvelles dents",
+          "des plumes",
+          "des feuilles",
+          "Les enfants ont de nouvelles dents quand les dents de lait tombent."
+        ],
+        [
+          "Que deviennent tes chaussures quand tu grandis ?",
+          "trop petites",
+          "plus grandes",
+          "d’une autre couleur",
+          "Tes pieds grandissent, alors tes chaussures deviennent trop petites."
+        ],
+        [
+          "Qu’est-ce qui aide ton corps à se reposer et grandir la nuit ?",
+          "le sommeil",
+          "la télévision",
+          "le gâteau",
+          "Le corps grandit et se repose pendant le sommeil."
+        ],
+        [
+          "Qui est un adulte ?",
+          "une maîtresse",
+          "un petit enfant",
+          "un bébé",
+          "Les maîtres et maîtresses sont des adultes."
+        ],
+        [
+          "Que fêtes-tu quand tu as un an de plus ?",
+          "ton anniversaire",
+          "les vacances",
+          "un jour d’école",
+          "À chaque anniversaire, on a un an de plus."
+        ],
+        [
+          "Comment appelle-t-on un petit enfant qui apprend à marcher ?",
+          "un bambin",
+          "un adolescent",
+          "un grand-parent",
+          "Un bambin apprend à marcher."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni ọmọ ọwọ́ máa ń dà?",
+          "ọmọdé",
+          "ọmọ ajá",
+          "igi",
+          "Ọmọ ọwọ́ máa ń dàgbà di ọmọdé."
+        ],
+        [
+          "Kí ni ọmọ ọwọ́ ń mu?",
+          "wàrà",
+          "kọfí",
+          "omi aládùn",
+          "Ọmọ ọwọ́ ń mu wàrà."
+        ],
+        [
+          "Ta ló dàgbà jù?",
+          "bàbá àgbà",
+          "ọmọ ọwọ́",
+          "ọmọdé",
+          "Bàbá àgbà dàgbà ju ọmọdé àti ọmọ ọwọ́ lọ."
+        ],
+        [
+          "Ta ló kéré jù lọ́jọ́ orí?",
+          "ọmọ ọwọ́",
+          "ọ̀dọ́",
+          "ìyá",
+          "Ọmọ ọwọ́ ló kéré jù."
+        ],
+        [
+          "Kí ló ń ràn ọ́ lọ́wọ́ láti dàgbà lágbára?",
+          "oúnjẹ aṣaralóore",
+          "súìtì nìkan",
+          "àìsùn",
+          "Oúnjẹ aṣaralóore ń jẹ́ ká dàgbà lágbára."
+        ],
+        [
+          "Kí ni ọmọ ọwọ́ máa ń ṣe gan-an?",
+          "sísùn",
+          "wíwa ọkọ̀",
+          "lílọ síbi iṣẹ́",
+          "Ọmọ ọwọ́ máa ń sùn fún ọ̀pọ̀ wákàtí."
+        ],
+        [
+          "Báwo ni ọmọ ọwọ́ ṣe ń rìn kí ó tó lè rìn?",
+          "ó ń rá",
+          "ó ń sáré",
+          "ó ń bẹ́",
+          "Ọmọ ọwọ́ máa ń rá kí ó tó lè rìn."
+        ],
+        [
+          "Kí ló ń hù ní ẹnu ọmọdé?",
+          "eyín tuntun",
+          "ìyẹ́",
+          "ewé",
+          "Ọmọdé máa ń hu eyín tuntun nígbà tí eyín ọmọdé bá yọ."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí bàtà rẹ bí o ṣe ń dàgbà?",
+          "ó ń kéré jù",
+          "ó ń tóbi sí i",
+          "àwọ̀ rẹ̀ ń yí padà",
+          "Ẹsẹ̀ rẹ ń dàgbà, nítorí náà bàtà àtijọ́ ń kéré jù."
+        ],
+        [
+          "Kí ló ń jẹ́ kí ara rẹ sinmi kí ó sì dàgbà lóru?",
+          "oorun",
+          "tẹlifíṣọ̀n",
+          "kéèkì",
+          "Ara wa ń dàgbà ó sì ń sinmi nígbà tí a bá ń sùn."
+        ],
+        [
+          "Ta ni àgbàlagbà?",
+          "olùkọ́",
+          "ọmọ kékeré",
+          "ọmọ ọwọ́",
+          "Olùkọ́ jẹ́ àgbàlagbà."
+        ],
+        [
+          "Kí lo máa ń ṣe àjọyọ̀ rẹ̀ nígbà tí o bá pé ọdún kan sí i?",
+          "ọjọ́ ìbí",
+          "ìsinmi",
+          "ọjọ́ ilé ìwé",
+          "Ní ọjọ́ ìbí kọ̀ọ̀kan, a máa ń pé ọdún kan sí i."
+        ],
+        [
+          "Kí ni a ń pe ọmọ kékeré tó ń kọ́ láti rìn?",
+          "ọmọ tó ń kọ́ ìrìn",
+          "ọ̀dọ́",
+          "òbí àgbà",
+          "Ọmọ tó ń kọ́ ìrìn ni ọmọ kékeré tó ń kọ́ láti rìn."
+        ]
+      ]
+    }
+  },
+  "emoji": "girl",
+  "example": {
+    "i": 0,
+    "q_en": "What does a baby grow into?",
+    "answer_en": "a child",
+    "why_en": "A baby grows into a child.",
+    "q_de": "Was wird aus einem Baby?",
+    "answer_de": "ein Kind",
+    "why_de": "Aus einem Baby wird ein Kind.",
+    "q_fr": "Que devient un bébé ?",
+    "answer_fr": "un enfant",
+    "why_fr": "Un bébé devient un enfant.",
+    "q_yo": "Kí ni ọmọ ọwọ́ máa ń dà?",
+    "answer_yo": "ọmọdé",
+    "why_yo": "Ọmọ ọwọ́ máa ń dàgbà di ọmọdé."
+  },
+  "text": {
+    "en": {
+      "title": "Growing up",
+      "teach": "People grow: a baby becomes a child, then a teenager, then a grown-up. Food and sleep help us grow.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Groß werden",
+      "teach": "Menschen wachsen: Aus einem Baby wird ein Kind, dann ein Teenager, dann ein Erwachsener. Essen und Schlaf helfen beim Wachsen.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Grandir",
+      "teach": "Les humains grandissent : le bébé devient un enfant, puis un adolescent, puis un adulte. Manger et dormir aident à grandir.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Dídàgbà",
+      "teach": "Ènìyàn ń dàgbà: ọmọ ọwọ́ di ọmọdé, lẹ́yìn náà ọ̀dọ́, lẹ́yìn náà àgbàlagbà. Oúnjẹ àti oorun ń ràn wá lọ́wọ́ láti dàgbà.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

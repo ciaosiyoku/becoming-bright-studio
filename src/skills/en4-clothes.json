@@ -1,0 +1,154 @@
+{
+  "id": "en4-clothes",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 113,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "scarf",
+      "scarf",
+      "scarf",
+      "scarf",
+      "scarf",
+      "scarf",
+      "scarf",
+      "scarf",
+      "scarf",
+      "scarf",
+      "scarf",
+      "scarf",
+      "scarf",
+      "scarf",
+      "scarf"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What do we wear on our feet before shoes?",
+          "socks",
+          "gloves",
+          "a hat",
+          "We put socks on our feet before our shoes."
+        ],
+        [
+          "What do we wear on our hands when it is cold?",
+          "gloves",
+          "socks",
+          "a scarf",
+          "Gloves keep our hands warm."
+        ],
+        [
+          "What do we wrap around our neck?",
+          "a scarf",
+          "a sock",
+          "a glove",
+          "A scarf goes around our neck to keep it warm."
+        ],
+        [
+          "What do we wear on our head?",
+          "a hat",
+          "a shoe",
+          "a glove",
+          "A hat goes on our head."
+        ],
+        [
+          "What do we wear to bed?",
+          "pyjamas",
+          "a coat",
+          "wellies",
+          "We wear pyjamas when we go to sleep."
+        ],
+        [
+          "What do we wear over our clothes when it is cold outside?",
+          "a coat",
+          "pyjamas",
+          "a swimsuit",
+          "A coat keeps us warm outside."
+        ],
+        [
+          "What do we wear to go swimming?",
+          "a swimsuit",
+          "a coat",
+          "gloves",
+          "We wear a swimsuit in the water."
+        ],
+        [
+          "What do we wear on our feet to walk outside?",
+          "shoes",
+          "gloves",
+          "a hat",
+          "Shoes protect our feet when we walk."
+        ],
+        [
+          "What keeps our legs covered?",
+          "trousers",
+          "a hat",
+          "gloves",
+          "Trousers cover our legs."
+        ],
+        [
+          "What do we wear on top, with sleeves?",
+          "a jumper",
+          "socks",
+          "a hat",
+          "A jumper is a warm top with sleeves."
+        ],
+        [
+          "What do we wear on our feet inside the house?",
+          "slippers",
+          "a scarf",
+          "gloves",
+          "Slippers are soft shoes for indoors."
+        ],
+        [
+          "What do we wear around our waist to hold up trousers?",
+          "a belt",
+          "a scarf",
+          "a sock",
+          "A belt holds our trousers up."
+        ],
+        [
+          "What do we wear in the rain to keep dry?",
+          "a raincoat",
+          "a swimsuit",
+          "pyjamas",
+          "A raincoat keeps the rain off."
+        ],
+        [
+          "What do we wear over our eyes in bright sun?",
+          "sunglasses",
+          "gloves",
+          "a scarf",
+          "Sunglasses protect our eyes from bright sun."
+        ],
+        [
+          "What do we wear on our feet in the snow?",
+          "boots",
+          "sandals",
+          "slippers",
+          "Warm boots keep our feet dry in the snow."
+        ]
+      ]
+    }
+  },
+  "emoji": "scarf",
+  "example": {
+    "i": 0,
+    "q_en": "What do we wear on our feet before shoes?",
+    "answer_en": "socks",
+    "why_en": "We put socks on our feet before our shoes."
+  },
+  "text": {
+    "en": {
+      "title": "Clothes",
+      "teach": "We wear different clothes on different parts of the body: a hat on our head, socks on our feet, gloves on our hands.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

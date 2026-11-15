@@ -1,0 +1,37 @@
+{
+  "id": "qr-missing-7",
+  "kind": "qr-balance",
+  "subject": "quantitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 21,
+  "only": "en",
+  "params": {
+    "max": 7,
+    "ops": [
+      "add",
+      "sub"
+    ]
+  },
+  "emoji": "abacus",
+  "example": {
+    "op": "sub",
+    "a": 2,
+    "b": 2,
+    "c": 0,
+    "blank": "second",
+    "answer": 2,
+    "shown": "2 − ? = 0",
+    "full": "2 − 2 = 0"
+  },
+  "text": {
+    "en": {
+      "title": "Missing numbers to 7",
+      "teach": "Something is hiding behind the ?. {shown}: which number and 2 make 5? 3, because {full}.",
+      "prompt": "What is the missing number?",
+      "reason": "{full}, so the missing number is {answer}."
+    }
+  }
+}

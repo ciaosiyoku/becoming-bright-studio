@@ -1,0 +1,49 @@
+{
+  "id": "times-6-7",
+  "kind": "times",
+  "subject": "numbers",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 24,
+  "params": {
+    "tables": [
+      6,
+      7
+    ]
+  },
+  "emoji": "fruit-cherries",
+  "example": {
+    "n": 2,
+    "t": 7,
+    "answer": 14,
+    "counting": "7, 14"
+  },
+  "text": {
+    "en": {
+      "title": "The 6 and 7 times tables",
+      "teach": "{n} × {t} means {n} lots of {t}. Count in steps of {t}, {n} times: {counting}.",
+      "prompt": "What is {n} × {t}?",
+      "reason": "Count in {t}s {n} times: {counting}."
+    },
+    "de": {
+      "title": "Das 6er- und 7er-Einmaleins",
+      "teach": "{n} × {t} heißt {n}-mal die {t}. Zähl {n}-mal in {t}er-Schritten: {counting}.",
+      "prompt": "Was ist {n} × {t}?",
+      "reason": "Zähl {n}-mal in {t}er-Schritten: {counting}."
+    },
+    "fr": {
+      "title": "Les tables de 6 et 7",
+      "teach": "{n} × {t}, c’est {n} fois {t}. Compte de {t} en {t}, {n} fois : {counting}.",
+      "prompt": "Combien font {n} × {t} ?",
+      "reason": "Compte de {t} en {t}, {n} fois : {counting}."
+    },
+    "yo": {
+      "title": "Tábìlì ìsọdipúpọ̀ 6 àti 7",
+      "teach": "{n} × {t} túmọ̀ sí {t} ní ìgbà {n}. Kà ní ìgbésẹ̀ {t}, ìgbà {n}: {counting}.",
+      "prompt": "Kí ni {n} × {t}?",
+      "reason": "Kà ní {t} {t} ní ìgbà {n}: {counting}."
+    }
+  }
+}

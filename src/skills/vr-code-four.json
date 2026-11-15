@@ -1,0 +1,48 @@
+{
+  "id": "vr-code-four",
+  "kind": "vr-code",
+  "subject": "verbal",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 52,
+  "only": "en",
+  "params": {
+    "words": [
+      "house",
+      "plant",
+      "train",
+      "cloud",
+      "bread",
+      "smile",
+      "stone",
+      "beach",
+      "river",
+      "tiger",
+      "lemon",
+      "horse"
+    ],
+    "shifts": [
+      4,
+      -4
+    ]
+  },
+  "emoji": "key",
+  "example": {
+    "shift": -4,
+    "w1": "CLOUD",
+    "c1": "YHKQZ",
+    "w2": "HOUSE",
+    "answer": "DKQOA",
+    "move": "−4"
+  },
+  "text": {
+    "en": {
+      "title": "Letter codes: +4 and −4",
+      "teach": "In a code, every letter moves the same number of places along the alphabet. {w1} → {c1}: each letter moves {move}, so {w2} → {answer}.",
+      "prompt": "If {w1} is written {c1}, how is {w2} written?",
+      "reason": "Each letter moves {move} along the alphabet, so {w2} becomes {answer}."
+    }
+  }
+}

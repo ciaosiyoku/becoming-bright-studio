@@ -1,0 +1,154 @@
+{
+  "id": "fr10-re-verbs",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 43,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift",
+      "gift"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Je ___ mon vélo. (vendre)",
+          "vends",
+          "vend",
+          "vendons",
+          "With je: je vends."
+        ],
+        [
+          "Tu ___ le bus. (attendre)",
+          "attends",
+          "attend",
+          "attendez",
+          "With tu: tu attends."
+        ],
+        [
+          "Il ___ la musique. (entendre)",
+          "entend",
+          "entends",
+          "entendent",
+          "With il, -re verbs drop the ending: il entend."
+        ],
+        [
+          "Nous ___ nos livres. (vendre)",
+          "vendons",
+          "vendez",
+          "vendent",
+          "With nous: vendons."
+        ],
+        [
+          "Vous ___ le train ? (attendre)",
+          "attendez",
+          "attendons",
+          "attend",
+          "With vous: attendez."
+        ],
+        [
+          "Ils ___ la réponse. (répondre)",
+          "répondent",
+          "répond",
+          "répondons",
+          "With ils: répondent."
+        ],
+        [
+          "What does “vendre” mean?",
+          "to sell",
+          "to buy",
+          "to wait",
+          "Vendre means to sell."
+        ],
+        [
+          "What does “attendre” mean?",
+          "to wait",
+          "to hear",
+          "to answer",
+          "Attendre means to wait."
+        ],
+        [
+          "What does “entendre” mean?",
+          "to hear",
+          "to wait",
+          "to sell",
+          "Entendre means to hear."
+        ],
+        [
+          "What does “répondre” mean?",
+          "to answer",
+          "to ask",
+          "to sell",
+          "Répondre means to answer."
+        ],
+        [
+          "What does “perdre” mean?",
+          "to lose",
+          "to find",
+          "to wait",
+          "Perdre means to lose."
+        ],
+        [
+          "Elle ___ ses clés. (perdre)",
+          "perd",
+          "perds",
+          "perdent",
+          "With elle: elle perd."
+        ],
+        [
+          "What does “descendre” mean?",
+          "to go down",
+          "to go up",
+          "to sell",
+          "Descendre means to go down."
+        ],
+        [
+          "Nous ___ l’escalier. (descendre)",
+          "descendons",
+          "descendez",
+          "descend",
+          "With nous: descendons."
+        ],
+        [
+          "What does “J’attends mon ami” mean?",
+          "I am waiting for my friend",
+          "I hear my friend",
+          "I answer my friend",
+          "Attendre means to wait (for)."
+        ]
+      ]
+    }
+  },
+  "emoji": "gift",
+  "example": {
+    "i": 0,
+    "q_en": "Je ___ mon vélo. (vendre)",
+    "answer_en": "vends",
+    "why_en": "With je: je vends."
+  },
+  "text": {
+    "en": {
+      "title": "Regular -re verbs",
+      "teach": "Verbs like vendre (to sell): je vends, tu vends, il vend, nous vendons, vous vendez, ils vendent.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

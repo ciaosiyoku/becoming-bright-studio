@@ -1,0 +1,154 @@
+{
+  "id": "fr4-shapes",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 17,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle",
+      "puzzle"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is “a circle” in French?",
+          "un cercle",
+          "un carré",
+          "une étoile",
+          "A circle is un cercle."
+        ],
+        [
+          "What is “a square” in French?",
+          "un carré",
+          "un cercle",
+          "un cœur",
+          "A square is un carré."
+        ],
+        [
+          "What does “un triangle” mean?",
+          "a triangle",
+          "a square",
+          "a star",
+          "Un triangle is a triangle: the same word."
+        ],
+        [
+          "What does “une étoile” mean?",
+          "a star",
+          "a heart",
+          "a circle",
+          "Une étoile is a star."
+        ],
+        [
+          "What does “un cœur” mean?",
+          "a heart",
+          "a star",
+          "a square",
+          "Un cœur is a heart."
+        ],
+        [
+          "What does “un rectangle” mean?",
+          "a rectangle",
+          "a circle",
+          "a heart",
+          "Un rectangle is a rectangle."
+        ],
+        [
+          "What does “rond” mean?",
+          "round",
+          "square",
+          "pointed",
+          "Rond means round."
+        ],
+        [
+          "What is “a star” in French?",
+          "une étoile",
+          "un carré",
+          "un rond",
+          "A star is une étoile."
+        ],
+        [
+          "What is “a heart” in French?",
+          "un cœur",
+          "un cercle",
+          "une étoile",
+          "A heart is un cœur."
+        ],
+        [
+          "What does “un ovale” mean?",
+          "an oval",
+          "a square",
+          "a star",
+          "Un ovale is an oval."
+        ],
+        [
+          "What does “grand” mean?",
+          "big",
+          "small",
+          "round",
+          "Grand means big."
+        ],
+        [
+          "What does “petit” mean?",
+          "small",
+          "big",
+          "long",
+          "Petit means small."
+        ],
+        [
+          "What is “a big circle” in French?",
+          "un grand cercle",
+          "un petit cercle",
+          "un grand carré",
+          "Big is grand, circle is cercle."
+        ],
+        [
+          "What is “a small star” in French?",
+          "une petite étoile",
+          "une grande étoile",
+          "un petit cœur",
+          "Small is petite (for une), star is étoile."
+        ],
+        [
+          "What does “la forme” mean?",
+          "the shape",
+          "the colour",
+          "the number",
+          "La forme means the shape."
+        ]
+      ]
+    }
+  },
+  "emoji": "puzzle",
+  "example": {
+    "i": 0,
+    "q_en": "What is “a circle” in French?",
+    "answer_en": "un cercle",
+    "why_en": "A circle is un cercle."
+  },
+  "text": {
+    "en": {
+      "title": "Shapes in French",
+      "teach": "Shapes in French: le cercle (circle), le carré (square), le triangle, l’étoile (star), le cœur (heart).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

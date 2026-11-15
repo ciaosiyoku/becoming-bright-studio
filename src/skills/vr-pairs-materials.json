@@ -1,0 +1,60 @@
+{
+  "id": "vr-pairs-materials",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 32,
+  "only": "en",
+  "params": {
+    "relations": {
+      "made": [
+        [
+          "table",
+          "wood"
+        ],
+        [
+          "window",
+          "glass"
+        ],
+        [
+          "coin",
+          "metal"
+        ],
+        [
+          "book",
+          "paper"
+        ],
+        [
+          "jumper",
+          "wool"
+        ],
+        [
+          "tyre",
+          "rubber"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "made",
+    "a": "tyre",
+    "b": "rubber",
+    "c": "table",
+    "answer": "wood"
+  },
+  "text": {
+    "en": {
+      "title": "What is it made of?",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A {a} is made of {b}, and a {c} is made of {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "made": "A {a} is made of {b}, and a {c} is made of {answer}."
+      }
+    }
+  }
+}

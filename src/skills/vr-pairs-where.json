@@ -1,0 +1,64 @@
+{
+  "id": "vr-pairs-where",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 31,
+  "only": "en",
+  "params": {
+    "relations": {
+      "where": [
+        [
+          "plane",
+          "airport"
+        ],
+        [
+          "train",
+          "station"
+        ],
+        [
+          "ship",
+          "harbour"
+        ],
+        [
+          "car",
+          "garage"
+        ],
+        [
+          "book",
+          "library"
+        ],
+        [
+          "bread",
+          "bakery"
+        ],
+        [
+          "animal",
+          "zoo"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "where",
+    "a": "car",
+    "b": "garage",
+    "c": "ship",
+    "answer": "harbour"
+  },
+  "text": {
+    "en": {
+      "title": "Where do you find it?",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. You find a {a} at a {b}, and a {c} at a {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "where": "You find a {a} at a {b}, and a {c} at a {answer}."
+      }
+    }
+  }
+}

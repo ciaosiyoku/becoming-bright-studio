@@ -3,6 +3,9 @@
   "kind": "contraction",
   "subject": "words",
   "stage": 4,
+  "ages": [
+    "8-9"
+  ],
   "order": 12,
   "only": "en",
   "params": {

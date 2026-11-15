@@ -1,0 +1,154 @@
+{
+  "id": "en6-describing-words",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 104,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "sparkles",
+      "sparkles",
+      "sparkles",
+      "sparkles",
+      "sparkles",
+      "sparkles",
+      "sparkles",
+      "sparkles",
+      "sparkles",
+      "sparkles",
+      "sparkles",
+      "sparkles",
+      "sparkles",
+      "sparkles",
+      "sparkles"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which word describes the cat? “The fluffy cat slept.”",
+          "fluffy",
+          "cat",
+          "slept",
+          "Fluffy tells us what the cat is like."
+        ],
+        [
+          "Which word describes the tree? “A tall tree grew.”",
+          "tall",
+          "tree",
+          "grew",
+          "Tall tells us what the tree is like."
+        ],
+        [
+          "Which is a describing word?",
+          "shiny",
+          "run",
+          "table",
+          "Shiny describes how something looks."
+        ],
+        [
+          "Which word best describes ice?",
+          "cold",
+          "hot",
+          "fluffy",
+          "Ice is cold."
+        ],
+        [
+          "Which word best describes a feather?",
+          "light",
+          "heavy",
+          "sharp",
+          "A feather is very light."
+        ],
+        [
+          "Which word best describes a lemon?",
+          "sour",
+          "sweet",
+          "furry",
+          "A lemon tastes sour."
+        ],
+        [
+          "Which word best describes a mouse?",
+          "tiny",
+          "huge",
+          "tall",
+          "A mouse is tiny."
+        ],
+        [
+          "Which word best describes a lion’s roar?",
+          "loud",
+          "quiet",
+          "soft",
+          "A lion’s roar is very loud."
+        ],
+        [
+          "Which is a describing word?",
+          "happy",
+          "jump",
+          "ball",
+          "Happy describes how someone feels."
+        ],
+        [
+          "Which word describes the sky? “The sky was blue.”",
+          "blue",
+          "sky",
+          "was",
+          "Blue tells us the colour of the sky."
+        ],
+        [
+          "Which word best describes honey?",
+          "sticky",
+          "dry",
+          "bumpy",
+          "Honey is sticky."
+        ],
+        [
+          "Which word best describes a pillow?",
+          "soft",
+          "hard",
+          "sharp",
+          "A pillow is soft."
+        ],
+        [
+          "Which word best describes a snail?",
+          "slow",
+          "fast",
+          "loud",
+          "A snail moves slowly."
+        ],
+        [
+          "Which word best describes a cheetah?",
+          "fast",
+          "slow",
+          "sleepy",
+          "A cheetah is very fast."
+        ],
+        [
+          "Which is NOT a describing word?",
+          "carrot",
+          "orange",
+          "crunchy",
+          "Carrot names a thing; orange and crunchy describe it."
+        ]
+      ]
+    }
+  },
+  "emoji": "sparkles",
+  "example": {
+    "i": 0,
+    "q_en": "Which word describes the cat? “The fluffy cat slept.”",
+    "answer_en": "fluffy",
+    "why_en": "Fluffy tells us what the cat is like."
+  },
+  "text": {
+    "en": {
+      "title": "Describing words",
+      "teach": "Describing words (adjectives) tell us more about a thing: a fluffy cat, a tall tree, a shiny coin.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

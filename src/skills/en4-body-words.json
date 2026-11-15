@@ -1,0 +1,154 @@
+{
+  "id": "en4-body-words",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 117,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What do we see with?",
+          "eyes",
+          "ears",
+          "feet",
+          "We see with our eyes."
+        ],
+        [
+          "What do we hear with?",
+          "ears",
+          "eyes",
+          "hands",
+          "We hear with our ears."
+        ],
+        [
+          "What do we smell with?",
+          "nose",
+          "knee",
+          "elbow",
+          "We smell with our nose."
+        ],
+        [
+          "What do we walk on?",
+          "feet",
+          "hands",
+          "ears",
+          "We walk on our feet."
+        ],
+        [
+          "What bends in the middle of your leg?",
+          "knee",
+          "elbow",
+          "wrist",
+          "Your knee bends in the middle of your leg."
+        ],
+        [
+          "What bends in the middle of your arm?",
+          "elbow",
+          "knee",
+          "ankle",
+          "Your elbow bends in the middle of your arm."
+        ],
+        [
+          "What do we eat with?",
+          "mouth",
+          "ear",
+          "nose",
+          "We eat with our mouth."
+        ],
+        [
+          "What are on the end of your feet?",
+          "toes",
+          "fingers",
+          "thumbs",
+          "Toes are on the end of your feet."
+        ],
+        [
+          "What are on the end of your hands?",
+          "fingers",
+          "toes",
+          "knees",
+          "Fingers are on the end of your hands."
+        ],
+        [
+          "What grows on top of your head?",
+          "hair",
+          "teeth",
+          "nails",
+          "Hair grows on your head."
+        ],
+        [
+          "What do we chew food with?",
+          "teeth",
+          "ears",
+          "toes",
+          "We chew food with our teeth."
+        ],
+        [
+          "What joins your head to your body?",
+          "neck",
+          "knee",
+          "elbow",
+          "Your neck joins your head to your body."
+        ],
+        [
+          "What is between your neck and your arm?",
+          "shoulder",
+          "ankle",
+          "toe",
+          "Your shoulder is where your arm joins your body."
+        ],
+        [
+          "What do we clap with?",
+          "hands",
+          "feet",
+          "ears",
+          "We clap with our hands."
+        ],
+        [
+          "What is the soft part you sit on?",
+          "bottom",
+          "elbow",
+          "nose",
+          "We sit on our bottom."
+        ]
+      ]
+    }
+  },
+  "emoji": "girl",
+  "example": {
+    "i": 0,
+    "q_en": "What do we see with?",
+    "answer_en": "eyes",
+    "why_en": "We see with our eyes."
+  },
+  "text": {
+    "en": {
+      "title": "Parts of my body",
+      "teach": "Point and say: head, shoulders, knees, toes, eyes, ears, mouth and nose.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

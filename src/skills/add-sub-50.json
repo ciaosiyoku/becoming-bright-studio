@@ -1,0 +1,64 @@
+{
+  "id": "add-sub-50",
+  "kind": "add-sub",
+  "subject": "numbers",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 27,
+  "params": {
+    "max": 50,
+    "minB": 5
+  },
+  "emoji": "animal-frog",
+  "example": {
+    "a": 14,
+    "b": 10,
+    "op": "+",
+    "answer": 24,
+    "rule": "add"
+  },
+  "text": {
+    "en": {
+      "title": "Adding and taking away within 50",
+      "teach": "To add, jump forward from the first number; to take away, jump back. {a} + {b}: from {a}, jump {b} → {answer}.",
+      "prompt": "What is {a} {op} {b}?",
+      "reason": "",
+      "reasons": {
+        "add": "Start at {a}, jump {b} forward → {answer}.",
+        "sub": "Start at {a}, jump {b} back → {answer}."
+      }
+    },
+    "de": {
+      "title": "Plus und Minus bis 50",
+      "teach": "Beim Plusrechnen springst du von der ersten Zahl vorwärts, beim Minusrechnen zurück. {a} + {b}: von {a} {b} Sprünge vor → {answer}.",
+      "prompt": "Was ist {a} {op} {b}?",
+      "reason": "",
+      "reasons": {
+        "add": "Fang bei {a} an, spring {b} vor → {answer}.",
+        "sub": "Fang bei {a} an, spring {b} zurück → {answer}."
+      }
+    },
+    "fr": {
+      "title": "Additionner et soustraire jusqu’à 50",
+      "teach": "Pour additionner, saute en avant depuis le premier nombre ; pour soustraire, saute en arrière. {a} + {b} : depuis {a}, {b} sauts en avant → {answer}.",
+      "prompt": "Combien font {a} {op} {b} ?",
+      "reason": "",
+      "reasons": {
+        "add": "Pars de {a}, saute {b} fois en avant → {answer}.",
+        "sub": "Pars de {a}, saute {b} fois en arrière → {answer}."
+      }
+    },
+    "yo": {
+      "title": "Àròpọ̀ àti àyọkúrò títí dé 50",
+      "teach": "Láti ṣe àròpọ̀, fò síwájú láti nọ́ńbà àkọ́kọ́; láti ṣe àyọkúrò, fò sẹ́yìn. {a} + {b}: láti {a}, fò ìgbà {b} → {answer}.",
+      "prompt": "Kí ni {a} {op} {b}?",
+      "reason": "",
+      "reasons": {
+        "add": "Bẹ̀rẹ̀ ní {a}, fò ìgbà {b} síwájú → {answer}.",
+        "sub": "Bẹ̀rẹ̀ ní {a}, fò ìgbà {b} sẹ́yìn → {answer}."
+      }
+    }
+  }
+}

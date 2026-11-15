@@ -1,0 +1,154 @@
+{
+  "id": "fr6-nature",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 25,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “un arbre” mean?",
+          "a tree",
+          "a flower",
+          "a leaf",
+          "Un arbre is a tree."
+        ],
+        [
+          "What does “une fleur” mean?",
+          "a flower",
+          "a tree",
+          "a river",
+          "Une fleur is a flower."
+        ],
+        [
+          "What does “l’herbe” mean?",
+          "the grass",
+          "the sky",
+          "the rain",
+          "L’herbe is the grass."
+        ],
+        [
+          "What does “la rivière” mean?",
+          "the river",
+          "the mountain",
+          "the beach",
+          "La rivière is the river."
+        ],
+        [
+          "What does “la montagne” mean?",
+          "the mountain",
+          "the river",
+          "the forest",
+          "La montagne is the mountain."
+        ],
+        [
+          "What does “le soleil” mean?",
+          "the sun",
+          "the moon",
+          "the star",
+          "Le soleil is the sun."
+        ],
+        [
+          "What does “la lune” mean?",
+          "the moon",
+          "the sun",
+          "the cloud",
+          "La lune is the moon."
+        ],
+        [
+          "What does “la mer” mean?",
+          "the sea",
+          "the lake",
+          "the mountain",
+          "La mer is the sea."
+        ],
+        [
+          "What does “la forêt” mean?",
+          "the forest",
+          "the field",
+          "the river",
+          "La forêt is the forest."
+        ],
+        [
+          "What does “une feuille” mean?",
+          "a leaf",
+          "a flower",
+          "a branch",
+          "Une feuille is a leaf (or a sheet of paper)."
+        ],
+        [
+          "What is “a tree” in French?",
+          "un arbre",
+          "une fleur",
+          "une feuille",
+          "A tree is un arbre."
+        ],
+        [
+          "What does “le ciel” mean?",
+          "the sky",
+          "the sea",
+          "the sun",
+          "Le ciel is the sky."
+        ],
+        [
+          "What does “un nuage” mean?",
+          "a cloud",
+          "a star",
+          "a tree",
+          "Un nuage is a cloud."
+        ],
+        [
+          "What does “la plage” mean?",
+          "the beach",
+          "the sea",
+          "the sand",
+          "La plage is the beach."
+        ],
+        [
+          "What does “une étoile” mean?",
+          "a star",
+          "a cloud",
+          "a flower",
+          "Une étoile is a star."
+        ]
+      ]
+    }
+  },
+  "emoji": "tree",
+  "example": {
+    "i": 0,
+    "q_en": "What does “un arbre” mean?",
+    "answer_en": "a tree",
+    "why_en": "Un arbre is a tree."
+  },
+  "text": {
+    "en": {
+      "title": "Nature in French",
+      "teach": "Nature in French: l’arbre (tree), la fleur (flower), l’herbe (grass), la rivière (river), la montagne (mountain), le soleil (sun).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

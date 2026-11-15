@@ -3,6 +3,9 @@
   "kind": "prefix",
   "subject": "words",
   "stage": 6,
+  "ages": [
+    "10-12"
+  ],
   "order": 17,
   "only": "en",
   "params": {

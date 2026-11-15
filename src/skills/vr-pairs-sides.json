@@ -1,0 +1,56 @@
+{
+  "id": "vr-pairs-sides",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 34,
+  "only": "en",
+  "params": {
+    "relations": {
+      "sides": [
+        [
+          "triangle",
+          "three"
+        ],
+        [
+          "square",
+          "four"
+        ],
+        [
+          "pentagon",
+          "five"
+        ],
+        [
+          "hexagon",
+          "six"
+        ],
+        [
+          "octagon",
+          "eight"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "sides",
+    "a": "pentagon",
+    "b": "five",
+    "c": "octagon",
+    "answer": "eight"
+  },
+  "text": {
+    "en": {
+      "title": "Shapes and their sides",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A {a} has {b} sides, and a {c} has {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "sides": "A {a} has {b} sides, and a {c} has {answer}."
+      }
+    }
+  }
+}

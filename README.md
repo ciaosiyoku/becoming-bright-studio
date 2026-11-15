@@ -38,9 +38,9 @@ Written down before any code in the [learning contract](docs/LEARNING-CONTRACT.m
 After every answer, the right one turns green and the reason stays on screen until the child taps **Next**, which
 unlocks after a moment. Nothing moves on by itself, so red never means "go faster".
 
-**344 skills for ages 4 to 12, and the child chooses.** A grown-up gives each child an age; the child sees the
+**512 skills for ages 4 to 12, and the child chooses.** A grown-up gives each child an age; the child sees the
 skills for their age range (4–5, 6–7, 8–9, 10–12), picks a subject, then a skill on that subject's path of
-stepping stones. **Continue** on the Learn tab goes straight back to the skill they were learning. Every subject has **at least 300 different questions per age range** and **at least 15 skills per age range** (some shared with the range next to it; tests check both).
+stepping stones. **Continue** on the Learn tab goes straight back to the skill they were learning. Every subject has **at least 300 different questions per age range** and **16 skills of its own in every age range** (64 per subject, none shared between ranges; tests check both).
 
 - **Maths (32):** counting; adding and taking away within 5, 10, 20, 100 and 1000; one more and one less; tens
   and ones; times tables; hours, minutes and seconds; place value; rounding; dividing; multiplying; fractions;
@@ -165,7 +165,7 @@ Every push to `main` is checked, built and published to GitHub Pages by `.github
 | `public/stories/` | The story recordings' texts (Project Gutenberg, public domain), one file per book |
 | `src/explore/` | Places of the world, 500 Whys, Did you know? |
 | `src/home/`, `src/app/stickers.ts` | The Learn tab: Sunny, today's goal, the garden, subject cards, the skill path; the 100 stickers |
-| `src/skills/ages.ts` | Age ranges; `ages.test.ts` checks 300 questions per subject and range |
+| `src/skills/ages.ts` | Age ranges; `ages.test.ts` checks 300 questions and 16 skills per subject and range |
 | `scripts/make-stories.py` | Builds the stories list per age range from the Internet Archive |
 | `src/app/items.ts`, `access.ts` | The items of each tab, Off / Open / Earn first, earned time |
 | `src/parent/report.ts` | The learning report (pure, tested) |

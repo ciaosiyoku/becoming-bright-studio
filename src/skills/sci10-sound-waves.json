@@ -1,0 +1,443 @@
+{
+  "id": "sci10-sound-waves",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 213,
+  "params": {
+    "emojis": [
+      "music",
+      "music",
+      "music",
+      "music",
+      "music",
+      "music",
+      "music",
+      "music",
+      "music",
+      "music",
+      "music",
+      "music",
+      "music"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What makes a sound?",
+          "vibrations",
+          "light",
+          "magnets",
+          "All sounds start with something vibrating."
+        ],
+        [
+          "Can sound travel through space?",
+          "no, there is nothing to carry it",
+          "yes, faster than on Earth",
+          "only at night",
+          "Space is a vacuum with no particles."
+        ],
+        [
+          "Sound travels fastest through…",
+          "solids",
+          "gases",
+          "a vacuum",
+          "Particles in solids are closest together."
+        ],
+        [
+          "How high or low a sound is is called its…",
+          "pitch",
+          "volume",
+          "colour",
+          "Pitch is high or low; volume is loud or quiet."
+        ],
+        [
+          "A shorter guitar string gives a…",
+          "higher pitch",
+          "lower pitch",
+          "no sound",
+          "Shorter strings vibrate faster."
+        ],
+        [
+          "Hitting a drum harder makes the sound…",
+          "louder",
+          "higher",
+          "quieter",
+          "Bigger vibrations mean a louder sound."
+        ],
+        [
+          "What is an echo?",
+          "sound bouncing back off a surface",
+          "sound getting lost",
+          "a very quiet sound",
+          "Echoes are reflected sound."
+        ],
+        [
+          "Why does sound get quieter far away?",
+          "its energy spreads out",
+          "it gets tired",
+          "it turns into light",
+          "The farther it travels, the weaker it gets."
+        ],
+        [
+          "Which material is best for muffling sound?",
+          "thick foam",
+          "a metal sheet",
+          "glass",
+          "Soft, thick materials absorb sound."
+        ],
+        [
+          "Why do we see lightning before we hear thunder?",
+          "light travels much faster than sound",
+          "thunder starts later",
+          "our ears are slow",
+          "Light is about a million times faster."
+        ],
+        [
+          "Which part of the ear vibrates when sound arrives?",
+          "the eardrum",
+          "the earlobe",
+          "the ear wax",
+          "The eardrum passes vibrations inward."
+        ],
+        [
+          "Bats find food in the dark using…",
+          "echoes of their calls",
+          "torches",
+          "their sense of taste",
+          "Bats use echolocation."
+        ],
+        [
+          "Tightening a drum skin makes the note…",
+          "higher",
+          "lower",
+          "silent",
+          "A tighter skin vibrates faster."
+        ]
+      ],
+      "de": [
+        [
+          "Wodurch entsteht Schall?",
+          "durch Schwingungen",
+          "durch Licht",
+          "durch Magnete",
+          "Jeder Ton beginnt mit einer Schwingung."
+        ],
+        [
+          "Kann Schall durch den Weltraum reisen?",
+          "nein, nichts trägt ihn",
+          "ja, schneller als auf der Erde",
+          "nur nachts",
+          "Im Vakuum gibt es keine Teilchen."
+        ],
+        [
+          "Schall ist am schnellsten in…",
+          "Feststoffen",
+          "Gasen",
+          "einem Vakuum",
+          "In Feststoffen liegen Teilchen am dichtesten."
+        ],
+        [
+          "Wie hoch oder tief ein Ton ist, heißt…",
+          "Tonhöhe",
+          "Lautstärke",
+          "Farbe",
+          "Tonhöhe: hoch/tief; Lautstärke: laut/leise."
+        ],
+        [
+          "Eine kürzere Gitarrensaite klingt…",
+          "höher",
+          "tiefer",
+          "gar nicht",
+          "Kürzere Saiten schwingen schneller."
+        ],
+        [
+          "Fester auf die Trommel schlagen macht den Ton…",
+          "lauter",
+          "höher",
+          "leiser",
+          "Größere Schwingungen sind lauter."
+        ],
+        [
+          "Was ist ein Echo?",
+          "Schall, der von einer Fläche zurückprallt",
+          "verlorener Schall",
+          "ein sehr leiser Ton",
+          "Ein Echo ist zurückgeworfener Schall."
+        ],
+        [
+          "Warum wird Schall in der Ferne leiser?",
+          "seine Energie verteilt sich",
+          "er wird müde",
+          "er wird zu Licht",
+          "Je weiter, desto schwächer."
+        ],
+        [
+          "Was dämpft Schall am besten?",
+          "dicker Schaumstoff",
+          "ein Blech",
+          "Glas",
+          "Weiche, dicke Stoffe schlucken Schall."
+        ],
+        [
+          "Warum sieht man den Blitz vor dem Donner?",
+          "Licht ist viel schneller als Schall",
+          "Donner beginnt später",
+          "unsere Ohren sind langsam",
+          "Licht ist fast eine Million Mal schneller."
+        ],
+        [
+          "Welcher Teil des Ohrs schwingt mit?",
+          "das Trommelfell",
+          "das Ohrläppchen",
+          "das Ohrenschmalz",
+          "Das Trommelfell leitet die Schwingungen weiter."
+        ],
+        [
+          "Fledermäuse finden im Dunkeln Futter mit…",
+          "Echos ihrer Rufe",
+          "Taschenlampen",
+          "ihrem Geschmackssinn",
+          "Fledermäuse nutzen Echoortung."
+        ],
+        [
+          "Ein strafferes Trommelfell macht den Ton…",
+          "höher",
+          "tiefer",
+          "stumm",
+          "Eine straffe Haut schwingt schneller."
+        ]
+      ],
+      "fr": [
+        [
+          "Qu’est-ce qui produit un son ?",
+          "des vibrations",
+          "la lumière",
+          "les aimants",
+          "Tout son commence par une vibration."
+        ],
+        [
+          "Le son peut-il voyager dans l’espace ?",
+          "non, rien ne le transporte",
+          "oui, plus vite que sur Terre",
+          "seulement la nuit",
+          "L’espace est un vide sans particules."
+        ],
+        [
+          "Le son va le plus vite dans…",
+          "les solides",
+          "les gaz",
+          "le vide",
+          "Les particules des solides sont très proches."
+        ],
+        [
+          "La hauteur aiguë ou grave d’un son s’appelle…",
+          "la hauteur",
+          "le volume",
+          "la couleur",
+          "Hauteur : aigu ou grave ; volume : fort ou faible."
+        ],
+        [
+          "Une corde de guitare plus courte donne un son…",
+          "plus aigu",
+          "plus grave",
+          "nul",
+          "Une corde courte vibre plus vite."
+        ],
+        [
+          "Taper plus fort sur un tambour rend le son…",
+          "plus fort",
+          "plus aigu",
+          "plus faible",
+          "Des vibrations plus grandes donnent un son plus fort."
+        ],
+        [
+          "Qu’est-ce qu’un écho ?",
+          "un son qui rebondit sur une surface",
+          "un son perdu",
+          "un son très faible",
+          "L’écho est un son réfléchi."
+        ],
+        [
+          "Pourquoi le son faiblit-il de loin ?",
+          "son énergie se disperse",
+          "il se fatigue",
+          "il devient lumière",
+          "Plus il voyage, plus il faiblit."
+        ],
+        [
+          "Quel matériau étouffe le mieux le son ?",
+          "une mousse épaisse",
+          "une plaque de métal",
+          "le verre",
+          "Les matériaux mous et épais absorbent le son."
+        ],
+        [
+          "Pourquoi voit-on l’éclair avant d’entendre le tonnerre ?",
+          "la lumière va bien plus vite que le son",
+          "le tonnerre commence après",
+          "nos oreilles sont lentes",
+          "La lumière est environ un million de fois plus rapide."
+        ],
+        [
+          "Quelle partie de l’oreille vibre avec le son ?",
+          "le tympan",
+          "le lobe",
+          "le cérumen",
+          "Le tympan transmet les vibrations."
+        ],
+        [
+          "Les chauves-souris trouvent leur nourriture dans le noir grâce…",
+          "aux échos de leurs cris",
+          "à des lampes",
+          "à leur goût",
+          "Elles utilisent l’écholocation."
+        ],
+        [
+          "Tendre la peau d’un tambour rend la note…",
+          "plus aiguë",
+          "plus grave",
+          "muette",
+          "Une peau tendue vibre plus vite."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ló ń mú ohùn wá?",
+          "ìgbọ̀n",
+          "ìmọ́lẹ̀",
+          "òòfà",
+          "Gbogbo ohùn ń bẹ̀rẹ̀ pẹ̀lú ohun tó ń gbọ̀n."
+        ],
+        [
+          "Ṣé ohùn lè rìn kọjá òfuurufú?",
+          "rárá, kò sí ohun tó lè gbé e",
+          "bẹ́ẹ̀ni, yára ju ti ayé lọ",
+          "lóru nìkan",
+          "Òfuurufú jẹ́ òfo láìsí èròjà."
+        ],
+        [
+          "Ohùn ń yára jù nínú…",
+          "ohun líle",
+          "gáàsì",
+          "òfo",
+          "Èròjà inú ohun líle súnmọ́ ara wọn jù."
+        ],
+        [
+          "Bí ohùn ṣe ga tàbí rẹlẹ̀ ni à ń pè ní…",
+          "ìró ohùn",
+          "ariwo ohùn",
+          "àwọ̀",
+          "Ìró: ga tàbí rẹlẹ̀; ariwo: pariwo tàbí jẹ́jẹ́."
+        ],
+        [
+          "Okùn gìtá tó kúrú ń fún wa ní…",
+          "ìró tó ga",
+          "ìró tó rẹlẹ̀",
+          "kò sí ohùn",
+          "Okùn kúkúrú ń gbọ̀n yára."
+        ],
+        [
+          "Lílu ìlù kíkankíkan ń mú ohùn…",
+          "pariwo sí i",
+          "ga sí i",
+          "rọlẹ̀ sí i",
+          "Ìgbọ̀n ńlá ń mú ohùn pariwo."
+        ],
+        [
+          "Kí ni gbohùngbohùn?",
+          "ohùn tó ń padà láti ara ògiri",
+          "ohùn tó sọnù",
+          "ohùn tó rọlẹ̀ gan-an",
+          "Gbohùngbohùn jẹ́ ohùn tó padà wá."
+        ],
+        [
+          "Kí ló dé tí ohùn fi ń rọlẹ̀ bí ó ṣe ń lọ jìnnà?",
+          "agbára rẹ̀ ń tàn ká",
+          "ó ń rẹ̀ ẹ́",
+          "ó ń di ìmọ́lẹ̀",
+          "Bí ó ṣe ń lọ jìnnà sí i, bẹ́ẹ̀ ni ó ń rẹ̀wẹ̀sì."
+        ],
+        [
+          "Ohun wo ló dára jù láti dín ohùn kù?",
+          "fọ́ọ̀mù tó nípọn",
+          "pátákó irin",
+          "gíláàsì",
+          "Ohun rírọ̀ tó nípọn ń fa ohùn mu."
+        ],
+        [
+          "Kí ló dé tí a fi ń rí mànàmáná kí a tó gbọ́ àrá?",
+          "ìmọ́lẹ̀ ń yára ju ohùn lọ púpọ̀",
+          "àrá ń bẹ̀rẹ̀ lẹ́yìn",
+          "etí wa ń lọ́ra",
+          "Ìmọ́lẹ̀ yára ní nǹkan bí mílíọ̀nù ìgbà."
+        ],
+        [
+          "Apá etí wo ló ń gbọ̀n nígbà tí ohùn bá dé?",
+          "ìlù etí",
+          "ẹ̀rẹ̀kẹ́ etí",
+          "ìdọ̀tí etí",
+          "Ìlù etí ń gbé ìgbọ̀n wọlé."
+        ],
+        [
+          "Àdán ń rí oúnjẹ nínú òkùnkùn nípa lílo…",
+          "gbohùngbohùn igbe wọn",
+          "tọ́ọ̀ṣì",
+          "ìmọ̀lára ìtọ́wò wọn",
+          "Àdán ń lo gbohùngbohùn láti rí nǹkan."
+        ],
+        [
+          "Fífún awọ ìlù le ń mú ìró…",
+          "ga sí i",
+          "rẹlẹ̀ sí i",
+          "dákẹ́",
+          "Awọ tó le ń gbọ̀n yára."
+        ]
+      ]
+    }
+  },
+  "emoji": "music",
+  "example": {
+    "i": 0,
+    "q_en": "What makes a sound?",
+    "answer_en": "vibrations",
+    "why_en": "All sounds start with something vibrating.",
+    "q_de": "Wodurch entsteht Schall?",
+    "answer_de": "durch Schwingungen",
+    "why_de": "Jeder Ton beginnt mit einer Schwingung.",
+    "q_fr": "Qu’est-ce qui produit un son ?",
+    "answer_fr": "des vibrations",
+    "why_fr": "Tout son commence par une vibration.",
+    "q_yo": "Kí ló ń mú ohùn wá?",
+    "answer_yo": "ìgbọ̀n",
+    "why_yo": "Gbogbo ohùn ń bẹ̀rẹ̀ pẹ̀lú ohun tó ń gbọ̀n."
+  },
+  "text": {
+    "en": {
+      "title": "How sound travels",
+      "teach": "Sound is made by vibrations that travel as waves through solids, liquids and gases. Faster vibrations make a higher pitch; bigger vibrations make a louder sound. Sound cannot travel through empty space.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Wie Schall sich ausbreitet",
+      "teach": "Schall entsteht durch Schwingungen, die als Wellen durch Feststoffe, Flüssigkeiten und Gase laufen. Schnellere Schwingungen klingen höher, größere lauter. Im leeren Weltraum gibt es keinen Schall.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "La propagation du son",
+      "teach": "Le son vient de vibrations qui voyagent en ondes dans les solides, les liquides et les gaz. Plus elles sont rapides, plus le son est aigu ; plus elles sont grandes, plus il est fort. Le son ne traverse pas le vide.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Bí ohùn ṣe ń rìn",
+      "teach": "Ohùn ń wá láti inú ìgbọ̀n tí ń rìn bí ìgbì nínú ohun líle, omi àti afẹ́fẹ́. Ìgbọ̀n yíyára ń mú ohùn ga; ìgbọ̀n ńlá ń mú ohùn pariwo. Ohùn kò lè rìn nínú òfuurufú òfo.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

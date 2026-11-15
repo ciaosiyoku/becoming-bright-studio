@@ -1,0 +1,443 @@
+{
+  "id": "sci6-food-groups",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 111,
+  "params": {
+    "emojis": [
+      "fruit-apple",
+      "fruit-apple",
+      "fruit-apple",
+      "fruit-apple",
+      "fruit-apple",
+      "fruit-apple",
+      "fruit-apple",
+      "fruit-apple",
+      "fruit-apple",
+      "fruit-apple",
+      "fruit-apple",
+      "fruit-apple",
+      "fruit-apple"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which food gives us lots of energy?",
+          "bread",
+          "water",
+          "salt",
+          "Bread, rice and pasta give energy."
+        ],
+        [
+          "Which food helps build strong bones?",
+          "milk",
+          "sweets",
+          "crisps",
+          "Milk has calcium for bones and teeth."
+        ],
+        [
+          "Which is a vegetable?",
+          "broccoli",
+          "an apple",
+          "cheese",
+          "Broccoli is a vegetable."
+        ],
+        [
+          "Which foods help us grow and repair our bodies?",
+          "eggs, fish and beans",
+          "sweets and cake",
+          "butter and oil",
+          "Protein foods help us grow."
+        ],
+        [
+          "How many portions of fruit and vegetables should we try to eat a day?",
+          "five or more",
+          "none",
+          "one a week",
+          "Try to eat at least five a day."
+        ],
+        [
+          "Which should we eat only a little of?",
+          "sweets and fizzy drinks",
+          "carrots",
+          "apples",
+          "Too much sugar is bad for teeth and health."
+        ],
+        [
+          "Which is a fruit?",
+          "a banana",
+          "a potato",
+          "an onion",
+          "A banana is a fruit."
+        ],
+        [
+          "What is the healthiest drink?",
+          "water",
+          "cola",
+          "milkshake with syrup",
+          "Water keeps us healthy with no sugar."
+        ],
+        [
+          "Which food comes from a plant?",
+          "rice",
+          "eggs",
+          "milk",
+          "Rice is a seed from a grass plant."
+        ],
+        [
+          "Which food comes from an animal?",
+          "cheese",
+          "a carrot",
+          "bread",
+          "Cheese is made from milk."
+        ],
+        [
+          "What is a balanced meal?",
+          "a mix of different food groups",
+          "only chips",
+          "only cake",
+          "Balanced means a bit of each group."
+        ],
+        [
+          "Why should we wash fruit before eating it?",
+          "to remove dirt and germs",
+          "to make it sweeter",
+          "to make it bigger",
+          "Washing removes dirt and germs."
+        ],
+        [
+          "Which food is a good snack?",
+          "a handful of grapes",
+          "a whole bag of sweets",
+          "a bottle of cola",
+          "Fruit makes a healthy snack."
+        ]
+      ],
+      "de": [
+        [
+          "Welches Lebensmittel gibt uns viel Energie?",
+          "Brot",
+          "Wasser",
+          "Salz",
+          "Brot, Reis und Nudeln geben Energie."
+        ],
+        [
+          "Was hilft beim Aufbau starker Knochen?",
+          "Milch",
+          "Süßigkeiten",
+          "Chips",
+          "Milch enthält Kalzium für Knochen."
+        ],
+        [
+          "Was ist ein Gemüse?",
+          "Brokkoli",
+          "ein Apfel",
+          "Käse",
+          "Brokkoli ist ein Gemüse."
+        ],
+        [
+          "Welche Lebensmittel helfen beim Wachsen und Heilen?",
+          "Eier, Fisch und Bohnen",
+          "Süßigkeiten und Kuchen",
+          "Butter und Öl",
+          "Eiweißreiche Lebensmittel helfen beim Wachsen."
+        ],
+        [
+          "Wie viele Portionen Obst und Gemüse sollten wir am Tag essen?",
+          "fünf oder mehr",
+          "keine",
+          "eine pro Woche",
+          "Versuche mindestens fünf am Tag."
+        ],
+        [
+          "Wovon sollten wir nur wenig essen?",
+          "Süßigkeiten und Limo",
+          "Karotten",
+          "Äpfel",
+          "Zu viel Zucker schadet."
+        ],
+        [
+          "Was ist Obst?",
+          "eine Banane",
+          "eine Kartoffel",
+          "eine Zwiebel",
+          "Eine Banane ist Obst."
+        ],
+        [
+          "Was ist das gesündeste Getränk?",
+          "Wasser",
+          "Cola",
+          "Milchshake mit Sirup",
+          "Wasser ist gesund und ohne Zucker."
+        ],
+        [
+          "Welches Lebensmittel kommt von einer Pflanze?",
+          "Reis",
+          "Eier",
+          "Milch",
+          "Reis ist der Samen einer Graspflanze."
+        ],
+        [
+          "Welches Lebensmittel kommt von einem Tier?",
+          "Käse",
+          "eine Karotte",
+          "Brot",
+          "Käse wird aus Milch gemacht."
+        ],
+        [
+          "Was ist eine ausgewogene Mahlzeit?",
+          "eine Mischung verschiedener Gruppen",
+          "nur Pommes",
+          "nur Kuchen",
+          "Ausgewogen heißt von jeder Gruppe etwas."
+        ],
+        [
+          "Warum waschen wir Obst vor dem Essen?",
+          "um Schmutz und Keime zu entfernen",
+          "damit es süßer wird",
+          "damit es größer wird",
+          "Waschen entfernt Schmutz und Keime."
+        ],
+        [
+          "Was ist ein guter Snack?",
+          "eine Handvoll Weintrauben",
+          "eine ganze Tüte Süßigkeiten",
+          "eine Flasche Cola",
+          "Obst ist ein gesunder Snack."
+        ]
+      ],
+      "fr": [
+        [
+          "Quel aliment donne beaucoup d’énergie ?",
+          "le pain",
+          "l’eau",
+          "le sel",
+          "Le pain, le riz et les pâtes donnent de l’énergie."
+        ],
+        [
+          "Quel aliment aide à avoir des os solides ?",
+          "le lait",
+          "les bonbons",
+          "les chips",
+          "Le lait contient du calcium."
+        ],
+        [
+          "Lequel est un légume ?",
+          "le brocoli",
+          "une pomme",
+          "le fromage",
+          "Le brocoli est un légume."
+        ],
+        [
+          "Quels aliments aident à grandir et réparer le corps ?",
+          "les œufs, le poisson et les haricots",
+          "les bonbons et le gâteau",
+          "le beurre et l’huile",
+          "Les protéines aident à grandir."
+        ],
+        [
+          "Combien de portions de fruits et légumes par jour ?",
+          "cinq ou plus",
+          "aucune",
+          "une par semaine",
+          "Au moins cinq par jour."
+        ],
+        [
+          "De quoi faut-il manger peu ?",
+          "les bonbons et les sodas",
+          "les carottes",
+          "les pommes",
+          "Trop de sucre est mauvais pour la santé."
+        ],
+        [
+          "Lequel est un fruit ?",
+          "une banane",
+          "une pomme de terre",
+          "un oignon",
+          "La banane est un fruit."
+        ],
+        [
+          "Quelle est la boisson la plus saine ?",
+          "l’eau",
+          "le cola",
+          "le milk-shake au sirop",
+          "L’eau est saine et sans sucre."
+        ],
+        [
+          "Quel aliment vient d’une plante ?",
+          "le riz",
+          "les œufs",
+          "le lait",
+          "Le riz est la graine d’une plante."
+        ],
+        [
+          "Quel aliment vient d’un animal ?",
+          "le fromage",
+          "une carotte",
+          "le pain",
+          "Le fromage est fait avec du lait."
+        ],
+        [
+          "Qu’est-ce qu’un repas équilibré ?",
+          "un mélange de groupes d’aliments",
+          "seulement des frites",
+          "seulement du gâteau",
+          "Équilibré : un peu de chaque groupe."
+        ],
+        [
+          "Pourquoi laver les fruits avant de les manger ?",
+          "pour enlever saleté et microbes",
+          "pour qu’ils soient plus sucrés",
+          "pour qu’ils grossissent",
+          "Laver enlève la saleté et les microbes."
+        ],
+        [
+          "Quel est un bon goûter ?",
+          "une poignée de raisins",
+          "un paquet entier de bonbons",
+          "une bouteille de cola",
+          "Les fruits font un goûter sain."
+        ]
+      ],
+      "yo": [
+        [
+          "Oúnjẹ wo ló ń fún wa ní agbára púpọ̀?",
+          "búrẹ́dì",
+          "omi",
+          "iyọ̀",
+          "Búrẹ́dì, ìrẹsì àti pásítà ń fún wa ní agbára."
+        ],
+        [
+          "Oúnjẹ wo ló ń ràn wá lọ́wọ́ fún egungun líle?",
+          "wàrà",
+          "súìtì",
+          "ìpanu dídín",
+          "Wàrà ní kálísíọ̀mù fún egungun."
+        ],
+        [
+          "Èwo ni ẹ̀fọ́?",
+          "bùrókólì",
+          "ápù",
+          "wàràkàṣì",
+          "Bùrókólì jẹ́ ẹ̀fọ́."
+        ],
+        [
+          "Oúnjẹ wo ló ń ràn wá lọ́wọ́ láti dàgbà àti láti tún ara ṣe?",
+          "ẹyin, ẹja àti ẹ̀wà",
+          "súìtì àti kéèkì",
+          "bọ́tà àti òróró",
+          "Oúnjẹ aṣaralóore protein ń jẹ́ ká dàgbà."
+        ],
+        [
+          "Ìpín èso àti ẹ̀fọ́ mélòó ló yẹ ká jẹ lóòjọ́?",
+          "márùn-ún tàbí jù bẹ́ẹ̀ lọ",
+          "kò sí",
+          "ọ̀kan lọ́sẹ̀",
+          "Gbìyànjú láti jẹ márùn-ún lóòjọ́."
+        ],
+        [
+          "Kí ló yẹ ká jẹ díẹ̀ nínú rẹ̀?",
+          "súìtì àti ọtí ẹlẹ́rìndòdò",
+          "kárọ́ọ̀tì",
+          "ápù",
+          "Ṣúgà púpọ̀ kò dára fún ìlera."
+        ],
+        [
+          "Èwo ni èso?",
+          "ọ̀gẹ̀dẹ̀",
+          "ànàmọ́ òyìnbó",
+          "àlùbọ́sà",
+          "Ọ̀gẹ̀dẹ̀ jẹ́ èso."
+        ],
+        [
+          "Kí ni ohun mímu tó dára jù fún ìlera?",
+          "omi",
+          "kóla",
+          "mílíìkì aládùn",
+          "Omi dára fún ìlera kò sì ní ṣúgà."
+        ],
+        [
+          "Oúnjẹ wo ló ń wá láti ara ewéko?",
+          "ìrẹsì",
+          "ẹyin",
+          "wàrà",
+          "Ìrẹsì jẹ́ irúgbìn koríko kan."
+        ],
+        [
+          "Oúnjẹ wo ló ń wá láti ara ẹranko?",
+          "wàràkàṣì",
+          "kárọ́ọ̀tì",
+          "búrẹ́dì",
+          "A ń fi wàrà ṣe wàràkàṣì."
+        ],
+        [
+          "Kí ni oúnjẹ tó péye?",
+          "àdàpọ̀ oríṣiríṣi ìsọ̀rí oúnjẹ",
+          "dùndú nìkan",
+          "kéèkì nìkan",
+          "Péye túmọ̀ sí díẹ̀ nínú ìsọ̀rí kọ̀ọ̀kan."
+        ],
+        [
+          "Kí ló dé tí a fi gbọ́dọ̀ fọ èso kí a tó jẹ ẹ́?",
+          "láti mú ìdọ̀tí àti kòkòrò àrùn kúrò",
+          "kí ó lè dùn sí i",
+          "kí ó lè tóbi sí i",
+          "Fífọ̀ ń mú ìdọ̀tí àti kòkòrò àrùn kúrò."
+        ],
+        [
+          "Ìpanu wo ló dára?",
+          "ọwọ́ kan èso àjàrà",
+          "àpò súìtì kan lódindi",
+          "ìgò kóla kan",
+          "Èso jẹ́ ìpanu tó dára fún ìlera."
+        ]
+      ]
+    }
+  },
+  "emoji": "fruit-apple",
+  "example": {
+    "i": 0,
+    "q_en": "Which food gives us lots of energy?",
+    "answer_en": "bread",
+    "why_en": "Bread, rice and pasta give energy.",
+    "q_de": "Welches Lebensmittel gibt uns viel Energie?",
+    "answer_de": "Brot",
+    "why_de": "Brot, Reis und Nudeln geben Energie.",
+    "q_fr": "Quel aliment donne beaucoup d’énergie ?",
+    "answer_fr": "le pain",
+    "why_fr": "Le pain, le riz et les pâtes donnent de l’énergie.",
+    "q_yo": "Oúnjẹ wo ló ń fún wa ní agbára púpọ̀?",
+    "answer_yo": "búrẹ́dì",
+    "why_yo": "Búrẹ́dì, ìrẹsì àti pásítà ń fún wa ní agbára."
+  },
+  "text": {
+    "en": {
+      "title": "Food groups",
+      "teach": "We need different foods: fruit and vegetables, bread and rice for energy, meat, fish, beans and eggs for growing, and milk for strong bones.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Lebensmittelgruppen",
+      "teach": "Wir brauchen verschiedene Lebensmittel: Obst und Gemüse, Brot und Reis für Energie, Fleisch, Fisch, Bohnen und Eier zum Wachsen und Milch für starke Knochen.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les groupes d’aliments",
+      "teach": "Il nous faut des aliments variés : fruits et légumes, pain et riz pour l’énergie, viande, poisson, haricots et œufs pour grandir, lait pour des os solides.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ìsọ̀rí oúnjẹ",
+      "teach": "A nílò oríṣiríṣi oúnjẹ: èso àti ẹ̀fọ́, búrẹ́dì àti ìrẹsì fún agbára, ẹran, ẹja, ẹ̀wà àti ẹyin fún ìdàgbà, àti wàrà fún egungun líle.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

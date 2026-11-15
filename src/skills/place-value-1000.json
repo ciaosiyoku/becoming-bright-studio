@@ -3,6 +3,9 @@
   "kind": "place-value",
   "subject": "numbers",
   "stage": 3,
+  "ages": [
+    "8-9"
+  ],
   "order": 18,
   "params": {},
   "emoji": "key",

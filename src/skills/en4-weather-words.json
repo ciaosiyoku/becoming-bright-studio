@@ -1,0 +1,154 @@
+{
+  "id": "en4-weather-words",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 112,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "sun-rain",
+      "sun-rain",
+      "sun-rain",
+      "sun-rain",
+      "sun-rain",
+      "sun-rain",
+      "sun-rain",
+      "sun-rain",
+      "sun-rain",
+      "sun-rain",
+      "sun-rain",
+      "sun-rain",
+      "sun-rain",
+      "sun-rain",
+      "sun-rain"
+    ],
+    "bank": {
+      "en": [
+        [
+          "The sun is shining. It is …",
+          "sunny",
+          "rainy",
+          "snowy",
+          "When the sun shines, we say it is sunny."
+        ],
+        [
+          "Water is falling from the clouds. It is …",
+          "rainy",
+          "sunny",
+          "windy",
+          "Rain falls from the clouds, so it is rainy."
+        ],
+        [
+          "The trees are blowing about. It is …",
+          "windy",
+          "snowy",
+          "sunny",
+          "Wind makes the trees blow about, so it is windy."
+        ],
+        [
+          "White flakes are falling. It is …",
+          "snowy",
+          "rainy",
+          "sunny",
+          "Snow falls in white flakes, so it is snowy."
+        ],
+        [
+          "Grey clouds cover the sky. It is …",
+          "cloudy",
+          "sunny",
+          "snowy",
+          "When clouds cover the sky, it is cloudy."
+        ],
+        [
+          "What do we use to stay dry in the rain?",
+          "an umbrella",
+          "a sun hat",
+          "a sledge",
+          "An umbrella keeps the rain off us."
+        ],
+        [
+          "What can we build when it snows?",
+          "a snowman",
+          "a sandcastle",
+          "a kite",
+          "We can roll snow into a snowman."
+        ],
+        [
+          "What do we fly on a windy day?",
+          "a kite",
+          "a sledge",
+          "an umbrella",
+          "The wind lifts a kite up into the sky."
+        ],
+        [
+          "What do we wear on our feet to jump in puddles?",
+          "wellies",
+          "slippers",
+          "sandals",
+          "Wellies are rubber boots that keep our feet dry."
+        ],
+        [
+          "What comes after rain when the sun shines?",
+          "a rainbow",
+          "snow",
+          "fog",
+          "Sunlight shining through raindrops makes a rainbow."
+        ],
+        [
+          "What makes a loud bang in a storm?",
+          "thunder",
+          "rain",
+          "a rainbow",
+          "Thunder is the loud bang in a storm."
+        ],
+        [
+          "What is the bright flash in a storm?",
+          "lightning",
+          "snow",
+          "a cloud",
+          "Lightning is the bright flash in a storm."
+        ],
+        [
+          "When it is very cold, water turns to …",
+          "ice",
+          "sand",
+          "steam",
+          "Very cold water freezes into ice."
+        ],
+        [
+          "What do we wear on a sunny day to keep the sun off our head?",
+          "a sun hat",
+          "a woolly hat",
+          "wellies",
+          "A sun hat shades our head and face."
+        ],
+        [
+          "What is it called when we cannot see far because of a grey cloud near the ground?",
+          "fog",
+          "snow",
+          "sun",
+          "Fog is a cloud low down near the ground."
+        ]
+      ]
+    }
+  },
+  "emoji": "sun-rain",
+  "example": {
+    "i": 0,
+    "q_en": "The sun is shining. It is …",
+    "answer_en": "sunny",
+    "why_en": "When the sun shines, we say it is sunny."
+  },
+  "text": {
+    "en": {
+      "title": "Weather words",
+      "teach": "Look out of the window and say what the weather is like: sunny, rainy, windy, snowy or cloudy.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

@@ -3,6 +3,9 @@
   "kind": "alphabet",
   "subject": "words",
   "stage": 3,
+  "ages": [
+    "8-9"
+  ],
   "order": 10,
   "only": "en",
   "params": {

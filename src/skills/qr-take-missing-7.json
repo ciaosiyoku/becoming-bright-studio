@@ -1,0 +1,36 @@
+{
+  "id": "qr-take-missing-7",
+  "kind": "qr-balance",
+  "subject": "quantitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 20,
+  "only": "en",
+  "params": {
+    "max": 7,
+    "ops": [
+      "sub"
+    ]
+  },
+  "emoji": "abacus",
+  "example": {
+    "op": "sub",
+    "a": 7,
+    "b": 5,
+    "c": 2,
+    "blank": "second",
+    "answer": 5,
+    "shown": "7 − ? = 2",
+    "full": "7 − 5 = 2"
+  },
+  "text": {
+    "en": {
+      "title": "Missing numbers: taking away from 7",
+      "teach": "Something is hiding behind the ?. Try numbers until the sum is true: {shown}, and {full}.",
+      "prompt": "What is the missing number?",
+      "reason": "{full}, so the missing number is {answer}."
+    }
+  }
+}

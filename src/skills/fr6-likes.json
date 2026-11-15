@@ -1,0 +1,154 @@
+{
+  "id": "fr6-likes",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 24,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “J’aime le chocolat” mean?",
+          "I like chocolate",
+          "I don’t like chocolate",
+          "I have chocolate",
+          "J’aime means I like."
+        ],
+        [
+          "What does “Je n’aime pas les carottes” mean?",
+          "I don’t like carrots",
+          "I like carrots",
+          "I love carrots",
+          "Je n’aime pas means I don’t like."
+        ],
+        [
+          "What does “J’adore le football” mean?",
+          "I love football",
+          "I hate football",
+          "I play football",
+          "J’adore means I love."
+        ],
+        [
+          "What does “Je déteste la pluie” mean?",
+          "I hate the rain",
+          "I love the rain",
+          "I like the rain",
+          "Je déteste means I hate."
+        ],
+        [
+          "How do you say “I like cats” in French?",
+          "J’aime les chats",
+          "Je n’aime pas les chats",
+          "Je déteste les chats",
+          "I like is j’aime."
+        ],
+        [
+          "How do you say “I don’t like dogs”?",
+          "Je n’aime pas les chiens",
+          "J’aime les chiens",
+          "J’adore les chiens",
+          "I don’t like is je n’aime pas."
+        ],
+        [
+          "What does “Tu aimes les pommes ?” mean?",
+          "Do you like apples?",
+          "I like apples.",
+          "You have apples.",
+          "Tu aimes …? asks do you like …?"
+        ],
+        [
+          "What does “Oui, j’aime ça” mean?",
+          "Yes, I like that",
+          "No, I don’t like that",
+          "Yes, I have that",
+          "Oui means yes; j’aime ça means I like that."
+        ],
+        [
+          "Which means the strongest liking?",
+          "j’adore",
+          "j’aime",
+          "je n’aime pas",
+          "J’adore (I love) is stronger than j’aime (I like)."
+        ],
+        [
+          "What does “J’aime nager” mean?",
+          "I like swimming",
+          "I like running",
+          "I don’t like swimming",
+          "Nager means to swim."
+        ],
+        [
+          "What does “J’aime bien” mean?",
+          "I quite like",
+          "I hate",
+          "I don’t know",
+          "J’aime bien means I quite like."
+        ],
+        [
+          "What does “mon sport préféré” mean?",
+          "my favourite sport",
+          "my best friend",
+          "my new sport",
+          "Préféré means favourite."
+        ],
+        [
+          "How do you say “I love ice cream”?",
+          "J’adore la glace",
+          "Je déteste la glace",
+          "J’ai la glace",
+          "I love is j’adore; ice cream is la glace."
+        ],
+        [
+          "What does “Je n’aime pas du tout” mean?",
+          "I don’t like it at all",
+          "I like it a lot",
+          "I like it a bit",
+          "Pas du tout means not at all."
+        ],
+        [
+          "What does “Et toi ?” mean?",
+          "And you?",
+          "Thank you?",
+          "Me too?",
+          "Et toi ? means and you?"
+        ]
+      ]
+    }
+  },
+  "emoji": "heart",
+  "example": {
+    "i": 0,
+    "q_en": "What does “J’aime le chocolat” mean?",
+    "answer_en": "I like chocolate",
+    "why_en": "J’aime means I like."
+  },
+  "text": {
+    "en": {
+      "title": "Likes and dislikes in French",
+      "teach": "J’aime means I like. Je n’aime pas means I don’t like. J’adore means I love. Je déteste means I hate.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

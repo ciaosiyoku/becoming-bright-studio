@@ -1,0 +1,96 @@
+{
+  "id": "ql-odd-sea-farm-party",
+  "kind": "odd-one-out",
+  "subject": "qualitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 21,
+  "only": "en",
+  "params": {
+    "groups": {
+      "sea animals": [
+        [
+          "dolphin",
+          "animal-dolphin"
+        ],
+        [
+          "shark",
+          "animal-shark"
+        ],
+        [
+          "octopus",
+          "animal-octopus"
+        ],
+        [
+          "crab",
+          "animal-crab"
+        ],
+        [
+          "whale",
+          "animal-spouting-whale"
+        ],
+        [
+          "seal",
+          "animal-seal"
+        ]
+      ],
+      "farm animals": [
+        [
+          "cow",
+          "animal-cow"
+        ],
+        [
+          "horse",
+          "animal-horse"
+        ],
+        [
+          "chick",
+          "chick"
+        ],
+        [
+          "rabbit",
+          "animal-rabbit"
+        ]
+      ],
+      "party things": [
+        [
+          "cake",
+          "cake"
+        ],
+        [
+          "present",
+          "gift"
+        ],
+        [
+          "party popper",
+          "party"
+        ],
+        [
+          "ribbon",
+          "ribbon"
+        ],
+        [
+          "candle",
+          "candle"
+        ]
+      ]
+    }
+  },
+  "emoji": "party",
+  "example": {
+    "group": "party things",
+    "oddGroup": "farm animals",
+    "items": "cake, candle, ribbon",
+    "answer": "chick"
+  },
+  "text": {
+    "en": {
+      "title": "Odd one out: sea, farm or party",
+      "teach": "Three pictures go together. The {items} are all {group}, and the {answer} is not.",
+      "prompt": "Which picture does not belong?",
+      "reason": "The others are all {group}; the {answer} is not."
+    }
+  }
+}

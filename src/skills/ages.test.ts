@@ -45,11 +45,13 @@ describe('age ranges', () => {
 })
 
 describe('choice', () => {
-  // Owner's request (Nov 2026): every subject offers at least 15 skills for every age range (some shared with the
-  // range next to it).
+  // Owner's request (Nov 2026): every subject has 16 skills of its own for every age range, none shared between ranges.
+  it('puts every skill in exactly one age range', () => {
+    for (const def of SKILLS) expect(skillBands(def).length, def.id).toBe(1)
+  })
   for (const subject of SUBJECTS)
     for (const band of AGE_BANDS)
-      it(`${subject}, ages ${band}: at least 15 skills`, () => {
-        expect(SKILLS.filter((s) => s.subject === subject && skillBands(s).includes(band)).length).toBeGreaterThanOrEqual(15)
+      it(`${subject}, ages ${band}: 16 skills`, () => {
+        expect(SKILLS.filter((s) => s.subject === subject && skillBands(s).includes(band)).length).toBe(16)
       })
 })

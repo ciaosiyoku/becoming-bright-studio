@@ -1,0 +1,154 @@
+{
+  "id": "fr6-transport",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 21,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus",
+      "bus"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is “a car” in French?",
+          "une voiture",
+          "un vélo",
+          "un bateau",
+          "A car is une voiture."
+        ],
+        [
+          "What is “a bike” in French?",
+          "un vélo",
+          "un avion",
+          "un bus",
+          "A bike is un vélo."
+        ],
+        [
+          "What is “a plane” in French?",
+          "un avion",
+          "un bateau",
+          "un train",
+          "A plane is un avion."
+        ],
+        [
+          "What does “un bateau” mean?",
+          "a boat",
+          "a bus",
+          "a car",
+          "Un bateau is a boat."
+        ],
+        [
+          "What does “à pied” mean?",
+          "on foot",
+          "by bike",
+          "by car",
+          "À pied means on foot."
+        ],
+        [
+          "What does “en bus” mean?",
+          "by bus",
+          "by train",
+          "on foot",
+          "En bus means by bus."
+        ],
+        [
+          "What does “Je vais à l’école à vélo” mean?",
+          "I go to school by bike",
+          "I go to school by car",
+          "I go to the park by bike",
+          "À vélo means by bike."
+        ],
+        [
+          "What does “le métro” mean?",
+          "the underground train",
+          "the motorbike",
+          "the boat",
+          "Le métro is the underground train."
+        ],
+        [
+          "What does “une moto” mean?",
+          "a motorbike",
+          "a car",
+          "a lorry",
+          "Une moto is a motorbike."
+        ],
+        [
+          "What does “un camion” mean?",
+          "a lorry",
+          "a bus",
+          "a bike",
+          "Un camion is a lorry (truck)."
+        ],
+        [
+          "What does “la gare” mean?",
+          "the station",
+          "the airport",
+          "the port",
+          "La gare is the train station."
+        ],
+        [
+          "What does “l’aéroport” mean?",
+          "the airport",
+          "the station",
+          "the car park",
+          "L’aéroport is the airport."
+        ],
+        [
+          "How do you say “by car” in French?",
+          "en voiture",
+          "à voiture",
+          "par voiture",
+          "We say en voiture."
+        ],
+        [
+          "What does “un hélicoptère” mean?",
+          "a helicopter",
+          "a plane",
+          "a rocket",
+          "Un hélicoptère is a helicopter."
+        ],
+        [
+          "What does “une fusée” mean?",
+          "a rocket",
+          "a boat",
+          "a train",
+          "Une fusée is a rocket."
+        ]
+      ]
+    }
+  },
+  "emoji": "bus",
+  "example": {
+    "i": 0,
+    "q_en": "What is “a car” in French?",
+    "answer_en": "une voiture",
+    "why_en": "A car is une voiture."
+  },
+  "text": {
+    "en": {
+      "title": "Getting around in French",
+      "teach": "Transport in French: la voiture (car), le bus, le train, le vélo (bike), l’avion (plane), le bateau (boat). Je vais à l’école en bus.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

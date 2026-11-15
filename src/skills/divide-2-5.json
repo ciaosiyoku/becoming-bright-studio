@@ -1,0 +1,48 @@
+{
+  "id": "divide-2-5",
+  "kind": "divide",
+  "subject": "numbers",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 26,
+  "params": {
+    "dMin": 2,
+    "dMax": 5,
+    "qMin": 2,
+    "qMax": 10
+  },
+  "emoji": "cake",
+  "example": {
+    "total": 15,
+    "d": 5,
+    "answer": 3
+  },
+  "text": {
+    "en": {
+      "title": "Dividing by 2, 3, 4 and 5",
+      "teach": "Dividing is sharing into equal groups. {total} ÷ {d} = {answer}, because {answer} × {d} = {total}.",
+      "prompt": "What is {total} ÷ {d}?",
+      "reason": "{total} ÷ {d} = {answer}, because {answer} × {d} = {total}."
+    },
+    "de": {
+      "title": "Teilen durch 2, 3, 4 und 5",
+      "teach": "Teilen heißt in gleiche Gruppen aufteilen. {total} ÷ {d} = {answer}, weil {answer} × {d} = {total} ist.",
+      "prompt": "Was ist {total} ÷ {d}?",
+      "reason": "{total} ÷ {d} = {answer}, weil {answer} × {d} = {total} ist."
+    },
+    "fr": {
+      "title": "Diviser par 2, 3, 4 et 5",
+      "teach": "Diviser, c’est partager en groupes égaux. {total} ÷ {d} = {answer}, car {answer} × {d} = {total}.",
+      "prompt": "Combien font {total} ÷ {d} ?",
+      "reason": "{total} ÷ {d} = {answer}, car {answer} × {d} = {total}."
+    },
+    "yo": {
+      "title": "Pínpín sí 2, 3, 4 àti 5",
+      "teach": "Pínpín túmọ̀ sí pín sí àwọn ẹgbẹ́ tó dọ́gba. {total} ÷ {d} = {answer}, nítorí {answer} × {d} = {total}.",
+      "prompt": "Kí ni {total} ÷ {d}?",
+      "reason": "{total} ÷ {d} = {answer}, nítorí {answer} × {d} = {total}."
+    }
+  }
+}

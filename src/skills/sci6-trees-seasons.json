@@ -1,0 +1,443 @@
+{
+  "id": "sci6-trees-seasons",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 109,
+  "params": {
+    "emojis": [
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree",
+      "tree"
+    ],
+    "bank": {
+      "en": [
+        [
+          "In which season do many trees lose their leaves?",
+          "autumn",
+          "spring",
+          "summer",
+          "Leaves turn brown and fall in autumn."
+        ],
+        [
+          "In which season do new leaves and blossom appear?",
+          "spring",
+          "autumn",
+          "winter",
+          "Spring brings new leaves and flowers."
+        ],
+        [
+          "What colour do many leaves turn in autumn?",
+          "red, orange and brown",
+          "blue",
+          "white",
+          "Autumn leaves turn warm colours."
+        ],
+        [
+          "What is a tree that keeps its leaves all year called?",
+          "evergreen",
+          "deciduous",
+          "bare",
+          "Evergreens, like pine trees, keep their leaves."
+        ],
+        [
+          "What grows from an acorn?",
+          "an oak tree",
+          "an apple tree",
+          "a rose bush",
+          "An acorn is the seed of an oak."
+        ],
+        [
+          "In which season are trees full of green leaves?",
+          "summer",
+          "winter",
+          "autumn",
+          "Summer trees are leafy and green."
+        ],
+        [
+          "What do we call the hard outside of a tree trunk?",
+          "bark",
+          "petals",
+          "roots",
+          "Bark protects the tree."
+        ],
+        [
+          "How can you tell roughly how old a cut tree is?",
+          "count the rings in the trunk",
+          "count the leaves",
+          "measure the shadow",
+          "A tree grows one ring each year."
+        ],
+        [
+          "Which animal collects nuts in autumn for winter?",
+          "a squirrel",
+          "a fish",
+          "a butterfly",
+          "Squirrels store nuts to eat in winter."
+        ],
+        [
+          "What do trees give us that we breathe?",
+          "oxygen",
+          "smoke",
+          "steam",
+          "Leaves give out oxygen."
+        ],
+        [
+          "What do bare trees look like in winter?",
+          "no leaves, just branches",
+          "covered in fruit",
+          "full of flowers",
+          "Many trees are bare in winter."
+        ],
+        [
+          "Which season comes after winter?",
+          "spring",
+          "autumn",
+          "summer",
+          "Winter, then spring."
+        ],
+        [
+          "What are tree seeds with “wings” called, that spin down?",
+          "sycamore keys",
+          "acorns",
+          "pine needles",
+          "Sycamore seeds spin like helicopters."
+        ]
+      ],
+      "de": [
+        [
+          "In welcher Jahreszeit verlieren viele Bäume ihre Blätter?",
+          "im Herbst",
+          "im Frühling",
+          "im Sommer",
+          "Im Herbst werden die Blätter braun und fallen."
+        ],
+        [
+          "In welcher Jahreszeit kommen neue Blätter und Blüten?",
+          "im Frühling",
+          "im Herbst",
+          "im Winter",
+          "Im Frühling kommen neue Blätter und Blüten."
+        ],
+        [
+          "Welche Farbe bekommen viele Blätter im Herbst?",
+          "rot, orange und braun",
+          "blau",
+          "weiß",
+          "Herbstblätter werden warm gefärbt."
+        ],
+        [
+          "Wie heißt ein Baum, der das ganze Jahr Blätter hat?",
+          "immergrün",
+          "laubabwerfend",
+          "kahl",
+          "Immergrüne wie Kiefern behalten ihre Blätter."
+        ],
+        [
+          "Was wächst aus einer Eichel?",
+          "eine Eiche",
+          "ein Apfelbaum",
+          "ein Rosenstrauch",
+          "Die Eichel ist der Samen der Eiche."
+        ],
+        [
+          "In welcher Jahreszeit sind Bäume voller grüner Blätter?",
+          "im Sommer",
+          "im Winter",
+          "im Herbst",
+          "Im Sommer sind Bäume grün belaubt."
+        ],
+        [
+          "Wie heißt die harte Außenschicht eines Baumstamms?",
+          "Rinde",
+          "Blütenblätter",
+          "Wurzeln",
+          "Die Rinde schützt den Baum."
+        ],
+        [
+          "Wie erkennt man ungefähr das Alter eines gefällten Baums?",
+          "die Jahresringe zählen",
+          "die Blätter zählen",
+          "den Schatten messen",
+          "Ein Baum bildet jedes Jahr einen Ring."
+        ],
+        [
+          "Welches Tier sammelt im Herbst Nüsse für den Winter?",
+          "das Eichhörnchen",
+          "der Fisch",
+          "der Schmetterling",
+          "Eichhörnchen legen Nussvorräte an."
+        ],
+        [
+          "Was geben uns Bäume, das wir atmen?",
+          "Sauerstoff",
+          "Rauch",
+          "Dampf",
+          "Blätter geben Sauerstoff ab."
+        ],
+        [
+          "Wie sehen kahle Bäume im Winter aus?",
+          "keine Blätter, nur Äste",
+          "voller Früchte",
+          "voller Blüten",
+          "Viele Bäume sind im Winter kahl."
+        ],
+        [
+          "Welche Jahreszeit kommt nach dem Winter?",
+          "Frühling",
+          "Herbst",
+          "Sommer",
+          "Nach dem Winter kommt der Frühling."
+        ],
+        [
+          "Wie heißen geflügelte Baumsamen, die herabwirbeln?",
+          "Ahornsamen",
+          "Eicheln",
+          "Kiefernnadeln",
+          "Ahornsamen drehen sich wie Hubschrauber."
+        ]
+      ],
+      "fr": [
+        [
+          "En quelle saison beaucoup d’arbres perdent-ils leurs feuilles ?",
+          "en automne",
+          "au printemps",
+          "en été",
+          "En automne, les feuilles brunissent et tombent."
+        ],
+        [
+          "En quelle saison apparaissent les nouvelles feuilles et les fleurs ?",
+          "au printemps",
+          "en automne",
+          "en hiver",
+          "Le printemps apporte feuilles et fleurs."
+        ],
+        [
+          "De quelle couleur deviennent beaucoup de feuilles en automne ?",
+          "rouges, orange et brunes",
+          "bleues",
+          "blanches",
+          "En automne, les feuilles prennent des couleurs chaudes."
+        ],
+        [
+          "Comment appelle-t-on un arbre qui garde ses feuilles toute l’année ?",
+          "à feuillage persistant",
+          "à feuilles caduques",
+          "nu",
+          "Les arbres persistants, comme le pin, gardent leurs feuilles."
+        ],
+        [
+          "Que pousse-t-il d’un gland ?",
+          "un chêne",
+          "un pommier",
+          "un rosier",
+          "Le gland est la graine du chêne."
+        ],
+        [
+          "En quelle saison les arbres sont-ils pleins de feuilles vertes ?",
+          "en été",
+          "en hiver",
+          "en automne",
+          "En été, les arbres sont bien verts."
+        ],
+        [
+          "Comment s’appelle l’extérieur dur du tronc ?",
+          "l’écorce",
+          "les pétales",
+          "les racines",
+          "L’écorce protège l’arbre."
+        ],
+        [
+          "Comment connaître à peu près l’âge d’un arbre coupé ?",
+          "compter les cernes du tronc",
+          "compter les feuilles",
+          "mesurer l’ombre",
+          "Un arbre fait un cerne par an."
+        ],
+        [
+          "Quel animal ramasse des noisettes en automne pour l’hiver ?",
+          "l’écureuil",
+          "le poisson",
+          "le papillon",
+          "L’écureuil fait des réserves de noisettes."
+        ],
+        [
+          "Que nous donnent les arbres que nous respirons ?",
+          "de l’oxygène",
+          "de la fumée",
+          "de la vapeur",
+          "Les feuilles rejettent de l’oxygène."
+        ],
+        [
+          "À quoi ressemblent les arbres nus en hiver ?",
+          "pas de feuilles, juste des branches",
+          "couverts de fruits",
+          "pleins de fleurs",
+          "Beaucoup d’arbres sont nus en hiver."
+        ],
+        [
+          "Quelle saison vient après l’hiver ?",
+          "le printemps",
+          "l’automne",
+          "l’été",
+          "Après l’hiver vient le printemps."
+        ],
+        [
+          "Comment s’appellent les graines ailées qui tournoient en tombant ?",
+          "les samares d’érable",
+          "les glands",
+          "les aiguilles de pin",
+          "Les samares tournent comme des hélicoptères."
+        ]
+      ],
+      "yo": [
+        [
+          "Ìgbà wo ni ewé ọ̀pọ̀ igi máa ń já?",
+          "ìgbà ìwọ́wé",
+          "ìgbà ìrúwé",
+          "ìgbà ẹ̀ẹ̀rùn",
+          "Ewé máa ń pọ́n ó sì ń já ní ìgbà ìwọ́wé."
+        ],
+        [
+          "Ìgbà wo ni ewé tuntun àti òdòdó máa ń yọ?",
+          "ìgbà ìrúwé",
+          "ìgbà ìwọ́wé",
+          "ìgbà òtútù",
+          "Ìgbà ìrúwé ń mú ewé tuntun àti òdòdó wá."
+        ],
+        [
+          "Àwọ̀ wo ni ọ̀pọ̀ ewé máa ń dà ní ìgbà ìwọ́wé?",
+          "pupa, ọsàn àti àwọ̀ ilẹ̀",
+          "búlúù",
+          "funfun",
+          "Ewé ìgbà ìwọ́wé máa ń ní àwọ̀ gbígbóná."
+        ],
+        [
+          "Kí la ń pe igi tí ewé rẹ̀ kì í já láéláé?",
+          "igi aláwọ̀ ewé títí",
+          "igi tó ń já ewé",
+          "igi òfìfo",
+          "Igi bí igi páìnì kì í já ewé."
+        ],
+        [
+          "Kí ló ń hù láti ara èso igi oaku?",
+          "igi oaku",
+          "igi ápù",
+          "igbó òdòdó rósì",
+          "Èso yìí ni irúgbìn igi oaku."
+        ],
+        [
+          "Ìgbà wo ni igi máa ń kún fún ewé aláwọ̀ ewé?",
+          "ìgbà ẹ̀ẹ̀rùn",
+          "ìgbà òtútù",
+          "ìgbà ìwọ́wé",
+          "Igi máa ń kún fún ewé ní ìgbà ẹ̀ẹ̀rùn."
+        ],
+        [
+          "Kí la ń pe ara òde igi tó le?",
+          "èèpo igi",
+          "ewé òdòdó",
+          "gbòǹgbò",
+          "Èèpo igi ń dáàbò bo igi."
+        ],
+        [
+          "Báwo lo ṣe lè mọ ọjọ́ orí igi tí a gé?",
+          "ka òrùka inú igi",
+          "ka ewé",
+          "wọn òjìji",
+          "Igi máa ń ní òrùka kan lọ́dún kọ̀ọ̀kan."
+        ],
+        [
+          "Ẹranko wo ló ń kó èso ní ìgbà ìwọ́wé fún ìgbà òtútù?",
+          "ọ̀kẹ́rẹ́",
+          "ẹja",
+          "labalábá",
+          "Ọ̀kẹ́rẹ́ máa ń kó èso pamọ́."
+        ],
+        [
+          "Kí ni igi ń fún wa tí a ń mí?",
+          "ẹ̀mí afẹ́fẹ́ (oxygen)",
+          "èéfín",
+          "ooru omi",
+          "Ewé máa ń tú oxygen jáde."
+        ],
+        [
+          "Báwo ni igi òfìfo ṣe rí ní ìgbà òtútù?",
+          "kò ní ewé, ẹ̀ka nìkan",
+          "ó kún fún èso",
+          "ó kún fún òdòdó",
+          "Ọ̀pọ̀ igi máa ń wà láìní ewé ní ìgbà òtútù."
+        ],
+        [
+          "Ìgbà wo ló ń tẹ̀lé ìgbà òtútù?",
+          "ìgbà ìrúwé",
+          "ìgbà ìwọ́wé",
+          "ìgbà ẹ̀ẹ̀rùn",
+          "Lẹ́yìn ìgbà òtútù ni ìgbà ìrúwé."
+        ],
+        [
+          "Kí la ń pe irúgbìn igi oníyẹ̀ẹ́ tó ń yí bọ́ sílẹ̀?",
+          "irúgbìn igi máàpù",
+          "èso igi oaku",
+          "ewé abẹ́rẹ́ páìnì",
+          "Irúgbìn yìí máa ń yí bí ọkọ̀ òfuurufú hẹlikópítà."
+        ]
+      ]
+    }
+  },
+  "emoji": "tree",
+  "example": {
+    "i": 0,
+    "q_en": "In which season do many trees lose their leaves?",
+    "answer_en": "autumn",
+    "why_en": "Leaves turn brown and fall in autumn.",
+    "q_de": "In welcher Jahreszeit verlieren viele Bäume ihre Blätter?",
+    "answer_de": "im Herbst",
+    "why_de": "Im Herbst werden die Blätter braun und fallen.",
+    "q_fr": "En quelle saison beaucoup d’arbres perdent-ils leurs feuilles ?",
+    "answer_fr": "en automne",
+    "why_fr": "En automne, les feuilles brunissent et tombent.",
+    "q_yo": "Ìgbà wo ni ewé ọ̀pọ̀ igi máa ń já?",
+    "answer_yo": "ìgbà ìwọ́wé",
+    "why_yo": "Ewé máa ń pọ́n ó sì ń já ní ìgbà ìwọ́wé."
+  },
+  "text": {
+    "en": {
+      "title": "Trees through the year",
+      "teach": "Many trees grow new leaves in spring, are full and green in summer, drop their leaves in autumn and are bare in winter.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Bäume im Jahreslauf",
+      "teach": "Viele Bäume bekommen im Frühling neue Blätter, sind im Sommer grün, verlieren im Herbst ihre Blätter und sind im Winter kahl.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les arbres au fil des saisons",
+      "teach": "Beaucoup d’arbres ont de nouvelles feuilles au printemps, sont verts en été, perdent leurs feuilles en automne et sont nus en hiver.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Igi jálẹ̀ ọdún",
+      "teach": "Ọ̀pọ̀ igi máa ń hu ewé tuntun ní ìgbà ìrúwé, wọ́n máa ń kún fún ewé ní ìgbà ẹ̀ẹ̀rùn, ewé wọn máa ń já ní ìgbà ìwọ́wé, wọ́n sì máa ń wà láìní ewé ní ìgbà òtútù.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

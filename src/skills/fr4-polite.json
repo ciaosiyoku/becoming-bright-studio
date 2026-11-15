@@ -1,0 +1,154 @@
+{
+  "id": "fr4-polite",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 20,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “merci” mean?",
+          "thank you",
+          "please",
+          "sorry",
+          "Merci means thank you."
+        ],
+        [
+          "What does “s’il te plaît” mean?",
+          "please",
+          "thank you",
+          "goodbye",
+          "S’il te plaît means please (to a friend)."
+        ],
+        [
+          "What does “pardon” mean?",
+          "sorry",
+          "hello",
+          "please",
+          "Pardon means sorry or excuse me."
+        ],
+        [
+          "What does “de rien” mean?",
+          "you’re welcome",
+          "thank you",
+          "goodbye",
+          "De rien means you’re welcome."
+        ],
+        [
+          "What is “thank you very much” in French?",
+          "merci beaucoup",
+          "merci bonjour",
+          "pardon beaucoup",
+          "Beaucoup means very much: merci beaucoup."
+        ],
+        [
+          "What do you say when someone gives you a present?",
+          "merci",
+          "pardon",
+          "au revoir",
+          "You say merci (thank you)."
+        ],
+        [
+          "What do you say when you bump into someone?",
+          "pardon",
+          "merci",
+          "bonjour",
+          "You say pardon (sorry)."
+        ],
+        [
+          "What do you say when someone says “merci” to you?",
+          "de rien",
+          "pardon",
+          "bonne nuit",
+          "You answer de rien (you’re welcome)."
+        ],
+        [
+          "What does “s’il vous plaît” mean?",
+          "please (polite)",
+          "thank you",
+          "excuse me, goodbye",
+          "S’il vous plaît is the polite way to say please, to a grown-up."
+        ],
+        [
+          "What does “excusez-moi” mean?",
+          "excuse me",
+          "thank you",
+          "good night",
+          "Excusez-moi means excuse me."
+        ],
+        [
+          "What does “bon appétit” mean?",
+          "enjoy your meal",
+          "good night",
+          "good morning",
+          "Bon appétit means enjoy your meal."
+        ],
+        [
+          "What does “à bientôt” mean?",
+          "see you soon",
+          "good night",
+          "thank you",
+          "À bientôt means see you soon."
+        ],
+        [
+          "What does “bonne nuit” mean?",
+          "good night",
+          "good day",
+          "well done",
+          "Bonne nuit means good night."
+        ],
+        [
+          "What does “bravo” mean?",
+          "well done",
+          "sorry",
+          "please",
+          "Bravo means well done."
+        ],
+        [
+          "What does “avec plaisir” mean?",
+          "with pleasure",
+          "without you",
+          "no thank you",
+          "Avec plaisir means with pleasure."
+        ]
+      ]
+    }
+  },
+  "emoji": "heart",
+  "example": {
+    "i": 0,
+    "q_en": "What does “merci” mean?",
+    "answer_en": "thank you",
+    "why_en": "Merci means thank you."
+  },
+  "text": {
+    "en": {
+      "title": "Being polite in French",
+      "teach": "Kind words in French: s’il te plaît (please), merci (thank you), pardon (sorry), de rien (you’re welcome).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

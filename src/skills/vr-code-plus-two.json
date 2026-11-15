@@ -1,0 +1,55 @@
+{
+  "id": "vr-code-plus-two",
+  "kind": "vr-code",
+  "subject": "verbal",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 41,
+  "only": "en",
+  "params": {
+    "words": [
+      "cat",
+      "dog",
+      "sun",
+      "hat",
+      "pen",
+      "cup",
+      "bus",
+      "fox",
+      "bed",
+      "map",
+      "box",
+      "jam",
+      "log",
+      "van",
+      "egg",
+      "owl",
+      "pig",
+      "ant",
+      "toy",
+      "kit"
+    ],
+    "shifts": [
+      2
+    ]
+  },
+  "emoji": "key",
+  "example": {
+    "shift": 2,
+    "w1": "BED",
+    "c1": "DGF",
+    "w2": "SUN",
+    "answer": "UWP",
+    "move": "+2"
+  },
+  "text": {
+    "en": {
+      "title": "Letter codes: +2",
+      "teach": "In a code, every letter moves the same number of places along the alphabet. {w1} → {c1}: each letter moves {move}, so {w2} → {answer}.",
+      "prompt": "If {w1} is written {c1}, how is {w2} written?",
+      "reason": "Each letter moves {move} along the alphabet, so {w2} becomes {answer}."
+    }
+  }
+}

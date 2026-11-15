@@ -1,0 +1,50 @@
+{
+  "id": "divide-big-small",
+  "kind": "divide",
+  "subject": "numbers",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 35,
+  "params": {
+    "dMin": 2,
+    "dMax": 5,
+    "qMin": 2,
+    "qMax": 10,
+    "minTotal": 500,
+    "maxTotal": 999
+  },
+  "emoji": "cake",
+  "example": {
+    "total": 592,
+    "d": 4,
+    "answer": 148
+  },
+  "text": {
+    "en": {
+      "title": "Dividing 3-digit numbers by 2 to 5",
+      "teach": "Dividing is sharing into equal groups. {total} ÷ {d} = {answer}, because {answer} × {d} = {total}.",
+      "prompt": "What is {total} ÷ {d}?",
+      "reason": "{total} ÷ {d} = {answer}, because {answer} × {d} = {total}."
+    },
+    "de": {
+      "title": "Dreistellige Zahlen durch 2 bis 5 teilen",
+      "teach": "Teilen heißt in gleiche Gruppen aufteilen. {total} ÷ {d} = {answer}, weil {answer} × {d} = {total} ist.",
+      "prompt": "Was ist {total} ÷ {d}?",
+      "reason": "{total} ÷ {d} = {answer}, weil {answer} × {d} = {total} ist."
+    },
+    "fr": {
+      "title": "Diviser un nombre à trois chiffres par 2 à 5",
+      "teach": "Diviser, c’est partager en groupes égaux. {total} ÷ {d} = {answer}, car {answer} × {d} = {total}.",
+      "prompt": "Combien font {total} ÷ {d} ?",
+      "reason": "{total} ÷ {d} = {answer}, car {answer} × {d} = {total}."
+    },
+    "yo": {
+      "title": "Pínpín nọ́ńbà oní-díjíìtì mẹ́ta sí 2 dé 5",
+      "teach": "Pínpín túmọ̀ sí pín sí àwọn ẹgbẹ́ tó dọ́gba. {total} ÷ {d} = {answer}, nítorí {answer} × {d} = {total}.",
+      "prompt": "Kí ni {total} ÷ {d}?",
+      "reason": "{total} ÷ {d} = {answer}, nítorí {answer} × {d} = {total}."
+    }
+  }
+}

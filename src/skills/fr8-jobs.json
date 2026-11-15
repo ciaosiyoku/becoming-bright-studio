@@ -1,0 +1,154 @@
+{
+  "id": "fr8-jobs",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 35,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "gradcap",
+      "gradcap",
+      "gradcap",
+      "gradcap",
+      "gradcap",
+      "gradcap",
+      "gradcap",
+      "gradcap",
+      "gradcap",
+      "gradcap",
+      "gradcap",
+      "gradcap",
+      "gradcap",
+      "gradcap",
+      "gradcap"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “un médecin” mean?",
+          "a doctor",
+          "a teacher",
+          "a baker",
+          "Un médecin is a doctor."
+        ],
+        [
+          "What does “un professeur” mean?",
+          "a teacher",
+          "a doctor",
+          "a pilot",
+          "Un professeur is a teacher."
+        ],
+        [
+          "What does “un boulanger” mean?",
+          "a baker",
+          "a butcher",
+          "a farmer",
+          "Un boulanger is a baker."
+        ],
+        [
+          "What does “un pompier” mean?",
+          "a firefighter",
+          "a police officer",
+          "a postman",
+          "Un pompier is a firefighter."
+        ],
+        [
+          "What does “un agriculteur” mean?",
+          "a farmer",
+          "a gardener",
+          "a vet",
+          "Un agriculteur is a farmer."
+        ],
+        [
+          "What does “un vétérinaire” mean?",
+          "a vet",
+          "a doctor",
+          "a nurse",
+          "Un vétérinaire is a vet."
+        ],
+        [
+          "What does “un infirmier” mean?",
+          "a nurse",
+          "a teacher",
+          "a cook",
+          "Un infirmier (une infirmière) is a nurse."
+        ],
+        [
+          "What does “un policier” mean?",
+          "a police officer",
+          "a firefighter",
+          "a pilot",
+          "Un policier is a police officer."
+        ],
+        [
+          "What does “un pilote” mean?",
+          "a pilot",
+          "a driver",
+          "a sailor",
+          "Un pilote is a pilot."
+        ],
+        [
+          "What does “un cuisinier” mean?",
+          "a cook",
+          "a baker",
+          "a waiter",
+          "Un cuisinier is a cook."
+        ],
+        [
+          "What does “Je voudrais être médecin” mean?",
+          "I would like to be a doctor",
+          "I am a doctor",
+          "I went to the doctor",
+          "Je voudrais être means I would like to be."
+        ],
+        [
+          "What does “Ma mère est dentiste” mean?",
+          "My mum is a dentist",
+          "My mum is at the dentist",
+          "My mum likes the dentist",
+          "In French you leave out “a”: elle est dentiste."
+        ],
+        [
+          "What is “a teacher” in French?",
+          "un professeur",
+          "un boulanger",
+          "un pompier",
+          "A teacher is un professeur."
+        ],
+        [
+          "What does “un facteur” mean?",
+          "a postman",
+          "a factory",
+          "a farmer",
+          "Un facteur is a postman."
+        ],
+        [
+          "Where does “un boulanger” work?",
+          "à la boulangerie",
+          "à l’hôpital",
+          "à l’école",
+          "A baker works at the bakery: la boulangerie."
+        ]
+      ]
+    }
+  },
+  "emoji": "gradcap",
+  "example": {
+    "i": 0,
+    "q_en": "What does “un médecin” mean?",
+    "answer_en": "a doctor",
+    "why_en": "Un médecin is a doctor."
+  },
+  "text": {
+    "en": {
+      "title": "Jobs in French",
+      "teach": "Jobs in French: le médecin (doctor), le professeur (teacher), le boulanger (baker), le pompier (firefighter), l’agriculteur (farmer).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

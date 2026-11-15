@@ -1,0 +1,154 @@
+{
+  "id": "en8-similar-words",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 31,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "books",
+      "books",
+      "books",
+      "books",
+      "books",
+      "books",
+      "books",
+      "books",
+      "books",
+      "books",
+      "books",
+      "books",
+      "books",
+      "books",
+      "books"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which word means nearly the same as “big”?",
+          "large",
+          "tiny",
+          "quick",
+          "Large and big mean nearly the same."
+        ],
+        [
+          "Which word means nearly the same as “happy”?",
+          "cheerful",
+          "gloomy",
+          "tired",
+          "Cheerful means happy."
+        ],
+        [
+          "Which word means nearly the same as “fast”?",
+          "speedy",
+          "slow",
+          "heavy",
+          "Speedy means fast."
+        ],
+        [
+          "Which word means nearly the same as “small”?",
+          "little",
+          "giant",
+          "loud",
+          "Little means small."
+        ],
+        [
+          "Which word means nearly the same as “cold”?",
+          "chilly",
+          "boiling",
+          "dry",
+          "Chilly means cold."
+        ],
+        [
+          "Which word means nearly the same as “angry”?",
+          "cross",
+          "calm",
+          "glad",
+          "Cross means angry."
+        ],
+        [
+          "Which word means nearly the same as “look”?",
+          "gaze",
+          "shout",
+          "run",
+          "To gaze is to look for a long time."
+        ],
+        [
+          "Which word means nearly the same as “shut”?",
+          "close",
+          "open",
+          "push",
+          "Shut and close mean the same."
+        ],
+        [
+          "Which word means nearly the same as “scared”?",
+          "afraid",
+          "brave",
+          "bored",
+          "Afraid means scared."
+        ],
+        [
+          "Which word means nearly the same as “tired”?",
+          "sleepy",
+          "lively",
+          "hungry",
+          "Sleepy means tired."
+        ],
+        [
+          "Which word means nearly the same as “begin”?",
+          "start",
+          "finish",
+          "stop",
+          "Begin and start mean the same."
+        ],
+        [
+          "Which word means nearly the same as “said” when it is very quiet?",
+          "whispered",
+          "shouted",
+          "yelled",
+          "To whisper is to say very quietly."
+        ],
+        [
+          "Which word means nearly the same as “clever”?",
+          "smart",
+          "silly",
+          "lazy",
+          "Smart means clever."
+        ],
+        [
+          "Which word means nearly the same as “wet”?",
+          "damp",
+          "dry",
+          "dusty",
+          "Damp means a little wet."
+        ],
+        [
+          "Which word means nearly the same as “easy”?",
+          "simple",
+          "hard",
+          "strange",
+          "Simple means easy."
+        ]
+      ]
+    }
+  },
+  "emoji": "books",
+  "example": {
+    "i": 0,
+    "q_en": "Which word means nearly the same as “big”?",
+    "answer_en": "large",
+    "why_en": "Large and big mean nearly the same."
+  },
+  "text": {
+    "en": {
+      "title": "Words with similar meanings",
+      "teach": "Many words mean nearly the same. Swapping in a better word makes writing more interesting: big → huge, said → whispered.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

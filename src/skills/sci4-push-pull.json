@@ -1,0 +1,443 @@
+{
+  "id": "sci4-push-pull",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 115,
+  "params": {
+    "emojis": [
+      "gear",
+      "gear",
+      "gear",
+      "gear",
+      "gear",
+      "gear",
+      "gear",
+      "gear",
+      "gear",
+      "gear",
+      "gear",
+      "gear",
+      "gear"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Do we push or pull a pram?",
+          "push",
+          "pull",
+          "neither",
+          "We push a pram in front of us."
+        ],
+        [
+          "Do we push or pull to open a drawer?",
+          "pull",
+          "push",
+          "neither",
+          "We pull a drawer towards us to open it."
+        ],
+        [
+          "What do we do to a swing to make it go?",
+          "push it",
+          "hug it",
+          "paint it",
+          "A push makes a swing move."
+        ],
+        [
+          "Which goes further?",
+          "a ball kicked hard",
+          "a ball kicked gently",
+          "a ball not kicked",
+          "A harder push sends the ball further."
+        ],
+        [
+          "Do we push or pull a door that says PULL?",
+          "pull",
+          "push",
+          "kick",
+          "The sign tells us to pull the door."
+        ],
+        [
+          "How do we move a toy car on a string?",
+          "pull the string",
+          "blow on it",
+          "sing to it",
+          "Pulling the string brings the car along."
+        ],
+        [
+          "What happens when you push a ball on the floor?",
+          "it rolls away",
+          "it floats up",
+          "it melts",
+          "A push makes a ball roll."
+        ],
+        [
+          "How does a dog on a lead pull?",
+          "forwards, away from you",
+          "up into the air",
+          "into the ground",
+          "A dog pulls the lead forwards."
+        ],
+        [
+          "Which is easier to push?",
+          "an empty box",
+          "a box full of books",
+          "a car",
+          "Lighter things are easier to push."
+        ],
+        [
+          "What makes a sailing boat move?",
+          "the wind pushing the sail",
+          "a rope pulling it up",
+          "the sun",
+          "Wind pushes on the sail."
+        ],
+        [
+          "What do you do with a wheelbarrow?",
+          "push it",
+          "wear it",
+          "throw it",
+          "We push a wheelbarrow along."
+        ],
+        [
+          "What do you do in a tug of war?",
+          "pull the rope",
+          "push the rope",
+          "sit on the rope",
+          "In a tug of war each team pulls."
+        ],
+        [
+          "What stops a rolling ball?",
+          "a push the other way",
+          "a song",
+          "a picture",
+          "Pushing against it slows and stops it."
+        ]
+      ],
+      "de": [
+        [
+          "Schieben oder ziehen wir einen Kinderwagen?",
+          "schieben",
+          "ziehen",
+          "keins von beiden",
+          "Einen Kinderwagen schieben wir vor uns her."
+        ],
+        [
+          "Drücken oder ziehen wir, um eine Schublade zu öffnen?",
+          "ziehen",
+          "drücken",
+          "keins von beiden",
+          "Eine Schublade ziehen wir zu uns."
+        ],
+        [
+          "Was machen wir, damit sich eine Schaukel bewegt?",
+          "sie anschubsen",
+          "sie umarmen",
+          "sie anmalen",
+          "Ein Schubs bringt die Schaukel in Bewegung."
+        ],
+        [
+          "Was fliegt weiter?",
+          "ein fest getretener Ball",
+          "ein sanft getretener Ball",
+          "ein Ball, der nicht getreten wird",
+          "Ein stärkerer Stoß schickt den Ball weiter."
+        ],
+        [
+          "Was tun wir bei einer Tür mit „ZIEHEN“?",
+          "ziehen",
+          "drücken",
+          "treten",
+          "Das Schild sagt, dass wir ziehen sollen."
+        ],
+        [
+          "Wie bewegen wir ein Spielzeugauto an einer Schnur?",
+          "an der Schnur ziehen",
+          "darauf pusten",
+          "ihm vorsingen",
+          "Ziehen an der Schnur bewegt das Auto."
+        ],
+        [
+          "Was passiert, wenn du einen Ball auf dem Boden anstößt?",
+          "er rollt weg",
+          "er schwebt hoch",
+          "er schmilzt",
+          "Ein Stoß lässt den Ball rollen."
+        ],
+        [
+          "Wohin zieht ein Hund an der Leine?",
+          "nach vorn, von dir weg",
+          "nach oben in die Luft",
+          "in den Boden",
+          "Ein Hund zieht die Leine nach vorn."
+        ],
+        [
+          "Was lässt sich leichter schieben?",
+          "eine leere Kiste",
+          "eine Kiste voller Bücher",
+          "ein Auto",
+          "Leichtere Dinge lassen sich leichter schieben."
+        ],
+        [
+          "Was bewegt ein Segelboot?",
+          "der Wind drückt gegen das Segel",
+          "ein Seil zieht es hoch",
+          "die Sonne",
+          "Der Wind drückt gegen das Segel."
+        ],
+        [
+          "Was machst du mit einer Schubkarre?",
+          "sie schieben",
+          "sie anziehen",
+          "sie werfen",
+          "Eine Schubkarre schieben wir."
+        ],
+        [
+          "Was machst du beim Tauziehen?",
+          "am Seil ziehen",
+          "das Seil schieben",
+          "auf dem Seil sitzen",
+          "Beim Tauziehen zieht jedes Team."
+        ],
+        [
+          "Was stoppt einen rollenden Ball?",
+          "ein Stoß in die Gegenrichtung",
+          "ein Lied",
+          "ein Bild",
+          "Ein Gegenstoß bremst ihn und hält ihn an."
+        ]
+      ],
+      "fr": [
+        [
+          "Pousse-t-on ou tire-t-on une poussette ?",
+          "on la pousse",
+          "on la tire",
+          "ni l’un ni l’autre",
+          "On pousse la poussette devant soi."
+        ],
+        [
+          "Pousse-t-on ou tire-t-on pour ouvrir un tiroir ?",
+          "on tire",
+          "on pousse",
+          "ni l’un ni l’autre",
+          "On tire le tiroir vers soi."
+        ],
+        [
+          "Que fait-on pour faire avancer une balançoire ?",
+          "on la pousse",
+          "on la serre dans ses bras",
+          "on la peint",
+          "Une poussée fait bouger la balançoire."
+        ],
+        [
+          "Lequel va le plus loin ?",
+          "un ballon frappé fort",
+          "un ballon frappé doucement",
+          "un ballon pas frappé",
+          "Une poussée plus forte envoie le ballon plus loin."
+        ],
+        [
+          "Que fait-on avec une porte marquée TIREZ ?",
+          "on tire",
+          "on pousse",
+          "on donne un coup de pied",
+          "L’affiche dit de tirer."
+        ],
+        [
+          "Comment fait-on avancer une petite voiture avec une ficelle ?",
+          "on tire la ficelle",
+          "on souffle dessus",
+          "on lui chante",
+          "Tirer la ficelle fait avancer la voiture."
+        ],
+        [
+          "Que se passe-t-il quand tu pousses un ballon par terre ?",
+          "il roule",
+          "il s’envole",
+          "il fond",
+          "Une poussée fait rouler le ballon."
+        ],
+        [
+          "Comment tire un chien en laisse ?",
+          "vers l’avant, loin de toi",
+          "vers le ciel",
+          "dans le sol",
+          "Un chien tire la laisse vers l’avant."
+        ],
+        [
+          "Qu’est-ce qui est le plus facile à pousser ?",
+          "une boîte vide",
+          "une boîte pleine de livres",
+          "une voiture",
+          "Les objets légers se poussent plus facilement."
+        ],
+        [
+          "Qu’est-ce qui fait avancer un voilier ?",
+          "le vent qui pousse la voile",
+          "une corde qui le soulève",
+          "le soleil",
+          "Le vent pousse sur la voile."
+        ],
+        [
+          "Que fais-tu avec une brouette ?",
+          "je la pousse",
+          "je la porte sur moi",
+          "je la lance",
+          "On pousse une brouette."
+        ],
+        [
+          "Que fais-tu au tir à la corde ?",
+          "je tire la corde",
+          "je pousse la corde",
+          "je m’assois sur la corde",
+          "Au tir à la corde, chaque équipe tire."
+        ],
+        [
+          "Qu’est-ce qui arrête un ballon qui roule ?",
+          "une poussée dans l’autre sens",
+          "une chanson",
+          "une image",
+          "Pousser dans l’autre sens le ralentit et l’arrête."
+        ]
+      ],
+      "yo": [
+        [
+          "Ṣé a máa ń ti kẹ̀kẹ́ ọmọdé àbí a máa ń fà á?",
+          "a máa ń tì í",
+          "a máa ń fà á",
+          "kò sí èyíkéyìí",
+          "A máa ń ti kẹ̀kẹ́ ọmọdé síwájú wa."
+        ],
+        [
+          "Ṣé a máa ń tì àbí fà láti ṣí àpótí?",
+          "a máa ń fà á",
+          "a máa ń tì í",
+          "kò sí èyíkéyìí",
+          "A máa ń fa àpótí sọ́dọ̀ wa láti ṣí i."
+        ],
+        [
+          "Kí la máa ń ṣe kí jígí lè lọ?",
+          "a máa ń tì í",
+          "a máa ń gbá a mọ́ra",
+          "a máa ń kùn ún",
+          "Títì ń mú jígí lọ."
+        ],
+        [
+          "Èwo ló máa lọ jìnnà jù?",
+          "bọ́ọ̀lù tí a gbá ní líle",
+          "bọ́ọ̀lù tí a gbá jẹ́jẹ́",
+          "bọ́ọ̀lù tí a kò gbá",
+          "Títì tó le ń rán bọ́ọ̀lù lọ jìnnà."
+        ],
+        [
+          "Kí la máa ń ṣe sí ilẹ̀kùn tó kọ “FÀ Á”?",
+          "a máa ń fà á",
+          "a máa ń tì í",
+          "a máa ń tapá",
+          "Àmì náà sọ pé ká fà á."
+        ],
+        [
+          "Báwo la ṣe ń gbé ọkọ̀ ìṣeré tí a so okùn mọ́?",
+          "a máa ń fa okùn náà",
+          "a máa ń fẹ́ atẹ́gùn sí i",
+          "a máa ń kọrin sí i",
+          "Fífa okùn ń mú ọkọ̀ náà wá."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ tí o bá ti bọ́ọ̀lù lórí ilẹ̀?",
+          "ó ń yí lọ",
+          "ó ń fò sókè",
+          "ó ń yọ́",
+          "Títì ń mú bọ́ọ̀lù yí."
+        ],
+        [
+          "Báwo ni ajá tí a so mọ́ okùn ṣe ń fà?",
+          "síwájú, kúrò lọ́dọ̀ rẹ",
+          "sókè sí afẹ́fẹ́",
+          "sínú ilẹ̀",
+          "Ajá máa ń fa okùn síwájú."
+        ],
+        [
+          "Èwo ló rọrùn jù láti tì?",
+          "àpótí òfìfo",
+          "àpótí tó kún fún ìwé",
+          "ọkọ̀ ayọ́kẹ́lẹ́",
+          "Nǹkan tó fúyẹ́ rọrùn láti tì."
+        ],
+        [
+          "Kí ló ń mú ọkọ̀ ojú omi onígbòkun lọ?",
+          "afẹ́fẹ́ tó ń ti ìgbòkun",
+          "okùn tó ń fà á sókè",
+          "oòrùn",
+          "Afẹ́fẹ́ máa ń ti ìgbòkun."
+        ],
+        [
+          "Kí lo máa ń ṣe pẹ̀lú kẹ̀kẹ́ ẹrù ọwọ́?",
+          "a máa ń tì í",
+          "a máa ń wọ̀ ọ́",
+          "a máa ń jù ú",
+          "A máa ń ti kẹ̀kẹ́ ẹrù ọwọ́."
+        ],
+        [
+          "Kí lo máa ń ṣe nínú eré fífa okùn?",
+          "a máa ń fa okùn",
+          "a máa ń ti okùn",
+          "a máa ń jókòó lórí okùn",
+          "Nínú eré yìí, ẹgbẹ́ kọ̀ọ̀kan máa ń fà."
+        ],
+        [
+          "Kí ló ń dá bọ́ọ̀lù tó ń yí dúró?",
+          "títì sí òdìkejì",
+          "orin",
+          "àwòrán",
+          "Títì sí òdìkejì máa ń dá a dúró."
+        ]
+      ]
+    }
+  },
+  "emoji": "gear",
+  "example": {
+    "i": 0,
+    "q_en": "Do we push or pull a pram?",
+    "answer_en": "push",
+    "why_en": "We push a pram in front of us.",
+    "q_de": "Schieben oder ziehen wir einen Kinderwagen?",
+    "answer_de": "schieben",
+    "why_de": "Einen Kinderwagen schieben wir vor uns her.",
+    "q_fr": "Pousse-t-on ou tire-t-on une poussette ?",
+    "answer_fr": "on la pousse",
+    "why_fr": "On pousse la poussette devant soi.",
+    "q_yo": "Ṣé a máa ń ti kẹ̀kẹ́ ọmọdé àbí a máa ń fà á?",
+    "answer_yo": "a máa ń tì í",
+    "why_yo": "A máa ń ti kẹ̀kẹ́ ọmọdé síwájú wa."
+  },
+  "text": {
+    "en": {
+      "title": "Pushes and pulls",
+      "teach": "To move things we push them away or pull them closer. A big push makes things go further.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Drücken und Ziehen",
+      "teach": "Um Dinge zu bewegen, drücken wir sie weg oder ziehen sie heran. Ein starker Stoß bringt sie weiter.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Pousser et tirer",
+      "teach": "Pour faire bouger les choses, on les pousse ou on les tire. Une grande poussée les envoie plus loin.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Títì àti fífà",
+      "teach": "Láti gbé nǹkan, a máa ń tì í lọ tàbí fà á súnmọ́. Títì líle máa ń mú un lọ jìnnà.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

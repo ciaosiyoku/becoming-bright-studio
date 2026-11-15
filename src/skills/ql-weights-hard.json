@@ -1,0 +1,63 @@
+{
+  "id": "ql-weights-hard",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 42,
+  "only": "en",
+  "params": {
+    "lists": {
+      "weight": [
+        [
+          "a paperclip"
+        ],
+        [
+          "an apple"
+        ],
+        [
+          "a bag of flour"
+        ],
+        [
+          "a bicycle"
+        ],
+        [
+          "a cow"
+        ],
+        [
+          "a car"
+        ],
+        [
+          "a bus"
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-elephant",
+  "example": {
+    "rule": "weight-most",
+    "list": "weight",
+    "ask": "most",
+    "items": "a cow|a car|a bus",
+    "order": "a cow, a car, a bus",
+    "answer": "a bus"
+  },
+  "text": {
+    "en": {
+      "title": "Heaviest and lightest: bigger things",
+      "teach": "Think about how heavy each one is. From lightest to heaviest: {order}. The heaviest is {answer}.",
+      "prompt": "Which is the heaviest?",
+      "prompts": {
+        "weight-most": "Which is the heaviest?",
+        "weight-least": "Which is the lightest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "weight-most": "From lightest to heaviest: {order}. The heaviest is {answer}.",
+        "weight-least": "From lightest to heaviest: {order}. The lightest is {answer}."
+      }
+    }
+  }
+}

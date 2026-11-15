@@ -1,0 +1,154 @@
+{
+  "id": "fr8-health",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 37,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “J’ai mal à la tête” mean?",
+          "My head hurts",
+          "My foot hurts",
+          "I am happy",
+          "La tête is the head; j’ai mal à means … hurts."
+        ],
+        [
+          "What does “J’ai mal au ventre” mean?",
+          "My tummy hurts",
+          "My back hurts",
+          "My arm hurts",
+          "Le ventre is the tummy."
+        ],
+        [
+          "What does “J’ai mal aux dents” mean?",
+          "My teeth hurt",
+          "My eyes hurt",
+          "My ears hurt",
+          "Les dents are the teeth."
+        ],
+        [
+          "What does “J’ai mal à la gorge” mean?",
+          "I have a sore throat",
+          "I have a sore knee",
+          "I have a cold nose",
+          "La gorge is the throat."
+        ],
+        [
+          "What does “J’ai de la fièvre” mean?",
+          "I have a temperature",
+          "I have a cough",
+          "I am hungry",
+          "La fièvre is a fever, a high temperature."
+        ],
+        [
+          "What does “Je suis malade” mean?",
+          "I am ill",
+          "I am tired",
+          "I am hurt",
+          "Malade means ill."
+        ],
+        [
+          "What does “le médecin” mean?",
+          "the doctor",
+          "the medicine",
+          "the hospital",
+          "Le médecin is the doctor."
+        ],
+        [
+          "What does “un médicament” mean?",
+          "a medicine",
+          "a doctor",
+          "a plaster",
+          "Un médicament is a medicine."
+        ],
+        [
+          "What does “l’hôpital” mean?",
+          "the hospital",
+          "the hotel",
+          "the chemist",
+          "L’hôpital is the hospital."
+        ],
+        [
+          "What does “la pharmacie” mean?",
+          "the chemist’s",
+          "the farm",
+          "the hospital",
+          "La pharmacie is the chemist’s (pharmacy)."
+        ],
+        [
+          "How do you say “my arm hurts”?",
+          "J’ai mal au bras",
+          "J’ai mal à la jambe",
+          "J’ai le bras",
+          "Le bras is the arm."
+        ],
+        [
+          "What does “J’ai mal à la jambe” mean?",
+          "My leg hurts",
+          "My arm hurts",
+          "My head hurts",
+          "La jambe is the leg."
+        ],
+        [
+          "What does “Qu’est-ce qui ne va pas ?” mean?",
+          "What’s wrong?",
+          "Where are you going?",
+          "What time is it?",
+          "The doctor asks what’s wrong."
+        ],
+        [
+          "What does “Je tousse” mean?",
+          "I am coughing",
+          "I am sneezing",
+          "I am sleeping",
+          "Tousser means to cough."
+        ],
+        [
+          "What does “Reste au lit !” mean?",
+          "Stay in bed!",
+          "Get up!",
+          "Go to school!",
+          "Rester means to stay; le lit is the bed."
+        ]
+      ]
+    }
+  },
+  "emoji": "thermometer",
+  "example": {
+    "i": 0,
+    "q_en": "What does “J’ai mal à la tête” mean?",
+    "answer_en": "My head hurts",
+    "why_en": "La tête is the head; j’ai mal à means … hurts."
+  },
+  "text": {
+    "en": {
+      "title": "At the doctor in French",
+      "teach": "To say what hurts: J’ai mal à la tête (my head hurts), J’ai mal au ventre (my tummy hurts), J’ai mal aux dents (my teeth hurt).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

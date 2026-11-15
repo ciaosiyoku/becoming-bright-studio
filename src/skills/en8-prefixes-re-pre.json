@@ -1,0 +1,154 @@
+{
+  "id": "en8-prefixes-re-pre",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 29,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “rewrite” mean?",
+          "write again",
+          "write before",
+          "write wrongly",
+          "re- means again."
+        ],
+        [
+          "What does “preview” mean?",
+          "see before",
+          "see again",
+          "see wrongly",
+          "pre- means before."
+        ],
+        [
+          "What does “misspell” mean?",
+          "spell wrongly",
+          "spell again",
+          "spell before",
+          "mis- means wrongly."
+        ],
+        [
+          "Which word means “heat again”?",
+          "reheat",
+          "preheat",
+          "misheat",
+          "re- means again."
+        ],
+        [
+          "Which word means “heat before”, like an oven before baking?",
+          "preheat",
+          "reheat",
+          "misheat",
+          "pre- means before."
+        ],
+        [
+          "Which word means “understand wrongly”?",
+          "misunderstand",
+          "reunderstand",
+          "preunderstand",
+          "mis- means wrongly."
+        ],
+        [
+          "What does “replay” mean?",
+          "play again",
+          "play before",
+          "play wrongly",
+          "re- means again."
+        ],
+        [
+          "What does “misbehave” mean?",
+          "behave badly",
+          "behave again",
+          "behave before",
+          "mis- means wrongly or badly."
+        ],
+        [
+          "What does “prehistoric” mean?",
+          "before written history",
+          "history again",
+          "wrong history",
+          "pre- means before."
+        ],
+        [
+          "Which word means “fill again”?",
+          "refill",
+          "prefill",
+          "misfill",
+          "re- means again."
+        ],
+        [
+          "Which word means “place wrongly” (lose)?",
+          "misplace",
+          "replace",
+          "preplace",
+          "mis- means wrongly."
+        ],
+        [
+          "What does “recycle” mean?",
+          "use again",
+          "use before",
+          "use wrongly",
+          "re- means again: the material is used again."
+        ],
+        [
+          "What does “preschool” mean?",
+          "before school",
+          "school again",
+          "wrong school",
+          "pre- means before."
+        ],
+        [
+          "Which word means “read wrongly”?",
+          "misread",
+          "reread",
+          "preread",
+          "mis- means wrongly."
+        ],
+        [
+          "Which word means “build again”?",
+          "rebuild",
+          "prebuild",
+          "misbuild",
+          "re- means again."
+        ]
+      ]
+    }
+  },
+  "emoji": "memo",
+  "example": {
+    "i": 0,
+    "q_en": "What does “rewrite” mean?",
+    "answer_en": "write again",
+    "why_en": "re- means again."
+  },
+  "text": {
+    "en": {
+      "title": "Prefixes: re-, pre- and mis-",
+      "teach": "re- means again, pre- means before, mis- means wrongly: rewrite, preview, misspell.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

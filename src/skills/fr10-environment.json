@@ -1,0 +1,154 @@
+{
+  "id": "fr10-environment",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 44,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “recycler” mean?",
+          "to recycle",
+          "to throw away",
+          "to repair",
+          "Recycler means to recycle."
+        ],
+        [
+          "What does “la planète” mean?",
+          "the planet",
+          "the plant",
+          "the plan",
+          "La planète is the planet."
+        ],
+        [
+          "What does “protéger” mean?",
+          "to protect",
+          "to pollute",
+          "to produce",
+          "Protéger means to protect."
+        ],
+        [
+          "What does “la pollution” mean?",
+          "pollution",
+          "population",
+          "politeness",
+          "La pollution is pollution."
+        ],
+        [
+          "What does “Éteins la lumière !” mean?",
+          "Switch off the light!",
+          "Switch on the light!",
+          "Buy a light!",
+          "Éteindre means to switch off."
+        ],
+        [
+          "What does “les déchets” mean?",
+          "rubbish",
+          "trees",
+          "animals",
+          "Les déchets are rubbish (waste)."
+        ],
+        [
+          "What does “la poubelle” mean?",
+          "the bin",
+          "the bottle",
+          "the bag",
+          "La poubelle is the bin."
+        ],
+        [
+          "What does “une bouteille en plastique” mean?",
+          "a plastic bottle",
+          "a glass bottle",
+          "a plastic bag",
+          "Une bouteille is a bottle."
+        ],
+        [
+          "What does “l’énergie solaire” mean?",
+          "solar energy",
+          "wind energy",
+          "nuclear energy",
+          "Solaire means from the sun."
+        ],
+        [
+          "What does “gaspiller” mean?",
+          "to waste",
+          "to save",
+          "to share",
+          "Gaspiller means to waste."
+        ],
+        [
+          "What does “économiser l’eau” mean?",
+          "to save water",
+          "to waste water",
+          "to drink water",
+          "Économiser means to save."
+        ],
+        [
+          "What does “les animaux en danger” mean?",
+          "endangered animals",
+          "dangerous animals",
+          "farm animals",
+          "En danger means in danger."
+        ],
+        [
+          "What does “Il faut recycler” mean?",
+          "We must recycle",
+          "We never recycle",
+          "We can’t recycle",
+          "Il faut means we must / it is necessary."
+        ],
+        [
+          "What does “à vélo plutôt qu’en voiture” mean?",
+          "by bike rather than by car",
+          "by car and by bike",
+          "by car, not on foot",
+          "Plutôt que means rather than."
+        ],
+        [
+          "What does “la forêt tropicale” mean?",
+          "the rainforest",
+          "the tropical fish",
+          "the forest fire",
+          "La forêt tropicale is the rainforest."
+        ]
+      ]
+    }
+  },
+  "emoji": "globe",
+  "example": {
+    "i": 0,
+    "q_en": "What does “recycler” mean?",
+    "answer_en": "to recycle",
+    "why_en": "Recycler means to recycle."
+  },
+  "text": {
+    "en": {
+      "title": "The environment in French",
+      "teach": "Talking about the planet: recycler (to recycle), la pollution, éteindre la lumière (switch off the light), protéger la planète.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

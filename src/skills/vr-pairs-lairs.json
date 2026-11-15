@@ -1,0 +1,64 @@
+{
+  "id": "vr-pairs-lairs",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 54,
+  "only": "en",
+  "params": {
+    "relations": {
+      "lair": [
+        [
+          "fox",
+          "den"
+        ],
+        [
+          "badger",
+          "sett"
+        ],
+        [
+          "otter",
+          "holt"
+        ],
+        [
+          "eagle",
+          "eyrie"
+        ],
+        [
+          "squirrel",
+          "drey"
+        ],
+        [
+          "bee",
+          "hive"
+        ],
+        [
+          "spider",
+          "web"
+        ]
+      ]
+    }
+  },
+  "emoji": "speech",
+  "example": {
+    "rule": "lair",
+    "a": "eagle",
+    "b": "eyrie",
+    "c": "bee",
+    "answer": "hive"
+  },
+  "text": {
+    "en": {
+      "title": "Animal homes (harder)",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A {a} lives in a {b}, and a {c} lives in a {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "lair": "A {a} lives in a {b}, and a {c} lives in a {answer}."
+      }
+    }
+  }
+}

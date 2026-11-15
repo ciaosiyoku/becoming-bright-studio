@@ -1,0 +1,64 @@
+{
+  "id": "vr-pairs-uses",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 21,
+  "only": "en",
+  "params": {
+    "relations": {
+      "use": [
+        [
+          "spoon",
+          "eat"
+        ],
+        [
+          "pen",
+          "write"
+        ],
+        [
+          "scissors",
+          "cut"
+        ],
+        [
+          "broom",
+          "sweep"
+        ],
+        [
+          "cup",
+          "drink"
+        ],
+        [
+          "bed",
+          "sleep"
+        ],
+        [
+          "brush",
+          "paint"
+        ]
+      ]
+    }
+  },
+  "emoji": "memo",
+  "example": {
+    "rule": "use",
+    "a": "brush",
+    "b": "paint",
+    "c": "scissors",
+    "answer": "cut"
+  },
+  "text": {
+    "en": {
+      "title": "What do we use it for?",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. We use a {a} to {b}, and a {c} to {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "use": "We use a {a} to {b}, and a {c} to {answer}."
+      }
+    }
+  }
+}

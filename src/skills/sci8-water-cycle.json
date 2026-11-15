@@ -1,0 +1,443 @@
+{
+  "id": "sci8-water-cycle",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 22,
+  "params": {
+    "emojis": [
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet",
+      "droplet"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is it called when water turns into vapour?",
+          "evaporation",
+          "condensation",
+          "freezing",
+          "Heat makes water evaporate."
+        ],
+        [
+          "What is it called when vapour turns back into droplets?",
+          "condensation",
+          "evaporation",
+          "melting",
+          "Cooling vapour condenses."
+        ],
+        [
+          "Rain, snow and hail are all kinds of…",
+          "precipitation",
+          "evaporation",
+          "pollution",
+          "Water falling from clouds is precipitation."
+        ],
+        [
+          "What gives the water cycle its energy?",
+          "the sun",
+          "the moon",
+          "the wind only",
+          "The sun’s heat drives evaporation."
+        ],
+        [
+          "What are clouds made of?",
+          "tiny water droplets",
+          "smoke",
+          "cotton",
+          "Clouds are millions of tiny droplets."
+        ],
+        [
+          "Why do drops form on a cold glass?",
+          "vapour in the air condenses",
+          "the glass leaks",
+          "the ice sweats",
+          "Air touching the cold glass cools and condenses."
+        ],
+        [
+          "Where does most of Earth’s water sit?",
+          "in the oceans",
+          "in clouds",
+          "in rivers",
+          "Most water is salty sea water."
+        ],
+        [
+          "Where does rain go after it falls on hills?",
+          "into streams and rivers",
+          "up to the moon",
+          "it vanishes",
+          "Water runs downhill into rivers and the sea."
+        ],
+        [
+          "Why do puddles dry up on a sunny day?",
+          "the water evaporates",
+          "the ground drinks it all",
+          "birds drink them",
+          "Warm sun turns puddle water into vapour."
+        ],
+        [
+          "Is the water we drink today very old?",
+          "yes, it has been round the cycle many times",
+          "no, it is made fresh each day",
+          "it comes from space daily",
+          "Water is used again and again by the cycle."
+        ],
+        [
+          "Water that soaks into the ground is called…",
+          "groundwater",
+          "cloud water",
+          "sea foam",
+          "Groundwater collects under the soil."
+        ],
+        [
+          "Why does a cloud let rain fall?",
+          "its droplets join and get too heavy",
+          "it gets bored",
+          "the wind squeezes it like a sponge",
+          "Big heavy drops fall as rain."
+        ],
+        [
+          "Water evaporates from plant leaves. This is called…",
+          "transpiration",
+          "hibernation",
+          "migration",
+          "Plants give off water vapour through their leaves."
+        ]
+      ],
+      "de": [
+        [
+          "Wie heißt es, wenn Wasser zu Dampf wird?",
+          "Verdunstung",
+          "Kondensation",
+          "Gefrieren",
+          "Wärme lässt Wasser verdunsten."
+        ],
+        [
+          "Wie heißt es, wenn Dampf wieder zu Tropfen wird?",
+          "Kondensation",
+          "Verdunstung",
+          "Schmelzen",
+          "Abkühlender Dampf kondensiert."
+        ],
+        [
+          "Regen, Schnee und Hagel sind alle…",
+          "Niederschlag",
+          "Verdunstung",
+          "Verschmutzung",
+          "Wasser aus Wolken ist Niederschlag."
+        ],
+        [
+          "Was liefert die Energie für den Wasserkreislauf?",
+          "die Sonne",
+          "der Mond",
+          "nur der Wind",
+          "Die Sonnenwärme treibt die Verdunstung an."
+        ],
+        [
+          "Woraus bestehen Wolken?",
+          "aus winzigen Wassertröpfchen",
+          "aus Rauch",
+          "aus Watte",
+          "Wolken sind Millionen winziger Tröpfchen."
+        ],
+        [
+          "Warum bilden sich Tropfen an einem kalten Glas?",
+          "Dampf aus der Luft kondensiert",
+          "das Glas ist undicht",
+          "das Eis schwitzt",
+          "Luft am kalten Glas kühlt ab und kondensiert."
+        ],
+        [
+          "Wo ist das meiste Wasser der Erde?",
+          "in den Ozeanen",
+          "in den Wolken",
+          "in Flüssen",
+          "Das meiste Wasser ist salziges Meerwasser."
+        ],
+        [
+          "Wohin fließt Regen von den Hügeln?",
+          "in Bäche und Flüsse",
+          "zum Mond",
+          "er verschwindet",
+          "Wasser fließt bergab in Flüsse und ins Meer."
+        ],
+        [
+          "Warum trocknen Pfützen an sonnigen Tagen?",
+          "das Wasser verdunstet",
+          "der Boden trinkt alles",
+          "Vögel trinken sie",
+          "Die warme Sonne lässt das Wasser verdunsten."
+        ],
+        [
+          "Ist unser Trinkwasser sehr alt?",
+          "ja, es lief schon oft im Kreis",
+          "nein, es wird täglich neu gemacht",
+          "es kommt täglich aus dem All",
+          "Wasser wird im Kreislauf immer wieder genutzt."
+        ],
+        [
+          "Wasser, das in den Boden sickert, heißt…",
+          "Grundwasser",
+          "Wolkenwasser",
+          "Meerschaum",
+          "Grundwasser sammelt sich unter der Erde."
+        ],
+        [
+          "Warum regnet eine Wolke?",
+          "Tropfen verbinden sich und werden zu schwer",
+          "ihr ist langweilig",
+          "der Wind drückt sie wie einen Schwamm",
+          "Große, schwere Tropfen fallen als Regen."
+        ],
+        [
+          "Wasser verdunstet aus Blättern. Das heißt…",
+          "Transpiration",
+          "Winterschlaf",
+          "Vogelzug",
+          "Pflanzen geben Wasserdampf über Blätter ab."
+        ]
+      ],
+      "fr": [
+        [
+          "Comment s’appelle le passage de l’eau en vapeur ?",
+          "l’évaporation",
+          "la condensation",
+          "la congélation",
+          "La chaleur fait évaporer l’eau."
+        ],
+        [
+          "Comment s’appelle le passage de la vapeur en gouttes ?",
+          "la condensation",
+          "l’évaporation",
+          "la fusion",
+          "La vapeur qui refroidit se condense."
+        ],
+        [
+          "La pluie, la neige et la grêle sont des…",
+          "précipitations",
+          "évaporations",
+          "pollutions",
+          "L’eau qui tombe des nuages, ce sont les précipitations."
+        ],
+        [
+          "Qu’est-ce qui donne l’énergie au cycle de l’eau ?",
+          "le soleil",
+          "la lune",
+          "seulement le vent",
+          "La chaleur du soleil fait évaporer l’eau."
+        ],
+        [
+          "De quoi sont faits les nuages ?",
+          "de minuscules gouttes d’eau",
+          "de fumée",
+          "de coton",
+          "Les nuages sont faits de gouttelettes."
+        ],
+        [
+          "Pourquoi des gouttes se forment-elles sur un verre froid ?",
+          "la vapeur de l’air se condense",
+          "le verre fuit",
+          "la glace transpire",
+          "L’air refroidi par le verre se condense."
+        ],
+        [
+          "Où se trouve la plus grande partie de l’eau ?",
+          "dans les océans",
+          "dans les nuages",
+          "dans les rivières",
+          "La plupart de l’eau est salée, dans la mer."
+        ],
+        [
+          "Où va la pluie tombée sur les collines ?",
+          "dans les ruisseaux et les rivières",
+          "vers la lune",
+          "elle disparaît",
+          "L’eau descend vers les rivières et la mer."
+        ],
+        [
+          "Pourquoi les flaques sèchent-elles au soleil ?",
+          "l’eau s’évapore",
+          "le sol boit tout",
+          "les oiseaux les boivent",
+          "Le soleil transforme l’eau en vapeur."
+        ],
+        [
+          "L’eau que nous buvons est-elle très vieille ?",
+          "oui, elle a fait le cycle de nombreuses fois",
+          "non, elle est fabriquée chaque jour",
+          "elle vient de l’espace chaque jour",
+          "L’eau est recyclée encore et encore."
+        ],
+        [
+          "L’eau qui s’infiltre dans le sol s’appelle…",
+          "l’eau souterraine",
+          "l’eau des nuages",
+          "l’écume",
+          "L’eau souterraine se trouve sous le sol."
+        ],
+        [
+          "Pourquoi un nuage laisse-t-il tomber la pluie ?",
+          "ses gouttes s’unissent et deviennent trop lourdes",
+          "il s’ennuie",
+          "le vent le presse comme une éponge",
+          "Les grosses gouttes lourdes tombent."
+        ],
+        [
+          "L’eau s’évapore des feuilles. Cela s’appelle…",
+          "la transpiration",
+          "l’hibernation",
+          "la migration",
+          "Les plantes rejettent de la vapeur par les feuilles."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni à ń pè é nígbà tí omi bá di èéfín?",
+          "ìfẹ́yọ̀ omi",
+          "ìdipọ̀ omi",
+          "dídì",
+          "Ooru ń mú omi fẹ́yọ̀."
+        ],
+        [
+          "Kí ni à ń pè é nígbà tí èéfín bá padà di ẹ̀kán omi?",
+          "ìdipọ̀ omi",
+          "ìfẹ́yọ̀ omi",
+          "yíyọ́",
+          "Èéfín tó ń tutù ń dipọ̀."
+        ],
+        [
+          "Òjò, yìnyín àti òjò yìnyín jẹ́ oríṣi…",
+          "òjò-ríro",
+          "ìfẹ́yọ̀ omi",
+          "ìbàjẹ́ àyíká",
+          "Omi tó ń rọ̀ láti inú ìkùukùu ni òjò-ríro."
+        ],
+        [
+          "Kí ló ń fún ìyípo omi ní agbára?",
+          "oòrùn",
+          "òṣùpá",
+          "afẹ́fẹ́ nìkan",
+          "Ooru oòrùn ló ń mú omi fẹ́yọ̀."
+        ],
+        [
+          "Kí ni wọ́n fi ṣe ìkùukùu?",
+          "ẹ̀kán omi kéékèèké",
+          "èéfín iná",
+          "òwú",
+          "Ìkùukùu jẹ́ ẹgbẹẹgbẹ̀rún ẹ̀kán omi kéékèèké."
+        ],
+        [
+          "Kí ló dé tí ẹ̀kán omi fi ń hàn lára ife tútù?",
+          "èéfín inú afẹ́fẹ́ ń dipọ̀",
+          "ife náà ń jò",
+          "yìnyín ń làágùn",
+          "Afẹ́fẹ́ tó kan ife tútù ń tutù, ó sì ń dipọ̀."
+        ],
+        [
+          "Níbo ni ọ̀pọ̀ jù lọ omi ayé wà?",
+          "nínú òkun",
+          "nínú ìkùukùu",
+          "nínú odò",
+          "Ọ̀pọ̀ jù lọ omi jẹ́ omi òkun oníyọ̀."
+        ],
+        [
+          "Níbo ni òjò ń lọ lẹ́yìn tó rọ̀ sórí òkè?",
+          "sínú odò kéékèèké àti odò ńlá",
+          "sí òṣùpá",
+          "ó ń pòórá",
+          "Omi ń ṣàn sísàlẹ̀ sínú odò àti òkun."
+        ],
+        [
+          "Kí ló dé tí omi ìkúdu fi ń gbẹ lọ́jọ́ oòrùn?",
+          "omi náà ń fẹ́yọ̀",
+          "ilẹ̀ ń mu gbogbo rẹ̀",
+          "ẹyẹ ń mu ú",
+          "Oòrùn gbígbóná ń sọ omi di èéfín."
+        ],
+        [
+          "Ṣé omi tí a ń mu lónìí ti pẹ́ gan-an?",
+          "bẹ́ẹ̀ni, ó ti yípo ní ọ̀pọ̀ ìgbà",
+          "rárá, wọ́n ń ṣe é tuntun lójoojúmọ́",
+          "ó ń wá láti òfuurufú lójoojúmọ́",
+          "Ìyípo omi ń lo omi kan náà léraléra."
+        ],
+        [
+          "Omi tó ń wọnú ilẹ̀ ni à ń pè ní…",
+          "omi abẹ́ ilẹ̀",
+          "omi ìkùukùu",
+          "ìfòfó òkun",
+          "Omi abẹ́ ilẹ̀ ń kó jọ sábẹ́ erùpẹ̀."
+        ],
+        [
+          "Kí ló dé tí ìkùukùu fi ń rọ̀jò?",
+          "ẹ̀kán omi rẹ̀ ń papọ̀, wọ́n sì ń wúwo jù",
+          "ó ń sú u",
+          "afẹ́fẹ́ ń fún un bí kànìnkànìn",
+          "Ẹ̀kán omi ńlá tó wúwo ń rọ̀ bí òjò."
+        ],
+        [
+          "Omi ń fẹ́yọ̀ láti ara ewé. À ń pè é ní…",
+          "ìlàágùn ewéko",
+          "oorun ìgbà òtútù",
+          "ìṣíkiri",
+          "Ewéko ń tú èéfín omi jáde láti ara ewé."
+        ]
+      ]
+    }
+  },
+  "emoji": "droplet",
+  "example": {
+    "i": 0,
+    "q_en": "What is it called when water turns into vapour?",
+    "answer_en": "evaporation",
+    "why_en": "Heat makes water evaporate.",
+    "q_de": "Wie heißt es, wenn Wasser zu Dampf wird?",
+    "answer_de": "Verdunstung",
+    "why_de": "Wärme lässt Wasser verdunsten.",
+    "q_fr": "Comment s’appelle le passage de l’eau en vapeur ?",
+    "answer_fr": "l’évaporation",
+    "why_fr": "La chaleur fait évaporer l’eau.",
+    "q_yo": "Kí ni à ń pè é nígbà tí omi bá di èéfín?",
+    "answer_yo": "ìfẹ́yọ̀ omi",
+    "why_yo": "Ooru ń mú omi fẹ́yọ̀."
+  },
+  "text": {
+    "en": {
+      "title": "The water cycle",
+      "teach": "The sun warms water so it evaporates into vapour. The vapour cools and condenses into clouds, then falls as rain or snow and flows back to the sea.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Der Wasserkreislauf",
+      "teach": "Die Sonne erwärmt Wasser, es verdunstet. Der Dampf kühlt ab, kondensiert zu Wolken und fällt als Regen oder Schnee zurück ins Meer.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Le cycle de l’eau",
+      "teach": "Le soleil chauffe l’eau qui s’évapore. La vapeur refroidit, se condense en nuages, puis retombe en pluie ou en neige et retourne à la mer.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ìyípo omi",
+      "teach": "Oòrùn ń mú omi gbóná, ó sì ń di èéfín omi. Èéfín náà ń tutù, ó ń di ìkùukùu, lẹ́yìn náà ó ń rọ̀ bí òjò tàbí yìnyín, ó sì ń ṣàn padà sí òkun.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

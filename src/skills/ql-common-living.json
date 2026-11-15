@@ -1,0 +1,62 @@
+{
+  "id": "ql-common-living",
+  "kind": "ql-common",
+  "subject": "qualitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 54,
+  "only": "en",
+  "params": {
+    "qualities": {
+      "carnivorous": [
+        "a lion",
+        "a shark",
+        "an eagle",
+        "a wolf",
+        "a crocodile",
+        "a Venus flytrap"
+      ],
+      "herbivorous": [
+        "a cow",
+        "a rabbit",
+        "a giraffe",
+        "an elephant",
+        "a sheep",
+        "a caterpillar"
+      ],
+      "evergreen": [
+        "a pine tree",
+        "a holly bush",
+        "a fir tree",
+        "a yew tree",
+        "ivy",
+        "a spruce tree"
+      ],
+      "deciduous": [
+        "an oak tree",
+        "a beech tree",
+        "a maple tree",
+        "a birch tree",
+        "a horse chestnut tree",
+        "an ash tree"
+      ]
+    }
+  },
+  "emoji": "seedling",
+  "example": {
+    "answer": "herbivorous",
+    "things": "a rabbit, a sheep, a cow",
+    "last": "a cow",
+    "first": "a rabbit, a sheep"
+  },
+  "text": {
+    "en": {
+      "title": "What do they share? (living things)",
+      "teach": "Test each word against all three things; only one fits every one. {first} and {last} are all {answer}.",
+      "prompt": "Which word describes all three?",
+      "reason": "{first} and {last} are all {answer}."
+    }
+  }
+}

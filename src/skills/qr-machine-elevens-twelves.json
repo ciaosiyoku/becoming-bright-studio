@@ -1,0 +1,38 @@
+{
+  "id": "qr-machine-elevens-twelves",
+  "kind": "qr-machine",
+  "subject": "quantitative",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 47,
+  "only": "en",
+  "params": {
+    "steps": [
+      "x11",
+      "x12"
+    ],
+    "ins": [
+      2,
+      12
+    ]
+  },
+  "emoji": "gear",
+  "example": {
+    "in": 8,
+    "step1": "x12",
+    "step2": "",
+    "machine": "×12",
+    "answer": 96,
+    "working": "8 ×12 = 96"
+  },
+  "text": {
+    "en": {
+      "title": "Times machines: ×11 and ×12",
+      "teach": "A number goes in and the machine changes it. {in} goes in, the machine does {machine}: {working}.",
+      "prompt": "{in} goes into the machine. What comes out?",
+      "reason": "{working}."
+    }
+  }
+}

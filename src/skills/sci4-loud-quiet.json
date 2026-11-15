@@ -1,0 +1,443 @@
+{
+  "id": "sci4-loud-quiet",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 114,
+  "params": {
+    "emojis": [
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which is louder?",
+          "a drum",
+          "a whisper",
+          "a feather falling",
+          "A drum makes a loud sound."
+        ],
+        [
+          "Which is quieter?",
+          "a whisper",
+          "a fire engine",
+          "thunder",
+          "A whisper is very quiet."
+        ],
+        [
+          "What do we hear with?",
+          "our ears",
+          "our eyes",
+          "our toes",
+          "We hear sounds with our ears."
+        ],
+        [
+          "What should you do when a sound is too loud?",
+          "cover your ears",
+          "go closer",
+          "shout louder",
+          "Covering your ears protects them."
+        ],
+        [
+          "Where should we use a quiet voice?",
+          "in a library",
+          "at a football match",
+          "in the playground",
+          "Libraries are quiet places."
+        ],
+        [
+          "Which animal makes a loud roar?",
+          "a lion",
+          "a mouse",
+          "a fish",
+          "A lion’s roar is very loud."
+        ],
+        [
+          "Which animal makes a tiny squeak?",
+          "a mouse",
+          "a lion",
+          "an elephant",
+          "Mice make small squeaks."
+        ],
+        [
+          "What makes a sound when you shake it?",
+          "a rattle",
+          "a pillow",
+          "a towel",
+          "A rattle has bits inside that make a sound."
+        ],
+        [
+          "Is a sound louder near it or far away?",
+          "near it",
+          "far away",
+          "always the same",
+          "Sounds are louder when you are close to them."
+        ],
+        [
+          "What makes the noise of a storm?",
+          "thunder",
+          "a rainbow",
+          "the moon",
+          "Thunder is the loud noise in a storm."
+        ],
+        [
+          "Which makes music?",
+          "a guitar",
+          "a spoon in a drawer",
+          "a sock",
+          "A guitar is a musical instrument."
+        ],
+        [
+          "What should you use to call a friend across the playground?",
+          "a loud voice",
+          "a whisper",
+          "no voice at all",
+          "A loud voice carries further."
+        ],
+        [
+          "When is it very quiet?",
+          "at night when everyone is asleep",
+          "at a party",
+          "at a fireworks show",
+          "At night, when people sleep, it is quiet."
+        ]
+      ],
+      "de": [
+        [
+          "Was ist lauter?",
+          "eine Trommel",
+          "ein Flüstern",
+          "eine fallende Feder",
+          "Eine Trommel ist laut."
+        ],
+        [
+          "Was ist leiser?",
+          "ein Flüstern",
+          "ein Feuerwehrauto",
+          "Donner",
+          "Ein Flüstern ist sehr leise."
+        ],
+        [
+          "Womit hören wir?",
+          "mit den Ohren",
+          "mit den Augen",
+          "mit den Zehen",
+          "Wir hören mit den Ohren."
+        ],
+        [
+          "Was tust du, wenn etwas zu laut ist?",
+          "die Ohren zuhalten",
+          "näher hingehen",
+          "lauter schreien",
+          "Ohren zuhalten schützt sie."
+        ],
+        [
+          "Wo sprechen wir leise?",
+          "in der Bücherei",
+          "beim Fußballspiel",
+          "auf dem Spielplatz",
+          "In der Bücherei ist es leise."
+        ],
+        [
+          "Welches Tier brüllt laut?",
+          "ein Löwe",
+          "eine Maus",
+          "ein Fisch",
+          "Das Brüllen eines Löwen ist sehr laut."
+        ],
+        [
+          "Welches Tier piepst leise?",
+          "eine Maus",
+          "ein Löwe",
+          "ein Elefant",
+          "Mäuse piepsen leise."
+        ],
+        [
+          "Was macht ein Geräusch, wenn du es schüttelst?",
+          "eine Rassel",
+          "ein Kissen",
+          "ein Handtuch",
+          "In einer Rassel sind kleine Teile, die klappern."
+        ],
+        [
+          "Ist ein Ton nah oder weit weg lauter?",
+          "nah",
+          "weit weg",
+          "immer gleich",
+          "Töne sind lauter, wenn man nah dran ist."
+        ],
+        [
+          "Was macht den Lärm bei einem Gewitter?",
+          "der Donner",
+          "ein Regenbogen",
+          "der Mond",
+          "Donner ist der laute Knall bei einem Gewitter."
+        ],
+        [
+          "Was macht Musik?",
+          "eine Gitarre",
+          "ein Löffel in der Schublade",
+          "eine Socke",
+          "Eine Gitarre ist ein Musikinstrument."
+        ],
+        [
+          "Wie rufst du einen Freund quer über den Spielplatz?",
+          "mit lauter Stimme",
+          "flüsternd",
+          "ganz ohne Stimme",
+          "Eine laute Stimme trägt weiter."
+        ],
+        [
+          "Wann ist es sehr leise?",
+          "nachts, wenn alle schlafen",
+          "auf einer Party",
+          "beim Feuerwerk",
+          "Nachts, wenn alle schlafen, ist es leise."
+        ]
+      ],
+      "fr": [
+        [
+          "Qu’est-ce qui est le plus fort ?",
+          "un tambour",
+          "un chuchotement",
+          "une plume qui tombe",
+          "Un tambour fait un son fort."
+        ],
+        [
+          "Qu’est-ce qui est le plus faible ?",
+          "un chuchotement",
+          "un camion de pompiers",
+          "le tonnerre",
+          "Un chuchotement est très faible."
+        ],
+        [
+          "Avec quoi entend-on ?",
+          "avec les oreilles",
+          "avec les yeux",
+          "avec les orteils",
+          "On entend avec les oreilles."
+        ],
+        [
+          "Que faire quand un bruit est trop fort ?",
+          "se boucher les oreilles",
+          "s’approcher",
+          "crier plus fort",
+          "Se boucher les oreilles les protège."
+        ],
+        [
+          "Où parle-t-on doucement ?",
+          "à la bibliothèque",
+          "au match de foot",
+          "dans la cour",
+          "La bibliothèque est un endroit calme."
+        ],
+        [
+          "Quel animal rugit très fort ?",
+          "le lion",
+          "la souris",
+          "le poisson",
+          "Le rugissement du lion est très fort."
+        ],
+        [
+          "Quel animal fait un tout petit couinement ?",
+          "la souris",
+          "le lion",
+          "l’éléphant",
+          "Les souris font de petits couinements."
+        ],
+        [
+          "Qu’est-ce qui fait du bruit quand on le secoue ?",
+          "un hochet",
+          "un oreiller",
+          "une serviette",
+          "Un hochet contient des petits morceaux qui font du bruit."
+        ],
+        [
+          "Un son est-il plus fort de près ou de loin ?",
+          "de près",
+          "de loin",
+          "toujours pareil",
+          "Un son est plus fort quand on est près."
+        ],
+        [
+          "Qu’est-ce qui fait le bruit de l’orage ?",
+          "le tonnerre",
+          "l’arc-en-ciel",
+          "la lune",
+          "Le tonnerre est le grand bruit de l’orage."
+        ],
+        [
+          "Qu’est-ce qui fait de la musique ?",
+          "une guitare",
+          "une cuillère dans un tiroir",
+          "une chaussette",
+          "La guitare est un instrument de musique."
+        ],
+        [
+          "Comment appeler un ami à l’autre bout de la cour ?",
+          "d’une voix forte",
+          "en chuchotant",
+          "sans voix",
+          "Une voix forte porte plus loin."
+        ],
+        [
+          "Quand fait-il très calme ?",
+          "la nuit quand tout le monde dort",
+          "pendant une fête",
+          "pendant un feu d’artifice",
+          "La nuit, quand tout le monde dort, c’est calme."
+        ]
+      ],
+      "yo": [
+        [
+          "Èwo ló dún jù?",
+          "ìlù",
+          "ohùn kẹ́lẹ́",
+          "ìyẹ́ tó ń jábọ́",
+          "Ìlù máa ń dún gan-an."
+        ],
+        [
+          "Èwo ló rọ̀ jù?",
+          "ohùn kẹ́lẹ́",
+          "ọkọ̀ panápaná",
+          "àrá",
+          "Ohùn kẹ́lẹ́ rọ̀ gan-an."
+        ],
+        [
+          "Kí la fi ń gbọ́ràn?",
+          "etí wa",
+          "ojú wa",
+          "ọmọ ìka ẹsẹ̀ wa",
+          "A ń fi etí wa gbọ́ ohùn."
+        ],
+        [
+          "Kí lo yẹ kí o ṣe tí ohùn bá ga jù?",
+          "bo etí rẹ",
+          "súnmọ́ ọn",
+          "kígbe sí i",
+          "Bíbo etí ń dáàbò bò ó."
+        ],
+        [
+          "Níbo ló yẹ ká sọ̀rọ̀ jẹ́jẹ́?",
+          "nínú ilé ìkàwé",
+          "níbi ìdíje bọ́ọ̀lù",
+          "ní pápá ìṣeré",
+          "Ilé ìkàwé jẹ́ ibi ìdákẹ́jẹ́."
+        ],
+        [
+          "Ẹranko wo ló ń bú ramúramù?",
+          "kìnnìún",
+          "eku",
+          "ẹja",
+          "Ìbúramúramù kìnnìún ga gan-an."
+        ],
+        [
+          "Ẹranko wo ló ń ké kíkí kékeré?",
+          "eku",
+          "kìnnìún",
+          "erin",
+          "Eku máa ń ké kíkí kékeré."
+        ],
+        [
+          "Kí ló máa ń dún tí o bá mì í?",
+          "ṣẹ̀kẹ̀rẹ̀",
+          "tìmùtìmù",
+          "aṣọ ìnura",
+          "Ṣẹ̀kẹ̀rẹ̀ ní nǹkan kéékèèké nínú tó ń dún."
+        ],
+        [
+          "Ṣé ohùn máa ń ga jù nítòsí àbí lọ́nà jíjìn?",
+          "nítòsí",
+          "lọ́nà jíjìn",
+          "bákan náà nígbà gbogbo",
+          "Ohùn máa ń ga jù tí o bá súnmọ́ ọn."
+        ],
+        [
+          "Kí ló ń pariwo nígbà ìjì?",
+          "àrá",
+          "òṣùmàrè",
+          "òṣùpá",
+          "Àrá ni ariwo ńlá nígbà ìjì."
+        ],
+        [
+          "Èwo ló ń kọ orin?",
+          "gìtá",
+          "ṣíbí nínú àpótí",
+          "ìbọ̀sẹ̀",
+          "Gìtá jẹ́ ohun èlò orin."
+        ],
+        [
+          "Báwo lo ṣe máa pe ọ̀rẹ́ rẹ ní òdìkejì pápá ìṣeré?",
+          "pẹ̀lú ohùn gíga",
+          "pẹ̀lú ohùn kẹ́lẹ́",
+          "láìsí ohùn rárá",
+          "Ohùn gíga máa ń dé ọ̀nà jíjìn."
+        ],
+        [
+          "Ìgbà wo ló máa ń dákẹ́ jẹ́ẹ́?",
+          "lóru nígbà tí gbogbo ènìyàn ń sùn",
+          "níbi àpèjẹ",
+          "níbi iná ìṣeré",
+          "Lóru, nígbà tí ènìyàn ń sùn, ó máa ń dákẹ́."
+        ]
+      ]
+    }
+  },
+  "emoji": "bell",
+  "example": {
+    "i": 0,
+    "q_en": "Which is louder?",
+    "answer_en": "a drum",
+    "why_en": "A drum makes a loud sound.",
+    "q_de": "Was ist lauter?",
+    "answer_de": "eine Trommel",
+    "why_de": "Eine Trommel ist laut.",
+    "q_fr": "Qu’est-ce qui est le plus fort ?",
+    "answer_fr": "un tambour",
+    "why_fr": "Un tambour fait un son fort.",
+    "q_yo": "Èwo ló dún jù?",
+    "answer_yo": "ìlù",
+    "why_yo": "Ìlù máa ń dún gan-an."
+  },
+  "text": {
+    "en": {
+      "title": "Loud and quiet sounds",
+      "teach": "We hear sounds with our ears. A drum is loud, a whisper is quiet. Very loud sounds can hurt our ears.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Laute und leise Töne",
+      "teach": "Wir hören Töne mit den Ohren. Eine Trommel ist laut, ein Flüstern ist leise. Sehr laute Töne können den Ohren wehtun.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Sons forts et faibles",
+      "teach": "On entend les sons avec les oreilles. Un tambour est fort, un chuchotement est faible. Les sons très forts font mal aux oreilles.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ohùn tó ga àti èyí tó rọ̀",
+      "teach": "A ń gbọ́ ohùn pẹ̀lú etí wa. Ìlù ń dún gan-an, ohùn kẹ́lẹ́ rọ̀. Ohùn tó ga jù lè ṣe etí wa léṣe.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

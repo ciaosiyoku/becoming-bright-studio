@@ -1,0 +1,443 @@
+{
+  "id": "sci10-volcanoes",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 215,
+  "params": {
+    "emojis": [
+      "mountain",
+      "mountain",
+      "mountain",
+      "mountain",
+      "mountain",
+      "mountain",
+      "mountain",
+      "mountain",
+      "mountain",
+      "mountain",
+      "mountain",
+      "mountain",
+      "mountain"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What is melted rock under the ground called?",
+          "magma",
+          "lava",
+          "sand",
+          "Underground it is magma; above ground it is lava."
+        ],
+        [
+          "Melted rock that pours out of a volcano is…",
+          "lava",
+          "magma",
+          "ice",
+          "Once it reaches the surface it is lava."
+        ],
+        [
+          "What are the giant moving pieces of Earth’s crust?",
+          "tectonic plates",
+          "tiles",
+          "craters",
+          "The plates move a few centimetres a year."
+        ],
+        [
+          "What is it called when the ground shakes suddenly?",
+          "an earthquake",
+          "a tornado",
+          "a flood",
+          "Plates slipping cause the ground to shake."
+        ],
+        [
+          "What measures how strong an earthquake is?",
+          "a seismometer",
+          "a thermometer",
+          "a barometer",
+          "Seismometers record ground shaking."
+        ],
+        [
+          "A volcano that has not erupted for a very long time and may again is…",
+          "dormant",
+          "extinct",
+          "active",
+          "Dormant means sleeping."
+        ],
+        [
+          "A volcano that will never erupt again is…",
+          "extinct",
+          "dormant",
+          "active",
+          "Extinct volcanoes have no magma supply."
+        ],
+        [
+          "A giant sea wave caused by an undersea earthquake is a…",
+          "tsunami",
+          "tornado",
+          "monsoon",
+          "Tsunamis can cross whole oceans."
+        ],
+        [
+          "What should you do indoors in an earthquake?",
+          "drop, cover under a table and hold on",
+          "run outside past windows",
+          "stand in a lift",
+          "Drop, cover and hold on keeps you safest."
+        ],
+        [
+          "Why do people farm near volcanoes?",
+          "volcanic soil is very fertile",
+          "it is always cool there",
+          "the lava waters the crops",
+          "Old ash makes rich soil."
+        ],
+        [
+          "The opening at the top of a volcano is the…",
+          "crater",
+          "root",
+          "shore",
+          "Lava and ash come out of the crater."
+        ],
+        [
+          "The hot, partly melted layer under the crust is the…",
+          "mantle",
+          "core of an apple",
+          "atmosphere",
+          "The mantle lies between the crust and the core."
+        ],
+        [
+          "Which country has many volcanoes along the “Ring of Fire”?",
+          "Japan",
+          "Egypt",
+          "Nigeria",
+          "The Ring of Fire circles the Pacific Ocean."
+        ]
+      ],
+      "de": [
+        [
+          "Wie heißt geschmolzenes Gestein unter der Erde?",
+          "Magma",
+          "Lava",
+          "Sand",
+          "Unter der Erde Magma, oben Lava."
+        ],
+        [
+          "Geschmolzenes Gestein, das ausfließt, heißt…",
+          "Lava",
+          "Magma",
+          "Eis",
+          "An der Oberfläche heißt es Lava."
+        ],
+        [
+          "Wie heißen die großen beweglichen Teile der Erdkruste?",
+          "tektonische Platten",
+          "Fliesen",
+          "Krater",
+          "Die Platten bewegen sich ein paar cm pro Jahr."
+        ],
+        [
+          "Wie heißt es, wenn der Boden plötzlich bebt?",
+          "ein Erdbeben",
+          "ein Tornado",
+          "eine Flut",
+          "Rutschende Platten lassen den Boden beben."
+        ],
+        [
+          "Womit misst man die Stärke eines Erdbebens?",
+          "mit einem Seismometer",
+          "mit einem Thermometer",
+          "mit einem Barometer",
+          "Seismometer zeichnen Bodenbewegungen auf."
+        ],
+        [
+          "Ein Vulkan, der lange ruht, aber wieder ausbrechen kann, ist…",
+          "schlafend",
+          "erloschen",
+          "aktiv",
+          "Schlafend heißt: ruht nur."
+        ],
+        [
+          "Ein Vulkan, der nie mehr ausbricht, ist…",
+          "erloschen",
+          "schlafend",
+          "aktiv",
+          "Erloschene Vulkane haben kein Magma mehr."
+        ],
+        [
+          "Eine Riesenwelle nach einem Seebeben ist ein…",
+          "Tsunami",
+          "Tornado",
+          "Monsun",
+          "Tsunamis überqueren ganze Ozeane."
+        ],
+        [
+          "Was tust du bei einem Erdbeben drinnen?",
+          "hinknien, unter den Tisch, festhalten",
+          "an Fenstern vorbei hinausrennen",
+          "in den Aufzug gehen",
+          "Ducken, schützen, festhalten ist am sichersten."
+        ],
+        [
+          "Warum leben Bauern nahe Vulkanen?",
+          "Vulkanboden ist sehr fruchtbar",
+          "es ist dort immer kühl",
+          "Lava bewässert die Felder",
+          "Alte Asche macht den Boden reich."
+        ],
+        [
+          "Die Öffnung oben am Vulkan heißt…",
+          "Krater",
+          "Wurzel",
+          "Ufer",
+          "Aus dem Krater kommen Lava und Asche."
+        ],
+        [
+          "Die heiße, teils flüssige Schicht unter der Kruste ist der…",
+          "Mantel",
+          "Apfelkern",
+          "Atmosphäre",
+          "Der Mantel liegt zwischen Kruste und Kern."
+        ],
+        [
+          "Welches Land hat viele Vulkane am Pazifischen Feuerring?",
+          "Japan",
+          "Ägypten",
+          "Nigeria",
+          "Der Feuerring umgibt den Pazifik."
+        ]
+      ],
+      "fr": [
+        [
+          "Comment s’appelle la roche fondue sous terre ?",
+          "le magma",
+          "la lave",
+          "le sable",
+          "Sous terre c’est du magma, dehors de la lave."
+        ],
+        [
+          "La roche fondue qui sort d’un volcan est…",
+          "la lave",
+          "le magma",
+          "la glace",
+          "En surface, c’est de la lave."
+        ],
+        [
+          "Comment s’appellent les grandes pièces mobiles de la croûte ?",
+          "les plaques tectoniques",
+          "les carreaux",
+          "les cratères",
+          "Elles bougent de quelques cm par an."
+        ],
+        [
+          "Comment s’appelle le tremblement soudain du sol ?",
+          "un séisme",
+          "une tornade",
+          "une inondation",
+          "Les plaques qui glissent font trembler le sol."
+        ],
+        [
+          "Quel appareil mesure la force d’un séisme ?",
+          "un sismomètre",
+          "un thermomètre",
+          "un baromètre",
+          "Le sismomètre enregistre les secousses."
+        ],
+        [
+          "Un volcan qui dort mais pourrait se réveiller est…",
+          "endormi",
+          "éteint",
+          "actif",
+          "Endormi veut dire qu’il se repose."
+        ],
+        [
+          "Un volcan qui ne se réveillera jamais est…",
+          "éteint",
+          "endormi",
+          "actif",
+          "Un volcan éteint n’a plus de magma."
+        ],
+        [
+          "Une vague géante due à un séisme sous-marin est un…",
+          "tsunami",
+          "tornade",
+          "mousson",
+          "Un tsunami peut traverser un océan."
+        ],
+        [
+          "Que faire à l’intérieur pendant un séisme ?",
+          "s’accroupir sous une table et se tenir",
+          "courir dehors près des fenêtres",
+          "prendre l’ascenseur",
+          "S’abriter sous une table est le plus sûr."
+        ],
+        [
+          "Pourquoi cultive-t-on près des volcans ?",
+          "le sol volcanique est très fertile",
+          "il y fait toujours frais",
+          "la lave arrose les cultures",
+          "Les vieilles cendres enrichissent le sol."
+        ],
+        [
+          "L’ouverture au sommet d’un volcan est le…",
+          "cratère",
+          "racine",
+          "rivage",
+          "La lave et les cendres sortent du cratère."
+        ],
+        [
+          "La couche chaude, en partie fondue, sous la croûte est le…",
+          "manteau",
+          "trognon de pomme",
+          "atmosphère",
+          "Le manteau est entre la croûte et le noyau."
+        ],
+        [
+          "Quel pays a beaucoup de volcans sur la « ceinture de feu » ?",
+          "le Japon",
+          "l’Égypte",
+          "le Nigeria",
+          "La ceinture de feu entoure le Pacifique."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni orúkọ àpáta yíyọ́ lábẹ́ ilẹ̀?",
+          "àpáta-yíyọ́ (magma)",
+          "ọ̀dà òkè iná (lava)",
+          "yanrìn",
+          "Lábẹ́ ilẹ̀ ó jẹ́ magma; lókè ilẹ̀ ó jẹ́ lava."
+        ],
+        [
+          "Àpáta yíyọ́ tó ń tú jáde láti òkè ayọnáyèéfín ni…",
+          "lava",
+          "magma",
+          "yìnyín",
+          "Nígbà tó bá dé òkè ilẹ̀, ó di lava."
+        ],
+        [
+          "Kí ni orúkọ àwọn apá ńlá ìpele ayé tó ń rìn?",
+          "àwo ilẹ̀ (tectonic plates)",
+          "táìlì",
+          "kòtò òkè iná",
+          "Àwọn àwo náà ń rìn sẹ̀ǹtímítà díẹ̀ lọ́dún."
+        ],
+        [
+          "Kí ni à ń pè é nígbà tí ilẹ̀ bá mì lójijì?",
+          "ilẹ̀ríri",
+          "ìjì líle",
+          "àkúnya omi",
+          "Àwo ilẹ̀ tó ń yọ̀ ló ń mú ilẹ̀ mì."
+        ],
+        [
+          "Kí ló ń wọn agbára ilẹ̀ríri?",
+          "ìwọ̀n-ilẹ̀ríri",
+          "ìwọ̀n-ooru",
+          "ìwọ̀n-ìfúnpá afẹ́fẹ́",
+          "Ìwọ̀n-ilẹ̀ríri ń kọ mímì ilẹ̀ sílẹ̀."
+        ],
+        [
+          "Òkè ayọnáyèéfín tí kò tí ì bú fún ìgbà pípẹ́ ṣùgbọ́n tó lè bú lẹ́ẹ̀kan sí i ń…",
+          "sùn",
+          "ti kú pátápátá",
+          "ṣiṣẹ́ lọ́wọ́",
+          "Sísùn túmọ̀ sí pé ó ń sinmi."
+        ],
+        [
+          "Òkè ayọnáyèéfín tí kò ní bú mọ́ láéláé ti…",
+          "kú pátápátá",
+          "sùn",
+          "ń ṣiṣẹ́",
+          "Kò sí magma tí ń wá sí i mọ́."
+        ],
+        [
+          "Ìgbì òkun ńlá tí ilẹ̀ríri abẹ́ òkun ń fà ni…",
+          "tsunami",
+          "ìjì yíyí",
+          "òjò àsìkò",
+          "Tsunami lè kọjá òkun lódindi."
+        ],
+        [
+          "Kí ló yẹ kí o ṣe nínú ilé nígbà ilẹ̀ríri?",
+          "bẹ̀rẹ̀, sá sábẹ́ tábìlì, kí o sì dì í mú",
+          "sá jáde kọjá fèrèsé",
+          "dúró nínú ẹ̀rọ agbéniròkè",
+          "Bíbẹ̀rẹ̀ sábẹ́ tábìlì ló ní ààbò jù."
+        ],
+        [
+          "Kí ló dé tí àwọn ènìyàn fi ń dáko nítòsí òkè ayọnáyèéfín?",
+          "ilẹ̀ ibẹ̀ lọ́ràá gan-an",
+          "ó máa ń tutù níbẹ̀ nígbà gbogbo",
+          "lava ń bomi rin ohun ọ̀gbìn",
+          "Eérú àtijọ́ ń mú ilẹ̀ lọ́ràá."
+        ],
+        [
+          "Ihò tó wà lókè òkè ayọnáyèéfín ni…",
+          "kòtò òkè iná",
+          "gbòǹgbò",
+          "etí òkun",
+          "Lava àti eérú ń jáde láti inú kòtò náà."
+        ],
+        [
+          "Ìpele gbígbóná tí ó yọ́ díẹ̀ lábẹ́ ìpele òkè ayé ni…",
+          "ìpele àárín ayé (mantle)",
+          "kóró ápù",
+          "àyíká afẹ́fẹ́",
+          "Mantle wà láàárín ìpele òkè àti ọkàn ayé."
+        ],
+        [
+          "Orílẹ̀-èdè wo ló ní ọ̀pọ̀ òkè ayọnáyèéfín lórí “Òrùka Iná”?",
+          "Jàpáànù",
+          "Íjíbítì",
+          "Nàìjíríà",
+          "Òrùka Iná yí Òkun Pàsífíìkì ká."
+        ]
+      ]
+    }
+  },
+  "emoji": "mountain",
+  "example": {
+    "i": 0,
+    "q_en": "What is melted rock under the ground called?",
+    "answer_en": "magma",
+    "why_en": "Underground it is magma; above ground it is lava.",
+    "q_de": "Wie heißt geschmolzenes Gestein unter der Erde?",
+    "answer_de": "Magma",
+    "why_de": "Unter der Erde Magma, oben Lava.",
+    "q_fr": "Comment s’appelle la roche fondue sous terre ?",
+    "answer_fr": "le magma",
+    "why_fr": "Sous terre c’est du magma, dehors de la lave.",
+    "q_yo": "Kí ni orúkọ àpáta yíyọ́ lábẹ́ ilẹ̀?",
+    "answer_yo": "àpáta-yíyọ́ (magma)",
+    "why_yo": "Lábẹ́ ilẹ̀ ó jẹ́ magma; lókè ilẹ̀ ó jẹ́ lava."
+  },
+  "text": {
+    "en": {
+      "title": "Volcanoes and earthquakes",
+      "teach": "Earth’s crust is broken into plates that slowly move. Where they meet, rock can melt into magma that erupts from volcanoes, and sudden slips cause earthquakes.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Vulkane und Erdbeben",
+      "teach": "Die Erdkruste besteht aus Platten, die sich langsam bewegen. Wo sie sich treffen, schmilzt Gestein zu Magma, das aus Vulkanen ausbricht, und plötzliche Rucke lösen Erdbeben aus.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Volcans et séismes",
+      "teach": "La croûte terrestre est faite de plaques qui bougent lentement. Là où elles se rencontrent, la roche fond en magma qui jaillit des volcans, et des glissements brusques causent des séismes.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Òkè ayọnáyèéfín àti ilẹ̀ríri",
+      "teach": "Ìpele òkè ayé ti fọ́ sí àwọn àwo tó ń rìn díẹ̀díẹ̀. Níbi tí wọ́n ti pàdé, àpáta lè yọ́ di àpáta-yíyọ́ tó ń bú jáde láti òkè ayọnáyèéfín, ìyọ̀ òjijì sì ń fa ilẹ̀ríri.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

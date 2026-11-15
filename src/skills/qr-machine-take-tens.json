@@ -1,0 +1,39 @@
+{
+  "id": "qr-machine-take-tens",
+  "kind": "qr-machine",
+  "subject": "quantitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 39,
+  "only": "en",
+  "params": {
+    "steps": [
+      "-10",
+      "-20",
+      "-30"
+    ],
+    "ins": [
+      40,
+      99
+    ]
+  },
+  "emoji": "gear",
+  "example": {
+    "in": 53,
+    "step1": "-30",
+    "step2": "",
+    "machine": "−30",
+    "answer": 23,
+    "working": "53 −30 = 23"
+  },
+  "text": {
+    "en": {
+      "title": "Taking-away machines: tens",
+      "teach": "A number goes in and the machine changes it. {in} goes in, the machine does {machine}: {working}.",
+      "prompt": "{in} goes into the machine. What comes out?",
+      "reason": "{working}."
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "id": "en8-adverbs",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 30,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "animal-rabbit",
+      "animal-rabbit",
+      "animal-rabbit",
+      "animal-rabbit",
+      "animal-rabbit",
+      "animal-rabbit",
+      "animal-rabbit",
+      "animal-rabbit",
+      "animal-rabbit",
+      "animal-rabbit",
+      "animal-rabbit",
+      "animal-rabbit",
+      "animal-rabbit",
+      "animal-rabbit",
+      "animal-rabbit"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which word is the adverb? “She sang softly.”",
+          "softly",
+          "sang",
+          "she",
+          "Softly tells us how she sang."
+        ],
+        [
+          "Which word is the adverb? “The dog barked loudly.”",
+          "loudly",
+          "dog",
+          "barked",
+          "Loudly tells us how the dog barked."
+        ],
+        [
+          "Make an adverb from “quick”.",
+          "quickly",
+          "quicker",
+          "quickness",
+          "Add -ly: quickly."
+        ],
+        [
+          "Make an adverb from “happy”.",
+          "happily",
+          "happyly",
+          "happier",
+          "Change y to i and add -ly: happily."
+        ],
+        [
+          "Make an adverb from “gentle”.",
+          "gently",
+          "gentlely",
+          "gentler",
+          "Words ending in -le drop the e and add -y: gently."
+        ],
+        [
+          "Which adverb fits? “The tortoise walked …”",
+          "slowly",
+          "quickly",
+          "loudly",
+          "Tortoises walk slowly."
+        ],
+        [
+          "Which adverb fits? “Whisper … in the library.”",
+          "quietly",
+          "loudly",
+          "angrily",
+          "In a library we whisper quietly."
+        ],
+        [
+          "Which word is the adverb? “He carefully carried the eggs.”",
+          "carefully",
+          "carried",
+          "eggs",
+          "Carefully tells us how he carried them."
+        ],
+        [
+          "Make an adverb from “easy”.",
+          "easily",
+          "easyly",
+          "easier",
+          "Change y to i and add -ly: easily."
+        ],
+        [
+          "Which adverb fits? “The cheetah ran …”",
+          "fast",
+          "slowly",
+          "sleepily",
+          "Cheetahs run fast. “Fast” is an adverb without -ly."
+        ],
+        [
+          "Which adverb tells us WHEN? “We will go tomorrow.”",
+          "tomorrow",
+          "go",
+          "will",
+          "Tomorrow tells us when."
+        ],
+        [
+          "Which adverb tells us WHERE? “Put it here.”",
+          "here",
+          "put",
+          "it",
+          "Here tells us where."
+        ],
+        [
+          "Make an adverb from “sad”.",
+          "sadly",
+          "sadily",
+          "sadder",
+          "Add -ly: sadly."
+        ],
+        [
+          "Which word is NOT an adverb?",
+          "silly",
+          "swiftly",
+          "calmly",
+          "Silly ends in -ly but is a describing word (adjective)."
+        ],
+        [
+          "Which adverb fits? “She smiled … at the baby.”",
+          "kindly",
+          "angrily",
+          "loudly",
+          "Smiling at a baby is usually done kindly."
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-rabbit",
+  "example": {
+    "i": 0,
+    "q_en": "Which word is the adverb? “She sang softly.”",
+    "answer_en": "softly",
+    "why_en": "Softly tells us how she sang."
+  },
+  "text": {
+    "en": {
+      "title": "How words (adverbs)",
+      "teach": "An adverb tells us how something is done. Many end in -ly: she sang softly, he ran quickly.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

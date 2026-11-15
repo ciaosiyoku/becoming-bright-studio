@@ -1,0 +1,443 @@
+{
+  "id": "sci4-minibeasts",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 118,
+  "params": {
+    "emojis": [
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle",
+      "animal-lady-beetle"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which minibeast carries its house on its back?",
+          "a snail",
+          "an ant",
+          "a bee",
+          "A snail lives in its shell."
+        ],
+        [
+          "Which minibeast makes honey?",
+          "a bee",
+          "a worm",
+          "a spider",
+          "Bees make honey from flowers."
+        ],
+        [
+          "Which minibeast spins a web?",
+          "a spider",
+          "a ladybird",
+          "a snail",
+          "Spiders spin webs to catch food."
+        ],
+        [
+          "What colour is a ladybird, with black spots?",
+          "red",
+          "blue",
+          "green",
+          "Most ladybirds are red with black spots."
+        ],
+        [
+          "Where do worms live?",
+          "in the soil",
+          "in the sky",
+          "in a nest",
+          "Worms live under the ground in the soil."
+        ],
+        [
+          "How many legs does an ant have?",
+          "six",
+          "eight",
+          "none",
+          "Ants are insects, and insects have six legs."
+        ],
+        [
+          "How many legs does a spider have?",
+          "eight",
+          "six",
+          "four",
+          "Spiders have eight legs."
+        ],
+        [
+          "What does a caterpillar turn into?",
+          "a butterfly",
+          "a bee",
+          "a worm",
+          "A caterpillar becomes a butterfly."
+        ],
+        [
+          "Which minibeast has no legs?",
+          "a worm",
+          "an ant",
+          "a beetle",
+          "Worms wriggle without legs."
+        ],
+        [
+          "What leaves a shiny trail?",
+          "a snail",
+          "a bee",
+          "a spider",
+          "Snails leave a shiny, slimy trail."
+        ],
+        [
+          "What do bees visit to collect nectar?",
+          "flowers",
+          "rocks",
+          "puddles",
+          "Bees visit flowers for nectar."
+        ],
+        [
+          "How should we treat minibeasts?",
+          "gently, and put them back",
+          "squash them",
+          "keep them in a box for ever",
+          "Be gentle and put them back where you found them."
+        ],
+        [
+          "Where might you find woodlice?",
+          "under a log",
+          "on the moon",
+          "in the sea",
+          "Woodlice like damp, dark places under logs and stones."
+        ]
+      ],
+      "de": [
+        [
+          "Welches Krabbeltier trägt sein Haus auf dem Rücken?",
+          "die Schnecke",
+          "die Ameise",
+          "die Biene",
+          "Eine Schnecke wohnt in ihrem Häuschen."
+        ],
+        [
+          "Welches Krabbeltier macht Honig?",
+          "die Biene",
+          "der Wurm",
+          "die Spinne",
+          "Bienen machen Honig aus Blüten."
+        ],
+        [
+          "Welches Krabbeltier spinnt ein Netz?",
+          "die Spinne",
+          "der Marienkäfer",
+          "die Schnecke",
+          "Spinnen spinnen Netze."
+        ],
+        [
+          "Welche Farbe hat ein Marienkäfer mit schwarzen Punkten?",
+          "rot",
+          "blau",
+          "grün",
+          "Die meisten Marienkäfer sind rot mit schwarzen Punkten."
+        ],
+        [
+          "Wo leben Würmer?",
+          "in der Erde",
+          "im Himmel",
+          "in einem Nest",
+          "Würmer leben in der Erde."
+        ],
+        [
+          "Wie viele Beine hat eine Ameise?",
+          "sechs",
+          "acht",
+          "keine",
+          "Ameisen sind Insekten mit sechs Beinen."
+        ],
+        [
+          "Wie viele Beine hat eine Spinne?",
+          "acht",
+          "sechs",
+          "vier",
+          "Spinnen haben acht Beine."
+        ],
+        [
+          "Was wird aus einer Raupe?",
+          "ein Schmetterling",
+          "eine Biene",
+          "ein Wurm",
+          "Aus einer Raupe wird ein Schmetterling."
+        ],
+        [
+          "Welches Krabbeltier hat keine Beine?",
+          "der Wurm",
+          "die Ameise",
+          "der Käfer",
+          "Würmer schlängeln sich ohne Beine."
+        ],
+        [
+          "Was hinterlässt eine glänzende Spur?",
+          "eine Schnecke",
+          "eine Biene",
+          "eine Spinne",
+          "Schnecken hinterlassen eine glänzende Schleimspur."
+        ],
+        [
+          "Was besuchen Bienen, um Nektar zu sammeln?",
+          "Blüten",
+          "Steine",
+          "Pfützen",
+          "Bienen besuchen Blüten."
+        ],
+        [
+          "Wie gehen wir mit Krabbeltieren um?",
+          "vorsichtig, und zurücksetzen",
+          "zerdrücken",
+          "für immer in eine Kiste sperren",
+          "Sei vorsichtig und setz sie zurück."
+        ],
+        [
+          "Wo findest du Asseln?",
+          "unter einem Baumstamm",
+          "auf dem Mond",
+          "im Meer",
+          "Asseln mögen dunkle, feuchte Orte."
+        ]
+      ],
+      "fr": [
+        [
+          "Quelle petite bête porte sa maison sur son dos ?",
+          "l’escargot",
+          "la fourmi",
+          "l’abeille",
+          "L’escargot vit dans sa coquille."
+        ],
+        [
+          "Quelle petite bête fait du miel ?",
+          "l’abeille",
+          "le ver",
+          "l’araignée",
+          "Les abeilles font le miel avec les fleurs."
+        ],
+        [
+          "Quelle petite bête tisse une toile ?",
+          "l’araignée",
+          "la coccinelle",
+          "l’escargot",
+          "L’araignée tisse une toile."
+        ],
+        [
+          "De quelle couleur est une coccinelle à points noirs ?",
+          "rouge",
+          "bleue",
+          "verte",
+          "La plupart des coccinelles sont rouges à points noirs."
+        ],
+        [
+          "Où vivent les vers de terre ?",
+          "dans la terre",
+          "dans le ciel",
+          "dans un nid",
+          "Les vers vivent dans la terre."
+        ],
+        [
+          "Combien de pattes a une fourmi ?",
+          "six",
+          "huit",
+          "aucune",
+          "La fourmi est un insecte : six pattes."
+        ],
+        [
+          "Combien de pattes a une araignée ?",
+          "huit",
+          "six",
+          "quatre",
+          "L’araignée a huit pattes."
+        ],
+        [
+          "Que devient une chenille ?",
+          "un papillon",
+          "une abeille",
+          "un ver",
+          "La chenille devient papillon."
+        ],
+        [
+          "Quelle petite bête n’a pas de pattes ?",
+          "le ver",
+          "la fourmi",
+          "le scarabée",
+          "Le ver se tortille sans pattes."
+        ],
+        [
+          "Qui laisse une trace brillante ?",
+          "l’escargot",
+          "l’abeille",
+          "l’araignée",
+          "L’escargot laisse une trace brillante."
+        ],
+        [
+          "Que visitent les abeilles pour le nectar ?",
+          "les fleurs",
+          "les cailloux",
+          "les flaques",
+          "Les abeilles butinent les fleurs."
+        ],
+        [
+          "Comment traiter les petites bêtes ?",
+          "doucement, et les remettre en place",
+          "les écraser",
+          "les garder pour toujours dans une boîte",
+          "Sois doux et remets-les où tu les as trouvées."
+        ],
+        [
+          "Où trouver des cloportes ?",
+          "sous une bûche",
+          "sur la lune",
+          "dans la mer",
+          "Les cloportes aiment les endroits sombres et humides."
+        ]
+      ],
+      "yo": [
+        [
+          "Kòkòrò wo ló ń gbé ilé rẹ̀ lẹ́yìn?",
+          "ìgbín",
+          "èèrà",
+          "oyin",
+          "Ìgbín ń gbé inú ìkarahun rẹ̀."
+        ],
+        [
+          "Kòkòrò wo ló ń ṣe oyin?",
+          "kòkòrò oyin",
+          "ekòló",
+          "aláǹtakùn",
+          "Kòkòrò oyin ń ṣe oyin láti ara òdòdó."
+        ],
+        [
+          "Kòkòrò wo ló ń hun ìtàkùn?",
+          "aláǹtakùn",
+          "kòkòrò aláwọ̀ pupa",
+          "ìgbín",
+          "Aláǹtakùn ń hun ìtàkùn."
+        ],
+        [
+          "Àwọ̀ wo ni kòkòrò aláwọ̀ pupa ní, pẹ̀lú àmì dúdú?",
+          "pupa",
+          "búlúù",
+          "àwọ̀ ewé",
+          "Ọ̀pọ̀ wọn jẹ́ pupa pẹ̀lú àmì dúdú."
+        ],
+        [
+          "Níbo ni ekòló ń gbé?",
+          "nínú erùpẹ̀",
+          "ní ojú ọ̀run",
+          "nínú ìtẹ́",
+          "Ekòló ń gbé inú erùpẹ̀."
+        ],
+        [
+          "Ẹsẹ̀ mélòó ni èèrà ní?",
+          "mẹ́fà",
+          "mẹ́jọ",
+          "kò ní",
+          "Èèrà jẹ́ kòkòrò, kòkòrò sì ní ẹsẹ̀ mẹ́fà."
+        ],
+        [
+          "Ẹsẹ̀ mélòó ni aláǹtakùn ní?",
+          "mẹ́jọ",
+          "mẹ́fà",
+          "mẹ́rin",
+          "Aláǹtakùn ní ẹsẹ̀ mẹ́jọ."
+        ],
+        [
+          "Kí ni ìdin labalábá máa ń dà?",
+          "labalábá",
+          "oyin",
+          "ekòló",
+          "Ìdin máa ń di labalábá."
+        ],
+        [
+          "Kòkòrò wo ni kò ní ẹsẹ̀?",
+          "ekòló",
+          "èèrà",
+          "kòkòrò bíítù",
+          "Ekòló ń rá láìsí ẹsẹ̀."
+        ],
+        [
+          "Kí ló ń fi ipa dídán sílẹ̀?",
+          "ìgbín",
+          "oyin",
+          "aláǹtakùn",
+          "Ìgbín máa ń fi ipa yíyọ̀ dídán sílẹ̀."
+        ],
+        [
+          "Kí ni oyin ń lọ sí láti kó omi òdòdó?",
+          "òdòdó",
+          "àpáta",
+          "odò kékeré",
+          "Oyin ń lọ sí òdòdó."
+        ],
+        [
+          "Báwo ló ṣe yẹ ká hùwà sí kòkòrò kéékèèké?",
+          "pẹ̀lẹ́pẹ̀lẹ́, ká sì dá wọn padà",
+          "ká tẹ̀ wọ́n pa",
+          "ká tì wọ́n mọ́ àpótí títí láé",
+          "Jẹ́ onínúure kí o sì dá wọn padà síbi tí o ti rí wọn."
+        ],
+        [
+          "Níbo ni o ti lè rí kòkòrò inú igi ríru?",
+          "lábẹ́ igi tó ti wó",
+          "lórí òṣùpá",
+          "nínú òkun",
+          "Wọ́n fẹ́ràn ibi tó tutù tó sì ṣókùnkùn."
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-lady-beetle",
+  "example": {
+    "i": 0,
+    "q_en": "Which minibeast carries its house on its back?",
+    "answer_en": "a snail",
+    "why_en": "A snail lives in its shell.",
+    "q_de": "Welches Krabbeltier trägt sein Haus auf dem Rücken?",
+    "answer_de": "die Schnecke",
+    "why_de": "Eine Schnecke wohnt in ihrem Häuschen.",
+    "q_fr": "Quelle petite bête porte sa maison sur son dos ?",
+    "answer_fr": "l’escargot",
+    "why_fr": "L’escargot vit dans sa coquille.",
+    "q_yo": "Kòkòrò wo ló ń gbé ilé rẹ̀ lẹ́yìn?",
+    "answer_yo": "ìgbín",
+    "why_yo": "Ìgbín ń gbé inú ìkarahun rẹ̀."
+  },
+  "text": {
+    "en": {
+      "title": "Minibeasts",
+      "teach": "Minibeasts are tiny animals: ladybirds, ants, snails, worms, bees and spiders. Look closely but gently.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Krabbeltiere",
+      "teach": "Krabbeltiere sind kleine Tiere: Marienkäfer, Ameisen, Schnecken, Würmer, Bienen und Spinnen. Schau genau, aber vorsichtig.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Les petites bêtes",
+      "teach": "Les petites bêtes sont de tout petits animaux : coccinelles, fourmis, escargots, vers, abeilles, araignées. Observe-les doucement.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Àwọn kòkòrò kéékèèké",
+      "teach": "Kòkòrò kéékèèké ni àwọn ẹranko kékeré: kòkòrò aláwọ̀ pupa, èèrà, ìgbín, ekòló, oyin àti aláǹtakùn. Wò wọ́n dáadáa ṣùgbọ́n pẹ̀lẹ́pẹ̀lẹ́.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

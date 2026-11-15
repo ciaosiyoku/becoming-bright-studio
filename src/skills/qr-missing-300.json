@@ -1,0 +1,37 @@
+{
+  "id": "qr-missing-300",
+  "kind": "qr-balance",
+  "subject": "quantitative",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 40,
+  "only": "en",
+  "params": {
+    "max": 300,
+    "ops": [
+      "add",
+      "sub"
+    ]
+  },
+  "emoji": "chart",
+  "example": {
+    "op": "sub",
+    "a": 185,
+    "b": 147,
+    "c": 38,
+    "blank": "second",
+    "answer": 147,
+    "shown": "185 − ? = 38",
+    "full": "185 − 147 = 38"
+  },
+  "text": {
+    "en": {
+      "title": "Missing numbers to 300",
+      "teach": "Something is hiding behind the ?. Try numbers until the sum is true: {shown}, and {full}.",
+      "prompt": "What is the missing number?",
+      "reason": "{full}, so the missing number is {answer}."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "vr-pairs-senses",
+  "kind": "vr-analogy",
+  "subject": "verbal",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 20,
+  "only": "en",
+  "params": {
+    "relations": {
+      "sense": [
+        [
+          "eye",
+          "see"
+        ],
+        [
+          "ear",
+          "hear"
+        ],
+        [
+          "nose",
+          "smell"
+        ],
+        [
+          "tongue",
+          "taste"
+        ],
+        [
+          "hand",
+          "touch"
+        ]
+      ]
+    }
+  },
+  "emoji": "anatomical-heart",
+  "example": {
+    "rule": "sense",
+    "a": "eye",
+    "b": "see",
+    "c": "tongue",
+    "answer": "taste"
+  },
+  "text": {
+    "en": {
+      "title": "Body parts and senses",
+      "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A {a} is for {b}ing… so a {c} is for {answer}.",
+      "prompt": "{a} is to {b} as {c} is to …?",
+      "reason": "They go together the same way.",
+      "reasons": {
+        "sense": "A {a} is for {b}ing… so a {c} is for {answer}."
+      }
+    }
+  }
+}

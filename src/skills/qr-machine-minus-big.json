@@ -1,0 +1,39 @@
+{
+  "id": "qr-machine-minus-big",
+  "kind": "qr-machine",
+  "subject": "quantitative",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 32,
+  "only": "en",
+  "params": {
+    "steps": [
+      "-4",
+      "-5",
+      "-10"
+    ],
+    "ins": [
+      10,
+      30
+    ]
+  },
+  "emoji": "gear",
+  "example": {
+    "in": 30,
+    "step1": "-5",
+    "step2": "",
+    "machine": "−5",
+    "answer": 25,
+    "working": "30 −5 = 25"
+  },
+  "text": {
+    "en": {
+      "title": "Taking-away machines: −4, −5 and −10",
+      "teach": "A number goes in and the machine changes it. {in} goes in, the machine does {machine}: {working}.",
+      "prompt": "{in} goes into the machine. What comes out?",
+      "reason": "{working}."
+    }
+  }
+}

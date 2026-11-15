@@ -1,0 +1,443 @@
+{
+  "id": "sci4-light-dark",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 116,
+  "params": {
+    "emojis": [
+      "light",
+      "light",
+      "light",
+      "light",
+      "light",
+      "light",
+      "light",
+      "light",
+      "light",
+      "light",
+      "light",
+      "light",
+      "light"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What gives us light in the day?",
+          "the sun",
+          "the moon",
+          "a mirror",
+          "The sun lights up the day."
+        ],
+        [
+          "What can you use to see in the dark?",
+          "a torch",
+          "a spoon",
+          "a sock",
+          "A torch makes light."
+        ],
+        [
+          "What do we need to see?",
+          "light",
+          "noise",
+          "wind",
+          "Without light we cannot see."
+        ],
+        [
+          "When is it dark outside?",
+          "at night",
+          "at lunchtime",
+          "in the morning",
+          "At night the sun has set, so it is dark."
+        ],
+        [
+          "Which one makes its own light?",
+          "a lamp",
+          "a book",
+          "a chair",
+          "A lamp makes light; books and chairs do not."
+        ],
+        [
+          "What should you never look straight at?",
+          "the sun",
+          "a book",
+          "a tree",
+          "The sun is so bright it can hurt your eyes."
+        ],
+        [
+          "What do we see in the sky at night?",
+          "the moon and stars",
+          "the sun",
+          "a rainbow",
+          "At night we can see the moon and stars."
+        ],
+        [
+          "What makes a shadow?",
+          "blocking the light",
+          "a loud noise",
+          "cold water",
+          "A shadow forms where something blocks the light."
+        ],
+        [
+          "What do you switch on in a dark room?",
+          "the light",
+          "the tap",
+          "the oven",
+          "Switching on the light lets us see."
+        ],
+        [
+          "What gives light on a birthday cake?",
+          "candles",
+          "sprinkles",
+          "icing",
+          "Candles have little flames that give light."
+        ],
+        [
+          "Is a shiny spoon a light source?",
+          "no, it only reflects light",
+          "yes, it makes light",
+          "yes, at night",
+          "Shiny things reflect light but do not make it."
+        ],
+        [
+          "What do we wear at night so cars can see us?",
+          "something bright or reflective",
+          "dark clothes",
+          "a big hat",
+          "Bright and reflective clothes shine in car lights."
+        ],
+        [
+          "What happens to your shadow when the light goes off?",
+          "it disappears",
+          "it gets bigger",
+          "it turns green",
+          "No light means no shadow."
+        ]
+      ],
+      "de": [
+        [
+          "Was gibt uns tagsüber Licht?",
+          "die Sonne",
+          "der Mond",
+          "ein Spiegel",
+          "Die Sonne macht den Tag hell."
+        ],
+        [
+          "Womit kannst du im Dunkeln sehen?",
+          "mit einer Taschenlampe",
+          "mit einem Löffel",
+          "mit einer Socke",
+          "Eine Taschenlampe macht Licht."
+        ],
+        [
+          "Was brauchen wir zum Sehen?",
+          "Licht",
+          "Lärm",
+          "Wind",
+          "Ohne Licht können wir nicht sehen."
+        ],
+        [
+          "Wann ist es draußen dunkel?",
+          "nachts",
+          "mittags",
+          "morgens",
+          "Nachts ist die Sonne untergegangen."
+        ],
+        [
+          "Was macht eigenes Licht?",
+          "eine Lampe",
+          "ein Buch",
+          "ein Stuhl",
+          "Eine Lampe macht Licht; Bücher und Stühle nicht."
+        ],
+        [
+          "Wo solltest du nie direkt hineinschauen?",
+          "in die Sonne",
+          "in ein Buch",
+          "auf einen Baum",
+          "Die Sonne ist so hell, dass sie den Augen schadet."
+        ],
+        [
+          "Was sehen wir nachts am Himmel?",
+          "Mond und Sterne",
+          "die Sonne",
+          "einen Regenbogen",
+          "Nachts sehen wir Mond und Sterne."
+        ],
+        [
+          "Wie entsteht ein Schatten?",
+          "wenn etwas das Licht abhält",
+          "durch ein lautes Geräusch",
+          "durch kaltes Wasser",
+          "Ein Schatten entsteht, wo etwas das Licht abhält."
+        ],
+        [
+          "Was schaltest du in einem dunklen Zimmer ein?",
+          "das Licht",
+          "den Wasserhahn",
+          "den Ofen",
+          "Licht einschalten lässt uns sehen."
+        ],
+        [
+          "Was leuchtet auf einem Geburtstagskuchen?",
+          "Kerzen",
+          "Streusel",
+          "Zuckerguss",
+          "Kerzen haben kleine Flammen, die leuchten."
+        ],
+        [
+          "Ist ein glänzender Löffel eine Lichtquelle?",
+          "nein, er spiegelt nur Licht",
+          "ja, er macht Licht",
+          "ja, nachts",
+          "Glänzende Dinge spiegeln Licht, machen aber keins."
+        ],
+        [
+          "Was tragen wir nachts, damit Autos uns sehen?",
+          "etwas Helles oder Reflektierendes",
+          "dunkle Kleidung",
+          "einen großen Hut",
+          "Helle, reflektierende Kleidung leuchtet im Scheinwerferlicht."
+        ],
+        [
+          "Was passiert mit deinem Schatten, wenn das Licht ausgeht?",
+          "er verschwindet",
+          "er wird größer",
+          "er wird grün",
+          "Ohne Licht kein Schatten."
+        ]
+      ],
+      "fr": [
+        [
+          "Qu’est-ce qui nous éclaire le jour ?",
+          "le soleil",
+          "la lune",
+          "un miroir",
+          "Le soleil éclaire la journée."
+        ],
+        [
+          "Avec quoi peux-tu voir dans le noir ?",
+          "une lampe de poche",
+          "une cuillère",
+          "une chaussette",
+          "Une lampe de poche fait de la lumière."
+        ],
+        [
+          "De quoi a-t-on besoin pour voir ?",
+          "de lumière",
+          "de bruit",
+          "de vent",
+          "Sans lumière, on ne voit rien."
+        ],
+        [
+          "Quand fait-il noir dehors ?",
+          "la nuit",
+          "à midi",
+          "le matin",
+          "La nuit, le soleil est couché."
+        ],
+        [
+          "Qu’est-ce qui fait sa propre lumière ?",
+          "une lampe",
+          "un livre",
+          "une chaise",
+          "Une lampe fait de la lumière."
+        ],
+        [
+          "Que ne faut-il jamais regarder en face ?",
+          "le soleil",
+          "un livre",
+          "un arbre",
+          "Le soleil est si brillant qu’il abîme les yeux."
+        ],
+        [
+          "Que voit-on dans le ciel la nuit ?",
+          "la lune et les étoiles",
+          "le soleil",
+          "un arc-en-ciel",
+          "La nuit, on voit la lune et les étoiles."
+        ],
+        [
+          "Qu’est-ce qui fait une ombre ?",
+          "quelque chose qui bloque la lumière",
+          "un grand bruit",
+          "de l’eau froide",
+          "Une ombre se forme quand quelque chose bloque la lumière."
+        ],
+        [
+          "Qu’allumes-tu dans une pièce sombre ?",
+          "la lumière",
+          "le robinet",
+          "le four",
+          "Allumer la lumière permet de voir."
+        ],
+        [
+          "Qu’est-ce qui éclaire un gâteau d’anniversaire ?",
+          "les bougies",
+          "les vermicelles",
+          "le glaçage",
+          "Les bougies ont de petites flammes qui éclairent."
+        ],
+        [
+          "Une cuillère brillante est-elle une source de lumière ?",
+          "non, elle reflète seulement la lumière",
+          "oui, elle fait de la lumière",
+          "oui, la nuit",
+          "Les objets brillants reflètent la lumière sans en faire."
+        ],
+        [
+          "Que porte-t-on la nuit pour que les voitures nous voient ?",
+          "quelque chose de clair ou réfléchissant",
+          "des habits sombres",
+          "un grand chapeau",
+          "Les habits clairs et réfléchissants brillent dans les phares."
+        ],
+        [
+          "Que devient ton ombre quand la lumière s’éteint ?",
+          "elle disparaît",
+          "elle grandit",
+          "elle devient verte",
+          "Sans lumière, pas d’ombre."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ló ń fún wa ní ìmọ́lẹ̀ lọ́sàn-án?",
+          "oòrùn",
+          "òṣùpá",
+          "dígí",
+          "Oòrùn ló ń tan ìmọ́lẹ̀ sí ọ̀sán."
+        ],
+        [
+          "Kí lo lè lò láti ríran nínú òkùnkùn?",
+          "tọ́ọ̀ṣì",
+          "ṣíbí",
+          "ìbọ̀sẹ̀",
+          "Tọ́ọ̀ṣì máa ń tan ìmọ́lẹ̀."
+        ],
+        [
+          "Kí la nílò láti ríran?",
+          "ìmọ́lẹ̀",
+          "ariwo",
+          "afẹ́fẹ́",
+          "Láìsí ìmọ́lẹ̀ a kò lè ríran."
+        ],
+        [
+          "Ìgbà wo ni òkùnkùn máa ń wà níta?",
+          "lóru",
+          "ní ọ̀sán gangan",
+          "ní òwúrọ̀",
+          "Lóru, oòrùn ti wọ̀."
+        ],
+        [
+          "Èwo ló ń tan ìmọ́lẹ̀ fúnra rẹ̀?",
+          "fìtílà",
+          "ìwé",
+          "àga",
+          "Fìtílà máa ń tan ìmọ́lẹ̀; ìwé àti àga kì í ṣe bẹ́ẹ̀."
+        ],
+        [
+          "Kí ni o kò gbọdọ̀ wò tààrà láéláé?",
+          "oòrùn",
+          "ìwé",
+          "igi",
+          "Oòrùn mọ́lẹ̀ tó bẹ́ẹ̀ tí ó lè ṣe ojú léṣe."
+        ],
+        [
+          "Kí la máa ń rí ní ojú ọ̀run lóru?",
+          "òṣùpá àti ìràwọ̀",
+          "oòrùn",
+          "òṣùmàrè",
+          "Lóru a máa ń rí òṣùpá àti ìràwọ̀."
+        ],
+        [
+          "Kí ló ń ṣe òjìji?",
+          "nǹkan tó dí ìmọ́lẹ̀",
+          "ariwo ńlá",
+          "omi tútù",
+          "Òjìji máa ń wà níbi tí nǹkan bá ti dí ìmọ́lẹ̀."
+        ],
+        [
+          "Kí lo máa ń tàn nínú yàrá òkùnkùn?",
+          "iná",
+          "ẹ̀rọ omi",
+          "ààrò",
+          "Títan iná ń jẹ́ ká ríran."
+        ],
+        [
+          "Kí ló ń tan ìmọ́lẹ̀ lórí kéèkì ọjọ́ ìbí?",
+          "àbẹ́là",
+          "ṣúgà aláwọ̀",
+          "ìbora ṣúgà",
+          "Àbẹ́là ní iná kékeré tó ń tan ìmọ́lẹ̀."
+        ],
+        [
+          "Ṣé ṣíbí tó ń dán jẹ́ orísun ìmọ́lẹ̀?",
+          "rárá, ó kàn ń tàn ìmọ́lẹ̀ padà ni",
+          "bẹ́ẹ̀ni, ó ń ṣe ìmọ́lẹ̀",
+          "bẹ́ẹ̀ni, lóru",
+          "Nǹkan tó ń dán máa ń da ìmọ́lẹ̀ padà ṣùgbọ́n kò ṣe é."
+        ],
+        [
+          "Kí la máa ń wọ̀ lóru kí ọkọ̀ lè rí wa?",
+          "aṣọ tó mọ́lẹ̀ tàbí tó ń tàn",
+          "aṣọ dúdú",
+          "fìlà ńlá",
+          "Aṣọ tó mọ́lẹ̀ máa ń tàn nínú iná ọkọ̀."
+        ],
+        [
+          "Kí ló ń ṣẹlẹ̀ sí òjìji rẹ tí iná bá kú?",
+          "ó ń pòórá",
+          "ó ń tóbi sí i",
+          "ó ń di àwọ̀ ewé",
+          "Tí kò bá sí ìmọ́lẹ̀, kò sí òjìji."
+        ]
+      ]
+    }
+  },
+  "emoji": "light",
+  "example": {
+    "i": 0,
+    "q_en": "What gives us light in the day?",
+    "answer_en": "the sun",
+    "why_en": "The sun lights up the day.",
+    "q_de": "Was gibt uns tagsüber Licht?",
+    "answer_de": "die Sonne",
+    "why_de": "Die Sonne macht den Tag hell.",
+    "q_fr": "Qu’est-ce qui nous éclaire le jour ?",
+    "answer_fr": "le soleil",
+    "why_fr": "Le soleil éclaire la journée.",
+    "q_yo": "Kí ló ń fún wa ní ìmọ́lẹ̀ lọ́sàn-án?",
+    "answer_yo": "oòrùn",
+    "why_yo": "Oòrùn ló ń tan ìmọ́lẹ̀ sí ọ̀sán."
+  },
+  "text": {
+    "en": {
+      "title": "Light and dark",
+      "teach": "We need light to see. Light comes from the sun, lamps and torches. When there is no light, it is dark.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Hell und dunkel",
+      "teach": "Wir brauchen Licht zum Sehen. Licht kommt von der Sonne, Lampen und Taschenlampen. Ohne Licht ist es dunkel.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "La lumière et le noir",
+      "teach": "On a besoin de lumière pour voir. Elle vient du soleil, des lampes et des lampes de poche. Sans lumière, il fait noir.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ìmọ́lẹ̀ àti òkùnkùn",
+      "teach": "A nílò ìmọ́lẹ̀ láti ríran. Ìmọ́lẹ̀ ń wá láti oòrùn, fìtílà àti tọ́ọ̀ṣì. Tí kò bá sí ìmọ́lẹ̀, òkùnkùn ni.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

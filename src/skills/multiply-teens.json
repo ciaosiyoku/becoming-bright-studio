@@ -1,0 +1,52 @@
+{
+  "id": "multiply-teens",
+  "kind": "multiply",
+  "subject": "numbers",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 28,
+  "params": {
+    "aMin": 11,
+    "aMax": 19,
+    "bMin": 2,
+    "bMax": 5
+  },
+  "emoji": "glowstar",
+  "example": {
+    "a": 13,
+    "b": 3,
+    "answer": 39,
+    "aT": 10,
+    "aO": 3,
+    "p1": 30,
+    "p2": 9
+  },
+  "text": {
+    "en": {
+      "title": "Multiplying numbers from 11 to 19",
+      "teach": "Split the bigger number into tens and ones. {a} × {b}: {aT} × {b} = {p1}, {aO} × {b} = {p2}, and {p1} + {p2} = {answer}.",
+      "prompt": "What is {a} × {b}?",
+      "reason": "{aT} × {b} = {p1} and {aO} × {b} = {p2}; {p1} + {p2} = {answer}."
+    },
+    "de": {
+      "title": "Zahlen von 11 bis 19 malnehmen",
+      "teach": "Zerlege die größere Zahl in Zehner und Einer. {a} × {b}: {aT} × {b} = {p1}, {aO} × {b} = {p2}, und {p1} + {p2} = {answer}.",
+      "prompt": "Was ist {a} × {b}?",
+      "reason": "{aT} × {b} = {p1} und {aO} × {b} = {p2}; {p1} + {p2} = {answer}."
+    },
+    "fr": {
+      "title": "Multiplier les nombres de 11 à 19",
+      "teach": "Décompose le plus grand nombre en dizaines et unités. {a} × {b} : {aT} × {b} = {p1}, {aO} × {b} = {p2}, et {p1} + {p2} = {answer}.",
+      "prompt": "Combien font {a} × {b} ?",
+      "reason": "{aT} × {b} = {p1} et {aO} × {b} = {p2} ; {p1} + {p2} = {answer}."
+    },
+    "yo": {
+      "title": "Ìsọdipúpọ̀ nọ́ńbà láti 11 dé 19",
+      "teach": "Pín nọ́ńbà tó tóbi jù sí ẹ̀wá àti ẹyọ. {a} × {b}: {aT} × {b} = {p1}, {aO} × {b} = {p2}, {p1} + {p2} = {answer}.",
+      "prompt": "Kí ni {a} × {b}?",
+      "reason": "{aT} × {b} = {p1}, {aO} × {b} = {p2}; {p1} + {p2} = {answer}."
+    }
+  }
+}

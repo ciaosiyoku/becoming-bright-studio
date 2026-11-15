@@ -1,0 +1,154 @@
+{
+  "id": "fr10-holidays",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 45,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "beach",
+      "beach",
+      "beach",
+      "beach",
+      "beach",
+      "beach",
+      "beach",
+      "beach",
+      "beach",
+      "beach",
+      "beach",
+      "beach",
+      "beach",
+      "beach",
+      "beach"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “les vacances” mean?",
+          "the holidays",
+          "the vacancies",
+          "the weekend",
+          "Les vacances are the holidays."
+        ],
+        [
+          "What does “à la plage” mean?",
+          "at the beach",
+          "at the swimming pool",
+          "at the lake",
+          "La plage is the beach."
+        ],
+        [
+          "What does “à la montagne” mean?",
+          "in the mountains",
+          "in the countryside",
+          "at the seaside",
+          "La montagne is the mountains."
+        ],
+        [
+          "What does “Je suis allé en Espagne” mean?",
+          "I went to Spain",
+          "I am going to Spain",
+          "I live in Spain",
+          "Je suis allé is the past: I went."
+        ],
+        [
+          "What does “J’ai nagé dans la mer” mean?",
+          "I swam in the sea",
+          "I will swim in the sea",
+          "I like the sea",
+          "J’ai nagé is the past: I swam."
+        ],
+        [
+          "What does “un hôtel” mean?",
+          "a hotel",
+          "a hospital",
+          "a house",
+          "Un hôtel is a hotel."
+        ],
+        [
+          "What does “faire du camping” mean?",
+          "to go camping",
+          "to go shopping",
+          "to go swimming",
+          "Faire du camping means to go camping."
+        ],
+        [
+          "What does “la valise” mean?",
+          "the suitcase",
+          "the passport",
+          "the ticket",
+          "La valise is the suitcase."
+        ],
+        [
+          "What does “le passeport” mean?",
+          "the passport",
+          "the airport",
+          "the port",
+          "Le passeport is the passport."
+        ],
+        [
+          "What does “C’était génial !” mean?",
+          "It was great!",
+          "It was boring!",
+          "It is great!",
+          "C’était means it was."
+        ],
+        [
+          "What does “C’était ennuyeux” mean?",
+          "It was boring",
+          "It was great",
+          "It was hot",
+          "Ennuyeux means boring."
+        ],
+        [
+          "What does “J’ai pris l’avion” mean?",
+          "I took the plane",
+          "I bought a plane",
+          "I saw the plane",
+          "J’ai pris means I took."
+        ],
+        [
+          "What does “à la campagne” mean?",
+          "in the countryside",
+          "in the city",
+          "at the campsite",
+          "La campagne is the countryside."
+        ],
+        [
+          "What does “un château de sable” mean?",
+          "a sandcastle",
+          "a castle of stone",
+          "a sandy beach",
+          "Sable means sand."
+        ],
+        [
+          "What does “l’été dernier” mean?",
+          "last summer",
+          "next summer",
+          "this summer",
+          "Dernier means last."
+        ]
+      ]
+    }
+  },
+  "emoji": "beach",
+  "example": {
+    "i": 0,
+    "q_en": "What does “les vacances” mean?",
+    "answer_en": "the holidays",
+    "why_en": "Les vacances are the holidays."
+  },
+  "text": {
+    "en": {
+      "title": "Holidays in French",
+      "teach": "Talking about holidays: les vacances (holidays), à la plage (at the beach), à la montagne (in the mountains), Je suis allé(e) en France (I went to France).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

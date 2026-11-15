@@ -1,0 +1,154 @@
+{
+  "id": "fr8-family-more",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 38,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl",
+      "girl"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “mon oncle” mean?",
+          "my uncle",
+          "my aunt",
+          "my cousin",
+          "L’oncle is the uncle."
+        ],
+        [
+          "What does “ma tante” mean?",
+          "my aunt",
+          "my uncle",
+          "my grandma",
+          "La tante is the aunt."
+        ],
+        [
+          "What does “mon cousin” mean?",
+          "my cousin (a boy)",
+          "my brother",
+          "my uncle",
+          "Un cousin is a boy cousin."
+        ],
+        [
+          "What does “ma cousine” mean?",
+          "my cousin (a girl)",
+          "my sister",
+          "my aunt",
+          "Une cousine is a girl cousin."
+        ],
+        [
+          "What does “mes grands-parents” mean?",
+          "my grandparents",
+          "my parents",
+          "my great-grandparents",
+          "Les grands-parents are grandparents."
+        ],
+        [
+          "What does “mon grand-père” mean?",
+          "my grandad",
+          "my dad",
+          "my uncle",
+          "Le grand-père is the grandad."
+        ],
+        [
+          "What does “ma grand-mère” mean?",
+          "my grandma",
+          "my mum",
+          "my aunt",
+          "La grand-mère is the grandma."
+        ],
+        [
+          "What does “mon demi-frère” mean?",
+          "my half-brother",
+          "my brother-in-law",
+          "my twin",
+          "Demi means half: demi-frère is half-brother."
+        ],
+        [
+          "What does “des jumeaux” mean?",
+          "twins",
+          "cousins",
+          "babies",
+          "Les jumeaux are twins."
+        ],
+        [
+          "What does “mon neveu” mean?",
+          "my nephew",
+          "my niece",
+          "my uncle",
+          "Le neveu is the nephew."
+        ],
+        [
+          "What does “ma nièce” mean?",
+          "my niece",
+          "my nephew",
+          "my aunt",
+          "La nièce is the niece."
+        ],
+        [
+          "How do you say “my aunt” in French?",
+          "ma tante",
+          "mon tante",
+          "ma oncle",
+          "Tante is feminine: ma tante."
+        ],
+        [
+          "What does “J’ai deux cousins” mean?",
+          "I have two cousins",
+          "I am two cousins",
+          "I have no cousins",
+          "J’ai means I have."
+        ],
+        [
+          "What does “Je suis fils unique” mean?",
+          "I am an only child (a boy)",
+          "I am the oldest son",
+          "I have one son",
+          "Fils unique means only son."
+        ],
+        [
+          "What does “la famille” mean?",
+          "the family",
+          "the friends",
+          "the house",
+          "La famille is the family."
+        ]
+      ]
+    }
+  },
+  "emoji": "girl",
+  "example": {
+    "i": 0,
+    "q_en": "What does “mon oncle” mean?",
+    "answer_en": "my uncle",
+    "why_en": "L’oncle is the uncle."
+  },
+  "text": {
+    "en": {
+      "title": "More family in French",
+      "teach": "More family words: l’oncle (uncle), la tante (aunt), le cousin, la cousine, les grands-parents (grandparents), le demi-frère (half-brother).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

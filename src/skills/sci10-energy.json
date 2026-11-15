@@ -1,0 +1,443 @@
+{
+  "id": "sci10-energy",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 214,
+  "params": {
+    "emojis": [
+      "battery",
+      "battery",
+      "battery",
+      "battery",
+      "battery",
+      "battery",
+      "battery",
+      "battery",
+      "battery",
+      "battery",
+      "battery",
+      "battery",
+      "battery"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What kind of energy is stored in food?",
+          "chemical energy",
+          "sound energy",
+          "light energy",
+          "Food stores chemical energy."
+        ],
+        [
+          "A moving car has…",
+          "kinetic energy",
+          "no energy",
+          "only sound energy",
+          "Kinetic energy is energy of movement."
+        ],
+        [
+          "A battery stores energy as…",
+          "chemical energy",
+          "heat energy",
+          "sound energy",
+          "Inside, chemicals react to make electricity."
+        ],
+        [
+          "A light bulb changes electrical energy mainly into…",
+          "light and heat",
+          "sound and movement",
+          "chemical energy",
+          "Bulbs give light and some heat."
+        ],
+        [
+          "A book on a high shelf has stored…",
+          "potential energy",
+          "sound energy",
+          "electrical energy",
+          "Height gives gravitational potential energy."
+        ],
+        [
+          "Which is a renewable energy source?",
+          "wind",
+          "coal",
+          "oil",
+          "Wind will not run out."
+        ],
+        [
+          "Can energy be destroyed?",
+          "no, only changed into another form",
+          "yes, when we switch off",
+          "yes, at night",
+          "Energy is always conserved."
+        ],
+        [
+          "Solar panels change light into…",
+          "electrical energy",
+          "sound energy",
+          "chemical food",
+          "Solar cells make electricity from sunlight."
+        ],
+        [
+          "Rubbing your hands together makes…",
+          "heat",
+          "light",
+          "electricity for a lamp",
+          "Friction turns movement into heat."
+        ],
+        [
+          "Coal, oil and gas are called…",
+          "fossil fuels",
+          "renewables",
+          "batteries",
+          "They formed from ancient living things."
+        ],
+        [
+          "What is the unit of energy?",
+          "the joule",
+          "the metre",
+          "the litre",
+          "Energy is measured in joules (J)."
+        ],
+        [
+          "Where does almost all energy on Earth first come from?",
+          "the sun",
+          "the moon",
+          "the oceans",
+          "Plants capture the sun’s energy and pass it on."
+        ],
+        [
+          "A stretched elastic band stores…",
+          "elastic potential energy",
+          "light energy",
+          "sound energy",
+          "Stretching stores energy that is released when let go."
+        ]
+      ],
+      "de": [
+        [
+          "Welche Energie steckt in Nahrung?",
+          "chemische Energie",
+          "Schallenergie",
+          "Lichtenergie",
+          "Nahrung speichert chemische Energie."
+        ],
+        [
+          "Ein fahrendes Auto hat…",
+          "Bewegungsenergie",
+          "keine Energie",
+          "nur Schallenergie",
+          "Bewegungsenergie heißt kinetische Energie."
+        ],
+        [
+          "Eine Batterie speichert Energie als…",
+          "chemische Energie",
+          "Wärmeenergie",
+          "Schallenergie",
+          "Chemikalien reagieren und erzeugen Strom."
+        ],
+        [
+          "Eine Glühbirne wandelt Strom vor allem um in…",
+          "Licht und Wärme",
+          "Schall und Bewegung",
+          "chemische Energie",
+          "Lampen geben Licht und etwas Wärme."
+        ],
+        [
+          "Ein Buch auf einem hohen Regal hat gespeicherte…",
+          "Lageenergie",
+          "Schallenergie",
+          "elektrische Energie",
+          "Höhe bedeutet Lageenergie."
+        ],
+        [
+          "Was ist eine erneuerbare Energiequelle?",
+          "Wind",
+          "Kohle",
+          "Öl",
+          "Wind geht nicht aus."
+        ],
+        [
+          "Kann Energie vernichtet werden?",
+          "nein, nur umgewandelt",
+          "ja, beim Ausschalten",
+          "ja, nachts",
+          "Energie bleibt immer erhalten."
+        ],
+        [
+          "Solarzellen wandeln Licht um in…",
+          "elektrische Energie",
+          "Schallenergie",
+          "Nahrung",
+          "Solarzellen machen aus Licht Strom."
+        ],
+        [
+          "Hände aneinander reiben erzeugt…",
+          "Wärme",
+          "Licht",
+          "Strom für eine Lampe",
+          "Reibung macht aus Bewegung Wärme."
+        ],
+        [
+          "Kohle, Öl und Gas heißen…",
+          "fossile Brennstoffe",
+          "erneuerbare Energien",
+          "Batterien",
+          "Sie entstanden aus uralten Lebewesen."
+        ],
+        [
+          "Was ist die Einheit der Energie?",
+          "das Joule",
+          "der Meter",
+          "der Liter",
+          "Energie misst man in Joule (J)."
+        ],
+        [
+          "Woher kommt fast alle Energie der Erde ursprünglich?",
+          "von der Sonne",
+          "vom Mond",
+          "aus den Ozeanen",
+          "Pflanzen fangen Sonnenenergie ein."
+        ],
+        [
+          "Ein gedehntes Gummiband speichert…",
+          "Spannenergie",
+          "Lichtenergie",
+          "Schallenergie",
+          "Dehnen speichert Energie, die beim Loslassen frei wird."
+        ]
+      ],
+      "fr": [
+        [
+          "Quelle énergie est stockée dans la nourriture ?",
+          "l’énergie chimique",
+          "l’énergie sonore",
+          "l’énergie lumineuse",
+          "La nourriture contient de l’énergie chimique."
+        ],
+        [
+          "Une voiture qui roule possède…",
+          "de l’énergie cinétique",
+          "aucune énergie",
+          "seulement de l’énergie sonore",
+          "L’énergie cinétique est celle du mouvement."
+        ],
+        [
+          "Une pile stocke l’énergie sous forme…",
+          "chimique",
+          "thermique",
+          "sonore",
+          "Des réactions chimiques produisent l’électricité."
+        ],
+        [
+          "Une ampoule transforme l’électricité surtout en…",
+          "lumière et chaleur",
+          "son et mouvement",
+          "énergie chimique",
+          "L’ampoule donne lumière et un peu de chaleur."
+        ],
+        [
+          "Un livre sur une haute étagère a de l’énergie…",
+          "potentielle",
+          "sonore",
+          "électrique",
+          "La hauteur donne de l’énergie potentielle."
+        ],
+        [
+          "Quelle source d’énergie est renouvelable ?",
+          "le vent",
+          "le charbon",
+          "le pétrole",
+          "Le vent ne s’épuise pas."
+        ],
+        [
+          "Peut-on détruire l’énergie ?",
+          "non, seulement la transformer",
+          "oui, en éteignant",
+          "oui, la nuit",
+          "L’énergie se conserve toujours."
+        ],
+        [
+          "Les panneaux solaires transforment la lumière en…",
+          "énergie électrique",
+          "énergie sonore",
+          "nourriture",
+          "Ils produisent de l’électricité avec le soleil."
+        ],
+        [
+          "Frotter ses mains produit…",
+          "de la chaleur",
+          "de la lumière",
+          "de l’électricité",
+          "Le frottement transforme le mouvement en chaleur."
+        ],
+        [
+          "Le charbon, le pétrole et le gaz sont des…",
+          "combustibles fossiles",
+          "énergies renouvelables",
+          "piles",
+          "Ils viennent d’êtres vivants très anciens."
+        ],
+        [
+          "Quelle est l’unité d’énergie ?",
+          "le joule",
+          "le mètre",
+          "le litre",
+          "L’énergie se mesure en joules (J)."
+        ],
+        [
+          "D’où vient au départ presque toute l’énergie sur Terre ?",
+          "du soleil",
+          "de la lune",
+          "des océans",
+          "Les plantes captent l’énergie du soleil."
+        ],
+        [
+          "Un élastique tendu stocke…",
+          "de l’énergie potentielle élastique",
+          "de l’énergie lumineuse",
+          "de l’énergie sonore",
+          "L’énergie est libérée quand on lâche."
+        ]
+      ],
+      "yo": [
+        [
+          "Irú agbára wo ló wà nínú oúnjẹ?",
+          "agbára kẹ́míkà",
+          "agbára ohùn",
+          "agbára ìmọ́lẹ̀",
+          "Oúnjẹ ní agbára kẹ́míkà nínú."
+        ],
+        [
+          "Ọkọ̀ tó ń sáré ní…",
+          "agbára ìṣípòpadà",
+          "kò ní agbára",
+          "agbára ohùn nìkan",
+          "Agbára ìṣípòpadà jẹ́ agbára ìrìn."
+        ],
+        [
+          "Bátìrì ń pa agbára mọ́ bí…",
+          "agbára kẹ́míkà",
+          "agbára ooru",
+          "agbára ohùn",
+          "Kẹ́míkà inú rẹ̀ ń ṣe iná mànàmáná."
+        ],
+        [
+          "Gílóòbù ń yí agbára iná mànàmáná padà sí…",
+          "ìmọ́lẹ̀ àti ooru",
+          "ohùn àti ìṣípòpadà",
+          "agbára kẹ́míkà",
+          "Gílóòbù ń fún wa ní ìmọ́lẹ̀ àti ooru díẹ̀."
+        ],
+        [
+          "Ìwé lórí pẹpẹ gíga ní agbára…",
+          "tí a pamọ́ (potential)",
+          "ohùn",
+          "iná mànàmáná",
+          "Gíga ń fún nǹkan ní agbára tí a pamọ́."
+        ],
+        [
+          "Èwo ni orísun agbára tí kì í tán?",
+          "afẹ́fẹ́",
+          "èédú",
+          "epo rọ̀bì",
+          "Afẹ́fẹ́ kò ní tán."
+        ],
+        [
+          "Ṣé a lè pa agbára run?",
+          "rárá, a lè yí i padà nìkan",
+          "bẹ́ẹ̀ni, nígbà tí a bá pa iná",
+          "bẹ́ẹ̀ni, lóru",
+          "Agbára kì í sọnù láéláé."
+        ],
+        [
+          "Pánẹ́lì oòrùn ń yí ìmọ́lẹ̀ padà sí…",
+          "agbára iná mànàmáná",
+          "agbára ohùn",
+          "oúnjẹ",
+          "Pánẹ́lì oòrùn ń ṣe iná mànàmáná láti ìmọ́lẹ̀."
+        ],
+        [
+          "Fífi ọwọ́ pa ara wọn ń mú…",
+          "ooru",
+          "ìmọ́lẹ̀",
+          "iná mànàmáná fún fìtílà",
+          "Ìfara-pa ń yí ìrìn padà sí ooru."
+        ],
+        [
+          "Èédú, epo rọ̀bì àti gáàsì ni à ń pè ní…",
+          "epo àtayébáyé",
+          "agbára àìlópin",
+          "bátìrì",
+          "Wọ́n wá láti ara ẹ̀dá alààyè ayé àtijọ́."
+        ],
+        [
+          "Kí ni ìwọ̀n agbára?",
+          "joule",
+          "mítà",
+          "lítà",
+          "À ń wọn agbára ní joule (J)."
+        ],
+        [
+          "Láti ibo ni ọ̀pọ̀ jù lọ agbára ayé ti kọ́kọ́ wá?",
+          "oòrùn",
+          "òṣùpá",
+          "òkun",
+          "Ewéko ń gba agbára oòrùn, wọ́n sì ń fi lé àwọn mìíràn lọ́wọ́."
+        ],
+        [
+          "Rọ́bà tí a nà ń pa…",
+          "agbára ìnà mọ́",
+          "agbára ìmọ́lẹ̀ mọ́",
+          "agbára ohùn mọ́",
+          "Nínà ń pa agbára mọ́, ó sì ń jáde nígbà tí a bá tú u sílẹ̀."
+        ]
+      ]
+    }
+  },
+  "emoji": "battery",
+  "example": {
+    "i": 0,
+    "q_en": "What kind of energy is stored in food?",
+    "answer_en": "chemical energy",
+    "why_en": "Food stores chemical energy.",
+    "q_de": "Welche Energie steckt in Nahrung?",
+    "answer_de": "chemische Energie",
+    "why_de": "Nahrung speichert chemische Energie.",
+    "q_fr": "Quelle énergie est stockée dans la nourriture ?",
+    "answer_fr": "l’énergie chimique",
+    "why_fr": "La nourriture contient de l’énergie chimique.",
+    "q_yo": "Irú agbára wo ló wà nínú oúnjẹ?",
+    "answer_yo": "agbára kẹ́míkà",
+    "why_yo": "Oúnjẹ ní agbára kẹ́míkà nínú."
+  },
+  "text": {
+    "en": {
+      "title": "Energy and its forms",
+      "teach": "Energy cannot be made or destroyed, only changed from one form to another: chemical, electrical, light, heat, sound, movement (kinetic) and stored (potential).",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Energie und ihre Formen",
+      "teach": "Energie kann nicht entstehen oder verschwinden, nur umgewandelt werden: chemisch, elektrisch, Licht, Wärme, Schall, Bewegung und gespeichert (Lageenergie).",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "L’énergie et ses formes",
+      "teach": "L’énergie ne se crée ni ne se perd, elle se transforme : chimique, électrique, lumineuse, thermique, sonore, cinétique (mouvement) et potentielle (stockée).",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Agbára àti oríṣi rẹ̀",
+      "teach": "A kò lè dá agbára, a kò sì lè pa á run, a lè yí i padà láti oríṣi kan sí òmíràn nìkan: kẹ́míkà, iná mànàmáná, ìmọ́lẹ̀, ooru, ohùn, ìṣípòpadà àti agbára tí a pamọ́.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

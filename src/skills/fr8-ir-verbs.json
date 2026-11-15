@@ -1,0 +1,154 @@
+{
+  "id": "fr8-ir-verbs",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 39,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo",
+      "memo"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Je ___ mes devoirs. (finir)",
+          "finis",
+          "finit",
+          "finissons",
+          "With je, finir becomes finis."
+        ],
+        [
+          "Tu ___ ton repas. (finir)",
+          "finis",
+          "finissez",
+          "finissent",
+          "With tu, finir becomes finis."
+        ],
+        [
+          "Il ___ le livre. (finir)",
+          "finit",
+          "finis",
+          "finissent",
+          "With il, finir becomes finit."
+        ],
+        [
+          "Nous ___ le jeu. (finir)",
+          "finissons",
+          "finissez",
+          "finit",
+          "With nous, finir becomes finissons."
+        ],
+        [
+          "Vous ___ à quelle heure ? (finir)",
+          "finissez",
+          "finissons",
+          "finis",
+          "With vous, finir becomes finissez."
+        ],
+        [
+          "Ils ___ leur travail. (finir)",
+          "finissent",
+          "finit",
+          "finissons",
+          "With ils, finir becomes finissent."
+        ],
+        [
+          "Je ___ une glace. (choisir)",
+          "choisis",
+          "choisit",
+          "choisissons",
+          "Choisir works like finir: je choisis."
+        ],
+        [
+          "Elle ___ un livre. (choisir)",
+          "choisit",
+          "choisis",
+          "choisissent",
+          "With elle: elle choisit."
+        ],
+        [
+          "Nous ___ vite. (grandir)",
+          "grandissons",
+          "grandissez",
+          "grandit",
+          "With nous: nous grandissons."
+        ],
+        [
+          "What does “finir” mean?",
+          "to finish",
+          "to find",
+          "to choose",
+          "Finir means to finish."
+        ],
+        [
+          "What does “choisir” mean?",
+          "to choose",
+          "to finish",
+          "to grow",
+          "Choisir means to choose."
+        ],
+        [
+          "What does “grandir” mean?",
+          "to grow up",
+          "to fall",
+          "to finish",
+          "Grandir means to grow (up)."
+        ],
+        [
+          "Les enfants ___ vite. (grandir)",
+          "grandissent",
+          "grandit",
+          "grandissons",
+          "With les enfants (ils): grandissent."
+        ],
+        [
+          "Tu ___ la couleur. (choisir)",
+          "choisis",
+          "choisit",
+          "choisissez",
+          "With tu: tu choisis."
+        ],
+        [
+          "What does “Je finis à quatre heures” mean?",
+          "I finish at four o’clock",
+          "I start at four o’clock",
+          "I am four years old",
+          "Je finis means I finish."
+        ]
+      ]
+    }
+  },
+  "emoji": "memo",
+  "example": {
+    "i": 0,
+    "q_en": "Je ___ mes devoirs. (finir)",
+    "answer_en": "finis",
+    "why_en": "With je, finir becomes finis."
+  },
+  "text": {
+    "en": {
+      "title": "Regular -ir verbs",
+      "teach": "Verbs like finir (to finish): je finis, tu finis, il finit, nous finissons, vous finissez, ils finissent.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "id": "sci8-skeleton",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 4,
+  "ages": [
+    "8-9"
+  ],
+  "order": 21,
+  "params": {
+    "emojis": [
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone",
+      "bone"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which bones protect your brain?",
+          "the skull",
+          "the ribs",
+          "the toes",
+          "The skull is a hard case round the brain."
+        ],
+        [
+          "What do the ribs protect?",
+          "the heart and lungs",
+          "the brain",
+          "the knees",
+          "The ribcage guards the heart and lungs."
+        ],
+        [
+          "What is the backbone also called?",
+          "the spine",
+          "the skull",
+          "the pelvis",
+          "The spine is a column of small bones."
+        ],
+        [
+          "How do muscles move bones?",
+          "they pull",
+          "they push",
+          "they melt",
+          "Muscles can only pull, never push."
+        ],
+        [
+          "Where two bones meet is called a…",
+          "joint",
+          "muscle",
+          "nerve",
+          "Joints like knees and elbows let us bend."
+        ],
+        [
+          "Which animal has no bones inside?",
+          "a jellyfish",
+          "a dog",
+          "a fish",
+          "A jellyfish is an invertebrate."
+        ],
+        [
+          "Which is the longest bone in your body?",
+          "the thigh bone",
+          "the little finger bone",
+          "the ear bone",
+          "The thigh bone (femur) is the longest."
+        ],
+        [
+          "What helps keep bones strong?",
+          "calcium and exercise",
+          "sweets and sitting still",
+          "fizzy drinks",
+          "Calcium-rich food and exercise build bones."
+        ],
+        [
+          "The muscle that pumps blood is the…",
+          "heart",
+          "tongue",
+          "stomach",
+          "The heart is a muscle that never rests."
+        ],
+        [
+          "Animals with a backbone are called…",
+          "vertebrates",
+          "invertebrates",
+          "insects",
+          "Vertebrates have a spine."
+        ],
+        [
+          "When you bend your arm, the muscle at the front…",
+          "gets shorter",
+          "gets longer",
+          "disappears",
+          "The biceps contracts and shortens to bend the arm."
+        ],
+        [
+          "About how many bones does an adult have?",
+          "206",
+          "20",
+          "2000",
+          "An adult skeleton has about 206 bones."
+        ],
+        [
+          "What would happen without a skeleton?",
+          "we could not stand up",
+          "we would run faster",
+          "nothing would change",
+          "The skeleton supports the body."
+        ]
+      ],
+      "de": [
+        [
+          "Welche Knochen schützen dein Gehirn?",
+          "der Schädel",
+          "die Rippen",
+          "die Zehen",
+          "Der Schädel umhüllt das Gehirn."
+        ],
+        [
+          "Was schützen die Rippen?",
+          "Herz und Lunge",
+          "das Gehirn",
+          "die Knie",
+          "Der Brustkorb schützt Herz und Lunge."
+        ],
+        [
+          "Wie nennt man das Rückgrat noch?",
+          "Wirbelsäule",
+          "Schädel",
+          "Becken",
+          "Die Wirbelsäule besteht aus kleinen Wirbeln."
+        ],
+        [
+          "Wie bewegen Muskeln Knochen?",
+          "sie ziehen",
+          "sie drücken",
+          "sie schmelzen",
+          "Muskeln können nur ziehen, nicht drücken."
+        ],
+        [
+          "Wo zwei Knochen sich treffen, nennt man…",
+          "Gelenk",
+          "Muskel",
+          "Nerv",
+          "Gelenke wie Knie und Ellbogen lassen uns beugen."
+        ],
+        [
+          "Welches Tier hat keine Knochen?",
+          "eine Qualle",
+          "ein Hund",
+          "ein Fisch",
+          "Die Qualle ist ein Wirbelloses."
+        ],
+        [
+          "Welcher ist der längste Knochen?",
+          "der Oberschenkelknochen",
+          "der kleine Fingerknochen",
+          "der Gehörknochen",
+          "Der Oberschenkelknochen ist der längste."
+        ],
+        [
+          "Was hält Knochen stark?",
+          "Kalzium und Bewegung",
+          "Süßes und Stillsitzen",
+          "Limonade",
+          "Kalzium und Bewegung stärken die Knochen."
+        ],
+        [
+          "Der Muskel, der Blut pumpt, ist das…",
+          "Herz",
+          "Zunge",
+          "Magen",
+          "Das Herz ist ein Muskel, der nie ruht."
+        ],
+        [
+          "Tiere mit Wirbelsäule heißen…",
+          "Wirbeltiere",
+          "Wirbellose",
+          "Insekten",
+          "Wirbeltiere haben eine Wirbelsäule."
+        ],
+        [
+          "Beim Beugen des Arms wird der vordere Muskel…",
+          "kürzer",
+          "länger",
+          "unsichtbar",
+          "Der Bizeps zieht sich zusammen."
+        ],
+        [
+          "Wie viele Knochen hat ein Erwachsener etwa?",
+          "206",
+          "20",
+          "2000",
+          "Ein Erwachsener hat etwa 206 Knochen."
+        ],
+        [
+          "Was wäre ohne Skelett?",
+          "wir könnten nicht stehen",
+          "wir wären schneller",
+          "nichts würde sich ändern",
+          "Das Skelett stützt den Körper."
+        ]
+      ],
+      "fr": [
+        [
+          "Quels os protègent ton cerveau ?",
+          "le crâne",
+          "les côtes",
+          "les orteils",
+          "Le crâne entoure le cerveau."
+        ],
+        [
+          "Que protègent les côtes ?",
+          "le cœur et les poumons",
+          "le cerveau",
+          "les genoux",
+          "La cage thoracique protège le cœur et les poumons."
+        ],
+        [
+          "Comment appelle-t-on aussi la colonne ?",
+          "la colonne vertébrale",
+          "le crâne",
+          "le bassin",
+          "La colonne vertébrale est faite de vertèbres."
+        ],
+        [
+          "Comment les muscles bougent-ils les os ?",
+          "ils tirent",
+          "ils poussent",
+          "ils fondent",
+          "Les muscles ne peuvent que tirer."
+        ],
+        [
+          "L’endroit où deux os se rejoignent s’appelle…",
+          "une articulation",
+          "un muscle",
+          "un nerf",
+          "Les articulations nous permettent de plier."
+        ],
+        [
+          "Quel animal n’a pas d’os ?",
+          "une méduse",
+          "un chien",
+          "un poisson",
+          "La méduse est un invertébré."
+        ],
+        [
+          "Quel est l’os le plus long du corps ?",
+          "le fémur",
+          "l’os du petit doigt",
+          "l’os de l’oreille",
+          "Le fémur est l’os le plus long."
+        ],
+        [
+          "Qu’est-ce qui rend les os solides ?",
+          "le calcium et le sport",
+          "les bonbons et rester assis",
+          "les sodas",
+          "Le calcium et l’exercice renforcent les os."
+        ],
+        [
+          "Le muscle qui pompe le sang est le…",
+          "cœur",
+          "la langue",
+          "l’estomac",
+          "Le cœur est un muscle qui ne se repose jamais."
+        ],
+        [
+          "Les animaux avec une colonne sont des…",
+          "vertébrés",
+          "invertébrés",
+          "insectes",
+          "Les vertébrés ont une colonne vertébrale."
+        ],
+        [
+          "Quand tu plies le bras, le muscle de devant…",
+          "raccourcit",
+          "s’allonge",
+          "disparaît",
+          "Le biceps se contracte pour plier le bras."
+        ],
+        [
+          "Combien d’os a un adulte environ ?",
+          "206",
+          "20",
+          "2000",
+          "Un adulte a environ 206 os."
+        ],
+        [
+          "Que se passerait-il sans squelette ?",
+          "on ne pourrait pas tenir debout",
+          "on courrait plus vite",
+          "rien ne changerait",
+          "Le squelette soutient le corps."
+        ]
+      ],
+      "yo": [
+        [
+          "Egungun wo ló ń dáàbò bo ọpọlọ rẹ?",
+          "agbárí",
+          "egungun ìhà",
+          "ìka ẹsẹ̀",
+          "Agbárí jẹ́ àpótí líle tó yí ọpọlọ ká."
+        ],
+        [
+          "Kí ni egungun ìhà ń dáàbò bò?",
+          "ọkàn àti ẹ̀dọ̀fóró",
+          "ọpọlọ",
+          "orúnkún",
+          "Àgọ́ ìhà ń ṣọ́ ọkàn àti ẹ̀dọ̀fóró."
+        ],
+        [
+          "Kí ni orúkọ mìíràn fún egungun ẹ̀yìn?",
+          "ọ̀pá ẹ̀yìn",
+          "agbárí",
+          "egungun ìbàdí",
+          "Ọ̀pá ẹ̀yìn jẹ́ ọ̀wọ́ egungun kéékèèké."
+        ],
+        [
+          "Báwo ni iṣan ṣe ń gbé egungun?",
+          "wọ́n ń fà á",
+          "wọ́n ń tì í",
+          "wọ́n ń yọ́",
+          "Iṣan lè fà nìkan, kò lè tì."
+        ],
+        [
+          "Ibi tí egungun méjì ti pàdé ni à ń pè ní…",
+          "oríkèé",
+          "iṣan",
+          "iṣan-ara ìmọ̀lára",
+          "Oríkèé bí orúnkún àti ìgúnpá ń jẹ́ ká tẹ̀."
+        ],
+        [
+          "Ẹranko wo ni kò ní egungun nínú?",
+          "jẹ́lífíṣì",
+          "ajá",
+          "ẹja",
+          "Jẹ́lífíṣì kò ní ọ̀pá ẹ̀yìn."
+        ],
+        [
+          "Egungun wo ló gùn jù nínú ara rẹ?",
+          "egungun itan",
+          "egungun ìka kékeré",
+          "egungun etí",
+          "Egungun itan ló gùn jù."
+        ],
+        [
+          "Kí ló ń jẹ́ kí egungun le?",
+          "kálísíọ̀mù àti eré ìdárayá",
+          "súìtì àti jíjókòó jẹ́ẹ́",
+          "ọtí ẹlẹ́rìndòdò",
+          "Oúnjẹ kálísíọ̀mù àti eré ìdárayá ń mú egungun le."
+        ],
+        [
+          "Iṣan tó ń fa ẹ̀jẹ̀ káàkiri ni…",
+          "ọkàn",
+          "ahọ́n",
+          "ikùn",
+          "Ọkàn jẹ́ iṣan tí kì í sinmi."
+        ],
+        [
+          "Ẹranko tó ní ọ̀pá ẹ̀yìn ni à ń pè ní…",
+          "ẹlẹ́gungun ẹ̀yìn",
+          "aláìlégungun ẹ̀yìn",
+          "kòkòrò",
+          "Ẹlẹ́gungun ẹ̀yìn ní ọ̀pá ẹ̀yìn."
+        ],
+        [
+          "Nígbà tí o bá tẹ apá rẹ, iṣan iwájú…",
+          "ń kúrú",
+          "ń gùn",
+          "ń pòórá",
+          "Iṣan iwájú apá ń fà mọ́ra láti tẹ apá."
+        ],
+        [
+          "Egungun mélòó ni àgbàlagbà ní ní nǹkan bí?",
+          "206",
+          "20",
+          "2000",
+          "Àgbàlagbà ní nǹkan bí egungun 206."
+        ],
+        [
+          "Kí ni yóò ṣẹlẹ̀ láìsí egungun ara?",
+          "a kò ní lè dúró",
+          "a ó sáré yára sí i",
+          "kò sí ohun tí yóò yí padà",
+          "Egungun ara ló ń gbé ara ró."
+        ]
+      ]
+    }
+  },
+  "emoji": "bone",
+  "example": {
+    "i": 0,
+    "q_en": "Which bones protect your brain?",
+    "answer_en": "the skull",
+    "why_en": "The skull is a hard case round the brain.",
+    "q_de": "Welche Knochen schützen dein Gehirn?",
+    "answer_de": "der Schädel",
+    "why_de": "Der Schädel umhüllt das Gehirn.",
+    "q_fr": "Quels os protègent ton cerveau ?",
+    "answer_fr": "le crâne",
+    "why_fr": "Le crâne entoure le cerveau.",
+    "q_yo": "Egungun wo ló ń dáàbò bo ọpọlọ rẹ?",
+    "answer_yo": "agbárí",
+    "why_yo": "Agbárí jẹ́ àpótí líle tó yí ọpọlọ ká."
+  },
+  "text": {
+    "en": {
+      "title": "Skeleton and muscles",
+      "teach": "Your skeleton holds you up, protects your organs and lets you move. Muscles pull on bones to move them, working in pairs.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Skelett und Muskeln",
+      "teach": "Dein Skelett hält dich aufrecht, schützt deine Organe und lässt dich bewegen. Muskeln ziehen an Knochen und arbeiten paarweise.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Le squelette et les muscles",
+      "teach": "Ton squelette te tient debout, protège tes organes et te permet de bouger. Les muscles tirent sur les os et travaillent par paires.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Egungun ara àti iṣan",
+      "teach": "Egungun ara rẹ ń gbé ọ dúró, ó ń dáàbò bo àwọn ẹ̀yà inú ara, ó sì ń jẹ́ kí o lè rìn. Iṣan ń fa egungun láti gbé e, wọ́n sì ń ṣiṣẹ́ ní méjìméjì.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

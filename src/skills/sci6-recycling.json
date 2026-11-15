@@ -1,0 +1,443 @@
+{
+  "id": "sci6-recycling",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 108,
+  "params": {
+    "emojis": [
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe",
+      "globe"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “recycle” mean?",
+          "make old things into new things",
+          "throw everything away",
+          "buy more",
+          "Recycling turns used materials into new things."
+        ],
+        [
+          "Which can go in the recycling?",
+          "a clean can",
+          "a banana skin",
+          "a used tissue",
+          "Clean cans can be recycled."
+        ],
+        [
+          "Where can a banana skin go?",
+          "the compost",
+          "the glass bin",
+          "the paper bin",
+          "Food scraps rot down in compost."
+        ],
+        [
+          "Which is reusing?",
+          "filling an old jar with buttons",
+          "throwing the jar away",
+          "breaking the jar",
+          "Reusing means using something again."
+        ],
+        [
+          "Which bag is best to take shopping?",
+          "a cloth bag you use again",
+          "a new plastic bag every time",
+          "no bag, throw things",
+          "A reusable bag saves plastic."
+        ],
+        [
+          "What can old newspapers be made into?",
+          "new paper",
+          "glass",
+          "metal cans",
+          "Recycled paper becomes new paper."
+        ],
+        [
+          "Why is litter bad for animals?",
+          "they can eat it or get stuck in it",
+          "it makes them faster",
+          "it keeps them warm",
+          "Animals can be hurt by rubbish."
+        ],
+        [
+          "What should you do with litter in the park?",
+          "put it in a bin",
+          "leave it on the grass",
+          "throw it in the pond",
+          "Bins keep the park clean."
+        ],
+        [
+          "Which material can be recycled again and again?",
+          "glass",
+          "a used nappy",
+          "food waste in plastic film",
+          "Glass can be melted and made new many times."
+        ],
+        [
+          "What does “reduce” mean?",
+          "use less",
+          "use more",
+          "break things",
+          "Reducing means using less of something."
+        ],
+        [
+          "Which saves electricity?",
+          "switching off lights you don’t need",
+          "leaving the TV on all night",
+          "opening the fridge for fun",
+          "Switching off saves energy."
+        ],
+        [
+          "What can a cardboard box be reused as?",
+          "a toy house",
+          "a drink",
+          "a window",
+          "Boxes make great toys and storage."
+        ],
+        [
+          "Why do we recycle?",
+          "to save materials and protect nature",
+          "to make more rubbish",
+          "to fill the bins faster",
+          "Recycling saves materials and protects nature."
+        ]
+      ],
+      "de": [
+        [
+          "Was bedeutet „recyceln“?",
+          "aus Altem Neues machen",
+          "alles wegwerfen",
+          "mehr kaufen",
+          "Beim Recyceln wird Altes zu Neuem."
+        ],
+        [
+          "Was kommt in den Recyclingmüll?",
+          "eine saubere Dose",
+          "eine Bananenschale",
+          "ein benutztes Taschentuch",
+          "Saubere Dosen kann man recyceln."
+        ],
+        [
+          "Wohin kommt eine Bananenschale?",
+          "auf den Kompost",
+          "in den Glascontainer",
+          "ins Altpapier",
+          "Essensreste verrotten im Kompost."
+        ],
+        [
+          "Was ist Wiederverwenden?",
+          "ein altes Glas mit Knöpfen füllen",
+          "das Glas wegwerfen",
+          "das Glas zerbrechen",
+          "Wiederverwenden heißt, etwas noch einmal benutzen."
+        ],
+        [
+          "Welche Tasche nimmst du am besten zum Einkaufen?",
+          "eine Stofftasche zum Wiederverwenden",
+          "jedes Mal eine neue Plastiktüte",
+          "keine Tasche",
+          "Eine Mehrwegtasche spart Plastik."
+        ],
+        [
+          "Was kann aus alten Zeitungen werden?",
+          "neues Papier",
+          "Glas",
+          "Dosen",
+          "Altpapier wird zu neuem Papier."
+        ],
+        [
+          "Warum ist Müll schlecht für Tiere?",
+          "sie können ihn fressen oder sich verfangen",
+          "er macht sie schneller",
+          "er hält sie warm",
+          "Tiere können sich an Müll verletzen."
+        ],
+        [
+          "Was machst du mit Müll im Park?",
+          "in den Mülleimer werfen",
+          "auf dem Rasen lassen",
+          "in den Teich werfen",
+          "Mülleimer halten den Park sauber."
+        ],
+        [
+          "Welches Material kann man immer wieder recyceln?",
+          "Glas",
+          "eine benutzte Windel",
+          "Essensreste in Folie",
+          "Glas kann immer wieder eingeschmolzen werden."
+        ],
+        [
+          "Was bedeutet „reduzieren“?",
+          "weniger verbrauchen",
+          "mehr verbrauchen",
+          "Dinge kaputt machen",
+          "Reduzieren heißt weniger verbrauchen."
+        ],
+        [
+          "Was spart Strom?",
+          "unnötiges Licht ausschalten",
+          "den Fernseher nachts anlassen",
+          "den Kühlschrank zum Spaß öffnen",
+          "Ausschalten spart Energie."
+        ],
+        [
+          "Wofür kann man einen Karton wiederverwenden?",
+          "als Spielhaus",
+          "als Getränk",
+          "als Fenster",
+          "Kartons werden tolle Spielsachen."
+        ],
+        [
+          "Warum recyceln wir?",
+          "um Rohstoffe zu sparen und die Natur zu schützen",
+          "um mehr Müll zu machen",
+          "damit die Tonnen schneller voll sind",
+          "Recycling spart Rohstoffe und schützt die Natur."
+        ]
+      ],
+      "fr": [
+        [
+          "Que veut dire « recycler » ?",
+          "transformer le vieux en neuf",
+          "tout jeter",
+          "acheter plus",
+          "Recycler, c’est faire du neuf avec du vieux."
+        ],
+        [
+          "Qu’est-ce qui va au recyclage ?",
+          "une canette propre",
+          "une peau de banane",
+          "un mouchoir usagé",
+          "Les canettes propres se recyclent."
+        ],
+        [
+          "Où mettre une peau de banane ?",
+          "au compost",
+          "au bac à verre",
+          "au bac à papier",
+          "Les restes de nourriture se décomposent au compost."
+        ],
+        [
+          "Qu’est-ce que réutiliser ?",
+          "remplir un vieux bocal de boutons",
+          "jeter le bocal",
+          "casser le bocal",
+          "Réutiliser, c’est utiliser encore."
+        ],
+        [
+          "Quel sac emporter pour faire les courses ?",
+          "un sac en tissu réutilisable",
+          "un nouveau sac plastique à chaque fois",
+          "pas de sac",
+          "Un sac réutilisable économise le plastique."
+        ],
+        [
+          "Que peut-on faire avec de vieux journaux ?",
+          "du papier neuf",
+          "du verre",
+          "des canettes",
+          "Le papier recyclé redevient papier."
+        ],
+        [
+          "Pourquoi les déchets sont-ils mauvais pour les animaux ?",
+          "ils peuvent les manger ou s’y coincer",
+          "ils les rendent plus rapides",
+          "ils les réchauffent",
+          "Les déchets peuvent blesser les animaux."
+        ],
+        [
+          "Que faire de ses déchets au parc ?",
+          "les mettre à la poubelle",
+          "les laisser sur l’herbe",
+          "les jeter dans la mare",
+          "La poubelle garde le parc propre."
+        ],
+        [
+          "Quelle matière peut être recyclée encore et encore ?",
+          "le verre",
+          "une couche usagée",
+          "des restes dans du film plastique",
+          "Le verre peut être refondu de nombreuses fois."
+        ],
+        [
+          "Que veut dire « réduire » ?",
+          "utiliser moins",
+          "utiliser plus",
+          "casser des choses",
+          "Réduire, c’est consommer moins."
+        ],
+        [
+          "Qu’est-ce qui économise l’électricité ?",
+          "éteindre les lumières inutiles",
+          "laisser la télé allumée la nuit",
+          "ouvrir le frigo pour s’amuser",
+          "Éteindre économise l’énergie."
+        ],
+        [
+          "À quoi peut resservir un carton ?",
+          "à une maison de jeu",
+          "à une boisson",
+          "à une fenêtre",
+          "Un carton fait un super jouet."
+        ],
+        [
+          "Pourquoi recycler ?",
+          "pour économiser les matières et protéger la nature",
+          "pour faire plus de déchets",
+          "pour remplir les poubelles plus vite",
+          "Recycler économise les matières et protège la nature."
+        ]
+      ],
+      "yo": [
+        [
+          "Kí ni “sọ di tuntun” túmọ̀ sí?",
+          "sọ nǹkan àtijọ́ di tuntun",
+          "da gbogbo nǹkan nù",
+          "ra púpọ̀ sí i",
+          "Sísọ di tuntun ń yí nǹkan tí a ti lò padà sí tuntun."
+        ],
+        [
+          "Èwo ló lè lọ sínú àpò àtúnlò?",
+          "agolo tó mọ́",
+          "èèpo ọ̀gẹ̀dẹ̀",
+          "aṣọ ìnu imú tí a ti lò",
+          "Agolo tó mọ́ ṣeé tún lò."
+        ],
+        [
+          "Níbo ni èèpo ọ̀gẹ̀dẹ̀ lè lọ?",
+          "ọ̀gbìn ìdàpọ̀",
+          "àpò dígí",
+          "àpò bébà",
+          "Àjẹkù oúnjẹ máa ń jẹrà nínú ọ̀gbìn ìdàpọ̀."
+        ],
+        [
+          "Èwo ni títún nǹkan lò?",
+          "fífi bọ́tìnnì kún ìgò àtijọ́",
+          "dída ìgò nù",
+          "fífọ́ ìgò",
+          "Títún lò túmọ̀ sí lílo nǹkan lẹ́ẹ̀kan sí i."
+        ],
+        [
+          "Àpò wo ló dára jù láti gbé lọ sí ọjà?",
+          "àpò aṣọ tí o máa tún lò",
+          "àpò ike tuntun nígbà gbogbo",
+          "kò sí àpò",
+          "Àpò tí a ń tún lò ń ṣọ́ ike."
+        ],
+        [
+          "Kí ni ìwé ìròyìn àtijọ́ lè dà?",
+          "bébà tuntun",
+          "dígí",
+          "agolo irin",
+          "Bébà tí a tún lò máa ń di bébà tuntun."
+        ],
+        [
+          "Kí ló dé tí ìdọ̀tí fi burú fún ẹranko?",
+          "wọ́n lè jẹ ẹ́ tàbí kí ó há wọn",
+          "ó ń mú wọn yára",
+          "ó ń mú wọn lọ́ wọ́ọ́rọ́",
+          "Ìdọ̀tí lè ṣe ẹranko léṣe."
+        ],
+        [
+          "Kí ló yẹ kí o ṣe pẹ̀lú ìdọ̀tí ní ọgbà ìṣeré?",
+          "jù ú sínú ìkólẹ̀",
+          "fi sílẹ̀ lórí koríko",
+          "jù ú sínú adágún",
+          "Ìkólẹ̀ ń jẹ́ kí ọgbà mọ́."
+        ],
+        [
+          "Ohun èlò wo ló ṣeé tún lò léraléra?",
+          "dígí",
+          "aṣọ ìdí ọmọ tí a ti lò",
+          "àjẹkù oúnjẹ nínú ike",
+          "A lè yọ́ dígí ká tún un ṣe lọ́pọ̀ ìgbà."
+        ],
+        [
+          "Kí ni “dínkù” túmọ̀ sí?",
+          "lílo díẹ̀",
+          "lílo púpọ̀",
+          "fífọ́ nǹkan",
+          "Dídínkù túmọ̀ sí lílo nǹkan díẹ̀."
+        ],
+        [
+          "Èwo ló ń ṣọ́ iná mànàmáná?",
+          "pípa iná tí o kò nílò",
+          "fífi tẹlifíṣọ̀n sílẹ̀ ní gbogbo òru",
+          "ṣíṣí fíríìjì fún ìgbádùn",
+          "Pípa iná ń ṣọ́ agbára."
+        ],
+        [
+          "Kí ni a lè tún àpótí páálí lò fún?",
+          "ilé ìṣeré",
+          "ohun mímu",
+          "fèrèsé",
+          "Àpótí páálí máa ń di ohun ìṣeré tó dára."
+        ],
+        [
+          "Kí ló dé tí a fi ń tún nǹkan lò?",
+          "láti ṣọ́ ohun èlò àti dáàbò bo ìṣẹ̀dá",
+          "láti ṣe ìdọ̀tí púpọ̀",
+          "kí ìkólẹ̀ lè yára kún",
+          "Àtúnlò ń ṣọ́ ohun èlò ó sì ń dáàbò bo ìṣẹ̀dá."
+        ]
+      ]
+    }
+  },
+  "emoji": "globe",
+  "example": {
+    "i": 0,
+    "q_en": "What does “recycle” mean?",
+    "answer_en": "make old things into new things",
+    "why_en": "Recycling turns used materials into new things.",
+    "q_de": "Was bedeutet „recyceln“?",
+    "answer_de": "aus Altem Neues machen",
+    "why_de": "Beim Recyceln wird Altes zu Neuem.",
+    "q_fr": "Que veut dire « recycler » ?",
+    "answer_fr": "transformer le vieux en neuf",
+    "why_fr": "Recycler, c’est faire du neuf avec du vieux.",
+    "q_yo": "Kí ni “sọ di tuntun” túmọ̀ sí?",
+    "answer_yo": "sọ nǹkan àtijọ́ di tuntun",
+    "why_yo": "Sísọ di tuntun ń yí nǹkan tí a ti lò padà sí tuntun."
+  },
+  "text": {
+    "en": {
+      "title": "Reduce, reuse, recycle",
+      "teach": "We help the planet when we use less, use things again, and recycle paper, glass, cans and plastic.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Weniger, wiederverwenden, recyceln",
+      "teach": "Wir helfen der Erde, wenn wir weniger verbrauchen, Dinge wiederverwenden und Papier, Glas, Dosen und Plastik recyceln.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Réduire, réutiliser, recycler",
+      "teach": "On aide la planète en consommant moins, en réutilisant et en recyclant papier, verre, canettes et plastique.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Dínkù, tún lò, sọ di tuntun",
+      "teach": "A ń ran ayé lọ́wọ́ tí a bá lo nǹkan díẹ̀, tí a tún nǹkan lò, tí a sì sọ bébà, dígí, agolo àti ike di tuntun.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

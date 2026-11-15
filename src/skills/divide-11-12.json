@@ -1,0 +1,48 @@
+{
+  "id": "divide-11-12",
+  "kind": "divide",
+  "subject": "numbers",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 34,
+  "params": {
+    "dMin": 11,
+    "dMax": 12,
+    "qMin": 2,
+    "qMax": 12
+  },
+  "emoji": "cake",
+  "example": {
+    "total": 120,
+    "d": 12,
+    "answer": 10
+  },
+  "text": {
+    "en": {
+      "title": "Dividing by 11 and 12",
+      "teach": "Dividing is sharing into equal groups. {total} ÷ {d} = {answer}, because {answer} × {d} = {total}.",
+      "prompt": "What is {total} ÷ {d}?",
+      "reason": "{total} ÷ {d} = {answer}, because {answer} × {d} = {total}."
+    },
+    "de": {
+      "title": "Teilen durch 11 und 12",
+      "teach": "Teilen heißt in gleiche Gruppen aufteilen. {total} ÷ {d} = {answer}, weil {answer} × {d} = {total} ist.",
+      "prompt": "Was ist {total} ÷ {d}?",
+      "reason": "{total} ÷ {d} = {answer}, weil {answer} × {d} = {total} ist."
+    },
+    "fr": {
+      "title": "Diviser par 11 et 12",
+      "teach": "Diviser, c’est partager en groupes égaux. {total} ÷ {d} = {answer}, car {answer} × {d} = {total}.",
+      "prompt": "Combien font {total} ÷ {d} ?",
+      "reason": "{total} ÷ {d} = {answer}, car {answer} × {d} = {total}."
+    },
+    "yo": {
+      "title": "Pínpín sí 11 àti 12",
+      "teach": "Pínpín túmọ̀ sí pín sí àwọn ẹgbẹ́ tó dọ́gba. {total} ÷ {d} = {answer}, nítorí {answer} × {d} = {total}.",
+      "prompt": "Kí ni {total} ÷ {d}?",
+      "reason": "{total} ÷ {d} = {answer}, nítorí {answer} × {d} = {total}."
+    }
+  }
+}

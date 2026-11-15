@@ -1,0 +1,154 @@
+{
+  "id": "fr10-imperative",
+  "kind": "bank",
+  "subject": "french",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 42,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell",
+      "bell"
+    ],
+    "bank": {
+      "en": [
+        [
+          "What does “Écoutez !” mean?",
+          "Listen!",
+          "Look!",
+          "Write!",
+          "Écouter means to listen."
+        ],
+        [
+          "What does “Regarde !” mean?",
+          "Look!",
+          "Listen!",
+          "Read!",
+          "Regarder means to look."
+        ],
+        [
+          "What does “Assieds-toi !” mean?",
+          "Sit down!",
+          "Stand up!",
+          "Be quiet!",
+          "S’asseoir means to sit down."
+        ],
+        [
+          "What does “Levez-vous !” mean?",
+          "Stand up!",
+          "Sit down!",
+          "Go away!",
+          "Se lever means to get up."
+        ],
+        [
+          "What does “Ouvrez vos livres !” mean?",
+          "Open your books!",
+          "Close your books!",
+          "Read your books!",
+          "Ouvrir means to open."
+        ],
+        [
+          "What does “Fermez la porte !” mean?",
+          "Close the door!",
+          "Open the door!",
+          "Knock on the door!",
+          "Fermer means to close."
+        ],
+        [
+          "What does “Tourne à gauche !” mean?",
+          "Turn left!",
+          "Turn right!",
+          "Go straight on!",
+          "À gauche means to the left."
+        ],
+        [
+          "What does “Va tout droit !” mean?",
+          "Go straight on!",
+          "Go back!",
+          "Turn right!",
+          "Tout droit means straight on."
+        ],
+        [
+          "How do you tell a friend “Listen!”?",
+          "Écoute !",
+          "Écoutez !",
+          "J’écoute !",
+          "To one friend, use the tu form without tu: écoute !"
+        ],
+        [
+          "How do you tell the class “Write!”?",
+          "Écrivez !",
+          "Écris !",
+          "J’écris !",
+          "To a group, use the vous form without vous: écrivez !"
+        ],
+        [
+          "What does “Ne cours pas !” mean?",
+          "Don’t run!",
+          "Run!",
+          "Walk!",
+          "Ne … pas makes it negative: don’t run."
+        ],
+        [
+          "What does “Mange tes légumes !” mean?",
+          "Eat your vegetables!",
+          "Cook your vegetables!",
+          "Buy your vegetables!",
+          "Manger means to eat."
+        ],
+        [
+          "What does “Allons-y !” mean?",
+          "Let’s go!",
+          "Go away!",
+          "Come here!",
+          "The nous form gives “let’s”: allons-y."
+        ],
+        [
+          "What does “Faites attention !” mean?",
+          "Be careful!",
+          "Pay now!",
+          "Make a list!",
+          "Faire attention means to be careful."
+        ],
+        [
+          "What does “Viens ici !” mean?",
+          "Come here!",
+          "Go there!",
+          "Look here!",
+          "Venir means to come; ici means here."
+        ]
+      ]
+    }
+  },
+  "emoji": "bell",
+  "example": {
+    "i": 0,
+    "q_en": "What does “Écoutez !” mean?",
+    "answer_en": "Listen!",
+    "why_en": "Écouter means to listen."
+  },
+  "text": {
+    "en": {
+      "title": "Giving instructions",
+      "teach": "To tell someone what to do, use the verb without the person: Écoute ! (Listen!) to a friend, Écoutez ! to a group or a grown-up.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

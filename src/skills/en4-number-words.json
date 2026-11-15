@@ -1,0 +1,154 @@
+{
+  "id": "en4-number-words",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 116,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus",
+      "abacus"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which word means 3?",
+          "three",
+          "two",
+          "five",
+          "3 is written three."
+        ],
+        [
+          "Which word means 1?",
+          "one",
+          "ten",
+          "four",
+          "1 is written one."
+        ],
+        [
+          "Which word means 5?",
+          "five",
+          "four",
+          "six",
+          "5 is written five."
+        ],
+        [
+          "Which word means 2?",
+          "two",
+          "three",
+          "one",
+          "2 is written two."
+        ],
+        [
+          "Which word means 10?",
+          "ten",
+          "one",
+          "six",
+          "10 is written ten."
+        ],
+        [
+          "Which word means 4?",
+          "four",
+          "five",
+          "seven",
+          "4 is written four."
+        ],
+        [
+          "Which word means 6?",
+          "six",
+          "nine",
+          "eight",
+          "6 is written six."
+        ],
+        [
+          "Which word means 7?",
+          "seven",
+          "six",
+          "nine",
+          "7 is written seven."
+        ],
+        [
+          "Which word means 8?",
+          "eight",
+          "three",
+          "ten",
+          "8 is written eight."
+        ],
+        [
+          "Which word means 9?",
+          "nine",
+          "six",
+          "five",
+          "9 is written nine."
+        ],
+        [
+          "How many legs does a dog have?",
+          "four",
+          "two",
+          "six",
+          "A dog has four legs."
+        ],
+        [
+          "How many eyes do you have?",
+          "two",
+          "three",
+          "one",
+          "You have two eyes."
+        ],
+        [
+          "How many fingers are on one hand?",
+          "five",
+          "four",
+          "ten",
+          "One hand has five fingers."
+        ],
+        [
+          "What comes after nine?",
+          "ten",
+          "eight",
+          "six",
+          "When we count, nine is followed by ten."
+        ],
+        [
+          "What comes before three?",
+          "two",
+          "four",
+          "five",
+          "When we count, two comes before three."
+        ]
+      ]
+    }
+  },
+  "emoji": "abacus",
+  "example": {
+    "i": 0,
+    "q_en": "Which word means 3?",
+    "answer_en": "three",
+    "why_en": "3 is written three."
+  },
+  "text": {
+    "en": {
+      "title": "Number words",
+      "teach": "Numbers have names: 1 is one, 2 is two, 3 is three, up to 10, ten.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

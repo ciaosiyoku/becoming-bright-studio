@@ -1,0 +1,38 @@
+{
+  "id": "qr-machine-minus-easy",
+  "kind": "qr-machine",
+  "subject": "quantitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 23,
+  "only": "en",
+  "params": {
+    "steps": [
+      "-1",
+      "-2"
+    ],
+    "ins": [
+      3,
+      12
+    ]
+  },
+  "emoji": "gear",
+  "example": {
+    "in": 10,
+    "step1": "-2",
+    "step2": "",
+    "machine": "−2",
+    "answer": 8,
+    "working": "10 −2 = 8"
+  },
+  "text": {
+    "en": {
+      "title": "Taking-away machines: −1 and −2",
+      "teach": "A number goes in and the machine changes it. {in} goes in, the machine does {machine}: {working}.",
+      "prompt": "{in} goes into the machine. What comes out?",
+      "reason": "{working}."
+    }
+  }
+}

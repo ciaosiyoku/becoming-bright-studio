@@ -1,0 +1,154 @@
+{
+  "id": "en10-shades-of-meaning",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 6,
+  "ages": [
+    "10-12"
+  ],
+  "order": 211,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer",
+      "thermometer"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Which word is the strongest?",
+          "furious",
+          "cross",
+          "annoyed",
+          "Furious is very, very angry: stronger than cross or annoyed."
+        ],
+        [
+          "Which word is the weakest?",
+          "warm",
+          "hot",
+          "boiling",
+          "Warm is the mildest; boiling is the strongest."
+        ],
+        [
+          "Which word is the strongest?",
+          "enormous",
+          "big",
+          "large",
+          "Enormous is bigger than big or large."
+        ],
+        [
+          "Which word is the weakest?",
+          "nibble",
+          "eat",
+          "devour",
+          "Nibble means eating in tiny bites; devour is eating greedily."
+        ],
+        [
+          "Which word is the strongest?",
+          "terrified",
+          "nervous",
+          "worried",
+          "Terrified is the strongest kind of fear."
+        ],
+        [
+          "Which word is the weakest?",
+          "chilly",
+          "cold",
+          "freezing",
+          "Chilly is only a little cold."
+        ],
+        [
+          "Which word is the strongest?",
+          "sprint",
+          "jog",
+          "walk",
+          "To sprint is to run as fast as you can."
+        ],
+        [
+          "Which word is the weakest?",
+          "glad",
+          "joyful",
+          "ecstatic",
+          "Glad is mildly happy; ecstatic is overjoyed."
+        ],
+        [
+          "Which word is the strongest?",
+          "exhausted",
+          "tired",
+          "sleepy",
+          "Exhausted means extremely tired."
+        ],
+        [
+          "Which word is the weakest?",
+          "murmur",
+          "talk",
+          "yell",
+          "A murmur is a low, quiet sound."
+        ],
+        [
+          "Which word is the strongest?",
+          "starving",
+          "hungry",
+          "peckish",
+          "Starving is the strongest way to say hungry."
+        ],
+        [
+          "Which word is the weakest?",
+          "damp",
+          "wet",
+          "soaked",
+          "Damp is only slightly wet."
+        ],
+        [
+          "Which word is the strongest?",
+          "adore",
+          "like",
+          "love",
+          "Adore is even stronger than love."
+        ],
+        [
+          "Which word is the weakest?",
+          "glance",
+          "look",
+          "stare",
+          "A glance is a quick look; a stare is long and fixed."
+        ],
+        [
+          "Which word is the strongest?",
+          "tiny",
+          "small",
+          "little",
+          "Tiny means very small."
+        ]
+      ]
+    }
+  },
+  "emoji": "thermometer",
+  "example": {
+    "i": 0,
+    "q_en": "Which word is the strongest?",
+    "answer_en": "furious",
+    "why_en": "Furious is very, very angry: stronger than cross or annoyed."
+  },
+  "text": {
+    "en": {
+      "title": "Shades of meaning",
+      "teach": "Some words are stronger than others: warm, hot, boiling. Choose the word with exactly the strength you need.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}

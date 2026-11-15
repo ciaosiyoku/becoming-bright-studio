@@ -1,0 +1,443 @@
+{
+  "id": "sci4-soft-hard",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 117,
+  "params": {
+    "emojis": [
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy",
+      "teddy"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Is a teddy soft or hard?",
+          "soft",
+          "hard",
+          "sharp",
+          "A teddy is soft and squashy."
+        ],
+        [
+          "Is a stone soft or hard?",
+          "hard",
+          "soft",
+          "fluffy",
+          "A stone is hard: you cannot squash it."
+        ],
+        [
+          "How does sandpaper feel?",
+          "rough",
+          "smooth",
+          "wet",
+          "Sandpaper is rough and scratchy."
+        ],
+        [
+          "How does a window feel?",
+          "smooth",
+          "rough",
+          "furry",
+          "Glass is smooth."
+        ],
+        [
+          "Which is softest?",
+          "a pillow",
+          "a brick",
+          "a rock",
+          "A pillow is soft to rest on."
+        ],
+        [
+          "Which is hardest?",
+          "a brick",
+          "a sponge",
+          "a feather",
+          "A brick is very hard."
+        ],
+        [
+          "What is a tree trunk’s bark like?",
+          "rough",
+          "smooth",
+          "squashy",
+          "Tree bark is rough and bumpy."
+        ],
+        [
+          "Which is squashy?",
+          "a sponge",
+          "a spoon",
+          "a plate",
+          "A sponge squashes when you squeeze it."
+        ],
+        [
+          "How does a kitten’s fur feel?",
+          "soft",
+          "rough",
+          "sharp",
+          "Kitten fur is soft."
+        ],
+        [
+          "Which is sharp?",
+          "a pin",
+          "a ball",
+          "a scarf",
+          "A pin has a sharp point. Be careful!"
+        ],
+        [
+          "What is a metal spoon like?",
+          "hard and smooth",
+          "soft and fluffy",
+          "rough and squashy",
+          "A metal spoon is hard and smooth."
+        ],
+        [
+          "Which would make the best bed for a doll?",
+          "a soft cloth",
+          "a hard stone",
+          "a rough brick",
+          "Soft cloth is comfy."
+        ],
+        [
+          "What is jelly like?",
+          "wobbly",
+          "hard",
+          "sharp",
+          "Jelly wobbles when you move it."
+        ]
+      ],
+      "de": [
+        [
+          "Ist ein Teddy weich oder hart?",
+          "weich",
+          "hart",
+          "spitz",
+          "Ein Teddy ist weich."
+        ],
+        [
+          "Ist ein Stein weich oder hart?",
+          "hart",
+          "weich",
+          "flauschig",
+          "Ein Stein ist hart."
+        ],
+        [
+          "Wie fühlt sich Schleifpapier an?",
+          "rau",
+          "glatt",
+          "nass",
+          "Schleifpapier ist rau."
+        ],
+        [
+          "Wie fühlt sich ein Fenster an?",
+          "glatt",
+          "rau",
+          "pelzig",
+          "Glas ist glatt."
+        ],
+        [
+          "Was ist am weichsten?",
+          "ein Kissen",
+          "ein Ziegelstein",
+          "ein Felsen",
+          "Ein Kissen ist weich."
+        ],
+        [
+          "Was ist am härtesten?",
+          "ein Ziegelstein",
+          "ein Schwamm",
+          "eine Feder",
+          "Ein Ziegelstein ist sehr hart."
+        ],
+        [
+          "Wie ist die Rinde eines Baumes?",
+          "rau",
+          "glatt",
+          "matschig",
+          "Baumrinde ist rau."
+        ],
+        [
+          "Was lässt sich zusammendrücken?",
+          "ein Schwamm",
+          "ein Löffel",
+          "ein Teller",
+          "Ein Schwamm lässt sich zusammendrücken."
+        ],
+        [
+          "Wie fühlt sich das Fell eines Kätzchens an?",
+          "weich",
+          "rau",
+          "spitz",
+          "Kätzchenfell ist weich."
+        ],
+        [
+          "Was ist spitz?",
+          "eine Nadel",
+          "ein Ball",
+          "ein Schal",
+          "Eine Nadel hat eine scharfe Spitze."
+        ],
+        [
+          "Wie ist ein Metalllöffel?",
+          "hart und glatt",
+          "weich und flauschig",
+          "rau und weich",
+          "Ein Metalllöffel ist hart und glatt."
+        ],
+        [
+          "Was wäre das beste Bett für eine Puppe?",
+          "ein weiches Tuch",
+          "ein harter Stein",
+          "ein rauer Ziegel",
+          "Ein weiches Tuch ist bequem."
+        ],
+        [
+          "Wie ist Wackelpudding?",
+          "wackelig",
+          "hart",
+          "spitz",
+          "Wackelpudding wackelt."
+        ]
+      ],
+      "fr": [
+        [
+          "Un nounours est-il doux ou dur ?",
+          "doux",
+          "dur",
+          "pointu",
+          "Un nounours est doux."
+        ],
+        [
+          "Une pierre est-elle douce ou dure ?",
+          "dure",
+          "douce",
+          "duveteuse",
+          "Une pierre est dure."
+        ],
+        [
+          "Comment est le papier de verre au toucher ?",
+          "rugueux",
+          "lisse",
+          "mouillé",
+          "Le papier de verre est rugueux."
+        ],
+        [
+          "Comment est une vitre au toucher ?",
+          "lisse",
+          "rugueuse",
+          "poilue",
+          "Le verre est lisse."
+        ],
+        [
+          "Qu’est-ce qui est le plus doux ?",
+          "un oreiller",
+          "une brique",
+          "un rocher",
+          "Un oreiller est doux."
+        ],
+        [
+          "Qu’est-ce qui est le plus dur ?",
+          "une brique",
+          "une éponge",
+          "une plume",
+          "Une brique est très dure."
+        ],
+        [
+          "Comment est l’écorce d’un arbre ?",
+          "rugueuse",
+          "lisse",
+          "molle",
+          "L’écorce est rugueuse."
+        ],
+        [
+          "Qu’est-ce qui s’écrase quand on le serre ?",
+          "une éponge",
+          "une cuillère",
+          "une assiette",
+          "Une éponge s’écrase quand on la serre."
+        ],
+        [
+          "Comment est le poil d’un chaton ?",
+          "doux",
+          "rugueux",
+          "pointu",
+          "Le poil d’un chaton est doux."
+        ],
+        [
+          "Qu’est-ce qui est pointu ?",
+          "une épingle",
+          "un ballon",
+          "une écharpe",
+          "Une épingle a une pointe."
+        ],
+        [
+          "Comment est une cuillère en métal ?",
+          "dure et lisse",
+          "douce et duveteuse",
+          "rugueuse et molle",
+          "Une cuillère en métal est dure et lisse."
+        ],
+        [
+          "Quel serait le meilleur lit pour une poupée ?",
+          "un tissu doux",
+          "une pierre dure",
+          "une brique rugueuse",
+          "Un tissu doux est confortable."
+        ],
+        [
+          "Comment est la gelée ?",
+          "tremblotante",
+          "dure",
+          "pointue",
+          "La gelée tremblote."
+        ]
+      ],
+      "yo": [
+        [
+          "Ṣé bẹ́ẹ̀rì rọ̀ àbí ó le?",
+          "ó rọ̀",
+          "ó le",
+          "ó mú",
+          "Bẹ́ẹ̀rì rọ̀."
+        ],
+        [
+          "Ṣé òkúta rọ̀ àbí ó le?",
+          "ó le",
+          "ó rọ̀",
+          "ó ní irun",
+          "Òkúta le, o kò lè fún un."
+        ],
+        [
+          "Báwo ni bébà iyanrìn ṣe rí lára?",
+          "ó kanra",
+          "ó dán",
+          "ó tutù",
+          "Bébà iyanrìn kanra."
+        ],
+        [
+          "Báwo ni fèrèsé dígí ṣe rí lára?",
+          "ó dán",
+          "ó kanra",
+          "ó ní irun",
+          "Dígí dán."
+        ],
+        [
+          "Èwo ló rọ̀ jù?",
+          "tìmùtìmù",
+          "bíríkì",
+          "àpáta",
+          "Tìmùtìmù rọ̀."
+        ],
+        [
+          "Èwo ló le jù?",
+          "bíríkì",
+          "kànkàn",
+          "ìyẹ́",
+          "Bíríkì le gan-an."
+        ],
+        [
+          "Báwo ni èèpo igi ṣe rí?",
+          "ó kanra",
+          "ó dán",
+          "ó rọ̀ gbọ̀ọ̀rọ̀",
+          "Èèpo igi kanra."
+        ],
+        [
+          "Èwo ló ṣeé fún pọ̀?",
+          "kànkàn",
+          "ṣíbí",
+          "àwo",
+          "Kànkàn máa ń fún pọ̀."
+        ],
+        [
+          "Báwo ni irun ọmọ ológbò ṣe rí lára?",
+          "ó rọ̀",
+          "ó kanra",
+          "ó mú",
+          "Irun ọmọ ológbò rọ̀."
+        ],
+        [
+          "Èwo ló mú?",
+          "abẹ́rẹ́ kékeré",
+          "bọ́ọ̀lù",
+          "ìborùn",
+          "Abẹ́rẹ́ kékeré ní orí mímú."
+        ],
+        [
+          "Báwo ni ṣíbí irin ṣe rí?",
+          "ó le ó sì dán",
+          "ó rọ̀ ó sì ní irun",
+          "ó kanra ó sì rọ̀",
+          "Ṣíbí irin le ó sì dán."
+        ],
+        [
+          "Èwo ló dára jù fún ibùsùn ọmọlangidi?",
+          "aṣọ rírọ̀",
+          "òkúta líle",
+          "bíríkì kíkanra",
+          "Aṣọ rírọ̀ tù ú lára."
+        ],
+        [
+          "Báwo ni jẹ́lì ṣe rí?",
+          "ó ń mì jìgìjìgì",
+          "ó le",
+          "ó mú",
+          "Jẹ́lì máa ń mì tí o bá gbé e."
+        ]
+      ]
+    }
+  },
+  "emoji": "teddy",
+  "example": {
+    "i": 0,
+    "q_en": "Is a teddy soft or hard?",
+    "answer_en": "soft",
+    "why_en": "A teddy is soft and squashy.",
+    "q_de": "Ist ein Teddy weich oder hart?",
+    "answer_de": "weich",
+    "why_de": "Ein Teddy ist weich.",
+    "q_fr": "Un nounours est-il doux ou dur ?",
+    "answer_fr": "doux",
+    "why_fr": "Un nounours est doux.",
+    "q_yo": "Ṣé bẹ́ẹ̀rì rọ̀ àbí ó le?",
+    "answer_yo": "ó rọ̀",
+    "why_yo": "Bẹ́ẹ̀rì rọ̀."
+  },
+  "text": {
+    "en": {
+      "title": "Soft and hard, rough and smooth",
+      "teach": "Things feel different when we touch them: a teddy is soft, a stone is hard, sandpaper is rough, glass is smooth.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Weich und hart, rau und glatt",
+      "teach": "Dinge fühlen sich verschieden an: Ein Teddy ist weich, ein Stein hart, Schleifpapier rau, Glas glatt.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Doux et dur, rugueux et lisse",
+      "teach": "Les objets sont différents au toucher : un nounours est doux, une pierre est dure, le papier de verre est rugueux, le verre est lisse.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Rírọ̀ àti líle, kíkanra àti dídán",
+      "teach": "Nǹkan máa ń yàtọ̀ tí a bá fọwọ́ kàn wọ́n: bẹ́ẹ̀rì rọ̀, òkúta le, bébà iyanrìn kanra, dígí dán.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

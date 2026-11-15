@@ -1,0 +1,62 @@
+{
+  "id": "ql-heights-tall",
+  "kind": "ql-compare",
+  "subject": "qualitative",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 23,
+  "only": "en",
+  "params": {
+    "lists": {
+      "height": [
+        [
+          "chick",
+          "chick"
+        ],
+        [
+          "penguin",
+          "animal-penguin"
+        ],
+        [
+          "kangaroo",
+          "animal-kangaroo"
+        ],
+        [
+          "camel",
+          "animal-camel"
+        ],
+        [
+          "giraffe",
+          "animal-giraffe"
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-giraffe",
+  "example": {
+    "rule": "height-most",
+    "list": "height",
+    "ask": "most",
+    "items": "chick|kangaroo|giraffe",
+    "order": "chick, kangaroo, giraffe",
+    "answer": "giraffe"
+  },
+  "text": {
+    "en": {
+      "title": "Tallest and shortest",
+      "teach": "Think about how tall each animal really is. From shortest to tallest: {order}. The tallest is the {answer}.",
+      "prompt": "Which is the tallest?",
+      "prompts": {
+        "height-most": "Which is the tallest?",
+        "height-least": "Which is the shortest?"
+      },
+      "reason": "In order: {order}.",
+      "reasons": {
+        "height-most": "From shortest to tallest: {order}. The tallest is {answer}.",
+        "height-least": "From shortest to tallest: {order}. The shortest is {answer}."
+      }
+    }
+  }
+}

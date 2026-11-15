@@ -3,6 +3,9 @@
   "kind": "multiply",
   "subject": "numbers",
   "stage": 7,
+  "ages": [
+    "10-12"
+  ],
   "order": 29,
   "params": {
     "aMin": 12,

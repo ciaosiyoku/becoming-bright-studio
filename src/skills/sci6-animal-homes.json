@@ -1,0 +1,443 @@
+{
+  "id": "sci6-animal-homes",
+  "kind": "bank",
+  "subject": "science",
+  "stage": 2,
+  "ages": [
+    "6-7"
+  ],
+  "order": 110,
+  "params": {
+    "emojis": [
+      "animal-owl",
+      "animal-owl",
+      "animal-owl",
+      "animal-owl",
+      "animal-owl",
+      "animal-owl",
+      "animal-owl",
+      "animal-owl",
+      "animal-owl",
+      "animal-owl",
+      "animal-owl",
+      "animal-owl",
+      "animal-owl"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Where does a camel live?",
+          "in the desert",
+          "in the sea",
+          "in the Arctic",
+          "Camels live in hot, dry deserts."
+        ],
+        [
+          "Where does a polar bear live?",
+          "in the cold Arctic",
+          "in the jungle",
+          "in the desert",
+          "Polar bears live on Arctic ice."
+        ],
+        [
+          "Where does a monkey live?",
+          "in the rainforest",
+          "in the Arctic",
+          "under the sea",
+          "Many monkeys live in rainforest trees."
+        ],
+        [
+          "Where does an octopus live?",
+          "in the sea",
+          "in a tree",
+          "in the desert",
+          "Octopuses live in the ocean."
+        ],
+        [
+          "What keeps a polar bear warm?",
+          "thick fur and fat",
+          "big ears",
+          "thin skin",
+          "Thick fur and a layer of fat keep in heat."
+        ],
+        [
+          "How does a camel cope with little water?",
+          "it can go a long time without drinking",
+          "it swims a lot",
+          "it drinks sea water",
+          "Camels can go days without water."
+        ],
+        [
+          "What is an animal’s home area called?",
+          "its habitat",
+          "its hobby",
+          "its hat",
+          "A habitat is where an animal naturally lives."
+        ],
+        [
+          "Where does a frog lay its eggs?",
+          "in a pond",
+          "in a nest in a tree",
+          "in the sand of a desert",
+          "Frogspawn is laid in ponds."
+        ],
+        [
+          "Which animal lives in a burrow under the ground?",
+          "a rabbit",
+          "an eagle",
+          "a whale",
+          "Rabbits dig burrows."
+        ],
+        [
+          "Where does a penguin live?",
+          "in cold southern places, near the sea",
+          "in hot jungles",
+          "in deserts",
+          "Many penguins live in Antarctica."
+        ],
+        [
+          "Why do fish have gills?",
+          "to breathe under water",
+          "to hear music",
+          "to walk on land",
+          "Gills take oxygen from water."
+        ],
+        [
+          "Which animal lives in the African grasslands?",
+          "a zebra",
+          "a penguin",
+          "a polar bear",
+          "Zebras live on the grassy savanna."
+        ],
+        [
+          "Where does an owl rest in the day?",
+          "in a tree or a barn",
+          "in a pond",
+          "under the sea",
+          "Owls rest in trees or barns by day and hunt at night."
+        ]
+      ],
+      "de": [
+        [
+          "Wo lebt ein Kamel?",
+          "in der Wüste",
+          "im Meer",
+          "in der Arktis",
+          "Kamele leben in heißen, trockenen Wüsten."
+        ],
+        [
+          "Wo lebt ein Eisbär?",
+          "in der kalten Arktis",
+          "im Dschungel",
+          "in der Wüste",
+          "Eisbären leben auf dem arktischen Eis."
+        ],
+        [
+          "Wo lebt ein Affe?",
+          "im Regenwald",
+          "in der Arktis",
+          "unter dem Meer",
+          "Viele Affen leben in den Bäumen des Regenwalds."
+        ],
+        [
+          "Wo lebt ein Krake?",
+          "im Meer",
+          "auf einem Baum",
+          "in der Wüste",
+          "Kraken leben im Ozean."
+        ],
+        [
+          "Was hält einen Eisbären warm?",
+          "dickes Fell und Fett",
+          "große Ohren",
+          "dünne Haut",
+          "Dickes Fell und Fett halten warm."
+        ],
+        [
+          "Wie kommt ein Kamel mit wenig Wasser aus?",
+          "es kann lange ohne Trinken auskommen",
+          "es schwimmt viel",
+          "es trinkt Meerwasser",
+          "Kamele können tagelang ohne Wasser sein."
+        ],
+        [
+          "Wie nennt man den Lebensraum eines Tieres?",
+          "Lebensraum",
+          "Hobby",
+          "Hut",
+          "Der Lebensraum ist, wo ein Tier natürlich lebt."
+        ],
+        [
+          "Wo legt ein Frosch seine Eier?",
+          "in einen Teich",
+          "in ein Nest im Baum",
+          "in den Wüstensand",
+          "Froschlaich liegt im Teich."
+        ],
+        [
+          "Welches Tier lebt in einem Bau unter der Erde?",
+          "das Kaninchen",
+          "der Adler",
+          "der Wal",
+          "Kaninchen graben Baue."
+        ],
+        [
+          "Wo lebt ein Pinguin?",
+          "in kalten Gegenden im Süden, am Meer",
+          "im heißen Dschungel",
+          "in Wüsten",
+          "Viele Pinguine leben in der Antarktis."
+        ],
+        [
+          "Wozu haben Fische Kiemen?",
+          "um unter Wasser zu atmen",
+          "um Musik zu hören",
+          "um an Land zu laufen",
+          "Kiemen holen Sauerstoff aus dem Wasser."
+        ],
+        [
+          "Welches Tier lebt in der afrikanischen Savanne?",
+          "das Zebra",
+          "der Pinguin",
+          "der Eisbär",
+          "Zebras leben in der Grassavanne."
+        ],
+        [
+          "Wo ruht eine Eule tagsüber?",
+          "in einem Baum oder einer Scheune",
+          "in einem Teich",
+          "unter dem Meer",
+          "Eulen ruhen tagsüber und jagen nachts."
+        ]
+      ],
+      "fr": [
+        [
+          "Où vit le chameau ?",
+          "dans le désert",
+          "dans la mer",
+          "dans l’Arctique",
+          "Les chameaux vivent dans les déserts chauds et secs."
+        ],
+        [
+          "Où vit l’ours polaire ?",
+          "dans l’Arctique glacé",
+          "dans la jungle",
+          "dans le désert",
+          "L’ours polaire vit sur la banquise."
+        ],
+        [
+          "Où vit le singe ?",
+          "dans la forêt tropicale",
+          "dans l’Arctique",
+          "sous la mer",
+          "Beaucoup de singes vivent dans les arbres de la forêt tropicale."
+        ],
+        [
+          "Où vit la pieuvre ?",
+          "dans la mer",
+          "dans un arbre",
+          "dans le désert",
+          "La pieuvre vit dans l’océan."
+        ],
+        [
+          "Qu’est-ce qui garde l’ours polaire au chaud ?",
+          "une fourrure épaisse et de la graisse",
+          "de grandes oreilles",
+          "une peau fine",
+          "Fourrure épaisse et graisse gardent la chaleur."
+        ],
+        [
+          "Comment le chameau supporte-t-il le manque d’eau ?",
+          "il peut rester longtemps sans boire",
+          "il nage beaucoup",
+          "il boit l’eau de mer",
+          "Le chameau peut rester des jours sans boire."
+        ],
+        [
+          "Comment appelle-t-on le milieu de vie d’un animal ?",
+          "son habitat",
+          "son passe-temps",
+          "son chapeau",
+          "L’habitat est là où vit naturellement l’animal."
+        ],
+        [
+          "Où la grenouille pond-elle ses œufs ?",
+          "dans une mare",
+          "dans un nid dans un arbre",
+          "dans le sable du désert",
+          "Le frai de grenouille est pondu dans les mares."
+        ],
+        [
+          "Quel animal vit dans un terrier sous la terre ?",
+          "le lapin",
+          "l’aigle",
+          "la baleine",
+          "Le lapin creuse des terriers."
+        ],
+        [
+          "Où vit le manchot ?",
+          "dans les régions froides du sud, près de la mer",
+          "dans la jungle chaude",
+          "dans le désert",
+          "Beaucoup de manchots vivent en Antarctique."
+        ],
+        [
+          "Pourquoi les poissons ont-ils des branchies ?",
+          "pour respirer sous l’eau",
+          "pour écouter de la musique",
+          "pour marcher sur terre",
+          "Les branchies prennent l’oxygène de l’eau."
+        ],
+        [
+          "Quel animal vit dans la savane africaine ?",
+          "le zèbre",
+          "le manchot",
+          "l’ours polaire",
+          "Les zèbres vivent dans la savane."
+        ],
+        [
+          "Où la chouette se repose-t-elle le jour ?",
+          "dans un arbre ou une grange",
+          "dans une mare",
+          "sous la mer",
+          "Les chouettes se reposent le jour et chassent la nuit."
+        ]
+      ],
+      "yo": [
+        [
+          "Níbo ni ràkúnmí ń gbé?",
+          "ní aṣálẹ̀",
+          "nínú òkun",
+          "ní ilẹ̀ òtútù Arctic",
+          "Ràkúnmí ń gbé ní aṣálẹ̀ gbígbóná tó gbẹ."
+        ],
+        [
+          "Níbo ni bíà funfun ń gbé?",
+          "ní ilẹ̀ òtútù Arctic",
+          "nínú igbó kìjikìji",
+          "ní aṣálẹ̀",
+          "Bíà funfun ń gbé lórí yìnyín Arctic."
+        ],
+        [
+          "Níbo ni ọ̀bọ ń gbé?",
+          "nínú igbó kìjikìji",
+          "ní ilẹ̀ òtútù",
+          "lábẹ́ òkun",
+          "Ọ̀pọ̀ ọ̀bọ ń gbé lórí igi igbó kìjikìji."
+        ],
+        [
+          "Níbo ni ẹja ẹlẹ́sẹ̀ mẹ́jọ ń gbé?",
+          "nínú òkun",
+          "lórí igi",
+          "ní aṣálẹ̀",
+          "Ó ń gbé inú òkun."
+        ],
+        [
+          "Kí ló ń mú bíà funfun lọ́ wọ́ọ́rọ́?",
+          "irun nípọn àti ọ̀rá",
+          "etí ńlá",
+          "awọ tínrín",
+          "Irun nípọn àti ọ̀rá ń pa ooru mọ́."
+        ],
+        [
+          "Báwo ni ràkúnmí ṣe ń farada omi díẹ̀?",
+          "ó lè pẹ́ láìmu omi",
+          "ó ń lúwẹ̀ẹ́ púpọ̀",
+          "ó ń mu omi òkun",
+          "Ràkúnmí lè lo ọjọ́ púpọ̀ láìmu omi."
+        ],
+        [
+          "Kí la ń pe agbègbè ibùgbé ẹranko?",
+          "ibùgbé rẹ̀",
+          "eré rẹ̀",
+          "fìlà rẹ̀",
+          "Ibùgbé ni ibi tí ẹranko ń gbé nípa ti ẹ̀dá."
+        ],
+        [
+          "Níbo ni àkèré ń yé ẹyin rẹ̀ sí?",
+          "nínú adágún",
+          "nínú ìtẹ́ lórí igi",
+          "nínú iyanrìn aṣálẹ̀",
+          "Àkèré ń yé ẹyin sínú adágún."
+        ],
+        [
+          "Ẹranko wo ló ń gbé inú ihò lábẹ́ ilẹ̀?",
+          "ehoro",
+          "idì",
+          "ẹja ńlá",
+          "Ehoro máa ń gbẹ́ ihò."
+        ],
+        [
+          "Níbo ni pẹ́ńgúìn ń gbé?",
+          "ní ibi òtútù gúúsù, nítòsí òkun",
+          "nínú igbó gbígbóná",
+          "ní aṣálẹ̀",
+          "Ọ̀pọ̀ pẹ́ńgúìn ń gbé ní Antarctica."
+        ],
+        [
+          "Kí ló dé tí ẹja fi ní ẹ̀mí-ẹja?",
+          "láti mí lábẹ́ omi",
+          "láti gbọ́ orin",
+          "láti rìn lórí ilẹ̀",
+          "Ẹ̀mí-ẹja ń gba oxygen láti inú omi."
+        ],
+        [
+          "Ẹranko wo ló ń gbé ní pápá koríko Áfíríkà?",
+          "abilà",
+          "pẹ́ńgúìn",
+          "bíà funfun",
+          "Abilà ń gbé ní pápá koríko."
+        ],
+        [
+          "Níbo ni òwìwí ń sinmi lọ́sàn-án?",
+          "lórí igi tàbí nínú abà",
+          "nínú adágún",
+          "lábẹ́ òkun",
+          "Òwìwí ń sinmi lọ́sàn-án ó sì ń ṣọdẹ lóru."
+        ]
+      ]
+    }
+  },
+  "emoji": "animal-owl",
+  "example": {
+    "i": 0,
+    "q_en": "Where does a camel live?",
+    "answer_en": "in the desert",
+    "why_en": "Camels live in hot, dry deserts.",
+    "q_de": "Wo lebt ein Kamel?",
+    "answer_de": "in der Wüste",
+    "why_de": "Kamele leben in heißen, trockenen Wüsten.",
+    "q_fr": "Où vit le chameau ?",
+    "answer_fr": "dans le désert",
+    "why_fr": "Les chameaux vivent dans les déserts chauds et secs.",
+    "q_yo": "Níbo ni ràkúnmí ń gbé?",
+    "answer_yo": "ní aṣálẹ̀",
+    "why_yo": "Ràkúnmí ń gbé ní aṣálẹ̀ gbígbóná tó gbẹ."
+  },
+  "text": {
+    "en": {
+      "title": "Where animals live",
+      "teach": "Animals live where they can find food, water and shelter: fish in water, camels in deserts, polar bears in the cold Arctic.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    },
+    "de": {
+      "title": "Wo Tiere leben",
+      "teach": "Tiere leben dort, wo sie Futter, Wasser und Schutz finden: Fische im Wasser, Kamele in der Wüste, Eisbären in der kalten Arktis.",
+      "prompt": "{q_de}",
+      "reason": "{why_de}"
+    },
+    "fr": {
+      "title": "Où vivent les animaux",
+      "teach": "Les animaux vivent là où ils trouvent nourriture, eau et abri : les poissons dans l’eau, les chameaux dans le désert, les ours polaires dans l’Arctique.",
+      "prompt": "{q_fr}",
+      "reason": "{why_fr}"
+    },
+    "yo": {
+      "title": "Ibi tí ẹranko ń gbé",
+      "teach": "Ẹranko ń gbé ibi tí wọ́n ti lè rí oúnjẹ, omi àti ààbò: ẹja nínú omi, ràkúnmí ní aṣálẹ̀, bíà funfun ní ilẹ̀ òtútù.",
+      "prompt": "{q_yo}",
+      "reason": "{why_yo}"
+    }
+  }
+}

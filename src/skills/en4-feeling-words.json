@@ -1,0 +1,154 @@
+{
+  "id": "en4-feeling-words",
+  "kind": "bank",
+  "subject": "words",
+  "stage": 0,
+  "ages": [
+    "4-5"
+  ],
+  "order": 115,
+  "only": "en",
+  "params": {
+    "emojis": [
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart",
+      "heart"
+    ],
+    "bank": {
+      "en": [
+        [
+          "Sam is smiling and laughing. Sam feels …",
+          "happy",
+          "sad",
+          "cross",
+          "Smiling and laughing show that Sam is happy."
+        ],
+        [
+          "Mia is crying. Mia feels …",
+          "sad",
+          "happy",
+          "sleepy",
+          "Crying often means someone is sad."
+        ],
+        [
+          "Tom stamps his feet and frowns. Tom feels …",
+          "cross",
+          "happy",
+          "sleepy",
+          "Stamping and frowning show Tom is cross."
+        ],
+        [
+          "Ada is yawning and her eyes are closing. Ada feels …",
+          "sleepy",
+          "cross",
+          "scared",
+          "Yawning and closing eyes mean Ada is sleepy."
+        ],
+        [
+          "Ben hears a loud bang in the dark and hides. Ben feels …",
+          "scared",
+          "happy",
+          "sleepy",
+          "Hiding after a loud bang in the dark shows Ben is scared."
+        ],
+        [
+          "It is Lily’s birthday tomorrow. She cannot wait! She feels …",
+          "excited",
+          "sad",
+          "sleepy",
+          "Not being able to wait means Lily is excited."
+        ],
+        [
+          "Joe gets a gold star. He feels …",
+          "proud",
+          "scared",
+          "cross",
+          "Getting a gold star makes Joe feel proud."
+        ],
+        [
+          "Zara’s friend is away and she has no one to play with. She feels …",
+          "lonely",
+          "excited",
+          "proud",
+          "Having no one to play with can make you feel lonely."
+        ],
+        [
+          "Max sees something he did not expect. His mouth is open wide. He feels …",
+          "surprised",
+          "sleepy",
+          "sad",
+          "An open mouth and wide eyes show surprise."
+        ],
+        [
+          "What can you say when a friend is sad?",
+          "Are you OK?",
+          "Go away.",
+          "I don’t care.",
+          "Asking “Are you OK?” shows you care."
+        ],
+        [
+          "What do we do when we are happy?",
+          "smile",
+          "cry",
+          "frown",
+          "We smile when we are happy."
+        ],
+        [
+          "What helps when you feel cross?",
+          "taking deep breaths",
+          "shouting at a friend",
+          "throwing toys",
+          "Taking deep breaths helps you calm down."
+        ],
+        [
+          "Ella has lost her teddy. She feels …",
+          "upset",
+          "proud",
+          "excited",
+          "Losing your teddy is upsetting."
+        ],
+        [
+          "Leo finds his lost teddy. He feels …",
+          "happy",
+          "scared",
+          "cross",
+          "Finding something you lost makes you happy."
+        ],
+        [
+          "A puppy licks Amy’s hand and she giggles. Amy feels …",
+          "happy",
+          "scared",
+          "sad",
+          "Giggling shows Amy is happy."
+        ]
+      ]
+    }
+  },
+  "emoji": "heart",
+  "example": {
+    "i": 0,
+    "q_en": "Sam is smiling and laughing. Sam feels …",
+    "answer_en": "happy",
+    "why_en": "Smiling and laughing show that Sam is happy."
+  },
+  "text": {
+    "en": {
+      "title": "How do they feel?",
+      "teach": "Faces show feelings. A smile means happy, tears mean sad, a frown can mean cross.",
+      "prompt": "{q_en}",
+      "reason": "{why_en}"
+    }
+  }
+}
