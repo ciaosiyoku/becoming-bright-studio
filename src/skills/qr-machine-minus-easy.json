@@ -2,11 +2,11 @@
   "id": "qr-machine-minus-easy",
   "kind": "qr-machine",
   "subject": "quantitative",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 15,
+  "order": 14,
   "only": "en",
   "params": {
     "steps": [

@@ -44,13 +44,45 @@
           "tadpole"
         ]
       ]
-    }
+    },
+    "avoid": [
+      "08032dd1",
+      "08186987",
+      "102895dc",
+      "117dfc96",
+      "1780f1d4",
+      "1d62c239",
+      "1fd43192",
+      "246719d4",
+      "2832408e",
+      "2c31acf6",
+      "395038ba",
+      "3d8e8b76",
+      "561e2774",
+      "7ec090a8",
+      "8e1841c7",
+      "9b408e84",
+      "9df5dd3d",
+      "a14b6025",
+      "a18601bb",
+      "a29dfe36",
+      "aa6c92b9",
+      "c072f1a5",
+      "cd7841c7",
+      "cfeecf05",
+      "dbd362dc",
+      "dd142bcd",
+      "de01b6e7",
+      "df8dd75c",
+      "e4c389d6",
+      "f495600f"
+    ]
   },
   "emoji": "speech",
   "example": {
     "rule": "young",
-    "a": "cat",
-    "b": "kitten",
+    "a": "frog",
+    "b": "tadpole",
     "c": "dog",
     "answer": "puppy"
   },

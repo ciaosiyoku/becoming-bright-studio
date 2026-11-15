@@ -6,7 +6,7 @@
   "ages": [
     "10-12"
   ],
-  "order": 50,
+  "order": 52,
   "only": "en",
   "params": {
     "rules": [
@@ -14,7 +14,7 @@
       "share",
       "unit"
     ],
-    "max": 100,
+    "max": 144,
     "names": [
       "Ada",
       "Ben",
@@ -85,19 +85,20 @@
         "pears",
         "fruit-pear"
       ]
-    ]
+    ],
+    "above": 100
   },
   "emoji": "cake",
   "example": {
     "rule": "unit",
-    "name": "Ada",
-    "thing": "lemons",
-    "emoji": "fruit-lemon",
-    "a": 3,
-    "b": 5,
-    "c": 12,
-    "answer": 20,
-    "price": 4
+    "name": "Jay",
+    "thing": "presents",
+    "emoji": "gift",
+    "a": 5,
+    "b": 7,
+    "c": 75,
+    "answer": 105,
+    "price": 15
   },
   "text": {
     "en": {

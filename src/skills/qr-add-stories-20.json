@@ -2,7 +2,7 @@
   "id": "qr-add-stories-20",
   "kind": "qr-story",
   "subject": "quantitative",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
@@ -83,17 +83,18 @@
         "pears",
         "fruit-pear"
       ]
-    ]
+    ],
+    "above": 10
   },
   "emoji": "fruit-apple",
   "example": {
     "rule": "add",
-    "name": "Sam",
-    "thing": "apples",
-    "emoji": "fruit-apple",
-    "a": 2,
-    "b": 1,
-    "answer": 3
+    "name": "Tunde",
+    "thing": "lemons",
+    "emoji": "fruit-lemon",
+    "a": 18,
+    "b": 2,
+    "answer": 20
   },
   "text": {
     "en": {

@@ -2,11 +2,11 @@
   "id": "sci4-loud-quiet",
   "kind": "bank",
   "subject": "science",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 12,
+  "order": 9,
   "params": {
     "emojis": [
       "bell",

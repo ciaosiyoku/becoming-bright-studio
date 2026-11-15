@@ -6,7 +6,7 @@
   "ages": [
     "4-5"
   ],
-  "order": 4,
+  "order": 1,
   "params": {
     "emojis": [
       "rain",
@@ -31,9 +31,7 @@
       "droplet",
       "fog",
       "cloud",
-      "sun-cloud",
       "scarf",
-      "warning",
       "sun-small-cloud",
       "snowflake",
       "sun-large-cloud",
@@ -197,25 +195,11 @@
           "Strong wind can lift a hat off your head and blow it away."
         ],
         [
-          "What tells us how hot or cold it is?",
-          "a thermometer",
-          "a spoon",
-          "a clock",
-          "A thermometer measures how warm or cold the air is."
-        ],
-        [
           "What should you wear on a cold winter day?",
           "a warm coat and hat",
           "shorts and sandals",
           "a swimsuit",
           "A warm coat and hat keep the cold out."
-        ],
-        [
-          "What should you never look straight at?",
-          "the Sun",
-          "a flower",
-          "a book",
-          "The Sun is so bright that looking at it can hurt your eyes."
         ],
         [
           "On a sunny day, what keeps the Sun out of your eyes?",
@@ -409,25 +393,11 @@
           "Starker Wind kann dir die Mütze vom Kopf wehen."
         ],
         [
-          "Was zeigt uns, wie warm oder kalt es ist?",
-          "ein Thermometer",
-          "ein Löffel",
-          "eine Uhr",
-          "Ein Thermometer misst, wie warm oder kalt die Luft ist."
-        ],
-        [
           "Was ziehst du an einem kalten Wintertag an?",
           "einen warmen Mantel und eine Mütze",
           "kurze Hosen und Sandalen",
           "einen Badeanzug",
           "Ein warmer Mantel und eine Mütze halten die Kälte ab."
-        ],
-        [
-          "Wohin solltest du nie direkt schauen?",
-          "in die Sonne",
-          "auf eine Blume",
-          "in ein Buch",
-          "Die Sonne ist so hell, dass sie deinen Augen schaden kann."
         ],
         [
           "Was schützt an einem sonnigen Tag deine Augen vor der Sonne?",
@@ -621,25 +591,11 @@
           "Un vent fort peut soulever ton chapeau et l’emporter."
         ],
         [
-          "Qu’est-ce qui nous dit s’il fait chaud ou froid ?",
-          "un thermomètre",
-          "une cuillère",
-          "une horloge",
-          "Le thermomètre mesure si l’air est chaud ou froid."
-        ],
-        [
           "Que mets-tu par une froide journée d’hiver ?",
           "un manteau chaud et un bonnet",
           "un short et des sandales",
           "un maillot de bain",
           "Un manteau chaud et un bonnet te protègent du froid."
-        ],
-        [
-          "Que ne faut-il jamais regarder en face ?",
-          "le Soleil",
-          "une fleur",
-          "un livre",
-          "Le Soleil est si fort que le regarder peut abîmer tes yeux."
         ],
         [
           "Par une journée de soleil, qu’est-ce qui protège tes yeux du soleil ?",
@@ -833,25 +789,11 @@
           "Afẹ́fẹ́ líle lè gbé fìlà kúrò lórí rẹ, kí ó sì gbé e lọ."
         ],
         [
-          "Kí ló ń sọ fún wa bí ojú ọjọ́ ṣe gbóná tàbí tutù tó?",
-          "ẹ̀rọ ìwọn ooru",
-          "ṣíbí",
-          "aago",
-          "Ẹ̀rọ ìwọn ooru ń wọn bí afẹ́fẹ́ ṣe gbóná tàbí tutù tó."
-        ],
-        [
           "Kí ló yẹ kí o wọ̀ ní ọjọ́ tí òtútù mú gan-an?",
           "ẹ̀wù òtútù àti fìlà tó móoru",
           "ṣòkòtò péńpé àti sálúbàtà",
           "aṣọ ìlúwẹ̀ẹ́",
           "Ẹ̀wù òtútù àti fìlà tó móoru kì í jẹ́ kí òtútù wọ ara rẹ."
-        ],
-        [
-          "Kí ni o kò gbọdọ̀ wò tààrà láé?",
-          "oòrùn",
-          "òdòdó",
-          "ìwé",
-          "Oòrùn mọ́lẹ̀ débi pé wíwò ó lè pa ojú rẹ lára."
         ],
         [
           "Ní ọjọ́ tí oòrùn mú, kí ló ń dáàbò bo ojú rẹ lọ́wọ́ oòrùn?",

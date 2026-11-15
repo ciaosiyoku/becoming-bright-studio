@@ -2,7 +2,7 @@
   "id": "seq-back-tens-any",
   "kind": "sequence",
   "subject": "patterns",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
@@ -14,6 +14,23 @@
     "start": [
       1,
       40
+    ],
+    "avoid": [
+      "00b6ad1c",
+      "02e193a7",
+      "2a5ddcef",
+      "32b0e75d",
+      "32f8d1f0",
+      "434ee764",
+      "53356109",
+      "6a35fa8e",
+      "811d3572",
+      "93816a0d",
+      "a78d85d9",
+      "bbbf1ebf",
+      "d13871e6",
+      "d2cbba7b",
+      "e50e7e38"
     ]
   },
   "emoji": "chart",

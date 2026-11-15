@@ -2,11 +2,11 @@
   "id": "sci4-soft-hard",
   "kind": "bank",
   "subject": "science",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 15,
+  "order": 12,
   "params": {
     "emojis": [
       "teddy",

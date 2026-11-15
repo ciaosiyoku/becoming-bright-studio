@@ -53,7 +53,7 @@
   },
   "text": {
     "en": {
-      "title": "How do they feel?",
+      "title": "How do they feel to touch?",
       "teach": "Find the one word that is true of all three. {first} and {last} are all {answer}.",
       "prompt": "Which word describes all three?",
       "reason": "{first} and {last} are all {answer}."

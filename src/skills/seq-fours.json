@@ -2,11 +2,11 @@
   "id": "seq-fours",
   "kind": "sequence",
   "subject": "patterns",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
-  "order": 26,
+  "order": 31,
   "params": {
     "steps": [
       4

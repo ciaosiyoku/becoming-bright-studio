@@ -2,7 +2,7 @@
   "id": "qr-missing-15",
   "kind": "qr-balance",
   "subject": "quantitative",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
@@ -13,7 +13,8 @@
     "ops": [
       "add",
       "sub"
-    ]
+    ],
+    "above": 10
   },
   "emoji": "abacus",
   "example": {

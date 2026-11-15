@@ -2,7 +2,7 @@
   "id": "fr6-drinks",
   "kind": "bank",
   "subject": "french",
-  "stage": 1,
+  "stage": 2,
   "ages": [
     "6-7"
   ],
@@ -10,7 +10,6 @@
   "only": "en",
   "params": {
     "emojis": [
-      "speech",
       "speech",
       "speech",
       "memo",
@@ -49,13 +48,6 @@
           "merci",
           "bonjour",
           "Please is s’il vous plaît. Merci means thank you."
-        ],
-        [
-          "What does “merci” mean?",
-          "thank you",
-          "please",
-          "hello",
-          "Merci means thank you."
         ],
         [
           "What does “Je voudrais…” mean?",

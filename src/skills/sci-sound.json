@@ -2,11 +2,11 @@
   "id": "sci-sound",
   "kind": "bank",
   "subject": "science",
-  "stage": 4,
+  "stage": 5,
   "ages": [
     "8-9"
   ],
-  "order": 40,
+  "order": 42,
   "params": {
     "emojis": [
       "bell",

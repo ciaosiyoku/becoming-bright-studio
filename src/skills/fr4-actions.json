@@ -2,11 +2,11 @@
   "id": "fr4-actions",
   "kind": "bank",
   "subject": "french",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 15,
+  "order": 13,
   "only": "en",
   "params": {
     "emojis": [

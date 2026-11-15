@@ -2,7 +2,7 @@
   "id": "fr8-questions",
   "kind": "bank",
   "subject": "french",
-  "stage": 3,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
@@ -265,7 +265,7 @@
   },
   "text": {
     "en": {
-      "title": "Question words",
+      "title": "Question words in French",
       "teach": "Question words: qui (who), que (what), où (where), quand (when), comment (how), combien (how many), pourquoi (why). Où habites-tu ?",
       "prompt": "{q_en}",
       "reason": "{why_en}"

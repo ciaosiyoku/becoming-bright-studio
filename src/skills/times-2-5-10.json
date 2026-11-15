@@ -2,16 +2,28 @@
   "id": "times-2-5-10",
   "kind": "times",
   "subject": "numbers",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
-  "order": 21,
+  "order": 27,
   "params": {
     "tables": [
       2,
       5,
       10
+    ],
+    "avoid": [
+      "2be4725f",
+      "338cf2e3",
+      "45cc2abb",
+      "7549152b",
+      "80c19493",
+      "b2d03ee0",
+      "b46b083d",
+      "d10e1729",
+      "d2244844",
+      "fec1e09a"
     ]
   },
   "emoji": "fruit-cherries",

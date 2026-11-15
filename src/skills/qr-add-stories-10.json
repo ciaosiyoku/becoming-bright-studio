@@ -2,11 +2,11 @@
   "id": "qr-add-stories-10",
   "kind": "qr-story",
   "subject": "quantitative",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 10,
+  "order": 9,
   "only": "en",
   "params": {
     "rules": [
@@ -83,17 +83,18 @@
         "pears",
         "fruit-pear"
       ]
-    ]
+    ],
+    "above": 6
   },
   "emoji": "fruit-apple",
   "example": {
     "rule": "add",
-    "name": "Sam",
-    "thing": "apples",
-    "emoji": "fruit-apple",
-    "a": 2,
+    "name": "Kemi",
+    "thing": "cakes",
+    "emoji": "cake",
+    "a": 6,
     "b": 1,
-    "answer": 3
+    "answer": 7
   },
   "text": {
     "en": {

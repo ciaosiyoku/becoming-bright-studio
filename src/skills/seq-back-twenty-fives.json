@@ -2,11 +2,11 @@
   "id": "seq-back-twenty-fives",
   "kind": "sequence",
   "subject": "patterns",
-  "stage": 6,
+  "stage": 7,
   "ages": [
     "10-12"
   ],
-  "order": 61,
+  "order": 59,
   "params": {
     "steps": [
       -25
@@ -14,6 +14,9 @@
     "start": [
       100,
       800
+    ],
+    "avoid": [
+      "18c2017c"
     ]
   },
   "emoji": "chart",

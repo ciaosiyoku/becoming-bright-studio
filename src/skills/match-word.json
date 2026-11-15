@@ -2,11 +2,11 @@
   "id": "match-word",
   "kind": "match-word",
   "subject": "words",
-  "stage": 1,
+  "stage": 2,
   "ages": [
     "6-7"
   ],
-  "order": 19,
+  "order": 21,
   "only": "en",
   "params": {
     "words": [

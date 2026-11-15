@@ -2,18 +2,19 @@
   "id": "after-50",
   "kind": "neighbour",
   "subject": "numbers",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
-  "order": 29,
+  "order": 26,
   "params": {
-    "max": 50
+    "max": 50,
+    "above": 40
   },
   "emoji": "footprints",
   "example": {
-    "n": 14,
-    "answer": 15,
+    "n": 42,
+    "answer": 43,
     "rule": "after"
   },
   "text": {

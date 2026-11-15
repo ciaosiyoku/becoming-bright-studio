@@ -2,11 +2,11 @@
   "id": "divide-small",
   "kind": "divide",
   "subject": "numbers",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
-  "order": 27,
+  "order": 30,
   "params": {
     "dMin": 2,
     "dMax": 5,

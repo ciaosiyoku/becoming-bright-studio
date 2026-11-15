@@ -33,7 +33,11 @@
           "a castle"
         ]
       ]
-    }
+    },
+    "avoid": [
+      "5b158f80",
+      "a96d9368"
+    ]
   },
   "emoji": "clock",
   "example": {

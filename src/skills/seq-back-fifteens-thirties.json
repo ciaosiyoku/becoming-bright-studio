@@ -2,11 +2,11 @@
   "id": "seq-back-fifteens-thirties",
   "kind": "sequence",
   "subject": "patterns",
-  "stage": 6,
+  "stage": 7,
   "ages": [
     "10-12"
   ],
-  "order": 64,
+  "order": 57,
   "params": {
     "steps": [
       -15,
@@ -15,6 +15,39 @@
     "start": [
       60,
       400
+    ],
+    "avoid": [
+      "009966cf",
+      "00b4df34",
+      "0e89bc72",
+      "18adb3a1",
+      "1e8efa27",
+      "20ac84a5",
+      "20fb0c4b",
+      "23be3132",
+      "2f401aac",
+      "3fd34e4a",
+      "407706f7",
+      "50f6a635",
+      "5547ec61",
+      "5750b063",
+      "6799cce8",
+      "6ab8e34e",
+      "792a5d86",
+      "7c161c63",
+      "7da8af7b",
+      "9383940d",
+      "a8e62528",
+      "b7324eea",
+      "b78d08d4",
+      "c1c217a9",
+      "cc869f44",
+      "cd69b7b8",
+      "d23e268f",
+      "d69f4e09",
+      "da49ad0e",
+      "ddb08aee",
+      "de281d52"
     ]
   },
   "emoji": "chart",

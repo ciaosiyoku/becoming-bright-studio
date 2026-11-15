@@ -6,13 +6,12 @@
   "ages": [
     "4-5"
   ],
-  "order": 3,
+  "order": 16,
   "params": {
     "emojis": [
       "snowman",
       "rain",
       "thermometer",
-      "tree",
       "cloud",
       "snowflake",
       "sun",
@@ -22,7 +21,6 @@
       "tree",
       "sun",
       "sun-rain",
-      "calendar",
       "beach",
       "storm",
       "house",
@@ -62,13 +60,6 @@
           "summer",
           "spring",
           "Winter has the shortest days and the coldest weather of the year."
-        ],
-        [
-          "In which season do many trees lose their leaves?",
-          "autumn",
-          "summer",
-          "spring",
-          "In autumn many leaves turn brown, red or yellow and fall off the trees."
         ],
         [
           "What falls from the clouds when it rains?",
@@ -132,13 +123,6 @@
           "snowflakes",
           "the stars",
           "Sunlight shines through the raindrops and splits into colours. That makes a rainbow."
-        ],
-        [
-          "Which season comes after winter?",
-          "spring",
-          "summer",
-          "autumn",
-          "After the cold winter comes spring, when days get longer and plants start to grow again."
         ],
         [
           "In which season are the days longest?",
@@ -276,13 +260,6 @@
           "Im Winter sind die Tage am kürzesten und das Wetter ist am kältesten."
         ],
         [
-          "In welcher Jahreszeit verlieren viele Bäume ihre Blätter?",
-          "im Herbst",
-          "im Sommer",
-          "im Frühling",
-          "Im Herbst werden viele Blätter braun, rot oder gelb und fallen von den Bäumen."
-        ],
-        [
           "Was fällt aus den Wolken, wenn es regnet?",
           "Wassertropfen",
           "Milchtropfen",
@@ -344,13 +321,6 @@
           "Schneeflocken",
           "die Sterne",
           "Das Sonnenlicht scheint durch die Regentropfen und teilt sich in Farben auf. So entsteht ein Regenbogen."
-        ],
-        [
-          "Welche Jahreszeit kommt nach dem Winter?",
-          "der Frühling",
-          "der Sommer",
-          "der Herbst",
-          "Nach dem kalten Winter kommt der Frühling. Die Tage werden länger und die Pflanzen wachsen wieder."
         ],
         [
           "In welcher Jahreszeit sind die Tage am längsten?",
@@ -488,13 +458,6 @@
           "En hiver, les journées sont les plus courtes et il fait le plus froid de l’année."
         ],
         [
-          "En quelle saison beaucoup d’arbres perdent-ils leurs feuilles ?",
-          "en automne",
-          "en été",
-          "au printemps",
-          "En automne, beaucoup de feuilles deviennent brunes, rouges ou jaunes, puis tombent des arbres."
-        ],
-        [
           "Qu’est-ce qui tombe des nuages quand il pleut ?",
           "des gouttes d’eau",
           "des gouttes de lait",
@@ -556,13 +519,6 @@
           "des flocons de neige",
           "les étoiles",
           "La lumière du soleil traverse les gouttes de pluie et se sépare en couleurs : c’est un arc-en-ciel."
-        ],
-        [
-          "Quelle saison vient après l’hiver ?",
-          "le printemps",
-          "l’été",
-          "l’automne",
-          "Après l’hiver froid vient le printemps : les jours rallongent et les plantes repoussent."
         ],
         [
           "En quelle saison les journées sont-elles les plus longues ?",
@@ -700,13 +656,6 @@
           "Ní ìgbà òtútù, ọjọ́ máa ń kúrú jùlọ, òtútù sì máa ń mú jùlọ nínú ọdún."
         ],
         [
-          "Ìgbà wo ni ọ̀pọ̀ igi máa ń wọ́ ewé wọn sílẹ̀?",
-          "ìgbà ìwọ́wé",
-          "ìgbà ẹ̀ẹ̀rùn",
-          "ìgbà ìrúwé",
-          "Ní ìgbà ìwọ́wé, ọ̀pọ̀ ewé máa ń di àwọ̀ ilẹ̀, pupa tàbí ìyeyè, wọ́n á sì já bọ́ láti ara igi."
-        ],
-        [
           "Kí ló ń já bọ́ láti inú ìkùukùu nígbà tí òjò bá ń rọ̀?",
           "ẹ̀kán omi",
           "ẹ̀kán wàrà",
@@ -768,13 +717,6 @@
           "òjò dídì",
           "ìràwọ̀",
           "Ìmọ́lẹ̀ oòrùn ń kọjá nínú ẹ̀kán òjò, ó sì ń pín sí àwọ̀ oríṣiríṣi. Ìyẹn ló ń dá òṣùmàrè."
-        ],
-        [
-          "Ìgbà wo ló ń tẹ̀lé ìgbà òtútù?",
-          "ìgbà ìrúwé",
-          "ìgbà ẹ̀ẹ̀rùn",
-          "ìgbà ìwọ́wé",
-          "Lẹ́yìn ìgbà òtútù ni ìgbà ìrúwé ń dé, nígbà tí ọjọ́ ń gùn sí i, tí ewéko sì ń hù padà."
         ],
         [
           "Ìgbà wo ni ọjọ́ máa ń gùn jùlọ?",

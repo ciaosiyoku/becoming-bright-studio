@@ -2,7 +2,7 @@
   "id": "percent-tricky",
   "kind": "percent",
   "subject": "numbers",
-  "stage": 6,
+  "stage": 7,
   "ages": [
     "10-12"
   ],
@@ -31,13 +31,13 @@
       "reason": "10% of {n} is {tenth}, so {p}% is {tenth} × {p} ÷ 10 = {answer}."
     },
     "de": {
-      "title": "Schwierigere Prozente",
+      "title": "Knifflige Prozente",
       "teach": "Prozent heißt von hundert. 10 % von {n} sind {tenth}, also sind {p} % von {n} {tenth} × {p} ÷ 10 = {answer}.",
       "prompt": "Was sind {p} % von {n}?",
       "reason": "10 % von {n} sind {tenth}, also sind {p} % {tenth} × {p} ÷ 10 = {answer}."
     },
     "fr": {
-      "title": "Pourcentages plus difficiles",
+      "title": "Pourcentages astucieux",
       "teach": "Pour cent veut dire sur 100. 10 % de {n}, c’est {tenth}, donc {p} % de {n}, c’est {tenth} × {p} ÷ 10 = {answer}.",
       "prompt": "Combien font {p} % de {n} ?",
       "reason": "10 % de {n}, c’est {tenth}, donc {p} %, c’est {tenth} × {p} ÷ 10 = {answer}."

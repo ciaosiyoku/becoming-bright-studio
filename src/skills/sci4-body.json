@@ -2,11 +2,11 @@
   "id": "sci4-body",
   "kind": "bank",
   "subject": "science",
-  "stage": 0,
+  "stage": 2,
   "ages": [
     "6-7"
   ],
-  "order": 21,
+  "order": 17,
   "params": {
     "emojis": [
       "footprints",
@@ -14,8 +14,6 @@
       "fruit-apple",
       "girl",
       "fog",
-      "ribbon",
-      "gloves",
       "deer",
       "backpack",
       "bone",
@@ -76,20 +74,6 @@
           "sand",
           "juice",
           "When you breathe, air goes in and out through your nose and mouth."
-        ],
-        [
-          "What grows on top of your head?",
-          "hair",
-          "leaves",
-          "feathers",
-          "Hair grows on your head. It keeps growing, so it needs a cut now and then."
-        ],
-        [
-          "How many fingers are on one hand?",
-          "five",
-          "two",
-          "ten",
-          "One hand has five fingers: four fingers and a thumb."
         ],
         [
           "A deer has four legs. How many legs do you have?",
@@ -290,20 +274,6 @@
           "Beim Atmen geht Luft durch Nase und Mund hinein und hinaus."
         ],
         [
-          "Was wächst oben auf deinem Kopf?",
-          "Haare",
-          "Blätter",
-          "Federn",
-          "Auf deinem Kopf wachsen Haare. Sie wachsen immer weiter, darum schneidet man sie ab und zu."
-        ],
-        [
-          "Wie viele Finger hat eine Hand?",
-          "fünf",
-          "zwei",
-          "zehn",
-          "Eine Hand hat fünf Finger: vier Finger und einen Daumen."
-        ],
-        [
           "Ein Reh hat vier Beine. Wie viele Beine hast du?",
           "zwei",
           "vier",
@@ -502,20 +472,6 @@
           "Quand tu respires, l’air entre et sort par ton nez et ta bouche."
         ],
         [
-          "Qu’est-ce qui pousse sur ta tête ?",
-          "des cheveux",
-          "des feuilles",
-          "des plumes",
-          "Des cheveux poussent sur ta tête. Ils poussent sans arrêt, alors on les coupe de temps en temps."
-        ],
-        [
-          "Combien de doigts as-tu sur une main ?",
-          "cinq",
-          "deux",
-          "dix",
-          "Une main a cinq doigts : quatre doigts et un pouce."
-        ],
-        [
           "Un cerf a quatre pattes. Combien de jambes as-tu ?",
           "deux",
           "quatre",
@@ -712,20 +668,6 @@
           "iyanrìn",
           "omi èso",
           "Nígbà tí o bá ń mí, afẹ́fẹ́ ń wọlé, ó sì ń jáde láti imú àti ẹnu rẹ."
-        ],
-        [
-          "Kí ló ń hù lórí rẹ?",
-          "irun",
-          "ewé",
-          "ìyẹ́",
-          "Irun ń hù lórí rẹ. Ó ń gùn sí i ṣáá, nítorí náà a máa ń gẹ̀ ẹ́ nígbà mìíràn."
-        ],
-        [
-          "Ìka mélòó ló wà ní ọwọ́ kan?",
-          "márùn-ún",
-          "méjì",
-          "mẹ́wàá",
-          "Ọwọ́ kan ní ìka márùn-ún: ìka mẹ́rin àti àtàǹpàkò kan."
         ],
         [
           "Àgbọ̀nrín ní ẹsẹ̀ mẹ́rin. Ẹsẹ̀ mélòó ni ìwọ ní?",

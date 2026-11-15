@@ -128,11 +128,43 @@ export function teachCard(def: SkillDef, lang: Lang = 'en'): Pick<Item, 'visual'
 }
 
 /** A fresh question for a skill. */
-export function makeItem(def: SkillDef, r: Random = Math.random, lang: Lang = 'en'): Item {
+function makeOne(def: SkillDef, r: Random, lang: Lang): Item {
   if (!isCalc(def.kind)) return MAKERS[def.kind](def, r)
   const calc = BUILT[def.kind]
   const values = calc.pick(def, r)
   return { values, ...calc.build(def, values, r, lang) }
+}
+
+// A skill's own questions: params.avoid lists the questions that an easier skill of the same subject already asks (a
+// short hash of each one's key), so each skill, and each age range, has questions of its own.
+// Number stories (params.avoidNumbers) compare their numbers only, so a new name or thing is not a new question.
+const numbersKey = (item: Item) => JSON.stringify(Object.fromEntries(Object.entries(item.values).filter(([k, v]) => k === 'rule' || /^-?[0-9.]+$/.test(String(v))).sort(([a], [b]) => a.localeCompare(b))))
+/** FNV-1a, 32 bits, as 8 hex digits. */
+export const shortHash = (text: string) => {
+  let h = 0x811c9dc5
+  for (let i = 0; i < text.length; i++) h = Math.imul(h ^ text.charCodeAt(i), 0x01000193)
+  return (h >>> 0).toString(16).padStart(8, '0')
+}
+/** The hash params.avoid holds for a question of this skill. */
+export const avoidKey = (def: SkillDef, item: Item) => shortHash(def.params.avoidNumbers ? numbersKey(item) : itemKey(item))
+const AVOID = new WeakMap<SkillDef, Set<string>>()
+const avoidOf = (def: SkillDef) => {
+  let set = AVOID.get(def)
+  if (!set) AVOID.set(def, (set = new Set((def.params.avoid as string[] | undefined) ?? [])))
+  return set
+}
+
+/** The biggest number in a question. */
+const biggest = (item: Item) => Math.max(...Object.values(item.values).filter((v) => /^-?[0-9.]+$/.test(String(v))).map(Number))
+
+export function makeItem(def: SkillDef, r: Random = Math.random, lang: Lang = 'en'): Item {
+  const avoid = avoidOf(def)
+  // params.above: the easier skill before this one goes up to that number, so this one always goes past it.
+  const above = def.params.above == null ? null : Number(def.params.above)
+  const easier = (item: Item) => (above !== null && biggest(item) <= above) || (avoid.size > 0 && avoid.has(avoidKey(def, item)))
+  let item = makeOne(def, r, lang)
+  for (let tries = 0; easier(item) && tries < 400; tries++) item = makeOne(def, r, lang)
+  return item
 }
 
 /** The same question is the same values (the order of the buttons does not matter). */

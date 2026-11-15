@@ -2,11 +2,11 @@
   "id": "qr-machine-double",
   "kind": "qr-machine",
   "subject": "quantitative",
-  "stage": 2,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 37,
+  "order": 35,
   "only": "en",
   "params": {
     "steps": [
@@ -17,16 +17,30 @@
     "ins": [
       1,
       12
+    ],
+    "avoid": [
+      "050995f8",
+      "0c2e39a2",
+      "0f781fda",
+      "1db5a8e2",
+      "1eb5a37e",
+      "1ebc5fe6",
+      "21d2bcaa",
+      "4c20cf16",
+      "5a097b04",
+      "a6b0c1ee",
+      "dfe7f37e",
+      "e5615f60"
     ]
   },
   "emoji": "gear",
   "example": {
-    "in": 2,
-    "step1": "x2",
+    "in": 8,
+    "step1": "x10",
     "step2": "",
-    "machine": "×2",
-    "answer": 4,
-    "working": "2 ×2 = 4"
+    "machine": "×10",
+    "answer": 80,
+    "working": "8 ×10 = 80"
   },
   "text": {
     "en": {

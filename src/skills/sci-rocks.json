@@ -2,11 +2,11 @@
   "id": "sci-rocks",
   "kind": "bank",
   "subject": "science",
-  "stage": 3,
+  "stage": 5,
   "ages": [
     "8-9"
   ],
-  "order": 43,
+  "order": 41,
   "params": {
     "emojis": [
       "bone",

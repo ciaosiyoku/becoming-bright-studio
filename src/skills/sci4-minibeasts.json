@@ -2,11 +2,11 @@
   "id": "sci4-minibeasts",
   "kind": "bank",
   "subject": "science",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 16,
+  "order": 13,
   "params": {
     "emojis": [
       "animal-lady-beetle",

@@ -2,11 +2,11 @@
   "id": "sci4-push-pull",
   "kind": "bank",
   "subject": "science",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 13,
+  "order": 10,
   "params": {
     "emojis": [
       "gear",

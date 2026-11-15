@@ -40,7 +40,7 @@ unlocks after a moment. Nothing moves on by itself, so red never means "go faste
 
 **512 skills for ages 4 to 12, and the child chooses.** A grown-up gives each child an age; the child sees the
 skills for their age range (4–5, 6–7, 8–9, 10–12), picks a subject, then a skill on that subject's path of
-stepping stones. **Continue** on the Learn tab goes straight back to the skill they were learning. Every subject has **at least 300 different questions per age range** and **16 skills of its own in every age range** (64 per subject, none shared between ranges; tests check both).
+stepping stones. **Continue** on the Learn tab goes straight back to the skill they were learning. Every subject has **at least 300 different questions per age range** and **16 skills of its own in every age range** (64 per subject, none shared between ranges), in order from easiest to hardest, and no age range asks a question a younger range already asks (tests check all of this).
 
 - **Maths (32):** counting; adding and taking away within 5, 10, 20, 100 and 1000; one more and one less; tens
   and ones; times tables; hours, minutes and seconds; place value; rounding; dividing; multiplying; fractions;

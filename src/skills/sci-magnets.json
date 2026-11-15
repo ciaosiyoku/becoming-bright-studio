@@ -2,11 +2,11 @@
   "id": "sci-magnets",
   "kind": "bank",
   "subject": "science",
-  "stage": 3,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 37,
+  "order": 38,
   "params": {
     "emojis": [
       "magnet",

@@ -2,7 +2,7 @@
   "id": "fr10-time-words",
   "kind": "bank",
   "subject": "french",
-  "stage": 6,
+  "stage": 7,
   "ages": [
     "10-12"
   ],
@@ -22,26 +22,10 @@
       "clock",
       "clock",
       "clock",
-      "clock",
-      "clock",
       "clock"
     ],
     "bank": {
       "en": [
-        [
-          "What does “hier” mean?",
-          "yesterday",
-          "today",
-          "tomorrow",
-          "Hier means yesterday."
-        ],
-        [
-          "What does “aujourd’hui” mean?",
-          "today",
-          "tomorrow",
-          "yesterday",
-          "Aujourd’hui means today."
-        ],
         [
           "What does “demain” mean?",
           "tomorrow",
@@ -139,9 +123,9 @@
   "emoji": "clock",
   "example": {
     "i": 0,
-    "q_en": "What does “hier” mean?",
-    "answer_en": "yesterday",
-    "why_en": "Hier means yesterday."
+    "q_en": "What does “demain” mean?",
+    "answer_en": "tomorrow",
+    "why_en": "Demain means tomorrow."
   },
   "text": {
     "en": {

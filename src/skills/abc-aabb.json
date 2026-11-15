@@ -2,11 +2,11 @@
   "id": "abc-aabb",
   "kind": "picture-pattern",
   "subject": "patterns",
-  "stage": 1,
+  "stage": 2,
   "ages": [
     "6-7"
   ],
-  "order": 18,
+  "order": 19,
   "params": {
     "rules": [
       "ABC",

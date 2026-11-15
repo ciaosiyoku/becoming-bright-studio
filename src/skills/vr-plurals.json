@@ -2,11 +2,11 @@
   "id": "vr-plurals",
   "kind": "vr-analogy",
   "subject": "verbal",
-  "stage": 2,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 35,
+  "order": 33,
   "only": "en",
   "params": {
     "relations": {

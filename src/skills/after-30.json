@@ -6,14 +6,15 @@
   "ages": [
     "6-7"
   ],
-  "order": 28,
+  "order": 23,
   "params": {
-    "max": 30
+    "max": 30,
+    "above": 20
   },
   "emoji": "footprints",
   "example": {
-    "n": 5,
-    "answer": 6,
+    "n": 29,
+    "answer": 30,
     "rule": "after"
   },
   "text": {

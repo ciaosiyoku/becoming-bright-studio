@@ -2,7 +2,7 @@
   "id": "sci-plants",
   "kind": "bank",
   "subject": "science",
-  "stage": 2,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
@@ -16,11 +16,9 @@
       "fruit-cherries",
       "animal-honeybee",
       "moon",
-      "fruit-apple",
       "tree",
       "animal-butterfly",
       "seedling",
-      "droplet",
       "seedling",
       "sun",
       "snow",
@@ -92,13 +90,6 @@
           "Without light, leaves cannot make food. The plant goes yellow and weak."
         ],
         [
-          "Where are the seeds of an apple?",
-          "inside the fruit",
-          "in the roots",
-          "under the leaves",
-          "The seeds are in the middle of the apple. The fruit grows around them to protect them."
-        ],
-        [
           "A tree trunk is which part of the plant?",
           "its stem",
           "its root",
@@ -118,13 +109,6 @@
           "a pebble",
           "a button",
           "A bean is a seed. Plant it in damp soil and a new bean plant will grow from it."
-        ],
-        [
-          "What does a seed need to start growing?",
-          "water and warmth",
-          "sweets and juice",
-          "loud music",
-          "When a seed is wet and warm, it wakes up. A tiny root and shoot start to grow out of it."
         ],
         [
           "Which way do roots grow?",
@@ -304,13 +288,6 @@
           "Ohne Licht können die Blätter keine Nahrung machen. Die Pflanze wird gelb und schwach."
         ],
         [
-          "Wo sind die Samen eines Apfels?",
-          "in der Frucht",
-          "in den Wurzeln",
-          "unter den Blättern",
-          "Die Kerne sind in der Mitte des Apfels. Die Frucht wächst um sie herum und schützt sie."
-        ],
-        [
           "Welcher Teil der Pflanze ist ein Baumstamm?",
           "ihr Stängel",
           "ihre Wurzel",
@@ -330,13 +307,6 @@
           "ein Kieselstein",
           "ein Knopf",
           "Eine Bohne ist ein Samen. Steckt man sie in feuchte Erde, wächst daraus eine neue Bohnenpflanze."
-        ],
-        [
-          "Was braucht ein Samen, damit er zu keimen beginnt?",
-          "Wasser und Wärme",
-          "Bonbons und Saft",
-          "laute Musik",
-          "Wenn ein Samen nass und warm ist, wacht er auf. Eine winzige Wurzel und ein Trieb wachsen heraus."
         ],
         [
           "In welche Richtung wachsen Wurzeln?",
@@ -516,13 +486,6 @@
           "Sans lumière, les feuilles ne peuvent pas fabriquer de nourriture. La plante jaunit et s’affaiblit."
         ],
         [
-          "Où sont les graines d’une pomme ?",
-          "dans le fruit",
-          "dans les racines",
-          "sous les feuilles",
-          "Les pépins sont au cœur de la pomme. Le fruit pousse autour d’eux pour les protéger."
-        ],
-        [
           "Le tronc d’un arbre, c’est quelle partie de la plante ?",
           "sa tige",
           "sa racine",
@@ -542,13 +505,6 @@
           "un caillou",
           "un bouton",
           "Le haricot est une graine. Mis dans de la terre humide, il donne une nouvelle plante de haricot."
-        ],
-        [
-          "De quoi une graine a-t-elle besoin pour commencer à pousser ?",
-          "d’eau et de chaleur",
-          "de bonbons et de jus",
-          "de musique forte",
-          "Quand la graine est mouillée et au chaud, elle se réveille. Une petite racine et une petite tige en sortent."
         ],
         [
           "Dans quel sens poussent les racines ?",
@@ -728,13 +684,6 @@
           "Láìsí ìmọ́lẹ̀, ewé kò lè ṣe oúnjẹ. Ewéko náà máa pọ́n, kò sì ní lágbára."
         ],
         [
-          "Ibo ni irúgbìn ápù wà?",
-          "nínú èso náà",
-          "nínú gbòǹgbò",
-          "lábẹ́ ewé",
-          "Irúgbìn wà ní àárín ápù. Èso náà ń dàgbà yí wọn ká láti dáàbò bò wọ́n."
-        ],
-        [
           "Apá wo nínú ewéko ni ìtì igi jẹ́?",
           "igi ewéko rẹ̀",
           "gbòǹgbò rẹ̀",
@@ -754,13 +703,6 @@
           "òkúta wẹ́wẹ́",
           "bọ́tìnnì",
           "Irúgbìn ni ẹ̀wà. Tí o bá gbìn ín sínú ilẹ̀ tó tutù, ewéko ẹ̀wà tuntun máa hù jáde."
-        ],
-        [
-          "Kí ni irúgbìn nílò kí ó tó bẹ̀rẹ̀ sí í hù?",
-          "omi àti ooru",
-          "súìtì àti oje èso",
-          "orin aláriwo",
-          "Tí irúgbìn bá rí omi àti ooru, ó máa jí. Gbòǹgbò kékeré àti èéhù kékeré máa yọ jáde láti inú rẹ̀."
         ],
         [
           "Ọ̀nà wo ni gbòǹgbò ń hù sí?",

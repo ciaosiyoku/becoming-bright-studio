@@ -2,7 +2,7 @@
   "id": "sci8-insects",
   "kind": "bank",
   "subject": "science",
-  "stage": 4,
+  "stage": 5,
   "ages": [
     "8-9"
   ],
@@ -47,11 +47,11 @@
           "Head, thorax and abdomen."
         ],
         [
-          "What does a caterpillar turn into?",
-          "a butterfly",
-          "a spider",
-          "a worm",
-          "Caterpillars become butterflies or moths."
+          "What hatches from a butterfly’s egg?",
+          "a caterpillar",
+          "a tadpole",
+          "a chick",
+          "A butterfly’s egg hatches into a caterpillar (a larva)."
         ],
         [
           "What are an insect’s feelers called?",
@@ -140,11 +140,11 @@
           "Kopf, Brust und Hinterleib."
         ],
         [
-          "Was wird aus einer Raupe?",
-          "ein Schmetterling",
-          "eine Spinne",
-          "ein Wurm",
-          "Raupen werden Schmetterlinge oder Motten."
+          "Was schlüpft aus einem Schmetterlingsei?",
+          "eine Raupe",
+          "eine Kaulquappe",
+          "ein Küken",
+          "Aus dem Ei schlüpft eine Raupe (Larve)."
         ],
         [
           "Wie heißen die Fühler eines Insekts?",
@@ -233,11 +233,11 @@
           "Tête, thorax et abdomen."
         ],
         [
-          "Que devient une chenille ?",
-          "un papillon",
-          "une araignée",
-          "un ver",
-          "La chenille devient papillon."
+          "Qu’est-ce qui sort d’un œuf de papillon ?",
+          "une chenille",
+          "un têtard",
+          "un poussin",
+          "L’œuf de papillon donne une chenille (une larve)."
         ],
         [
           "Comment s’appellent les « cornes » d’un insecte ?",
@@ -326,11 +326,11 @@
           "Orí, àyà àti ikùn."
         ],
         [
-          "Kí ni ìdin labalábá ń dà?",
-          "labalábá",
-          "aláǹtakùn",
-          "kòkòrò ilẹ̀",
-          "Ìdin ń di labalábá."
+          "Kí ló ń jáde láti inú ẹyin labalábá?",
+          "ìdin labalábá",
+          "ọmọ àkèré",
+          "ọmọ adìyẹ",
+          "Ẹyin labalábá ń pa di ìdin."
         ],
         [
           "Kí ni orúkọ ìwo ìmọ̀lára kòkòrò?",

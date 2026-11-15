@@ -2,11 +2,11 @@
   "id": "ql-hot-cold-pictures",
   "kind": "ql-compare",
   "subject": "qualitative",
-  "stage": 0,
+  "stage": 2,
   "ages": [
     "6-7"
   ],
-  "order": 20,
+  "order": 18,
   "only": "en",
   "params": {
     "lists": {
@@ -45,7 +45,7 @@
   },
   "text": {
     "en": {
-      "title": "Hot and cold",
+      "title": "Hot or cold? Sort them",
       "teach": "Think about how hot each one is. From coldest to hottest: {order}. The hottest is {answer}.",
       "prompt": "Which is the hottest?",
       "prompts": {

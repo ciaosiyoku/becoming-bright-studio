@@ -2,19 +2,36 @@
   "id": "add-8",
   "kind": "add",
   "subject": "numbers",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 13,
+  "order": 11,
   "params": {
-    "max": 8
+    "max": 8,
+    "avoid": [
+      "04313e88",
+      "084b4c50",
+      "1087cb02",
+      "17abdb88",
+      "1d6bc28a",
+      "25bb0150",
+      "402528ec",
+      "5eaf4e48",
+      "6871ede0",
+      "6cad8a60",
+      "72397dd4",
+      "73d4cc28",
+      "7fccc1c2",
+      "98ecda54",
+      "f41d5df8"
+    ]
   },
   "emoji": "animal-rabbit",
   "example": {
-    "a": 2,
-    "b": 2,
-    "answer": 4
+    "a": 1,
+    "b": 7,
+    "answer": 8
   },
   "text": {
     "en": {

@@ -2,7 +2,7 @@
   "id": "qr-price-stories-big",
   "kind": "qr-story",
   "subject": "quantitative",
-  "stage": 6,
+  "stage": 7,
   "ages": [
     "10-12"
   ],
@@ -83,19 +83,20 @@
         "pears",
         "fruit-pear"
       ]
-    ]
+    ],
+    "above": 144
   },
   "emoji": "fruit-lemon",
   "example": {
     "rule": "unit",
-    "name": "Kemi",
-    "thing": "cookies",
-    "emoji": "cookie",
-    "a": 3,
-    "b": 2,
-    "c": 12,
-    "answer": 8,
-    "price": 4
+    "name": "Jay",
+    "thing": "stars",
+    "emoji": "star",
+    "a": 6,
+    "b": 7,
+    "c": 276,
+    "answer": 322,
+    "price": 46
   },
   "text": {
     "en": {

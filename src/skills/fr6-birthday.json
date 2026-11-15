@@ -2,7 +2,7 @@
   "id": "fr6-birthday",
   "kind": "bank",
   "subject": "french",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
@@ -10,7 +10,6 @@
   "only": "en",
   "params": {
     "emojis": [
-      "cake",
       "cake",
       "cake",
       "cake",
@@ -76,13 +75,6 @@
           "the cake",
           "the game",
           "La fête is the party."
-        ],
-        [
-          "How do you ask “How old are you?” in French?",
-          "Quel âge as-tu ?",
-          "Comment t’appelles-tu ?",
-          "Où habites-tu ?",
-          "Quel âge as-tu ? asks how old someone is."
         ],
         [
           "How do you say “I am six” in French?",

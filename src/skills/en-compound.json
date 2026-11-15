@@ -2,11 +2,11 @@
   "id": "en-compound",
   "kind": "bank",
   "subject": "words",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
-  "order": 26,
+  "order": 28,
   "only": "en",
   "params": {
     "emojis": [

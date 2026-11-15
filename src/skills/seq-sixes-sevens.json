@@ -2,25 +2,25 @@
   "id": "seq-sixes-sevens",
   "kind": "sequence",
   "subject": "patterns",
-  "stage": 4,
+  "stage": 6,
   "ages": [
     "10-12"
   ],
-  "order": 54,
+  "order": 51,
   "params": {
     "steps": [
       6,
       7
     ],
     "start": [
-      0,
-      20
+      50,
+      150
     ]
   },
   "emoji": "chart",
   "example": {
-    "items": "0, 6, 12, 18",
-    "answer": 24,
+    "items": "69, 75, 81, 87",
+    "answer": 93,
     "steps": "+6   +6   +6   +6"
   },
   "text": {

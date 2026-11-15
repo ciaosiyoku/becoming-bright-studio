@@ -10,6 +10,7 @@ import { type Lang, useLang, useT } from '@/i18n'
 import { Emoji } from '@/shared/Emoji'
 import { speak, stopSpeaking, useCanSpeak } from '@/shared/speak'
 import { teachCard } from '@/skills/generate'
+import { suitsAge } from '@/skills/ages'
 import { bySubject, itemWords, skillById, SKILLS, skillLang, skillText } from '@/skills/index'
 import type { Choice, Item, SkillDef } from '@/skills/types'
 import { useSkills } from '@/skills/useSkills'
@@ -238,11 +239,11 @@ function Result({ skill, checks, stickers, onClose }: { skill: string; checks: C
   const { state } = useStore()
   const def = skillById(skill)!
   const { right, mastered } = resultOf(checks)
-  // A suggestion only (the child chooses): the next skill of the same subject not learnt yet.
+  // A suggestion only (the child chooses): the next skill of the same subject, for the child's age, not learnt yet.
   const upcoming = nextSkill(
     activeChild(state)!,
     bySubject(def.subject)
-      .filter((s) => s.order > def.order)
+      .filter((s) => s.order > def.order && suitsAge(s, activeChild(state)!.age))
       .map((s) => s.id),
   )
   const upcomingDef = upcoming ? skillById(upcoming) : undefined

@@ -2,7 +2,7 @@
   "id": "qr-missing-10000",
   "kind": "qr-balance",
   "subject": "quantitative",
-  "stage": 6,
+  "stage": 7,
   "ages": [
     "10-12"
   ],
@@ -13,18 +13,19 @@
     "ops": [
       "add",
       "sub"
-    ]
+    ],
+    "above": 5000
   },
   "emoji": "chart",
   "example": {
     "op": "sub",
-    "a": 7824,
-    "b": 3243,
-    "c": 4581,
+    "a": 9630,
+    "b": 550,
+    "c": 9080,
     "blank": "second",
-    "answer": 3243,
-    "shown": "7824 − ? = 4581",
-    "full": "7824 − 3243 = 4581"
+    "answer": 550,
+    "shown": "9630 − ? = 9080",
+    "full": "9630 − 550 = 9080"
   },
   "text": {
     "en": {

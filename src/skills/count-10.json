@@ -2,11 +2,11 @@
   "id": "count-10",
   "kind": "count",
   "subject": "numbers",
-  "stage": 0,
+  "stage": 1,
   "ages": [
-    "6-7"
+    "4-5"
   ],
-  "order": 17,
+  "order": 13,
   "params": {
     "min": 5,
     "max": 10,

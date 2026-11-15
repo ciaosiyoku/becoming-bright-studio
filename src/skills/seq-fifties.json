@@ -2,11 +2,11 @@
   "id": "seq-fifties",
   "kind": "sequence",
   "subject": "patterns",
-  "stage": 6,
+  "stage": 7,
   "ages": [
     "10-12"
   ],
-  "order": 56,
+  "order": 60,
   "params": {
     "steps": [
       50,
@@ -16,12 +16,15 @@
     "start": [
       100,
       600
+    ],
+    "avoid": [
+      "55f6d64f"
     ]
   },
   "emoji": "chart",
   "example": {
-    "items": "100, 150, 200, 250",
-    "answer": 300,
+    "items": "194, 244, 294, 344",
+    "answer": 394,
     "steps": "+50   +50   +50   +50"
   },
   "text": {

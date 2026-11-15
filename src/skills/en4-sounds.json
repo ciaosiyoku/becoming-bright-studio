@@ -2,11 +2,11 @@
   "id": "en4-sounds",
   "kind": "bank",
   "subject": "words",
-  "stage": 0,
+  "stage": 2,
   "ages": [
     "6-7"
   ],
-  "order": 28,
+  "order": 19,
   "only": "en",
   "params": {
     "emojis": [
@@ -265,7 +265,7 @@
   },
   "text": {
     "en": {
-      "title": "First sounds",
+      "title": "Which letter does it start with?",
       "teach": "Say the word slowly and listen to the very first sound. Sun starts with s: s-s-sun.",
       "prompt": "{q_en}",
       "reason": "{why_en}"

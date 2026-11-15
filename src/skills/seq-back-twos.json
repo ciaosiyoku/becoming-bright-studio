@@ -2,24 +2,24 @@
   "id": "seq-back-twos",
   "kind": "sequence",
   "subject": "patterns",
-  "stage": 2,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 40,
+  "order": 35,
   "params": {
     "steps": [
       -2
     ],
     "start": [
-      1,
-      20
+      40,
+      100
     ]
   },
   "emoji": "chart",
   "example": {
-    "items": "9, 7, 5, 3",
-    "answer": 1,
+    "items": "97, 95, 93, 91",
+    "answer": 89,
     "steps": "−2   −2   −2   −2"
   },
   "text": {

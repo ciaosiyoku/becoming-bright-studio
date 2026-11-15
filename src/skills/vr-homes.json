@@ -40,19 +40,51 @@
           "pond"
         ]
       ]
-    }
+    },
+    "avoid": [
+      "03c689be",
+      "04685830",
+      "0506a529",
+      "051de7aa",
+      "08da2d1a",
+      "36211005",
+      "369a3818",
+      "39d91e4e",
+      "582de4d1",
+      "69d97649",
+      "6eaf04df",
+      "6ef36305",
+      "6efd68cf",
+      "7d14b9da",
+      "8ceecf38",
+      "9af79df1",
+      "9f7b7f10",
+      "bdf09b71",
+      "c9f78355",
+      "d022d0d4",
+      "d3622e41",
+      "dc8ebc53",
+      "e2333e01",
+      "e299abda",
+      "e8f28891",
+      "e99f28b4",
+      "f3aabc48",
+      "fb5c9d9d",
+      "fbe1dcce",
+      "fe7cbb67"
+    ]
   },
   "emoji": "speech",
   "example": {
     "rule": "home",
-    "a": "bird",
-    "b": "nest",
-    "c": "bee",
-    "answer": "hive"
+    "a": "dog",
+    "b": "kennel",
+    "c": "fish",
+    "answer": "pond"
   },
   "text": {
     "en": {
-      "title": "Where animals live",
+      "title": "Animals and their homes",
       "teach": "Say how the first two words go together, then find the word that goes with the third the same way. A {a} lives in a {b}, and a {c} lives in a {answer}.",
       "prompt": "{a} is to {b} as {c} is to …?",
       "reason": "They go together the same way.",

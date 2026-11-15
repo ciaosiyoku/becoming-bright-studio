@@ -2,11 +2,11 @@
   "id": "en-punctuation",
   "kind": "bank",
   "subject": "words",
-  "stage": 2,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 40,
+  "order": 34,
   "only": "en",
   "params": {
     "emojis": [

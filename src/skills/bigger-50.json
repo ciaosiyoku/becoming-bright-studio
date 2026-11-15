@@ -2,13 +2,14 @@
   "id": "bigger-50",
   "kind": "bigger",
   "subject": "numbers",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
-  "order": 31,
+  "order": 25,
   "params": {
-    "max": 50
+    "max": 50,
+    "above": 20
   },
   "emoji": "animal-elephant",
   "example": {

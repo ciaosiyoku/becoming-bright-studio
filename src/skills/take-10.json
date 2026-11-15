@@ -2,13 +2,43 @@
   "id": "take-10",
   "kind": "subtract",
   "subject": "numbers",
-  "stage": 1,
+  "stage": 2,
   "ages": [
-    "4-5"
+    "6-7"
   ],
-  "order": 5,
+  "order": 19,
   "params": {
-    "max": 10
+    "max": 10,
+    "avoid": [
+      "07f43bfe",
+      "082b34a6",
+      "0c3c4812",
+      "1092585e",
+      "16257b18",
+      "367e5136",
+      "36fbcfbc",
+      "3c3e7d8a",
+      "3db18a56",
+      "4269ce32",
+      "518179f6",
+      "5d3d0480",
+      "62aad766",
+      "65ab35c8",
+      "66a19762",
+      "6b0f0a06",
+      "71880e22",
+      "82fee462",
+      "85f97e8a",
+      "98f5d4b0",
+      "9de5c2da",
+      "ad0d0bce",
+      "d040b616",
+      "d19fba12",
+      "dc365ea2",
+      "eb96eefe",
+      "f80e59ba",
+      "fb46bea8"
+    ]
   },
   "emoji": "animal-penguin",
   "example": {

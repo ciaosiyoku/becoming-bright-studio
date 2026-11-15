@@ -6,7 +6,7 @@
   "ages": [
     "10-12"
   ],
-  "order": 49,
+  "order": 51,
   "only": "en",
   "params": {
     "steps": [
@@ -30,6 +30,32 @@
     "ins": [
       2,
       15
+    ],
+    "avoid": [
+      "13ee3e7d",
+      "2b036363",
+      "34898313",
+      "3d4258bb",
+      "42f6dcdf",
+      "4c20cf16",
+      "5f786cc6",
+      "6d1e8503",
+      "6dc70ddf",
+      "6e1e579d",
+      "80a8fb64",
+      "82e21d8d",
+      "8de2babf",
+      "8fefa51e",
+      "9e6a6613",
+      "ba4372eb",
+      "bc3bc93b",
+      "c0ef8653",
+      "c85c5caa",
+      "c9eaf9fc",
+      "d32f22c5",
+      "d82ade57",
+      "ed4c1173",
+      "f0ed6b7b"
     ]
   },
   "emoji": "gear",

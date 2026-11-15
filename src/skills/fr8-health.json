@@ -2,11 +2,11 @@
   "id": "fr8-health",
   "kind": "bank",
   "subject": "french",
-  "stage": 4,
+  "stage": 5,
   "ages": [
     "8-9"
   ],
-  "order": 45,
+  "order": 43,
   "only": "en",
   "params": {
     "emojis": [

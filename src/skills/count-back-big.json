@@ -2,11 +2,11 @@
   "id": "count-back-big",
   "kind": "sequence",
   "subject": "patterns",
-  "stage": 4,
+  "stage": 5,
   "ages": [
     "8-9"
   ],
-  "order": 36,
+  "order": 42,
   "params": {
     "steps": [
       -3,
@@ -17,6 +17,25 @@
     "start": [
       10,
       100
+    ],
+    "avoid": [
+      "0a8970c6",
+      "0d0ce3f6",
+      "1ca7f2c7",
+      "2aef1b7d",
+      "3088142b",
+      "36db8c3a",
+      "4fc14c28",
+      "65fc79fc",
+      "697dbc18",
+      "7b528ec1",
+      "900ef40b",
+      "bbfea5b4",
+      "bce7a620",
+      "decef1a0",
+      "e21f6be3",
+      "e48834d1",
+      "fa7f7d2a"
     ]
   },
   "emoji": "footprints",

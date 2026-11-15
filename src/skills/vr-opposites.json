@@ -56,7 +56,7 @@
   },
   "text": {
     "en": {
-      "title": "More opposites",
+      "title": "Trickier opposites",
       "teach": "Say how the first two words go together, then find the word that goes with the third the same way. {a} and {b} are opposites, so {c} goes with {answer}.",
       "prompt": "{a} is to {b} as {c} is to …?",
       "reason": "They go together the same way.",

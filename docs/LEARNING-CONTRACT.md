@@ -92,7 +92,7 @@ If this table can't be acted out with a child and a sheet of paper, the app shou
 Version 1 started with twelve (count to 5 and 10, one more, one less, add and take away within 5 and 10, which is
 bigger, first sounds, "a" or "an", rhyming pictures). The owner then asked for the original's other skills, rebuilt in
 this format (57). Then the owner asked for science, French and more English, and for ages 4 to 12 with 300
-questions per subject and age range: **512 in all** (with the three reasoning subjects; 16 skills of its own per subject for every age range, owner's request, Nov 2026), from Cambridge Primary early years to about Stage 7.
+questions per subject and age range: **512 in all** (with the three reasoning subjects; 16 skills of its own per subject for every age range, owner's request, Nov 2026). Each age range's skills run from easiest to hardest, and its questions are its own: a made-fresh skill always goes past the numbers of the easier skill before it (params.above) or leaves out the questions an easier skill already asks (params.avoid), and no written question is in two skills (ages.test.ts checks both), from Cambridge Primary early years to about Stage 7.
 
 - **Maths (32):** counting, adding and taking away up to 1000, tens and ones, times tables, time, place value,
   rounding, dividing, multiplying, fractions, percentages, order of operations, square numbers.

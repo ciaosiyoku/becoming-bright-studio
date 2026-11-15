@@ -2,7 +2,7 @@
   "id": "fr6-likes",
   "kind": "bank",
   "subject": "french",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
@@ -22,19 +22,10 @@
       "heart",
       "heart",
       "heart",
-      "heart",
-      "heart",
       "heart"
     ],
     "bank": {
       "en": [
-        [
-          "What does “J’aime le chocolat” mean?",
-          "I like chocolate",
-          "I don’t like chocolate",
-          "I have chocolate",
-          "J’aime means I like."
-        ],
         [
           "What does “Je n’aime pas les carottes” mean?",
           "I don’t like carrots",
@@ -125,13 +116,6 @@
           "I like it a lot",
           "I like it a bit",
           "Pas du tout means not at all."
-        ],
-        [
-          "What does “Et toi ?” mean?",
-          "And you?",
-          "Thank you?",
-          "Me too?",
-          "Et toi ? means and you?"
         ]
       ]
     }
@@ -139,9 +123,9 @@
   "emoji": "heart",
   "example": {
     "i": 0,
-    "q_en": "What does “J’aime le chocolat” mean?",
-    "answer_en": "I like chocolate",
-    "why_en": "J’aime means I like."
+    "q_en": "What does “Je n’aime pas les carottes” mean?",
+    "answer_en": "I don’t like carrots",
+    "why_en": "Je n’aime pas means I don’t like."
   },
   "text": {
     "en": {

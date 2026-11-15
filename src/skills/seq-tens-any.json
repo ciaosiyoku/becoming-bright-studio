@@ -2,11 +2,11 @@
   "id": "seq-tens-any",
   "kind": "sequence",
   "subject": "patterns",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
-  "order": 29,
+  "order": 26,
   "params": {
     "steps": [
       10
@@ -14,6 +14,23 @@
     "start": [
       1,
       49
+    ],
+    "avoid": [
+      "02007c8f",
+      "1efdb21b",
+      "29b981dd",
+      "31cd8510",
+      "35fa74a1",
+      "4c49aad4",
+      "73b3d562",
+      "8bd60dc5",
+      "a0aca04c",
+      "a0bb0990",
+      "b15da61e",
+      "be9a88ee",
+      "d9f74673",
+      "dc98cec7",
+      "f0a8f511"
     ]
   },
   "emoji": "chart",

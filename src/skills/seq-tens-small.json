@@ -2,11 +2,11 @@
   "id": "seq-tens-small",
   "kind": "sequence",
   "subject": "patterns",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 13,
+  "order": 12,
   "params": {
     "steps": [
       10

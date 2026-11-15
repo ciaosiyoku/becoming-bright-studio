@@ -6,7 +6,7 @@
   "ages": [
     "4-5"
   ],
-  "order": 8,
+  "order": 5,
   "params": {
     "emojis": [
       "droplet",
@@ -28,7 +28,6 @@
       "teddy",
       "house",
       "animal-rabbit",
-      "sun-small-cloud",
       "backpack",
       "locked",
       "map",
@@ -174,13 +173,6 @@
           "to make our hands sticky",
           "to make our hands grow",
           "Pets can carry germs you cannot see. Washing your hands keeps you well."
-        ],
-        [
-          "When do we eat breakfast?",
-          "in the morning",
-          "at midnight",
-          "just before bed",
-          "Breakfast is the first meal of the day. It gives you energy for the morning."
         ],
         [
           "Which is a healthy snack for school?",
@@ -388,13 +380,6 @@
           "Haustiere können unsichtbare Keime tragen. Händewaschen hält dich gesund."
         ],
         [
-          "Wann essen wir Frühstück?",
-          "am Morgen",
-          "um Mitternacht",
-          "kurz vor dem Schlafen",
-          "Das Frühstück ist die erste Mahlzeit des Tages. Es gibt dir Kraft für den Morgen."
-        ],
-        [
           "Was ist ein gesunder Snack für die Schule?",
           "eine Banane",
           "ein Lutscher",
@@ -600,13 +585,6 @@
           "Les animaux peuvent porter des microbes invisibles. Se laver les mains te garde en bonne santé."
         ],
         [
-          "Quand prend-on le petit-déjeuner ?",
-          "le matin",
-          "à minuit",
-          "juste avant de dormir",
-          "Le petit-déjeuner est le premier repas de la journée. Il te donne de l’énergie pour la matinée."
-        ],
-        [
           "Quel goûter sain pour l’école ?",
           "une banane",
           "une sucette",
@@ -810,13 +788,6 @@
           "kí ọwọ́ wa lè lẹ̀ pọ̀",
           "kí ọwọ́ wa lè dàgbà",
           "Ẹran ọ̀sìn lè gbé kòkòrò àrùn tí a kò lè rí. Fífọ ọwọ́ ń pa ọ́ mọ́ ní àlàáfíà."
-        ],
-        [
-          "Ìgbà wo la máa ń jẹ oúnjẹ àárọ̀?",
-          "ní àárọ̀",
-          "ní ọ̀gànjọ́ òru",
-          "kí a tó sùn",
-          "Oúnjẹ àárọ̀ ni oúnjẹ àkọ́kọ́ lójúmọ́. Ó ń fún ọ ní agbára fún òwúrọ̀."
         ],
         [
           "Ìpápánu wo ló dára fún ara ní ilé ìwé?",

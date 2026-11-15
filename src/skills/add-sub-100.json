@@ -2,14 +2,15 @@
   "id": "add-sub-100",
   "kind": "add-sub",
   "subject": "numbers",
-  "stage": 3,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 36,
+  "order": 37,
   "params": {
     "max": 100,
-    "minB": 8
+    "minB": 8,
+    "above": 50
   },
   "emoji": "animal-rabbit",
   "example": {

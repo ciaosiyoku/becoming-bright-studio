@@ -6,7 +6,7 @@
   "ages": [
     "8-9"
   ],
-  "order": 34,
+  "order": 38,
   "only": "en",
   "params": {
     "max": 100,
@@ -15,23 +15,24 @@
       "sub",
       "mul"
     ],
-    "mulMax": 10
+    "mulMax": 10,
+    "above": 50
   },
   "emoji": "chart",
   "example": {
     "op": "mul",
-    "a": 6,
-    "b": 7,
-    "c": 42,
+    "a": 7,
+    "b": 8,
+    "c": 56,
     "blank": "second",
-    "answer": 7,
-    "shown": "6 × ? = 42",
-    "full": "6 × 7 = 42"
+    "answer": 8,
+    "shown": "7 × ? = 56",
+    "full": "7 × 8 = 56"
   },
   "text": {
     "en": {
       "title": "Missing numbers to 100",
-      "teach": "Use the opposite step to find what is hiding. {shown}: 42 ÷ 6 = 7, so {full}.",
+      "teach": "Use the opposite step to find what is hiding: {shown}, so {full}.",
       "prompt": "What is the missing number?",
       "reason": "{full}, so the missing number is {answer}."
     }

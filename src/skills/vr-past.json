@@ -2,11 +2,11 @@
   "id": "vr-past",
   "kind": "vr-analogy",
   "subject": "verbal",
-  "stage": 2,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 36,
+  "order": 34,
   "only": "en",
   "params": {
     "relations": {

@@ -2,17 +2,17 @@
   "id": "qr-take-stories-10",
   "kind": "qr-story",
   "subject": "quantitative",
-  "stage": 0,
+  "stage": 2,
   "ages": [
     "6-7"
   ],
-  "order": 21,
+  "order": 20,
   "only": "en",
   "params": {
     "rules": [
       "take"
     ],
-    "max": 10,
+    "max": 15,
     "names": [
       "Ada",
       "Ben",
@@ -83,21 +83,22 @@
         "pears",
         "fruit-pear"
       ]
-    ]
+    ],
+    "above": 10
   },
   "emoji": "cookie",
   "example": {
     "rule": "take",
-    "name": "Mia",
-    "thing": "cookies",
-    "emoji": "cookie",
-    "a": 4,
-    "b": 1,
-    "answer": 3
+    "name": "Femi",
+    "thing": "pears",
+    "emoji": "fruit-pear",
+    "a": 13,
+    "b": 4,
+    "answer": 9
   },
   "text": {
     "en": {
-      "title": "Taking-away stories to 10",
+      "title": "Taking-away stories to 15",
       "teach": "Find the numbers in the story, then work it out. {a} − {b} = {answer}.",
       "prompt": "{name} has {a} {thing} and gives {b} away. How many {thing} are left?",
       "prompts": {

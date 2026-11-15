@@ -2,11 +2,11 @@
   "id": "pp-abbc-things",
   "kind": "picture-pattern",
   "subject": "patterns",
-  "stage": 2,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 38,
+  "order": 34,
   "params": {
     "rules": [
       "ABBC"

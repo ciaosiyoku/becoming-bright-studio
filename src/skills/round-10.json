@@ -2,11 +2,11 @@
   "id": "round-10",
   "kind": "round",
   "subject": "numbers",
-  "stage": 3,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 40,
+  "order": 38,
   "params": {
     "to": 10
   },

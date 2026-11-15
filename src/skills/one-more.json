@@ -2,11 +2,11 @@
   "id": "one-more",
   "kind": "one-more",
   "subject": "numbers",
-  "stage": 1,
+  "stage": 0,
   "ages": [
     "4-5"
   ],
-  "order": 3,
+  "order": 4,
   "params": {
     "max": 20
   },

@@ -2,16 +2,14 @@
   "id": "fr8-dates",
   "kind": "bank",
   "subject": "french",
-  "stage": 4,
+  "stage": 5,
   "ages": [
     "8-9"
   ],
-  "order": 48,
+  "order": 46,
   "only": "en",
   "params": {
     "emojis": [
-      "calendar",
-      "calendar",
       "calendar",
       "calendar",
       "calendar",
@@ -97,20 +95,6 @@
           "yes",
           "only in January",
           "In French, months are written with a small letter: mai, juin."
-        ],
-        [
-          "What does “hier” mean?",
-          "yesterday",
-          "tomorrow",
-          "today",
-          "Hier means yesterday."
-        ],
-        [
-          "What does “demain” mean?",
-          "tomorrow",
-          "yesterday",
-          "today",
-          "Demain means tomorrow."
         ],
         [
           "What does “le 31 octobre” mean?",

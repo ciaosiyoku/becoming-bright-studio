@@ -6,7 +6,7 @@
   "ages": [
     "4-5"
   ],
-  "order": 7,
+  "order": 4,
   "params": {
     "emojis": [
       "fruit-apple",
@@ -37,8 +37,7 @@
       "sun-cloud",
       "animal-otter",
       "umbrella",
-      "animal-spouting-whale",
-      "animal-octopus"
+      "animal-spouting-whale"
     ],
     "bank": {
       "en": [
@@ -244,13 +243,6 @@
           "in a forest",
           "in a desert",
           "Whales live in the sea. They swim up to breathe air through a hole on top of their head."
-        ],
-        [
-          "Where does an octopus live?",
-          "in the sea",
-          "in a tree",
-          "in the desert",
-          "An octopus lives in the sea. It has eight arms."
         ]
       ],
       "de": [
@@ -456,13 +448,6 @@
           "im Wald",
           "in der Wüste",
           "Wale leben im Meer. Sie atmen durch ein Loch oben auf dem Kopf."
-        ],
-        [
-          "Wo lebt ein Krake?",
-          "im Meer",
-          "auf einem Baum",
-          "in der Wüste",
-          "Ein Krake lebt im Meer. Er hat acht Arme."
         ]
       ],
       "fr": [
@@ -668,13 +653,6 @@
           "dans la forêt",
           "dans le désert",
           "Les baleines vivent dans la mer. Elles respirent par un trou sur le haut de la tête."
-        ],
-        [
-          "Où vit la pieuvre ?",
-          "dans la mer",
-          "dans un arbre",
-          "dans le désert",
-          "La pieuvre vit dans la mer. Elle a huit bras."
         ]
       ],
       "yo": [
@@ -880,13 +858,6 @@
           "nínú igbó",
           "nínú aṣálẹ̀",
           "Ẹja àbùùbùtán ń gbé nínú òkun. Ó ń gòkè láti mí afẹ́fẹ́ láti ihò kan lórí rẹ̀."
-        ],
-        [
-          "Níbo ni ẹja ẹlẹ́sẹ̀ mẹ́jọ ń gbé?",
-          "nínú òkun",
-          "lórí igi",
-          "nínú aṣálẹ̀",
-          "Ẹja ẹlẹ́sẹ̀ mẹ́jọ ń gbé nínú òkun. Ó ní apá mẹ́jọ."
         ]
       ]
     }

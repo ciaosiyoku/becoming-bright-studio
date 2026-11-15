@@ -2,11 +2,11 @@
   "id": "en4-transport",
   "kind": "bank",
   "subject": "words",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 13,
+  "order": 12,
   "only": "en",
   "params": {
     "emojis": [

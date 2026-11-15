@@ -2,33 +2,56 @@
   "id": "qr-missing-times",
   "kind": "qr-balance",
   "subject": "quantitative",
-  "stage": 4,
+  "stage": 6,
   "ages": [
     "10-12"
   ],
-  "order": 51,
+  "order": 49,
   "only": "en",
   "params": {
-    "max": 100,
+    "max": 225,
     "ops": [
       "mul"
     ],
-    "mulMax": 10
+    "mulMax": 15,
+    "above": 100,
+    "avoid": [
+      "01db9efc",
+      "119090f4",
+      "29ea32a0",
+      "4d7e3be6",
+      "5cbd67da",
+      "5e2243b8",
+      "703179ce",
+      "80497c76",
+      "8181f1c9",
+      "9d37dbcd",
+      "a0434a74",
+      "a9869f86",
+      "a9d6428a",
+      "ab0bfe64",
+      "ab376404",
+      "b8a529ea",
+      "c33fa7e4",
+      "cecd2062",
+      "ddd84ab2",
+      "e06d3708"
+    ]
   },
   "emoji": "chart",
   "example": {
     "op": "mul",
-    "a": 3,
-    "b": 4,
-    "c": 12,
+    "a": 15,
+    "b": 9,
+    "c": 135,
     "blank": "first",
-    "answer": 3,
-    "shown": "? × 4 = 12",
-    "full": "3 × 4 = 12"
+    "answer": 15,
+    "shown": "? × 9 = 135",
+    "full": "15 × 9 = 135"
   },
   "text": {
     "en": {
-      "title": "Missing numbers in times tables",
+      "title": "Missing numbers: tables to 15",
       "teach": "Something is hiding behind the ?. Try numbers until the sum is true: {shown}, and {full}.",
       "prompt": "What is the missing number?",
       "reason": "{full}, so the missing number is {answer}."

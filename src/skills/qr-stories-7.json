@@ -2,11 +2,11 @@
   "id": "qr-stories-7",
   "kind": "qr-story",
   "subject": "quantitative",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 16,
+  "order": 15,
   "only": "en",
   "params": {
     "rules": [
@@ -84,17 +84,40 @@
         "pears",
         "fruit-pear"
       ]
-    ]
+    ],
+    "avoid": [
+      "145ffd5f",
+      "1a79f1d3",
+      "1d64f8eb",
+      "32f07b7b",
+      "4c2e3ed9",
+      "533c4947",
+      "5e39bbeb",
+      "7662379f",
+      "a6cad503",
+      "aa61ea67",
+      "ac067247",
+      "adf5f83b",
+      "af25b2cb",
+      "c8183287",
+      "ccd51db1",
+      "d3e2e7b7",
+      "eac6e973",
+      "ed43df5f",
+      "f2940c1f",
+      "feecbea7"
+    ],
+    "avoidNumbers": true
   },
   "emoji": "fruit-apple",
   "example": {
     "rule": "add",
-    "name": "Dan",
-    "thing": "bananas",
-    "emoji": "fruit-banana",
-    "a": 4,
+    "name": "Zara",
+    "thing": "candles",
+    "emoji": "candle",
+    "a": 6,
     "b": 1,
-    "answer": 5
+    "answer": 7
   },
   "text": {
     "en": {

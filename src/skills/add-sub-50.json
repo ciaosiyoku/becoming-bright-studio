@@ -6,10 +6,11 @@
   "ages": [
     "8-9"
   ],
-  "order": 46,
+  "order": 36,
   "params": {
     "max": 50,
-    "minB": 5
+    "minB": 5,
+    "above": 20
   },
   "emoji": "animal-frog",
   "example": {

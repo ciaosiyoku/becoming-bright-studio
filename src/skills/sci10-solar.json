@@ -30,7 +30,6 @@
       "globe",
       "glowstar",
       "sun-small-cloud",
-      "sun",
       "storm",
       "moon",
       "footprints",
@@ -188,13 +187,6 @@
           "the Sun travels around the Earth every day",
           "the wind pushes the Sun along",
           "The Sun stays put. As the Earth turns from west to east, the Sun appears to rise, cross the sky and set."
-        ],
-        [
-          "In which direction does the Sun rise in the morning?",
-          "in the east",
-          "in the west",
-          "in the north",
-          "Because the Earth spins towards the east, the Sun comes into view in the east and sets in the west."
         ],
         [
           "Which planet has the Great Red Spot, a storm bigger than the whole Earth?",
@@ -402,13 +394,6 @@
           "Die Sonne bleibt, wo sie ist. Weil sich die Erde von West nach Ost dreht, scheint die Sonne aufzugehen, über den Himmel zu ziehen und unterzugehen."
         ],
         [
-          "In welcher Himmelsrichtung geht die Sonne morgens auf?",
-          "im Osten",
-          "im Westen",
-          "im Norden",
-          "Weil sich die Erde nach Osten dreht, taucht die Sonne im Osten auf und geht im Westen unter."
-        ],
-        [
           "Auf welchem Planeten gibt es den Großen Roten Fleck, einen Sturm, der größer ist als die ganze Erde?",
           "Jupiter",
           "Merkur",
@@ -614,13 +599,6 @@
           "Le Soleil ne bouge pas autour de nous. Comme la Terre tourne d’ouest en est, il semble se lever, traverser le ciel et se coucher."
         ],
         [
-          "De quel côté le Soleil se lève-t-il le matin ?",
-          "à l’est",
-          "à l’ouest",
-          "au nord",
-          "Comme la Terre tourne vers l’est, le Soleil apparaît à l’est et se couche à l’ouest."
-        ],
-        [
           "Quelle planète a la Grande Tache rouge, une tempête plus grande que toute la Terre ?",
           "Jupiter",
           "Mercure",
@@ -824,13 +802,6 @@
           "oòrùn ń yí Ayé ká lójoojúmọ́",
           "afẹ́fẹ́ ń ti oòrùn lọ",
           "Oòrùn kò kúrò ní ipò rẹ̀. Bí Ayé ṣe ń yí láti ìwọ̀-oòrùn sí ìlà-oòrùn, oòrùn dà bí ẹni pé ó ń yọ, ó ń kọjá ojú ọ̀run, ó sì ń wọ̀."
-        ],
-        [
-          "Ní ọ̀nà wo ni oòrùn ti ń yọ ní òwúrọ̀?",
-          "ní ìlà-oòrùn",
-          "ní ìwọ̀-oòrùn",
-          "ní àríwá",
-          "Nítorí pé Ayé ń yí lọ sí ìlà-oòrùn, oòrùn máa ń yọ ní ìlà-oòrùn, ó sì ń wọ̀ ní ìwọ̀-oòrùn."
         ],
         [
           "Pílánẹ́ẹ̀tì wo ló ní Ààmì Pupa Ńlá, ìjì tí ó tóbi ju gbogbo Ayé lọ?",

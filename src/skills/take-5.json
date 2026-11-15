@@ -2,11 +2,11 @@
   "id": "take-5",
   "kind": "subtract",
   "subject": "numbers",
-  "stage": 1,
+  "stage": 0,
   "ages": [
     "4-5"
   ],
-  "order": 4,
+  "order": 3,
   "params": {
     "max": 5
   },

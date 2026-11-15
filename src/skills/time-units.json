@@ -2,11 +2,11 @@
   "id": "time-units",
   "kind": "time-units",
   "subject": "numbers",
-  "stage": 3,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 38,
+  "order": 40,
   "params": {},
   "emoji": "clock",
   "example": {

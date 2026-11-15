@@ -2,11 +2,11 @@
   "id": "qr-share-stories",
   "kind": "qr-story",
   "subject": "quantitative",
-  "stage": 4,
+  "stage": 6,
   "ages": [
     "10-12"
   ],
-  "order": 52,
+  "order": 50,
   "only": "en",
   "params": {
     "rules": [
@@ -83,17 +83,18 @@
         "pears",
         "fruit-pear"
       ]
-    ]
+    ],
+    "above": 50
   },
   "emoji": "cake",
   "example": {
     "rule": "share",
-    "name": "Ivy",
-    "thing": "cakes",
-    "emoji": "cake",
-    "a": 12,
-    "b": 3,
-    "answer": 4
+    "name": "Kemi",
+    "thing": "candles",
+    "emoji": "candle",
+    "a": 72,
+    "b": 12,
+    "answer": 6
   },
   "text": {
     "en": {

@@ -2,11 +2,11 @@
   "id": "ql-odd-sea-sky",
   "kind": "odd-one-out",
   "subject": "qualitative",
-  "stage": 0,
+  "stage": 2,
   "ages": [
     "6-7"
   ],
-  "order": 19,
+  "order": 17,
   "only": "en",
   "params": {
     "groups": {
@@ -72,7 +72,29 @@
           "fruit-peach"
         ]
       ]
-    }
+    },
+    "avoid": [
+      "0eecfa17",
+      "37754ed6",
+      "41fbbd24",
+      "568c6722",
+      "5e48869f",
+      "6f171677",
+      "771c0873",
+      "7723a15e",
+      "81104bbc",
+      "8ea0a722",
+      "b2d7bde0",
+      "bde1443e",
+      "c962ef5a",
+      "d2118a38",
+      "dcc51abf",
+      "e4af843e",
+      "e75a4803",
+      "edb37117",
+      "faa84bbf",
+      "fba88742"
+    ]
   },
   "emoji": "animal-dolphin",
   "example": {

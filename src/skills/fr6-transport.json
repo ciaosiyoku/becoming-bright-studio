@@ -2,7 +2,7 @@
   "id": "fr6-transport",
   "kind": "bank",
   "subject": "french",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
@@ -10,7 +10,6 @@
   "only": "en",
   "params": {
     "emojis": [
-      "bus",
       "bus",
       "bus",
       "bus",
@@ -48,13 +47,6 @@
           "un bateau",
           "un train",
           "A plane is un avion."
-        ],
-        [
-          "What does “un bateau” mean?",
-          "a boat",
-          "a bus",
-          "a car",
-          "Un bateau is a boat."
         ],
         [
           "What does “à pied” mean?",

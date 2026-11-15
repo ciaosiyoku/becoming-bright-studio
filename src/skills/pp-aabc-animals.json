@@ -2,11 +2,11 @@
   "id": "pp-aabc-animals",
   "kind": "picture-pattern",
   "subject": "patterns",
-  "stage": 4,
+  "stage": 6,
   "ages": [
     "10-12"
   ],
-  "order": 53,
+  "order": 49,
   "params": {
     "rules": [
       "AABC",

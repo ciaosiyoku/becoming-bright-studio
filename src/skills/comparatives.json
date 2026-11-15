@@ -2,11 +2,11 @@
   "id": "comparatives",
   "kind": "comparison",
   "subject": "words",
-  "stage": 4,
+  "stage": 5,
   "ages": [
     "8-9"
   ],
-  "order": 39,
+  "order": 42,
   "only": "en",
   "params": {
     "triples": [

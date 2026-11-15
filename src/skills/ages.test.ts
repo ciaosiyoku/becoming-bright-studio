@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { AGE_BANDS, bandOf, skillBands, suitsAge } from './ages'
 import { bankOf } from './bank'
-import { itemKey, makeItem, seeded } from './generate'
+import { avoidKey, itemKey, makeItem, seeded } from './generate'
 import { ALL_SKILLS as SKILLS } from './all'
 import { SUBJECTS } from './index'
 import type { SkillDef } from './types'
@@ -54,4 +54,33 @@ describe('choice', () => {
       it(`${subject}, ages ${band}: 16 skills`, () => {
         expect(SKILLS.filter((s) => s.subject === subject && skillBands(s).includes(band)).length).toBe(16)
       })
+})
+
+describe('own questions', () => {
+  // Owner's request (Nov 2026): the age ranges do not share questions. A made-fresh skill never asks what a skill of
+  // the same subject for a younger range asks (params.above and params.avoid), and no question bank repeats another's.
+  it('gives every age range questions of its own', () => {
+    const r = seeded(21)
+    const keys = new Map<SkillDef, Set<string>>()
+    for (const def of SKILLS.filter((s) => s.kind !== 'bank')) {
+      const story = { ...def, params: { ...def.params, avoidNumbers: def.kind === 'qr-story' } }
+      keys.set(def, new Set(Array.from({ length: 120 }, () => avoidKey(story, makeItem(def, r)))))
+    }
+    const shared: string[] = []
+    for (const [a, ka] of keys)
+      for (const [b, kb] of keys)
+        if (a.subject === b.subject && AGE_BANDS.indexOf(skillBands(a)[0]) < AGE_BANDS.indexOf(skillBands(b)[0]) && [...ka].some((k) => kb.has(k))) shared.push(`${a.id} / ${b.id}`)
+    expect(shared).toEqual([])
+  })
+  it('asks each written question in one skill only', () => {
+    const seen = new Map<string, string>()
+    const twice: string[] = []
+    for (const def of SKILLS.filter((s) => s.kind === 'bank'))
+      for (const [q, answer] of bankOf(def, def.only ?? 'en')) {
+        const key = `${q.trim().toLowerCase()} → ${answer.trim().toLowerCase()}`
+        if (seen.has(key)) twice.push(`${key} (${seen.get(key)}, ${def.id})`)
+        else seen.set(key, def.id)
+      }
+    expect(twice).toEqual([])
+  })
 })

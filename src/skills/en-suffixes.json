@@ -2,11 +2,11 @@
   "id": "en-suffixes",
   "kind": "bank",
   "subject": "words",
-  "stage": 3,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 41,
+  "order": 38,
   "only": "en",
   "params": {
     "emojis": [

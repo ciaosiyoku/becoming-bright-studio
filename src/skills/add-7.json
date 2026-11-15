@@ -2,11 +2,11 @@
   "id": "add-7",
   "kind": "add",
   "subject": "numbers",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 11,
+  "order": 9,
   "params": {
     "max": 7
   },

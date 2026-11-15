@@ -2,11 +2,11 @@
   "id": "sci4-light-dark",
   "kind": "bank",
   "subject": "science",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 14,
+  "order": 11,
   "params": {
     "emojis": [
       "light",

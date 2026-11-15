@@ -2,7 +2,7 @@
   "id": "sci-food",
   "kind": "bank",
   "subject": "science",
-  "stage": 2,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
@@ -26,7 +26,6 @@
       "fruit-apple",
       "backpack",
       "droplet",
-      "anatomical-heart",
       "fire",
       "snowflake",
       "clock",
@@ -160,13 +159,6 @@
           "water makes us shorter",
           "water turns our hair green",
           "You lose water when you breathe, sweat and go to the toilet. Drinking puts it back so your body works well."
-        ],
-        [
-          "What happens to your heart when you run fast?",
-          "it beats faster",
-          "it stops beating",
-          "it beats more slowly",
-          "When you run, your muscles need more oxygen. Your heart pumps faster to send them more blood."
         ],
         [
           "Why do we cook chicken until it is hot all the way through?",
@@ -374,13 +366,6 @@
           "Du verlierst Wasser beim Atmen, Schwitzen und auf der Toilette. Durch Trinken bekommt dein Körper es zurück und funktioniert gut."
         ],
         [
-          "Was passiert mit deinem Herzen, wenn du schnell rennst?",
-          "es schlägt schneller",
-          "es hört auf zu schlagen",
-          "es schlägt langsamer",
-          "Beim Rennen brauchen deine Muskeln mehr Sauerstoff. Dein Herz pumpt schneller, um ihnen mehr Blut zu schicken."
-        ],
-        [
           "Warum braten wir Hähnchen, bis es ganz durch heiß ist?",
           "um alle Keime darin zu töten",
           "damit es kalt wird",
@@ -586,13 +571,6 @@
           "Tu perds de l’eau en respirant, en transpirant et aux toilettes. Boire la remplace pour que ton corps fonctionne bien."
         ],
         [
-          "Que fait ton cœur quand tu cours vite ?",
-          "il bat plus vite",
-          "il s’arrête de battre",
-          "il bat plus lentement",
-          "Quand tu cours, tes muscles ont besoin de plus d’oxygène. Ton cœur pompe plus vite pour leur envoyer plus de sang."
-        ],
-        [
           "Pourquoi cuit-on le poulet jusqu’à ce qu’il soit bien chaud à cœur ?",
           "pour tuer les microbes",
           "pour le rendre froid",
@@ -796,13 +774,6 @@
           "omi ń mú wa kúrú sí i",
           "omi ń sọ irun wa di àwọ̀ ewé",
           "O máa ń pàdánù omi nígbà tí o bá ń mí, tí o bá làágùn àti tí o bá lọ sí ilé ìgbọ̀nsẹ̀. Mímu omi ń dá a padà kí ara rẹ lè ṣiṣẹ́ dáadáa."
-        ],
-        [
-          "Kí ló ń ṣẹlẹ̀ sí ọkàn rẹ nígbà tí o bá ń sáré gan-an?",
-          "ó ń lù kíákíá sí i",
-          "ó dẹ́kun lílù",
-          "ó ń lù díẹ̀díẹ̀ sí i",
-          "Tí o bá ń sáré, iṣan rẹ nílò afẹ́fẹ́ ọ́síjìn púpọ̀ sí i. Ọkàn rẹ á fa ẹ̀jẹ̀ kíákíá láti fi ẹ̀jẹ̀ púpọ̀ ránṣẹ́ sí wọn."
         ],
         [
           "Kí ló dé tí a fi ń se ẹran adìyẹ títí yóò fi jinná dé inú?",

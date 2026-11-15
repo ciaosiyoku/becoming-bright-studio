@@ -6,7 +6,7 @@
   "ages": [
     "8-9"
   ],
-  "order": 37,
+  "order": 40,
   "only": "en",
   "params": {
     "pairs": [
@@ -83,7 +83,7 @@
   },
   "text": {
     "en": {
-      "title": "Opposites",
+      "title": "Harder opposites",
       "teach": "Opposites mean the very different thing: hot and cold, up and down, day and night.",
       "prompt": "What is the opposite of \"{word}\"?",
       "reason": "“{word}” and “{answer}” are opposites."

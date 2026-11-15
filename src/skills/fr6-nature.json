@@ -2,7 +2,7 @@
   "id": "fr6-nature",
   "kind": "bank",
   "subject": "french",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
@@ -10,7 +10,6 @@
   "only": "en",
   "params": {
     "emojis": [
-      "tree",
       "tree",
       "tree",
       "tree",
@@ -125,13 +124,6 @@
           "the sea",
           "the sand",
           "La plage is the beach."
-        ],
-        [
-          "What does “une étoile” mean?",
-          "a star",
-          "a cloud",
-          "a flower",
-          "Une étoile is a star."
         ]
       ]
     }

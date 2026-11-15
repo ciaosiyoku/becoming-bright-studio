@@ -142,10 +142,10 @@ export const CALC: Record<CalcKind, Calc> = {
   times: {
     pick: (def, r) => {
       const t = pick(r, def.params.tables as number[])
-      const k = int(r, 1, 10)
+      const k = int(r, 1, Number(def.params.upTo ?? 10))
       return { n: k, t, answer: k * t, counting: Array.from({ length: k }, (_, i) => (i + 1) * t).join(', ') }
     },
-    build: (_def, v, r) => ({ visual: { kind: 'sum', text: `${v.n} × ${v.t}` }, ...numberChoices(r, n(v, 'answer'), 100, [-n(v, 't'), n(v, 't'), -1, 1]) }),
+    build: (_def, v, r) => ({ visual: { kind: 'sum', text: `${v.n} × ${v.t}` }, ...numberChoices(r, n(v, 'answer'), 150, [-n(v, 't'), n(v, 't'), -1, 1]) }),
   },
   // Minutes in hours, or seconds in minutes
   'time-units': {

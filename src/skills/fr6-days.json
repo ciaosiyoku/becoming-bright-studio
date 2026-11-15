@@ -6,7 +6,7 @@
   "ages": [
     "4-5"
   ],
-  "order": 9,
+  "order": 15,
   "only": "en",
   "params": {
     "emojis": [
@@ -26,7 +26,6 @@
       "calendar",
       "calendar",
       "sun",
-      "moon",
       "clock",
       "party",
       "letters",
@@ -154,13 +153,6 @@
           "tomorrow",
           "yesterday",
           "Aujourd’hui means today."
-        ],
-        [
-          "What does “demain” mean?",
-          "tomorrow",
-          "yesterday",
-          "Sunday",
-          "Demain means tomorrow, the day after today."
         ],
         [
           "What does “hier” mean?",

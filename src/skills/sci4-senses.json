@@ -2,11 +2,11 @@
   "id": "sci4-senses",
   "kind": "bank",
   "subject": "science",
-  "stage": 0,
+  "stage": 2,
   "ages": [
     "6-7"
   ],
-  "order": 22,
+  "order": 18,
   "params": {
     "emojis": [
       "radio",
@@ -18,7 +18,6 @@
       "storm",
       "animal-mouse",
       "fruit-peach",
-      "fruit-watermelon",
       "telephone",
       "speech",
       "droplet",
@@ -35,7 +34,6 @@
       "paws",
       "animal-elephant",
       "girl",
-      "sun",
       "animal-honeybee",
       "chick",
       "thermometer"
@@ -104,13 +102,6 @@
           "a dirty sock",
           "a smelly bin",
           "A ripe peach smells sweet. Dirty socks and bins smell bad."
-        ],
-        [
-          "How does a ripe watermelon taste?",
-          "sweet",
-          "salty",
-          "spicy",
-          "Ripe watermelon is juicy and sweet."
         ],
         [
           "Close your eyes. Can you still hear the phone ring?",
@@ -225,13 +216,6 @@
           "You have two ears, one on each side of your head."
         ],
         [
-          "Why should you never look straight at the sun?",
-          "it can hurt your eyes",
-          "it makes you taller",
-          "it turns your hair green",
-          "The sun is so bright that it can hurt your eyes."
-        ],
-        [
           "Which of these feels sticky?",
           "honey",
           "a dry leaf",
@@ -316,13 +300,6 @@
           "ein schmutziger Socken",
           "ein stinkender Mülleimer",
           "Ein reifer Pfirsich riecht süß. Schmutzige Socken und Mülleimer stinken."
-        ],
-        [
-          "Wie schmeckt eine reife Wassermelone?",
-          "süß",
-          "salzig",
-          "scharf",
-          "Eine reife Wassermelone ist saftig und süß."
         ],
         [
           "Mach die Augen zu. Hörst du das Telefon noch klingeln?",
@@ -437,13 +414,6 @@
           "Du hast zwei Ohren, an jeder Seite vom Kopf eins."
         ],
         [
-          "Warum solltest du nie direkt in die Sonne schauen?",
-          "es kann den Augen schaden",
-          "man wird davon größer",
-          "die Haare werden grün",
-          "Die Sonne ist so hell, dass sie den Augen schaden kann."
-        ],
-        [
           "Was davon fühlt sich klebrig an?",
           "Honig",
           "ein trockenes Blatt",
@@ -528,13 +498,6 @@
           "une chaussette sale",
           "une poubelle qui pue",
           "Une pêche mûre sent bon. Les chaussettes sales et les poubelles sentent mauvais."
-        ],
-        [
-          "Quel goût a une pastèque bien mûre ?",
-          "sucré",
-          "salé",
-          "piquant",
-          "Une pastèque mûre est juteuse et sucrée."
         ],
         [
           "Ferme les yeux. Entends-tu encore le téléphone sonner ?",
@@ -649,13 +612,6 @@
           "Tu as deux oreilles, une de chaque côté de la tête."
         ],
         [
-          "Pourquoi ne faut-il jamais regarder le soleil en face ?",
-          "ça peut abîmer mes yeux",
-          "ça fait grandir",
-          "ça rend les cheveux verts",
-          "Le soleil est si fort qu’il peut abîmer tes yeux."
-        ],
-        [
           "Qu’est-ce qui colle aux doigts ?",
           "du miel",
           "une feuille sèche",
@@ -740,13 +696,6 @@
           "ìbọ̀sẹ̀ tó dọ̀tí",
           "àpò ìdọ̀tí tó ń rùn",
           "Píìṣì tó pọ́n ní òórùn dídùn. Ìbọ̀sẹ̀ dídọ̀tí àti ìdọ̀tí ń rùn."
-        ],
-        [
-          "Báwo ni bàrà olómi tó pọ́n ṣe rí lẹ́nu?",
-          "ó dùn",
-          "ó ní iyọ̀",
-          "ó ta bí ata",
-          "Bàrà olómi tó pọ́n kún fún omi, ó sì dùn."
         ],
         [
           "Di ojú rẹ. Ṣé o ṣì lè gbọ́ tí fóònù ń dún?",
@@ -859,13 +808,6 @@
           "mẹ́rin",
           "mẹ́wàá",
           "O ní etí méjì, ọ̀kan ní ẹ̀gbẹ́ kọ̀ọ̀kan orí rẹ."
-        ],
-        [
-          "Kí ló dé tí o kò gbọdọ̀ wo oòrùn tààrà?",
-          "ó lè ṣe ojú rẹ léṣe",
-          "ó máa mú ọ ga",
-          "ó máa sọ irun rẹ di àwọ̀ ewé",
-          "Oòrùn mọ́lẹ̀ gan-an débi pé ó lè ṣe ojú rẹ léṣe."
         ],
         [
           "Èwo nínú ìwọ̀nyí ló ń lẹ̀ mọ́ ọwọ́?",

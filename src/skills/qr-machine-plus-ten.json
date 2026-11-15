@@ -2,7 +2,7 @@
   "id": "qr-machine-plus-ten",
   "kind": "qr-machine",
   "subject": "quantitative",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
@@ -15,6 +15,28 @@
     "ins": [
       0,
       40
+    ],
+    "avoid": [
+      "136d4d7e",
+      "34542b72",
+      "3a831f7a",
+      "53bbbf22",
+      "5d22af12",
+      "634144d2",
+      "640bab96",
+      "6b1f658a",
+      "7efb1866",
+      "880d002e",
+      "9adb825e",
+      "a5d0f6d6",
+      "ac4b2bde",
+      "afb6372e",
+      "afbe41a2",
+      "da84a646",
+      "e31f2a3a",
+      "e3c1db12",
+      "f89af872",
+      "fe26c5ca"
     ]
   },
   "emoji": "gear",

@@ -2,11 +2,11 @@
   "id": "fr8-jobs",
   "kind": "bank",
   "subject": "french",
-  "stage": 4,
+  "stage": 5,
   "ages": [
     "8-9"
   ],
-  "order": 43,
+  "order": 41,
   "only": "en",
   "params": {
     "emojis": [

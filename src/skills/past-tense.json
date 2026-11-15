@@ -2,11 +2,11 @@
   "id": "past-tense",
   "kind": "past",
   "subject": "words",
-  "stage": 3,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 35,
+  "order": 36,
   "only": "en",
   "params": {
     "pairs": [

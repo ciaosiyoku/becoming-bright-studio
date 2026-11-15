@@ -39,7 +39,9 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
   const week = lastDays(child, today)
   const weekday = new Intl.DateTimeFormat(lang, { weekday: 'narrow' })
   const stateOf = (subject: Subject) => subjectState(state.family, child, subject, today)
-  const current = child.current ? skillById(child.current) : undefined
+  // The skill to go back to, if it is still one for the child's age (the age may have changed since).
+  const saved = child.current ? skillById(child.current) : undefined
+  const current = saved && suitsAge(saved, child.age) ? saved : undefined
   const [view, setView] = useState<View>({ name: 'subjects' })
   // Each view starts at its top (the tab scrolls as one page, App's Shell): a subject, a skill or the stickers.
   const page = useRef<HTMLElement>(null)

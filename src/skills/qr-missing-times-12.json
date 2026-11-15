@@ -13,18 +13,19 @@
     "ops": [
       "mul"
     ],
-    "mulMax": 12
+    "mulMax": 12,
+    "above": 100
   },
   "emoji": "chart",
   "example": {
     "op": "mul",
-    "a": 3,
-    "b": 4,
-    "c": 12,
+    "a": 10,
+    "b": 11,
+    "c": 110,
     "blank": "first",
-    "answer": 3,
-    "shown": "? × 4 = 12",
-    "full": "3 × 4 = 12"
+    "answer": 10,
+    "shown": "? × 11 = 110",
+    "full": "10 × 11 = 110"
   },
   "text": {
     "en": {

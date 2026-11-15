@@ -2,25 +2,25 @@
   "id": "seq-back-fives-tens",
   "kind": "sequence",
   "subject": "patterns",
-  "stage": 2,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 41,
+  "order": 36,
   "params": {
     "steps": [
       -5,
       -10
     ],
     "start": [
-      0,
-      20
+      50,
+      150
     ]
   },
   "emoji": "chart",
   "example": {
-    "items": "20, 15, 10, 5",
-    "answer": 0,
+    "items": "77, 72, 67, 62",
+    "answer": 57,
     "steps": "−5   −5   −5   −5"
   },
   "text": {

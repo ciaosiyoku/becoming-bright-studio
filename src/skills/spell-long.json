@@ -2,11 +2,11 @@
   "id": "spell-long",
   "kind": "spelling",
   "subject": "words",
-  "stage": 3,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 34,
+  "order": 35,
   "only": "en",
   "params": {
     "words": [
@@ -222,6 +222,38 @@
         "coconut",
         "fruit-coconut"
       ]
+    ],
+    "avoid": [
+      "0cb4f5a4",
+      "15627f41",
+      "20698a39",
+      "209dd939",
+      "274bb071",
+      "3545bcb9",
+      "42c7c909",
+      "62de19c7",
+      "6b502a37",
+      "6c737f28",
+      "814acf36",
+      "8e882b0c",
+      "97847919",
+      "9c53b385",
+      "a88925aa",
+      "a9ce8b2b",
+      "add233fa",
+      "b28783e2",
+      "b4e3df29",
+      "b5f33dbf",
+      "bec7e237",
+      "bf212981",
+      "c2632459",
+      "c2d15880",
+      "cdb41d58",
+      "d73b0e75",
+      "eea55a27",
+      "f9f31411",
+      "fb328224",
+      "fd0f92cb"
     ]
   },
   "emoji": "memo",

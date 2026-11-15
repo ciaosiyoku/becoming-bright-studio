@@ -4,47 +4,101 @@
   "subject": "patterns",
   "stage": 2,
   "ages": [
-    "4-5"
+    "6-7"
   ],
-  "order": 2,
+  "order": 22,
   "params": {
     "steps": [
       1,
       2
     ],
     "start": [
-      0,
-      20
+      20,
+      60
+    ],
+    "avoid": [
+      "010e0083",
+      "06c05c1d",
+      "0a864414",
+      "114d8593",
+      "19afc433",
+      "19dada16",
+      "24f5de36",
+      "2b10a30d",
+      "2e211664",
+      "305f58f4",
+      "325b9bbe",
+      "368c7b77",
+      "38cc7b0a",
+      "3b789297",
+      "4566cd5b",
+      "478307ec",
+      "4cd02b3f",
+      "5533dd46",
+      "59e9e602",
+      "5bbafada",
+      "5e63789d",
+      "5e94f64a",
+      "62adc7fb",
+      "68a0d017",
+      "6fb5df65",
+      "731be805",
+      "739ba7a0",
+      "808a16a5",
+      "83f123f4",
+      "840a8d78",
+      "8722a8fe",
+      "8ab4069a",
+      "a22f24c8",
+      "a8d7e262",
+      "a8e0e35d",
+      "a910f9d6",
+      "aa7ecd1a",
+      "ad40c092",
+      "b62b9c3c",
+      "b90d6873",
+      "c25d8f99",
+      "c346cfa5",
+      "c5595e69",
+      "cbfb461c",
+      "d6b64e0c",
+      "d9737748",
+      "e46f792b",
+      "e616c6e1",
+      "ea485187",
+      "ed5c7da1",
+      "f1b866a5",
+      "f42b2afb"
     ]
   },
   "emoji": "footprints",
   "example": {
-    "items": "4, 6, 8, 10",
-    "answer": 12,
-    "steps": "+2   +2   +2   +2"
+    "items": "58, 59, 60, 61",
+    "answer": 62,
+    "steps": "+1   +1   +1   +1"
   },
   "text": {
     "en": {
       "title": "Counting on in 1s and 2s",
-      "teach": "Some number lines go up by the same step each time. 4, 6, 8, 10: each step is +2, so next comes 12.",
+      "teach": "Find the step by taking each number from the next. {items}: the steps are {steps}, so next comes {answer}.",
       "prompt": "Which number comes next?",
       "reason": "The steps are {steps}, so the next number is {answer}."
     },
     "de": {
       "title": "Weiterzählen in Einer- und Zweierschritten",
-      "teach": "Manche Zahlenreihen gehen jedes Mal um denselben Schritt weiter. 4, 6, 8, 10: Jeder Schritt ist +2, also kommt als Nächstes 12.",
+      "teach": "Finde den Schritt, indem du jede Zahl von der nächsten abziehst. {items}: Die Schritte sind {steps}, also kommt als Nächstes {answer}.",
       "prompt": "Welche Zahl kommt als Nächstes?",
       "reason": "Die Schritte sind {steps}, also ist die nächste Zahl {answer}."
     },
     "fr": {
       "title": "Compter de 1 en 1 et de 2 en 2",
-      "teach": "Certaines suites de nombres avancent toujours du même pas. 4, 6, 8, 10 : chaque pas est +2, donc ensuite vient 12.",
+      "teach": "Trouve le pas en enlevant chaque nombre du suivant. {items} : les pas sont {steps}, donc ensuite vient {answer}.",
       "prompt": "Quel nombre vient ensuite ?",
       "reason": "Les pas sont {steps}, donc le nombre suivant est {answer}."
     },
     "yo": {
       "title": "Kíkà síwájú ní 1 àti 2",
-      "teach": "Àwọn ìlà nọ́ńbà kan ń gòkè ní ìgbésẹ̀ kan náà nígbà gbogbo. 4, 6, 8, 10: ìgbésẹ̀ kọ̀ọ̀kan jẹ́ +2, nítorí náà 12 ló kàn.",
+      "teach": "Wá ìgbésẹ̀ náà nípa yíyọ nọ́ńbà kọ̀ọ̀kan kúrò nínú èyí tó tẹ̀lé e. {items}: àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà {answer} ló kàn.",
       "prompt": "Nọ́ńbà wo ló kàn?",
       "reason": "Àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà nọ́ńbà tó kàn ni {answer}."
     }

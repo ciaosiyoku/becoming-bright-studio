@@ -2,11 +2,11 @@
   "id": "sci-states",
   "kind": "bank",
   "subject": "science",
-  "stage": 3,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 36,
+  "order": 37,
   "params": {
     "emojis": [
       "snowflake",

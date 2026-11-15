@@ -2,11 +2,11 @@
   "id": "rhyme",
   "kind": "rhyme",
   "subject": "words",
-  "stage": 1,
+  "stage": 2,
   "ages": [
     "6-7"
   ],
-  "order": 18,
+  "order": 20,
   "only": "en",
   "params": {
     "families": [

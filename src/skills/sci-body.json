@@ -2,11 +2,11 @@
   "id": "sci-body",
   "kind": "bank",
   "subject": "science",
-  "stage": 1,
+  "stage": 2,
   "ages": [
     "6-7"
   ],
-  "order": 17,
+  "order": 22,
   "params": {
     "emojis": [
       "anatomical-heart",
@@ -29,7 +29,6 @@
       "fruit-apple",
       "cookie",
       "droplet",
-      "girl",
       "trophy",
       "footprints",
       "fog",
@@ -181,13 +180,6 @@
           "to turn your skin blue",
           "to make you shorter",
           "Much of your body is water. You lose some when you sweat and breathe, so you need to drink more."
-        ],
-        [
-          "What grows on top of your head?",
-          "hair",
-          "leaves",
-          "feathers",
-          "Hair grows on your head. It helps keep your head warm and shades it from the sun."
         ],
         [
           "What happens to your muscles when you play and exercise a lot?",
@@ -395,13 +387,6 @@
           "Dein Körper besteht zu einem großen Teil aus Wasser. Beim Schwitzen und Atmen verlierst du etwas davon, darum musst du trinken."
         ],
         [
-          "Was wächst oben auf deinem Kopf?",
-          "Haare",
-          "Blätter",
-          "Federn",
-          "Auf dem Kopf wachsen Haare. Sie halten den Kopf warm und schützen ihn vor der Sonne."
-        ],
-        [
           "Was passiert mit deinen Muskeln, wenn du viel spielst und dich bewegst?",
           "sie werden stärker",
           "sie verschwinden",
@@ -607,13 +592,6 @@
           "Ton corps contient beaucoup d’eau. Tu en perds quand tu transpires et respires, alors il faut boire."
         ],
         [
-          "Qu’est-ce qui pousse sur ta tête ?",
-          "des cheveux",
-          "des feuilles",
-          "des plumes",
-          "Des cheveux poussent sur la tête. Ils la gardent au chaud et la protègent du soleil."
-        ],
-        [
           "Que deviennent tes muscles si tu joues et bouges beaucoup ?",
           "ils deviennent plus forts",
           "ils disparaissent",
@@ -817,13 +795,6 @@
           "kí awọ ara rẹ lè di búlúù",
           "kí o lè kúrú sí i",
           "Omi pọ̀ gan-an nínú ara rẹ. O máa ń pàdánù díẹ̀ nígbà tí o bá ń làágùn tàbí mí, nítorí náà o gbọ́dọ̀ máa mu omi."
-        ],
-        [
-          "Kí ló ń hù lórí rẹ?",
-          "irun",
-          "ewé",
-          "ìyẹ́",
-          "Irun ń hù lórí. Ó ń jẹ́ kí orí móoru, ó sì ń dáàbò bò ó lọ́wọ́ oòrùn."
         ],
         [
           "Kí ló ń ṣẹlẹ̀ sí iṣan ara rẹ tí o bá ń ṣeré, tí o sì ń ṣe eré ìdárayá púpọ̀?",

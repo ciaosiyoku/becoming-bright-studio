@@ -2,11 +2,11 @@
   "id": "sci-lifecycles",
   "kind": "bank",
   "subject": "science",
-  "stage": 2,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 42,
+  "order": 35,
   "params": {
     "emojis": [
       "animal-frog",

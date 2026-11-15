@@ -2,7 +2,7 @@
   "id": "divide-2-5",
   "kind": "divide",
   "subject": "numbers",
-  "stage": 4,
+  "stage": 5,
   "ages": [
     "8-9"
   ],
@@ -11,13 +11,31 @@
     "dMin": 2,
     "dMax": 5,
     "qMin": 2,
-    "qMax": 10
+    "qMax": 10,
+    "avoid": [
+      "171837ca",
+      "17395414",
+      "22035e33",
+      "231ae145",
+      "3ae24772",
+      "531eeabd",
+      "54fee601",
+      "58379c48",
+      "5d1effaf",
+      "ad55742e",
+      "b17a72e9",
+      "b5036e05",
+      "ced33013",
+      "db64b7a8",
+      "e9737644",
+      "f7bbed95"
+    ]
   },
   "emoji": "cake",
   "example": {
-    "total": 15,
+    "total": 40,
     "d": 5,
-    "answer": 3
+    "answer": 8
   },
   "text": {
     "en": {

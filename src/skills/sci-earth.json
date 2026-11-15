@@ -2,11 +2,11 @@
   "id": "sci-earth",
   "kind": "bank",
   "subject": "science",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
-  "order": 20,
+  "order": 25,
   "params": {
     "emojis": [
       "globe",

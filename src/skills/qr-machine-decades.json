@@ -2,7 +2,7 @@
   "id": "qr-machine-decades",
   "kind": "qr-machine",
   "subject": "quantitative",
-  "stage": 6,
+  "stage": 7,
   "ages": [
     "10-12"
   ],
@@ -16,16 +16,48 @@
     "ins": [
       1,
       99
+    ],
+    "avoid": [
+      "01233e3b",
+      "11fe56cf",
+      "2d1345b8",
+      "2f21890a",
+      "36d3e6bf",
+      "37d065e7",
+      "3d4a85c4",
+      "4133d877",
+      "44193183",
+      "4c9ce413",
+      "59eef957",
+      "5c04667b",
+      "69edbd03",
+      "6cd00207",
+      "6ead2f30",
+      "8323aa87",
+      "8a00dfbf",
+      "92f13b88",
+      "93d7e5a3",
+      "9e163603",
+      "9f6ea43c",
+      "a5dfccc4",
+      "a63aed27",
+      "a64ff44c",
+      "ad734430",
+      "d049ec38",
+      "d476548b",
+      "d9ce865b",
+      "e3c77723",
+      "fc67fc57"
     ]
   },
   "emoji": "gear",
   "example": {
-    "in": 2,
+    "in": 46,
     "step1": "x10",
     "step2": "",
     "machine": "×10",
-    "answer": 20,
-    "working": "2 ×10 = 20"
+    "answer": 460,
+    "working": "46 ×10 = 460"
   },
   "text": {
     "en": {

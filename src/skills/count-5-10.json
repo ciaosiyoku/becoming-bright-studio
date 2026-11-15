@@ -6,45 +6,98 @@
   "ages": [
     "6-7"
   ],
-  "order": 19,
+  "order": 24,
   "params": {
     "steps": [
       5,
       10
     ],
     "start": [
-      0,
-      9
+      20,
+      90
+    ],
+    "avoid": [
+      "02451625",
+      "0848b321",
+      "0a8be885",
+      "0de3229a",
+      "0e0ab44d",
+      "18d05e18",
+      "1d407b21",
+      "25cfd71b",
+      "27825172",
+      "27ef6bf8",
+      "2ae2eb99",
+      "3123b75c",
+      "3159eea0",
+      "338f2600",
+      "3555350e",
+      "4244777f",
+      "43283e47",
+      "44bc57a8",
+      "49bd07da",
+      "5131b707",
+      "514d141e",
+      "5e7f2a56",
+      "5f82979d",
+      "735b7a32",
+      "796a0c5b",
+      "7c94b662",
+      "7cb1a98e",
+      "803f4a86",
+      "86b882d5",
+      "86c219a7",
+      "875a4037",
+      "8a8131c1",
+      "8b3d0e47",
+      "911aa40b",
+      "948fd794",
+      "9d088135",
+      "ad7aa4b4",
+      "b102d67c",
+      "b927de8a",
+      "bf481e42",
+      "c02b1aba",
+      "c6515d21",
+      "cb86b471",
+      "d0e5c010",
+      "dc62c173",
+      "dd78cc49",
+      "e97ea526",
+      "f95c3610",
+      "fb4e08af",
+      "fcab49d8",
+      "ffba3c33"
     ]
   },
   "emoji": "star",
   "example": {
-    "items": "0, 5, 10, 15",
-    "answer": 20,
+    "items": "45, 50, 55, 60",
+    "answer": 65,
     "steps": "+5   +5   +5   +5"
   },
   "text": {
     "en": {
       "title": "Counting in 5s and 10s",
-      "teach": "Counting in fives: 0, 5, 10, 15. Each step is +5, so next comes 20.",
+      "teach": "Find the step by taking each number from the next. {items}: the steps are {steps}, so next comes {answer}.",
       "prompt": "Which number comes next?",
       "reason": "The steps are {steps}, so the next number is {answer}."
     },
     "de": {
       "title": "Zählen in Fünfer- und Zehnerschritten",
-      "teach": "In Fünferschritten zählen: 0, 5, 10, 15. Jeder Schritt ist +5, also kommt als Nächstes 20.",
+      "teach": "Finde den Schritt, indem du jede Zahl von der nächsten abziehst. {items}: Die Schritte sind {steps}, also kommt als Nächstes {answer}.",
       "prompt": "Welche Zahl kommt als Nächstes?",
       "reason": "Die Schritte sind {steps}, also ist die nächste Zahl {answer}."
     },
     "fr": {
       "title": "Compter de 5 en 5 et de 10 en 10",
-      "teach": "Compter de 5 en 5 : 0, 5, 10, 15. Chaque pas est +5, donc ensuite vient 20.",
+      "teach": "Trouve le pas en enlevant chaque nombre du suivant. {items} : les pas sont {steps}, donc ensuite vient {answer}.",
       "prompt": "Quel nombre vient ensuite ?",
       "reason": "Les pas sont {steps}, donc le nombre suivant est {answer}."
     },
     "yo": {
       "title": "Kíkà ní 5 àti 10",
-      "teach": "Kíkà ní márùn-ún márùn-ún: 0, 5, 10, 15. Ìgbésẹ̀ kọ̀ọ̀kan jẹ́ +5, nítorí náà 20 ló kàn.",
+      "teach": "Wá ìgbésẹ̀ náà nípa yíyọ nọ́ńbà kọ̀ọ̀kan kúrò nínú èyí tó tẹ̀lé e. {items}: àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà {answer} ló kàn.",
       "prompt": "Nọ́ńbà wo ló kàn?",
       "reason": "Àwọn ìgbésẹ̀ náà jẹ́ {steps}, nítorí náà nọ́ńbà tó kàn ni {answer}."
     }

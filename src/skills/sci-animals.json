@@ -2,18 +2,17 @@
   "id": "sci-animals",
   "kind": "bank",
   "subject": "science",
-  "stage": 1,
+  "stage": 2,
   "ages": [
     "6-7"
   ],
-  "order": 18,
+  "order": 23,
   "params": {
     "emojis": [
       "paws",
       "chick",
       "animal-cow",
       "animal-spouting-whale",
-      "animal-lady-beetle",
       "animal-parrot",
       "animal-shark",
       "animal-bat",
@@ -22,7 +21,6 @@
       "droplet",
       "polarbear",
       "animal-camel",
-      "seedling",
       "snake",
       "animal-turtle",
       "animal-frog",
@@ -69,13 +67,6 @@
           "fish",
           "insects",
           "A whale lives in the sea, but it breathes air and feeds its baby milk, so it is a mammal."
-        ],
-        [
-          "How many legs does an insect have?",
-          "six",
-          "eight",
-          "four",
-          "Every insect has six legs. A ladybird is an insect. Spiders have eight legs, so they are not insects."
         ],
         [
           "What covers a bird’s body?",
@@ -132,13 +123,6 @@
           "its babies",
           "snow, to cool down",
           "A camel’s hump stores fat. When food is hard to find in the desert, the camel uses this fat for energy."
-        ],
-        [
-          "What does a caterpillar turn into?",
-          "a butterfly",
-          "a bird",
-          "a fish",
-          "A caterpillar eats lots of leaves, then makes a hard case around itself. Later a butterfly comes out."
         ],
         [
           "What covers a snake’s body?",
@@ -283,13 +267,6 @@
           "Ein Wal lebt im Meer, aber er atmet Luft und gibt seinem Jungen Milch. Also ist er ein Säugetier."
         ],
         [
-          "Wie viele Beine hat ein Insekt?",
-          "sechs",
-          "acht",
-          "vier",
-          "Jedes Insekt hat sechs Beine. Ein Marienkäfer ist ein Insekt. Spinnen haben acht Beine, also sind sie keine Insekten."
-        ],
-        [
           "Was bedeckt den Körper eines Vogels?",
           "Federn",
           "Fell",
@@ -344,13 +321,6 @@
           "seine Jungen",
           "Schnee zum Abkühlen",
           "Im Höcker eines Kamels ist Fett. Wenn es in der Wüste wenig Futter gibt, holt sich das Kamel daraus Kraft."
-        ],
-        [
-          "Was wird aus einer Raupe?",
-          "ein Schmetterling",
-          "ein Vogel",
-          "ein Fisch",
-          "Eine Raupe frisst viele Blätter und baut sich dann eine harte Hülle. Später schlüpft daraus ein Schmetterling."
         ],
         [
           "Was bedeckt den Körper einer Schlange?",
@@ -495,13 +465,6 @@
           "La baleine vit dans la mer, mais elle respire de l’air et donne du lait à son petit : c’est un mammifère."
         ],
         [
-          "Combien de pattes a un insecte ?",
-          "six",
-          "huit",
-          "quatre",
-          "Tous les insectes ont six pattes. La coccinelle est un insecte. Les araignées ont huit pattes : ce ne sont pas des insectes."
-        ],
-        [
           "Qu’est-ce qui couvre le corps d’un oiseau ?",
           "des plumes",
           "des poils",
@@ -556,13 +519,6 @@
           "ses petits",
           "de la neige pour se rafraîchir",
           "La bosse du chameau contient de la graisse. Quand il trouve peu à manger dans le désert, il y puise son énergie."
-        ],
-        [
-          "Que devient une chenille ?",
-          "un papillon",
-          "un oiseau",
-          "un poisson",
-          "La chenille mange beaucoup de feuilles, puis elle s’enferme dans une coque dure. Plus tard, un papillon en sort."
         ],
         [
           "Qu’est-ce qui couvre le corps d’un serpent ?",
@@ -707,13 +663,6 @@
           "Àbùùbùtán ń gbé inú òkun, ṣùgbọ́n ó ń mí afẹ́fẹ́, ó sì ń fún ọmọ rẹ̀ ní wàrà ọmú, nítorí náà ẹranko afọmúbọ́mọ ni."
         ],
         [
-          "Ẹsẹ̀ mélòó ni kòkòrò ní?",
-          "mẹ́fà",
-          "mẹ́jọ",
-          "mẹ́rin",
-          "Gbogbo kòkòrò ló ní ẹsẹ̀ mẹ́fà. Aláǹtakùn ní ẹsẹ̀ mẹ́jọ, nítorí náà kì í ṣe kòkòrò."
-        ],
-        [
           "Kí ló bo ara ẹyẹ?",
           "ìyẹ́",
           "irun",
@@ -768,13 +717,6 @@
           "àwọn ọmọ rẹ̀",
           "yìnyín, kí ara rẹ̀ lè tutù",
           "Ọ̀rá ló wà nínú iké ẹ̀yìn ràkúnmí. Nígbà tí oúnjẹ bá wọ́n nínú aṣálẹ̀, ràkúnmí ń lo ọ̀rá yìí fún agbára."
-        ],
-        [
-          "Kí ni ìdin tó ń jẹ ewé máa dà?",
-          "labalábá",
-          "ẹyẹ",
-          "ẹja",
-          "Ìdin náà ń jẹ ewé púpọ̀, lẹ́yìn náà ó máa ṣe ìkarahun líle yí ara rẹ̀ ká. Lẹ́yìn ìgbà díẹ̀, labalábá máa jáde."
         ],
         [
           "Kí ló bo ara ejò?",

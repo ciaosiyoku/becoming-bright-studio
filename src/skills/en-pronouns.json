@@ -2,11 +2,11 @@
   "id": "en-pronouns",
   "kind": "bank",
   "subject": "words",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
-  "order": 25,
+  "order": 27,
   "only": "en",
   "params": {
     "emojis": [

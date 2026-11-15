@@ -43,7 +43,7 @@
   },
   "text": {
     "en": {
-      "title": "Number words",
+      "title": "Pair, dozen, score: number words",
       "teach": "A pair is 2, a dozen 12, a score 20. From smallest to biggest: {order}. The biggest number is {answer}.",
       "prompt": "Which is the biggest number?",
       "prompts": {

@@ -2,11 +2,11 @@
   "id": "seq-fives-any",
   "kind": "sequence",
   "subject": "patterns",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
-  "order": 31,
+  "order": 25,
   "params": {
     "steps": [
       5
@@ -14,6 +14,23 @@
     "start": [
       1,
       40
+    ],
+    "avoid": [
+      "0a8d2776",
+      "1ddd80ba",
+      "4d25b8e1",
+      "4de19844",
+      "72a1458f",
+      "8a10f04f",
+      "93887003",
+      "9bc3b78a",
+      "a336cd18",
+      "a9374a49",
+      "bbb60624",
+      "d9be3f63",
+      "e098d680",
+      "efada58b",
+      "face1b0d"
     ]
   },
   "emoji": "chart",

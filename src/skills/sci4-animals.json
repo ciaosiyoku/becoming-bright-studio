@@ -2,11 +2,11 @@
   "id": "sci4-animals",
   "kind": "bank",
   "subject": "science",
-  "stage": 0,
+  "stage": 2,
   "ages": [
     "6-7"
   ],
-  "order": 23,
+  "order": 19,
   "params": {
     "emojis": [
       "wave",
@@ -20,9 +20,7 @@
       "animal-rabbit",
       "animal-frog",
       "animal-owl",
-      "animal-lion",
       "animal-dolphin",
-      "animal-koala",
       "animal-snail",
       "animal-crab",
       "animal-hedgehog",
@@ -120,25 +118,11 @@
           "Owls hunt at night and rest in trees or barns in the day."
         ],
         [
-          "What does a lion eat?",
-          "meat",
-          "grass",
-          "bananas",
-          "Lions hunt other animals and eat meat."
-        ],
-        [
           "How does a dolphin move?",
           "it swims",
           "it walks",
           "it flies",
           "Dolphins swim fast through the sea with their tails."
-        ],
-        [
-          "What does a koala eat?",
-          "leaves",
-          "fish",
-          "meat",
-          "Koalas live in gum trees and eat their leaves."
         ],
         [
           "How does a snail move?",
@@ -332,25 +316,11 @@
           "Eulen jagen nachts. Am Tag ruhen sie auf Bäumen oder in Scheunen."
         ],
         [
-          "Was frisst ein Löwe?",
-          "Fleisch",
-          "Gras",
-          "Bananen",
-          "Löwen jagen andere Tiere und fressen Fleisch."
-        ],
-        [
           "Wie bewegt sich ein Delfin?",
           "er schwimmt",
           "er läuft",
           "er fliegt",
           "Delfine schwimmen mit ihrer Schwanzflosse schnell durchs Meer."
-        ],
-        [
-          "Was frisst ein Koala?",
-          "Blätter",
-          "Fisch",
-          "Fleisch",
-          "Koalas leben auf Eukalyptusbäumen und fressen deren Blätter."
         ],
         [
           "Wie bewegt sich eine Schnecke?",
@@ -544,25 +514,11 @@
           "La chouette chasse la nuit et se repose le jour dans un arbre ou une grange."
         ],
         [
-          "Que mange le lion ?",
-          "de la viande",
-          "de l’herbe",
-          "des bananes",
-          "Le lion chasse d’autres animaux et mange de la viande."
-        ],
-        [
           "Comment se déplace le dauphin ?",
           "il nage",
           "il marche",
           "il vole",
           "Le dauphin nage vite dans la mer grâce à sa queue."
-        ],
-        [
-          "Que mange le koala ?",
-          "des feuilles",
-          "du poisson",
-          "de la viande",
-          "Le koala vit dans les eucalyptus et mange leurs feuilles."
         ],
         [
           "Comment avance l’escargot ?",
@@ -756,25 +712,11 @@
           "Òwìwí ń ṣọdẹ ní òru, ó sì ń sinmi lórí igi ní ọ̀sán."
         ],
         [
-          "Kí ni kìnnìún ń jẹ?",
-          "ẹran",
-          "koríko",
-          "ọ̀gẹ̀dẹ̀",
-          "Kìnnìún ń ṣọdẹ àwọn ẹranko mìíràn, ó sì ń jẹ ẹran."
-        ],
-        [
           "Báwo ni ẹja àbùùbùtán dọ́fínì ṣe ń rìn?",
           "ó ń lúwẹ̀",
           "ó ń fi ẹsẹ̀ rìn",
           "ó ń fò",
           "Dọ́fínì ń fi ìrù rẹ̀ lúwẹ̀ kíákíá nínú òkun."
-        ],
-        [
-          "Kí ni kòálà ń jẹ?",
-          "ewé",
-          "ẹja",
-          "ẹran",
-          "Kòálà ń gbé lórí igi yúkálíptọ́sì, ó sì ń jẹ ewé rẹ̀."
         ],
         [
           "Báwo ni ìgbín ṣe ń rìn?",

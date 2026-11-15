@@ -2,13 +2,14 @@
   "id": "after-20",
   "kind": "neighbour",
   "subject": "numbers",
-  "stage": 1,
+  "stage": 2,
   "ages": [
     "6-7"
   ],
   "order": 20,
   "params": {
-    "max": 20
+    "max": 20,
+    "above": 10
   },
   "emoji": "footprints",
   "example": {

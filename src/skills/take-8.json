@@ -2,19 +2,36 @@
   "id": "take-8",
   "kind": "subtract",
   "subject": "numbers",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 14,
+  "order": 12,
   "params": {
-    "max": 8
+    "max": 8,
+    "avoid": [
+      "07f43bfe",
+      "082b34a6",
+      "0c3c4812",
+      "1092585e",
+      "367e5136",
+      "36fbcfbc",
+      "62aad766",
+      "82fee462",
+      "85f97e8a",
+      "98f5d4b0",
+      "ad0d0bce",
+      "d040b616",
+      "dc365ea2",
+      "f80e59ba",
+      "fb46bea8"
+    ]
   },
   "emoji": "animal-penguin",
   "example": {
-    "a": 2,
-    "b": 1,
-    "answer": 1
+    "a": 7,
+    "b": 5,
+    "answer": 2
   },
   "text": {
     "en": {

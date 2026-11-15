@@ -85,7 +85,17 @@
           "the Earth"
         ]
       ]
-    }
+    },
+    "avoid": [
+      "1b37d98e",
+      "1d98805b",
+      "26903bc6",
+      "5f274c24",
+      "76c5bda9",
+      "8431c837",
+      "8cc175f4",
+      "dab11a01"
+    ]
   },
   "emoji": "globe",
   "example": {

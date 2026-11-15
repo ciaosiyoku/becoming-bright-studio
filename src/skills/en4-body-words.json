@@ -2,11 +2,11 @@
   "id": "en4-body-words",
   "kind": "bank",
   "subject": "words",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 16,
+  "order": 15,
   "only": "en",
   "params": {
     "emojis": [

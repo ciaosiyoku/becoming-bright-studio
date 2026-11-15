@@ -2,11 +2,11 @@
   "id": "alphabet",
   "kind": "alphabet",
   "subject": "words",
-  "stage": 3,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 36,
+  "order": 37,
   "only": "en",
   "params": {
     "words": [

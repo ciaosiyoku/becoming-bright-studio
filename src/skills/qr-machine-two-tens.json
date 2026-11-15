@@ -2,7 +2,7 @@
   "id": "qr-machine-two-tens",
   "kind": "qr-machine",
   "subject": "quantitative",
-  "stage": 6,
+  "stage": 7,
   "ages": [
     "10-12"
   ],
@@ -20,6 +20,11 @@
     "ins": [
       2,
       20
+    ],
+    "avoid": [
+      "0c3a32b8",
+      "496e6c0d",
+      "ffaec31b"
     ]
   },
   "emoji": "gear",

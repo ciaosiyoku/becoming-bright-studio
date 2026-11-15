@@ -2,11 +2,11 @@
   "id": "fr8-family-more",
   "kind": "bank",
   "subject": "french",
-  "stage": 4,
+  "stage": 5,
   "ages": [
     "8-9"
   ],
-  "order": 46,
+  "order": 44,
   "only": "en",
   "params": {
     "emojis": [

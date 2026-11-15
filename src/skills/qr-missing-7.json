@@ -2,34 +2,67 @@
   "id": "qr-missing-7",
   "kind": "qr-balance",
   "subject": "quantitative",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 13,
+  "order": 12,
   "only": "en",
   "params": {
     "max": 7,
     "ops": [
       "add",
       "sub"
+    ],
+    "above": 5,
+    "avoid": [
+      "08b59088",
+      "0acca440",
+      "0b869ac8",
+      "1644863c",
+      "1a9cad56",
+      "2b24f0c6",
+      "2f445b9a",
+      "32749598",
+      "3e2ec24c",
+      "3fa02ce8",
+      "417f0f72",
+      "4d6723d2",
+      "5fbdfee2",
+      "6994f420",
+      "721a7ee0",
+      "728d6a50",
+      "763c8146",
+      "7c9fb23c",
+      "8e87ee52",
+      "90c8e026",
+      "9778755a",
+      "a8c1e814",
+      "b0ea7194",
+      "b505c94e",
+      "cf429b8e",
+      "d9b50d5a",
+      "dcbada2a",
+      "eb5dcbcc",
+      "f6ff8092",
+      "f7d82348"
     ]
   },
   "emoji": "abacus",
   "example": {
     "op": "sub",
-    "a": 2,
-    "b": 2,
+    "a": 6,
+    "b": 6,
     "c": 0,
     "blank": "second",
-    "answer": 2,
-    "shown": "2 − ? = 0",
-    "full": "2 − 2 = 0"
+    "answer": 6,
+    "shown": "6 − ? = 0",
+    "full": "6 − 6 = 0"
   },
   "text": {
     "en": {
       "title": "Missing numbers to 7",
-      "teach": "Something is hiding behind the ?. {shown}: which number and 2 make 5? 3, because {full}.",
+      "teach": "Something is hiding behind the ?. Try numbers until the sum is true: {shown}, and {full}.",
       "prompt": "What is the missing number?",
       "reason": "{full}, so the missing number is {answer}."
     }

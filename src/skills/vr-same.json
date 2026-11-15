@@ -2,7 +2,7 @@
   "id": "vr-same",
   "kind": "vr-analogy",
   "subject": "verbal",
-  "stage": 4,
+  "stage": 5,
   "ages": [
     "8-9"
   ],
@@ -48,15 +48,37 @@
           "angry"
         ]
       ]
-    }
+    },
+    "avoid": [
+      "07d32a41",
+      "08bf26c8",
+      "2835c732",
+      "2a08aab1",
+      "41870924",
+      "43e4c5de",
+      "4dc997f9",
+      "5ce58c46",
+      "6a22803b",
+      "6a5fa12e",
+      "89cc2552",
+      "a1550960",
+      "a4baa75b",
+      "a7cbb01d",
+      "adfc4035",
+      "b32dd6e8",
+      "c4437930",
+      "e2af00f0",
+      "fcb6fd12",
+      "ff1ee7ed"
+    ]
   },
   "emoji": "speech",
   "example": {
     "rule": "same",
     "a": "big",
     "b": "large",
-    "c": "quick",
-    "answer": "fast"
+    "c": "tiny",
+    "answer": "small"
   },
   "text": {
     "en": {

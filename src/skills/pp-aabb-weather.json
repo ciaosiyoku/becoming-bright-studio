@@ -2,11 +2,11 @@
   "id": "pp-aabb-weather",
   "kind": "picture-pattern",
   "subject": "patterns",
-  "stage": 2,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 37,
+  "order": 33,
   "params": {
     "rules": [
       "AABB"
@@ -20,6 +20,14 @@
       "storm",
       "glowstar",
       "snow"
+    ],
+    "avoid": [
+      "014bb2ae",
+      "26a26933",
+      "4912023e",
+      "4b94db59",
+      "999ac2c9",
+      "a10b6783"
     ]
   },
   "emoji": "sun",

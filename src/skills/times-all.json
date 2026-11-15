@@ -2,53 +2,46 @@
   "id": "times-all",
   "kind": "times",
   "subject": "numbers",
-  "stage": 4,
+  "stage": 6,
   "ages": [
     "10-12"
   ],
   "order": 49,
   "params": {
     "tables": [
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ]
+      12
+    ],
+    "upTo": 12
   },
   "emoji": "star",
   "example": {
-    "n": 7,
-    "t": 6,
-    "answer": 42,
-    "counting": "6, 12, 18, 24, 30, 36, 42"
+    "n": 4,
+    "t": 12,
+    "answer": 48,
+    "counting": "12, 24, 36, 48"
   },
   "text": {
     "en": {
-      "title": "All times tables to 10 × 10",
-      "teach": "7 × 6 means 7 sixes. Count in sixes 7 times: 6, 12, 18, 24, 30, 36, 42.",
+      "title": "The 12 times table",
+      "teach": "{n} × {t} means {n} lots of {t}. Count in steps of {t}, {n} times: {counting}.",
       "prompt": "What is {n} × {t}?",
       "reason": "Count in {t}s {n} times: {counting}."
     },
     "de": {
-      "title": "Das ganze Einmaleins bis 10 × 10",
-      "teach": "7 × 6 heißt siebenmal die 6. Zähl siebenmal in Sechserschritten: 6, 12, 18, 24, 30, 36, 42.",
+      "title": "Das 12er-Einmaleins",
+      "teach": "{n} × {t} heißt {n}-mal die {t}. Zähl {n}-mal in {t}er-Schritten: {counting}.",
       "prompt": "Was ist {n} × {t}?",
       "reason": "Zähl {n}-mal in {t}er-Schritten: {counting}."
     },
     "fr": {
-      "title": "Toutes les tables jusqu’à 10 × 10",
-      "teach": "7 × 6, c’est 7 fois 6. Compte de 6 en 6, 7 fois : 6, 12, 18, 24, 30, 36, 42.",
+      "title": "La table de 12",
+      "teach": "{n} × {t}, c’est {n} fois {t}. Compte de {t} en {t}, {n} fois : {counting}.",
       "prompt": "Combien font {n} × {t} ?",
       "reason": "Compte de {t} en {t}, {n} fois : {counting}."
     },
     "yo": {
-      "title": "Gbogbo tábìlì títí dé 10 × 10",
-      "teach": "7 × 6 túmọ̀ sí mẹ́fà méje. Kà ní mẹ́fà mẹ́fà ní ìgbà méje: 6, 12, 18, 24, 30, 36, 42.",
+      "title": "Tábìlì ìsọdipúpọ̀ 12",
+      "teach": "{n} × {t} túmọ̀ sí {t} ní ìgbà {n}. Kà ní ìgbésẹ̀ {t}, ìgbà {n}: {counting}.",
       "prompt": "Kí ni {n} × {t}?",
       "reason": "Kà ní {t} {t} ní ìgbà {n}: {counting}."
     }

@@ -109,20 +109,21 @@ export const REASON_CALC: Record<ReasonKind, Calc> = {
           const b = int(r, 1, a - 1)
           return { ...base, a, b, answer: a - b }
         }
+        // Times and sharing: the biggest number (a × b, or the things shared) is at most max, factors up to 12.
         case 'times': {
-          const a = int(r, 2, 10)
-          const b = int(r, 2, 10)
+          const a = int(r, 2, Math.min(12, Math.floor(max / 2)))
+          const b = int(r, 2, Math.min(12, Math.floor(max / a)))
           return { ...base, a, b, answer: a * b }
         }
         case 'share': {
-          const b = int(r, 2, 10)
-          const each = int(r, 2, 10)
+          const b = int(r, 2, Math.min(12, Math.floor(max / 2)))
+          const each = int(r, 2, Math.min(12, Math.floor(max / b)))
           return { ...base, a: b * each, b, answer: each }
         }
         default: {
           // unit: a things cost c pence: how much do b cost?
           const a = int(r, 2, 6)
-          const price = int(r, 2, 12)
+          const price = int(r, 2, Math.max(12, Math.floor(max / 9)))
           let b = int(r, 2, 9)
           if (b === a) b = a + 1
           return { ...base, a, b, c: a * price, answer: b * price, price }

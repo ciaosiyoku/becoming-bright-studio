@@ -2,11 +2,11 @@
   "id": "contractions",
   "kind": "contraction",
   "subject": "words",
-  "stage": 4,
+  "stage": 5,
   "ages": [
     "8-9"
   ],
-  "order": 38,
+  "order": 41,
   "only": "en",
   "params": {
     "pairs": [

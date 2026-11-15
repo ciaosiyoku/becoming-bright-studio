@@ -2,11 +2,11 @@
   "id": "after-10",
   "kind": "neighbour",
   "subject": "numbers",
-  "stage": 0,
+  "stage": 1,
   "ages": [
-    "6-7"
+    "4-5"
   ],
-  "order": 22,
+  "order": 14,
   "params": {
     "max": 10
   },

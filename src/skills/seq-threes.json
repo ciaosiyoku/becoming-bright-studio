@@ -2,11 +2,11 @@
   "id": "seq-threes",
   "kind": "sequence",
   "subject": "patterns",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
-  "order": 25,
+  "order": 29,
   "params": {
     "steps": [
       3

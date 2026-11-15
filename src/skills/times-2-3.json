@@ -2,11 +2,11 @@
   "id": "times-2-3",
   "kind": "times",
   "subject": "numbers",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
-  "order": 25,
+  "order": 28,
   "params": {
     "tables": [
       2,

@@ -2,11 +2,11 @@
   "id": "fr8-ir-verbs",
   "kind": "bank",
   "subject": "french",
-  "stage": 4,
+  "stage": 5,
   "ages": [
     "8-9"
   ],
-  "order": 47,
+  "order": 45,
   "only": "en",
   "params": {
     "emojis": [

@@ -2,17 +2,18 @@
   "id": "qr-take-missing-7",
   "kind": "qr-balance",
   "subject": "quantitative",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 12,
+  "order": 11,
   "only": "en",
   "params": {
     "max": 7,
     "ops": [
       "sub"
-    ]
+    ],
+    "above": 5
   },
   "emoji": "abacus",
   "example": {

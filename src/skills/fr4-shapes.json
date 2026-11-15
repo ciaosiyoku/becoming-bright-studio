@@ -2,16 +2,14 @@
   "id": "fr4-shapes",
   "kind": "bank",
   "subject": "french",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 13,
+  "order": 11,
   "only": "en",
   "params": {
     "emojis": [
-      "puzzle",
-      "puzzle",
       "puzzle",
       "puzzle",
       "puzzle",
@@ -97,20 +95,6 @@
           "a square",
           "a star",
           "Un ovale is an oval."
-        ],
-        [
-          "What does “grand” mean?",
-          "big",
-          "small",
-          "round",
-          "Grand means big."
-        ],
-        [
-          "What does “petit” mean?",
-          "small",
-          "big",
-          "long",
-          "Petit means small."
         ],
         [
           "What is “a big circle” in French?",

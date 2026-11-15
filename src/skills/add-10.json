@@ -2,13 +2,43 @@
   "id": "add-10",
   "kind": "add",
   "subject": "numbers",
-  "stage": 1,
+  "stage": 2,
   "ages": [
     "6-7"
   ],
-  "order": 19,
+  "order": 18,
   "params": {
-    "max": 10
+    "max": 10,
+    "avoid": [
+      "04313e88",
+      "07d626ea",
+      "084b4c50",
+      "0b12fb50",
+      "1087cb02",
+      "17abdb88",
+      "1d6bc28a",
+      "25bb0150",
+      "3704ca18",
+      "3ff4a1b8",
+      "402528ec",
+      "478a59a0",
+      "5eaf4e48",
+      "6871ede0",
+      "6cad8a60",
+      "6e3db620",
+      "72397dd4",
+      "73d4cc28",
+      "7fccc1c2",
+      "98ecda54",
+      "a27a07c8",
+      "a91182b0",
+      "b2dd18da",
+      "b6d54ade",
+      "cc58b4b0",
+      "cd99a398",
+      "d84562e0",
+      "f41d5df8"
+    ]
   },
   "emoji": "animal-rabbit",
   "example": {

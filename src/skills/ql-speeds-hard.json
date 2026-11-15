@@ -2,7 +2,7 @@
   "id": "ql-speeds-hard",
   "kind": "ql-compare",
   "subject": "qualitative",
-  "stage": 6,
+  "stage": 7,
   "ages": [
     "10-12"
   ],
@@ -36,7 +36,17 @@
           "light"
         ]
       ]
-    }
+    },
+    "avoid": [
+      "346875f9",
+      "353b9a6a",
+      "3e52324f",
+      "8862426f",
+      "a821d891",
+      "bd1fe624",
+      "db84b53d",
+      "f23084ff"
+    ]
   },
   "emoji": "sparkles",
   "example": {

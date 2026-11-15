@@ -2,7 +2,7 @@
   "id": "qr-times-stories",
   "kind": "qr-story",
   "subject": "quantitative",
-  "stage": 4,
+  "stage": 5,
   "ages": [
     "8-9"
   ],
@@ -83,17 +83,18 @@
         "pears",
         "fruit-pear"
       ]
-    ]
+    ],
+    "above": 30
   },
   "emoji": "star",
   "example": {
     "rule": "times",
     "name": "Ben",
-    "thing": "stars",
-    "emoji": "star",
-    "a": 3,
+    "thing": "pears",
+    "emoji": "fruit-pear",
+    "a": 10,
     "b": 4,
-    "answer": 12
+    "answer": 40
   },
   "text": {
     "en": {

@@ -2,7 +2,7 @@
   "id": "fr10-directions",
   "kind": "bank",
   "subject": "french",
-  "stage": 5,
+  "stage": 7,
   "ages": [
     "10-12"
   ],
@@ -15,7 +15,6 @@
       "road",
       "road",
       "wave",
-      "house",
       "house",
       "footprints",
       "clock",
@@ -84,13 +83,6 @@
           "next to",
           "behind",
           "En face de means opposite, facing something."
-        ],
-        [
-          "What does à côté de mean?",
-          "next to",
-          "opposite",
-          "far from",
-          "À côté de means next to."
         ],
         [
           "What does loin d’ici mean?",

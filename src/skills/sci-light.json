@@ -2,11 +2,11 @@
   "id": "sci-light",
   "kind": "bank",
   "subject": "science",
-  "stage": 3,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 39,
+  "order": 40,
   "params": {
     "emojis": [
       "moon",

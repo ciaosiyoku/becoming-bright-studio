@@ -2,7 +2,7 @@
   "id": "qr-take-stories-20",
   "kind": "qr-story",
   "subject": "quantitative",
-  "stage": 2,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
@@ -83,17 +83,18 @@
         "pears",
         "fruit-pear"
       ]
-    ]
+    ],
+    "above": 15
   },
   "emoji": "cookie",
   "example": {
     "rule": "take",
-    "name": "Mia",
-    "thing": "cookies",
-    "emoji": "cookie",
-    "a": 4,
-    "b": 1,
-    "answer": 3
+    "name": "Ivy",
+    "thing": "keys",
+    "emoji": "key",
+    "a": 20,
+    "b": 14,
+    "answer": 6
   },
   "text": {
     "en": {

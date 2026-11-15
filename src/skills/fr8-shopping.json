@@ -2,11 +2,11 @@
   "id": "fr8-shopping",
   "kind": "bank",
   "subject": "french",
-  "stage": 4,
+  "stage": 5,
   "ages": [
     "8-9"
   ],
-  "order": 44,
+  "order": 42,
   "only": "en",
   "params": {
     "emojis": [

@@ -88,7 +88,27 @@
           "a rocket"
         ]
       ]
-    }
+    },
+    "avoid": [
+      "018c8e0a",
+      "08514b73",
+      "0ed8e4bd",
+      "120f831c",
+      "416fc2f6",
+      "4634a7ee",
+      "6843ae06",
+      "78c37a33",
+      "979ca3ea",
+      "ad433600",
+      "c0d9eb6d",
+      "c1e9958e",
+      "c9567453",
+      "e510b0dd",
+      "ebc9bbb2",
+      "ec7dd563",
+      "eed7beff",
+      "f84a1f5e"
+    ]
   },
   "emoji": "clock",
   "example": {

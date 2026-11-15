@@ -2,16 +2,15 @@
   "id": "sci-space",
   "kind": "bank",
   "subject": "science",
-  "stage": 4,
+  "stage": 5,
   "ages": [
     "8-9"
   ],
-  "order": 41,
+  "order": 43,
   "params": {
     "emojis": [
       "globe",
       "calendar",
-      "sun",
       "moon",
       "clock",
       "thermometer",
@@ -55,13 +54,6 @@
           "one day",
           "one hour",
           "The Earth takes about 365 days, which is one year, to go all the way round the Sun."
-        ],
-        [
-          "What is the Sun?",
-          "a star",
-          "a planet",
-          "a giant lamp made by people",
-          "The Sun is a star: a huge, hot ball of glowing gas. It is the star closest to us."
         ],
         [
           "Why does the Moon seem to change shape?",
@@ -269,13 +261,6 @@
           "Die Erde braucht etwa 365 Tage, also ein Jahr, um einmal um die Sonne zu wandern."
         ],
         [
-          "Was ist die Sonne?",
-          "ein Stern",
-          "ein Planet",
-          "eine riesige Lampe, die Menschen gebaut haben",
-          "Die Sonne ist ein Stern: eine riesige, heiße Kugel aus leuchtendem Gas. Sie ist der Stern, der uns am nächsten ist."
-        ],
-        [
           "Warum scheint der Mond seine Form zu ändern?",
           "wir sehen unterschiedlich viel von seiner beleuchteten Seite",
           "Stücke brechen ab und wachsen nach",
@@ -481,13 +466,6 @@
           "La Terre met environ 365 jours, c’est-à-dire un an, pour faire tout le tour du Soleil."
         ],
         [
-          "Qu’est-ce que le Soleil ?",
-          "une étoile",
-          "une planète",
-          "une lampe géante fabriquée par les gens",
-          "Le Soleil est une étoile : une énorme boule de gaz très chaude et lumineuse. C’est l’étoile la plus proche de nous."
-        ],
-        [
           "Pourquoi la Lune semble-t-elle changer de forme ?",
           "nous voyons plus ou moins sa partie éclairée",
           "des morceaux tombent et repoussent",
@@ -691,13 +669,6 @@
           "ọjọ́ kan",
           "wákàtí kan",
           "Ó máa ń gba ilẹ̀ ayé ní nǹkan bí ọjọ́ 365, ìyẹn ọdún kan, láti yí oòrùn ká pátápátá."
-        ],
-        [
-          "Kí ni oòrùn?",
-          "ìràwọ̀ kan",
-          "pílánẹ́ẹ̀tì kan",
-          "àtùpà ńlá tí ènìyàn ṣe",
-          "Ìràwọ̀ ni oòrùn: bọ́ọ̀lù gáàsì ńlá tó gbóná, tó sì ń tàn. Òun ni ìràwọ̀ tó sún mọ́ wa jùlọ."
         ],
         [
           "Kí ló dé tí ó dà bí ẹni pé òṣùpá ń yí ìrísí padà?",

@@ -2,7 +2,7 @@
   "id": "fr6-phrases",
   "kind": "bank",
   "subject": "french",
-  "stage": 1,
+  "stage": 3,
   "ages": [
     "6-7"
   ],
@@ -29,7 +29,6 @@
       "cake",
       "heart",
       "speech",
-      "moon",
       "speech",
       "clock",
       "memo",
@@ -175,13 +174,6 @@
           "Me too.",
           "Thank you.",
           "Et means and, and toi means you."
-        ],
-        [
-          "What does “Bonne nuit” mean?",
-          "Good night",
-          "Good morning",
-          "Good luck",
-          "La nuit is the night, so bonne nuit means good night."
         ],
         [
           "What does “Salut !” mean to a friend?",

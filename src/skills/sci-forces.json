@@ -2,11 +2,11 @@
   "id": "sci-forces",
   "kind": "bank",
   "subject": "science",
-  "stage": 3,
+  "stage": 4,
   "ages": [
     "8-9"
   ],
-  "order": 38,
+  "order": 39,
   "params": {
     "emojis": [
       "shoe",
@@ -909,25 +909,25 @@
   },
   "text": {
     "en": {
-      "title": "Pushes and pulls",
+      "title": "Forces: pushes, pulls and friction",
       "teach": "A force is a push or a pull. Gravity pulls things down towards the Earth. Friction slows moving things down. Water pushes up on things that float.",
       "prompt": "{q_en}",
       "reason": "{why_en}"
     },
     "de": {
-      "title": "Drücken und Ziehen",
+      "title": "Kräfte: Drücken, Ziehen und Reibung",
       "teach": "Eine Kraft ist ein Drücken oder ein Ziehen. Die Schwerkraft zieht alles zur Erde hin. Reibung bremst Dinge, die sich bewegen. Wasser drückt schwimmende Dinge nach oben.",
       "prompt": "{q_de}",
       "reason": "{why_de}"
     },
     "fr": {
-      "title": "Pousser et tirer",
+      "title": "Les forces : pousser, tirer et frotter",
       "teach": "Une force, c’est une poussée ou une traction. La gravité attire les choses vers la Terre. Le frottement ralentit ce qui bouge. L’eau pousse vers le haut ce qui flotte.",
       "prompt": "{q_fr}",
       "reason": "{why_fr}"
     },
     "yo": {
-      "title": "Títì àti fífà",
+      "title": "Agbára: títì, fífà àti ìfara-pa",
       "teach": "Agbára jẹ́ títì tàbí fífà. Agbára òòfà ilẹ̀ ayé ń fa nǹkan sílẹ̀. Ìfarakanra ń mú ohun tí ń rìn fà sẹ́yìn. Omi ń ti ohun tí ń léfòó sókè.",
       "prompt": "{q_yo}",
       "reason": "{why_yo}"

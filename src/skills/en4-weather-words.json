@@ -2,11 +2,11 @@
   "id": "en4-weather-words",
   "kind": "bank",
   "subject": "words",
-  "stage": 0,
+  "stage": 1,
   "ages": [
     "4-5"
   ],
-  "order": 11,
+  "order": 10,
   "only": "en",
   "params": {
     "emojis": [

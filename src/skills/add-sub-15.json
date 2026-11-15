@@ -6,17 +6,18 @@
   "ages": [
     "6-7"
   ],
-  "order": 24,
+  "order": 22,
   "params": {
     "max": 15,
-    "minB": 2
+    "minB": 2,
+    "above": 12
   },
   "emoji": "animal-frog",
   "example": {
-    "a": 2,
-    "b": 9,
+    "a": 11,
+    "b": 2,
     "op": "+",
-    "answer": 11,
+    "answer": 13,
     "rule": "add"
   },
   "text": {
