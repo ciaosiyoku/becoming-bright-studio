@@ -56,6 +56,7 @@ export function Stories() {
     return (
       <div className="listen with-film">
         <StoryFilm key={track.id} book={book.id} emoji={book.emoji} track={track} p={p} />
+        <Speed p={p} />
         <div className="story-nav">
           <button className="secondary" onClick={() => setOpen(null)}>
             <ArrowLeft /> {T.listen.allStories}
@@ -92,14 +93,7 @@ export function Stories() {
           ))}
         </div>
       )}
-      <div className="story-speed" role="radiogroup" aria-label={T.listen.speed}>
-        <span>{T.listen.speed}</span>
-        {RATES.map((r) => (
-          <button key={r} role="radio" aria-checked={p.rate === r} className={p.rate === r ? '' : 'secondary'} onClick={() => p.setRate(r)}>
-            <Emoji name={r === 0.75 ? 'animal-snail' : r === 0.9 ? 'animal-turtle' : 'animal-rabbit'} size={28} /> {T.listen.speeds[r === 0.75 ? 'slow' : r === 0.9 ? 'slower' : 'normal']}
-          </button>
-        ))}
-      </div>
+      <Speed p={p} />
       <ul className="story-cards">
         {stories.map(({ book, track }) => {
           const on = p.id === track.id
@@ -182,5 +176,20 @@ function StoryFilm({ book, emoji, track, p }: { book: string; emoji: string; tra
         <i style={{ width: `${p.duration ? Math.min(100, (p.time / p.duration) * 100) : 0}%` }} />
       </span>
     </section>
+  )
+}
+
+/** Reading speed: slow, a bit slower or normal (the recording is played slower, not changed). */
+function Speed({ p }: { p: ReturnType<typeof useAudio> }) {
+  const T = useT()
+  return (
+        <div className="story-speed" role="radiogroup" aria-label={T.listen.speed}>
+          <span>{T.listen.speed}</span>
+          {RATES.map((r) => (
+            <button key={r} role="radio" aria-checked={p.rate === r} className={p.rate === r ? '' : 'secondary'} onClick={() => p.setRate(r)}>
+              <Emoji name={r === 0.75 ? 'animal-snail' : r === 0.9 ? 'animal-turtle' : 'animal-rabbit'} size={28} /> {T.listen.speeds[r === 0.75 ? 'slow' : r === 0.9 ? 'slower' : 'normal']}
+            </button>
+          ))}
+        </div>
   )
 }
