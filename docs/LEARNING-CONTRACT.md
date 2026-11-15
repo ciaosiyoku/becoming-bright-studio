@@ -7,7 +7,7 @@ the change.
 
 - **The child:** aged 4 to 12 (first written for 5 to 7, who are just starting to read). **A grown-up gives each
   child an age** (owner's decision, 27 Oct 2026), and the child sees only the skills for their age range: 4–5, 6–7,
-  8–9 or 10–12. Every subject has at least **300 different questions for each age range** (checked by a test). They can tap and
+  8–9 or 10–12. Ages in one range see the same skills, so the grown-ups choose the range itself (owner's request, Nov 2026). Every subject has at least **300 different questions for each age range** (checked by a test). They can tap and
   listen; the youngest may not read a full sentence yet, so everything a young child must understand is a picture,
   a number line, or read aloud. **The child chooses which skill to learn** (owner's decision, 27 Oct 2026): first
   a subject, then a skill in teaching order. Nothing is locked. The Learn tab then shows **only the chosen skill**,

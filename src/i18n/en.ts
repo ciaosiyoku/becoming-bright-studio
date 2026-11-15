@@ -66,7 +66,7 @@ export const en = {
     chooseSubject: 'Choose a subject',
     pickSkill: 'Choose the skill you want to learn.',
     learntOf: (n: number, of: number) => `${n} of ${of} learnt`,
-    forAge: (age: number) => `Skills for age ${age}`,
+    forAge: (ages: string) => `Skills for ages ${ages}`,
     allAges: 'Skills for every age',
     streak: (n: number) => (n === 1 ? '1 day in a row' : `${n} days in a row`),
     bestStreak: (n: number) => `Best: ${n}`,

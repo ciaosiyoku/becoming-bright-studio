@@ -7,6 +7,11 @@ export type AgeBand = '4-5' | '6-7' | '8-9' | '10-12'
 export const AGE_BANDS: AgeBand[] = ['4-5', '6-7', '8-9', '10-12']
 export const AGES = [4, 5, 6, 7, 8, 9, 10, 11, 12] as const
 
+/** How a range is written for people: "4–5". */
+export const bandLabel = (band: AgeBand) => band.replace('-', '–')
+/** The age saved when a grown-up picks a range: its youngest age. */
+export const firstAge = (band: AgeBand) => Number(band.split('-')[0])
+
 /** The range of an age (under 4 counts as 4, over 12 as 12). */
 export function bandOf(age: number): AgeBand {
   if (age <= 5) return '4-5'

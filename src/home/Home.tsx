@@ -9,7 +9,7 @@ import { backupDue } from '@/data/backup'
 import { earnedIds, STICKERS, totalStars } from '@/app/stickers'
 import { useLang, useT } from '@/i18n'
 import { Emoji } from '@/shared/Emoji'
-import { suitsAge } from '@/skills/ages'
+import { bandLabel, bandOf, suitsAge } from '@/skills/ages'
 import { bySubject, skillById, SKILLS, skillText, SUBJECT_EMOJI, SUBJECTS } from '@/skills/index'
 import { Sunny } from '@/shared/Sunny'
 import { Garden, SUBJECT_COLOURS } from './Garden'
@@ -139,7 +139,7 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
       {view.name === 'subjects' && (
         <section className="card">
           <h2>{T.home.chooseSubject}</h2>
-          <p className="muted">{child.age ? T.home.forAge(child.age) : T.home.allAges}</p>
+          <p className="muted">{child.age ? T.home.forAge(bandLabel(bandOf(child.age))) : T.home.allAges}</p>
           {current && stateOf(current.subject) === 'open' && (
             <button className="big continue-big" onClick={() => setView({ name: 'skill', id: current.id })}>
               <Emoji name={current.emoji} size={48} />

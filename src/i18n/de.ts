@@ -68,7 +68,7 @@ export const de: Strings = {
     chooseSubject: 'Wähle ein Fach',
     pickSkill: 'Wähle die Fähigkeit, die du lernen möchtest.',
     learntOf: (n: number, of: number) => `${n} von ${of} gelernt`,
-    forAge: (age: number) => `Fähigkeiten für ${age}-Jährige`,
+    forAge: (ages: string) => `Fähigkeiten für ${ages}-Jährige`,
     allAges: 'Fähigkeiten für jedes Alter',
     streak: (n: number) => (n === 1 ? '1 Tag in Folge' : `${n} Tage in Folge`),
     bestStreak: (n: number) => `Rekord: ${n}`,

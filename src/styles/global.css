@@ -214,16 +214,16 @@ button.big {
   color: var(--ink);
 }
 
-/* The child's age, 4 to 12 (setup and the grown-ups' screen). */
+/* The child's age range, 4–5 to 10–12 (setup and the grown-ups' screen). */
 .ages {
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem;
 }
 .ages button {
-  min-width: 2.8rem;
+  min-width: 4.2rem;
   min-height: 2.8rem;
-  padding: 0;
+  padding: 0 0.7rem;
 }
 .child-age {
   display: flex;

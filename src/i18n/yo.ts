@@ -69,7 +69,7 @@ export const yo: Strings = {
     chooseSubject: 'Yan ẹ̀kọ́ kan',
     pickSkill: 'Yan ọgbọ́n tí o fẹ́ kọ́.',
     learntOf: (n: number, of: number) => `${n} nínú ${of} ti dúró`,
-    forAge: (age: number) => `Ọgbọ́n fún ọmọ ọdún ${age}`,
+    forAge: (ages: string) => `Ọgbọ́n fún ọmọ ọdún ${ages}`,
     allAges: 'Ọgbọ́n fún gbogbo ọjọ́ orí',
     streak: (n: number) => `Ọjọ́ ${n} léraléra`,
     bestStreak: (n: number) => `Èyí tó ga jù: ${n}`,

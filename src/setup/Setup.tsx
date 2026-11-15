@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { addChild, COLOURS, newChild } from '@/app/state'
-import { AGES } from '@/skills/ages'
+import { AGE_BANDS, bandLabel, bandOf, firstAge } from '@/skills/ages'
 import { useStore } from '@/app/store'
 import { useT } from '@/i18n'
 import type { PinHash } from '@/parent/pin'
@@ -98,13 +98,15 @@ export function ChildForm({ submit, onDone }: { submit: string; onDone: (child: 
   )
 }
 
-/** The child's age, 4 to 12: it decides which skills and stories they see. */
+/** The child's age range (4–5, 6–7, 8–9 or 10–12): it decides which skills and stories they see. Ages in one range
+ * see the same skills, so they are one choice; the range's youngest age is saved. */
 export function AgePicker({ age, onAge }: { age: number | null; onAge: (age: number) => void }) {
+  const chosen = age == null ? null : bandOf(age)
   return (
     <div className="ages" role="radiogroup">
-      {AGES.map((a) => (
-        <button key={a} role="radio" aria-checked={a === age} className={a === age ? '' : 'secondary'} onClick={() => onAge(a)}>
-          {a}
+      {AGE_BANDS.map((band) => (
+        <button key={band} role="radio" aria-checked={band === chosen} className={band === chosen ? '' : 'secondary'} onClick={() => onAge(firstAge(band))}>
+          {bandLabel(band)}
         </button>
       ))}
     </div>
