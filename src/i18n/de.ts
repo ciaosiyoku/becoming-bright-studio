@@ -93,7 +93,7 @@ export const de: Strings = {
       days: (n: number) => `${n} Tage hintereinander`,
       lessons: (n: number) => (n === 1 ? 'Deine erste Lektion beenden' : `${n} Lektionen beenden`),
       learningDays: (n: number) => `An ${n} verschiedenen Tagen lernen`,
-      stars: (n: number) => (n === 1 ? 'Den ersten Stern gewinnen' : `${n} Sterne sammeln`),
+      stars: (n: number) => `${n} Sterne sammeln`,
       perfectCount: (n: number) => `10 von 10 richtig in ${n} Fertigkeiten`,
       perfectIn: (subject: string) => `10 von 10 richtig in ${subject}`,
       allOf: (subject: string) => `Alle Fertigkeiten in ${subject} für dein Alter`,

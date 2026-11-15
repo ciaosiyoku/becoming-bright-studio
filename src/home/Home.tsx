@@ -1,7 +1,7 @@
 import { ArrowLeft, ArrowRight } from 'lucide-react'
 import { type CSSProperties, useEffect, useRef, useState } from 'react'
 import { subjectState } from '@/app/access'
-import { activeChild, updateChild } from '@/app/state'
+import { activeChild, updateChild, isPerfect, lastShare } from '@/app/state'
 import { lastDays, streaks } from '@/app/streak'
 import { useToday } from '@/shared/useToday'
 import { useStore } from '@/app/store'
@@ -67,8 +67,12 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
   const stickers = earnedIds(child, SKILLS, today)
   const goal = Math.max(1, state.family.rewards.lessonsToOpen)
   const passedToday = Math.min(goal, child.passes[today] ?? 0)
-  /** A learnt skill has its star (one for passing); a skill not learnt yet has none. */
-  const starsOf = (id: string) => (child.skills[id]?.mastered ? 1 : 0)
+  /** Stars for a learnt skill: 3 after all right, 2 after a pass (8 of 10), 1 when the last try was lower. */
+  const starsOf = (id: string) => {
+    const p = child.skills[id]
+    if (!p?.mastered) return 0
+    return isPerfect(p) ? 3 : lastShare(p) >= 0.8 ? 2 : 1
+  }
 
   return (
     <main className="page" ref={page}>
@@ -283,7 +287,9 @@ function Stones({ stones, perRow, colours, starsLabel, onOpen }: { stones: Stone
                 <span className="stone-title">{st.title}</span>
                 {st.learnt ? (
                   <span className="stone-stars" aria-label={starsLabel(st.stars)}>
-                    <StarIcon off={st.stars < 1} />
+                    {[0, 1, 2].map((k) => (
+                      <StarIcon key={k} off={k >= st.stars} />
+                    ))}
                   </span>
                 ) : (
                   <small>{st.level}</small>

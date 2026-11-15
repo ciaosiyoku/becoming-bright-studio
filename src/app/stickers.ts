@@ -59,7 +59,7 @@ const MORE: Omit<Sticker, 'emoji'>[] = [
   ...[2, 5, 10, 14, 21, 30].map((n) => ({ id: `days-${n}`, rule: { kind: 'days', n } as StickerRule })),
   ...[1, 5, 10, 25, 50, 100, 200, 365, 500].map((n) => ({ id: `lessons-${n}`, rule: { kind: 'lessons', n } as StickerRule })),
   ...[5, 10, 20, 30, 50, 100].map((n) => ({ id: `learning-days-${n}`, rule: { kind: 'learningDays', n } as StickerRule })),
-  ...[1, 5, 10, 25, 50, 100, 150, 200, 300].map((n) => ({ id: `stars-${n}`, rule: { kind: 'stars', n } as StickerRule })),
+  ...[10, 25, 50, 100, 250, 500, 1000, 2000, 5000].map((n) => ({ id: `stars-${n}`, rule: { kind: 'stars', n } as StickerRule })),
   ...[3, 5, 10, 20, 50].map((n) => ({ id: `perfect-${n}`, rule: { kind: 'perfectCount', n } as StickerRule })),
   ...SUBJECTS.map((subject) => ({ id: `perfect-${ID[subject]}`, rule: { kind: 'perfectIn', subject } as StickerRule })),
   ...SUBJECTS.map((subject) => ({ id: `all-${ID[subject]}`, rule: { kind: 'allOf', subject } as StickerRule })),
@@ -84,8 +84,8 @@ export const STICKERS: Sticker[] = [...FIRST, ...MORE.map((s, i) => ({ ...s, emo
 /** The learnt skills (trees), with their subjects. `skills` = every skill (skills/index.ts: SKILLS). */
 export const learntSkills = (child: Child, skills: SkillMeta[]) => skills.filter((s) => child.skills[s.id]?.mastered)
 
-/** All the stars: one for every lesson passed (learnt), ever; a lesson not passed gives none. */
-export const totalStars = (child: Child): number => Object.values(child.passes ?? {}).reduce((sum, n) => sum + n, 0)
+/** All the stars: one for every check answered right, ever. */
+export const totalStars = (child: Child): number => Object.values(child.lessons ?? {}).reduce((sum, day) => sum + (day.right ?? 0), 0)
 
 /** Has the child earned this sticker? */
 export function earned(sticker: Sticker, child: Child, skills: SkillMeta[], today: string): boolean {
