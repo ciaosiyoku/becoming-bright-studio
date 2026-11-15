@@ -10,7 +10,7 @@ const day = new Date(2026, 9, 27, 12)
 
 describe('a session', () => {
   it('has 2 guided tries and 10 checks, all different, none the teach example', () => {
-    const def = ALL_SKILLS.find((s) => s.id === 'add-5')!
+    const def = ALL_SKILLS.find((s) => s.id === 'add-10')!
     const s = newSession(def, seeded(3))
     expect(s.items).toHaveLength(12)
     expect(new Set(s.items.map(itemKey)).size).toBe(12)
