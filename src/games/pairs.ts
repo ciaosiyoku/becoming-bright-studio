@@ -29,7 +29,9 @@ const NO_CARDS = new Set(['odd-one-out', 'ql-compare'])
 export const hasCards = (def: SkillDef, lang: Lang = 'en') => !NO_CARDS.has(def.kind) && (def.kind !== 'bank' || new Set(bankOf(def, skillLang(def, lang)).map((q) => q[1])).size >= 4)
 
 /** Up to `PAIRS` pairs of cards from a skill's questions, shuffled: no two pairs share a question or an answer. */
-export function makeCards(def: SkillDef, r: Random = Math.random, lang: Lang = 'en'): Card[] {
+export function makeCards(skill: SkillDef, r: Random = Math.random, lang: Lang = 'en'): Card[] {
+  // A game may use the easier questions a lesson leaves out (params.above, params.avoid): it needs different answers.
+  const def = { ...skill, params: Object.fromEntries(Object.entries(skill.params).filter(([k]) => k !== 'above' && k !== 'avoid')) }
   const pairs: Card[][] = []
   const seenQuestions = new Set<string>()
   const seenAnswers = new Set<string>()
