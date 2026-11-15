@@ -267,13 +267,14 @@ function Result({ skill, checks, stickers, onClose, onLesson }: { skill: string;
         <Sunny mood={mastered && state.family.cheers ? 'cheer' : 'happy'} size={120} className="sunny-result" />
       </div>
       <h2>{mastered ? T.lesson.learntTitle : T.lesson.notYetTitle}</h2>
-      <p className="result-stars" aria-label={T.lesson.score(right, checks.length)}>
-        {Array.from({ length: checks.length }, (_, i) => (
-          <svg key={i} viewBox="0 0 24 24" className={i < right ? 'got' : ''} aria-hidden="true">
+      {/* One star for a passed lesson, none for one not passed yet (owner's request, Nov 2026). */}
+      {mastered && (
+        <p className="result-stars" aria-label={T.home.stars(1)}>
+          <svg viewBox="0 0 24 24" className="got" aria-hidden="true">
             <path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z" />
           </svg>
-        ))}
-      </p>
+        </p>
+      )}
       <p>{T.lesson.score(right, checks.length)}</p>
       <p>{mastered ? T.lesson.learntText(skillText(def, lang).title) : T.lesson.notYetText}</p>
       {/* Up to three new stickers here; the sticker book has them all. */}

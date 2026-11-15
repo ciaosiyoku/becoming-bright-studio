@@ -91,7 +91,7 @@ export const en = {
       days: (n: number) => `${n} days in a row`,
       lessons: (n: number) => (n === 1 ? 'Finish your first lesson' : `Finish ${n} lessons`),
       learningDays: (n: number) => `Learn on ${n} different days`,
-      stars: (n: number) => `Collect ${n} stars`,
+      stars: (n: number) => (n === 1 ? 'Win your first star' : `Collect ${n} stars`),
       perfectCount: (n: number) => `10 of 10 right in ${n} skills`,
       perfectIn: (subject: string) => `10 of 10 right in ${subject}`,
       allOf: (subject: string) => `Every ${subject} skill for your age`,

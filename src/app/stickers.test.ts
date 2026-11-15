@@ -26,9 +26,10 @@ describe('stickers', () => {
   })
   it('lessons, days, stars and 5 of 5 all count', () => {
     let c = learnt(newChild('Sam', '#000'), 'a-an', 5)
-    c = { ...c, lessons: { '2026-11-11': { count: 1, right: 5, checks: 5 }, '2026-11-12': { count: 1, right: 4, checks: 5 }, '2026-11-13': { count: 1, right: 3, checks: 5 } } }
+    c = { ...c, passes: { '2026-11-11': 1 }, lessons: { '2026-11-11': { count: 1, right: 5, checks: 5 }, '2026-11-12': { count: 1, right: 4, checks: 5 }, '2026-11-13': { count: 1, right: 3, checks: 5 } } }
     const ids = earnedIds(c, SKILLS, '2026-11-13')
-    expect(ids).toEqual(expect.arrayContaining(['first-tree', 'english-1', 'perfect', 'days-2', 'days-3', 'lessons-1', 'stars-10', 'perfect-english']))
+    expect(ids).toEqual(expect.arrayContaining(['first-tree', 'english-1', 'perfect', 'days-2', 'days-3', 'lessons-1', 'stars-1', 'perfect-english']))
+    expect(ids).not.toContain('stars-5')
     expect(ids).not.toContain('lessons-5')
     expect(ids).not.toContain('all-english')
   })
@@ -42,8 +43,8 @@ describe('stickers', () => {
     expect(newStickers(['first-tree'], ['first-tree', 'maths-1']).map((s) => s.id)).toEqual(['maths-1'])
     expect(newStickers(['first-tree'], ['first-tree'])).toEqual([])
   })
-  it('counts a star for every check answered right', () => {
-    const c = { ...newChild('Sam', '#000'), lessons: { a: { count: 2, right: 7, checks: 10 }, b: { count: 1, right: 5, checks: 5 } } }
-    expect(totalStars(c)).toBe(12)
+  it('counts one star for every lesson passed, none for a lesson not passed', () => {
+    const c = { ...newChild('Sam', '#000'), passes: { a: 2, b: 1 }, lessons: { a: { count: 3, right: 25, checks: 30 }, b: { count: 2, right: 13, checks: 20 } } }
+    expect(totalStars(c)).toBe(3)
   })
 })

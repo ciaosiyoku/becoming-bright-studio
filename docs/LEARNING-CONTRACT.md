@@ -67,8 +67,8 @@ One parent screen, behind a PIN:
   the grown-ups set an item to "Earn first". Games train thinking: memory cards made of a learnt skill's questions,
   word builder, code breaker, picture puzzle, number slide, and four reasoning games with levels that start at the
   child's age and rise after each win (mini sudoku, Tower of Hanoi, repeat the pattern, picture logic).
-- **Stars, stickers and the garden come only from lessons** (redesign, Nov 2026): a star for each check right, a
-  tree for each skill learnt, stickers for milestones in learning (first tree of a subject, 10 of 10, days in a row).
+- **Stars, stickers and the garden come only from lessons** (redesign, Nov 2026): one star for each lesson passed and none for a lesson
+  not passed (owner's request, Nov 2026), a tree for each skill learnt, stickers for milestones in learning (first tree of a subject, 10 of 10, days in a row).
   Nothing for time spent, taps or games, and nothing is ever taken away. Sunny, the guide, cheers a right answer and
   says "Let's look together" after a miss; a miss never buzzes or turns red.
 

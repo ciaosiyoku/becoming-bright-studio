@@ -68,7 +68,7 @@ one right answer** in every language shipped.
 - **Today's goal:** a few passed lessons a day (the same number the grown-ups set to open Earn-first items; 2 at
   first), with dots that fill in.
 - **A garden:** every skill learnt grows a tree, its fruit in the subject's colour.
-- **Stars** for every right answer in a lesson, and **100 stickers** in a sticker book, each with its own picture, all won by
+- **A star** for every lesson passed (none for a lesson not passed yet), and **100 stickers** in a sticker book, each with its own picture, all won by
   learning: first trees in each subject, trees grown, days in a row, lessons finished, stars collected, 10 of 10,
   every skill of a subject for the child's age. The sticker book shows the ones won first.
 - **Subject cards** with a progress bar ("3 of 15 learnt"), and a **skill path** of stepping stones for each subject.
