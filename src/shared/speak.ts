@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useStore } from '@/app/store'
 import type { Lang } from '@/i18n'
+import { forSpeech } from './spoken'
 
 // Reading aloud with the device's own voices (Web Speech API). Nothing is sent anywhere by the app. A device without
 // a voice for the language shows the words only (the speaker buttons hide). One thing is read at a time.
@@ -122,7 +123,8 @@ export function speak(text: string, lang: Lang) {
   const picked = pickVoice(voicesOf(lang), lang, option)
   if (!picked) return
   stopSpeaking()
-  const u = new SpeechSynthesisUtterance(text)
+  // Maths signs, arrows and gaps read as words (spoken.ts).
+  const u = new SpeechSynthesisUtterance(forSpeech(text, lang))
   u.voice = picked.voice
   u.lang = picked.voice.lang
   u.rate = picked.rate

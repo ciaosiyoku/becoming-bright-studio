@@ -125,6 +125,8 @@ Stories Retold, most of the German tales) show one scene made from their title.
   of a lesson or a video. **Update now** fetches it straight away.
 - **Reading voice:** Mary (female), Barry (male) or Off. The voices come from the device; when it has none of the
   chosen kind, the nearest voice reads a little lower or higher, so Mary and Barry never sound alike.
+  Maths is read as words in the app language: "4 − 2" as "4 minus 2", × "times", ÷ "divided by", = "equals",
+  a gap as "what", 3/4 as "3 quarters", → in an explanation as "that makes" (`src/shared/spoken.ts`).
 - **Languages:** English, Deutsch, Français, Yorùbá. The English lessons stay in English.
 
 ## What it is not
