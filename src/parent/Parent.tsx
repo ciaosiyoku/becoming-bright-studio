@@ -15,6 +15,7 @@ import { LanguagePicker } from '@/shared/LanguagePicker'
 import { playSound } from '@/shared/sounds'
 import { speak, VOICE_NAMES, VOICE_OPTIONS, useVoicePlan, type VoiceOption } from '@/shared/speak'
 import { AgePicker, ChildForm } from '@/setup/Setup'
+import { CHECK_OPTIONS, checksOf, passOf } from '@/lesson/session'
 import { ChoosePin, RecoveryDetails } from './PinScreens'
 import { ReportCard } from './ReportCard'
 import './Parent.css'
@@ -220,6 +221,20 @@ function AccessCard() {
           ))}
         </tbody>
       </table>
+      <div className="stepper-row">
+        <span>
+          {T.parent.checksPerLesson}
+          <br />
+          <small className="muted">{T.parent.checksNote(passOf(checksOf(r.checks)), checksOf(r.checks))}</small>
+        </span>
+        <div className="segmented">
+          {CHECK_OPTIONS.map((n) => (
+            <button key={n} className={checksOf(r.checks) === n ? '' : 'secondary'} aria-pressed={checksOf(r.checks) === n} onClick={() => reward({ checks: n })}>
+              {n}
+            </button>
+          ))}
+        </div>
+      </div>
       <Stepper label={T.parent.lessonsToOpen} value={r.lessonsToOpen} min={1} max={5} step={1} unit={T.parent.lessonsCount} onChange={(n) => reward({ lessonsToOpen: n })} />
       <Stepper label={T.parent.minutesPerLesson} value={r.minutesPerLesson} min={5} max={30} step={5} onChange={(n) => reward({ minutesPerLesson: n })} />
       <Stepper label={T.parent.maxPerDay} value={r.maxPerDay} min={10} max={180} step={5} onChange={(n) => reward({ maxPerDay: n })} />

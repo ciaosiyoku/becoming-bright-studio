@@ -1,7 +1,7 @@
 import { ArrowLeft, ArrowRight } from 'lucide-react'
 import { type CSSProperties, useEffect, useRef, useState } from 'react'
 import { subjectState } from '@/app/access'
-import { activeChild, updateChild } from '@/app/state'
+import { activeChild, updateChild, isPerfect, lastShare } from '@/app/state'
 import { lastDays, streaks } from '@/app/streak'
 import { useToday } from '@/shared/useToday'
 import { useStore } from '@/app/store'
@@ -62,11 +62,11 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
   const stickers = earnedIds(child, SKILLS, today)
   const goal = Math.max(1, state.family.rewards.lessonsToOpen)
   const passedToday = Math.min(goal, child.passes[today] ?? 0)
-  /** Stars for a learnt skill: 3 after 5 of 5, 2 after 4 of 5, 1 when the last try was lower. */
+  /** Stars for a learnt skill: 3 after all right, 2 after a pass (8 of 10), 1 when the last try was lower. */
   const starsOf = (id: string) => {
     const p = child.skills[id]
     if (!p?.mastered) return 0
-    return (p.lastScore ?? 0) >= 5 ? 3 : (p.lastScore ?? 0) >= 4 ? 2 : 1
+    return isPerfect(p) ? 3 : lastShare(p) >= 0.8 ? 2 : 1
   }
 
   return (

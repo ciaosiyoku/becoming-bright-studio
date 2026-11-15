@@ -31,7 +31,8 @@ Written down before any code in the [learning contract](docs/LEARNING-CONTRACT.m
 
 1. **Teach card:** one picture or number line, one sentence, read aloud.
 2. **Two guided tries:** the child answers, then sees the right answer and a one-line reason. These don't count.
-3. **Five checks:** one try each, then the reason. **4 of 5 means mastered**: the skill becomes a tree on the home
+3. **Ten checks** (or 5 or 7, chosen in Settings): one try each, then the reason. **8 of 10 (4 of 5, 6 of 7) means
+   mastered**: the skill becomes a tree on the home
    screen, and the next one of the same subject is suggested.
 
 After every answer, the right one turns green and the reason stays on screen until the child taps **Next**, which
@@ -68,7 +69,7 @@ one right answer** in every language shipped.
   first), with dots that fill in.
 - **A garden:** every skill learnt grows a tree, its fruit in the subject's colour.
 - **Stars** for every right answer in a lesson, and **100 stickers** in a sticker book, each with its own picture, all won by
-  learning: first trees in each subject, trees grown, days in a row, lessons finished, stars collected, 5 of 5,
+  learning: first trees in each subject, trees grown, days in a row, lessons finished, stars collected, 10 of 10,
   every skill of a subject for the child's age. The sticker book shows the ones won first.
 - **Subject cards** with a progress bar ("3 of 15 learnt"), and a **skill path** of stepping stones for each subject.
 - **Streaks:** days in a row with a lesson, and the best streak.
@@ -113,7 +114,7 @@ Stories Retold, most of the German tales) show one scene made from their title.
   details are missing) has an amber ring. Tap a card to open it; Back goes to the cards, then out.
 - **Sections:** a **learning report** per child (today, 7 days, 30 days: lessons, passed, checks right, skills
   learnt, time per area, questions to practise again, Send by email); children; what your child can open (Off /
-  Open / Earn first for every subject and item, lessons to pass, minutes per lesson and per day); language; reading
+  Open / Earn first for every subject and item, questions per lesson (5, 7 or 10), lessons to pass, minutes per lesson and per day); language; reading
   voice; sounds and movement (sound effects, Sunny's cheers, lively or calm); backup; the PIN; and **Update now**.
 - **PIN:** stored as a salted hash. A **recovery code** is shown once at setup, with a Print button, and the grown-up
   adds an **email address and a secret word**. A forgotten PIN needs the code plus the email or the secret word (all

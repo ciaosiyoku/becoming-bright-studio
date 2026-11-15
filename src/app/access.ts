@@ -2,7 +2,7 @@ import type { Access, ItemId } from './items'
 import type { Subject } from '@/skills/types'
 import type { Child, Family } from './state'
 
-// Earned time: each passed lesson (4 of 5 checks) gives `minutesPerLesson`, up to `maxPerDay` a day. "Earn first"
+// Earned time: each passed lesson (8 of 10 checks) gives `minutesPerLesson`, up to `maxPerDay` a day. "Earn first"
 // items open only while some of today's earned time is left, and use it up while they are open. Pure (tested).
 
 /** Minutes earned on a day. */

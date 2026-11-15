@@ -32,8 +32,8 @@ no child has used it. Record the first session below.
 | Can't say the rule after the teach card | The teach card: simpler sentence, one picture, slower voice |
 | Taps "Next" without looking | The feedback: the reason read first, the number line bigger, or "Next" waiting longer |
 | Taps choices at random from the start | The question is too hard: test the skill before it |
-| Bored by check 3 | Fewer guided tries, or a shorter session (but keep 5 checks) |
-| Gets 5 of 5 without effort | The skill is too easy for this child: move them on, and note it |
+| Bored by check 3 | Fewer guided tries, or a shorter session (but keep 10 checks) |
+| Gets 10 of 10 without effort | The skill is too easy for this child: move them on, and note it |
 
 ## Record
 

@@ -31,6 +31,6 @@ describe('earned subjects', () => {
   it('fills in subject rules and the lesson count for families saved before', () => {
     const old = withDefaults({ family: { rewards: { minutesPerLesson: 15, maxPerDay: 60 } }, children: [] })
     expect(old.family.subjects.science).toBe('earn')
-    expect(old.family.rewards).toEqual({ minutesPerLesson: 15, maxPerDay: 60, lessonsToOpen: 2 })
+    expect(old.family.rewards).toEqual({ minutesPerLesson: 15, maxPerDay: 60, lessonsToOpen: 2, checks: 10 })
   })
 })

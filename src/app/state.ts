@@ -23,15 +23,23 @@ export interface Miss {
 
 /** How far a child is with one skill. */
 export interface SkillProgress {
-  /** 4 of 5 checks right once: mastered. */
+  /** 8 of 10 checks right once: mastered (4 of 5 before lessons had 10 checks). */
   mastered: boolean
   /** "YYYY-MM-DD" of the session that mastered it. */
   masteredOn?: string
-  /** Sessions finished (teach card, guided tries and five checks). */
+  /** Sessions finished (teach card, guided tries and checks). */
   sessions: number
-  /** Checks right in the last session (0–5). */
+  /** Checks right in the last session. */
   lastScore: number | null
+  /** How many checks the last session had (10; missing: 5, saved before lessons had 10 checks). */
+  lastOf?: number
 }
+
+/** Was the last session all right ("10 of 10", or "5 of 5" in a session saved before lessons had 10 checks)? */
+export const isPerfect = (p: SkillProgress | undefined): boolean => !!p && p.lastScore !== null && p.lastScore >= (p.lastOf ?? 5)
+
+/** The share of the last session's checks that were right (0–1). */
+export const lastShare = (p: SkillProgress | undefined): number => (p?.lastScore ?? 0) / (p?.lastOf ?? 5)
 
 export interface Child {
   id: string
@@ -50,7 +58,7 @@ export interface Child {
   levels: Record<string, number>
   /** The skill the child chose to learn (the Learn tab shows only this one). */
   current: string | null
-  /** Lessons passed (4 of 5 checks) per day ("YYYY-MM-DD" → count): they earn time (app/access.ts). */
+  /** Lessons passed (8 of 10 checks) per day ("YYYY-MM-DD" → count): they earn time (app/access.ts). */
   passes: Record<string, number>
   /** Lessons finished per day, with their checks right and done: for the reports. */
   lessons: Record<string, { count: number; right: number; checks: number }>
@@ -79,7 +87,8 @@ export interface Family {
   /** Each subject: off, open, or "earn first" (opens for the day after `rewards.lessonsToOpen` passed lessons). */
   subjects: Record<Subject, Access>
   /** Earned time: minutes per passed lesson, and the most a day; lessons passed in a day that open the "earn first" subjects. */
-  rewards: { minutesPerLesson: number; maxPerDay: number; lessonsToOpen: number }
+  /** Earned time, lessons to pass first, and checks per lesson (5, 7 or 10; lesson/session.ts). */
+  rewards: { minutesPerLesson: number; maxPerDay: number; lessonsToOpen: number; checks: number }
   /** Who reads aloud: Mary (female), Barry (male), or "off" (shared/speak.ts). */
   voice: VoiceOption
   /** Soft sound effects for taps, answers and a finished lesson (shared/sounds.ts). */
@@ -109,7 +118,7 @@ export const COLOURS = ['#5b6cf0', '#e2557e', '#178c84', '#e08a1e', '#8b5cf6', '
 /** Maths and English always open; patterns, science, French and the three reasoning subjects opened by passing lessons first. */
 export const defaultSubjects = (): Record<Subject, Access> => ({ numbers: 'open', words: 'open', patterns: 'earn', science: 'earn', french: 'earn', verbal: 'earn', quantitative: 'earn', qualitative: 'earn' })
 
-export const emptyFamily = (): Family => ({ pin: null, recovery: null, recoveryEmail: null, secretWord: null, pinLock: { wrong: 0, until: 0 }, access: defaultAccess(), subjects: defaultSubjects(), rewards: { minutesPerLesson: 10, maxPerDay: 45, lessonsToOpen: 2 }, voice: 'female', sounds: true, cheers: true, motion: 'lively' })
+export const emptyFamily = (): Family => ({ pin: null, recovery: null, recoveryEmail: null, secretWord: null, pinLock: { wrong: 0, until: 0 }, access: defaultAccess(), subjects: defaultSubjects(), rewards: { minutesPerLesson: 10, maxPerDay: 45, lessonsToOpen: 2, checks: 10 }, voice: 'female', sounds: true, cheers: true, motion: 'lively' })
 
 export const emptyState = (): AppState => ({ version: STATE_VERSION, family: emptyFamily(), children: [], activeChild: null, lang: null, lastBackupAt: null, updatedAt: 0 })
 

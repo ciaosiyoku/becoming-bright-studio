@@ -1,6 +1,6 @@
 import { suitsAge } from '@/skills/ages'
 import type { SkillMeta, Subject } from '@/skills/types'
-import type { Child } from './state'
+import { type Child, isPerfect } from './state'
 import { streaks } from './streak'
 
 // Stickers: 100 milestones in learning, each with its own picture, worked out from the child's progress (nothing
@@ -90,7 +90,7 @@ export const totalStars = (child: Child): number => Object.values(child.lessons 
 /** Has the child earned this sticker? */
 export function earned(sticker: Sticker, child: Child, skills: SkillMeta[], today: string): boolean {
   const learnt = learntSkills(child, skills)
-  const perfectSkills = skills.filter((s) => child.skills[s.id]?.lastScore === 5)
+  const perfectSkills = skills.filter((s) => isPerfect(child.skills[s.id]))
   const days = Object.values(child.lessons ?? {})
   const r = sticker.rule
   switch (r.kind) {
@@ -103,7 +103,7 @@ export function earned(sticker: Sticker, child: Child, skills: SkillMeta[], toda
     case 'subjectTrees':
       return learnt.filter((s) => s.subject === r.subject).length >= r.n
     case 'perfect':
-      return Object.values(child.skills).some((p) => p.lastScore === 5)
+      return Object.values(child.skills).some((p) => isPerfect(p))
     case 'days':
       return streaks(child, today).best >= r.n
     case 'lessons':

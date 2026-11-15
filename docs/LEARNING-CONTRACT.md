@@ -17,14 +17,14 @@ the change.
 
 ## What one session does
 
-One session is **one skill**, about 5 to 8 minutes:
+One session is **one skill**, about 8 to 12 minutes:
 
 1. **Teach card.** One picture or number line, one sentence, read aloud. The child taps "I'm ready".
 2. **Two guided tries.** The child answers. Right or wrong, the right answer is shown with a one-line reason, and the
    child taps "Next". These don't count.
-3. **Five checks.** One try each, then the same kind of reason. A miss stays on screen until the child taps "Next":
+3. **Ten checks** (the grown-ups can choose 5 or 7 instead). One try each, then the same kind of reason. A miss stays on screen until the child taps "Next":
    nothing moves on by itself.
-4. **Result.** 4 of 5 right: the skill is **mastered** (a tree on the home screen), and the next skill of the same
+4. **Result.** 8 of 10 right (4 of 5, 6 of 7): the skill is **mastered** (a tree on the home screen), and the next skill of the same
    subject is suggested. Fewer: "Let's practise this again", and the next session starts again at the teach card.
 
 Numbers are made fresh each time, so a child can't learn the answers by heart. Every question has exactly one right
@@ -42,7 +42,7 @@ One parent screen, behind a PIN:
   the day once the child has passed enough lessons that day (2 at first). At first maths and English are open, and
   patterns, science and French are earn first.
 - **Off / Open / Earn first** for every game, radio, stories, videos and explore item. "Earn first" means a passed
-  lesson (4 of 5) earns minutes (10 at first) up to a daily limit (45 at first). The clock only runs while an earn-first
+  lesson (8 of 10) earns minutes (10 at first) up to a daily limit (45 at first). The clock only runs while an earn-first
   item is open.
 - Children (a name and a colour each), language, reading voice, backup and restore, changing the PIN, and
   **Update now** (the app also updates itself once a day, between activities).
@@ -68,7 +68,7 @@ One parent screen, behind a PIN:
   word builder, code breaker, picture puzzle, number slide, and four reasoning games with levels that start at the
   child's age and rise after each win (mini sudoku, Tower of Hanoi, repeat the pattern, picture logic).
 - **Stars, stickers and the garden come only from lessons** (redesign, Nov 2026): a star for each check right, a
-  tree for each skill learnt, stickers for milestones in learning (first tree of a subject, 5 of 5, days in a row).
+  tree for each skill learnt, stickers for milestones in learning (first tree of a subject, 10 of 10, days in a row).
   Nothing for time spent, taps or games, and nothing is ever taken away. Sunny, the guide, cheers a right answer and
   says "Let's look together" after a miss; a miss never buzzes or turns red.
 
@@ -82,7 +82,7 @@ Skill: **add within 5**. Child: Sam, 6.
 | Guided 1 | "2 + 1 = ?" with buttons 2, 3, 4 | "What is 2 plus 1?" | Taps 4 (wrong) | 4 turns red, **3 turns green**, line: "Start at 2, jump 1 → 3." Stays until Sam taps "Next" |
 | Guided 2 | "1 + 3 = ?" with buttons 4, 3, 5 | "What is 1 plus 3?" | Taps 4 (right) | 4 turns green, line: "Start at 1, jump 3 → 4." "Next" |
 | Check 1–5 | New sums within 5, same layout, "Check 1 of 5" | Each question | One tap each | Green or red plus the reason, then "Next". Misses are saved for the parent |
-| Result | 4 of 5: a sprout grows into a tree. "You've learnt: add within 5!" | The same | Taps "Back home" | "You earned 10 minutes" (for the items set to Earn first) |
+| Result | 8 of 10: a sprout grows into a tree. "You've learnt: add within 5!" | The same | Taps "Back home" | "You earned 10 minutes" (for the items set to Earn first) |
 | Parent | Report, Today: 1 lesson, 80 % right. To practise again: "2 + 1 = ?: answered 4, right answer 3" | – | Reads it | Can talk about it with Sam at dinner |
 
 If this table can't be acted out with a child and a sheet of paper, the app shouldn't be built that way.

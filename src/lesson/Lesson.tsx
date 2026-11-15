@@ -14,7 +14,7 @@ import { bySubject, itemWords, skillById, SKILLS, skillLang, skillText } from '@
 import type { Choice, Item, SkillDef } from '@/skills/types'
 import { useSkills } from '@/skills/useSkills'
 import { NumberLine } from './NumberLine'
-import { type CheckAnswer, CHECKS, finishSession, GUIDED, newSession, nextSkill, PASS, resultOf, stepOf } from './session'
+import { type CheckAnswer, checksOf, finishSession, GUIDED, newSession, nextSkill, resultOf, stepOf } from './session'
 import { playSound } from '@/shared/sounds'
 import { Sunny } from '@/shared/Sunny'
 import { VisualView } from './VisualView'
@@ -52,7 +52,8 @@ function LessonSession({ def, onClose }: { def: SkillDef; onClose: () => void })
   const lang = skillLang(def, appLang)
   const { state, update } = useStore()
   const child = activeChild(state)!
-  const [session] = useState(() => newSession(def, Math.random, lang))
+  // As many checks as the grown-ups chose (5, 7 or 10), fixed for the whole lesson.
+  const [session] = useState(() => newSession(def, Math.random, lang, checksOf(state.family.rewards.checks)))
   const [phase, setPhase] = useState<'teach' | 'items' | 'result'>('teach')
   const [index, setIndex] = useState(0)
   const [checks, setChecks] = useState<CheckAnswer[]>([])
@@ -60,7 +61,7 @@ function LessonSession({ def, onClose }: { def: SkillDef; onClose: () => void })
   const [stickers, setStickers] = useState<Sticker[]>([])
   useEffect(() => stopSpeaking, [])
 
-  const step = stepOf(index)
+  const step = stepOf(index, session.checks)
   const answered = (a: CheckAnswer) => {
     const all = step.kind === 'check' ? [...checks, a] : checks
     setChecks(all)
@@ -95,7 +96,7 @@ function LessonSession({ def, onClose }: { def: SkillDef; onClose: () => void })
 
 /**
  * Where the child is: one dot per question (2 practice tries, then 5 checks). A right check gets a star; practice
- * tries never count, so they never get one. The words ("Check 2 of 5") are there for screen readers.
+ * tries never count, so they never get one. The words ("Check 2 of 10") are there for screen readers.
  */
 function Steps({ index, total, checks, label }: { index: number; total: number; checks: CheckAnswer[]; label: string }) {
   return (
@@ -247,7 +248,7 @@ function Result({ skill, checks, stickers, onClose }: { skill: string; checks: C
   const upcomingDef = upcoming ? skillById(upcoming) : undefined
   // The minutes this lesson earned (a passed lesson; none once today's most is reached).
   const child = activeChild(state)!
-  const gained = right >= PASS ? earnedMinutes(child, state.family, today) - earnedMinutes({ ...child, passes: { ...child.passes, [today]: (child.passes[today] ?? 1) - 1 } }, state.family, today) : 0
+  const gained = mastered ? earnedMinutes(child, state.family, today) - earnedMinutes({ ...child, passes: { ...child.passes, [today]: (child.passes[today] ?? 1) - 1 } }, state.family, today) : 0
   // A short tune as the tree grows.
   useEffect(() => {
     if (mastered) playSound('done')
@@ -259,14 +260,14 @@ function Result({ skill, checks, stickers, onClose }: { skill: string; checks: C
         <Sunny mood={mastered && state.family.cheers ? 'cheer' : 'happy'} size={120} className="sunny-result" />
       </div>
       <h2>{mastered ? T.lesson.learntTitle : T.lesson.notYetTitle}</h2>
-      <p className="result-stars" aria-label={T.lesson.score(right, CHECKS)}>
-        {Array.from({ length: CHECKS }, (_, i) => (
+      <p className="result-stars" aria-label={T.lesson.score(right, checks.length)}>
+        {Array.from({ length: checks.length }, (_, i) => (
           <svg key={i} viewBox="0 0 24 24" className={i < right ? 'got' : ''} aria-hidden="true">
             <path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z" />
           </svg>
         ))}
       </p>
-      <p>{T.lesson.score(right, CHECKS)}</p>
+      <p>{T.lesson.score(right, checks.length)}</p>
       <p>{mastered ? T.lesson.learntText(skillText(def, lang).title) : T.lesson.notYetText}</p>
       {mastered && upcomingDef && <p className="pill">{T.lesson.nextUp(skillText(upcomingDef, lang).title)}</p>}
       {/* Up to three new stickers here; the sticker book has them all. */}

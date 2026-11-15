@@ -151,10 +151,10 @@ export const CALC: Record<CalcKind, Calc> = {
   'time-units': {
     pick: (_def, r) => {
       // From 2, so no sentence says "1 hours".
-      const k = int(r, 2, 5)
+      const k = int(r, 2, 10)
       return { n: k, answer: 60 * k, rule: coin(r) ? 'hours' : 'minutes' }
     },
-    build: (_def, v, r) => ({ visual: { kind: 'sum', text: v.rule === 'hours' ? `${v.n} h = ? min` : `${v.n} min = ? s` }, ...numberChoices(r, n(v, 'answer'), 300, [-60, 60, -10, 10]) }),
+    build: (_def, v, r) => ({ visual: { kind: 'sum', text: v.rule === 'hours' ? `${v.n} h = ? min` : `${v.n} min = ? s` }, ...numberChoices(r, n(v, 'answer'), 700, [-60, 60, -10, 10]) }),
   },
   // What is a digit worth in a 3-digit number? (three different digits, none 0)
   'place-value': {
@@ -267,7 +267,7 @@ export const CALC: Record<CalcKind, Calc> = {
   // Square numbers: n² = n × n
   square: {
     pick: (_def, r) => {
-      const k = int(r, 4, 15)
+      const k = int(r, 2, 15)
       return { n: k, answer: k * k }
     },
     build: (_def, v, r) => ({ visual: { kind: 'sum', text: `${v.n}²` }, ...numberChoices(r, n(v, 'answer'), 400, [-n(v, 'n'), n(v, 'n'), 2 * n(v, 'n') - 1, 1]) }),
