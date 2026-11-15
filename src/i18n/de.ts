@@ -140,6 +140,7 @@ export const de: Strings = {
     notYetText: 'Nächstes Mal fangen wir wieder mit der Karte an.',
     score: (right: number, of: number) => `${right} von ${of} richtig`,
     nextUp: (skill: string) => `Als Nächstes: ${skill}`,
+    nextSubject: (subject: string, skill: string) => `Nächstes Fach: ${subject} – ${skill}`,
     backHome: 'Zurück zum Start',
   },
   games: {

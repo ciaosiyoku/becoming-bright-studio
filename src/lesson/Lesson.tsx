@@ -1,6 +1,6 @@
 import { ArrowLeft, ArrowRight, Volume2 } from 'lucide-react'
 import { useEffect, useState } from 'react'
-import { earnedMinutes } from '@/app/access'
+import { earnedMinutes, subjectState } from '@/app/access'
 import { activeChild, isoDate, updateChild } from '@/app/state'
 import { earnedIds, newStickers, type Sticker } from '@/app/stickers'
 import { stickerText } from '@/home/stickerText'
@@ -11,11 +11,11 @@ import { Emoji } from '@/shared/Emoji'
 import { speak, stopSpeaking, useCanSpeak } from '@/shared/speak'
 import { teachCard } from '@/skills/generate'
 import { suitsAge } from '@/skills/ages'
-import { bySubject, itemWords, skillById, SKILLS, skillLang, skillText } from '@/skills/index'
-import type { Choice, Item, SkillDef } from '@/skills/types'
+import { bySubject, itemWords, skillById, SKILLS, skillLang, skillText, SUBJECTS } from '@/skills/index'
+import type { Choice, Item, SkillDef, Subject } from '@/skills/types'
 import { useSkills } from '@/skills/useSkills'
 import { NumberLine } from './NumberLine'
-import { type CheckAnswer, checksOf, finishSession, GUIDED, newSession, nextSkill, resultOf, stepOf } from './session'
+import { type CheckAnswer, checksOf, finishSession, GUIDED, newSession, resultOf, stepOf } from './session'
 import { playSound } from '@/shared/sounds'
 import { Sunny } from '@/shared/Sunny'
 import { VisualView } from './VisualView'
@@ -25,7 +25,7 @@ import './Lesson.css'
 const NEXT_DELAY_MS = 1200
 
 /** One session of one skill: teach card, two guided tries, five checks, result (session.ts). */
-export function Lesson({ skill, onClose }: { skill: string; onClose: () => void }) {
+export function Lesson({ skill, onClose, onLesson }: { skill: string; onClose: () => void; onLesson: (skill: string) => void }) {
   const T = useT()
   // The skill's questions are loaded when the lesson opens (skills/index.ts: loadSkill), from the device once saved.
   const loaded = useSkills([skill])
@@ -43,10 +43,10 @@ export function Lesson({ skill, onClose }: { skill: string; onClose: () => void 
         </section>
       </main>
     )
-  return <LessonSession def={loaded[0]} onClose={onClose} />
+  return <LessonSession def={loaded[0]} onClose={onClose} onLesson={onLesson} />
 }
 
-function LessonSession({ def, onClose }: { def: SkillDef; onClose: () => void }) {
+function LessonSession({ def, onClose, onLesson }: { def: SkillDef; onClose: () => void; onLesson: (skill: string) => void }) {
   const T = useT()
   const skill = def.id
   const appLang = useLang()
@@ -90,7 +90,7 @@ function LessonSession({ def, onClose }: { def: SkillDef; onClose: () => void })
       </header>
       {phase === 'teach' && <TeachCard def={def} lang={lang} onReady={() => setPhase('items')} />}
       {phase === 'items' && <Question key={index} skill={skill} item={session.items[index]} lang={lang} isCheck={step.kind === 'check'} onAnswered={answered} onNext={next} />}
-      {phase === 'result' && <Result skill={skill} checks={checks} stickers={stickers} onClose={onClose} />}
+      {phase === 'result' && <Result skill={skill} checks={checks} stickers={stickers} onClose={onClose} onLesson={onLesson} />}
     </main>
   )
 }
@@ -232,23 +232,29 @@ function Question({ skill, item, lang, isCheck, onAnswered, onNext }: { skill: s
 }
 
 /** The end of the session: mastered (a tree, and the memory game when games are allowed) or "let's practise again". */
-function Result({ skill, checks, stickers, onClose }: { skill: string; checks: CheckAnswer[]; stickers: Sticker[]; onClose: () => void }) {
+function Result({ skill, checks, stickers, onClose, onLesson }: { skill: string; checks: CheckAnswer[]; stickers: Sticker[]; onClose: () => void; onLesson: (skill: string) => void }) {
   const T = useT()
   const today = useToday()
   const lang = useLang()
-  const { state } = useStore()
+  const { state, update } = useStore()
   const def = skillById(skill)!
   const { right, mastered } = resultOf(checks)
-  // A suggestion only (the child chooses): the next skill of the same subject, for the child's age, not learnt yet.
-  const upcoming = nextSkill(
-    activeChild(state)!,
-    bySubject(def.subject)
-      .filter((s) => s.order > def.order && suitsAge(s, activeChild(state)!.age))
-      .map((s) => s.id),
-  )
+  const child = activeChild(state)!
+  /** The skills of a subject for the child's age that are not learnt yet, in teaching order. */
+  const toLearn = (subject: Subject) => bySubject(subject).filter((s) => suitsAge(s, child.age) && s.id !== def.id && !child.skills[s.id]?.mastered)
+  // What comes next (the child may still choose another): the next skill of this subject for the child's age, or
+  // one the child skipped; when the subject is done, the first skill to learn in the next open subject.
+  const here = toLearn(def.subject)
+  const sameSubject = here.find((s) => s.order > def.order) ?? here[0]
+  const others = [...SUBJECTS.slice(SUBJECTS.indexOf(def.subject) + 1), ...SUBJECTS.slice(0, SUBJECTS.indexOf(def.subject))]
+  const nextSubject = sameSubject ? undefined : others.find((sub) => subjectState(state.family, child, sub, today) === 'open' && toLearn(sub).length > 0)
+  const upcoming = sameSubject?.id ?? (nextSubject ? toLearn(nextSubject)[0].id : null)
+  const goNext = (id: string) => {
+    update((s) => updateChild(s, child.id, (c) => ({ ...c, current: id })))
+    onLesson(id)
+  }
   const upcomingDef = upcoming ? skillById(upcoming) : undefined
   // The minutes this lesson earned (a passed lesson; none once today's most is reached).
-  const child = activeChild(state)!
   const gained = mastered ? earnedMinutes(child, state.family, today) - earnedMinutes({ ...child, passes: { ...child.passes, [today]: (child.passes[today] ?? 1) - 1 } }, state.family, today) : 0
   // A short tune as the tree grows.
   useEffect(() => {
@@ -270,7 +276,6 @@ function Result({ skill, checks, stickers, onClose }: { skill: string; checks: C
       </p>
       <p>{T.lesson.score(right, checks.length)}</p>
       <p>{mastered ? T.lesson.learntText(skillText(def, lang).title) : T.lesson.notYetText}</p>
-      {mastered && upcomingDef && <p className="pill">{T.lesson.nextUp(skillText(upcomingDef, lang).title)}</p>}
       {/* Up to three new stickers here; the sticker book has them all. */}
       {stickers.slice(0, 3).map((st) => (
         <p key={st.id} className="new-sticker">
@@ -288,7 +293,12 @@ function Result({ skill, checks, stickers, onClose }: { skill: string; checks: C
         </p>
       )}
       <div className="row center">
-        <button className="big" onClick={onClose}>
+        {mastered && upcomingDef && (
+          <button className="big" onClick={() => goNext(upcomingDef.id)}>
+            {nextSubject ? T.lesson.nextSubject(T.home.subjects[nextSubject], skillText(upcomingDef, lang).title) : T.lesson.nextUp(skillText(upcomingDef, lang).title)}
+          </button>
+        )}
+        <button className={mastered && upcomingDef ? 'secondary' : 'big'} onClick={onClose}>
           {T.lesson.backHome}
         </button>
       </div>

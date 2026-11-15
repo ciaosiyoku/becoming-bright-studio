@@ -65,7 +65,7 @@ function Screens() {
   if (!child) return <Setup />
   if (!state.family.pin) return <NeedPin />
   const tabs = () => setScreen({ name: 'tabs' })
-  if (screen.name === 'lesson') return <Lesson key={screen.skill} skill={screen.skill} onClose={tabs} />
+  if (screen.name === 'lesson') return <Lesson key={screen.skill} skill={screen.skill} onClose={tabs} onLesson={(skill) => setScreen({ name: 'lesson', skill })} />
   if (screen.name === 'item') return <ItemScreen id={screen.id} onClose={tabs} />
   if (screen.name === 'parent')
     return (

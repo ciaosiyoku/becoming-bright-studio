@@ -138,6 +138,7 @@ export const en = {
     notYetText: 'Next time we start with the card again.',
     score: (right: number, of: number) => `${right} of ${of} right`,
     nextUp: (skill: string) => `Next: ${skill}`,
+    nextSubject: (subject: string, skill: string) => `Next subject: ${subject} – ${skill}`,
     backHome: 'Back home',
   },
   games: {

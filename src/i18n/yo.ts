@@ -141,6 +141,7 @@ export const yo: Strings = {
     notYetText: 'Nígbà míì, a máa tún bẹ̀rẹ̀ pẹ̀lú káàdì náà.',
     score: (right: number, of: number) => `${right} nínú ${of} ló tọ̀nà`,
     nextUp: (skill: string) => `Èyí tó kàn: ${skill}`,
+    nextSubject: (subject: string, skill: string) => `Ẹ̀kọ́ tó kàn: ${subject} – ${skill}`,
     backHome: 'Padà sílé',
   },
   games: {
