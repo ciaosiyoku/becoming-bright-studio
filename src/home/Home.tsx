@@ -41,7 +41,10 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
   const stateOf = (subject: Subject) => subjectState(state.family, child, subject, today)
   // The skill to go back to, if it is still one for the child's age (the age may have changed since).
   const saved = child.current ? skillById(child.current) : undefined
-  const current = saved && suitsAge(saved, child.age) ? saved : undefined
+  const chosen = saved && suitsAge(saved, child.age) ? saved : undefined
+  // Once that skill is learnt, Sunny (and Continue) move on to the next one of its subject not learnt yet.
+  const toLearn = chosen ? forChild(chosen.subject).filter((s) => !child.skills[s.id]?.mastered) : []
+  const current = chosen && child.skills[chosen.id]?.mastered ? (toLearn.find((s) => s.order > chosen.order) ?? toLearn[0] ?? chosen) : chosen
   const [view, setView] = useState<View>({ name: 'subjects' })
   // Each view starts at its top (the tab scrolls as one page, App's Shell): a subject, a skill or the stickers.
   const page = useRef<HTMLElement>(null)
@@ -215,7 +218,7 @@ export function Home({ onLesson, onParent }: { onLesson: (skill: string) => void
               title: skillText(def, lang).title,
               learnt: Boolean(child.skills[def.id]?.mastered),
               stars: starsOf(def.id),
-              chosen: def.id === child.current,
+              chosen: def.id === current?.id,
               level: T.home.level(def.stage + 1),
             }))}
             starsLabel={T.home.stars}
