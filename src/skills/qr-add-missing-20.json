@@ -170,7 +170,7 @@
   },
   "text": {
     "en": {
-      "title": "Missing numbers: adding to 20",
+      "title": "Missing numbers: adding to make 11 to 20",
       "teach": "Something is hiding behind the ?. Try numbers until the sum is true: {shown}, and {full}.",
       "prompt": "What is the missing number?",
       "reason": "{full}, so the missing number is {answer}."

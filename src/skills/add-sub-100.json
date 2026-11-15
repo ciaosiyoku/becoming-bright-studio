@@ -22,7 +22,7 @@
   },
   "text": {
     "en": {
-      "title": "Adding and taking away within 100",
+      "title": "Adding and taking away: 51 to 100",
       "teach": "Add the tens first, then the ones. 46 + 27: 46 + 20 = 66, then 66 + 7 = 73.",
       "prompt": "What is {a} {op} {b}?",
       "reason": "",
@@ -32,7 +32,7 @@
       }
     },
     "de": {
-      "title": "Plus und Minus bis 100",
+      "title": "Plus und Minus: 51 bis 100",
       "teach": "Rechne zuerst die Zehner, dann die Einer. 46 + 27: 46 + 20 = 66, dann 66 + 7 = 73.",
       "prompt": "Was ist {a} {op} {b}?",
       "reason": "",
@@ -42,7 +42,7 @@
       }
     },
     "fr": {
-      "title": "Additionner et soustraire jusqu’à 100",
+      "title": "Additionner et soustraire : 51 à 100",
       "teach": "Ajoute d’abord les dizaines, puis les unités. 46 + 27 : 46 + 20 = 66, puis 66 + 7 = 73.",
       "prompt": "Combien font {a} {op} {b} ?",
       "reason": "",
@@ -52,7 +52,7 @@
       }
     },
     "yo": {
-      "title": "Àròpọ̀ àti àyọkúrò títí dé 100",
+      "title": "Àròpọ̀ àti àyọkúrò: 51 sí 100",
       "teach": "Kọ́kọ́ ṣe ẹ̀wá, lẹ́yìn náà ẹyọ. 46 + 27: 46 + 20 = 66, lẹ́yìn náà 66 + 7 = 73.",
       "prompt": "Kí ni {a} {op} {b}?",
       "reason": "",

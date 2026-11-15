@@ -22,7 +22,7 @@
   },
   "text": {
     "en": {
-      "title": "Adding and taking away within 15",
+      "title": "Adding and taking away: 13 to 15",
       "teach": "To add, jump forward from the first number; to take away, jump back. {a} + {b}: from {a}, jump {b} → {answer}.",
       "prompt": "What is {a} {op} {b}?",
       "reason": "",
@@ -32,7 +32,7 @@
       }
     },
     "de": {
-      "title": "Plus und Minus bis 15",
+      "title": "Plus und Minus: 13 bis 15",
       "teach": "Beim Plusrechnen springst du von der ersten Zahl vorwärts, beim Minusrechnen zurück. {a} + {b}: von {a} {b} Sprünge vor → {answer}.",
       "prompt": "Was ist {a} {op} {b}?",
       "reason": "",
@@ -42,7 +42,7 @@
       }
     },
     "fr": {
-      "title": "Additionner et soustraire jusqu’à 15",
+      "title": "Additionner et soustraire : 13 à 15",
       "teach": "Pour additionner, saute en avant depuis le premier nombre ; pour soustraire, saute en arrière. {a} + {b} : depuis {a}, {b} sauts en avant → {answer}.",
       "prompt": "Combien font {a} {op} {b} ?",
       "reason": "",
@@ -52,7 +52,7 @@
       }
     },
     "yo": {
-      "title": "Àròpọ̀ àti àyọkúrò títí dé 15",
+      "title": "Àròpọ̀ àti àyọkúrò: 13 sí 15",
       "teach": "Láti ṣe àròpọ̀, fò síwájú láti nọ́ńbà àkọ́kọ́; láti ṣe àyọkúrò, fò sẹ́yìn. {a} + {b}: láti {a}, fò ìgbà {b} → {answer}.",
       "prompt": "Kí ni {a} {op} {b}?",
       "reason": "",

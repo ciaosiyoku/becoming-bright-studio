@@ -265,7 +265,7 @@
   },
   "text": {
     "en": {
-      "title": "Spelling rules",
+      "title": "Tricky spellings",
       "teach": "Some spelling patterns help: -cious and -tious endings (delicious, ambitious), -able after a full word (comfortable), i before e except after c (receive), and silent letters (knight, thumb).",
       "prompt": "{q_en}",
       "reason": "{why_en}"

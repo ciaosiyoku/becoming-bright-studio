@@ -43,7 +43,7 @@
   },
   "text": {
     "en": {
-      "title": "Short and long",
+      "title": "Lengths: tiny to huge",
       "teach": "Think about how long each one is. From shortest to longest: {order}. The longest is {answer}.",
       "prompt": "Which is the longest?",
       "prompts": {

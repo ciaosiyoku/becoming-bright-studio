@@ -100,7 +100,7 @@
   },
   "text": {
     "en": {
-      "title": "Price stories to £5",
+      "title": "Price stories: bigger prices",
       "teach": "Find the numbers in the story, then work it out. One costs {c} ÷ {a} = {price}p, so {b} cost {b} × {price} = {answer}p.",
       "prompt": "{a} {thing} cost {c}p. How much do {b} {thing} cost?",
       "prompts": {

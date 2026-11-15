@@ -98,7 +98,7 @@
   },
   "text": {
     "en": {
-      "title": "Taking-away stories to 15",
+      "title": "Taking-away stories: 11 to 15",
       "teach": "Find the numbers in the story, then work it out. {a} − {b} = {answer}.",
       "prompt": "{name} has {a} {thing} and gives {b} away. How many {thing} are left?",
       "prompts": {

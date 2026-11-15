@@ -31,7 +31,7 @@
   },
   "text": {
     "en": {
-      "title": "Missing numbers to 100",
+      "title": "Missing numbers: 51 to 100",
       "teach": "Use the opposite step to find what is hiding: {shown}, so {full}.",
       "prompt": "What is the missing number?",
       "reason": "{full}, so the missing number is {answer}."

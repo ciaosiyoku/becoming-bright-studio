@@ -45,7 +45,7 @@
   },
   "text": {
     "en": {
-      "title": "Hot or cold? Sort them",
+      "title": "Coldest to hottest",
       "teach": "Think about how hot each one is. From coldest to hottest: {order}. The hottest is {answer}.",
       "prompt": "Which is the hottest?",
       "prompts": {

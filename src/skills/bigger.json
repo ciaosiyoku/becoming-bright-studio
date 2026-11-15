@@ -18,25 +18,25 @@
   },
   "text": {
     "en": {
-      "title": "Which is bigger?",
+      "title": "Which is bigger? (11 to 20)",
       "teach": "The bigger number comes later when we count. 14 comes after 9, so 14 is bigger.",
       "prompt": "Which number is bigger?",
       "reason": "{answer} comes after {small} when we count, so {answer} is bigger."
     },
     "de": {
-      "title": "Welche ist größer?",
+      "title": "Welche ist größer? (11 bis 20)",
       "teach": "Die größere Zahl kommt beim Zählen später. 14 kommt nach 9, also ist 14 größer.",
       "prompt": "Welche Zahl ist größer?",
       "reason": "{answer} kommt beim Zählen nach {small}, also ist {answer} größer."
     },
     "fr": {
-      "title": "Lequel est le plus grand ?",
+      "title": "Lequel est le plus grand ? (11 à 20)",
       "teach": "Le plus grand nombre vient plus tard quand on compte. 14 vient après 9, donc 14 est plus grand.",
       "prompt": "Quel nombre est le plus grand ?",
       "reason": "{answer} vient après {small} quand on compte, donc {answer} est plus grand."
     },
     "yo": {
-      "title": "Èwo ló tóbi jù?",
+      "title": "Èwo ló tóbi jù? (11 sí 20)",
       "teach": "Nọ́ńbà tó tóbi jù máa ń wá lẹ́yìn nígbà tí a bá ń kà. 14 wá lẹ́yìn 9, nítorí náà 14 tóbi jù.",
       "prompt": "Nọ́ńbà wo ló tóbi jù?",
       "reason": "{answer} wá lẹ́yìn {small} nígbà tí a bá ń kà, nítorí náà {answer} tóbi jù."

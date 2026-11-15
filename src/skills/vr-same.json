@@ -82,7 +82,7 @@
   },
   "text": {
     "en": {
-      "title": "Same meaning",
+      "title": "Same meaning: harder words",
       "teach": "Say how the first two words go together, then find the word that goes with the third the same way. {a} means the same as {b}, and {c} means the same as {answer}.",
       "prompt": "{a} is to {b} as {c} is to …?",
       "reason": "They go together the same way.",

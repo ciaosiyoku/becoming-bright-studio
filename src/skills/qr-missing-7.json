@@ -61,7 +61,7 @@
   },
   "text": {
     "en": {
-      "title": "Missing numbers to 7",
+      "title": "Missing numbers: 6 and 7",
       "teach": "Something is hiding behind the ?. Try numbers until the sum is true: {shown}, and {full}.",
       "prompt": "What is the missing number?",
       "reason": "{full}, so the missing number is {answer}."

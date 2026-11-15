@@ -136,7 +136,7 @@
   },
   "text": {
     "en": {
-      "title": "The odd one out",
+      "title": "The odd one out: mixed words",
       "teach": "Look for what three of the words share. {items} are all {group}; {answer} is not.",
       "prompt": "Which word is the odd one out?",
       "reason": "The others are all {group}; {answer} is not."

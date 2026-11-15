@@ -99,7 +99,7 @@
   },
   "text": {
     "en": {
-      "title": "Number stories to 100",
+      "title": "Number stories: 51 to 100",
       "teach": "Find the numbers in the story, then work it out. {a} + {b} = {answer}.",
       "prompt": "{name} has {a} {thing}. {name} gets {b} more. How many {thing} does {name} have now?",
       "prompts": {

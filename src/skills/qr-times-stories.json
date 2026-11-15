@@ -98,7 +98,7 @@
   },
   "text": {
     "en": {
-      "title": "Times stories",
+      "title": "Times stories: 31 to 100",
       "teach": "Find the numbers in the story, then work it out. {a} × {b} = {answer}.",
       "prompt": "There are {a} bags with {b} {thing} in each. How many {thing} are there in all?",
       "prompts": {

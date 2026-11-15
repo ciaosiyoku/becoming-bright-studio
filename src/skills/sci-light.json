@@ -909,25 +909,25 @@
   },
   "text": {
     "en": {
-      "title": "Light and shadows",
+      "title": "Light sources and how shadows form",
       "teach": "Light sources, like the Sun and a candle flame, make their own light. The Moon and mirrors only reflect light. When an opaque object blocks light, it makes a shadow.",
       "prompt": "{q_en}",
       "reason": "{why_en}"
     },
     "de": {
-      "title": "Licht und Schatten",
+      "title": "Lichtquellen und wie Schatten entstehen",
       "teach": "Lichtquellen wie die Sonne oder eine Kerzenflamme machen eigenes Licht. Der Mond und Spiegel werfen Licht nur zurück. Wenn ein undurchsichtiger Gegenstand das Licht aufhält, entsteht ein Schatten.",
       "prompt": "{q_de}",
       "reason": "{why_de}"
     },
     "fr": {
-      "title": "La lumière et les ombres",
+      "title": "Sources de lumière et formation des ombres",
       "teach": "Les sources de lumière, comme le Soleil ou la flamme d’une bougie, font leur propre lumière. La Lune et les miroirs ne font que la renvoyer. Quand un objet opaque bloque la lumière, il fait une ombre.",
       "prompt": "{q_fr}",
       "reason": "{why_fr}"
     },
     "yo": {
-      "title": "Ìmọ́lẹ̀ àti òjìji",
+      "title": "Orísun ìmọ̀lẹ̀ àti bí òjìji ṣe ń dá",
       "teach": "Orísun ìmọ́lẹ̀, bí oòrùn àti iná àbẹ́là, máa ń ṣe ìmọ́lẹ̀ tiwọn. Òṣùpá àti dígí kàn ń dá ìmọ́lẹ̀ padà ni. Tí ohun tí ìmọ́lẹ̀ kò lè gbà kọjá bá dí ìmọ́lẹ̀, ó máa ń ṣe òjìji.",
       "prompt": "{q_yo}",
       "reason": "{why_yo}"

@@ -46,7 +46,7 @@
   },
   "text": {
     "en": {
-      "title": "Heavy and light things",
+      "title": "Heavy and light: everyday things",
       "teach": "Think about how heavy each one is. From lightest to heaviest: {order}. The heaviest is {answer}.",
       "prompt": "Which is the heaviest?",
       "prompts": {

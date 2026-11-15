@@ -102,7 +102,7 @@
   },
   "text": {
     "en": {
-      "title": "Stories with times and sharing",
+      "title": "Times and sharing stories past 100",
       "teach": "First find what one costs, then what many cost. {a} {thing} cost {c}p, so one costs {price}p, and {b} cost {answer}p.",
       "prompt": "{a} {thing} cost {c}p. How much do {b} {thing} cost?",
       "prompts": {

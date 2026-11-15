@@ -62,7 +62,7 @@
   },
   "text": {
     "en": {
-      "title": "Taking-away machines",
+      "title": "Taking-away machines: 11 to 30",
       "teach": "A number goes in and the machine changes it. {in} goes in, the machine does {machine}: {working}.",
       "prompt": "{in} goes into the machine. What comes out?",
       "reason": "{working}."

@@ -162,7 +162,7 @@
   },
   "text": {
     "en": {
-      "title": "Number stories to 15",
+      "title": "Number stories: 11 to 15",
       "teach": "Read the story and find the numbers. {name} has {a} {thing} and gets {b} more: {a} + {b} = {answer}.",
       "prompt": "{name} has {a} {thing}. {name} gets {b} more. How many {thing} does {name} have now?",
       "prompts": {

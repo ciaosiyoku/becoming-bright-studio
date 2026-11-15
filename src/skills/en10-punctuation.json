@@ -265,7 +265,7 @@
   },
   "text": {
     "en": {
-      "title": "Punctuation",
+      "title": "Punctuating whole sentences",
       "teach": "Semicolons join linked clauses; colons introduce lists or explanations: like this. Dashes – and brackets (like these) – add extra information. Inverted commas go around spoken words.",
       "prompt": "{q_en}",
       "reason": "{why_en}"

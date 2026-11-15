@@ -28,7 +28,7 @@
   },
   "text": {
     "en": {
-      "title": "Missing numbers: taking away to 10",
+      "title": "Missing numbers: taking away from 8 to 10",
       "teach": "Something is hiding behind the ?. Try numbers until the sum is true: {shown}, and {full}.",
       "prompt": "What is the missing number?",
       "reason": "{full}, so the missing number is {answer}."

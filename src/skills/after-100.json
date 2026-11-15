@@ -19,7 +19,7 @@
   },
   "text": {
     "en": {
-      "title": "Numbers to 100: before and after",
+      "title": "Numbers 51 to 100: before and after",
       "teach": "When we count, each number has one just after it and one just before it. After {n} comes {answer}.",
       "prompt": "Which number comes after {n}?",
       "reason": "",
@@ -33,7 +33,7 @@
       }
     },
     "de": {
-      "title": "Zahlen bis 100: davor und danach",
+      "title": "Zahlen von 51 bis 100: davor und danach",
       "teach": "Beim Zählen hat jede Zahl eine direkt danach und eine direkt davor. Nach {n} kommt {answer}.",
       "prompt": "Welche Zahl kommt nach {n}?",
       "reason": "",
@@ -47,7 +47,7 @@
       }
     },
     "fr": {
-      "title": "Nombres jusqu’à 100 : avant et après",
+      "title": "Nombres de 51 à 100 : avant et après",
       "teach": "Quand on compte, chaque nombre a un nombre juste après et un juste avant. Après {n} vient {answer}.",
       "prompt": "Quel nombre vient après {n} ?",
       "reason": "",
@@ -61,7 +61,7 @@
       }
     },
     "yo": {
-      "title": "Nọ́ńbà títí dé 100: ṣáájú àti lẹ́yìn",
+      "title": "Nọ́ńbà 51 sí 100: ṣáájú àti lẹ́yìn",
       "teach": "Nígbà tí a bá ń kà, nọ́ńbà kọ̀ọ̀kan ní èyí tó tẹ̀lé e àti èyí tó ṣáájú rẹ̀. Lẹ́yìn {n} ni {answer}.",
       "prompt": "Nọ́ńbà wo ló tẹ̀lé {n}?",
       "reason": "",

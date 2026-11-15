@@ -851,25 +851,25 @@
   },
   "text": {
     "en": {
-      "title": "My five senses",
+      "title": "Using my senses every day",
       "teach": "You have five senses. You see with your eyes, hear with your ears, smell with your nose, taste with your tongue and touch with your skin.",
       "prompt": "{q_en}",
       "reason": "{why_en}"
     },
     "de": {
-      "title": "Meine fünf Sinne",
+      "title": "Meine Sinne im Alltag",
       "teach": "Du hast fünf Sinne. Du siehst mit den Augen, hörst mit den Ohren, riechst mit der Nase, schmeckst mit der Zunge und fühlst mit der Haut.",
       "prompt": "{q_de}",
       "reason": "{why_de}"
     },
     "fr": {
-      "title": "Mes cinq sens",
+      "title": "Mes sens au quotidien",
       "teach": "Tu as cinq sens. Tu vois avec tes yeux, tu entends avec tes oreilles, tu sens les odeurs avec ton nez, tu goûtes avec ta langue et tu touches avec ta peau.",
       "prompt": "{q_fr}",
       "reason": "{why_fr}"
     },
     "yo": {
-      "title": "Ìmọ̀lára márààrún mi",
+      "title": "Lílo ìmọ̀lára mi lójoojúmọ́",
       "teach": "O ní ìmọ̀lára márùn-ún. O ń fi ojú ríran, o ń fi etí gbọ́ràn, o ń fi imú gbóòórùn, o ń fi ahọ́n tọ́ nǹkan wò, o sì ń fi awọ ara fọwọ́ kan nǹkan.",
       "prompt": "{q_yo}",
       "reason": "{why_yo}"

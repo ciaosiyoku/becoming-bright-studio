@@ -880,25 +880,25 @@
   },
   "text": {
     "en": {
-      "title": "Parts of the body",
+      "title": "Inside the body: heart, lungs and bones",
       "teach": "Each part of your body has a job. Your heart pumps blood, your lungs breathe air and your bones hold you up.",
       "prompt": "{q_en}",
       "reason": "{why_en}"
     },
     "de": {
-      "title": "Die Teile des Körpers",
+      "title": "Im Körper: Herz, Lunge und Knochen",
       "teach": "Jeder Teil deines Körpers hat eine Aufgabe. Das Herz pumpt Blut, die Lunge atmet Luft und die Knochen halten dich aufrecht.",
       "prompt": "{q_de}",
       "reason": "{why_de}"
     },
     "fr": {
-      "title": "Les parties du corps",
+      "title": "Dans le corps : cœur, poumons et os",
       "teach": "Chaque partie du corps a un travail. Le cœur pompe le sang, les poumons respirent l’air et les os te tiennent debout.",
       "prompt": "{q_fr}",
       "reason": "{why_fr}"
     },
     "yo": {
-      "title": "Àwọn ẹ̀yà ara",
+      "title": "Inú ara: ọkàn, ẹ̀dọ̀fóró àti egungun",
       "teach": "Ẹ̀yà ara kọ̀ọ̀kan ní iṣẹ́ tirẹ̀. Ọkàn ń fa ẹ̀jẹ̀, ẹ̀dọ̀fóró ń mí afẹ́fẹ́, egungun sì ń gbé ara dúró.",
       "prompt": "{q_yo}",
       "reason": "{why_yo}"

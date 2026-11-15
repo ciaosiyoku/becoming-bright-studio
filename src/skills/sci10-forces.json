@@ -909,25 +909,25 @@
   },
   "text": {
     "en": {
-      "title": "Forces",
+      "title": "Forces: gravity, weight and air resistance",
       "teach": "Forces are pushes and pulls, measured in newtons (N). Gravity gives things weight, air and water resistance and friction slow moving things down, and levers, pulleys and gears let a small force do a big job.",
       "prompt": "{q_en}",
       "reason": "{why_en}"
     },
     "de": {
-      "title": "Kräfte",
+      "title": "Kräfte: Schwerkraft, Gewicht und Luftwiderstand",
       "teach": "Kräfte sind Drücken und Ziehen und werden in Newton (N) gemessen. Die Schwerkraft gibt Dingen ihre Gewichtskraft, Luftwiderstand, Wasserwiderstand und Reibung bremsen Bewegungen, und Hebel, Flaschenzüge und Zahnräder lassen eine kleine Kraft viel bewirken.",
       "prompt": "{q_de}",
       "reason": "{why_de}"
     },
     "fr": {
-      "title": "Les forces",
+      "title": "Les forces : gravité, poids et résistance de l’air",
       "teach": "Les forces sont des poussées et des tractions, mesurées en newtons (N). La gravité donne leur poids aux objets, la résistance de l’air, celle de l’eau et le frottement freinent les mouvements, et les leviers, les poulies et les engrenages permettent à une petite force de faire un gros travail.",
       "prompt": "{q_fr}",
       "reason": "{why_fr}"
     },
     "yo": {
-      "title": "Agbára (forces)",
+      "title": "Agbára: òòfà ilẹ̀, ìwúwo àti ìdènà afẹ́fẹ́",
       "teach": "Agbára ni títì àti fífà, a sì ń wọ̀n ọ́n ní níútọ̀nù (N). Agbára òòfà ló ń fún nǹkan ní ìwúwo, ìdènà afẹ́fẹ́, ìdènà omi àti ìfarakanra (friction) ń dín ìrìn kù, ọ̀pá ìgbéga, àgbá okùn àti kẹ̀kẹ́ eléyín sì ń jẹ́ kí agbára kékeré ṣe iṣẹ́ ńlá.",
       "prompt": "{q_yo}",
       "reason": "{why_yo}"

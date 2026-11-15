@@ -187,7 +187,7 @@
   },
   "text": {
     "en": {
-      "title": "Number stories to 20",
+      "title": "Number stories: 16 to 20",
       "teach": "Find the numbers in the story, then add or take away. {name} has {a} {thing} and gets {b} more: {a} + {b} = {answer}.",
       "prompt": "{name} has {a} {thing} and gives {b} away. How many {thing} are left?",
       "prompts": {

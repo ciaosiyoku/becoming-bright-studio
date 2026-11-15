@@ -60,7 +60,7 @@
   },
   "text": {
     "en": {
-      "title": "Missing numbers: adding to 10",
+      "title": "Missing numbers: adding to make 6 to 10",
       "teach": "Something is hiding behind the ?. Try numbers until the sum is true: {shown}, and {full}.",
       "prompt": "What is the missing number?",
       "reason": "{full}, so the missing number is {answer}."

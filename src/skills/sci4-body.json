@@ -851,25 +851,25 @@
   },
   "text": {
     "en": {
-      "title": "My body",
+      "title": "What my body can do",
       "teach": "Your body has lots of parts, and each one has a job. You walk with your feet, hold things with your hands and chew with your teeth.",
       "prompt": "{q_en}",
       "reason": "{why_en}"
     },
     "de": {
-      "title": "Mein Körper",
+      "title": "Was mein Körper kann",
       "teach": "Dein Körper hat viele Teile, und jedes hat eine Aufgabe. Mit den Füßen läufst du, mit den Händen hältst du etwas, mit den Zähnen kaust du.",
       "prompt": "{q_de}",
       "reason": "{why_de}"
     },
     "fr": {
-      "title": "Mon corps",
+      "title": "Ce que mon corps sait faire",
       "teach": "Ton corps a beaucoup de parties, et chacune a un travail. Tu marches avec tes pieds, tu tiens les choses avec tes mains et tu mâches avec tes dents.",
       "prompt": "{q_fr}",
       "reason": "{why_fr}"
     },
     "yo": {
-      "title": "Ara mi",
+      "title": "Ohun tí ara mi lè ṣe",
       "teach": "Ara rẹ ní ọ̀pọ̀lọpọ̀ ẹ̀yà, iṣẹ́ kọ̀ọ̀kan sì ní tirẹ̀. O ń fi ẹsẹ̀ rìn, o ń fi ọwọ́ di nǹkan mú, o sì ń fi eyín jẹ oúnjẹ.",
       "prompt": "{q_yo}",
       "reason": "{why_yo}"

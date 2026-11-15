@@ -909,25 +909,25 @@
   },
   "text": {
     "en": {
-      "title": "Sound",
+      "title": "How sounds are made and heard",
       "teach": "Sounds are made when things vibrate. Sound travels through air, water and solids to our ears. A sound can be loud or quiet, and high or low: that is its pitch.",
       "prompt": "{q_en}",
       "reason": "{why_en}"
     },
     "de": {
-      "title": "Schall",
+      "title": "Wie Töne entstehen und gehört werden",
       "teach": "Töne entstehen, wenn etwas schwingt. Schall wandert durch Luft, Wasser und feste Stoffe bis zu unseren Ohren. Ein Ton kann laut oder leise sein, und hoch oder tief: Das ist seine Tonhöhe.",
       "prompt": "{q_de}",
       "reason": "{why_de}"
     },
     "fr": {
-      "title": "Le son",
+      "title": "Comment on produit et entend les sons",
       "teach": "Un son se forme quand quelque chose vibre. Le son voyage dans l’air, l’eau et les solides jusqu’à nos oreilles. Un son peut être fort ou faible, aigu ou grave : c’est sa hauteur.",
       "prompt": "{q_fr}",
       "reason": "{why_fr}"
     },
     "yo": {
-      "title": "Ìró",
+      "title": "Bí a ṣe ń ṣe ohùn àti bí a ṣe ń gbọ́ ọ",
       "teach": "Ìró máa ń wáyé nígbà tí nǹkan bá ń gbọ̀n. Ìró ń rìn gba inú afẹ́fẹ́, omi àti ohun líle dé etí wa. Ìró lè ga tàbí kí ó rọra, ohùn rẹ̀ sì lè wà lókè tàbí nísàlẹ̀.",
       "prompt": "{q_yo}",
       "reason": "{why_yo}"

@@ -29,7 +29,7 @@
   },
   "text": {
     "en": {
-      "title": "Missing numbers to 15",
+      "title": "Missing numbers: 11 to 15",
       "teach": "Something is hiding behind the ?. {shown}: which number and 2 make 5? 3, because {full}.",
       "prompt": "What is the missing number?",
       "reason": "{full}, so the missing number is {answer}."

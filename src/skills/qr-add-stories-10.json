@@ -98,7 +98,7 @@
   },
   "text": {
     "en": {
-      "title": "Adding stories to 10",
+      "title": "Adding stories: 7 to 10",
       "teach": "Find the numbers in the story, then work it out. {a} + {b} = {answer}.",
       "prompt": "{name} has {a} {thing}. {name} gets {b} more. How many {thing} does {name} have now?",
       "prompts": {

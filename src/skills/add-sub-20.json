@@ -22,7 +22,7 @@
   },
   "text": {
     "en": {
-      "title": "Adding and taking away within 20",
+      "title": "Adding and taking away: 16 to 20",
       "teach": "To add, jump forward from the first number; to take away, jump back. 13 + 5: from 13, jump 5 → 18.",
       "prompt": "What is {a} {op} {b}?",
       "reason": "",
@@ -32,7 +32,7 @@
       }
     },
     "de": {
-      "title": "Plus und Minus bis 20",
+      "title": "Plus und Minus: 16 bis 20",
       "teach": "Beim Plusrechnen springst du von der ersten Zahl vorwärts, beim Minusrechnen zurück. 13 + 5: von 13 fünf Sprünge vor → 18.",
       "prompt": "Was ist {a} {op} {b}?",
       "reason": "",
@@ -42,7 +42,7 @@
       }
     },
     "fr": {
-      "title": "Additionner et soustraire jusqu’à 20",
+      "title": "Additionner et soustraire : 16 à 20",
       "teach": "Pour additionner, saute en avant depuis le premier nombre ; pour soustraire, saute en arrière. 13 + 5 : depuis 13, 5 sauts en avant → 18.",
       "prompt": "Combien font {a} {op} {b} ?",
       "reason": "",
@@ -52,7 +52,7 @@
       }
     },
     "yo": {
-      "title": "Àròpọ̀ àti àyọkúrò títí dé 20",
+      "title": "Àròpọ̀ àti àyọkúrò: 16 sí 20",
       "teach": "Láti ṣe àròpọ̀, fò síwájú láti nọ́ńbà àkọ́kọ́; láti ṣe àyọkúrò, fò sẹ́yìn. 13 + 5: láti 13, fò ìgbà 5 → 18.",
       "prompt": "Kí ni {a} {op} {b}?",
       "reason": "",

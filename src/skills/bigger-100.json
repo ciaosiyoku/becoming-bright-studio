@@ -18,25 +18,25 @@
   },
   "text": {
     "en": {
-      "title": "Which is bigger? (to 100)",
+      "title": "Which is bigger? (51 to 100)",
       "teach": "The bigger number comes later when we count. {answer} comes after {small}, so {answer} is bigger.",
       "prompt": "Which number is bigger?",
       "reason": "{answer} comes after {small} when we count, so {answer} is bigger."
     },
     "de": {
-      "title": "Welche ist größer? (bis 100)",
+      "title": "Welche ist größer? (51 bis 100)",
       "teach": "Die größere Zahl kommt beim Zählen später. {answer} kommt nach {small}, also ist {answer} größer.",
       "prompt": "Welche Zahl ist größer?",
       "reason": "{answer} kommt beim Zählen nach {small}, also ist {answer} größer."
     },
     "fr": {
-      "title": "Lequel est le plus grand ? (jusqu’à 100)",
+      "title": "Lequel est le plus grand ? (51 à 100)",
       "teach": "Le plus grand nombre vient plus tard quand on compte. {answer} vient après {small}, donc {answer} est plus grand.",
       "prompt": "Quel nombre est le plus grand ?",
       "reason": "{answer} vient après {small} quand on compte, donc {answer} est plus grand."
     },
     "yo": {
-      "title": "Èwo ló tóbi jù? (títí dé 100)",
+      "title": "Èwo ló tóbi jù? (51 sí 100)",
       "teach": "Nọ́ńbà tó tóbi jù máa ń wá lẹ́yìn nígbà tí a bá ń kà. {answer} wá lẹ́yìn {small}, nítorí náà {answer} tóbi jù.",
       "prompt": "Nọ́ńbà wo ló tóbi jù?",
       "reason": "{answer} wá lẹ́yìn {small} nígbà tí a bá ń kà, nítorí náà {answer} tóbi jù."
