@@ -246,6 +246,9 @@ export const fr: Strings = {
     logic: 'Trouve la règle, complète la case',
   },
   listen: {
+    syncNote: 'Le texte ne suit pas la voix ?',
+    wordsAhead: 'Le texte est en avance',
+    wordsBehind: 'Le texte est en retard',
     allStories: 'Toutes les histoires',
     previousStory: 'Histoire précédente',
     nextStory: 'Histoire suivante',

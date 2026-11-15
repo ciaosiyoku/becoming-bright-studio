@@ -23,21 +23,45 @@ export function loadStoryText(book: string): Promise<StoryText | null> {
   return loaded.get(book)!
 }
 
-/** The spoken introduction and closing line of a LibriVox recording, in seconds. */
-const lead = (duration: number) => Math.min(24, duration * 0.06)
-const TAIL = 8
+/** The spoken introduction and closing line of a LibriVox recording, in seconds (about 15 and 6). */
+const lead = (duration: number) => Math.min(16, duration * 0.05)
+const TAIL = 6
+/** A reader pauses between paragraphs: about as long as saying two words. */
+const PAUSE = 2
 
-/** When each paragraph starts, in seconds, for a recording of this length. Pure (tested). */
+/** How long a paragraph takes to read, in words (plus the pause after it). */
+const weight = (p: string) => p.split(/\s+/).filter(Boolean).length + PAUSE
+
+/**
+ * When each paragraph starts, in seconds, for a recording of this length: the reading time shared out by words
+ * (readers keep a steady pace in words, not letters), after the spoken introduction. Pure (tested).
+ */
 export function paragraphStarts(paragraphs: string[], duration: number): number[] {
-  const total = paragraphs.reduce((n, p) => n + p.length, 0) || 1
+  const total = paragraphs.reduce((n, p) => n + weight(p), 0) || 1
   const from = lead(duration)
   const span = Math.max(1, duration - from - TAIL)
   let acc = 0
   return paragraphs.map((p) => {
     const at = from + (acc / total) * span
-    acc += p.length
+    acc += weight(p)
     return at
   })
+}
+
+/** A recording's own correction (seconds), set with "the words are behind / ahead"; kept on this device. */
+export function loadShift(track: string): number {
+  try {
+    return Number(localStorage.getItem(`bbs-story-shift:${track}`)) || 0
+  } catch {
+    return 0
+  }
+}
+export function saveShift(track: string, shift: number) {
+  try {
+    localStorage.setItem(`bbs-story-shift:${track}`, String(Math.round(shift * 10) / 10))
+  } catch {
+    // Not kept (private browsing): it still works until the story is closed.
+  }
 }
 
 /** The paragraph being read at a time. Pure (tested). */

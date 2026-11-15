@@ -19,11 +19,12 @@ describe('story texts', () => {
     }
     expect(n).toBeGreaterThan(150)
   })
-  it('shares the recording out over the paragraphs by their length, after the spoken introduction', () => {
-    const starts = paragraphStarts(['a'.repeat(100), 'b'.repeat(100), 'c'.repeat(200)], 400)
-    expect(starts[0]).toBe(24)
-    expect(starts[1]).toBeCloseTo(24 + 368 / 4)
-    expect(starts[2]).toBeCloseTo(24 + 368 / 2)
+  it('shares the recording out over the paragraphs by their words, after the spoken introduction', () => {
+    const starts = paragraphStarts(['one two', 'three four', 'five six seven eight nine ten'], 400)
+    // 16 s introduction, 6 s at the end; words + a 2-word pause each: 4, 4, 8 of 16.
+    expect(starts[0]).toBe(16)
+    expect(starts[1]).toBeCloseTo(16 + 378 / 4)
+    expect(starts[2]).toBeCloseTo(16 + 378 / 2)
     expect(paragraphAt(starts, 0)).toBe(0)
     expect(paragraphAt(starts, 120)).toBe(1)
     expect(paragraphAt(starts, 399)).toBe(2)

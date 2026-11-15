@@ -8,7 +8,7 @@ import { clock } from '@/shared/clock'
 import { Emoji } from '@/shared/Emoji'
 import { scenesOf, storyScene } from './scenes'
 import type { Track } from './sources'
-import { loadStoryText, paragraphAt, paragraphStarts } from './storyText'
+import { loadShift, loadStoryText, paragraphAt, paragraphStarts, saveShift } from './storyText'
 import { Stage } from './Stage'
 import { STORIES, type StoryCollection } from './storyList'
 import { useAudio } from './useAudio'
@@ -147,15 +147,34 @@ function StoryFilm({ book, emoji, track, p }: { book: string; emoji: string; tra
   const duration = p.duration || track.length
   const scenes = useMemo(() => (paras ? scenesOf(paras, emoji) : null), [paras, emoji])
   const starts = useMemo(() => (paras ? paragraphStarts(paras, duration) : []), [paras, duration])
-  const at = scenes ? paragraphAt(starts, p.time) : 0
+  // The estimate can drift: "words behind" / "words ahead" move the words to the next or previous part, and the
+  // correction is kept for this recording.
+  const [shift, setShift] = useState(() => loadShift(track.id))
+  const at = scenes ? paragraphAt(starts, p.time + shift) : 0
+  const nudge = (to: number) => {
+    const s = starts[Math.max(0, Math.min(starts.length - 1, to))] - p.time + 0.2
+    setShift(s)
+    saveShift(track.id, s)
+  }
   const scene = scenes ? scenes[at] : storyScene(track.title, emoji)
   return (
     <section className="card story-stage">
       <Stage scene={scene} playing={p.state === 'playing'} />
       {scenes && <p className="story-words">{scenes[at].text}</p>}
+      {scenes && p.time > 0 && (
+        <div className="story-sync">
+          <small className="muted">{T.listen.syncNote}</small>
+          <button className="secondary" onClick={() => nudge(at - 1)} disabled={at === 0}>
+            {T.listen.wordsAhead}
+          </button>
+          <button className="secondary" onClick={() => nudge(at + 1)} disabled={at >= starts.length - 1}>
+            {T.listen.wordsBehind}
+          </button>
+        </div>
+      )}
       <div className="story-now">
         {scenes && (
-          <button className="secondary round" onClick={() => p.seek(starts[Math.max(0, at - 1)])} disabled={at === 0} aria-label={T.fables.previous}>
+          <button className="secondary round" onClick={() => p.seek(starts[Math.max(0, at - 1)] - shift)} disabled={at === 0} aria-label={T.fables.previous}>
             <SkipBack />
           </button>
         )}
@@ -163,7 +182,7 @@ function StoryFilm({ book, emoji, track, p }: { book: string; emoji: string; tra
           {p.state === 'playing' ? <Pause /> : <Play />}
         </button>
         {scenes && (
-          <button className="secondary round" onClick={() => p.seek(starts[Math.min(starts.length - 1, at + 1)])} disabled={at >= starts.length - 1} aria-label={T.fables.skip}>
+          <button className="secondary round" onClick={() => p.seek(starts[Math.min(starts.length - 1, at + 1)] - shift)} disabled={at >= starts.length - 1} aria-label={T.fables.skip}>
             <SkipForward />
           </button>
         )}

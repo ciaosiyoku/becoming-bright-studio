@@ -246,6 +246,9 @@ export const de: Strings = {
     logic: 'Finde die Regel, füll die Lücke',
   },
   listen: {
+    syncNote: 'Text passt nicht zur Stimme?',
+    wordsAhead: 'Text ist voraus',
+    wordsBehind: 'Text hängt hinterher',
     allStories: 'Alle Geschichten',
     previousStory: 'Vorige Geschichte',
     nextStory: 'Nächste Geschichte',

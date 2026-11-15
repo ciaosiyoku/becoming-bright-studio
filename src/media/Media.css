@@ -451,3 +451,16 @@
   min-height: 2.8rem;
   padding: 0 1rem;
 }
+
+/* Fixing the words' timing by hand: words ahead / words behind, kept for the recording. */
+.story-sync {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+.story-sync button {
+  min-height: 2.6rem;
+  padding: 0 0.9rem;
+  font-size: 0.9rem;
+}

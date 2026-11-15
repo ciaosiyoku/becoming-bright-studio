@@ -244,6 +244,9 @@ export const en = {
     logic: 'Find the rule, fill the gap',
   },
   listen: {
+    syncNote: 'Words not matching the reader?',
+    wordsAhead: 'Words are ahead',
+    wordsBehind: 'Words are behind',
     allStories: 'All stories',
     previousStory: 'Previous story',
     nextStory: 'Next story',

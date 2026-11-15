@@ -247,6 +247,9 @@ export const yo: Strings = {
     logic: 'Wá òfin náà, kún àyè òfo',
   },
   listen: {
+    syncNote: 'Ọ̀rọ̀ kò bá ohùn mu?',
+    wordsAhead: 'Ọ̀rọ̀ ti ṣáájú',
+    wordsBehind: 'Ọ̀rọ̀ ń lọ lẹ́yìn',
     allStories: 'Gbogbo ìtàn',
     previousStory: 'Ìtàn tó ṣáájú',
     nextStory: 'Ìtàn tó kàn',
