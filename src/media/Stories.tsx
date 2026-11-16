@@ -8,7 +8,7 @@ import { clock } from '@/shared/clock'
 import { Emoji } from '@/shared/Emoji'
 import { scenesOf, storyScene } from './scenes'
 import type { Track } from './sources'
-import { loadShift, loadStoryText, paragraphAt, paragraphStarts, saveShift } from './storyText'
+import { loadShift, loadStoryText, loadStoryTimes, paragraphAt, saveShift, startsOf } from './storyText'
 import { Stage } from './Stage'
 import { STORIES, type StoryCollection } from './storyList'
 import { useAudio } from './useAudio'
@@ -131,24 +131,29 @@ export function Stories() {
 
 /**
  * The story playing, like a fable film: the recording (a human reader) plays, and the scene and words follow the part
- * being read (the time shared out over the paragraphs, so a guess). Back and next jump to the part before or after.
+ * being read (measured from the reader's pauses, or a guess for a recording not timed yet). Back and next jump to the part before or after.
  * Recordings without a text show one scene made from their title.
  */
 function StoryFilm({ book, emoji, track, p }: { book: string; emoji: string; track: Track; p: ReturnType<typeof useAudio> }) {
   const T = useT()
   const [paras, setParas] = useState<string[] | null>(null)
+  const [measured, setMeasured] = useState<number[] | undefined>(undefined)
   useEffect(() => {
     let on = true
-    void loadStoryText(book).then((t) => on && setParas(t?.[track.id] ?? null))
+    void Promise.all([loadStoryText(book), loadStoryTimes(book)]).then(([t, times]) => {
+      if (!on) return
+      setMeasured(times[track.id])
+      setParas(t?.[track.id] ?? null)
+    })
     return () => {
       on = false
     }
   }, [book, track.id])
   const duration = p.duration || track.length
   const scenes = useMemo(() => (paras ? scenesOf(paras, emoji) : null), [paras, emoji])
-  const starts = useMemo(() => (paras ? paragraphStarts(paras, duration) : []), [paras, duration])
-  // The estimate can drift: "words behind" / "words ahead" move the words to the next or previous part, and the
-  // correction is kept for this recording.
+  const starts = useMemo(() => (paras ? startsOf(paras, duration, measured) : []), [paras, duration, measured])
+  // The times can still be a little off: "words behind" / "words ahead" move the words to the next or previous part,
+  // and the correction is kept for this recording.
   const [shift, setShift] = useState(() => loadShift(track.id))
   const at = scenes ? paragraphAt(starts, p.time + shift) : 0
   const nudge = (to: number) => {

@@ -103,8 +103,10 @@ reading pace. Then the child thinks and taps **What is the lesson?** The scenes 
 **Stories play like the fables,** read by their human LibriVox readers: while a recording plays, the scene for the
 part being read is on the stage and its words are shown underneath, with buttons to jump to the part before or after.
 The words are the books' public-domain texts from Project Gutenberg (`public/stories/`, one file per book), matched to
-177 of the 272 recordings; where the time falls in the text is estimated from the paragraphs' lengths, so a scene can
-change a few seconds early or late. Recordings without a matching text (Uncle Wiggily on the Farm, Thirty More Famous
+177 of the 272 recordings. Where each recording's story really starts and ends (after the reader's spoken
+introduction, before the closing line) was found from the reader's pauses (`scripts/story-times.js`, saved in
+`public/stories/times/`); in between, the time is shared out by the paragraphs' words, so a scene can still change a
+few seconds early or late, and the "words are ahead / behind" buttons put a recording right on that device. Recordings without a matching text (Uncle Wiggily on the Farm, Thirty More Famous
 Stories Retold, most of the German tales) show one scene made from their title.
 
 ## Settings (for grown-ups)
@@ -162,7 +164,7 @@ Every push to `main` is checked, built and published to GitHub Pages by `.github
 | `src/skills/bank.ts` | Question banks (science, French, newer English skills); `scripts/bank-example.py` sets each bank's teach example |
 | `src/games/` | Memory, word builder, code breaker, picture puzzle, number slide, and the thinking games (levels in `levels.ts`) |
 | `src/media/` | Radio, stories, fables (`fables/`, one file per age range), the animated scenes (`scenes.ts`, `Stage.tsx`), the story texts' timing (`storyText.ts`), videos |
-| `public/stories/` | The story recordings' texts (Project Gutenberg, public domain), one file per book |
+| `public/stories/` | The story recordings' texts (Project Gutenberg, public domain), one file per book; `times/`, when each paragraph starts |
 | `src/explore/` | Places of the world, 500 Whys, Did you know? |
 | `src/home/`, `src/app/stickers.ts` | The Learn tab: Sunny, today's goal, the garden, subject cards, the skill path; the 100 stickers |
 | `src/skills/ages.ts` | Age ranges; `ages.test.ts` checks 300 questions and 16 skills per subject and range |

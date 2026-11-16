@@ -3,9 +3,10 @@
 // A book's file is fetched the first time one of its stories plays (then kept for offline use by the service worker).
 // Recordings without a text (no matching edition was found) keep the single scene made from their title.
 //
-// Where in the text the reader is: a LibriVox recording starts with a short spoken introduction and ends with a short
-// closing line; in between, the paragraphs are read in order, so the time is shared out by their length. A guess, not
-// a sync: a scene may change a few seconds early or late.
+// Where in the text the reader is: public/stories/times/<book>.json holds, for each recording, the second each
+// paragraph starts, found from the reader's pauses in the recording (scripts/story-times.md says how it was made).
+// Without it (a recording not timed yet), a guess: a LibriVox recording starts with a short spoken introduction and
+// ends with a short closing line, and in between the time is shared out by the paragraphs' length.
 
 export type StoryText = Record<string, string[]>
 
@@ -21,6 +22,25 @@ export function loadStoryText(book: string): Promise<StoryText | null> {
     loaded.set(book, p)
   }
   return loaded.get(book)!
+}
+
+export type StoryTimes = Record<string, number[]>
+const timed = new Map<string, Promise<StoryTimes>>()
+
+/** A book's paragraph times ({} when it has none or they cannot be fetched). */
+export function loadStoryTimes(book: string): Promise<StoryTimes> {
+  if (!timed.has(book)) {
+    const p = fetch(`${import.meta.env.BASE_URL}stories/times/${book}.json`)
+      .then((r) => (r.ok ? (r.json() as Promise<StoryTimes>) : {}))
+      .catch(() => ({}))
+    timed.set(book, p)
+  }
+  return timed.get(book)!
+}
+
+/** The paragraph starts of a recording: its measured times when they fit its text, else the guess. Pure (tested). */
+export function startsOf(paragraphs: string[], duration: number, measured: number[] | undefined): number[] {
+  return measured && measured.length === paragraphs.length ? measured : paragraphStarts(paragraphs, duration)
 }
 
 /** The spoken introduction and closing line of a LibriVox recording, in seconds (about 15 and 6). */
@@ -51,14 +71,14 @@ export function paragraphStarts(paragraphs: string[], duration: number): number[
 /** A recording's own correction (seconds), set with "the words are behind / ahead"; kept on this device. */
 export function loadShift(track: string): number {
   try {
-    return Number(localStorage.getItem(`bbs-story-shift:${track}`)) || 0
+    return Number(localStorage.getItem(`bbs-story-shift2:${track}`)) || 0
   } catch {
     return 0
   }
 }
 export function saveShift(track: string, shift: number) {
   try {
-    localStorage.setItem(`bbs-story-shift:${track}`, String(Math.round(shift * 10) / 10))
+    localStorage.setItem(`bbs-story-shift2:${track}`, String(Math.round(shift * 10) / 10))
   } catch {
     // Not kept (private browsing): it still works until the story is closed.
   }
