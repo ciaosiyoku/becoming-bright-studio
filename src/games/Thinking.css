@@ -135,6 +135,42 @@
 .pad:disabled {
   opacity: 1;
 }
+/* The child's turn: the pads look pressable; while the pattern plays they wait. */
+.pads.ready .pad {
+  cursor: pointer;
+  box-shadow: 0 4px 0 color-mix(in srgb, var(--pad) 45%, transparent);
+}
+.pads.ready .pad:active {
+  transform: scale(0.95);
+}
+.pads.waiting .pad:not(.lit) {
+  filter: saturate(0.6);
+}
+.pads.shake {
+  animation: seq-shake 0.35s;
+}
+@keyframes seq-shake {
+  25% { transform: translateX(-8px); }
+  50% { transform: translateX(8px); }
+  75% { transform: translateX(-4px); }
+}
+.seq-dots {
+  display: flex;
+  gap: 0.4rem;
+  justify-content: center;
+}
+.seq-dots span {
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+  background: var(--sunken);
+}
+.seq-dots span.done {
+  background: var(--accent);
+}
+@media (prefers-reduced-motion: reduce) {
+  .pads.shake { animation: none; }
+}
 
 /* Picture logic */
 .logic-grid {

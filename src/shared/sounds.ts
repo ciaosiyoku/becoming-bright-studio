@@ -46,6 +46,15 @@ let audio: AudioContext | null = null
 
 /** Plays a sound, unless sounds are off or the device can't. Never throws. */
 export function playSound(sound: Sound) {
+  playNotes(notesOf(sound))
+}
+
+/** One note of a game (the pads of "Repeat the pattern" each have their own), same rules as playSound. */
+export function playNote(hz: number, length = 0.35) {
+  playNotes([note(hz, 0, length, 'triangle')])
+}
+
+function playNotes(notes: Note[]) {
   if (!on) return
   try {
     const Ctx = globalThis.AudioContext ?? (globalThis as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext
@@ -53,7 +62,7 @@ export function playSound(sound: Sound) {
     const ctx = (audio ??= new Ctx())
     if (ctx.state === 'suspended') void ctx.resume()
     const start = ctx.currentTime + 0.01
-    for (const n of notesOf(sound)) {
+    for (const n of notes) {
       const osc = ctx.createOscillator()
       const gain = ctx.createGain()
       osc.type = n.wave

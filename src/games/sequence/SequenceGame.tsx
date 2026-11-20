@@ -1,22 +1,26 @@
+import { Play, RotateCcw } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { useT } from '@/i18n'
 import { Emoji } from '@/shared/Emoji'
+import { playNote, playSound } from '@/shared/sounds'
 import { LevelBar } from '../LevelBar'
 import { useLevel } from '../levels'
 import { sequenceLevel } from './sequence'
 
-// Repeat the pattern: the pads light up one after another; the child taps them in the same order. Each round adds
-// one more; reaching the level's length wins. Trains working memory and attention.
+// Repeat the pattern: after Start, the pads light up and play their notes one after another; the child taps them in the
+// same order, each tap with its note (a soft "hmm" for a wrong one, a chime for a round done). "Watch again" shows the
+// round's pattern again. Each round adds one more; reaching the level's length wins. Trains working memory and
+// attention.
 
+// Each pad has its own picture, colour and note (C, D, E, G, A, high C), so the pattern can be heard as well as seen.
 const PADS = [
-  { emoji: 'star', colour: '#f2c230' },
-  { emoji: 'heart', colour: '#e2557e' },
-  { emoji: 'droplet', colour: '#5b6cf0' },
-  { emoji: 'seedling', colour: '#22a06b' },
-  { emoji: 'moon', colour: '#8b5cf6' },
-  { emoji: 'fire', colour: '#e08a1e' },
+  { emoji: 'star', colour: '#f2c230', hz: 523 },
+  { emoji: 'heart', colour: '#e2557e', hz: 587 },
+  { emoji: 'droplet', colour: '#5b6cf0', hz: 659 },
+  { emoji: 'seedling', colour: '#22a06b', hz: 784 },
+  { emoji: 'moon', colour: '#8b5cf6', hz: 880 },
+  { emoji: 'fire', colour: '#e08a1e', hz: 1047 },
 ]
-
 
 export function SequenceGame() {
   const { level, up, down } = useLevel('sequence')
@@ -32,14 +36,17 @@ function Pads({ level, onNext, onEasier }: { level: number; onNext: () => void; 
   const T = useT()
   const { pads, length } = sequenceLevel(level)
   const [order] = useState(() => Array.from({ length }, () => Math.floor(Math.random() * pads)))
+  // Nothing plays until the child taps Start (a tap also lets the device play sound).
+  const [started, setStarted] = useState(false)
   const [shown, setShown] = useState(2) // how many of the order this round asks for
   const [lit, setLit] = useState<number | null>(null)
-  const [watching, setWatching] = useState(true)
+  const [watching, setWatching] = useState(false)
   const [typed, setTyped] = useState(0)
   const [wrong, setWrong] = useState(false)
-  const won = !watching && typed === 0 && shown > length
+  const [shake, setShake] = useState(0)
+  const won = started && !watching && typed === 0 && shown > length
 
-  // Show the first `shown` pads, one by one.
+  // Show the first `shown` pads, one by one, each with its note.
   useEffect(() => {
     if (!watching) return
     let k = 0
@@ -50,6 +57,7 @@ function Pads({ level, onNext, onEasier }: { level: number; onNext: () => void; 
         return
       }
       setLit(order[k])
+      playNote(PADS[order[k]].hz, 0.45)
       timers.push(window.setTimeout(() => setLit(null), 550))
       k++
       timers.push(window.setTimeout(step, 800))
@@ -58,39 +66,77 @@ function Pads({ level, onNext, onEasier }: { level: number; onNext: () => void; 
     return () => timers.forEach(clearTimeout)
   }, [watching, shown, order, length])
 
+  const start = () => {
+    setStarted(true)
+    setWatching(true)
+  }
+  /** Show this round's pattern again (as often as the child likes): their taps start again. */
+  const watchAgain = () => {
+    setTyped(0)
+    setWrong(false)
+    setWatching(true)
+  }
+
   const tap = (p: number) => {
-    if (watching || won) return
+    if (!started || watching || won) return
     setLit(p)
-    window.setTimeout(() => setLit(null), 200)
+    window.setTimeout(() => setLit(null), 250)
     if (p !== order[typed]) {
+      playSound('miss')
+      setShake((n) => n + 1)
       setWrong(true)
       setTyped(0)
       setWatching(true)
       return
     }
+    playNote(PADS[p].hz, 0.3)
     setWrong(false)
     if (typed + 1 < shown) setTyped(typed + 1)
     else {
       setTyped(0)
-      if (shown >= length) setShown(length + 1)
-      else {
+      if (shown >= length) {
+        setShown(length + 1)
+        playSound('done')
+      } else {
+        window.setTimeout(() => playSound('right'), 250)
         setShown(shown + 1)
         setWatching(true)
       }
     }
   }
+  const round = Math.min(shown, length)
   return (
     <div className="thinking">
-      <p className="muted">{won ? '' : watching ? T.games.sequenceWatch : wrong ? T.games.sequenceWrong : T.games.sequenceYourTurn}</p>
-      <div className={`pads p${pads}`}>
+      <p className="muted">{!started ? T.games.sequenceIntro : won ? '' : watching ? T.games.sequenceWatch : wrong ? T.games.sequenceWrong : T.games.sequenceYourTurn}</p>
+      <div key={shake} className={`pads p${pads} ${shake ? 'shake' : ''} ${!started || watching ? 'waiting' : 'ready'}`}>
         {PADS.slice(0, pads).map((pad, p) => (
-          <button key={p} className={`pad ${lit === p ? 'lit' : ''}`} style={{ '--pad': pad.colour } as React.CSSProperties} onClick={() => tap(p)} disabled={watching || won} aria-label={pad.emoji}>
+          <button key={p} className={`pad ${lit === p ? 'lit' : ''}`} style={{ '--pad': pad.colour } as React.CSSProperties} onClick={() => tap(p)} disabled={!started || watching || won} aria-label={pad.emoji}>
             <Emoji name={pad.emoji} size={56} />
           </button>
         ))}
       </div>
+      {/* Taps so far this round: one dot per pad of the pattern. */}
+      {started && !won && (
+        <div className="seq-dots" aria-hidden="true">
+          {Array.from({ length: round }, (_, i) => (
+            <span key={i} className={i < typed ? 'done' : ''} />
+          ))}
+        </div>
+      )}
+      <div className="row center">
+        {!started && (
+          <button className="big" onClick={start}>
+            <Play /> {T.games.sequenceStart}
+          </button>
+        )}
+        {started && !won && (
+          <button className="secondary" onClick={watchAgain} disabled={watching}>
+            <RotateCcw /> {T.games.sequenceReplay}
+          </button>
+        )}
+      </div>
       <LevelBar level={level} won={won} onNext={onNext} onEasier={onEasier}>
-        <span className="pill">{T.games.sequenceProgress(Math.min(shown, length), length)}</span>
+        <span className="pill">{T.games.sequenceProgress(round, length)}</span>
       </LevelBar>
     </div>
   )
