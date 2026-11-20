@@ -1,8 +1,9 @@
 import { Play, RotateCcw } from 'lucide-react'
 import { useEffect, useState } from 'react'
-import { useT } from '@/i18n'
+import { useLang, useT } from '@/i18n'
 import { Emoji } from '@/shared/Emoji'
 import { playNote, playSound } from '@/shared/sounds'
+import { speak, stopSpeaking } from '@/shared/speak'
 import { LevelBar } from '../LevelBar'
 import { useLevel } from '../levels'
 import { sequenceLevel } from './sequence'
@@ -29,11 +30,12 @@ export function SequenceGame() {
     change()
     setRound((n) => n + 1)
   }
-  return <Pads key={`${level}-${round}`} level={level} onNext={() => next(up)} onEasier={() => next(down)} />
+  return <Pads key={`${level}-${round}`} level={level} first={round === 0} onNext={() => next(up)} onEasier={() => next(down)} />
 }
 
-function Pads({ level, onNext, onEasier }: { level: number; onNext: () => void; onEasier: () => void }) {
+function Pads({ level, first, onNext, onEasier }: { level: number; first: boolean; onNext: () => void; onEasier: () => void }) {
   const T = useT()
+  const lang = useLang()
   const { pads, length } = sequenceLevel(level)
   const [order] = useState(() => Array.from({ length }, () => Math.floor(Math.random() * pads)))
   // Nothing plays until the child taps Start (a tap also lets the device play sound).
@@ -66,7 +68,15 @@ function Pads({ level, onNext, onEasier }: { level: number; onNext: () => void; 
     return () => timers.forEach(clearTimeout)
   }, [watching, shown, order, length])
 
+  // The voice reads what to do when the game opens (not again at each new level), and stops at Start so the notes
+  // are heard on their own.
+  useEffect(() => {
+    if (first) speak(T.games.sequenceIntro, lang)
+    return () => stopSpeaking()
+  }, [first, T, lang])
+
   const start = () => {
+    stopSpeaking()
     setStarted(true)
     setWatching(true)
   }
